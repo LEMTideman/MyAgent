@@ -1,0 +1,2145 @@
+Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+13 FBPML Technical Best Practices v1.0.0. 
+
+Control:  Aim: 
+
+2.1.  Product Team 
+
+Composition 
+
+Document and define a clear diversity 
+
+of Product Team roles and expertises 
+
+needed for the Product, inclusive of, 
+
+amongst other things, engineers, data 
+
+scientists, Product Managers, and user 
+
+experience experts. Once established, 
+
+recruit accordingly. 
+
+To (a) assemble a robust team 
+
+for Product and/or Model design, 
+
+development and deployment; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+2.2.  Product Team 
+
+Roles 
+
+Document and allocate clear Product 
+
+Team roles and expectations for Product 
+
+Team members, including expectations 
+
+for, and the structure of, intra-Product 
+
+Team collaboration and overlapping 
+
+responsibilities. 
+
+To (a) ensure that Product Team 
+
+roles are clearly defined; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+2.3.  Product Team 
+
+Strengths and 
+
+Skills Analysis 
+
+Document and assess the range of 
+
+Product Team member skills and 
+
+interests. Attempt to match member skills 
+
+and interests to appropriate Product Team 
+
+Roles as much as is practically possible. 
+
+To (a) ensure Product Team skill 
+
+alignment and continued interest; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+2.4.  Product 
+
+Management 
+
+Document and allocate a clear Product 
+
+Management role and duties to Product 
+
+Managers, inclusive of ensuring that 
+
+Product Managers have suitable Product 
+
+oversight, a clear understanding of 
+
+Product Team dynamics, and a contextual 
+
+understanding of the Product and its 
+
+operationalisation. 
+
+Please see Section 3 of the Organisation 
+
+Best Practices Guideline for further 
+
+context. 
+
+To (a) ensure that Product Manager 
+
+roles are clearly defined; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+Objective: 
+
+To (a) ensure a balanced Product Team composition that fosters close collaboration and enhances a diversity of 
+
+skills; and (b) to promote Product Team coordination and understanding through thorough team organization. 
+
+# Section 2. Team Composition 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+14 FBPML Technical Best Practices v1.0.0. 
+
+Control:  Aim: 
+
+3.1.  Industry Context  Incorporate regulations, standards, and norms 
+
+that reflect industry values, boundaries, and 
+
+constraints during each phase of Product design and 
+
+deployment. Document and define clear qualitative 
+
+metrics and counter-metrics in Product & Outcome 
+
+Definitions, Data & Model Metrics and Acceptance 
+
+Criteria Metrics, as relevant, as discussed in Section 
+
+4 - Problem Mapping; Section 5 - Model Decision-
+
+Making. 
+
+To (a) assemble a 
+
+robust team for Product 
+
+and/or Model design, 
+
+development and 
+
+deployment; and (b) 
+
+highlight associated risks 
+
+that might occur in the 
+
+Product Lifecycle. 
+
+3.2.  Deployment 
+
+Context 
+
+Incorporate an understanding of the technical and 
+
+infrastructure aspects of the deployed Product 
+
+into the Product design process. Ensure that 
+
+infrastructure, integration, and scaling requirements 
+
+and limitations are considered during the Problem 
+
+Mapping and Planning phases and document and 
+
+define clear requirements for the Organisation 
+
+Capacity Analysis, Product Scaling Analysis, Product 
+
+Integration Strategy, Product Risk Analysis, Testing 
+
+- Automation Analysis, and POC-to-Production 
+
+Analysis, as discussed in Section 4 - Problem 
+
+Mapping; Section 6 - Management & Monitoring; 
+
+Section 8 - Testing. 
+
+3.3.  Societal Context  Research and consider the on and off platform 
+
+effects of Product deployment on end users, their 
+
+communities, and societies during each phase 
+
+of Product design and deployment. Ensure that 
+
+behavioral shifts, power balance, and cultural 
+
+concerns are considered during the Problem Mapping 
+
+and Planning phases, and that these provide input 
+
+for the Problem Statement & Solution Mapping, 
+
+Outcome Definition, Product & Outcome Definitions 
+
+Data & Model Metrics, Product Risk Analysis, User 
+
+Experience Mapping, Model Type - Best Fit Analysis, 
+
+Acceptance Criteria, Privacy, Testing Participants, 
+
+and Accuracy Perception, as discussed in Section 
+
+4 - Problem Mapping; Section 7 - Privacy; Section 8 -
+
+Testing; Section 9 - Managing Expectations. 
+
+Objective: 
+
+To ensure the Product Team’s continual access to a deep understanding of the various external contexts that 
+
+affect the successful design and deployment of the Product. 
+
+# Section 3. Context 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+15 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To determine and define an appropriate, feasible and solvable business problem through consideration of several 
+
+interacting analyses. 
+
+Control:  Aim: 
+
+4.1.  Problem Statement 
+
+& Solution Mapping 
+
+Document and define clear problem 
+
+statements in terms of (i) User 
+
+needs, (ii) Organisation problem, 
+
+and/or (iii) Organization opportunity. 
+
+Subsequently, document and define 
+
+clear solutions to the problem 
+
+statements, inclusive of the 
+
+contextual needs and/or variants of 
+
+the problem statements and/or their 
+
+solutions. 
+
+To ensure Products have clear scopes 
+
+to warrant (a) their effective oversight, 
+
+management and execution, as well as 
+
+(b) allow for the accurate evaluation of 
+
+Product risks and controls. 
+
+4.2.  Data Capacity 
+
+Analysis 
+
+Map and document the state of the 
+
+data delivery pipeline and available 
+
+databases required to support the 
+
+problem statements and solutions. 
+
+To (a) ensure that the data pipeline is 
+
+sufficient to support Product(s) and 
+
+enable the desired Outcomes; and (b) 
+
+highlight associated risks that might 
+
+occur in the Product Lifecycle. 
+
+4.3.  Product Definitions  Document and define clear Product 
+
+definitions, aims, requirements and 
+
+internal deliverables having regard 
+
+for the above Problem Statement & 
+
+Solution Mapping analysis, inclusive of 
+
+subsequent iterations thereof. 
+
+To ensure Product(s) have clear scope 
+
+to warrant (a) their effective oversight, 
+
+management and execution, as well as 
+
+(b) allow for the accurate evaluation of 
+
+Product risks and controls. 
+
+4.4.  Outcomes 
+
+Definitions 
+
+Document, delineate, and define clear 
+
+Product Outcomes and Outcomes 
+
+deliveries based on the above 
+
+Product Definitions and the Problem 
+
+Statement & Solution Mapping 
+
+analysis, inclusive of subsequent 
+
+iterations thereof. 
+
+To ensure Product(s) have clear scopes 
+
+to warrant (a) their effective oversight, 
+
+management and execution, as well as 
+
+(b) allow for the accurate evaluation of 
+
+Product risks and controls. 
+
+4.5.  Product & Outcome 
+
+Definitions Data & 
+
+Model Metrics 
+
+Document and define the above 
+
+Product and Outcome Definitions in 
+
+terms of clear Model and data metrics. 
+
+To ensure Product(s) have clear scopes 
+
+to warrant (a) their effective oversight, 
+
+management and execution, as well as 
+
+(b) to allow for the accurate evaluation 
+
+of Product risks and controls. 
+
+# Section 4. Problem Mapping 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+16 FBPML Technical Best Practices v1.0.0. 
+
+4. Problem Mapping - FBPML Technical Best Practices v1.0.0. 
+
+4.6.  Organisation 
+
+Capacity Analysis 
+
+Document and assess whether 
+
+the organisation has the requisite 
+
+capacity to achieve the above 
+
+Product Outcome and Product Metric 
+
+Definitions given the Product Team 
+
+Composition and Product Team 
+
+Strengths and Skills and Data Capacity 
+
+Analyses. If constraints detected, 
+
+reiterate formulations of Product 
+
+and/or Outcome Definitions to 
+
+accommodate organisation capacity. 
+
+To (a) ensure that the Organization 
+
+has sufficient capacity to support 
+
+Product(s) and enable desired 
+
+Outcomes; and (b) highlight associated 
+
+risks that might occur in the Product 
+
+Lifecycle. 
+
+4.7.  Product Scaling 
+
+Analysis 
+
+Document and assess the estimated 
+
+degree to which the Product can 
+
+be feasibly scaled within Product 
+
+Domains and the Organisation, having 
+
+consideration for the Organisation 
+
+Capacity Analysis. 
+
+To (a) ensure that the Organization 
+
+has sufficient capacity to support 
+
+the Product(s) and enable the desired 
+
+Outcomes as the Product scales; and 
+
+(b) highlight associated risks that 
+
+might occur in the Product Lifecycle. 
+
+4.8.  Product Integration 
+
+Strategy 
+
+Document and assess the processes 
+
+needed to integrate and scale 
+
+the Product into organisational 
+
+structures based on the Organisation 
+
+Capacity and Product Scaling 
+
+Analyses. If constraints detected and/ 
+
+or integration appears unfeasible, 
+
+reiterate formulations of Product 
+
+and/or Outcome Definitions and/ 
+
+or review the Organisation Capacity 
+
+and/or Product Scaling Analyses to 
+
+accommodate a practical Product 
+
+Integration Strategy. 
+
+To (a) ensure the Product and Outcome 
+
+Definitions can be achieved within the 
+
+bounds of the Organisation Capacity 
+
+and Product Scaling Analyses; and (b) 
+
+highlight associated risks that might 
+
+occur in the Product Lifecycle. 
+
+4.9.  Product Risk 
+
+Analysis 
+
+Document and assess the estimated 
+
+risks associated with Product design, 
+
+development, implementation, and 
+
+operation, inclusive of considerations 
+
+from the Product Scaling Analysis, and 
+
+the Product Integration Strategy. 
+
+To (a) ensure Products have clear risk 
+
+portfolios to warrant (i) their effective 
+
+oversight, management and execution, 
+
+as well as (ii) to allow for the accurate 
+
+evaluation of Product risks and 
+
+controls; and (b) highlight associated 
+
+risks that might occur in the Product 
+
+Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+17 FBPML Technical Best Practices v1.0.0. 
+
+4. Problem Mapping - FBPML Technical Best Practices v1.0.0. 
+
+4.10.  Product Cost 
+
+Analysis 
+
+Collaborate with Finance and 
+
+purchasing to document and assess 
+
+the estimated costs associated 
+
+with Product design, development, 
+
+implementation, and operation, 
+
+inclusive of considerations from the 
+
+Product Scaling Analysis, the Product 
+
+Integration Strategy, and the Product 
+
+Risk Analysis. 
+
+To (a) ensure a realistic project 
+
+budget is provided; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+4.11.  User Experience 
+
+Mapping 
+
+Document and assess the user 
+
+experience and the desired 
+
+experience for various user groups, 
+
+when interacting with the Product (e.g. 
+
+using Norman’s Usability Heuristics). 
+
+Consider mitigation strategies for 
+
+possible negative impacts on and off 
+
+platform. If gaps in user experience 
+
+are detected or a need for process 
+
+redesign or behavioral changes are 
+
+uncovered reiterate formulations of 
+
+Outcome Definition, as discussed 
+
+in Section 4 - Problem Mapping, 
+
+Organisation Capacity Analysis, 
+
+and Product Integration Strategy 
+
+to accommodate an effective user 
+
+experience. 
+
+To (a) ensure an effective user 
+
+experience; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+18 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To determine the most desirable and feasible model to achieve the desired Product Outcomes through 
+
+consideration of several interacting analyses. 
+
+Control:  Aim: 
+
+5.1.  Model Type - Metric 
+
+Fit Analysis 
+
+Document and assess the Model 
+
+requirements needed to meet 
+
+the Product Definitions, Outcome 
+
+Definitions, and Product & Outcome 
+
+Definitions Data & Model Metrics, 
+
+as discussed in Section 4 - Problem 
+
+Mapping. 
+
+To ensure that chosen Model(s) meet 
+
+the requirements of the Product 
+
+Definitions, Outcome Definitions, and 
+
+Product & Outcome Definitions Data & 
+
+Model Metrics. 
+
+5.2.  Model Type - Risk 
+
+Analysis 
+
+Document and assess Model 
+
+requirements needed to meet the 
+
+Explainability Requirements and 
+
+Product Risk Analysis, as discussed in 
+
+Section 16 - Explainability; Section 4 -
+
+Problem Mapping. 
+
+To ensure that chosen Model(s) meet 
+
+the requirements of the Explainability 
+
+Requirements and Product Risk 
+
+Analysis. 
+
+5.3.  Model Type -
+
+Organisation 
+
+Analysis 
+
+Document and assess the 
+
+compatibility of potential Models with 
+
+the Organisation Capacity Analysis, 
+
+Product Scaling Analysis, and Product 
+
+Integration Strategy, as discussed in 
+
+Section 4 - Problem Mapping, given 
+
+technical considerations. 
+
+To ensure that chosen Model(s) meet 
+
+the requirements of the Organisation 
+
+Capacity Analysis, Product Scaling 
+
+Analysis, and Product Integration 
+
+Strategy. 
+
+5.4.  Model Type - Best 
+
+Fit Analysis 
+
+Document and assess the most 
+
+appropriate Models that best meet the 
+
+requirements of, and which produces 
+
+the most favorable outcome given the 
+
+trade-offs between, the Model Type 
+
+- Metric Fit, Risk and Organization 
+
+Analyses. 
+
+To (a) ensure that the most appropriate 
+
+Model(s) are chosen; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+5.5.  Acceptance 
+
+Criteria - Metrics 
+
+Document and define the desired 
+
+performance for an acceptable Model 
+
+in terms of clear Model and data 
+
+metrics that are written from the end 
+
+user's perspective. 
+
+To (a) determine the metrics and 
+
+desired performance for an acceptable 
+
+Model; and (b) highlight associated 
+
+risks that might occur in the Product 
+
+Lifecycle. 
+
+# Section 5. Model Decision-Making 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+19 FBPML Technical Best Practices v1.0.0. 
+
+5. Model Decision-Making - FBPML Technical Best Practices v1.0.0. 
+
+5.6.  Acceptance 
+
+Criteria -
+
+Accuracy, Bias, and 
+
+Fairness 
+
+Document and define clear, narrow 
+
+accuracy goals and metrics that 
+
+manage the tradeoff of accuracy 
+
+and explainability. Document and 
+
+define the Model requirements 
+
+needed to meet the Fairness & Non-
+
+Discrimination goals, as discussed 
+
+more thoroughly and technically 
+
+in Section 11 - Fairness & Non-
+
+Discrimination. 
+
+To (a) ensure appropriate accuracy, 
+
+bias and fairness metrics for Model(s); 
+
+and (b) highlight associated risks that 
+
+might occur in the Product Lifecycle. 
+
+5.7.  Acceptance 
+
+Criteria -
+
+Error Rate Analysis 
+
+Consider the Societal and Industry 
+
+Contexts in determining the 
+
+acceptable method for error 
+
+measurement, as discussed in Section 
+
+4 - Problem Mapping. Document and 
+
+define the acceptable error types and 
+
+rates for the Product as required by 
+
+Representativeness & Specification, 
+
+as discussed more thoroughly 
+
+and technically in Section 13 -
+
+Representativeness & Specification. 
+
+Analyze any potential tension between 
+
+achievable and acceptable error rates 
+
+and determine whether that tension 
+
+can be resolved. 
+
+To (a) ensure appropriate error type 
+
+and rate metrics for Model(s); and (b) 
+
+highlight associated risks that might 
+
+occur in the Product Lifecycle. 
+
+5.8.  Acceptance 
+
+Criteria -
+
+Key Business 
+
+Metrics / Targeted 
+
+Metrics 
+
+Document and define the key business 
+
+metrics (KPIs) as determined in 
+
+Problem Statement & Solution 
+
+Mapping, as discussed in Section 
+
+4 - Problem Mapping, and translate 
+
+them into metrics that can be tracked 
+
+within the framework of chosen 
+
+Model(s), or into proxy metrics if direct 
+
+tracking is not feasible. 
+
+To (a) ensure appropriate business 
+
+metrics for Model(s); and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+5.9.  Technical 
+
+Considerations 
+
+Document and assess technical issues 
+
+that should be considered during the 
+
+Model selection process. 
+
+To (a) ensure that technical issues are 
+
+considered when selecting Models; 
+
+and (b) highlight associated risks that 
+
+might occur in the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+20 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To ensure an effective and auditable Product Lifecycle. 
+
+Control:  Aim: 
+
+6.1.  Product 
+
+Requirements 
+
+Draft and document clear Product requirements. 
+
+Review Model Type - Metrics and Acceptance 
+
+Criteria, as discussed in Section 4 - Problem 
+
+Mapping, to ensure alignment. Regularly review 
+
+Product & Outcome Definitions Data & Model 
+
+Metrics and User Experience Mapping, as 
+
+discussed in Section 4 - Problem Mapping, and 
+
+update as necessary 
+
+To (a) ensure current, clear, 
+
+and actionable Product 
+
+requirements; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+6.2.  Product 
+
+Roadmap and 
+
+Pipeline 
+
+Develop and document a Product roadmap 
+
+and pipeline that enable the experience 
+
+envisioned in the User Experience Mapping, as 
+
+discussed in Section 4 - Problem Mapping, and 
+
+include the following sections: Schedule and 
+
+milestones, tasks and deliverables, limitations 
+
+and exclusions (scope), initial prioritization, and 
+
+methods for determining future priority. 
+
+To (a) ensure a clear, 
+
+actionable, and prioritized 
+
+Product roadmap and pipeline; 
+
+and (b) highlight associated 
+
+risks that might occur in the 
+
+Product Lifecycle. 
+
+6.3.  Experimentation 
+
+Constraints 
+
+Develop and document a method for evaluating 
+
+the quality of predictions. Develop and 
+
+document criteria for determining when to stop 
+
+the experimentation process. 
+
+To (a) develop processes to 
+
+ensure a balance between 
+
+effectiveness and efficiency in 
+
+the experimentation cycle; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+6.4.  Behavioral 
+
+Change Analysis 
+
+- Process 
+
+Changes 
+
+Research and assess the business processes 
+
+that will be affected by the new Product and/ 
+
+or the infrastructure changes that enable the 
+
+Product. Review the User Experience Mapping, 
+
+Data Capacity Analysis, and Organisation 
+
+Capacity Analysis, as discussed in Section 4 -
+
+Problem Mapping, and reformulate as necessary. 
+
+Develop and document a plan to retrain affected 
+
+parties as necessary and mitigate business 
+
+disruptions as much as feasible. 
+
+To (a) determine business 
+
+processes that may be affected 
+
+by the project and create a plan 
+
+to retrain or mitigate impacts 
+
+as necessary; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+# Section 6. Management & 
+
+# Monitoring 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+21 FBPML Technical Best Practices v1.0.0. 
+
+6. Management & Monitoring - FBPML Technical Best Practices v1.0.0. 
+
+6.5.  Behavioral 
+
+Change Analysis 
+
+- Social (Off-
+
+Platform) 
+
+Research and document ways in which the 
+
+Product can be abused or negatively impact 
+
+customers, end users, or the broader society. 
+
+Develop and document a plan to mitigate 
+
+negative impacts as much as feasible. Develop 
+
+and document counter metrics to assess 
+
+whether users or the model are ‘gaming’ the 
+
+system. 
+
+To (a) determine (i) negative 
+
+product uses, (ii) negative 
+
+product impacts (iii) negative 
+
+user or model behaviors 
+
+and create a plan to counter 
+
+behaviors or mitigate impacts 
+
+as necessary; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+6.6.  Resource 
+
+Assessment 
+
+Document the processes, tools, and staffing 
+
+that are required for every phase of the 
+
+project, including the Data Capacity Analysis, 
+
+Organisation Capacity Analysis, Product 
+
+Scaling Analysis, and Product Cost Analysis, 
+
+as discussed in Section 4 - Problem Mapping, 
+
+before starting each phase of the project and 
+
+update as necessary. 
+
+To (a) ensure adequate 
+
+resources and funding during 
+
+every phase of the Product 
+
+Lifecycle; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+6.7.  POC-to-
+
+Production 
+
+Checklist 
+
+Document and define a POC-to-Production 
+
+Checklist that details the existing system 
+
+modifications, and new system builds, required 
+
+for integrating the Product into Organisation 
+
+infrastructure and incorporating additional data 
+
+sources. If gaps in organisational capacity are 
+
+detected, reiterate formulations of Organisation 
+
+Capacity Analysis, as discussed in Section 4 -
+
+Problem Mapping, as necessary. 
+
+To (a) ensure sufficient planning 
+
+for Product development and 
+
+production; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+6.8.  Update Schedule  Document and define a POC-to-Production 
+
+Checklist that details the existing system 
+
+modifications, and new system builds, required 
+
+for integrating the Product into Organisation 
+
+infrastructure and incorporating additional data 
+
+sources. If gaps in organisational capacity are 
+
+detected, reiterate formulations of Organisation 
+
+Capacity Analysis, as discussed in Section 4 -
+
+Problem Mapping, as necessary. 
+
+To (a) ensure the Product 
+
+and its related software are 
+
+updated and upgraded regularly 
+
+and that the schedule for 
+
+said updates are coordinated 
+
+with information technology 
+
+department(s); and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+22 FBPML Technical Best Practices v1.0.0. 
+
+6. Management & Monitoring - FBPML Technical Best Practices v1.0.0. 
+
+6.9.  Project Records  Develop and document a process for preserving 
+
+data of the information considered when making 
+
+significant product decisions. Include any 
+
+methods for standardized experiment tracking 
+
+and artifact capturing that are developed 
+
+by Data Science and Engineering. Develop 
+
+a continuously maintained and consistently 
+
+available repository for Product Requirements 
+
+and any data related to their updates. 
+
+To (a) maintain a historical 
+
+record of Product and data 
+
+and ensure that all iterations 
+
+of Product Requirements 
+
+are continuously available to 
+
+Stakeholders; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+6.10.  Project Records 
+
+- Stakeholder 
+
+Sign-offs 
+
+Develop a standard Stakeholder Sign-off 
+
+Document to be utilized (i) after the finalization 
+
+of the following documents and analyses: 
+
+Problem Statement & Solution Mapping, 
+
+Outcomes Definition, Product & Outcome 
+
+Definitions, Product Integration Strategy, Model 
+
+Type - Best Fit Analysis, Acceptance Criteria -
+
+Key Business Metrics/Targeted Metrics, Testing 
+
+Design and Scheduling Framework, Resource 
+
+Assessment, as discussed in Section 4 - Problem 
+
+Mapping, Section 5 - Model Decision-Making; 
+
+and (ii) at Project Checkpoints, as discussed in 
+
+Section 10 - Project Checkpoints. 
+
+To (a) ensure stakeholder 
+
+buy-in; and (b) provide an 
+
+auditable record of project and 
+
+stakeholder expectations at 
+
+every major project decision-
+
+point. 
+
+6.11.  Custody  Develop a system for documenting the chain 
+
+of custody for Product(s) and the data, 
+
+microservices, and applications that it is built on 
+
+and with, that indicates: i) provenance ii) control 
+
+iii) transfer, iv) analysis, and v) transformation. 
+
+To (a) ensure that the building 
+
+blocks of the Product can be 
+
+traced back to their origins; (b) 
+
+allow for undesirable changes 
+
+to be reverted; and (c) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+23 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To determine the most appropriate and feasible privacy-preserving techniques for the Product. 
+
+Control:  Aim: 
+
+7.1.  Decentralization 
+
+Method Analysis 
+
+Consider the appropriateness of utilizing 
+
+methods for distributing data or training across 
+
+decentralized devices, services, or storage. 
+
+When analyzing federated learning methods, 
+
+consider Data Capacity Analysis, Product 
+
+Integration Strategy, Product Traceability, and 
+
+Fairness & Non-Discrimination, as discussed 
+
+more thoroughly in Section 4 - Problem Mapping; 
+
+Section 21 - Product Traceability; and Section 11 
+
+- Fairness & Non-Discrimination. When analyzing 
+
+differential privacy methods, consider Data 
+
+Quality - Noise, as discussed more thoroughly in 
+
+Section 12 - Data Quality. 
+
+To (a) ensure appropriate 
+
+privacy-preserving techniques 
+
+that are aligned with chosen 
+
+Models; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+7.2.  Cryptographic 
+
+Methods Analysis 
+
+Consider the appropriateness of utilizing 
+
+methods for encrypting all or various parts of 
+
+the data and/or Model pipeline. When analyzing 
+
+homomorphic encryption methods, consider 
+
+Product Integration Strategy and Product 
+
+Scaling Analysis, as discussed more thoroughly 
+
+in Section 4 - Problem Mapping. Additionally, 
+
+consider -
+
+(a) whether the types of operations and 
+
+calculations that can be performed meet the 
+
+requirements of Model Type - Best Fit Analysis, 
+
+as discussed more thoroughly in Section 5 -
+
+Model Decision-Making; and/or 
+
+(b) whether the encrypted Model processing 
+
+speed is acceptable with consideration for real 
+
+world robustness and direct user interaction, 
+
+as discussed more thoroughly in Section 14 -
+
+Performance Robustness. 
+
+To (a) ensure appropriate 
+
+privacy-preserving techniques 
+
+that are aligned with chosen 
+
+Models; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+# Section 7. Privacy 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+24 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To ensure (a) that robust, effective, and efficient strategies, methodologies and schedules are developed for 
+
+testing the Product; and (b) clear maintenance metrics and/or phases to warrant continued Product alignment 
+
+with chosen metrics and performance goals. 
+
+Control:  Aim: 
+
+8.1.  Testing Design 
+
+and Scheduling 
+
+Framework 
+
+Document and define a testing design and 
+
+schedule that does not artificially constrain 
+
+the testing process. Incorporate the Feedback 
+
+Loop Analysis in the testing design. Review the 
+
+Automation Analysis in determining what level 
+
+of automation is appropriate for each stage of 
+
+testing. Ensure the individuals chosen through 
+
+the Testing Participant Identification process 
+
+are involved at the earliest stages of the testing 
+
+schedule as practical. Post Product deployment, 
+
+document and define a framework and process 
+
+for testing and selecting variations of the 
+
+production Model. 
+
+To (a) ensure a robust and 
+
+feasible testing design and 
+
+scheduling framework that 
+
+allows for effective Product 
+
+optimization; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+8.2.  Testing 
+
+Participant 
+
+Identification 
+
+Document and define a process for identifying 
+
+test participants as required by User Experience 
+
+Mapping and Societal Context, as discussed in 
+
+Section 4 - Problem Mapping; and Section 3 -
+
+Context. Determine a framework for ensuring 
+
+that testing participants are intentionally 
+
+diverse across use cases, user types and roles, 
+
+and internal and external Stakeholders. 
+
+To (a) ensure testing for user 
+
+impact and participant pool 
+
+diversity; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+# Section 8. Testing 
+
+FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+25 FBPML Technical Best Practices v1.0.0. 
+
+8. Testing - FBPML Technical Best Practices v1.0.0. 
+
+8.3.  Automation 
+
+Analysis 
+
+Determine and define data, Model, and 
+
+component integration validations that can be 
+
+reasonably automated. Assess and define any 
+
+processes during the development, deployment, 
+
+or maintenance phases that could benefit 
+
+from integrating automation into the testing 
+
+infrastructure. Be sure to review -
+
+(a) the Organisation Capacity Analysis, as 
+
+discussed in Section 4 - Problem Mapping, while 
+
+determining the feasibility of automating the 
+
+identified processes; and/or 
+
+(b) the Industry, Deployment, and Societal 
+
+Contexts, as discussed in Section 3 - Context, to 
+
+uncover any gaps or misalignment raised by the 
+
+automation of any identified process. 
+
+To (a) identify suitable and 
+
+effective areas for incorporating 
+
+testing automation within 
+
+the Product development, 
+
+deployment, and maintenance 
+
+phases; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+8.4.  Feedback Loop  Document and define a feedback loop that 
+
+enables monitoring of stability, performance, 
+
+and operations metrics, and counter-metrics, 
+
+as required by Performance Robustness, 
+
+Monitoring and Maintenance, and Systemic 
+
+Stability, as discussed more thoroughly in 
+
+Section 14 - Performance Robustness; Section 
+
+15 - Monitoring & Maintenance; and Section 20 
+
+- Systemic Stability. Develop and incorporate a 
+
+method for flagging bias and for issue reporting. 
+
+Document and define a process for real-time 
+
+sharing of testing participant feedback with 
+
+the development and maintenance teams. 
+
+Incorporate the Feedback Loop in the Testing 
+
+Design and Scheduling Framework to ensure 
+
+that the features the Model is utilizing are 
+
+acceptable for the application during the 
+
+development, deployment, and maintenance 
+
+phases. 
+
+To (a) ensure robust and 
+
+responsive feedback loop 
+
+measures that enable monitoring 
+
+of necessary metrics and 
+
+effectively integrate into the 
+
+Testing Design and Scheduling 
+
+Framework; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+26 FBPML Technical Best Practices v1.0.0. 
+
+FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To effectively set and communicate realistic Product expectations to Stakeholders and obtain their buy-in. 
+
+Control:  Aim: 
+
+9.1.  Performance  Product management should attempt to set 
+
+realistic Product performance expectations 
+
+for Stakeholders through periodic stakeholder 
+
+discussions on the following issues: (i) limited 
+
+industry understanding of what tasks are 
+
+difficult for the Product; (ii) difficulty of 
+
+determining what type of modifications -
+
+network design, input features, or training data 
+
+- will create the greatest Product improvement; 
+
+and (iii) Model improvement can stall 
+
+significantly while experimenting with different 
+
+variable modifications. 
+
+To (a) effectively communicate 
+
+realistic Product performance 
+
+expectations throughout the 
+
+development process; and (b) 
+
+highlight associated risks that 
+
+might occur in the Product 
+
+Lifecycle. 
+
+9.2.  Timeframe  Product management should set expectations 
+
+for long-term investment in the Product for 
+
+Stakeholders, specifically focusing on: (i) the 
+
+unpredictability of Product improvement; (ii) 
+
+Product difficulties are traditionally hard to 
+
+diagnose as they are often caused by subtle 
+
+issues of intersecting inputs; and (iii) it is 
+
+possible for the Product to completely stall with 
+
+absolutely no discernible improvement in spite 
+
+of significant time and effort. 
+
+To (a) effectively set Stakeholder 
+
+expectations regarding the 
+
+difficulty of locking down 
+
+Product timelines; and (b) 
+
+highlight associated risks that 
+
+might occur in the Product 
+
+Lifecycle. 
+
+9.3.  Accuracy 
+
+perception 
+
+The Product Team should work to ensure that 
+
+the solution will be accurate enough to meet a 
+
+variety of different Stakeholders’ expectations, 
+
+recognizing that each group of Stakeholders will 
+
+have different views on what is ‘accurate’ based 
+
+on their interaction with the Product. Product 
+
+management should set and communicate 
+
+expectations in-line with the achievable level of 
+
+accuracy for each user group. 
+
+To (a) effectively communicate 
+
+achievable accuracy levels, 
+
+considering individual 
+
+Stakeholder accuracy 
+
+preferences; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+# Section 9. Managing Expectations Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+27 FBPML Technical Best Practices v1.0.0. 
+
+9. Managing Expectations - FBPML Technical Best Practices v1.0.0. 
+
+9.4.  POC-to-
+
+Production 
+
+The Product Team should effectively 
+
+communicate that infrastructure is often the 
+
+determining factor for the success of the POC-
+
+to-Production transition and rely heavily on 
+
+the POC-to-Production Checklist, as discussed 
+
+in Section 6 - Management & Monitoring, to 
+
+set and align Stakeholder expectations of the 
+
+transition process. The Product Team should set 
+
+the expectation, before beginning the transition 
+
+process, that novel problems will likely arise 
+
+during the transition that may significantly 
+
+affect the timeline and costs. The Product Team 
+
+should be on alert for integration issues arising 
+
+close to the final release of the solution, which 
+
+the Product Manager should communicate to 
+
+relevant Stakeholders, along with progress 
+
+updates, at a progressively more frequent 
+
+cadence. 
+
+To (a) uncover and communicate 
+
+issues that may delay the 
+
+transition of the solution from 
+
+POC-to-Production or make that 
+
+transition less feasible; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+9.5.  Production 
+
+Costs 
+
+Review and analyze the finalized POC budget to 
+
+determine a realistic Product implementation 
+
+budget. Review the Product Cost Analysis as 
+
+discussed in Section 4 - Problem Mapping to 
+
+ensure its continued accuracy and reformulate 
+
+as necessary. The Product Team should 
+
+effectively communicate to Stakeholders that 
+
+the budget for implementation will likely be 
+
+in-line or more expensive than the cost to get 
+
+through POC. 
+
+To (a) ensure realistic 
+
+expectations for a sufficient 
+
+Product implementation budget 
+
+are communicated; and (b) 
+
+highlight associated risks that 
+
+might occur in the Product 
+
+Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+28 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To ensure that necessary factors are considered at key decision points. 
+
+Control:  Aim: 
+
+10.1.  Machine 
+
+Learning 
+
+Appropriate 
+
+Tool Analysis 
+
+The Product Team should work cross-functionally with 
+
+Stakeholders to define and document a Machine Learning 
+
+checklist that considers the following areas, amongst 
+
+other things: 
+
+a.  Is there a different approach that will generate a 
+
+greater return more quickly; 
+
+b.  Given the results of the Data Capacity Analysis, 
+
+does the Organisation have enough secure, non-
+
+discriminatory, representative, high quality data for 
+
+every stage of the process; 
+
+c.  Can the problem be solved by simple rules; 
+
+d.  Does the Product solution require emotional 
+
+intelligence or empathy; 
+
+e.  Does the Product solution need to be fully 
+
+interpretable or explainable; 
+
+f.  Given the results of the Organisation Capacity 
+
+Analysis, does the Organization have the people, 
+
+processes, and tools necessary to productize the end 
+
+product; 
+
+g.  Can the consequences of Product failure be easily 
+
+fixed or mitigated; and/or 
+
+h.  What other non-technical solutions can be used 
+
+to augment the Product and its offering and/or, 
+
+more directly, whether Machine Learning is the best 
+
+solution for the Product at hand. 
+
+To (a) ensure that 
+
+Machine Learning is the 
+
+appropriate method 
+
+for solving the chosen 
+
+problem; and (b) highlight 
+
+associated risks that 
+
+might occur in the 
+
+Product Lifecycle. 
+
+# Section 10. Project Checkpoints Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+29 FBPML Technical Best Practices v1.0.0. 
+
+10. Project Checkpoints- FBPML Technical Best Practices v1.0.0. 
+
+10.2  Data Buy v. 
+
+Build Analysis 
+
+The Product Team should work cross-functionally with 
+
+relevant Stakeholders to define and document a Buy v. 
+
+Build checklist that considers the following areas: 
+
+a.  Does the Organisation have enough data for every 
+
+stage of the process (training, POC, production) 
+
+and for every purpose (replacing stale/flawed data, 
+
+measuring success); 
+
+b.  Does the Organisation have the right type of data for 
+
+every stage of the process (training, POC, production) 
+
+and for every purpose (replacing stale/flawed data, 
+
+measuring success); 
+
+c.  Is bought data secure and free of privacy concerns; 
+
+d.  Is the bias in the bought data limited, mitigatable, or 
+
+removable; 
+
+e.  Given the results of the Data Quality Analysis, does 
+
+the Organisation have quality data and are datasets 
+
+complete; 
+
+f.  Given the Product Team Composition, does the 
+
+Organisation have the staffing and expertise to clean, 
+
+prepare, and maintain internal data; and/or 
+
+g.  Given the Data Capacity Analysis, is the necessary 
+
+data easily and readily available internally. 
+
+To (a) ensure that the 
+
+Organisation’s decision 
+
+to either purchase data 
+
+or utilize in-house data 
+
+is appropriate based on 
+
+Organisation capacity 
+
+and/or constraints; and 
+
+(b) highlight associated 
+
+risks that might occur in 
+
+the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+30 FBPML Technical Best Practices v1.0.0. 
+
+10. Project Checkpoints- FBPML Technical Best Practices v1.0.0. 
+
+10.3  Model Buy v. 
+
+Build Analysis 
+
+The Product Team should work cross-functionally with 
+
+relevant Stakeholders to define and document a Buy v. 
+
+Build checklist that considers the following areas: 
+
+a.  Is the scope of the Product manageable, given the 
+
+results of the Organisation Capacity Analysis; 
+
+b.  Can bought Models be used for other Products (eg. 
+
+transfer learning); 
+
+c.  Does the Organisation have the in-house expertise 
+
+required to acquire and label the training data, given 
+
+the Product Team Composition; 
+
+d.  How much would it cost to acquire a properly labeled 
+
+training dataset; 
+
+e.  Given the Product Team Composition, does the 
+
+Organisation have the in-house expertise required to 
+
+retrain Models, if necessary; 
+
+f.  How important is Model customization and, if so, can 
+
+bought Models be customised; 
+
+g.  Are the Acceptance Criteria - Accuracy, Bias, and 
+
+Fairness requirements for bought Models feasible 
+
+given the timeline, Product Team Composition, and 
+
+Organisation Capacity Analysis; and/or 
+
+h.  What are the usage limits and costs for pre-trained 
+
+Models. 
+
+To (a) ensure that the 
+
+Organisation’s decision 
+
+to either purchase or 
+
+build the Models is 
+
+appropriate based on 
+
+Organisation capacity 
+
+and/or constraints; and 
+
+(b) highlight associated 
+
+risks that might occur in 
+
+the Product Lifecycle. 
+
+10.4  POC-to-
+
+Production 
+
+Go/No-Go 
+
+Analysis 
+
+The Product Team should work cross-functionally with 
+
+relevant Stakeholders to define and document a Go/No-
+
+Go checklist that considers qualitative and quantitative 
+
+factors in the following areas: 
+
+a.  Can POC-to-Production Checklist be adequately 
+
+addressed; 
+
+b.  Is the Product Cost Analysis still feasible; 
+
+c.  Does the Product Team have approval for a Product 
+
+maintenance budget; 
+
+d.  Are the updates, upgrades, and add-ons to the data 
+
+infrastructure near completion; 
+
+e.  What is the state of customer process reconstruction 
+
+and end-user training; 
+
+f.  Has the failsafe, rollback, or emergency shutdown 
+
+plan been completed and approved; and/or 
+
+g.  Have the communication and mitigation plans in case 
+
+of failsafe, rollback, or emergency shutdown been 
+
+completed and approved. 
+
+To (a) ensure that the 
+
+solution should be 
+
+deployed in production 
+
+and/or Product Domains; 
+
+and (b) highlight 
+
+associated risks that 
+
+might occur in the 
+
+Product Lifecycle.

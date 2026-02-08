@@ -1,0 +1,3067 @@
+Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+63 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To (a) prevent adversarial actions against, and encourage graceful failures for, Products and/or Models; (b) 
+
+avert malicious extraction of Models, data and/or intellectual property; (c) prevent Model based physical and/or 
+
+irreparable harms; and (d) prevent erosion of trust in Outputs or methods. 
+
+What do we mean when we refer to Security? 
+
+Security is broadly defined as the state of being free from danger or threat. Building on this definition, within the 
+
+context of machine learning -
+
+Security refers to the state of ensuring that machine learning Products and/or Models are free from adversarial 
+
+danger, threat or attacks. 
+
+Adversarial danger, threat or attacks are understood as the malicious intent to negatively impact machine 
+
+learning Products’ and/or Models’ functionality and/or metrics without organisation consent, whether threatened 
+
+or actualised. If an organisation does consent to any such activity, this is - rather - a form of penetration testing 
+
+and/or security analysis, as opposed to an adversarial danger, threat or attack. 
+
+Why is Security relevant? 
+
+Machine learning Product and/or Model security is imperative to ensure operational robust performance. Without 
+
+the ability to secure the Product’s and/or Model’s integrity from adversarial danger, threat or attack, malicious 
+
+third parties can use an organisation’s Products and Models to either unlawfully enrich themselves or, more 
+
+seriously, cause operational environment harms, including death and/or destruction. These are intolerable risks 
+
+as they undermine organisation, societal and machine learning trust and confidence. 
+
+How to apply Security? 
+
+In order to generate thorough and thoughtful security, it must be considered continuously throughout all 
+
+stages of the product lifecycle. This means that security must be addressed at the (a) Product Definition(s), (b) 
+
+Exploration & Development, (c) Production and (d) Confidence & Trust stages of machine learning operations. 
+
+# Section 17. Security Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+64 
+
+17. Security - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To identify and control for Adversarial risks and motives based on Product Definition, characterized by adversary 
+
+goals. 
+
+17.1 Product Definitions 
+
+Control:  Aim: 
+
+17.1.1.  Exfiltration 
+
+Attacks 
+
+Document and assess whether the data 
+
+employed and gathered by the Product, and 
+
+the intellectual property generated possess 
+
+value for potential adversarial actors. 
+
+To (a) identify the risks associated 
+
+with (i) Product Subject physical, 
+
+financial, social and psychological 
+
+wellbeing, and (ii) Organization 
+
+financial wellbeing; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+17.1.2.  Evasion Attacks  Document and assess whether Product 
+
+Subjects gain advantage from evading 
+
+and/or manipulating the Product Outputs. 
+
+Document and assess whether adversarial 
+
+actors stand to gain advantage in 
+
+manipulating Product Subject by evading 
+
+and/or manipulating Product Output. 
+
+To (a) identify the risks associated 
+
+with Product Output manipulation 
+
+in regard to malicious and 
+
+nefarious motives; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+17.1.3.  Targeted 
+
+Sabotage 
+
+Document and assess whether adversarial 
+
+actors can cause harm to specific targeted 
+
+Product Subjects by manipulating Product 
+
+Outputs. 
+
+Document and assess whether 
+
+adversarial actors can cause 
+
+harm to specific targeted Product 
+
+Subjects by manipulating Product 
+
+Outputs. 
+
+17.1.4.  Performance 
+
+Degradation 
+
+Attack 
+
+Document and assess whether a malicious 
+
+performance degradation for a specific (Sub) 
+
+population can cause harm to that (Sub) 
+
+population. Document and assess whether 
+
+general performance degradation can cause 
+
+harm to society, Product Subjects, the 
+
+Organization, the Domain and/or the field of 
+
+Machine Learning. 
+
+To (a) identify the risks in 
+
+regard to (i) Product Subjects’ 
+
+physical, financial, social and 
+
+psychological wellbeing, (ii) the 
+
+Organization’s financial and 
+
+reputational wellbeing, (iii) society-
+
+wide environmental, social and 
+
+economic wellbeing, and (iv) the 
+
+Domains’ reputational wellbeing; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+65 
+
+17. Security - FBPML Technical Best Practices v1.0.0. 
+
+17.2.1.  Data Poisoning 
+
+Assessment 
+
+Document and assess the ease and extent with 
+
+which adversarial actors may influence training 
+
+data through manipulating and/or introducing 
+
+- (i) raw data; (ii) annotation processes; (iii) 
+
+new data points; (iv) data gathering systems 
+
+(like sensors); (v) metadata; and/or (vi) multiple 
+
+components thereof simultaneously. If this 
+
+constitutes an elevated risk, document, assess 
+
+and implement measurements that can be taken 
+
+to detect and/or prevent the above manipulation 
+
+of training data. 
+
+To (a) prevent adversarial 
+
+actors from seeding 
+
+susceptibility to Evasion 
+
+Attacks, Targeted Sabotage 
+
+and Performance Degradation 
+
+Attacks by way of (i) 
+
+introducing hard to detect 
+
+triggers, (ii) increasing 
+
+noise, and/or (iii) occluding 
+
+or otherwise degrading 
+
+information content; and (b) 
+
+highlight associated risks that 
+
+might occur in the Product 
+
+Lifecycle. 
+
+17.2.2.  Public Datasets  Employ public datasets whose characteristics 
+
+and Error Rates are well known as a benchmark 
+
+and/or make the Product evaluation results 
+
+public. 
+
+To (a) increase the probability 
+
+of detection adversarial 
+
+attacks, such as Data 
+
+Poisoning, by enabling 
+
+comparison with and by public 
+
+resources; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.3.  Data Exfiltration 
+
+Susceptibility 
+
+Document and assess the susceptibility of the 
+
+Model to data Exfiltration Attacks through - (i) 
+
+the leakage of (parts of) input data through 
+
+Model Output; (ii) Model memorization of training 
+
+data that may be exposed through Model output; 
+
+(iii) the inclusion by design of (some) training 
+
+data in stored Model artifacts; and/or (iv) 
+
+repeated querying of the Model. 
+
+To (a) warrant and control the 
+
+risk of Model data theft; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+17.2.4.  Model 
+
+Exfiltration 
+
+Susceptibility 
+
+Document and assess the susceptibility of 
+
+Models to Exfiltration Attacks with the aim of 
+
+obtaining a copy, or approximation of, the Model 
+
+or other Organization intellectual property, 
+
+through repeated querying of the Model and 
+
+analysing the obtained results and confidence 
+
+scores. 
+
+To (a) warrant and control the 
+
+risk of Model and intellectual 
+
+property theft; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+Objective 
+
+To identify and control for Adversarial Risks based on and originating in Model properties and/or Model data 
+
+properties. 
+
+17.2. Exploration & Development 
+
+Control:  Aim: Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+66 
+
+17. Security - FBPML Technical Best Practices v1.0.0. 
+
+17.2.5.  Exfiltration 
+
+Defence 
+
+To reduce susceptibility of Exfiltration Attacks, 
+
+(a) make Exfiltration Attacks computationally 
+
+expensive; (b) remove as much as possible 
+
+information from Model Output; (c) add noise 
+
+to Model Outputs through techniques such 
+
+as differential privacy; (d) limit querying 
+
+possibilities in volume and/or scope; and/or (e) 
+
+change Model architecture. 
+
+To (a) warrant and control the 
+
+risk of Exfiltration Attacks; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+17.2.6.  Adversarial 
+
+Input 
+
+Susceptibility 
+
+Document and assess the susceptibility 
+
+of Models to be effectively influenced by 
+
+manipulated (inferencing) input. Reduce 
+
+this susceptibility by (a) increasing the 
+
+representational robustness (f.e. through 
+
+more complete embeddings or latent space 
+
+representation); and/or (b) applying robust 
+
+transformations (possibly cryptographic) and 
+
+cleaning. 
+
+To (a) warrant the control of the 
+
+risk of Evasion and Sabotage 
+
+Attacks, including Adversarial 
+
+Examples; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.7.  Filtering 
+
+Susceptibility 
+
+If sufficient potential motive has been 
+
+determined for adversarial attack, document 
+
+and assess the specific susceptibility of the 
+
+pre-processing filtering procedures of Models 
+
+being evaded by tailored inputs, based on the 
+
+information available to an adversarial attacker 
+
+about these procedures; in addition to the 
+
+general Susceptibility Assessment. Increase the 
+
+robustness of this filtering as far as practically 
+
+feasible. 
+
+To (a) warrant the control of the 
+
+risk of Evasion and Sabotage 
+
+Attacks, including Adversarial 
+
+Examples; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.8.  Training 
+
+Susceptibility 
+
+If sufficient potential motives have been 
+
+determined for adversarial attack, document 
+
+and assess the specific susceptibility of Model 
+
+training to attack through the manipulation of (a) 
+
+the partitioning of train, validation and test sets, 
+
+and/or (b) Models’ hyperparameters; in addition 
+
+to the general Susceptibility Assessment. 
+
+Implement more strict access control on 
+
+production-grade training and hyperparameter 
+
+optimization procedures. 
+
+To (a) warrant the control of 
+
+the risk of Evasion, Sabotage 
+
+and Performance Degradation 
+
+Attacks; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.9.  Adversarial 
+
+Example 
+
+Susceptibility 
+
+If sufficient potential motives have been 
+
+determined for adversarial attack, document and 
+
+assess the specific susceptibility of Models to 
+
+Adversarial Examples by considering - (a) sparse 
+
+or empty regions of the input space, and/or (b) 
+
+Model architectures; in addition to the general 
+
+Susceptibility Assessment. Document and 
+
+implement specific protective measures, such 
+
+as but not limited to adversarial training. 
+
+To (a) warrant the control of 
+
+the risk of Evasion Attacks, 
+
+specifically Adversarial 
+
+Examples; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+67 
+
+17. Security - FBPML Technical Best Practices v1.0.0. 
+
+17.2.10.  Adversarial 
+
+Defence 
+
+If sufficient potential motive and susceptibility 
+
+to adversarial attacks have been determined, 
+
+implement as far as reasonably practical 
+
+- (a) data testing methods for detection of 
+
+outside influence on input and Output Data; 
+
+(b) reproducibility; (c) increase redundancy 
+
+by incorporating multimodal input; and/or (d) 
+
+periodic resets or cleaning of Models and data. 
+
+To (a) warrant and control the 
+
+risk of Adversarial Attacks 
+
+in general; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.11.  General 
+
+Susceptibility -
+
+Information 
+
+Document, assess and control the general 
+
+susceptibility to attack due to information 
+
+obtainable by attackers, by considering (a) 
+
+sensitivity to input noise and/or noise as 
+
+a protective measure; (b) the amount of 
+
+information an adversarial actor may obtain 
+
+from over-extensive logging; and/or (c) whether 
+
+providing confidence scores as Output is 
+
+beneficial to adversarial actors. 
+
+To (a) warrant and control the 
+
+risk of Adversarial Attacks 
+
+in general; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.12.  General 
+
+Susceptibility -
+
+Exploitability 
+
+Document, assess and control the general 
+
+Model susceptibility to attack due to exploitable 
+
+properties of Models, considering (a) overfit 
+
+or highly sensitivity Models and Model 
+
+hyperparameters are easier to attack; (b) an 
+
+over-reliance on gradient methods that make 
+
+Models more predictable and inspectable; (c) 
+
+Models may be pushed past their applicability 
+
+boundaries if input is not validated; and (d) non-
+
+random random number generators might be 
+
+replaced by cryptographically secure random 
+
+number generators. 
+
+To (a) warrant and control the 
+
+risk of Adversarial Attacks 
+
+in general; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.13.  General 
+
+Susceptibility -
+
+Detection 
+
+Document, assess and control the capability to 
+
+detect attacks through the ability to understand 
+
+when Model behaviour is anomalous by (a) 
+
+decreasing Model opaqueness, and/or (b) 
+
+increasing Model robustness. 
+
+To (a) warrant and control the 
+
+risk of Adversarial Attacks 
+
+in general; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. 
+
+17.2.14.  Open Source 
+
+and Transfer 
+
+Learning 
+
+Vulnerability 
+
+Document the correspondence between 
+
+potential attack motives and attack 
+
+susceptibility posed by using, re-using or 
+
+employing for transfer learning open source 
+
+Models, Model weights, and/or Model parameters 
+
+through - (a) maliciously inserted behaviour and/ 
+
+or code (“trojans”), (b) the ability of an adversarial 
+
+actor to investigate and attack open source 
+
+Models unhindered; and (c) improper (re-)use. 
+
+Consider using non-open source Models or 
+
+making significant changes aimed at reducing 
+
+susceptibility. 
+
+To (a) warrant and control the 
+
+risk of Adversarial Attacks 
+
+in general; and (b) highlight 
+
+associated risks that might 
+
+occur in the Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+68 
+
+17. Security - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To identify and control for Adversarial Risks based on and/or originating in Models production. 
+
+17.3 Production 
+
+Control:  Aim: 
+
+17.3.1.  IT Security  Traditional IT security practices are referred 
+
+to. Areas of particular importance to ML-
+
+based systems include - (a) backdoor access 
+
+to the Product, in particular the components 
+
+vulnerable to attack risk as identified in 
+
+other controls; (b) remote host servers 
+
+vulnerability; (c) hardened and isolated 
+
+systems; (d) malicious insiders (e)man-in-
+
+the-middle attacks; and/or (f) denial-of-
+
+service. 
+
+Traditional IT security practices 
+
+are referred to. Areas of particular 
+
+importance to ML-based systems 
+
+include - (a) backdoor access 
+
+to the Product, in particular 
+
+the components vulnerable to 
+
+attack risk as identified in other 
+
+controls; (b) remote host servers 
+
+vulnerability; (c) hardened and 
+
+isolated systems; (d) malicious 
+
+insiders (e)man-in-the-middle 
+
+attacks; and/or (f) denial-of-
+
+service. 
+
+17.3.2.  Periodic Review 
+
+and Validation 
+
+If motive and risk for Adversarial Attack is 
+
+high, perform more stringent and frequent 
+
+review and validation activities. 
+
+To (a) warrant and control the risk 
+
+of Adversarial Attacks in general 
+
+by increasing detection probability 
+
+and fixing vulnerabilities quickly; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+17.3.3.  input and Output 
+
+Vulnerability 
+
+Document and assess the vulnerability of 
+
+the Product and related systems to direct 
+
+manipulation of inputs and Outputs. 
+
+Direct Output manipulation if possible is the 
+
+most straightforward, simplest, cheapest 
+
+and hardest to detect attack 
+
+To (a) create redundancy with input 
+
+and inferencing hyperparameter 
+
+susceptibility; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+17.3.4.  Defense 
+
+Strength 
+
+Assessment 
+
+Document and assess the strength and 
+
+weaknesses of all layers of defense against 
+
+attacks and identify the weakest links. 
+
+To (a) build defense in depth; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+69 
+
+17. Security - FBPML Technical Best Practices v1.0.0. 
+
+Control:  Aim: 
+
+17.4.1.  Trust Erosion  Document and assess the potential impact 
+
+on trust from adversarial and defacement 
+
+attacks, and establish a strategy to mitigate 
+
+trust erosion in case of successful attacks. 
+
+To (a) prevent erosion of trust in 
+
+Product Outputs, the Product, the 
+
+Organization, and/or Domains from 
+
+preventing beneficial Products 
+
+and technologies to be employed; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+17.4.2.  Confidence  Document and assess the degree of over-
+
+and under-confidence in the Product output 
+
+by Product Team, Stakeholder(s) and End 
+
+Users. Encourage an appropriate level of 
+
+confidence through education and self-
+
+reflection. 
+
+Note: Underconfidence will lead to users 
+
+over-ruling the Product in unexpected ways. 
+
+Overconfidence leads to lower scrutiny and 
+
+therefore lowers the chance of detection 
+
+and prevention of attacks. 
+
+To (a) balance the risk of 
+
+compromising Product effects 
+
+against reduced vigilance; and 
+
+(b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+17.4.3.  Warning Fatigue  Document and assess the frequency of 
+
+warnings and alerts provided to Product 
+
+operators, maintainers, and Product 
+
+Subjects, and refine the thresholds and 
+
+processes such that no over-exposure to 
+
+alerts can lead to systematic ignoring of 
+
+alerts. 
+
+To (a) prevent an overexposure 
+
+to alerts that can lead to ignoring 
+
+serious defects and incidents, 
+
+causing harm; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+Objective 
+
+To identify and control for Adversarial Risks based on and/or originating in Product trust and confidence. 
+
+17.4 Confidence & Trust Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+70 
+
+FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To (a) prevent Model-based physical and/or irreparable harms; and (b) identify and mitigate risks due to Product 
+
+failures, including Model failures, IT failures, and process failures. 
+
+What do we mean when we refer to Safety? 
+
+When referring to safety in the context of machine learning we mean-
+
+Safety means the protection of the operational environment - and its subjects - from negative physical and/or 
+
+other harms that might result from machine learning Products and/or Models, either directly or indirectly. 
+
+Put slightly differently, when we discuss safety we are not talking about the safety of machine learning Products 
+
+and Models (called, rather, security), but, instead, the operational environment within which machine learning 
+
+Products and Models operate. Specifically, the harms and risks that machine learning Products and Models might 
+
+cause for these environments and their subjects. For example, an autonomous vehicle crashing and causing 
+
+injury, death, or destruction. 
+
+Why is Safety important? 
+
+Machine learning Product and Model safety is imperative to ensure the integrity of the operational environment. 
+
+Without such safety, machine learning Products and Models can cause grave operational environment harms, 
+
+such as physical injury or, at worst, death. These are intolerable risks as they undermine organisation, societal 
+
+and machine learning trust and confidence. Moreover, they cause irreparable real damage in the real world. 
+
+How to apply Safety? 
+
+In order to generate thorough and thoughtful safety, it must be considered continuously throughout all stages of 
+
+the product lifecycle. This means that safety must be addressed at the (a) Product Definition(s), (b) Exploration, 
+
+(c) Development and (d) Production stages of machine learning operations. 
+
+# Section 18. Safety Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+71 
+
+18. Safety - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To establish the appropriate safety-oriented attitudes based on first principles and Product Definitions. 
+
+Objective 
+
+To start the process of identifying,specifying and controlling (potential) risks and failures modes of the Model(s) 
+
+and Product based on research and exploration, and sustain this process throughout the Product Lifecycle. 
+
+18.1 Product Definitions 
+
+18.2 Exploration 
+
+Control:  Aim: 
+
+18.1.1.  Physical and 
+
+Irreparable 
+
+Harm Risk 
+
+Document and assess whether any 
+
+likely failure modes can cause physical 
+
+and/or irreparable harm, based on the 
+
+Product Definitions. If such is the case, 
+
+warrant increased oversight and attention 
+
+throughout the Product Lifecycle to risks 
+
+and controls in general and from this section 
+
+in particular. 
+
+To warrant the necessary amount of 
+
+control and resources throughout 
+
+the Product Lifecycle with regard 
+
+to preventing and mitigating 
+
+significant threats to individuals’ 
+
+physical, financial, social, and 
+
+psychological well being. 
+
+18.1.2.  Domain-first 
+
+Humble Culture 
+
+Document and establish tenents for Product 
+
+Team culture to promote risk awareness 
+
+and prevent blind spots, inclusive of (a) put 
+
+Domain expertise central; (b) never assume 
+
+only positive effects; (c) admit uncertainty 
+
+when assessing impacts. 
+
+To promote risk awareness and 
+
+prevent blindspots in analysing 
+
+failure modes and other safety 
+
+related controls and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+Control:  Aim: 
+
+18.2.1.  Forecast Failure 
+
+Modes 
+
+(a) Document and assess continuously 
+
+throughout the Product Lifecycle all 
+
+potential failure modes that can be 
+
+identified through - (i) researching past 
+
+failures; and/or (ii) interrogating all 
+
+components or product and context with 
+
+an open mind; (b) rank identified failure 
+
+modes according to likelihood and severity; 
+
+(c) prepare for and mitigate these risks as 
+
+far as is reasonably practical in order of risk 
+
+throughout the Product Lifecycle. 
+
+To (a) reduce harmful 
+
+consequences of failures through 
+
+anticipation and preparation; 
+
+and (b) highlight associated risks 
+
+that might occur in the Product 
+
+Lifecycle. 
+
+18.2.2.  Prediction 
+
+Limits 
+
+Document and assess with a diversity of 
+
+Stakeholders the real limitations on the 
+
+Product and Model Outcomes that ought be 
+
+strictly enforced in order to prevent physical 
+
+and/or irreparable harm and/or other Failure 
+
+Modes. 
+
+To prevent Model and Product 
+
+Outcomes from violating clear, 
+
+fixed and safe operating bounds. 
+
+18.2.3.  Surprise Diary  Document continuously throughout the 
+
+Product Lifecycle all surprising findings and 
+
+occurrences. 
+
+To discover and subsequently 
+
+control for previously unknown or 
+
+unanticipated failures modes. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+72 
+
+18. Safety - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To control Safety risks and failure modes based on testing and controlling Model and Product technical 
+
+components. 
+
+Objective 
+
+To control for Safety risks and failure modes and prevent physical and/or irreparable harm by performing 
+
+assessments and implementing measures at the systemic and organisational level. 
+
+18.3 Development 
+
+18.4 Production 
+
+Control:  Aim: 
+
+18.3.1.  General 
+
+IT Testing 
+
+Practices 
+
+Adhere to all traditional IT/Software Testing 
+
+best practices. 
+
+To warrant and control the risk of 
+
+failures due to code, software and 
+
+other IT mistakes in general. 
+
+18.3.2.  Testing by 
+
+Domain Experts 
+
+Document and perform testing of the 
+
+Model(s) and Product by Domain experts. 
+
+To warrant that Product and 
+
+Product Safety are tested against 
+
+the most relevant requirements and 
+
+prevent blind spots caused by lack 
+
+of multidisciplinarity. 
+
+18.3.3.  Algorithm 
+
+Benchmarking 
+
+Document and perform benchmark testing 
+
+of Models and Model code against well-
+
+known, trusted and/or simpler Models/code. 
+
+To warrant the correct 
+
+implementation of Models and 
+
+code, and safeguard reproducibility 
+
+in general. 
+
+Control:  Aim: 
+
+18.4.1.  System Failure 
+
+Propagation 
+
+Document and assess how failures in 
+
+Models and Product components propagate 
+
+to other components and other systems, 
+
+and what damage they may cause there. 
+
+Incorporate such information in Failure 
+
+Mode risk assessments and implementation 
+
+of Graceful Failures and Kill Switches. 
+
+To (a) prevent blind spots and 
+
+cascading failures and (b) provide 
+
+essential input for creating 
+
+mitigation measures with a 
+
+minimum of uncontrolled side-
+
+effects. 
+
+18.4.2.  Graceful Failure  Document and assess whether (i) Model 
+
+errors, (ii) Model failures, (iii) Product 
+
+failures, (iv) IT failures, and/or (v) process 
+
+and implementation failures - whether 
+
+caused by attack or not - can result in 
+
+physical or irreparable harm to humans, 
+
+society and/or the environment. If present, 
+
+mitigate these risks by implementing 
+
+technological and/or process measures that 
+
+make these failures graceful. 
+
+To identify risks and mitigating 
+
+measures throughout the Product 
+
+Lifecycle with regard to significant 
+
+threats to individuals’ physical, 
+
+financial, social and psychological 
+
+wellbeing. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+73 
+
+18. Safety - FBPML Technical Best Practices v1.0.0. 
+
+18.4.3.  Kill Switch  Document and implement Kill Switches 
+
+according to the findings of all previous 
+
+controls, taking into account (a) instructions 
+
+and procedures for engaging the Kill Switch; 
+
+(b) who is/are responsible for engaging the 
+
+Kill Switch; (c) what impacts the engagement 
+
+of the Kill Switch has on users, other parts of 
+
+the Product and other systems. 
+
+Document and implement Kill 
+
+Switches according to the findings 
+
+of all previous controls, taking 
+
+into account (a) instructions and 
+
+procedures for engaging the Kill 
+
+Switch; (b) who is/are responsible 
+
+for engaging the Kill Switch; (c) 
+
+what impacts the engagement of 
+
+the Kill Switch has on users, other 
+
+parts of the Product and other 
+
+systems. 
+
+18.4.4.  Safety Stress 
+
+Testing 
+
+Document and perform scenario-based 
+
+stress testing of Product in Domain, Society 
+
+and Environmental contexts, for realistic but 
+
+rare high-impact scenarios, recording the 
+
+Product’s reaction to and influence on the 
+
+Domain, Society and Environment. 
+
+To control and prepare for worst-
+
+case scenarios in the context 
+
+of rapid and/or large changes 
+
+in Domain, in Society or in 
+
+Environment. 
+
+18.4.5.  Product Incident 
+
+Response 
+
+Document and prepare Product-specific 
+
+implementation of the Organisation Incident 
+
+Response Plan insofar as that does not cover 
+
+the Product’s specific risks, if appropriate. 
+
+To (a) control for and contain 
+
+Product Incidents; (b) minimize 
+
+harms stemming from Product 
+
+Incidents; (c) repair harms caused 
+
+by Product Incidents; and (d) 
+
+incorporate lessons learned. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+74 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To ensure (a) building desirable solutions; (b) human control over Products and Models; and (c) that individuals 
+
+affected by Product and Model outputs can obtain redress. 
+
+What is Human-centric Design? 
+
+Human-centric (or also called human-centered) Design is a creative approach to problem-solving, by involving 
+
+the human perspective in all steps of problem solving. 
+
+In the context of machine learning and the Model framework, Human-centric Design makes you stay focused on 
+
+the user when designing with ML, therefore building desirable solutions for your target users. Moreover, it also 
+
+ensures that the right stakeholders are involved throughout the whole design and development process and helps 
+
+to properly identify the right opportunity areas. Lastly, human-centric design encompasses the extent to which 
+
+humans have control over the Model and its output as well as the degree to which humans can obtain redress, if 
+
+they are affected by the Model. 
+
+Why Human-centric Design? 
+
+Incorporating Human-centric Design in the Product is vital. It ensures the Model is not built in isolation but 
+
+is integrated with other problems and, most of all, that it helps solve the right questions. Having the right 
+
+Stakeholders (beyond the technical teams) involved in the whole Model lifecycle translates to higher trust levels 
+
+in the Model, increases the rate of adoption, as well as results in more human-friendly and creative solutions. Not 
+
+having the human-centric part of the Model will inevitably result in an inferior Model - and one which very likely 
+
+end up on a ‘shelf’ and, therefore, not be applied in practice. 
+
+How to ensure Human-centric Design? 
+
+Human-centric Design is something that needs to be addressed throughout the product lifecycle, not only in the 
+
+early stages of it, and not in any stage in isolation. 
+
+# Section 19. Human-Centred Design Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+75 
+
+19. Human-Centred Design - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To discover and gain insight so that the Product and Model(s) will solve the right problems, designed for human 
+
+needs and values, before building it. 
+
+Objective 
+
+To (a) cluster, (b) find insights and (c) define the right opportunity area, ensuring to focus on the right questions to 
+
+solve in preparation for the development and production phase. 
+
+19.1 Product Definitions 
+
+19.2 Exploration 
+
+Control:  Aim: 
+
+19.1.1.  Human Centered 
+
+Machine 
+
+Learning 
+
+Incorporate the human (non-technical) 
+
+perspective in your (technical) process of 
+
+exploration, development and production 
+
+by applying user research, design thinking, 
+
+prototyping and rapid feedback, and human 
+
+factors when defining a usable product or 
+
+model. 
+
+To (a) ensure that Product(s) and 
+
+Model(s) are not only feasible and 
+
+viable, but also align with a human 
+
+needs; and (b) highlight associated 
+
+risks failing such. 
+
+19.1.2.  UX (or user) 
+
+research 
+
+Focus on understanding user behaviours, 
+
+needs, and motivations through observation 
+
+techniques, task analysis, user interviews, 
+
+and other research methodologies. 
+
+To prevent (a) a focus on technology 
+
+from overshadowing a focus on 
+
+problem solving; and (b) cognitive 
+
+biases from adverse influence 
+
+Product and Model design. 
+
+19.1.3.  Design for 
+
+Human values 
+
+Include activities for (a) the identification 
+
+of societal values, (b) deciding on a moral 
+
+deliberation approach (e.g. through 
+
+algorithms, user control or regulation), and 
+
+(c) methods to link values to formal system 
+
+requirements (e.g. value sensitive design 
+
+(VSD) mapping). 
+
+To reflect societal concerns about 
+
+the ethics of AI, and ensure that AI 
+
+systems are developed responsibly, 
+
+incorporating social, ethical values 
+
+and ensuring that systems will 
+
+uphold human values. The moral 
+
+quality of a technology depends on 
+
+its consequences. 
+
+Control:  Aim: 
+
+19.2.1.  Design Thinking  Ensure an iterative development process by 
+
+(a) empathize: research your users’ needs, 
+
+(b) define: state your users’ most important 
+
+needs and problems to solve, (c) ideate: 
+
+challenge assumptions and create ideas, (d) 
+
+prototype: start to create solutions and (e) 
+
+test: gather user feedback early and often. 
+
+To let data scientists organise and 
+
+strategise their next steps in the 
+
+exploratory phase. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+76 
+
+19. Human-Centred Design - FBPML Technical Best Practices v1.0.0. 
+
+19.2.2.  Ethical 
+
+assessment 
+
+Discuss with your team to what extend 
+
+(a) the AI product actively or passively 
+
+discriminates against groups of people 
+
+in a harmful way; (b) everyone involved in 
+
+the development and use of the AI product 
+
+understands, accepts and is able to 
+
+exercise their rights and responsibilities; 
+
+(c) the intended users of an AI product 
+
+can meaningfully understand the purpose 
+
+of the product, how it works, and (where 
+
+applicable) how specific decisions were 
+
+made. 
+
+Discuss with your team to what 
+
+extend (a) the AI product actively 
+
+or passively discriminates against 
+
+groups of people in a harmful 
+
+way; (b) everyone involved in the 
+
+development and use of the AI 
+
+product understands, accepts 
+
+and is able to exercise their 
+
+rights and responsibilities; (c) the 
+
+intended users of an AI product 
+
+can meaningfully understand the 
+
+purpose of the product, how it 
+
+works, and (where applicable) how 
+
+specific decisions were made. 
+
+19.2.3.  Estimating the 
+
+value vs effort 
+
+of possible 
+
+opportunity 
+
+areas 
+
+Explore the details of what mental Models 
+
+and expectations people might bring when 
+
+interacting with an ML system as well as 
+
+what data would be needed for that system. 
+
+E.g. an Impact Matrix. 
+
+To reveal the automatic 
+
+assumptions people will bring to an 
+
+ML-powered product, to be used 
+
+as prompts for a product team 
+
+discussion or as stimuli in user 
+
+research. (See also Section 4.11 -
+
+User Experience Mapping.) 
+
+Objective 
+
+To (a) ensure rapid iteration and targeted feedback from relevant Stakeholders, allowing a larger range of 
+
+possible solutions to be considered in the selection process. (b) Increase the creativity and options considered, 
+
+while avoiding avoiding personal biases and/or pigeon-holing a solution. 
+
+19.3 Development 
+
+Control:  Aim: 
+
+19.3.1.  Prototyping  1: Focus on quick and minimum viable 
+
+prototypes that offer enough tangibility 
+
+to find out whether they solve the initial 
+
+problem or answer the initial question. 
+
+Document how test participants react and 
+
+what assumptions they make when they 
+
+“use” your mockup. 
+
+2: Design a so-called ‘Wizard of Oz’ test; have 
+
+participants interact with what they believe 
+
+to be an autonomous system, but which is 
+
+actually being controlled by a human (usually 
+
+a team member) 
+
+To gain early feedback (without 
+
+having to actually have build an 
+
+ML product) needed to (a) adjust 
+
+or pivot your Products(s) and/or 
+
+Model(s) thus ensuring business 
+
+viability; and/or (b) assess the cost 
+
+and benefits of potential features 
+
+with more validity than using 
+
+dummy examples or conceptual 
+
+descriptions. 
+
+19.3.2.  Cost weighing of 
+
+false positives 
+
+and false 
+
+negatives 
+
+While all errors are equal to an ML system, 
+
+not all errors are equal to all people. Discuss 
+
+with your team how mistakes of your ML 
+
+model might affect the user’s experience of 
+
+the product. 
+
+to avoid sensitive decisions being 
+
+taken (a) autonomously; or (b) 
+
+without human consideration. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+77 
+
+19. Human-Centred Design - FBPML Technical Best Practices v1.0.0. 
+
+19.3.3.  Visual 
+
+Storytelling 
+
+Focus on explanatory analysis over 
+
+exploratory analysis, taking the mental 
+
+models of your target audience in account. 
+
+To avoid uninformed decisions 
+
+about your product or model by 
+
+non-technical stakeholders, when 
+
+presenting complex analysis, 
+
+models, and findings. 
+
+19.3.4.  Preventative 
+
+Process Design 
+
+Document and assess whether high-risk 
+
+and/or high-impact Model (sub)problems 
+
+or dilemmas that are present in the Product 
+
+(as determined from following the Best 
+
+Practices Framework) can be mitigated or 
+
+avoided by applying non-Model process 
+
+and implementation solutions. If non-Model 
+
+solutions are not applied, document the 
+
+reasons for this, document the sustained 
+
+presence of these risks and implement 
+
+appropriate incident response measures. 
+
+To (a) prevent high-risk and/or 
+
+high-impact Model (sub)problems 
+
+or dilemmas through non-Model 
+
+process and implementation 
+
+solutions; and (b) highlight 
+
+associated risks that might occur in 
+
+the Product Lifecycle. 
+
+Objective 
+
+To ensure (a) delivering a user-friendly product, (b) increasing the adoption rate of your product or model, 
+
+focussing on (dis-)trust as main fundamental risk of ML models with (non-technical) end users 
+
+19.4 Production 
+
+Control:  Aim: 
+
+19.4.1.  Trust; increased 
+
+by design 
+
+Allow for users to develop systems 
+
+heuristics (ease of use) via design patterns 
+
+while at the same time facilitate a detailed 
+
+understanding to those who value the 
+
+‘intelligent’ technology used. (See Section 
+
+19.4.2 -Design for Human Error; Section 
+
+19.4.3 - Algorithmic transparency; and 
+
+Section 19.4.4 - Progressive disclosure for 
+
+further information.) 
+
+To avoid (a) that the user does not 
+
+trust the outcome, and will act 
+
+counter to the design, causing at 
+
+best inefficiencies and at worst 
+
+serious harms, or (b) that -trusting 
+
+an application will do what we think 
+
+it will do- an user can confirm their 
+
+trust is justified. 
+
+19.4.2.  Design for 
+
+Human Error 
+
+(a) Understand the causes of error and 
+
+design to minimise those causes; (b) 
+
+Do sensibility checks. Does the action 
+
+pass the “common sense” test (e.g. is the 
+
+number is correct? - 10.000g or 10.000kg) 
+
+(c) Make it possible to reverse actions - to 
+
+“undo” them - or make it harder to do what 
+
+cannot be reversed (eg. add constraints 
+
+to block errors - either change the color 
+
+to red or mention “Do you want to delete 
+
+this file? Are you sure?”). (d) make it easier 
+
+for people to discover the errors that do 
+
+occur, and make them easier to correct 
+
+To (a) increase trust between the 
+
+end user and the model; (b) minimize 
+
+the opportunities for errors while 
+
+also mitigating the consequences. 
+
+Increase the trust users have with 
+
+your product by design for deliberate 
+
+mis-use of your model (making your 
+
+model or product “idiot-proof”) so 
+
+users are (a) able to insert data to 
+
+compare the model outcome with 
+
+their own expected outcome which 
+
+will increase their trust, or (b) users 
+
+able to test the limitations of your 
+
+product or model -via fake or highly 
+
+unlikely data- without breaking your 
+
+product or model. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+78 
+
+19. Human-Centred Design - FBPML Technical Best Practices v1.0.0. 
+
+19.4.3.  Algorithmic 
+
+transparency 
+
+Assess the appropriate system heuristics 
+
+(eg. ease of use), document all factors that 
+
+influence the algorithmic decisions, and 
+
+use them as a design tool to make them 
+
+visible, or transparent, to users who use or 
+
+are affected by the ML systems. 
+
+To (a) increase trust between the end 
+
+user and the model; (b) increase end-
+
+user control; (c) improve acceptance 
+
+rate of tool; (d) promote user 
+
+learning with complex data; and (e) 
+
+enable oversight by developers. 
+
+19.4.4.  Progressive 
+
+disclosure 
+
+At the point where the end-user interacts 
+
+with the Product outcomes, show them 
+
+only the initial features and/or information 
+
+necessary at that point in the interaction 
+
+(thus initially hiding more advanced 
+
+interface controls). Show the secondary 
+
+features and/or information only when the 
+
+user requests it (show less, provide more-
+
+principle). 
+
+To greatly reduce unwanted 
+
+complexity for the end-user and thus 
+
+preventing (a) end-user non-adoption 
+
+or misunderstanding and (b) ensuring 
+
+an increased feeling of trust by the 
+
+users. 
+
+19.4.5.  Human in the 
+
+loop (HITL) 
+
+Embed human interaction with machine 
+
+learning systems to be able to label 
+
+or correct inaccuracies in machine 
+
+predictions. 
+
+To avoid the risk of the Product 
+
+applying a materially detrimental or 
+
+catastrophic Product Outcome to 
+
+a Product Subject without human 
+
+intervention. 
+
+19.4.6.  Remediation  Document, assess and implement in 
+
+the Model(s), Product and Organization 
+
+processes, requirements for enabling 
+
+Product Subjects to challenge and obtain 
+
+redress for Product Outcomes applied to 
+
+them. 
+
+To ensure detrimental Product 
+
+Outcomes are easily reverted when 
+
+appropriate. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+79 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To prevent (in)direct adverse social and environmental effects as a consequence of interactions amongst 
+
+Products, Models, the Organisation, and the Public. 
+
+What is Systemic Stability? 
+
+Model stability is a relatively popular notion. It is usually centered at putting a bound at the Model’s generalization 
+
+error. 
+
+Systemic Stability refers to the robustness of the Model (or lack thereof) stemming from the interaction between 
+
+the Model, Organization, environment and the broader public (society at large). 
+
+There are numerous potential risks that can emerge in this interaction. Many of them can impact the stability of 
+
+the Model - beyond the context of traditional performance robustness or deterioration of the Model over time. 
+
+Another way to think of it is as the extent to which the Model and/or its building blocks are susceptible to chain 
+
+effects and self-reinforcing interactions between the Model, Organization, environment and society. 
+
+Why Systemic stability? 
+
+Systemic stability forces one to think beyond the traditional definitions of Model stability and its potential 
+
+causes and consequences. Systemic stability ensures that we consider the effect on the Model and society 
+
+due to the interaction between the Model, the Organization, the environment and society. This means thinking 
+
+about susceptibility to feedback loops, self-fulfilling prophecies and how either of them may impact the data 
+
+or the Model and its output. It, therefore, reduces risks related to deteriorated performance and minimises the 
+
+propagation of undesirable biases. 
+
+How to ensure Systemic stability? 
+
+In order to ensure systemic stability, it must be considered continuously throughout all stages of the product 
+
+lifecycle. This means that systemic stability must be addressed at the (a) Product Definition(s), (b) Exploration, (c) 
+
+Development and (d) Production stages of machine learning operations. 
+
+# Section 20. System Stability Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+80 
+
+20. System Stability - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To investigate and mitigate unforeseen social and environmental chain effects and/or risks caused through 
+
+Product Definition(s). 
+
+Objective 
+
+To investigate and mitigate unforeseen social and environmental chain effects and/or risks caused through 
+
+Product exploration. 
+
+20.1 Product Definitions 
+
+20.2 Exploration 
+
+Control:  Aim: 
+
+20.1.1.  Product 
+
+Assumption 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in invalidating 
+
+Product Assumptions. If so, attempt to 
+
+redefine Product Assumptions to warrant 
+
+their longevity. 
+
+To (a) prevent unpredictable social 
+
+and/or environmental behaviour 
+
+through Product Outcomes; and 
+
+(b) highlight associated risks in the 
+
+Product Lifecycle. 
+
+Control:  Aim: 
+
+20.2.1.  Selection 
+
+Function 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in invalidating 
+
+Product Assumptions. If so, attempt to 
+
+redefine Product Assumptions to warrant 
+
+their longevity. 
+
+To (a) prevent unpredictable social 
+
+and/or environmental behaviour 
+
+through Product Outcomes; and 
+
+(b) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20.2.2.  Data Definition 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in changes 
+
+to the Selection Function, and whether 
+
+this is a self-reinforcing interaction. If 
+
+true, attempt to mitigate or stabilize 
+
+associated effects through refining 
+
+Product Definition(s) and/or improving 
+
+Model design and/or Product and process 
+
+implementation. 
+
+To (a) determine and prevent Product 
+
+and/or Model risk in - (i) progressively 
+
+strengthening biases (from encoded 
+
+assumptions and definitions to 
+
+datasets to algorithms chosen); (ii) 
+
+progressively reinforcing Model errors 
+
+and/or Product generalizations; (iii) 
+
+progressively losing sensitivity to 
+
+data and/or Domain changes; (iv) 
+
+suffering from self-reinforcing and/ 
+
+or exponential run-away effects; 
+
+(b) determine and prevent risks of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+81 
+
+20. System Stability - FBPML Technical Best Practices v1.0.0. 
+
+20.2.3.  Data Generating 
+
+Process 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in changes to 
+
+the Product data definitions, and whether 
+
+this is a self-reinforcing interaction. If 
+
+true, attempt to mitigate or stabilize 
+
+associated effects through refining 
+
+Product Definition(s) and/or improving 
+
+Model design and/or Product and process 
+
+implementation. 
+
+To (a) determine and prevent Product 
+
+and/or Model risk in - (i) progressively 
+
+strengthening biases (from encoded 
+
+assumptions and definitions to 
+
+datasets to algorithms chosen); (ii) 
+
+progressively reinforcing Model errors 
+
+and/or Product generalizations; (iii) 
+
+progressively losing sensitivity to 
+
+data and/or Domain changes; (iv) 
+
+suffering from self-reinforcing and/ 
+
+or exponential run-away effects; 
+
+(b) determine and prevent risks of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20.2.4.  Data 
+
+Distributions 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in changes to 
+
+the data generating process, and whether 
+
+this is a self-reinforcing interaction. If 
+
+true, attempt to mitigate or stabilize 
+
+associated effects through refining 
+
+Product Definition(s) and/or improving 
+
+Model design and/or Product and process 
+
+implementation. 
+
+To (a) determine and prevent Product 
+
+and/or Model risk in - (i) progressively 
+
+strengthening biases (from encoded 
+
+assumptions and definitions to 
+
+datasets to algorithms chosen); (ii) 
+
+progressively reinforcing Model errors 
+
+and/or Product generalizations; (iii) 
+
+progressively losing sensitivity to 
+
+data and/or Domain changes; (iv) 
+
+suffering from self-reinforcing and/ 
+
+or exponential run-away effects; 
+
+(b) determine and prevent risks of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20.2.5.  Hidden Variable 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in the creation 
+
+of new hidden Variables in the system. If 
+
+true, record the new Variable during data 
+
+gathering, or prevent the creation of the 
+
+new Variable through improved Product 
+
+Definition(s) and implementation. 
+
+To (a) determine and prevent Product 
+
+and/or Model risk in - (i) progressively 
+
+strengthening biases (from encoded 
+
+assumptions and definitions to 
+
+datasets to algorithms chosen); (ii) 
+
+progressively reinforcing Model errors 
+
+and/or Product generalizations; (iii) 
+
+progressively losing sensitivity to 
+
+data and/or Domain changes; (iv) 
+
+suffering from self-reinforcing and/ 
+
+or exponential run-away effects; 
+
+(b) determine and prevent risks of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+82 
+
+20. System Stability - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To investigate and mitigate unforeseen social and environmental chain effects and/or risks caused through 
+
+Product development. 
+
+20.3 Development 
+
+Control:  Aim: 
+
+20.3.1.  Target Feature 
+
+Definition 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs will result in changes to the 
+
+Target Feature definition. If true, attempt to 
+
+mitigate associated effects through refining 
+
+Product Output and/or Model design and/or 
+
+development. 
+
+To (a) determine and prevent risk of 
+
+unpredictable behaviour once the 
+
+Product outcomes are applied; and 
+
+(b) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20.3.2.  Optimization 
+
+Feedback Loop 
+
+Susceptibility 
+
+Document and assess whether the cost 
+
+function and/or optimization algorithm 
+
+exhibits a feedback loop behaviour that 
+
+includes the gathering of data that has been 
+
+influenced by previous Model iterations, and 
+
+whether this behaviour is self-reinforcing 
+
+or self-limiting. If true, attempt to mitigate 
+
+associated effects through refining 
+
+Product Output and/or Model design and/or 
+
+development. 
+
+Idem Section 20.2.1- Selection 
+
+Function Susceptibility 
+
+Objective 
+
+To investigate and mitigate unforeseen social and environmental chain effects and/or risks caused through 
+
+Product application. 
+
+20.4 Production 
+
+Control:  Aim: 
+
+20.4.1.  Self-fulfilling 
+
+Prophecies 
+
+Document and assess whether applying 
+
+Product Outputs will result in change to 
+
+Product inputs, dependencies and/or 
+
+Domain(s) (other than those mentioned in 
+
+controls elsewhere) and whether this is a 
+
+self-reinforcing interaction. If true, attempt 
+
+to mitigate associated effects through 
+
+refining Product Output and/or Model design 
+
+and/or development. 
+
+Idem Section 20.2.1- Selection 
+
+Function Susceptibility 
+
+20.4.2.  Hidden Variable 
+
+Dependencies 
+
+Document and assess whether the effect 
+
+of applying Product Outputs depends 
+
+on Hidden Variables. If true, control for 
+
+Hidden Variables, for example through 
+
+marginalization and/or by deriving indicators 
+
+for Hidden Variables influence. 
+
+To (a) prevent diverging effects on 
+
+seemingly similar individuals or 
+
+datapoints; (b) prevent or detect 
+
+high-risk interactions; and (c) 
+
+highlight associated risks in the 
+
+Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+83 
+
+20.4.3.  Society 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs results in potentially 
+
+harmful societal or environmental changes, 
+
+and research the possible knock-on effects 
+
+as far as reasonably practical. 
+
+To (a) identify and prevent both 
+
+direct and indirect adverse effects 
+
+on society and the environment; 
+
+(b) determine if there is a risk of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20.4.4.  Domain 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs results in changes to 
+
+application Domain(s), and research 
+
+the possible knock-on effects as far as 
+
+reasonably practical. 
+
+To (a) identify and prevent both 
+
+direct and indirect adverse 
+
+effects on Product Domain(s); 
+
+(b) determine if there is a risk of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20.4.5.  Other 
+
+Organisation 
+
+Products 
+
+Susceptibility 
+
+Document and assess whether applying 
+
+Product Outputs result in changes to inputs, 
+
+dependencies and/or context for other 
+
+Organisation Products. If true, attempt to 
+
+mitigate associated effects through refining 
+
+Product Output and/or Model design and/or 
+
+development. 
+
+To (a) identify and prevent both 
+
+direct and indirect adverse 
+
+effects on the Organisation or 
+
+other Organisation Products; (b) 
+
+determine if there is a risk of 
+
+unpredictable behaviour once the 
+
+Product Outcomes are applied; and 
+
+(c) highlight associated risks in the 
+
+Product Lifecycle. 
+
+20. System Stability - FBPML Technical Best Practices v1.0.0. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+84 FBPML Technical Best Practices v1.0.0. 
+
+Objective: 
+
+To ensure the clear and complete Traceability of Products, Models and their assets (inclusive of, amongst other 
+
+things, data, code, artifacts, output, and documentation) for as long as is reasonably practical. 
+
+What do we mean when we refer to Product Traceability? 
+
+Product Traceability refers to the ability to identify, track and trace elements of the Product as it is designed, 
+
+developed, and implemented. 
+
+Alternatively put, Product Traceability, is the ability to trace and track all Product elements and decisions 
+
+throughout the Product Lifecyle. It is the identification, indexing, storage, and management of each unique 
+
+Product element. 
+
+Why is Product Traceability relevant? 
+
+Through Product Traceability, each element of the Product can be easily identified and, thereafter, re-examined, 
+
+and amended. This allows for greater Product accountability and transparency as, through this process, each 
+
+Product element and its developers can be identified. 
+
+How to apply Product Traceability? 
+
+In order to generate thorough and thoughtful Product Traceability, it must be considered continuously throughout 
+
+all stages of the Product Lifecycle. This means that Product Traceability must be addressed at the (a) Product 
+
+Definition(s), (b) Exploration, (c) Development and (d) Production stages of Machine Learning Operations. 
+
+# Section 21. Product Traceability Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+85 
+
+21. Product Traceability - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To document and maintain an overview of the requirements necessary to complete the Product and the 
+
+interdependencies in the Product design phase. 
+
+Objective 
+
+To document the impact analysis of each requirement. 
+
+21.1 Product Definitions 
+
+21.2 Exploration 
+
+Control:  Aim: 
+
+21.3.1.  Document 
+
+Storage 
+
+Define a single fixed storage solution for all 
+
+reports, documents, and other traceability 
+
+files. 
+
+To (a) prevent the usage and 
+
+dissemination of outdated and/ 
+
+or incorrect files; (b) prevent the 
+
+haphazards storage of Product 
+
+reports, documents and/or files; 
+
+and (c) highlight associated risks in 
+
+the Product Lifecycle. 
+
+21.3.2.  Version Control 
+
+of Documents 
+
+Ensure that document changes are tracked 
+
+when changes are made. Subsequent 
+
+versions ought to list version number, 
+
+author, date of change, and short 
+
+description of the changes made. 
+
+To (a) track changes to any and all 
+
+documents; (b) ensure everyone 
+
+is using the same and latest 
+
+document version; and (c) highlight 
+
+associated risks in the Product 
+
+Lifecycle. 
+
+21.3.3.  Architectural 
+
+Requirements 
+
+Document 
+
+Document which information technology 
+
+resources are necessary for each element 
+
+of the Product to provide a necessary 
+
+overview of system requirements and 
+
+cost distribution. Document the reasons 
+
+each resource was chosen along with 
+
+justifications. 
+
+To (a) provide clear documentation 
+
+of which system resources are 
+
+used, where they are used, why 
+
+they are used, and costs; and (b) 
+
+highlight associated risks in the 
+
+Product Lifecycle. 
+
+Control:  Aim: 
+
+21.2.1.  Document 
+
+Impact Analysis 
+
+of Requirements 
+
+Document and complete an impact analysis 
+
+on the resources and design of the Product 
+
+that can result in technical debt. 
+
+To (a) avoid Product failures due 
+
+to unresolved technical debt by 
+
+documenting potential sources of 
+
+friction and the solutions; and (b) 
+
+highlight associated risks in the 
+
+Product Lifecycle. 
+
+21.2.2.  Resource 
+
+Traceability 
+
+Matrix 
+
+Provide and keep up to date a clear view of 
+
+the relationships and interdependencies 
+
+between resources in a documented matrix. 
+
+To (a) document and show resource 
+
+coverage for each use case; and 
+
+(b) highlight associated risks in the 
+
+Product Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+86 
+
+21. Product Traceability - FBPML Technical Best Practices v1.0.0. 
+
+21.2.3.  Design 
+
+Traceability 
+
+Matrix 
+
+Provide and keep up to date a clear view of 
+
+the relationships and interdependencies 
+
+between designs and interactions thereof in 
+
+a documented matrix. 
+
+To (a) document design and 
+
+execution status; (b) clearly trace 
+
+current work and what can be 
+
+pursued next; and (c) highlight 
+
+associated risks in the Product 
+
+Lifecycle. 
+
+21.2.4.  Results 
+
+Reproducibility 
+
+Logs 
+
+Throughout the entire Product Lifecycle, 
+
+whenever a Product component - inclusive 
+
+of Models, experiments, analyses, 
+
+transformation, and evaluations - are run, all 
+
+parameters, hyperparameters and results 
+
+ought to be logged and/or tracked, including 
+
+unique identifier(s) for runs, artifacts, code 
+
+and environments. 
+
+To (a) enable Absolute 
+
+Reproducibility; (b) validate Models 
+
+and Outcomes through enablement 
+
+of analysis of logs, run comparisons 
+
+and reproducibility. 
+
+Objective 
+
+To document and maintain the status of each product and the testing results. Ensure 100% test coverage. 
+
+Prevent inconsistencies between project elements and prevent feature creep. 
+
+21.3 Development 
+
+Control:  Aim: 
+
+21.3.1.  Backlog  Ensure that an effective backlog is 
+
+maintained to track work items and serve as 
+
+a historical representation and timeline of 
+
+completed features and velocity. 
+
+To (a) ensure a comprehensive 
+
+breakdown of Features and 
+
+tasks necessary to achieve full 
+
+product functionality; (b) provide 
+
+highly readable coarse-grained 
+
+versioning; and (c) highlight 
+
+associated risks in the Product 
+
+Lifecycle. 
+
+21.3.2.  Documentation 
+
+for Technical 
+
+Contributors 
+
+Maintain technical documentation that 
+
+enables all current and future contributors 
+
+to efficaciously and safely develop and 
+
+maintain the Product, including such 
+
+information as description of each file, the 
+
+workflow, author, environments, accrued 
+
+technical debt. 
+
+To (a) maintain Product technical 
+
+integrity by ensuring safe 
+
+contribution and maintenance 
+
+practices; and (b) highlight 
+
+associated risks in the Product 
+
+Lifecycle. 
+
+21.3.3.  Version Control 
+
+of Code 
+
+Maintain uninterrupted version control 
+
+systems and practices of all code used by, in 
+
+and during the Product and its Lifecycle. 
+
+To (a) maintain Product technical 
+
+integrity by ensuring safe 
+
+contribution and maintenance 
+
+practices; and (b) highlight 
+
+associated risks in the Product 
+
+Lifecycle. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+87 
+
+21.3.4.  Docstrings and 
+
+Code Comments 
+
+Document in each function the author of 
+
+code, purpose of code, input, Output, and 
+
+improvements to be made. Document the 
+
+source of inputs and potentially a short 
+
+business description of data used. 
+
+To (a) ensure Model clarity as to 
+
+technical progress; and (b) highlight 
+
+associated risks in the Product 
+
+Lifecycle. 
+
+21.3.5.  Project Status 
+
+Reports 
+
+Ensure that all status reports and similar 
+
+communications to Management and 
+
+Stakeholders are stored and maintained, 
+
+inclusive of team updates, reports to the 
+
+Product Manager, and Stakeholder reports 
+
+by request. 
+
+To (a) maintain a formal written 
+
+record of decisions, progress and 
+
+context evolution; and (b) highlight 
+
+associated risks in the Product 
+
+Lifecycle. 
+
+21. Product Traceability - FBPML Technical Best Practices v1.0.0. 
+
+Objective 
+
+To document the observed impact of updates to the product. Document product runs and their input for 
+
+reproducibility. 
+
+21.4 Production 
+
+Control:  Aim: 
+
+21.4.1.  Version control 
+
+through CI/CD 
+
+Maintain distinct production versions 
+
+to easily revert or roll back to a working 
+
+previous Product, if production issues arise. 
+
+Properly set up CI/CD enables easy redeploy 
+
+of any artifact and version. 
+
+To (a) provide functional Product 
+
+to users at all times; (b) seamlessly 
+
+redeploy Product versions if 
+
+needed; and (c) highlight associated 
+
+risks in the Product Lifecycle. 
+
+21.4.2.  Data Lineage 
+
+Manifest 
+
+Utilise a data lake for production data, 
+
+intermediate results, and end results. Each 
+
+step should be documented in a manifest 
+
+that is passed from one step of the process 
+
+to the next and always accompanies stored 
+
+data and results. 
+
+To (a) create a structured way for 
+
+tracing where data has been, what 
+
+was done to it, and results; and (b) 
+
+highlight associated risks in the 
+
+Product Lifecycle.

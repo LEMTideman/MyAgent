@@ -1,0 +1,949 @@
+Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+7FBPML Organisation Best Practices v1.0.0. 
+
+1.1.  Adversarial Action  means actions characterised by mala fide (malicious) intent and/or bad 
+
+faith. 
+
+1.2.  Assessment  means the action or process of making a series of determinations and 
+
+judgments after taking deliberate steps to test, measure and collectively 
+
+deliberate the objects of concern and their outcomes. 
+
+1.3.  Assets  means information technology hardware that concerns Products Machine 
+
+Learning. 
+
+1.4.  Business Stakeholders  means the departments and/or teams within the Organisation who do 
+
+not conduct data science and/or technical Machine Learning, but have a 
+
+material interest in Products Machine Learning. 
+
+1.5.  Corporate Governance 
+
+Principles 
+
+mean the structure of rules, practices and processes used to direct and 
+
+manage a company in terms of industry recognised and published legal 
+
+guidelines. 
+
+1.6.  Data Governance  means the systems of governance and/or management over data assets 
+
+and/or processes within an Organisation. 
+
+1.7.  Data Quality  means the calibre of qualitative or quantitative data. 
+
+1.8.  Data Science  means an interdisciplinary field that uses scientific methods, processes, 
+
+algorithms and computational systems to extract knowledge and insights 
+
+from structured and/or unstructured data. 
+
+1.9.  Domain  means the societal and/or commercial environment within which the 
+
+Product will be and/or is operationalised. 
+
+1.10.  Ethical Practices  means the ethical principles, values and/or practices that are 
+
+encapsulated and promoted in an ‘artificial intelligence’ ethics guideline 
+
+and/or framework, such as (a) The Asilomar AI Principles (Asilomar AI 
+
+Principles, 2017), (b) The Montreal Declaration for Responsible AI (Montreal 
+
+Declaration, 2017), (c) The Ethically Aligned Design: A Vision for Prioritizing 
+
+Human Well-being with Autonomous and Intelligent Systems (IEEE, 2017), 
+
+and/or (d) any other analogous guideline and/or framework. 
+
+1.11.  Ethics Committee  means the committee within the Organisation charged with managing and/ 
+
+or directing organisation Ethical Practices. 
+
+1.12.  Executive Management  means the managerial team at the highest level of management within the 
+
+Organisation. 
+
+1.13.  Explainability  means the property of Models and Model outcomes to be interpreted and/ 
+
+or explained by humans in a comprehensible manner. 
+
+As used in this Best Practice Guideline, the following terms shall have the following meanings where capitalised. 
+
+All references to the singular shall include references to the plural, where applicable, and vice versa. Any terms 
+
+not defined or capitalised in this Best Practice Guideline shall hold their plain text meaning as cited in English and 
+
+data science. 
+
+# Section 1. Definitions Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+8FBPML Organisation Best Practices v1.0.0. 
+
+1. Definitions - FBPML Organisation Best Practices v1.0.0. 
+
+1.14.  Fairness & Non-
+
+Discrimination 
+
+means the property of Models and Model outcomes to be free from bias 
+
+against protected classes. 
+
+1.15.  Best Practice Guideline  means this document. 
+
+1.16.  Guide  means an established and clearly documented series of actions or 
+
+process(es) conducted in a certain order or manner to achieve particular 
+
+outcomes. 
+
+1.17.  Human-Centric Design 
+
+& Redress 
+
+means orienting Products and/or Models to focus on humans and their 
+
+environments through promoting human and/or environment centric 
+
+values and resources for redress. 
+
+1.18.  Incident  means the occurrence of a technical event that affects the integrity of a 
+
+Product and/or Model. 
+
+1.19.  Machine Learning  means the use and development of computer systems and Models that 
+
+are able to learn and adapt with minimal explicit human instructions by 
+
+using algorithms and statistical modelling to analyse, draw inferences, and 
+
+derive outputs from data. 
+
+1.20.  Model  means Machine Learning algorithms and data processing designed, 
+
+developed, trained and implemented to achieve set outputs, inclusive of 
+
+datasets used for said purposes unless otherwise stated. 
+
+1.21.  Organisation  means the concerned juristic entity designing, developing and/or 
+
+implementing Machine Learning. 
+
+1.22.  Performance 
+
+Robustness 
+
+means the propensity of Products and/or Models to retain their desired 
+
+performance over diverse and wide operational conditions. 
+
+1.23.  Policy  means a documented course of normative actions or set of principles 
+
+adopted to achieve a particular outcome. 
+
+1.24.  Procedure  means an established and defined series of actions or process(es) 
+
+conducted in a certain order or manner to achieve a particular outcome. 
+
+1.25.  Product  means the collective and broad process of design, development, 
+
+implementation and operationalisation of Models, and associated 
+
+processes, to execute and achieve Product Definitions, inclusive of, inter 
+
+alia, the integration of such operations and/or Models into organisation 
+
+products, software and/or systems. 
+
+1.26.  Product Team  means the collective group of Organisation employees directly charged 
+
+with designing, developing and/or implementing the Product. 
+
+1.27.  Product Lifecycle  means the collective phases of Products from initiation to termination 
+
+- such as design, exploration, experimentation, development, 
+
+implementation, operationalisation, and decommissioning - and their 
+
+mutual iterations. 
+
+1.28.  Product Owner  means the employee charged with (a) managing and maximising the 
+
+value of the Product and its Product Team; and (b) engaging with various 
+
+Business Stakeholders concerning the Product and its Product Definitions. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+9FBPML Organisation Best Practices v1.0.0. 
+
+1. Definitions - FBPML Organisation Best Practices v1.0.0. 
+
+1.29.  Public  means society at large. 
+
+1.30.  Public Interest  means the welfare or well-being of the Public. 
+
+1.31.  Representativeness  means the degree to which datasets and Models reflect the true 
+
+distribution and conditions of Subjects, Subject populations, and/or 
+
+Domains. 
+
+1.32.  Safety & Security  means (a) the resilience of Products and/or Models against malicious and/ 
+
+or negligent activities that result in Organisational loss of control over 
+
+concerned Products and/or Models; and (b) real Product Domain based 
+
+physical harms that result through Products and/or Models applications 
+
+1.33.  Social Corporate 
+
+Responsibilities 
+
+means the structure of rules, practices and processes used to direct and 
+
+manage a company in terms of industry recognised and published legal 
+
+guidelines to positively contribute to economic, environmental and social 
+
+progress. 
+
+1.34.  Software  means information technology software that concerns Products Machine 
+
+Learning. 
+
+1.35.  Special Interest Groups  means a specific body politic, or a particular collective of citizens, who can 
+
+reasonably be determined to have a material interest in the Product. 
+
+1.36.  Specification  means the accuracy, completeness and exactness of Products, Models 
+
+and/or datasets in reflecting Product Definitions, Product Domains and/ 
+
+or Product Subjects, either in their design and development and/or 
+
+operationalisation. 
+
+1.37.  Subjects  means the entities and/or objects that are represented as data points in 
+
+datasets and/or Models, and who may be the subject of Product and/or 
+
+Model outcomes. 
+
+1.38.  Systemic Stability  means the stability of Organisation, Domain, society and environments as 
+
+a collective ecosystem. 
+
+1.39.  Traceability  means the ability to trace, recount, and reproduce Product outcomes, 
+
+reports, intermediate products, and other artifacts, inclusive of Models, 
+
+datasets and codebases. 
+
+1.40.  Transparency  means the provision of an informed target audiences understanding of 
+
+Organisation and/or Products Machine Learning, and their workings, based 
+
+on documented Organisation information. 
+
+1.41.  Workflows  means the coordinated and standardised sequences of employee work 
+
+activities, processes, and tasks. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder. 
+
+10 FBPML Organisation Best Practices v1.0.0. 
+
+# Part A 
+
+# Organisation Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+11 FBPML Organisation Best Practices v1.0.0. 
+
+# Section 2. Managerial Oversight 
+
+# & Management 
+
+Objective 
+
+To ensure managerial direction and support for Products in accordance with Organisation strategies, business 
+
+requirements, Corporate Governance Principles, Social Corporate Responsibilities, legal regulations and Ethical 
+
+Practices. 
+
+2.1 Management Direction for Machine Learning 
+
+Control:  Aim: 
+
+2.1.1.  Management 
+
+Committee 
+
+A managerial committee ought to be 
+
+established to (a) oversee Organisation 
+
+Machine Learning and Products; and 
+
+(b) warrant their effective alignment in 
+
+accordance with Organisation strategies, 
+
+business requirements, Corporate 
+
+Governance Principles, Social Corporate 
+
+Responsibilities, legal regulations and 
+
+Ethical Practices. 
+
+To ensure clear managerial 
+
+responsibility, oversight and 
+
+custody of Organisation Machine 
+
+Learning and Products. 
+
+11.1.2.  Management 
+
+Committee 
+
+Diversity 
+
+The Management Committee ought to 
+
+hold a diversity of members from differing 
+
+Organisation departments, including 
+
+Executive Management, legal, finance, 
+
+operations, public communications as 
+
+well as Data Science. 
+
+To (a) ensure the diversity of 
+
+managerial opinions and oversight 
+
+of Organisation Machine Learning 
+
+and Products; and (b) foster 
+
+Organisation buy-in for Machine 
+
+Learning and Products. 
+
+11.1.3.  Managerial 
+
+Oversight 
+
+Procedures 
+
+The Management Committee should 
+
+establish appropriate Procedures to 
+
+warrant managerial oversight and 
+
+governance of Organisation Products, 
+
+inclusive of the appointment of Data 
+
+Science Managers. 
+
+To ensure the operationalisation 
+
+of the oversight and management 
+
+of Organisation Machine Learning 
+
+and Products by the Management 
+
+Committee. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+12 FBPML Organisation Best Practices v1.0.0. 
+
+# Section 3. Internal Organisation 
+
+# Management & Oversight 
+
+Objective 
+
+To establish managerial Procedures to control and oversee the design, development and implementation of 
+
+Products. 
+
+3.1 Internal Organisation 
+
+Control:  Aim: 
+
+3.1.1.  Data Science 
+
+Managers 
+
+The Management Committee should 
+
+appoint Data Science Managers to oversee 
+
+Products and warrant their effective 
+
+alignment in accordance with the 
+
+directives of the Management Committee, 
+
+Policies, and, more broadly, Organisation 
+
+strategies, business requirements, 
+
+Corporate Governance Principles, 
+
+Social Corporate Responsibilities, legal 
+
+regulations and Ethical Practices. 
+
+To ensure the clear management, 
+
+oversight, ownership and custody 
+
+of Products. 
+
+3.1.2.  Data Science 
+
+Managers Products 
+
+Ownership and 
+
+Custody 
+
+The Management Committee ought to 
+
+define and allocate to Data Science 
+
+Managers Products. 
+
+To ensure clear managerial 
+
+oversight, ownership and custody 
+
+of Products. 
+
+3.1.3.  Data Science 
+
+Managers 
+
+Segregation of 
+
+Duties 
+
+Conflicting duties and areas of 
+
+responsibility of Data Science Managers 
+
+should be segregated to reduce 
+
+opportunities for the unauthorised and/or 
+
+unintentional modification and/or misuse 
+
+of Products. 
+
+To reduce the threat of Product 
+
+abuse, misuse and/or mala fide 
+
+actions by Data Science Managers. 
+
+3.1.4.  Product Owners  Data Science Managers ought to appoint 
+
+Product Owners to (a) oversee specific 
+
+Products and Product Teams; and (b) 
+
+warrant their effective management in 
+
+accordance with the directives of Data 
+
+Science Managers, the Management 
+
+Committee, and Organisation Policies. 
+
+To ensure the clear management, 
+
+oversight, ownership and custody 
+
+of a Product and its Product Team. 
+
+3.1.5.  Product Owners 
+
+Ownership and 
+
+Custody 
+
+Data Science Managers ought to define 
+
+and allocate to designated Product 
+
+Owners Products and Product Teams. 
+
+To ensure clear managerial 
+
+oversight, ownership and custody 
+
+of a Product and its Product Team. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+13 FBPML Organisation Best Practices v1.0.0. 
+
+3. Internal Organisation Management & Oversight - FBPML Organisation Best Practices v1.0.0. 
+
+3.1.6.  Product Owners 
+
+Segregation of 
+
+Duties 
+
+Conflicting duties and areas of 
+
+responsibility of Product Owners should 
+
+be segregated to reduce opportunities 
+
+for the unauthorised and/or unintentional 
+
+modification and/or misuse of a Product. 
+
+To reduce the threat of Product 
+
+abuse, misuse and/or mala fide 
+
+actions by Product Owners. 
+
+3.1.7.  Product Teams  Data Science Managers, in consultation 
+
+with Product Owners, should define and 
+
+allocate Products to designated Product 
+
+Teams. 
+
+To ensure clear Product ownership 
+
+and custody. 
+
+3.1.8.  Product Definitions  Data Science Managers, Product Owners, 
+
+Business Stakeholders and, when relevant, 
+
+Product employees ought to collectively 
+
+document and define clear Product 
+
+definitions, aims, internal deliverables and 
+
+outcomes. 
+
+To ensure Products have clear 
+
+scopes to warrant (a) their 
+
+effective oversight, management 
+
+and execution, as well as (b) to 
+
+allow for the accurate evaluation of 
+
+Product risks and controls. 
+
+3.1.9.  Approval of 
+
+Product Definitions 
+
+The Management Committee should 
+
+review and approve Product Definitions. 
+
+To ensure managerial oversight of 
+
+Products scopes. 
+
+3.1.10.  Product Definitions 
+
+Review 
+
+Product Definitions ought to be reviewed 
+
+periodically, or if significant changes 
+
+occur, by Data Science Managers, Product 
+
+Owners, Business Stakeholders and, when 
+
+relevant, Product employees. 
+
+To ensure that Product Definitions 
+
+are kept up-to-date to ensure 
+
+their continued effectiveness, 
+
+suitability, and accuracy. 
+
+3.1.11.  Product Risk 
+
+Classification 
+
+Policy 
+
+A Policy and Guide, which standarises 
+
+the approaches to assessing Product 
+
+risks, ought to be derived by Data Science 
+
+Managers and approved by the Managerial 
+
+Committee. 
+
+To ensure that (a) clear guidelines 
+
+exist on how to evaluate and 
+
+determine Product based-risks for 
+
+subsequent evaluation in Product 
+
+Risk Portfolios; and (b) Products 
+
+are assigned risk-appropriate 
+
+mandatory minimum capacity and 
+
+oversight. 
+
+3.1.12.  Product Risk 
+
+Classification 
+
+Portfolio 
+
+Data Science Managers, Product Owners, 
+
+Business Stakeholders and, when 
+
+relevant, Product employees ought to 
+
+collectively document and interrogate 
+
+(a) Product Definitions and (b) Product 
+
+design, development and implementation 
+
+to identify Product based-risks and assign 
+
+Product risk values and classifications. 
+
+To ensure Products have clear 
+
+risk portfolios to warrant (a) their 
+
+effective oversight, management 
+
+and execution, as well as (b) to 
+
+allow for the accurate evaluation of 
+
+Product risks and controls. 
+
+3.1.13.  Approval of 
+
+Product Risk 
+
+Classification 
+
+Portfolio 
+
+The Management Committee should 
+
+review and approve Product Risk 
+
+Portfolios. 
+
+To ensure managerial oversight of 
+
+Products risks. 
+
+3.1.14.  Product Product 
+
+Risk Classification 
+
+Portfolio Review 
+
+The Product Risk Classification Portfolio 
+
+ought to be continuously reviewed and 
+
+developed by Data Science Managers, 
+
+Product Owners, Business Stakeholders 
+
+and, when relevant, Product employees. 
+
+To ensure that Product Risk 
+
+Portfolios are kept up-to-date 
+
+to ensure their continued 
+
+effectiveness, suitability, and 
+
+accuracy. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+14 
+
+3. Internal Organisation Management & Oversight - FBPML Organisation Best Practices v1.0.0. 
+
+Objective 
+
+To establish Procedures to control the design, development and implementation of Products. 
+
+3.2 Product Management 
+
+Control:  Aim: 
+
+3.2.1.  Product Lifecycle 
+
+Guide 
+
+Data Science Managers and, when 
+
+relevant, Product Owners should derive 
+
+a clear Product Lifecycle Guide for the 
+
+Organisation. 
+
+To ensure a clear organisational 
+
+Product Lifecycle Guide to warrant 
+
+the effective management and 
+
+oversight of Machine Learning. 
+
+3.2.2.  Product Lifecycle 
+
+and Workflow 
+
+Descriptions 
+
+Having consideration for the Product 
+
+Lifecycle Policy, Product Definitions, and 
+
+the Product Risk Classification Portfolio, 
+
+Product workflows ought to be derived, 
+
+developed, and documented by Data 
+
+Science Managers, Product Owners and, 
+
+when relevant, Product employees for 
+
+each Product. 
+
+To ensure clear Lifecycle and 
+
+Workflows for Products to warrant 
+
+their effective management and 
+
+oversight. 
+
+3.2.3.  Reviewed of 
+
+Product Lifecycle 
+
+Guide 
+
+The Product Lifecycle Guide should be 
+
+reviewed and approved by Data Science 
+
+Managers and, when relevant, the 
+
+Management Committee. 
+
+To ensure managerial oversight of 
+
+the Product Lifecycle Guide. 
+
+3.2.4.  Reviewed of 
+
+Product Lifecycle 
+
+and Workflow 
+
+Description 
+
+Product Lifecycle and Workflow 
+
+Descriptions should be reviewed and 
+
+approved by Data Science Managers 
+
+and, when relevant, the Management 
+
+Committee. 
+
+To ensure managerial oversight of 
+
+Product Lifecycle and Workflow 
+
+Descriptions. 
+
+3.2.5.  Product Lifecycle 
+
+and Workflow 
+
+Procedures 
+
+Each Product ought to derive, develop 
+
+and implement a set of Procedures to 
+
+operationalise Product Lifecycle and 
+
+Workflow Descriptions. 
+
+To ensure the operationalisation 
+
+of Product Lifecycle and Workflow 
+
+Descriptions. 
+
+3.2.6.  Reviewed of 
+
+Product Lifecycle 
+
+and Workflow 
+
+Procedures 
+
+The Product Lifecycle and Workflow 
+
+Procedures should be reviewed 
+
+periodically, or if significant changes 
+
+occur, by the Product Team to ensure their 
+
+continued effectiveness, suitability, and 
+
+accuracy. 
+
+To ensure that Product Product 
+
+Lifecycle and Workflow Procedures 
+
+are kept up-to-date. 
+
+3.2.7.  Product Employee 
+
+Roles and 
+
+Responsibilities 
+
+Data Science Managers and Product 
+
+Owners ought to define and allocate 
+
+to Product employees defined 
+
+responsibilities and roles in terms 
+
+of Product Lifecycle and Workflow 
+
+Descriptions. 
+
+To establish clear employee 
+
+responsibilities and custodies in 
+
+terms of Product Lifecycle and 
+
+Workflow Descriptions. Notice: This document and its content has been licensed under the  Creative Commons Attribution license  by the  Foundation (Stichting) for Best Practices in Machine Learning  (kvk number: 
+
+> 82610363). Any subsequent and/or other use, copying and/or adaptation of this document or its content must abide by the appropriate licensing terms & conditions as reflected thereunder.
+
+15 
+
+3. Internal Organisation Management & Oversight - FBPML Organisation Best Practices v1.0.0. 
+
+3.2.8.  Data Science 
+
+Managers Reports 
+
+Frequent reports detailing Product 
+
+progress, changes and risks ought to be 
+
+made to the Management Committee 
+
+by Data Science Managers and, 
+
+subsequently, reviewed timeously. 
+
+To ensure the clear communication 
+
+and management of Product 
+
+deliverables to the Management 
+
+Committee. 
+
+3.2.9.  Product Owners 
+
+Reports 
+
+Frequent reports detailing Product 
+
+progress, changes and risks ought to be 
+
+made to the Data Science Managers and 
+
+Business Stakeholders by Product Owners 
+
+and, subsequently, reviewed timeously. 
+
+To ensure the clear communication 
+
+and management of Product 
+
+deliverables to Data Science 
+
+Managers and Business 
+
+Stakeholders.
