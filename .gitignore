@@ -12,6 +12,10 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
+# Local data folders (keep locally, not in GitHub)
+pdfs/
+urls/
+
 # ---- uv ----
 .uv/
 # keep uv.lock and pyproject.toml (these are tracked by default, so no ignore needed)
@@ -20,6 +24,7 @@ __pycache__/
 *.ipynb
 !Jina_web_AI_Act.ipynb
 !Process_YouTube_Transcripts.ipynb
+!Jina_local_pdfs.ipynb
 
 # If those notebooks live in subfolders, use this instead:
 # !**/Jina_web_AI_Act.ipynb
