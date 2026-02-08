@@ -1,0 +1,3588 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "1U9FaQBzwJA",
+  "video_title": "The power and limits of Synthetic Data – with Alexandre Jotterand",
+  "video_url": "https://www.youtube.com/watch?v=1U9FaQBzwJA",
+  "fetched_at": "2025-12-29T20:35:11.877691+00:00",
+  "transcript": [
+    {
+      "text": "Welcome to another episode of Legal For",
+      "start": 3.36,
+      "duration": 5.52
+    },
+    {
+      "text": "the podcast. So guys, you do recognize",
+      "start": 6.08,
+      "duration": 5.2
+    },
+    {
+      "text": "my voice at this point. This is always",
+      "start": 8.88,
+      "duration": 5.04
+    },
+    {
+      "text": "Rosie. It's always me here. And as I've",
+      "start": 11.28,
+      "duration": 4.88
+    },
+    {
+      "text": "said many, many times, we are just a",
+      "start": 13.92,
+      "duration": 3.52
+    },
+    {
+      "text": "group of students and young",
+      "start": 16.16,
+      "duration": 3.36
+    },
+    {
+      "text": "professionals who are very interested in",
+      "start": 17.44,
+      "duration": 5.52
+    },
+    {
+      "text": "technology and yes, its regulation. So",
+      "start": 19.52,
+      "duration": 6.32
+    },
+    {
+      "text": "today I am joined by another Jako,",
+      "start": 22.96,
+      "duration": 5.36
+    },
+    {
+      "text": "incredibly so. Hi Jakamo, how are you?",
+      "start": 25.84,
+      "duration": 5.679
+    },
+    {
+      "text": "you recognize my voice. Hello, Rosie.",
+      "start": 28.32,
+      "duration": 6.079
+    },
+    {
+      "text": "Nice to join you. For their joy, they do",
+      "start": 31.519,
+      "duration": 5.681
+    },
+    {
+      "text": "recognize your voice. Um, that said, we",
+      "start": 34.399,
+      "duration": 4.641
+    },
+    {
+      "text": "actually have a very special guest",
+      "start": 37.2,
+      "duration": 3.76
+    },
+    {
+      "text": "today. Someone that we've actually met",
+      "start": 39.04,
+      "duration": 4.0
+    },
+    {
+      "text": "at the privacy symposium in Venice to",
+      "start": 40.96,
+      "duration": 4.32
+    },
+    {
+      "text": "which we've been invited and we really",
+      "start": 43.04,
+      "duration": 6.56
+    },
+    {
+      "text": "loved going to. Hello, Alexandra.",
+      "start": 45.28,
+      "duration": 5.92
+    },
+    {
+      "text": "Hello. It's a pleasure to be here. Thank",
+      "start": 49.6,
+      "duration": 4.24
+    },
+    {
+      "text": "you for the invitation. It's a great",
+      "start": 51.2,
+      "duration": 5.12
+    },
+    {
+      "text": "pleasure to see you um in person, not in",
+      "start": 53.84,
+      "duration": 5.12
+    },
+    {
+      "text": "person again, but anyways, you know, we",
+      "start": 56.32,
+      "duration": 6.559
+    },
+    {
+      "text": "lose track of time here. Um that said, I",
+      "start": 58.96,
+      "duration": 6.159
+    },
+    {
+      "text": "really need you to tell all of our",
+      "start": 62.879,
+      "duration": 3.841
+    },
+    {
+      "text": "listeners what you were doing at the",
+      "start": 65.119,
+      "duration": 4.081
+    },
+    {
+      "text": "privacy symposium in Venice, why you're",
+      "start": 66.72,
+      "duration": 5.04
+    },
+    {
+      "text": "here today, and um I mean, where did",
+      "start": 69.2,
+      "duration": 4.64
+    },
+    {
+      "text": "your career bring you, why you why",
+      "start": 71.76,
+      "duration": 4.399
+    },
+    {
+      "text": "you're in this path?",
+      "start": 73.84,
+      "duration": 5.84
+    },
+    {
+      "text": "Sure. Um, so my name is Alexandro and",
+      "start": 76.159,
+      "duration": 6.32
+    },
+    {
+      "text": "I'm a lawyer uh specializing in",
+      "start": 79.68,
+      "duration": 5.759
+    },
+    {
+      "text": "technology and innovation. I'm based in",
+      "start": 82.479,
+      "duration": 5.68
+    },
+    {
+      "text": "Switzerland which means that uh well I",
+      "start": 85.439,
+      "duration": 5.04
+    },
+    {
+      "text": "either advise Swiss companies or",
+      "start": 88.159,
+      "duration": 4.161
+    },
+    {
+      "text": "European companies or companies that are",
+      "start": 90.479,
+      "duration": 6.64
+    },
+    {
+      "text": "active in in in Europe and u my field of",
+      "start": 92.32,
+      "duration": 7.68
+    },
+    {
+      "text": "expertise include um everything that's",
+      "start": 97.119,
+      "duration": 5.761
+    },
+    {
+      "text": "technology related and of course since",
+      "start": 100.0,
+      "duration": 6.88
+    },
+    {
+      "text": "uh now a lot of years um privacy has",
+      "start": 102.88,
+      "duration": 7.36
+    },
+    {
+      "text": "been kind of the center of the regular",
+      "start": 106.88,
+      "duration": 6.559
+    },
+    {
+      "text": "or I would say until 2023",
+      "start": 110.24,
+      "duration": 5.44
+    },
+    {
+      "text": "uh privacy was really at the center of",
+      "start": 113.439,
+      "duration": 4.64
+    },
+    {
+      "text": "of the regulation of technology. Maybe",
+      "start": 115.68,
+      "duration": 4.479
+    },
+    {
+      "text": "we will have time to discuss of other",
+      "start": 118.079,
+      "duration": 5.04
+    },
+    {
+      "text": "topics and that's basically what brought",
+      "start": 120.159,
+      "duration": 6.401
+    },
+    {
+      "text": "me uh a few weeks ago to the privacy",
+      "start": 123.119,
+      "duration": 6.64
+    },
+    {
+      "text": "symposium where I was invited to speak",
+      "start": 126.56,
+      "duration": 6.56
+    },
+    {
+      "text": "uh on a panel regarding anonymization",
+      "start": 129.759,
+      "duration": 7.521
+    },
+    {
+      "text": "senimization and synthetic data. Um I",
+      "start": 133.12,
+      "duration": 6.4
+    },
+    {
+      "text": "was invited to that specific panel",
+      "start": 137.28,
+      "duration": 4.4
+    },
+    {
+      "text": "because uh in Switzerland I've been",
+      "start": 139.52,
+      "duration": 4.88
+    },
+    {
+      "text": "quite active and I've been very lucky of",
+      "start": 141.68,
+      "duration": 6.8
+    },
+    {
+      "text": "that um in the research industry uh",
+      "start": 144.4,
+      "duration": 7.04
+    },
+    {
+      "text": "specifically for public um the public",
+      "start": 148.48,
+      "duration": 6.96
+    },
+    {
+      "text": "sector where I helped um",
+      "start": 151.44,
+      "duration": 6.48
+    },
+    {
+      "text": "uh universities, research centers and",
+      "start": 155.44,
+      "duration": 4.48
+    },
+    {
+      "text": "public and private organizations",
+      "start": 157.92,
+      "duration": 5.599
+    },
+    {
+      "text": "organized and data schemes in order to",
+      "start": 159.92,
+      "duration": 6.72
+    },
+    {
+      "text": "facilitate the the research and In this",
+      "start": 163.519,
+      "duration": 6.0
+    },
+    {
+      "text": "con in the in this context uh it's",
+      "start": 166.64,
+      "duration": 5.52
+    },
+    {
+      "text": "really important to understand what data",
+      "start": 169.519,
+      "duration": 5.521
+    },
+    {
+      "text": "you are using how do they qualify under",
+      "start": 172.16,
+      "duration": 4.799
+    },
+    {
+      "text": "the law what are the obligations that",
+      "start": 175.04,
+      "duration": 4.24
+    },
+    {
+      "text": "are related to that and that brought me",
+      "start": 176.959,
+      "duration": 6.081
+    },
+    {
+      "text": "into specializing in this very specific",
+      "start": 179.28,
+      "duration": 8.48
+    },
+    {
+      "text": "uh I would say niche topic of privacy",
+      "start": 183.04,
+      "duration": 6.64
+    },
+    {
+      "text": "before we start and we get straight to",
+      "start": 187.76,
+      "duration": 4.88
+    },
+    {
+      "text": "the point of what is integ data let's",
+      "start": 189.68,
+      "duration": 6.96
+    },
+    {
+      "text": "talk about ID east your moto is turning",
+      "start": 192.64,
+      "duration": 6.56
+    },
+    {
+      "text": "legal complexity into actionable",
+      "start": 196.64,
+      "duration": 5.36
+    },
+    {
+      "text": "decision. What do you mean by that? Why",
+      "start": 199.2,
+      "duration": 8.0
+    },
+    {
+      "text": "isn't ID an ordinary law firm? Yeah, I",
+      "start": 202.0,
+      "duration": 7.04
+    },
+    {
+      "text": "don't that's a good question. So, first",
+      "start": 207.2,
+      "duration": 3.92
+    },
+    {
+      "text": "of all, I think that the moto is as much",
+      "start": 209.04,
+      "duration": 4.16
+    },
+    {
+      "text": "for the clients than for me. It's",
+      "start": 211.12,
+      "duration": 4.399
+    },
+    {
+      "text": "something that I like you know",
+      "start": 213.2,
+      "duration": 4.399
+    },
+    {
+      "text": "remembering because it's it's important",
+      "start": 215.519,
+      "duration": 6.08
+    },
+    {
+      "text": "to u make sure that whatever we do we",
+      "start": 217.599,
+      "duration": 8.161
+    },
+    {
+      "text": "are here to simplify clarify and and",
+      "start": 221.599,
+      "duration": 7.601
+    },
+    {
+      "text": "enable other people generally inventing",
+      "start": 225.76,
+      "duration": 6.24
+    },
+    {
+      "text": "inventive people in doing what they do",
+      "start": 229.2,
+      "duration": 6.64
+    },
+    {
+      "text": "best. And so in fields where the",
+      "start": 232.0,
+      "duration": 6.08
+    },
+    {
+      "text": "regulation can be really really you know",
+      "start": 235.84,
+      "duration": 4.64
+    },
+    {
+      "text": "complex there is a lot it overlaps that",
+      "start": 238.08,
+      "duration": 4.799
+    },
+    {
+      "text": "it has not been well thought uh I think",
+      "start": 240.48,
+      "duration": 5.039
+    },
+    {
+      "text": "that the job of a lawyer is really to",
+      "start": 242.879,
+      "duration": 5.601
+    },
+    {
+      "text": "make sure that uh you can start from the",
+      "start": 245.519,
+      "duration": 5.681
+    },
+    {
+      "text": "regulation understand the problem and",
+      "start": 248.48,
+      "duration": 5.6
+    },
+    {
+      "text": "together find a pathway probably not the",
+      "start": 251.2,
+      "duration": 4.64
+    },
+    {
+      "text": "solution but just a pathway so we know",
+      "start": 254.08,
+      "duration": 4.24
+    },
+    {
+      "text": "where we going and we have understand uh",
+      "start": 255.84,
+      "duration": 5.04
+    },
+    {
+      "text": "understood that and that's actually",
+      "start": 258.32,
+      "duration": 4.4
+    },
+    {
+      "text": "really at the core and the center of",
+      "start": 260.88,
+      "duration": 5.28
+    },
+    {
+      "text": "edestavoc. So edest is a is a Latin word",
+      "start": 262.72,
+      "duration": 6.16
+    },
+    {
+      "text": "we use it a lot in in in contracts in",
+      "start": 266.16,
+      "duration": 6.96
+    },
+    {
+      "text": "English contracts i.e. and it's used to",
+      "start": 268.88,
+      "duration": 6.72
+    },
+    {
+      "text": "um explain that we will we will clarify",
+      "start": 273.12,
+      "duration": 5.12
+    },
+    {
+      "text": "the concept of what we were just saying",
+      "start": 275.6,
+      "duration": 5.599
+    },
+    {
+      "text": "and that's actually what we try um to do",
+      "start": 278.24,
+      "duration": 5.92
+    },
+    {
+      "text": "all the time. So we are not here only to",
+      "start": 281.199,
+      "duration": 5.681
+    },
+    {
+      "text": "uh bring you the the legal answer but to",
+      "start": 284.16,
+      "duration": 4.96
+    },
+    {
+      "text": "explain really what does it mean for you",
+      "start": 286.88,
+      "duration": 4.879
+    },
+    {
+      "text": "in your industry and what you can do",
+      "start": 289.12,
+      "duration": 5.519
+    },
+    {
+      "text": "with that information.",
+      "start": 291.759,
+      "duration": 6.401
+    },
+    {
+      "text": "So let's try to make easy a concept that",
+      "start": 294.639,
+      "duration": 6.241
+    },
+    {
+      "text": "apparently is hard to understand for us.",
+      "start": 298.16,
+      "duration": 5.599
+    },
+    {
+      "text": "What is synthetic data in which context",
+      "start": 300.88,
+      "duration": 8.72
+    },
+    {
+      "text": "is relevant and how it's created?",
+      "start": 303.759,
+      "duration": 8.241
+    },
+    {
+      "text": "Yeah. So synthetic data in itself it's",
+      "start": 309.6,
+      "duration": 5.92
+    },
+    {
+      "text": "very easy. It's a it's um data that has",
+      "start": 312.0,
+      "duration": 7.84
+    },
+    {
+      "text": "been uh uh created artificially.",
+      "start": 315.52,
+      "duration": 6.56
+    },
+    {
+      "text": "So uh anything that's not that does not",
+      "start": 319.84,
+      "duration": 4.079
+    },
+    {
+      "text": "come from the real world that's not an",
+      "start": 322.08,
+      "duration": 4.88
+    },
+    {
+      "text": "observation of the real world it is",
+      "start": 323.919,
+      "duration": 6.321
+    },
+    {
+      "text": "synthetic data. Um it's different than",
+      "start": 326.96,
+      "duration": 6.239
+    },
+    {
+      "text": "digital data because digital data is any",
+      "start": 330.24,
+      "duration": 5.519
+    },
+    {
+      "text": "information represented a fact that's uh",
+      "start": 333.199,
+      "duration": 5.121
+    },
+    {
+      "text": "register in a digital in a digital",
+      "start": 335.759,
+      "duration": 4.0
+    },
+    {
+      "text": "manner but it's something that's",
+      "start": 338.32,
+      "duration": 4.48
+    },
+    {
+      "text": "artificially created. Now you you you",
+      "start": 339.759,
+      "duration": 5.361
+    },
+    {
+      "text": "spoke about the the context because here",
+      "start": 342.8,
+      "duration": 4.88
+    },
+    {
+      "text": "also it's it's important to just",
+      "start": 345.12,
+      "duration": 4.639
+    },
+    {
+      "text": "remember and specifically if your",
+      "start": 347.68,
+      "duration": 5.28
+    },
+    {
+      "text": "audience is more um privacy centric that",
+      "start": 349.759,
+      "duration": 4.481
+    },
+    {
+      "text": "actually there there are different",
+      "start": 352.96,
+      "duration": 3.6
+    },
+    {
+      "text": "meanings on understanding of the of the",
+      "start": 354.24,
+      "duration": 5.519
+    },
+    {
+      "text": "concept. So when we are talking between",
+      "start": 356.56,
+      "duration": 6.88
+    },
+    {
+      "text": "privacy experts on synthetic data, we",
+      "start": 359.759,
+      "duration": 7.521
+    },
+    {
+      "text": "see that just as privacy pre preserving",
+      "start": 363.44,
+      "duration": 7.44
+    },
+    {
+      "text": "techniques. So it's a it's a way to uh",
+      "start": 367.28,
+      "duration": 6.639
+    },
+    {
+      "text": "ensure that uh we we basically we have",
+      "start": 370.88,
+      "duration": 6.64
+    },
+    {
+      "text": "less problem regarding um personal data",
+      "start": 373.919,
+      "duration": 6.161
+    },
+    {
+      "text": "um regulations because we will hope that",
+      "start": 377.52,
+      "duration": 4.16
+    },
+    {
+      "text": "the data is not personal data. I think",
+      "start": 380.08,
+      "duration": 4.08
+    },
+    {
+      "text": "we're going come back to that. But it",
+      "start": 381.68,
+      "duration": 6.72
+    },
+    {
+      "text": "also has different meanings. In fact um",
+      "start": 384.16,
+      "duration": 6.96
+    },
+    {
+      "text": "um in data forensics it's a very",
+      "start": 388.4,
+      "duration": 5.76
+    },
+    {
+      "text": "specific thing and it sometimes very",
+      "start": 391.12,
+      "duration": 5.76
+    },
+    {
+      "text": "useful to just artificially created data",
+      "start": 394.16,
+      "duration": 5.92
+    },
+    {
+      "text": "to test uh hypothesises",
+      "start": 396.88,
+      "duration": 6.0
+    },
+    {
+      "text": "and now that we are talking a lot about",
+      "start": 400.08,
+      "duration": 6.0
+    },
+    {
+      "text": "um genai. So genai is basically creating",
+      "start": 402.88,
+      "duration": 6.64
+    },
+    {
+      "text": "synthetic data all the time and uh we",
+      "start": 406.08,
+      "duration": 6.32
+    },
+    {
+      "text": "use a lot of synthetic data in the",
+      "start": 409.52,
+      "duration": 5.119
+    },
+    {
+      "text": "context of creating the models. We maybe",
+      "start": 412.4,
+      "duration": 4.88
+    },
+    {
+      "text": "also be able to come back to that. But",
+      "start": 414.639,
+      "duration": 5.361
+    },
+    {
+      "text": "everything that is generated by AI is",
+      "start": 417.28,
+      "duration": 5.84
+    },
+    {
+      "text": "synthetic data and that also raises",
+      "start": 420.0,
+      "duration": 5.68
+    },
+    {
+      "text": "questions because we end up in a world",
+      "start": 423.12,
+      "duration": 5.28
+    },
+    {
+      "text": "on the internet where most of the data",
+      "start": 425.68,
+      "duration": 4.639
+    },
+    {
+      "text": "that we can find is actually",
+      "start": 428.4,
+      "duration": 5.04
+    },
+    {
+      "text": "artificially created. So um always good",
+      "start": 430.319,
+      "duration": 4.88
+    },
+    {
+      "text": "to keep in mind when we are talking",
+      "start": 433.44,
+      "duration": 4.319
+    },
+    {
+      "text": "about uh synthetic data. I think we're",
+      "start": 435.199,
+      "duration": 5.201
+    },
+    {
+      "text": "going to delve uh a little bit more into",
+      "start": 437.759,
+      "duration": 5.681
+    },
+    {
+      "text": "the privacy aspect. So really what we",
+      "start": 440.4,
+      "duration": 6.56
+    },
+    {
+      "text": "want to do with that the area where um",
+      "start": 443.44,
+      "duration": 6.479
+    },
+    {
+      "text": "it's on purpose that we are creating",
+      "start": 446.96,
+      "duration": 5.359
+    },
+    {
+      "text": "synthetic data to solve uh very",
+      "start": 449.919,
+      "duration": 5.041
+    },
+    {
+      "text": "important privacy issues in order for",
+      "start": 452.319,
+      "duration": 5.761
+    },
+    {
+      "text": "instance to uh facilitate research but",
+      "start": 454.96,
+      "duration": 5.12
+    },
+    {
+      "text": "just keep in mind that we have different",
+      "start": 458.08,
+      "duration": 4.88
+    },
+    {
+      "text": "aspect of synthetic data and that it can",
+      "start": 460.08,
+      "duration": 5.36
+    },
+    {
+      "text": "be used in in different situations. um",
+      "start": 462.96,
+      "duration": 4.32
+    },
+    {
+      "text": "if you allow me one example. So if we",
+      "start": 465.44,
+      "duration": 3.92
+    },
+    {
+      "text": "are going back to AI and I guess we're",
+      "start": 467.28,
+      "duration": 5.919
+    },
+    {
+      "text": "gonna speak a lot about uh AI but um",
+      "start": 469.36,
+      "duration": 7.2
+    },
+    {
+      "text": "actually so the the way the new AI",
+      "start": 473.199,
+      "duration": 7.041
+    },
+    {
+      "text": "models the giants that we are using they",
+      "start": 476.56,
+      "duration": 6.079
+    },
+    {
+      "text": "not only rely on synthetic data but",
+      "start": 480.24,
+      "duration": 5.519
+    },
+    {
+      "text": "actually how they they perform. So you",
+      "start": 482.639,
+      "duration": 5.761
+    },
+    {
+      "text": "have two computing models, one that",
+      "start": 485.759,
+      "duration": 4.801
+    },
+    {
+      "text": "creates synthetic data and the other one",
+      "start": 488.4,
+      "duration": 4.479
+    },
+    {
+      "text": "which is responsible for telling whether",
+      "start": 490.56,
+      "duration": 4.24
+    },
+    {
+      "text": "or not it can recognize that it's",
+      "start": 492.879,
+      "duration": 4.961
+    },
+    {
+      "text": "synthetic data and that's the way it got",
+      "start": 494.8,
+      "duration": 6.32
+    },
+    {
+      "text": "so uh so so good. So we are not talking",
+      "start": 497.84,
+      "duration": 5.68
+    },
+    {
+      "text": "about the need to preserve privacy",
+      "start": 501.12,
+      "duration": 5.12
+    },
+    {
+      "text": "rights or anything. We are using",
+      "start": 503.52,
+      "duration": 5.6
+    },
+    {
+      "text": "synthetic data for a very different um",
+      "start": 506.24,
+      "duration": 5.2
+    },
+    {
+      "text": "purpose.",
+      "start": 509.12,
+      "duration": 6.0
+    },
+    {
+      "text": "And if we are talking now about privacy",
+      "start": 511.44,
+      "duration": 6.64
+    },
+    {
+      "text": "preserving methods. So here it's really",
+      "start": 515.12,
+      "duration": 5.76
+    },
+    {
+      "text": "the idea and that's as I mentioned the",
+      "start": 518.08,
+      "duration": 4.8
+    },
+    {
+      "text": "thing that we most people will think",
+      "start": 520.88,
+      "duration": 3.279
+    },
+    {
+      "text": "about when we are talking about",
+      "start": 522.88,
+      "duration": 4.959
+    },
+    {
+      "text": "synthetic data but it's the idea that we",
+      "start": 524.159,
+      "duration": 6.161
+    },
+    {
+      "text": "can have data sets that contains",
+      "start": 527.839,
+      "duration": 8.0
+    },
+    {
+      "text": "personal data and uh it will have um u",
+      "start": 530.32,
+      "duration": 7.199
+    },
+    {
+      "text": "there is information that you can",
+      "start": 535.839,
+      "duration": 4.401
+    },
+    {
+      "text": "extract from these data sets without",
+      "start": 537.519,
+      "duration": 5.121
+    },
+    {
+      "text": "needing any personal data. So you will",
+      "start": 540.24,
+      "duration": 5.68
+    },
+    {
+      "text": "only take the uh the the stat",
+      "start": 542.64,
+      "duration": 6.319
+    },
+    {
+      "text": "statistical value of the data and you",
+      "start": 545.92,
+      "duration": 5.359
+    },
+    {
+      "text": "will reproduce that in a new data set",
+      "start": 548.959,
+      "duration": 4.801
+    },
+    {
+      "text": "artificially created that will not be",
+      "start": 551.279,
+      "duration": 4.641
+    },
+    {
+      "text": "about a bub analysis but that will",
+      "start": 553.76,
+      "duration": 4.72
+    },
+    {
+      "text": "contain the same information uh in",
+      "start": 555.92,
+      "duration": 4.16
+    },
+    {
+      "text": "relation to each of them and that will",
+      "start": 558.48,
+      "duration": 5.359
+    },
+    {
+      "text": "be um the way we create synthetic data",
+      "start": 560.08,
+      "duration": 8.56
+    },
+    {
+      "text": "for the purpose of um of uh solving",
+      "start": 563.839,
+      "duration": 7.12
+    },
+    {
+      "text": "privacy issues.",
+      "start": 568.64,
+      "duration": 6.4
+    },
+    {
+      "text": "Um however we know that there are a lots",
+      "start": 570.959,
+      "duration": 7.041
+    },
+    {
+      "text": "of shades between personal data and",
+      "start": 575.04,
+      "duration": 5.52
+    },
+    {
+      "text": "synthetic data. So we know that Cintelli",
+      "start": 578.0,
+      "duration": 4.32
+    },
+    {
+      "text": "data as you've said are basically",
+      "start": 580.56,
+      "duration": 5.12
+    },
+    {
+      "text": "generated they're not u made by human",
+      "start": 582.32,
+      "duration": 9.12
+    },
+    {
+      "text": "and not related to the human but I mean",
+      "start": 585.68,
+      "duration": 8.719
+    },
+    {
+      "text": "everywhere we read now anonymized",
+      "start": 591.44,
+      "duration": 5.2
+    },
+    {
+      "text": "pseudonymized then there's synthetic",
+      "start": 594.399,
+      "duration": 4.321
+    },
+    {
+      "text": "data then there's personal data then",
+      "start": 596.64,
+      "duration": 6.08
+    },
+    {
+      "text": "there's relatable data how how would you",
+      "start": 598.72,
+      "duration": 7.04
+    },
+    {
+      "text": "put these definitions in a framework so",
+      "start": 602.72,
+      "duration": 6.08
+    },
+    {
+      "text": "that our listeners and ourselves because",
+      "start": 605.76,
+      "duration": 6.4
+    },
+    {
+      "text": "we need help. Um can understand which",
+      "start": 608.8,
+      "duration": 6.8
+    },
+    {
+      "text": "one as a solution is better to be used",
+      "start": 612.16,
+      "duration": 5.359
+    },
+    {
+      "text": "in specific models for example like",
+      "start": 615.6,
+      "duration": 4.16
+    },
+    {
+      "text": "what's the difference and why do we have",
+      "start": 617.519,
+      "duration": 3.921
+    },
+    {
+      "text": "all of these shades and not just one",
+      "start": 619.76,
+      "duration": 4.16
+    },
+    {
+      "text": "type of data.",
+      "start": 621.44,
+      "duration": 4.56
+    },
+    {
+      "text": "Yeah. Um so maybe to answer your",
+      "start": 623.92,
+      "duration": 4.72
+    },
+    {
+      "text": "questions the the first",
+      "start": 626.0,
+      "duration": 5.44
+    },
+    {
+      "text": "part of the reflection is to come back",
+      "start": 628.64,
+      "duration": 6.4
+    },
+    {
+      "text": "to the definition of personal data. So",
+      "start": 631.44,
+      "duration": 7.6
+    },
+    {
+      "text": "if we are in the discussions regarding I",
+      "start": 635.04,
+      "duration": 5.68
+    },
+    {
+      "text": "want to create synthetic data in order",
+      "start": 639.04,
+      "duration": 4.72
+    },
+    {
+      "text": "to solve privacy issues then um we need",
+      "start": 640.72,
+      "duration": 5.04
+    },
+    {
+      "text": "to come back to what is personal data.",
+      "start": 643.76,
+      "duration": 3.92
+    },
+    {
+      "text": "So there is a very clear definition in",
+      "start": 645.76,
+      "duration": 5.44
+    },
+    {
+      "text": "the law. It's similar at least in in",
+      "start": 647.68,
+      "duration": 8.8
+    },
+    {
+      "text": "Europe uh and um personal data is data",
+      "start": 651.2,
+      "duration": 8.4
+    },
+    {
+      "text": "that uh um that is related to an",
+      "start": 656.48,
+      "duration": 6.479
+    },
+    {
+      "text": "individual that is uh identified or",
+      "start": 659.6,
+      "duration": 6.239
+    },
+    {
+      "text": "identifiable. And therefore there are",
+      "start": 662.959,
+      "duration": 6.481
+    },
+    {
+      "text": "four components of uh a thing being",
+      "start": 665.839,
+      "duration": 5.44
+    },
+    {
+      "text": "called person data. You need a piece of",
+      "start": 669.44,
+      "duration": 4.72
+    },
+    {
+      "text": "information. You need a natural person.",
+      "start": 671.279,
+      "duration": 5.361
+    },
+    {
+      "text": "you need a link between both. So the",
+      "start": 674.16,
+      "duration": 5.679
+    },
+    {
+      "text": "information needs to relate to and um",
+      "start": 676.64,
+      "duration": 4.8
+    },
+    {
+      "text": "the",
+      "start": 679.839,
+      "duration": 3.68
+    },
+    {
+      "text": "uh the person need to be at least",
+      "start": 681.44,
+      "duration": 3.68
+    },
+    {
+      "text": "identifiable.",
+      "start": 683.519,
+      "duration": 3.841
+    },
+    {
+      "text": "If you remove the last part the",
+      "start": 685.12,
+      "duration": 4.959
+    },
+    {
+      "text": "identification part then you have",
+      "start": 687.36,
+      "duration": 7.12
+    },
+    {
+      "text": "anonymized data obser data. So you have",
+      "start": 690.079,
+      "duration": 7.2
+    },
+    {
+      "text": "data but it's not possible it's to make",
+      "start": 694.48,
+      "duration": 5.44
+    },
+    {
+      "text": "the link with the with the person",
+      "start": 697.279,
+      "duration": 5.361
+    },
+    {
+      "text": "because the person is notident",
+      "start": 699.92,
+      "duration": 5.599
+    },
+    {
+      "text": "identifiable. If you remove the third",
+      "start": 702.64,
+      "duration": 5.6
+    },
+    {
+      "text": "part which is the related to then you",
+      "start": 705.519,
+      "duration": 6.161
+    },
+    {
+      "text": "get synthetic data because you have data",
+      "start": 708.24,
+      "duration": 6.4
+    },
+    {
+      "text": "which actually looks like personal data",
+      "start": 711.68,
+      "duration": 6.08
+    },
+    {
+      "text": "but it does not relate to actually any",
+      "start": 714.64,
+      "duration": 6.0
+    },
+    {
+      "text": "existing individual.",
+      "start": 717.76,
+      "duration": 4.88
+    },
+    {
+      "text": "So that's the theory in reality there",
+      "start": 720.64,
+      "duration": 4.4
+    },
+    {
+      "text": "it's a bit more complex because your",
+      "start": 722.64,
+      "duration": 5.199
+    },
+    {
+      "text": "synthetic data can be personal data can",
+      "start": 725.04,
+      "duration": 6.16
+    },
+    {
+      "text": "be uh pony anonymized data or can be",
+      "start": 727.839,
+      "duration": 6.56
+    },
+    {
+      "text": "anonymized or anonymous data. So um",
+      "start": 731.2,
+      "duration": 5.28
+    },
+    {
+      "text": "anonymized data is personal data that",
+      "start": 734.399,
+      "duration": 4.801
+    },
+    {
+      "text": "you have made anonymous and anonymous",
+      "start": 736.48,
+      "duration": 4.159
+    },
+    {
+      "text": "data could be actually you know",
+      "start": 739.2,
+      "duration": 4.319
+    },
+    {
+      "text": "methological data uh any information",
+      "start": 740.639,
+      "duration": 4.88
+    },
+    {
+      "text": "about buildings anything that does not",
+      "start": 743.519,
+      "duration": 4.0
+    },
+    {
+      "text": "relate to any individual then it's just",
+      "start": 745.519,
+      "duration": 5.041
+    },
+    {
+      "text": "anonymous data. Um",
+      "start": 747.519,
+      "duration": 5.521
+    },
+    {
+      "text": "and yeah the question that will be very",
+      "start": 750.56,
+      "duration": 5.04
+    },
+    {
+      "text": "complex to answer to answer and that is",
+      "start": 753.04,
+      "duration": 5.68
+    },
+    {
+      "text": "all uh always very complex is to",
+      "start": 755.6,
+      "duration": 5.679
+    },
+    {
+      "text": "understand well but what are the the",
+      "start": 758.72,
+      "duration": 6.239
+    },
+    {
+      "text": "threshold that we need to um to apply in",
+      "start": 761.279,
+      "duration": 6.0
+    },
+    {
+      "text": "order to understand whether you are in",
+      "start": 764.959,
+      "duration": 7.481
+    },
+    {
+      "text": "one special category or the other",
+      "start": 767.279,
+      "duration": 5.161
+    },
+    {
+      "text": "and um I can give you that because",
+      "start": 773.6,
+      "duration": 5.2
+    },
+    {
+      "text": "I'm sure it's going to be interesting",
+      "start": 777.36,
+      "duration": 4.0
+    },
+    {
+      "text": "said to everyone. So first of all, we we",
+      "start": 778.8,
+      "duration": 4.56
+    },
+    {
+      "text": "don't really have definitions in the law",
+      "start": 781.36,
+      "duration": 5.12
+    },
+    {
+      "text": "about what is sodomized or anonymized",
+      "start": 783.36,
+      "duration": 6.159
+    },
+    {
+      "text": "data. There is one recital in the GDPR",
+      "start": 786.48,
+      "duration": 5.44
+    },
+    {
+      "text": "that gives us a little bit of idea about",
+      "start": 789.519,
+      "duration": 5.921
+    },
+    {
+      "text": "that, but we don't have any concrete um",
+      "start": 791.92,
+      "duration": 7.68
+    },
+    {
+      "text": "information. The the what we know is the",
+      "start": 795.44,
+      "duration": 6.72
+    },
+    {
+      "text": "concept of suddenization. So it's the",
+      "start": 799.6,
+      "duration": 6.4
+    },
+    {
+      "text": "act of removing uh identifiers. So",
+      "start": 802.16,
+      "duration": 6.0
+    },
+    {
+      "text": "things that for instance my name or my",
+      "start": 806.0,
+      "duration": 6.0
+    },
+    {
+      "text": "date of birth and and uh in order to",
+      "start": 808.16,
+      "duration": 8.0
+    },
+    {
+      "text": "have at the end uh senimized data",
+      "start": 812.0,
+      "duration": 5.92
+    },
+    {
+      "text": "um",
+      "start": 816.16,
+      "duration": 3.919
+    },
+    {
+      "text": "the the the big question and the",
+      "start": 817.92,
+      "duration": 3.919
+    },
+    {
+      "text": "definition well let's start by the the",
+      "start": 820.079,
+      "duration": 4.481
+    },
+    {
+      "text": "the difference between anonymized and",
+      "start": 821.839,
+      "duration": 4.881
+    },
+    {
+      "text": "senimized and then we'll get back to the",
+      "start": 824.56,
+      "duration": 6.24
+    },
+    {
+      "text": "real question. So um if I just remove",
+      "start": 826.72,
+      "duration": 6.32
+    },
+    {
+      "text": "the identifiers but I keep the code",
+      "start": 830.8,
+      "duration": 5.36
+    },
+    {
+      "text": "that's required to identify the data or",
+      "start": 833.04,
+      "duration": 5.84
+    },
+    {
+      "text": "the individuals then I have senimized",
+      "start": 836.16,
+      "duration": 5.2
+    },
+    {
+      "text": "data and if I completely destroy the",
+      "start": 838.88,
+      "duration": 6.16
+    },
+    {
+      "text": "link between the uh the data and the",
+      "start": 841.36,
+      "duration": 6.4
+    },
+    {
+      "text": "individuals I have anonymized data. So",
+      "start": 845.04,
+      "duration": 5.039
+    },
+    {
+      "text": "that seems easy in theory. In practic",
+      "start": 847.76,
+      "duration": 4.879
+    },
+    {
+      "text": "the big question that we have is the",
+      "start": 850.079,
+      "duration": 4.401
+    },
+    {
+      "text": "sharing of data between different",
+      "start": 852.639,
+      "duration": 5.921
+    },
+    {
+      "text": "persons or where the information that is",
+      "start": 854.48,
+      "duration": 5.84
+    },
+    {
+      "text": "the additional information that is",
+      "start": 858.56,
+      "duration": 6.399
+    },
+    {
+      "text": "required to uh reidentify individuals in",
+      "start": 860.32,
+      "duration": 7.28
+    },
+    {
+      "text": "a data set that has been deidentified.",
+      "start": 864.959,
+      "duration": 4.721
+    },
+    {
+      "text": "That can be any process and that",
+      "start": 867.6,
+      "duration": 4.16
+    },
+    {
+      "text": "includes sodomizationization",
+      "start": 869.68,
+      "duration": 4.56
+    },
+    {
+      "text": "or or the creation of synthetic data.",
+      "start": 871.76,
+      "duration": 4.48
+    },
+    {
+      "text": "you they identify",
+      "start": 874.24,
+      "duration": 4.48
+    },
+    {
+      "text": "and at the end the question is well can",
+      "start": 876.24,
+      "duration": 4.399
+    },
+    {
+      "text": "I still link this information to a",
+      "start": 878.72,
+      "duration": 4.559
+    },
+    {
+      "text": "person and the real complex question",
+      "start": 880.639,
+      "duration": 4.401
+    },
+    {
+      "text": "especially when you are talking with",
+      "start": 883.279,
+      "duration": 6.24
+    },
+    {
+      "text": "different actors collaborating is and",
+      "start": 885.04,
+      "duration": 6.799
+    },
+    {
+      "text": "but whose point of view should we take",
+      "start": 889.519,
+      "duration": 4.481
+    },
+    {
+      "text": "take into account whose information",
+      "start": 891.839,
+      "duration": 4.24
+    },
+    {
+      "text": "should we take into account is it",
+      "start": 894.0,
+      "duration": 4.399
+    },
+    {
+      "text": "sufficient if anybody anywhere in the",
+      "start": 896.079,
+      "duration": 5.361
+    },
+    {
+      "text": "world is able to identify the the",
+      "start": 898.399,
+      "duration": 5.44
+    },
+    {
+      "text": "individuals or do we have to take a",
+      "start": 901.44,
+      "duration": 5.199
+    },
+    {
+      "text": "smaller group and that's the really",
+      "start": 903.839,
+      "duration": 6.721
+    },
+    {
+      "text": "complex question on this topic.",
+      "start": 906.639,
+      "duration": 6.481
+    },
+    {
+      "text": "Wow. It sounds super difficult to",
+      "start": 910.56,
+      "duration": 4.959
+    },
+    {
+      "text": "understand and",
+      "start": 913.12,
+      "duration": 4.399
+    },
+    {
+      "text": "I think like as you said like these",
+      "start": 915.519,
+      "duration": 4.32
+    },
+    {
+      "text": "questions are asked at for example",
+      "start": 917.519,
+      "duration": 4.721
+    },
+    {
+      "text": "company level at law level but then you",
+      "start": 919.839,
+      "duration": 4.24
+    },
+    {
+      "text": "also have the judgments of the courts",
+      "start": 922.24,
+      "duration": 4.719
+    },
+    {
+      "text": "which you cannot kind of foresee before",
+      "start": 924.079,
+      "duration": 6.32
+    },
+    {
+      "text": "they happen. So I can imagine the uh",
+      "start": 926.959,
+      "duration": 5.841
+    },
+    {
+      "text": "uncertainty in implementing and giving",
+      "start": 930.399,
+      "duration": 6.161
+    },
+    {
+      "text": "specific advice when you don't know when",
+      "start": 932.8,
+      "duration": 5.92
+    },
+    {
+      "text": "then like which side the court is going",
+      "start": 936.56,
+      "duration": 4.32
+    },
+    {
+      "text": "to go through like if if they're going",
+      "start": 938.72,
+      "duration": 4.16
+    },
+    {
+      "text": "to say like a bigger group of people or",
+      "start": 940.88,
+      "duration": 5.759
+    },
+    {
+      "text": "a smaller group of people. So like my",
+      "start": 942.88,
+      "duration": 6.56
+    },
+    {
+      "text": "question then links to um our kind of",
+      "start": 946.639,
+      "duration": 5.76
+    },
+    {
+      "text": "like train of thoughts and is like if",
+      "start": 949.44,
+      "duration": 5.12
+    },
+    {
+      "text": "there is so much uncertainty on",
+      "start": 952.399,
+      "duration": 4.24
+    },
+    {
+      "text": "definition as you said there is no",
+      "start": 954.56,
+      "duration": 5.199
+    },
+    {
+      "text": "stable definition there are hints here",
+      "start": 956.639,
+      "duration": 5.041
+    },
+    {
+      "text": "and there in the GDPR but it doesn't",
+      "start": 959.759,
+      "duration": 6.241
+    },
+    {
+      "text": "look like a specific you know dictate um",
+      "start": 961.68,
+      "duration": 6.8
+    },
+    {
+      "text": "then there's the legal practice there's",
+      "start": 966.0,
+      "duration": 4.32
+    },
+    {
+      "text": "the interest of a company of course",
+      "start": 968.48,
+      "duration": 5.68
+    },
+    {
+      "text": "because data is valuable and then",
+      "start": 970.32,
+      "duration": 6.4
+    },
+    {
+      "text": "there's the possibility that all of this",
+      "start": 974.16,
+      "duration": 5.52
+    },
+    {
+      "text": "kind of framework is completely shaken",
+      "start": 976.72,
+      "duration": 6.799
+    },
+    {
+      "text": "by a court decision. Do you see the GDPR",
+      "start": 979.68,
+      "duration": 8.0
+    },
+    {
+      "text": "framework as being helpful in protecting",
+      "start": 983.519,
+      "duration": 8.32
+    },
+    {
+      "text": "privacy and the literally the data the",
+      "start": 987.68,
+      "duration": 7.92
+    },
+    {
+      "text": "personal data of people or is it more a",
+      "start": 991.839,
+      "duration": 6.641
+    },
+    {
+      "text": "um you know",
+      "start": 995.6,
+      "duration": 5.039
+    },
+    {
+      "text": "just something where compliance is",
+      "start": 998.48,
+      "duration": 6.08
+    },
+    {
+      "text": "difficult? is just an earth shaker to a",
+      "start": 1000.639,
+      "duration": 5.521
+    },
+    {
+      "text": "situation that would probably be okay.",
+      "start": 1004.56,
+      "duration": 3.36
+    },
+    {
+      "text": "Like who cares if they've got my data",
+      "start": 1006.16,
+      "duration": 5.599
+    },
+    {
+      "text": "anyways? No. Yeah, that's a that's a",
+      "start": 1007.92,
+      "duration": 6.96
+    },
+    {
+      "text": "very almost phil philosophical question",
+      "start": 1011.759,
+      "duration": 5.2
+    },
+    {
+      "text": "I guess",
+      "start": 1014.88,
+      "duration": 4.8
+    },
+    {
+      "text": "for the list. It's very political. So",
+      "start": 1016.959,
+      "duration": 5.041
+    },
+    {
+      "text": "you're well aware that we have different",
+      "start": 1019.68,
+      "duration": 4.96
+    },
+    {
+      "text": "uh regulation in the world and that the",
+      "start": 1022.0,
+      "duration": 5.439
+    },
+    {
+      "text": "European Union is re regulating a bit",
+      "start": 1024.64,
+      "duration": 5.199
+    },
+    {
+      "text": "more than other countries.",
+      "start": 1027.439,
+      "duration": 5.041
+    },
+    {
+      "text": "Some people consider that absolutely",
+      "start": 1029.839,
+      "duration": 4.881
+    },
+    {
+      "text": "required in order to protect privacy",
+      "start": 1032.48,
+      "duration": 6.719
+    },
+    {
+      "text": "rights, individuals rights etc. and",
+      "start": 1034.72,
+      "duration": 7.839
+    },
+    {
+      "text": "other things that is detrimental to both",
+      "start": 1039.199,
+      "duration": 7.281
+    },
+    {
+      "text": "economic growth uh but also things like",
+      "start": 1042.559,
+      "duration": 8.081
+    },
+    {
+      "text": "uh advancing science and I was reading a",
+      "start": 1046.48,
+      "duration": 6.4
+    },
+    {
+      "text": "a paper just a few weeks ago I think",
+      "start": 1050.64,
+      "duration": 4.72
+    },
+    {
+      "text": "last week and it was really revealing.",
+      "start": 1052.88,
+      "duration": 5.84
+    },
+    {
+      "text": "So they uh they assessed the use of",
+      "start": 1055.36,
+      "duration": 6.72
+    },
+    {
+      "text": "anonymized data for the purpose of uh",
+      "start": 1058.72,
+      "duration": 6.72
+    },
+    {
+      "text": "scientific research and then they",
+      "start": 1062.08,
+      "duration": 5.839
+    },
+    {
+      "text": "assessed exactly which teams from which",
+      "start": 1065.44,
+      "duration": 5.04
+    },
+    {
+      "text": "country declared that they were using",
+      "start": 1067.919,
+      "duration": 4.321
+    },
+    {
+      "text": "anonymized data sets and from where",
+      "start": 1070.48,
+      "duration": 4.079
+    },
+    {
+      "text": "these anonymized data sets were coming",
+      "start": 1072.24,
+      "duration": 6.24
+    },
+    {
+      "text": "and the um the overall results were very",
+      "start": 1074.559,
+      "duration": 7.761
+    },
+    {
+      "text": "clear. So in Europe",
+      "start": 1078.48,
+      "duration": 6.64
+    },
+    {
+      "text": "researchers were really reluctant on",
+      "start": 1082.32,
+      "duration": 6.08
+    },
+    {
+      "text": "using anonymized data sets for uh what",
+      "start": 1085.12,
+      "duration": 6.799
+    },
+    {
+      "text": "we can assume is privacy risk questions",
+      "start": 1088.4,
+      "duration": 5.68
+    },
+    {
+      "text": "as you clearly mentioned and that's very",
+      "start": 1091.919,
+      "duration": 5.281
+    },
+    {
+      "text": "accurate Rosalia. Uh it's it's never",
+      "start": 1094.08,
+      "duration": 7.12
+    },
+    {
+      "text": "clear whether or not what you are using",
+      "start": 1097.2,
+      "duration": 7.2
+    },
+    {
+      "text": "fall into one category or the other. So",
+      "start": 1101.2,
+      "duration": 5.599
+    },
+    {
+      "text": "um there is thought, there is risks and",
+      "start": 1104.4,
+      "duration": 4.24
+    },
+    {
+      "text": "if you want to do the things correctly",
+      "start": 1106.799,
+      "duration": 4.0
+    },
+    {
+      "text": "then you will probably end up not using",
+      "start": 1108.64,
+      "duration": 4.0
+    },
+    {
+      "text": "the anonymize data sets because you're",
+      "start": 1110.799,
+      "duration": 4.561
+    },
+    {
+      "text": "not sure you can use it in conformance",
+      "start": 1112.64,
+      "duration": 5.36
+    },
+    {
+      "text": "with the law applicable to you and as a",
+      "start": 1115.36,
+      "duration": 4.96
+    },
+    {
+      "text": "result there is a lot of information and",
+      "start": 1118.0,
+      "duration": 4.72
+    },
+    {
+      "text": "data sets that eur European researchers",
+      "start": 1120.32,
+      "duration": 5.599
+    },
+    {
+      "text": "are not using because",
+      "start": 1122.72,
+      "duration": 5.68
+    },
+    {
+      "text": "uh they consider apparently the I can",
+      "start": 1125.919,
+      "duration": 4.0
+    },
+    {
+      "text": "only assume that they consider it's",
+      "start": 1128.4,
+      "duration": 4.72
+    },
+    {
+      "text": "either not valid or it's a risk where in",
+      "start": 1129.919,
+      "duration": 6.961
+    },
+    {
+      "text": "the US they have when we are talking",
+      "start": 1133.12,
+      "duration": 6.32
+    },
+    {
+      "text": "about medical data and research they",
+      "start": 1136.88,
+      "duration": 4.64
+    },
+    {
+      "text": "have a very specific test they can apply",
+      "start": 1139.44,
+      "duration": 4.8
+    },
+    {
+      "text": "actually two tests and based on that",
+      "start": 1141.52,
+      "duration": 6.08
+    },
+    {
+      "text": "they can have certainty that well they",
+      "start": 1144.24,
+      "duration": 5.6
+    },
+    {
+      "text": "can consider the data as anonymized and",
+      "start": 1147.6,
+      "duration": 5.12
+    },
+    {
+      "text": "or they identified as the term and they",
+      "start": 1149.84,
+      "duration": 5.04
+    },
+    {
+      "text": "can use it so I I will I will agree with",
+      "start": 1152.72,
+      "duration": 6.4
+    },
+    {
+      "text": "you that in some cases um",
+      "start": 1154.88,
+      "duration": 8.08
+    },
+    {
+      "text": "it's it's very so I'm not I wouldn't be",
+      "start": 1159.12,
+      "duration": 5.12
+    },
+    {
+      "text": "very careful what I'm going to say",
+      "start": 1162.96,
+      "duration": 2.56
+    },
+    {
+      "text": "because I'm not saying that we don't",
+      "start": 1164.24,
+      "duration": 3.2
+    },
+    {
+      "text": "need privacy rules. I think they are",
+      "start": 1165.52,
+      "duration": 3.6
+    },
+    {
+      "text": "very important but there are clearly",
+      "start": 1167.44,
+      "duration": 6.239
+    },
+    {
+      "text": "some situations where um uh the the the",
+      "start": 1169.12,
+      "duration": 8.48
+    },
+    {
+      "text": "balance of interest would go into",
+      "start": 1173.679,
+      "duration": 6.401
+    },
+    {
+      "text": "further facilitating the secondary use",
+      "start": 1177.6,
+      "duration": 4.48
+    },
+    {
+      "text": "of data specifically for research",
+      "start": 1180.08,
+      "duration": 3.839
+    },
+    {
+      "text": "purposes and even if there are",
+      "start": 1182.08,
+      "duration": 4.64
+    },
+    {
+      "text": "possibilities available in Europe it is",
+      "start": 1183.919,
+      "duration": 5.601
+    },
+    {
+      "text": "made so complicated that uh most of the",
+      "start": 1186.72,
+      "duration": 6.0
+    },
+    {
+      "text": "time we end up only using uh data for",
+      "start": 1189.52,
+      "duration": 5.92
+    },
+    {
+      "text": "which we've collected clear consent and",
+      "start": 1192.72,
+      "duration": 5.6
+    },
+    {
+      "text": "uh very often with different consent",
+      "start": 1195.44,
+      "duration": 4.64
+    },
+    {
+      "text": "form for different countries. So it's",
+      "start": 1198.32,
+      "duration": 4.08
+    },
+    {
+      "text": "it's detrimental to research and and and",
+      "start": 1200.08,
+      "duration": 6.24
+    },
+    {
+      "text": "and yeah scientific results in in in",
+      "start": 1202.4,
+      "duration": 5.76
+    },
+    {
+      "text": "general.",
+      "start": 1206.32,
+      "duration": 4.479
+    },
+    {
+      "text": "I think the big question around AI is",
+      "start": 1208.16,
+      "duration": 6.08
+    },
+    {
+      "text": "which data is used? What means what do",
+      "start": 1210.799,
+      "duration": 5.921
+    },
+    {
+      "text": "you deploy to make sure that data is",
+      "start": 1214.24,
+      "duration": 5.679
+    },
+    {
+      "text": "used kept in compliance with privacy and",
+      "start": 1216.72,
+      "duration": 6.56
+    },
+    {
+      "text": "data protection law?",
+      "start": 1219.919,
+      "duration": 7.361
+    },
+    {
+      "text": "Yeah. Um so AI poses a lot of questions",
+      "start": 1223.28,
+      "duration": 5.68
+    },
+    {
+      "text": "regarding",
+      "start": 1227.28,
+      "duration": 5.44
+    },
+    {
+      "text": "um personal data that is for sure and",
+      "start": 1228.96,
+      "duration": 6.079
+    },
+    {
+      "text": "they are not yet answered. So we know",
+      "start": 1232.72,
+      "duration": 5.04
+    },
+    {
+      "text": "that the models that we are using every",
+      "start": 1235.039,
+      "duration": 4.561
+    },
+    {
+      "text": "day and that we all think are very",
+      "start": 1237.76,
+      "duration": 5.44
+    },
+    {
+      "text": "useful have been trained on possibly",
+      "start": 1239.6,
+      "duration": 7.199
+    },
+    {
+      "text": "every data available online and they",
+      "start": 1243.2,
+      "duration": 5.839
+    },
+    {
+      "text": "really did not care that much whether or",
+      "start": 1246.799,
+      "duration": 4.801
+    },
+    {
+      "text": "not it was personal data or it was",
+      "start": 1249.039,
+      "duration": 6.601
+    },
+    {
+      "text": "copyright protected data.",
+      "start": 1251.6,
+      "duration": 4.04
+    },
+    {
+      "text": "Once all the models were trained, the",
+      "start": 1256.4,
+      "duration": 7.44
+    },
+    {
+      "text": "EDPB issued uh uh guidelines on what you",
+      "start": 1258.799,
+      "duration": 9.201
+    },
+    {
+      "text": "can do or not with that. And",
+      "start": 1263.84,
+      "duration": 5.92
+    },
+    {
+      "text": "it's a very interesting read but at the",
+      "start": 1268.0,
+      "duration": 4.559
+    },
+    {
+      "text": "end of the day what I can read is that",
+      "start": 1269.76,
+      "duration": 5.12
+    },
+    {
+      "text": "well there is no clear answer. We don't",
+      "start": 1272.559,
+      "duration": 4.401
+    },
+    {
+      "text": "know for sure. It all depends on the",
+      "start": 1274.88,
+      "duration": 5.279
+    },
+    {
+      "text": "situation and uh it probably won't",
+      "start": 1276.96,
+      "duration": 5.599
+    },
+    {
+      "text": "change much for the time being. So the",
+      "start": 1280.159,
+      "duration": 6.321
+    },
+    {
+      "text": "we we have this enormous uh discussion",
+      "start": 1282.559,
+      "duration": 7.6
+    },
+    {
+      "text": "um about the training parts for personal",
+      "start": 1286.48,
+      "duration": 7.04
+    },
+    {
+      "text": "data and um",
+      "start": 1290.159,
+      "duration": 5.441
+    },
+    {
+      "text": "I don't think we're very close to have",
+      "start": 1293.52,
+      "duration": 4.32
+    },
+    {
+      "text": "an answer and we're in situation where",
+      "start": 1295.6,
+      "duration": 4.079
+    },
+    {
+      "text": "companies outside of Europe they don't",
+      "start": 1297.84,
+      "duration": 3.44
+    },
+    {
+      "text": "really care and they're using it and",
+      "start": 1299.679,
+      "duration": 4.161
+    },
+    {
+      "text": "inside of Europe they'll be very more",
+      "start": 1301.28,
+      "duration": 5.759
+    },
+    {
+      "text": "cautious and will probably not use it.",
+      "start": 1303.84,
+      "duration": 5.68
+    },
+    {
+      "text": "And if I may have one other topics that",
+      "start": 1307.039,
+      "duration": 5.281
+    },
+    {
+      "text": "I think is worth mentioning about the",
+      "start": 1309.52,
+      "duration": 5.519
+    },
+    {
+      "text": "concept of synthetic data and AI. So",
+      "start": 1312.32,
+      "duration": 4.64
+    },
+    {
+      "text": "synthetic data as I mentioned is any",
+      "start": 1315.039,
+      "duration": 5.921
+    },
+    {
+      "text": "data that is um basically AI generated.",
+      "start": 1316.96,
+      "duration": 5.76
+    },
+    {
+      "text": "And I also mentioned that anything",
+      "start": 1320.96,
+      "duration": 5.28
+    },
+    {
+      "text": "that's come out of u the AI models is",
+      "start": 1322.72,
+      "duration": 8.88
+    },
+    {
+      "text": "also uh synthetic data and what we can",
+      "start": 1326.24,
+      "duration": 8.24
+    },
+    {
+      "text": "have from these models is information",
+      "start": 1331.6,
+      "duration": 6.4
+    },
+    {
+      "text": "that is just false. So you can generate",
+      "start": 1334.48,
+      "duration": 6.96
+    },
+    {
+      "text": "information that could be about me or",
+      "start": 1338.0,
+      "duration": 7.2
+    },
+    {
+      "text": "even refers to me very specifically and",
+      "start": 1341.44,
+      "duration": 5.76
+    },
+    {
+      "text": "and the question is whether or not this",
+      "start": 1345.2,
+      "duration": 3.76
+    },
+    {
+      "text": "should be considered personal data or",
+      "start": 1347.2,
+      "duration": 4.88
+    },
+    {
+      "text": "not. Um because it can it's synthetic",
+      "start": 1348.96,
+      "duration": 6.56
+    },
+    {
+      "text": "data. It's not data relating to me but",
+      "start": 1352.08,
+      "duration": 4.88
+    },
+    {
+      "text": "there is a link between me and this",
+      "start": 1355.52,
+      "duration": 4.08
+    },
+    {
+      "text": "data. If I take an exam, maybe an AI",
+      "start": 1356.96,
+      "duration": 5.28
+    },
+    {
+      "text": "model would would say that Alexandro is",
+      "start": 1359.6,
+      "duration": 6.24
+    },
+    {
+      "text": "a Harvard law professor, which I wish,",
+      "start": 1362.24,
+      "duration": 7.2
+    },
+    {
+      "text": "but I'm not yet. Uh, and is this",
+      "start": 1365.84,
+      "duration": 5.199
+    },
+    {
+      "text": "information personal data? Another",
+      "start": 1369.44,
+      "duration": 4.4
+    },
+    {
+      "text": "example is deep fakes. So, basically AI",
+      "start": 1371.039,
+      "duration": 5.52
+    },
+    {
+      "text": "models are used to create deep fakes or",
+      "start": 1373.84,
+      "duration": 4.56
+    },
+    {
+      "text": "can be used. That's very detrimental.",
+      "start": 1376.559,
+      "duration": 4.721
+    },
+    {
+      "text": "That's an issue. It's also a question of",
+      "start": 1378.4,
+      "duration": 6.0
+    },
+    {
+      "text": "synthetic data actually. and and there",
+      "start": 1381.28,
+      "duration": 6.48
+    },
+    {
+      "text": "has been person stating that um this",
+      "start": 1384.4,
+      "duration": 5.44
+    },
+    {
+      "text": "should not be considered personal data",
+      "start": 1387.76,
+      "duration": 4.159
+    },
+    {
+      "text": "because it's not really about it's not a",
+      "start": 1389.84,
+      "duration": 3.92
+    },
+    {
+      "text": "real information it's made up",
+      "start": 1391.919,
+      "duration": 4.321
+    },
+    {
+      "text": "information for me it is clear that as",
+      "start": 1393.76,
+      "duration": 4.64
+    },
+    {
+      "text": "as long as it can have an effect on me",
+      "start": 1396.24,
+      "duration": 4.559
+    },
+    {
+      "text": "should be considered personal data but",
+      "start": 1398.4,
+      "duration": 4.639
+    },
+    {
+      "text": "it's also a controversial aspect that we",
+      "start": 1400.799,
+      "duration": 4.161
+    },
+    {
+      "text": "have around AI so we have in the",
+      "start": 1403.039,
+      "duration": 4.961
+    },
+    {
+      "text": "training phase uh in the input phase and",
+      "start": 1404.96,
+      "duration": 5.52
+    },
+    {
+      "text": "also in the uh output phase questions",
+      "start": 1408.0,
+      "duration": 5.2
+    },
+    {
+      "text": "regarding personal data and including",
+      "start": 1410.48,
+      "duration": 5.439
+    },
+    {
+      "text": "synthetic data because if I'm not wrong,",
+      "start": 1413.2,
+      "duration": 5.2
+    },
+    {
+      "text": "the outcome that the AI will give to us",
+      "start": 1415.919,
+      "duration": 4.801
+    },
+    {
+      "text": "is the one that statistically could be",
+      "start": 1418.4,
+      "duration": 5.12
+    },
+    {
+      "text": "closer to what we are trying to have. So",
+      "start": 1420.72,
+      "duration": 5.04
+    },
+    {
+      "text": "at that point not be personal data. I",
+      "start": 1423.52,
+      "duration": 4.639
+    },
+    {
+      "text": "get the point. Okay. Yeah, we have the",
+      "start": 1425.76,
+      "duration": 6.24
+    },
+    {
+      "text": "same with copyright actually. So the AI",
+      "start": 1428.159,
+      "duration": 6.961
+    },
+    {
+      "text": "provider they say well but we don't uh",
+      "start": 1432.0,
+      "duration": 5.6
+    },
+    {
+      "text": "actually have a copy of your artwork. we",
+      "start": 1435.12,
+      "duration": 5.76
+    },
+    {
+      "text": "have uh neural networks and links with",
+      "start": 1437.6,
+      "duration": 6.8
+    },
+    {
+      "text": "weights and only if it ask in a certain",
+      "start": 1440.88,
+      "duration": 6.0
+    },
+    {
+      "text": "ways can we actually generate the output",
+      "start": 1444.4,
+      "duration": 4.72
+    },
+    {
+      "text": "that will be sold but at the end of the",
+      "start": 1446.88,
+      "duration": 5.12
+    },
+    {
+      "text": "day sometimes it's possible to recreate",
+      "start": 1449.12,
+      "duration": 5.84
+    },
+    {
+      "text": "verbatim copies of the original data and",
+      "start": 1452.0,
+      "duration": 5.2
+    },
+    {
+      "text": "sometimes it's actually not a verbatim",
+      "start": 1454.96,
+      "duration": 4.079
+    },
+    {
+      "text": "copy maybe it's entirely made up but it",
+      "start": 1457.2,
+      "duration": 4.959
+    },
+    {
+      "text": "can also have impact on me and I think",
+      "start": 1459.039,
+      "duration": 5.76
+    },
+    {
+      "text": "it should be taken into account",
+      "start": 1462.159,
+      "duration": 4.321
+    },
+    {
+      "text": "I mean that's super interesting because",
+      "start": 1464.799,
+      "duration": 3.841
+    },
+    {
+      "text": "there's a case being litigated I think",
+      "start": 1466.48,
+      "duration": 6.4
+    },
+    {
+      "text": "in Norway right now about um a person",
+      "start": 1468.64,
+      "duration": 6.56
+    },
+    {
+      "text": "who found out that Chachi thought that",
+      "start": 1472.88,
+      "duration": 6.399
+    },
+    {
+      "text": "he had killed two of his sons and was",
+      "start": 1475.2,
+      "duration": 7.04
+    },
+    {
+      "text": "going to kill the third one and I mean",
+      "start": 1479.279,
+      "duration": 4.64
+    },
+    {
+      "text": "anyone of his neighbors could have",
+      "start": 1482.24,
+      "duration": 3.679
+    },
+    {
+      "text": "looked for that information and found",
+      "start": 1483.919,
+      "duration": 4.321
+    },
+    {
+      "text": "out that this guy who's apparently a",
+      "start": 1485.919,
+      "duration": 4.481
+    },
+    {
+      "text": "very nice person as well um was",
+      "start": 1488.24,
+      "duration": 6.64
+    },
+    {
+      "text": "potentially a three times murderer and",
+      "start": 1490.4,
+      "duration": 9.12
+    },
+    {
+      "text": "um I mean that That's um not not none of",
+      "start": 1494.88,
+      "duration": 7.44
+    },
+    {
+      "text": "your business is um litigating the the",
+      "start": 1499.52,
+      "duration": 5.68
+    },
+    {
+      "text": "the case. And I mean that's the point",
+      "start": 1502.32,
+      "duration": 6.0
+    },
+    {
+      "text": "like to what extent can the generative",
+      "start": 1505.2,
+      "duration": 6.479
+    },
+    {
+      "text": "AI company be liable for something",
+      "start": 1508.32,
+      "duration": 6.16
+    },
+    {
+      "text": "that's they say it's synthetic like it's",
+      "start": 1511.679,
+      "duration": 5.281
+    },
+    {
+      "text": "something not related to personal data",
+      "start": 1514.48,
+      "duration": 4.96
+    },
+    {
+      "text": "something they found by scraping on the",
+      "start": 1516.96,
+      "duration": 4.56
+    },
+    {
+      "text": "internet and it's something that was",
+      "start": 1519.44,
+      "duration": 6.96
+    },
+    {
+      "text": "created by the the kind of generative AI",
+      "start": 1521.52,
+      "duration": 8.56
+    },
+    {
+      "text": "model but at the same level I mean I",
+      "start": 1526.4,
+      "duration": 6.24
+    },
+    {
+      "text": "don't know if I don't know blue bed can",
+      "start": 1530.08,
+      "duration": 6.64
+    },
+    {
+      "text": "say like I'm going to sue per because um",
+      "start": 1532.64,
+      "duration": 6.399
+    },
+    {
+      "text": "they they depicted me awfully but that's",
+      "start": 1536.72,
+      "duration": 4.559
+    },
+    {
+      "text": "just a fable but when it's a human being",
+      "start": 1539.039,
+      "duration": 4.721
+    },
+    {
+      "text": "when it's a person like to what extent",
+      "start": 1541.279,
+      "duration": 7.441
+    },
+    {
+      "text": "can a defamation case hold no so",
+      "start": 1543.76,
+      "duration": 8.32
+    },
+    {
+      "text": "I I fully agree and I think this is very",
+      "start": 1548.72,
+      "duration": 5.6
+    },
+    {
+      "text": "interesting to look at this aspect of",
+      "start": 1552.08,
+      "duration": 4.88
+    },
+    {
+      "text": "synthetic data so synthetic data as the",
+      "start": 1554.32,
+      "duration": 6.16
+    },
+    {
+      "text": "output of geni models and reconsider all",
+      "start": 1556.96,
+      "duration": 5.44
+    },
+    {
+      "text": "the questions that we had in the past",
+      "start": 1560.48,
+      "duration": 4.48
+    },
+    {
+      "text": "regard adding the syn the creation of",
+      "start": 1562.4,
+      "duration": 6.56
+    },
+    {
+      "text": "synthetic data for um privacy preserving",
+      "start": 1564.96,
+      "duration": 8.0
+    },
+    {
+      "text": "uh ends. So if I'm creating a synthetic",
+      "start": 1568.96,
+      "duration": 6.319
+    },
+    {
+      "text": "data set,",
+      "start": 1572.96,
+      "duration": 4.959
+    },
+    {
+      "text": "I will also have the same thing. So",
+      "start": 1575.279,
+      "duration": 5.441
+    },
+    {
+      "text": "basically the data will not be exactly",
+      "start": 1577.919,
+      "duration": 4.961
+    },
+    {
+      "text": "the same, but maybe there is still links",
+      "start": 1580.72,
+      "duration": 4.079
+    },
+    {
+      "text": "that can be made about me. They're ently",
+      "start": 1582.88,
+      "duration": 4.72
+    },
+    {
+      "text": "fake, but is it relevant or not for",
+      "start": 1584.799,
+      "duration": 4.24
+    },
+    {
+      "text": "personal data? And I think it's exactly",
+      "start": 1587.6,
+      "duration": 3.52
+    },
+    {
+      "text": "the same question just on on two",
+      "start": 1589.039,
+      "duration": 4.721
+    },
+    {
+      "text": "different uh aspects or consideration of",
+      "start": 1591.12,
+      "duration": 7.28
+    },
+    {
+      "text": "the same um uh case.",
+      "start": 1593.76,
+      "duration": 7.2
+    },
+    {
+      "text": "Just one last question I promise. Um",
+      "start": 1598.4,
+      "duration": 5.36
+    },
+    {
+      "text": "it's about what you said about the EDPB",
+      "start": 1600.96,
+      "duration": 5.44
+    },
+    {
+      "text": "kind of like letting the training happen",
+      "start": 1603.76,
+      "duration": 5.68
+    },
+    {
+      "text": "and then waking up with a very very",
+      "start": 1606.4,
+      "duration": 5.6
+    },
+    {
+      "text": "interesting opinion that is just",
+      "start": 1609.44,
+      "duration": 4.479
+    },
+    {
+      "text": "unfortunately an opinion because if",
+      "start": 1612.0,
+      "duration": 3.44
+    },
+    {
+      "text": "something has already happened you can",
+      "start": 1613.919,
+      "duration": 3.201
+    },
+    {
+      "text": "just have an opinion on it. you can't",
+      "start": 1615.44,
+      "duration": 6.16
+    },
+    {
+      "text": "have a real action about it. Um,",
+      "start": 1617.12,
+      "duration": 7.84
+    },
+    {
+      "text": "it seemed to hint that perhaps there was",
+      "start": 1621.6,
+      "duration": 7.6
+    },
+    {
+      "text": "some careful waiting in the kind of",
+      "start": 1624.96,
+      "duration": 8.0
+    },
+    {
+      "text": "meantime area so to allow some kind of",
+      "start": 1629.2,
+      "duration": 7.28
+    },
+    {
+      "text": "progress to happen even through and with",
+      "start": 1632.96,
+      "duration": 8.16
+    },
+    {
+      "text": "and thanks to Europe I would say. Um,",
+      "start": 1636.48,
+      "duration": 7.28
+    },
+    {
+      "text": "you reside in Switzerland and",
+      "start": 1641.12,
+      "duration": 4.4
+    },
+    {
+      "text": "Switzerland is quite famous, at least",
+      "start": 1643.76,
+      "duration": 3.919
+    },
+    {
+      "text": "from from our European perspective, for",
+      "start": 1645.52,
+      "duration": 5.6
+    },
+    {
+      "text": "being a very very interesting and super",
+      "start": 1647.679,
+      "duration": 6.0
+    },
+    {
+      "text": "cool hub of technology despite the fact",
+      "start": 1651.12,
+      "duration": 4.799
+    },
+    {
+      "text": "that you do abide to some of the",
+      "start": 1653.679,
+      "duration": 4.081
+    },
+    {
+      "text": "European laws. I mean, the GDPR is",
+      "start": 1655.919,
+      "duration": 4.721
+    },
+    {
+      "text": "applicable in Switzerland as well. So,",
+      "start": 1657.76,
+      "duration": 6.399
+    },
+    {
+      "text": "how did Switzerland make this magic? Why",
+      "start": 1660.64,
+      "duration": 6.24
+    },
+    {
+      "text": "isn't it enough that the EDPB waits a",
+      "start": 1664.159,
+      "duration": 5.841
+    },
+    {
+      "text": "second and lets technology take its time",
+      "start": 1666.88,
+      "duration": 6.72
+    },
+    {
+      "text": "to evolve? But Switzerland,",
+      "start": 1670.0,
+      "duration": 5.84
+    },
+    {
+      "text": "which kind of does the same, still feels",
+      "start": 1673.6,
+      "duration": 4.799
+    },
+    {
+      "text": "like it's um it's a thousand years ahead",
+      "start": 1675.84,
+      "duration": 4.719
+    },
+    {
+      "text": "of Europe.",
+      "start": 1678.399,
+      "duration": 4.721
+    },
+    {
+      "text": "Yeah. Well, it's probably a comp a",
+      "start": 1680.559,
+      "duration": 4.961
+    },
+    {
+      "text": "question too complex for me to answer.",
+      "start": 1683.12,
+      "duration": 6.88
+    },
+    {
+      "text": "Um so the the the reasons why indeed",
+      "start": 1685.52,
+      "duration": 6.0
+    },
+    {
+      "text": "Switzerland is a very innovative",
+      "start": 1690.0,
+      "duration": 4.88
+    },
+    {
+      "text": "country. Um I think every year we praise",
+      "start": 1691.52,
+      "duration": 5.279
+    },
+    {
+      "text": "oursel from being you know at the top of",
+      "start": 1694.88,
+      "duration": 4.56
+    },
+    {
+      "text": "the this innovation ranking for",
+      "start": 1696.799,
+      "duration": 6.48
+    },
+    {
+      "text": "countries although we are very small um",
+      "start": 1699.44,
+      "duration": 5.599
+    },
+    {
+      "text": "I don't really have the answer whether",
+      "start": 1703.279,
+      "duration": 5.28
+    },
+    {
+      "text": "you know it's it's entirely um about",
+      "start": 1705.039,
+      "duration": 7.36
+    },
+    {
+      "text": "culture regulation economics it's a mix",
+      "start": 1708.559,
+      "duration": 7.84
+    },
+    {
+      "text": "of that um I wouldever just correct you",
+      "start": 1712.399,
+      "duration": 5.601
+    },
+    {
+      "text": "a little bit on the fact that we have",
+      "start": 1716.399,
+      "duration": 3.841
+    },
+    {
+      "text": "the same regulations because we we don't",
+      "start": 1718.0,
+      "duration": 4.48
+    },
+    {
+      "text": "actually so we do apply",
+      "start": 1720.24,
+      "duration": 5.6
+    },
+    {
+      "text": "GDPR GDPR is not directly applicable in",
+      "start": 1722.48,
+      "duration": 6.079
+    },
+    {
+      "text": "Switzerland because we're not in the EU",
+      "start": 1725.84,
+      "duration": 6.48
+    },
+    {
+      "text": "in itself. Uh we can only be subject to",
+      "start": 1728.559,
+      "duration": 6.881
+    },
+    {
+      "text": "the GDPR because of its extr territorial",
+      "start": 1732.32,
+      "duration": 5.12
+    },
+    {
+      "text": "reach which is very often the case. So a",
+      "start": 1735.44,
+      "duration": 5.359
+    },
+    {
+      "text": "lot of European companies need to abide",
+      "start": 1737.44,
+      "duration": 5.599
+    },
+    {
+      "text": "by it. But I would say they're not as",
+      "start": 1740.799,
+      "duration": 5.681
+    },
+    {
+      "text": "much as afraid as would a",
+      "start": 1743.039,
+      "duration": 5.441
+    },
+    {
+      "text": "European company be because there has",
+      "start": 1746.48,
+      "duration": 4.16
+    },
+    {
+      "text": "never been so far a fine that has been",
+      "start": 1748.48,
+      "duration": 5.6
+    },
+    {
+      "text": "issued and levy they can on basis of the",
+      "start": 1750.64,
+      "duration": 5.84
+    },
+    {
+      "text": "GDPR against the Swiss company. So uh",
+      "start": 1754.08,
+      "duration": 4.56
+    },
+    {
+      "text": "international enforcements can be can be",
+      "start": 1756.48,
+      "duration": 4.88
+    },
+    {
+      "text": "an issue and then on the new regulations",
+      "start": 1758.64,
+      "duration": 6.32
+    },
+    {
+      "text": "of of the digital sector in Europe um",
+      "start": 1761.36,
+      "duration": 6.559
+    },
+    {
+      "text": "the the Switzerland has not followed yet",
+      "start": 1764.96,
+      "duration": 5.52
+    },
+    {
+      "text": "and uh I do think there's really some",
+      "start": 1767.919,
+      "duration": 5.281
+    },
+    {
+      "text": "aspects where they should have uh I",
+      "start": 1770.48,
+      "duration": 4.64
+    },
+    {
+      "text": "think on platform regulation we are",
+      "start": 1773.2,
+      "duration": 4.719
+    },
+    {
+      "text": "really lacking behind and I do think",
+      "start": 1775.12,
+      "duration": 5.6
+    },
+    {
+      "text": "that on non-personal data sharing which",
+      "start": 1777.919,
+      "duration": 6.64
+    },
+    {
+      "text": "is another uh big uh interest of me uh",
+      "start": 1780.72,
+      "duration": 7.28
+    },
+    {
+      "text": "they they would als also be aspect where",
+      "start": 1784.559,
+      "duration": 6.561
+    },
+    {
+      "text": "uh we should do more but uh there is",
+      "start": 1788.0,
+      "duration": 5.36
+    },
+    {
+      "text": "clearly also aspect where I believe the",
+      "start": 1791.12,
+      "duration": 4.559
+    },
+    {
+      "text": "European Union has been just too far too",
+      "start": 1793.36,
+      "duration": 5.6
+    },
+    {
+      "text": "sp too fast uh and that uh that's",
+      "start": 1795.679,
+      "duration": 4.961
+    },
+    {
+      "text": "probably not a very good thing for for",
+      "start": 1798.96,
+      "duration": 3.839
+    },
+    {
+      "text": "innovation",
+      "start": 1800.64,
+      "duration": 5.68
+    },
+    {
+      "text": "and I see it so um I advise a lot of",
+      "start": 1802.799,
+      "duration": 6.401
+    },
+    {
+      "text": "Swiss clients that want to uh sell their",
+      "start": 1806.32,
+      "duration": 5.04
+    },
+    {
+      "text": "products or services in Europe and just",
+      "start": 1809.2,
+      "duration": 4.56
+    },
+    {
+      "text": "understanding which laws apply apply to",
+      "start": 1811.36,
+      "duration": 4.48
+    },
+    {
+      "text": "them what they need to take what they",
+      "start": 1813.76,
+      "duration": 4.639
+    },
+    {
+      "text": "need to include in their uh general",
+      "start": 1815.84,
+      "duration": 5.28
+    },
+    {
+      "text": "terms and conditions. Um whether or not",
+      "start": 1818.399,
+      "duration": 4.64
+    },
+    {
+      "text": "they need a local representative under",
+      "start": 1821.12,
+      "duration": 4.159
+    },
+    {
+      "text": "the GDPR, under the digital services",
+      "start": 1823.039,
+      "duration": 4.64
+    },
+    {
+      "text": "act, the data the the digital services",
+      "start": 1825.279,
+      "duration": 5.28
+    },
+    {
+      "text": "act etc etc. It's just so complex. I",
+      "start": 1827.679,
+      "duration": 5.12
+    },
+    {
+      "text": "mean it's just a very high burden for",
+      "start": 1830.559,
+      "duration": 4.561
+    },
+    {
+      "text": "companies.",
+      "start": 1832.799,
+      "duration": 4.161
+    },
+    {
+      "text": "This is this is a very terrible question",
+      "start": 1835.12,
+      "duration": 3.6
+    },
+    {
+      "text": "I'm going to ask. So I'm I'm aware of",
+      "start": 1836.96,
+      "duration": 4.8
+    },
+    {
+      "text": "it. Just bear with me. If you could",
+      "start": 1838.72,
+      "duration": 6.0
+    },
+    {
+      "text": "scrap one single law in the European",
+      "start": 1841.76,
+      "duration": 4.639
+    },
+    {
+      "text": "Union, which one do you think would be",
+      "start": 1844.72,
+      "duration": 4.319
+    },
+    {
+      "text": "like this one?",
+      "start": 1846.399,
+      "duration": 4.961
+    },
+    {
+      "text": "H",
+      "start": 1849.039,
+      "duration": 5.681
+    },
+    {
+      "text": "I don't think I would strip just only",
+      "start": 1851.36,
+      "duration": 8.319
+    },
+    {
+      "text": "one or one in entirely. So um well I I",
+      "start": 1854.72,
+      "duration": 6.559
+    },
+    {
+      "text": "do think there is a lot of bad things",
+      "start": 1859.679,
+      "duration": 6.0
+    },
+    {
+      "text": "with the with the EUI act and except for",
+      "start": 1861.279,
+      "duration": 7.201
+    },
+    {
+      "text": "article 50 I don't really see the value",
+      "start": 1865.679,
+      "duration": 5.681
+    },
+    {
+      "text": "in much of of the 200 pages of the",
+      "start": 1868.48,
+      "duration": 5.52
+    },
+    {
+      "text": "regulation.",
+      "start": 1871.36,
+      "duration": 4.72
+    },
+    {
+      "text": "So that would be my go-to. My first",
+      "start": 1874.0,
+      "duration": 5.08
+    },
+    {
+      "text": "go-to.",
+      "start": 1876.08,
+      "duration": 3.0
+    },
+    {
+      "text": "All right. The Holy Act, you went very",
+      "start": 1879.6,
+      "duration": 5.84
+    },
+    {
+      "text": "light, I would say, in terms of I I kept",
+      "start": 1881.919,
+      "duration": 6.721
+    },
+    {
+      "text": "one one one provision. Okay. Fair",
+      "start": 1885.44,
+      "duration": 4.88
+    },
+    {
+      "text": "enough. Okay. The the balance is",
+      "start": 1888.64,
+      "duration": 5.2
+    },
+    {
+      "text": "restored then. Yes. Well,",
+      "start": 1890.32,
+      "duration": 6.239
+    },
+    {
+      "text": "then um I shall ask the very last",
+      "start": 1893.84,
+      "duration": 4.4
+    },
+    {
+      "text": "question which is what we ask everyone.",
+      "start": 1896.559,
+      "duration": 3.681
+    },
+    {
+      "text": "Do you have any suggestions of books,",
+      "start": 1898.24,
+      "duration": 5.12
+    },
+    {
+      "text": "podcasts, um, TV series, anything that",
+      "start": 1900.24,
+      "duration": 4.88
+    },
+    {
+      "text": "would help our listeners understand a",
+      "start": 1903.36,
+      "duration": 4.0
+    },
+    {
+      "text": "bit better about this topic or something",
+      "start": 1905.12,
+      "duration": 4.24
+    },
+    {
+      "text": "that you really think they should come",
+      "start": 1907.36,
+      "duration": 3.439
+    },
+    {
+      "text": "across? I mean, at least in their",
+      "start": 1909.36,
+      "duration": 4.72
+    },
+    {
+      "text": "lifetime. Um,",
+      "start": 1910.799,
+      "duration": 6.561
+    },
+    {
+      "text": "yeah. So, in terms of podcast, uh, there",
+      "start": 1914.08,
+      "duration": 5.439
+    },
+    {
+      "text": "is your podcast that's really great. So,",
+      "start": 1917.36,
+      "duration": 4.24
+    },
+    {
+      "text": "I would advise everyone to really look",
+      "start": 1919.519,
+      "duration": 6.241
+    },
+    {
+      "text": "at that. Um um there is also Heart Fork",
+      "start": 1921.6,
+      "duration": 8.079
+    },
+    {
+      "text": "which is a US uh podcast by uh the the",
+      "start": 1925.76,
+      "duration": 5.919
+    },
+    {
+      "text": "New York Times if I'm not mistaken.",
+      "start": 1929.679,
+      "duration": 5.6
+    },
+    {
+      "text": "That's really good to um um yeah be",
+      "start": 1931.679,
+      "duration": 5.521
+    },
+    {
+      "text": "informed of what's going on in the tech",
+      "start": 1935.279,
+      "duration": 8.481
+    },
+    {
+      "text": "sector. um in um in the in the US mainly",
+      "start": 1937.2,
+      "duration": 10.8
+    },
+    {
+      "text": "and uh uh the book I'm reading right now",
+      "start": 1943.76,
+      "duration": 7.039
+    },
+    {
+      "text": "is Nexus",
+      "start": 1948.0,
+      "duration": 5.919
+    },
+    {
+      "text": "which is really interesting. Yeah,",
+      "start": 1950.799,
+      "duration": 6.48
+    },
+    {
+      "text": "exactly. Which is really revealing on",
+      "start": 1953.919,
+      "duration": 5.841
+    },
+    {
+      "text": "very a lot of things that happening",
+      "start": 1957.279,
+      "duration": 5.441
+    },
+    {
+      "text": "currently in terms of the poorer of",
+      "start": 1959.76,
+      "duration": 5.12
+    },
+    {
+      "text": "information.",
+      "start": 1962.72,
+      "duration": 4.64
+    },
+    {
+      "text": "Oh, I mean I'm glad that we are on the",
+      "start": 1964.88,
+      "duration": 4.24
+    },
+    {
+      "text": "same level as the New York Times. This",
+      "start": 1967.36,
+      "duration": 5.439
+    },
+    {
+      "text": "is like you're you're way above. Thank",
+      "start": 1969.12,
+      "duration": 6.64
+    },
+    {
+      "text": "you. Thank you. I mean um this is very",
+      "start": 1972.799,
+      "duration": 5.521
+    },
+    {
+      "text": "flattering. So, thank you so much. And",
+      "start": 1975.76,
+      "duration": 5.44
+    },
+    {
+      "text": "with all of that flatter, I will let",
+      "start": 1978.32,
+      "duration": 6.64
+    },
+    {
+      "text": "Alexandra go and thank you so so much",
+      "start": 1981.2,
+      "duration": 5.76
+    },
+    {
+      "text": "for joining us today because this was",
+      "start": 1984.96,
+      "duration": 4.319
+    },
+    {
+      "text": "absolutely incredible and we absolutely",
+      "start": 1986.96,
+      "duration": 4.48
+    },
+    {
+      "text": "enjoyed meeting you once again after the",
+      "start": 1989.279,
+      "duration": 4.481
+    },
+    {
+      "text": "privacy symposium in Dis. It was very",
+      "start": 1991.44,
+      "duration": 4.479
+    },
+    {
+      "text": "fun. Thank you very much. Thank you so",
+      "start": 1993.76,
+      "duration": 3.84
+    },
+    {
+      "text": "much. And thank you, Jacob, as well for",
+      "start": 1995.919,
+      "duration": 4.561
+    },
+    {
+      "text": "joining me. Rosie. Thank you, Alexander.",
+      "start": 1997.6,
+      "duration": 6.64
+    },
+    {
+      "text": "Bye. Bye. Bye.",
+      "start": 2000.48,
+      "duration": 3.76
+    }
+  ]
+}

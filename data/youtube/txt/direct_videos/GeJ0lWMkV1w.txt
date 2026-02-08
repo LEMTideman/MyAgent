@@ -1,0 +1,857 @@
+[Music]
+Welcome back to the AI policy podcast.
+Me and Greg are ready to rock. Today
+we'll start with the Senate's vote to
+remove the moratorum on state AI laws
+from the reconciliation bill. This
+literally just passed. We're talking at
+2 p.m. on July 1st. We'll also cover
+major updates on AI copyright rulings
+and the House Select Committee on
+China's recent AI hearing, plus some new
+developments surrounding DeepSeek. But
+first, Greg, we got to go to the news.
+Moratorium on state AI laws. Just a few
+hours before this conversation, Senate
+voted 99 to1 to strip the state AI
+moratorum from the so-called big
+beautiful bill. If you've been following
+along since our June 4th episode, you'll
+know that this moratorum has been
+through several revisions before the
+Senate ultimately cut it. So, Greg, what
+exactly was the original provision the
+House passed and how did the senators
+reshape it? Uh, well, first I'd like to
+take a victory lap uh because on this
+podcast we predicted uh that it was not
+going to be a part of the final big
+beautiful bill. That's right. Uh and
+would not pass. And that is indeed what
+has come to pass. So victory lab taken.
+Yeah. Uh this idea was to basically
+block not all but certain types of state
+level AI regulation. Specifically the
+kinds of regulation that would impose
+sort of preemptary actions that AI
+companies have to do before they release
+their AI products. So it didn't get rid
+of, you know, criminal penalties for
+people who use AI to do bad stuff, but
+it did prevent most categories of new
+requirements that were AI specific that
+AI companies had to do before they uh,
+you know, released the model or
+something like that. And that turned out
+to be exceptionally controversial. uh it
+passed in the House, but some folks who
+supported it in the House, voted for it
+in the House, later said that they
+didn't understand what they were voting
+for and said that they regretted their
+vote and would not vote for it again. So
+those were the conditions under which it
+went to the Senate where it encountered,
+you know, new categories of opposition.
+Most notably, Senator Marsha Blackburn
+of Tennessee. Tennessee has uh a very
+strong um recording music industry in
+Nashville, uh very strong in country
+music and some other genres as well. And
+so she was concerned that this
+preemptary move would take down uh laws
+in Tennessee, but that also built some
+momentum among other senators who were
+thinking about this. And there was
+genuinely bipartisan opposition to this.
+As we mentioned on the last podcast, a
+letter co-signed by 40 states attorneys
+general opposed this. So, it looked like
+actually there was some positive
+momentum in this. For one thing, uh the
+Senate parliamentarian ruled that it
+could be included as part of the big
+beautiful bill, which I was surprised by
+given that it was not clear at all to me
+uh how it related to revenue stuff,
+which is usually the pretty strict
+interpretation of the rule for including
+something in a reconciliation package.
+So, it survived contact with the
+parliamentarian, uh but it did not
+survive contact with opposition among
+Senate Republicans. And even during a
+period where Senator Ted Cruz who has
+been a supporter of this moratorum and
+Senator Blackburn reached something of a
+compromise, that compromise later fell
+apart over a disagreement about, you
+know, whether that compromise amendment
+language was actually going to have the
+intended purpose or was actually
+executable. So Blackburn uh withdrew her
+support for the compromise and then the
+the bill was voted out of the Senate by
+as you said 99 to1. So when I think
+about like who is comprising that 99 to1
+that's basically everybody who opposes
+this to begin with and hopes that it
+doesn't happen and everybody else who
+agrees that uh they don't want to
+torpedo the big beautiful bill over this
+issue for which there is not a majority
+of support. So even people who support
+this moratorum were voting to strip it
+out of uh the big beautiful bill and
+that's where we are right now. uh it's
+still a a future where there are
+proponents who want to have some kind of
+federal action but the states are not
+going to be blocked in going ahead with
+their regulation and there is a flurry
+of activity at the state level. Um
+literally more than a thousand bills
+have been introduced and that gets to
+the biggest concern of the AI companies
+which I think is a relatively strong
+argument for why regulation should be at
+the federal level. They said that you
+know this patchwork of different
+regulations among the different 50
+states is going to be extremely
+difficult for them to implement and is
+going to pro uh provide a barrier to
+their innovation barrier to AI adoption
+something that the United States should
+not want. But there's a rebuttal to that
+argument which is the patchwork is now I
+I guess I should say first the companies
+have been saying pretty consistently
+that they do not they do not oppose
+AI regulation around you know consumer
+protection or AI safety or countering
+deep fake pornography all of those kinds
+of things they're open to regulation
+they just want it to be at the federal
+level and that's why I thought a quote
+from uh Miles Brundage who is a friend
+of the podcast. Um
+he had he said on X on June 30th um AI
+should be regulated federally is why the
+moratorum is bad not why it's good.
+Blocking state regulation without doing
+anything federally is like taking a
+strong pain reliever that makes you pass
+out and forget to treat the real injury.
+The patchwork is the incentive. And so
+that's why I say actually voting this
+down um might increase the chance of
+some kind of moratorum going into effect
+in the future if and only if that a
+moratorum is uh accompanied by a federal
+AI regulatory framework. Something that
+you know the government can say with a
+straight face we don't need state action
+because here is the federal action. So
+that's where I think we are now. So Greg
+is is are states going to are companies
+going to start going state shopping now
+because of this or you know Yeah. Uh so
+I mean ultimately the states do not have
+the power of interstate commerce and all
+of these companies are providing their
+services you know over the border right
+most of them have data centers in
+California or Virginia or wherever and
+then they're delivering online services
+in the form of these uh uh chatbot
+agents
+that go across state borders. However,
+the states do have the right to police,
+you know, what is going on within their
+borders, the types of transactions, the
+types of services that are being
+provided. And so, you know, regulatory
+district shopping actually doesn't solve
+the problem from the perspective of AI
+companies because they're looking to uh
+have clarity on their regulatory burden
+for the users that they're trying to
+serve and they want to serve users in
+all 50 states. All right, let's change
+up here a bit to something else that's
+legal. Uh, copyright court rulings. Meta
+and Anthropic both recently won key
+copyright cases over the use of books to
+train their AI models. This is a
+fascinating case. Uh, before we get into
+the details of these rulings, who were
+the plaintiffs in these cases and what
+were they each claiming? Yeah. So, I
+think it's worth pointing out that both
+of these uh court orders, which came
+from different US district courts in
+California, are pretty interesting
+documents. Um, you can see here, you
+know, I've got the uh meta one and I
+highlighted basically the entire first
+page. And the reason for that is that
+there's a lot of meaty stuff in both of
+these court orders talking about the
+practices of these companies. Just to
+give you, you know, one flavor, um, both
+Anthropic and Meta did download millions
+of pirated books for use in AI training
+data. Um, in the Anthropic decision, it,
+you know, references some internal
+emails where Anthropic talks about books
+as an incredibly high quality source of
+training data. You know, so if you think
+about how do I make my AI model smarter?
+Do I want it reading, you know, the
+10,000th random forum post on some
+random internet site or do I want it
+reading, you know, the best book of the
+year on XYZ topic. Um, it turns out
+unsurprisingly, right, that you get a
+bigger boost in performance by having
+higher quality training data. And all
+the AI companies have assessed that
+books are utterly critical, right, to to
+give the performance that they're
+looking to give their consumers. So, let
+me let me stop let me stop you for one
+second. What do you mean by pirated
+books? Books that they didn't pay for.
+They didn't pay for literally they went
+to sites where uh these are known piracy
+websites that have downloadable
+repositories of millions of books.
+Everybody in all of these cases
+acknowledges that piracy is illegal. In
+Anthropic's case, I mean, they were
+obsessed with speed. So was Meta, right?
+It's not like they don't have the money
+to to pay for the books. These are both
+incredibly well financed corporations.
+The variable in the equation that
+mattered to them was speed. They didn't
+want to negotiate 1 million different,
+you know, uh, licenses to try and do
+this. So in Enthropic's case, uh,
+according to what So they just stole it.
+Yeah. So they just stole it. Um and and
+again like they're basically admitting
+that. Um so in Enthropic's case they
+started with the pirated books because
+they were worried about you know just
+how slow it was going to be to go
+acquire all the rights. Um but then uh
+and and this is coming out in internal
+emails which were released as part of
+the discovery process in these cases.
+They ultimately switched to a different
+method which was bulk buying print
+copies of millions of books, then
+cutting off the binding of the book and
+then scanning them at an incredibly fast
+rate. They literally hired a former
+executive in charge of the Google Books
+program, which almost all of our
+listeners, I'm sure, have at some point
+encountered search results from Google
+Books. So, Anthropic basically
+acknowledged that that what they were
+doing was illegal. They said, "We think
+we can find a way that would qualify as
+copyright fair use, which is buying a
+print copy and then converting it to a
+digital copy and then we're going to use
+that in our training library." And
+according, you know, to the argument
+that the companies are making, as long
+as they're not serving the copies of the
+books in whole or in significant part to
+the endusers of their AI models, it's
+fair use. Then it's fair use. And so
+both of these cases really hinge on what
+is copyright fair use and that's why
+these cases are so interesting because
+this has really important implications
+for the future of AI. And so they have a
+group of authors, people who write
+books. Um in one case it's a class
+action lawsuit. That's Meta's case. Um
+in the other case the anthropic it's
+just a group of uh authors who are suing
+you know on behalf of themselves and
+their own rights. Uh but in both cases
+it's probably the two you know most
+important rulings thus far on what fair
+use constitutes in the AI era. Okay. So
+what did the exactly did the judge rule
+in each case? Okay. So we've got uh two
+cases and I would say um again I want to
+encourage folks to actually go out there
+and read uh the orders because I think a
+lot of the reporting on this has kind of
+gotten it wrong. Some of the reporting
+out there is basically saying that, you
+know, AI training uh is fair use. Using
+books for AI is fair use. Um, and you
+can kind of get that uh conclusion from
+here. But I think the more accurate
+telling of the story is that we have two
+orders that very explicitly disagree
+with each other. But you know what the
+courts have the ability to decide cases
+in front of them. um you know the the
+powers of the US judiciary are
+circumscribed uh by the constitution. So
+the judge who was ruling in the meta
+case which was uh Vince Chabria uh the
+United States District Court Northern
+District of California um he said
+something that I think is uh really
+interesting. This is a very long quote
+uh but I think it's worth quoting at
+length. Companies are presently racing
+to develop generative artificial
+intelligence models. Um, software
+products that are capable of generating
+text, images, videos, or sound based on
+the materials they've previously been
+trained on. Because the performance of a
+generative AI model depends on the
+amount and quality of data it absorbs as
+part of its training, companies have
+been unable to resist the temptation to
+feed copyright protected materials into
+their models without getting permission
+from the copyright holders or paying
+them for the right to use their works
+for this purpose. This case presents the
+question whether such conduct is
+illegal. Although the devil is in the
+details, in most cases, the answer will
+likely be yes. Meaning, yes, it is
+illegal. What copyright law cares about
+above all else is preserving the
+incentive for human beings to create
+artistic and scientific works.
+Therefore, it is generally illegal to
+copy protected works without permission.
+And the doctrine of fair use, which
+provides a defense to certain claims of
+copyright infringement, typically
+doesn't apply to copying that will
+significantly diminish the ability of
+copyright holders to make money from
+their works. Generative AI has the
+potential to flood the market with
+endless amounts of images, songs,
+articles, books, and more. People can
+prompt generative AI models to produce
+these outputs using a tiny fraction of
+the time and creativity that would
+otherwise be required. So by training
+generative AI models with copyrighted
+works, companies are creating something
+that will that often will dramatically
+undermine the market for those works and
+thus dramatically undermine the
+incentive for human beings to create
+things the oldfashioned way. So you hear
+that and you think, wow, Meta must have
+gotten creamed in this ruling. Actually,
+no, they won. Right. So So explain that.
+Explain that. the the reason why they
+won is that and the judge is pretty
+vicious uh in against the plaintiffs in
+their arguments. He says quote this
+ruling does not stand for the
+proposition that Meta's use of
+copyrighted materials to train its
+language models is lawful. It stands
+only for the proposition that these
+plaintiffs made the wrong arguments and
+failed to develop a record of support of
+the right one. So what he's basically
+saying is I as a judge am only allowed
+to rule about the case in front of me
+that you presented. Yes. Exactly. And in
+the case of fair use, you know, there
+are these four things that really matter
+for whether or not something is illegal.
+So here are the four factors. the
+purpose and character of the use, the
+nature of the copyrighted work, the
+amount and substantiality of the portion
+used in relation to the copyrighted work
+as a whole, and then number four and the
+most important in this case, the effect
+of the use upon the potential market for
+or value of the copyrighted work. And
+what he's saying is the plaintiffs
+foolishly made almost all of their case
+based on those first three factors where
+the judge does not think uh there is a
+grounds to you know rule meta as having
+done something illegal. And in the
+fourth case um Meta basically wins by
+default because they did make an
+argument on the fourth and the
+plaintiffs did not. So the judge is
+basically saying, you know, you morons,
+if you had come to me with a case around
+uh focused on factor number four, the
+effect of the use on the potential
+market, I would have ruled in favor of
+you. But because my powers are
+circumscribed, I'm only allowed to do
+the sorts of things that judges are
+allowed to do in fair use copyright uh
+cases. I am literally forced to rule in
+favor of Meta. So now what's interesting
+is that the meta ruling came out a few
+days after the anthropic ruling. So in
+the anthropic case they did advance uh
+the fourth argument the one about the
+effect on the potential market and they
+said uh that actually this was not a
+significant factor. So, um, Judge
+Chabria, uh, basically takes Judge Alup,
+who's the other judge ruling in the
+anthropic case, uh, to task. So, here's
+what he here's what he wrote, uh, in
+terms of, you know, attacking his
+judicial, uh, colleague. Um, speaking of
+which, in a recent ruling on this topic,
+literally days before, Judge Alop
+focused heavily on the transformative
+nature of generative AI while brushing
+aside concerns about the harm it can
+inflict on the market for the works it
+it's trained on. Such harm would be no
+different, he reasoned, than the harm
+caused by using the works for quote,
+training school children to write well,
+which could quote, result in an
+explosion of competing works. According
+to Judge Alop, this is not the kind of
+competitive or creative displacement
+that concerns the copyright act.
+However, uh but when it comes to market
+effects, using books to teach children
+to write is not remotely like using
+books to create a product that a single
+individual could employ to generate
+countless competing works with a
+minuscule fraction of the time and
+creativity it would otherwise take. this
+inapt analogy is not a basis for blowing
+off the most important factor in the
+fair use analysis. So this is really
+interesting. I I want to emphasize that
+when he's using the word transformative
+um he doesn't mean that you know oh my
+gosh AI technology is so transformative
+and amazing. What he means is are they
+taking the work you know cranking
+through it and creating a new work a
+transformation
+of the input um or are they just
+reproducing the input. So most people
+are not arguing right that if you ask uh
+llama you know please recite all of the
+text of chip war it will basically
+refuse to do that. Um it's it's not easy
+to imagine a scenario in which it would
+uh do that. But what he's saying is that
+you know you now have uh all the
+insights from a book say like Chris
+Miller's Chip war about the geopolitics
+of semiconductors. also a friend of the
+podcast. Also a friend of the podcast.
+And maybe you're less likely to buy that
+book now because rather than buying the
+book, which will cost you, you know, 25
+bucks at uh Barnes & Noble or Amazon or
+whatever, you will instead have a
+conversation with an agent that has
+internalized all of that hard one
+research that Chris Miller did. Um, and
+it's not just that he's going to, you
+know, that Meta is going to be able to
+serve that up to you. it's that Meta is
+going to serve that up to hundreds of
+millions of people around the world. So
+he's basically saying that this is just
+a difference in kind, a difference in
+scale, and it is the creation of a
+product that could damage the market for
+and damage the incentive for humans to
+create stuff. So if you're like the New
+York Times, which has very famously sued
+OpenAI, for example, um they're loving
+the legal analysis that Judge Chabria is
+putting out. um and they're not loving
+the stuff that they've seen uh come out
+of the anthropic case. I should point
+out, you know, both of these judges were
+appointed by Democrats. In Alop's case,
+it was Bill Clinton. Um in Chabier's
+case, it was Obama. Uh so this is not a
+partisan kind of breakdown on the issue.
+Um this is just a, you know, pretty good
+reflection of where we are. And I think
+because only binding precedent can come
+from higher courts, we won't really know
+what US law says on this issue
+definitively um until it comes from an
+appeals court or the Supreme Court or
+until uh Congress clarifies, you know,
+the language in um the relevant legis
+the relevant bills uh on this issue. So
+it was a it was a big move. AI companies
+have reasons to both be encouraged and
+worried. Copyright holders have reasons
+to both be encouraged and worried. Uh
+and a pretty interesting story
+altogether. Absolutely. Um I want to
+move on. We have a little bit more time
+left today and talk about the House
+Select Committee on China. On June 25th,
+the House Select Committee on China held
+a hearing titled Algorithms and
+Authoritarians. Why US AI must lead.
+witness included three policy experts,
+among them Anthropics co-founder and
+head of policy, Jack Clark. Greg, can
+you start by giving us some context for
+this hearing? What was it about? Yeah,
+so this uh I I actually had the
+opportunity to brief uh a bunch of
+members of the select committee the day
+before this hearing as they were sort of
+getting ready. Um and it's very clear
+that unsurprisingly
+uh the select committee on China is
+really interested in AI because they see
+AI as one of the focal points of US
+China competition overall. And if you
+look at some of the language that was
+coming out of the members of Congress
+who were leading this hearing, there's
+some pretty interesting quotes that sort
+of reflect what the the state of opinion
+is in Congress today. So, Chairman
+Molinar, uh, the Republican from
+Michigan opened by saying, quote,
+"Today's hearing addresses a defining
+question for this century. Will the
+future of artificial intelligence be led
+by free nations or by authoritarian
+regimes like the Chinese Communist
+Party?" And I think what's interesting
+is this t this hearing comes only uh you
+know a little over a month after a May
+8th hearing in the Senate that had
+executives from OpenAI from the chip
+design company AMD uh from Coreweave a
+big cloud computing provider and
+Microsoft uh also a big cloud computing
+provider and a big AI company in its own
+right. This time uh they brought in uh
+Dr. Thomas Min who's from the uh the
+Center for Strategic and Budgetary
+Assessments, a government uhbacked think
+tank. Uh Mark Beiel, my former colleague
+in the DoD, who's now with the AI policy
+network. Um and Jack Clark, who's at
+Anthropic, one of the co-founders over
+there. And what's so interesting is
+there was a big contrast in the focus of
+um the AI China challenge between this
+hearing and that last hearing because
+because both agree that you know
+competition with China is really
+important for the United States in AI.
+But in this hearing, um, we actually
+tallied up the number of times that
+people said artificial general
+intelligence or artificial super
+intelligence. And it was mentioned no
+less than 15 times in this House
+hearing. Um, it came up zero times in
+May's Senate hearing and a lot of the
+times it was being mentioned, it was
+being mentioned by members of Congress.
+So the United States government, you
+know, I I remember when I was in the
+DoD,
+it was, you know, something if you were
+to talk about AI being smarter than
+humans, if you were to talk about AI
+being way smarter than humans, something
+like artificial super intelligence, that
+was kind of seen as a fringe opinion in
+policy circles, uh the kind of thing it
+was almost vaguely impolite uh to say in
+public. Now you have members of Congress
+who are saying stuff like this. You
+know, this comes from Rep. Torres, a
+Democrat of New York. Quote, "In the
+20th century, the United States and Nazi
+Germany were locked in a high stakes
+race to build the first atomic bomb. In
+the 21st century, the United States and
+China are competing in a new strategic
+arms race, the race for artificial super
+intelligence. And the first country to
+reach ASI will likely emerge as the
+superpower of the 21st century, the
+superpower who will set the rules for
+the rest of the world." that was just
+not something that you could say uh in
+public when I was in DoD and reflects
+just how much this debate has changed
+and now is focused on AGI and ASI. All
+right. So, what were some of the things
+that really stood out to you from the
+hearing? Well, what's interesting is uh
+while there was this focus on
+competition with China and what we need
+to do uh to compete with China, there
+was also a related conversation about
+safety. Uh there was a lovely point made
+by Jack Clark of Anthropic um where he
+said America can win the race to build
+powerful AI and winning this race is a
+necessary but not sufficient
+achievement. We have to get safety
+right. So what he's basically saying is
+um and this is you know a guy who works
+at a big AI company and he's saying
+America faces a threat from China in AI
+but America also faces a threat from
+unsafe AI and he's trying to get
+Congress to not throw out a focus on
+safety as it continues a focus on
+competition with China. And so, uh,
+Representative Krishna Murphy, who is
+the ranking member, actually announced
+that he's going to be, uh, introducing
+at some point in the future. You know,
+he, this is the first time he talked
+about it, uh, in public, uh, working on
+a new bill, the AGI safety act, uh,
+which is going to require AGI to be
+aligned with human values and require it
+to comply with laws that apply to
+humans. So that's kind of interesting is
+um at the same time people are really
+trying to push this uh China narrative.
+There's still momentum including from
+the China hawk community uh about
+addressing the threat of AI which you
+know has really been a prominent point
+of discussion ever since that letter was
+signed in the middle of 2023 uh
+connecting AI to the risk of human
+extinction. Greg, there was another one
+no adversarial AI act. So there were two
+uh new AI bills. What does the
+Adversarial AI act do? Yeah, thanks for
+mentioning this because I almost forgot
+about it. Um, the Adversarial AI act is
+about blocking the US government from
+using AI models that come from China or
+Russia. So you don't want and this is um
+you know also uh something that Krishna
+Murthy is backing uh but it's bipartisan
+and this is you know preventing federal
+government agencies from using stuff
+like deepseek uh which you know as as I
+think we're about to talk about um
+there's a lot of concern that that is a
+security threat in and of itself that
+you know if you're using deepseek that
+could either be sort of like a sleeper
+uh cell that could activate cyber
+security vulnerabilities or you know as
+AI becomes more agentic in the future
+you know, the AI agent itself could be
+uh more threatening. And so that's just
+to block agencies uh from using these
+systems unless they're like evaluating
+them, you know, for like benchmarking
+them against US models or for the
+security vulnerabilities, etc. Um I I
+have to assume some version of that will
+pass whether it comes from uh Congress
+or whether it comes in the form of an
+executive order. Uh, it's really tough
+for me to envision a scenario in which
+the US government is comfortable using
+Chinese or Russian AI models. Speaking
+of China, we can't talk about China
+without talking about deepseek these
+days. So, I want to discuss two recent
+developments relating to China's
+deepseek. First, US export controls have
+repeatedly delayed the release of its
+new model R2. And second, uh, US
+officials said that deepseek aids the
+Chinese military and evades export
+controls. Let's start with the delay.
+How are US export controls affecting
+Deepseek's timeline? Yeah. So, um, as as
+folks will remember, you know, the the
+CEO of Deepseek had said in a, uh, 2023
+interview and a 2024 interview that
+export controls were basically the
+biggest challenge that his company was
+facing. Uh, that compute limitations
+were the biggest challenge the company
+was facing. Well, R1 um was the model
+that, you know, really took the world by
+storm, resulted in a temporary, you
+know, big dip in Nvidia stock price,
+although it is more than fully recovered
+since. Um, as people were sort of
+wondering of, okay, can, you know, China
+innovate its way around these uh export
+controls. Well, what we're finding out
+now is that uh according to reporting,
+some really good reporting in the
+information uh which is interviewing
+folks uh in DeepSeek or in its supply
+chain um or who are partners of the
+company, um they're not satisfied with
+the performance of R2. One of the
+reasons why they're not satisfied with
+the performance of R2 is that they're
+struggling to come up with a version of
+the model that's going to be deployable
+given the new shortage in China of these
+Nvidia H20 chips which the Trump
+administration banned. Um it also uh
+according to reporting from Reuters uh
+citing you know a conversation with a
+senior State Department official who is
+in this uh interview anonymous uh but
+said that they're tracking um active
+attempts by deepseek to smuggle chips
+that they're tracking uh deepse
+collaboration with Chinese military and
+intelligence services. Um and overall I
+think the export controls you know are
+having this impact on deepseek. not able
+to scale the way that they want to. And
+I think Jin Yang, who is the Asia bureau
+chief at the information uh who posted
+this on X, I think put it quite well.
+Quote, Deepseek's models are so
+completely optimized for Nvidia hardware
+and software that running them on
+Chinese chips will make them less
+efficient. And so the the point
+basically is here um that even though
+DeepSeek is a genuinely innovative
+company, even though they have come up
+with ways to squeeze more AI performance
+out of weaker and fewer chips, um they
+still want Nvidia weaker chips, namely
+those H20 chips that are now banned. Um
+and they're running into a lot of
+challenges with uh compute limitations.
+I think, you know, over a three, five,
+10 year time frame, uh, Huawei will be a
+more relevant competitor in this story.
+Uh, but at least for the next few years,
+they're stuck with a pretty lousy chip
+design in the case of the 910B. They're
+stuck with a lousy software ecosystem,
+and they're stuck with uh pretty
+significant production challenges. Um,
+which also relates to the export
+controls on semiconductor manufacturing
+equipment. So all of this I think is to
+say uh that the export controls while a
+highly imperfect tool um while the
+impact that they will have you know
+cannot last uh you know more than a
+decade or two at the absolute most right
+in this case um they are indeed having
+uh the intended impact just not to the
+same extent that was originally desired.
+Craig maybe most importantly I have to
+ask you what do we know about deepsek's
+role in supporting China's military and
+intelligence apparatus? Sure. Um so the
+you know the report from Reuters is
+talking about you know deep sea
+collaboration with Chinese surveillance
+apparatus which is basically you know
+China if they want to have access to all
+of your text messages all of your emails
+the internet giants know that they have
+no ability to tell the Chinese
+government no. So the idea that that
+would now extend to chat logs with
+DeepSeek, at least in the case when it's
+going over via API as opposed to
+something that's running locally on your
+own uh hardware, um makes total sense to
+me, right? Uh DeepSeek would have no
+ability to say no to the Chinese
+government when they demand that sort of
+information. In terms of DeepSeek
+actively aiding the military and
+intelligence services, um I don't
+believe there's any direct reporting on
+this other than quoting this US
+official. Um, but it's a pretty obvious
+uh state of affairs because China is
+pushing the adoption of deepseek AI
+models in all federal and uh state and
+local government agencies. I mean
+there's like a bonanza of the Chinese
+government saying adopt DeepSeek, adopt
+DeepSeek. This is our local AI champion.
+You know, you need in your quarterly
+reports to explain what you're doing to
+effectively adopt DeepSeek. So, of
+course, that exact same initiative is
+going to affect the defense and
+intelligence services. You know, just
+how effective they're being uh when they
+adopt AI. Uh maybe they're using it for
+incredible use cases, maybe they're
+using it for silly use cases. You know,
+that kind of information is not out
+there in the public reporting or in the
+disclosures from uh US and defense
+intelligence community kind of thing.
+But it is a very easy connecting of the
+dots to say that an order that affects
+every Chinese government agency is going
+to affect defense and intelligence
+agencies. Greg, as usual, thanks for the
+tremendous insight. These are all
+fascinating issues and uh really
+appreciate it. To all our listeners,
+happy 4th of July and we will be back
+after the holiday. Thanks so much.
+Thanks, Andrew.
+Thanks for listening to this week's
+episode of the AI Policy Podcast. If you
+like what you heard, there's an easy way
+for you to help us. Please give us a
+five-star review on your favorite
+podcast platform and subscribe. And tell
+your friends. It really helps spread the
+word. This podcast was produced by Sarah
+Baker, Isaac Goldston, and Satie
+McCulla. See you next time.

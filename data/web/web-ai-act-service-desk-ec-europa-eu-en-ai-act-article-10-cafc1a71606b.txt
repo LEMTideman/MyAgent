@@ -1,0 +1,72 @@
+```markdown
+# Article 10: Data and data governance
+
+## Chapter III: High-Risk AI Systems
+### Section 2: Requirements for High-Risk AI Systems
+
+#### Summary
+High-risk AI systems must use high-quality training, validation, and testing datasets that are relevant, representative, and free of errors. Data governance and management practices should address, inter alia, design choices, data collection, preparation, bias detection, and mitigation. Datasets must consider the specific context of use, and reflect the specific geographical, contextual, behavioural, or functional characteristics of the environment in which the system will operate. These requirements apply to all datasets used in high-risk AI systems, even those not involving model training.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+1. High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.
+
+2. Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular:
+   - (a) the relevant design choices;
+   - (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;
+   - (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;
+   - (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;
+   - (e) an assessment of the availability, quantity and suitability of the data sets that are needed;
+   - (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;
+   - (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);
+   - (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.
+
+3. Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible,
+   - (a) free of errors,
+   - (b) complete in view of
+     - (i)
+       * The intended purpose.
+     - (ii)
+       * Characteristics or elements that are particular to
+         * **Specific geographical**
+         * **Contextual**
+         * **Behavioural** or **Functional settings** within which
+           * **The high-risk AI system is intended to be used**.
+     - (iii)
+       * That personal data is collected from individuals who have provided their explicit consent.
+4. To comply with paragraph 2(e),
+   - (a) Bias detection cannot be effectively performed by processing other types of
+     - (i)
+       * Data.
+     - (ii)
+       * Synthetic or anonymized data.
+5. For purposes related to bias detection,
+   - (a) Special categories of personal data may be processed if they cannot be effectively detected through other types of
+     - (i)
+       * Data.
+8. If it is strictly necessary for detecting or correcting biases,
+   - (a) Processing special categories requires appropriate safeguards for respecting fundamental rights.
+8. The safeguards include:
+   - (a) Protection against misuse.
+4. The safeguards also include:
+   - (a) Strict controls over access to personal information.
+4. The safeguards also include:
+   - (a) Documentation regarding access by authorized personnel.
+4. The safeguards also include:
+   - (a) Limitations on re-use so as not to violate privacy protections.
+4. The safeguards also include:
+   - (a) Measures designed to ensure no adverse effects on individuals' rights due to improper handling or loss of personal information.
+4. The safeguards also include:
+   - (a) Records documenting reasons for processing special categories before making decisions about them.
+
+#### Relevant Recitals
+- [Recital 66](/en/ai-act/recital-66)
+- [Recital 67](/en/ai-act/recital-67)
+- [Recital 68](/en/ai-act/recital-68)
+- [Recital 69](/en/ai-act/recital-69)
+- [Recital 70](/en/ai-act/recital-70)
+- [Recital 76](/en/ai-act/recital-76)
+- [Recital 115](/en/ai-act/recital-115)
+
+View the [official text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689). The text used in this tool is "Artificial Intelligence Act."
+```

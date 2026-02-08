@@ -1,0 +1,17 @@
+```markdown
+# Article 50: Transparency obligations for providers and deployers of certain AI systems
+
+## Summary
+
+Providers must inform users when they are interacting directly with an AI system. AI-generated or -manipulated content must be clearly marked and detectable as artificially generated. Deployers of emotion recognition or biometric categorization systems must inform exposed individuals about the operation of the system. Deepfakes and AI-generated text must be disclosed as artificially generated. An exemption from these transparency obligations applies if the systems are authorized by law to detect, prevent, investigate, or prosecute criminal offenses. Other specific exemptions apply per transparency obligation. Information must be provided clearly, distinctly, and accessible.
+
+The summaries are meant to provide helpful explanations but are not legally binding.
+
+1. Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant, and circumspect, taking into account the circumstances and the context of use. This obligation shall not apply to AI systems authorized by law to detect, prevent, investigate, or prosecute criminal offenses, subject to appropriate safeguards for the rights and freedoms of third parties, unless those systems are available for the public to report a criminal offense.
+
+2. Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video, or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated. Providers shall ensure their technical solutions are effective, interoperable, robust, and reliable as far as this is technically feasible, taking into account the specificities and limitations of various types of content, the costs of implementation and the generally acknowledged state of the art, as may be reflected in relevant technical standards. This obligation shall not apply to the extent the AI systems perform an assistive function for standard editing or do not substantially alter the input data provided by the deployer or the semantics thereof, or where authorized by law to detect, prevent, investigate or prosecute criminal offenses.
+
+3. Deployers of an emotion recognition system or a biometric categorization system shall inform the natural persons exposed thereto of the operation of the system and shall process personal data in accordance with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, as applicable. This obligation shall not apply to AI systems used for biometric categorization and emotion recognition systems which are permitted by law to detect, prevent or investigate criminal offenses subject to appropriate safeguards for the rights and freedoms of third parties and in accordance with Union law.
+
+4. Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake shall disclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is authorized by law to detect, prevent, investigate or prosecute criminal offense. Where the content forms part of an evidently artistic,
+```

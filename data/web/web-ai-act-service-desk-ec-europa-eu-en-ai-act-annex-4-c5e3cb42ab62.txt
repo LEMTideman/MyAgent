@@ -1,0 +1,54 @@
+```markdown
+# Annex IV
+
+The technical documentation referred to in [Article 11(1)](/en/ai-act/article-11) shall contain at least the following information, as applicable to the relevant AI system:
+
+## Table 1: General Description of the AI System
+
+### 1. A general description of the AI system including:
+- its intended purpose, the name of the provider and the version of the system reflecting its relation to previous versions;
+- how the AI system interacts with, or can be used to interact with, hardware or software, including with other AI systems, that are not part of the AI system itself, where applicable;
+- the versions of relevant software or firmware, and any requirements related to version updates;
+- the description of all the forms in which the AI system is placed on the market or put into service, such as software packages embedded into hardware, downloads, or APIs;
+- the description of the hardware on which the AI system is intended to run;
+- where the AI system is a component of products, photographs or illustrations showing external features, the marking and internal layout of those products;
+- a basic description of the user-interface provided to the deployer;
+- instructions for use for the deployer, and a basic description of the user-interface provided to the deployer, where applicable;
+
+## Table 2: Detailed Description of Elements and Process for Development
+
+### 2. A detailed description of the elements of the AI system and of the process for its development, including:
+- methods and steps performed for the development of the AI system, including, where relevant, recourse to pre-trained systems or tools provided by third parties and how those were used, integrated or modified by the provider;
+- design specifications of the system, namely general logic of the AI system and algorithms; key design choices including rationale and assumptions made, including with regard to persons or groups of persons in respect of who, intended use; main classification choices; what intended outcome is expected from it; relevance of parameters; description of output quality expected from it; decisions about any possible trade-offs made regarding technical solutions adopted to comply with requirements set out in Chapter III, Section 2;
+- description of system architecture explaining how software components build on or feed into each other and integrate into overall processing; computational resources used to develop, train, test and validate AI systems;
+- where relevant, data requirements in terms of datasheets describing training methodologies and techniques and training data sets used (including general descriptions thereof);
+- assessment of human oversight measures needed in accordance with Article 14 (see below);
+- details on pre-determined changes to AI systems and their performance (as required under Article 14), including technical measures put in place to facilitate interpretation by deployers (referenced under Article 13(3)(d));
+- validation/testing procedures used (including information about validation/test data used and their main characteristics); metrics used to measure accuracy, robustness and compliance with other relevant requirements set out in Chapter III, Section 2 (also see below);
+- cybersecurity measures put in place;
+
+## Table 3: Detailed Information About Monitoring Functions
+
+### 3. Detailed information about monitoring functions includes:
+- capabilities and limitations in performance (specific persons/groups);
+foreseen unintended outcomes,
+sources of risks to health & safety,
+fundamental rights & discrimination based on intent for AI systems;
+human oversight measures needed under Article 14 (see below),
+technical measures put in place to facilitate interpretation by deployers (referenced under Article 13(3)(d)),
+specifications on input data.
+
+## Table 4: Performance Metrics
+
+### 4. A description of appropriateness for performance metrics.
+
+## Table 5: Cybersecurity Measures
+
+### 5. A detailed description of cyber security measures.
+
+## Table 6: Post-Market Phase Evaluation
+
+### 6. A detailed description of post-market phase evaluation using performance metrics.
+
+View [official text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689). The text used in this tool is "Artificial Intelligence Act (Regulation (EU) 2024/1689)".
+```

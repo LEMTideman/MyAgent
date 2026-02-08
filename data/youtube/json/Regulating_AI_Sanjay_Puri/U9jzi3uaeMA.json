@@ -1,0 +1,6373 @@
+{
+  "source": "youtube",
+  "channel": "Regulating_AI_Sanjay_Puri",
+  "playlist_title": "RegulatingAI Podcast: Innovate Responsibly",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLGBFGI3ApzqdS70H84yli1Q-j_cqqiJbL",
+  "playlist_id": "PLGBFGI3ApzqdS70H84yli1Q-j_cqqiJbL",
+  "video_id": "U9jzi3uaeMA",
+  "video_title": "How AI Is Reshaping Industries and Society with Professor Ruslan Salakhutdinov",
+  "video_url": "https://www.youtube.com/watch?v=U9jzi3uaeMA",
+  "fetched_at": "2026-01-02T09:25:57.685772+00:00",
+  "transcript": [
+    {
+      "text": "I think that we need to make sure that",
+      "start": 0.399,
+      "duration": 4.721
+    },
+    {
+      "text": "the control of AI doesn't sit within you",
+      "start": 2.679,
+      "duration": 4.921
+    },
+    {
+      "text": "know two or three companies right",
+      "start": 5.12,
+      "duration": 4.28
+    },
+    {
+      "text": "because if they put the regulations",
+      "start": 7.6,
+      "duration": 3.84
+    },
+    {
+      "text": "inside that nobody else can do the",
+      "start": 9.4,
+      "duration": 3.88
+    },
+    {
+      "text": "development of these models then they're",
+      "start": 11.44,
+      "duration": 3.76
+    },
+    {
+      "text": "essentially going to be controlling the",
+      "start": 13.28,
+      "duration": 3.24
+    },
+    {
+      "text": "tech",
+      "start": 15.2,
+      "duration": 4.079
+    },
+    {
+      "text": "itself welcome to the regulating AI",
+      "start": 16.52,
+      "duration": 6.24
+    },
+    {
+      "text": "podcast join host Sanjay pury as he",
+      "start": 19.279,
+      "duration": 5.24
+    },
+    {
+      "text": "explores the dynamic and developing",
+      "start": 22.76,
+      "duration": 3.64
+    },
+    {
+      "text": "world of artificial intelligence",
+      "start": 24.519,
+      "duration": 4.361
+    },
+    {
+      "text": "governance each episode features deep",
+      "start": 26.4,
+      "duration": 4.119
+    },
+    {
+      "text": "Dives with global leaders is at the",
+      "start": 28.88,
+      "duration": 4.48
+    },
+    {
+      "text": "Forefront of regulating AI responsibly",
+      "start": 30.519,
+      "duration": 4.72
+    },
+    {
+      "text": "tackling the challenges using AI can",
+      "start": 33.36,
+      "duration": 4.24
+    },
+    {
+      "text": "bring about head-on and enabling balance",
+      "start": 35.239,
+      "duration": 5.32
+    },
+    {
+      "text": "without hindering",
+      "start": 37.6,
+      "duration": 2.959
+    },
+    {
+      "text": "Innovation welcome back to regulating AI",
+      "start": 40.8,
+      "duration": 5.96
+    },
+    {
+      "text": "artificial intelligence AI stands at the",
+      "start": 44.039,
+      "duration": 5.761
+    },
+    {
+      "text": "Forefront of technological Revolution so",
+      "start": 46.76,
+      "duration": 5.319
+    },
+    {
+      "text": "how do we regulate it without stifling",
+      "start": 49.8,
+      "duration": 4.88
+    },
+    {
+      "text": "Innovation our podcast aims to bring",
+      "start": 52.079,
+      "duration": 5.081
+    },
+    {
+      "text": "diverse voices to the Forefront of AI",
+      "start": 54.68,
+      "duration": 4.719
+    },
+    {
+      "text": "conversation by featuring insights from",
+      "start": 57.16,
+      "duration": 4.399
+    },
+    {
+      "text": "various perspectives we've had industry",
+      "start": 59.399,
+      "duration": 4.281
+    },
+    {
+      "text": "leaders to government officials to",
+      "start": 61.559,
+      "duration": 4.24
+    },
+    {
+      "text": "advocacy group leaders today we are",
+      "start": 63.68,
+      "duration": 4.32
+    },
+    {
+      "text": "thrilled to be joined by Professor Russ",
+      "start": 65.799,
+      "duration": 5.401
+    },
+    {
+      "text": "salur now with us today he's the UPMC",
+      "start": 68.0,
+      "duration": 5.36
+    },
+    {
+      "text": "professor of computer science in the",
+      "start": 71.2,
+      "duration": 4.04
+    },
+    {
+      "text": "machine learning Department of the",
+      "start": 73.36,
+      "duration": 3.92
+    },
+    {
+      "text": "school of computer science at carnegi",
+      "start": 75.24,
+      "duration": 5.239
+    },
+    {
+      "text": "melon University he also got his PhD at",
+      "start": 77.28,
+      "duration": 5.36
+    },
+    {
+      "text": "the University of Toronto and worked",
+      "start": 80.479,
+      "duration": 4.32
+    },
+    {
+      "text": "with Jeffrey Hinton the touring Award",
+      "start": 82.64,
+      "duration": 4.479
+    },
+    {
+      "text": "winner welcome Russ it's an absolute",
+      "start": 84.799,
+      "duration": 3.96
+    },
+    {
+      "text": "pleasure to have you on the regulating",
+      "start": 87.119,
+      "duration": 3.441
+    },
+    {
+      "text": "AI podcast thank you thank you for",
+      "start": 88.759,
+      "duration": 3.64
+    },
+    {
+      "text": "having me Russ can you give our",
+      "start": 90.56,
+      "duration": 4.08
+    },
+    {
+      "text": "listeners who are generally members of",
+      "start": 92.399,
+      "duration": 4.72
+    },
+    {
+      "text": "congress senate think tanks their staff",
+      "start": 94.64,
+      "duration": 4.92
+    },
+    {
+      "text": "industry leaders around the world just a",
+      "start": 97.119,
+      "duration": 4.761
+    },
+    {
+      "text": "very uh brief idea of what do you what",
+      "start": 99.56,
+      "duration": 4.12
+    },
+    {
+      "text": "are you doing at carneg especially",
+      "start": 101.88,
+      "duration": 4.32
+    },
+    {
+      "text": "relating to AI yeah so I'm uh I'm a",
+      "start": 103.68,
+      "duration": 4.759
+    },
+    {
+      "text": "professor at kelan University my",
+      "start": 106.2,
+      "duration": 4.68
+    },
+    {
+      "text": "research I do work in AI specifically",
+      "start": 108.439,
+      "duration": 4.841
+    },
+    {
+      "text": "focusing on deep learning algorithms uh",
+      "start": 110.88,
+      "duration": 4.64
+    },
+    {
+      "text": "live scale optimization more recently",
+      "start": 113.28,
+      "duration": 4.879
+    },
+    {
+      "text": "we've been looking at a topic of PL",
+      "start": 115.52,
+      "duration": 4.08
+    },
+    {
+      "text": "language model Foundation models but",
+      "start": 118.159,
+      "duration": 3.64
+    },
+    {
+      "text": "also focusing on AI agents you can think",
+      "start": 119.6,
+      "duration": 4.4
+    },
+    {
+      "text": "of these as systems that can potentially",
+      "start": 121.799,
+      "duration": 4.36
+    },
+    {
+      "text": "make autonomous decisions you know syn",
+      "start": 124.0,
+      "duration": 4.0
+    },
+    {
+      "text": "of personal assistance for example so",
+      "start": 126.159,
+      "duration": 4.32
+    },
+    {
+      "text": "that sort of the sttion of of of of",
+      "start": 128.0,
+      "duration": 4.68
+    },
+    {
+      "text": "different research that I'm doing at at",
+      "start": 130.479,
+      "duration": 5.201
+    },
+    {
+      "text": "well that's a pretty wide portfolio you",
+      "start": 132.68,
+      "duration": 5.559
+    },
+    {
+      "text": "have all the Hot Topics that are going",
+      "start": 135.68,
+      "duration": 6.4
+    },
+    {
+      "text": "on since you talked about the agents the",
+      "start": 138.239,
+      "duration": 6.841
+    },
+    {
+      "text": "super agents you know what some people",
+      "start": 142.08,
+      "duration": 4.92
+    },
+    {
+      "text": "think that there is a big risk towards",
+      "start": 145.08,
+      "duration": 4.2
+    },
+    {
+      "text": "that what in your view are the biggest",
+      "start": 147.0,
+      "duration": 5.2
+    },
+    {
+      "text": "risk from AI that need to be regulated",
+      "start": 149.28,
+      "duration": 5.44
+    },
+    {
+      "text": "uh yeah so it's definitely very sort of",
+      "start": 152.2,
+      "duration": 4.08
+    },
+    {
+      "text": "toic there's a lot of discussion",
+      "start": 154.72,
+      "duration": 4.04
+    },
+    {
+      "text": "happening in research community so I you",
+      "start": 156.28,
+      "duration": 4.48
+    },
+    {
+      "text": "know I have to say that I'm not really",
+      "start": 158.76,
+      "duration": 4.36
+    },
+    {
+      "text": "sort of that much with regulations and",
+      "start": 160.76,
+      "duration": 4.16
+    },
+    {
+      "text": "what's happening in that Stace but when",
+      "start": 163.12,
+      "duration": 4.119
+    },
+    {
+      "text": "we think about researches and what we do",
+      "start": 164.92,
+      "duration": 4.44
+    },
+    {
+      "text": "there's certainly a few risks that can",
+      "start": 167.239,
+      "duration": 3.801
+    },
+    {
+      "text": "uh that that come up you know there are",
+      "start": 169.36,
+      "duration": 4.519
+    },
+    {
+      "text": "broadly perhaps sort of three different",
+      "start": 171.04,
+      "duration": 4.32
+    },
+    {
+      "text": "areas at three different risks that I",
+      "start": 173.879,
+      "duration": 4.041
+    },
+    {
+      "text": "can think of one which concerns me the",
+      "start": 175.36,
+      "duration": 4.879
+    },
+    {
+      "text": "most is you know the potential spread of",
+      "start": 177.92,
+      "duration": 4.36
+    },
+    {
+      "text": "disinformation so the AI technology is",
+      "start": 180.239,
+      "duration": 4.201
+    },
+    {
+      "text": "becoming pretty good to the point where",
+      "start": 182.28,
+      "duration": 3.84
+    },
+    {
+      "text": "you know we've seen just examples of",
+      "start": 184.44,
+      "duration": 4.0
+    },
+    {
+      "text": "Sora just coming up out of open ey a few",
+      "start": 186.12,
+      "duration": 4.16
+    },
+    {
+      "text": "days ago the ability to generate",
+      "start": 188.44,
+      "duration": 4.0
+    },
+    {
+      "text": "realistic looking videos and so I think",
+      "start": 190.28,
+      "duration": 5.28
+    },
+    {
+      "text": "in the near future it's you know spread",
+      "start": 192.44,
+      "duration": 6.32
+    },
+    {
+      "text": "of misinformation or you know trying to",
+      "start": 195.56,
+      "duration": 6.239
+    },
+    {
+      "text": "do manipulation of your opinion you know",
+      "start": 198.76,
+      "duration": 6.6
+    },
+    {
+      "text": "I can have a like an AI assistant or an",
+      "start": 201.799,
+      "duration": 5.36
+    },
+    {
+      "text": "AI agent that can convince you of",
+      "start": 205.36,
+      "duration": 3.4
+    },
+    {
+      "text": "certain things you know I've seen these",
+      "start": 207.159,
+      "duration": 5.16
+    },
+    {
+      "text": "examples where um you know uh one of the",
+      "start": 208.76,
+      "duration": 5.559
+    },
+    {
+      "text": "early versions of GPT would actually",
+      "start": 212.319,
+      "duration": 3.881
+    },
+    {
+      "text": "give pretty good arguments why recycling",
+      "start": 214.319,
+      "duration": 3.64
+    },
+    {
+      "text": "is bad and so if you look at the",
+      "start": 216.2,
+      "duration": 3.8
+    },
+    {
+      "text": "arguments you know you could all you",
+      "start": 217.959,
+      "duration": 3.721
+    },
+    {
+      "text": "know part of time were fake but they",
+      "start": 220.0,
+      "duration": 4.08
+    },
+    {
+      "text": "look very convincing right and so that's",
+      "start": 221.68,
+      "duration": 4.279
+    },
+    {
+      "text": "probably one of the bigger risks that I",
+      "start": 224.08,
+      "duration": 4.12
+    },
+    {
+      "text": "see sort of in in the shorter term I",
+      "start": 225.959,
+      "duration": 4.0
+    },
+    {
+      "text": "mean there's obviously sort of you know",
+      "start": 228.2,
+      "duration": 4.36
+    },
+    {
+      "text": "other risks such as uh obviously the",
+      "start": 229.959,
+      "duration": 5.0
+    },
+    {
+      "text": "development of AI in military military",
+      "start": 232.56,
+      "duration": 4.48
+    },
+    {
+      "text": "applications you know that's probably",
+      "start": 234.959,
+      "duration": 3.721
+    },
+    {
+      "text": "inevitable that's going to happen uh it",
+      "start": 237.04,
+      "duration": 4.16
+    },
+    {
+      "text": "also sort of Brad potential you know if",
+      "start": 238.68,
+      "duration": 5.24
+    },
+    {
+      "text": "we look at 10 20 years from now is AI",
+      "start": 241.2,
+      "duration": 5.48
+    },
+    {
+      "text": "going to be replacing some of or some of",
+      "start": 243.92,
+      "duration": 5.28
+    },
+    {
+      "text": "the labor they done by humans and what",
+      "start": 246.68,
+      "duration": 4.44
+    },
+    {
+      "text": "would it mean for for economic",
+      "start": 249.2,
+      "duration": 3.72
+    },
+    {
+      "text": "development what would it mean for the",
+      "start": 251.12,
+      "duration": 4.24
+    },
+    {
+      "text": "economy so there's a lot of research",
+      "start": 252.92,
+      "duration": 4.76
+    },
+    {
+      "text": "right now happening in a space and not",
+      "start": 255.36,
+      "duration": 5.24
+    },
+    {
+      "text": "just AI virtual AI agents like chat GPT",
+      "start": 257.68,
+      "duration": 4.64
+    },
+    {
+      "text": "or but also in a space of actually",
+      "start": 260.6,
+      "duration": 4.4
+    },
+    {
+      "text": "physical building physical robots robots",
+      "start": 262.32,
+      "duration": 5.64
+    },
+    {
+      "text": "that can do you know tasks and so you",
+      "start": 265.0,
+      "duration": 5.68
+    },
+    {
+      "text": "know once that sort of takes of then you",
+      "start": 267.96,
+      "duration": 4.239
+    },
+    {
+      "text": "know there's probably going to be some",
+      "start": 270.68,
+      "duration": 3.84
+    },
+    {
+      "text": "form of job displacement right and",
+      "start": 272.199,
+      "duration": 4.161
+    },
+    {
+      "text": "that's you know something that I think",
+      "start": 274.52,
+      "duration": 4.959
+    },
+    {
+      "text": "my Economist friends are thinking about",
+      "start": 276.36,
+      "duration": 6.279
+    },
+    {
+      "text": "so Russ you talked about uh some very",
+      "start": 279.479,
+      "duration": 5.081
+    },
+    {
+      "text": "important topics if I can you know",
+      "start": 282.639,
+      "duration": 4.12
+    },
+    {
+      "text": "follow up a little bit one is you talked",
+      "start": 284.56,
+      "duration": 5.56
+    },
+    {
+      "text": "about the disinformation and we and then",
+      "start": 286.759,
+      "duration": 5.361
+    },
+    {
+      "text": "you talked about obviously the job",
+      "start": 290.12,
+      "duration": 4.68
+    },
+    {
+      "text": "displacement and then you know a range",
+      "start": 292.12,
+      "duration": 5.2
+    },
+    {
+      "text": "of those things as far as disinformation",
+      "start": 294.8,
+      "duration": 4.48
+    },
+    {
+      "text": "is concerned and you particularly talked",
+      "start": 297.32,
+      "duration": 4.52
+    },
+    {
+      "text": "about which open I released are we",
+      "start": 299.28,
+      "duration": 5.12
+    },
+    {
+      "text": "getting to the point where everything is",
+      "start": 301.84,
+      "duration": 6.84
+    },
+    {
+      "text": "fake and only few things that we can say",
+      "start": 304.4,
+      "duration": 7.16
+    },
+    {
+      "text": "with Shorty and certainty that it is",
+      "start": 308.68,
+      "duration": 4.84
+    },
+    {
+      "text": "real people will have to kind of at some",
+      "start": 311.56,
+      "duration": 4.24
+    },
+    {
+      "text": "point say this is real I mean are we",
+      "start": 313.52,
+      "duration": 5.2
+    },
+    {
+      "text": "getting to that point uh that's what is",
+      "start": 315.8,
+      "duration": 5.239
+    },
+    {
+      "text": "woring now the Biden administrations",
+      "start": 318.72,
+      "duration": 4.44
+    },
+    {
+      "text": "talked about watermarking they even",
+      "start": 321.039,
+      "duration": 4.321
+    },
+    {
+      "text": "started talking about using you know",
+      "start": 323.16,
+      "duration": 5.08
+    },
+    {
+      "text": "blockchain technology Etc so give our",
+      "start": 325.36,
+      "duration": 5.679
+    },
+    {
+      "text": "listeners special this is an election",
+      "start": 328.24,
+      "duration": 4.88
+    },
+    {
+      "text": "year not just in the United States 60",
+      "start": 331.039,
+      "duration": 4.241
+    },
+    {
+      "text": "countries are going to have are are",
+      "start": 333.12,
+      "duration": 5.32
+    },
+    {
+      "text": "having election so as somebody who is an",
+      "start": 335.28,
+      "duration": 5.52
+    },
+    {
+      "text": "expert in this what should somebody be",
+      "start": 338.44,
+      "duration": 4.599
+    },
+    {
+      "text": "believing as far as that information is",
+      "start": 340.8,
+      "duration": 4.44
+    },
+    {
+      "text": "concerned so just one one topic and then",
+      "start": 343.039,
+      "duration": 4.681
+    },
+    {
+      "text": "I'll come to the employment issue yes so",
+      "start": 345.24,
+      "duration": 4.48
+    },
+    {
+      "text": "so uh very good question I think that I",
+      "start": 347.72,
+      "duration": 3.72
+    },
+    {
+      "text": "personally think that we still a little",
+      "start": 349.72,
+      "duration": 4.88
+    },
+    {
+      "text": "bit far from actually you know having a",
+      "start": 351.44,
+      "duration": 5.16
+    },
+    {
+      "text": "technology that's so real that you",
+      "start": 354.6,
+      "duration": 3.599
+    },
+    {
+      "text": "cannot you know separate what's real",
+      "start": 356.6,
+      "duration": 3.24
+    },
+    {
+      "text": "what's not real you know if you you look",
+      "start": 358.199,
+      "duration": 3.481
+    },
+    {
+      "text": "at examples of Sora there're still",
+      "start": 359.84,
+      "duration": 4.28
+    },
+    {
+      "text": "missing certain key aspects like object",
+      "start": 361.68,
+      "duration": 4.239
+    },
+    {
+      "text": "persistency so you know you have a video",
+      "start": 364.12,
+      "duration": 3.519
+    },
+    {
+      "text": "and then one person would just disappear",
+      "start": 365.919,
+      "duration": 3.481
+    },
+    {
+      "text": "but again those things eventually will",
+      "start": 367.639,
+      "duration": 4.4
+    },
+    {
+      "text": "get fixed and I do think that at some",
+      "start": 369.4,
+      "duration": 4.6
+    },
+    {
+      "text": "point in the future I don't know when",
+      "start": 372.039,
+      "duration": 4.041
+    },
+    {
+      "text": "you know it going to be very hard for us",
+      "start": 374.0,
+      "duration": 5.039
+    },
+    {
+      "text": "to trust what we're seeing online right",
+      "start": 376.08,
+      "duration": 6.76
+    },
+    {
+      "text": "and so uh with deep fakes and uh and",
+      "start": 379.039,
+      "duration": 6.121
+    },
+    {
+      "text": "everything sort of coming together it's",
+      "start": 382.84,
+      "duration": 4.32
+    },
+    {
+      "text": "you know like having a really good",
+      "start": 385.16,
+      "duration": 4.039
+    },
+    {
+      "text": "Photoshop but not just the images but",
+      "start": 387.16,
+      "duration": 4.039
+    },
+    {
+      "text": "the whole video and somebody in the",
+      "start": 389.199,
+      "duration": 4.521
+    },
+    {
+      "text": "future I think you and I would not have",
+      "start": 391.199,
+      "duration": 4.4
+    },
+    {
+      "text": "this conversation but our avatars would",
+      "start": 393.72,
+      "duration": 3.52
+    },
+    {
+      "text": "have this conversation and nobody would",
+      "start": 395.599,
+      "duration": 3.841
+    },
+    {
+      "text": "just tell the difference and so that's",
+      "start": 397.24,
+      "duration": 4.12
+    },
+    {
+      "text": "obviously you know there's a lot of work",
+      "start": 399.44,
+      "duration": 3.84
+    },
+    {
+      "text": "on you know how do we do Watermark how",
+      "start": 401.36,
+      "duration": 4.6
+    },
+    {
+      "text": "do we know that what is generated by I",
+      "start": 403.28,
+      "duration": 5.039
+    },
+    {
+      "text": "versus what is actually generated by",
+      "start": 405.96,
+      "duration": 4.48
+    },
+    {
+      "text": "humans or what's real so obviously",
+      "start": 408.319,
+      "duration": 3.521
+    },
+    {
+      "text": "there's probably going to have to have",
+      "start": 410.44,
+      "duration": 3.72
+    },
+    {
+      "text": "some form of Regulation particularly in",
+      "start": 411.84,
+      "duration": 4.84
+    },
+    {
+      "text": "in face once it is consumers and if I'm",
+      "start": 414.16,
+      "duration": 4.439
+    },
+    {
+      "text": "a consumer start you know generating",
+      "start": 416.68,
+      "duration": 5.32
+    },
+    {
+      "text": "videos andu manipulating you know then",
+      "start": 418.599,
+      "duration": 5.561
+    },
+    {
+      "text": "obviously that technology will need to",
+      "start": 422.0,
+      "duration": 4.28
+    },
+    {
+      "text": "be some form of at consum signment",
+      "start": 424.16,
+      "duration": 3.52
+    },
+    {
+      "text": "people are you know using this",
+      "start": 426.28,
+      "duration": 3.0
+    },
+    {
+      "text": "technology for something else that that",
+      "start": 427.68,
+      "duration": 3.359
+    },
+    {
+      "text": "needs to be probably have some form of",
+      "start": 429.28,
+      "duration": 3.359
+    },
+    {
+      "text": "Regulation or at least some way of",
+      "start": 431.039,
+      "duration": 4.201
+    },
+    {
+      "text": "saying that that was generated by AI",
+      "start": 432.639,
+      "duration": 4.481
+    },
+    {
+      "text": "system and so there's a lot of uh",
+      "start": 435.24,
+      "duration": 3.359
+    },
+    {
+      "text": "thinking right now in the research",
+      "start": 437.12,
+      "duration": 4.44
+    },
+    {
+      "text": "community of figuring out you know what",
+      "start": 438.599,
+      "duration": 5.401
+    },
+    {
+      "text": "what the solution is going to be here so",
+      "start": 441.56,
+      "duration": 4.8
+    },
+    {
+      "text": "there are some bills already in Congress",
+      "start": 444.0,
+      "duration": 5.16
+    },
+    {
+      "text": "us relating to that and you will have",
+      "start": 446.36,
+      "duration": 4.2
+    },
+    {
+      "text": "something thing coming through the",
+      "start": 449.16,
+      "duration": 3.759
+    },
+    {
+      "text": "concern obviously is that watermarking",
+      "start": 450.56,
+      "duration": 6.199
+    },
+    {
+      "text": "is not in 100% foolproof technology and",
+      "start": 452.919,
+      "duration": 7.12
+    },
+    {
+      "text": "then I don't know uh with text to video",
+      "start": 456.759,
+      "duration": 6.601
+    },
+    {
+      "text": "or text to image what can you do I mean",
+      "start": 460.039,
+      "duration": 5.241
+    },
+    {
+      "text": "you are the expert are there",
+      "start": 463.36,
+      "duration": 4.44
+    },
+    {
+      "text": "technological innovations now you're",
+      "start": 465.28,
+      "duration": 5.96
+    },
+    {
+      "text": "saying it is still not there but keep in",
+      "start": 467.8,
+      "duration": 6.32
+    },
+    {
+      "text": "mind open AI announced Soro mid Journey",
+      "start": 471.24,
+      "duration": 4.2
+    },
+    {
+      "text": "immediately said we're going to have",
+      "start": 474.12,
+      "duration": 4.44
+    },
+    {
+      "text": "something better and Google's probably",
+      "start": 475.44,
+      "duration": 5.24
+    },
+    {
+      "text": "going to have something absolutely",
+      "start": 478.56,
+      "duration": 3.319
+    },
+    {
+      "text": "absolutely I mean that technology is",
+      "start": 480.68,
+      "duration": 3.16
+    },
+    {
+      "text": "going to be evolving there is no",
+      "start": 481.879,
+      "duration": 4.44
+    },
+    {
+      "text": "question about it right and so we're not",
+      "start": 483.84,
+      "duration": 4.72
+    },
+    {
+      "text": "there yet but eventually we'll get there",
+      "start": 486.319,
+      "duration": 4.201
+    },
+    {
+      "text": "I have no I have no doubt but in terms",
+      "start": 488.56,
+      "duration": 3.16
+    },
+    {
+      "text": "of you you've asked about image",
+      "start": 490.52,
+      "duration": 2.76
+    },
+    {
+      "text": "generation how we can do it that's",
+      "start": 491.72,
+      "duration": 3.599
+    },
+    {
+      "text": "that's a very good question I don't know",
+      "start": 493.28,
+      "duration": 3.52
+    },
+    {
+      "text": "I don't know whether there needs to be",
+      "start": 495.319,
+      "duration": 3.921
+    },
+    {
+      "text": "some form of system or some form of",
+      "start": 496.8,
+      "duration": 4.16
+    },
+    {
+      "text": "Regulation that will basically stay that",
+      "start": 499.24,
+      "duration": 3.079
+    },
+    {
+      "text": "would basically say whenever you",
+      "start": 500.96,
+      "duration": 3.519
+    },
+    {
+      "text": "generate should generate new if it's a",
+      "start": 502.319,
+      "duration": 4.961
+    },
+    {
+      "text": "watermark or specific standard that says",
+      "start": 504.479,
+      "duration": 6.241
+    },
+    {
+      "text": "this thing is generated by a just as a",
+      "start": 507.28,
+      "duration": 5.4
+    },
+    {
+      "text": "way to saying what is something that",
+      "start": 510.72,
+      "duration": 3.4
+    },
+    {
+      "text": "generated by AI versus what something",
+      "start": 512.68,
+      "duration": 2.88
+    },
+    {
+      "text": "that's not generated by a and we s to",
+      "start": 514.12,
+      "duration": 2.799
+    },
+    {
+      "text": "run into this problem right now there",
+      "start": 515.56,
+      "duration": 3.76
+    },
+    {
+      "text": "was a very fun example funny example",
+      "start": 516.919,
+      "duration": 5.881
+    },
+    {
+      "text": "where open AI GPT generates text and and",
+      "start": 519.32,
+      "duration": 5.48
+    },
+    {
+      "text": "that text shows up on the web you know",
+      "start": 522.8,
+      "duration": 4.08
+    },
+    {
+      "text": "it's no longer you know human generated",
+      "start": 524.8,
+      "duration": 3.88
+    },
+    {
+      "text": "text it's AI generated text and there",
+      "start": 526.88,
+      "duration": 4.44
+    },
+    {
+      "text": "was at one point if you've seen that on",
+      "start": 528.68,
+      "duration": 5.08
+    },
+    {
+      "text": "X the platform on Twitter on the X",
+      "start": 531.32,
+      "duration": 4.44
+    },
+    {
+      "text": "platform uh they have their own",
+      "start": 533.76,
+      "duration": 4.6
+    },
+    {
+      "text": "assistant called Gro and there was one",
+      "start": 535.76,
+      "duration": 4.639
+    },
+    {
+      "text": "point in time where GR Brock would say",
+      "start": 538.36,
+      "duration": 4.96
+    },
+    {
+      "text": "oh I cannot answer that question because",
+      "start": 540.399,
+      "duration": 5.601
+    },
+    {
+      "text": "my open AI license doesn't allow me to",
+      "start": 543.32,
+      "duration": 5.519
+    },
+    {
+      "text": "or my open AI sort of guard rails do not",
+      "start": 546.0,
+      "duration": 4.36
+    },
+    {
+      "text": "allow me to answer that question and",
+      "start": 548.839,
+      "duration": 3.601
+    },
+    {
+      "text": "people started making fun why is one",
+      "start": 550.36,
+      "duration": 4.039
+    },
+    {
+      "text": "platform saying that you know I can't",
+      "start": 552.44,
+      "duration": 4.04
+    },
+    {
+      "text": "give you the answer because open the ey",
+      "start": 554.399,
+      "duration": 3.801
+    },
+    {
+      "text": "why is this agreement doesn't let me and",
+      "start": 556.48,
+      "duration": 3.4
+    },
+    {
+      "text": "so what's actually happening is that",
+      "start": 558.2,
+      "duration": 3.68
+    },
+    {
+      "text": "text is generated and these other",
+      "start": 559.88,
+      "duration": 4.12
+    },
+    {
+      "text": "systems take the text from the web",
+      "start": 561.88,
+      "duration": 3.48
+    },
+    {
+      "text": "because they all call the web they all",
+      "start": 564.0,
+      "duration": 3.04
+    },
+    {
+      "text": "getting that information and using that",
+      "start": 565.36,
+      "duration": 4.12
+    },
+    {
+      "text": "to train their models and so now it's",
+      "start": 567.04,
+      "duration": 4.56
+    },
+    {
+      "text": "some point you know differentiating what",
+      "start": 569.48,
+      "duration": 4.56
+    },
+    {
+      "text": "was generated by I versus what was not",
+      "start": 571.6,
+      "duration": 4.359
+    },
+    {
+      "text": "is going to be you know you basically",
+      "start": 574.04,
+      "duration": 3.359
+    },
+    {
+      "text": "can't tell the difference and that's",
+      "start": 575.959,
+      "duration": 3.041
+    },
+    {
+      "text": "something that's potentially we need to",
+      "start": 577.399,
+      "duration": 3.521
+    },
+    {
+      "text": "think about you know what we need to do",
+      "start": 579.0,
+      "duration": 4.16
+    },
+    {
+      "text": "in this case some trial balloons have",
+      "start": 580.92,
+      "duration": 4.76
+    },
+    {
+      "text": "been floated even the Administration has",
+      "start": 583.16,
+      "duration": 4.919
+    },
+    {
+      "text": "talked about the use of blockchain for",
+      "start": 585.68,
+      "duration": 4.92
+    },
+    {
+      "text": "something like that as somebody who is",
+      "start": 588.079,
+      "duration": 4.961
+    },
+    {
+      "text": "working diligently is that again just",
+      "start": 590.6,
+      "duration": 5.32
+    },
+    {
+      "text": "very briefly uh is that a solution I",
+      "start": 593.04,
+      "duration": 4.52
+    },
+    {
+      "text": "don't know we're definitely going to",
+      "start": 595.92,
+      "duration": 3.88
+    },
+    {
+      "text": "have some form of solution going forward",
+      "start": 597.56,
+      "duration": 4.88
+    },
+    {
+      "text": "because once we move into the next sort",
+      "start": 599.8,
+      "duration": 4.599
+    },
+    {
+      "text": "of evolution of these large language",
+      "start": 602.44,
+      "duration": 3.56
+    },
+    {
+      "text": "models Foundation models which is going",
+      "start": 604.399,
+      "duration": 4.0
+    },
+    {
+      "text": "to be agents we think of them as you",
+      "start": 606.0,
+      "duration": 3.88
+    },
+    {
+      "text": "know your personal assistant that will",
+      "start": 608.399,
+      "duration": 3.801
+    },
+    {
+      "text": "do tasks for you you know you have an",
+      "start": 609.88,
+      "duration": 3.84
+    },
+    {
+      "text": "issue with your phone you just ask your",
+      "start": 612.2,
+      "duration": 3.639
+    },
+    {
+      "text": "agent go fix my phone or you try to book",
+      "start": 613.72,
+      "duration": 3.44
+    },
+    {
+      "text": "an appointment with your dentist you",
+      "start": 615.839,
+      "duration": 3.44
+    },
+    {
+      "text": "just tell the agent hey call my dentist",
+      "start": 617.16,
+      "duration": 3.64
+    },
+    {
+      "text": "just book an appointment for me right",
+      "start": 619.279,
+      "duration": 3.761
+    },
+    {
+      "text": "and so we're going to have systems that",
+      "start": 620.8,
+      "duration": 4.64
+    },
+    {
+      "text": "will make decisions and you know help",
+      "start": 623.04,
+      "duration": 5.239
+    },
+    {
+      "text": "you at which point the use of personal",
+      "start": 625.44,
+      "duration": 4.519
+    },
+    {
+      "text": "data is going to become very important",
+      "start": 628.279,
+      "duration": 3.081
+    },
+    {
+      "text": "they just will know everything about",
+      "start": 629.959,
+      "duration": 3.681
+    },
+    {
+      "text": "right just much like Google and other",
+      "start": 631.36,
+      "duration": 4.039
+    },
+    {
+      "text": "systems know every time you search on",
+      "start": 633.64,
+      "duration": 3.24
+    },
+    {
+      "text": "something online they know exactly what",
+      "start": 635.399,
+      "duration": 3.44
+    },
+    {
+      "text": "you're trying to do so and at that point",
+      "start": 636.88,
+      "duration": 3.8
+    },
+    {
+      "text": "I think that the technology like you're",
+      "start": 638.839,
+      "duration": 3.12
+    },
+    {
+      "text": "saying would it be blockchain or",
+      "start": 640.68,
+      "duration": 2.839
+    },
+    {
+      "text": "something else would would become very",
+      "start": 641.959,
+      "duration": 3.161
+    },
+    {
+      "text": "important because I would want my",
+      "start": 643.519,
+      "duration": 4.281
+    },
+    {
+      "text": "personal data to be protected and so as",
+      "start": 645.12,
+      "duration": 5.04
+    },
+    {
+      "text": "we kind of you know moving in that stage",
+      "start": 647.8,
+      "duration": 3.719
+    },
+    {
+      "text": "I think that's something to think about",
+      "start": 650.16,
+      "duration": 3.359
+    },
+    {
+      "text": "and I don't know what the right answer",
+      "start": 651.519,
+      "duration": 5.44
+    },
+    {
+      "text": "is but these systems these AI systems",
+      "start": 653.519,
+      "duration": 6.401
+    },
+    {
+      "text": "they very much data hungry right and so",
+      "start": 656.959,
+      "duration": 4.721
+    },
+    {
+      "text": "everything that we see today including",
+      "start": 659.92,
+      "duration": 4.88
+    },
+    {
+      "text": "Sora and GPT and Gemini everything is",
+      "start": 661.68,
+      "duration": 5.599
+    },
+    {
+      "text": "relying on large volumes of data and so",
+      "start": 664.8,
+      "duration": 4.24
+    },
+    {
+      "text": "data is sort of probably the most",
+      "start": 667.279,
+      "duration": 4.281
+    },
+    {
+      "text": "important part of all of these systems",
+      "start": 669.04,
+      "duration": 4.4
+    },
+    {
+      "text": "and obviously when it comes down to",
+      "start": 671.56,
+      "duration": 4.36
+    },
+    {
+      "text": "using my personal data that's when",
+      "start": 673.44,
+      "duration": 4.16
+    },
+    {
+      "text": "technology like blockchain or something",
+      "start": 675.92,
+      "duration": 3.919
+    },
+    {
+      "text": "else will need to be developed and we",
+      "start": 677.6,
+      "duration": 4.08
+    },
+    {
+      "text": "need to be ensure that you know my data",
+      "start": 679.839,
+      "duration": 4.68
+    },
+    {
+      "text": "stays private Russ you talked about and",
+      "start": 681.68,
+      "duration": 4.44
+    },
+    {
+      "text": "I want to still come to the employment",
+      "start": 684.519,
+      "duration": 4.44
+    },
+    {
+      "text": "issue but on the agents we've had some",
+      "start": 686.12,
+      "duration": 5.32
+    },
+    {
+      "text": "guests who have raised some serious",
+      "start": 688.959,
+      "duration": 4.88
+    },
+    {
+      "text": "concerns about some of these agents",
+      "start": 691.44,
+      "duration": 5.92
+    },
+    {
+      "text": "super agents as they said that they",
+      "start": 693.839,
+      "duration": 5.881
+    },
+    {
+      "text": "could be out of control or they could be",
+      "start": 697.36,
+      "duration": 5.68
+    },
+    {
+      "text": "running us where the humans would become",
+      "start": 699.72,
+      "duration": 5.559
+    },
+    {
+      "text": "one of our guests who is a biological",
+      "start": 703.04,
+      "duration": 4.44
+    },
+    {
+      "text": "ethicist said we would become",
+      "start": 705.279,
+      "duration": 5.961
+    },
+    {
+      "text": "subservient to the AI system is that a",
+      "start": 707.48,
+      "duration": 6.28
+    },
+    {
+      "text": "fear in your mind at all I actually",
+      "start": 711.24,
+      "duration": 4.96
+    },
+    {
+      "text": "don't think so you know it's very hard",
+      "start": 713.76,
+      "duration": 3.92
+    },
+    {
+      "text": "to I mean obviously very hard to",
+      "start": 716.2,
+      "duration": 2.8
+    },
+    {
+      "text": "extrapolate and see what's going to",
+      "start": 717.68,
+      "duration": 3.8
+    },
+    {
+      "text": "happen you know 40 years 50 years but",
+      "start": 719.0,
+      "duration": 4.92
+    },
+    {
+      "text": "the way that these systems work today",
+      "start": 721.48,
+      "duration": 4.799
+    },
+    {
+      "text": "they still under the control of humans",
+      "start": 723.92,
+      "duration": 4.44
+    },
+    {
+      "text": "so the way that the agents are working",
+      "start": 726.279,
+      "duration": 3.521
+    },
+    {
+      "text": "today even though they don't work very",
+      "start": 728.36,
+      "duration": 3.039
+    },
+    {
+      "text": "well so that's why con active area of",
+      "start": 729.8,
+      "duration": 5.24
+    },
+    {
+      "text": "research is where I give my agent a goal",
+      "start": 731.399,
+      "duration": 6.0
+    },
+    {
+      "text": "you know particular goal to achieve and",
+      "start": 735.04,
+      "duration": 4.0
+    },
+    {
+      "text": "the agent has to figure out what sort of",
+      "start": 737.399,
+      "duration": 3.321
+    },
+    {
+      "text": "steps it needs to take to achieve the",
+      "start": 739.04,
+      "duration": 3.56
+    },
+    {
+      "text": "goal that these agents don't really come",
+      "start": 740.72,
+      "duration": 4.28
+    },
+    {
+      "text": "up with their own goals they still sort",
+      "start": 742.6,
+      "duration": 5.479
+    },
+    {
+      "text": "of you know the objectives is something",
+      "start": 745.0,
+      "duration": 6.76
+    },
+    {
+      "text": "up we we we set up by by uh objectives",
+      "start": 748.079,
+      "duration": 6.241
+    },
+    {
+      "text": "are being set up by humans and so I",
+      "start": 751.76,
+      "duration": 4.72
+    },
+    {
+      "text": "don't think it's sort of I don't think",
+      "start": 754.32,
+      "duration": 4.6
+    },
+    {
+      "text": "we'll get to that point where these",
+      "start": 756.48,
+      "duration": 4.28
+    },
+    {
+      "text": "agents will take over but I think what",
+      "start": 758.92,
+      "duration": 4.2
+    },
+    {
+      "text": "will happen in the future is that these",
+      "start": 760.76,
+      "duration": 5.0
+    },
+    {
+      "text": "agents are going to be so useful to us",
+      "start": 763.12,
+      "duration": 4.279
+    },
+    {
+      "text": "that we're going to be heavily relying",
+      "start": 765.76,
+      "duration": 3.519
+    },
+    {
+      "text": "on them to sort of help us with their",
+      "start": 767.399,
+      "duration": 3.521
+    },
+    {
+      "text": "daily tasks and then there is sort of a",
+      "start": 769.279,
+      "duration": 3.881
+    },
+    {
+      "text": "fine line as to how much you rely on",
+      "start": 770.92,
+      "duration": 3.56
+    },
+    {
+      "text": "something versus how much you start",
+      "start": 773.16,
+      "duration": 3.2
+    },
+    {
+      "text": "thinking for yourself right so at some",
+      "start": 774.48,
+      "duration": 4.84
+    },
+    {
+      "text": "point you know once we hit that that",
+      "start": 776.36,
+      "duration": 4.68
+    },
+    {
+      "text": "gray area then we'll have to start",
+      "start": 779.32,
+      "duration": 3.56
+    },
+    {
+      "text": "thinking fairly carefully like you know",
+      "start": 781.04,
+      "duration": 3.72
+    },
+    {
+      "text": "what do we do in this case much like",
+      "start": 782.88,
+      "duration": 4.04
+    },
+    {
+      "text": "today you know when I drive and I try to",
+      "start": 784.76,
+      "duration": 4.319
+    },
+    {
+      "text": "go somewhere I don't even think how to",
+      "start": 786.92,
+      "duration": 5.4
+    },
+    {
+      "text": "get there I just use Google or Apple to",
+      "start": 789.079,
+      "duration": 4.841
+    },
+    {
+      "text": "tell me how to get there and if Google",
+      "start": 792.32,
+      "duration": 4.4
+    },
+    {
+      "text": "tells me to go around and make two",
+      "start": 793.92,
+      "duration": 5.84
+    },
+    {
+      "text": "circles before I get there I'll do that",
+      "start": 796.72,
+      "duration": 5.64
+    },
+    {
+      "text": "that's true there's obviously concern",
+      "start": 799.76,
+      "duration": 4.319
+    },
+    {
+      "text": "sort of going forward that as that",
+      "start": 802.36,
+      "duration": 4.279
+    },
+    {
+      "text": "technology matures and you know you're",
+      "start": 804.079,
+      "duration": 3.841
+    },
+    {
+      "text": "going to start relying on it more and",
+      "start": 806.639,
+      "duration": 2.521
+    },
+    {
+      "text": "more and that's sort of one of the",
+      "start": 807.92,
+      "duration": 2.919
+    },
+    {
+      "text": "problems and this is again we come to",
+      "start": 809.16,
+      "duration": 4.039
+    },
+    {
+      "text": "regulation will need to be addressed is",
+      "start": 810.839,
+      "duration": 4.281
+    },
+    {
+      "text": "as these systems become better and",
+      "start": 813.199,
+      "duration": 3.601
+    },
+    {
+      "text": "better you know let's say if we take",
+      "start": 815.12,
+      "duration": 4.8
+    },
+    {
+      "text": "medical domain doctors and you know a",
+      "start": 816.8,
+      "duration": 5.8
+    },
+    {
+      "text": "lot of people are saying well gp4 and I",
+      "start": 819.92,
+      "duration": 4.32
+    },
+    {
+      "text": "think the next evolution of these agents",
+      "start": 822.6,
+      "duration": 4.0
+    },
+    {
+      "text": "going to know so much about especially",
+      "start": 824.24,
+      "duration": 4.039
+    },
+    {
+      "text": "if you give it so much data across",
+      "start": 826.6,
+      "duration": 3.12
+    },
+    {
+      "text": "different patients they potentially can",
+      "start": 828.279,
+      "duration": 3.281
+    },
+    {
+      "text": "be better than your family doctor and I",
+      "start": 829.72,
+      "duration": 4.44
+    },
+    {
+      "text": "don't rule that out the issue is that if",
+      "start": 831.56,
+      "duration": 5.959
+    },
+    {
+      "text": "that ever becomes the case then doctors",
+      "start": 834.16,
+      "duration": 6.96
+    },
+    {
+      "text": "will start relying on the tech and at",
+      "start": 837.519,
+      "duration": 6.841
+    },
+    {
+      "text": "some point what the fine line of me",
+      "start": 841.12,
+      "duration": 5.48
+    },
+    {
+      "text": "relying on my own decisions versus me",
+      "start": 844.36,
+      "duration": 4.76
+    },
+    {
+      "text": "relying on what AI is telling and this",
+      "start": 846.6,
+      "duration": 4.0
+    },
+    {
+      "text": "is where I think that in these domains",
+      "start": 849.12,
+      "duration": 3.32
+    },
+    {
+      "text": "we need some very good regulations",
+      "start": 850.6,
+      "duration": 3.88
+    },
+    {
+      "text": "because they're very sensitive and very",
+      "start": 852.44,
+      "duration": 4.28
+    },
+    {
+      "text": "sort of area where you can't really make",
+      "start": 854.48,
+      "duration": 4.799
+    },
+    {
+      "text": "mistakes Russ just one final point on",
+      "start": 856.72,
+      "duration": 4.84
+    },
+    {
+      "text": "agents because some of our guests did",
+      "start": 859.279,
+      "duration": 4.281
+    },
+    {
+      "text": "bring this up are agents going to",
+      "start": 861.56,
+      "duration": 4.959
+    },
+    {
+      "text": "interact with other agents absolutely I",
+      "start": 863.56,
+      "duration": 5.279
+    },
+    {
+      "text": "see the future where you know I can give",
+      "start": 866.519,
+      "duration": 4.921
+    },
+    {
+      "text": "you example very simple example where I",
+      "start": 868.839,
+      "duration": 4.56
+    },
+    {
+      "text": "would like to have an agent my phone",
+      "start": 871.44,
+      "duration": 4.0
+    },
+    {
+      "text": "stopped working I was traveling overseas",
+      "start": 873.399,
+      "duration": 3.88
+    },
+    {
+      "text": "my phone stopped working I'm calling",
+      "start": 875.44,
+      "duration": 4.68
+    },
+    {
+      "text": "AT&T I'm spending an hour with the",
+      "start": 877.279,
+      "duration": 4.68
+    },
+    {
+      "text": "customer support and doing things like",
+      "start": 880.12,
+      "duration": 3.519
+    },
+    {
+      "text": "rebooting my phone then checking",
+      "start": 881.959,
+      "duration": 3.481
+    },
+    {
+      "text": "something I see the future where I can",
+      "start": 883.639,
+      "duration": 4.241
+    },
+    {
+      "text": "just ask my agent figure out why my",
+      "start": 885.44,
+      "duration": 4.6
+    },
+    {
+      "text": "phone is not working and this agent is",
+      "start": 887.88,
+      "duration": 4.959
+    },
+    {
+      "text": "going to call AT&T agent and AT&T's",
+      "start": 890.04,
+      "duration": 4.88
+    },
+    {
+      "text": "agent going to talk to my agent figure",
+      "start": 892.839,
+      "duration": 4.201
+    },
+    {
+      "text": "out what's the issue how we can resolve",
+      "start": 894.92,
+      "duration": 4.159
+    },
+    {
+      "text": "it what's the situation they can't",
+      "start": 897.04,
+      "duration": 3.64
+    },
+    {
+      "text": "resolve it that going to go to the human",
+      "start": 899.079,
+      "duration": 3.12
+    },
+    {
+      "text": "to resolve but I do see the future where",
+      "start": 900.68,
+      "duration": 2.959
+    },
+    {
+      "text": "agents will start communicating with",
+      "start": 902.199,
+      "duration": 3.281
+    },
+    {
+      "text": "each other to solve you know specific",
+      "start": 903.639,
+      "duration": 3.56
+    },
+    {
+      "text": "objectives that we give them but you",
+      "start": 905.48,
+      "duration": 3.56
+    },
+    {
+      "text": "don't see any D you don't see any danger",
+      "start": 907.199,
+      "duration": 4.841
+    },
+    {
+      "text": "with that obviously I mean I do I do see",
+      "start": 909.04,
+      "duration": 5.159
+    },
+    {
+      "text": "the danger in the sense that we'll still",
+      "start": 912.04,
+      "duration": 4.12
+    },
+    {
+      "text": "need to develop systems and that's part",
+      "start": 914.199,
+      "duration": 4.681
+    },
+    {
+      "text": "of the research that we are doing in in",
+      "start": 916.16,
+      "duration": 5.799
+    },
+    {
+      "text": "Community Systems that can essentially",
+      "start": 918.88,
+      "duration": 5.759
+    },
+    {
+      "text": "prevent Agents from taking dangerous",
+      "start": 921.959,
+      "duration": 5.041
+    },
+    {
+      "text": "actions or making sort of you know there",
+      "start": 924.639,
+      "duration": 4.161
+    },
+    {
+      "text": "is sort of a fun thing which is you know",
+      "start": 927.0,
+      "duration": 4.0
+    },
+    {
+      "text": "my phone is not working maybe the agent",
+      "start": 928.8,
+      "duration": 4.039
+    },
+    {
+      "text": "will figure out the best way to fix my",
+      "start": 931.0,
+      "duration": 4.56
+    },
+    {
+      "text": "phone is to hack an T and fix my phone",
+      "start": 932.839,
+      "duration": 4.761
+    },
+    {
+      "text": "and if that obviously that's the sort of",
+      "start": 935.56,
+      "duration": 4.32
+    },
+    {
+      "text": "the hypothetical situation but if I give",
+      "start": 937.6,
+      "duration": 4.239
+    },
+    {
+      "text": "it the objective my phone is fixed and",
+      "start": 939.88,
+      "duration": 4.16
+    },
+    {
+      "text": "so there obviously need to be some guard",
+      "start": 941.839,
+      "duration": 4.44
+    },
+    {
+      "text": "rails that we need to put into these",
+      "start": 944.04,
+      "duration": 4.0
+    },
+    {
+      "text": "systems and this is activated research",
+      "start": 946.279,
+      "duration": 4.0
+    },
+    {
+      "text": "and it's very hard to do it right now in",
+      "start": 948.04,
+      "duration": 4.52
+    },
+    {
+      "text": "such a way that when these agents take",
+      "start": 950.279,
+      "duration": 4.881
+    },
+    {
+      "text": "actions and make decisions you know",
+      "start": 952.56,
+      "duration": 4.56
+    },
+    {
+      "text": "there's certain safety protocols in",
+      "start": 955.16,
+      "duration": 4.599
+    },
+    {
+      "text": "place that would basically not allow",
+      "start": 957.12,
+      "duration": 4.719
+    },
+    {
+      "text": "these agents to do something malicious",
+      "start": 959.759,
+      "duration": 4.361
+    },
+    {
+      "text": "we addressed one of the concerns that",
+      "start": 961.839,
+      "duration": 4.68
+    },
+    {
+      "text": "you had the other concern you raised was",
+      "start": 964.12,
+      "duration": 5.159
+    },
+    {
+      "text": "about loss of jobs there have been all",
+      "start": 966.519,
+      "duration": 5.641
+    },
+    {
+      "text": "kinds of reports r i mean you know you",
+      "start": 969.279,
+      "duration": 6.601
+    },
+    {
+      "text": "can take the IMF you take Mackenzie",
+      "start": 972.16,
+      "duration": 6.679
+    },
+    {
+      "text": "there will be job losses of 30% up to",
+      "start": 975.88,
+      "duration": 6.319
+    },
+    {
+      "text": "60% but a major transformation is",
+      "start": 978.839,
+      "duration": 6.24
+    },
+    {
+      "text": "underway that I think everybody agrees",
+      "start": 982.199,
+      "duration": 4.801
+    },
+    {
+      "text": "we've had education experts come here",
+      "start": 985.079,
+      "duration": 3.641
+    },
+    {
+      "text": "also I mean you're a professor yourself",
+      "start": 987.0,
+      "duration": 4.68
+    },
+    {
+      "text": "but people who focus on just this issue",
+      "start": 988.72,
+      "duration": 4.76
+    },
+    {
+      "text": "they've talked about reskilling they've",
+      "start": 991.68,
+      "duration": 4.2
+    },
+    {
+      "text": "talked about past changes that people",
+      "start": 993.48,
+      "duration": 5.359
+    },
+    {
+      "text": "always geared towards more but the",
+      "start": 995.88,
+      "duration": 5.879
+    },
+    {
+      "text": "people who will end up losing their job",
+      "start": 998.839,
+      "duration": 5.641
+    },
+    {
+      "text": "if we talk to them it's always a very",
+      "start": 1001.759,
+      "duration": 4.44
+    },
+    {
+      "text": "hard thing and when you're talking about",
+      "start": 1004.48,
+      "duration": 4.12
+    },
+    {
+      "text": "numbers like 30 to 60% and these are",
+      "start": 1006.199,
+      "duration": 4.521
+    },
+    {
+      "text": "white collar jobs we talk about customer",
+      "start": 1008.6,
+      "duration": 4.28
+    },
+    {
+      "text": "service Representatives you're talking",
+      "start": 1010.72,
+      "duration": 4.28
+    },
+    {
+      "text": "about marketing you're talking about",
+      "start": 1012.88,
+      "duration": 4.36
+    },
+    {
+      "text": "coding what are your thoughts on this",
+      "start": 1015.0,
+      "duration": 4.88
+    },
+    {
+      "text": "Russ I have spoke to a few people about",
+      "start": 1017.24,
+      "duration": 5.24
+    },
+    {
+      "text": "this a few fairly you know smart people",
+      "start": 1019.88,
+      "duration": 4.559
+    },
+    {
+      "text": "that I respect about you know what the",
+      "start": 1022.48,
+      "duration": 4.28
+    },
+    {
+      "text": "future might be it's still uncertain but",
+      "start": 1024.439,
+      "duration": 3.64
+    },
+    {
+      "text": "we have to be prepared for the case that",
+      "start": 1026.76,
+      "duration": 2.679
+    },
+    {
+      "text": "as thei becomes better and better",
+      "start": 1028.079,
+      "duration": 2.48
+    },
+    {
+      "text": "there's probably going to be some job",
+      "start": 1029.439,
+      "duration": 4.48
+    },
+    {
+      "text": "display as the AI physical AI evolves",
+      "start": 1030.559,
+      "duration": 5.441
+    },
+    {
+      "text": "right we'll have robots in our homes",
+      "start": 1033.919,
+      "duration": 3.841
+    },
+    {
+      "text": "helping us out you know obviously",
+      "start": 1036.0,
+      "duration": 3.199
+    },
+    {
+      "text": "there's going to be some job displayed",
+      "start": 1037.76,
+      "duration": 3.199
+    },
+    {
+      "text": "you know there's always pros and cons",
+      "start": 1039.199,
+      "duration": 3.161
+    },
+    {
+      "text": "the pros is that you know that",
+      "start": 1040.959,
+      "duration": 2.84
+    },
+    {
+      "text": "technology is going to be evolving and",
+      "start": 1042.36,
+      "duration": 3.88
+    },
+    {
+      "text": "will help people will Empower people but",
+      "start": 1043.799,
+      "duration": 3.721
+    },
+    {
+      "text": "yes at the same time there's going to be",
+      "start": 1046.24,
+      "duration": 3.16
+    },
+    {
+      "text": "some job displacement and I think that",
+      "start": 1047.52,
+      "duration": 4.24
+    },
+    {
+      "text": "the main issue that or the main argument",
+      "start": 1049.4,
+      "duration": 3.76
+    },
+    {
+      "text": "that I see from other people is that",
+      "start": 1051.76,
+      "duration": 4.2
+    },
+    {
+      "text": "look technology advances are always good",
+      "start": 1053.16,
+      "duration": 5.32
+    },
+    {
+      "text": "because you know our society evolves but",
+      "start": 1055.96,
+      "duration": 4.2
+    },
+    {
+      "text": "if it takes a generation or two",
+      "start": 1058.48,
+      "duration": 3.68
+    },
+    {
+      "text": "generations then we can adapt because",
+      "start": 1060.16,
+      "duration": 4.92
+    },
+    {
+      "text": "you know we will we'll get education you",
+      "start": 1062.16,
+      "duration": 5.44
+    },
+    {
+      "text": "know we we you know people can you know",
+      "start": 1065.08,
+      "duration": 5.56
+    },
+    {
+      "text": "get the skills necessary to to adapt the",
+      "start": 1067.6,
+      "duration": 4.439
+    },
+    {
+      "text": "the worry is that if that technology",
+      "start": 1070.64,
+      "duration": 4.2
+    },
+    {
+      "text": "evolves very quickly within 10 to 20",
+      "start": 1072.039,
+      "duration": 4.681
+    },
+    {
+      "text": "years within a single generation then",
+      "start": 1074.84,
+      "duration": 4.52
+    },
+    {
+      "text": "that becomes problematic right right",
+      "start": 1076.72,
+      "duration": 4.24
+    },
+    {
+      "text": "just like exactly like you're saying you",
+      "start": 1079.36,
+      "duration": 3.72
+    },
+    {
+      "text": "know I we going to be displacing",
+      "start": 1080.96,
+      "duration": 3.92
+    },
+    {
+      "text": "customer service Representatives there's",
+      "start": 1083.08,
+      "duration": 4.4
+    },
+    {
+      "text": "a lot of which probably will happen and",
+      "start": 1084.88,
+      "duration": 4.679
+    },
+    {
+      "text": "that's something that's you know I don't",
+      "start": 1087.48,
+      "duration": 5.439
+    },
+    {
+      "text": "know how to uh avoid because you know we",
+      "start": 1089.559,
+      "duration": 5.441
+    },
+    {
+      "text": "we sort of felt about if you look for",
+      "start": 1092.919,
+      "duration": 4.321
+    },
+    {
+      "text": "example at coding right now today a lot",
+      "start": 1095.0,
+      "duration": 5.0
+    },
+    {
+      "text": "of my friends use chat GPT for coding",
+      "start": 1097.24,
+      "duration": 4.919
+    },
+    {
+      "text": "and you know professional coders are",
+      "start": 1100.0,
+      "duration": 4.08
+    },
+    {
+      "text": "still fine because professional coders",
+      "start": 1102.159,
+      "duration": 4.041
+    },
+    {
+      "text": "they know exactly what you need to do",
+      "start": 1104.08,
+      "duration": 4.04
+    },
+    {
+      "text": "they have teams of people when they",
+      "start": 1106.2,
+      "duration": 4.12
+    },
+    {
+      "text": "build something but sort of you know",
+      "start": 1108.12,
+      "duration": 3.88
+    },
+    {
+      "text": "other coders they becoming more",
+      "start": 1110.32,
+      "duration": 3.16
+    },
+    {
+      "text": "efficient and as you're becoming more",
+      "start": 1112.0,
+      "duration": 3.679
+    },
+    {
+      "text": "efficient then as a company I don't need",
+      "start": 1113.48,
+      "duration": 4.4
+    },
+    {
+      "text": "10 people I I I might as well just have",
+      "start": 1115.679,
+      "duration": 3.721
+    },
+    {
+      "text": "five people right they can accomplish",
+      "start": 1117.88,
+      "duration": 2.919
+    },
+    {
+      "text": "the job that I need to accomplish so I'm",
+      "start": 1119.4,
+      "duration": 2.84
+    },
+    {
+      "text": "becoming more efficient the company",
+      "start": 1120.799,
+      "duration": 2.801
+    },
+    {
+      "text": "becomes more efficient but then five",
+      "start": 1122.24,
+      "duration": 3.52
+    },
+    {
+      "text": "people just lost the job I don't know",
+      "start": 1123.6,
+      "duration": 5.16
+    },
+    {
+      "text": "what to do in this case I will tell I",
+      "start": 1125.76,
+      "duration": 4.96
+    },
+    {
+      "text": "don't think we're at the state at this",
+      "start": 1128.76,
+      "duration": 3.52
+    },
+    {
+      "text": "point where there's a massive job",
+      "start": 1130.72,
+      "duration": 3.56
+    },
+    {
+      "text": "displacement because of AI but we have",
+      "start": 1132.28,
+      "duration": 4.36
+    },
+    {
+      "text": "to be prepared if we look at you know 10",
+      "start": 1134.28,
+      "duration": 4.68
+    },
+    {
+      "text": "20 30 years from now but don't think",
+      "start": 1136.64,
+      "duration": 4.159
+    },
+    {
+      "text": "Russ it might be sooner than that",
+      "start": 1138.96,
+      "duration": 4.719
+    },
+    {
+      "text": "because you know law firms I mean you",
+      "start": 1140.799,
+      "duration": 5.481
+    },
+    {
+      "text": "see small number of you know a company",
+      "start": 1143.679,
+      "duration": 5.48
+    },
+    {
+      "text": "like dualingo let a bunch of contractors",
+      "start": 1146.28,
+      "duration": 4.92
+    },
+    {
+      "text": "go I think dingo is in Pittsburgh if I'm",
+      "start": 1149.159,
+      "duration": 5.121
+    },
+    {
+      "text": "not mistaken yes and they let a bunch of",
+      "start": 1151.2,
+      "duration": 4.88
+    },
+    {
+      "text": "people go because they said AI the",
+      "start": 1154.28,
+      "duration": 3.92
+    },
+    {
+      "text": "contractors go because AI could do the",
+      "start": 1156.08,
+      "duration": 4.92
+    },
+    {
+      "text": "job UPS now I don't know if AI was the",
+      "start": 1158.2,
+      "duration": 5.8
+    },
+    {
+      "text": "reason but I I can rattle off names of",
+      "start": 1161.0,
+      "duration": 6.72
+    },
+    {
+      "text": "companies that it seems like the trend",
+      "start": 1164.0,
+      "duration": 5.32
+    },
+    {
+      "text": "has started",
+      "start": 1167.72,
+      "duration": 4.8
+    },
+    {
+      "text": "and obviously there's a political",
+      "start": 1169.32,
+      "duration": 7.52
+    },
+    {
+      "text": "sensitivity of saying certain things but",
+      "start": 1172.52,
+      "duration": 6.399
+    },
+    {
+      "text": "my concern is as you said these",
+      "start": 1176.84,
+      "duration": 3.8
+    },
+    {
+      "text": "programmers these customer service",
+      "start": 1178.919,
+      "duration": 4.041
+    },
+    {
+      "text": "agents it's going to be a challenge now",
+      "start": 1180.64,
+      "duration": 4.72
+    },
+    {
+      "text": "obviously we'll have to figure this out",
+      "start": 1182.96,
+      "duration": 4.52
+    },
+    {
+      "text": "and I hope uh that we can figure it out",
+      "start": 1185.36,
+      "duration": 4.16
+    },
+    {
+      "text": "sooner because I don't think it'll be 10",
+      "start": 1187.48,
+      "duration": 4.6
+    },
+    {
+      "text": "to 20 years uh that's a fair point that",
+      "start": 1189.52,
+      "duration": 4.159
+    },
+    {
+      "text": "you know a lot of like companies like",
+      "start": 1192.08,
+      "duration": 3.88
+    },
+    {
+      "text": "doolingo uh you know they fire or they",
+      "start": 1193.679,
+      "duration": 4.081
+    },
+    {
+      "text": "let a lot of contractors go because of",
+      "start": 1195.96,
+      "duration": 3.64
+    },
+    {
+      "text": "translation machine translation",
+      "start": 1197.76,
+      "duration": 3.48
+    },
+    {
+      "text": "translating from one language to another",
+      "start": 1199.6,
+      "duration": 3.079
+    },
+    {
+      "text": "and and machine translation systems are",
+      "start": 1201.24,
+      "duration": 3.4
+    },
+    {
+      "text": "getting to the point where they're",
+      "start": 1202.679,
+      "duration": 4.601
+    },
+    {
+      "text": "better than humans to do translation and",
+      "start": 1204.64,
+      "duration": 4.68
+    },
+    {
+      "text": "so there's certain Pockets where we see",
+      "start": 1207.28,
+      "duration": 4.12
+    },
+    {
+      "text": "that Trend yes I agree I still think",
+      "start": 1209.32,
+      "duration": 4.0
+    },
+    {
+      "text": "it's you know if you're thinking about",
+      "start": 1211.4,
+      "duration": 4.159
+    },
+    {
+      "text": "replacing you know Human Resources so if",
+      "start": 1213.32,
+      "duration": 3.839
+    },
+    {
+      "text": "you think about customer service",
+      "start": 1215.559,
+      "duration": 4.201
+    },
+    {
+      "text": "Representatives we're still not there to",
+      "start": 1217.159,
+      "duration": 5.361
+    },
+    {
+      "text": "the point where AI can just take over",
+      "start": 1219.76,
+      "duration": 4.799
+    },
+    {
+      "text": "the customer service and just completely",
+      "start": 1222.52,
+      "duration": 4.68
+    },
+    {
+      "text": "replace because AI right now it's sort",
+      "start": 1224.559,
+      "duration": 4.681
+    },
+    {
+      "text": "of good but it can really it's one of",
+      "start": 1227.2,
+      "duration": 4.0
+    },
+    {
+      "text": "those things when when I was working at",
+      "start": 1229.24,
+      "duration": 3.88
+    },
+    {
+      "text": "Apple you know Apple has customer",
+      "start": 1231.2,
+      "duration": 4.8
+    },
+    {
+      "text": "service they were using AI to help the",
+      "start": 1233.12,
+      "duration": 4.72
+    },
+    {
+      "text": "customer service Representatives but",
+      "start": 1236.0,
+      "duration": 3.84
+    },
+    {
+      "text": "they would never replace the human just",
+      "start": 1237.84,
+      "duration": 4.6
+    },
+    {
+      "text": "because there are certain sort of these",
+      "start": 1239.84,
+      "duration": 5.04
+    },
+    {
+      "text": "small probability events sort of rare",
+      "start": 1242.44,
+      "duration": 4.16
+    },
+    {
+      "text": "events where something happens where",
+      "start": 1244.88,
+      "duration": 4.24
+    },
+    {
+      "text": "only human can address the issue right",
+      "start": 1246.6,
+      "duration": 4.64
+    },
+    {
+      "text": "and so I agree with you that it's the",
+      "start": 1249.12,
+      "duration": 4.76
+    },
+    {
+      "text": "trend is starting but I not observing",
+      "start": 1251.24,
+      "duration": 4.4
+    },
+    {
+      "text": "like a massive displacement at this",
+      "start": 1253.88,
+      "duration": 3.36
+    },
+    {
+      "text": "point but I agree with you I think",
+      "start": 1255.64,
+      "duration": 3.56
+    },
+    {
+      "text": "that's something that needs to be you",
+      "start": 1257.24,
+      "duration": 5.24
+    },
+    {
+      "text": "know especially as AI comp as these big",
+      "start": 1259.2,
+      "duration": 6.08
+    },
+    {
+      "text": "companies become using more and more Ai",
+      "start": 1262.48,
+      "duration": 5.52
+    },
+    {
+      "text": "and the job replacement is yeah one of",
+      "start": 1265.28,
+      "duration": 5.279
+    },
+    {
+      "text": "the topics that we have to figure out I",
+      "start": 1268.0,
+      "duration": 5.0
+    },
+    {
+      "text": "don't know how to because AI continues",
+      "start": 1270.559,
+      "duration": 4.281
+    },
+    {
+      "text": "to to be evolved and there's so much",
+      "start": 1273.0,
+      "duration": 4.36
+    },
+    {
+      "text": "research happening in that space so Russ",
+      "start": 1274.84,
+      "duration": 5.92
+    },
+    {
+      "text": "you just uh talked about that AI is",
+      "start": 1277.36,
+      "duration": 5.48
+    },
+    {
+      "text": "evolving one of our guests said AI is",
+      "start": 1280.76,
+      "duration": 4.64
+    },
+    {
+      "text": "like an amoeba it keeps changing as you",
+      "start": 1282.84,
+      "duration": 5.52
+    },
+    {
+      "text": "know we had large language morals than",
+      "start": 1285.4,
+      "duration": 6.08
+    },
+    {
+      "text": "we we had multimodal we have agents now",
+      "start": 1288.36,
+      "duration": 7.16
+    },
+    {
+      "text": "we have text to video we have people",
+      "start": 1291.48,
+      "duration": 8.84
+    },
+    {
+      "text": "talking about AGI how do uh lawmakers",
+      "start": 1295.52,
+      "duration": 8.08
+    },
+    {
+      "text": "who are not AI experts they're trying to",
+      "start": 1300.32,
+      "duration": 6.4
+    },
+    {
+      "text": "craft a law based on the facts today",
+      "start": 1303.6,
+      "duration": 5.16
+    },
+    {
+      "text": "saying okay we're going to protect such",
+      "start": 1306.72,
+      "duration": 4.16
+    },
+    {
+      "text": "and such and such we're going to put",
+      "start": 1308.76,
+      "duration": 6.32
+    },
+    {
+      "text": "some guard rails but 6 months down your",
+      "start": 1310.88,
+      "duration": 6.24
+    },
+    {
+      "text": "research comes up with something I don't",
+      "start": 1315.08,
+      "duration": 5.56
+    },
+    {
+      "text": "know AGI or even Beyond AGI plus how do",
+      "start": 1317.12,
+      "duration": 5.919
+    },
+    {
+      "text": "you kind of evolve those regulations",
+      "start": 1320.64,
+      "duration": 4.96
+    },
+    {
+      "text": "that's the concern that is there on",
+      "start": 1323.039,
+      "duration": 5.081
+    },
+    {
+      "text": "Capital Hill yes yes that's a very good",
+      "start": 1325.6,
+      "duration": 4.84
+    },
+    {
+      "text": "question the short answer is I don't",
+      "start": 1328.12,
+      "duration": 5.919
+    },
+    {
+      "text": "know you're right that AI evolves fairly",
+      "start": 1330.44,
+      "duration": 6.16
+    },
+    {
+      "text": "quickly I mean once so for example when",
+      "start": 1334.039,
+      "duration": 5.201
+    },
+    {
+      "text": "Sora came out I was very impressed you",
+      "start": 1336.6,
+      "duration": 4.12
+    },
+    {
+      "text": "know it's like you look at it it's like",
+      "start": 1339.24,
+      "duration": 5.0
+    },
+    {
+      "text": "okay it's looks very real my estimation",
+      "start": 1340.72,
+      "duration": 4.92
+    },
+    {
+      "text": "was that it's going to take us maybe a",
+      "start": 1344.24,
+      "duration": 3.36
+    },
+    {
+      "text": "few years to get to that point and when",
+      "start": 1345.64,
+      "duration": 3.8
+    },
+    {
+      "text": "I look at the Technic aspects of what",
+      "start": 1347.6,
+      "duration": 4.84
+    },
+    {
+      "text": "they've done the technology is the same",
+      "start": 1349.44,
+      "duration": 4.8
+    },
+    {
+      "text": "so the technology hasn't changed what",
+      "start": 1352.44,
+      "duration": 5.08
+    },
+    {
+      "text": "has changed is the ability to consume a",
+      "start": 1354.24,
+      "duration": 4.76
+    },
+    {
+      "text": "lot of data and having the",
+      "start": 1357.52,
+      "duration": 3.48
+    },
+    {
+      "text": "infrastructure to have these systems",
+      "start": 1359.0,
+      "duration": 5.12
+    },
+    {
+      "text": "right and so with the data and gpus and",
+      "start": 1361.0,
+      "duration": 5.08
+    },
+    {
+      "text": "you know Computing that we have you know",
+      "start": 1364.12,
+      "duration": 4.0
+    },
+    {
+      "text": "we'll see how far we can go but in terms",
+      "start": 1366.08,
+      "duration": 5.16
+    },
+    {
+      "text": "of the lawmakers and trying to craft you",
+      "start": 1368.12,
+      "duration": 5.28
+    },
+    {
+      "text": "know the regulations and such that's",
+      "start": 1371.24,
+      "duration": 4.439
+    },
+    {
+      "text": "it's a very interesting topic because on",
+      "start": 1373.4,
+      "duration": 5.56
+    },
+    {
+      "text": "one hand you don't want to have regul",
+      "start": 1375.679,
+      "duration": 5.801
+    },
+    {
+      "text": "that can stop the progress stop the",
+      "start": 1378.96,
+      "duration": 4.92
+    },
+    {
+      "text": "research so you know there's been a few",
+      "start": 1381.48,
+      "duration": 3.76
+    },
+    {
+      "text": "sort of things where people will say",
+      "start": 1383.88,
+      "duration": 3.36
+    },
+    {
+      "text": "well let's actually pause the research",
+      "start": 1385.24,
+      "duration": 3.76
+    },
+    {
+      "text": "or like development and that's that",
+      "start": 1387.24,
+      "duration": 3.439
+    },
+    {
+      "text": "would be a bad idea because other",
+      "start": 1389.0,
+      "duration": 4.36
+    },
+    {
+      "text": "countries Russia China they're going to",
+      "start": 1390.679,
+      "duration": 5.281
+    },
+    {
+      "text": "continue evolving right they they in",
+      "start": 1393.36,
+      "duration": 4.36
+    },
+    {
+      "text": "assistance and so and so it's important",
+      "start": 1395.96,
+      "duration": 3.319
+    },
+    {
+      "text": "for research to kind of you know to",
+      "start": 1397.72,
+      "duration": 3.76
+    },
+    {
+      "text": "continue but but it is important perhaps",
+      "start": 1399.279,
+      "duration": 4.961
+    },
+    {
+      "text": "for the lawmakers and Regulators to try",
+      "start": 1401.48,
+      "duration": 5.64
+    },
+    {
+      "text": "to think about how do we regulate and",
+      "start": 1404.24,
+      "duration": 5.84
+    },
+    {
+      "text": "products so if I'm developing a system",
+      "start": 1407.12,
+      "duration": 4.64
+    },
+    {
+      "text": "that's going to go and become a medical",
+      "start": 1410.08,
+      "duration": 3.599
+    },
+    {
+      "text": "AI assistant probably there needs to be",
+      "start": 1411.76,
+      "duration": 3.84
+    },
+    {
+      "text": "some regulation in terms of the quality",
+      "start": 1413.679,
+      "duration": 3.641
+    },
+    {
+      "text": "control or if I'm going to be using it",
+      "start": 1415.6,
+      "duration": 4.079
+    },
+    {
+      "text": "in self-driving car there's obviously",
+      "start": 1417.32,
+      "duration": 4.479
+    },
+    {
+      "text": "regulations where I can't just take a",
+      "start": 1419.679,
+      "duration": 4.0
+    },
+    {
+      "text": "model stick in my car and start driving",
+      "start": 1421.799,
+      "duration": 4.36
+    },
+    {
+      "text": "around because I may you know have",
+      "start": 1423.679,
+      "duration": 4.801
+    },
+    {
+      "text": "accidents that you know we cannot have",
+      "start": 1426.159,
+      "duration": 3.801
+    },
+    {
+      "text": "that so but I think that the best way",
+      "start": 1428.48,
+      "duration": 3.04
+    },
+    {
+      "text": "for the lawmakers in the government is",
+      "start": 1429.96,
+      "duration": 4.16
+    },
+    {
+      "text": "to perhaps be a little bit more embedded",
+      "start": 1431.52,
+      "duration": 5.8
+    },
+    {
+      "text": "into AI Community into the research and",
+      "start": 1434.12,
+      "duration": 5.919
+    },
+    {
+      "text": "see where the field is moving how it's",
+      "start": 1437.32,
+      "duration": 5.44
+    },
+    {
+      "text": "progressing we at seem you have an",
+      "start": 1440.039,
+      "duration": 4.841
+    },
+    {
+      "text": "organization that specifically works",
+      "start": 1442.76,
+      "duration": 3.919
+    },
+    {
+      "text": "with the local governments with the",
+      "start": 1444.88,
+      "duration": 4.279
+    },
+    {
+      "text": "Pennsylvania in particular to try to you",
+      "start": 1446.679,
+      "duration": 4.441
+    },
+    {
+      "text": "know they come and they talk to us they",
+      "start": 1449.159,
+      "duration": 3.241
+    },
+    {
+      "text": "talk to professors who actually",
+      "start": 1451.12,
+      "duration": 3.08
+    },
+    {
+      "text": "specialize in that field so that we can",
+      "start": 1452.4,
+      "duration": 4.24
+    },
+    {
+      "text": "anticipate a little bit forward of what",
+      "start": 1454.2,
+      "duration": 5.68
+    },
+    {
+      "text": "might happen you know in the future of",
+      "start": 1456.64,
+      "duration": 4.399
+    },
+    {
+      "text": "course it's very hard to predict what's",
+      "start": 1459.88,
+      "duration": 2.76
+    },
+    {
+      "text": "going to happen in five years but that's",
+      "start": 1461.039,
+      "duration": 3.64
+    },
+    {
+      "text": "the best strategy for the governments",
+      "start": 1462.64,
+      "duration": 4.48
+    },
+    {
+      "text": "and for the lawmakers to somehow perhaps",
+      "start": 1464.679,
+      "duration": 3.961
+    },
+    {
+      "text": "be a little bit more technical and",
+      "start": 1467.12,
+      "duration": 3.72
+    },
+    {
+      "text": "perhaps be a little bit more people who",
+      "start": 1468.64,
+      "duration": 3.48
+    },
+    {
+      "text": "work with the government to be a little",
+      "start": 1470.84,
+      "duration": 4.16
+    },
+    {
+      "text": "bit more involved with industry as well",
+      "start": 1472.12,
+      "duration": 5.279
+    },
+    {
+      "text": "as with universities yeah I think it's a",
+      "start": 1475.0,
+      "duration": 3.799
+    },
+    {
+      "text": "very good point that the government",
+      "start": 1477.399,
+      "duration": 3.801
+    },
+    {
+      "text": "needs to be involved more with Academia",
+      "start": 1478.799,
+      "duration": 6.041
+    },
+    {
+      "text": "and Industry now just to take that thing",
+      "start": 1481.2,
+      "duration": 6.4
+    },
+    {
+      "text": "forward the industry at least some of",
+      "start": 1484.84,
+      "duration": 5.12
+    },
+    {
+      "text": "the industry has been all over Capital",
+      "start": 1487.6,
+      "duration": 5.52
+    },
+    {
+      "text": "Hill and some of them have said hey we",
+      "start": 1489.96,
+      "duration": 6.56
+    },
+    {
+      "text": "want regulations are you concerned that",
+      "start": 1493.12,
+      "duration": 5.72
+    },
+    {
+      "text": "you know that these companies want regul",
+      "start": 1496.52,
+      "duration": 5.36
+    },
+    {
+      "text": "capture in some ways so that somebody",
+      "start": 1498.84,
+      "duration": 5.52
+    },
+    {
+      "text": "after them coming in has a real hard",
+      "start": 1501.88,
+      "duration": 5.96
+    },
+    {
+      "text": "time and also think about it to build a",
+      "start": 1504.36,
+      "duration": 5.24
+    },
+    {
+      "text": "large language model now obviously",
+      "start": 1507.84,
+      "duration": 4.36
+    },
+    {
+      "text": "prices have come down Etc but the cost",
+      "start": 1509.6,
+      "duration": 6.319
+    },
+    {
+      "text": "of gpus I mean nvidia's market cap just",
+      "start": 1512.2,
+      "duration": 6.68
+    },
+    {
+      "text": "touched 2 trillion because all these big",
+      "start": 1515.919,
+      "duration": 5.88
+    },
+    {
+      "text": "guys are buying up gpus it's a war to",
+      "start": 1518.88,
+      "duration": 6.96
+    },
+    {
+      "text": "find gpus right now so my question is",
+      "start": 1521.799,
+      "duration": 6.801
+    },
+    {
+      "text": "you know somebody in a garage in Pitts",
+      "start": 1525.84,
+      "duration": 4.319
+    },
+    {
+      "text": "can't just wake up and say okay I want",
+      "start": 1528.6,
+      "duration": 3.6
+    },
+    {
+      "text": "to build a light language model so are",
+      "start": 1530.159,
+      "duration": 4.321
+    },
+    {
+      "text": "you concerned a little bit about",
+      "start": 1532.2,
+      "duration": 6.4
+    },
+    {
+      "text": "Monopoly of the big tech companies yes I",
+      "start": 1534.48,
+      "duration": 6.64
+    },
+    {
+      "text": "am I am concerned about sort of you know",
+      "start": 1538.6,
+      "duration": 4.36
+    },
+    {
+      "text": "and this is both on the regulation side",
+      "start": 1541.12,
+      "duration": 4.36
+    },
+    {
+      "text": "and the open source side so I think that",
+      "start": 1542.96,
+      "duration": 4.959
+    },
+    {
+      "text": "we need to make sure that the control of",
+      "start": 1545.48,
+      "duration": 4.559
+    },
+    {
+      "text": "AI doesn't sit within you know two or",
+      "start": 1547.919,
+      "duration": 4.36
+    },
+    {
+      "text": "three companies because you know if they",
+      "start": 1550.039,
+      "duration": 4.321
+    },
+    {
+      "text": "put the regulations inside that nobody",
+      "start": 1552.279,
+      "duration": 4.28
+    },
+    {
+      "text": "else can you know do the development of",
+      "start": 1554.36,
+      "duration": 3.559
+    },
+    {
+      "text": "these models then they essentially going",
+      "start": 1556.559,
+      "duration": 3.48
+    },
+    {
+      "text": "to be controlling the tech itself and I",
+      "start": 1557.919,
+      "duration": 3.561
+    },
+    {
+      "text": "don't think that's very good it's not",
+      "start": 1560.039,
+      "duration": 2.841
+    },
+    {
+      "text": "very good for society it's not very good",
+      "start": 1561.48,
+      "duration": 3.12
+    },
+    {
+      "text": "for future development of these systems",
+      "start": 1562.88,
+      "duration": 3.44
+    },
+    {
+      "text": "right because a lot of times you know",
+      "start": 1564.6,
+      "duration": 3.28
+    },
+    {
+      "text": "used to be that for example Google and",
+      "start": 1566.32,
+      "duration": 3.68
+    },
+    {
+      "text": "open AI would publish what they doing in",
+      "start": 1567.88,
+      "duration": 3.44
+    },
+    {
+      "text": "the research and now it's basically",
+      "start": 1570.0,
+      "duration": 2.919
+    },
+    {
+      "text": "getting to the point it's becoming very",
+      "start": 1571.32,
+      "duration": 3.56
+    },
+    {
+      "text": "closed right nobody knows how they're",
+      "start": 1572.919,
+      "duration": 3.521
+    },
+    {
+      "text": "building these models what data they",
+      "start": 1574.88,
+      "duration": 3.96
+    },
+    {
+      "text": "using and you know things of that sort I",
+      "start": 1576.44,
+      "duration": 4.56
+    },
+    {
+      "text": "am worried about this and that's where I",
+      "start": 1578.84,
+      "duration": 4.8
+    },
+    {
+      "text": "think the role of Academia and the role",
+      "start": 1581.0,
+      "duration": 4.36
+    },
+    {
+      "text": "of you know open source Community is",
+      "start": 1583.64,
+      "duration": 2.96
+    },
+    {
+      "text": "going to be fairly important because",
+      "start": 1585.36,
+      "duration": 2.96
+    },
+    {
+      "text": "part of it is also for us to be able to",
+      "start": 1586.6,
+      "duration": 4.4
+    },
+    {
+      "text": "study these models the biggest issue",
+      "start": 1588.32,
+      "duration": 4.32
+    },
+    {
+      "text": "that we have right now is that you have",
+      "start": 1591.0,
+      "duration": 3.44
+    },
+    {
+      "text": "these powerful models like Gemini and",
+      "start": 1592.64,
+      "duration": 4.68
+    },
+    {
+      "text": "GPT and it's for academic Community it's",
+      "start": 1594.44,
+      "duration": 5.119
+    },
+    {
+      "text": "very hard for us to study and understand",
+      "start": 1597.32,
+      "duration": 4.12
+    },
+    {
+      "text": "when do these models fail how we can",
+      "start": 1599.559,
+      "duration": 4.281
+    },
+    {
+      "text": "build the guard rails what can we do to",
+      "start": 1601.44,
+      "duration": 4.2
+    },
+    {
+      "text": "improve these models what kind of data",
+      "start": 1603.84,
+      "duration": 3.48
+    },
+    {
+      "text": "was used to train these models so that",
+      "start": 1605.64,
+      "duration": 3.96
+    },
+    {
+      "text": "we can improve both the quality control",
+      "start": 1607.32,
+      "duration": 4.52
+    },
+    {
+      "text": "and sort of try to build models that are",
+      "start": 1609.6,
+      "duration": 4.28
+    },
+    {
+      "text": "safer that are more robust and such and",
+      "start": 1611.84,
+      "duration": 4.16
+    },
+    {
+      "text": "so there is sort of an open source",
+      "start": 1613.88,
+      "duration": 3.919
+    },
+    {
+      "text": "Community that's trying to replicate",
+      "start": 1616.0,
+      "duration": 3.64
+    },
+    {
+      "text": "these system and of course the open",
+      "start": 1617.799,
+      "duration": 4.161
+    },
+    {
+      "text": "source is lagging behind just because it",
+      "start": 1619.64,
+      "duration": 4.68
+    },
+    {
+      "text": "requires a massive amount of compute and",
+      "start": 1621.96,
+      "duration": 4.319
+    },
+    {
+      "text": "you know massive resources to to build",
+      "start": 1624.32,
+      "duration": 4.0
+    },
+    {
+      "text": "these moments but I think that you know",
+      "start": 1626.279,
+      "duration": 4.321
+    },
+    {
+      "text": "open source will will catch up but yes",
+      "start": 1628.32,
+      "duration": 4.479
+    },
+    {
+      "text": "but that that is one of my one of my",
+      "start": 1630.6,
+      "duration": 3.92
+    },
+    {
+      "text": "concerns for sure because I don't want",
+      "start": 1632.799,
+      "duration": 3.201
+    },
+    {
+      "text": "you know we're doing the work on AI",
+      "start": 1634.52,
+      "duration": 4.159
+    },
+    {
+      "text": "agents we want to be able to see when",
+      "start": 1636.0,
+      "duration": 4.679
+    },
+    {
+      "text": "they fail we want to be able to see this",
+      "start": 1638.679,
+      "duration": 4.0
+    },
+    {
+      "text": "is dangerous we shouldn't do that or",
+      "start": 1640.679,
+      "duration": 3.36
+    },
+    {
+      "text": "this is you know this is where we need",
+      "start": 1642.679,
+      "duration": 3.72
+    },
+    {
+      "text": "to study these models and if these",
+      "start": 1644.039,
+      "duration": 4.561
+    },
+    {
+      "text": "models are seeking closed form closed",
+      "start": 1646.399,
+      "duration": 5.721
+    },
+    {
+      "text": "box behind the wall in Google or open",
+      "start": 1648.6,
+      "duration": 6.48
+    },
+    {
+      "text": "the ey or whoever uh these big tech",
+      "start": 1652.12,
+      "duration": 5.039
+    },
+    {
+      "text": "companies then it's it's not good for I",
+      "start": 1655.08,
+      "duration": 5.199
+    },
+    {
+      "text": "think for for us as a society so uh fair",
+      "start": 1657.159,
+      "duration": 5.161
+    },
+    {
+      "text": "to assume that you are for open source",
+      "start": 1660.279,
+      "duration": 4.921
+    },
+    {
+      "text": "because there's a big debate uh you",
+      "start": 1662.32,
+      "duration": 5.16
+    },
+    {
+      "text": "close Source you are for open source I",
+      "start": 1665.2,
+      "duration": 4.24
+    },
+    {
+      "text": "am definitely for open source because I",
+      "start": 1667.48,
+      "duration": 4.199
+    },
+    {
+      "text": "think that so so the thing you have to",
+      "start": 1669.44,
+      "duration": 3.56
+    },
+    {
+      "text": "understand is that when we look at these",
+      "start": 1671.679,
+      "duration": 4.081
+    },
+    {
+      "text": "models like like language model like gp4",
+      "start": 1673.0,
+      "duration": 5.64
+    },
+    {
+      "text": "or you know Sora or Gemini",
+      "start": 1675.76,
+      "duration": 5.32
+    },
+    {
+      "text": "or anything else is the technology",
+      "start": 1678.64,
+      "duration": 4.96
+    },
+    {
+      "text": "itself the algorithms the model",
+      "start": 1681.08,
+      "duration": 4.12
+    },
+    {
+      "text": "architectures these are pretty well",
+      "start": 1683.6,
+      "duration": 3.959
+    },
+    {
+      "text": "known we all know what GPT what",
+      "start": 1685.2,
+      "duration": 4.319
+    },
+    {
+      "text": "architecture is used it's using",
+      "start": 1687.559,
+      "duration": 4.36
+    },
+    {
+      "text": "transform architecture with you know",
+      "start": 1689.519,
+      "duration": 4.961
+    },
+    {
+      "text": "specific and and what what's different",
+      "start": 1691.919,
+      "duration": 3.801
+    },
+    {
+      "text": "between these different models is",
+      "start": 1694.48,
+      "duration": 4.039
+    },
+    {
+      "text": "probably the data curation of the data",
+      "start": 1695.72,
+      "duration": 5.319
+    },
+    {
+      "text": "opening I spend a lot of money a lot of",
+      "start": 1698.519,
+      "duration": 5.961
+    },
+    {
+      "text": "time curating the data labeling the data",
+      "start": 1701.039,
+      "duration": 4.76
+    },
+    {
+      "text": "and that's sort of that's the",
+      "start": 1704.48,
+      "duration": 3.319
+    },
+    {
+      "text": "differentiator right and compute the",
+      "start": 1705.799,
+      "duration": 5.161
+    },
+    {
+      "text": "buil to train these very large models so",
+      "start": 1707.799,
+      "duration": 5.681
+    },
+    {
+      "text": "it's not like open AI has a model that",
+      "start": 1710.96,
+      "duration": 4.719
+    },
+    {
+      "text": "nobody knows about and nobody",
+      "start": 1713.48,
+      "duration": 3.919
+    },
+    {
+      "text": "understands what it is and somehow does",
+      "start": 1715.679,
+      "duration": 4.12
+    },
+    {
+      "text": "this magic thing we all know what it is",
+      "start": 1717.399,
+      "duration": 4.601
+    },
+    {
+      "text": "it's just a matter of scaling it up and",
+      "start": 1719.799,
+      "duration": 4.6
+    },
+    {
+      "text": "compute and so for open source it's not",
+      "start": 1722.0,
+      "duration": 4.559
+    },
+    {
+      "text": "like you're revealing specific secrets",
+      "start": 1724.399,
+      "duration": 3.88
+    },
+    {
+      "text": "and and I think that the evolution of of",
+      "start": 1726.559,
+      "duration": 3.921
+    },
+    {
+      "text": "Open Source again to the point where we",
+      "start": 1728.279,
+      "duration": 5.88
+    },
+    {
+      "text": "can study these models we can understand",
+      "start": 1730.48,
+      "duration": 6.319
+    },
+    {
+      "text": "when they fail we can you know you know",
+      "start": 1734.159,
+      "duration": 4.52
+    },
+    {
+      "text": "we can say well it's probably not safe",
+      "start": 1736.799,
+      "duration": 4.201
+    },
+    {
+      "text": "to use this model in these applications",
+      "start": 1738.679,
+      "duration": 4.161
+    },
+    {
+      "text": "because of you know these reasons",
+      "start": 1741.0,
+      "duration": 3.88
+    },
+    {
+      "text": "whereas if only few companies control it",
+      "start": 1742.84,
+      "duration": 3.719
+    },
+    {
+      "text": "well they they don't have to be",
+      "start": 1744.88,
+      "duration": 2.88
+    },
+    {
+      "text": "accountable right they don't have to be",
+      "start": 1746.559,
+      "duration": 3.72
+    },
+    {
+      "text": "held accountable can just they can just",
+      "start": 1747.76,
+      "duration": 5.399
+    },
+    {
+      "text": "deploy it and well if it messes up well",
+      "start": 1750.279,
+      "duration": 4.76
+    },
+    {
+      "text": "you know we'll fix it internally but",
+      "start": 1753.159,
+      "duration": 4.081
+    },
+    {
+      "text": "nobody knows about it so Russ you talked",
+      "start": 1755.039,
+      "duration": 6.081
+    },
+    {
+      "text": "about you know that open AI has taken a",
+      "start": 1757.24,
+      "duration": 6.6
+    },
+    {
+      "text": "lot of uh data in there and that's how",
+      "start": 1761.12,
+      "duration": 5.0
+    },
+    {
+      "text": "they've been successful so how do we",
+      "start": 1763.84,
+      "duration": 4.719
+    },
+    {
+      "text": "balance privacy and you",
+      "start": 1766.12,
+      "duration": 5.399
+    },
+    {
+      "text": "when it comes to data which is used to",
+      "start": 1768.559,
+      "duration": 5.48
+    },
+    {
+      "text": "train AI models that's a very good",
+      "start": 1771.519,
+      "duration": 4.681
+    },
+    {
+      "text": "question I don't know what the right",
+      "start": 1774.039,
+      "duration": 4.721
+    },
+    {
+      "text": "answer is here right you know I can give",
+      "start": 1776.2,
+      "duration": 4.68
+    },
+    {
+      "text": "an example let's say in the medical",
+      "start": 1778.76,
+      "duration": 4.279
+    },
+    {
+      "text": "domain just back the medical domain data",
+      "start": 1780.88,
+      "duration": 3.84
+    },
+    {
+      "text": "privacy is really really important there",
+      "start": 1783.039,
+      "duration": 3.721
+    },
+    {
+      "text": "right I don't want my records to be",
+      "start": 1784.72,
+      "duration": 4.24
+    },
+    {
+      "text": "released in somebody else seeing them on",
+      "start": 1786.76,
+      "duration": 3.84
+    },
+    {
+      "text": "the other hand if we want to build AI",
+      "start": 1788.96,
+      "duration": 4.439
+    },
+    {
+      "text": "that truly can actually be better than",
+      "start": 1790.6,
+      "duration": 4.12
+    },
+    {
+      "text": "potentially be better than doctors like",
+      "start": 1793.399,
+      "duration": 3.321
+    },
+    {
+      "text": "can at least give give suggestions to",
+      "start": 1794.72,
+      "duration": 3.72
+    },
+    {
+      "text": "the doctors it needs a lot of dat data",
+      "start": 1796.72,
+      "duration": 4.48
+    },
+    {
+      "text": "and ultimately in ideal scenario AI",
+      "start": 1798.44,
+      "duration": 5.04
+    },
+    {
+      "text": "would see everybody's data hundreds of",
+      "start": 1801.2,
+      "duration": 4.76
+    },
+    {
+      "text": "millions of people with all different",
+      "start": 1803.48,
+      "duration": 4.16
+    },
+    {
+      "text": "conditions and sort of understand the",
+      "start": 1805.96,
+      "duration": 3.8
+    },
+    {
+      "text": "data understand and you know and that",
+      "start": 1807.64,
+      "duration": 4.6
+    },
+    {
+      "text": "would help us going forward right but",
+      "start": 1809.76,
+      "duration": 4.32
+    },
+    {
+      "text": "that requires data and so where's this",
+      "start": 1812.24,
+      "duration": 5.0
+    },
+    {
+      "text": "boundary of AI consuming the data our",
+      "start": 1814.08,
+      "duration": 6.0
+    },
+    {
+      "text": "private data versus usefulness for for",
+      "start": 1817.24,
+      "duration": 4.84
+    },
+    {
+      "text": "society in general I don't know what the",
+      "start": 1820.08,
+      "duration": 4.0
+    },
+    {
+      "text": "right balances that's something that I",
+      "start": 1822.08,
+      "duration": 3.88
+    },
+    {
+      "text": "think that we'll have to think about as",
+      "start": 1824.08,
+      "duration": 4.719
+    },
+    {
+      "text": "a community obviously We There are sort",
+      "start": 1825.96,
+      "duration": 4.599
+    },
+    {
+      "text": "of you know algorithms some something",
+      "start": 1828.799,
+      "duration": 3.48
+    },
+    {
+      "text": "called Federated learning or privacy",
+      "start": 1830.559,
+      "duration": 3.521
+    },
+    {
+      "text": "preserving Lear learning systems that",
+      "start": 1832.279,
+      "duration": 3.801
+    },
+    {
+      "text": "are trying to address this issue where",
+      "start": 1834.08,
+      "duration": 4.8
+    },
+    {
+      "text": "you can use my data but it's encoded in",
+      "start": 1836.08,
+      "duration": 5.079
+    },
+    {
+      "text": "such a way that it's never revealed to",
+      "start": 1838.88,
+      "duration": 4.48
+    },
+    {
+      "text": "anyone else so the model can still use",
+      "start": 1841.159,
+      "duration": 4.801
+    },
+    {
+      "text": "the data to train itself to train its AI",
+      "start": 1843.36,
+      "duration": 5.039
+    },
+    {
+      "text": "but it's sort of not going to be able to",
+      "start": 1845.96,
+      "duration": 4.4
+    },
+    {
+      "text": "you know identify that that's my data",
+      "start": 1848.399,
+      "duration": 3.321
+    },
+    {
+      "text": "right so there's some technologies that",
+      "start": 1850.36,
+      "duration": 3.0
+    },
+    {
+      "text": "people are trying to develop but it's",
+      "start": 1851.72,
+      "duration": 3.6
+    },
+    {
+      "text": "still it's a very sensitive topic right",
+      "start": 1853.36,
+      "duration": 4.279
+    },
+    {
+      "text": "and there's a lot of there's a lot of",
+      "start": 1855.32,
+      "duration": 4.839
+    },
+    {
+      "text": "you know people on both sides because",
+      "start": 1857.639,
+      "duration": 4.361
+    },
+    {
+      "text": "you know we seen this example of open AI",
+      "start": 1860.159,
+      "duration": 5.201
+    },
+    {
+      "text": "in New York Times yesterday Reddit had a",
+      "start": 1862.0,
+      "duration": 5.76
+    },
+    {
+      "text": "60 million doll contract Google she say",
+      "start": 1865.36,
+      "duration": 4.559
+    },
+    {
+      "text": "Google Reddit data you know and so this",
+      "start": 1867.76,
+      "duration": 5.399
+    },
+    {
+      "text": "is sort of data is really one of the",
+      "start": 1869.919,
+      "duration": 6.681
+    },
+    {
+      "text": "most important cornerstones of of of AI",
+      "start": 1873.159,
+      "duration": 5.76
+    },
+    {
+      "text": "systems today and so how do we do this",
+      "start": 1876.6,
+      "duration": 4.959
+    },
+    {
+      "text": "balance that's a very good uh question I",
+      "start": 1878.919,
+      "duration": 3.64
+    },
+    {
+      "text": "think it's also the question for The",
+      "start": 1881.559,
+      "duration": 3.12
+    },
+    {
+      "text": "Regulators I mean that's something that",
+      "start": 1882.559,
+      "duration": 5.0
+    },
+    {
+      "text": "economists you know social scientists AI",
+      "start": 1884.679,
+      "duration": 5.84
+    },
+    {
+      "text": "research will have to think about and",
+      "start": 1887.559,
+      "duration": 5.24
+    },
+    {
+      "text": "figure out what the right steps uh",
+      "start": 1890.519,
+      "duration": 4.201
+    },
+    {
+      "text": "should be and I I seeing diverse",
+      "start": 1892.799,
+      "duration": 4.281
+    },
+    {
+      "text": "opinions from you know saying well if",
+      "start": 1894.72,
+      "duration": 3.959
+    },
+    {
+      "text": "you're using somebody else's data and",
+      "start": 1897.08,
+      "duration": 4.599
+    },
+    {
+      "text": "you're not crediting giving it back to",
+      "start": 1898.679,
+      "duration": 4.281
+    },
+    {
+      "text": "you know the person whose data you've",
+      "start": 1901.679,
+      "duration": 3.6
+    },
+    {
+      "text": "used that sounds unethical but that's",
+      "start": 1902.96,
+      "duration": 4.079
+    },
+    {
+      "text": "what a lot of existing systems do",
+      "start": 1905.279,
+      "duration": 4.041
+    },
+    {
+      "text": "company like open Ai and Google they",
+      "start": 1907.039,
+      "duration": 5.201
+    },
+    {
+      "text": "just mine all this data and a lot of",
+      "start": 1909.32,
+      "duration": 4.64
+    },
+    {
+      "text": "data is the data that you've provided",
+      "start": 1912.24,
+      "duration": 6.2
+    },
+    {
+      "text": "right data that we provided uh we had uh",
+      "start": 1913.96,
+      "duration": 7.48
+    },
+    {
+      "text": "the head of the copyright Association",
+      "start": 1918.44,
+      "duration": 5.32
+    },
+    {
+      "text": "here the perspective is that when you",
+      "start": 1921.44,
+      "duration": 6.199
+    },
+    {
+      "text": "ingest training data attribution is",
+      "start": 1923.76,
+      "duration": 7.44
+    },
+    {
+      "text": "important to whose data you have and in",
+      "start": 1927.639,
+      "duration": 6.16
+    },
+    {
+      "text": "some cases compensation also do you",
+      "start": 1931.2,
+      "duration": 5.52
+    },
+    {
+      "text": "agree with that I think so you know it's",
+      "start": 1933.799,
+      "duration": 6.081
+    },
+    {
+      "text": "always it's always the case that if I",
+      "start": 1936.72,
+      "duration": 6.28
+    },
+    {
+      "text": "work really hard and I've created a data",
+      "start": 1939.88,
+      "duration": 4.88
+    },
+    {
+      "text": "that's useful obviously there has to be",
+      "start": 1943.0,
+      "duration": 4.12
+    },
+    {
+      "text": "some form of data attribution and",
+      "start": 1944.76,
+      "duration": 4.799
+    },
+    {
+      "text": "beginning to see that with redit and and",
+      "start": 1947.12,
+      "duration": 4.72
+    },
+    {
+      "text": "Google and so it's just that you know",
+      "start": 1949.559,
+      "duration": 4.321
+    },
+    {
+      "text": "two three years ago people didn't really",
+      "start": 1951.84,
+      "duration": 4.48
+    },
+    {
+      "text": "think that these models would work so",
+      "start": 1953.88,
+      "duration": 5.2
+    },
+    {
+      "text": "well in open AI show that they do but",
+      "start": 1956.32,
+      "duration": 4.64
+    },
+    {
+      "text": "even in cases like Google for example",
+      "start": 1959.08,
+      "duration": 3.599
+    },
+    {
+      "text": "right the way that Google scrapes your",
+      "start": 1960.96,
+      "duration": 3.8
+    },
+    {
+      "text": "data you know you can potentially put",
+      "start": 1962.679,
+      "duration": 3.12
+    },
+    {
+      "text": "like something I think it's called",
+      "start": 1964.76,
+      "duration": 3.759
+    },
+    {
+      "text": "robot. robot. text yeah you can say I",
+      "start": 1965.799,
+      "duration": 4.6
+    },
+    {
+      "text": "don't want you to scrape my data and it",
+      "start": 1968.519,
+      "duration": 3.681
+    },
+    {
+      "text": "you know Google will say okay I'm not",
+      "start": 1970.399,
+      "duration": 3.081
+    },
+    {
+      "text": "going to index it I'm not going to touch",
+      "start": 1972.2,
+      "duration": 2.839
+    },
+    {
+      "text": "it perhaps we should have something like",
+      "start": 1973.48,
+      "duration": 4.24
+    },
+    {
+      "text": "that for AI systems as well or or you",
+      "start": 1975.039,
+      "duration": 4.6
+    },
+    {
+      "text": "know you know if Ani System is using my",
+      "start": 1977.72,
+      "duration": 3.88
+    },
+    {
+      "text": "data they should be data attribution I I",
+      "start": 1979.639,
+      "duration": 4.28
+    },
+    {
+      "text": "fully agree with that with that view uh",
+      "start": 1981.6,
+      "duration": 4.12
+    },
+    {
+      "text": "some people might not agree but in",
+      "start": 1983.919,
+      "duration": 3.6
+    },
+    {
+      "text": "obviously there is sort of again as I as",
+      "start": 1985.72,
+      "duration": 3.36
+    },
+    {
+      "text": "I've pointed there is sort of this thing",
+      "start": 1987.519,
+      "duration": 3.88
+    },
+    {
+      "text": "where if nobody shares the data we're",
+      "start": 1989.08,
+      "duration": 4.16
+    },
+    {
+      "text": "not going to have beneficial AI that can",
+      "start": 1991.399,
+      "duration": 3.801
+    },
+    {
+      "text": "benefit to the whole Humanity right so",
+      "start": 1993.24,
+      "duration": 4.439
+    },
+    {
+      "text": "it's sort of this balance where if I'm",
+      "start": 1995.2,
+      "duration": 4.319
+    },
+    {
+      "text": "happy to contribute my data knowing that",
+      "start": 1997.679,
+      "duration": 3.24
+    },
+    {
+      "text": "you know there's going to be an AI",
+      "start": 1999.519,
+      "duration": 3.081
+    },
+    {
+      "text": "system that will help others maybe I",
+      "start": 2000.919,
+      "duration": 3.12
+    },
+    {
+      "text": "will contribute my data without",
+      "start": 2002.6,
+      "duration": 3.919
+    },
+    {
+      "text": "attribution but but I think there should",
+      "start": 2004.039,
+      "duration": 4.88
+    },
+    {
+      "text": "be some laws in place in some forms of",
+      "start": 2006.519,
+      "duration": 3.921
+    },
+    {
+      "text": "you're using my data for training these",
+      "start": 2008.919,
+      "duration": 3.64
+    },
+    {
+      "text": "models obviously they should be a data",
+      "start": 2010.44,
+      "duration": 5.359
+    },
+    {
+      "text": "attribution you talked uh just now that",
+      "start": 2012.559,
+      "duration": 4.641
+    },
+    {
+      "text": "you know there should be collaboration",
+      "start": 2015.799,
+      "duration": 3.801
+    },
+    {
+      "text": "do you see what role do you see for",
+      "start": 2017.2,
+      "duration": 4.92
+    },
+    {
+      "text": "interdisciplinary collaboration uh in",
+      "start": 2019.6,
+      "duration": 4.559
+    },
+    {
+      "text": "fields you know whether it's law ethics",
+      "start": 2022.12,
+      "duration": 4.799
+    },
+    {
+      "text": "social sciences I definitely think there",
+      "start": 2024.159,
+      "duration": 5.601
+    },
+    {
+      "text": "should be a lot of collaboration between",
+      "start": 2026.919,
+      "duration": 4.48
+    },
+    {
+      "text": "different fields because that's the",
+      "start": 2029.76,
+      "duration": 3.799
+    },
+    {
+      "text": "technology that's going to go beyond",
+      "start": 2031.399,
+      "duration": 5.041
+    },
+    {
+      "text": "just machine learning or optimization is",
+      "start": 2033.559,
+      "duration": 4.96
+    },
+    {
+      "text": "what we do once it's sort of starts",
+      "start": 2036.44,
+      "duration": 4.8
+    },
+    {
+      "text": "reaching out to you know if it starts",
+      "start": 2038.519,
+      "duration": 5.361
+    },
+    {
+      "text": "impacting Society in general through the",
+      "start": 2041.24,
+      "duration": 5.439
+    },
+    {
+      "text": "jobs or through you know Assistance or",
+      "start": 2043.88,
+      "duration": 5.279
+    },
+    {
+      "text": "whatever in in whatever way then I think",
+      "start": 2046.679,
+      "duration": 4.361
+    },
+    {
+      "text": "that we definitely need to have false",
+      "start": 2049.159,
+      "duration": 3.92
+    },
+    {
+      "text": "collaboration with economists social",
+      "start": 2051.04,
+      "duration": 4.119
+    },
+    {
+      "text": "scientists with you know people who work",
+      "start": 2053.079,
+      "duration": 4.8
+    },
+    {
+      "text": "in ethics and and I know it's seemu for",
+      "start": 2055.159,
+      "duration": 4.161
+    },
+    {
+      "text": "example Even in our machine learning",
+      "start": 2057.879,
+      "duration": 3.681
+    },
+    {
+      "text": "Department we have a few faculty working",
+      "start": 2059.32,
+      "duration": 4.4
+    },
+    {
+      "text": "in Fairly different areas we have a few",
+      "start": 2061.56,
+      "duration": 4.119
+    },
+    {
+      "text": "faculty working social kind of aspects",
+      "start": 2063.72,
+      "duration": 4.399
+    },
+    {
+      "text": "of AI we have faculty who just work work",
+      "start": 2065.679,
+      "duration": 4.601
+    },
+    {
+      "text": "on you know Foundation models and",
+      "start": 2068.119,
+      "duration": 4.881
+    },
+    {
+      "text": "optimization we have faculty who work on",
+      "start": 2070.28,
+      "duration": 5.119
+    },
+    {
+      "text": "with economists and we have people",
+      "start": 2073.0,
+      "duration": 4.44
+    },
+    {
+      "text": "working with with health and sort of",
+      "start": 2075.399,
+      "duration": 3.52
+    },
+    {
+      "text": "Public Health and trying to understand",
+      "start": 2077.44,
+      "duration": 2.6
+    },
+    {
+      "text": "how that technology is going to be",
+      "start": 2078.919,
+      "duration": 2.841
+    },
+    {
+      "text": "deployed so I think it's it's it's",
+      "start": 2080.04,
+      "duration": 3.48
+    },
+    {
+      "text": "important because the Technologies is",
+      "start": 2081.76,
+      "duration": 4.399
+    },
+    {
+      "text": "goes beyond just sort of algorithms just",
+      "start": 2083.52,
+      "duration": 4.0
+    },
+    {
+      "text": "machine learn because it's beginning to",
+      "start": 2086.159,
+      "duration": 3.361
+    },
+    {
+      "text": "impact Society in general so I think",
+      "start": 2087.52,
+      "duration": 3.319
+    },
+    {
+      "text": "that's you know it's it's going to be",
+      "start": 2089.52,
+      "duration": 3.2
+    },
+    {
+      "text": "very important we haven't gotten to this",
+      "start": 2090.839,
+      "duration": 4.0
+    },
+    {
+      "text": "point yet because we still have machine",
+      "start": 2092.72,
+      "duration": 3.879
+    },
+    {
+      "text": "learning we have our own conferences we",
+      "start": 2094.839,
+      "duration": 3.441
+    },
+    {
+      "text": "have our own researches we talk to each",
+      "start": 2096.599,
+      "duration": 4.24
+    },
+    {
+      "text": "other but we don't very frequently go",
+      "start": 2098.28,
+      "duration": 5.0
+    },
+    {
+      "text": "and talk to social scientists or to",
+      "start": 2100.839,
+      "duration": 4.801
+    },
+    {
+      "text": "economists but I think that will need to",
+      "start": 2103.28,
+      "duration": 5.68
+    },
+    {
+      "text": "change going forward and I think AI is",
+      "start": 2105.64,
+      "duration": 5.479
+    },
+    {
+      "text": "is where it's going right now it's",
+      "start": 2108.96,
+      "duration": 4.52
+    },
+    {
+      "text": "inevitable for us to start talking to",
+      "start": 2111.119,
+      "duration": 4.0
+    },
+    {
+      "text": "across these different disciplines and",
+      "start": 2113.48,
+      "duration": 4.599
+    },
+    {
+      "text": "try to understand the concerns of you",
+      "start": 2115.119,
+      "duration": 5.161
+    },
+    {
+      "text": "know other disciplines in that in that",
+      "start": 2118.079,
+      "duration": 5.641
+    },
+    {
+      "text": "PA Russ you work on Foundation models",
+      "start": 2120.28,
+      "duration": 5.559
+    },
+    {
+      "text": "and agents and things of that nature",
+      "start": 2123.72,
+      "duration": 4.48
+    },
+    {
+      "text": "some of our guests have talked that",
+      "start": 2125.839,
+      "duration": 4.481
+    },
+    {
+      "text": "it is very important that we get",
+      "start": 2128.2,
+      "duration": 4.76
+    },
+    {
+      "text": "cultural and language perspectives of",
+      "start": 2130.32,
+      "duration": 4.96
+    },
+    {
+      "text": "beyond the Western World you know",
+      "start": 2132.96,
+      "duration": 5.0
+    },
+    {
+      "text": "English as well as Western world because",
+      "start": 2135.28,
+      "duration": 6.88
+    },
+    {
+      "text": "there is culture Heritage History",
+      "start": 2137.96,
+      "duration": 6.72
+    },
+    {
+      "text": "language how important is that in your",
+      "start": 2142.16,
+      "duration": 4.12
+    },
+    {
+      "text": "view I think that's going to be very",
+      "start": 2144.68,
+      "duration": 3.32
+    },
+    {
+      "text": "important and I think that's already",
+      "start": 2146.28,
+      "duration": 4.6
+    },
+    {
+      "text": "happening now to the point where you see",
+      "start": 2148.0,
+      "duration": 6.96
+    },
+    {
+      "text": "each region is trying to build its own",
+      "start": 2150.88,
+      "duration": 6.88
+    },
+    {
+      "text": "GPT so we're seeing this in Europe we we",
+      "start": 2154.96,
+      "duration": 6.6
+    },
+    {
+      "text": "seeing this in in Asia both in you know",
+      "start": 2157.76,
+      "duration": 5.72
+    },
+    {
+      "text": "in the Middle East and also in Asia you",
+      "start": 2161.56,
+      "duration": 4.64
+    },
+    {
+      "text": "have China has its own efforts Middle",
+      "start": 2163.48,
+      "duration": 4.4
+    },
+    {
+      "text": "East has its own efforts Europe has its",
+      "start": 2166.2,
+      "duration": 3.399
+    },
+    {
+      "text": "own efforts and part of it is because",
+      "start": 2167.88,
+      "duration": 4.0
+    },
+    {
+      "text": "exactly as you're saying once that",
+      "start": 2169.599,
+      "duration": 4.561
+    },
+    {
+      "text": "technology starts maturing you obviously",
+      "start": 2171.88,
+      "duration": 5.479
+    },
+    {
+      "text": "need to ingest the cultural values or",
+      "start": 2174.16,
+      "duration": 5.84
+    },
+    {
+      "text": "whatever the Norms you have for you know",
+      "start": 2177.359,
+      "duration": 4.641
+    },
+    {
+      "text": "your country or for your and I think",
+      "start": 2180.0,
+      "duration": 3.839
+    },
+    {
+      "text": "that's going to be very important it's",
+      "start": 2182.0,
+      "duration": 4.72
+    },
+    {
+      "text": "definitely you seeing you I'm seeing",
+      "start": 2183.839,
+      "duration": 4.201
+    },
+    {
+      "text": "that right now just because there's a",
+      "start": 2186.72,
+      "duration": 3.92
+    },
+    {
+      "text": "few startups and then a few efforts sort",
+      "start": 2188.04,
+      "duration": 5.079
+    },
+    {
+      "text": "of happens at the region level not just",
+      "start": 2190.64,
+      "duration": 6.28
+    },
+    {
+      "text": "in the US and part of it is you know was",
+      "start": 2193.119,
+      "duration": 5.881
+    },
+    {
+      "text": "just for your listeners there was uh at",
+      "start": 2196.92,
+      "duration": 3.96
+    },
+    {
+      "text": "some point there was this joke that",
+      "start": 2199.0,
+      "duration": 4.24
+    },
+    {
+      "text": "happened with gbt 4 which sort of",
+      "start": 2200.88,
+      "duration": 5.239
+    },
+    {
+      "text": "highlights the nature of sort of the",
+      "start": 2203.24,
+      "duration": 6.079
+    },
+    {
+      "text": "culture where if you ask gbt 4 for you",
+      "start": 2206.119,
+      "duration": 5.601
+    },
+    {
+      "text": "know a question it would answer but if",
+      "start": 2209.319,
+      "duration": 4.76
+    },
+    {
+      "text": "you ask the question and then add to the",
+      "start": 2211.72,
+      "duration": 5.32
+    },
+    {
+      "text": "prompt you know I'll tip you with $100",
+      "start": 2214.079,
+      "duration": 4.921
+    },
+    {
+      "text": "it gives you much better answer if it if",
+      "start": 2217.04,
+      "duration": 4.2
+    },
+    {
+      "text": "you tell tip you with 10 do it gives you",
+      "start": 2219.0,
+      "duration": 3.8
+    },
+    {
+      "text": "much shorter answer and if you don't tip",
+      "start": 2221.24,
+      "duration": 3.56
+    },
+    {
+      "text": "it it gives you very concise so this is",
+      "start": 2222.8,
+      "duration": 3.48
+    },
+    {
+      "text": "sort of you",
+      "start": 2224.8,
+      "duration": 4.6
+    },
+    {
+      "text": "know people well that's just the culture",
+      "start": 2226.28,
+      "duration": 5.2
+    },
+    {
+      "text": "The Tipping culture in in the US",
+      "start": 2229.4,
+      "duration": 3.679
+    },
+    {
+      "text": "probably it's what it's doing because",
+      "start": 2231.48,
+      "duration": 3.76
+    },
+    {
+      "text": "what it's doing is actually looking at",
+      "start": 2233.079,
+      "duration": 4.601
+    },
+    {
+      "text": "conversations or looking at the data",
+      "start": 2235.24,
+      "duration": 4.32
+    },
+    {
+      "text": "that people post online and when we",
+      "start": 2237.68,
+      "duration": 4.04
+    },
+    {
+      "text": "converse online we sort of say well I",
+      "start": 2239.56,
+      "duration": 4.24
+    },
+    {
+      "text": "over tip this person or you know and",
+      "start": 2241.72,
+      "duration": 3.48
+    },
+    {
+      "text": "that's something that the model learns",
+      "start": 2243.8,
+      "duration": 3.44
+    },
+    {
+      "text": "because it's very data data Centric and",
+      "start": 2245.2,
+      "duration": 4.119
+    },
+    {
+      "text": "so if you if you're training your model",
+      "start": 2247.24,
+      "duration": 3.599
+    },
+    {
+      "text": "on a different type of data that",
+      "start": 2249.319,
+      "duration": 4.441
+    },
+    {
+      "text": "reflects the cultural value values of of",
+      "start": 2250.839,
+      "duration": 5.041
+    },
+    {
+      "text": "your country or your region that's the",
+      "start": 2253.76,
+      "duration": 4.359
+    },
+    {
+      "text": "AI That's you know going to have that",
+      "start": 2255.88,
+      "duration": 3.84
+    },
+    {
+      "text": "and so I think I think it is I think",
+      "start": 2258.119,
+      "duration": 3.761
+    },
+    {
+      "text": "it's GNA be very important absolutely",
+      "start": 2259.72,
+      "duration": 4.879
+    },
+    {
+      "text": "Russ um you obviously talked about the",
+      "start": 2261.88,
+      "duration": 5.68
+    },
+    {
+      "text": "cultural Etc do you think Global",
+      "start": 2264.599,
+      "duration": 5.0
+    },
+    {
+      "text": "collaboration is important because right",
+      "start": 2267.56,
+      "duration": 5.0
+    },
+    {
+      "text": "now you have ai nationalism Jensen Hong",
+      "start": 2269.599,
+      "duration": 5.0
+    },
+    {
+      "text": "of Nvidia said every country should have",
+      "start": 2272.56,
+      "duration": 4.72
+    },
+    {
+      "text": "their AI everybody is now you know if",
+      "start": 2274.599,
+      "duration": 5.361
+    },
+    {
+      "text": "you it's like the nuclear Club everybody",
+      "start": 2277.28,
+      "duration": 5.72
+    },
+    {
+      "text": "if you don't have an llm you're not uh",
+      "start": 2279.96,
+      "duration": 5.68
+    },
+    {
+      "text": "there but how about collaboration you",
+      "start": 2283.0,
+      "duration": 5.64
+    },
+    {
+      "text": "has done the AI act us is trying to work",
+      "start": 2285.64,
+      "duration": 5.32
+    },
+    {
+      "text": "there China is doing its own thing what",
+      "start": 2288.64,
+      "duration": 4.36
+    },
+    {
+      "text": "is what are your thoughts on that I you",
+      "start": 2290.96,
+      "duration": 4.399
+    },
+    {
+      "text": "know it's it's a very good question I I",
+      "start": 2293.0,
+      "duration": 5.079
+    },
+    {
+      "text": "don't know as a research scientist as a",
+      "start": 2295.359,
+      "duration": 4.521
+    },
+    {
+      "text": "researcher I think collaboration is",
+      "start": 2298.079,
+      "duration": 3.76
+    },
+    {
+      "text": "important because the way that you know",
+      "start": 2299.88,
+      "duration": 3.52
+    },
+    {
+      "text": "if you look at how this technology",
+      "start": 2301.839,
+      "duration": 4.361
+    },
+    {
+      "text": "evolved it didn't evolve from Google or",
+      "start": 2303.4,
+      "duration": 6.28
+    },
+    {
+      "text": "open AI building the technology and here",
+      "start": 2306.2,
+      "duration": 7.08
+    },
+    {
+      "text": "it is it came out of Decades of research",
+      "start": 2309.68,
+      "duration": 5.84
+    },
+    {
+      "text": "international research you know when we",
+      "start": 2313.28,
+      "duration": 4.28
+    },
+    {
+      "text": "develop neural networks when we develop",
+      "start": 2315.52,
+      "duration": 4.48
+    },
+    {
+      "text": "deep learning algorithms then you know",
+      "start": 2317.56,
+      "duration": 3.96
+    },
+    {
+      "text": "there's something called attention that",
+      "start": 2320.0,
+      "duration": 4.96
+    },
+    {
+      "text": "was was developed in in Canada actually",
+      "start": 2321.52,
+      "duration": 5.0
+    },
+    {
+      "text": "then you know the transform",
+      "start": 2324.96,
+      "duration": 3.159
+    },
+    {
+      "text": "architectures came up which was",
+      "start": 2326.52,
+      "duration": 3.92
+    },
+    {
+      "text": "developed in Google at that time and so",
+      "start": 2328.119,
+      "duration": 4.601
+    },
+    {
+      "text": "it's sort of a combination of different",
+      "start": 2330.44,
+      "duration": 5.72
+    },
+    {
+      "text": "things that's you know um it's very hard",
+      "start": 2332.72,
+      "duration": 5.8
+    },
+    {
+      "text": "to develop AI on your your own and so I",
+      "start": 2336.16,
+      "duration": 4.24
+    },
+    {
+      "text": "think that if we're just going to have",
+      "start": 2338.52,
+      "duration": 4.599
+    },
+    {
+      "text": "ai in the US and close everybody else",
+      "start": 2340.4,
+      "duration": 4.16
+    },
+    {
+      "text": "we're not going to go we're not going to",
+      "start": 2343.119,
+      "duration": 3.0
+    },
+    {
+      "text": "get that far and so I think that",
+      "start": 2344.56,
+      "duration": 2.88
+    },
+    {
+      "text": "collaboration is going to be very",
+      "start": 2346.119,
+      "duration": 2.761
+    },
+    {
+      "text": "important and that's how research right",
+      "start": 2347.44,
+      "duration": 3.639
+    },
+    {
+      "text": "now functions the research right now",
+      "start": 2348.88,
+      "duration": 5.08
+    },
+    {
+      "text": "functions as um you know we have",
+      "start": 2351.079,
+      "duration": 5.04
+    },
+    {
+      "text": "international conferences we have people",
+      "start": 2353.96,
+      "duration": 5.28
+    },
+    {
+      "text": "doing research in Europe in Asia in uh",
+      "start": 2356.119,
+      "duration": 5.72
+    },
+    {
+      "text": "in Middle East in Africa in Latin",
+      "start": 2359.24,
+      "duration": 5.2
+    },
+    {
+      "text": "America in the US I mean us is obviously",
+      "start": 2361.839,
+      "duration": 4.921
+    },
+    {
+      "text": "dominates you know the research happens",
+      "start": 2364.44,
+      "duration": 5.32
+    },
+    {
+      "text": "Broad uh it's very much International",
+      "start": 2366.76,
+      "duration": 5.319
+    },
+    {
+      "text": "and I think that when it comes down to",
+      "start": 2369.76,
+      "duration": 4.359
+    },
+    {
+      "text": "these systems you know we all going to",
+      "start": 2372.079,
+      "duration": 4.681
+    },
+    {
+      "text": "be better off if the same happens you",
+      "start": 2374.119,
+      "duration": 4.601
+    },
+    {
+      "text": "know across now of course there are",
+      "start": 2376.76,
+      "duration": 4.079
+    },
+    {
+      "text": "political constraints to that you know",
+      "start": 2378.72,
+      "duration": 4.96
+    },
+    {
+      "text": "obviously you know with the US and China",
+      "start": 2380.839,
+      "duration": 4.76
+    },
+    {
+      "text": "tensions you know obviously there's",
+      "start": 2383.68,
+      "duration": 4.2
+    },
+    {
+      "text": "going to be some you know saying well",
+      "start": 2385.599,
+      "duration": 5.041
+    },
+    {
+      "text": "maybe we should not right and so you",
+      "start": 2387.88,
+      "duration": 4.0
+    },
+    {
+      "text": "know in the perfect world I think we",
+      "start": 2390.64,
+      "duration": 3.679
+    },
+    {
+      "text": "should but obviously you know there are",
+      "start": 2391.88,
+      "duration": 4.28
+    },
+    {
+      "text": "other other things in play that may",
+      "start": 2394.319,
+      "duration": 4.04
+    },
+    {
+      "text": "prevent us from you know from having",
+      "start": 2396.16,
+      "duration": 4.0
+    },
+    {
+      "text": "having this collabor collaborations but",
+      "start": 2398.359,
+      "duration": 4.48
+    },
+    {
+      "text": "I do think as the technology evolves and",
+      "start": 2400.16,
+      "duration": 4.6
+    },
+    {
+      "text": "becomes more mature I think",
+      "start": 2402.839,
+      "duration": 3.24
+    },
+    {
+      "text": "collaboration is going to be very",
+      "start": 2404.76,
+      "duration": 4.8
+    },
+    {
+      "text": "important just closing in one ecosystem",
+      "start": 2406.079,
+      "duration": 6.081
+    },
+    {
+      "text": "is I don't think it's a good idea but",
+      "start": 2409.56,
+      "duration": 4.64
+    },
+    {
+      "text": "again I'm coming it from the research",
+      "start": 2412.16,
+      "duration": 3.919
+    },
+    {
+      "text": "perspective because again the technology",
+      "start": 2414.2,
+      "duration": 3.72
+    },
+    {
+      "text": "that we have right now was not developed",
+      "start": 2416.079,
+      "duration": 3.921
+    },
+    {
+      "text": "by a single company or by a single",
+      "start": 2417.92,
+      "duration": 5.679
+    },
+    {
+      "text": "person Decades of work happening across",
+      "start": 2420.0,
+      "duration": 6.599
+    },
+    {
+      "text": "multiple countries all over the world uh",
+      "start": 2423.599,
+      "duration": 5.401
+    },
+    {
+      "text": "sort of develop the tech and Publishing",
+      "start": 2426.599,
+      "duration": 4.24
+    },
+    {
+      "text": "the results and open sourcing and that's",
+      "start": 2429.0,
+      "duration": 3.2
+    },
+    {
+      "text": "how people say okay well that's",
+      "start": 2430.839,
+      "duration": 3.0
+    },
+    {
+      "text": "interesting if you look at the example",
+      "start": 2432.2,
+      "duration": 4.24
+    },
+    {
+      "text": "of Sora Sora at openi was not just",
+      "start": 2433.839,
+      "duration": 4.921
+    },
+    {
+      "text": "developed by open a it's built on a",
+      "start": 2436.44,
+      "duration": 4.44
+    },
+    {
+      "text": "series of research papers that were",
+      "start": 2438.76,
+      "duration": 4.319
+    },
+    {
+      "text": "produced in Academia so it's all kinds",
+      "start": 2440.88,
+      "duration": 4.12
+    },
+    {
+      "text": "of collaboration is what you're saying",
+      "start": 2443.079,
+      "duration": 4.441
+    },
+    {
+      "text": "very much collabora and for a",
+      "start": 2445.0,
+      "duration": 4.8
+    },
+    {
+      "text": "transformative technology like this more",
+      "start": 2447.52,
+      "duration": 5.16
+    },
+    {
+      "text": "and more collaboration is absolutely",
+      "start": 2449.8,
+      "duration": 6.2
+    },
+    {
+      "text": "important Russ are there any sectors",
+      "start": 2452.68,
+      "duration": 5.88
+    },
+    {
+      "text": "that you when you look at it say hey",
+      "start": 2456.0,
+      "duration": 5.119
+    },
+    {
+      "text": "this is where AI going wrong could be",
+      "start": 2458.56,
+      "duration": 6.16
+    },
+    {
+      "text": "dangerous is there any spors I don't see",
+      "start": 2461.119,
+      "duration": 6.361
+    },
+    {
+      "text": "that right now there are certain sectors",
+      "start": 2464.72,
+      "duration": 4.8
+    },
+    {
+      "text": "that are going to be very we have to be",
+      "start": 2467.48,
+      "duration": 3.639
+    },
+    {
+      "text": "very careful like medical domain I've",
+      "start": 2469.52,
+      "duration": 3.96
+    },
+    {
+      "text": "mentioned that one we need to be careful",
+      "start": 2471.119,
+      "duration": 4.72
+    },
+    {
+      "text": "there obviously it could have huge",
+      "start": 2473.48,
+      "duration": 4.639
+    },
+    {
+      "text": "benefits right because sometimes you",
+      "start": 2475.839,
+      "duration": 3.76
+    },
+    {
+      "text": "know you go to your family doctor you",
+      "start": 2478.119,
+      "duration": 3.161
+    },
+    {
+      "text": "ask the question your family doctor I",
+      "start": 2479.599,
+      "duration": 3.801
+    },
+    {
+      "text": "don't know and you go po mat and start",
+      "start": 2481.28,
+      "duration": 4.16
+    },
+    {
+      "text": "searching so you can have a eye that can",
+      "start": 2483.4,
+      "duration": 5.24
+    },
+    {
+      "text": "really uh or or or reduce the the the",
+      "start": 2485.44,
+      "duration": 5.919
+    },
+    {
+      "text": "the misdiagnosis so so but but and so I",
+      "start": 2488.64,
+      "duration": 4.24
+    },
+    {
+      "text": "think that sensitive they're going to be",
+      "start": 2491.359,
+      "duration": 3.281
+    },
+    {
+      "text": "sensitive or military applications",
+      "start": 2492.88,
+      "duration": 2.92
+    },
+    {
+      "text": "that's going to be very sensitive in",
+      "start": 2494.64,
+      "duration": 2.959
+    },
+    {
+      "text": "that space as well obviously right like",
+      "start": 2495.8,
+      "duration": 3.519
+    },
+    {
+      "text": "how do we you know especially once we",
+      "start": 2497.599,
+      "duration": 3.72
+    },
+    {
+      "text": "build AI agents agents that can make",
+      "start": 2499.319,
+      "duration": 4.04
+    },
+    {
+      "text": "decisions that's going to be very the",
+      "start": 2501.319,
+      "duration": 3.8
+    },
+    {
+      "text": "area where we have to sort of be very",
+      "start": 2503.359,
+      "duration": 4.041
+    },
+    {
+      "text": "careful how that technology is deployed",
+      "start": 2505.119,
+      "duration": 5.0
+    },
+    {
+      "text": "I think that as the technology matures",
+      "start": 2507.4,
+      "duration": 4.16
+    },
+    {
+      "text": "again I think I'm hoping that we're",
+      "start": 2510.119,
+      "duration": 3.881
+    },
+    {
+      "text": "going to have some regulations on the",
+      "start": 2511.56,
+      "duration": 4.559
+    },
+    {
+      "text": "deployment side when we deploy that",
+      "start": 2514.0,
+      "duration": 5.0
+    },
+    {
+      "text": "technology for use users or consumers",
+      "start": 2516.119,
+      "duration": 4.96
+    },
+    {
+      "text": "will probably need some form of quality",
+      "start": 2519.0,
+      "duration": 4.0
+    },
+    {
+      "text": "control to ensure that the technology",
+      "start": 2521.079,
+      "duration": 4.681
+    },
+    {
+      "text": "doesn't just uh you know do do bad",
+      "start": 2523.0,
+      "duration": 5.68
+    },
+    {
+      "text": "things but I don't see any sort of areas",
+      "start": 2525.76,
+      "duration": 4.8
+    },
+    {
+      "text": "right now where I could look and say",
+      "start": 2528.68,
+      "duration": 5.56
+    },
+    {
+      "text": "that's a really bad case of of using AI",
+      "start": 2530.56,
+      "duration": 6.0
+    },
+    {
+      "text": "I mean I'm I'm an optimist in general",
+      "start": 2534.24,
+      "duration": 4.56
+    },
+    {
+      "text": "with the with with AI I know some people",
+      "start": 2536.56,
+      "duration": 4.32
+    },
+    {
+      "text": "don't have the same view but the best",
+      "start": 2538.8,
+      "duration": 4.559
+    },
+    {
+      "text": "thing we can do is I think is",
+      "start": 2540.88,
+      "duration": 4.4
+    },
+    {
+      "text": "collaboratively and through open source",
+      "start": 2543.359,
+      "duration": 3.921
+    },
+    {
+      "text": "as we building that technology on the",
+      "start": 2545.28,
+      "duration": 4.279
+    },
+    {
+      "text": "understand and understand its risks and",
+      "start": 2547.28,
+      "duration": 4.24
+    },
+    {
+      "text": "understand when it fails so that we can",
+      "start": 2549.559,
+      "duration": 3.881
+    },
+    {
+      "text": "build something that's more robust so",
+      "start": 2551.52,
+      "duration": 4.92
+    },
+    {
+      "text": "Russ you're an optimist and uh so are we",
+      "start": 2553.44,
+      "duration": 5.24
+    },
+    {
+      "text": "but let's just say if AI goes wrong",
+      "start": 2556.44,
+      "duration": 4.32
+    },
+    {
+      "text": "somewhere let's say in the medical",
+      "start": 2558.68,
+      "duration": 4.8
+    },
+    {
+      "text": "situation you built an AI system that's",
+      "start": 2560.76,
+      "duration": 5.96
+    },
+    {
+      "text": "been emplo deployed by a physician or",
+      "start": 2563.48,
+      "duration": 5.2
+    },
+    {
+      "text": "something like that who should be liable",
+      "start": 2566.72,
+      "duration": 5.119
+    },
+    {
+      "text": "for that uh large language model company",
+      "start": 2568.68,
+      "duration": 6.12
+    },
+    {
+      "text": "the developer the deployer the doctor",
+      "start": 2571.839,
+      "duration": 4.961
+    },
+    {
+      "text": "that's a very good question I think that",
+      "start": 2574.8,
+      "duration": 5.279
+    },
+    {
+      "text": "in I see the future where doctors are",
+      "start": 2576.8,
+      "duration": 4.559
+    },
+    {
+      "text": "still going to stay they're not going to",
+      "start": 2580.079,
+      "duration": 4.28
+    },
+    {
+      "text": "be completely placed by AI just as",
+      "start": 2581.359,
+      "duration": 4.48
+    },
+    {
+      "text": "primarily for this purpose that you",
+      "start": 2584.359,
+      "duration": 5.161
+    },
+    {
+      "text": "asking doctors will make final decisions",
+      "start": 2585.839,
+      "duration": 5.681
+    },
+    {
+      "text": "and if they make the wrong decisions",
+      "start": 2589.52,
+      "duration": 3.4
+    },
+    {
+      "text": "they're going to be liable I see the",
+      "start": 2591.52,
+      "duration": 3.079
+    },
+    {
+      "text": "future where AI is going to be helping",
+      "start": 2592.92,
+      "duration": 4.6
+    },
+    {
+      "text": "doctors of what they should do or they",
+      "start": 2594.599,
+      "duration": 4.441
+    },
+    {
+      "text": "should prescribe but not necessarily",
+      "start": 2597.52,
+      "duration": 3.4
+    },
+    {
+      "text": "make the final decision now of course",
+      "start": 2599.04,
+      "duration": 3.92
+    },
+    {
+      "text": "there's a Gray Line because the doctor",
+      "start": 2600.92,
+      "duration": 4.84
+    },
+    {
+      "text": "can say well I was mised by AI but in",
+      "start": 2602.96,
+      "duration": 6.08
+    },
+    {
+      "text": "general I think that uh I do want to see",
+      "start": 2605.76,
+      "duration": 5.0
+    },
+    {
+      "text": "the future where people are still in",
+      "start": 2609.04,
+      "duration": 3.88
+    },
+    {
+      "text": "charge of actually making critical",
+      "start": 2610.76,
+      "duration": 4.24
+    },
+    {
+      "text": "decisions and the liability for those",
+      "start": 2612.92,
+      "duration": 4.32
+    },
+    {
+      "text": "decisions is going to lie with humans",
+      "start": 2615.0,
+      "duration": 5.079
+    },
+    {
+      "text": "not with AI because exceptions to that",
+      "start": 2617.24,
+      "duration": 4.96
+    },
+    {
+      "text": "you you could argue well s self-driving",
+      "start": 2620.079,
+      "duration": 4.48
+    },
+    {
+      "text": "car if if there's no person in the car",
+      "start": 2622.2,
+      "duration": 4.159
+    },
+    {
+      "text": "the car drives itself and gets into the",
+      "start": 2624.559,
+      "duration": 3.721
+    },
+    {
+      "text": "accident whose fault is this and in this",
+      "start": 2626.359,
+      "duration": 3.921
+    },
+    {
+      "text": "case obviously the fault is going to be",
+      "start": 2628.28,
+      "duration": 4.559
+    },
+    {
+      "text": "with the company who developed that AI",
+      "start": 2630.28,
+      "duration": 5.2
+    },
+    {
+      "text": "because they they they did not make it",
+      "start": 2632.839,
+      "duration": 4.961
+    },
+    {
+      "text": "safe enough if AI complet replaces the",
+      "start": 2635.48,
+      "duration": 4.28
+    },
+    {
+      "text": "human then it's the company that",
+      "start": 2637.8,
+      "duration": 4.279
+    },
+    {
+      "text": "develops AI right they should be held",
+      "start": 2639.76,
+      "duration": 4.359
+    },
+    {
+      "text": "accountable if it's AI That's helping",
+      "start": 2642.079,
+      "duration": 4.0
+    },
+    {
+      "text": "humans in sort of these critical",
+      "start": 2644.119,
+      "duration": 3.96
+    },
+    {
+      "text": "applications then I think it's the",
+      "start": 2646.079,
+      "duration": 3.76
+    },
+    {
+      "text": "humans who are going to be responsible",
+      "start": 2648.079,
+      "duration": 4.52
+    },
+    {
+      "text": "because it's it's it's a person or",
+      "start": 2649.839,
+      "duration": 4.881
+    },
+    {
+      "text": "system that makes the final decision",
+      "start": 2652.599,
+      "duration": 4.361
+    },
+    {
+      "text": "sort of uh but I do see the future at",
+      "start": 2654.72,
+      "duration": 4.16
+    },
+    {
+      "text": "least in you know various aspects where",
+      "start": 2656.96,
+      "duration": 3.399
+    },
+    {
+      "text": "some jobs are going to be automated sort",
+      "start": 2658.88,
+      "duration": 4.719
+    },
+    {
+      "text": "of routine jobs jobs that require you",
+      "start": 2660.359,
+      "duration": 5.601
+    },
+    {
+      "text": "know very important like life death type",
+      "start": 2663.599,
+      "duration": 5.201
+    },
+    {
+      "text": "of a decision is going to be still with",
+      "start": 2665.96,
+      "duration": 5.28
+    },
+    {
+      "text": "a human decision maker so you think",
+      "start": 2668.8,
+      "duration": 4.799
+    },
+    {
+      "text": "there'll be a human in the loop um and",
+      "start": 2671.24,
+      "duration": 4.119
+    },
+    {
+      "text": "that's where the responsibility should",
+      "start": 2673.599,
+      "duration": 4.441
+    },
+    {
+      "text": "be I think that that's how at least I",
+      "start": 2675.359,
+      "duration": 5.801
+    },
+    {
+      "text": "see that that's how we will evolve in",
+      "start": 2678.04,
+      "duration": 5.48
+    },
+    {
+      "text": "the next you know 10 20 years and then",
+      "start": 2681.16,
+      "duration": 3.8
+    },
+    {
+      "text": "of course there's an argument that at",
+      "start": 2683.52,
+      "duration": 3.72
+    },
+    {
+      "text": "some at some point when AI becomes much",
+      "start": 2684.96,
+      "duration": 4.159
+    },
+    {
+      "text": "much better than humans then maybe AI",
+      "start": 2687.24,
+      "duration": 3.4
+    },
+    {
+      "text": "should just make the decision but that's",
+      "start": 2689.119,
+      "duration": 3.601
+    },
+    {
+      "text": "something that's you know the regulation",
+      "start": 2690.64,
+      "duration": 3.919
+    },
+    {
+      "text": "and this is way the government would",
+      "start": 2692.72,
+      "duration": 3.76
+    },
+    {
+      "text": "really have to come in and say what",
+      "start": 2694.559,
+      "duration": 4.161
+    },
+    {
+      "text": "because that there are arguments on both",
+      "start": 2696.48,
+      "duration": 4.52
+    },
+    {
+      "text": "sides I've seen arguments in cases like",
+      "start": 2698.72,
+      "duration": 5.04
+    },
+    {
+      "text": "there was a case with AI helping judges",
+      "start": 2701.0,
+      "duration": 6.04
+    },
+    {
+      "text": "make decisions par decisions and AI",
+      "start": 2703.76,
+      "duration": 4.96
+    },
+    {
+      "text": "would say yes you should give the parole",
+      "start": 2707.04,
+      "duration": 3.16
+    },
+    {
+      "text": "to this person because based on the",
+      "start": 2708.72,
+      "duration": 3.8
+    },
+    {
+      "text": "historical data based on all analysis of",
+      "start": 2710.2,
+      "duration": 4.44
+    },
+    {
+      "text": "the last 50 years this person should get",
+      "start": 2712.52,
+      "duration": 3.92
+    },
+    {
+      "text": "a parole and the judge would say no this",
+      "start": 2714.64,
+      "duration": 3.16
+    },
+    {
+      "text": "person should not get the parole and",
+      "start": 2716.44,
+      "duration": 3.119
+    },
+    {
+      "text": "then so so there is like arguments on",
+      "start": 2717.8,
+      "duration": 3.44
+    },
+    {
+      "text": "both sides where the judge might be",
+      "start": 2719.559,
+      "duration": 3.921
+    },
+    {
+      "text": "biased as well the decision might not be",
+      "start": 2721.24,
+      "duration": 5.319
+    },
+    {
+      "text": "the right decision also and that's very",
+      "start": 2723.48,
+      "duration": 5.44
+    },
+    {
+      "text": "a top where it's very hard for people",
+      "start": 2726.559,
+      "duration": 4.56
+    },
+    {
+      "text": "like me researching to say who should be",
+      "start": 2728.92,
+      "duration": 4.36
+    },
+    {
+      "text": "right or wrong that's when we really",
+      "start": 2731.119,
+      "duration": 4.96
+    },
+    {
+      "text": "need you know regular sort of at the",
+      "start": 2733.28,
+      "duration": 5.68
+    },
+    {
+      "text": "government level to to to to to Define",
+      "start": 2736.079,
+      "duration": 5.801
+    },
+    {
+      "text": "what what that is Russ I could go on and",
+      "start": 2738.96,
+      "duration": 5.359
+    },
+    {
+      "text": "asking you uh for another 3 hours",
+      "start": 2741.88,
+      "duration": 4.56
+    },
+    {
+      "text": "because there's a whole range of things",
+      "start": 2744.319,
+      "duration": 4.04
+    },
+    {
+      "text": "because of your vast background",
+      "start": 2746.44,
+      "duration": 4.119
+    },
+    {
+      "text": "appreciate you taking the time our",
+      "start": 2748.359,
+      "duration": 4.681
+    },
+    {
+      "text": "audience as I mentioned is uh Global and",
+      "start": 2750.559,
+      "duration": 5.56
+    },
+    {
+      "text": "wide variety some final thoughts for our",
+      "start": 2753.04,
+      "duration": 4.559
+    },
+    {
+      "text": "audience that you would like to leave",
+      "start": 2756.119,
+      "duration": 3.72
+    },
+    {
+      "text": "behind for them yeah I think that you",
+      "start": 2757.599,
+      "duration": 4.401
+    },
+    {
+      "text": "know there's a lot of people who are",
+      "start": 2759.839,
+      "duration": 5.72
+    },
+    {
+      "text": "concerned about risks of AI and you know",
+      "start": 2762.0,
+      "duration": 6.0
+    },
+    {
+      "text": "displacement of jobs and that's all you",
+      "start": 2765.559,
+      "duration": 4.8
+    },
+    {
+      "text": "know we need to we need to really think",
+      "start": 2768.0,
+      "duration": 4.2
+    },
+    {
+      "text": "about this but I also want to end up on",
+      "start": 2770.359,
+      "duration": 4.24
+    },
+    {
+      "text": "the note that I think there is a lot of",
+      "start": 2772.2,
+      "duration": 5.08
+    },
+    {
+      "text": "potential for AI as well huge potential",
+      "start": 2774.599,
+      "duration": 4.72
+    },
+    {
+      "text": "think about education you can transform",
+      "start": 2777.28,
+      "duration": 4.319
+    },
+    {
+      "text": "education I can have my own personal",
+      "start": 2779.319,
+      "duration": 4.641
+    },
+    {
+      "text": "tutor that will educate me and think",
+      "start": 2781.599,
+      "duration": 5.161
+    },
+    {
+      "text": "about the entire population of the world",
+      "start": 2783.96,
+      "duration": 5.04
+    },
+    {
+      "text": "right I can have a personal teacher that",
+      "start": 2786.76,
+      "duration": 4.839
+    },
+    {
+      "text": "can you know educate me and I don't have",
+      "start": 2789.0,
+      "duration": 4.92
+    },
+    {
+      "text": "access to good education health I think",
+      "start": 2791.599,
+      "duration": 3.96
+    },
+    {
+      "text": "is going to be have transformative",
+      "start": 2793.92,
+      "duration": 4.199
+    },
+    {
+      "text": "impact I've seen some example some of my",
+      "start": 2795.559,
+      "duration": 5.0
+    },
+    {
+      "text": "friends actually coming to me and saying",
+      "start": 2798.119,
+      "duration": 4.921
+    },
+    {
+      "text": "I talk to my family doctor they don't",
+      "start": 2800.559,
+      "duration": 4.681
+    },
+    {
+      "text": "know then I start interacting with chat",
+      "start": 2803.04,
+      "duration": 5.6
+    },
+    {
+      "text": "GPT and and it actually gave me much",
+      "start": 2805.24,
+      "duration": 6.48
+    },
+    {
+      "text": "better you know ideas of of what's going",
+      "start": 2808.64,
+      "duration": 4.959
+    },
+    {
+      "text": "on and then I can go and de further and",
+      "start": 2811.72,
+      "duration": 4.28
+    },
+    {
+      "text": "actually understand obviously in these",
+      "start": 2813.599,
+      "duration": 6.361
+    },
+    {
+      "text": "domains in finances in education in",
+      "start": 2816.0,
+      "duration": 5.8
+    },
+    {
+      "text": "health we're going to have big big big",
+      "start": 2819.96,
+      "duration": 4.119
+    },
+    {
+      "text": "transformation so I think we obviously",
+      "start": 2821.8,
+      "duration": 4.2
+    },
+    {
+      "text": "there's a balance need to take into",
+      "start": 2824.079,
+      "duration": 4.441
+    },
+    {
+      "text": "account but but I'm very very optimistic",
+      "start": 2826.0,
+      "duration": 4.96
+    },
+    {
+      "text": "that you know it's uh if we do things",
+      "start": 2828.52,
+      "duration": 4.319
+    },
+    {
+      "text": "right in a right way the future is going",
+      "start": 2830.96,
+      "duration": 3.48
+    },
+    {
+      "text": "to be you know we we're just going to",
+      "start": 2832.839,
+      "duration": 3.401
+    },
+    {
+      "text": "continue improving so it's kind of you",
+      "start": 2834.44,
+      "duration": 3.84
+    },
+    {
+      "text": "know it's both of them we have to",
+      "start": 2836.24,
+      "duration": 4.48
+    },
+    {
+      "text": "consider as as the technology evolves",
+      "start": 2838.28,
+      "duration": 6.319
+    },
+    {
+      "text": "well on that optimistic uh note us thank",
+      "start": 2840.72,
+      "duration": 6.24
+    },
+    {
+      "text": "you so much for sharing your Insight",
+      "start": 2844.599,
+      "duration": 4.561
+    },
+    {
+      "text": "your experiences with us today I know",
+      "start": 2846.96,
+      "duration": 4.359
+    },
+    {
+      "text": "our listeners are going to really get",
+      "start": 2849.16,
+      "duration": 5.52
+    },
+    {
+      "text": "some real valuable perspectives uh from",
+      "start": 2851.319,
+      "duration": 5.561
+    },
+    {
+      "text": "this and until next time to our",
+      "start": 2854.68,
+      "duration": 4.04
+    },
+    {
+      "text": "listeners please stay informed stay",
+      "start": 2856.88,
+      "duration": 4.36
+    },
+    {
+      "text": "engaged and remember that diversity of",
+      "start": 2858.72,
+      "duration": 4.28
+    },
+    {
+      "text": "voices is important and the are",
+      "start": 2861.24,
+      "duration": 4.64
+    },
+    {
+      "text": "regulation and Innovation is important",
+      "start": 2863.0,
+      "duration": 4.96
+    },
+    {
+      "text": "Russ thank you so much for taking the",
+      "start": 2865.88,
+      "duration": 4.0
+    },
+    {
+      "text": "time really appreciate it absolutely",
+      "start": 2867.96,
+      "duration": 3.56
+    },
+    {
+      "text": "thank you so much for having",
+      "start": 2869.88,
+      "duration": 3.84
+    },
+    {
+      "text": "me thanks for tuning in to the",
+      "start": 2871.52,
+      "duration": 4.68
+    },
+    {
+      "text": "regulating AI innovate responsibly",
+      "start": 2873.72,
+      "duration": 4.56
+    },
+    {
+      "text": "podcast you'll find links in the show",
+      "start": 2876.2,
+      "duration": 3.919
+    },
+    {
+      "text": "notes to any resources mentioned on the",
+      "start": 2878.28,
+      "duration": 4.4
+    },
+    {
+      "text": "show if you're enjoying our podcast",
+      "start": 2880.119,
+      "duration": 4.281
+    },
+    {
+      "text": "please subscribe so you'll never miss an",
+      "start": 2882.68,
+      "duration": 6.56
+    },
+    {
+      "text": "episode and leave us a five star review",
+      "start": 2884.4,
+      "duration": 4.84
+    }
+  ]
+}

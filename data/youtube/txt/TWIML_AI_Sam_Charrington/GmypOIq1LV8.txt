@@ -1,0 +1,1136 @@
+when it comes to AI safety openness is
+not the poison it's the antidote the
+alternative is that Ai and Foundation
+models more generally or built just by a
+small handful of companies who are
+licensed to create these models I don't
+think it leads to necessarily safer
+outcomes because it stops all of this
+crucial Safety Research there is going
+to be a time when the dam would
+break all right everyone welcome to
+another episode of the twiml AI podcast
+I am your host Sam charington
+today I'm joined by Sayes kapor Sayes is
+a PhD candidate in the department of
+computer science as well as a researcher
+in the center for information technology
+policy at Princeton University before we
+get going be sure to take a moment to
+hit that subscribe button wherever
+you're listening to Today's Show Sayes
+welcome to the podcast thank you so much
+for having me I'm really excited to dig
+into our conversation we'll be talking
+about a paper you recently published on
+the societal impact of open foundation
+models before before we do I'd love to
+have you share a little bit about your
+background and how you came to work in
+the field so my background is in
+computer science and I started off my
+research career working in theoretical
+machine learning um from there I sort of
+quickly pivoted to like investigating
+fairness and machine learning algorithms
+and then more broadly to the societal
+impact of AI um over the course of This
+research career I've worked at a few
+different institutions I worked at IIT
+coner for my undergrad um then did
+research stins at Columbia University
+and epfl in Switzerland I worked at meta
+for two years in their um Community
+Integrity team building machine learning
+in order to Cur some of the harms that
+you're talking about um and then I began
+my PhD at Princeton University with
+regards to this paper it's it's
+interesting timing I think uh at least
+in the context of the podcast we
+recently published an interview on Almo
+uh which as you all know and mentioned
+in the paper is a an open model that is
+is really uh seeking to promotee
+openness strongly uh and it the the
+paper also reminds me that when gpt2
+came out uh we held a big debate uh as a
+kind of a webcast on the you know there
+was the the big issue being raised at
+the time on whether open AI should make
+this available should it be uh should it
+be closed uh and should there be very
+limited access to it uh you know since
+come a long way and uh models like you
+know much more powerful than gp2 are
+readily
+available um and what this paper seeks
+to do is to uh really ask the question
+or a set of questions around you know
+that fundamental openness that is you
+know still to to a significant degree
+open to debate um and so I'm excited
+again to dig into that I'd love to start
+by having you share a little bit about
+about your motivations for the paper and
+how it came about so I guess the main
+impetus for the paper was we were in all
+of these conversations where we were
+talking about the benefits of openness
+on the one hand and then in other
+separate conversations when we were
+diving into the risks of openness um and
+in particular there was a lot of
+attention to papers that claimed these
+catastrophic risks from language models
+so there were a couple of studies that
+came out of MIT last year that pointed
+to the biocurity risks that having
+access to open language model could
+allow um malicious uses to create
+bioweapons so I think in the midst of
+all of these conversations one thing
+that stood out was just the lack of a
+common ground when it came to even
+talking about these risks so what is
+this sort of risk we're talking about
+what is it being compared to is it
+compared to like the risk of you know
+someone finding out how to create a
+bioweapon on the internet um and if so
+how do we go about conducting these risk
+assessments and so in this sort of um
+almost fractured debate um all of us
+like me and rishy and some of the other
+authors felt that it was necessary to
+come up with a framework that first
+removes a lot of the misconceptions
+about openness and what risks it enables
+and second it also opens the floor for
+more constructive debate going forward
+on what the risks are and how we should
+sort of um band together and
+collectively address these risks one of
+the things that struck me about the
+paper is the diversity of of authors
+that are named in the paper um folks
+that you know several folks have been uh
+interviewed on the podcast before from a
+variety of organizations academic and
+and
+non-academic I'd love to have you share
+a little bit about how that came about
+absolutely so I think the origin story
+of the paper is that uh last September
+we organized a workshop called um the
+responsible and open foundation model
+Workshop so this was a joint effort by
+Princeton and Stanford and as a part of
+of that we really brought together like
+a wide range of perspectives but all of
+these had one thing in common they
+thought deeply about the impact of
+openness on society so we looked at
+perspectives from the industry from
+Academia from Civil Society
+organizations and following that
+Workshop it became clear that there is a
+need to sort of write something more
+cohesive about the impacts of openness
+and it really became clear that a lot of
+the evidence that we were sort of
+talking about was not um well
+substantiated or a lot of the claims um
+did not really have the bar for
+empirical evidence that we would have
+liked and so really like in some sense
+the paper is a followup to that Workshop
+wherein a lot of these experts came
+together and tried to set some common
+ground for um how we should discuss the
+merits and benefits and risks of
+openness and one sort of other type of
+organization that's sort of referenced
+in the author list um is policy makers
+so I think people who are um trying to
+influence policy or influence um how
+policy around open foundation model
+plays out in the real world um and
+that's because like apart from all of
+the debate that's happening within the
+AI Community or within the research
+Community policy makers are also very
+actively considering the question of
+openness um so we have ongoing policy
+proposals in the US the UK and the EU
+specifically looking at the impact of
+open foundation models in some cases
+it's to impose stricter barriers um such
+as in the White House Executive Order in
+others it is to provide car outs for
+example in the EU but I think having
+this framework to assess the societal
+impact of foundation models can really
+help these policy conversations as well
+so many of the people um who wrote the
+paper with us uh we were very happy to
+have the policy expertise on board one
+of the very first things you do in the
+paper is Define what you mean by an open
+foundation model and you define that in
+terms of the weights being freely
+available uh I'm curious the degree to
+which you think that very definition is
+you know contentious or has nuances or
+uh is worthy of of discussion in and of
+itself absolutely I think this is uh
+like the definition of what constitutes
+open foundation models or even
+open-source Foundation models I think is
+one of the most contentious debates that
+going that's going on today um the
+reason we chose the specific definition
+and the words we did was first we did
+not want to call these models open S
+Foundation models because open source
+implies something completely different
+about an artifact it means that the code
+and some like to some extent the data
+used to train the model is made
+available you have the documentation to
+reproduce the data there is no use
+restrictions um on the model at all um
+so that's why we deliberately chose not
+to use the word open source but rather
+just open foundation models um a second
+part of it was you might have seen the
+author list going back to that for a
+second U that the executive director of
+the open source initiative um Stefano
+mauli is also one of the authors and uh
+he is actually leading this charge of um
+the open source initiative defining what
+open source really means for AI so to
+some extent the term open source AI is
+not even well defined right now because
+the open source initiative does not
+really have a definition of that so both
+of those meant that you know open source
+is out of the window um now when it
+comes to the question of U like the
+risks and benefits of models um we chose
+to focus on model weights because that's
+where a lot of the purped risks of these
+models come from um so well for many of
+the benefits of openness you might need
+access to the code and the data and
+projects like MMO and Pia from lutheri
+um are like you know Stand Out examples
+of how how far you can take openness
+with checkpoints and model weights and
+data um I think for a lot of the risks
+all you need is access to the um model
+weights alone and I think this also
+comes through in last year's um
+executive order from the the White House
+which focuses on Foundation models with
+widely available model weights so I
+think we really wanted to hone in on
+this specific question because once the
+model weights are released to some
+extent this decision is irreversible and
+this fact about releasing the model
+weights openly has caused a lot of
+concern about releasing open foundation
+models um and so that's why we chose to
+stick with Foundation model weights that
+are widely available and with the term
+open foundation models but not open
+source Foundation models many of the
+concerns that are referenced in the
+paper are still concerns in a world
+where the weights aren't released but
+you do reference the idea that with uh
+the weights be with the models behind an
+API of sorts there can be monitoring
+there can be um the services can shut
+down particular uses that are abusive
+and uh in to some degree you kind of
+call out that once the weight out it's a
+bit of a Pandora's Box being opened
+whereas behind a service there's still
+some optionality was that a core idea in
+the way you thought about the this idea
+of openness so I think again like going
+back to the concerns that people have
+had with openness a lot of these are
+tied to the fact that once Foundation
+model weights are out there basically
+anyone who can download these models off
+the internet can do with them whatever
+they please so there are some mechanisms
+you might um envision for reducing the
+harmful impacts so for instance if a
+model has been known to cause harm you
+might get it removed off of hugging face
+and GitHub so that the model weights
+aren't hosted but to some extent a lot
+of these um interventions can be easily
+circumvented for instance through model
+weights being uploaded to torent
+websites um so I think one of the
+reasons we focused on the concept of
+model weights was precisely because um
+the risks around models are um at least
+theoretically Amplified when you have no
+take-backs when you cannot um take back
+the mod we or control who uses them or
+for what purposes one of the things that
+is very clear when you read the paper is
+that you're really trying to create a
+framework for folks to communicate about
+these uh various risks and you get the
+the picture very quickly that you've
+been in conversations where people are
+talking about risks but they're really
+talking about uh you know very different
+types of risks and uh they aren't able
+to Recon how to to bring them all
+together how do you how did you conceive
+of um a way to to reconcile that so I
+guess one of the things that was most
+helpful was seeing how um two papers
+that came out of MIT last year dealt
+with concerns around biocurity risks in
+a follow-up work though I think a couple
+of months after this paper was released
+a group of researchers from Stanford
+looked at what this information was that
+the authors were arguing would lead to
+um like future pandemics being caused by
+language models and it turns out that
+all of the information that was um at
+stake here was easily available on
+Wikipedia and so that really drove home
+this concept of marginal risk for us and
+why it's important because like you know
+we can have a lot of harmful outputs
+from the uh from open language models
+and we can't monitor the outputs of
+those models um in of themselves but if
+we can get the same exact information
+from web search on the internet then
+perhaps looking at uh Banning or curbing
+the release of open foundation models is
+not the right policy proposal so this
+really informed us on the need for um
+creating this common ground because if
+you don't have this Common Ground it'll
+essentially be researchers on the one
+hand pointing out all of the risks of AI
+and on the other hand pointing out how
+they're just um equivalent to past
+releases or um basically equivalent to
+like information widely available on the
+internet the results of that second
+paper are fairly intuitive to anyone
+who's familiar with language models and
+the idea that to some degree they are
+pulling together information that's
+already in their training data sets why
+do you think there was so much
+contention around uh that idea so I
+think one of the reasons was that for a
+long time language models just did not
+work very well so if in 2020 or if in
+like I don't know 2015 someone had come
+up and said you know language models can
+help someone cause biocurity issues um I
+think that concern would not be taken
+seriously at all because the state of
+progress of language modeling was such
+that you know the state-of-the-art
+language models essentially could not
+offer any help I think that has sort of
+changed in the last five years or so and
+especially with um instruction tune
+models uh it has become easier for
+people to rely on language models for
+assistance and so to be clear I'm not
+saying that um like the paper's results
+are flawed or anything I think it's
+important empirical evidence it's
+important to know that we can use
+language models to extract information
+about biocurity risks um and it's very
+important to know what the capabilities
+of these models are but at the same time
+I think our main point is that we
+shouldn't be caught up by focusing on
+like just this modeling part of um just
+the part where we have a language model
+or access to a language model alone so
+for example there is a follow-up study
+by Stephanie balis um in foreign policy
+where she points out all of the things
+someone might want to do in order to
+create a bioweapon and essentially
+finding out information about the
+bioweapon is a very small part of this
+pipeline a lot of this information is
+available on the internet uh it's
+available in AP Bio courses and so if
+our aim is to sort of look back and sort
+of curb biocurity risks then perhaps
+looking at the language model is not the
+biggest choke point that we have there
+are other things that we can do for
+instance imposing banss on uh DNA
+synthesis or more restrictions on
+genetic screening and so on um and so
+our risk assessment framework is
+essentially trying to open up this space
+of risks um that have been called about
+because or called to have been coming
+out of language models and opening it up
+to see where the most um useful choke
+points might be right right and so to to
+really focus on it one of the big
+contributions of the paper is defining
+the risk space in terms of marginal risk
+can you dig into that a little bit more
+absolutely so um marginal risk really
+means um what is the risk of language
+models or Foundation models more
+generally compared to previous
+Technologies so when focusing
+specifically on open foundation models
+um we think there are like two things
+against which we should calculate
+marginal risk one is the existing state
+of the Affairs um with existing
+Technologies like the internet and the
+other is foundation models that are not
+released openly because a lot of the
+policy efforts at uh regulating
+Foundation models are specific to open
+foundation models so the second sort of
+comparator is what if the foundation
+model was not released openly what if it
+is a closed Foundation model and to come
+up with the framework for assessing
+marginal risk we Bank on um the cyber
+security um like threat modeling
+framework so threat modeling is a
+concept in cyber security which
+basically allows cyber security
+researchers to come up with the entire
+pipeline of how a risk actually
+materializes in the real world um it has
+several steps like reconnaissance are
+like figuring out what the systems are
+what the loopholes are um and
+essentially coming up with like an
+entire framework of how to do this um in
+a repeatable way so we take inspiration
+from this framework and we uh create
+this six-step risk assessment framework
+for identifying the marginal risks of
+open foundation models um the first step
+is threat identification so it's
+important to know what specific threat
+we looking out for and who this threat
+is from so the point is important
+because it's very different if a threat
+is from like let's say a few individuals
+or a small organization versus from
+State packed actors they have very
+different levels of resources so it's
+important to understand what this threat
+is where this threat is coming from the
+next two steps are about the existing
+level of that risk because in many cases
+the risks we're talking about also exist
+in the real world as well as the
+existing defenses that we have against
+those risks so taking together these
+three points allow us to then think
+about the marginal risk of releasing
+Foundation models openly so this is
+compared to existing risks for instance
+from web search on the Internet or
+closed Foundation models um as well as
+how open language models or open
+foundation models might allow us to
+supersede the existing defenses that we
+have and similarly like once we've sort
+of come up with the marginal risk of
+releasing open foundation models uh it's
+also important to look at how easily we
+can defend against this marginal risk
+because in some cases um while open
+foundation models might allow new risks
+to materialize they might also be useful
+for defense um and then finally our last
+step in the framework is um very
+precisely stating what the uncertainty
+and the assumptions in this entire
+analysis are because in many cases it's
+these uncertainties and assumptions that
+lead to the most um prevalent points of
+contention between people arguing on
+both sides of U of the open versus
+closed debate I'm wondering with that
+frame workk defined if you could walk us
+through an example uh whether it's the
+biot terrorism or another example of how
+you would uh apply the framework step by
+step um so in the paper we carry out
+this analysis for two areas the first is
+cyber security risks and the other is
+the risk of non-consensual intimate
+imagery um perhaps such as Technologies
+like deep FES so maybe I can talk
+through the latter example which is
+non-consensual intimate imagery or NCI
+um so first I mean the first step of the
+framework is threat identification where
+you identify who the threat is from in
+many cases we've seen that the threat of
+NCI is actually from individuals or
+small organizations um so this might be
+someone you know who's creating deep
+fakes um in some cases it is deep fakes
+of celebrities in others it is people um
+they know in real life um and this
+threat I mean in terms of the existing
+risk this threat has been around for a
+while um so we've seen many types of
+digitally altered NCI images are being
+created through tools like Photoshop for
+example um and similarly in terms of
+existing defenses there are a few
+defenses that people have um so the
+first is social media platforms like
+Facebook and Instagram and YouTube have
+channels to report um NCI if someone
+posts your image you can report it and
+it'll be reviewed U similarly there are
+some federal statutes against the
+sharing of non-consensual intimate
+imagery um both in the US as well as
+outside like in the UK and in the EU um
+so this brings us to the question of
+marginal risk like in this framework or
+in this current scenario where we have
+Photoshop and people do share um NCI of
+other people um at some like rate of
+preference what is the marginal impact
+of open foundation models so for this
+specific risk we find that the marginal
+risk of open foundation models is
+actually pretty high several analysis
+have shown that since Foundation models
+like stable diffusion have been released
+openly the amount of NCI prevalent on
+online websites has gone up dramatically
+um compared to tools like Photoshop the
+use of this like model might not require
+uh any expertise in digital technology
+at all um and compared to um earlier
+tools or compared to earlier enforcement
+strategies like um going on social media
+and Reporting your image I think
+advocating for taking down AI generated
+NCI is a little bit harder simply
+because of the legal status of AI
+generated images right now um which is
+unclear this is an interesting sort of a
+policy Tabit hole but back in the '90s
+um the Supreme Court ruled that virtual
+pornography is protected under the First
+Amendment um and so people have a First
+Amendment right to create and share
+these pictures even if social media
+platforms later take them down that's
+their prerogative under Section 230 just
+the creation of these uh of these deep
+fakes it's as of yet still un like still
+a contentious First Amendment issue and
+it's unclear if the use of uh Foundation
+models for generating more believable or
+more realistic imagy um will sort of
+cause the cause the code to change its
+opinions I think we have to that's a
+tremendous example of legal Frameworks
+not keeping up with
+technology exactly and in some sense the
+uh Supreme Court um sort of the Supreme
+Court verdict in the '90s case was
+actually
+um like it had great foresight because
+at the time the state of virtual
+pornography
+was such that um no one would mistake
+like a virtually generated image from a
+real uh image of a person but now when
+we have Foundation models like
+generative AI models um uh widely
+available and easily downloadable you
+like I can run Sable to Fusion on my
+MacBook um it it just becomes really
+hard it's like a difference in kind not
+just a difference in um uh quantity and
+so I think that really changes things
+and so I'm sure we're likely to hear
+many cases um on on Virtual NCI and
+generative AI very soon you've mentioned
+factors including the ease of creation
+the the prevalence or the increase in um
+uh
+occurrences it sounds like many of these
+factors are very much themselves kind of
+Up For Debate or uh discussion and it's
+uh
+ultimately uh a judgment call uh on the
+on behalf of the person who's making the
+argument but what you're trying to do is
+ground it in at least we're going to
+talk about this factor is that a fair
+assessment that's absolutely right and
+that's why the last step of theum of the
+risk assessment framework is
+specifically about the assumptions built
+into um the risk assessment framework
+throughout like whether you think these
+models will continue to improve at the
+same rate or whether we're seeing like
+somewhat of a plateau um there are also
+assumptions about the quality of the
+generated image and so on um and so
+think that's the step where you sort of
+ground all of your subjective calls in
+this risk assessment framework um and
+and explicitly call them out the final
+point of the marginal risk uh assessment
+is comparison to closed Foundation
+models and here too at least based on
+the empirical evidence we've seen so far
+um closed model providers like openi
+have been quite successful with their
+guard rails um there was this incident
+involving Taylor Swift's NCI uh that was
+actually using Microsoft's tool which is
+a closed model
+um but at the same time what this
+allowed Microsoft to do is very quickly
+patch their model so that it wouldn't
+generate NCI of real people and this is
+just not something that's available as a
+redressal mechanism to developers of
+open foundation models um so in in
+general I think it's clear that for NCI
+at least the marginal risk of open
+foundation models is pretty high um and
+when it comes to the ease of defenses I
+think this allows us to look at this
+whole pipeline of uh the creation of NC
+and come up with a few spots where we
+can reduce the harm so the pipeline for
+um like creating generative AI waste
+ncii is you have a model you might have
+platforms where those models are hosted
+you might have Downstream platforms like
+social media where uh people might
+upload these images so interventions at
+the model level are quite hard um it's
+very hard to curb on or basically like
+eradicate the spread of stable diffusion
+simply because you can can download this
+file as like a 4 gigb file uh you can
+run it locally on your MacBook you can
+also run it on your iPhone actually um
+and so it's really hard to track the
+usage of these models but when we come
+to the next two sort of layers of the
+pipeline um interventions become
+somewhat easier so one example for the
+middle L where models platforms where
+models are shared is this startup called
+Civ Civ is a platform for people to
+share Foundation models that can
+generate images of um like various sorts
+one of the uses of Civ in the past has
+been to post bounties for models that
+generate NCI about specific people so
+this example is basically um like one
+where tangible harm is being caused
+because an online platform is failing to
+take down moduls that can cause harm in
+the real world and a few weeks after
+this very nice investigation from a news
+Outlet called 404 media revealed this
+fact I think um since then cvti has
+imposed stricter guardrails on how these
+models can be distributed and similarly
+I think for social media platforms as
+well so I think social media platforms
+need to do a much better job of uh
+curbing down on clamping down on NCI um
+and one way they can do this is by
+allowing users to take some of the power
+back in the hand so there is this
+nonprofit organization called stop NCI
+high.org where if you fear that one of
+your intimate images is about to be
+shared on the Internet or perhaps has
+already been Shar
+you can upload a hash of that image to
+stop nc.org um and when this image is
+uploaded to any social media platform
+that coordinates with stop NCI and I
+think as of today this includes Facebook
+Instagram Reddit and so on um any of
+these platforms if that image is later
+uploaded that image will be
+automatically and proactively removed so
+that people don't get a chance to see it
+so I think interventions like these um
+are much more tenable compared to
+interventions at the model level simply
+because because of the high costs of uh
+nonproliferation of of these models um
+so this is what like the risk assessment
+framework and especially the ease of
+Defense step in the risk assessment
+framework tells us like where we should
+focus our defenses but at the same time
+like some of the harms would likely
+still continue so uh even though public
+platforms and AI model hosts might take
+down these models you still have uh end
+encrypted chats um you have telegram
+Bots that create NCI of people so to
+some extent this marginal risk of uh
+open foundation models for creating
+non-consensual intimate imagery um is
+tangible and it has already caused real
+world harm um and then when we come to
+the last step which is the uncertainty
+and assumptions um I guess some of the
+assumptions are around um the legal
+State of Affairs so in particular that
+end to encrypted chats would still
+continue I think there is a couple of uh
+there are a couple of initiatives
+especially in the UK which are trying to
+undo end to end protection or end to end
+encryption in the first place I think
+that's a very dangerous and risky policy
+proposal but nonetheless it is one of
+the assumptions built into our analysis
+uh similarly um the Assumption around
+these models already being useful for
+creating NCI means that even if like
+future models can have guard rails
+current models will already always exist
+and they can always be used to create
+NCI so this again this assumption says
+that even if we can sort of somehow
+curve the harms of NCI in future models
+that doesn't really matter if current
+models are already good enough um to
+have this huge margin ofk you referenced
+in your explanation the kind of
+overwhelming benefit of proliferation of
+open foundation models is that part of
+the analysis is that your opinion is
+that something that would end up in the
+uh you know the assumptions phase of an
+analysis um so the risk analysis
+framework does not take into account the
+benefits it's not meant to be like a
+cost benefit analysis um I think the
+cost benefit analysis is hard to do in
+like a generalizable way simply because
+different organizations might have very
+different incentives um they might view
+different benefits differently so in
+order to scope the framework to
+something that was uh like generalizable
+but also specific enough to be useful um
+I think we focus specifically only on
+the risks of uh open foundation models
+and to get clarity on the state of the
+risks of releasing Foundation models
+openly the paper is useful in the
+context of you know these broader
+arguments in which people are arguing
+cost and benefits and risks versus
+benefits you're focusing on the risks
+it's up to the people that are making
+those arguments one way or another to
+assess the benefits um relative to those
+risks essentially yeah we very much did
+not want to offer like a guide for when
+you should release a foundation model
+because I think that decision depends
+very much on the specific stakeholders
+that having been said do you present as
+by way of example specific Foundation
+models and assess whether they should or
+shouldn't be uh available or um provide
+any further guidance into the
+application of the the framework in the
+context of an endend assessment or do
+you do you stay away from that so I
+think to the extent that we focus on
+specific Foundation models it's always
+tied to a specific risk or benefit so I
+think our main focus is clarifying what
+the risks are and what the benefits are
+um and not on the foundation models
+themselves um but like the other risk
+that we analyze in depth is the risk of
+cyber security um and Es specifically
+lots of people have claimed that cyber
+security risks would be hugely
+exacerbated by these large language
+models simply because we now have a tool
+that allows us to automatically find
+vulnerabilities in code now we look back
+on the field of cyber security for the
+last 20 years and we see that automated
+vulnerability Discovery has been much
+better than humans so what like um
+someone might call superhuman uh for the
+last 20 years there have been these
+tools called fuzzing tools uh which look
+at specific pieces of code and try to
+find vulnerabilities they can do it in a
+way that's much faster and much broader
+uh compared to most human analysis and
+so in this way they can also improve
+automated vulnerability disclosure so
+why haven't we been faced with like a
+constant Scurry of hacks but it's
+because Defenders have access to the
+same tools so Defenders can also use
+fuzzing tools to preemptively block out
+a lot of the um like harms and fix these
+bugs and we think the same will hold
+true for um language models as well in
+fact this is not just a hypothesis we've
+already seen language models like Google
+spam being used for uh security and
+improving security um across their own
+code but as well as for open source
+libraries on the internet um so they're
+using their llm combined with a previous
+fuzzing tool called OSS fuzz which used
+to basically automatically scan leading
+open source libraries on the internet
+and they found that using llms can
+drastically improve the number of bugs
+caught and the number of bugs later
+fixed by developers so I think this um
+offense defense balance will continue to
+be somewhat tilted in favor of Defense
+even with these large language models
+like Palm
+as long as we keep investing some amount
+of effort and energy into building tools
+for defense stepping back from the paper
+for a moment I'd love to have you talk
+about the way you think about the
+broader cost benefit analysis of open
+foundation
+models one of the main reasons why
+openness is important is because it
+allows um safety critical research so I
+think a lot of reasons for our
+understanding of where Foundation models
+can be used how they can go wrong in the
+real world have been built upon a lot of
+work done to make these models openly
+available they've seen jailbreaks that
+are applicable to open models but
+transferable to closed ones um we've
+seen new methods for um prompt based
+attacks we've also seen new methods for
+defenses being developed using
+Foundation models being released openly
+so to some extent it seems like openness
+is extremely valuable to fix the very
+problem that many critics of openness
+say it causes um the was this very nice
+letter that was released by Modzilla I
+think last year late last year which
+says that when it comes to AI safety
+openness is not the poison it's the
+antidote um and I think I very much um
+believe that sort of claim simply
+because the alternative is that Ai and
+Foundation models more generally are
+built using or built just by a small
+handful of companies who are licensed to
+create these models such licenses have
+appeared in serious policy proposals so
+uh Senators Blumenthal and Holly have
+this bipartisan AI framework and I think
+one of the provisions of that framework
+is that we need licenses for AI
+developers uh to deem a few people uh
+fit for creating these models I think
+that's absolutely the wrong approach
+when it comes to AI safety um for one it
+is um centralizing this power of
+deciding what's safe and unsafe in the
+hands of a few companies but more
+importantly I think even if we ignore
+that part entirely I don't think it
+leads to necessarily safer outcomes
+because it stops all of this crucial
+Safety Research and there is going to be
+a time when the dam would break right
+there's there's going to be a time when
+compute would be cheap enough that these
+language models can be trained by just
+about anyone so like the frontier models
+of today are the land party models of
+tomorrow like Gamers at the land party
+would be able to train that model five
+years from now um so restrictions based
+on like how much compute a model needs
+are just um in my view wrong because
+they do not leave us with the resilience
+of societal um sort of dams or societal
+um interventions that would be robust to
+the point where um these models are
+released openly and widely do you in
+your research are broadly thinking about
+the space look into the idea of
+regulatory capture by some of the large
+technology incumbents and and that as a
+motivation for um kind of these
+anti-open
+proposals um the way to sort of uh
+counter bad proposals is by focusing on
+the content of the proposals themselves
+so a constant theme in my work has been
+that I try to avoid looking at the
+intentions of the actors who might be
+sort of arguing for various proposals
+and instead try to focus on the content
+of the proposals themselves and I think
+in that way it leads to a stronger
+defense because rather than just relying
+on hypothesis or speculations about um
+why someone might be doing something I
+think I think we can actually respond to
+the substance of it so your argument
+then is openness is strong enough on its
+own merits and uh conversely closeness
+is weak enough on its own merits it
+doesn't really matter why it's being
+proposed absolutely like to some extent
+the interventions are uh like can sort
+of can be debated on their own merits
+too I would sort of not go as far as to
+say that openness is strong enough on
+its own terms and closedness is not
+today it's very clear that releasing
+language models and Foundation models
+more generally openly seems like the
+right call um but I think we need to
+keep investing in uh assessments of
+marginal risk um and the other thing is
+like this debate is often framed as open
+versus closed but to be clear no one is
+really arguing that there should be no
+closed models the only argument is about
+whether there should be open models or
+not and I think the framing this
+question this way means that like my
+point or my stance is reframed to there
+there is a space for open foundation
+model in this ecosystem of closed and
+open um so it's not open versus closed
+it's um closed and open versus only
+closed how do you see this work being
+built upon I think uh there are many
+sort of different future Parts in fact
+as a little backstory for how this work
+came about um the first draft of this
+paper which now is around like 10 pages
+I think the final length um the first
+draft was 60 pages long we tried to do
+in-depth risk analysis of every single
+risk that we mention and at some point
+we realize that we're just not qualified
+enough to do this um we do not have the
+expertise needed in analyzing these
+specific risks to be able to confidently
+State um what the risk assessment
+scenario looks like and so one of the
+main things I would love to see is using
+this risk assessment framework in
+different domains like bio security and
+disinformation to see what the marginal
+risks are and to some extent like
+clearly lay out this argument for why
+there is or isn't um marginal risk from
+openness I think on so this is on the
+academic side on the research side or
+sorry on the policy side um I think one
+of the main ways this framework can be
+helpful is in guiding what type of
+research policy makers fund so we're
+already seeing AI safety institutes in
+the US and UK start to look at the
+question of openness and I think the
+framework can be helpful in informing
+them what type of research is important
+and Urgent and I think the second area
+is to give policy makers who are um
+extremely convinced that we need to lock
+down these models a reason to think
+again uh because I think we really do
+see that there is very little marginal
+um evidence of marginal risk from open
+foundation models and once we sort of
+hone in on this question of marginal
+risk it becomes clear that at least for
+the time being um clamping down on model
+weight releases might not be the best
+intervention to be clear we do need
+interventions for biocurity um the
+executive office the executive order
+released last year had a provision for
+stricter screening of biocurity
+materials that I think is absolutely a
+step in the right direction similarly
+for cyber security we need resilience on
+the downstream surface for NCI we need
+these platforms to coordinate with each
+other so that they can take down NCI as
+soon as it's posted um so there is a lot
+of urgent action needed it's just not at
+the level of the AI model alone it's at
+the entire pipeline of how these risks
+materialize you were recently involved
+in an open letter that was published on
+uh related area can you talk a little
+bit about that absolutely so um this is
+somewhat related to our work on openness
+in the open letter we argue for a safe
+harbor for researchers who are
+investigating the risks of AI um so
+here's what I mean by a safe harbor a
+lot of the legal terms and conditions
+that are attached to closed Foundation
+models as well as open foundation models
+mandate that certain types of activity
+conducted using the model is prohibited
+so this might come from a place of
+caution open AI might not want cyber
+terrorists to use their models for
+creating malware similarly um it might
+not want people to create disinformation
+campaigns um it might not want all sorts
+of other materials to be generated and
+this is all fine and good but what these
+terms of conditions also mean or also
+lead to is that when researchers are
+investigating the risks of these modules
+perhaps by looking at things like
+jailbreaking or prompt engineering they
+might also run a foul of these terms and
+so in in imposing this one siiz fits-all
+terms of condition um there is very
+little room left for independent Safety
+Research and independent trustworthiness
+research um when it comes to a lot of
+these AI modules and our open letter
+calls for a legal Safe Harbor for AI
+research that um might violate the terms
+of condition but is still done in the
+spirit of um AI trustworthiness and
+safety and in fact there is a long
+history of protecting similar types of
+research um so in particular in the
+security Community there is this uh well
+established tradition of A Safe Harbor
+for security researchers who responsibly
+disclose these vulnerabilities to the
+companies in advance we argue for
+something very similar for AI safety and
+trustworth research um if researchers
+are responsibly disclosing these
+vulnerabilities doing good faith
+research um then they should be
+protected in terms of legal inem
+ification and also from their accounts
+being banned or removed
+completely in the case of the security
+example you mentioned tradition is it
+strictly tradition or is it legal
+precedence I was under the impression
+that it's not infrequent for a security
+researcher to get in trouble with for
+example the dcma uh um as part of their
+work yeah absolutely I mean I think it
+is very much more than just a tradition
+at this point so you're right that in
+the last few years security researchers
+have had troubles with uh technology
+companies they're investigating but very
+recently I think it was the Department
+of Justice that rolled out this notice
+saying that uh like security researchers
+doing good food security research are
+exempt from the provisions of the uh
+Digital Millennium Copyright Act and
+similarly I think U people have in other
+sort of security areas too fought for in
+one these safe harbors from company so I
+think we're very much relying on this
+long tradition of security researchers
+having done the work of coming up with
+what responsible disclos disclosure
+looks like and how we should go about um
+articula articulating it um I'd be
+remiss if I did not mention this other
+Safe Harbor that was proposed which is
+also very close to the one we propos
+which is for social media platforms so
+many researchers in the last few years
+have tried to um collect data from
+social media platforms let's say about
+the transparency or the transparency of
+how often users see certain types of
+posts and in a lot of cases social media
+platforms have gone after them um in
+response to such concerns I think the
+night First Amendment Institute um wrote
+a letter calling for a safe harbor for
+independent investigations of social
+media um which I think was very
+influential in informing our line of
+thinking here as well and in particular
+like it outlined this framework for how
+to think about safe harbers while the
+specifics um vary between these two
+efforts simply because the prior effort
+was aimed at social media and this one
+is aimed at AI I think the overall
+spirit is very much the same that we
+need researcher access and protections
+when people are doing research that can
+uh that is so societally Ben beneficient
+even if it is not useful to the
+companies or even if it might impose
+some liability on the companies well s
+thanks so much for joining us to share a
+bit about your work thank you so much
+for having me it was a pleasure

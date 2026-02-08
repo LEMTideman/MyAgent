@@ -1,0 +1,6643 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "YncdlUscUOo",
+  "video_title": "Knowledge Graphs and LLMs Across Academia and Industry - Anahita Pakiman",
+  "video_url": "https://www.youtube.com/watch?v=YncdlUscUOo",
+  "fetched_at": "2025-12-30T09:09:05.110728+00:00",
+  "transcript": [
+    {
+      "text": "everyone Welcome to our event this event",
+      "start": 0.16,
+      "duration": 4.8
+    },
+    {
+      "text": "is brought to you by dat do club which",
+      "start": 3.08,
+      "duration": 4.56
+    },
+    {
+      "text": "is a community of people who love data",
+      "start": 4.96,
+      "duration": 4.92
+    },
+    {
+      "text": "we have weekly events and today is one",
+      "start": 7.64,
+      "duration": 4.48
+    },
+    {
+      "text": "of such events if you want to find out",
+      "start": 9.88,
+      "duration": 4.52
+    },
+    {
+      "text": "more about the events we have there is a",
+      "start": 12.12,
+      "duration": 4.2
+    },
+    {
+      "text": "link in the description click on that",
+      "start": 14.4,
+      "duration": 5.32
+    },
+    {
+      "text": "link and you'll see what we have in our",
+      "start": 16.32,
+      "duration": 7.16
+    },
+    {
+      "text": "pipeline which I don't think is a lot",
+      "start": 19.72,
+      "duration": 5.84
+    },
+    {
+      "text": "right now but we will be adding more",
+      "start": 23.48,
+      "duration": 5.48
+    },
+    {
+      "text": "events in future so keep an eye on that",
+      "start": 25.56,
+      "duration": 6.08
+    },
+    {
+      "text": "link do not forget to subscribe to our",
+      "start": 28.96,
+      "duration": 5.16
+    },
+    {
+      "text": "YouTube channel this way you will stay",
+      "start": 31.64,
+      "duration": 5.36
+    },
+    {
+      "text": "up toate you will get notified with all",
+      "start": 34.12,
+      "duration": 6.4
+    },
+    {
+      "text": "the future streams we have and do not",
+      "start": 37.0,
+      "duration": 6.559
+    },
+    {
+      "text": "forget to join our data community in",
+      "start": 40.52,
+      "duration": 4.76
+    },
+    {
+      "text": "slack where you can hang out with other",
+      "start": 43.559,
+      "duration": 4.921
+    },
+    {
+      "text": "data inas during today's interview you",
+      "start": 45.28,
+      "duration": 5.4
+    },
+    {
+      "text": "can ask any question you want there is a",
+      "start": 48.48,
+      "duration": 4.68
+    },
+    {
+      "text": "pinned Link in the live chat click on",
+      "start": 50.68,
+      "duration": 4.64
+    },
+    {
+      "text": "that link ask your questions and we will",
+      "start": 53.16,
+      "duration": 5.6
+    },
+    {
+      "text": "be covering these questions during the",
+      "start": 55.32,
+      "duration": 3.44
+    },
+    {
+      "text": "interview",
+      "start": 58.92,
+      "duration": 4.0
+    },
+    {
+      "text": "I will stop my screen",
+      "start": 60.64,
+      "duration": 7.32
+    },
+    {
+      "text": "now I will open the questions and I want",
+      "start": 62.92,
+      "duration": 6.48
+    },
+    {
+      "text": "to make sure I pronounce your name",
+      "start": 67.96,
+      "duration": 2.799
+    },
+    {
+      "text": "correctly is it",
+      "start": 69.4,
+      "duration": 3.16
+    },
+    {
+      "text": "anahita",
+      "start": 70.759,
+      "duration": 3.601
+    },
+    {
+      "text": "yes",
+      "start": 72.56,
+      "duration": 7.559
+    },
+    {
+      "text": "great so the emphasis is right yep also",
+      "start": 74.36,
+      "duration": 7.52
+    },
+    {
+      "text": "make it shorter if it's hard but yeah",
+      "start": 80.119,
+      "duration": 2.761
+    },
+    {
+      "text": "it's",
+      "start": 81.88,
+      "duration": 3.12
+    },
+    {
+      "text": "Anita",
+      "start": 82.88,
+      "duration": 7.72
+    },
+    {
+      "text": "okay so then um okay let me",
+      "start": 85.0,
+      "duration": 8.56
+    },
+    {
+      "text": "open the document okay I have the",
+      "start": 90.6,
+      "duration": 6.64
+    },
+    {
+      "text": "document and if you are ready we can",
+      "start": 93.56,
+      "duration": 8.48
+    },
+    {
+      "text": "start yeah let's go shoot yeah let's go",
+      "start": 97.24,
+      "duration": 6.4
+    },
+    {
+      "text": "so this week we will talk about",
+      "start": 102.04,
+      "duration": 4.8
+    },
+    {
+      "text": "knowledge graphs and TMS and how they",
+      "start": 103.64,
+      "duration": 6.2
+    },
+    {
+      "text": "are used and research in Academia and",
+      "start": 106.84,
+      "duration": 5.08
+    },
+    {
+      "text": "Industry and we have a very special",
+      "start": 109.84,
+      "duration": 3.8
+    },
+    {
+      "text": "guest today anahita anahita is",
+      "start": 111.92,
+      "duration": 3.839
+    },
+    {
+      "text": "originally from Iran she transitioned",
+      "start": 113.64,
+      "duration": 4.439
+    },
+    {
+      "text": "from mechanical engineering and",
+      "start": 115.759,
+      "duration": 4.841
+    },
+    {
+      "text": "specialized in applied mechanic in",
+      "start": 118.079,
+      "duration": 5.241
+    },
+    {
+      "text": "Sweden then worked in automotive",
+      "start": 120.6,
+      "duration": 5.439
+    },
+    {
+      "text": "industry for 5 years then she shifted",
+      "start": 123.32,
+      "duration": 5.999
+    },
+    {
+      "text": "Focus to pursuing a PhD in applied AI in",
+      "start": 126.039,
+      "duration": 7.121
+    },
+    {
+      "text": "Germany and yeah she combined her love",
+      "start": 129.319,
+      "duration": 5.761
+    },
+    {
+      "text": "for life and learning with a passion for",
+      "start": 133.16,
+      "duration": 3.079
+    },
+    {
+      "text": "cognitive",
+      "start": 135.08,
+      "duration": 5.85
+    },
+    {
+      "text": "sciences and she likes dancing painting",
+      "start": 136.239,
+      "duration": 5.921
+    },
+    {
+      "text": "[Music]",
+      "start": 140.93,
+      "duration": 4.23
+    },
+    {
+      "text": "running",
+      "start": 142.16,
+      "duration": 3.0
+    },
+    {
+      "text": "yeah that is a summary of CH so yeah um",
+      "start": 145.56,
+      "duration": 7.92
+    },
+    {
+      "text": "I think it's doing a relatively good job",
+      "start": 150.28,
+      "duration": 6.64
+    },
+    {
+      "text": "in summarizing and yeah as always the",
+      "start": 153.48,
+      "duration": 5.52
+    },
+    {
+      "text": "questions for today's interview are",
+      "start": 156.92,
+      "duration": 4.679
+    },
+    {
+      "text": "prepared by Johanna berer thanks Johanna",
+      "start": 159.0,
+      "duration": 7.48
+    },
+    {
+      "text": "for your help and Welcome anahita to our",
+      "start": 161.599,
+      "duration": 4.881
+    },
+    {
+      "text": "interview",
+      "start": 167.36,
+      "duration": 5.76
+    },
+    {
+      "text": "hello thanks for the invite and hope and",
+      "start": 169.68,
+      "duration": 7.279
+    },
+    {
+      "text": "also thanks for the intro was covering",
+      "start": 173.12,
+      "duration": 7.08
+    },
+    {
+      "text": "great yeah and before we go into to our",
+      "start": 176.959,
+      "duration": 7.081
+    },
+    {
+      "text": "main topic of knowledge graphs LS and",
+      "start": 180.2,
+      "duration": 6.92
+    },
+    {
+      "text": "all that um let's start with yourr I",
+      "start": 184.04,
+      "duration": 4.6
+    },
+    {
+      "text": "briefly mentioned your background but",
+      "start": 187.12,
+      "duration": 4.199
+    },
+    {
+      "text": "probably you can go a little bit more",
+      "start": 188.64,
+      "duration": 5.04
+    },
+    {
+      "text": "details so can you tell us about your",
+      "start": 191.319,
+      "duration": 4.161
+    },
+    {
+      "text": "career Journey so",
+      "start": 193.68,
+      "duration": 5.4
+    },
+    {
+      "text": "far yeah it was always a bit tricky to",
+      "start": 195.48,
+      "duration": 6.28
+    },
+    {
+      "text": "know what is the next step but I could",
+      "start": 199.08,
+      "duration": 5.6
+    },
+    {
+      "text": "as a summary you said it perfect as um",
+      "start": 201.76,
+      "duration": 5.88
+    },
+    {
+      "text": "studying mechanical engineering it was I",
+      "start": 204.68,
+      "duration": 5.559
+    },
+    {
+      "text": "think I really loved math but I wanted",
+      "start": 207.64,
+      "duration": 4.72
+    },
+    {
+      "text": "to be a practical so that's like how you",
+      "start": 210.239,
+      "duration": 5.0
+    },
+    {
+      "text": "end up to being engineer I would say",
+      "start": 212.36,
+      "duration": 6.32
+    },
+    {
+      "text": "basically and then I moved to Sweden",
+      "start": 215.239,
+      "duration": 5.841
+    },
+    {
+      "text": "because I was really curious to to study",
+      "start": 218.68,
+      "duration": 5.04
+    },
+    {
+      "text": "a bit more and be a because in The",
+      "start": 221.08,
+      "duration": 4.879
+    },
+    {
+      "text": "Bachelor I really felt I didn't learn",
+      "start": 223.72,
+      "duration": 4.32
+    },
+    {
+      "text": "much I didn't really feel to be an",
+      "start": 225.959,
+      "duration": 4.721
+    },
+    {
+      "text": "engineer and that's like why I went into",
+      "start": 228.04,
+      "duration": 5.88
+    },
+    {
+      "text": "the applied uh mechanics to really",
+      "start": 230.68,
+      "duration": 7.08
+    },
+    {
+      "text": "feeling it that it's you can use it in",
+      "start": 233.92,
+      "duration": 7.08
+    },
+    {
+      "text": "the in the different analysis and then",
+      "start": 237.76,
+      "duration": 5.08
+    },
+    {
+      "text": "started working and being living in",
+      "start": 241.0,
+      "duration": 4.2
+    },
+    {
+      "text": "Guttenberg is a bit hard to be out of",
+      "start": 242.84,
+      "duration": 4.28
+    },
+    {
+      "text": "automotive industry so he started",
+      "start": 245.2,
+      "duration": 4.119
+    },
+    {
+      "text": "everything was quite random I would say",
+      "start": 247.12,
+      "duration": 6.08
+    },
+    {
+      "text": "with a bit of higher probability and um",
+      "start": 249.319,
+      "duration": 7.561
+    },
+    {
+      "text": "and then uh starting at the automotive",
+      "start": 253.2,
+      "duration": 5.879
+    },
+    {
+      "text": "industry it's a lot of Demand on",
+      "start": 256.88,
+      "duration": 4.8
+    },
+    {
+      "text": "Automation and I was really lucky to be",
+      "start": 259.079,
+      "duration": 6.12
+    },
+    {
+      "text": "in this um company because it was a lot",
+      "start": 261.68,
+      "duration": 4.36
+    },
+    {
+      "text": "of",
+      "start": 265.199,
+      "duration": 4.081
+    },
+    {
+      "text": "unestablished uh uh coding and",
+      "start": 266.04,
+      "duration": 4.32
+    },
+    {
+      "text": "automation",
+      "start": 269.28,
+      "duration": 3.84
+    },
+    {
+      "text": "so usually you don't get this chance of",
+      "start": 270.36,
+      "duration": 5.72
+    },
+    {
+      "text": "doing a lot of coding in companies as a",
+      "start": 273.12,
+      "duration": 7.68
+    },
+    {
+      "text": "start graduate a fresh graduate and then",
+      "start": 276.08,
+      "duration": 6.839
+    },
+    {
+      "text": "a lot of cod and also the plan was that",
+      "start": 280.8,
+      "duration": 4.399
+    },
+    {
+      "text": "after a couple of years I would pick the",
+      "start": 282.919,
+      "duration": 5.641
+    },
+    {
+      "text": "topic that is interesting for my PhD but",
+      "start": 285.199,
+      "duration": 4.881
+    },
+    {
+      "text": "I thought it would be two years but",
+      "start": 288.56,
+      "duration": 4.079
+    },
+    {
+      "text": "after two years I had no clue what PhD I",
+      "start": 290.08,
+      "duration": 4.76
+    },
+    {
+      "text": "want to do it and then after four years",
+      "start": 292.639,
+      "duration": 4.521
+    },
+    {
+      "text": "I figure okay maybe I'm looking in the",
+      "start": 294.84,
+      "duration": 4.44
+    },
+    {
+      "text": "wrong domain because I spend most of my",
+      "start": 297.16,
+      "duration": 6.879
+    },
+    {
+      "text": "time optimization in uh Automation and a",
+      "start": 299.28,
+      "duration": 6.479
+    },
+    {
+      "text": "lot of semantic reporting for the",
+      "start": 304.039,
+      "duration": 4.16
+    },
+    {
+      "text": "company then I dare to feel that okay",
+      "start": 305.759,
+      "duration": 4.201
+    },
+    {
+      "text": "maybe I should move toward computer",
+      "start": 308.199,
+      "duration": 4.84
+    },
+    {
+      "text": "science and data science and that's when",
+      "start": 309.96,
+      "duration": 7.239
+    },
+    {
+      "text": "I started to shape my PhD proposal and I",
+      "start": 313.039,
+      "duration": 5.921
+    },
+    {
+      "text": "had a tough time to get funding in",
+      "start": 317.199,
+      "duration": 4.401
+    },
+    {
+      "text": "Sweden and that's why it took me to",
+      "start": 318.96,
+      "duration": 5.64
+    },
+    {
+      "text": "Germany to work in frontop sky in the",
+      "start": 321.6,
+      "duration": 5.039
+    },
+    {
+      "text": "topic I like to do my",
+      "start": 324.6,
+      "duration": 5.4
+    },
+    {
+      "text": "PhD and of course semantic reporting The",
+      "start": 326.639,
+      "duration": 6.641
+    },
+    {
+      "text": "Next Step was it for that to have a",
+      "start": 330.0,
+      "duration": 6.4
+    },
+    {
+      "text": "knowledge graph for CR",
+      "start": 333.28,
+      "duration": 6.16
+    },
+    {
+      "text": "simulations what do actually mechanical",
+      "start": 336.4,
+      "duration": 4.359
+    },
+    {
+      "text": "engineers",
+      "start": 339.44,
+      "duration": 3.68
+    },
+    {
+      "text": "do in applied",
+      "start": 340.759,
+      "duration": 5.481
+    },
+    {
+      "text": "mechanics the program is so focused on",
+      "start": 343.12,
+      "duration": 7.44
+    },
+    {
+      "text": "finite element analysis and com and cfd",
+      "start": 346.24,
+      "duration": 9.239
+    },
+    {
+      "text": "and so it's like you uh small um break",
+      "start": 350.56,
+      "duration": 6.8
+    },
+    {
+      "text": "break down the physics into small",
+      "start": 355.479,
+      "duration": 4.241
+    },
+    {
+      "text": "elements and then try to find the",
+      "start": 357.36,
+      "duration": 4.44
+    },
+    {
+      "text": "behavior of them I mean in a really",
+      "start": 359.72,
+      "duration": 5.28
+    },
+    {
+      "text": "basic explanation so you have a lot of",
+      "start": 361.8,
+      "duration": 5.119
+    },
+    {
+      "text": "different physics that you want to",
+      "start": 365.0,
+      "duration": 6.639
+    },
+    {
+      "text": "predict the behavior and then um you try",
+      "start": 366.919,
+      "duration": 9.241
+    },
+    {
+      "text": "to use different um um equations to find",
+      "start": 371.639,
+      "duration": 6.601
+    },
+    {
+      "text": "what is the response to that change to a",
+      "start": 376.16,
+      "duration": 7.0
+    },
+    {
+      "text": "force to a um vibration to a flow of",
+      "start": 378.24,
+      "duration": 8.6
+    },
+    {
+      "text": "fluids or uh to De formation of a crash",
+      "start": 383.16,
+      "duration": 4.8
+    },
+    {
+      "text": "as",
+      "start": 386.84,
+      "duration": 4.96
+    },
+    {
+      "text": "well I guess the um application of",
+      "start": 387.96,
+      "duration": 7.84
+    },
+    {
+      "text": "this uh would be in automotive industry",
+      "start": 391.8,
+      "duration": 7.16
+    },
+    {
+      "text": "like the designing of a car right yeah",
+      "start": 395.8,
+      "duration": 5.44
+    },
+    {
+      "text": "for sure so like before in the past it",
+      "start": 398.96,
+      "duration": 4.639
+    },
+    {
+      "text": "was making a lot of prototypes physical",
+      "start": 401.24,
+      "duration": 4.88
+    },
+    {
+      "text": "prototypes and doing the test and since",
+      "start": 403.599,
+      "duration": 4.44
+    },
+    {
+      "text": "they were really wanted to shorten the",
+      "start": 406.12,
+      "duration": 4.56
+    },
+    {
+      "text": "development and also save a lot of money",
+      "start": 408.039,
+      "duration": 4.961
+    },
+    {
+      "text": "because making prototype is a lot more",
+      "start": 410.68,
+      "duration": 4.32
+    },
+    {
+      "text": "expensive than build building in real",
+      "start": 413.0,
+      "duration": 6.24
+    },
+    {
+      "text": "car and then they really they are one of",
+      "start": 415.0,
+      "duration": 7.039
+    },
+    {
+      "text": "the leading industry in using fet",
+      "start": 419.24,
+      "duration": 5.92
+    },
+    {
+      "text": "element analysis so like for example",
+      "start": 422.039,
+      "duration": 6.6
+    },
+    {
+      "text": "truck uh development or any other",
+      "start": 425.16,
+      "duration": 5.599
+    },
+    {
+      "text": "developments they are far far behind",
+      "start": 428.639,
+      "duration": 4.601
+    },
+    {
+      "text": "compared to Automotive because of the",
+      "start": 430.759,
+      "duration": 5.16
+    },
+    {
+      "text": "high demand of these kind of",
+      "start": 433.24,
+      "duration": 5.799
+    },
+    {
+      "text": "analysis there's a system with I don't",
+      "start": 435.919,
+      "duration": 5.56
+    },
+    {
+      "text": "know different moving parts and then you",
+      "start": 439.039,
+      "duration": 5.56
+    },
+    {
+      "text": "want to change one of the parts of the",
+      "start": 441.479,
+      "duration": 5.84
+    },
+    {
+      "text": "system and you would you want to predict",
+      "start": 444.599,
+      "duration": 5.44
+    },
+    {
+      "text": "the behavior after this change right",
+      "start": 447.319,
+      "duration": 5.521
+    },
+    {
+      "text": "and this is what you it's usually not",
+      "start": 450.039,
+      "duration": 4.88
+    },
+    {
+      "text": "like that so you come with a design so",
+      "start": 452.84,
+      "duration": 3.68
+    },
+    {
+      "text": "you say Okay I want to have a car",
+      "start": 454.919,
+      "duration": 3.84
+    },
+    {
+      "text": "looking like this and then you say that",
+      "start": 456.52,
+      "duration": 4.6
+    },
+    {
+      "text": "I want to have these performances and",
+      "start": 458.759,
+      "duration": 4.84
+    },
+    {
+      "text": "then you try to for for example ourself",
+      "start": 461.12,
+      "duration": 4.6
+    },
+    {
+      "text": "to see how we could fulfill all the",
+      "start": 463.599,
+      "duration": 5.641
+    },
+    {
+      "text": "requirements so the usually the the the",
+      "start": 465.72,
+      "duration": 6.4
+    },
+    {
+      "text": "surface or the target of the market",
+      "start": 469.24,
+      "duration": 8.079
+    },
+    {
+      "text": "really defining uh how we should do the",
+      "start": 472.12,
+      "duration": 8.479
+    },
+    {
+      "text": "improvements and so usually comes with a",
+      "start": 477.319,
+      "duration": 7.28
+    },
+    {
+      "text": "targeted Direction uh of the",
+      "start": 480.599,
+      "duration": 6.6
+    },
+    {
+      "text": "performance so this finite element",
+      "start": 484.599,
+      "duration": 6.761
+    },
+    {
+      "text": "analysis is it in any way related to",
+      "start": 487.199,
+      "duration": 7.241
+    },
+    {
+      "text": "machine learning or it's a totally",
+      "start": 491.36,
+      "duration": 6.44
+    },
+    {
+      "text": "different thing we could say it's not",
+      "start": 494.44,
+      "duration": 6.56
+    },
+    {
+      "text": "that you H you could say it's there",
+      "start": 497.8,
+      "duration": 6.32
+    },
+    {
+      "text": "still numerical analysis so it's not",
+      "start": 501.0,
+      "duration": 6.84
+    },
+    {
+      "text": "unrelated to uh differential equations",
+      "start": 504.12,
+      "duration": 8.799
+    },
+    {
+      "text": "but you are not solving based on uh uh",
+      "start": 507.84,
+      "duration": 7.439
+    },
+    {
+      "text": "cost functions and data so that's the",
+      "start": 512.919,
+      "duration": 4.441
+    },
+    {
+      "text": "different thing so you try to model the",
+      "start": 515.279,
+      "duration": 5.64
+    },
+    {
+      "text": "behavior and predict it uh so you really",
+      "start": 517.36,
+      "duration": 7.56
+    },
+    {
+      "text": "a lot of um investment a lot of focus is",
+      "start": 520.919,
+      "duration": 6.761
+    },
+    {
+      "text": "on developing good material model to do",
+      "start": 524.92,
+      "duration": 4.599
+    },
+    {
+      "text": "the",
+      "start": 527.68,
+      "duration": 4.279
+    },
+    {
+      "text": "prediction so this is what you studied",
+      "start": 529.519,
+      "duration": 5.481
+    },
+    {
+      "text": "and then you you said there was no way",
+      "start": 531.959,
+      "duration": 5.761
+    },
+    {
+      "text": "for you to avoid the automotive industry",
+      "start": 535.0,
+      "duration": 4.959
+    },
+    {
+      "text": "and you were doing optimization",
+      "start": 537.72,
+      "duration": 4.28
+    },
+    {
+      "text": "and semantic",
+      "start": 539.959,
+      "duration": 4.041
+    },
+    {
+      "text": "reporting what are these things like",
+      "start": 542.0,
+      "duration": 3.959
+    },
+    {
+      "text": "what kind of optimization you were doing",
+      "start": 544.0,
+      "duration": 4.2
+    },
+    {
+      "text": "what kind of what is semantic",
+      "start": 545.959,
+      "duration": 5.961
+    },
+    {
+      "text": "reporting so so in which one could I",
+      "start": 548.2,
+      "duration": 5.52
+    },
+    {
+      "text": "start for with the semantic reporting",
+      "start": 551.92,
+      "duration": 3.72
+    },
+    {
+      "text": "what I'm referring to is that like they",
+      "start": 553.72,
+      "duration": 4.64
+    },
+    {
+      "text": "are it's it's an interesting topic to",
+      "start": 555.64,
+      "duration": 5.759
+    },
+    {
+      "text": "have like Fair data I mean to to have to",
+      "start": 558.36,
+      "duration": 6.96
+    },
+    {
+      "text": "be able to uh regenerate the analysis",
+      "start": 561.399,
+      "duration": 7.481
+    },
+    {
+      "text": "because what is seen in ahead of these",
+      "start": 565.32,
+      "duration": 6.4
+    },
+    {
+      "text": "all of test and crash test is that you",
+      "start": 568.88,
+      "duration": 5.0
+    },
+    {
+      "text": "don't need to do any physical test",
+      "start": 571.72,
+      "duration": 6.0
+    },
+    {
+      "text": "anymore so it's kind of that on on a",
+      "start": 573.88,
+      "duration": 5.72
+    },
+    {
+      "text": "release of vehicle maybe you release a",
+      "start": 577.72,
+      "duration": 4.6
+    },
+    {
+      "text": "model of finite elements and then all",
+      "start": 579.6,
+      "duration": 4.64
+    },
+    {
+      "text": "the tests will be done and I don't know",
+      "start": 582.32,
+      "duration": 3.88
+    },
+    {
+      "text": "if you know for example of these test",
+      "start": 584.24,
+      "duration": 3.88
+    },
+    {
+      "text": "are you rank cap so when a vehicle comes",
+      "start": 586.2,
+      "duration": 4.4
+    },
+    {
+      "text": "to the market you really need to rate",
+      "start": 588.12,
+      "duration": 4.279
+    },
+    {
+      "text": "the vehicle or you need to pass some",
+      "start": 590.6,
+      "duration": 4.28
+    },
+    {
+      "text": "legal requirements to have it sellable",
+      "start": 592.399,
+      "duration": 5.081
+    },
+    {
+      "text": "on the market so videos where they put",
+      "start": 594.88,
+      "duration": 6.24
+    },
+    {
+      "text": "manans inside a car and then the car",
+      "start": 597.48,
+      "duration": 7.799
+    },
+    {
+      "text": "drives to wall to the wall yeah a lot of",
+      "start": 601.12,
+      "duration": 6.88
+    },
+    {
+      "text": "different yeah exactly so like a lot of",
+      "start": 605.279,
+      "duration": 4.521
+    },
+    {
+      "text": "sensor measurements looking at the",
+      "start": 608.0,
+      "duration": 4.279
+    },
+    {
+      "text": "injuries on the occupant on the driver",
+      "start": 609.8,
+      "duration": 4.039
+    },
+    {
+      "text": "and so on so the main measure is",
+      "start": 612.279,
+      "duration": 3.68
+    },
+    {
+      "text": "actually the injuries",
+      "start": 613.839,
+      "duration": 6.641
+    },
+    {
+      "text": "exactly and um I forgot the question",
+      "start": 615.959,
+      "duration": 6.481
+    },
+    {
+      "text": "what was it that I end up here I was",
+      "start": 620.48,
+      "duration": 3.68
+    },
+    {
+      "text": "asking about optimization and semantic",
+      "start": 622.44,
+      "duration": 4.6
+    },
+    {
+      "text": "reporting yeah",
+      "start": 624.16,
+      "duration": 5.919
+    },
+    {
+      "text": "and so from the reporting so was in this",
+      "start": 627.04,
+      "duration": 5.12
+    },
+    {
+      "text": "point that we need to re be able to",
+      "start": 630.079,
+      "duration": 4.561
+    },
+    {
+      "text": "reevaluate or regenerate the results",
+      "start": 632.16,
+      "duration": 5.6
+    },
+    {
+      "text": "that we are reporting and uh for that",
+      "start": 634.64,
+      "duration": 5.759
+    },
+    {
+      "text": "aspect it was like also within analysis",
+      "start": 637.76,
+      "duration": 4.68
+    },
+    {
+      "text": "we generate a lot of simulations like",
+      "start": 640.399,
+      "duration": 3.801
+    },
+    {
+      "text": "for example for one vehicle it could be",
+      "start": 642.44,
+      "duration": 4.48
+    },
+    {
+      "text": "more than 500 simulations and with this",
+      "start": 644.2,
+      "duration": 4.92
+    },
+    {
+      "text": "semantic reporting was main focus on",
+      "start": 646.92,
+      "duration": 4.76
+    },
+    {
+      "text": "reusing the data and the long run to be",
+      "start": 649.12,
+      "duration": 6.12
+    },
+    {
+      "text": "able to regenerate the results because",
+      "start": 651.68,
+      "duration": 6.08
+    },
+    {
+      "text": "like one CR simulation could have like",
+      "start": 655.24,
+      "duration": 5.0
+    },
+    {
+      "text": "12 million elements and then it could",
+      "start": 657.76,
+      "duration": 7.12
+    },
+    {
+      "text": "take around uh overnight andal like 17",
+      "start": 660.24,
+      "duration": 6.52
+    },
+    {
+      "text": "hours on like",
+      "start": 664.88,
+      "duration": 5.399
+    },
+    {
+      "text": "1992 CPU so it's really costly analysis",
+      "start": 666.76,
+      "duration": 5.639
+    },
+    {
+      "text": "and with that with these semantics was",
+      "start": 670.279,
+      "duration": 5.201
+    },
+    {
+      "text": "like really classifying all the measures",
+      "start": 672.399,
+      "duration": 5.56
+    },
+    {
+      "text": "we have like the sensor data and",
+      "start": 675.48,
+      "duration": 5.84
+    },
+    {
+      "text": "barriers and so on to be able to compare",
+      "start": 677.959,
+      "duration": 5.841
+    },
+    {
+      "text": "the results so like to instead of and in",
+      "start": 681.32,
+      "duration": 4.56
+    },
+    {
+      "text": "the past it was like generating",
+      "start": 683.8,
+      "duration": 3.8
+    },
+    {
+      "text": "PowerPoint and Excel sheet so it was a",
+      "start": 685.88,
+      "duration": 4.04
+    },
+    {
+      "text": "lot of scripts that were Auto generating",
+      "start": 687.6,
+      "duration": 4.96
+    },
+    {
+      "text": "the Powerpoints but still you really",
+      "start": 689.92,
+      "duration": 4.719
+    },
+    {
+      "text": "couldn't compare and with the comparison",
+      "start": 692.56,
+      "duration": 4.399
+    },
+    {
+      "text": "I have seen say Engineers putting two",
+      "start": 694.639,
+      "duration": 4.0
+    },
+    {
+      "text": "PowerPoint that are generated with",
+      "start": 696.959,
+      "duration": 4.12
+    },
+    {
+      "text": "scripts and try to compare curves so",
+      "start": 698.639,
+      "duration": 4.801
+    },
+    {
+      "text": "that's a like one of the real change was",
+      "start": 701.079,
+      "duration": 4.681
+    },
+    {
+      "text": "that you you can click analysis and you",
+      "start": 703.44,
+      "duration": 5.28
+    },
+    {
+      "text": "can overlay all the sensor datas and",
+      "start": 705.76,
+      "duration": 5.319
+    },
+    {
+      "text": "after that within Knowledge Graph coming",
+      "start": 708.72,
+      "duration": 4.799
+    },
+    {
+      "text": "from the semantic reporting is to find",
+      "start": 711.079,
+      "duration": 4.841
+    },
+    {
+      "text": "the patterns in those and within",
+      "start": 713.519,
+      "duration": 4.921
+    },
+    {
+      "text": "optimization is like a lot of time",
+      "start": 715.92,
+      "duration": 5.2
+    },
+    {
+      "text": "within engineer you Tred to change",
+      "start": 718.44,
+      "duration": 5.0
+    },
+    {
+      "text": "thicknesses or adding holes and so on so",
+      "start": 721.12,
+      "duration": 5.399
+    },
+    {
+      "text": "it was like trying to use these",
+      "start": 723.44,
+      "duration": 5.56
+    },
+    {
+      "text": "geometrical changes to be optimize the",
+      "start": 726.519,
+      "duration": 5.161
+    },
+    {
+      "text": "behavior we required what will be so",
+      "start": 729.0,
+      "duration": 5.24
+    },
+    {
+      "text": "it's like a lot of topology optimization",
+      "start": 731.68,
+      "duration": 4.0
+    },
+    {
+      "text": "and the",
+      "start": 734.24,
+      "duration": 3.44
+    },
+    {
+      "text": "designs so for",
+      "start": 735.68,
+      "duration": 4.959
+    },
+    {
+      "text": "example uh for pedestrian analysis one",
+      "start": 737.68,
+      "duration": 5.36
+    },
+    {
+      "text": "of the main uh components that is really",
+      "start": 740.639,
+      "duration": 4.521
+    },
+    {
+      "text": "important is the inner hood that because",
+      "start": 743.04,
+      "duration": 4.039
+    },
+    {
+      "text": "you hit the head there and then it's",
+      "start": 745.16,
+      "duration": 4.28
+    },
+    {
+      "text": "like how to cut the mass and have still",
+      "start": 747.079,
+      "duration": 6.361
+    },
+    {
+      "text": "a good stiffness uh but not so hard for",
+      "start": 749.44,
+      "duration": 5.759
+    },
+    {
+      "text": "if you crash to a",
+      "start": 753.44,
+      "duration": 5.16
+    },
+    {
+      "text": "pedestrian and um that's the target of",
+      "start": 755.199,
+      "duration": 4.721
+    },
+    {
+      "text": "the",
+      "start": 758.6,
+      "duration": 3.84
+    },
+    {
+      "text": "optimization and all of that happens on",
+      "start": 759.92,
+      "duration": 5.84
+    },
+    {
+      "text": "a computer right yes so you don't do",
+      "start": 762.44,
+      "duration": 5.639
+    },
+    {
+      "text": "like I assume you don't actually crash",
+      "start": 765.76,
+      "duration": 4.199
+    },
+    {
+      "text": "into pedestrians to to",
+      "start": 768.079,
+      "duration": 5.801
+    },
+    {
+      "text": "see no luckily not but but it's all of",
+      "start": 769.959,
+      "duration": 7.201
+    },
+    {
+      "text": "these are also a bit of try to model it",
+      "start": 773.88,
+      "duration": 6.319
+    },
+    {
+      "text": "so also in a computer we don't really",
+      "start": 777.16,
+      "duration": 5.08
+    },
+    {
+      "text": "hit on a pedestrian so we have a head or",
+      "start": 780.199,
+      "duration": 4.64
+    },
+    {
+      "text": "we have a leg impact and then there are",
+      "start": 782.24,
+      "duration": 4.36
+    },
+    {
+      "text": "there are sensors in them to measures",
+      "start": 784.839,
+      "duration": 4.12
+    },
+    {
+      "text": "the accelerations to see if this is okay",
+      "start": 786.6,
+      "duration": 5.16
+    },
+    {
+      "text": "or not and then after a while we still",
+      "start": 788.959,
+      "duration": 4.68
+    },
+    {
+      "text": "do a really physical test but not on a",
+      "start": 791.76,
+      "duration": 4.079
+    },
+    {
+      "text": "real pedestrian so on this model of head",
+      "start": 793.639,
+      "duration": 5.32
+    },
+    {
+      "text": "or leg to to do to evaluate how good our",
+      "start": 795.839,
+      "duration": 4.761
+    },
+    {
+      "text": "modelings",
+      "start": 798.959,
+      "duration": 4.56
+    },
+    {
+      "text": "are oh white called I understand why",
+      "start": 800.6,
+      "duration": 4.44
+    },
+    {
+      "text": "it's called reporting but why it's",
+      "start": 803.519,
+      "duration": 5.12
+    },
+    {
+      "text": "semantic reporting because you define",
+      "start": 805.04,
+      "duration": 5.64
+    },
+    {
+      "text": "like with the is defining all these",
+      "start": 808.639,
+      "duration": 5.121
+    },
+    {
+      "text": "measures so it's kind of uh modeling of",
+      "start": 810.68,
+      "duration": 7.2
+    },
+    {
+      "text": "data uh behind it so like before that is",
+      "start": 813.76,
+      "duration": 6.28
+    },
+    {
+      "text": "just it's also a bit of semantics on",
+      "start": 817.88,
+      "duration": 4.639
+    },
+    {
+      "text": "those generating the Powerpoints but",
+      "start": 820.04,
+      "duration": 4.88
+    },
+    {
+      "text": "still to to be able to compare these",
+      "start": 822.519,
+      "duration": 4.521
+    },
+    {
+      "text": "simulations you need to have semantics",
+      "start": 824.92,
+      "duration": 5.719
+    },
+    {
+      "text": "to connect different analysis",
+      "start": 827.04,
+      "duration": 7.239
+    },
+    {
+      "text": "together okay yeah I think I more or",
+      "start": 830.639,
+      "duration": 6.521
+    },
+    {
+      "text": "less have a picture in mind so yeah",
+      "start": 834.279,
+      "duration": 5.56
+    },
+    {
+      "text": "there are different experiments",
+      "start": 837.16,
+      "duration": 5.4
+    },
+    {
+      "text": "and um yeah so these experiments could",
+      "start": 839.839,
+      "duration": 4.0
+    },
+    {
+      "text": "be",
+      "start": 842.56,
+      "duration": 3.8
+    },
+    {
+      "text": "related so for example there could be",
+      "start": 843.839,
+      "duration": 4.401
+    },
+    {
+      "text": "like I don't know maybe can you give an",
+      "start": 846.36,
+      "duration": 6.279
+    },
+    {
+      "text": "example of two experiments that are",
+      "start": 848.24,
+      "duration": 8.44
+    },
+    {
+      "text": "related could be like we are in a car",
+      "start": 852.639,
+      "duration": 7.081
+    },
+    {
+      "text": "and there is a we want to see like we",
+      "start": 856.68,
+      "duration": 5.04
+    },
+    {
+      "text": "want to hit the wall and see how much",
+      "start": 859.72,
+      "duration": 4.119
+    },
+    {
+      "text": "the driver is injured but another",
+      "start": 861.72,
+      "duration": 5.039
+    },
+    {
+      "text": "experiment is how much the uh the person",
+      "start": 863.839,
+      "duration": 6.36
+    },
+    {
+      "text": "who is sitting near by is injured right",
+      "start": 866.759,
+      "duration": 4.44
+    },
+    {
+      "text": "so this could be two different",
+      "start": 870.199,
+      "duration": 2.601
+    },
+    {
+      "text": "experiments that",
+      "start": 871.199,
+      "duration": 5.44
+    },
+    {
+      "text": "relas no I mean it's like it's really",
+      "start": 872.8,
+      "duration": 7.599
+    },
+    {
+      "text": "sensitive analysis I would say so we I",
+      "start": 876.639,
+      "duration": 6.521
+    },
+    {
+      "text": "with this relations with small staying",
+      "start": 880.399,
+      "duration": 5.44
+    },
+    {
+      "text": "really really much much smaller changes",
+      "start": 883.16,
+      "duration": 6.72
+    },
+    {
+      "text": "so it could be that for example when you",
+      "start": 885.839,
+      "duration": 6.081
+    },
+    {
+      "text": "for example we make a lot of impact",
+      "start": 889.88,
+      "duration": 6.36
+    },
+    {
+      "text": "points in the hoods and to see how uh uh",
+      "start": 891.92,
+      "duration": 5.839
+    },
+    {
+      "text": "good the performance of the whole",
+      "start": 896.24,
+      "duration": 3.039
+    },
+    {
+      "text": "vehicles and they are usually usually",
+      "start": 897.759,
+      "duration": 5.0
+    },
+    {
+      "text": "for example with distance of 100 mm so",
+      "start": 899.279,
+      "duration": 6.48
+    },
+    {
+      "text": "quite small still and then one of these",
+      "start": 902.759,
+      "duration": 7.121
+    },
+    {
+      "text": "relations could be that like uh how much",
+      "start": 905.759,
+      "duration": 6.08
+    },
+    {
+      "text": "the area around it like for example if",
+      "start": 909.88,
+      "duration": 4.759
+    },
+    {
+      "text": "it's small slide a bit on the impact how",
+      "start": 911.839,
+      "duration": 4.721
+    },
+    {
+      "text": "much robust is that and how much they",
+      "start": 914.639,
+      "duration": 4.801
+    },
+    {
+      "text": "are still staying with the same behavior",
+      "start": 916.56,
+      "duration": 4.839
+    },
+    {
+      "text": "of uh of the acceleration because",
+      "start": 919.44,
+      "duration": 3.319
+    },
+    {
+      "text": "acceleration curves they are really",
+      "start": 921.399,
+      "duration": 3.961
+    },
+    {
+      "text": "sensitive they could it's also hard hard",
+      "start": 922.759,
+      "duration": 4.801
+    },
+    {
+      "text": "to model them to get the correct",
+      "start": 925.36,
+      "duration": 6.2
+    },
+    {
+      "text": "acceleration curve and uh so I would say",
+      "start": 927.56,
+      "duration": 7.04
+    },
+    {
+      "text": "from driver to passenger it's a lot of",
+      "start": 931.56,
+      "duration": 5.68
+    },
+    {
+      "text": "change to to say how much they relay",
+      "start": 934.6,
+      "duration": 4.44
+    },
+    {
+      "text": "because most of vehicles are not really",
+      "start": 937.24,
+      "duration": 4.64
+    },
+    {
+      "text": "symmetric either like you have an engine",
+      "start": 939.04,
+      "duration": 4.88
+    },
+    {
+      "text": "there and you have like a cooler there",
+      "start": 941.88,
+      "duration": 4.879
+    },
+    {
+      "text": "so it's a lot of we try to have a",
+      "start": 943.92,
+      "duration": 5.479
+    },
+    {
+      "text": "symmetric impact I mean symmetric uh",
+      "start": 946.759,
+      "duration": 4.961
+    },
+    {
+      "text": "intrusion but it's really tricky still",
+      "start": 949.399,
+      "duration": 4.601
+    },
+    {
+      "text": "to have it and in a real life most of",
+      "start": 951.72,
+      "duration": 5.799
+    },
+    {
+      "text": "the impacts are not symmetric",
+      "start": 954.0,
+      "duration": 6.079
+    },
+    {
+      "text": "either so",
+      "start": 957.519,
+      "duration": 4.401
+    },
+    {
+      "text": "do I understand correctly that this is",
+      "start": 960.079,
+      "duration": 4.2
+    },
+    {
+      "text": "something you started doing while still",
+      "start": 961.92,
+      "duration": 5.279
+    },
+    {
+      "text": "working at uh the automotive industry",
+      "start": 964.279,
+      "duration": 6.081
+    },
+    {
+      "text": "and then this is what led you to do",
+      "start": 967.199,
+      "duration": 4.44
+    },
+    {
+      "text": "graphs",
+      "start": 970.36,
+      "duration": 4.919
+    },
+    {
+      "text": "now researchs because uh like you were",
+      "start": 971.639,
+      "duration": 5.841
+    },
+    {
+      "text": "talking that uh about these impact",
+      "start": 975.279,
+      "duration": 5.321
+    },
+    {
+      "text": "points that are close uh to each other",
+      "start": 977.48,
+      "duration": 5.64
+    },
+    {
+      "text": "right and this this means that you can",
+      "start": 980.6,
+      "duration": 6.32
+    },
+    {
+      "text": "build a graph of all these sensors right",
+      "start": 983.12,
+      "duration": 6.519
+    },
+    {
+      "text": "or impact points somehow yeah yeah and",
+      "start": 986.92,
+      "duration": 5.12
+    },
+    {
+      "text": "this is how you arrive at the graph yes",
+      "start": 989.639,
+      "duration": 5.12
+    },
+    {
+      "text": "exactly I mean this is also like when I",
+      "start": 992.04,
+      "duration": 4.88
+    },
+    {
+      "text": "was trying to develop this webbase",
+      "start": 994.759,
+      "duration": 3.961
+    },
+    {
+      "text": "reporting or semantic",
+      "start": 996.92,
+      "duration": 5.0
+    },
+    {
+      "text": "reporting uh since it was many analysis",
+      "start": 998.72,
+      "duration": 5.4
+    },
+    {
+      "text": "it was really oldfashioned old web",
+      "start": 1001.92,
+      "duration": 4.919
+    },
+    {
+      "text": "technology and then it was quite",
+      "start": 1004.12,
+      "duration": 4.6
+    },
+    {
+      "text": "necessary to have a backend and a",
+      "start": 1006.839,
+      "duration": 4.24
+    },
+    {
+      "text": "database to improve the performance and",
+      "start": 1008.72,
+      "duration": 4.919
+    },
+    {
+      "text": "also front end and at that time when we",
+      "start": 1011.079,
+      "duration": 5.44
+    },
+    {
+      "text": "started to decide what kind of database",
+      "start": 1013.639,
+      "duration": 7.2
+    },
+    {
+      "text": "we need to use and we decided to skip uh",
+      "start": 1016.519,
+      "duration": 7.041
+    },
+    {
+      "text": "relational databases and that's like I",
+      "start": 1020.839,
+      "duration": 4.801
+    },
+    {
+      "text": "would say when looking into graph",
+      "start": 1023.56,
+      "duration": 4.479
+    },
+    {
+      "text": "databases started because automotive",
+      "start": 1025.64,
+      "duration": 5.199
+    },
+    {
+      "text": "industry has so many changes that if you",
+      "start": 1028.039,
+      "duration": 5.4
+    },
+    {
+      "text": "want to have a relational database it's",
+      "start": 1030.839,
+      "duration": 5.24
+    },
+    {
+      "text": "really time consuming to maintain it",
+      "start": 1033.439,
+      "duration": 5.041
+    },
+    {
+      "text": "it's like when I started with my company",
+      "start": 1036.079,
+      "duration": 6.281
+    },
+    {
+      "text": "we were looking into implementing um",
+      "start": 1038.48,
+      "duration": 6.199
+    },
+    {
+      "text": "data management systems because this is",
+      "start": 1042.36,
+      "duration": 5.12
+    },
+    {
+      "text": "like an old topic with an automotive to",
+      "start": 1044.679,
+      "duration": 5.88
+    },
+    {
+      "text": "maintain the part because like one uh",
+      "start": 1047.48,
+      "duration": 4.88
+    },
+    {
+      "text": "vehicle has a lot of different parts a",
+      "start": 1050.559,
+      "duration": 3.561
+    },
+    {
+      "text": "lot of different models how to connect",
+      "start": 1052.36,
+      "duration": 4.4
+    },
+    {
+      "text": "these like the input data how to be",
+      "start": 1054.12,
+      "duration": 7.24
+    },
+    {
+      "text": "related and um and they are looking into",
+      "start": 1056.76,
+      "duration": 7.08
+    },
+    {
+      "text": "relational databases and like to really",
+      "start": 1061.36,
+      "duration": 5.28
+    },
+    {
+      "text": "establish it it's time consuming so",
+      "start": 1063.84,
+      "duration": 6.76
+    },
+    {
+      "text": "that's why uh my mentor advis to use",
+      "start": 1066.64,
+      "duration": 8.399
+    },
+    {
+      "text": "this um NE 4J or any other uh graph",
+      "start": 1070.6,
+      "duration": 7.52
+    },
+    {
+      "text": "databases and that is very started but",
+      "start": 1075.039,
+      "duration": 6.201
+    },
+    {
+      "text": "it's not also easy to just store crash",
+      "start": 1078.12,
+      "duration": 5.799
+    },
+    {
+      "text": "simulations or any Fe analysis in a",
+      "start": 1081.24,
+      "duration": 5.48
+    },
+    {
+      "text": "graph database because you can't store",
+      "start": 1083.919,
+      "duration": 6.161
+    },
+    {
+      "text": "all all of them all the",
+      "start": 1086.72,
+      "duration": 6.64
+    },
+    {
+      "text": "data I'm trying to visualize this",
+      "start": 1090.08,
+      "duration": 7.16
+    },
+    {
+      "text": "graph and yeah I don't think I can like",
+      "start": 1093.36,
+      "duration": 5.64
+    },
+    {
+      "text": "what could what are the notes what are",
+      "start": 1097.24,
+      "duration": 4.0
+    },
+    {
+      "text": "the ages in this graph what kind of",
+      "start": 1099.0,
+      "duration": 5.48
+    },
+    {
+      "text": "relationships do we can we model",
+      "start": 1101.24,
+      "duration": 5.4
+    },
+    {
+      "text": "there if we talk about semantic",
+      "start": 1104.48,
+      "duration": 5.48
+    },
+    {
+      "text": "reporting yeah so like one of Basics",
+      "start": 1106.64,
+      "duration": 7.279
+    },
+    {
+      "text": "start is like that you you we follow the",
+      "start": 1109.96,
+      "duration": 7.04
+    },
+    {
+      "text": "R&D development so like from a vehicle",
+      "start": 1113.919,
+      "duration": 4.921
+    },
+    {
+      "text": "that is supposed to be on the market and",
+      "start": 1117.0,
+      "duration": 3.679
+    },
+    {
+      "text": "if you stay with crash because it could",
+      "start": 1118.84,
+      "duration": 3.8
+    },
+    {
+      "text": "be any different analysis and",
+      "start": 1120.679,
+      "duration": 4.281
+    },
+    {
+      "text": "requirements like durability and so on",
+      "start": 1122.64,
+      "duration": 4.8
+    },
+    {
+      "text": "within the crash we know what is the",
+      "start": 1124.96,
+      "duration": 5.599
+    },
+    {
+      "text": "year of the release of the vehicle and",
+      "start": 1127.44,
+      "duration": 5.08
+    },
+    {
+      "text": "then what are the required performance",
+      "start": 1130.559,
+      "duration": 3.961
+    },
+    {
+      "text": "so this is like some kind of kind of",
+      "start": 1132.52,
+      "duration": 5.399
+    },
+    {
+      "text": "semantics to connect the current vehicle",
+      "start": 1134.52,
+      "duration": 6.84
+    },
+    {
+      "text": "to the V on the markets and be able to",
+      "start": 1137.919,
+      "duration": 8.481
+    },
+    {
+      "text": "aim to compare the performance of the uh",
+      "start": 1141.36,
+      "duration": 8.08
+    },
+    {
+      "text": "this um so kind of benchmarking to see",
+      "start": 1146.4,
+      "duration": 5.48
+    },
+    {
+      "text": "how we could perform so like from the",
+      "start": 1149.44,
+      "duration": 4.239
+    },
+    {
+      "text": "weight of the vehicle size of the",
+      "start": 1151.88,
+      "duration": 4.6
+    },
+    {
+      "text": "vehicle and so on and then coming from",
+      "start": 1153.679,
+      "duration": 5.201
+    },
+    {
+      "text": "Vehicles then one vehicle that has it",
+      "start": 1156.48,
+      "duration": 3.52
+    },
+    {
+      "text": "has like a",
+      "start": 1158.88,
+      "duration": 6.08
+    },
+    {
+      "text": "platform and uh and also um upper body",
+      "start": 1160.0,
+      "duration": 7.159
+    },
+    {
+      "text": "of like how the vehicle looks like and",
+      "start": 1164.96,
+      "duration": 3.839
+    },
+    {
+      "text": "then in this so it's like really",
+      "start": 1167.159,
+      "duration": 4.041
+    },
+    {
+      "text": "capturing the the structure of the",
+      "start": 1168.799,
+      "duration": 4.441
+    },
+    {
+      "text": "company how they are developing because",
+      "start": 1171.2,
+      "duration": 6.24
+    },
+    {
+      "text": "these relations also help to relay the",
+      "start": 1173.24,
+      "duration": 7.16
+    },
+    {
+      "text": "the analysis and the behaviors so what",
+      "start": 1177.44,
+      "duration": 5.479
+    },
+    {
+      "text": "why for example this platform an upper",
+      "start": 1180.4,
+      "duration": 4.84
+    },
+    {
+      "text": "upper body is important is because you",
+      "start": 1182.919,
+      "duration": 4.441
+    },
+    {
+      "text": "could compare the siblings vehicle so",
+      "start": 1185.24,
+      "duration": 4.6
+    },
+    {
+      "text": "you see the cars that look like the same",
+      "start": 1187.36,
+      "duration": 4.16
+    },
+    {
+      "text": "but they have different right height or",
+      "start": 1189.84,
+      "duration": 5.12
+    },
+    {
+      "text": "a bit bigger trunk size or stuff these",
+      "start": 1191.52,
+      "duration": 6.159
+    },
+    {
+      "text": "vehicles are still could be related and",
+      "start": 1194.96,
+      "duration": 4.76
+    },
+    {
+      "text": "it was a topical of interest to see if",
+      "start": 1197.679,
+      "duration": 5.281
+    },
+    {
+      "text": "we could predict uh simulations based on",
+      "start": 1199.72,
+      "duration": 6.52
+    },
+    {
+      "text": "one platform and upper body to another",
+      "start": 1202.96,
+      "duration": 5.92
+    },
+    {
+      "text": "platform and upper body and if we go a",
+      "start": 1206.24,
+      "duration": 4.88
+    },
+    {
+      "text": "bit more detail between simulation was",
+      "start": 1208.88,
+      "duration": 4.32
+    },
+    {
+      "text": "like to con",
+      "start": 1211.12,
+      "duration": 5.24
+    },
+    {
+      "text": "convert the physics of the problem to a",
+      "start": 1213.2,
+      "duration": 6.28
+    },
+    {
+      "text": "graph so like what is really important",
+      "start": 1216.36,
+      "duration": 6.04
+    },
+    {
+      "text": "from a CR simulation Engineers to detect",
+      "start": 1219.48,
+      "duration": 5.48
+    },
+    {
+      "text": "a behavior of a crash to say this",
+      "start": 1222.4,
+      "duration": 4.56
+    },
+    {
+      "text": "simulation is similar to another",
+      "start": 1224.96,
+      "duration": 4.24
+    },
+    {
+      "text": "simulations from this",
+      "start": 1226.96,
+      "duration": 4.76
+    },
+    {
+      "text": "analysis con",
+      "start": 1229.2,
+      "duration": 6.04
+    },
+    {
+      "text": "Concepts so while you were talking I was",
+      "start": 1231.72,
+      "duration": 7.24
+    },
+    {
+      "text": "taking notes and then I drew a graph so",
+      "start": 1235.24,
+      "duration": 6.319
+    },
+    {
+      "text": "in this graph I have a note with year",
+      "start": 1238.96,
+      "duration": 4.68
+    },
+    {
+      "text": "when the car was made let's say",
+      "start": 1241.559,
+      "duration": 5.48
+    },
+    {
+      "text": "2020 right so this is the car U this is",
+      "start": 1243.64,
+      "duration": 6.56
+    },
+    {
+      "text": "the year and then we can have notes of",
+      "start": 1247.039,
+      "duration": 4.76
+    },
+    {
+      "text": "individual cars and the connection",
+      "start": 1250.2,
+      "duration": 4.64
+    },
+    {
+      "text": "between the car and 2020 could be the",
+      "start": 1251.799,
+      "duration": 6.441
+    },
+    {
+      "text": "year when it's made then the how do I",
+      "start": 1254.84,
+      "duration": 5.12
+    },
+    {
+      "text": "say correctly the body type or upper",
+      "start": 1258.24,
+      "duration": 5.08
+    },
+    {
+      "text": "body type yeah exactly mhm and then I",
+      "start": 1259.96,
+      "duration": 4.719
+    },
+    {
+      "text": "guess there are other different",
+      "start": 1263.32,
+      "duration": 3.599
+    },
+    {
+      "text": "characteristics of a car right and all",
+      "start": 1264.679,
+      "duration": 4.36
+    },
+    {
+      "text": "the of these are nodes and each car is",
+      "start": 1266.919,
+      "duration": 4.76
+    },
+    {
+      "text": "also a node and the relationship",
+      "start": 1269.039,
+      "duration": 6.041
+    },
+    {
+      "text": "between the no stages is like okay made",
+      "start": 1271.679,
+      "duration": 7.0
+    },
+    {
+      "text": "in type of the body or I don't know",
+      "start": 1275.08,
+      "duration": 5.28
+    },
+    {
+      "text": "engine type like different",
+      "start": 1278.679,
+      "duration": 4.88
+    },
+    {
+      "text": "characteristics different features mhm",
+      "start": 1280.36,
+      "duration": 6.48
+    },
+    {
+      "text": "okay and why is it a useful",
+      "start": 1283.559,
+      "duration": 5.281
+    },
+    {
+      "text": "representation CU if I think about about",
+      "start": 1286.84,
+      "duration": 4.12
+    },
+    {
+      "text": "machine learning so in machine learning",
+      "start": 1288.84,
+      "duration": 4.16
+    },
+    {
+      "text": "quite of when we have table data right",
+      "start": 1290.96,
+      "duration": 6.719
+    },
+    {
+      "text": "and then it could be uh we can have row",
+      "start": 1293.0,
+      "duration": 7.679
+    },
+    {
+      "text": "each row would be an experiment and then",
+      "start": 1297.679,
+      "duration": 5.561
+    },
+    {
+      "text": "we can have uh",
+      "start": 1300.679,
+      "duration": 5.12
+    },
+    {
+      "text": "different features right features could",
+      "start": 1303.24,
+      "duration": 7.0
+    },
+    {
+      "text": "be year type of the body upper body type",
+      "start": 1305.799,
+      "duration": 7.641
+    },
+    {
+      "text": "of the engine other things and result",
+      "start": 1310.24,
+      "duration": 5.88
+    },
+    {
+      "text": "like the target the the thing we want to",
+      "start": 1313.44,
+      "duration": 5.599
+    },
+    {
+      "text": "predict could be I don't know what do we",
+      "start": 1316.12,
+      "duration": 5.12
+    },
+    {
+      "text": "usually predict like impact on the",
+      "start": 1319.039,
+      "duration": 5.161
+    },
+    {
+      "text": "person or on The Pedestrian or whatever",
+      "start": 1321.24,
+      "duration": 6.4
+    },
+    {
+      "text": "right so like why do we actually need",
+      "start": 1324.2,
+      "duration": 7.479
+    },
+    {
+      "text": "graphs here what can express with",
+      "start": 1327.64,
+      "duration": 6.6
+    },
+    {
+      "text": "table I mean a lot of things that you",
+      "start": 1331.679,
+      "duration": 4.24
+    },
+    {
+      "text": "have it as a graph you can express it",
+      "start": 1334.24,
+      "duration": 4.439
+    },
+    {
+      "text": "with table but then it's mostly on",
+      "start": 1335.919,
+      "duration": 6.76
+    },
+    {
+      "text": "abstraction that is nice and also in in",
+      "start": 1338.679,
+      "duration": 6.321
+    },
+    {
+      "text": "to finding a a bit more complex",
+      "start": 1342.679,
+      "duration": 5.041
+    },
+    {
+      "text": "relations between them so for example",
+      "start": 1345.0,
+      "duration": 5.76
+    },
+    {
+      "text": "one of the main gains I have in my PhD",
+      "start": 1347.72,
+      "duration": 6.04
+    },
+    {
+      "text": "is to have a visualization that you can",
+      "start": 1350.76,
+      "duration": 6.08
+    },
+    {
+      "text": "uh have a look over 300 simulations so",
+      "start": 1353.76,
+      "duration": 6.24
+    },
+    {
+      "text": "if you want to compare 300 simulations",
+      "start": 1356.84,
+      "duration": 6.56
+    },
+    {
+      "text": "in a table with visual look I think it",
+      "start": 1360.0,
+      "duration": 6.919
+    },
+    {
+      "text": "would be a bit tricky and uh and we like",
+      "start": 1363.4,
+      "duration": 7.399
+    },
+    {
+      "text": "using weighted graph and uh visualizing",
+      "start": 1366.919,
+      "duration": 6.281
+    },
+    {
+      "text": "the simulations and then their parts",
+      "start": 1370.799,
+      "duration": 4.561
+    },
+    {
+      "text": "that have been involved mostly in the",
+      "start": 1373.2,
+      "duration": 7.24
+    },
+    {
+      "text": "crash it's um was simply clustering the",
+      "start": 1375.36,
+      "duration": 7.6
+    },
+    {
+      "text": "simulations and also showing what are",
+      "start": 1380.44,
+      "duration": 5.08
+    },
+    {
+      "text": "the important parts for those crash",
+      "start": 1382.96,
+      "duration": 4.319
+    },
+    {
+      "text": "simulation or what is the common parts",
+      "start": 1385.52,
+      "duration": 5.12
+    },
+    {
+      "text": "in those and uh and also like for",
+      "start": 1387.279,
+      "duration": 6.681
+    },
+    {
+      "text": "example to detect a load pass uh so it's",
+      "start": 1390.64,
+      "duration": 5.56
+    },
+    {
+      "text": "like when you really transfer the",
+      "start": 1393.96,
+      "duration": 4.64
+    },
+    {
+      "text": "physics of the problem into the graph",
+      "start": 1396.2,
+      "duration": 5.4
+    },
+    {
+      "text": "you can also answer different questions",
+      "start": 1398.6,
+      "duration": 6.0
+    },
+    {
+      "text": "like load pass detection so it's like",
+      "start": 1401.6,
+      "duration": 5.6
+    },
+    {
+      "text": "load pass is like where is that if you",
+      "start": 1404.6,
+      "duration": 5.16
+    },
+    {
+      "text": "walk if you trans a structure of the",
+      "start": 1407.2,
+      "duration": 5.4
+    },
+    {
+      "text": "vehicle to a graph and like each part is",
+      "start": 1409.76,
+      "duration": 4.68
+    },
+    {
+      "text": "one node and then if they're connected",
+      "start": 1412.6,
+      "duration": 3.48
+    },
+    {
+      "text": "they have a edge between them so",
+      "start": 1414.44,
+      "duration": 4.239
+    },
+    {
+      "text": "connected to another parts and then you",
+      "start": 1416.08,
+      "duration": 5.32
+    },
+    {
+      "text": "try to get the how much each part has",
+      "start": 1418.679,
+      "duration": 5.401
+    },
+    {
+      "text": "absorbed or been involved in a crash and",
+      "start": 1421.4,
+      "duration": 4.8
+    },
+    {
+      "text": "then you try to find what is the main",
+      "start": 1424.08,
+      "duration": 4.36
+    },
+    {
+      "text": "path of the load transfer within the",
+      "start": 1426.2,
+      "duration": 4.479
+    },
+    {
+      "text": "structure so kind of the longest path",
+      "start": 1428.44,
+      "duration": 6.32
+    },
+    {
+      "text": "use and that is also a highlight that I",
+      "start": 1430.679,
+      "duration": 6.761
+    },
+    {
+      "text": "don't know of a way to really see in a",
+      "start": 1434.76,
+      "duration": 4.76
+    },
+    {
+      "text": "table",
+      "start": 1437.44,
+      "duration": 5.4
+    },
+    {
+      "text": "so that's what you do in uh your PhD",
+      "start": 1439.52,
+      "duration": 5.36
+    },
+    {
+      "text": "research right yeah",
+      "start": 1442.84,
+      "duration": 4.36
+    },
+    {
+      "text": "exactly and as I understood so you have",
+      "start": 1444.88,
+      "duration": 5.679
+    },
+    {
+      "text": "a system it's based on NE forj and then",
+      "start": 1447.2,
+      "duration": 5.68
+    },
+    {
+      "text": "you have different graphs and then oh",
+      "start": 1450.559,
+      "duration": 3.761
+    },
+    {
+      "text": "like you have a graph different notes",
+      "start": 1452.88,
+      "duration": 5.08
+    },
+    {
+      "text": "and then it allows you to do this",
+      "start": 1454.32,
+      "duration": 6.08
+    },
+    {
+      "text": "exploration so you can click on the note",
+      "start": 1457.96,
+      "duration": 4.719
+    },
+    {
+      "text": "and then okay like let's say we want to",
+      "start": 1460.4,
+      "duration": 5.12
+    },
+    {
+      "text": "look at cars that were made in 2020 then",
+      "start": 1462.679,
+      "duration": 5.841
+    },
+    {
+      "text": "you can maybe click on the 2020 though",
+      "start": 1465.52,
+      "duration": 5.8
+    },
+    {
+      "text": "and then like explore different models",
+      "start": 1468.52,
+      "duration": 4.639
+    },
+    {
+      "text": "and how they perform in experiments",
+      "start": 1471.32,
+      "duration": 4.32
+    },
+    {
+      "text": "right yeah and see like all this lot",
+      "start": 1473.159,
+      "duration": 6.0
+    },
+    {
+      "text": "path passess or paths",
+      "start": 1475.64,
+      "duration": 6.68
+    },
+    {
+      "text": "um and other things right that's a bit",
+      "start": 1479.159,
+      "duration": 6.041
+    },
+    {
+      "text": "of I would say a lot of some part of",
+      "start": 1482.32,
+      "duration": 5.719
+    },
+    {
+      "text": "this knowledge graph is in uh data",
+      "start": 1485.2,
+      "duration": 5.64
+    },
+    {
+      "text": "engineering and I think most of the",
+      "start": 1488.039,
+      "duration": 5.481
+    },
+    {
+      "text": "thing you can do within Knowledge Graph",
+      "start": 1490.84,
+      "duration": 5.12
+    },
+    {
+      "text": "maybe I am not really that experienced",
+      "start": 1493.52,
+      "duration": 4.68
+    },
+    {
+      "text": "to comment it but I feel you can also do",
+      "start": 1495.96,
+      "duration": 4.56
+    },
+    {
+      "text": "it with relational database it's just a",
+      "start": 1498.2,
+      "duration": 4.959
+    },
+    {
+      "text": "lot of overhead of Maintenance and so on",
+      "start": 1500.52,
+      "duration": 5.0
+    },
+    {
+      "text": "between these two but what is quite",
+      "start": 1503.159,
+      "duration": 4.561
+    },
+    {
+      "text": "interesting for myself is that when you",
+      "start": 1505.52,
+      "duration": 5.12
+    },
+    {
+      "text": "can extract a computational graph from a",
+      "start": 1507.72,
+      "duration": 5.199
+    },
+    {
+      "text": "Knowledge Graph and then do further",
+      "start": 1510.64,
+      "duration": 4.8
+    },
+    {
+      "text": "analysis on that and these that I",
+      "start": 1512.919,
+      "duration": 5.12
+    },
+    {
+      "text": "referred to they are mostly on graph",
+      "start": 1515.44,
+      "duration": 5.119
+    },
+    {
+      "text": "data science specifically compared to",
+      "start": 1518.039,
+      "duration": 3.481
+    },
+    {
+      "text": "Knowledge",
+      "start": 1520.559,
+      "duration": 5.081
+    },
+    {
+      "text": "Graph so Knowledge Graph is um so we",
+      "start": 1521.52,
+      "duration": 7.879
+    },
+    {
+      "text": "have a car and the car so the parts of",
+      "start": 1525.64,
+      "duration": 5.8
+    },
+    {
+      "text": "the car they have different",
+      "start": 1529.399,
+      "duration": 4.321
+    },
+    {
+      "text": "relationships between each other so they",
+      "start": 1531.44,
+      "duration": 5.839
+    },
+    {
+      "text": "are connected and then all this uh",
+      "start": 1533.72,
+      "duration": 6.439
+    },
+    {
+      "text": "sensors um like then also different",
+      "start": 1537.279,
+      "duration": 5.801
+    },
+    {
+      "text": "characteristics of a car like here uh",
+      "start": 1540.159,
+      "duration": 4.88
+    },
+    {
+      "text": "type of the upper body all these things",
+      "start": 1543.08,
+      "duration": 4.64
+    },
+    {
+      "text": "so this is the knowledge graph right yes",
+      "start": 1545.039,
+      "duration": 5.161
+    },
+    {
+      "text": "exactly and and then you have the node",
+      "start": 1547.72,
+      "duration": 4.28
+    },
+    {
+      "text": "degrees there so you can do a query",
+      "start": 1550.2,
+      "duration": 4.079
+    },
+    {
+      "text": "there so what are the car other cards",
+      "start": 1552.0,
+      "duration": 4.48
+    },
+    {
+      "text": "related to this one what are the parts",
+      "start": 1554.279,
+      "duration": 4.561
+    },
+    {
+      "text": "and so on so you can do a lot of query",
+      "start": 1556.48,
+      "duration": 5.16
+    },
+    {
+      "text": "in that level so this is how we express",
+      "start": 1558.84,
+      "duration": 6.079
+    },
+    {
+      "text": "what we know about the cars but then we",
+      "start": 1561.64,
+      "duration": 6.759
+    },
+    {
+      "text": "do this stimul simulation right crash",
+      "start": 1564.919,
+      "duration": 6.521
+    },
+    {
+      "text": "simulation and somehow also record the",
+      "start": 1568.399,
+      "duration": 7.4
+    },
+    {
+      "text": "results in this graph or exactly yeah MH",
+      "start": 1571.44,
+      "duration": 6.28
+    },
+    {
+      "text": "and this is the computational graph that",
+      "start": 1575.799,
+      "duration": 4.401
+    },
+    {
+      "text": "we have like I think I don't understand",
+      "start": 1577.72,
+      "duration": 5.36
+    },
+    {
+      "text": "what yeah Sor so for the no that's not",
+      "start": 1580.2,
+      "duration": 4.92
+    },
+    {
+      "text": "the I mean this is so we have the",
+      "start": 1583.08,
+      "duration": 3.719
+    },
+    {
+      "text": "knowledge graph that includes a lot of",
+      "start": 1585.12,
+      "duration": 4.64
+    },
+    {
+      "text": "simulations so it's like it hold the",
+      "start": 1586.799,
+      "duration": 5.801
+    },
+    {
+      "text": "market different costs but then it also",
+      "start": 1589.76,
+      "duration": 4.68
+    },
+    {
+      "text": "have a lot of simulations of that",
+      "start": 1592.6,
+      "duration": 5.079
+    },
+    {
+      "text": "vehicle included and then we pick for",
+      "start": 1594.44,
+      "duration": 6.959
+    },
+    {
+      "text": "example simulations and parts as the",
+      "start": 1597.679,
+      "duration": 6.88
+    },
+    {
+      "text": "input data and then we make like a graph",
+      "start": 1601.399,
+      "duration": 5.76
+    },
+    {
+      "text": "like networkx graph or whatever of graph",
+      "start": 1604.559,
+      "duration": 5.401
+    },
+    {
+      "text": "data science and then that is the one",
+      "start": 1607.159,
+      "duration": 5.721
+    },
+    {
+      "text": "I'm calling the computational graph so",
+      "start": 1609.96,
+      "duration": 5.719
+    },
+    {
+      "text": "then it's not related to Fe analysis",
+      "start": 1612.88,
+      "duration": 4.48
+    },
+    {
+      "text": "directly anymore so it's just graph data",
+      "start": 1615.679,
+      "duration": 4.48
+    },
+    {
+      "text": "science or machine",
+      "start": 1617.36,
+      "duration": 4.72
+    },
+    {
+      "text": "learning yeah and what do you actually",
+      "start": 1620.159,
+      "duration": 4.161
+    },
+    {
+      "text": "mean by gra data graph data science or",
+      "start": 1622.08,
+      "duration": 3.839
+    },
+    {
+      "text": "machine learning what kind of things you",
+      "start": 1624.32,
+      "duration": 3.12
+    },
+    {
+      "text": "can do with these graphs so you",
+      "start": 1625.919,
+      "duration": 3.64
+    },
+    {
+      "text": "mentioned networkx which is a library in",
+      "start": 1627.44,
+      "duration": 5.44
+    },
+    {
+      "text": "Python right which can work with graphs",
+      "start": 1629.559,
+      "duration": 5.36
+    },
+    {
+      "text": "so once we express this graph and",
+      "start": 1632.88,
+      "duration": 5.0
+    },
+    {
+      "text": "network what can we do with this one is",
+      "start": 1634.919,
+      "duration": 5.081
+    },
+    {
+      "text": "like predicting a similarity of the",
+      "start": 1637.88,
+      "duration": 4.399
+    },
+    {
+      "text": "simulations or like this longest pass",
+      "start": 1640.0,
+      "duration": 6.44
+    },
+    {
+      "text": "analysis I told you or a lot of uh",
+      "start": 1642.279,
+      "duration": 8.12
+    },
+    {
+      "text": "visualizations with the as a uh because",
+      "start": 1646.44,
+      "duration": 5.8
+    },
+    {
+      "text": "like when you load the whole Knowledge",
+      "start": 1650.399,
+      "duration": 5.921
+    },
+    {
+      "text": "Graph to for example having this um uh",
+      "start": 1652.24,
+      "duration": 5.6
+    },
+    {
+      "text": "weight as a weighted graph and",
+      "start": 1656.32,
+      "duration": 3.52
+    },
+    {
+      "text": "especially it's also not easy to have",
+      "start": 1657.84,
+      "duration": 4.439
+    },
+    {
+      "text": "weight on all the edges then it will be",
+      "start": 1659.84,
+      "duration": 4.4
+    },
+    {
+      "text": "a bit tricky to have a good",
+      "start": 1662.279,
+      "duration": 4.12
+    },
+    {
+      "text": "visualization so that's why I call it",
+      "start": 1664.24,
+      "duration": 3.919
+    },
+    {
+      "text": "like a computational that you always",
+      "start": 1666.399,
+      "duration": 3.721
+    },
+    {
+      "text": "look at the part of your whole Knowledge",
+      "start": 1668.159,
+      "duration": 5.12
+    },
+    {
+      "text": "Graph to visualize it and find the",
+      "start": 1670.12,
+      "duration": 6.48
+    },
+    {
+      "text": "pattern but it's a still the whole um",
+      "start": 1673.279,
+      "duration": 5.841
+    },
+    {
+      "text": "data is coming from the knowledge graph",
+      "start": 1676.6,
+      "duration": 5.48
+    },
+    {
+      "text": "mhm I'm curious so so you mentioned that",
+      "start": 1679.12,
+      "duration": 5.039
+    },
+    {
+      "text": "graph data you mentioned two terms graph",
+      "start": 1682.08,
+      "duration": 4.04
+    },
+    {
+      "text": "data science and graph machine",
+      "start": 1684.159,
+      "duration": 5.161
+    },
+    {
+      "text": "learning so if I understand correctly",
+      "start": 1686.12,
+      "duration": 6.08
+    },
+    {
+      "text": "the distinction here is like in one case",
+      "start": 1689.32,
+      "duration": 4.199
+    },
+    {
+      "text": "it's more like doing some sort of",
+      "start": 1692.2,
+      "duration": 4.319
+    },
+    {
+      "text": "analytics right or doing this analysis",
+      "start": 1693.519,
+      "duration": 5.441
+    },
+    {
+      "text": "exploring the graph and in the other",
+      "start": 1696.519,
+      "duration": 4.481
+    },
+    {
+      "text": "case making predictions what's the",
+      "start": 1698.96,
+      "duration": 3.52
+    },
+    {
+      "text": "difference between these two I think",
+      "start": 1701.0,
+      "duration": 3.2
+    },
+    {
+      "text": "graph data science and graph machine",
+      "start": 1702.48,
+      "duration": 3.0
+    },
+    {
+      "text": "learning are the same so it's like",
+      "start": 1704.2,
+      "duration": 2.56
+    },
+    {
+      "text": "saying what's the difference of data",
+      "start": 1705.48,
+      "duration": 3.0
+    },
+    {
+      "text": "science and machine learning yeah same",
+      "start": 1706.76,
+      "duration": 5.48
+    },
+    {
+      "text": "same different I would say okay so what",
+      "start": 1708.48,
+      "duration": 6.72
+    },
+    {
+      "text": "kind of things you can like okay we you",
+      "start": 1712.24,
+      "duration": 4.679
+    },
+    {
+      "text": "you mentioned actually things that we",
+      "start": 1715.2,
+      "duration": 4.0
+    },
+    {
+      "text": "can do but I'm curious when it comes to",
+      "start": 1716.919,
+      "duration": 4.041
+    },
+    {
+      "text": "machine learning like when it comes to",
+      "start": 1719.2,
+      "duration": 3.4
+    },
+    {
+      "text": "predicting",
+      "start": 1720.96,
+      "duration": 4.079
+    },
+    {
+      "text": "something yeah we can see if two things",
+      "start": 1722.6,
+      "duration": 4.24
+    },
+    {
+      "text": "are similar using different similarity",
+      "start": 1725.039,
+      "duration": 4.12
+    },
+    {
+      "text": "metrics they are more like graph",
+      "start": 1726.84,
+      "duration": 3.679
+    },
+    {
+      "text": "similarity",
+      "start": 1729.159,
+      "duration": 3.76
+    },
+    {
+      "text": "metrics yeah I don't remember like I",
+      "start": 1730.519,
+      "duration": 4.321
+    },
+    {
+      "text": "remember that there are different",
+      "start": 1732.919,
+      "duration": 4.561
+    },
+    {
+      "text": "measures it's like Sim rank is the",
+      "start": 1734.84,
+      "duration": 5.04
+    },
+    {
+      "text": "method iuse used so that's like items",
+      "start": 1737.48,
+      "duration": 5.64
+    },
+    {
+      "text": "that are referred by similar items are",
+      "start": 1739.88,
+      "duration": 6.919
+    },
+    {
+      "text": "similar and uh so that's like how you",
+      "start": 1743.12,
+      "duration": 7.039
+    },
+    {
+      "text": "predict the similarities of items",
+      "start": 1746.799,
+      "duration": 6.161
+    },
+    {
+      "text": "because you really don't have any",
+      "start": 1750.159,
+      "duration": 6.841
+    },
+    {
+      "text": "ranking uh for the simulation similar so",
+      "start": 1752.96,
+      "duration": 5.68
+    },
+    {
+      "text": "you give us the input for example one",
+      "start": 1757.0,
+      "duration": 4.0
+    },
+    {
+      "text": "simulations and rank what are the",
+      "start": 1758.64,
+      "duration": 5.8
+    },
+    {
+      "text": "related other analysis to to that so",
+      "start": 1761.0,
+      "duration": 5.2
+    },
+    {
+      "text": "it's more like unsupervised machine",
+      "start": 1764.44,
+      "duration": 3.2
+    },
+    {
+      "text": "learning so here you don't really have",
+      "start": 1766.2,
+      "duration": 4.52
+    },
+    {
+      "text": "exactly Target okay I see and then like",
+      "start": 1767.64,
+      "duration": 4.879
+    },
+    {
+      "text": "your task is to understand the",
+      "start": 1770.72,
+      "duration": 4.48
+    },
+    {
+      "text": "similarity and you use different uh in",
+      "start": 1772.519,
+      "duration": 5.481
+    },
+    {
+      "text": "your case it's simr to understand how",
+      "start": 1775.2,
+      "duration": 5.28
+    },
+    {
+      "text": "similar to experiments are two",
+      "start": 1778.0,
+      "duration": 7.48
+    },
+    {
+      "text": "simulations are yeah do you use any",
+      "start": 1780.48,
+      "duration": 7.16
+    },
+    {
+      "text": "supervised machine",
+      "start": 1785.48,
+      "duration": 6.079
+    },
+    {
+      "text": "learning I tried uh a part of it and",
+      "start": 1787.64,
+      "duration": 7.039
+    },
+    {
+      "text": "that was on a really really small uh Toy",
+      "start": 1791.559,
+      "duration": 5.6
+    },
+    {
+      "text": "example uh so not really on a complete",
+      "start": 1794.679,
+      "duration": 5.201
+    },
+    {
+      "text": "vehicle and that was what I relate to",
+      "start": 1797.159,
+      "duration": 4.801
+    },
+    {
+      "text": "siblings vehicle so when you have the",
+      "start": 1799.88,
+      "duration": 4.399
+    },
+    {
+      "text": "same the idea was that for example when",
+      "start": 1801.96,
+      "duration": 4.319
+    },
+    {
+      "text": "we have",
+      "start": 1804.279,
+      "duration": 5.12
+    },
+    {
+      "text": "um uh a one platform but two different",
+      "start": 1806.279,
+      "duration": 6.841
+    },
+    {
+      "text": "vehicles to be able to predict the uh",
+      "start": 1809.399,
+      "duration": 7.0
+    },
+    {
+      "text": "the behavior of them and that was like",
+      "start": 1813.12,
+      "duration": 6.64
+    },
+    {
+      "text": "uh that I had a toy Fe model and then I",
+      "start": 1816.399,
+      "duration": 7.361
+    },
+    {
+      "text": "was trying to see if I have a set of uh",
+      "start": 1819.76,
+      "duration": 7.039
+    },
+    {
+      "text": "data uh like a development tree that",
+      "start": 1823.76,
+      "duration": 4.72
+    },
+    {
+      "text": "means that you simulate ations are",
+      "start": 1826.799,
+      "duration": 3.6
+    },
+    {
+      "text": "related based on the changes because you",
+      "start": 1828.48,
+      "duration": 3.96
+    },
+    {
+      "text": "always do a small change so for example",
+      "start": 1830.399,
+      "duration": 4.081
+    },
+    {
+      "text": "you pick one part and do a thickness",
+      "start": 1832.44,
+      "duration": 4.32
+    },
+    {
+      "text": "change you pick another part and do a",
+      "start": 1834.48,
+      "duration": 4.48
+    },
+    {
+      "text": "whole adding a hole in that so",
+      "start": 1836.76,
+      "duration": 4.96
+    },
+    {
+      "text": "considering this uh three and then the",
+      "start": 1838.96,
+      "duration": 5.36
+    },
+    {
+      "text": "physical changes relation to see if we",
+      "start": 1841.72,
+      "duration": 7.679
+    },
+    {
+      "text": "could um uh transfer these uh behaviors",
+      "start": 1844.32,
+      "duration": 9.68
+    },
+    {
+      "text": "to another uh uh sipling vehicle and",
+      "start": 1849.399,
+      "duration": 6.201
+    },
+    {
+      "text": "with that it means that the design",
+      "start": 1854.0,
+      "duration": 4.0
+    },
+    {
+      "text": "changes are the same it's just the",
+      "start": 1855.6,
+      "duration": 4.319
+    },
+    {
+      "text": "impact mass is",
+      "start": 1858.0,
+      "duration": 4.76
+    },
+    {
+      "text": "different so and that means we have more",
+      "start": 1859.919,
+      "duration": 7.041
+    },
+    {
+      "text": "kinetic energy in in that one and uh and",
+      "start": 1862.76,
+      "duration": 7.08
+    },
+    {
+      "text": "like uh since we are in a high",
+      "start": 1866.96,
+      "duration": 5.8
+    },
+    {
+      "text": "nonlinearity with crash deformations",
+      "start": 1869.84,
+      "duration": 6.88
+    },
+    {
+      "text": "it's like when you add a lot of more uh",
+      "start": 1872.76,
+      "duration": 6.36
+    },
+    {
+      "text": "um mass in that you increase the",
+      "start": 1876.72,
+      "duration": 5.16
+    },
+    {
+      "text": "deformations and it's really get hard",
+      "start": 1879.12,
+      "duration": 4.96
+    },
+    {
+      "text": "and are harder when the difference of",
+      "start": 1881.88,
+      "duration": 5.12
+    },
+    {
+      "text": "this mass is huge but in the smaller",
+      "start": 1884.08,
+      "duration": 5.88
+    },
+    {
+      "text": "level it was quite uh interesting",
+      "start": 1887.0,
+      "duration": 6.08
+    },
+    {
+      "text": "results but still since we had limited",
+      "start": 1889.96,
+      "duration": 4.8
+    },
+    {
+      "text": "number of simulations because I wanted",
+      "start": 1893.08,
+      "duration": 3.88
+    },
+    {
+      "text": "to have it like connected to reality",
+      "start": 1894.76,
+      "duration": 4.6
+    },
+    {
+      "text": "maybe you have Max 300 simulations that",
+      "start": 1896.96,
+      "duration": 5.959
+    },
+    {
+      "text": "you want to transfer it and uh so what I",
+      "start": 1899.36,
+      "duration": 5.439
+    },
+    {
+      "text": "was doing and was quite interesting it",
+      "start": 1902.919,
+      "duration": 5.801
+    },
+    {
+      "text": "was pair learning so I was trying to",
+      "start": 1904.799,
+      "duration": 7.281
+    },
+    {
+      "text": "connect my uh use the connection of",
+      "start": 1908.72,
+      "duration": 6.919
+    },
+    {
+      "text": "simulations and use the relation of the",
+      "start": 1912.08,
+      "duration": 6.52
+    },
+    {
+      "text": "edges between the relations to predict",
+      "start": 1915.639,
+      "duration": 7.04
+    },
+    {
+      "text": "the level of absorption in",
+      "start": 1918.6,
+      "duration": 6.319
+    },
+    {
+      "text": "them you understand correctly that",
+      "start": 1922.679,
+      "duration": 6.48
+    },
+    {
+      "text": "graphs give us not only the way of",
+      "start": 1924.919,
+      "duration": 6.961
+    },
+    {
+      "text": "expressing knowledge storing knowledge",
+      "start": 1929.159,
+      "duration": 5.681
+    },
+    {
+      "text": "in them but also when it comes to",
+      "start": 1931.88,
+      "duration": 4.32
+    },
+    {
+      "text": "actually making the",
+      "start": 1934.84,
+      "duration": 5.199
+    },
+    {
+      "text": "simulations we can also Express like a",
+      "start": 1936.2,
+      "duration": 5.599
+    },
+    {
+      "text": "note could be a different",
+      "start": 1940.039,
+      "duration": 3.721
+    },
+    {
+      "text": "experiment and the connection between",
+      "start": 1941.799,
+      "duration": 4.321
+    },
+    {
+      "text": "them and H would be the change that we",
+      "start": 1943.76,
+      "duration": 4.919
+    },
+    {
+      "text": "make right somehow cuz like if you make",
+      "start": 1946.12,
+      "duration": 5.88
+    },
+    {
+      "text": "small change these two experiments are",
+      "start": 1948.679,
+      "duration": 5.401
+    },
+    {
+      "text": "quite related and then you can observe",
+      "start": 1952.0,
+      "duration": 4.24
+    },
+    {
+      "text": "you can also Express that you can",
+      "start": 1954.08,
+      "duration": 3.64
+    },
+    {
+      "text": "express that in a graph database that",
+      "start": 1956.24,
+      "duration": 4.399
+    },
+    {
+      "text": "these are very related there was only",
+      "start": 1957.72,
+      "duration": 4.64
+    },
+    {
+      "text": "one small change between these two",
+      "start": 1960.639,
+      "duration": 4.961
+    },
+    {
+      "text": "experiments and also you can record the",
+      "start": 1962.36,
+      "duration": 6.76
+    },
+    {
+      "text": "outcome yeah the this change which would",
+      "start": 1965.6,
+      "duration": 7.84
+    },
+    {
+      "text": "be quite difficult in a table N I guess",
+      "start": 1969.12,
+      "duration": 6.559
+    },
+    {
+      "text": "yes",
+      "start": 1973.44,
+      "duration": 5.16
+    },
+    {
+      "text": "yes yeah it would be like like I imagine",
+      "start": 1975.679,
+      "duration": 6.84
+    },
+    {
+      "text": "if I again talk about um table format it",
+      "start": 1978.6,
+      "duration": 5.84
+    },
+    {
+      "text": "would be I guess changing one of the",
+      "start": 1982.519,
+      "duration": 3.801
+    },
+    {
+      "text": "features and then seeing what happens at",
+      "start": 1984.44,
+      "duration": 2.599
+    },
+    {
+      "text": "the",
+      "start": 1986.32,
+      "duration": 4.0
+    },
+    {
+      "text": "end I think in this scenario it could",
+      "start": 1987.039,
+      "duration": 7.12
+    },
+    {
+      "text": "also be that uh you because we we were",
+      "start": 1990.32,
+      "duration": 6.64
+    },
+    {
+      "text": "looking at simulations where compared to",
+      "start": 1994.159,
+      "duration": 4.681
+    },
+    {
+      "text": "all of the simulations so you can still",
+      "start": 1996.96,
+      "duration": 3.8
+    },
+    {
+      "text": "think you have it kind of table or in",
+      "start": 1998.84,
+      "duration": 5.16
+    },
+    {
+      "text": "the in the in the that framework but I",
+      "start": 2000.76,
+      "duration": 6.2
+    },
+    {
+      "text": "think what was quite um interesting is",
+      "start": 2004.0,
+      "duration": 5.08
+    },
+    {
+      "text": "that when the SIM ations have a edge",
+      "start": 2006.96,
+      "duration": 4.599
+    },
+    {
+      "text": "real connection we know they are closer",
+      "start": 2009.08,
+      "duration": 5.68
+    },
+    {
+      "text": "than the one so like um it's kind of",
+      "start": 2011.559,
+      "duration": 7.48
+    },
+    {
+      "text": "additional information in uh in having a",
+      "start": 2014.76,
+      "duration": 6.919
+    },
+    {
+      "text": "development tree",
+      "start": 2019.039,
+      "duration": 5.561
+    },
+    {
+      "text": "included and you also work on the LMS",
+      "start": 2021.679,
+      "duration": 6.681
+    },
+    {
+      "text": "right and you see how these knowledge",
+      "start": 2024.6,
+      "duration": 8.6
+    },
+    {
+      "text": "graphs or graphs are andms can work",
+      "start": 2028.36,
+      "duration": 7.319
+    },
+    {
+      "text": "together so can you tell us more about",
+      "start": 2033.2,
+      "duration": 5.199
+    },
+    {
+      "text": "that I think it's it's a quite the niche",
+      "start": 2035.679,
+      "duration": 5.12
+    },
+    {
+      "text": "topic now with llms and knowledge graphs",
+      "start": 2038.399,
+      "duration": 5.12
+    },
+    {
+      "text": "and that's that's really focus in Text",
+      "start": 2040.799,
+      "duration": 6.081
+    },
+    {
+      "text": "data and with my PhD I really didn't",
+      "start": 2043.519,
+      "duration": 6.88
+    },
+    {
+      "text": "Focus much on text Data NLP uh so that's",
+      "start": 2046.88,
+      "duration": 5.6
+    },
+    {
+      "text": "like start it's a quite New Journey for",
+      "start": 2050.399,
+      "duration": 4.601
+    },
+    {
+      "text": "me it started from Summer after the boot",
+      "start": 2052.48,
+      "duration": 6.96
+    },
+    {
+      "text": "camp that I did some more of LMS and and",
+      "start": 2055.0,
+      "duration": 7.32
+    },
+    {
+      "text": "within LMS and knowledge graph a lot of",
+      "start": 2059.44,
+      "duration": 6.439
+    },
+    {
+      "text": "uh focus is on grounding dancer so it's",
+      "start": 2062.32,
+      "duration": 5.799
+    },
+    {
+      "text": "like really in this part of",
+      "start": 2065.879,
+      "duration": 6.04
+    },
+    {
+      "text": "hallucination of uh llms and to see how",
+      "start": 2068.119,
+      "duration": 8.601
+    },
+    {
+      "text": "you could feed in um uh indexes that",
+      "start": 2071.919,
+      "duration": 8.561
+    },
+    {
+      "text": "will make more reliable",
+      "start": 2076.72,
+      "duration": 3.76
+    },
+    {
+      "text": "answers and also I I am like um it's",
+      "start": 2080.879,
+      "duration": 6.441
+    },
+    {
+      "text": "also I think a quite fun uh domain",
+      "start": 2084.28,
+      "duration": 5.119
+    },
+    {
+      "text": "because I think they a lot of people",
+      "start": 2087.32,
+      "duration": 5.319
+    },
+    {
+      "text": "again say Knowledge Graph and lenss but",
+      "start": 2089.399,
+      "duration": 5.601
+    },
+    {
+      "text": "it's also a lot I feel graph data",
+      "start": 2092.639,
+      "duration": 5.121
+    },
+    {
+      "text": "science is also uh could support it",
+      "start": 2095.0,
+      "duration": 5.8
+    },
+    {
+      "text": "because on this uh selecting what is the",
+      "start": 2097.76,
+      "duration": 5.839
+    },
+    {
+      "text": "most similar note to feed in from a",
+      "start": 2100.8,
+      "duration": 5.12
+    },
+    {
+      "text": "Knowledge Graph to a LMS it could be",
+      "start": 2103.599,
+      "duration": 6.921
+    },
+    {
+      "text": "also relations uh that comes from um uh",
+      "start": 2105.92,
+      "duration": 6.72
+    },
+    {
+      "text": "graph data science on ede predictions",
+      "start": 2110.52,
+      "duration": 4.44
+    },
+    {
+      "text": "and so",
+      "start": 2112.64,
+      "duration": 2.32
+    },
+    {
+      "text": "on well to be honest I still didn't",
+      "start": 2115.16,
+      "duration": 7.16
+    },
+    {
+      "text": "really understand the connection so LMS",
+      "start": 2118.8,
+      "duration": 7.52
+    },
+    {
+      "text": "work on Text data and graphs work on",
+      "start": 2122.32,
+      "duration": 6.12
+    },
+    {
+      "text": "graph data on notes and",
+      "start": 2126.32,
+      "duration": 5.88
+    },
+    {
+      "text": "edges right and does it mean that um",
+      "start": 2128.44,
+      "duration": 6.12
+    },
+    {
+      "text": "okay we have different features or",
+      "start": 2132.2,
+      "duration": 4.879
+    },
+    {
+      "text": "characteristics of our experiments of",
+      "start": 2134.56,
+      "duration": 6.08
+    },
+    {
+      "text": "cars or whatever which are text based",
+      "start": 2137.079,
+      "duration": 6.721
+    },
+    {
+      "text": "and we can use LMS for these features or",
+      "start": 2140.64,
+      "duration": 5.24
+    },
+    {
+      "text": "how does exactly the connection look",
+      "start": 2143.8,
+      "duration": 4.16
+    },
+    {
+      "text": "like yeah I mean one of the funny",
+      "start": 2145.88,
+      "duration": 4.68
+    },
+    {
+      "text": "example was that like this the questions",
+      "start": 2147.96,
+      "duration": 5.159
+    },
+    {
+      "text": "that LMS can't answer so one of them is",
+      "start": 2150.56,
+      "duration": 5.72
+    },
+    {
+      "text": "like I think was like uh person a give",
+      "start": 2153.119,
+      "duration": 6.24
+    },
+    {
+      "text": "birth to her child in can Canada and uh",
+      "start": 2156.28,
+      "duration": 5.72
+    },
+    {
+      "text": "and then what was it uh and then the",
+      "start": 2159.359,
+      "duration": 6.0
+    },
+    {
+      "text": "father was there no what was it I don't",
+      "start": 2162.0,
+      "duration": 6.68
+    },
+    {
+      "text": "remember the example really",
+      "start": 2165.359,
+      "duration": 6.801
+    },
+    {
+      "text": "good but uh the the thing is what I",
+      "start": 2168.68,
+      "duration": 6.04
+    },
+    {
+      "text": "wanted to I now should come up with my",
+      "start": 2172.16,
+      "duration": 4.12
+    },
+    {
+      "text": "own example because I don't remember",
+      "start": 2174.72,
+      "duration": 3.28
+    },
+    {
+      "text": "that would be a bit fun but the the",
+      "start": 2176.28,
+      "duration": 4.12
+    },
+    {
+      "text": "thing is that like within the relations",
+      "start": 2178.0,
+      "duration": 4.04
+    },
+    {
+      "text": "you have within the because when when we",
+      "start": 2180.4,
+      "duration": 5.0
+    },
+    {
+      "text": "do LMS we have a part of text like we do",
+      "start": 2182.04,
+      "duration": 6.12
+    },
+    {
+      "text": "a chunks in them and then based on these",
+      "start": 2185.4,
+      "duration": 6.08
+    },
+    {
+      "text": "chunks you don't have",
+      "start": 2188.16,
+      "duration": 6.679
+    },
+    {
+      "text": "um uh you don't have all the data",
+      "start": 2191.48,
+      "duration": 6.16
+    },
+    {
+      "text": "connections to each other and then and",
+      "start": 2194.839,
+      "duration": 5.681
+    },
+    {
+      "text": "since also LMS are not good into having",
+      "start": 2197.64,
+      "duration": 6.12
+    },
+    {
+      "text": "huge amount of input together then we",
+      "start": 2200.52,
+      "duration": 6.12
+    },
+    {
+      "text": "would miss some of these relations of",
+      "start": 2203.76,
+      "duration": 5.319
+    },
+    {
+      "text": "data to each other and the thing is that",
+      "start": 2206.64,
+      "duration": 4.4
+    },
+    {
+      "text": "when we build Knowledge Graph based on a",
+      "start": 2209.079,
+      "duration": 5.04
+    },
+    {
+      "text": "text data we are transferring we are",
+      "start": 2211.04,
+      "duration": 5.2
+    },
+    {
+      "text": "generating semantics and add those",
+      "start": 2214.119,
+      "duration": 4.081
+    },
+    {
+      "text": "relations in the knowledge graph",
+      "start": 2216.24,
+      "duration": 4.8
+    },
+    {
+      "text": "so and based on that you could feed into",
+      "start": 2218.2,
+      "duration": 5.28
+    },
+    {
+      "text": "llm so it's a bit more of prompt",
+      "start": 2221.04,
+      "duration": 4.72
+    },
+    {
+      "text": "Engineering in that direction that what",
+      "start": 2223.48,
+      "duration": 3.96
+    },
+    {
+      "text": "you should feed in to get the good",
+      "start": 2225.76,
+      "duration": 4.44
+    },
+    {
+      "text": "answers from llm So within knowledge",
+      "start": 2227.44,
+      "duration": 5.639
+    },
+    {
+      "text": "graphs you feed in some more of relation",
+      "start": 2230.2,
+      "duration": 5.08
+    },
+    {
+      "text": "so for example with this example that I",
+      "start": 2233.079,
+      "duration": 4.641
+    },
+    {
+      "text": "was trying to say is that for example",
+      "start": 2235.28,
+      "duration": 6.28
+    },
+    {
+      "text": "you don't know about uh who is the",
+      "start": 2237.72,
+      "duration": 6.399
+    },
+    {
+      "text": "mother of a child for example but when",
+      "start": 2241.56,
+      "duration": 4.799
+    },
+    {
+      "text": "you have the relations of the people in",
+      "start": 2244.119,
+      "duration": 4.441
+    },
+    {
+      "text": "a graph and transfer that and get all",
+      "start": 2246.359,
+      "duration": 4.0
+    },
+    {
+      "text": "the chunks of information about the",
+      "start": 2248.56,
+      "duration": 4.0
+    },
+    {
+      "text": "mother and the father and the child",
+      "start": 2250.359,
+      "duration": 5.521
+    },
+    {
+      "text": "itself you you enrich the data to answer",
+      "start": 2252.56,
+      "duration": 5.039
+    },
+    {
+      "text": "the",
+      "start": 2255.88,
+      "duration": 4.32
+    },
+    {
+      "text": "questions do I understand it correctly",
+      "start": 2257.599,
+      "duration": 4.841
+    },
+    {
+      "text": "that we have a piece of text that",
+      "start": 2260.2,
+      "duration": 4.24
+    },
+    {
+      "text": "expresses different",
+      "start": 2262.44,
+      "duration": 5.28
+    },
+    {
+      "text": "relationships between entities and what",
+      "start": 2264.44,
+      "duration": 7.52
+    },
+    {
+      "text": "we use an llm for is actually extracting",
+      "start": 2267.72,
+      "duration": 6.68
+    },
+    {
+      "text": "these relationships from the text and",
+      "start": 2271.96,
+      "duration": 4.32
+    },
+    {
+      "text": "then once these relationships are",
+      "start": 2274.4,
+      "duration": 5.24
+    },
+    {
+      "text": "extracted we can put them in the graph",
+      "start": 2276.28,
+      "duration": 7.24
+    },
+    {
+      "text": "and then use a graph database or",
+      "start": 2279.64,
+      "duration": 9.12
+    },
+    {
+      "text": "graph library to further analyze the",
+      "start": 2283.52,
+      "duration": 8.16
+    },
+    {
+      "text": "relationship we extract no this is just",
+      "start": 2288.76,
+      "duration": 6.16
+    },
+    {
+      "text": "use of LM with Vector datab basis so you",
+      "start": 2291.68,
+      "duration": 5.52
+    },
+    {
+      "text": "make chunks and for each chunks you use",
+      "start": 2294.92,
+      "duration": 4.64
+    },
+    {
+      "text": "llm to do embedding to extract features",
+      "start": 2297.2,
+      "duration": 5.159
+    },
+    {
+      "text": "and then you store them in the vector",
+      "start": 2299.56,
+      "duration": 5.48
+    },
+    {
+      "text": "database I see and then and this is like",
+      "start": 2302.359,
+      "duration": 5.161
+    },
+    {
+      "text": "you have the Chun base so like you don't",
+      "start": 2305.04,
+      "duration": 4.079
+    },
+    {
+      "text": "don't have much of you don't have any",
+      "start": 2307.52,
+      "duration": 4.079
+    },
+    {
+      "text": "knowledge graph on that but when when",
+      "start": 2309.119,
+      "duration": 4.96
+    },
+    {
+      "text": "it's a one of the basic one is that for",
+      "start": 2311.599,
+      "duration": 4.24
+    },
+    {
+      "text": "example to build a knowledge graph on",
+      "start": 2314.079,
+      "duration": 3.601
+    },
+    {
+      "text": "that is that for example you are getting",
+      "start": 2315.839,
+      "duration": 6.081
+    },
+    {
+      "text": "a book and instead of having uh just",
+      "start": 2317.68,
+      "duration": 7.679
+    },
+    {
+      "text": "this for example 400 tokens store in a",
+      "start": 2321.92,
+      "duration": 6.56
+    },
+    {
+      "text": "note you also have what are the what are",
+      "start": 2325.359,
+      "duration": 5.641
+    },
+    {
+      "text": "the chapters of the book so you store",
+      "start": 2328.48,
+      "duration": 5.48
+    },
+    {
+      "text": "the chapters as extra nodes and then you",
+      "start": 2331.0,
+      "duration": 7.4
+    },
+    {
+      "text": "say for example chapter two owns this ch",
+      "start": 2333.96,
+      "duration": 7.399
+    },
+    {
+      "text": "and then you you also add the relation",
+      "start": 2338.4,
+      "duration": 5.0
+    },
+    {
+      "text": "that these chapters come after the other",
+      "start": 2341.359,
+      "duration": 4.681
+    },
+    {
+      "text": "chapter so you when you are just having",
+      "start": 2343.4,
+      "duration": 4.919
+    },
+    {
+      "text": "chunks in a vector database you are",
+      "start": 2346.04,
+      "duration": 4.84
+    },
+    {
+      "text": "missing the",
+      "start": 2348.319,
+      "duration": 2.561
+    },
+    {
+      "text": "relations and also you are missing the",
+      "start": 2351.599,
+      "duration": 5.48
+    },
+    {
+      "text": "semantics so these two are coming these",
+      "start": 2353.92,
+      "duration": 5.36
+    },
+    {
+      "text": "Rel extra relations and semantics are",
+      "start": 2357.079,
+      "duration": 3.681
+    },
+    {
+      "text": "coming with Knowledge",
+      "start": 2359.28,
+      "duration": 4.36
+    },
+    {
+      "text": "Graph yeah",
+      "start": 2360.76,
+      "duration": 5.88
+    },
+    {
+      "text": "so now I think I understood what you",
+      "start": 2363.64,
+      "duration": 5.16
+    },
+    {
+      "text": "said so you mentioned prompt engineering",
+      "start": 2366.64,
+      "duration": 4.6
+    },
+    {
+      "text": "and when we come up with a prompt and we",
+      "start": 2368.8,
+      "duration": 5.24
+    },
+    {
+      "text": "want an LM to answer a question about",
+      "start": 2371.24,
+      "duration": 4.839
+    },
+    {
+      "text": "something we want to include",
+      "start": 2374.04,
+      "duration": 4.48
+    },
+    {
+      "text": "also some semantic information about",
+      "start": 2376.079,
+      "duration": 6.121
+    },
+    {
+      "text": "that like in your example about the book",
+      "start": 2378.52,
+      "duration": 6.24
+    },
+    {
+      "text": "you can say that okay this paragraph",
+      "start": 2382.2,
+      "duration": 4.919
+    },
+    {
+      "text": "comes from this page this page comes",
+      "start": 2384.76,
+      "duration": 4.0
+    },
+    {
+      "text": "from this chapter this chapter comes",
+      "start": 2387.119,
+      "duration": 4.801
+    },
+    {
+      "text": "from this section right so sort of extra",
+      "start": 2388.76,
+      "duration": 5.48
+    },
+    {
+      "text": "semantic information that will help LM",
+      "start": 2391.92,
+      "duration": 4.8
+    },
+    {
+      "text": "to to give a better answer right yeah",
+      "start": 2394.24,
+      "duration": 4.92
+    },
+    {
+      "text": "and and like for example when you do a",
+      "start": 2396.72,
+      "duration": 4.399
+    },
+    {
+      "text": "template for your prompt you can Define",
+      "start": 2399.16,
+      "duration": 4.84
+    },
+    {
+      "text": "the relations that are important so and",
+      "start": 2401.119,
+      "duration": 4.841
+    },
+    {
+      "text": "then since it for example and you can",
+      "start": 2404.0,
+      "duration": 4.2
+    },
+    {
+      "text": "for example put it like a cipher query",
+      "start": 2405.96,
+      "duration": 4.96
+    },
+    {
+      "text": "as a example for one of the use case and",
+      "start": 2408.2,
+      "duration": 4.56
+    },
+    {
+      "text": "since it has access to whole of",
+      "start": 2410.92,
+      "duration": 5.6
+    },
+    {
+      "text": "Knowledge Graph it could make similar uh",
+      "start": 2412.76,
+      "duration": 6.92
+    },
+    {
+      "text": "Cipher query to find information about",
+      "start": 2416.52,
+      "duration": 5.92
+    },
+    {
+      "text": "its own use",
+      "start": 2419.68,
+      "duration": 6.84
+    },
+    {
+      "text": "case so there is a question from Ros in",
+      "start": 2422.44,
+      "duration": 6.0
+    },
+    {
+      "text": "Chestnut that's it's a very interesting",
+      "start": 2426.52,
+      "duration": 4.76
+    },
+    {
+      "text": "nickname so the Roos in Chestnut is",
+      "start": 2428.44,
+      "duration": 6.36
+    },
+    {
+      "text": "asking or yeah this is a question it",
+      "start": 2431.28,
+      "duration": 6.24
+    },
+    {
+      "text": "sounds like transfer learning is it the",
+      "start": 2434.8,
+      "duration": 5.76
+    },
+    {
+      "text": "same idea used on",
+      "start": 2437.52,
+      "duration": 3.04
+    },
+    {
+      "text": "relationship and which content he's",
+      "start": 2440.72,
+      "duration": 4.16
+    },
+    {
+      "text": "asking is it about the because the only",
+      "start": 2442.92,
+      "duration": 4.52
+    },
+    {
+      "text": "transer learning I have been doing it's",
+      "start": 2444.88,
+      "duration": 5.84
+    },
+    {
+      "text": "about the predictions on automotive and",
+      "start": 2447.44,
+      "duration": 4.919
+    },
+    {
+      "text": "I I'm not sure if that's the question",
+      "start": 2450.72,
+      "duration": 3.08
+    },
+    {
+      "text": "here but I guess like uh so you",
+      "start": 2452.359,
+      "duration": 3.881
+    },
+    {
+      "text": "mentioned embeddings making embeddings",
+      "start": 2453.8,
+      "duration": 6.44
+    },
+    {
+      "text": "from using llm right so we kind of use",
+      "start": 2456.24,
+      "duration": 6.4
+    },
+    {
+      "text": "the knowledge that is already in llm to",
+      "start": 2460.24,
+      "duration": 3.72
+    },
+    {
+      "text": "make",
+      "start": 2462.64,
+      "duration": 4.08
+    },
+    {
+      "text": "embeddings maybe this is it I don't",
+      "start": 2463.96,
+      "duration": 4.28
+    },
+    {
+      "text": "think so because like in transfer",
+      "start": 2466.72,
+      "duration": 3.92
+    },
+    {
+      "text": "learning is a lot of time when you are",
+      "start": 2468.24,
+      "duration": 5.32
+    },
+    {
+      "text": "uh having some layers so because like",
+      "start": 2470.64,
+      "duration": 5.8
+    },
+    {
+      "text": "with these llms content it's not any",
+      "start": 2473.56,
+      "duration": 6.759
+    },
+    {
+      "text": "it's more of Rog I would say retrieval",
+      "start": 2476.44,
+      "duration": 6.6
+    },
+    {
+      "text": "augmented Generations that you use the",
+      "start": 2480.319,
+      "duration": 5.201
+    },
+    {
+      "text": "embedding you use a model that exist and",
+      "start": 2483.04,
+      "duration": 5.88
+    },
+    {
+      "text": "you try to do the edding on them and",
+      "start": 2485.52,
+      "duration": 6.079
+    },
+    {
+      "text": "within the transfer learning I I think",
+      "start": 2488.92,
+      "duration": 4.76
+    },
+    {
+      "text": "it's if I look at it from window of deep",
+      "start": 2491.599,
+      "duration": 4.681
+    },
+    {
+      "text": "learning is always that you have a model",
+      "start": 2493.68,
+      "duration": 4.96
+    },
+    {
+      "text": "an architecture and you try to transfer",
+      "start": 2496.28,
+      "duration": 5.64
+    },
+    {
+      "text": "it from uh one data set to another data",
+      "start": 2498.64,
+      "duration": 6.88
+    },
+    {
+      "text": "set and uh and that's in more of level",
+      "start": 2501.92,
+      "duration": 7.12
+    },
+    {
+      "text": "of fine tuning I would",
+      "start": 2505.52,
+      "duration": 3.52
+    },
+    {
+      "text": "say so the reason I thought about the",
+      "start": 2509.76,
+      "duration": 4.64
+    },
+    {
+      "text": "example I mentioned like when there is a",
+      "start": 2512.64,
+      "duration": 2.719
+    },
+    {
+      "text": "piece of",
+      "start": 2514.4,
+      "duration": 3.88
+    },
+    {
+      "text": "text and uh",
+      "start": 2515.359,
+      "duration": 4.881
+    },
+    {
+      "text": "know an example could be that this is",
+      "start": 2518.28,
+      "duration": 5.2
+    },
+    {
+      "text": "the mother or different I don't know",
+      "start": 2520.24,
+      "duration": 5.0
+    },
+    {
+      "text": "relationship between things in text and",
+      "start": 2523.48,
+      "duration": 3.52
+    },
+    {
+      "text": "we want to ask anlm to extract this",
+      "start": 2525.24,
+      "duration": 4.4
+    },
+    {
+      "text": "graph cuz recently I was doing something",
+      "start": 2527.0,
+      "duration": 5.8
+    },
+    {
+      "text": "a little bit similar I was not I I had a",
+      "start": 2529.64,
+      "duration": 7.12
+    },
+    {
+      "text": "piece of text and I needed to create",
+      "start": 2532.8,
+      "duration": 6.319
+    },
+    {
+      "text": "Json from this text so I needed to",
+      "start": 2536.76,
+      "duration": 5.0
+    },
+    {
+      "text": "structure to give it some structure and",
+      "start": 2539.119,
+      "duration": 4.44
+    },
+    {
+      "text": "then of course instead of doing it",
+      "start": 2541.76,
+      "duration": 4.96
+    },
+    {
+      "text": "myself I just ask nlm to do this and",
+      "start": 2543.559,
+      "duration": 6.52
+    },
+    {
+      "text": "chat PT did it pretty well so that's why",
+      "start": 2546.72,
+      "duration": 5.639
+    },
+    {
+      "text": "I thought maybe we can actually also use",
+      "start": 2550.079,
+      "duration": 3.121
+    },
+    {
+      "text": "it",
+      "start": 2552.359,
+      "duration": 5.24
+    },
+    {
+      "text": "for in not just only extracting Json",
+      "start": 2553.2,
+      "duration": 6.2
+    },
+    {
+      "text": "from that but also extracting",
+      "start": 2557.599,
+      "duration": 3.441
+    },
+    {
+      "text": "relationship from",
+      "start": 2559.4,
+      "duration": 6.159
+    },
+    {
+      "text": "text yeah it's uh it's quite I have",
+      "start": 2561.04,
+      "duration": 8.92
+    },
+    {
+      "text": "tested it a bit uh also it's like with a",
+      "start": 2565.559,
+      "duration": 7.56
+    },
+    {
+      "text": "lang chain I would say that it's kind of",
+      "start": 2569.96,
+      "duration": 5.639
+    },
+    {
+      "text": "a tree of thoughts that you ask it",
+      "start": 2573.119,
+      "duration": 4.561
+    },
+    {
+      "text": "question it give you some item and you",
+      "start": 2575.599,
+      "duration": 5.361
+    },
+    {
+      "text": "go further down the only tricky thing in",
+      "start": 2577.68,
+      "duration": 7.76
+    },
+    {
+      "text": "that is a bit like um you need a setups",
+      "start": 2580.96,
+      "duration": 7.2
+    },
+    {
+      "text": "to work because uh because if it is just",
+      "start": 2585.44,
+      "duration": 4.36
+    },
+    {
+      "text": "couple of",
+      "start": 2588.16,
+      "duration": 3.48
+    },
+    {
+      "text": "uh",
+      "start": 2589.8,
+      "duration": 5.24
+    },
+    {
+      "text": "um a limited amount of questions and",
+      "start": 2591.64,
+      "duration": 5.88
+    },
+    {
+      "text": "depth to walk I would say it's easy to",
+      "start": 2595.04,
+      "duration": 5.6
+    },
+    {
+      "text": "check it but when you want to extract a",
+      "start": 2597.52,
+      "duration": 6.96
+    },
+    {
+      "text": "lot of uh content from your text is",
+      "start": 2600.64,
+      "duration": 6.679
+    },
+    {
+      "text": "quite tricky to trust it and a lot of of",
+      "start": 2604.48,
+      "duration": 4.76
+    },
+    {
+      "text": "time that knowledge graphs come with",
+      "start": 2607.319,
+      "duration": 5.081
+    },
+    {
+      "text": "llms it's exactly the opposite you want",
+      "start": 2609.24,
+      "duration": 6.079
+    },
+    {
+      "text": "to have something that you can trust and",
+      "start": 2612.4,
+      "duration": 5.36
+    },
+    {
+      "text": "that's why I think it's still the the",
+      "start": 2615.319,
+      "duration": 5.04
+    },
+    {
+      "text": "old process of building Knowledge Graph",
+      "start": 2617.76,
+      "duration": 5.24
+    },
+    {
+      "text": "is more is required because if you have",
+      "start": 2620.359,
+      "duration": 5.041
+    },
+    {
+      "text": "it with llm you are in a loop you you",
+      "start": 2623.0,
+      "duration": 4.76
+    },
+    {
+      "text": "can never validate it maybe it can help",
+      "start": 2625.4,
+      "duration": 5.4
+    },
+    {
+      "text": "you but still to verify it is quite",
+      "start": 2627.76,
+      "duration": 6.96
+    },
+    {
+      "text": "tricky and U with GPT you can also see",
+      "start": 2630.8,
+      "duration": 6.36
+    },
+    {
+      "text": "that if you ask it for an output today",
+      "start": 2634.72,
+      "duration": 5.52
+    },
+    {
+      "text": "it could have different kind of results",
+      "start": 2637.16,
+      "duration": 6.12
+    },
+    {
+      "text": "uh after a while or with a bit different",
+      "start": 2640.24,
+      "duration": 7.16
+    },
+    {
+      "text": "uh content before uh of uh so the",
+      "start": 2643.28,
+      "duration": 6.48
+    },
+    {
+      "text": "history of it is affecting on the answer",
+      "start": 2647.4,
+      "duration": 4.84
+    },
+    {
+      "text": "that it's",
+      "start": 2649.76,
+      "duration": 2.48
+    },
+    {
+      "text": "providing and right now I'm looking at",
+      "start": 2652.28,
+      "duration": 5.64
+    },
+    {
+      "text": "one of your GitHub projects so this",
+      "start": 2655.079,
+      "duration": 4.76
+    },
+    {
+      "text": "project is called",
+      "start": 2657.92,
+      "duration": 10.199
+    },
+    {
+      "text": "adpt l r n f h y c s s I guess it's",
+      "start": 2659.839,
+      "duration": 13.121
+    },
+    {
+      "text": "adaptive learning physics right yes",
+      "start": 2668.119,
+      "duration": 8.841
+    },
+    {
+      "text": "yeah quite tricky name yeah so can you",
+      "start": 2672.96,
+      "duration": 7.159
+    },
+    {
+      "text": "tell us more about this project that's",
+      "start": 2676.96,
+      "duration": 5.04
+    },
+    {
+      "text": "uh okay that's actually it's interesting",
+      "start": 2680.119,
+      "duration": 3.601
+    },
+    {
+      "text": "because it's quite connected to what we",
+      "start": 2682.0,
+      "duration": 4.04
+    },
+    {
+      "text": "just discussed because this was a boot",
+      "start": 2683.72,
+      "duration": 5.16
+    },
+    {
+      "text": "camp project so like first time that I",
+      "start": 2686.04,
+      "duration": 5.2
+    },
+    {
+      "text": "uh we tried to kind of for myself also",
+      "start": 2688.88,
+      "duration": 5.0
+    },
+    {
+      "text": "to connect Knowledge Graph with a lens",
+      "start": 2691.24,
+      "duration": 5.48
+    },
+    {
+      "text": "and that was the idea of thinking that",
+      "start": 2693.88,
+      "duration": 6.16
+    },
+    {
+      "text": "like nowaday you can ask a lot of",
+      "start": 2696.72,
+      "duration": 6.96
+    },
+    {
+      "text": "question from GPT and how it could be to",
+      "start": 2700.04,
+      "duration": 6.12
+    },
+    {
+      "text": "have a platform or a code piece of codes",
+      "start": 2703.68,
+      "duration": 6.12
+    },
+    {
+      "text": "that you can it can make you uh learning",
+      "start": 2706.16,
+      "duration": 7.24
+    },
+    {
+      "text": "material so and our first Target was to",
+      "start": 2709.8,
+      "duration": 4.72
+    },
+    {
+      "text": "have it on",
+      "start": 2713.4,
+      "duration": 4.159
+    },
+    {
+      "text": "physics and uh but as it is with a lot",
+      "start": 2714.52,
+      "duration": 4.799
+    },
+    {
+      "text": "of projects you aim for something and",
+      "start": 2717.559,
+      "duration": 4.641
+    },
+    {
+      "text": "you end up on something else so and that",
+      "start": 2719.319,
+      "duration": 5.121
+    },
+    {
+      "text": "was exactly because we had just two",
+      "start": 2722.2,
+      "duration": 6.48
+    },
+    {
+      "text": "weeks to finish this project and uh and",
+      "start": 2724.44,
+      "duration": 7.36
+    },
+    {
+      "text": "then a lot of hallucination and",
+      "start": 2728.68,
+      "duration": 5.919
+    },
+    {
+      "text": "untrustworthy of the GPT on generating",
+      "start": 2731.8,
+      "duration": 5.64
+    },
+    {
+      "text": "the con so like how we were uh doing it",
+      "start": 2734.599,
+      "duration": 6.121
+    },
+    {
+      "text": "it was saying that okay um so we had the",
+      "start": 2737.44,
+      "duration": 6.6
+    },
+    {
+      "text": "Lang chain with breaking down a topic",
+      "start": 2740.72,
+      "duration": 7.119
+    },
+    {
+      "text": "and we wanted to make a knowledge graph",
+      "start": 2744.04,
+      "duration": 9.0
+    },
+    {
+      "text": "for physics that you can uh uh uh",
+      "start": 2747.839,
+      "duration": 8.201
+    },
+    {
+      "text": "provide material to users so like first",
+      "start": 2753.04,
+      "duration": 5.76
+    },
+    {
+      "text": "users comes and then you ask some",
+      "start": 2756.04,
+      "duration": 5.079
+    },
+    {
+      "text": "questions about the interest the levels",
+      "start": 2758.8,
+      "duration": 4.759
+    },
+    {
+      "text": "and so on and then it provide you",
+      "start": 2761.119,
+      "duration": 4.881
+    },
+    {
+      "text": "stepbystep uh content question and",
+      "start": 2763.559,
+      "duration": 5.121
+    },
+    {
+      "text": "answer that supports you to learn a new",
+      "start": 2766.0,
+      "duration": 5.44
+    },
+    {
+      "text": "domain and that was the initial idea but",
+      "start": 2768.68,
+      "duration": 4.399
+    },
+    {
+      "text": "since it was building the knowledge",
+      "start": 2771.44,
+      "duration": 4.48
+    },
+    {
+      "text": "graph really hard and really not good",
+      "start": 2773.079,
+      "duration": 7.361
+    },
+    {
+      "text": "results out of chat GPT 3.5 turbo and",
+      "start": 2775.92,
+      "duration": 7.159
+    },
+    {
+      "text": "that's like when we decided to change",
+      "start": 2780.44,
+      "duration": 5.6
+    },
+    {
+      "text": "the project a bit and instead of having",
+      "start": 2783.079,
+      "duration": 7.52
+    },
+    {
+      "text": "um um learning platform for uh for",
+      "start": 2786.04,
+      "duration": 7.559
+    },
+    {
+      "text": "physics uh we moved it to support still",
+      "start": 2790.599,
+      "duration": 5.201
+    },
+    {
+      "text": "in a learning Direction but like",
+      "start": 2793.599,
+      "duration": 6.041
+    },
+    {
+      "text": "supporting people to read papers so like",
+      "start": 2795.8,
+      "duration": 5.88
+    },
+    {
+      "text": "uh if you are not a researcher or if you",
+      "start": 2799.64,
+      "duration": 3.76
+    },
+    {
+      "text": "are a researcher how we could have a",
+      "start": 2801.68,
+      "duration": 4.28
+    },
+    {
+      "text": "platform that you give in a paper and it",
+      "start": 2803.4,
+      "duration": 4.439
+    },
+    {
+      "text": "break it down to you and it could",
+      "start": 2805.96,
+      "duration": 4.72
+    },
+    {
+      "text": "support you with the same consequence",
+      "start": 2807.839,
+      "duration": 5.401
+    },
+    {
+      "text": "that you feel comfortable to read paper",
+      "start": 2810.68,
+      "duration": 6.0
+    },
+    {
+      "text": "in domains you have never read and uh",
+      "start": 2813.24,
+      "duration": 6.76
+    },
+    {
+      "text": "that was like breaking down uh the paper",
+      "start": 2816.68,
+      "duration": 5.399
+    },
+    {
+      "text": "to the sections find the relation of",
+      "start": 2820.0,
+      "duration": 5.119
+    },
+    {
+      "text": "them and also connect it to other papers",
+      "start": 2822.079,
+      "duration": 6.52
+    },
+    {
+      "text": "and the references and so on So like um",
+      "start": 2825.119,
+      "duration": 6.521
+    },
+    {
+      "text": "that was the final result of it I I'm",
+      "start": 2828.599,
+      "duration": 5.401
+    },
+    {
+      "text": "looking right now at visualization so",
+      "start": 2831.64,
+      "duration": 5.88
+    },
+    {
+      "text": "what happens there is that uh there's",
+      "start": 2834.0,
+      "duration": 8.079
+    },
+    {
+      "text": "this um part where you upload a",
+      "start": 2837.52,
+      "duration": 7.079
+    },
+    {
+      "text": "file is all you need in this example so",
+      "start": 2842.079,
+      "duration": 5.28
+    },
+    {
+      "text": "you you DR or you upload",
+      "start": 2844.599,
+      "duration": 4.841
+    },
+    {
+      "text": "this and then what it's doing it's",
+      "start": 2847.359,
+      "duration": 5.76
+    },
+    {
+      "text": "extracting text from the PDF and looks",
+      "start": 2849.44,
+      "duration": 7.32
+    },
+    {
+      "text": "at different uh terms there different",
+      "start": 2853.119,
+      "duration": 6.041
+    },
+    {
+      "text": "words right yeah and then it builds a",
+      "start": 2856.76,
+      "duration": 5.92
+    },
+    {
+      "text": "graph from these words and explains each",
+      "start": 2859.16,
+      "duration": 5.52
+    },
+    {
+      "text": "of them right or how that does work it",
+      "start": 2862.68,
+      "duration": 4.08
+    },
+    {
+      "text": "has we have two tracks so first tracks",
+      "start": 2864.68,
+      "duration": 5.28
+    },
+    {
+      "text": "it's like uh doing semantics so it's",
+      "start": 2866.76,
+      "duration": 7.0
+    },
+    {
+      "text": "like extract each sections of the paper",
+      "start": 2869.96,
+      "duration": 5.72
+    },
+    {
+      "text": "and then doing bedding on them and",
+      "start": 2873.76,
+      "duration": 4.559
+    },
+    {
+      "text": "finding the relations between them and",
+      "start": 2875.68,
+      "duration": 4.76
+    },
+    {
+      "text": "another track is that it get each",
+      "start": 2878.319,
+      "duration": 6.641
+    },
+    {
+      "text": "section and use in a some steps with GPT",
+      "start": 2880.44,
+      "duration": 6.32
+    },
+    {
+      "text": "that what are the keywords for these",
+      "start": 2884.96,
+      "duration": 4.399
+    },
+    {
+      "text": "sections and then defining the keywords",
+      "start": 2886.76,
+      "duration": 5.12
+    },
+    {
+      "text": "of them so it's independent of the graph",
+      "start": 2889.359,
+      "duration": 5.361
+    },
+    {
+      "text": "so it's with a several proms to extract",
+      "start": 2891.88,
+      "duration": 5.36
+    },
+    {
+      "text": "more knowledge so then I think at the",
+      "start": 2894.72,
+      "duration": 5.359
+    },
+    {
+      "text": "end of this you see that when you Hoover",
+      "start": 2897.24,
+      "duration": 5.48
+    },
+    {
+      "text": "over some keyword it show show you a",
+      "start": 2900.079,
+      "duration": 8.04
+    },
+    {
+      "text": "small uh um box that is describing that",
+      "start": 2902.72,
+      "duration": 8.16
+    },
+    {
+      "text": "so it's more of having all in one place",
+      "start": 2908.119,
+      "duration": 5.72
+    },
+    {
+      "text": "that you don't need to move around to uh",
+      "start": 2910.88,
+      "duration": 6.56
+    },
+    {
+      "text": "to read a paper and uh and also with",
+      "start": 2913.839,
+      "duration": 7.201
+    },
+    {
+      "text": "these uh sections and this graph and you",
+      "start": 2917.44,
+      "duration": 6.56
+    },
+    {
+      "text": "like click on the edges of them you can",
+      "start": 2921.04,
+      "duration": 5.24
+    },
+    {
+      "text": "explode it and see what is common",
+      "start": 2924.0,
+      "duration": 4.04
+    },
+    {
+      "text": "between two sections and what are the",
+      "start": 2926.28,
+      "duration": 4.16
+    },
+    {
+      "text": "differences and this is more interesting",
+      "start": 2928.04,
+      "duration": 4.48
+    },
+    {
+      "text": "when you have two different papers",
+      "start": 2930.44,
+      "duration": 4.119
+    },
+    {
+      "text": "because for example you want to compare",
+      "start": 2932.52,
+      "duration": 5.279
+    },
+    {
+      "text": "their method development and then uh",
+      "start": 2934.559,
+      "duration": 5.361
+    },
+    {
+      "text": "when you click on the edge it explodes",
+      "start": 2937.799,
+      "duration": 5.121
+    },
+    {
+      "text": "and summarizes the differences and",
+      "start": 2939.92,
+      "duration": 6.36
+    },
+    {
+      "text": "similarities of those ones and this work",
+      "start": 2942.92,
+      "duration": 6.56
+    },
+    {
+      "text": "is working only on archive papers",
+      "start": 2946.28,
+      "duration": 6.279
+    },
+    {
+      "text": "because really extracting semantic with",
+      "start": 2949.48,
+      "duration": 5.48
+    },
+    {
+      "text": "PDF and getting these sections it's not",
+      "start": 2952.559,
+      "duration": 5.0
+    },
+    {
+      "text": "so simple so because it could really",
+      "start": 2954.96,
+      "duration": 4.68
+    },
+    {
+      "text": "defer how people are publishing and",
+      "start": 2957.559,
+      "duration": 4.24
+    },
+    {
+      "text": "generating their PDF and with archive is",
+      "start": 2959.64,
+      "duration": 5.0
+    },
+    {
+      "text": "good that they always get in the text",
+      "start": 2961.799,
+      "duration": 4.76
+    },
+    {
+      "text": "and generate it themselves so it's a",
+      "start": 2964.64,
+      "duration": 4.52
+    },
+    {
+      "text": "more more trustworthy to extract the PDF",
+      "start": 2966.559,
+      "duration": 5.52
+    },
+    {
+      "text": "from them and then what you do we do is",
+      "start": 2969.16,
+      "duration": 5.08
+    },
+    {
+      "text": "that like when you also upload the paper",
+      "start": 2972.079,
+      "duration": 5.081
+    },
+    {
+      "text": "we could uh get all the references out",
+      "start": 2974.24,
+      "duration": 6.16
+    },
+    {
+      "text": "and then uh make a summary of the paper",
+      "start": 2977.16,
+      "duration": 5.88
+    },
+    {
+      "text": "and its references and show what is for",
+      "start": 2980.4,
+      "duration": 4.64
+    },
+    {
+      "text": "example the most relevant reference to",
+      "start": 2983.04,
+      "duration": 3.72
+    },
+    {
+      "text": "that because also on visualization we",
+      "start": 2985.04,
+      "duration": 5.279
+    },
+    {
+      "text": "are using page rank that like this size",
+      "start": 2986.76,
+      "duration": 5.799
+    },
+    {
+      "text": "of the nodes are referring on how",
+      "start": 2990.319,
+      "duration": 6.561
+    },
+    {
+      "text": "important that Noe is in the whole uh n",
+      "start": 2992.559,
+      "duration": 7.401
+    },
+    {
+      "text": "workk that you see and then we could see",
+      "start": 2996.88,
+      "duration": 5.679
+    },
+    {
+      "text": "that okay what is the m most important",
+      "start": 2999.96,
+      "duration": 5.52
+    },
+    {
+      "text": "reference within this domain and this is",
+      "start": 3002.559,
+      "duration": 5.601
+    },
+    {
+      "text": "a help a bit more for people who used to",
+      "start": 3005.48,
+      "duration": 6.52
+    },
+    {
+      "text": "read papers because for them it's quite",
+      "start": 3008.16,
+      "duration": 7.159
+    },
+    {
+      "text": "uh timesaving to find the most relevant",
+      "start": 3012.0,
+      "duration": 6.76
+    },
+    {
+      "text": "related work to look in to dive",
+      "start": 3015.319,
+      "duration": 7.601
+    },
+    {
+      "text": "in I wish I had a tool like that when I",
+      "start": 3018.76,
+      "duration": 6.16
+    },
+    {
+      "text": "was doing my",
+      "start": 3022.92,
+      "duration": 4.399
+    },
+    {
+      "text": "masters so like",
+      "start": 3024.92,
+      "duration": 4.24
+    },
+    {
+      "text": "I was doing information retrieval on",
+      "start": 3027.319,
+      "duration": 3.921
+    },
+    {
+      "text": "mathematics on mathematical",
+      "start": 3029.16,
+      "duration": 6.6
+    },
+    {
+      "text": "formula and um yeah just like reading uh",
+      "start": 3031.24,
+      "duration": 6.72
+    },
+    {
+      "text": "especially at the beginning like doing",
+      "start": 3035.76,
+      "duration": 5.2
+    },
+    {
+      "text": "the uh state-ofthe-art",
+      "start": 3037.96,
+      "duration": 5.159
+    },
+    {
+      "text": "research understanding what is there and",
+      "start": 3040.96,
+      "duration": 5.08
+    },
+    {
+      "text": "like reading just random papers that are",
+      "start": 3043.119,
+      "duration": 4.601
+    },
+    {
+      "text": "potentially about the topic and then",
+      "start": 3046.04,
+      "duration": 5.319
+    },
+    {
+      "text": "feeling completely lost there uh yeah",
+      "start": 3047.72,
+      "duration": 7.92
+    },
+    {
+      "text": "that uh like I think I would have been",
+      "start": 3051.359,
+      "duration": 6.281
+    },
+    {
+      "text": "more effective with a tool like that and",
+      "start": 3055.64,
+      "duration": 5.04
+    },
+    {
+      "text": "I I I I wished I had something like",
+      "start": 3057.64,
+      "duration": 6.36
+    },
+    {
+      "text": "that also more",
+      "start": 3060.68,
+      "duration": 5.76
+    },
+    {
+      "text": "yeah yeah sorry please go didn't hear",
+      "start": 3064.0,
+      "duration": 4.64
+    },
+    {
+      "text": "you",
+      "start": 3066.44,
+      "duration": 2.2
+    },
+    {
+      "text": "sorry I just didn't hear you so I just",
+      "start": 3069.24,
+      "duration": 4.119
+    },
+    {
+      "text": "asked what did you",
+      "start": 3071.88,
+      "duration": 4.199
+    },
+    {
+      "text": "say so like all everything I was saying",
+      "start": 3073.359,
+      "duration": 5.081
+    },
+    {
+      "text": "you didn't hear no just the last part",
+      "start": 3076.079,
+      "duration": 4.601
+    },
+    {
+      "text": "because I started to talk and then yeah",
+      "start": 3078.44,
+      "duration": 5.52
+    },
+    {
+      "text": "so I also wanted to mention that like I",
+      "start": 3080.68,
+      "duration": 8.0
+    },
+    {
+      "text": "was I was taking a German test last week",
+      "start": 3083.96,
+      "duration": 7.72
+    },
+    {
+      "text": "and I Was preparing for this German test",
+      "start": 3088.68,
+      "duration": 5.919
+    },
+    {
+      "text": "and there are so like there are so many",
+      "start": 3091.68,
+      "duration": 6.119
+    },
+    {
+      "text": "grammar Concepts that they",
+      "start": 3094.599,
+      "duration": 5.76
+    },
+    {
+      "text": "related example connectors right so",
+      "start": 3097.799,
+      "duration": 5.201
+    },
+    {
+      "text": "there can be um I know connectors that",
+      "start": 3100.359,
+      "duration": 6.561
+    },
+    {
+      "text": "connect sentences then there could be I",
+      "start": 3103.0,
+      "duration": 6.599
+    },
+    {
+      "text": "don't know how much German you know like",
+      "start": 3106.92,
+      "duration": 5.56
+    },
+    {
+      "text": "some connectors there for how do you",
+      "start": 3109.599,
+      "duration": 5.321
+    },
+    {
+      "text": "call them dependent sentences sometimes",
+      "start": 3112.48,
+      "duration": 4.56
+    },
+    {
+      "text": "these two sentences are independent",
+      "start": 3114.92,
+      "duration": 4.879
+    },
+    {
+      "text": "and sometimes the connectors are",
+      "start": 3117.04,
+      "duration": 5.24
+    },
+    {
+      "text": "actually adverbs not real connectors",
+      "start": 3119.799,
+      "duration": 4.201
+    },
+    {
+      "text": "right there are different sorts of",
+      "start": 3122.28,
+      "duration": 3.68
+    },
+    {
+      "text": "connectors and there are different sorts",
+      "start": 3124.0,
+      "duration": 4.16
+    },
+    {
+      "text": "of different grammar grammatical",
+      "start": 3125.96,
+      "duration": 5.76
+    },
+    {
+      "text": "things and for me like when I try to",
+      "start": 3128.16,
+      "duration": 6.6
+    },
+    {
+      "text": "comprehend all that this is just my mind",
+      "start": 3131.72,
+      "duration": 6.599
+    },
+    {
+      "text": "blows and having this graph structure",
+      "start": 3134.76,
+      "duration": 6.76
+    },
+    {
+      "text": "where you know some sort of Mind map",
+      "start": 3138.319,
+      "duration": 5.28
+    },
+    {
+      "text": "where you can zoom in different concept",
+      "start": 3141.52,
+      "duration": 4.72
+    },
+    {
+      "text": "and see how they are connected could be",
+      "start": 3143.599,
+      "duration": 4.641
+    },
+    {
+      "text": "quite useful and I think like with a",
+      "start": 3146.24,
+      "duration": 6.119
+    },
+    {
+      "text": "little bit of tweaking if I understand",
+      "start": 3148.24,
+      "duration": 7.16
+    },
+    {
+      "text": "correctly this project can also do that",
+      "start": 3152.359,
+      "duration": 4.601
+    },
+    {
+      "text": "right",
+      "start": 3155.4,
+      "duration": 4.88
+    },
+    {
+      "text": "yes I think I mean it's a lot of time",
+      "start": 3156.96,
+      "duration": 5.599
+    },
+    {
+      "text": "with this finding relation is if it's",
+      "start": 3160.28,
+      "duration": 5.76
+    },
+    {
+      "text": "rely on llm then it's like how well it's",
+      "start": 3162.559,
+      "duration": 7.921
+    },
+    {
+      "text": "described and so on but I think chunking",
+      "start": 3166.04,
+      "duration": 8.44
+    },
+    {
+      "text": "all grammatic pieces into a node and",
+      "start": 3170.48,
+      "duration": 6.28
+    },
+    {
+      "text": "then finding the relations between them",
+      "start": 3174.48,
+      "duration": 5.96
+    },
+    {
+      "text": "it could be a great start and for me",
+      "start": 3176.76,
+      "duration": 6.96
+    },
+    {
+      "text": "this the same all the time it's like uh",
+      "start": 3180.44,
+      "duration": 5.96
+    },
+    {
+      "text": "learning new things needs to find the",
+      "start": 3183.72,
+      "duration": 5.28
+    },
+    {
+      "text": "relations between them and that helps to",
+      "start": 3186.4,
+      "duration": 4.6
+    },
+    {
+      "text": "so okay this is the same as this one and",
+      "start": 3189.0,
+      "duration": 4.4
+    },
+    {
+      "text": "and when you have no clue and just walk",
+      "start": 3191.0,
+      "duration": 5.079
+    },
+    {
+      "text": "around it's hard to summarize everything",
+      "start": 3193.4,
+      "duration": 3.76
+    },
+    {
+      "text": "and learn",
+      "start": 3196.079,
+      "duration": 5.361
+    },
+    {
+      "text": "it and exactly and and that's like uh",
+      "start": 3197.16,
+      "duration": 7.08
+    },
+    {
+      "text": "the main reason I think we want we came",
+      "start": 3201.44,
+      "duration": 6.44
+    },
+    {
+      "text": "here but what was the first goal of the",
+      "start": 3204.24,
+      "duration": 5.44
+    },
+    {
+      "text": "project was I think even more",
+      "start": 3207.88,
+      "duration": 3.719
+    },
+    {
+      "text": "interesting in this direction that you",
+      "start": 3209.68,
+      "duration": 6.2
+    },
+    {
+      "text": "can have a a chain of questions going",
+      "start": 3211.599,
+      "duration": 9.441
+    },
+    {
+      "text": "down that really uh uh make a teaching",
+      "start": 3215.88,
+      "duration": 8.439
+    },
+    {
+      "text": "material I would say and then and the",
+      "start": 3221.04,
+      "duration": 4.759
+    },
+    {
+      "text": "reason we call we were calling it",
+      "start": 3224.319,
+      "duration": 3.601
+    },
+    {
+      "text": "adaptive is that based on how is your",
+      "start": 3225.799,
+      "duration": 5.241
+    },
+    {
+      "text": "past of learning these paths will defer",
+      "start": 3227.92,
+      "duration": 5.439
+    },
+    {
+      "text": "because I think uh peoples have",
+      "start": 3231.04,
+      "duration": 3.72
+    },
+    {
+      "text": "different",
+      "start": 3233.359,
+      "duration": 5.161
+    },
+    {
+      "text": "um uh technique or different preferences",
+      "start": 3234.76,
+      "duration": 5.799
+    },
+    {
+      "text": "and that like in this direction of",
+      "start": 3238.52,
+      "duration": 5.079
+    },
+    {
+      "text": "instead of having one for all teaching",
+      "start": 3240.559,
+      "duration": 6.24
+    },
+    {
+      "text": "uh processes that the platform can learn",
+      "start": 3243.599,
+      "duration": 6.72
+    },
+    {
+      "text": "you uh while providing more content uh",
+      "start": 3246.799,
+      "duration": 6.361
+    },
+    {
+      "text": "content for you but the scope was too",
+      "start": 3250.319,
+      "duration": 4.881
+    },
+    {
+      "text": "big for two weeks I would",
+      "start": 3253.16,
+      "duration": 5.28
+    },
+    {
+      "text": "say maybe later on we could work more on",
+      "start": 3255.2,
+      "duration": 5.76
+    },
+    {
+      "text": "that what was the most difficult part in",
+      "start": 3258.44,
+      "duration": 4.159
+    },
+    {
+      "text": "this",
+      "start": 3260.96,
+      "duration": 3.8
+    },
+    {
+      "text": "project I think that we couldn't",
+      "start": 3262.599,
+      "duration": 4.52
+    },
+    {
+      "text": "automate generating the graph that was",
+      "start": 3264.76,
+      "duration": 6.68
+    },
+    {
+      "text": "the more biggest challenge and then",
+      "start": 3267.119,
+      "duration": 7.96
+    },
+    {
+      "text": "also uh to find to change the project",
+      "start": 3271.44,
+      "duration": 6.679
+    },
+    {
+      "text": "topic to something that it's",
+      "start": 3275.079,
+      "duration": 6.401
+    },
+    {
+      "text": "really tangible so it's like not domain",
+      "start": 3278.119,
+      "duration": 6.24
+    },
+    {
+      "text": "specific that it will be interesting uh",
+      "start": 3281.48,
+      "duration": 5.48
+    },
+    {
+      "text": "for people with no background of",
+      "start": 3284.359,
+      "duration": 6.121
+    },
+    {
+      "text": "research and so on um because that was",
+      "start": 3286.96,
+      "duration": 6.0
+    },
+    {
+      "text": "one of the demands to find a problem",
+      "start": 3290.48,
+      "duration": 4.839
+    },
+    {
+      "text": "that matter for a lot of",
+      "start": 3292.96,
+      "duration": 4.0
+    },
+    {
+      "text": "people",
+      "start": 3295.319,
+      "duration": 3.961
+    },
+    {
+      "text": "like for example if I think about",
+      "start": 3296.96,
+      "duration": 4.28
+    },
+    {
+      "text": "something that is not related to",
+      "start": 3299.28,
+      "duration": 4.2
+    },
+    {
+      "text": "research and has a lot of different",
+      "start": 3301.24,
+      "duration": 3.599
+    },
+    {
+      "text": "complex",
+      "start": 3303.48,
+      "duration": 4.04
+    },
+    {
+      "text": "relationships relations between things I",
+      "start": 3304.839,
+      "duration": 4.24
+    },
+    {
+      "text": "think of Game of Thrones have you",
+      "start": 3307.52,
+      "duration": 2.36
+    },
+    {
+      "text": "watched",
+      "start": 3309.079,
+      "duration": 5.401
+    },
+    {
+      "text": "it yes and like all these people who do",
+      "start": 3309.88,
+      "duration": 6.88
+    },
+    {
+      "text": "different things they're like they",
+      "start": 3314.48,
+      "duration": 4.44
+    },
+    {
+      "text": "belong to different houses and uh",
+      "start": 3316.76,
+      "duration": 6.2
+    },
+    {
+      "text": "whatnot right and like when you watch",
+      "start": 3318.92,
+      "duration": 6.0
+    },
+    {
+      "text": "this and you think like what's happening",
+      "start": 3322.96,
+      "duration": 4.359
+    },
+    {
+      "text": "there it's a having a graph there that",
+      "start": 3324.92,
+      "duration": 6.04
+    },
+    {
+      "text": "explains what's going on would really be",
+      "start": 3327.319,
+      "duration": 6.641
+    },
+    {
+      "text": "helpful yeah yeah or which people are in",
+      "start": 3330.96,
+      "duration": 6.0
+    },
+    {
+      "text": "which chapters and like things like that",
+      "start": 3333.96,
+      "duration": 5.2
+    },
+    {
+      "text": "yeah",
+      "start": 3336.96,
+      "duration": 2.2
+    },
+    {
+      "text": "exactly okay was the deployment part uh",
+      "start": 3339.359,
+      "duration": 8.361
+    },
+    {
+      "text": "also difficult I see you used fly I or",
+      "start": 3343.839,
+      "duration": 7.801
+    },
+    {
+      "text": "it was something that extremely it's um",
+      "start": 3347.72,
+      "duration": 5.879
+    },
+    {
+      "text": "we had fun on the demo day stream L",
+      "start": 3351.64,
+      "duration": 3.679
+    },
+    {
+      "text": "didn't work so it's like if we deployed",
+      "start": 3353.599,
+      "duration": 3.601
+    },
+    {
+      "text": "it on a streamly then exactly at the",
+      "start": 3355.319,
+      "duration": 5.681
+    },
+    {
+      "text": "time we started to show our demo live",
+      "start": 3357.2,
+      "duration": 7.119
+    },
+    {
+      "text": "streamly crashed and I would say it's",
+      "start": 3361.0,
+      "duration": 6.28
+    },
+    {
+      "text": "hard to to develop with stream L when",
+      "start": 3364.319,
+      "duration": 6.121
+    },
+    {
+      "text": "you go to more complex visualization so",
+      "start": 3367.28,
+      "duration": 6.24
+    },
+    {
+      "text": "I think if we go back right the graph",
+      "start": 3370.44,
+      "duration": 5.56
+    },
+    {
+      "text": "was still okay but like when you have a",
+      "start": 3373.52,
+      "duration": 5.559
+    },
+    {
+      "text": "sequence of uh Dynamics so you click",
+      "start": 3376.0,
+      "duration": 5.68
+    },
+    {
+      "text": "here and so it's like mostly of State",
+      "start": 3379.079,
+      "duration": 4.52
+    },
+    {
+      "text": "Management and front end development",
+      "start": 3381.68,
+      "duration": 4.119
+    },
+    {
+      "text": "because when you have a lot of Dynamics",
+      "start": 3383.599,
+      "duration": 5.2
+    },
+    {
+      "text": "and inter connections then it's getting",
+      "start": 3385.799,
+      "duration": 6.361
+    },
+    {
+      "text": "quite uh so much time consuming to solve",
+      "start": 3388.799,
+      "duration": 6.76
+    },
+    {
+      "text": "this uh State uh within stream list it",
+      "start": 3392.16,
+      "duration": 5.679
+    },
+    {
+      "text": "still is great that it supports it so",
+      "start": 3395.559,
+      "duration": 5.881
+    },
+    {
+      "text": "you can do still quite uh",
+      "start": 3397.839,
+      "duration": 6.561
+    },
+    {
+      "text": "complicated the visualizations but it",
+      "start": 3401.44,
+      "duration": 4.679
+    },
+    {
+      "text": "will take",
+      "start": 3404.4,
+      "duration": 5.12
+    },
+    {
+      "text": "time but yeah it's the interface is",
+      "start": 3406.119,
+      "duration": 6.081
+    },
+    {
+      "text": "still pretty Advanced from what I see",
+      "start": 3409.52,
+      "duration": 5.68
+    },
+    {
+      "text": "like there is a a piece of text and then",
+      "start": 3412.2,
+      "duration": 5.919
+    },
+    {
+      "text": "you hover over a term and then it",
+      "start": 3415.2,
+      "duration": 4.919
+    },
+    {
+      "text": "explains what this term is and I also",
+      "start": 3418.119,
+      "duration": 5.24
+    },
+    {
+      "text": "see this graph structure and then you",
+      "start": 3420.119,
+      "duration": 6.641
+    },
+    {
+      "text": "can explore it which is pretty",
+      "start": 3423.359,
+      "duration": 6.401
+    },
+    {
+      "text": "impressive for a two we project super",
+      "start": 3426.76,
+      "duration": 6.359
+    },
+    {
+      "text": "impressive I think was where two so it",
+      "start": 3429.76,
+      "duration": 5.4
+    },
+    {
+      "text": "was I wasn't alone and we were both",
+      "start": 3433.119,
+      "duration": 4.641
+    },
+    {
+      "text": "having experience in web",
+      "start": 3435.16,
+      "duration": 6.6
+    },
+    {
+      "text": "development and uh and also my other uh",
+      "start": 3437.76,
+      "duration": 6.279
+    },
+    {
+      "text": "the other team member yatan he had a",
+      "start": 3441.76,
+      "duration": 5.48
+    },
+    {
+      "text": "great web development experience",
+      "start": 3444.039,
+      "duration": 7.921
+    },
+    {
+      "text": "and uh so together it was a lot to do",
+      "start": 3447.24,
+      "duration": 7.559
+    },
+    {
+      "text": "say even though we failed on the first",
+      "start": 3451.96,
+      "duration": 5.52
+    },
+    {
+      "text": "topic so we lost some time still I would",
+      "start": 3454.799,
+      "duration": 7.641
+    },
+    {
+      "text": "say and it's a part of the process right",
+      "start": 3457.48,
+      "duration": 4.96
+    },
+    {
+      "text": "yeah um if um maybe do you know any",
+      "start": 3462.88,
+      "duration": 8.84
+    },
+    {
+      "text": "books or other resources for people to",
+      "start": 3469.039,
+      "duration": 5.08
+    },
+    {
+      "text": "learn more about uh graph machine",
+      "start": 3471.72,
+      "duration": 5.44
+    },
+    {
+      "text": "learning knowledge graphs and how LMS",
+      "start": 3474.119,
+      "duration": 5.801
+    },
+    {
+      "text": "can be used for that I don't know if",
+      "start": 3477.16,
+      "duration": 5.28
+    },
+    {
+      "text": "there are many books about LMS yet maybe",
+      "start": 3479.92,
+      "duration": 4.56
+    },
+    {
+      "text": "not but like in general maybe there are",
+      "start": 3482.44,
+      "duration": 4.359
+    },
+    {
+      "text": "some cool resources that you can",
+      "start": 3484.48,
+      "duration": 5.28
+    },
+    {
+      "text": "recommend I never learn with books so",
+      "start": 3486.799,
+      "duration": 5.24
+    },
+    {
+      "text": "that's like I that's quite a tricky",
+      "start": 3489.76,
+      "duration": 5.319
+    },
+    {
+      "text": "things to recommend really but uh I",
+      "start": 3492.039,
+      "duration": 5.201
+    },
+    {
+      "text": "could recommend courses so I really",
+      "start": 3495.079,
+      "duration": 5.641
+    },
+    {
+      "text": "enjoyed the courses from",
+      "start": 3497.24,
+      "duration": 7.879
+    },
+    {
+      "text": "Stanford uh for graph data science and",
+      "start": 3500.72,
+      "duration": 6.24
+    },
+    {
+      "text": "also",
+      "start": 3505.119,
+      "duration": 4.0
+    },
+    {
+      "text": "uh recently deep learning AI they had a",
+      "start": 3506.96,
+      "duration": 5.32
+    },
+    {
+      "text": "really cool short course for Knowledge",
+      "start": 3509.119,
+      "duration": 7.0
+    },
+    {
+      "text": "Graph and LM so I I really find it",
+      "start": 3512.28,
+      "duration": 8.68
+    },
+    {
+      "text": "inspiring and uh within llm to be honest",
+      "start": 3516.119,
+      "duration": 7.0
+    },
+    {
+      "text": "I think it's a still I mean to to to",
+      "start": 3520.96,
+      "duration": 5.32
+    },
+    {
+      "text": "learn the basics I assume I think I I",
+      "start": 3523.119,
+      "duration": 5.361
+    },
+    {
+      "text": "like the course of",
+      "start": 3526.28,
+      "duration": 5.559
+    },
+    {
+      "text": "Sebastian um it's not also yet complete",
+      "start": 3528.48,
+      "duration": 5.96
+    },
+    {
+      "text": "I think because I I really like the",
+      "start": 3531.839,
+      "duration": 5.921
+    },
+    {
+      "text": "content his uh uh",
+      "start": 3534.44,
+      "duration": 6.24
+    },
+    {
+      "text": "contributing I also don't remember his",
+      "start": 3537.76,
+      "duration": 8.16
+    },
+    {
+      "text": "last name sorry my memory is never super",
+      "start": 3540.68,
+      "duration": 8.24
+    },
+    {
+      "text": "duper um I'm just trying",
+      "start": 3545.92,
+      "duration": 7.439
+    },
+    {
+      "text": "to uh find the last name but maybe I",
+      "start": 3548.92,
+      "duration": 8.119
+    },
+    {
+      "text": "could give the full name later on and",
+      "start": 3553.359,
+      "duration": 8.2
+    },
+    {
+      "text": "yeah and I think that's uh quite looking",
+      "start": 3557.039,
+      "duration": 7.121
+    },
+    {
+      "text": "uh interesting I think uh the the",
+      "start": 3561.559,
+      "duration": 4.081
+    },
+    {
+      "text": "material because the repo is not",
+      "start": 3564.16,
+      "duration": 4.12
+    },
+    {
+      "text": "complete at for",
+      "start": 3565.64,
+      "duration": 7.36
+    },
+    {
+      "text": "either and um more than that it's always",
+      "start": 3568.28,
+      "duration": 7.88
+    },
+    {
+      "text": "digging in and finding new content so",
+      "start": 3573.0,
+      "duration": 7.319
+    },
+    {
+      "text": "tricky to have it as a old uh fashion",
+      "start": 3576.16,
+      "duration": 6.12
+    },
+    {
+      "text": "domain like mechanical engineering that",
+      "start": 3580.319,
+      "duration": 4.52
+    },
+    {
+      "text": "you read a book and you know it's all in",
+      "start": 3582.28,
+      "duration": 4.88
+    },
+    {
+      "text": "because it's uh I think it's part of",
+      "start": 3584.839,
+      "duration": 4.921
+    },
+    {
+      "text": "learning is in this domain is to always",
+      "start": 3587.16,
+      "duration": 5.48
+    },
+    {
+      "text": "have a head or ear out to look for new",
+      "start": 3589.76,
+      "duration": 7.4
+    },
+    {
+      "text": "things and um and also learning how to",
+      "start": 3592.64,
+      "duration": 6.56
+    },
+    {
+      "text": "navigate with all of these informations",
+      "start": 3597.16,
+      "duration": 5.48
+    },
+    {
+      "text": "not to feel overwhelmed and still moving",
+      "start": 3599.2,
+      "duration": 7.0
+    },
+    {
+      "text": "forward and the course from Stanford um",
+      "start": 3602.64,
+      "duration": 4.76
+    },
+    {
+      "text": "that you mentioned is called machine",
+      "start": 3606.2,
+      "duration": 5.32
+    },
+    {
+      "text": "learning with graphs right yes so by Ure",
+      "start": 3607.4,
+      "duration": 8.52
+    },
+    {
+      "text": "leovit yes okay he's quite a wellknown",
+      "start": 3611.52,
+      "duration": 7.64
+    },
+    {
+      "text": "person in the graph Community right yeah",
+      "start": 3615.92,
+      "duration": 6.04
+    },
+    {
+      "text": "yeah and I really also recommend to",
+      "start": 3619.16,
+      "duration": 6.04
+    },
+    {
+      "text": "follow uh the graph conference uh that",
+      "start": 3621.96,
+      "duration": 5.119
+    },
+    {
+      "text": "is uh",
+      "start": 3625.2,
+      "duration": 5.76
+    },
+    {
+      "text": "uh he's taking care of",
+      "start": 3627.079,
+      "duration": 6.441
+    },
+    {
+      "text": "it and I think it's it has been so far a",
+      "start": 3630.96,
+      "duration": 4.8
+    },
+    {
+      "text": "Free Conference to attend because the",
+      "start": 3633.52,
+      "duration": 5.92
+    },
+    {
+      "text": "the research exchange there is really",
+      "start": 3635.76,
+      "duration": 7.839
+    },
+    {
+      "text": "great okay yeah that's um we should be",
+      "start": 3639.44,
+      "duration": 5.96
+    },
+    {
+      "text": "wrapping up that's all we have time for",
+      "start": 3643.599,
+      "duration": 4.081
+    },
+    {
+      "text": "today so thanks a lot anahita for",
+      "start": 3645.4,
+      "duration": 4.439
+    },
+    {
+      "text": "joining us today for sharing your",
+      "start": 3647.68,
+      "duration": 5.6
+    },
+    {
+      "text": "experience um with us answering all the",
+      "start": 3649.839,
+      "duration": 5.52
+    },
+    {
+      "text": "questions um and thanks everyone for",
+      "start": 3653.28,
+      "duration": 4.839
+    },
+    {
+      "text": "joining us today too being active asking",
+      "start": 3655.359,
+      "duration": 6.0
+    },
+    {
+      "text": "questions too so yeah it was fun thanks",
+      "start": 3658.119,
+      "duration": 7.0
+    },
+    {
+      "text": "a lot it was fun yeah okay see you",
+      "start": 3661.359,
+      "duration": 7.161
+    },
+    {
+      "text": "around and",
+      "start": 3665.119,
+      "duration": 3.401
+    }
+  ]
+}

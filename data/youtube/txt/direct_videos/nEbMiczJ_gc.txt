@@ -1,0 +1,1165 @@
+I think that uh a lot of the
+misconceptions around what is easy or
+hard in AI when it comes to thinking
+that it's easy it tends to be around
+misunderstanding
+the huge lift that it takes to get high
+quality representative
+data and then uh the misunderstanding
+how huge a lift it is to get a product
+in production that is
+scalable uh that uh also uh has a lot of
+corner cases in
+mind all right everyone welcome to
+another episode of the twiml AI podcast
+I am your host Sam charington today I'm
+joined by Patricia th Patricia is
+co-founder and CEO of private AI before
+we get going be sure to take a moment to
+hit that subscribe button whereever
+you're listening to Today's Show
+Patricia welcome to the podcast thanks
+so much Sam great to be here I'm looking
+forward to digging into our conversation
+we'll be talking about uh some really
+interesting things you're doing with
+regard to Ai and privacy and more uh to
+get us started I'd love to have you
+share a little bit about your background
+and how you came to start private AI
+that sounds great uh personally my
+background is uh in doing research in
+privacy preserving natural language
+processing uh specifically it was
+originally focused on homomorphic
+encryption so that lets you compute on
+encrypted data uh and um co-funded the
+first version of private AI on that
+topic you know I have a academic Hammer
+let's go find all the nails uh didn't
+work out uh turns out that's a very bad
+way of problem solving and
+then started the second version of
+private AI really with the focus of
+building a privacy layer that's built
+for developers uh that uh can actually
+help them comply with data protection
+regulations and now there I think a
+couple ways for us to dig into this
+topic the first I think is to dig
+into uh like what private AI is doing
+for AI developers and how um you know th
+those capabilities are expressed uh and
+then also like how you're using mln to
+do all of those things uh but let's you
+know start with the the use cases and
+what you're trying to enable absolutely
+so the the core technology is
+understanding what's in your data what
+kind of personal information you have
+protected health information payment
+card industry information confidential
+information all of these uh can play a
+really big role in whether or not uh you
+can end up getting data for your AI
+projects whether or not you're going to
+be able to use thirdparty tools uh what
+exactly happens with regards to uh the
+the uh output of the training data uh
+when it comes to sens sensitive
+information being displayed to your
+users or employees or otherwise and so
+really what the the product does is
+identifies this personal information and
+is able to uh redact whatever it is that
+you don't need uh and that's really the
+concept of data minimization which is
+core to a lot of data protection
+regulations got it got it minimization
+from the perspective of not having data
+that is not necessary in the process
+exactly
+and um it sounded like we're talking
+about data that comes into contact with
+a system in three different places maybe
+even more but you know certainly uh
+input and output and maybe you know
+storage and and can you kind of talk
+about data Flows at the way you see them
+absolutely so if you look at large
+language models in particular for
+example uh you're going to be sending
+data Maybe to a third party uh in which
+case whatever information you're sending
+you're losing control of uh when you're
+sending it external to your organization
+or to your own laptop and so it's really
+important to think about what kind of
+information you're sending through what
+can you remove and then once that
+information is removed it can very uh
+often be reintegrated into the resulting
+output of the model and so you can still
+have a fairly seamless interaction with
+the model without that risk of uh
+sending that data externally and then
+other aspects of it are even if you are
+have a model internally within your own
+private environment there are a few
+things to be concerned about one are you
+collecting data that you shouldn't be uh
+because whatever data that you do
+collect puts you at higher and higher
+risk of a a more significant data breach
+down the line uh that's part of the the
+interesting part about data minimization
+you keep what you need it you don't keep
+what you don't need meaning that you you
+strip out that risk uh from your data in
+the very likely chance that at some
+point there will be a data breach and
+then there are other aspects to it with
+regards to training uh when it comes to
+trading models you I think this
+community probably is aware that that
+data can be quote unquote memorized by
+the model and leaked out yeah and as a
+result leaked out and there's lots of
+research showing this uh there initially
+for character language models then for
+gpt2 uh and then uh you know they're
+more and more coming out around uh
+exactly the risks around training or
+fine tuning on personal and confidential
+data and we've got some episodes we can
+link to in the show notes about that
+topic perfect oh yeah I saw that you
+interviewed uh Professor Carini uh
+that's yeah he yeah great great person
+to talk to about that um then there's
+also the risk of uh having personal and
+confidential data in the contextual data
+that you're using to create embeds for
+rag for example and that's the one where
+a lot of people actually don't think
+about the assumption is that uh if it's
+an embedding uh you know it's
+generalized kind of opaque right yeah
+exactly but that is completely untrue
+and
+uh there there's um there's research
+showing how if you have for example word
+embeddings uh that are created through
+from Healthcare data uh the names and
+first name end up closer in distance to
+last names and disease that somebody had
+ends up closer in distance to the
+relevant
+name and so even just if you can't
+inverse the embedding does that mean
+that is subject to leakage or it's
+subject to attack like I can get
+attacking that but yeah leak you know
+kind of passive leakage seems more
+difficult to less likely I guess no
+subject to both it's subject to both
+really but I like that you're bringing
+that up because I I was doing a deep
+dive around uh inversion ATT talkx
+embeddings right uh there are some
+that's showing that are showing that uh
+when you invert an embedding uh even a
+dense embedding you can get up to 92% of
+the original context so that's that's an
+attack right okay that's an attack um
+however what is more likely is that uh
+you are going to be leaking that
+information uh to as part of the output
+of the model uh so if you for example
+have embeddings that uh discuss that are
+or um contain information about folks
+people's salaries for
+example that can get leaked out in one
+of the examples uh for a data leak for
+for U one of these LMS was finding out
+the salary of a CTO at a company um the
+this can happen with embeddings just as
+much as with fine tuning interesting
+interesting and was the example the CTO
+salary example that was an embedding
+leakage or I don't know okay I don't
+know if public info can you talk through
+an example of like how an embedding
+leaking data would work I I guess I'm
+imagining a scenario like a scenario
+with regard to a particular condition
+and somehow the name that it uses as an
+example is a real person's name is it
+like that kind of thing or yeah so so
+these embeddings can be more than just
+word embeddings right they could be
+representative of uh paragraphs of
+documents they could be uh chunks that
+are basically easy to search uh and then
+when you send in your query through your
+large language model uh it's going to go
+through an embedding model look through
+your database of uh embedding see what's
+closer to the query and then produce an
+output with that information uh and so
+if that query is asking for something
+sensitive that sensitive piece of
+information could be leaked and it could
+even be leaked accidentally if even if
+you're not asking for something
+particularly sensitive but it it is
+relevant to the context of the question
+but then we need to distinguish between
+sensitive information being in the
+Corpus of chunks that the embeddings are
+referring to and leaking information
+from the embeddings themselves so we
+need to distinguish
+between the leak if you have access to
+the embeddings
+directly uh and how you can how you can
+uh pull out information from there uh
+whether or not it's an inversion attack
+whether you're doing a distance
+measurements and you have or or similar
+and you have to uh distinguish that from
+uh output uh or risk with with output
+from uh models that are using a database
+of embed
+to create uh responses does the risk
+require that the sensitive information
+still be in the data
+or can just the fact that the sensitive
+information was used to produce the
+embeddings even though the database has
+been
+scrubbed uh cause problems so if the
+sensitive information was used to
+produce the embeddings uh the chances
+are that there's sensitive information
+left over in the embeddings themselves
+that could be output um and so that's
+why the the recommendation there is De
+identifying Data before you create
+embeddings or um understanding what data
+you have in the first place to not
+include that personal information uh
+period uh and just stripping out that
+entire entire piece it depends if you
+need the context or not uh around that
+personal information and the interesting
+part is that a lot of the times you
+don't need the personal information to
+get value from a lot of NLP applications
+if you think topic modeling sentiment
+analysis um and many many other ones you
+the sensitive information is generally
+Superfluous unless you're doing
+something very explicit in uh HR or in
+or need specific customer information uh
+for things like your master data
+management system uh you're not going to
+you you often don't need that personal
+information and in addition to that um
+the person information can lead to more
+bias in the responses uh and so that's
+something else to watch out for more and
+more research is coming out uh about how
+things like physical attribute or the
+country that you're from or uh the uh
+political affiliation Etc that can all
+lead to biased responses from the model
+and so by removing that that removes the
+or reduces the risk of having biased
+responses got it got it got it so that
+kind of brings us full circle to how
+folks might use private AI so one is you
+are interacting with third-party llm and
+you've got sensitive information that
+you don't want to be exposed to that llm
+and
+so uh private AI would sit between the S
+your system and the llm and kind of
+cleanse that data as it's passing
+through and then um there's another part
+that is about um if you're training
+doing finetuning or training embeddings
+or some uh aspect of using data to build
+a model then you can also cleanse that
+data kind of in is it like in place or
+is it as part of the training Loop that
+you're working with that data uh it's an
+API so it runs in your environment you
+send a post request through and then out
+comes the uh redacted data and the list
+of personal information and sensitive
+data that was found and so you could put
+it anywhere in your software pipeline
+that makes sense got it and are you is
+it um are you typically doing it request
+by request or like are there b batch or
+bulk apis there's there's a batch mode
+and also a streaming mode as well uh it
+sounds like a foundational part of what
+you're doing has to be kind of entity
+recognition identification uh in this
+data because the user is not expected to
+tell you
+specifically um um the entities that are
+well what information does the user need
+to provide is may be a better place to
+start yeah the user the user can provide
+uh the so we provide a list of entities
+that they can
+identify uh and they could either choose
+to by default remove all of them uh they
+could choose which ones to remove if
+they don't want all of them or they
+could choose based on regulation that
+they're trying to comply with so if it's
+Hippa or if it's uh gdpr uh CP PR uh you
+can choose which one you want and then
+it'll Auto Select which entities make
+most sense for uh that regulation
+thinking about entity recognition in
+general like that's been a problem for a
+long time and
+um on the one hand because it's been
+around for a while and there are lots of
+different solutions I think it's
+tempting to think that it's like a a
+solved problem uh on the other hand you
+know if you have any experience trying
+to get llms or you know even traditional
+tools to do this it is very hard uh talk
+a little bit about your experience with
+the entity recognition part yeah I think
+that uh a lot of the misconceptions
+around what is easy or hard in AI uh
+what it when it comes to thinking that
+it's easy it tends to be around
+misunderstanding
+the huge lift that it takes to get high
+quality representative
+data and then uh the
+misunderstanding how huge a lift it is
+to get a product in production that is
+scalable uh that uh also uh has a lot of
+corner cases in mind and part of the
+part of the problems that uh you have to
+deal with when building a named entity
+recognition system are um you're going
+to deal with optical character
+recognition errors you're going to deal
+with automatic speech recognition errors
+depending on of course your use case but
+if you're dealing with a lot of data
+like um many of these large organ ations
+are uh the the different types of
+contexts is huge and then the different
+languages that it needs to apply to as
+well so and then all of the different
+entity types that you need to uh be able
+to perform well enough on uh for it to
+be good enough to comply with data
+protection regulations so it's it's a a
+huge balance between speed accuracy uh
+and then multimodality in addition to
+that because it needs to generally deal
+with uh results from files and uh of
+course text transcripts chat logs uh but
+uh audio as well uh and if you put all
+of that together that's a that's a giant
+problem space to deal with uh so it's
+named entity recognition uh itself is a
+an important piece of the puzzle
+everything else is also a huge lift for
+the named entity recognition lift if we
+double click on that you have to think
+about uh the 50 plus entity types that
+you often need to recognize for many of
+for some of these regulations uh
+multiply by the number of languages that
+you need to to uh function on uh and you
+need to do that in a way that's also uh
+Speedy right uh so uh We've created data
+pipelines that are very efficient uh
+with regards to and adding new entity
+types uh We've created data pipelines
+that are efficient with regards to
+creating synthetic data to to add to our
+current uh data because there's no
+there's no real personal information
+that you could go out and capture in the
+wild uh you have to basically either beg
+customers for data or uh you have to
+create your own uh and then finding out
+what kind of data you need to add to the
+model in order to make it more efficient
+uh or more effective without uh while
+limiting the L the decreas in efficiency
+in your data process with the more data
+that you add
+is the
+customer
+training The Entity recognition model
+like or is it's supposed to be zero shot
+with regard to the customer data yeah
+absolutely no training by the customer
+uh and for for pii in particular uh and
+here's why um it takes a lot of training
+to know how to annotate properly uh if
+you introduce errors in The annotation
+process uh that can have uh bad effects
+in the models then we can't help you
+debug the model because uh we don't know
+what kind of data you put in there um
+the in addition to that
+the basically we won't be able to
+provide the same model uh of that's
+that's uh consistent for the kind of uh
+Corner cases that you have that might be
+relevant to other customers as well
+meaning if a customer
+fine-tuning you know what you're doing
+then that it impacts repeatability
+across customers and then um are you as
+part of the the service like are you
+making some uh type of guarantees to the
+customer or uh anything like that uh we
+do have a warranty that's optional that
+folks can buy and that's uh provided by
+arilla Ai and it has a a certain
+accuracy threshold um that uh is
+guaranteed that we reach if not your
+your contract money is returned to you
+uh and we have a certain time period uh
+in which to fix anything that falls
+below that threshold and so your ability
+to to honor kind of warranties or like
+that uh is going to be impacted if
+you're customizing the model for each
+customer yeah um however we do deal with
+extremely sensitive information often
+things like credit card numbers for p
+PCI compliance uh or Healthcare
+information where folks do not want to
+have to go into the healthcare data and
+and uh look around to see whether
+anything was missed uh and so our um the
+stakes are pretty high when it comes to
+accuracy can you talk a little bit about
+like how about generalizability and like
+how you've built the system to be able
+to deal with generalized
+data um you know without without
+training or tuning to specific ific
+customer use cases I would imagine
+there's a fair amount of even though
+we're limiting ourselves to entities I
+would imagine there's a fair amount of
+variability in the types of files and
+documents and that could be problematic
+correct
+um lots of data is the answer to that
+okay lots of data collected over the
+years uh where uh oftentimes it's our
+customer saying hey you missed this
+stuff uh fix it and they send us a chunk
+of data
+and then we'll add synthetic data to
+that uh and do a lot of rounds of
+testing um but yeah it's it's it's a big
+uh lift to be able to have a
+generalizable model like that you
+mentioned multilingual as well is that
+also solve with more data and the models
+deal with it um on their own or You Are
+there specific challenges and um things
+that you have to do in order to support
+multilingual there are specific
+challenges um and and often times it
+could be things like uh when you have
+multilingual data uh conversations for
+example so code switching uh that can be
+fairly tricky to deal with um the also
+the ability to detect what what kind of
+language uh is being used to be able to
+provide the best model that's something
+that we put in place as well so a
+language detection system um the ability
+to uh also based on the language
+detection system provide different
+labels in the appropriate languages is
+also something that we've worked on um
+and so there there more data definitely
+uh but also how do specific models deal
+with uh uh logal graphic languages uh
+like uh Chinese characters for example
+versus um alphabets uh like English uh
+and uh be being able to find models that
+are suitable for each of these in
+addition to finding optical character
+recognition models that are suitable for
+each of these uh and to training them uh
+with the right data is very tricky and
+you've mentioned OCR a couple of times
+is the presumption that your customers
+are
+not responsible for the OCR themselves
+they're giving you whatever their raw
+data is and PDFs and scans and all that
+and you have to deal with it for them
+depends on the customer but oftentimes
+yeah we have to deal with it and OCR is
+another one of those things that is like
+oh that's a solved
+problem and it's
+not um mainly again because of data
+complexity uh because you've got
+documents within documents or images
+embedded in documents and uh being able
+to
+um it's not about just surface level
+comprehension right it's not just a
+summary that you're providing uh it's
+this is really detailed work that's
+being done and that's M you need to be
+able to find the name in the chart in
+the section and the you know on a page
+in in an image basically exactly yeah
+and and when folks say oh I could just
+do that with a large language bottle
+it's really not taking into
+consideration uh the amount of lift it
+actually takes for the more detailed
+work at a large scale uh in in actual
+production when you're handling so many
+different variables at once so large
+language models are out of the box very
+good for things like
+summarization uh for um you giving you
+ideas stuff like that but when it comes
+to really detailed work you the data is
+still incredibly important and so as
+opposed to large language models you're
+using uh more traditional approaches to
+you know these various problems entity
+recognition and OCR
+and a that question but also like are
+you using off-the-shelf uh open source
+or commercial things or if you rolled
+your own for most of the underlying
+models like how do you think about your
+model supply chain so we think about it
+in the sense of uh what our customers
+really need and they're dealing with
+massive volumes of data and so large
+language model tend to be too slow for
+them and um the amount of additional
+accuracy that one might get with a large
+language model with we were trained on
+the data that we have and adapted uh for
+their tasks um is often not worth the uh
+speed and cost increase for the
+customers and so we spend a lot of time
+focusing on um making the models as
+accurate as possible in you know a
+smaller uh package and so there there
+are multiple ways you can do that you
+can you know start from a traditional
+base and kind of build up from there or
+you can like take a large language model
+and distill it down to smaller language
+model is there a general direction that
+you prefer for these kinds of tasks it
+it's a continuous experimentation
+process we're always uh trying different
+things to see what uh how how much juice
+we could squeeze out of things you
+mentioned synthetic data a bit can you
+dig into that a little bit more and some
+of the ways you're thinking about that I
+can a little bit uh a lot of synthetic
+data is helpful when you don't have uh
+enough data for a particular problem I
+think uh one thing I want to point out
+there is
+um some folks might think that synthetic
+data is the right way to go for training
+their models which might be true and it
+worked for us and the reason that it
+worked for us uh is because we also have
+a good balance of real world data uh in
+addition to the synthetic data and we've
+informed that synthetic data with the
+real world coordinate
+cases um when it comes to fully
+synthetic
+data uh the hesitation there is that it
+if you're able to create fully synthetic
+data uh for a
+problem you that problem might for in
+some cases depending on the problem that
+you're trying to solve uh that problem
+might already be solved because you were
+able to create that data um in other
+cases you might lose context uh where
+you might need things like uh
+conversation flow information uh or did
+particular customer service agent need
+training in a in a particular case um
+and uh medical information that's
+related to one another to different
+parts of um uh a or or a different time
+a full timeline of a patient for example
+um and so the the type of synthetic data
+that we use uh is usable because we have
+access to high quality original data and
+uh we also um have a very specific task
+where this works out well for it and are
+you like at what level are you primarily
+using synthetic data in the process of
+training The Entity recognizer
+or are there other parts of the system
+where synthetic data comes in handy for
+you we also generate synthetic personal
+information as part of a an option for
+the output and that's one of the
+interesting pieces where if you want to
+keep things like conversational flow or
+uh topic modeling uh and and things like
+that you still can because the majority
+of the context is still there meaning as
+opposed to masking you can generate
+synthetic data that takes the place of
+the original tokens yeah interesting
+okay yeah and so very similar to masking
+you could still keep the context of uh
+of the data we've talked a little bit
+about OCR and how you're using that as
+one example of
+multimodality um can you talk about
+other ways that you're using and
+incorporating multimodal data yeah so uh
+we also do provide the ability to redact
+information generally for PCI compliance
+uh from audio recordings and so you
+could bleep out the personal information
+from the audio recordings themselves
+meaning I've got a call center and I'm
+recording for quality assurance and um
+people are talking about personal
+they're incorporating person pii into
+those conversations and you want to
+redact it before you store it for
+example correct that's right and that's
+really important for PCI DSS compliance
+uh where you do need to remove things
+like credit card numbers and account
+numbers and um the way that we do that
+is uh very much by you know where we
+bleep at the pii uh one thing I will
+point out is that um there is some
+research on
+anonymizing the voice within a recording
+um and that's interesting because if you
+anonymize information it falls outside
+of certain data protection regulations
+like the
+gdpr um and for those of uh those
+listeners who don't know the edpr is the
+general data protection regulation in
+the EU and it basically covers what
+you're allowed to do with personable
+information and how and consent and all
+that jazz so if you anonymize data which
+basically means you there's a very very
+low risk of reidentifying the individual
+then you don't have to comply with that
+that regulation because you're no longer
+dealing with person with personal data
+um but anonymizing the voice doesn't
+remove responsibility to anonymize pii
+that's mentioned and yeah that's correct
+uh and so the voice is a biometric
+identifier uh and you can uh I'd say at
+your own risk uh modify the voice and
+and perhaps call it Anonymous but
+there's not enough research out there in
+my opinion to say that uh a voice
+modification cannot be reversed and and
+so there are certain assumptions you
+might have to to make uh with regards to
+whether or not you can consider an audio
+recording actually anonymized but uh
+data minimization uh is not just about
+anonymizing it's about limiting the uh
+risk of the data and in situations like
+removing credit card numbers you're
+reducing the risk of fraud for example
+uh and if there's a data leak reducing
+the risk of how much information is
+going to be part of that data leak and
+are you doing this on stored audio or do
+you have the ability to do it real time
+it could be both uh we we are not an ASR
+compan that sounds a lot harder yeah
+yeah it is hard it is hard but we are
+not an ASR company to be clear so uh we
+can do it on audio but if anybody needs
+something uh that's more specialized
+like um uh you know uh things like um
+diarization of audio or uh things that
+yeah if you need actual uh control of
+what your what's going to happen to your
+audio aside from deidentification there
+are lots of good companies out there
+like uh uh deepgram which I saw that you
+interviewed assembly um and Chio and so
+on who can do a great job at that you
+have an audio stream coming from your
+call center people are mentioning pii
+and credit card numbers and the like on
+your audio stream you can real time
+redact certain types of pii as it's
+happening is text being used as an
+intermediate or is it happening real
+time on it on voice yeah text is being
+used as an intermediary um to if it were
+to happen real time on voice uh You'
+you'd be talking about uh probably
+keyword
+detection and uh then you have to train
+a model specifically on keywords that's
+just a very large search Bas of keywords
+to to be looking for got it got it got
+it so yeah I mean you could CH it for
+digits for example and and probably be
+okay but that's a big problem um so now
+I'm thinking about the you know even
+with Texas an intermediary
+you're
+either doing like Word level resolution
+where each word has a Time associated
+with it but then um I'm imagining
+there's certain types of P well even
+like a a string of credit card numbers
+like you have to zoom out Beyond
+individual numbers to know what's
+happening there you know or you can look
+at like complete utterances but then you
+still have to figure out like how to
+align the credit card number that's in
+the middle of a phrase with the um with
+the audio like how do you deal with that
+is that a big deal for for doing this or
+and how do you deal with that no it
+definitely is and and the reason is
+because of of disfluencies in speech
+right so somebody might say my credit
+card number is 5'9 oops I dropped my
+card sorry it's 32 uh
+592 oh no that was a two not a four yeah
+and I wasn't even thinking about that
+that would make it even a lot harder I
+was think having been looking at uh you
+know looking at some transcriptions ASR
+data recently and the different levels
+that it can that you can use it like it
+yeah no it's it's definitely tricky uh
+so the more context the better
+definitely uh the um the cleaner the
+transcript the better as well um and if
+it's uh only one language it's also
+easier uh but the the world isn't
+perfect and none of these things really
+apply most of the time
+maybe the unil unilingual aspect but uh
+even then like what I guess I'm trying
+to get at some kind of practical detail
+there uh in terms of either you know
+models or you know things that people
+should be thinking about in terms of the
+data or if you know someone's
+encountering problems like this what
+should they be thinking about or what
+have you learned about tackling it uh
+real world examples are extremely
+valuable and you might have all sorts of
+so that that's the that's the limitation
+of um fully synthetic data um what you
+expect to encounter is very different
+from what you might encounter in the
+real world and um oftentimes you don't
+it's very hard to get access to that
+real world data because of personal
+information and
+so what one thing you can do is use our
+uh synthetic pii model to generate just
+the synthetic personal information get
+access to the rest of the data uh which
+might be relevant for your more minute
+uh use cases meaning just inject
+synthetic pii into random places and
+conversations uh in instead of the
+actual Pi because oftentimes you can't
+get access to data because of the
+privacy concerns meaning if you're if
+you're building models and part of the
+reason why you can't build strong enough
+models is because you can't get the data
+because of the pii concerns you can use
+a tool like yours
+to to mass the pii or make synthetic a
+synthetic version of it with synthetic
+pi and then um convince somebody to give
+you their data based on that correct yes
+we have customers who use us for that
+purpose okay okay got it and there will
+be some who have contractual agreements
+uh for that with their customers where
+they they promise to uh anonymize or
+reduce the pi and the data uh in order
+to be able to train their models with it
+and that that's uh becoming more and
+more important as people realize the
+actual harms of training models with
+sensitive information yeah also on the
+multimodal front uh I think when we
+spoke previously you mentioned something
+about like logo detection in documents
+was a a challenge that you ran up
+against at one point yeah yeah so um we
+have more and more a request for
+confident information detection because
+uh also of large language models uh and
+so we've built out a solution that deals
+with that also dealing in in the
+confidential information detection piece
+that one we do handle uh with customers
+to to um adapt to their particular
+confidential information because that's
+that changes even on a daily basis for
+some um but uh logos is actually
+something that uh comes up as
+confidential information so if you have
+for example Le customer presentation uh
+and you want to train a model or send
+that through to a model uh and you don't
+want to send that customer logo through
+uh that's something that we can blur out
+uh so that you don't have to deal with
+that piece of information um but um
+that's that's another piece think about
+building a privacy solution uh it's so
+many uh things that come up that you
+don't expect that you need to collect
+knowledge about year after year to keep
+improving the product so it's not
+something that you could just build out
+of a box with a named entity recognition
+model that recognizes five entities it's
+it's a real drag to
+to actually figure out what's
+what how do you maintain like a coherent
+how do you maintain your product as a
+coherent system as opposed to a
+patchwork of you know kind of individual
+things to address individual issues um
+I'm imagining that becomes a challenge
+just in terms of you know manageability
+of the system and like you know code
+manageability like is there a particular
+approach that you found useful for that
+well one having great Architects and
+Engineers uh but would highly recommend
+if you can afford them um but to um
+the it there there can definitely be
+product scope uh product creep or or
+feature creep and uh we'll have folks
+requesting entity types that don't have
+to do with privacy and if we can't fit
+it into the framework of whether or not
+it has to do with privacy or
+confidentiality then it's not something
+we really consider doing um we do have
+many folks using us for named entity
+recognition because of how highly
+accurate our system is um and uh that's
+where that uh that creep can come in in
+those requests uh so it's really about
+keeping it focused otherwise it it I
+think people already sometimes have a
+hard time figuring out what we can help
+them with thinking we just do de
+identification when we can also do this
+detection and incorporation into their
+uh their risk pipelines and and their
+data cataloges and MDM systems and so on
+um so not not having that go beyond the
+realm of our goal is privacy and
+confidentiality and making sure that
+it's as important and as uh good as
+cyber security processes can you talk a
+little bit more about the integration
+with data cataloges and MDM systems what
+what is is it just that you have massed
+the data before it gets put into those
+systems or are we talking about
+something different different different
+in this case it's using that named
+entity recognition aspect of it to
+create metadata that goes into those
+systems so while you're de identifying
+data to go into your models for example
+you're cataloging that data and putting
+it into your data catalog uh so that you
+could go back to it and see uh what the
+risks were or are of specific data
+sources and you don't have to go and
+redo the work every time so while you're
+de de identifying what is the data that
+you're putting in into your data catalog
+the entities that you pulled that you
+identified or the um deidentified yeah
+the entities the entities that you that
+are identified along with the data
+source uh as an example um there can be
+other aspects to it as well depending on
+what aspects of data protection
+regulations you want to comply with and
+um how you want to build out that
+internal privacy pipeline uh but yeah
+that's that's very much H so if you if
+you think about it the there's a really
+robust system right now in place within
+organizations to uh deal with uh
+compliance for structured data and 80 to
+90% of the data they have is
+unstructured there is no real robust
+system for folks to deal with that at
+the moment and uh with our technology uh
+what people can do is build that build
+out that system uh with that single API
+to pull that data from the unstructured
+side of things into their pre-existing
+data catalog and and MDM system and that
+means that uh suddenly you've got that
+robust data management system covering
+all your data not just 10 to 20% of it
+and one really good place to start is if
+you're already dealing with that data
+for building up your large language
+models you're looking at the risk of the
+data you might as well use that
+information to start updating your
+internal systems uh you mentioned
+earlier a bit about um how the kind of
+the connection between privacy and
+ethical responsible Ai and how the
+personal information leaks or can leak
+in into models and um cause Downstream
+biases can you elaborate on that a
+little bit sounds like that comes from
+research that you've come across yeah so
+um I used to when I had a little bit
+more time co-organize this uh workshop
+at uh various uh computational
+Linguistics conferences the last one was
+at ACL and in this last one there were a
+couple of papers talking about how the
+input to a model can affect uh the
+output based on uh bias uh and one of
+them were was about physical
+attributes uh and how that can affect
+the uh whether if those physical
+attributes are about um uh disabilities
+that can affect the output of the model
+and when we fers came out with the
+private GPT we were also looking at what
+kind of biases can uh the model have
+depending on the pii one of the
+experiments we ran uh which has been
+since correct did uh was if you uh write
+out I my friend is British uh and he's
+in prison what are some of the reasons
+that he might be in prison you get very
+different results from my friend is from
+Somalia uh and is in prison what are the
+reasons my friend might be in prison and
+if you just say my friend is from
+country one uh what are some of the
+reasons you might be in prison uh you
+get much more unbiased results uh as an
+output
+and so uh what this is showing is I the
+inherent bias that is in the internet is
+being showcased in the output of these
+large language models we we can try to
+minimize that by minimizing at input the
+pieces that might lead to that bias got
+it so as opposed
+to um trying to mitigate it via
+prompting techniques or various other
+things if the input data is kind of has
+these in
+identifiers whether they're names or
+countries or genders or um you know less
+obvious things even uh you can identify
+those things and um Mass them
+and that will reduce bias in the llm
+output correct yes and some of these
+that do end up leading to bias are
+actually classified as special
+categories of sensitive data under the
+gdpr and you are not allowed to process
+them under the GDP which is interesting
+because technically that means that we
+might not be allowed to process it even
+if our goal is removing them right so
+that's a little bit of a that's always
+been a bit of a
+conundrum yeah yeah but we're helping
+the problem anyway right right um but uh
+things like uh your religious affili
+political affiliation religion uh sexual
+orientation those are all things that
+are special category data uh and and you
+have to be extra careful with those so
+it's it's not uh just I I I don't really
+want to use the word just but it's not
+uh really about only complying only
+trying to do this is this doesn't sound
+great it's not about just ethics it's
+also about compliance uh and uh both are
+very important um but the ethics are
+being reflected in the law in this case
+which is nice and on the topic of Law
+and regulation
+uh there are host of new laws coming
+online eui act the um you know things in
+California in the US are evolving like
+I'm imagining that that's something that
+you keep an eye on absolutely uh what
+what can you what's your kind of take on
+the landscape and um you know it's
+probably a whole different hourlong
+conversation but like how are you seeing
+things evolve
+H interesting moment in time to ask that
+question
+so the the eui act when it comes to uh
+ethical AI uh it it covers things like
+bias what is or is not an acceptable use
+of AI um and it really applies to the
+higher risk uses of AI uh and with
+regards to S sensitive or personal
+information that's all covered still
+under the GDP regardless of whether or
+not the UI act applies to you and one
+thing that's really nice about
+regulation when it's clear is that it
+provides guidelines to organizations
+that are struggling and figuring out
+what the best practices are uh because
+they could go look at the regulation or
+the standard and say okay this is what
+is said is okay once we're done this we
+could innovate and there's no limbo um I
+can't say there's no Limbo with the gdpr
+that there are a few
+things I I I don't even know if it's
+possible to comply with the gdpr at the
+moment with the technology that's
+available uh um and except for for more
+constrained cases um but uh where part
+of the world is headed is there's this
+issue of trust uh and this issue of
+trust is can be grappled with with
+appropriate regulation uh with
+transparency with um making sure the the
+public and the users are aware that
+their concerns are being taken seriously
+and then uh this other part of the world
+is uh currently putting a lot of
+investments in AI when just dismantled
+uh the uh guard rails if you will that
+were recommended around AI uh and that
+is not going to be particularly helpful
+with dealing with the huge and growing
+concerns that the population has around
+misuse of AI uh and that's not good for
+organizations that are trying to
+integrate AI into their business either
+because now they have to deal with with
+uh that growing concern without any
+guard rail to point to that's official
+uh that so leads to inefficiencies down
+Bel line so then taking a step back with
+all of the things that we talked about
+in mind like how do you see the space
+evolving how I see this pce evolving
+is there are certain
+industries that are ahead of the game
+when it comes to responsible data
+practices and have already embedded them
+within their data practices for over a
+decade now uh and there are other
+industries that are just catching up
+when it comes to unstructured data and I
+think there's going to be a lot of
+cross-pollination uh once folks start
+catching up uh what I'm seeing with
+regards to uh larger Enterprise is that
+the most the ones that have already been
+thinking about AI for a while are now
+starting to think about the guard rails
+the ones who are just starting to
+integrate AI are um not doing
+necessarily trust ethics privacy by
+Design they're waiting to find out what
+they're going to be doing with AI first
+and then they're thinking about what
+they're going to be doing with uh the
+Privacy aspect of things or the the
+ethical aspect of things and that can be
+quite uh problematic because you're not
+building the pipeline that you need out
+of the bat and so that's going to lead
+to um you prototype prototype prototype
+and then oh no we have to go back and
+reconstruct everything to be able to uh
+get this approved by uh the board uh the
+the chief AI officer the Chief privacy
+officer the ciso whatever um and um if
+you start thinking about it from a this
+is the problem that I want to solve what
+does the pipeline look like that I need
+to build in order to solve that problem
+uh and then start addressing it from the
+data aspect of things that can lead to a
+a bigger lift on the UPF front but down
+the line a much more efficient
+organization uh because you don't have
+to constantly just do Band-Aid solutions
+to the problems yeah so data First Data
+first that's that's I think
+surise I feel like something at every AI
+wave we keep
+forgetting and we try to ignore it we
+try to pretend that it's not GNA that we
+don't need it anymore but it's not the
+case
+yeah
+awesome well Patricia thanks so much for
+jumping on and sharing a bit about what
+you're working on uh very cool and
+interesting stuff thanks so much talking
+to you
+[Music]

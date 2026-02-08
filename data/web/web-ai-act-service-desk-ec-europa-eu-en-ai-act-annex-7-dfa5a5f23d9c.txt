@@ -1,0 +1,58 @@
+```markdown
+# Annex VII
+
+## Introduction
+
+Conformity based on an assessment of the quality management system and an assessment of the technical documentation is the conformity assessment procedure based on points 2 to 5.
+
+## Overview
+
+The approved quality management system for the design, development and testing of AI systems pursuant to [Article 17](/en/ai-act/article-17) shall be examined in accordance with point 3 and shall be subject to surveillance as specified in point 5. The technical documentation of the AI system shall be examined in accordance with point 4.
+
+## Quality Management System
+
+### 3.1. The application of the provider shall include:
+
+- (a) the name and address of the provider and, if the application is lodged by an authorised representative, also their name and address;
+- (b) the list of AI systems covered under the same quality management system;
+- (c) the technical documentation for each AI system covered under the same quality management system;
+- (d) the documentation concerning the quality management system which shall cover all the aspects listed under [Article 17](/en/ai-act/article-17);
+- (e) a description of the procedures in place to ensure that the quality management system remains adequate and effective;
+- (f) a written declaration that the same application has not been lodged with any other notified body.
+
+### 3.2. The quality management system shall be assessed by the notified body, which shall determine whether it satisfies the requirements referred to in [Article 17](/en/ai-act/article-17). The decision shall be notified to the provider or its authorised representative. The notification shall contain the conclusions of the assessment of the quality management system and the reasoned assessment decision.
+
+### 3.3. The quality management system as approved shall continue to be implemented and maintained by the provider so that it remains adequate and efficient.
+
+### 3.4. Any intended change to the approved quality management system or the list of AI systems covered by the latter shall be brought to the attention of the notified body by the provider. The proposed changes shall be examined by the notified body, which shall decide whether the modified quality management system continues to satisfy the requirements referred to in point 3.2 or whether a reassessment is necessary. The notified body shall notify the provider of its decision. The notification shall contain the conclusions of the examination of these changes and a reasoned assessment decision.
+
+## Control of Technical Documentation
+
+### 4.1. In addition to applying principles outlined in point 3, an application with a notified body should be lodged by a provider for assessing technical documentation relating to an AI system which is covered by an approved quality management system.
+
+### 4.2. The application should include:
+- (a) details about who submitted it;
+- (b) a declaration that no similar applications have been made with any other notified body;
+- (c) technical documentation provided according to [Annex IV](/en/ai-act/annex-4).
+
+### 4.3. Technical documentation must undergo examination by a notified body before being considered compliant with Chapter III, Section 2.
+
+### 4.4. If necessary for fulfilling its tasks, a notified body can grant access to training, validation, and testing data sets used, including through APIs or other relevant technologies allowing remote access.
+
+### 4.5. A notified body may direct additional tests on AI systems if not satisfied with tests conducted by a provider.
+
+### 4.6. To assess compliance with Chapter III, Section 2 where required due to inadequate assessments, a notified body grants access to training models and trained versions without seeking further approval from another notification entity.
+
+### 4.7. Any change affecting compliance with Chapter III, Section 2 requires consideration by a notified body issuing a Union technical documentation assessment certificate again before placing new products on sale or putting them into operation.
+
+## Surveillance of Approved Quality Management System
+
+### 5.1. Surveillance aims at ensuring that providers comply fully with terms and conditions stipulated in Chapter III, Section 2.
+
+### 5.2. For assessment purposes, providers should allow notifications regarding inspections conducted by a notified body within their premises where designing, developing, testing AI systems takes place.
+
+### 5.3. Notifications should include sharing necessary information between both parties involved.
+
+### Additional Notes:
+If necessary for evaluation purposes, providers must cooperate fully when requested by a notified body.
+```

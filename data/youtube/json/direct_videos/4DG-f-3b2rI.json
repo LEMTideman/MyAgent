@@ -1,0 +1,6598 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "4DG-f-3b2rI",
+  "video_title": "Unpacking the EU AI Act Code of Practice with Marietje Schaake",
+  "video_url": "https://www.youtube.com/watch?v=4DG-f-3b2rI",
+  "fetched_at": "2025-12-29T20:14:13.169088+00:00",
+  "transcript": [
+    {
+      "text": "[Music]",
+      "start": 8.25,
+      "duration": 5.19
+    },
+    {
+      "text": "Welcome back to the AI policy podcast.",
+      "start": 11.28,
+      "duration": 4.399
+    },
+    {
+      "text": "I'm Gregory Allen and today we've got a",
+      "start": 13.44,
+      "duration": 4.72
+    },
+    {
+      "text": "really important episode at the center",
+      "start": 15.679,
+      "duration": 5.041
+    },
+    {
+      "text": "of the AI regulation and governance",
+      "start": 18.16,
+      "duration": 5.76
+    },
+    {
+      "text": "conversation. Um, if you are following",
+      "start": 20.72,
+      "duration": 5.36
+    },
+    {
+      "text": "this podcast, you know that the EU AI",
+      "start": 23.92,
+      "duration": 4.32
+    },
+    {
+      "text": "Act is a landmark piece of legislation",
+      "start": 26.08,
+      "duration": 4.32
+    },
+    {
+      "text": "that has been taking an awful long time",
+      "start": 28.24,
+      "duration": 4.72
+    },
+    {
+      "text": "to implement. And now some of the big",
+      "start": 30.4,
+      "duration": 4.56
+    },
+    {
+      "text": "machinery behind that regulatory",
+      "start": 32.96,
+      "duration": 4.64
+    },
+    {
+      "text": "approach is now in effect. And one of",
+      "start": 34.96,
+      "duration": 4.56
+    },
+    {
+      "text": "the most important things in it is the",
+      "start": 37.6,
+      "duration": 4.56
+    },
+    {
+      "text": "code of practice for general purpose AI",
+      "start": 39.52,
+      "duration": 5.52
+    },
+    {
+      "text": "models. This is a very complex document,",
+      "start": 42.16,
+      "duration": 5.12
+    },
+    {
+      "text": "but a really important one, not just for",
+      "start": 45.04,
+      "duration": 4.72
+    },
+    {
+      "text": "Europe, but for the entire world in the",
+      "start": 47.28,
+      "duration": 4.72
+    },
+    {
+      "text": "future of AI regulation and governance.",
+      "start": 49.76,
+      "duration": 4.16
+    },
+    {
+      "text": "Um, it's also a pretty complex document,",
+      "start": 52.0,
+      "duration": 4.239
+    },
+    {
+      "text": "and that's why we're extremely lucky to",
+      "start": 53.92,
+      "duration": 5.04
+    },
+    {
+      "text": "have a guest here today, Maricha Shock,",
+      "start": 56.239,
+      "duration": 5.601
+    },
+    {
+      "text": "who is one of the most important drivers",
+      "start": 58.96,
+      "duration": 4.96
+    },
+    {
+      "text": "behind this code of practice. She was",
+      "start": 61.84,
+      "duration": 4.319
+    },
+    {
+      "text": "one of the working group chairs that",
+      "start": 63.92,
+      "duration": 4.64
+    },
+    {
+      "text": "drafted the safety and security section",
+      "start": 66.159,
+      "duration": 4.801
+    },
+    {
+      "text": "of the code of practice. She also has a",
+      "start": 68.56,
+      "duration": 4.48
+    },
+    {
+      "text": "distinguished background as a former",
+      "start": 70.96,
+      "duration": 4.4
+    },
+    {
+      "text": "member of the European Parliament. She",
+      "start": 73.04,
+      "duration": 4.16
+    },
+    {
+      "text": "also writes a column that you may have",
+      "start": 75.36,
+      "duration": 4.399
+    },
+    {
+      "text": "read uh at the Financial Times, which is",
+      "start": 77.2,
+      "duration": 5.84
+    },
+    {
+      "text": "excellent. And her current day job, I",
+      "start": 79.759,
+      "duration": 4.881
+    },
+    {
+      "text": "guess you would say, is that she's a",
+      "start": 83.04,
+      "duration": 4.32
+    },
+    {
+      "text": "fellow at Stanford's Cyber Policy Center",
+      "start": 84.64,
+      "duration": 5.2
+    },
+    {
+      "text": "and the Institute for Human- Centered AI",
+      "start": 87.36,
+      "duration": 4.64
+    },
+    {
+      "text": "and is also the author of the 2024 book,",
+      "start": 89.84,
+      "duration": 4.319
+    },
+    {
+      "text": "The Tech Coup. So, Marie Shashak, thank",
+      "start": 92.0,
+      "duration": 3.68
+    },
+    {
+      "text": "you so much for joining the AI policy",
+      "start": 94.159,
+      "duration": 2.32
+    },
+    {
+      "text": "podcast.",
+      "start": 95.68,
+      "duration": 2.0
+    },
+    {
+      "text": ">> Great to be here. Thanks for the",
+      "start": 96.479,
+      "duration": 3.201
+    },
+    {
+      "text": "introduction. So, we're going to get",
+      "start": 97.68,
+      "duration": 5.119
+    },
+    {
+      "text": "into the meat of the code of practice",
+      "start": 99.68,
+      "duration": 5.28
+    },
+    {
+      "text": "here, but before we do that, I want to",
+      "start": 102.799,
+      "duration": 4.0
+    },
+    {
+      "text": "understand a little bit more about your",
+      "start": 104.96,
+      "duration": 4.96
+    },
+    {
+      "text": "background. Um, how did you come to work",
+      "start": 106.799,
+      "duration": 5.521
+    },
+    {
+      "text": "on tech regulatory policy? How did you",
+      "start": 109.92,
+      "duration": 4.559
+    },
+    {
+      "text": "become interested in AI? What's sort of",
+      "start": 112.32,
+      "duration": 4.479
+    },
+    {
+      "text": "the starting point of your career which",
+      "start": 114.479,
+      "duration": 6.24
+    },
+    {
+      "text": "has uh done a lot of different things?",
+      "start": 116.799,
+      "duration": 6.161
+    },
+    {
+      "text": ">> I would say two starting points are",
+      "start": 120.719,
+      "duration": 4.881
+    },
+    {
+      "text": "important. One is when I studied at the",
+      "start": 122.96,
+      "duration": 5.6
+    },
+    {
+      "text": "University of Amsterdam. Um I I was",
+      "start": 125.6,
+      "duration": 6.32
+    },
+    {
+      "text": "constantly looking for how to apply any",
+      "start": 128.56,
+      "duration": 6.08
+    },
+    {
+      "text": "knowledge that I gained while studying",
+      "start": 131.92,
+      "duration": 4.64
+    },
+    {
+      "text": "and I didn't even find it so easy. I",
+      "start": 134.64,
+      "duration": 4.08
+    },
+    {
+      "text": "studied American studies by the way. So",
+      "start": 136.56,
+      "duration": 5.52
+    },
+    {
+      "text": "you know um like many I I will claim to",
+      "start": 138.72,
+      "duration": 5.2
+    },
+    {
+      "text": "be an expert on American politics even",
+      "start": 142.08,
+      "duration": 3.76
+    },
+    {
+      "text": "though it's mindboggling what's",
+      "start": 143.92,
+      "duration": 6.08
+    },
+    {
+      "text": "happening uh there now. But um um there",
+      "start": 145.84,
+      "duration": 7.92
+    },
+    {
+      "text": "was a new minor at the time uh that was",
+      "start": 150.0,
+      "duration": 7.12
+    },
+    {
+      "text": "a new media and new media meant you know",
+      "start": 153.76,
+      "duration": 5.44
+    },
+    {
+      "text": "questions around what is the worldwide",
+      "start": 157.12,
+      "duration": 4.0
+    },
+    {
+      "text": "web what is this internet that is",
+      "start": 159.2,
+      "duration": 6.399
+    },
+    {
+      "text": "emerging we're talking uh 199uh9",
+      "start": 161.12,
+      "duration": 8.16
+    },
+    {
+      "text": "2000 uh roughly speaking and so I",
+      "start": 165.599,
+      "duration": 6.801
+    },
+    {
+      "text": "decided to enroll and uh this was",
+      "start": 169.28,
+      "duration": 5.36
+    },
+    {
+      "text": "because I I always had a curiosity about",
+      "start": 172.4,
+      "duration": 5.6
+    },
+    {
+      "text": "where change was coming from. And so,",
+      "start": 174.64,
+      "duration": 5.599
+    },
+    {
+      "text": "you know, there are many things that uh",
+      "start": 178.0,
+      "duration": 4.0
+    },
+    {
+      "text": "induce change, but of course, technology",
+      "start": 180.239,
+      "duration": 3.761
+    },
+    {
+      "text": "is one of them. And you could argue",
+      "start": 182.0,
+      "duration": 4.48
+    },
+    {
+      "text": "policy and politics is also one of them.",
+      "start": 184.0,
+      "duration": 4.239
+    },
+    {
+      "text": "And so, I studied it a little bit, was",
+      "start": 186.48,
+      "duration": 5.36
+    },
+    {
+      "text": "always curious about technology. And um",
+      "start": 188.239,
+      "duration": 6.64
+    },
+    {
+      "text": "as an outsider in politics uh in my late",
+      "start": 191.84,
+      "duration": 5.28
+    },
+    {
+      "text": "20s when I ran for European Parliament",
+      "start": 194.879,
+      "duration": 5.601
+    },
+    {
+      "text": "for the first time uh this coincided",
+      "start": 197.12,
+      "duration": 6.0
+    },
+    {
+      "text": "with the Barack Obama campaign in the",
+      "start": 200.48,
+      "duration": 5.119
+    },
+    {
+      "text": "United States, the emergence of social",
+      "start": 203.12,
+      "duration": 5.52
+    },
+    {
+      "text": "media platforms where you know maybe",
+      "start": 205.599,
+      "duration": 4.72
+    },
+    {
+      "text": "this was the case in the US too, you",
+      "start": 208.64,
+      "duration": 2.879
+    },
+    {
+      "text": "would have to tell me. But in the",
+      "start": 210.319,
+      "duration": 4.081
+    },
+    {
+      "text": "Netherlands it was also this early phase",
+      "start": 211.519,
+      "duration": 5.041
+    },
+    {
+      "text": "where social media platforms were really",
+      "start": 214.4,
+      "duration": 4.64
+    },
+    {
+      "text": "platforms for political discussion. So",
+      "start": 216.56,
+      "duration": 4.399
+    },
+    {
+      "text": "it was a smaller group of people, maybe",
+      "start": 219.04,
+      "duration": 4.72
+    },
+    {
+      "text": "journalists, policy makers, experts in",
+      "start": 220.959,
+      "duration": 5.121
+    },
+    {
+      "text": "some fields that would gather there. And",
+      "start": 223.76,
+      "duration": 4.8
+    },
+    {
+      "text": "so I saw it as a way to reach audiences",
+      "start": 226.08,
+      "duration": 4.32
+    },
+    {
+      "text": "where I just didn't have a profile for",
+      "start": 228.56,
+      "duration": 4.959
+    },
+    {
+      "text": "national media at all. And so that was a",
+      "start": 230.4,
+      "duration": 6.88
+    },
+    {
+      "text": "sort of organic entry way um into using",
+      "start": 233.519,
+      "duration": 5.761
+    },
+    {
+      "text": "the technology, but also, you know, when",
+      "start": 237.28,
+      "duration": 4.319
+    },
+    {
+      "text": "I got elected at the age of 30, being",
+      "start": 239.28,
+      "duration": 4.159
+    },
+    {
+      "text": "seen as someone who represented this",
+      "start": 241.599,
+      "duration": 3.92
+    },
+    {
+      "text": "younger, more tech-savvy generation, I",
+      "start": 243.439,
+      "duration": 3.681
+    },
+    {
+      "text": "had this curiosity, this background in",
+      "start": 245.519,
+      "duration": 4.481
+    },
+    {
+      "text": "studying it. So I continued to also just",
+      "start": 247.12,
+      "duration": 4.96
+    },
+    {
+      "text": "look at this intersection of technology",
+      "start": 250.0,
+      "duration": 4.72
+    },
+    {
+      "text": "and society, technology and politics.",
+      "start": 252.08,
+      "duration": 5.92
+    },
+    {
+      "text": "And then what really accelerated my role",
+      "start": 254.72,
+      "duration": 8.56
+    },
+    {
+      "text": "as as you know a policy um you know lead",
+      "start": 258.0,
+      "duration": 7.36
+    },
+    {
+      "text": "as a representative focusing on these",
+      "start": 263.28,
+      "duration": 4.8
+    },
+    {
+      "text": "areas were the Arab uprisings.",
+      "start": 265.36,
+      "duration": 6.0
+    },
+    {
+      "text": ">> And so one of the first Arab Spring of",
+      "start": 268.08,
+      "duration": 5.2
+    },
+    {
+      "text": "the 2012 time frame.",
+      "start": 271.36,
+      "duration": 4.24
+    },
+    {
+      "text": ">> Yeah. But it also started in Iran if you",
+      "start": 273.28,
+      "duration": 4.88
+    },
+    {
+      "text": "remember. So I was elected first in 2009",
+      "start": 275.6,
+      "duration": 4.08
+    },
+    {
+      "text": "and this was when the Gree movement",
+      "start": 278.16,
+      "duration": 3.36
+    },
+    {
+      "text": "happened in Iran as well.",
+      "start": 279.68,
+      "duration": 3.84
+    },
+    {
+      "text": ">> And um you know one of the first trips",
+      "start": 281.52,
+      "duration": 6.48
+    },
+    {
+      "text": "that I took abroad was in uh early 2010",
+      "start": 283.52,
+      "duration": 7.6
+    },
+    {
+      "text": "because I went to eastern Turkey to meet",
+      "start": 288.0,
+      "duration": 5.04
+    },
+    {
+      "text": "with refugees from Iran. You know these",
+      "start": 291.12,
+      "duration": 3.519
+    },
+    {
+      "text": "activists were fleeing because they were",
+      "start": 293.04,
+      "duration": 4.8
+    },
+    {
+      "text": "being you know harshly uh persecuted,",
+      "start": 294.639,
+      "duration": 5.201
+    },
+    {
+      "text": "imprisoned, tortured, you know the worst",
+      "start": 297.84,
+      "duration": 5.52
+    },
+    {
+      "text": "conditions. And um when I met these",
+      "start": 299.84,
+      "duration": 6.32
+    },
+    {
+      "text": "activists of which we had heard they",
+      "start": 303.36,
+      "duration": 5.04
+    },
+    {
+      "text": "were organizing on social media, you",
+      "start": 306.16,
+      "duration": 4.64
+    },
+    {
+      "text": "know, there was this famous delay in the",
+      "start": 308.4,
+      "duration": 5.359
+    },
+    {
+      "text": "update of Twitter if you remember uh",
+      "start": 310.8,
+      "duration": 4.959
+    },
+    {
+      "text": "under the Obama administration because",
+      "start": 313.759,
+      "duration": 4.401
+    },
+    {
+      "text": "there was concern that then um the",
+      "start": 315.759,
+      "duration": 4.801
+    },
+    {
+      "text": "Iranians couldn't post the eyewitness",
+      "start": 318.16,
+      "duration": 4.16
+    },
+    {
+      "text": "accounts of what was happening. And so",
+      "start": 320.56,
+      "duration": 3.44
+    },
+    {
+      "text": "we were very familiar with the story of",
+      "start": 322.32,
+      "duration": 3.36
+    },
+    {
+      "text": "sort of Facebook revolutions, Twitter",
+      "start": 324.0,
+      "duration": 3.44
+    },
+    {
+      "text": "revolutions and that whole narrative",
+      "start": 325.68,
+      "duration": 4.64
+    },
+    {
+      "text": "which was you know very flawed. But when",
+      "start": 327.44,
+      "duration": 4.64
+    },
+    {
+      "text": "I met these activists that had fled to",
+      "start": 330.32,
+      "duration": 3.76
+    },
+    {
+      "text": "Turkey, I also learned of their deep",
+      "start": 332.08,
+      "duration": 4.16
+    },
+    {
+      "text": "concerns about surveillance, about",
+      "start": 334.08,
+      "duration": 6.0
+    },
+    {
+      "text": "hacking and I decided to dive in deeper.",
+      "start": 336.24,
+      "duration": 5.6
+    },
+    {
+      "text": "And so one of the first",
+      "start": 340.08,
+      "duration": 3.36
+    },
+    {
+      "text": ">> I guess I should just say like this was",
+      "start": 341.84,
+      "duration": 4.16
+    },
+    {
+      "text": "a pretty idealistic moment uh in terms",
+      "start": 343.44,
+      "duration": 4.56
+    },
+    {
+      "text": "of what technology meant for the",
+      "start": 346.0,
+      "duration": 3.84
+    },
+    {
+      "text": "signature of politics. I remember I",
+      "start": 348.0,
+      "duration": 5.919
+    },
+    {
+      "text": "think it was 2012 when uh then Facebook",
+      "start": 349.84,
+      "duration": 7.44
+    },
+    {
+      "text": "CEO now Meta CEO Mark Zuckerberg wrote a",
+      "start": 353.919,
+      "duration": 6.0
+    },
+    {
+      "text": "post in which he basically said that the",
+      "start": 357.28,
+      "duration": 4.72
+    },
+    {
+      "text": "growth of Facebook is synonymous with",
+      "start": 359.919,
+      "duration": 4.0
+    },
+    {
+      "text": "the spread of democracy and that like",
+      "start": 362.0,
+      "duration": 3.759
+    },
+    {
+      "text": "everything that we're doing is",
+      "start": 363.919,
+      "duration": 5.361
+    },
+    {
+      "text": "bolstering free speech liberty um and",
+      "start": 365.759,
+      "duration": 6.081
+    },
+    {
+      "text": "and as you just saw like Arab regimes",
+      "start": 369.28,
+      "duration": 7.039
+    },
+    {
+      "text": "like Libya fall over um and Tunisia uh",
+      "start": 371.84,
+      "duration": 6.88
+    },
+    {
+      "text": "it looked like Facebook was this tool",
+      "start": 376.319,
+      "duration": 4.481
+    },
+    {
+      "text": "for democratic promotion that was just",
+      "start": 378.72,
+      "duration": 4.4
+    },
+    {
+      "text": "going to usher in this beautiful era of",
+      "start": 380.8,
+      "duration": 4.56
+    },
+    {
+      "text": "peace and political harmony. Um didn't",
+      "start": 383.12,
+      "duration": 4.079
+    },
+    {
+      "text": "quite work out that way, but it was this",
+      "start": 385.36,
+      "duration": 3.6
+    },
+    {
+      "text": "this really idealistic moment and you",
+      "start": 387.199,
+      "duration": 4.161
+    },
+    {
+      "text": "had a really interesting viewpoint on it",
+      "start": 388.96,
+      "duration": 3.84
+    },
+    {
+      "text": "from your seat in the European",
+      "start": 391.36,
+      "duration": 2.48
+    },
+    {
+      "text": "Parliament.",
+      "start": 392.8,
+      "duration": 3.04
+    },
+    {
+      "text": ">> Yes. and being able to, you know, travel",
+      "start": 393.84,
+      "duration": 4.16
+    },
+    {
+      "text": "to these places, Iran first, but later",
+      "start": 395.84,
+      "duration": 4.479
+    },
+    {
+      "text": "also Tunisia, Egypt, meet with all these",
+      "start": 398.0,
+      "duration": 3.919
+    },
+    {
+      "text": "activists, and hear their eyewitness",
+      "start": 400.319,
+      "duration": 3.6
+    },
+    {
+      "text": "accounts, their firsthand accounts of,",
+      "start": 401.919,
+      "duration": 3.601
+    },
+    {
+      "text": "you know, being arrested, being",
+      "start": 403.919,
+      "duration": 4.641
+    },
+    {
+      "text": "tortured, um, but being confronted with",
+      "start": 405.52,
+      "duration": 5.44
+    },
+    {
+      "text": "their own messaging, with their own",
+      "start": 408.56,
+      "duration": 5.199
+    },
+    {
+      "text": "emails. Uh and then you know I decided",
+      "start": 410.96,
+      "duration": 4.48
+    },
+    {
+      "text": "to dig in further and I learned that",
+      "start": 413.759,
+      "duration": 3.28
+    },
+    {
+      "text": "some of the technologies that these",
+      "start": 415.44,
+      "duration": 4.319
+    },
+    {
+      "text": "dictatorships were using against",
+      "start": 417.039,
+      "duration": 6.081
+    },
+    {
+      "text": "bloggers, protesters, students you know",
+      "start": 419.759,
+      "duration": 5.201
+    },
+    {
+      "text": "human rights defenders, opposition",
+      "start": 423.12,
+      "duration": 5.04
+    },
+    {
+      "text": "leaders were sophisticated surveillance",
+      "start": 424.96,
+      "duration": 4.799
+    },
+    {
+      "text": "tools. I think that was the sort of less",
+      "start": 428.16,
+      "duration": 3.12
+    },
+    {
+      "text": "idealistic story about what role",
+      "start": 429.759,
+      "duration": 3.521
+    },
+    {
+      "text": "technology played in these uprisings.",
+      "start": 431.28,
+      "duration": 4.8
+    },
+    {
+      "text": "But they were also made in Europe. And",
+      "start": 433.28,
+      "duration": 4.479
+    },
+    {
+      "text": "you know it was a real wakeup call for",
+      "start": 436.08,
+      "duration": 3.839
+    },
+    {
+      "text": "me because on the one hand we sort of",
+      "start": 437.759,
+      "duration": 4.0
+    },
+    {
+      "text": "had universal outcry of the repression",
+      "start": 439.919,
+      "duration": 3.68
+    },
+    {
+      "text": "of people. There was also particularly",
+      "start": 441.759,
+      "duration": 4.641
+    },
+    {
+      "text": "from the democratic world US uh EU",
+      "start": 443.599,
+      "duration": 6.72
+    },
+    {
+      "text": "countries the EU a real hope that indeed",
+      "start": 446.4,
+      "duration": 8.48
+    },
+    {
+      "text": "this this youthful uh uprising uh cries",
+      "start": 450.319,
+      "duration": 7.28
+    },
+    {
+      "text": "for more justice, more equal treatment,",
+      "start": 454.88,
+      "duration": 5.599
+    },
+    {
+      "text": "more uh democracy were going to succeed",
+      "start": 457.599,
+      "duration": 4.961
+    },
+    {
+      "text": "and that that technology could play a",
+      "start": 460.479,
+      "duration": 3.921
+    },
+    {
+      "text": "role in this. But then, you know, how",
+      "start": 462.56,
+      "duration": 3.759
+    },
+    {
+      "text": "could it be that our our ministers were",
+      "start": 464.4,
+      "duration": 4.96
+    },
+    {
+      "text": "condemning the repression of of um these",
+      "start": 466.319,
+      "duration": 5.201
+    },
+    {
+      "text": "activists, but then our quote unquote,",
+      "start": 469.36,
+      "duration": 4.559
+    },
+    {
+      "text": "you know, Europeanmade technology was",
+      "start": 471.52,
+      "duration": 4.16
+    },
+    {
+      "text": "the tool of choice to repress. And of",
+      "start": 473.919,
+      "duration": 3.601
+    },
+    {
+      "text": "course, it's different if you can",
+      "start": 475.68,
+      "duration": 5.04
+    },
+    {
+      "text": "already surveil and intimidate and limit",
+      "start": 477.52,
+      "duration": 5.119
+    },
+    {
+      "text": "people before they have to take to the",
+      "start": 480.72,
+      "duration": 3.52
+    },
+    {
+      "text": "streets or before violence has to be",
+      "start": 482.639,
+      "duration": 2.801
+    },
+    {
+      "text": "used. So, it's actually a very",
+      "start": 484.24,
+      "duration": 4.16
+    },
+    {
+      "text": "sophisticated tool um because it's less",
+      "start": 485.44,
+      "duration": 5.439
+    },
+    {
+      "text": "visible and it was also um you know",
+      "start": 488.4,
+      "duration": 4.479
+    },
+    {
+      "text": "potentially not as violent but certainly",
+      "start": 490.879,
+      "duration": 4.481
+    },
+    {
+      "text": "very effective and so it would maybe",
+      "start": 492.879,
+      "duration": 4.72
+    },
+    {
+      "text": "lead to less outcry etc which I think",
+      "start": 495.36,
+      "duration": 4.72
+    },
+    {
+      "text": "was the case because it took forever",
+      "start": 497.599,
+      "duration": 4.72
+    },
+    {
+      "text": ">> to get restrictions on spyware and if we",
+      "start": 500.08,
+      "duration": 5.119
+    },
+    {
+      "text": "look globally now the market in spyware",
+      "start": 502.319,
+      "duration": 4.72
+    },
+    {
+      "text": "is still way too powerful and and",
+      "start": 505.199,
+      "duration": 5.44
+    },
+    {
+      "text": "unregulated. Um so those were a couple",
+      "start": 507.039,
+      "duration": 5.761
+    },
+    {
+      "text": "of years where I spend a lot of time at",
+      "start": 510.639,
+      "duration": 3.921
+    },
+    {
+      "text": "the intersection of human rights and",
+      "start": 512.8,
+      "duration": 3.679
+    },
+    {
+      "text": "technology, democracy and technology but",
+      "start": 514.56,
+      "duration": 3.68
+    },
+    {
+      "text": "it was mostly a foreign policy issue I",
+      "start": 516.479,
+      "duration": 2.8
+    },
+    {
+      "text": "should add.",
+      "start": 518.24,
+      "duration": 3.039
+    },
+    {
+      "text": ">> And then of course you know as the years",
+      "start": 519.279,
+      "duration": 4.721
+    },
+    {
+      "text": "progressed technology started to be used",
+      "start": 521.279,
+      "duration": 4.321
+    },
+    {
+      "text": "more and more the tech companies",
+      "start": 524.0,
+      "duration": 3.2
+    },
+    {
+      "text": "including the popular ones that we know",
+      "start": 525.6,
+      "duration": 3.919
+    },
+    {
+      "text": "became much more powerful. So then all",
+      "start": 527.2,
+      "duration": 4.56
+    },
+    {
+      "text": "kinds of angles like antitrust, cyber",
+      "start": 529.519,
+      "duration": 5.281
+    },
+    {
+      "text": "security, copyright protection, export",
+      "start": 531.76,
+      "duration": 4.88
+    },
+    {
+      "text": "controls, you know, were added to that",
+      "start": 534.8,
+      "duration": 3.84
+    },
+    {
+      "text": "portfolio of policy issues that I worked",
+      "start": 536.64,
+      "duration": 5.36
+    },
+    {
+      "text": "on. Um, but I have always been and",
+      "start": 538.64,
+      "duration": 5.84
+    },
+    {
+      "text": "continue to be motivated by the question",
+      "start": 542.0,
+      "duration": 4.399
+    },
+    {
+      "text": "of how can we make sure that the core",
+      "start": 544.48,
+      "duration": 4.64
+    },
+    {
+      "text": "values that define our quality of life,",
+      "start": 546.399,
+      "duration": 5.761
+    },
+    {
+      "text": "the rule of law, democracy, human rights",
+      "start": 549.12,
+      "duration": 5.2
+    },
+    {
+      "text": "are the core lens through which, you",
+      "start": 552.16,
+      "duration": 4.239
+    },
+    {
+      "text": "know, we treat technology. that we're",
+      "start": 554.32,
+      "duration": 4.72
+    },
+    {
+      "text": "not too frivolous or too careless about",
+      "start": 556.399,
+      "duration": 4.801
+    },
+    {
+      "text": "these core principles as we, you know,",
+      "start": 559.04,
+      "duration": 5.52
+    },
+    {
+      "text": "celebrate the the marvel of innovation,",
+      "start": 561.2,
+      "duration": 5.92
+    },
+    {
+      "text": "the hopes that we have of what beautiful",
+      "start": 564.56,
+      "duration": 4.16
+    },
+    {
+      "text": "solutions technology might bring. I",
+      "start": 567.12,
+      "duration": 3.6
+    },
+    {
+      "text": "mean, we're now in the age of AI. This",
+      "start": 568.72,
+      "duration": 4.08
+    },
+    {
+      "text": "is an AI podcast. I mean, you probably",
+      "start": 570.72,
+      "duration": 3.76
+    },
+    {
+      "text": "have a comprehensive list of promises",
+      "start": 572.8,
+      "duration": 3.68
+    },
+    {
+      "text": "that have been made by CEOs about, you",
+      "start": 574.48,
+      "duration": 3.84
+    },
+    {
+      "text": "know, curing cancer, ending climate",
+      "start": 576.48,
+      "duration": 4.64
+    },
+    {
+      "text": "change, uh, disaster, breakthroughs in",
+      "start": 578.32,
+      "duration": 3.12
+    },
+    {
+      "text": "science.",
+      "start": 581.12,
+      "duration": 1.6
+    },
+    {
+      "text": ">> Don't forget about ending poverty. We're",
+      "start": 581.44,
+      "duration": 2.32
+    },
+    {
+      "text": "gonna end that one, too.",
+      "start": 582.72,
+      "duration": 2.32
+    },
+    {
+      "text": ">> Oh, that's true. Yeah, I forgot that",
+      "start": 583.76,
+      "duration": 2.079
+    },
+    {
+      "text": "one.",
+      "start": 585.04,
+      "duration": 2.64
+    },
+    {
+      "text": "you know, there's such a long list of",
+      "start": 585.839,
+      "duration": 4.641
+    },
+    {
+      "text": "what AI is promising to deliver, but I",
+      "start": 587.68,
+      "duration": 5.2
+    },
+    {
+      "text": "think um you know, it's it's become my",
+      "start": 590.48,
+      "duration": 6.4
+    },
+    {
+      "text": "role to also ask myself um well, first",
+      "start": 592.88,
+      "duration": 6.639
+    },
+    {
+      "text": "of all, is this a hype? Second of all,",
+      "start": 596.88,
+      "duration": 3.84
+    },
+    {
+      "text": "what could it mean in a different",
+      "start": 599.519,
+      "duration": 3.121
+    },
+    {
+      "text": "context? What could it mean for the most",
+      "start": 600.72,
+      "duration": 4.72
+    },
+    {
+      "text": "vulnerable? Uh how do we make sure that",
+      "start": 602.64,
+      "duration": 4.319
+    },
+    {
+      "text": "we don't just hope, but that we have",
+      "start": 605.44,
+      "duration": 3.519
+    },
+    {
+      "text": "safeguards? You know, where do checks",
+      "start": 606.959,
+      "duration": 3.841
+    },
+    {
+      "text": "and balances come from and so on and so",
+      "start": 608.959,
+      "duration": 2.961
+    },
+    {
+      "text": "forth.",
+      "start": 610.8,
+      "duration": 3.279
+    },
+    {
+      "text": ">> Excellent. And um you know I think when",
+      "start": 611.92,
+      "duration": 5.68
+    },
+    {
+      "text": "most people think about European",
+      "start": 614.079,
+      "duration": 7.281
+    },
+    {
+      "text": "uh regulation of technology they're not",
+      "start": 617.6,
+      "duration": 7.2
+    },
+    {
+      "text": "thinking of those initial spyw wear uh",
+      "start": 621.36,
+      "duration": 5.76
+    },
+    {
+      "text": "kind of debates that you talked about. I",
+      "start": 624.8,
+      "duration": 4.159
+    },
+    {
+      "text": "think the the landmark legislation that",
+      "start": 627.12,
+      "duration": 5.44
+    },
+    {
+      "text": "most people sort of anchor on is GDPR um",
+      "start": 628.959,
+      "duration": 5.361
+    },
+    {
+      "text": "which of course relates to privacy and",
+      "start": 632.56,
+      "duration": 4.0
+    },
+    {
+      "text": "therefore has a tie to spyware. But were",
+      "start": 634.32,
+      "duration": 4.48
+    },
+    {
+      "text": "were you part of that sort of uh",
+      "start": 636.56,
+      "duration": 3.68
+    },
+    {
+      "text": "transition?",
+      "start": 638.8,
+      "duration": 4.56
+    },
+    {
+      "text": ">> Well, we were all voting on it. um but I",
+      "start": 640.24,
+      "duration": 5.12
+    },
+    {
+      "text": "wasn't as directly involved but it was",
+      "start": 643.36,
+      "duration": 4.32
+    },
+    {
+      "text": "definitely a piece of legislation that",
+      "start": 645.36,
+      "duration": 5.36
+    },
+    {
+      "text": "also focused the minds in Europe and I",
+      "start": 647.68,
+      "duration": 5.44
+    },
+    {
+      "text": "think you know part of why data",
+      "start": 650.72,
+      "duration": 3.84
+    },
+    {
+      "text": "protection has always been such a key",
+      "start": 653.12,
+      "duration": 3.2
+    },
+    {
+      "text": "issue for Europeans is because of our",
+      "start": 654.56,
+      "duration": 4.24
+    },
+    {
+      "text": "recent past with fascism you know I sat",
+      "start": 656.32,
+      "duration": 3.84
+    },
+    {
+      "text": "in the European Parliament with",
+      "start": 658.8,
+      "duration": 3.599
+    },
+    {
+      "text": "colleagues who grew up under communism",
+      "start": 660.16,
+      "duration": 3.119
+    },
+    {
+      "text": ">> as well yeah",
+      "start": 662.399,
+      "duration": 3.521
+    },
+    {
+      "text": ">> yes but that's you know clearly uh an",
+      "start": 663.279,
+      "duration": 4.24
+    },
+    {
+      "text": "anchoring",
+      "start": 665.92,
+      "duration": 4.08
+    },
+    {
+      "text": "identity uh for Europeans and one that",
+      "start": 667.519,
+      "duration": 4.401
+    },
+    {
+      "text": "you know most of us would hope never to",
+      "start": 670.0,
+      "duration": 2.8
+    },
+    {
+      "text": "repeat.",
+      "start": 671.92,
+      "duration": 2.96
+    },
+    {
+      "text": ">> Yeah. I'm gonna I'm gonna just interject",
+      "start": 672.8,
+      "duration": 5.44
+    },
+    {
+      "text": "with a uh uh a fun fact that has always",
+      "start": 674.88,
+      "duration": 6.16
+    },
+    {
+      "text": "blown my mind and I always anchor on",
+      "start": 678.24,
+      "duration": 4.88
+    },
+    {
+      "text": "this in uh discussions about",
+      "start": 681.04,
+      "duration": 4.72
+    },
+    {
+      "text": "surveillance and technology. So, um if",
+      "start": 683.12,
+      "duration": 5.2
+    },
+    {
+      "text": "you've ever been to Berlin uh and you",
+      "start": 685.76,
+      "duration": 4.48
+    },
+    {
+      "text": "haven't been to the Stazzi Museum,",
+      "start": 688.32,
+      "duration": 4.4
+    },
+    {
+      "text": "you've got to go. So, this is the",
+      "start": 690.24,
+      "duration": 4.719
+    },
+    {
+      "text": "original headquarters of the European",
+      "start": 692.72,
+      "duration": 5.359
+    },
+    {
+      "text": "Easter East Germany's uh secret police.",
+      "start": 694.959,
+      "duration": 6.0
+    },
+    {
+      "text": "And one of the amazing uh data points",
+      "start": 698.079,
+      "duration": 7.601
+    },
+    {
+      "text": "that they have is that it turns out that",
+      "start": 700.959,
+      "duration": 7.761
+    },
+    {
+      "text": "one out of every 67",
+      "start": 705.68,
+      "duration": 7.04
+    },
+    {
+      "text": "East Germans was either working directly",
+      "start": 708.72,
+      "duration": 6.4
+    },
+    {
+      "text": "as a Stazzy employee or was an",
+      "start": 712.72,
+      "duration": 5.2
+    },
+    {
+      "text": "officially you know known informant. So",
+      "start": 715.12,
+      "duration": 4.88
+    },
+    {
+      "text": "think about how labor intensive the",
+      "start": 717.92,
+      "duration": 3.68
+    },
+    {
+      "text": "surveillance apparatus of that",
+      "start": 720.0,
+      "duration": 4.16
+    },
+    {
+      "text": "repressive society was. One out of every",
+      "start": 721.6,
+      "duration": 6.0
+    },
+    {
+      "text": "67 humans in the country of working age",
+      "start": 724.16,
+      "duration": 4.88
+    },
+    {
+      "text": "or no not even of working age of the",
+      "start": 727.6,
+      "duration": 3.039
+    },
+    {
+      "text": "whole country.",
+      "start": 729.04,
+      "duration": 3.12
+    },
+    {
+      "text": ">> So if it's of working age it would",
+      "start": 730.639,
+      "duration": 3.121
+    },
+    {
+      "text": "probably be like one out of every 40",
+      "start": 732.16,
+      "duration": 3.76
+    },
+    {
+      "text": "people or something like that um was",
+      "start": 733.76,
+      "duration": 3.519
+    },
+    {
+      "text": "working for the surveillance apparatus",
+      "start": 735.92,
+      "duration": 3.44
+    },
+    {
+      "text": "and that's because they didn't have you",
+      "start": 737.279,
+      "duration": 4.641
+    },
+    {
+      "text": "know modern technology where computers",
+      "start": 739.36,
+      "duration": 4.4
+    },
+    {
+      "text": "can handle so much of the surveillance",
+      "start": 741.92,
+      "duration": 4.96
+    },
+    {
+      "text": "burden um and AI. And so, yes, you're",
+      "start": 743.76,
+      "duration": 4.4
+    },
+    {
+      "text": "you're you're totally right to point",
+      "start": 746.88,
+      "duration": 3.12
+    },
+    {
+      "text": "out, right, that those memories loom",
+      "start": 748.16,
+      "duration": 4.88
+    },
+    {
+      "text": "incredibly large uh in the minds of",
+      "start": 750.0,
+      "duration": 5.12
+    },
+    {
+      "text": "Europeans as they're thinking about uh",
+      "start": 753.04,
+      "duration": 4.16
+    },
+    {
+      "text": "privacy and and other things.",
+      "start": 755.12,
+      "duration": 3.92
+    },
+    {
+      "text": ">> What's interesting is that, you know, in",
+      "start": 757.2,
+      "duration": 4.0
+    },
+    {
+      "text": "those years uh the focus of Europeans",
+      "start": 759.04,
+      "duration": 3.919
+    },
+    {
+      "text": "was much more on data protection while",
+      "start": 761.2,
+      "duration": 3.84
+    },
+    {
+      "text": "the focus in the US was already on data",
+      "start": 762.959,
+      "duration": 4.481
+    },
+    {
+      "text": "mining and you know training AI models.",
+      "start": 765.04,
+      "duration": 4.32
+    },
+    {
+      "text": "So I think you know one of the lessons",
+      "start": 767.44,
+      "duration": 3.44
+    },
+    {
+      "text": "learned there and there are many when it",
+      "start": 769.36,
+      "duration": 3.039
+    },
+    {
+      "text": "comes to the general data protection",
+      "start": 770.88,
+      "duration": 3.44
+    },
+    {
+      "text": "regulation including how important",
+      "start": 772.399,
+      "duration": 3.761
+    },
+    {
+      "text": "enforcement is and not just the the",
+      "start": 774.32,
+      "duration": 3.199
+    },
+    {
+      "text": "letter of the law because the",
+      "start": 776.16,
+      "duration": 4.16
+    },
+    {
+      "text": "enforcement has has just not really been",
+      "start": 777.519,
+      "duration": 6.0
+    },
+    {
+      "text": "up to par. Um but it's also that",
+      "start": 780.32,
+      "duration": 4.8
+    },
+    {
+      "text": "sometimes there can be a tunnel vision",
+      "start": 783.519,
+      "duration": 3.361
+    },
+    {
+      "text": "right if you if you're focusing on one",
+      "start": 785.12,
+      "duration": 3.44
+    },
+    {
+      "text": "thing maybe another thing is happening",
+      "start": 786.88,
+      "duration": 4.0
+    },
+    {
+      "text": "in the meantime. So it's it's been a",
+      "start": 788.56,
+      "duration": 4.0
+    },
+    {
+      "text": "really interesting uh lesson learned.",
+      "start": 790.88,
+      "duration": 3.6
+    },
+    {
+      "text": "But yes, I think the reason why the GDPR",
+      "start": 792.56,
+      "duration": 7.279
+    },
+    {
+      "text": "is such a important um an important uh",
+      "start": 794.48,
+      "duration": 6.799
+    },
+    {
+      "text": "starting point of sort of tech",
+      "start": 799.839,
+      "duration": 3.521
+    },
+    {
+      "text": "regulation for Americans is that it was",
+      "start": 801.279,
+      "duration": 4.161
+    },
+    {
+      "text": "the first time that US companies started",
+      "start": 803.36,
+      "duration": 4.88
+    },
+    {
+      "text": "to take EU regulation seriously. So",
+      "start": 805.44,
+      "duration": 4.88
+    },
+    {
+      "text": "until then there was kind of a sort of",
+      "start": 808.24,
+      "duration": 5.36
+    },
+    {
+      "text": "you know laughing and dismissal of what",
+      "start": 810.32,
+      "duration": 4.959
+    },
+    {
+      "text": "European regulation was. It was",
+      "start": 813.6,
+      "duration": 3.52
+    },
+    {
+      "text": "sometimes framed as a bit emotional and",
+      "start": 815.279,
+      "duration": 5.841
+    },
+    {
+      "text": "and um you know typical for Europeans",
+      "start": 817.12,
+      "duration": 5.519
+    },
+    {
+      "text": "but not something that the tech",
+      "start": 821.12,
+      "duration": 3.839
+    },
+    {
+      "text": "companies and others by the way uh would",
+      "start": 822.639,
+      "duration": 3.921
+    },
+    {
+      "text": "have to reckon with because as you",
+      "start": 824.959,
+      "duration": 2.801
+    },
+    {
+      "text": "probably know the general data",
+      "start": 826.56,
+      "duration": 2.959
+    },
+    {
+      "text": "protection regulation is a horizontal",
+      "start": 827.76,
+      "duration": 3.44
+    },
+    {
+      "text": "law. It applies to you know the local",
+      "start": 829.519,
+      "duration": 3.281
+    },
+    {
+      "text": "swimming pool as much as it does to",
+      "start": 831.2,
+      "duration": 4.079
+    },
+    {
+      "text": "Google. And so uh while tech companies",
+      "start": 832.8,
+      "duration": 5.039
+    },
+    {
+      "text": "have kind of framed it as a weapon to go",
+      "start": 835.279,
+      "duration": 4.321
+    },
+    {
+      "text": "after the US tech companies and maybe",
+      "start": 837.839,
+      "duration": 4.24
+    },
+    {
+      "text": "unfairly so this is really one",
+      "start": 839.6,
+      "duration": 5.44
+    },
+    {
+      "text": "harmonizing 27 different uh systems of",
+      "start": 842.079,
+      "duration": 4.801
+    },
+    {
+      "text": "each member state into one standard",
+      "start": 845.04,
+      "duration": 3.359
+    },
+    {
+      "text": "which is something that a lot of EU",
+      "start": 846.88,
+      "duration": 3.6
+    },
+    {
+      "text": "regulation is about to make sure that we",
+      "start": 848.399,
+      "duration": 5.201
+    },
+    {
+      "text": "harmonize over time. Uh but it's it also",
+      "start": 850.48,
+      "duration": 5.52
+    },
+    {
+      "text": "applies to everyone. But because it it",
+      "start": 853.6,
+      "duration": 4.479
+    },
+    {
+      "text": "hit home in Silicon Valley that you know",
+      "start": 856.0,
+      "duration": 3.44
+    },
+    {
+      "text": "this really mattered they had to change",
+      "start": 858.079,
+      "duration": 3.361
+    },
+    {
+      "text": "their policies there could be serious",
+      "start": 859.44,
+      "duration": 5.36
+    },
+    {
+      "text": "fines. Um it is it is you know maybe the",
+      "start": 861.44,
+      "duration": 4.8
+    },
+    {
+      "text": "starting point of history for many in",
+      "start": 864.8,
+      "duration": 2.32
+    },
+    {
+      "text": "Silicon Valley.",
+      "start": 866.24,
+      "duration": 3.36
+    },
+    {
+      "text": ">> Yeah. And so uh coming back to you you",
+      "start": 867.12,
+      "duration": 4.24
+    },
+    {
+      "text": "know how did you make the jump to",
+      "start": 869.6,
+      "duration": 5.44
+    },
+    {
+      "text": "interest in AI specifically?",
+      "start": 871.36,
+      "duration": 5.76
+    },
+    {
+      "text": ">> Well again I think this was organic uh",
+      "start": 875.04,
+      "duration": 3.599
+    },
+    {
+      "text": "first of all some of the things that we",
+      "start": 877.12,
+      "duration": 3.839
+    },
+    {
+      "text": "used to call social media uh we now call",
+      "start": 878.639,
+      "duration": 4.961
+    },
+    {
+      "text": "AI. So um it's just you know if you're",
+      "start": 880.959,
+      "duration": 3.921
+    },
+    {
+      "text": "interested in tech you're sort of",
+      "start": 883.6,
+      "duration": 3.039
+    },
+    {
+      "text": "interested in AI",
+      "start": 884.88,
+      "duration": 3.84
+    },
+    {
+      "text": ">> as the as a sort of tech policy",
+      "start": 886.639,
+      "duration": 4.081
+    },
+    {
+      "text": "interested person as AI rises in",
+      "start": 888.72,
+      "duration": 3.76
+    },
+    {
+      "text": "prominence it naturally falls on your",
+      "start": 890.72,
+      "duration": 3.2
+    },
+    {
+      "text": "desk. I mean there's a very similar",
+      "start": 892.48,
+      "duration": 3.52
+    },
+    {
+      "text": "phenomenon in the US government where",
+      "start": 893.92,
+      "duration": 4.88
+    },
+    {
+      "text": "the sort of first trunch of AI policy",
+      "start": 896.0,
+      "duration": 5.04
+    },
+    {
+      "text": "people in the national security",
+      "start": 898.8,
+      "duration": 4.479
+    },
+    {
+      "text": "community were almost invariably cyber",
+      "start": 901.04,
+      "duration": 4.159
+    },
+    {
+      "text": "people or space people because those are",
+      "start": 903.279,
+      "duration": 3.521
+    },
+    {
+      "text": "the you know people who like understand",
+      "start": 905.199,
+      "duration": 3.921
+    },
+    {
+      "text": "technology things",
+      "start": 906.8,
+      "duration": 3.839
+    },
+    {
+      "text": "and and so it just sort of naturally",
+      "start": 909.12,
+      "duration": 4.0
+    },
+    {
+      "text": "falls on your desk I'm sure. Well, but",
+      "start": 910.639,
+      "duration": 4.721
+    },
+    {
+      "text": "it was also accelerated by the fact that",
+      "start": 913.12,
+      "duration": 3.92
+    },
+    {
+      "text": "so when I left the European Parliament",
+      "start": 915.36,
+      "duration": 5.919
+    },
+    {
+      "text": "in 2019 after 10 years there uh I uh got",
+      "start": 917.04,
+      "duration": 6.799
+    },
+    {
+      "text": "a job offer at Stanford and it was a a",
+      "start": 921.279,
+      "duration": 4.401
+    },
+    {
+      "text": "double appointment one that I still have",
+      "start": 923.839,
+      "duration": 3.68
+    },
+    {
+      "text": "one with the more political science kind",
+      "start": 925.68,
+      "duration": 5.68
+    },
+    {
+      "text": "of research uh clusters at FSI uh",
+      "start": 927.519,
+      "duration": 6.0
+    },
+    {
+      "text": "wonderful place run by by Mike McFall",
+      "start": 931.36,
+      "duration": 3.76
+    },
+    {
+      "text": "which also has the cyber policy center",
+      "start": 933.519,
+      "duration": 3.12
+    },
+    {
+      "text": "which is indeed you know the starting",
+      "start": 935.12,
+      "duration": 3.519
+    },
+    {
+      "text": "point is policy but then I also had an",
+      "start": 936.639,
+      "duration": 3.521
+    },
+    {
+      "text": "appointment at this very new institute",
+      "start": 938.639,
+      "duration": 3.2
+    },
+    {
+      "text": "at the time called the institute for",
+      "start": 940.16,
+      "duration": 4.479
+    },
+    {
+      "text": "human- centered AI and you know there",
+      "start": 941.839,
+      "duration": 5.12
+    },
+    {
+      "text": "the focus was really on AI and so all my",
+      "start": 944.639,
+      "duration": 4.241
+    },
+    {
+      "text": "colleagues there are focusing on AI",
+      "start": 946.959,
+      "duration": 5.041
+    },
+    {
+      "text": "exclusively and so as a result I sort of",
+      "start": 948.88,
+      "duration": 6.24
+    },
+    {
+      "text": "you know deepened my focus on AI was",
+      "start": 952.0,
+      "duration": 5.6
+    },
+    {
+      "text": "appointed to the UN high level advisory",
+      "start": 955.12,
+      "duration": 5.279
+    },
+    {
+      "text": "body to the secretary general on AI so",
+      "start": 957.6,
+      "duration": 4.799
+    },
+    {
+      "text": "you know that allowed allowed us all to",
+      "start": 960.399,
+      "duration": 3.521
+    },
+    {
+      "text": "take a much more global perspective",
+      "start": 962.399,
+      "duration": 4.081
+    },
+    {
+      "text": "where you know before that my my remit",
+      "start": 963.92,
+      "duration": 5.52
+    },
+    {
+      "text": "was mostly EU transatlantic because I",
+      "start": 966.48,
+      "duration": 5.599
+    },
+    {
+      "text": "served on the um US deleg ation of the",
+      "start": 969.44,
+      "duration": 4.079
+    },
+    {
+      "text": "parliament and because so many companies",
+      "start": 972.079,
+      "duration": 4.32
+    },
+    {
+      "text": "are American. So it's just grown by the",
+      "start": 973.519,
+      "duration": 5.76
+    },
+    {
+      "text": "various things I've done and then um I",
+      "start": 976.399,
+      "duration": 4.8
+    },
+    {
+      "text": "became one of the chairs of this code of",
+      "start": 979.279,
+      "duration": 3.92
+    },
+    {
+      "text": "practice that I know you'd like to focus",
+      "start": 981.199,
+      "duration": 3.2
+    },
+    {
+      "text": "on as well.",
+      "start": 983.199,
+      "duration": 3.041
+    },
+    {
+      "text": ">> So it's it's been organic but I don't",
+      "start": 984.399,
+      "duration": 3.761
+    },
+    {
+      "text": "consider myself an AI expert if that",
+      "start": 986.24,
+      "duration": 3.599
+    },
+    {
+      "text": "makes sense. I'm much more of a broad",
+      "start": 988.16,
+      "duration": 4.88
+    },
+    {
+      "text": "tech policy person and um I just think",
+      "start": 989.839,
+      "duration": 4.881
+    },
+    {
+      "text": "we all have to wrap our heads around",
+      "start": 993.04,
+      "duration": 3.76
+    },
+    {
+      "text": "what AI means in our society and sort of",
+      "start": 994.72,
+      "duration": 5.84
+    },
+    {
+      "text": "weed through hype and hysteria and",
+      "start": 996.8,
+      "duration": 6.479
+    },
+    {
+      "text": ">> um to a large extent the same policy",
+      "start": 1000.56,
+      "duration": 5.36
+    },
+    {
+      "text": "questions apply if you ask me you know",
+      "start": 1003.279,
+      "duration": 4.641
+    },
+    {
+      "text": "how do we make sure there yeah go ahead",
+      "start": 1005.92,
+      "duration": 3.599
+    },
+    {
+      "text": ">> um let's turn to the the code of",
+      "start": 1007.92,
+      "duration": 4.08
+    },
+    {
+      "text": "practice so first I I kind of want to",
+      "start": 1009.519,
+      "duration": 4.161
+    },
+    {
+      "text": "understand like the machinery for how",
+      "start": 1012.0,
+      "duration": 5.44
+    },
+    {
+      "text": "this came into existence so the EU AI",
+      "start": 1013.68,
+      "duration": 6.719
+    },
+    {
+      "text": "act you has a bunch of thou shalts.",
+      "start": 1017.44,
+      "duration": 6.16
+    },
+    {
+      "text": "Companies shall do X and then there's",
+      "start": 1020.399,
+      "duration": 4.721
+    },
+    {
+      "text": "the question of like how does the",
+      "start": 1023.6,
+      "duration": 4.719
+    },
+    {
+      "text": "government and how do even the companies",
+      "start": 1025.12,
+      "duration": 6.0
+    },
+    {
+      "text": "know and show that they are complying",
+      "start": 1028.319,
+      "duration": 5.041
+    },
+    {
+      "text": "with the law and it seems like a lot of",
+      "start": 1031.12,
+      "duration": 5.28
+    },
+    {
+      "text": "the answer uh is going to be found in",
+      "start": 1033.36,
+      "duration": 4.959
+    },
+    {
+      "text": "this code of practice. So help us",
+      "start": 1036.4,
+      "duration": 4.72
+    },
+    {
+      "text": "understand like what is this thing? How",
+      "start": 1038.319,
+      "duration": 4.64
+    },
+    {
+      "text": "does it fit into the larger picture?",
+      "start": 1041.12,
+      "duration": 3.199
+    },
+    {
+      "text": ">> Right. Let me start with the larger",
+      "start": 1042.959,
+      "duration": 2.561
+    },
+    {
+      "text": "picture because I think it will help",
+      "start": 1044.319,
+      "duration": 4.641
+    },
+    {
+      "text": "listeners understand. So um in your",
+      "start": 1045.52,
+      "duration": 5.279
+    },
+    {
+      "text": "introduction you said the AI act is this",
+      "start": 1048.96,
+      "duration": 3.52
+    },
+    {
+      "text": "law that's taken you know ages to",
+      "start": 1050.799,
+      "duration": 4.24
+    },
+    {
+      "text": "implement but actually by by legislative",
+      "start": 1052.48,
+      "duration": 5.6
+    },
+    {
+      "text": "standards the uh process has been quick",
+      "start": 1055.039,
+      "duration": 5.041
+    },
+    {
+      "text": ">> draft and implement it's taken ages. It",
+      "start": 1058.08,
+      "duration": 4.32
+    },
+    {
+      "text": "took about 2 years to draft I would say",
+      "start": 1060.08,
+      "duration": 4.4
+    },
+    {
+      "text": "and you know the irony is of course that",
+      "start": 1062.4,
+      "duration": 4.08
+    },
+    {
+      "text": "what when the idea is to fastly",
+      "start": 1064.48,
+      "duration": 4.88
+    },
+    {
+      "text": "implement companies say hold on just a",
+      "start": 1066.48,
+      "duration": 5.439
+    },
+    {
+      "text": "minute we need time",
+      "start": 1069.36,
+      "duration": 4.48
+    },
+    {
+      "text": "and other stakeholders may also say we",
+      "start": 1071.919,
+      "duration": 3.12
+    },
+    {
+      "text": "need to adjust because you know",
+      "start": 1073.84,
+      "duration": 2.88
+    },
+    {
+      "text": "institutions have to be set up or",
+      "start": 1075.039,
+      "duration": 3.121
+    },
+    {
+      "text": "reorganized in order to do the",
+      "start": 1076.72,
+      "duration": 3.68
+    },
+    {
+      "text": "enforcement. So you know there's often a",
+      "start": 1078.16,
+      "duration": 4.48
+    },
+    {
+      "text": "reason for time spent which is to",
+      "start": 1080.4,
+      "duration": 4.159
+    },
+    {
+      "text": "prepare stakeholders in this case AI",
+      "start": 1082.64,
+      "duration": 3.44
+    },
+    {
+      "text": "companies that I think you know should",
+      "start": 1084.559,
+      "duration": 3.681
+    },
+    {
+      "text": "be capable with their with their uh",
+      "start": 1086.08,
+      "duration": 4.0
+    },
+    {
+      "text": "multiple billions because that's the",
+      "start": 1088.24,
+      "duration": 3.6
+    },
+    {
+      "text": "group that has to do most of the uh",
+      "start": 1090.08,
+      "duration": 3.52
+    },
+    {
+      "text": "preparation but you know we can get to",
+      "start": 1091.84,
+      "duration": 5.44
+    },
+    {
+      "text": "that. So when the work on the AI act",
+      "start": 1093.6,
+      "duration": 6.16
+    },
+    {
+      "text": "started, a lot of people said, \"Oh my",
+      "start": 1097.28,
+      "duration": 4.88
+    },
+    {
+      "text": "gosh, the EU is too quick, right? Why",
+      "start": 1099.76,
+      "duration": 4.799
+    },
+    {
+      "text": "would you regulate AI now? You're going",
+      "start": 1102.16,
+      "duration": 4.0
+    },
+    {
+      "text": "to stifle innovation,\" which is sort of",
+      "start": 1104.559,
+      "duration": 4.24
+    },
+    {
+      "text": "the most heard mantra about the EU and",
+      "start": 1106.16,
+      "duration": 4.56
+    },
+    {
+      "text": "regulation anyway when it comes from",
+      "start": 1108.799,
+      "duration": 5.441
+    },
+    {
+      "text": "from tech and AI people. But the",
+      "start": 1110.72,
+      "duration": 5.12
+    },
+    {
+      "text": "decision was made that this was going to",
+      "start": 1114.24,
+      "duration": 4.559
+    },
+    {
+      "text": "be a very deeply impactful technology",
+      "start": 1115.84,
+      "duration": 4.719
+    },
+    {
+      "text": "and that there needed to be a sort of",
+      "start": 1118.799,
+      "duration": 5.361
+    },
+    {
+      "text": "conceptual framework in the law of how",
+      "start": 1120.559,
+      "duration": 7.201
+    },
+    {
+      "text": "to how to assess risk and mitigate risk.",
+      "start": 1124.16,
+      "duration": 6.24
+    },
+    {
+      "text": "And so the vast majority of use cases is",
+      "start": 1127.76,
+      "duration": 4.48
+    },
+    {
+      "text": "not considered to be risky. But then",
+      "start": 1130.4,
+      "duration": 4.32
+    },
+    {
+      "text": "there's a risk spectrum, you know, that",
+      "start": 1132.24,
+      "duration": 4.24
+    },
+    {
+      "text": "goes from low-level risk to high level",
+      "start": 1134.72,
+      "duration": 4.319
+    },
+    {
+      "text": "and even unacceptable risk, which is how",
+      "start": 1136.48,
+      "duration": 5.28
+    },
+    {
+      "text": "the law is is um built up. And so you",
+      "start": 1139.039,
+      "duration": 5.681
+    },
+    {
+      "text": "could say it's very much comparable to",
+      "start": 1141.76,
+      "duration": 6.799
+    },
+    {
+      "text": "liability uh rules and you know safety",
+      "start": 1144.72,
+      "duration": 6.079
+    },
+    {
+      "text": "rules in anything from I don't know",
+      "start": 1148.559,
+      "duration": 4.881
+    },
+    {
+      "text": "machinery to pharmaceuticals right like",
+      "start": 1150.799,
+      "duration": 4.24
+    },
+    {
+      "text": "where do we see the most risk what are",
+      "start": 1153.44,
+      "duration": 3.359
+    },
+    {
+      "text": "the obligations of the providers the",
+      "start": 1155.039,
+      "duration": 4.241
+    },
+    {
+      "text": "makers of this product uh to mitigate",
+      "start": 1156.799,
+      "duration": 4.321
+    },
+    {
+      "text": "the risk",
+      "start": 1159.28,
+      "duration": 6.16
+    },
+    {
+      "text": "but then while the law was being drafted",
+      "start": 1161.12,
+      "duration": 6.88
+    },
+    {
+      "text": "you know generative AI broke through and",
+      "start": 1165.44,
+      "duration": 4.88
+    },
+    {
+      "text": "the question became as AI was",
+      "start": 1168.0,
+      "duration": 5.28
+    },
+    {
+      "text": "progressing So quickly what do we do",
+      "start": 1170.32,
+      "duration": 5.359
+    },
+    {
+      "text": "with more general purpose AI models? So",
+      "start": 1173.28,
+      "duration": 4.16
+    },
+    {
+      "text": "where it's not clear that it's used for",
+      "start": 1175.679,
+      "duration": 5.12
+    },
+    {
+      "text": "biometric identification or for scanning",
+      "start": 1177.44,
+      "duration": 5.44
+    },
+    {
+      "text": "someone's CV for employment",
+      "start": 1180.799,
+      "duration": 4.0
+    },
+    {
+      "text": ">> because those risk classifications that",
+      "start": 1182.88,
+      "duration": 4.56
+    },
+    {
+      "text": "you mentioned earlier those are use case",
+      "start": 1184.799,
+      "duration": 5.681
+    },
+    {
+      "text": "breakdowns right like this is high risk",
+      "start": 1187.44,
+      "duration": 5.92
+    },
+    {
+      "text": "this use case is low risk and so what do",
+      "start": 1190.48,
+      "duration": 4.72
+    },
+    {
+      "text": "you do when you have AI capabilities",
+      "start": 1193.36,
+      "duration": 3.84
+    },
+    {
+      "text": "that don't just have one use case they",
+      "start": 1195.2,
+      "duration": 4.24
+    },
+    {
+      "text": "have potentially you know in infinite",
+      "start": 1197.2,
+      "duration": 4.0
+    },
+    {
+      "text": "use cases",
+      "start": 1199.44,
+      "duration": 3.119
+    },
+    {
+      "text": ">> exactly thank you that's an important",
+      "start": 1201.2,
+      "duration": 3.28
+    },
+    {
+      "text": "clarification",
+      "start": 1202.559,
+      "duration": 6.561
+    },
+    {
+      "text": "Um for for those categories,",
+      "start": 1204.48,
+      "duration": 6.96
+    },
+    {
+      "text": "a group of independent experts were",
+      "start": 1209.12,
+      "duration": 5.919
+    },
+    {
+      "text": "invited to help sort of create uh",
+      "start": 1211.44,
+      "duration": 7.44
+    },
+    {
+      "text": "clarity for companies, you know, when",
+      "start": 1215.039,
+      "duration": 5.921
+    },
+    {
+      "text": "when they were subject to this part of",
+      "start": 1218.88,
+      "duration": 5.28
+    },
+    {
+      "text": "the law and how they might comply.",
+      "start": 1220.96,
+      "duration": 4.719
+    },
+    {
+      "text": "And you know, this is a process that's",
+      "start": 1224.16,
+      "duration": 3.6
+    },
+    {
+      "text": "still unfolding where the European AI",
+      "start": 1225.679,
+      "duration": 4.161
+    },
+    {
+      "text": "office or the European Commission still",
+      "start": 1227.76,
+      "duration": 4.0
+    },
+    {
+      "text": "is doing work with regards to standards",
+      "start": 1229.84,
+      "duration": 3.52
+    },
+    {
+      "text": "and clarifying what these companies",
+      "start": 1231.76,
+      "duration": 3.76
+    },
+    {
+      "text": "should do. But as independent experts",
+      "start": 1233.36,
+      "duration": 3.92
+    },
+    {
+      "text": "with various backgrounds, a lot of",
+      "start": 1235.52,
+      "duration": 4.159
+    },
+    {
+      "text": "actual AI experts, but also some others",
+      "start": 1237.28,
+      "duration": 4.639
+    },
+    {
+      "text": "like in the space of copyright or in my",
+      "start": 1239.679,
+      "duration": 7.041
+    },
+    {
+      "text": "case in policy were asked to",
+      "start": 1241.919,
+      "duration": 7.441
+    },
+    {
+      "text": "basically clarify for companies what",
+      "start": 1246.72,
+      "duration": 4.8
+    },
+    {
+      "text": "compliance with the AI act could look",
+      "start": 1249.36,
+      "duration": 3.84
+    },
+    {
+      "text": "like. And so it's sort of you could see",
+      "start": 1251.52,
+      "duration": 4.56
+    },
+    {
+      "text": "it as a sort of road map or series of",
+      "start": 1253.2,
+      "duration": 6.4
+    },
+    {
+      "text": "steps that when companies take these",
+      "start": 1256.08,
+      "duration": 5.52
+    },
+    {
+      "text": "they show good faith of course but they",
+      "start": 1259.6,
+      "duration": 3.92
+    },
+    {
+      "text": "also show you know their their",
+      "start": 1261.6,
+      "duration": 4.0
+    },
+    {
+      "text": "willingness and ability to comply and",
+      "start": 1263.52,
+      "duration": 3.92
+    },
+    {
+      "text": "it's sort of maps out how they might do",
+      "start": 1265.6,
+      "duration": 4.0
+    },
+    {
+      "text": "that but the law applies to anyone. I",
+      "start": 1267.44,
+      "duration": 4.32
+    },
+    {
+      "text": "think that's really important. So it",
+      "start": 1269.6,
+      "duration": 3.68
+    },
+    {
+      "text": "even if you if you're a company that",
+      "start": 1271.76,
+      "duration": 3.84
+    },
+    {
+      "text": "doesn't want to sign the AI uh code of",
+      "start": 1273.28,
+      "duration": 3.84
+    },
+    {
+      "text": "practice, you still have to comply to",
+      "start": 1275.6,
+      "duration": 3.76
+    },
+    {
+      "text": "the AI act, but then it's sort of up to",
+      "start": 1277.12,
+      "duration": 4.4
+    },
+    {
+      "text": "you how you want to do it and up to the",
+      "start": 1279.36,
+      "duration": 4.64
+    },
+    {
+      "text": "AI office to see whether what you do if",
+      "start": 1281.52,
+      "duration": 4.32
+    },
+    {
+      "text": "it's not following the code of practice,",
+      "start": 1284.0,
+      "duration": 4.48
+    },
+    {
+      "text": "whether that's sufficient. So these are",
+      "start": 1285.84,
+      "duration": 4.64
+    },
+    {
+      "text": "not two different laws. The one is the",
+      "start": 1288.48,
+      "duration": 3.199
+    },
+    {
+      "text": "law. That's the only thing that's",
+      "start": 1290.48,
+      "duration": 3.12
+    },
+    {
+      "text": "legally binding, the AI act. And then",
+      "start": 1291.679,
+      "duration": 4.48
+    },
+    {
+      "text": "the code of practice is sort of a a",
+      "start": 1293.6,
+      "duration": 4.4
+    },
+    {
+      "text": "series of steps that companies can take",
+      "start": 1296.159,
+      "duration": 4.081
+    },
+    {
+      "text": "and adhere to. So sign up to that's",
+      "start": 1298.0,
+      "duration": 3.36
+    },
+    {
+      "text": "where you have this whole question of",
+      "start": 1300.24,
+      "duration": 3.919
+    },
+    {
+      "text": "signitories. Are companies uh interested",
+      "start": 1301.36,
+      "duration": 6.24
+    },
+    {
+      "text": "in doing that um signing on committing",
+      "start": 1304.159,
+      "duration": 6.321
+    },
+    {
+      "text": "to doing this and actually uh quite a",
+      "start": 1307.6,
+      "duration": 4.0
+    },
+    {
+      "text": "few companies have.",
+      "start": 1310.48,
+      "duration": 4.559
+    },
+    {
+      "text": ">> Yeah. So so breaking that down um the",
+      "start": 1311.6,
+      "duration": 5.84
+    },
+    {
+      "text": "law says something like I don't think it",
+      "start": 1315.039,
+      "duration": 3.921
+    },
+    {
+      "text": "uses these exact words but something",
+      "start": 1317.44,
+      "duration": 3.84
+    },
+    {
+      "text": "like companies must take adequate",
+      "start": 1318.96,
+      "duration": 4.88
+    },
+    {
+      "text": "precautions to ensure safety and",
+      "start": 1321.28,
+      "duration": 5.279
+    },
+    {
+      "text": "reliability. And the question then",
+      "start": 1323.84,
+      "duration": 4.88
+    },
+    {
+      "text": "becomes, if somebody sues you and you're",
+      "start": 1326.559,
+      "duration": 4.401
+    },
+    {
+      "text": "going to go in front of a judge, how do",
+      "start": 1328.72,
+      "duration": 5.04
+    },
+    {
+      "text": "you prove that you took quote adequate",
+      "start": 1330.96,
+      "duration": 4.32
+    },
+    {
+      "text": "precautions?",
+      "start": 1333.76,
+      "duration": 5.68
+    },
+    {
+      "text": "And the the a EU AI office has basically",
+      "start": 1335.28,
+      "duration": 6.56
+    },
+    {
+      "text": "said, hey, if you do everything in this",
+      "start": 1339.44,
+      "duration": 5.44
+    },
+    {
+      "text": "code of practice, we will treat that as",
+      "start": 1341.84,
+      "duration": 4.8
+    },
+    {
+      "text": "though you have taken adequate",
+      "start": 1344.88,
+      "duration": 3.52
+    },
+    {
+      "text": "precautions. So some companies have",
+      "start": 1346.64,
+      "duration": 4.159
+    },
+    {
+      "text": "signed up to that, like Google, OpenAI",
+      "start": 1348.4,
+      "duration": 3.68
+    },
+    {
+      "text": "have signed up. They're like, \"This is",
+      "start": 1350.799,
+      "duration": 3.601
+    },
+    {
+      "text": "what we're going to do in order to take",
+      "start": 1352.08,
+      "duration": 4.079
+    },
+    {
+      "text": "adequate precautions.\" Other companies",
+      "start": 1354.4,
+      "duration": 4.639
+    },
+    {
+      "text": "like Meta have said, you know, we hate",
+      "start": 1356.159,
+      "duration": 6.081
+    },
+    {
+      "text": "this document and we know better what",
+      "start": 1359.039,
+      "duration": 6.241
+    },
+    {
+      "text": "adequate precautions are than uh the",
+      "start": 1362.24,
+      "duration": 5.679
+    },
+    {
+      "text": "people who drafted this and if it goes",
+      "start": 1365.28,
+      "duration": 4.399
+    },
+    {
+      "text": "to court or if the regulators come after",
+      "start": 1367.919,
+      "duration": 4.321
+    },
+    {
+      "text": "us like bring it on, I think is is sort",
+      "start": 1369.679,
+      "duration": 3.921
+    },
+    {
+      "text": "of the nature of the conversation,",
+      "start": 1372.24,
+      "duration": 2.319
+    },
+    {
+      "text": "right?",
+      "start": 1373.6,
+      "duration": 2.72
+    },
+    {
+      "text": ">> Yeah, presumably. I mean, you'd have to",
+      "start": 1374.559,
+      "duration": 3.441
+    },
+    {
+      "text": "invite Meta to explain their their",
+      "start": 1376.32,
+      "duration": 3.44
+    },
+    {
+      "text": "reasoning. I doubt they would actually",
+      "start": 1378.0,
+      "duration": 3.28
+    },
+    {
+      "text": "go on the record saying bring it on, but",
+      "start": 1379.76,
+      "duration": 2.48
+    },
+    {
+      "text": "you know uh ish.",
+      "start": 1381.28,
+      "duration": 2.72
+    },
+    {
+      "text": ">> Well, I mean, I've heard I've heard",
+      "start": 1382.24,
+      "duration": 3.76
+    },
+    {
+      "text": "pretty pretty scathing statements by",
+      "start": 1384.0,
+      "duration": 3.84
+    },
+    {
+      "text": "Joel Kaplan, you know, as maybe he was",
+      "start": 1386.0,
+      "duration": 5.36
+    },
+    {
+      "text": "hired uh to to um uh send into the",
+      "start": 1387.84,
+      "duration": 5.12
+    },
+    {
+      "text": "ether, but you know, I think they've",
+      "start": 1391.36,
+      "duration": 3.76
+    },
+    {
+      "text": "they've gotten more and more brazen as a",
+      "start": 1392.96,
+      "duration": 2.88
+    },
+    {
+      "text": "company.",
+      "start": 1395.12,
+      "duration": 2.24
+    },
+    {
+      "text": ">> So, now let now that we understand like",
+      "start": 1395.84,
+      "duration": 3.199
+    },
+    {
+      "text": "the context for why this document",
+      "start": 1397.36,
+      "duration": 3.04
+    },
+    {
+      "text": "exists, let's actually get into the",
+      "start": 1399.039,
+      "duration": 3.52
+    },
+    {
+      "text": "machinery of it. And I want to focus on",
+      "start": 1400.4,
+      "duration": 5.04
+    },
+    {
+      "text": "the part where you were a co-chair uh",
+      "start": 1402.559,
+      "duration": 4.641
+    },
+    {
+      "text": "which is the safety and security",
+      "start": 1405.44,
+      "duration": 3.28
+    },
+    {
+      "text": "chapter. But just for the context of",
+      "start": 1407.2,
+      "duration": 4.479
+    },
+    {
+      "text": "everyone, there's a section on um",
+      "start": 1408.72,
+      "duration": 6.48
+    },
+    {
+      "text": "transparency which I think is very",
+      "start": 1411.679,
+      "duration": 5.921
+    },
+    {
+      "text": "blasze. I mean anybody who is familiar",
+      "start": 1415.2,
+      "duration": 4.959
+    },
+    {
+      "text": "with a model card in AI, this is just",
+      "start": 1417.6,
+      "duration": 5.84
+    },
+    {
+      "text": "sort of like the biographical data of a",
+      "start": 1420.159,
+      "duration": 7.281
+    },
+    {
+      "text": "model. Um it's pretty tame I would say",
+      "start": 1423.44,
+      "duration": 5.52
+    },
+    {
+      "text": "in terms of what it's asking for in",
+      "start": 1427.44,
+      "duration": 3.28
+    },
+    {
+      "text": "terms of transparency. Then you've got",
+      "start": 1428.96,
+      "duration": 3.839
+    },
+    {
+      "text": "the copyright section which is like how",
+      "start": 1430.72,
+      "duration": 3.839
+    },
+    {
+      "text": "do you handle intellectual property and",
+      "start": 1432.799,
+      "duration": 4.88
+    },
+    {
+      "text": "and copyright. Um, but I want to mostly",
+      "start": 1434.559,
+      "duration": 5.441
+    },
+    {
+      "text": "put those to the side and now talk about",
+      "start": 1437.679,
+      "duration": 4.641
+    },
+    {
+      "text": "uh what is not undoubtedly the longest",
+      "start": 1440.0,
+      "duration": 3.919
+    },
+    {
+      "text": "part of the code of practice. This is",
+      "start": 1442.32,
+      "duration": 3.359
+    },
+    {
+      "text": "like 40 plus pages whereas those other",
+      "start": 1443.919,
+      "duration": 4.161
+    },
+    {
+      "text": "ones are like six pages each. Um, and it",
+      "start": 1445.679,
+      "duration": 3.921
+    },
+    {
+      "text": "also includes the most commitments.",
+      "start": 1448.08,
+      "duration": 4.0
+    },
+    {
+      "text": "There's 10 commitments that signitories",
+      "start": 1449.6,
+      "duration": 4.319
+    },
+    {
+      "text": "um are signing up to when they do this.",
+      "start": 1452.08,
+      "duration": 4.32
+    },
+    {
+      "text": "So um sort of I realize it's a it's a",
+      "start": 1453.919,
+      "duration": 4.24
+    },
+    {
+      "text": "big document. It's very uh complex. I'm",
+      "start": 1456.4,
+      "duration": 3.2
+    },
+    {
+      "text": "going to defer to you as to like what's",
+      "start": 1458.159,
+      "duration": 2.801
+    },
+    {
+      "text": "the what's the best way to walk us",
+      "start": 1459.6,
+      "duration": 3.52
+    },
+    {
+      "text": "through this story. I think we should",
+      "start": 1460.96,
+      "duration": 4.0
+    },
+    {
+      "text": "just think about it in pretty basic",
+      "start": 1463.12,
+      "duration": 4.48
+    },
+    {
+      "text": "terms. So the idea is there are general",
+      "start": 1464.96,
+      "duration": 5.52
+    },
+    {
+      "text": "purpose AI models and there are general",
+      "start": 1467.6,
+      "duration": 6.88
+    },
+    {
+      "text": "purpose AI models with systemic risk and",
+      "start": 1470.48,
+      "duration": 5.92
+    },
+    {
+      "text": "uh for those general purpose AI models",
+      "start": 1474.48,
+      "duration": 4.88
+    },
+    {
+      "text": "with systemic risk, the providers have",
+      "start": 1476.4,
+      "duration": 6.96
+    },
+    {
+      "text": "to show the steps in sort of you know",
+      "start": 1479.36,
+      "duration": 6.319
+    },
+    {
+      "text": "formalized documentation and information",
+      "start": 1483.36,
+      "duration": 5.36
+    },
+    {
+      "text": "sharing manners of how they assess the",
+      "start": 1485.679,
+      "duration": 6.48
+    },
+    {
+      "text": "risk, what they've done to mitigate it",
+      "start": 1488.72,
+      "duration": 5.36
+    },
+    {
+      "text": "uh and for how long for example they",
+      "start": 1492.159,
+      "duration": 3.12
+    },
+    {
+      "text": "have to keep the documents, who they",
+      "start": 1494.08,
+      "duration": 2.8
+    },
+    {
+      "text": "have to report it to when they have to",
+      "start": 1495.279,
+      "duration": 4.161
+    },
+    {
+      "text": "report it. So it basically",
+      "start": 1496.88,
+      "duration": 6.159
+    },
+    {
+      "text": "spells out um a way again companies can",
+      "start": 1499.44,
+      "duration": 7.68
+    },
+    {
+      "text": "choose to do other ways but a way to um",
+      "start": 1503.039,
+      "duration": 6.24
+    },
+    {
+      "text": "be rigorous but also identify the people",
+      "start": 1507.12,
+      "duration": 3.76
+    },
+    {
+      "text": "within the companies for example who",
+      "start": 1509.279,
+      "duration": 3.681
+    },
+    {
+      "text": "should have executive responsibility so",
+      "start": 1510.88,
+      "duration": 4.799
+    },
+    {
+      "text": "that it's not some you know uh niche",
+      "start": 1512.96,
+      "duration": 5.12
+    },
+    {
+      "text": "group of juniors who are assessing the",
+      "start": 1515.679,
+      "duration": 4.321
+    },
+    {
+      "text": "most serious risks uh but that it",
+      "start": 1518.08,
+      "duration": 4.8
+    },
+    {
+      "text": "actually is also in a governance sense",
+      "start": 1520.0,
+      "duration": 5.84
+    },
+    {
+      "text": "you know uh with those responsibles on",
+      "start": 1522.88,
+      "duration": 4.24
+    },
+    {
+      "text": "the executive level.",
+      "start": 1525.84,
+      "duration": 2.48
+    },
+    {
+      "text": ">> Yeah. If you're if you're a part of the",
+      "start": 1527.12,
+      "duration": 4.32
+    },
+    {
+      "text": "safety team and you're not allowed to",
+      "start": 1528.32,
+      "duration": 4.56
+    },
+    {
+      "text": "say no to anybody else in the",
+      "start": 1531.44,
+      "duration": 2.8
+    },
+    {
+      "text": "organization, are you really part of the",
+      "start": 1532.88,
+      "duration": 3.039
+    },
+    {
+      "text": "safety team? Um",
+      "start": 1534.24,
+      "duration": 3.039
+    },
+    {
+      "text": ">> yeah. Well, that's a big question. And",
+      "start": 1535.919,
+      "duration": 2.721
+    },
+    {
+      "text": "so there's also provisions for",
+      "start": 1537.279,
+      "duration": 3.121
+    },
+    {
+      "text": "whistleblowing, for example, because we",
+      "start": 1538.64,
+      "duration": 3.68
+    },
+    {
+      "text": "want to make sure that that you know",
+      "start": 1540.4,
+      "duration": 4.32
+    },
+    {
+      "text": "considerations for society at large, for",
+      "start": 1542.32,
+      "duration": 4.64
+    },
+    {
+      "text": "national security, for public health,",
+      "start": 1544.72,
+      "duration": 3.199
+    },
+    {
+      "text": "etc.",
+      "start": 1546.96,
+      "duration": 4.319
+    },
+    {
+      "text": "uh are are um informing decisions that",
+      "start": 1547.919,
+      "duration": 5.441
+    },
+    {
+      "text": "companies make instead of you know the",
+      "start": 1551.279,
+      "duration": 4.4
+    },
+    {
+      "text": "business cases, the market um",
+      "start": 1553.36,
+      "duration": 4.0
+    },
+    {
+      "text": "competition and everything else that's",
+      "start": 1555.679,
+      "duration": 2.88
+    },
+    {
+      "text": "driving these companies.",
+      "start": 1557.36,
+      "duration": 2.88
+    },
+    {
+      "text": ">> So I I definitely want to get there, but",
+      "start": 1558.559,
+      "duration": 3.841
+    },
+    {
+      "text": "could we rewind one second because you",
+      "start": 1560.24,
+      "duration": 3.84
+    },
+    {
+      "text": "basically said there's there's two paths",
+      "start": 1562.4,
+      "duration": 4.0
+    },
+    {
+      "text": "you can go down. There's general purpose",
+      "start": 1564.08,
+      "duration": 4.24
+    },
+    {
+      "text": "AI models and there's general purpose AI",
+      "start": 1566.4,
+      "duration": 3.36
+    },
+    {
+      "text": "models that that pose some kind of",
+      "start": 1568.32,
+      "duration": 4.88
+    },
+    {
+      "text": "systemic risk. How does the law, how",
+      "start": 1569.76,
+      "duration": 6.0
+    },
+    {
+      "text": "does the code of practice determine",
+      "start": 1573.2,
+      "duration": 4.16
+    },
+    {
+      "text": "whether you're in one group or the",
+      "start": 1575.76,
+      "duration": 3.519
+    },
+    {
+      "text": "other?",
+      "start": 1577.36,
+      "duration": 3.919
+    },
+    {
+      "text": ">> Um, there's a lot of responsibility for",
+      "start": 1579.279,
+      "duration": 3.76
+    },
+    {
+      "text": "the companies themselves, but there are",
+      "start": 1581.279,
+      "duration": 3.681
+    },
+    {
+      "text": "also standards forthcoming that will",
+      "start": 1583.039,
+      "duration": 4.561
+    },
+    {
+      "text": "clarify more and more, you know, uh, the",
+      "start": 1584.96,
+      "duration": 4.48
+    },
+    {
+      "text": "details there, which the AI office will",
+      "start": 1587.6,
+      "duration": 3.04
+    },
+    {
+      "text": "do.",
+      "start": 1589.44,
+      "duration": 4.0
+    },
+    {
+      "text": ">> Okay. So, it's not it's not obvious and",
+      "start": 1590.64,
+      "duration": 5.919
+    },
+    {
+      "text": "set in stone right now which general",
+      "start": 1593.44,
+      "duration": 5.2
+    },
+    {
+      "text": "purpose AI models pose systemic risk and",
+      "start": 1596.559,
+      "duration": 4.561
+    },
+    {
+      "text": "which ones do not. And it's also because",
+      "start": 1598.64,
+      "duration": 4.639
+    },
+    {
+      "text": "you know you and I or even you know my",
+      "start": 1601.12,
+      "duration": 3.679
+    },
+    {
+      "text": "colleagues at Stanford who are deeply",
+      "start": 1603.279,
+      "duration": 3.201
+    },
+    {
+      "text": "deeply in the weeds of how AI models",
+      "start": 1604.799,
+      "duration": 3.041
+    },
+    {
+      "text": "work don't have access to this",
+      "start": 1606.48,
+      "duration": 3.28
+    },
+    {
+      "text": "information. I think that's really",
+      "start": 1607.84,
+      "duration": 3.52
+    },
+    {
+      "text": "important to understand. So a lot of",
+      "start": 1609.76,
+      "duration": 3.919
+    },
+    {
+      "text": "what these companies do and decide in",
+      "start": 1611.36,
+      "duration": 4.64
+    },
+    {
+      "text": "the process of building their models um",
+      "start": 1613.679,
+      "duration": 4.801
+    },
+    {
+      "text": "testing them uh putting them out into",
+      "start": 1616.0,
+      "duration": 4.96
+    },
+    {
+      "text": "the market tweaking them and so on is of",
+      "start": 1618.48,
+      "duration": 5.04
+    },
+    {
+      "text": "course entirely proprietary",
+      "start": 1620.96,
+      "duration": 5.92
+    },
+    {
+      "text": ">> if memory serves. Um, you know, the the",
+      "start": 1623.52,
+      "duration": 4.88
+    },
+    {
+      "text": "Biden administration, one of their",
+      "start": 1626.88,
+      "duration": 3.76
+    },
+    {
+      "text": "executive orders, they looked at total",
+      "start": 1628.4,
+      "duration": 4.159
+    },
+    {
+      "text": "amount of processing power used in",
+      "start": 1630.64,
+      "duration": 6.0
+    },
+    {
+      "text": "training as a proxy for power and power",
+      "start": 1632.559,
+      "duration": 7.12
+    },
+    {
+      "text": "as a proxy for risk. And the B",
+      "start": 1636.64,
+      "duration": 4.56
+    },
+    {
+      "text": "administration sort of knew that was a",
+      "start": 1639.679,
+      "duration": 3.681
+    },
+    {
+      "text": "very unsatisfying definition, but",
+      "start": 1641.2,
+      "duration": 3.599
+    },
+    {
+      "text": "they're like, look, this is what we've",
+      "start": 1643.36,
+      "duration": 3.919
+    },
+    {
+      "text": "got right now. And I think um I think an",
+      "start": 1644.799,
+      "duration": 4.081
+    },
+    {
+      "text": "earlier draft of the EU AI act, maybe it",
+      "start": 1647.279,
+      "duration": 2.88
+    },
+    {
+      "text": "didn't make it into the final version, I",
+      "start": 1648.88,
+      "duration": 3.2
+    },
+    {
+      "text": "forget, was also looking at like this 10",
+      "start": 1650.159,
+      "duration": 5.601
+    },
+    {
+      "text": "to the 25th flops used in It has that",
+      "start": 1652.08,
+      "duration": 5.12
+    },
+    {
+      "text": ">> it has that but of course time",
+      "start": 1655.76,
+      "duration": 3.44
+    },
+    {
+      "text": "progresses and models may become more",
+      "start": 1657.2,
+      "duration": 4.24
+    },
+    {
+      "text": "capable and then there's also questions",
+      "start": 1659.2,
+      "duration": 5.2
+    },
+    {
+      "text": "of downstream uptake so you know some",
+      "start": 1661.44,
+      "duration": 5.119
+    },
+    {
+      "text": "some models may reach many more people",
+      "start": 1664.4,
+      "duration": 4.159
+    },
+    {
+      "text": "than than other models right so there's",
+      "start": 1666.559,
+      "duration": 3.441
+    },
+    {
+      "text": "the power of the model but then there's",
+      "start": 1668.559,
+      "duration": 4.401
+    },
+    {
+      "text": "also the reach of the model so I think I",
+      "start": 1670.0,
+      "duration": 6.32
+    },
+    {
+      "text": "think um those criteria would naturally",
+      "start": 1672.96,
+      "duration": 5.52
+    },
+    {
+      "text": "be fluid right I mean this law is",
+      "start": 1676.32,
+      "duration": 4.16
+    },
+    {
+      "text": "written now but who knows where where we",
+      "start": 1678.48,
+      "duration": 5.6
+    },
+    {
+      "text": "are in terms of power or new risks",
+      "start": 1680.48,
+      "duration": 5.6
+    },
+    {
+      "text": ">> you Surely there are some models right",
+      "start": 1684.08,
+      "duration": 3.92
+    },
+    {
+      "text": "now where we know like that model is",
+      "start": 1686.08,
+      "duration": 4.16
+    },
+    {
+      "text": "subject to the systemic risk evaluation.",
+      "start": 1688.0,
+      "duration": 5.2
+    },
+    {
+      "text": "Is that not the case?",
+      "start": 1690.24,
+      "duration": 5.84
+    },
+    {
+      "text": ">> Um I wouldn't be in a position to just",
+      "start": 1693.2,
+      "duration": 4.4
+    },
+    {
+      "text": "say this model or that model because",
+      "start": 1696.08,
+      "duration": 2.959
+    },
+    {
+      "text": "it's the companies that have to really",
+      "start": 1697.6,
+      "duration": 4.319
+    },
+    {
+      "text": "combine a whole bunch of uh information",
+      "start": 1699.039,
+      "duration": 4.24
+    },
+    {
+      "text": "for that.",
+      "start": 1701.919,
+      "duration": 4.401
+    },
+    {
+      "text": ">> Interesting. Okay. So um let's say we're",
+      "start": 1703.279,
+      "duration": 7.201
+    },
+    {
+      "text": "we're in the the world where the model",
+      "start": 1706.32,
+      "duration": 5.92
+    },
+    {
+      "text": "has been designated as one that is",
+      "start": 1710.48,
+      "duration": 3.679
+    },
+    {
+      "text": "general purpose with the potentially",
+      "start": 1712.24,
+      "duration": 4.88
+    },
+    {
+      "text": "posing some kind of systemic risk. Uh",
+      "start": 1714.159,
+      "duration": 4.721
+    },
+    {
+      "text": "now what happens like what are the what",
+      "start": 1717.12,
+      "duration": 3.039
+    },
+    {
+      "text": "are the commitments and and what are the",
+      "start": 1718.88,
+      "duration": 3.36
+    },
+    {
+      "text": "companies going to do?",
+      "start": 1720.159,
+      "duration": 4.081
+    },
+    {
+      "text": ">> Well so the companies are going to walk",
+      "start": 1722.24,
+      "duration": 3.679
+    },
+    {
+      "text": "through I mean I don't know the code by",
+      "start": 1724.24,
+      "duration": 3.28
+    },
+    {
+      "text": "heart but you will see all kinds of",
+      "start": 1725.919,
+      "duration": 3.601
+    },
+    {
+      "text": "steps in there. It's online for everyone",
+      "start": 1727.52,
+      "duration": 4.0
+    },
+    {
+      "text": "to review and it's fairly technical so I",
+      "start": 1729.52,
+      "duration": 3.12
+    },
+    {
+      "text": "don't think it's interesting for",
+      "start": 1731.52,
+      "duration": 4.24
+    },
+    {
+      "text": "listeners but basically the idea is they",
+      "start": 1732.64,
+      "duration": 5.6
+    },
+    {
+      "text": "commit to a number of steps of how to",
+      "start": 1735.76,
+      "duration": 4.639
+    },
+    {
+      "text": "assess their models",
+      "start": 1738.24,
+      "duration": 5.12
+    },
+    {
+      "text": "how to also document what they found in",
+      "start": 1740.399,
+      "duration": 4.961
+    },
+    {
+      "text": "this assessment you know it's not just",
+      "start": 1743.36,
+      "duration": 4.48
+    },
+    {
+      "text": "you know scouts honor we've assessed all",
+      "start": 1745.36,
+      "duration": 4.64
+    },
+    {
+      "text": "clear I mean this has to be you know",
+      "start": 1747.84,
+      "duration": 4.559
+    },
+    {
+      "text": "documented um for a certain period of",
+      "start": 1750.0,
+      "duration": 5.919
+    },
+    {
+      "text": "time has to be reported so for example",
+      "start": 1752.399,
+      "duration": 6.561
+    },
+    {
+      "text": "there can be uh a model that that is",
+      "start": 1755.919,
+      "duration": 4.561
+    },
+    {
+      "text": "being developed. So it's not on the",
+      "start": 1758.96,
+      "duration": 3.28
+    },
+    {
+      "text": "market yet but the developers have the",
+      "start": 1760.48,
+      "duration": 3.28
+    },
+    {
+      "text": "idea that this may reach a certain",
+      "start": 1762.24,
+      "duration": 3.36
+    },
+    {
+      "text": "threshold or a certain impact or they",
+      "start": 1763.76,
+      "duration": 4.96
+    },
+    {
+      "text": "may see certain risk. Then uh there's a",
+      "start": 1765.6,
+      "duration": 5.199
+    },
+    {
+      "text": "there's a period within which it has to",
+      "start": 1768.72,
+      "duration": 5.12
+    },
+    {
+      "text": "be notified. You know the information",
+      "start": 1770.799,
+      "duration": 6.321
+    },
+    {
+      "text": "has to be has to be uh preserved and",
+      "start": 1773.84,
+      "duration": 5.68
+    },
+    {
+      "text": ">> and notification in this case is uh to",
+      "start": 1777.12,
+      "duration": 4.48
+    },
+    {
+      "text": "the EU AI office.",
+      "start": 1779.52,
+      "duration": 4.24
+    },
+    {
+      "text": ">> Yes. and uh the AI board I believe at",
+      "start": 1781.6,
+      "duration": 4.079
+    },
+    {
+      "text": "the same time or there's just hopefully",
+      "start": 1783.76,
+      "duration": 5.44
+    },
+    {
+      "text": "going to be one contact point. Um but",
+      "start": 1785.679,
+      "duration": 5.281
+    },
+    {
+      "text": "there there's the AI office which is",
+      "start": 1789.2,
+      "duration": 3.44
+    },
+    {
+      "text": "sort of the central office at the EU",
+      "start": 1790.96,
+      "duration": 3.599
+    },
+    {
+      "text": "level which falls under the European",
+      "start": 1792.64,
+      "duration": 4.32
+    },
+    {
+      "text": "Commission which is the executive branch",
+      "start": 1794.559,
+      "duration": 4.961
+    },
+    {
+      "text": "of the European Union but then there are",
+      "start": 1796.96,
+      "duration": 4.4
+    },
+    {
+      "text": "also representatives from the member",
+      "start": 1799.52,
+      "duration": 5.039
+    },
+    {
+      "text": "states because as is often the case EU",
+      "start": 1801.36,
+      "duration": 6.24
+    },
+    {
+      "text": "law still gets enforced and implemented",
+      "start": 1804.559,
+      "duration": 5.36
+    },
+    {
+      "text": "on the local level meaning country by",
+      "start": 1807.6,
+      "duration": 5.439
+    },
+    {
+      "text": "country and so every member state the",
+      "start": 1809.919,
+      "duration": 5.76
+    },
+    {
+      "text": "Netherlands, Germany, Italy, Spain you",
+      "start": 1813.039,
+      "duration": 4.481
+    },
+    {
+      "text": "know France",
+      "start": 1815.679,
+      "duration": 4.561
+    },
+    {
+      "text": "can designate the authority that is best",
+      "start": 1817.52,
+      "duration": 5.68
+    },
+    {
+      "text": "capable within its own structure. So",
+      "start": 1820.24,
+      "duration": 4.64
+    },
+    {
+      "text": "this could be the market authority or",
+      "start": 1823.2,
+      "duration": 2.959
+    },
+    {
+      "text": "this could be the data protection",
+      "start": 1824.88,
+      "duration": 4.159
+    },
+    {
+      "text": "authority. You know how oversight bodies",
+      "start": 1826.159,
+      "duration": 4.801
+    },
+    {
+      "text": "may have different tasks in different",
+      "start": 1829.039,
+      "duration": 4.081
+    },
+    {
+      "text": "contexts but in any case they need to be",
+      "start": 1830.96,
+      "duration": 4.24
+    },
+    {
+      "text": "equipped with the right resources and",
+      "start": 1833.12,
+      "duration": 3.76
+    },
+    {
+      "text": "mandate on the local level to",
+      "start": 1835.2,
+      "duration": 4.479
+    },
+    {
+      "text": "independently verify whether companies",
+      "start": 1836.88,
+      "duration": 5.2
+    },
+    {
+      "text": "comply. And so when you're talking about",
+      "start": 1839.679,
+      "duration": 4.561
+    },
+    {
+      "text": "this transition between the law being",
+      "start": 1842.08,
+      "duration": 5.04
+    },
+    {
+      "text": "politically adopted and uh entering into",
+      "start": 1844.24,
+      "duration": 5.2
+    },
+    {
+      "text": "force, these are the kinds of processes",
+      "start": 1847.12,
+      "duration": 4.72
+    },
+    {
+      "text": "you should think about that need to be",
+      "start": 1849.44,
+      "duration": 6.4
+    },
+    {
+      "text": "um executed. Meaning you know the the",
+      "start": 1851.84,
+      "duration": 5.839
+    },
+    {
+      "text": "the officers may have to hire new",
+      "start": 1855.84,
+      "duration": 4.88
+    },
+    {
+      "text": "people. They have to have AI experts uh",
+      "start": 1857.679,
+      "duration": 5.841
+    },
+    {
+      "text": "that they may not have needed before uh",
+      "start": 1860.72,
+      "duration": 4.88
+    },
+    {
+      "text": "etc etc. So this is all now happening",
+      "start": 1863.52,
+      "duration": 4.24
+    },
+    {
+      "text": "and representatives from the member",
+      "start": 1865.6,
+      "duration": 3.92
+    },
+    {
+      "text": "states are part of this AI board and",
+      "start": 1867.76,
+      "duration": 3.6
+    },
+    {
+      "text": "then there's the AI office if that makes",
+      "start": 1869.52,
+      "duration": 2.48
+    },
+    {
+      "text": "sense.",
+      "start": 1871.36,
+      "duration": 4.0
+    },
+    {
+      "text": ">> Cool. So um there's a few products uh",
+      "start": 1872.0,
+      "duration": 5.919
+    },
+    {
+      "text": "that companies are sort of required to",
+      "start": 1875.36,
+      "duration": 5.6
+    },
+    {
+      "text": "produce uh as they sign on to this code",
+      "start": 1877.919,
+      "duration": 5.76
+    },
+    {
+      "text": "and these are things like um a safety",
+      "start": 1880.96,
+      "duration": 4.88
+    },
+    {
+      "text": "and security framework",
+      "start": 1883.679,
+      "duration": 4.48
+    },
+    {
+      "text": "uh safety and security model reports",
+      "start": 1885.84,
+      "duration": 4.959
+    },
+    {
+      "text": "serious incident reports um and some",
+      "start": 1888.159,
+      "duration": 4.721
+    },
+    {
+      "text": "public access stuff. So, I think the",
+      "start": 1890.799,
+      "duration": 4.561
+    },
+    {
+      "text": "safety and security framework is doing a",
+      "start": 1892.88,
+      "duration": 6.639
+    },
+    {
+      "text": "lot of uh a lot of the work um in how",
+      "start": 1895.36,
+      "duration": 8.72
+    },
+    {
+      "text": "the EU is trying to deal with uh serious",
+      "start": 1899.519,
+      "duration": 6.561
+    },
+    {
+      "text": "risks. But before we go there, because I",
+      "start": 1904.08,
+      "duration": 3.68
+    },
+    {
+      "text": "want to go there next, but before we go",
+      "start": 1906.08,
+      "duration": 3.199
+    },
+    {
+      "text": "there, can you just talk a little bit",
+      "start": 1907.76,
+      "duration": 5.12
+    },
+    {
+      "text": "about like what are the big risks that",
+      "start": 1909.279,
+      "duration": 6.321
+    },
+    {
+      "text": "the EU is trying to solve with this code",
+      "start": 1912.88,
+      "duration": 4.88
+    },
+    {
+      "text": "of practice for and I'm I'm thinking",
+      "start": 1915.6,
+      "duration": 3.52
+    },
+    {
+      "text": "specifically here of these quote unquote",
+      "start": 1917.76,
+      "duration": 3.519
+    },
+    {
+      "text": "systemic risks. So like another way of",
+      "start": 1919.12,
+      "duration": 3.439
+    },
+    {
+      "text": "putting the question is like what is the",
+      "start": 1921.279,
+      "duration": 3.28
+    },
+    {
+      "text": "problem that the EU is trying to solve",
+      "start": 1922.559,
+      "duration": 4.321
+    },
+    {
+      "text": "in terms of systemic risks?",
+      "start": 1924.559,
+      "duration": 4.24
+    },
+    {
+      "text": ">> Well, you should think about risks to",
+      "start": 1926.88,
+      "duration": 4.0
+    },
+    {
+      "text": "national security. You know that we all",
+      "start": 1928.799,
+      "duration": 4.72
+    },
+    {
+      "text": "know the famous examples of of boweapons",
+      "start": 1930.88,
+      "duration": 4.639
+    },
+    {
+      "text": "and might it be easier for people to",
+      "start": 1933.519,
+      "duration": 4.88
+    },
+    {
+      "text": "develop those through models. uh but it",
+      "start": 1935.519,
+      "duration": 5.28
+    },
+    {
+      "text": "could also have have implications for",
+      "start": 1938.399,
+      "duration": 4.561
+    },
+    {
+      "text": "public health for example you know if if",
+      "start": 1940.799,
+      "duration": 5.041
+    },
+    {
+      "text": "certain I don't know like toxics or",
+      "start": 1942.96,
+      "duration": 5.04
+    },
+    {
+      "text": "whatever could be easy to understand and",
+      "start": 1945.84,
+      "duration": 5.199
+    },
+    {
+      "text": "and spread or whatever through AI",
+      "start": 1948.0,
+      "duration": 6.48
+    },
+    {
+      "text": "um but there's also a responsibility to",
+      "start": 1951.039,
+      "duration": 5.36
+    },
+    {
+      "text": "sort of keep thinking about systemic",
+      "start": 1954.48,
+      "duration": 2.72
+    },
+    {
+      "text": "risks so",
+      "start": 1956.399,
+      "duration": 2.481
+    },
+    {
+      "text": ">> I think cyber security was also on the",
+      "start": 1957.2,
+      "duration": 2.479
+    },
+    {
+      "text": "list if memory",
+      "start": 1958.88,
+      "duration": 2.159
+    },
+    {
+      "text": ">> of course yeah loss of control is",
+      "start": 1959.679,
+      "duration": 5.84
+    },
+    {
+      "text": "definitely uh there so if if if AI uh",
+      "start": 1961.039,
+      "duration": 7.041
+    },
+    {
+      "text": "models kind of go go, you know, off on",
+      "start": 1965.519,
+      "duration": 3.841
+    },
+    {
+      "text": "their own and create all kinds of",
+      "start": 1968.08,
+      "duration": 3.04
+    },
+    {
+      "text": "problems through cyber security or",
+      "start": 1969.36,
+      "duration": 4.0
+    },
+    {
+      "text": "otherwise. Yes, absolutely. Um, but",
+      "start": 1971.12,
+      "duration": 4.0
+    },
+    {
+      "text": "there could be other things, right? I",
+      "start": 1973.36,
+      "duration": 5.439
+    },
+    {
+      "text": "mean, um, we could learn we could learn",
+      "start": 1975.12,
+      "duration": 7.6
+    },
+    {
+      "text": "more about new models and what problems",
+      "start": 1978.799,
+      "duration": 6.48
+    },
+    {
+      "text": "uh, they create. I think, you know,",
+      "start": 1982.72,
+      "duration": 4.4
+    },
+    {
+      "text": "that's the tension there. You you write",
+      "start": 1985.279,
+      "duration": 3.28
+    },
+    {
+      "text": "the law at a moment where this",
+      "start": 1987.12,
+      "duration": 5.039
+    },
+    {
+      "text": "technology is evolving so quickly. Um",
+      "start": 1988.559,
+      "duration": 7.12
+    },
+    {
+      "text": "and and by the way, you know, uh",
+      "start": 1992.159,
+      "duration": 5.36
+    },
+    {
+      "text": "important jurisdictions such as the US",
+      "start": 1995.679,
+      "duration": 4.48
+    },
+    {
+      "text": "not taking comparable measures.",
+      "start": 1997.519,
+      "duration": 5.441
+    },
+    {
+      "text": ">> Um but you have to kind of both be",
+      "start": 2000.159,
+      "duration": 4.801
+    },
+    {
+      "text": "specific because that's what people need",
+      "start": 2002.96,
+      "duration": 3.599
+    },
+    {
+      "text": "in order to comply with the law. It's",
+      "start": 2004.96,
+      "duration": 3.12
+    },
+    {
+      "text": "what companies ask.",
+      "start": 2006.559,
+      "duration": 2.0
+    },
+    {
+      "text": ">> Mhm.",
+      "start": 2008.08,
+      "duration": 2.56
+    },
+    {
+      "text": ">> But you also need to be flexible in",
+      "start": 2008.559,
+      "duration": 3.84
+    },
+    {
+      "text": "order to anticipate what might be",
+      "start": 2010.64,
+      "duration": 3.759
+    },
+    {
+      "text": "coming. And so I think we've constantly",
+      "start": 2012.399,
+      "duration": 5.441
+    },
+    {
+      "text": "been in this tension of okay well what",
+      "start": 2014.399,
+      "duration": 5.28
+    },
+    {
+      "text": "what do we know we need and what do we",
+      "start": 2017.84,
+      "duration": 4.16
+    },
+    {
+      "text": "not know that might happen and how can",
+      "start": 2019.679,
+      "duration": 3.921
+    },
+    {
+      "text": "we still write it down so that this law",
+      "start": 2022.0,
+      "duration": 3.6
+    },
+    {
+      "text": "is sustainable and it's not outdated you",
+      "start": 2023.6,
+      "duration": 5.04
+    },
+    {
+      "text": "know 3 years from now um but at the same",
+      "start": 2025.6,
+      "duration": 6.72
+    },
+    {
+      "text": "time is specific enough and so there's",
+      "start": 2028.64,
+      "duration": 7.44
+    },
+    {
+      "text": "also the the uh opportunity for the AI",
+      "start": 2032.32,
+      "duration": 6.32
+    },
+    {
+      "text": "office to update with new risks that",
+      "start": 2036.08,
+      "duration": 5.04
+    },
+    {
+      "text": "need to be considered but also the",
+      "start": 2038.64,
+      "duration": 4.399
+    },
+    {
+      "text": "companies are just expected to act in",
+      "start": 2041.12,
+      "duration": 4.48
+    },
+    {
+      "text": "good faith visa v systemic risk based on",
+      "start": 2043.039,
+      "duration": 5.6
+    },
+    {
+      "text": "for example the body of scientific work",
+      "start": 2045.6,
+      "duration": 5.6
+    },
+    {
+      "text": "you know latest information that is out",
+      "start": 2048.639,
+      "duration": 4.161
+    },
+    {
+      "text": "there in the world so that when",
+      "start": 2051.2,
+      "duration": 3.439
+    },
+    {
+      "text": "basically everybody knows that there's a",
+      "start": 2052.8,
+      "duration": 3.44
+    },
+    {
+      "text": "new problem the company can't say well",
+      "start": 2054.639,
+      "duration": 4.0
+    },
+    {
+      "text": "we had no idea because we just you know",
+      "start": 2056.24,
+      "duration": 4.399
+    },
+    {
+      "text": "have to assume that they will study and",
+      "start": 2058.639,
+      "duration": 4.801
+    },
+    {
+      "text": "be aware of the latest in AI including",
+      "start": 2060.639,
+      "duration": 3.921
+    },
+    {
+      "text": "systemic risks.",
+      "start": 2063.44,
+      "duration": 4.56
+    },
+    {
+      "text": ">> Yeah. So, let me um uh chime in a bit",
+      "start": 2064.56,
+      "duration": 6.319
+    },
+    {
+      "text": "here because uh you've caught me just",
+      "start": 2068.0,
+      "duration": 6.24
+    },
+    {
+      "text": "after I published uh a report on AI and",
+      "start": 2070.879,
+      "duration": 6.48
+    },
+    {
+      "text": "boweapons risk uh with my former",
+      "start": 2074.24,
+      "duration": 5.839
+    },
+    {
+      "text": "colleague Georgia Adamson. Um so, I'm",
+      "start": 2077.359,
+      "duration": 4.72
+    },
+    {
+      "text": "I'm chomping at the bit uh to to talk",
+      "start": 2080.079,
+      "duration": 3.76
+    },
+    {
+      "text": "about this systemic risk thing. So,",
+      "start": 2082.079,
+      "duration": 5.04
+    },
+    {
+      "text": "pardon me while I I butt in here. Um I",
+      "start": 2083.839,
+      "duration": 7.441
+    },
+    {
+      "text": "think it is a extraordinary gift of",
+      "start": 2087.119,
+      "duration": 7.28
+    },
+    {
+      "text": "human history and fate that it turns out",
+      "start": 2091.28,
+      "duration": 5.44
+    },
+    {
+      "text": "nuclear weapons are hard to make. Right?",
+      "start": 2094.399,
+      "duration": 5.361
+    },
+    {
+      "text": "And the reason is that separating",
+      "start": 2096.72,
+      "duration": 7.2
+    },
+    {
+      "text": "uranium 238 isotope from uranium 235",
+      "start": 2099.76,
+      "duration": 6.8
+    },
+    {
+      "text": "isotope is just really really hard. It's",
+      "start": 2103.92,
+      "duration": 4.88
+    },
+    {
+      "text": "expensive and complicated. Saddam",
+      "start": 2106.56,
+      "duration": 4.4
+    },
+    {
+      "text": "Hussein spent billions of dollars on it",
+      "start": 2108.8,
+      "duration": 5.92
+    },
+    {
+      "text": "and failed. Um, and so thank goodness,",
+      "start": 2110.96,
+      "duration": 5.119
+    },
+    {
+      "text": "right, that nuclear weapons are",
+      "start": 2114.72,
+      "duration": 3.28
+    },
+    {
+      "text": "expensive and complicated to build. If",
+      "start": 2116.079,
+      "duration": 4.641
+    },
+    {
+      "text": "nuclear weapons were as hard to build as",
+      "start": 2118.0,
+      "duration": 5.2
+    },
+    {
+      "text": "Legos, we would all be dead. We would",
+      "start": 2120.72,
+      "duration": 4.639
+    },
+    {
+      "text": "all have already died if nuclear weapons",
+      "start": 2123.2,
+      "duration": 4.32
+    },
+    {
+      "text": "were as hard to build as Legos. And so,",
+      "start": 2125.359,
+      "duration": 3.601
+    },
+    {
+      "text": "the fact that these weapons of mass",
+      "start": 2127.52,
+      "duration": 2.64
+    },
+    {
+      "text": "destruction are expensive and",
+      "start": 2128.96,
+      "duration": 4.48
+    },
+    {
+      "text": "complicated is good for humanity. Now",
+      "start": 2130.16,
+      "duration": 4.959
+    },
+    {
+      "text": "you look at other kinds of weapons of",
+      "start": 2133.44,
+      "duration": 4.399
+    },
+    {
+      "text": "mass destruction uh like biological",
+      "start": 2135.119,
+      "duration": 5.761
+    },
+    {
+      "text": "weapons and it the the question you have",
+      "start": 2137.839,
+      "duration": 5.601
+    },
+    {
+      "text": "to ask is well is that expensive and",
+      "start": 2140.88,
+      "duration": 5.199
+    },
+    {
+      "text": "complicated now and could that change",
+      "start": 2143.44,
+      "duration": 6.32
+    },
+    {
+      "text": "over time and AI is one of these areas",
+      "start": 2146.079,
+      "duration": 5.76
+    },
+    {
+      "text": "where if you look at the existing",
+      "start": 2149.76,
+      "duration": 4.24
+    },
+    {
+      "text": "safeguards both those that exist in",
+      "start": 2151.839,
+      "duration": 4.561
+    },
+    {
+      "text": "nature and those that exist in human",
+      "start": 2154.0,
+      "duration": 4.96
+    },
+    {
+      "text": "society and technology um it's just",
+      "start": 2156.4,
+      "duration": 4.8
+    },
+    {
+      "text": "getting a lot easier to create new",
+      "start": 2158.96,
+      "duration": 5.44
+    },
+    {
+      "text": "organisms to design uh changes to",
+      "start": 2161.2,
+      "duration": 5.36
+    },
+    {
+      "text": "existing organisms and then to go create",
+      "start": 2164.4,
+      "duration": 4.8
+    },
+    {
+      "text": "those organisms. And so the plausibility",
+      "start": 2166.56,
+      "duration": 6.08
+    },
+    {
+      "text": "of a pandemic uh that is human created",
+      "start": 2169.2,
+      "duration": 5.6
+    },
+    {
+      "text": "and not human created by like North",
+      "start": 2172.64,
+      "duration": 4.4
+    },
+    {
+      "text": "Korea spending many years to develop",
+      "start": 2174.8,
+      "duration": 5.76
+    },
+    {
+      "text": "bioweapons, but by like one or more, you",
+      "start": 2177.04,
+      "duration": 4.88
+    },
+    {
+      "text": "know, groups of people. Like I think",
+      "start": 2180.56,
+      "duration": 3.68
+    },
+    {
+      "text": "we're all familiar with the James Bond",
+      "start": 2181.92,
+      "duration": 5.04
+    },
+    {
+      "text": "villain trope of like an evil genius on",
+      "start": 2184.24,
+      "duration": 4.48
+    },
+    {
+      "text": "an island somewhere with a massive",
+      "start": 2186.96,
+      "duration": 4.24
+    },
+    {
+      "text": "resources and massive brains developing",
+      "start": 2188.72,
+      "duration": 5.359
+    },
+    {
+      "text": "WMDs. But what if WMDs were within the",
+      "start": 2191.2,
+      "duration": 6.08
+    },
+    {
+      "text": "reach of an evil average person? Um and",
+      "start": 2194.079,
+      "duration": 6.0
+    },
+    {
+      "text": "that is uh that is the the AI and",
+      "start": 2197.28,
+      "duration": 4.799
+    },
+    {
+      "text": "bioweapons risk. And what's really",
+      "start": 2200.079,
+      "duration": 4.0
+    },
+    {
+      "text": "interesting is that like it's not just",
+      "start": 2202.079,
+      "duration": 3.76
+    },
+    {
+      "text": "you know national security types like me",
+      "start": 2204.079,
+      "duration": 4.0
+    },
+    {
+      "text": "who care about this. Even the folks who",
+      "start": 2205.839,
+      "duration": 4.561
+    },
+    {
+      "text": "are typically associated with being most",
+      "start": 2208.079,
+      "duration": 5.681
+    },
+    {
+      "text": "hostile to AI regulation like Meta CEO",
+      "start": 2210.4,
+      "duration": 5.199
+    },
+    {
+      "text": "Mark Zuckerberg, he's like, \"Yes,",
+      "start": 2213.76,
+      "duration": 3.76
+    },
+    {
+      "text": "boweapons is in a different category.\"",
+      "start": 2215.599,
+      "duration": 3.841
+    },
+    {
+      "text": "Like, we absolutely need to to do",
+      "start": 2217.52,
+      "duration": 4.4
+    },
+    {
+      "text": "something about this because, you know,",
+      "start": 2219.44,
+      "duration": 5.679
+    },
+    {
+      "text": "even if nine out of 10 companies are",
+      "start": 2221.92,
+      "duration": 4.88
+    },
+    {
+      "text": "deeply responsible and put in place a",
+      "start": 2225.119,
+      "duration": 3.601
+    },
+    {
+      "text": "lot of safeguards, it only takes one bad",
+      "start": 2226.8,
+      "duration": 4.0
+    },
+    {
+      "text": "actor to like screw us all over and",
+      "start": 2228.72,
+      "duration": 4.96
+    },
+    {
+      "text": "cause another global pandemic. Similarly",
+      "start": 2230.8,
+      "duration": 5.68
+    },
+    {
+      "text": "in you know cyber weapons",
+      "start": 2233.68,
+      "duration": 4.88
+    },
+    {
+      "text": "error the sort of question is like well",
+      "start": 2236.48,
+      "duration": 3.76
+    },
+    {
+      "text": "what if AI models because they're very",
+      "start": 2238.56,
+      "duration": 3.6
+    },
+    {
+      "text": "very good at writing computer code and",
+      "start": 2240.24,
+      "duration": 4.08
+    },
+    {
+      "text": "assessing computer code can make it",
+      "start": 2242.16,
+      "duration": 4.72
+    },
+    {
+      "text": "easier to generate offensive or",
+      "start": 2244.32,
+      "duration": 5.039
+    },
+    {
+      "text": "malicious computer code. Do we want you",
+      "start": 2246.88,
+      "duration": 5.36
+    },
+    {
+      "text": "know a group of three or four cyber",
+      "start": 2249.359,
+      "duration": 5.441
+    },
+    {
+      "text": "criminals or maybe even one to have the",
+      "start": 2252.24,
+      "duration": 4.56
+    },
+    {
+      "text": "level of capability that today we",
+      "start": 2254.8,
+      "duration": 4.48
+    },
+    {
+      "text": "normally associate with nation states in",
+      "start": 2256.8,
+      "duration": 5.2
+    },
+    {
+      "text": "cyberspace. So those are kinds of",
+      "start": 2259.28,
+      "duration": 6.96
+    },
+    {
+      "text": "systemic risks where um AI as a helpful",
+      "start": 2262.0,
+      "duration": 6.72
+    },
+    {
+      "text": "technological enabler can enable a lot",
+      "start": 2266.24,
+      "duration": 4.56
+    },
+    {
+      "text": "of good can enable a lot of bad and so",
+      "start": 2268.72,
+      "duration": 4.48
+    },
+    {
+      "text": "the question is what are companies doing",
+      "start": 2270.8,
+      "duration": 5.2
+    },
+    {
+      "text": "to like minimize the chance that it's",
+      "start": 2273.2,
+      "duration": 5.04
+    },
+    {
+      "text": "going to be enabling an awful lot of bad",
+      "start": 2276.0,
+      "duration": 5.04
+    },
+    {
+      "text": "and I think that that uh tell me if you",
+      "start": 2278.24,
+      "duration": 5.359
+    },
+    {
+      "text": "disagree but that those that category of",
+      "start": 2281.04,
+      "duration": 5.2
+    },
+    {
+      "text": "risks is what the code of practice was",
+      "start": 2283.599,
+      "duration": 4.961
+    },
+    {
+      "text": "intended to go after.",
+      "start": 2286.24,
+      "duration": 4.08
+    },
+    {
+      "text": ">> Yes. I mean part of the code of practice",
+      "start": 2288.56,
+      "duration": 2.24
+    },
+    {
+      "text": "indeed",
+      "start": 2290.32,
+      "duration": 2.32
+    },
+    {
+      "text": ">> right the safety and security",
+      "start": 2290.8,
+      "duration": 4.48
+    },
+    {
+      "text": ">> I think it's a I think it's a good um a",
+      "start": 2292.64,
+      "duration": 4.959
+    },
+    {
+      "text": "good summary you know I think I see a",
+      "start": 2295.28,
+      "duration": 4.0
+    },
+    {
+      "text": "really important analogy in what you're",
+      "start": 2297.599,
+      "duration": 3.601
+    },
+    {
+      "text": "saying about you know how one company",
+      "start": 2299.28,
+      "duration": 3.839
+    },
+    {
+      "text": "can spoil it for the rest not only for",
+      "start": 2301.2,
+      "duration": 3.919
+    },
+    {
+      "text": "you know life life on earth and maybe",
+      "start": 2303.119,
+      "duration": 4.401
+    },
+    {
+      "text": "all of us get you know impacted by a new",
+      "start": 2305.119,
+      "duration": 4.96
+    },
+    {
+      "text": "pandemic or what have you but I also",
+      "start": 2307.52,
+      "duration": 4.559
+    },
+    {
+      "text": "think AI companies should think about",
+      "start": 2310.079,
+      "duration": 6.881
+    },
+    {
+      "text": "how bad actors maybe some of them can",
+      "start": 2312.079,
+      "duration": 7.04
+    },
+    {
+      "text": "really harm the trust in AI AI as a",
+      "start": 2316.96,
+      "duration": 4.96
+    },
+    {
+      "text": "technology for many and so you know I've",
+      "start": 2319.119,
+      "duration": 4.401
+    },
+    {
+      "text": "heard a lot of criticism of course of",
+      "start": 2321.92,
+      "duration": 3.439
+    },
+    {
+      "text": "the AI act you know especially from the",
+      "start": 2323.52,
+      "duration": 3.599
+    },
+    {
+      "text": "US but no surprises with this",
+      "start": 2325.359,
+      "duration": 3.521
+    },
+    {
+      "text": "administration but also from the",
+      "start": 2327.119,
+      "duration": 3.521
+    },
+    {
+      "text": "companies um",
+      "start": 2328.88,
+      "duration": 4.4
+    },
+    {
+      "text": ">> but I also see clear advantages which is",
+      "start": 2330.64,
+      "duration": 6.719
+    },
+    {
+      "text": "you know this is a way that you can uh",
+      "start": 2333.28,
+      "duration": 8.319
+    },
+    {
+      "text": "facilitate compliance and show that that",
+      "start": 2337.359,
+      "duration": 6.48
+    },
+    {
+      "text": "this is a trustworthy technology that",
+      "start": 2341.599,
+      "duration": 5.841
+    },
+    {
+      "text": "can actually be assessed for risk while",
+      "start": 2343.839,
+      "duration": 6.0
+    },
+    {
+      "text": "um you know I I don't know many AI",
+      "start": 2347.44,
+      "duration": 3.76
+    },
+    {
+      "text": "experts who think that this is a",
+      "start": 2349.839,
+      "duration": 3.361
+    },
+    {
+      "text": "risk-free technology. You know, not that",
+      "start": 2351.2,
+      "duration": 5.6
+    },
+    {
+      "text": "long ago, we had academic experts, CEOs",
+      "start": 2353.2,
+      "duration": 5.44
+    },
+    {
+      "text": "penning all kinds of letters that this",
+      "start": 2356.8,
+      "duration": 3.44
+    },
+    {
+      "text": "needed to be paused, that there was",
+      "start": 2358.64,
+      "duration": 3.6
+    },
+    {
+      "text": "going to be the end of of humanity",
+      "start": 2360.24,
+      "duration": 3.28
+    },
+    {
+      "text": "potentially and you know, all the",
+      "start": 2362.24,
+      "duration": 2.72
+    },
+    {
+      "text": "catastrophes you're talking about. But",
+      "start": 2363.52,
+      "duration": 4.16
+    },
+    {
+      "text": "there's also risks in the in the present",
+      "start": 2364.96,
+      "duration": 4.48
+    },
+    {
+      "text": "day. So, forget about systemic risks",
+      "start": 2367.68,
+      "duration": 4.88
+    },
+    {
+      "text": "that are horrible and non-controversial.",
+      "start": 2369.44,
+      "duration": 5.12
+    },
+    {
+      "text": "There are also problems in the here and",
+      "start": 2372.56,
+      "duration": 3.68
+    },
+    {
+      "text": "now that could seriously impact the",
+      "start": 2374.56,
+      "duration": 3.92
+    },
+    {
+      "text": "trust that people have in AI at large.",
+      "start": 2376.24,
+      "duration": 4.24
+    },
+    {
+      "text": "Cyber security on a lower level being",
+      "start": 2378.48,
+      "duration": 5.359
+    },
+    {
+      "text": "one of them. Discrimination of course uh",
+      "start": 2380.48,
+      "duration": 5.76
+    },
+    {
+      "text": "impact on uh democracy being another one",
+      "start": 2383.839,
+      "duration": 5.681
+    },
+    {
+      "text": "that I think is really important. And so",
+      "start": 2386.24,
+      "duration": 5.76
+    },
+    {
+      "text": "um I would imagine and I think that the",
+      "start": 2389.52,
+      "duration": 5.2
+    },
+    {
+      "text": "test case will be fascinating to observe",
+      "start": 2392.0,
+      "duration": 4.88
+    },
+    {
+      "text": "between the US and Europe and other",
+      "start": 2394.72,
+      "duration": 4.48
+    },
+    {
+      "text": "jurisdictions. You know, will this will",
+      "start": 2396.88,
+      "duration": 4.88
+    },
+    {
+      "text": "this legal landscape where there are",
+      "start": 2399.2,
+      "duration": 4.56
+    },
+    {
+      "text": "mechanisms, one, will it be sufficient?",
+      "start": 2401.76,
+      "duration": 4.24
+    },
+    {
+      "text": "Will it work out in practice? But two,",
+      "start": 2403.76,
+      "duration": 4.88
+    },
+    {
+      "text": "will it actually help build trust in the",
+      "start": 2406.0,
+      "duration": 4.64
+    },
+    {
+      "text": "technology that has a lot of questions",
+      "start": 2408.64,
+      "duration": 3.439
+    },
+    {
+      "text": "about, you know, what is it ultimately",
+      "start": 2410.64,
+      "duration": 2.959
+    },
+    {
+      "text": "going to do? Are all these promises of",
+      "start": 2412.079,
+      "duration": 3.121
+    },
+    {
+      "text": "good stuff going to materialize or are",
+      "start": 2413.599,
+      "duration": 3.921
+    },
+    {
+      "text": "we going to continue to suffer from",
+      "start": 2415.2,
+      "duration": 5.919
+    },
+    {
+      "text": "harms in in, you know, in uh this day",
+      "start": 2417.52,
+      "duration": 6.559
+    },
+    {
+      "text": "and age, but also in the future. Um and",
+      "start": 2421.119,
+      "duration": 6.321
+    },
+    {
+      "text": "so you know the analogy that one company",
+      "start": 2424.079,
+      "duration": 5.441
+    },
+    {
+      "text": "can ruin it for the rest I think applies",
+      "start": 2427.44,
+      "duration": 4.56
+    },
+    {
+      "text": "broadly and I think here laws and",
+      "start": 2429.52,
+      "duration": 4.64
+    },
+    {
+      "text": "standards can really help build that",
+      "start": 2432.0,
+      "duration": 4.56
+    },
+    {
+      "text": "trust and predictability which is",
+      "start": 2434.16,
+      "duration": 4.32
+    },
+    {
+      "text": "something that companies typically want.",
+      "start": 2436.56,
+      "duration": 4.64
+    },
+    {
+      "text": "You know now that the federal government",
+      "start": 2438.48,
+      "duration": 5.119
+    },
+    {
+      "text": "in the US is not going to adopt much",
+      "start": 2441.2,
+      "duration": 4.96
+    },
+    {
+      "text": "regulation at all uh around tech. It",
+      "start": 2443.599,
+      "duration": 3.921
+    },
+    {
+      "text": "will be really interesting to see not",
+      "start": 2446.16,
+      "duration": 3.36
+    },
+    {
+      "text": "only what individual states will do but",
+      "start": 2447.52,
+      "duration": 3.599
+    },
+    {
+      "text": "also what the responses by the companies",
+      "start": 2449.52,
+      "duration": 2.64
+    },
+    {
+      "text": "will be because this kind of",
+      "start": 2451.119,
+      "duration": 2.72
+    },
+    {
+      "text": "fragmentation",
+      "start": 2452.16,
+      "duration": 4.8
+    },
+    {
+      "text": "different laws on relatively small scale",
+      "start": 2453.839,
+      "duration": 6.081
+    },
+    {
+      "text": "of amount of people makes the work of",
+      "start": 2456.96,
+      "duration": 4.399
+    },
+    {
+      "text": "companies harder because they have to",
+      "start": 2459.92,
+      "duration": 3.84
+    },
+    {
+      "text": "comply you know differently for",
+      "start": 2461.359,
+      "duration": 4.801
+    },
+    {
+      "text": "different areas different states",
+      "start": 2463.76,
+      "duration": 4.72
+    },
+    {
+      "text": "potentially different countries and so",
+      "start": 2466.16,
+      "duration": 5.04
+    },
+    {
+      "text": "it may well be that when I don't know",
+      "start": 2468.48,
+      "duration": 4.879
+    },
+    {
+      "text": "California comes up with a strict law",
+      "start": 2471.2,
+      "duration": 5.2
+    },
+    {
+      "text": "either that there will be um the uh the",
+      "start": 2473.359,
+      "duration": 4.401
+    },
+    {
+      "text": "California effect, you know, the way",
+      "start": 2476.4,
+      "duration": 3.199
+    },
+    {
+      "text": "that there is a Brussels effect that the",
+      "start": 2477.76,
+      "duration": 4.16
+    },
+    {
+      "text": "highest standard will apply to all or",
+      "start": 2479.599,
+      "duration": 4.081
+    },
+    {
+      "text": "that companies will begin to lobby and",
+      "start": 2481.92,
+      "duration": 3.36
+    },
+    {
+      "text": "say, \"Hey, just why why can't we have",
+      "start": 2483.68,
+      "duration": 3.04
+    },
+    {
+      "text": "this standard instead of, you know,",
+      "start": 2485.28,
+      "duration": 4.16
+    },
+    {
+      "text": "five, six, 15, 20 different states doing",
+      "start": 2486.72,
+      "duration": 5.52
+    },
+    {
+      "text": "different things and us having to figure",
+      "start": 2489.44,
+      "duration": 4.72
+    },
+    {
+      "text": "it out for every different state?\" So I",
+      "start": 2492.24,
+      "duration": 5.04
+    },
+    {
+      "text": "think the whole process of how to",
+      "start": 2494.16,
+      "duration": 5.36
+    },
+    {
+      "text": "regulate emerging technologies including",
+      "start": 2497.28,
+      "duration": 5.52
+    },
+    {
+      "text": "AI and what it means for the impact that",
+      "start": 2499.52,
+      "duration": 5.28
+    },
+    {
+      "text": "it has on trust but also on safety and",
+      "start": 2502.8,
+      "duration": 3.84
+    },
+    {
+      "text": "other aspects is really interesting to",
+      "start": 2504.8,
+      "duration": 3.2
+    },
+    {
+      "text": "observe now that we have such a big",
+      "start": 2506.64,
+      "duration": 3.36
+    },
+    {
+      "text": "difference between the US and the EU in",
+      "start": 2508.0,
+      "duration": 2.96
+    },
+    {
+      "text": "real time.",
+      "start": 2510.0,
+      "duration": 6.16
+    },
+    {
+      "text": ">> Yeah. So um the",
+      "start": 2510.96,
+      "duration": 6.879
+    },
+    {
+      "text": "going back to the products that we're",
+      "start": 2516.16,
+      "duration": 3.199
+    },
+    {
+      "text": "talking about I think the safety and",
+      "start": 2517.839,
+      "duration": 3.601
+    },
+    {
+      "text": "security framework is one that's really",
+      "start": 2519.359,
+      "duration": 4.641
+    },
+    {
+      "text": "important for folks to understand. So,",
+      "start": 2521.44,
+      "duration": 4.24
+    },
+    {
+      "text": "can you talk a little bit about like",
+      "start": 2524.0,
+      "duration": 3.599
+    },
+    {
+      "text": "what is a safety and security framework?",
+      "start": 2525.68,
+      "duration": 3.36
+    },
+    {
+      "text": "What do the companies have to do and how",
+      "start": 2527.599,
+      "duration": 3.601
+    },
+    {
+      "text": "is that going to interact with uh the EU",
+      "start": 2529.04,
+      "duration": 4.48
+    },
+    {
+      "text": "AI office?",
+      "start": 2531.2,
+      "duration": 3.76
+    },
+    {
+      "text": ">> Well, I think it's it's what I just",
+      "start": 2533.52,
+      "duration": 3.12
+    },
+    {
+      "text": "mentioned. So it spells out in greater",
+      "start": 2534.96,
+      "duration": 3.04
+    },
+    {
+      "text": "detail and I don't know it off the top",
+      "start": 2536.64,
+      "duration": 2.959
+    },
+    {
+      "text": "of my head but all kinds of criteria",
+      "start": 2538.0,
+      "duration": 4.079
+    },
+    {
+      "text": "that the companies have to you know",
+      "start": 2539.599,
+      "duration": 4.48
+    },
+    {
+      "text": "assess for",
+      "start": 2542.079,
+      "duration": 4.321
+    },
+    {
+      "text": "uh before placing it onto the market but",
+      "start": 2544.079,
+      "duration": 4.081
+    },
+    {
+      "text": "also while it's placed onto the market",
+      "start": 2546.4,
+      "duration": 4.0
+    },
+    {
+      "text": "they have to keep monitoring lessons",
+      "start": 2548.16,
+      "duration": 5.6
+    },
+    {
+      "text": "learned especially as bigger models get",
+      "start": 2550.4,
+      "duration": 6.24
+    },
+    {
+      "text": "tweaked and used downstream if that",
+      "start": 2553.76,
+      "duration": 5.12
+    },
+    {
+      "text": "makes sense. So you know one company may",
+      "start": 2556.64,
+      "duration": 4.56
+    },
+    {
+      "text": "put a model out into the world but then",
+      "start": 2558.88,
+      "duration": 4.239
+    },
+    {
+      "text": "others may use it in different context",
+      "start": 2561.2,
+      "duration": 3.919
+    },
+    {
+      "text": "and what happens there. Yeah, just just",
+      "start": 2563.119,
+      "duration": 4.801
+    },
+    {
+      "text": "to give like an example like anthropic",
+      "start": 2565.119,
+      "duration": 6.801
+    },
+    {
+      "text": "um claude is used a lot uh as coding",
+      "start": 2567.92,
+      "duration": 6.8
+    },
+    {
+      "text": "assistance but it's not just like you",
+      "start": 2571.92,
+      "duration": 4.56
+    },
+    {
+      "text": "might be a customer of anthropic and not",
+      "start": 2574.72,
+      "duration": 4.0
+    },
+    {
+      "text": "know it because you might not be buying",
+      "start": 2576.48,
+      "duration": 4.96
+    },
+    {
+      "text": "uh claude directly from Anthropic you",
+      "start": 2578.72,
+      "duration": 3.84
+    },
+    {
+      "text": "might be buying it through a company",
+      "start": 2581.44,
+      "duration": 3.36
+    },
+    {
+      "text": "like wind surf or somebody else who adds",
+      "start": 2582.56,
+      "duration": 4.96
+    },
+    {
+      "text": "on the sort of additional capability to",
+      "start": 2584.8,
+      "duration": 5.36
+    },
+    {
+      "text": "make it uh more useful as a coding",
+      "start": 2587.52,
+      "duration": 4.72
+    },
+    {
+      "text": "assistant and you can imagine that you",
+      "start": 2590.16,
+      "duration": 3.28
+    },
+    {
+      "text": "know that kind of downstream",
+      "start": 2592.24,
+      "duration": 2.32
+    },
+    {
+      "text": "implications",
+      "start": 2593.44,
+      "duration": 3.919
+    },
+    {
+      "text": "there's a question of who's responsible",
+      "start": 2594.56,
+      "duration": 6.36
+    },
+    {
+      "text": "to make sure that",
+      "start": 2597.359,
+      "duration": 3.561
+    },
+    {
+      "text": "regulatory requirements that sort of",
+      "start": 2602.079,
+      "duration": 3.921
+    },
+    {
+      "text": "like yeah I guess that sort of",
+      "start": 2603.92,
+      "duration": 3.76
+    },
+    {
+      "text": "overarching question about like who's",
+      "start": 2606.0,
+      "duration": 4.24
+    },
+    {
+      "text": "responsible for what uh in these",
+      "start": 2607.68,
+      "duration": 4.399
+    },
+    {
+      "text": "obligations the original developer of",
+      "start": 2610.24,
+      "duration": 3.599
+    },
+    {
+      "text": "the model somebody who's the actual",
+      "start": 2612.079,
+      "duration": 3.201
+    },
+    {
+      "text": "person who's selling the model to the",
+      "start": 2613.839,
+      "duration": 3.201
+    },
+    {
+      "text": "end user versus like the end user",
+      "start": 2615.28,
+      "duration": 3.6
+    },
+    {
+      "text": "themselves",
+      "start": 2617.04,
+      "duration": 3.6
+    },
+    {
+      "text": ">> yeah and I think just you know from a",
+      "start": 2618.88,
+      "duration": 3.76
+    },
+    {
+      "text": "practical point of view this law is is",
+      "start": 2620.64,
+      "duration": 5.12
+    },
+    {
+      "text": "more about the upstream provider. So the",
+      "start": 2622.64,
+      "duration": 5.28
+    },
+    {
+      "text": "the handful of companies that have these",
+      "start": 2625.76,
+      "duration": 4.16
+    },
+    {
+      "text": "rare capabilities of developing these",
+      "start": 2627.92,
+      "duration": 3.52
+    },
+    {
+      "text": "very advanced models or the most",
+      "start": 2629.92,
+      "duration": 3.52
+    },
+    {
+      "text": "advanced models today could be different",
+      "start": 2631.44,
+      "duration": 6.96
+    },
+    {
+      "text": "a year from now. Um but um that is also",
+      "start": 2633.44,
+      "duration": 6.72
+    },
+    {
+      "text": "just practically and this is not spelled",
+      "start": 2638.4,
+      "duration": 3.28
+    },
+    {
+      "text": "out in the law but I you know as a",
+      "start": 2640.16,
+      "duration": 3.28
+    },
+    {
+      "text": "policy person just think it's helpful to",
+      "start": 2641.68,
+      "duration": 3.679
+    },
+    {
+      "text": "think this through. If you think about",
+      "start": 2643.44,
+      "duration": 3.52
+    },
+    {
+      "text": "it from a practical perspective where",
+      "start": 2645.359,
+      "duration": 2.96
+    },
+    {
+      "text": "would you want to intervene? Would you",
+      "start": 2646.96,
+      "duration": 2.879
+    },
+    {
+      "text": "want to monitor the handful of companies",
+      "start": 2648.319,
+      "duration": 3.28
+    },
+    {
+      "text": "that have these unique capabilities or",
+      "start": 2649.839,
+      "duration": 4.48
+    },
+    {
+      "text": "would you want to have compliance from",
+      "start": 2651.599,
+      "duration": 4.321
+    },
+    {
+      "text": "thousands if not tens of thousands if",
+      "start": 2654.319,
+      "duration": 3.201
+    },
+    {
+      "text": "not hundreds of thousands of smaller",
+      "start": 2655.92,
+      "duration": 3.679
+    },
+    {
+      "text": "players you know downstream? It makes no",
+      "start": 2657.52,
+      "duration": 3.839
+    },
+    {
+      "text": "sense from a practical enforcement point",
+      "start": 2659.599,
+      "duration": 3.921
+    },
+    {
+      "text": "of view either but also because these",
+      "start": 2661.359,
+      "duration": 4.161
+    },
+    {
+      "text": "model providers have the biggest",
+      "start": 2663.52,
+      "duration": 4.64
+    },
+    {
+      "text": "insights biggest handle on how these",
+      "start": 2665.52,
+      "duration": 5.2
+    },
+    {
+      "text": "models get developed designed and they",
+      "start": 2668.16,
+      "duration": 4.64
+    },
+    {
+      "text": "can see things that we can't see.",
+      "start": 2670.72,
+      "duration": 3.76
+    },
+    {
+      "text": ">> Yeah. So I mean I think I think it looks",
+      "start": 2672.8,
+      "duration": 4.4
+    },
+    {
+      "text": "different on a",
+      "start": 2674.48,
+      "duration": 6.48
+    },
+    {
+      "text": "problem bypro kind of a basis right if",
+      "start": 2677.2,
+      "duration": 7.6
+    },
+    {
+      "text": "you want to think about uh the the issue",
+      "start": 2680.96,
+      "duration": 8.0
+    },
+    {
+      "text": "of deep fake imagery um in in some",
+      "start": 2684.8,
+      "duration": 5.92
+    },
+    {
+      "text": "countries have put in place a",
+      "start": 2688.96,
+      "duration": 3.76
+    },
+    {
+      "text": "requirement that deep fake generated",
+      "start": 2690.72,
+      "duration": 6.08
+    },
+    {
+      "text": "imagery have associated metadata tags or",
+      "start": 2692.72,
+      "duration": 6.96
+    },
+    {
+      "text": "like watermarks inside the image so that",
+      "start": 2696.8,
+      "duration": 4.4
+    },
+    {
+      "text": "you know anybody who has like the",
+      "start": 2699.68,
+      "duration": 3.04
+    },
+    {
+      "text": "appropriate tools can look at this and",
+      "start": 2701.2,
+      "duration": 3.6
+    },
+    {
+      "text": "say this image is real. This image is a",
+      "start": 2702.72,
+      "duration": 3.68
+    },
+    {
+      "text": "deep fake. You know, it's it's built",
+      "start": 2704.8,
+      "duration": 4.48
+    },
+    {
+      "text": "into the image. Well, if you want that",
+      "start": 2706.4,
+      "duration": 4.719
+    },
+    {
+      "text": "regulation to exist, you really need to",
+      "start": 2709.28,
+      "duration": 3.839
+    },
+    {
+      "text": "go upstream to the people who are",
+      "start": 2711.119,
+      "duration": 4.561
+    },
+    {
+      "text": "creating the image generation software,",
+      "start": 2713.119,
+      "duration": 4.641
+    },
+    {
+      "text": "right? Like a watermarking requirement",
+      "start": 2715.68,
+      "duration": 4.08
+    },
+    {
+      "text": "where the implementation is at the very",
+      "start": 2717.76,
+      "duration": 4.88
+    },
+    {
+      "text": "last step of like the consumer who is",
+      "start": 2719.76,
+      "duration": 5.44
+    },
+    {
+      "text": "using Photoshop has to go in and like",
+      "start": 2722.64,
+      "duration": 5.28
+    },
+    {
+      "text": "manually add a watermark. That is a dumb",
+      "start": 2725.2,
+      "duration": 5.04
+    },
+    {
+      "text": "way to address that regulatory hurdle.",
+      "start": 2727.92,
+      "duration": 6.48
+    },
+    {
+      "text": "However, like in other areas like uh you",
+      "start": 2730.24,
+      "duration": 7.119
+    },
+    {
+      "text": "can't stab people with a knife. Like the",
+      "start": 2734.4,
+      "duration": 4.64
+    },
+    {
+      "text": "regulatory burden doesn't fall on the",
+      "start": 2737.359,
+      "duration": 3.521
+    },
+    {
+      "text": "knife manufacturer, it falls on the",
+      "start": 2739.04,
+      "duration": 4.72
+    },
+    {
+      "text": "consumer who is using the knife. Um and",
+      "start": 2740.88,
+      "duration": 4.239
+    },
+    {
+      "text": "so like whether you want to target",
+      "start": 2743.76,
+      "duration": 2.96
+    },
+    {
+      "text": "upstream or downstream, I think kind of",
+      "start": 2745.119,
+      "duration": 3.681
+    },
+    {
+      "text": "depends on the nature of the problem",
+      "start": 2746.72,
+      "duration": 3.68
+    },
+    {
+      "text": "you're trying to solve. And if if I",
+      "start": 2748.8,
+      "duration": 2.88
+    },
+    {
+      "text": "understand you correctly, you're saying",
+      "start": 2750.4,
+      "duration": 3.199
+    },
+    {
+      "text": "that most of the problems that this",
+      "start": 2751.68,
+      "duration": 4.0
+    },
+    {
+      "text": "regulation is looking at tackling are",
+      "start": 2753.599,
+      "duration": 4.72
+    },
+    {
+      "text": "the ones that the EU has identified as",
+      "start": 2755.68,
+      "duration": 5.28
+    },
+    {
+      "text": "better tackled in the upstream, right?",
+      "start": 2758.319,
+      "duration": 4.401
+    },
+    {
+      "text": ">> It's because they would be systemic. So",
+      "start": 2760.96,
+      "duration": 3.84
+    },
+    {
+      "text": "the the moment that it spreads that",
+      "start": 2762.72,
+      "duration": 4.399
+    },
+    {
+      "text": "becomes the problem, if it makes sense,",
+      "start": 2764.8,
+      "duration": 6.64
+    },
+    {
+      "text": ">> you know, um so the risk would grow if",
+      "start": 2767.119,
+      "duration": 8.24
+    },
+    {
+      "text": "more people had access to the models.",
+      "start": 2771.44,
+      "duration": 7.2
+    },
+    {
+      "text": ">> I see. Okay. And so I think you have to",
+      "start": 2775.359,
+      "duration": 5.041
+    },
+    {
+      "text": "think about",
+      "start": 2778.64,
+      "duration": 4.0
+    },
+    {
+      "text": "you know closer to the source is the",
+      "start": 2780.4,
+      "duration": 4.8
+    },
+    {
+      "text": "best place to prevent uh the risk but",
+      "start": 2782.64,
+      "duration": 5.6
+    },
+    {
+      "text": "also who is ultimately the sort of owner",
+      "start": 2785.2,
+      "duration": 6.159
+    },
+    {
+      "text": "of the model and the knowledge that goes",
+      "start": 2788.24,
+      "duration": 6.56
+    },
+    {
+      "text": "into it and who has the levers",
+      "start": 2791.359,
+      "duration": 6.321
+    },
+    {
+      "text": "uh before it gets put into society or",
+      "start": 2794.8,
+      "duration": 4.64
+    },
+    {
+      "text": "the market. Some of them get released,",
+      "start": 2797.68,
+      "duration": 4.56
+    },
+    {
+      "text": "some of them get sold um is of course",
+      "start": 2799.44,
+      "duration": 4.48
+    },
+    {
+      "text": "the model providers. They have the",
+      "start": 2802.24,
+      "duration": 4.4
+    },
+    {
+      "text": "resources, they have the insight, they",
+      "start": 2803.92,
+      "duration": 4.72
+    },
+    {
+      "text": "have the knowledge more than anyone",
+      "start": 2806.64,
+      "duration": 3.92
+    },
+    {
+      "text": "else. And you know, I think one of the",
+      "start": 2808.64,
+      "duration": 3.76
+    },
+    {
+      "text": "problems and this is not in the in the",
+      "start": 2810.56,
+      "duration": 4.4
+    },
+    {
+      "text": "law, but I think you know this will be a",
+      "start": 2812.4,
+      "duration": 4.16
+    },
+    {
+      "text": "problem that we all have to reckon with",
+      "start": 2814.96,
+      "duration": 6.08
+    },
+    {
+      "text": "is how unpredictable AI ends up being.",
+      "start": 2816.56,
+      "duration": 6.88
+    },
+    {
+      "text": "And so the question is how much risk can",
+      "start": 2821.04,
+      "duration": 5.039
+    },
+    {
+      "text": "you mitigate for at all? And that is a",
+      "start": 2823.44,
+      "duration": 5.2
+    },
+    {
+      "text": "risk in and of itself because you know",
+      "start": 2826.079,
+      "duration": 6.24
+    },
+    {
+      "text": "anthropic CEO Daniel Amoda has said it's",
+      "start": 2828.64,
+      "duration": 5.28
+    },
+    {
+      "text": "a public secret that nobody really knows",
+      "start": 2832.319,
+      "duration": 4.481
+    },
+    {
+      "text": "how generative AI works the way it does.",
+      "start": 2833.92,
+      "duration": 4.48
+    },
+    {
+      "text": "um you know lots of people have",
+      "start": 2836.8,
+      "duration": 4.88
+    },
+    {
+      "text": "basically said how unpredictable these",
+      "start": 2838.4,
+      "duration": 6.16
+    },
+    {
+      "text": "uh models and their their uh workings",
+      "start": 2841.68,
+      "duration": 6.08
+    },
+    {
+      "text": "are and I think you know it's hard to",
+      "start": 2844.56,
+      "duration": 6.16
+    },
+    {
+      "text": "work with existing law and enforcement",
+      "start": 2847.76,
+      "duration": 6.319
+    },
+    {
+      "text": "models to anticipate so much uncertainty",
+      "start": 2850.72,
+      "duration": 4.96
+    },
+    {
+      "text": "but that is something that we will have",
+      "start": 2854.079,
+      "duration": 4.721
+    },
+    {
+      "text": "to also learn as a society reform our",
+      "start": 2855.68,
+      "duration": 4.96
+    },
+    {
+      "text": "legislative processes our enforcement",
+      "start": 2858.8,
+      "duration": 4.0
+    },
+    {
+      "text": "processes because",
+      "start": 2860.64,
+      "duration": 4.64
+    },
+    {
+      "text": "I just don't think that the sort of",
+      "start": 2862.8,
+      "duration": 4.64
+    },
+    {
+      "text": "traditional legisl ative and enforcement",
+      "start": 2865.28,
+      "duration": 5.12
+    },
+    {
+      "text": "bodies and processes are equipped to",
+      "start": 2867.44,
+      "duration": 5.52
+    },
+    {
+      "text": "deal with so much change,",
+      "start": 2870.4,
+      "duration": 6.8
+    },
+    {
+      "text": ">> unpredictability. And so I'm hoping that",
+      "start": 2872.96,
+      "duration": 9.28
+    },
+    {
+      "text": "everyone who um is working with AI or is",
+      "start": 2877.2,
+      "duration": 10.24
+    },
+    {
+      "text": "working in policy is also interested in",
+      "start": 2882.24,
+      "duration": 8.4
+    },
+    {
+      "text": "reassessing how we deal with these risks",
+      "start": 2887.44,
+      "duration": 5.36
+    },
+    {
+      "text": "at all because I honestly don't know.",
+      "start": 2890.64,
+      "duration": 4.32
+    },
+    {
+      "text": "We'll have to see uh whether the laws",
+      "start": 2892.8,
+      "duration": 5.68
+    },
+    {
+      "text": "that we have now um will be sufficient.",
+      "start": 2894.96,
+      "duration": 6.48
+    },
+    {
+      "text": ">> Yeah. So uh as you think about that, you",
+      "start": 2898.48,
+      "duration": 6.4
+    },
+    {
+      "text": "know, will this be sufficient? Um what",
+      "start": 2901.44,
+      "duration": 5.84
+    },
+    {
+      "text": "are you thinking about for measuring the",
+      "start": 2904.88,
+      "duration": 4.4
+    },
+    {
+      "text": "success or the failure of the code of",
+      "start": 2907.28,
+      "duration": 3.52
+    },
+    {
+      "text": "practice? Like if we got in a time",
+      "start": 2909.28,
+      "duration": 5.039
+    },
+    {
+      "text": "machine 5 years from now uh and you",
+      "start": 2910.8,
+      "duration": 4.96
+    },
+    {
+      "text": "could track, I don't know, you know,",
+      "start": 2914.319,
+      "duration": 3.441
+    },
+    {
+      "text": "three metrics that would tell you",
+      "start": 2915.76,
+      "duration": 3.52
+    },
+    {
+      "text": "whether or not the code of practice is a",
+      "start": 2917.76,
+      "duration": 3.2
+    },
+    {
+      "text": "success. Like how are you thinking about",
+      "start": 2919.28,
+      "duration": 3.92
+    },
+    {
+      "text": "that? what what will you look to to to",
+      "start": 2920.96,
+      "duration": 3.68
+    },
+    {
+      "text": "feel like whether or not this is working",
+      "start": 2923.2,
+      "duration": 2.879
+    },
+    {
+      "text": "as intended or",
+      "start": 2924.64,
+      "duration": 3.12
+    },
+    {
+      "text": ">> Well, I hope it will make the whole",
+      "start": 2926.079,
+      "duration": 3.52
+    },
+    {
+      "text": "enforcement process more agile for",
+      "start": 2927.76,
+      "duration": 4.16
+    },
+    {
+      "text": "everyone. So, both for the companies and",
+      "start": 2929.599,
+      "duration": 5.441
+    },
+    {
+      "text": "for the AI office and for the uh AI",
+      "start": 2931.92,
+      "duration": 5.199
+    },
+    {
+      "text": "board because you know this takes time",
+      "start": 2935.04,
+      "duration": 3.84
+    },
+    {
+      "text": "and effort and we should make it as easy",
+      "start": 2937.119,
+      "duration": 4.321
+    },
+    {
+      "text": "as possible for everyone. Uh and I'm",
+      "start": 2938.88,
+      "duration": 3.76
+    },
+    {
+      "text": "sure there will be lots of lessons",
+      "start": 2941.44,
+      "duration": 2.879
+    },
+    {
+      "text": "learned there in how to simplify the",
+      "start": 2942.64,
+      "duration": 3.28
+    },
+    {
+      "text": "processes. But that is ultimately the",
+      "start": 2944.319,
+      "duration": 2.8
+    },
+    {
+      "text": "intention. How can we make this",
+      "start": 2945.92,
+      "duration": 3.28
+    },
+    {
+      "text": "predictable and manageable for",
+      "start": 2947.119,
+      "duration": 4.24
+    },
+    {
+      "text": "everybody? And I hope that companies",
+      "start": 2949.2,
+      "duration": 5.52
+    },
+    {
+      "text": "will say look um uh we weren't sure",
+      "start": 2951.359,
+      "duration": 6.401
+    },
+    {
+      "text": "about how this AI act would work. Uh the",
+      "start": 2954.72,
+      "duration": 4.8
+    },
+    {
+      "text": "administration at the time was very much",
+      "start": 2957.76,
+      "duration": 4.319
+    },
+    {
+      "text": "against regulation um of American",
+      "start": 2959.52,
+      "duration": 5.039
+    },
+    {
+      "text": "companies. But because we want our",
+      "start": 2962.079,
+      "duration": 5.04
+    },
+    {
+      "text": "products to be trusted and because we",
+      "start": 2964.559,
+      "duration": 5.841
+    },
+    {
+      "text": "also feel ownership of avoiding uh risk",
+      "start": 2967.119,
+      "duration": 5.041
+    },
+    {
+      "text": "and particularly systemic risk to",
+      "start": 2970.4,
+      "duration": 4.88
+    },
+    {
+      "text": "society uh we have now learned 5 years",
+      "start": 2972.16,
+      "duration": 5.76
+    },
+    {
+      "text": "after uh beginning to implement uh the",
+      "start": 2975.28,
+      "duration": 5.2
+    },
+    {
+      "text": "AI act that it has actually helped we",
+      "start": 2977.92,
+      "duration": 4.08
+    },
+    {
+      "text": "have caught things that we might not",
+      "start": 2980.48,
+      "duration": 3.68
+    },
+    {
+      "text": "have otherwise caught. We have been able",
+      "start": 2982.0,
+      "duration": 4.64
+    },
+    {
+      "text": "to uh build trusted relationships. you",
+      "start": 2984.16,
+      "duration": 4.0
+    },
+    {
+      "text": "know, we've been able to share knowledge",
+      "start": 2986.64,
+      "duration": 3.199
+    },
+    {
+      "text": "also publicly because it's not a",
+      "start": 2988.16,
+      "duration": 4.08
+    },
+    {
+      "text": "requirement but an encouragement to also",
+      "start": 2989.839,
+      "duration": 4.401
+    },
+    {
+      "text": "share some of these uh lessons learned",
+      "start": 2992.24,
+      "duration": 3.44
+    },
+    {
+      "text": "with the rest of the world, right? Not",
+      "start": 2994.24,
+      "duration": 5.92
+    },
+    {
+      "text": "just in the very confident um",
+      "start": 2995.68,
+      "duration": 5.919
+    },
+    {
+      "text": "confidential I should say sorry",
+      "start": 3000.16,
+      "duration": 4.08
+    },
+    {
+      "text": "confidential context of uh the enforcer",
+      "start": 3001.599,
+      "duration": 4.881
+    },
+    {
+      "text": "and and the model provider but also more",
+      "start": 3004.24,
+      "duration": 5.28
+    },
+    {
+      "text": "broadly etc. So I hope it will turn out",
+      "start": 3006.48,
+      "duration": 5.76
+    },
+    {
+      "text": "to be a positive thing for everybody.",
+      "start": 3009.52,
+      "duration": 4.72
+    },
+    {
+      "text": ">> Yeah. Well, I think that's a a lovely",
+      "start": 3012.24,
+      "duration": 3.92
+    },
+    {
+      "text": "note for us to conclude on even though",
+      "start": 3014.24,
+      "duration": 3.92
+    },
+    {
+      "text": "we could easily go talking for another",
+      "start": 3016.16,
+      "duration": 3.199
+    },
+    {
+      "text": "hour, but I know you have other",
+      "start": 3018.16,
+      "duration": 3.12
+    },
+    {
+      "text": "important things to get to today. So,",
+      "start": 3019.359,
+      "duration": 4.0
+    },
+    {
+      "text": "uh, let me just say, Maria Shock, thank",
+      "start": 3021.28,
+      "duration": 3.68
+    },
+    {
+      "text": "you so much for coming on the AI policy",
+      "start": 3023.359,
+      "duration": 2.321
+    },
+    {
+      "text": "podcast.",
+      "start": 3024.96,
+      "duration": 4.359
+    },
+    {
+      "text": ">> Thanks for having me.",
+      "start": 3025.68,
+      "duration": 3.639
+    },
+    {
+      "text": ">> Thanks for listening to this episode of",
+      "start": 3029.359,
+      "duration": 3.76
+    },
+    {
+      "text": "the AI Policy Podcast. If you like what",
+      "start": 3030.88,
+      "duration": 3.84
+    },
+    {
+      "text": "you heard, there's an easy way for you",
+      "start": 3033.119,
+      "duration": 3.681
+    },
+    {
+      "text": "to help us. Please give us a five-star",
+      "start": 3034.72,
+      "duration": 4.48
+    },
+    {
+      "text": "review on your favorite podcast platform",
+      "start": 3036.8,
+      "duration": 4.88
+    },
+    {
+      "text": "and subscribe and tell your friends. It",
+      "start": 3039.2,
+      "duration": 4.48
+    },
+    {
+      "text": "really helps when you spread the word.",
+      "start": 3041.68,
+      "duration": 3.84
+    },
+    {
+      "text": "This podcast was produced by Sarah",
+      "start": 3043.68,
+      "duration": 4.399
+    },
+    {
+      "text": "Baker, Satie McCulla, and Matt Mand. See",
+      "start": 3045.52,
+      "duration": 4.21
+    },
+    {
+      "text": "you next time.",
+      "start": 3048.079,
+      "duration": 4.701
+    },
+    {
+      "text": "[Music]",
+      "start": 3049.73,
+      "duration": 3.05
+    }
+  ]
+}

@@ -1,0 +1,7643 @@
+{
+  "source": "youtube",
+  "channel": "AI_Governance_Luiza_Jarovsky",
+  "playlist_title": "AI Governance Live Talks",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLMO4Px4-9culSwfqBJMycCbAJAuL7IhDJ",
+  "playlist_id": "PLMO4Px4-9culSwfqBJMycCbAJAuL7IhDJ",
+  "video_id": "doamosgmOgc",
+  "video_title": "AI Governance, with Alexandra Vesalga, Kris Johnston, Katharina Koerner & Ravit Dotan",
+  "video_url": "https://www.youtube.com/watch?v=doamosgmOgc",
+  "fetched_at": "2025-12-28T17:26:50.941368+00:00",
+  "transcript": [
+    {
+      "text": "hi everyone welcome to another edition",
+      "start": 0.08,
+      "duration": 4.56
+    },
+    {
+      "text": "of our live talks this is the 14th",
+      "start": 2.28,
+      "duration": 5.119
+    },
+    {
+      "text": "Edition I'm so happy to have this",
+      "start": 4.64,
+      "duration": 4.36
+    },
+    {
+      "text": "amazing guest here today we are talking",
+      "start": 7.399,
+      "duration": 4.561
+    },
+    {
+      "text": "about AI governance Hot Topics key",
+      "start": 9.0,
+      "duration": 5.32
+    },
+    {
+      "text": "Concepts and best practices and I'm here",
+      "start": 11.96,
+      "duration": 5.6
+    },
+    {
+      "text": "with Chris Johnson Alexandra VGA Ravid",
+      "start": 14.32,
+      "duration": 4.92
+    },
+    {
+      "text": "Doan and Katarina Kern before I",
+      "start": 17.56,
+      "duration": 4.68
+    },
+    {
+      "text": "introduce them and first let's have give",
+      "start": 19.24,
+      "duration": 4.64
+    },
+    {
+      "text": "some two or three minutes for everyone",
+      "start": 22.24,
+      "duration": 3.56
+    },
+    {
+      "text": "to join so please let me know in the",
+      "start": 23.88,
+      "duration": 4.399
+    },
+    {
+      "text": "chat where are you connecting from and",
+      "start": 25.8,
+      "duration": 3.84
+    },
+    {
+      "text": "if you have already any questions or",
+      "start": 28.279,
+      "duration": 2.92
+    },
+    {
+      "text": "something you think about AI governance",
+      "start": 29.64,
+      "duration": 3.88
+    },
+    {
+      "text": "feel free to post in the chat so",
+      "start": 31.199,
+      "duration": 4.88
+    },
+    {
+      "text": "Alexandra visala hi Alexandra welcome so",
+      "start": 33.52,
+      "duration": 4.12
+    },
+    {
+      "text": "happy to have you here today she's the",
+      "start": 36.079,
+      "duration": 5.041
+    },
+    {
+      "text": "founder of Av privacy Christen Johnson",
+      "start": 37.64,
+      "duration": 6.12
+    },
+    {
+      "text": "hi Chris she's associate General councel",
+      "start": 41.12,
+      "duration": 5.64
+    },
+    {
+      "text": "AI privacy and security of affinity",
+      "start": 43.76,
+      "duration": 4.2
+    },
+    {
+      "text": "Karina",
+      "start": 46.76,
+      "duration": 4.799
+    },
+    {
+      "text": "Kernan she is the responsible AI advisor",
+      "start": 47.96,
+      "duration": 5.64
+    },
+    {
+      "text": "at the tech diplomacy Network and the",
+      "start": 51.559,
+      "duration": 4.361
+    },
+    {
+      "text": "corporate development development",
+      "start": 53.6,
+      "duration": 6.72
+    },
+    {
+      "text": "manager at D and havan hi havit she is",
+      "start": 55.92,
+      "duration": 7.08
+    },
+    {
+      "text": "the CEO of tech betterer so I'm so glad",
+      "start": 60.32,
+      "duration": 4.119
+    },
+    {
+      "text": "to have you here today thank you for",
+      "start": 63.0,
+      "duration": 3.2
+    },
+    {
+      "text": "joining me thank you for accepting my",
+      "start": 64.439,
+      "duration": 4.881
+    },
+    {
+      "text": "invitation today is a very dense session",
+      "start": 66.2,
+      "duration": 5.08
+    },
+    {
+      "text": "we will cover six topics so if you",
+      "start": 69.32,
+      "duration": 3.28
+    },
+    {
+      "text": "registered you know already you saw the",
+      "start": 71.28,
+      "duration": 4.32
+    },
+    {
+      "text": "list of topics uh it's so I recommend",
+      "start": 72.6,
+      "duration": 5.04
+    },
+    {
+      "text": "you stay until the end there will be",
+      "start": 75.6,
+      "duration": 4.159
+    },
+    {
+      "text": "practical advice important knowledge",
+      "start": 77.64,
+      "duration": 4.4
+    },
+    {
+      "text": "especially uh if you're not aware so",
+      "start": 79.759,
+      "duration": 4.121
+    },
+    {
+      "text": "next week there will be the final voting",
+      "start": 82.04,
+      "duration": 4.719
+    },
+    {
+      "text": "for the AI act so for those that are",
+      "start": 83.88,
+      "duration": 6.239
+    },
+    {
+      "text": "waiting for the final text uh so there",
+      "start": 86.759,
+      "duration": 5.64
+    },
+    {
+      "text": "will be big news NE next week so it's",
+      "start": 90.119,
+      "duration": 3.841
+    },
+    {
+      "text": "the perfect time to discuss AI",
+      "start": 92.399,
+      "duration": 3.281
+    },
+    {
+      "text": "governance and this aspect of",
+      "start": 93.96,
+      "duration": 4.24
+    },
+    {
+      "text": "implementing AI governance in an",
+      "start": 95.68,
+      "duration": 5.399
+    },
+    {
+      "text": "organization uh before we start a",
+      "start": 98.2,
+      "duration": 4.8
+    },
+    {
+      "text": "reminder that next week we have the",
+      "start": 101.079,
+      "duration": 6.32
+    },
+    {
+      "text": "fourth cohort of my privacy Tech nii",
+      "start": 103.0,
+      "duration": 6.399
+    },
+    {
+      "text": "boot camp is a four-week program so if",
+      "start": 107.399,
+      "duration": 3.76
+    },
+    {
+      "text": "you didn't register yet you're welcome",
+      "start": 109.399,
+      "duration": 4.121
+    },
+    {
+      "text": "to contact me everybody watching this",
+      "start": 111.159,
+      "duration": 4.401
+    },
+    {
+      "text": "session will get a 10%",
+      "start": 113.52,
+      "duration": 4.559
+    },
+    {
+      "text": "discount so let's start we have a lot to",
+      "start": 115.56,
+      "duration": 4.479
+    },
+    {
+      "text": "cover today I want I will go straight to",
+      "start": 118.079,
+      "duration": 4.881
+    },
+    {
+      "text": "the questions and I hope you enjoyed the",
+      "start": 120.039,
+      "duration": 6.201
+    },
+    {
+      "text": "session so the first question is about",
+      "start": 122.96,
+      "duration": 5.48
+    },
+    {
+      "text": "uh Hot Topics I want to hear from the",
+      "start": 126.24,
+      "duration": 4.799
+    },
+    {
+      "text": "guests in your view what are currently",
+      "start": 128.44,
+      "duration": 5.519
+    },
+    {
+      "text": "the hottest tops topics in the context",
+      "start": 131.039,
+      "duration": 5.601
+    },
+    {
+      "text": "of AI governance and why why do you",
+      "start": 133.959,
+      "duration": 4.801
+    },
+    {
+      "text": "think those are the hottest topics so",
+      "start": 136.64,
+      "duration": 4.4
+    },
+    {
+      "text": "who wants to start yeah I'm happy to",
+      "start": 138.76,
+      "duration": 5.119
+    },
+    {
+      "text": "start um thank you so much yes so um I'm",
+      "start": 141.04,
+      "duration": 4.16
+    },
+    {
+      "text": "happy to chime in on this question such",
+      "start": 143.879,
+      "duration": 3.601
+    },
+    {
+      "text": "a great question I'll just quickly note",
+      "start": 145.2,
+      "duration": 3.88
+    },
+    {
+      "text": "to start that the views I'm sharing",
+      "start": 147.48,
+      "duration": 4.2
+    },
+    {
+      "text": "today are mine and don't relate to any",
+      "start": 149.08,
+      "duration": 5.04
+    },
+    {
+      "text": "specific company but the first Hot Topic",
+      "start": 151.68,
+      "duration": 4.44
+    },
+    {
+      "text": "I'd like to call out is the increasingly",
+      "start": 154.12,
+      "duration": 4.24
+    },
+    {
+      "text": "complex regulatory landscape and its",
+      "start": 156.12,
+      "duration": 4.399
+    },
+    {
+      "text": "impact on organizational AI governance",
+      "start": 158.36,
+      "duration": 4.28
+    },
+    {
+      "text": "programs consider for example The",
+      "start": 160.519,
+      "duration": 5.761
+    },
+    {
+      "text": "Landmark soon to be adopted EU AI act",
+      "start": 162.64,
+      "duration": 5.519
+    },
+    {
+      "text": "and then widen the lens a bit and",
+      "start": 166.28,
+      "duration": 3.36
+    },
+    {
+      "text": "consider the fact that the organization",
+      "start": 168.159,
+      "duration": 3.681
+    },
+    {
+      "text": "for economic cooperation and development",
+      "start": 169.64,
+      "duration": 4.84
+    },
+    {
+      "text": "is tracking over 1,000 AI policy",
+      "start": 171.84,
+      "duration": 4.8
+    },
+    {
+      "text": "initiatives from 69 countries",
+      "start": 174.48,
+      "duration": 4.56
+    },
+    {
+      "text": "territories and the EU on the website",
+      "start": 176.64,
+      "duration": 5.679
+    },
+    {
+      "text": "oecd AI it's a lot and then let's zero",
+      "start": 179.04,
+      "duration": 6.279
+    },
+    {
+      "text": "in specifically on the US legislative",
+      "start": 182.319,
+      "duration": 5.161
+    },
+    {
+      "text": "momentum is growing on a state level for",
+      "start": 185.319,
+      "duration": 5.161
+    },
+    {
+      "text": "AI an industry report from last fall",
+      "start": 187.48,
+      "duration": 5.119
+    },
+    {
+      "text": "found that state lawmakers introduced",
+      "start": 190.48,
+      "duration": 6.2
+    },
+    {
+      "text": "440 per more AI related bills in 2023",
+      "start": 192.599,
+      "duration": 6.121
+    },
+    {
+      "text": "compared to the prior calendar year a",
+      "start": 196.68,
+      "duration": 3.52
+    },
+    {
+      "text": "metric which includes legislation",
+      "start": 198.72,
+      "duration": 3.879
+    },
+    {
+      "text": "focused on specific AI use cases",
+      "start": 200.2,
+      "duration": 4.44
+    },
+    {
+      "text": "including use of AI in healthcare",
+      "start": 202.599,
+      "duration": 4.481
+    },
+    {
+      "text": "Financial sectors and employment context",
+      "start": 204.64,
+      "duration": 5.08
+    },
+    {
+      "text": "AI governance framework State AI use in",
+      "start": 207.08,
+      "duration": 5.4
+    },
+    {
+      "text": "vories task forces and committees law",
+      "start": 209.72,
+      "duration": 4.599
+    },
+    {
+      "text": "enforcement use of AI state government",
+      "start": 212.48,
+      "duration": 4.52
+    },
+    {
+      "text": "use of AI and so many other elements and",
+      "start": 214.319,
+      "duration": 5.56
+    },
+    {
+      "text": "by mid January this year in 2024",
+      "start": 217.0,
+      "duration": 5.08
+    },
+    {
+      "text": "lawmakers in at least 20 States",
+      "start": 219.879,
+      "duration": 4.44
+    },
+    {
+      "text": "pre-filed or introduced 89 bills or",
+      "start": 222.08,
+      "duration": 5.04
+    },
+    {
+      "text": "resolutions specifically referring to Ai",
+      "start": 224.319,
+      "duration": 4.601
+    },
+    {
+      "text": "and then layer on top of all of this",
+      "start": 227.12,
+      "duration": 3.6
+    },
+    {
+      "text": "activity the number of voluntary",
+      "start": 228.92,
+      "duration": 3.92
+    },
+    {
+      "text": "Frameworks and standards to consider for",
+      "start": 230.72,
+      "duration": 4.32
+    },
+    {
+      "text": "AI governance including but not limited",
+      "start": 232.84,
+      "duration": 4.84
+    },
+    {
+      "text": "to the nist AI risk management framework",
+      "start": 235.04,
+      "duration": 5.399
+    },
+    {
+      "text": "the new ISO 4200 one standard the",
+      "start": 237.68,
+      "duration": 4.72
+    },
+    {
+      "text": "world's first AI management system",
+      "start": 240.439,
+      "duration": 4.321
+    },
+    {
+      "text": "standard the overall complexity of this",
+      "start": 242.4,
+      "duration": 5.28
+    },
+    {
+      "text": "landscape is a Hot Topic by itself and",
+      "start": 244.76,
+      "duration": 4.88
+    },
+    {
+      "text": "then the second Hot Topic that I'll just",
+      "start": 247.68,
+      "duration": 4.399
+    },
+    {
+      "text": "briefly note is the fact that many AI",
+      "start": 249.64,
+      "duration": 3.72
+    },
+    {
+      "text": "governance professionals feel like",
+      "start": 252.079,
+      "duration": 3.281
+    },
+    {
+      "text": "they're walking on a tight rope in an F5",
+      "start": 253.36,
+      "duration": 4.36
+    },
+    {
+      "text": "tornado that's a pretty strong tornado",
+      "start": 255.36,
+      "duration": 4.119
+    },
+    {
+      "text": "to say the least I think about the movie",
+      "start": 257.72,
+      "duration": 4.84
+    },
+    {
+      "text": "Twister when I think about an F5 um on a",
+      "start": 259.479,
+      "duration": 5.041
+    },
+    {
+      "text": "daily basis AI governance professionals",
+      "start": 262.56,
+      "duration": 3.6
+    },
+    {
+      "text": "are getting hit with three moving",
+      "start": 264.52,
+      "duration": 4.36
+    },
+    {
+      "text": "factors in particular number one the",
+      "start": 266.16,
+      "duration": 5.0
+    },
+    {
+      "text": "rapidly Dev veloping AI um rapidly",
+      "start": 268.88,
+      "duration": 5.4
+    },
+    {
+      "text": "developing AI technology two rapidly",
+      "start": 271.16,
+      "duration": 5.759
+    },
+    {
+      "text": "developing regulatory landscape globally",
+      "start": 274.28,
+      "duration": 4.88
+    },
+    {
+      "text": "and then three their company's interest",
+      "start": 276.919,
+      "duration": 4.641
+    },
+    {
+      "text": "in and use of AI and also potentially",
+      "start": 279.16,
+      "duration": 4.96
+    },
+    {
+      "text": "development of AI as well and when I",
+      "start": 281.56,
+      "duration": 4.4
+    },
+    {
+      "text": "refresh my LinkedIn feed alone and I'm",
+      "start": 284.12,
+      "duration": 4.32
+    },
+    {
+      "text": "sure everyone can relate to this I see a",
+      "start": 285.96,
+      "duration": 4.88
+    },
+    {
+      "text": "number of updates about the latest AI",
+      "start": 288.44,
+      "duration": 4.08
+    },
+    {
+      "text": "developments from both a technological",
+      "start": 290.84,
+      "duration": 3.799
+    },
+    {
+      "text": "and Regulatory perspective in addition",
+      "start": 292.52,
+      "duration": 4.2
+    },
+    {
+      "text": "to Industry specific implementation",
+      "start": 294.639,
+      "duration": 4.481
+    },
+    {
+      "text": "guidance especially in the healthc care",
+      "start": 296.72,
+      "duration": 4.24
+    },
+    {
+      "text": "sector in fact I along with other",
+      "start": 299.12,
+      "duration": 3.919
+    },
+    {
+      "text": "attorneys interested in ethical AI are",
+      "start": 300.96,
+      "duration": 3.84
+    },
+    {
+      "text": "tracking and curating these developments",
+      "start": 303.039,
+      "duration": 3.281
+    },
+    {
+      "text": "on a new LinkedIn page called the",
+      "start": 304.8,
+      "duration": 3.76
+    },
+    {
+      "text": "responsible AI resource Collective or",
+      "start": 306.32,
+      "duration": 4.52
+    },
+    {
+      "text": "the rare Collective for short there's so",
+      "start": 308.56,
+      "duration": 4.52
+    },
+    {
+      "text": "much to share every day including great",
+      "start": 310.84,
+      "duration": 4.44
+    },
+    {
+      "text": "content from my fellow panelists um",
+      "start": 313.08,
+      "duration": 4.08
+    },
+    {
+      "text": "there's so much happening every day so",
+      "start": 315.28,
+      "duration": 3.359
+    },
+    {
+      "text": "overall I would say it's important to",
+      "start": 317.16,
+      "duration": 3.08
+    },
+    {
+      "text": "accept that the tornado isn't going to",
+      "start": 318.639,
+      "duration": 3.641
+    },
+    {
+      "text": "let up anytime soon just accept that",
+      "start": 320.24,
+      "duration": 4.04
+    },
+    {
+      "text": "it's there it's a bit windy and we need",
+      "start": 322.28,
+      "duration": 4.919
+    },
+    {
+      "text": "to adapt to it a key question is how to",
+      "start": 324.28,
+      "duration": 5.0
+    },
+    {
+      "text": "consistently remain balanced given all",
+      "start": 327.199,
+      "duration": 3.801
+    },
+    {
+      "text": "of these developments it's truly",
+      "start": 329.28,
+      "duration": 3.84
+    },
+    {
+      "text": "fascinating so that requires in part",
+      "start": 331.0,
+      "duration": 4.08
+    },
+    {
+      "text": "having a strong human in the loop tight",
+      "start": 333.12,
+      "duration": 4.519
+    },
+    {
+      "text": "RPP your AI governance program while",
+      "start": 335.08,
+      "duration": 4.679
+    },
+    {
+      "text": "also being Nimble and flexible and",
+      "start": 337.639,
+      "duration": 4.481
+    },
+    {
+      "text": "staying on track uh on top of the latest",
+      "start": 339.759,
+      "duration": 4.28
+    },
+    {
+      "text": "developments externally as well as",
+      "start": 342.12,
+      "duration": 3.919
+    },
+    {
+      "text": "internally within your organization so",
+      "start": 344.039,
+      "duration": 4.561
+    },
+    {
+      "text": "you can adjust your balance accordingly",
+      "start": 346.039,
+      "duration": 4.0
+    },
+    {
+      "text": "so if we thought that the Privacy",
+      "start": 348.6,
+      "duration": 4.8
+    },
+    {
+      "text": "tornado was bad the AI is is worse yeah",
+      "start": 350.039,
+      "duration": 6.321
+    },
+    {
+      "text": "exactly yeah thank you Chris so who who",
+      "start": 353.4,
+      "duration": 5.44
+    },
+    {
+      "text": "would like to to share the thoughts next",
+      "start": 356.36,
+      "duration": 4.48
+    },
+    {
+      "text": "I can go next",
+      "start": 358.84,
+      "duration": 6.32
+    },
+    {
+      "text": "so um the topic I see being really super",
+      "start": 360.84,
+      "duration": 7.639
+    },
+    {
+      "text": "important and um on top of the list is",
+      "start": 365.16,
+      "duration": 7.72
+    },
+    {
+      "text": "open source versus proprietary as models",
+      "start": 368.479,
+      "duration": 6.72
+    },
+    {
+      "text": "um so there's this whole discussion",
+      "start": 372.88,
+      "duration": 4.68
+    },
+    {
+      "text": "about like what is open source AI I'm",
+      "start": 375.199,
+      "duration": 4.041
+    },
+    {
+      "text": "glad that the open source initiative is",
+      "start": 377.56,
+      "duration": 4.28
+    },
+    {
+      "text": "working on a working definition because",
+      "start": 379.24,
+      "duration": 4.959
+    },
+    {
+      "text": "open source in general is traced back to",
+      "start": 381.84,
+      "duration": 4.44
+    },
+    {
+      "text": "open source software and that's coming",
+      "start": 384.199,
+      "duration": 5.361
+    },
+    {
+      "text": "from OSI uh and also I think in practice",
+      "start": 386.28,
+      "duration": 5.52
+    },
+    {
+      "text": "it's also relevant for companies because",
+      "start": 389.56,
+      "duration": 5.8
+    },
+    {
+      "text": "would I um take a proprietary",
+      "start": 391.8,
+      "duration": 7.6
+    },
+    {
+      "text": "proprietary model and also rely for",
+      "start": 395.36,
+      "duration": 6.52
+    },
+    {
+      "text": "liability on I don't know Microsoft and",
+      "start": 399.4,
+      "duration": 5.12
+    },
+    {
+      "text": "Google's promise to You Know cover any",
+      "start": 401.88,
+      "duration": 4.2
+    },
+    {
+      "text": "liabilities that might emerge from",
+      "start": 404.52,
+      "duration": 4.519
+    },
+    {
+      "text": "copyright issues or do I build my own R",
+      "start": 406.08,
+      "duration": 6.399
+    },
+    {
+      "text": "system and buy a model or take an open",
+      "start": 409.039,
+      "duration": 5.56
+    },
+    {
+      "text": "source model and work with it but what",
+      "start": 412.479,
+      "duration": 5.0
+    },
+    {
+      "text": "would then happen um with any Downstream",
+      "start": 414.599,
+      "duration": 5.521
+    },
+    {
+      "text": "issues copyright issues in that",
+      "start": 417.479,
+      "duration": 4.321
+    },
+    {
+      "text": "uh open source model so I think there",
+      "start": 420.12,
+      "duration": 3.4
+    },
+    {
+      "text": "are a lot of open questions also around",
+      "start": 421.8,
+      "duration": 4.04
+    },
+    {
+      "text": "licensing maybe do the open source",
+      "start": 423.52,
+      "duration": 4.04
+    },
+    {
+      "text": "software licenses really",
+      "start": 425.84,
+      "duration": 4.96
+    },
+    {
+      "text": "cover models to a full extent so I think",
+      "start": 427.56,
+      "duration": 6.56
+    },
+    {
+      "text": "that's a that's a Hot Topic second Hot",
+      "start": 430.8,
+      "duration": 4.76
+    },
+    {
+      "text": "Topic and maybe that should be actually",
+      "start": 434.12,
+      "duration": 5.12
+    },
+    {
+      "text": "first is still um bias and um so as we",
+      "start": 435.56,
+      "duration": 5.84
+    },
+    {
+      "text": "see with the latest news Microsoft",
+      "start": 439.24,
+      "duration": 5.399
+    },
+    {
+      "text": "having diverse Nazis I mean that's",
+      "start": 441.4,
+      "duration": 6.12
+    },
+    {
+      "text": "really um really so out of proportion",
+      "start": 444.639,
+      "duration": 5.521
+    },
+    {
+      "text": "and I think that there are a lot of",
+      "start": 447.52,
+      "duration": 5.04
+    },
+    {
+      "text": "attempts of course to address this but",
+      "start": 450.16,
+      "duration": 5.0
+    },
+    {
+      "text": "um we do not know how to get this could",
+      "start": 452.56,
+      "duration": 5.079
+    },
+    {
+      "text": "get solved in general plus I think on a",
+      "start": 455.16,
+      "duration": 4.52
+    },
+    {
+      "text": "very uh practical level for",
+      "start": 457.639,
+      "duration": 4.041
+    },
+    {
+      "text": "organizations for data scientists in",
+      "start": 459.68,
+      "duration": 3.28
+    },
+    {
+      "text": "machine learning engineers in",
+      "start": 461.68,
+      "duration": 3.4
+    },
+    {
+      "text": "organizations there's also not this set",
+      "start": 462.96,
+      "duration": 4.72
+    },
+    {
+      "text": "of good governance uh good",
+      "start": 465.08,
+      "duration": 4.64
+    },
+    {
+      "text": "operationalization of trustworthy ey",
+      "start": 467.68,
+      "duration": 3.88
+    },
+    {
+      "text": "guidelines for buyers so do this this",
+      "start": 469.72,
+      "duration": 3.68
+    },
+    {
+      "text": "this this this this this this so I think",
+      "start": 471.56,
+      "duration": 3.599
+    },
+    {
+      "text": "it would be great to that some",
+      "start": 473.4,
+      "duration": 3.68
+    },
+    {
+      "text": "organization or us come up with a really",
+      "start": 475.159,
+      "duration": 4.04
+    },
+    {
+      "text": "good overview because I still hear a lot",
+      "start": 477.08,
+      "duration": 4.119
+    },
+    {
+      "text": "of questions about like I want to do it",
+      "start": 479.199,
+      "duration": 4.361
+    },
+    {
+      "text": "right but how and the third topic I",
+      "start": 481.199,
+      "duration": 5.201
+    },
+    {
+      "text": "thought um I'm GNA add a third one I",
+      "start": 483.56,
+      "duration": 5.56
+    },
+    {
+      "text": "know we supposed to have only two the",
+      "start": 486.4,
+      "duration": 5.88
+    },
+    {
+      "text": "third one is AI security because um AI",
+      "start": 489.12,
+      "duration": 6.28
+    },
+    {
+      "text": "security is a huge topic um and we have",
+      "start": 492.28,
+      "duration": 5.68
+    },
+    {
+      "text": "so many really mature information",
+      "start": 495.4,
+      "duration": 5.4
+    },
+    {
+      "text": "security Frameworks of course um and now",
+      "start": 497.96,
+      "duration": 5.679
+    },
+    {
+      "text": "all of those additional AI security",
+      "start": 500.8,
+      "duration": 5.079
+    },
+    {
+      "text": "controls would need or will need to be",
+      "start": 503.639,
+      "duration": 5.041
+    },
+    {
+      "text": "added to to information security",
+      "start": 505.879,
+      "duration": 4.401
+    },
+    {
+      "text": "controls in general and this",
+      "start": 508.68,
+      "duration": 4.52
+    },
+    {
+      "text": "collaboration and this whole new field",
+      "start": 510.28,
+      "duration": 5.48
+    },
+    {
+      "text": "of machine learning security being added",
+      "start": 513.2,
+      "duration": 4.88
+    },
+    {
+      "text": "on general information security is a is",
+      "start": 515.76,
+      "duration": 4.48
+    },
+    {
+      "text": "a challenge but also an emerging field",
+      "start": 518.08,
+      "duration": 4.839
+    },
+    {
+      "text": "where a lot of people invest a lot of um",
+      "start": 520.24,
+      "duration": 5.159
+    },
+    {
+      "text": "time and effort and I just want to um",
+      "start": 522.919,
+      "duration": 6.281
+    },
+    {
+      "text": "recommend this oasp AI exchange",
+      "start": 525.399,
+      "duration": 5.641
+    },
+    {
+      "text": "resources because they have like a lot",
+      "start": 529.2,
+      "duration": 5.28
+    },
+    {
+      "text": "of controls SEC AI security controls for",
+      "start": 531.04,
+      "duration": 4.68
+    },
+    {
+      "text": "free on their",
+      "start": 534.48,
+      "duration": 3.44
+    },
+    {
+      "text": "website and so those are the three",
+      "start": 535.72,
+      "duration": 4.48
+    },
+    {
+      "text": "topics that I think are",
+      "start": 537.92,
+      "duration": 4.28
+    },
+    {
+      "text": "top top I agree and the the aspect of",
+      "start": 540.2,
+      "duration": 5.56
+    },
+    {
+      "text": "open and close not only uh from a legal",
+      "start": 542.2,
+      "duration": 5.6
+    },
+    {
+      "text": "perspective also that in the tech Arena",
+      "start": 545.76,
+      "duration": 3.6
+    },
+    {
+      "text": "right you've see the recent lawsuits so",
+      "start": 547.8,
+      "duration": 3.599
+    },
+    {
+      "text": "Elon Musk versus open AI this whole",
+      "start": 549.36,
+      "duration": 4.719
+    },
+    {
+      "text": "thing of keeping open and many",
+      "start": 551.399,
+      "duration": 4.161
+    },
+    {
+      "text": "interesting initiatives happening the",
+      "start": 554.079,
+      "duration": 4.401
+    },
+    {
+      "text": "open source uh Arena also very very",
+      "start": 555.56,
+      "duration": 5.519
+    },
+    {
+      "text": "interesting thank you so uh havit or",
+      "start": 558.48,
+      "duration": 4.84
+    },
+    {
+      "text": "Alexandra who wants to continue I can",
+      "start": 561.079,
+      "duration": 6.161
+    },
+    {
+      "text": "hop in next so um as a privacy",
+      "start": 563.32,
+      "duration": 6.519
+    },
+    {
+      "text": "practitioner the AI govern issues that",
+      "start": 567.24,
+      "duration": 4.719
+    },
+    {
+      "text": "usually stick in my mind or the ones",
+      "start": 569.839,
+      "duration": 4.961
+    },
+    {
+      "text": "that overlap with privacy which doesn't",
+      "start": 571.959,
+      "duration": 4.56
+    },
+    {
+      "text": "necessarily narrow it down that much",
+      "start": 574.8,
+      "duration": 5.8
+    },
+    {
+      "text": "because of course AI is a a data data",
+      "start": 576.519,
+      "duration": 7.721
+    },
+    {
+      "text": "dependent operation right um but two hot",
+      "start": 580.6,
+      "duration": 6.0
+    },
+    {
+      "text": "topics that stood out to me as I was",
+      "start": 584.24,
+      "duration": 4.68
+    },
+    {
+      "text": "thinking about this are lawful basis of",
+      "start": 586.6,
+      "duration": 6.12
+    },
+    {
+      "text": "processing for training data so um for",
+      "start": 588.92,
+      "duration": 5.88
+    },
+    {
+      "text": "those that maybe don't deal with gdpr",
+      "start": 592.72,
+      "duration": 4.52
+    },
+    {
+      "text": "every day of their lives um in order to",
+      "start": 594.8,
+      "duration": 4.96
+    },
+    {
+      "text": "process personal data in the EU",
+      "start": 597.24,
+      "duration": 4.599
+    },
+    {
+      "text": "you have to have a lawful basis there",
+      "start": 599.76,
+      "duration": 4.68
+    },
+    {
+      "text": "are six laid out in the gdpr five of",
+      "start": 601.839,
+      "duration": 5.0
+    },
+    {
+      "text": "them are relatively specific and one of",
+      "start": 604.44,
+      "duration": 4.28
+    },
+    {
+      "text": "them is called legitimate interest and",
+      "start": 606.839,
+      "duration": 5.641
+    },
+    {
+      "text": "it's um much broader and involves a",
+      "start": 608.72,
+      "duration": 6.0
+    },
+    {
+      "text": "balancing test of saying does the",
+      "start": 612.48,
+      "duration": 4.96
+    },
+    {
+      "text": "organization have a a legitimate",
+      "start": 614.72,
+      "duration": 4.76
+    },
+    {
+      "text": "interest or a legitimate purpose to",
+      "start": 617.44,
+      "duration": 4.399
+    },
+    {
+      "text": "process this data that doesn't outweigh",
+      "start": 619.48,
+      "duration": 5.039
+    },
+    {
+      "text": "individual rights Liberties freedoms",
+      "start": 621.839,
+      "duration": 5.841
+    },
+    {
+      "text": "including privacy and so the Italian",
+      "start": 624.519,
+      "duration": 5.44
+    },
+    {
+      "text": "data protection authority the grante has",
+      "start": 627.68,
+      "duration": 4.32
+    },
+    {
+      "text": "been really really vocal in their",
+      "start": 629.959,
+      "duration": 4.32
+    },
+    {
+      "text": "opinion and investigation against open",
+      "start": 632.0,
+      "duration": 6.24
+    },
+    {
+      "text": "AI um who is using legitimate interest",
+      "start": 634.279,
+      "duration": 6.081
+    },
+    {
+      "text": "as their lawful basis for uh using",
+      "start": 638.24,
+      "duration": 5.719
+    },
+    {
+      "text": "personal data to train um their large",
+      "start": 640.36,
+      "duration": 6.64
+    },
+    {
+      "text": "language models so um you know they've",
+      "start": 643.959,
+      "duration": 7.281
+    },
+    {
+      "text": "gone as far as to ban um chat GPT in",
+      "start": 647.0,
+      "duration": 6.76
+    },
+    {
+      "text": "Italy and so this is obviously like an",
+      "start": 651.24,
+      "duration": 6.56
+    },
+    {
+      "text": "existential issue for um for AI models",
+      "start": 653.76,
+      "duration": 5.84
+    },
+    {
+      "text": "right um if they don't have a lawful",
+      "start": 657.8,
+      "duration": 3.68
+    },
+    {
+      "text": "basis to rely on we're going to be in",
+      "start": 659.6,
+      "duration": 4.799
+    },
+    {
+      "text": "big trouble from a gdpr",
+      "start": 661.48,
+      "duration": 5.64
+    },
+    {
+      "text": "perspective the other Hot Topic that",
+      "start": 664.399,
+      "duration": 4.68
+    },
+    {
+      "text": "I'll raise is related to that it",
+      "start": 667.12,
+      "duration": 4.719
+    },
+    {
+      "text": "dovetails pretty well I think um you",
+      "start": 669.079,
+      "duration": 4.681
+    },
+    {
+      "text": "know when we're talking about privacy",
+      "start": 671.839,
+      "duration": 4.24
+    },
+    {
+      "text": "and AI I often say like we have the same",
+      "start": 673.76,
+      "duration": 4.92
+    },
+    {
+      "text": "problems we've always had just at scale",
+      "start": 676.079,
+      "duration": 5.521
+    },
+    {
+      "text": "and one example of that is there's been",
+      "start": 678.68,
+      "duration": 4.8
+    },
+    {
+      "text": "a lot of conversation in the Privacy",
+      "start": 681.6,
+      "duration": 4.0
+    },
+    {
+      "text": "realm over the",
+      "start": 683.48,
+      "duration": 5.88
+    },
+    {
+      "text": "last at least decade um that I been in",
+      "start": 685.6,
+      "duration": 6.359
+    },
+    {
+      "text": "this industry about the kind of",
+      "start": 689.36,
+      "duration": 4.599
+    },
+    {
+      "text": "framework that privacy has been set up",
+      "start": 691.959,
+      "duration": 4.88
+    },
+    {
+      "text": "on which is like transparency and",
+      "start": 693.959,
+      "duration": 5.68
+    },
+    {
+      "text": "consent or Choice attached to that right",
+      "start": 696.839,
+      "duration": 6.401
+    },
+    {
+      "text": "and just this question of you know I",
+      "start": 699.639,
+      "duration": 5.561
+    },
+    {
+      "text": "don't know a single privacy lawyer who",
+      "start": 703.24,
+      "duration": 4.0
+    },
+    {
+      "text": "has the time to read every privacy",
+      "start": 705.2,
+      "duration": 3.84
+    },
+    {
+      "text": "policy out there and make truly informed",
+      "start": 707.24,
+      "duration": 3.32
+    },
+    {
+      "text": "decisions about how they're sharing our",
+      "start": 709.04,
+      "duration": 3.239
+    },
+    {
+      "text": "data so like if we don't have time to do",
+      "start": 710.56,
+      "duration": 3.68
+    },
+    {
+      "text": "it no one does that's kind of how I look",
+      "start": 712.279,
+      "duration": 6.161
+    },
+    {
+      "text": "at it right um and again like thinking",
+      "start": 714.24,
+      "duration": 6.2
+    },
+    {
+      "text": "about that in the scale of AI there's",
+      "start": 718.44,
+      "duration": 5.04
+    },
+    {
+      "text": "just new um Dimension and urgency to",
+      "start": 720.44,
+      "duration": 5.32
+    },
+    {
+      "text": "that question of like what should the",
+      "start": 723.48,
+      "duration": 5.32
+    },
+    {
+      "text": "structure of privacy be going forward so",
+      "start": 725.76,
+      "duration": 6.68
+    },
+    {
+      "text": "that um we can inform the people that",
+      "start": 728.8,
+      "duration": 5.599
+    },
+    {
+      "text": "this data relates to how it's being used",
+      "start": 732.44,
+      "duration": 3.72
+    },
+    {
+      "text": "and give them",
+      "start": 734.399,
+      "duration": 4.24
+    },
+    {
+      "text": "choices thank you I totally agree the",
+      "start": 736.16,
+      "duration": 6.08
+    },
+    {
+      "text": "the legitimate interest thing and a few",
+      "start": 738.639,
+      "duration": 6.121
+    },
+    {
+      "text": "at least from from the European side I",
+      "start": 742.24,
+      "duration": 4.92
+    },
+    {
+      "text": "saw that the Ico they have if you look",
+      "start": 744.76,
+      "duration": 5.12
+    },
+    {
+      "text": "at the the UK's protection authority",
+      "start": 747.16,
+      "duration": 4.52
+    },
+    {
+      "text": "they said that leg legitimate interest",
+      "start": 749.88,
+      "duration": 3.48
+    },
+    {
+      "text": "might be fine so they are the only one",
+      "start": 751.68,
+      "duration": 4.64
+    },
+    {
+      "text": "that explicitly said took the step",
+      "start": 753.36,
+      "duration": 4.919
+    },
+    {
+      "text": "they're much friendlier than the",
+      "start": 756.32,
+      "duration": 4.199
+    },
+    {
+      "text": "Italians yeah but at the same time I",
+      "start": 758.279,
+      "duration": 4.161
+    },
+    {
+      "text": "just saw that they opened a consultation",
+      "start": 760.519,
+      "duration": 4.081
+    },
+    {
+      "text": "so maybe they're not so sure anymore and",
+      "start": 762.44,
+      "duration": 4.24
+    },
+    {
+      "text": "I know as you mentioned open AI they",
+      "start": 764.6,
+      "duration": 3.52
+    },
+    {
+      "text": "they mention in their website so they",
+      "start": 766.68,
+      "duration": 3.08
+    },
+    {
+      "text": "are relying on legitimate interest",
+      "start": 768.12,
+      "duration": 3.04
+    },
+    {
+      "text": "because then you can go there and read",
+      "start": 769.76,
+      "duration": 3.639
+    },
+    {
+      "text": "what they say why they think I don't",
+      "start": 771.16,
+      "duration": 3.52
+    },
+    {
+      "text": "agree and i' I've been discussing the",
+      "start": 773.399,
+      "duration": 3.0
+    },
+    {
+      "text": "newsletter but I totally agree from a",
+      "start": 774.68,
+      "duration": 3.599
+    },
+    {
+      "text": "privacy perspective the legitimate",
+      "start": 776.399,
+      "duration": 4.841
+    },
+    {
+      "text": "interest topic is if if you don't if you",
+      "start": 778.279,
+      "duration": 5.081
+    },
+    {
+      "text": "take it out then what you we are we",
+      "start": 781.24,
+      "duration": 3.56
+    },
+    {
+      "text": "remain with contract or consent",
+      "start": 783.36,
+      "duration": 4.88
+    },
+    {
+      "text": "basically so it's a I think Super",
+      "start": 784.8,
+      "duration": 5.479
+    },
+    {
+      "text": "interesting havid would like to share",
+      "start": 788.24,
+      "duration": 3.399
+    },
+    {
+      "text": "some hot",
+      "start": 790.279,
+      "duration": 4.281
+    },
+    {
+      "text": "topics yeah thank you uh so first of all",
+      "start": 791.639,
+      "duration": 5.241
+    },
+    {
+      "text": "great to be here um and I really love",
+      "start": 794.56,
+      "duration": 4.24
+    },
+    {
+      "text": "all the comments so far so I feel really",
+      "start": 796.88,
+      "duration": 4.519
+    },
+    {
+      "text": "honored to be a part of this panel i w",
+      "start": 798.8,
+      "duration": 5.64
+    },
+    {
+      "text": "to pick it back especially on what uh",
+      "start": 801.399,
+      "duration": 5.0
+    },
+    {
+      "text": "Chris had said I really appreciated your",
+      "start": 804.44,
+      "duration": 5.48
+    },
+    {
+      "text": "points about the explosion of governance",
+      "start": 806.399,
+      "duration": 5.081
+    },
+    {
+      "text": "Frameworks and I think you know this is",
+      "start": 809.92,
+      "duration": 3.159
+    },
+    {
+      "text": "a process we've",
+      "start": 811.48,
+      "duration": 5.039
+    },
+    {
+      "text": "seen since 2016 is when those Frameworks",
+      "start": 813.079,
+      "duration": 5.841
+    },
+    {
+      "text": "started appearing and then in 2019 there",
+      "start": 816.519,
+      "duration": 4.201
+    },
+    {
+      "text": "was there was also a movement of let's",
+      "start": 818.92,
+      "duration": 3.56
+    },
+    {
+      "text": "try to figure out what they all have in",
+      "start": 820.72,
+      "duration": 3.32
+    },
+    {
+      "text": "common right like what are those",
+      "start": 822.48,
+      "duration": 3.599
+    },
+    {
+      "text": "principles uh and since then we've only",
+      "start": 824.04,
+      "duration": 4.159
+    },
+    {
+      "text": "seen more and more of those Frameworks",
+      "start": 826.079,
+      "duration": 5.32
+    },
+    {
+      "text": "and um a Salient question",
+      "start": 828.199,
+      "duration": 6.32
+    },
+    {
+      "text": "is how do we get companies to actually",
+      "start": 831.399,
+      "duration": 5.401
+    },
+    {
+      "text": "do those things in their Frameworks and",
+      "start": 834.519,
+      "duration": 4.281
+    },
+    {
+      "text": "how much of this is maybe ethics wise",
+      "start": 836.8,
+      "duration": 3.88
+    },
+    {
+      "text": "washing right of a company wanting to",
+      "start": 838.8,
+      "duration": 4.12
+    },
+    {
+      "text": "appear good by having some kind of like",
+      "start": 840.68,
+      "duration": 4.519
+    },
+    {
+      "text": "guidelines framework like guidelines",
+      "start": 842.92,
+      "duration": 3.919
+    },
+    {
+      "text": "principles Frameworks or whatever on",
+      "start": 845.199,
+      "duration": 3.56
+    },
+    {
+      "text": "their website versus actually doing it",
+      "start": 846.839,
+      "duration": 4.721
+    },
+    {
+      "text": "so there's been an increasingly growing",
+      "start": 848.759,
+      "duration": 5.681
+    },
+    {
+      "text": "conversation about what people call",
+      "start": 851.56,
+      "duration": 5.16
+    },
+    {
+      "text": "operation you see I can't say this word",
+      "start": 854.44,
+      "duration": 5.0
+    },
+    {
+      "text": "no I can but operationalized AI ethics",
+      "start": 856.72,
+      "duration": 4.919
+    },
+    {
+      "text": "is is how people talk about it sometimes",
+      "start": 859.44,
+      "duration": 6.16
+    },
+    {
+      "text": "like how do you move from abstract ideas",
+      "start": 861.639,
+      "duration": 6.64
+    },
+    {
+      "text": "of how to govern AI responsibly to",
+      "start": 865.6,
+      "duration": 4.799
+    },
+    {
+      "text": "actually governing a responsibly because",
+      "start": 868.279,
+      "duration": 4.441
+    },
+    {
+      "text": "there's a a huge huge",
+      "start": 870.399,
+      "duration": 5.8
+    },
+    {
+      "text": "gap things that people typically see as",
+      "start": 872.72,
+      "duration": 6.2
+    },
+    {
+      "text": "signs of responsible governance of AI",
+      "start": 876.199,
+      "duration": 4.721
+    },
+    {
+      "text": "include yeah does the company have",
+      "start": 878.92,
+      "duration": 3.839
+    },
+    {
+      "text": "ethics principles on their website do",
+      "start": 880.92,
+      "duration": 3.96
+    },
+    {
+      "text": "they do any thought leadership do they",
+      "start": 882.759,
+      "duration": 5.041
+    },
+    {
+      "text": "have an Ethics team but the problem is",
+      "start": 884.88,
+      "duration": 6.04
+    },
+    {
+      "text": "of course having those things doesn't",
+      "start": 887.8,
+      "duration": 5.2
+    },
+    {
+      "text": "necessarily mean doing anything any more",
+      "start": 890.92,
+      "duration": 4.88
+    },
+    {
+      "text": "over uh empirically is just not",
+      "start": 893.0,
+      "duration": 4.88
+    },
+    {
+      "text": "correlated so for example I did this",
+      "start": 895.8,
+      "duration": 3.8
+    },
+    {
+      "text": "research study",
+      "start": 897.88,
+      "duration": 5.0
+    },
+    {
+      "text": "Based on data collected by an ESG",
+      "start": 899.6,
+      "duration": 5.599
+    },
+    {
+      "text": "company called ethics grade anyway they",
+      "start": 902.88,
+      "duration": 4.759
+    },
+    {
+      "text": "collected data from public disclosures",
+      "start": 905.199,
+      "duration": 5.0
+    },
+    {
+      "text": "of companies about their AI governance",
+      "start": 907.639,
+      "duration": 8.64
+    },
+    {
+      "text": "practices and so we had 20 uh 254",
+      "start": 910.199,
+      "duration": 8.32
+    },
+    {
+      "text": "companies included in that uh it was end",
+      "start": 916.279,
+      "duration": 5.641
+    },
+    {
+      "text": "of 2022 um and we had just general",
+      "start": 918.519,
+      "duration": 6.76
+    },
+    {
+      "text": "companies 76% of them indicated in their",
+      "start": 921.92,
+      "duration": 5.599
+    },
+    {
+      "text": "public disclosures that they had some",
+      "start": 925.279,
+      "duration": 4.36
+    },
+    {
+      "text": "kind of you know one of those signals",
+      "start": 927.519,
+      "duration": 4.56
+    },
+    {
+      "text": "like an AI ethics framework or like",
+      "start": 929.639,
+      "duration": 4.921
+    },
+    {
+      "text": "commitments half of them had those um",
+      "start": 932.079,
+      "duration": 4.841
+    },
+    {
+      "text": "and then like 76 had like percent had",
+      "start": 934.56,
+      "duration": 4.959
+    },
+    {
+      "text": "either that or like a team or you know",
+      "start": 936.92,
+      "duration": 5.039
+    },
+    {
+      "text": "stuff like that but when it came to the",
+      "start": 939.519,
+      "duration": 4.961
+    },
+    {
+      "text": "actual practices that they did it was a",
+      "start": 941.959,
+      "duration": 4.921
+    },
+    {
+      "text": "Bally low so like things",
+      "start": 944.48,
+      "duration": 5.12
+    },
+    {
+      "text": "like um do they have you know",
+      "start": 946.88,
+      "duration": 6.0
+    },
+    {
+      "text": "documentation of their like models or",
+      "start": 949.6,
+      "duration": 6.12
+    },
+    {
+      "text": "you know an incident um an incident",
+      "start": 952.88,
+      "duration": 5.72
+    },
+    {
+      "text": "database you know percentages were like",
+      "start": 955.72,
+      "duration": 5.599
+    },
+    {
+      "text": "you know single digits so we do have",
+      "start": 958.6,
+      "duration": 4.88
+    },
+    {
+      "text": "this gap between this explosion of",
+      "start": 961.319,
+      "duration": 5.0
+    },
+    {
+      "text": "Frameworks and actually operationalizing",
+      "start": 963.48,
+      "duration": 4.32
+    },
+    {
+      "text": "it I don't like that name but that",
+      "start": 966.319,
+      "duration": 3.401
+    },
+    {
+      "text": "that's the name that people use like",
+      "start": 967.8,
+      "duration": 4.399
+    },
+    {
+      "text": "acting on it implementing it it's a huge",
+      "start": 969.72,
+      "duration": 5.32
+    },
+    {
+      "text": "gap that people are starting to notice",
+      "start": 972.199,
+      "duration": 4.841
+    },
+    {
+      "text": "more and more and more personally that's",
+      "start": 975.04,
+      "duration": 3.279
+    },
+    {
+      "text": "the thing that",
+      "start": 977.04,
+      "duration": 5.039
+    },
+    {
+      "text": "I um really find motivating in my work",
+      "start": 978.319,
+      "duration": 6.361
+    },
+    {
+      "text": "trying to see how I can minimize that",
+      "start": 982.079,
+      "duration": 4.921
+    },
+    {
+      "text": "Gap and and on this topic of",
+      "start": 984.68,
+      "duration": 5.56
+    },
+    {
+      "text": "implementation I my guess is the the AI",
+      "start": 987.0,
+      "duration": 5.399
+    },
+    {
+      "text": "act when it enters into Force so even if",
+      "start": 990.24,
+      "duration": 4.56
+    },
+    {
+      "text": "it's approved uh now it will take right",
+      "start": 992.399,
+      "duration": 4.44
+    },
+    {
+      "text": "two years until the first possible",
+      "start": 994.8,
+      "duration": 4.44
+    },
+    {
+      "text": "infringement fine I think it will have",
+      "start": 996.839,
+      "duration": 4.56
+    },
+    {
+      "text": "my guess is that it will it will at",
+      "start": 999.24,
+      "duration": 4.159
+    },
+    {
+      "text": "least in the more regulatory aspects",
+      "start": 1001.399,
+      "duration": 4.201
+    },
+    {
+      "text": "will happen similarly to what we saw",
+      "start": 1003.399,
+      "duration": 5.041
+    },
+    {
+      "text": "with the gdpr right so one month before",
+      "start": 1005.6,
+      "duration": 5.039
+    },
+    {
+      "text": "the gdpr the enforcement date everybody",
+      "start": 1008.44,
+      "duration": 5.28
+    },
+    {
+      "text": "was moving and afraid of getting fine so",
+      "start": 1010.639,
+      "duration": 5.44
+    },
+    {
+      "text": "perhaps at least uh regarding the topics",
+      "start": 1013.72,
+      "duration": 4.919
+    },
+    {
+      "text": "that are regulated by the a act I my My",
+      "start": 1016.079,
+      "duration": 5.32
+    },
+    {
+      "text": "Hope Is that we will see some Global",
+      "start": 1018.639,
+      "duration": 5.961
+    },
+    {
+      "text": "wave of compliance so I hope not not for",
+      "start": 1021.399,
+      "duration": 6.16
+    },
+    {
+      "text": "the AI more uh AI ethics topic they are",
+      "start": 1024.6,
+      "duration": 5.0
+    },
+    {
+      "text": "not regulated I cannot say that but at",
+      "start": 1027.559,
+      "duration": 4.681
+    },
+    {
+      "text": "least I hope for the the topics that are",
+      "start": 1029.6,
+      "duration": 5.04
+    },
+    {
+      "text": "covered by the AI act I just want to can",
+      "start": 1032.24,
+      "duration": 6.199
+    },
+    {
+      "text": "I have a followup to that uh I think",
+      "start": 1034.64,
+      "duration": 5.12
+    },
+    {
+      "text": "yeah it's really interesting to see",
+      "start": 1038.439,
+      "duration": 3.24
+    },
+    {
+      "text": "what's gonna happen with the eoi act of",
+      "start": 1039.76,
+      "duration": 4.679
+    },
+    {
+      "text": "course one difference from gdpr is that",
+      "start": 1041.679,
+      "duration": 4.441
+    },
+    {
+      "text": "um the rules are not the same for all",
+      "start": 1044.439,
+      "duration": 3.48
+    },
+    {
+      "text": "companies right because of the risk",
+      "start": 1046.12,
+      "duration": 4.2
+    },
+    {
+      "text": "categor and they say that only like five",
+      "start": 1047.919,
+      "duration": 4.041
+    },
+    {
+      "text": "or 10% of the companies are supposed to",
+      "start": 1050.32,
+      "duration": 3.599
+    },
+    {
+      "text": "be in the high you know in the high risk",
+      "start": 1051.96,
+      "duration": 5.0
+    },
+    {
+      "text": "category companies are going to uh I'm",
+      "start": 1053.919,
+      "duration": 5.081
+    },
+    {
+      "text": "sure fight pretty hard to say that",
+      "start": 1056.96,
+      "duration": 3.959
+    },
+    {
+      "text": "they're not in that category pretty much",
+      "start": 1059.0,
+      "duration": 4.12
+    },
+    {
+      "text": "no matter what they do and I think that",
+      "start": 1060.919,
+      "duration": 4.601
+    },
+    {
+      "text": "complicates the impact on on",
+      "start": 1063.12,
+      "duration": 6.24
+    },
+    {
+      "text": "unresponsible a governance um however I",
+      "start": 1065.52,
+      "duration": 5.24
+    },
+    {
+      "text": "also want to emphasize there's there's",
+      "start": 1069.36,
+      "duration": 3.84
+    },
+    {
+      "text": "an additional movement that's happening",
+      "start": 1070.76,
+      "duration": 6.32
+    },
+    {
+      "text": "and the enforcement of laws on AI people",
+      "start": 1073.2,
+      "duration": 5.88
+    },
+    {
+      "text": "pay like a lot of attention to those AI",
+      "start": 1077.08,
+      "duration": 3.64
+    },
+    {
+      "text": "specific laws especially of course the",
+      "start": 1079.08,
+      "duration": 4.12
+    },
+    {
+      "text": "euii ACT but what we're starting to see",
+      "start": 1080.72,
+      "duration": 4.72
+    },
+    {
+      "text": "more and more especially in the US is",
+      "start": 1083.2,
+      "duration": 5.719
+    },
+    {
+      "text": "the enforcement of general laws on AI",
+      "start": 1085.44,
+      "duration": 5.88
+    },
+    {
+      "text": "right in a in a sense it's kind of",
+      "start": 1088.919,
+      "duration": 4.201
+    },
+    {
+      "text": "surprising that people are trying to",
+      "start": 1091.32,
+      "duration": 3.68
+    },
+    {
+      "text": "have like new laws about discrimination",
+      "start": 1093.12,
+      "duration": 3.76
+    },
+    {
+      "text": "and AI we already have laws about",
+      "start": 1095.0,
+      "duration": 3.88
+    },
+    {
+      "text": "discrimination it's already not allowed",
+      "start": 1096.88,
+      "duration": 4.32
+    },
+    {
+      "text": "in the workplace in many forms right um",
+      "start": 1098.88,
+      "duration": 5.32
+    },
+    {
+      "text": "so there's a huge potential here to just",
+      "start": 1101.2,
+      "duration": 4.839
+    },
+    {
+      "text": "like we already have laws can't we just",
+      "start": 1104.2,
+      "duration": 3.68
+    },
+    {
+      "text": "Implement them on AI and so we're",
+      "start": 1106.039,
+      "duration": 4.601
+    },
+    {
+      "text": "starting to see more and more of that uh",
+      "start": 1107.88,
+      "duration": 4.72
+    },
+    {
+      "text": "both from this lawsuits if we're seeing",
+      "start": 1110.64,
+      "duration": 5.96
+    },
+    {
+      "text": "people you know people uh submit apply",
+      "start": 1112.6,
+      "duration": 6.6
+    },
+    {
+      "text": "whatever the verb is for lawsuits uh but",
+      "start": 1116.6,
+      "duration": 4.559
+    },
+    {
+      "text": "lawsuits that people utilize against AI",
+      "start": 1119.2,
+      "duration": 3.719
+    },
+    {
+      "text": "companies just using the existing laws",
+      "start": 1121.159,
+      "duration": 4.681
+    },
+    {
+      "text": "and also in the US the federal agencies",
+      "start": 1122.919,
+      "duration": 5.0
+    },
+    {
+      "text": "are starting to be increasingly more",
+      "start": 1125.84,
+      "duration": 4.48
+    },
+    {
+      "text": "proactive so just one recent example we",
+      "start": 1127.919,
+      "duration": 5.12
+    },
+    {
+      "text": "saw you know the fishal recognition ban",
+      "start": 1130.32,
+      "duration": 4.64
+    },
+    {
+      "text": "on Right Aid following an investigation",
+      "start": 1133.039,
+      "duration": 4.52
+    },
+    {
+      "text": "and a lawsuit from the federal uh trade",
+      "start": 1134.96,
+      "duration": 4.56
+    },
+    {
+      "text": "committee like the f TC so we are seeing",
+      "start": 1137.559,
+      "duration": 6.041
+    },
+    {
+      "text": "more of that so for me um when I think",
+      "start": 1139.52,
+      "duration": 6.92
+    },
+    {
+      "text": "about like compliance I think about the",
+      "start": 1143.6,
+      "duration": 7.24
+    },
+    {
+      "text": "impact of growing enforcement of the",
+      "start": 1146.44,
+      "duration": 7.64
+    },
+    {
+      "text": "regular you know law system on AI and I",
+      "start": 1150.84,
+      "duration": 6.12
+    },
+    {
+      "text": "think in the short term I expect that",
+      "start": 1154.08,
+      "duration": 5.28
+    },
+    {
+      "text": "this could would and should drive",
+      "start": 1156.96,
+      "duration": 5.4
+    },
+    {
+      "text": "companies to Greater compliance hope so",
+      "start": 1159.36,
+      "duration": 5.24
+    },
+    {
+      "text": "I would take from what you said about",
+      "start": 1162.36,
+      "duration": 4.08
+    },
+    {
+      "text": "also implementation so now we are moving",
+      "start": 1164.6,
+      "duration": 4.12
+    },
+    {
+      "text": "to some more uh specific topics within",
+      "start": 1166.44,
+      "duration": 4.28
+    },
+    {
+      "text": "AI governance and let's talk a bit about",
+      "start": 1168.72,
+      "duration": 4.8
+    },
+    {
+      "text": "implementation and I'm asking this uh to",
+      "start": 1170.72,
+      "duration": 4.6
+    },
+    {
+      "text": "Christen and Karina so I would like to",
+      "start": 1173.52,
+      "duration": 3.279
+    },
+    {
+      "text": "hear your than so what are the in your",
+      "start": 1175.32,
+      "duration": 3.359
+    },
+    {
+      "text": "view what are the biggest challenges",
+      "start": 1176.799,
+      "duration": 4.36
+    },
+    {
+      "text": "when implementing AI governance in a",
+      "start": 1178.679,
+      "duration": 4.281
+    },
+    {
+      "text": "corporate setting and what are your",
+      "start": 1181.159,
+      "duration": 3.721
+    },
+    {
+      "text": "recommendations in that case yeah for",
+      "start": 1182.96,
+      "duration": 4.199
+    },
+    {
+      "text": "sure I'm happy to chime in um so I would",
+      "start": 1184.88,
+      "duration": 4.24
+    },
+    {
+      "text": "say high level across companies globally",
+      "start": 1187.159,
+      "duration": 3.321
+    },
+    {
+      "text": "there's a number of challenges when",
+      "start": 1189.12,
+      "duration": 2.679
+    },
+    {
+      "text": "implementing AI governance in a",
+      "start": 1190.48,
+      "duration": 3.92
+    },
+    {
+      "text": "corporate setting I'll focus on three uh",
+      "start": 1191.799,
+      "duration": 4.521
+    },
+    {
+      "text": "challenges in particular I actually",
+      "start": 1194.4,
+      "duration": 4.12
+    },
+    {
+      "text": "listed out like just for full transparen",
+      "start": 1196.32,
+      "duration": 4.76
+    },
+    {
+      "text": "y like eight but I I would take up",
+      "start": 1198.52,
+      "duration": 4.68
+    },
+    {
+      "text": "literally the entire panel talking about",
+      "start": 1201.08,
+      "duration": 3.52
+    },
+    {
+      "text": "like all the challenges that immediately",
+      "start": 1203.2,
+      "duration": 2.839
+    },
+    {
+      "text": "come to mind so I'll focus on the top",
+      "start": 1204.6,
+      "duration": 3.84
+    },
+    {
+      "text": "three um the first challenge is getting",
+      "start": 1206.039,
+      "duration": 5.12
+    },
+    {
+      "text": "organizational uh buyin this can be a",
+      "start": 1208.44,
+      "duration": 5.479
+    },
+    {
+      "text": "struggle for some uh AI governance is",
+      "start": 1211.159,
+      "duration": 4.321
+    },
+    {
+      "text": "most successful when you consider the",
+      "start": 1213.919,
+      "duration": 4.12
+    },
+    {
+      "text": "tone at the top a common compliance",
+      "start": 1215.48,
+      "duration": 4.52
+    },
+    {
+      "text": "expression where AI governance is",
+      "start": 1218.039,
+      "duration": 3.64
+    },
+    {
+      "text": "considered as business critical by",
+      "start": 1220.0,
+      "duration": 3.52
+    },
+    {
+      "text": "senior leadership including your board",
+      "start": 1221.679,
+      "duration": 3.761
+    },
+    {
+      "text": "and CEO and it's important for",
+      "start": 1223.52,
+      "duration": 4.159
+    },
+    {
+      "text": "leadership to understand what is AI",
+      "start": 1225.44,
+      "duration": 4.68
+    },
+    {
+      "text": "governance and from an organizational",
+      "start": 1227.679,
+      "duration": 4.521
+    },
+    {
+      "text": "context perspective it's a system or",
+      "start": 1230.12,
+      "duration": 4.559
+    },
+    {
+      "text": "framework designed to direct manage and",
+      "start": 1232.2,
+      "duration": 4.68
+    },
+    {
+      "text": "monitor the AI activities of an",
+      "start": 1234.679,
+      "duration": 3.88
+    },
+    {
+      "text": "organization and if you're looking for",
+      "start": 1236.88,
+      "duration": 3.32
+    },
+    {
+      "text": "talking points for our discussions with",
+      "start": 1238.559,
+      "duration": 3.881
+    },
+    {
+      "text": "leadership about AI governance programs",
+      "start": 1240.2,
+      "duration": 4.28
+    },
+    {
+      "text": "serving a critical role as both a",
+      "start": 1242.44,
+      "duration": 4.64
+    },
+    {
+      "text": "revenue protector as well as a revenue",
+      "start": 1244.48,
+      "duration": 5.0
+    },
+    {
+      "text": "uh generator within an organization I",
+      "start": 1247.08,
+      "duration": 3.56
+    },
+    {
+      "text": "strongly recommend checking out",
+      "start": 1249.48,
+      "duration": 4.199
+    },
+    {
+      "text": "Dominique Shelton Lep's new book trust",
+      "start": 1250.64,
+      "duration": 5.24
+    },
+    {
+      "text": "responsible AI Innovation privacy and",
+      "start": 1253.679,
+      "duration": 4.0
+    },
+    {
+      "text": "data leadership it is so good and she",
+      "start": 1255.88,
+      "duration": 3.279
+    },
+    {
+      "text": "notes in in that book that companies",
+      "start": 1257.679,
+      "duration": 3.401
+    },
+    {
+      "text": "that win in the future will be the ones",
+      "start": 1259.159,
+      "duration": 4.361
+    },
+    {
+      "text": "that consumers International regulators",
+      "start": 1261.08,
+      "duration": 4.56
+    },
+    {
+      "text": "and business partners trust so trust is",
+      "start": 1263.52,
+      "duration": 4.519
+    },
+    {
+      "text": "a critical Factor here and that's why",
+      "start": 1265.64,
+      "duration": 4.279
+    },
+    {
+      "text": "it's really important to articulate your",
+      "start": 1268.039,
+      "duration": 4.601
+    },
+    {
+      "text": "why like Simon syic style in your",
+      "start": 1269.919,
+      "duration": 5.161
+    },
+    {
+      "text": "discussions to get organizational Buy in",
+      "start": 1272.64,
+      "duration": 5.32
+    },
+    {
+      "text": "like why does AI governance matter and",
+      "start": 1275.08,
+      "duration": 4.32
+    },
+    {
+      "text": "it's more than just Regulatory",
+      "start": 1277.96,
+      "duration": 3.28
+    },
+    {
+      "text": "Compliance that's a key and critical",
+      "start": 1279.4,
+      "duration": 4.84
+    },
+    {
+      "text": "Factor but it's really also about doing",
+      "start": 1281.24,
+      "duration": 5.799
+    },
+    {
+      "text": "the right thing and tying your why back",
+      "start": 1284.24,
+      "duration": 5.24
+    },
+    {
+      "text": "to your end us your clients your",
+      "start": 1287.039,
+      "duration": 4.961
+    },
+    {
+      "text": "consumers and the benefits intended for",
+      "start": 1289.48,
+      "duration": 4.92
+    },
+    {
+      "text": "those individuals and the Second",
+      "start": 1292.0,
+      "duration": 5.12
+    },
+    {
+      "text": "Challenge I would focus on is um on the",
+      "start": 1294.4,
+      "duration": 4.159
+    },
+    {
+      "text": "point we're already discussing which is",
+      "start": 1297.12,
+      "duration": 3.2
+    },
+    {
+      "text": "how do you operationalize your ethical",
+      "start": 1298.559,
+      "duration": 4.401
+    },
+    {
+      "text": "AI principles how do you take a set of",
+      "start": 1300.32,
+      "duration": 4.719
+    },
+    {
+      "text": "principles like fairness explainability",
+      "start": 1302.96,
+      "duration": 4.24
+    },
+    {
+      "text": "and transparency and operationalize them",
+      "start": 1305.039,
+      "duration": 4.161
+    },
+    {
+      "text": "within your organization and it's one",
+      "start": 1307.2,
+      "duration": 3.959
+    },
+    {
+      "text": "thing to have them on paper it's another",
+      "start": 1309.2,
+      "duration": 4.12
+    },
+    {
+      "text": "thing to operationalize them effectively",
+      "start": 1311.159,
+      "duration": 3.961
+    },
+    {
+      "text": "where you're in essence driving ethical",
+      "start": 1313.32,
+      "duration": 3.8
+    },
+    {
+      "text": "AI behaviors across your organization",
+      "start": 1315.12,
+      "duration": 4.72
+    },
+    {
+      "text": "and every team member understands the",
+      "start": 1317.12,
+      "duration": 4.72
+    },
+    {
+      "text": "role that they play in relation to your",
+      "start": 1319.84,
+      "duration": 5.24
+    },
+    {
+      "text": "responsible or ethical AI uh program and",
+      "start": 1321.84,
+      "duration": 5.199
+    },
+    {
+      "text": "so I do recommend considering a set of",
+      "start": 1325.08,
+      "duration": 4.199
+    },
+    {
+      "text": "ethical AI principles most applicable to",
+      "start": 1327.039,
+      "duration": 4.64
+    },
+    {
+      "text": "your organization especially keeping in",
+      "start": 1329.279,
+      "duration": 4.361
+    },
+    {
+      "text": "mind any relevant regulatory",
+      "start": 1331.679,
+      "duration": 4.24
+    },
+    {
+      "text": "requirements clearly defining what they",
+      "start": 1333.64,
+      "duration": 4.12
+    },
+    {
+      "text": "mean within the context of your",
+      "start": 1335.919,
+      "duration": 3.841
+    },
+    {
+      "text": "organization and work with a cross",
+      "start": 1337.76,
+      "duration": 3.96
+    },
+    {
+      "text": "functional diverse team to establish a",
+      "start": 1339.76,
+      "duration": 4.44
+    },
+    {
+      "text": "set of implementation guidelines met to",
+      "start": 1341.72,
+      "duration": 5.199
+    },
+    {
+      "text": "each principle and a set of policies and",
+      "start": 1344.2,
+      "duration": 5.359
+    },
+    {
+      "text": "procedures paired with each guideline so",
+      "start": 1346.919,
+      "duration": 4.521
+    },
+    {
+      "text": "you can look at it like an AI governance",
+      "start": 1349.559,
+      "duration": 4.24
+    },
+    {
+      "text": "pyramid you start with your principles",
+      "start": 1351.44,
+      "duration": 4.64
+    },
+    {
+      "text": "then your implementation guidelines and",
+      "start": 1353.799,
+      "duration": 4.561
+    },
+    {
+      "text": "then a detailed base of policies and",
+      "start": 1356.08,
+      "duration": 4.719
+    },
+    {
+      "text": "procedures mapped to those guidelines",
+      "start": 1358.36,
+      "duration": 4.679
+    },
+    {
+      "text": "and your principles and once these are",
+      "start": 1360.799,
+      "duration": 4.641
+    },
+    {
+      "text": "mapped out you can visualize your entire",
+      "start": 1363.039,
+      "duration": 4.081
+    },
+    {
+      "text": "AI governance program in one",
+      "start": 1365.44,
+      "duration": 3.52
+    },
+    {
+      "text": "comprehensive chart or Playbook",
+      "start": 1367.12,
+      "duration": 3.039
+    },
+    {
+      "text": "capturing the applicable written",
+      "start": 1368.96,
+      "duration": 3.44
+    },
+    {
+      "text": "protocols procedures and requirements of",
+      "start": 1370.159,
+      "duration": 4.88
+    },
+    {
+      "text": "for each principal and as an additional",
+      "start": 1372.4,
+      "duration": 4.8
+    },
+    {
+      "text": "benefit this effort can help companies",
+      "start": 1375.039,
+      "duration": 4.481
+    },
+    {
+      "text": "isolate andin Point specific protocols",
+      "start": 1377.2,
+      "duration": 4.0
+    },
+    {
+      "text": "within their program that require",
+      "start": 1379.52,
+      "duration": 3.8
+    },
+    {
+      "text": "updates due to changes in organizational",
+      "start": 1381.2,
+      "duration": 6.079
+    },
+    {
+      "text": "AI strategy or the regulatory landscape",
+      "start": 1383.32,
+      "duration": 5.599
+    },
+    {
+      "text": "and I'll give a quick example of an",
+      "start": 1387.279,
+      "duration": 4.28
+    },
+    {
+      "text": "ethical AI implementation guideline um",
+      "start": 1388.919,
+      "duration": 4.521
+    },
+    {
+      "text": "it could be a tailored version of the",
+      "start": 1391.559,
+      "duration": 4.201
+    },
+    {
+      "text": "legal requirement itself so let's say",
+      "start": 1393.44,
+      "duration": 5.2
+    },
+    {
+      "text": "one of your principles is data privacy a",
+      "start": 1395.76,
+      "duration": 4.88
+    },
+    {
+      "text": "corresponding implementation guideline",
+      "start": 1398.64,
+      "duration": 3.919
+    },
+    {
+      "text": "could focus on data minimization where",
+      "start": 1400.64,
+      "duration": 4.08
+    },
+    {
+      "text": "it says personal data collected should",
+      "start": 1402.559,
+      "duration": 3.881
+    },
+    {
+      "text": "be relevant and limited to what is",
+      "start": 1404.72,
+      "duration": 3.959
+    },
+    {
+      "text": "necessary in relation to the purposes",
+      "start": 1406.44,
+      "duration": 4.32
+    },
+    {
+      "text": "for which it is processed in the AI",
+      "start": 1408.679,
+      "duration": 4.0
+    },
+    {
+      "text": "system and then you would have a set of",
+      "start": 1410.76,
+      "duration": 4.56
+    },
+    {
+      "text": "policies and procedures in relation to",
+      "start": 1412.679,
+      "duration": 4.36
+    },
+    {
+      "text": "operationalizing this particular",
+      "start": 1415.32,
+      "duration": 4.839
+    },
+    {
+      "text": "guideline in relation to AI systems in",
+      "start": 1417.039,
+      "duration": 6.321
+    },
+    {
+      "text": "your environment and the third challenge",
+      "start": 1420.159,
+      "duration": 5.52
+    },
+    {
+      "text": "I'll mention and then I'll pause is um",
+      "start": 1423.36,
+      "duration": 4.679
+    },
+    {
+      "text": "focusing on operationalizing privacy",
+      "start": 1425.679,
+      "duration": 4.88
+    },
+    {
+      "text": "rights for certain AI systems privacy",
+      "start": 1428.039,
+      "duration": 4.801
+    },
+    {
+      "text": "laws like the gdpr or technology",
+      "start": 1430.559,
+      "duration": 4.561
+    },
+    {
+      "text": "agnostic but there's a lot of discourse",
+      "start": 1432.84,
+      "duration": 3.8
+    },
+    {
+      "text": "underway at the moment about",
+      "start": 1435.12,
+      "duration": 3.48
+    },
+    {
+      "text": "opportunities from from a Privacy Law",
+      "start": 1436.64,
+      "duration": 4.279
+    },
+    {
+      "text": "perspective to cover AI system specific",
+      "start": 1438.6,
+      "duration": 4.92
+    },
+    {
+      "text": "risks and considerations so consider for",
+      "start": 1440.919,
+      "duration": 4.321
+    },
+    {
+      "text": "example the right to be forgotten that",
+      "start": 1443.52,
+      "duration": 5.039
+    },
+    {
+      "text": "is such a popular Topic at the moment",
+      "start": 1445.24,
+      "duration": 4.72
+    },
+    {
+      "text": "what does that right look like from an",
+      "start": 1448.559,
+      "duration": 3.441
+    },
+    {
+      "text": "AI system perspective particularly if",
+      "start": 1449.96,
+      "duration": 4.199
+    },
+    {
+      "text": "the system did not originally factor in",
+      "start": 1452.0,
+      "duration": 4.36
+    },
+    {
+      "text": "privacy by Design hopefully it did but",
+      "start": 1454.159,
+      "duration": 4.041
+    },
+    {
+      "text": "if it didn't how do you account for that",
+      "start": 1456.36,
+      "duration": 4.12
+    },
+    {
+      "text": "going forward in addition to the removal",
+      "start": 1458.2,
+      "duration": 4.2
+    },
+    {
+      "text": "of the data what are implications from a",
+      "start": 1460.48,
+      "duration": 4.919
+    },
+    {
+      "text": "training data perspective um and if",
+      "start": 1462.4,
+      "duration": 4.92
+    },
+    {
+      "text": "you're using personal data for training",
+      "start": 1465.399,
+      "duration": 4.721
+    },
+    {
+      "text": "purposes is uh how are you retraining",
+      "start": 1467.32,
+      "duration": 5.8
+    },
+    {
+      "text": "the model after you're removing the the",
+      "start": 1470.12,
+      "duration": 4.84
+    },
+    {
+      "text": "data and how does that impact the system",
+      "start": 1473.12,
+      "duration": 3.32
+    },
+    {
+      "text": "there's a lot of considerations in terms",
+      "start": 1474.96,
+      "duration": 3.48
+    },
+    {
+      "text": "of how do you operation operationalize",
+      "start": 1476.44,
+      "duration": 5.119
+    },
+    {
+      "text": "that right including uh potentially",
+      "start": 1478.44,
+      "duration": 5.4
+    },
+    {
+      "text": "retraining the model and so forth I'll",
+      "start": 1481.559,
+      "duration": 4.561
+    },
+    {
+      "text": "note briefly that Microsoft researchers",
+      "start": 1483.84,
+      "duration": 4.319
+    },
+    {
+      "text": "noted in a recent article in relation to",
+      "start": 1486.12,
+      "duration": 4.559
+    },
+    {
+      "text": "llms that unlearning isn't as",
+      "start": 1488.159,
+      "duration": 4.76
+    },
+    {
+      "text": "straightforward as learning imagine",
+      "start": 1490.679,
+      "duration": 4.0
+    },
+    {
+      "text": "trying to remove specific ingredients",
+      "start": 1492.919,
+      "duration": 4.12
+    },
+    {
+      "text": "from a baked cake it seems nearly",
+      "start": 1494.679,
+      "duration": 5.0
+    },
+    {
+      "text": "impossible fine-tuning can introduce new",
+      "start": 1497.039,
+      "duration": 4.36
+    },
+    {
+      "text": "flavors to the cake but removing a",
+      "start": 1499.679,
+      "duration": 4.081
+    },
+    {
+      "text": "specific ingredient that's a tall order",
+      "start": 1501.399,
+      "duration": 4.921
+    },
+    {
+      "text": "and I love that quote it is so spot-on",
+      "start": 1503.76,
+      "duration": 4.919
+    },
+    {
+      "text": "so overall as a recommendation if you're",
+      "start": 1506.32,
+      "duration": 4.92
+    },
+    {
+      "text": "an AI developer it's critical to have a",
+      "start": 1508.679,
+      "duration": 4.081
+    },
+    {
+      "text": "cross functional Council in place",
+      "start": 1511.24,
+      "duration": 3.36
+    },
+    {
+      "text": "including stakeholders from legal",
+      "start": 1512.76,
+      "duration": 4.12
+    },
+    {
+      "text": "compliance infosec data governance",
+      "start": 1514.6,
+      "duration": 4.559
+    },
+    {
+      "text": "Engineers like so many key stakeholders",
+      "start": 1516.88,
+      "duration": 3.76
+    },
+    {
+      "text": "that should be a part of that discussion",
+      "start": 1519.159,
+      "duration": 3.801
+    },
+    {
+      "text": "to think through these requirements and",
+      "start": 1520.64,
+      "duration": 4.279
+    },
+    {
+      "text": "the best way to strategically",
+      "start": 1522.96,
+      "duration": 4.319
+    },
+    {
+      "text": "operationalize them given your specific",
+      "start": 1524.919,
+      "duration": 5.921
+    },
+    {
+      "text": "AI systems and the data flows involved",
+      "start": 1527.279,
+      "duration": 5.76
+    },
+    {
+      "text": "so that's just a few challenges um that",
+      "start": 1530.84,
+      "duration": 3.959
+    },
+    {
+      "text": "I could note I would take up the rest of",
+      "start": 1533.039,
+      "duration": 3.12
+    },
+    {
+      "text": "the time talking about the others that",
+      "start": 1534.799,
+      "duration": 3.041
+    },
+    {
+      "text": "I've listed but I would say those are",
+      "start": 1536.159,
+      "duration": 3.52
+    },
+    {
+      "text": "the top three that come to mind at the",
+      "start": 1537.84,
+      "duration": 5.319
+    },
+    {
+      "text": "moment before Karina speaks everybody",
+      "start": 1539.679,
+      "duration": 5.921
+    },
+    {
+      "text": "this was great and dense so do like me",
+      "start": 1543.159,
+      "duration": 4.201
+    },
+    {
+      "text": "everyone get a piece of paper you you",
+      "start": 1545.6,
+      "duration": 4.4
+    },
+    {
+      "text": "heard everything that Chris said so I'm",
+      "start": 1547.36,
+      "duration": 3.96
+    },
+    {
+      "text": "seeing that perhaps I will have to share",
+      "start": 1550.0,
+      "duration": 3.039
+    },
+    {
+      "text": "the transcript of this conversation",
+      "start": 1551.32,
+      "duration": 2.599
+    },
+    {
+      "text": "because",
+      "start": 1553.039,
+      "duration": 3.561
+    },
+    {
+      "text": "it's great and many people and also we",
+      "start": 1553.919,
+      "duration": 4.721
+    },
+    {
+      "text": "need more multi media screen so that you",
+      "start": 1556.6,
+      "duration": 3.679
+    },
+    {
+      "text": "could draw the pyramid right with the",
+      "start": 1558.64,
+      "duration": 3.68
+    },
+    {
+      "text": "principles it would be really uh great",
+      "start": 1560.279,
+      "duration": 3.721
+    },
+    {
+      "text": "with with I need a graph behind me I",
+      "start": 1562.32,
+      "duration": 3.479
+    },
+    {
+      "text": "need like yeah like a whiteboard just",
+      "start": 1564.0,
+      "duration": 3.52
+    },
+    {
+      "text": "like write it up AI based I have one",
+      "start": 1565.799,
+      "duration": 4.48
+    },
+    {
+      "text": "over here I need to turn my camera yeah",
+      "start": 1567.52,
+      "duration": 4.96
+    },
+    {
+      "text": "an entrepreneur in the audience we need",
+      "start": 1570.279,
+      "duration": 4.64
+    },
+    {
+      "text": "a star like AI program that listens and",
+      "start": 1572.48,
+      "duration": 5.079
+    },
+    {
+      "text": "already builds the pyramid behind her so",
+      "start": 1574.919,
+      "duration": 5.24
+    },
+    {
+      "text": "I love it and for those in the audience",
+      "start": 1577.559,
+      "duration": 5.401
+    },
+    {
+      "text": "if you when we are speaking if you if",
+      "start": 1580.159,
+      "duration": 5.161
+    },
+    {
+      "text": "Chris or anyone or Karina and Alexa",
+      "start": 1582.96,
+      "duration": 4.839
+    },
+    {
+      "text": "mentions a book or a group if if you",
+      "start": 1585.32,
+      "duration": 4.079
+    },
+    {
+      "text": "want to type in the chat you're welcome",
+      "start": 1587.799,
+      "duration": 3.641
+    },
+    {
+      "text": "to do it we are focusing here on our",
+      "start": 1589.399,
+      "duration": 4.88
+    },
+    {
+      "text": "notes and so you're please welcome to to",
+      "start": 1591.44,
+      "duration": 4.52
+    },
+    {
+      "text": "add to the chat whatever you find",
+      "start": 1594.279,
+      "duration": 4.721
+    },
+    {
+      "text": "relevant whatever resource uh",
+      "start": 1595.96,
+      "duration": 8.439
+    },
+    {
+      "text": "Karina thanks um so challenges I see so",
+      "start": 1599.0,
+      "duration": 9.84
+    },
+    {
+      "text": "um maybe more high level or practical so",
+      "start": 1604.399,
+      "duration": 9.4
+    },
+    {
+      "text": "I do see um the challenge of having a AI",
+      "start": 1608.84,
+      "duration": 8.52
+    },
+    {
+      "text": "strategy and having AI governance how do",
+      "start": 1613.799,
+      "duration": 6.681
+    },
+    {
+      "text": "those two things align how do those two",
+      "start": 1617.36,
+      "duration": 5.28
+    },
+    {
+      "text": "things like work together because I",
+      "start": 1620.48,
+      "duration": 4.079
+    },
+    {
+      "text": "think AI strategy development or having",
+      "start": 1622.64,
+      "duration": 5.759
+    },
+    {
+      "text": "an AI strategy like how can I use AI to",
+      "start": 1624.559,
+      "duration": 6.561
+    },
+    {
+      "text": "improve my kpis to to cater to my",
+      "start": 1628.399,
+      "duration": 6.0
+    },
+    {
+      "text": "business goals um how does this relate",
+      "start": 1631.12,
+      "duration": 6.439
+    },
+    {
+      "text": "to AI governance and uh because I think",
+      "start": 1634.399,
+      "duration": 4.921
+    },
+    {
+      "text": "they're complimentary and they're",
+      "start": 1637.559,
+      "duration": 4.84
+    },
+    {
+      "text": "overlapping but uh I do think that AI",
+      "start": 1639.32,
+      "duration": 5.92
+    },
+    {
+      "text": "governance is a precondition is a part",
+      "start": 1642.399,
+      "duration": 5.28
+    },
+    {
+      "text": "of good management and in that sense a",
+      "start": 1645.24,
+      "duration": 5.12
+    },
+    {
+      "text": "precondition for good strategy um",
+      "start": 1647.679,
+      "duration": 5.401
+    },
+    {
+      "text": "execution and it also I think shows in",
+      "start": 1650.36,
+      "duration": 4.4
+    },
+    {
+      "text": "practice when you have like machine",
+      "start": 1653.08,
+      "duration": 3.64
+    },
+    {
+      "text": "learning Engineers or data scientists",
+      "start": 1654.76,
+      "duration": 4.159
+    },
+    {
+      "text": "who really want to solve problems you",
+      "start": 1656.72,
+      "duration": 7.079
+    },
+    {
+      "text": "know build stuff and improve kpis like",
+      "start": 1658.919,
+      "duration": 8.801
+    },
+    {
+      "text": "um help the um organization grow and um",
+      "start": 1663.799,
+      "duration": 6.0
+    },
+    {
+      "text": "get that you know data analytics right",
+      "start": 1667.72,
+      "duration": 4.959
+    },
+    {
+      "text": "and so on get insights and then you have",
+      "start": 1669.799,
+      "duration": 6.201
+    },
+    {
+      "text": "this uh presumably uh burdening",
+      "start": 1672.679,
+      "duration": 6.961
+    },
+    {
+      "text": "responsible AI or compliance topic and I",
+      "start": 1676.0,
+      "duration": 7.6
+    },
+    {
+      "text": "think this um natural tension should get",
+      "start": 1679.64,
+      "duration": 5.68
+    },
+    {
+      "text": "bridged in a sense",
+      "start": 1683.6,
+      "duration": 4.919
+    },
+    {
+      "text": "of making very readable practical",
+      "start": 1685.32,
+      "duration": 7.359
+    },
+    {
+      "text": "policies Etc and also the challenge is",
+      "start": 1688.519,
+      "duration": 5.681
+    },
+    {
+      "text": "if you have ai if you're talking about",
+      "start": 1692.679,
+      "duration": 3.441
+    },
+    {
+      "text": "the I governance not that we're always",
+      "start": 1694.2,
+      "duration": 4.0
+    },
+    {
+      "text": "talking about the same thing I for",
+      "start": 1696.12,
+      "duration": 5.439
+    },
+    {
+      "text": "example talk about basically what you",
+      "start": 1698.2,
+      "duration": 5.199
+    },
+    {
+      "text": "mentioned at the very beginning Chris U",
+      "start": 1701.559,
+      "duration": 8.041
+    },
+    {
+      "text": "ISO 427 001 AI Management systems or the",
+      "start": 1703.399,
+      "duration": 10.321
+    },
+    {
+      "text": "ndi risk management framework and",
+      "start": 1709.6,
+      "duration": 7.439
+    },
+    {
+      "text": "um I lost my train of thought yeah that",
+      "start": 1713.72,
+      "duration": 5.64
+    },
+    {
+      "text": "we talk about the same thing and then",
+      "start": 1717.039,
+      "duration": 5.12
+    },
+    {
+      "text": "the second challenge uh Associated is",
+      "start": 1719.36,
+      "duration": 5.159
+    },
+    {
+      "text": "what do you prioritize like if you for",
+      "start": 1722.159,
+      "duration": 5.961
+    },
+    {
+      "text": "example take 420001 there are so many",
+      "start": 1724.519,
+      "duration": 6.0
+    },
+    {
+      "text": "required processes for really good AI",
+      "start": 1728.12,
+      "duration": 4.159
+    },
+    {
+      "text": "management system in",
+      "start": 1730.519,
+      "duration": 4.361
+    },
+    {
+      "text": "place it's overwhelming if you just buy",
+      "start": 1732.279,
+      "duration": 4.441
+    },
+    {
+      "text": "the iso standard you're like okay that",
+      "start": 1734.88,
+      "duration": 4.679
+    },
+    {
+      "text": "reads nicely but it says this process",
+      "start": 1736.72,
+      "duration": 4.64
+    },
+    {
+      "text": "this documentation it's and I'm",
+      "start": 1739.559,
+      "duration": 3.6
+    },
+    {
+      "text": "currently working on translating those",
+      "start": 1741.36,
+      "duration": 5.199
+    },
+    {
+      "text": "ISO 4201 requirements into proc",
+      "start": 1743.159,
+      "duration": 5.88
+    },
+    {
+      "text": "processes and do document templates and",
+      "start": 1746.559,
+      "duration": 5.201
+    },
+    {
+      "text": "it's like like a yeast D you know the",
+      "start": 1749.039,
+      "duration": 4.921
+    },
+    {
+      "text": "longer you look at it the actually more",
+      "start": 1751.76,
+      "duration": 4.36
+    },
+    {
+      "text": "it grows because of course AI governance",
+      "start": 1753.96,
+      "duration": 5.319
+    },
+    {
+      "text": "or or AI management management needs to",
+      "start": 1756.12,
+      "duration": 6.439
+    },
+    {
+      "text": "build on already some mature processes",
+      "start": 1759.279,
+      "duration": 5.88
+    },
+    {
+      "text": "so incident response policy you don't",
+      "start": 1762.559,
+      "duration": 5.201
+    },
+    {
+      "text": "have them in place yet theoretic or",
+      "start": 1765.159,
+      "duration": 4.4
+    },
+    {
+      "text": "practically you need to actually have",
+      "start": 1767.76,
+      "duration": 3.759
+    },
+    {
+      "text": "them as part of your AI management",
+      "start": 1769.559,
+      "duration": 4.161
+    },
+    {
+      "text": "system or change management if you don't",
+      "start": 1771.519,
+      "duration": 4.76
+    },
+    {
+      "text": "have process in place so all of those",
+      "start": 1773.72,
+      "duration": 5.72
+    },
+    {
+      "text": "fundamental governance processes are the",
+      "start": 1776.279,
+      "duration": 6.321
+    },
+    {
+      "text": "also the basis for good AI governance so",
+      "start": 1779.44,
+      "duration": 6.28
+    },
+    {
+      "text": "um it's super complex and um so when we",
+      "start": 1782.6,
+      "duration": 4.88
+    },
+    {
+      "text": "talk about actually what would be some",
+      "start": 1785.72,
+      "duration": 4.12
+    },
+    {
+      "text": "priority documents or some priority",
+      "start": 1787.48,
+      "duration": 5.48
+    },
+    {
+      "text": "projects for I governance I think um",
+      "start": 1789.84,
+      "duration": 5.76
+    },
+    {
+      "text": "where we should start is actually what",
+      "start": 1792.96,
+      "duration": 5.0
+    },
+    {
+      "text": "are really my AI assets or or have a",
+      "start": 1795.6,
+      "duration": 5.48
+    },
+    {
+      "text": "model inventory such as in any risk um",
+      "start": 1797.96,
+      "duration": 5.04
+    },
+    {
+      "text": "management process you need to actually",
+      "start": 1801.08,
+      "duration": 4.8
+    },
+    {
+      "text": "first know what you want to protect and",
+      "start": 1803.0,
+      "duration": 5.519
+    },
+    {
+      "text": "what are your assets then thei policy is",
+      "start": 1805.88,
+      "duration": 4.279
+    },
+    {
+      "text": "super important and there are like in",
+      "start": 1808.519,
+      "duration": 4.561
+    },
+    {
+      "text": "this there are so many hints what should",
+      "start": 1810.159,
+      "duration": 5.841
+    },
+    {
+      "text": "be in this AI policy so that's already",
+      "start": 1813.08,
+      "duration": 5.319
+    },
+    {
+      "text": "like kind of a a challenge to write a",
+      "start": 1816.0,
+      "duration": 4.279
+    },
+    {
+      "text": "policy that covers things and means",
+      "start": 1818.399,
+      "duration": 5.041
+    },
+    {
+      "text": "something and in my view and in the view",
+      "start": 1820.279,
+      "duration": 4.481
+    },
+    {
+      "text": "of iso",
+      "start": 1823.44,
+      "duration": 4.52
+    },
+    {
+      "text": "40201 um responsibly I princip ethical",
+      "start": 1824.76,
+      "duration": 6.039
+    },
+    {
+      "text": "trustworth principles are",
+      "start": 1827.96,
+      "duration": 6.8
+    },
+    {
+      "text": "also um as objectives as AI objectives",
+      "start": 1830.799,
+      "duration": 6.6
+    },
+    {
+      "text": "part of this policy just saying then you",
+      "start": 1834.76,
+      "duration": 4.24
+    },
+    {
+      "text": "need to really Define roles and",
+      "start": 1837.399,
+      "duration": 3.28
+    },
+    {
+      "text": "responsibility I think this is one of",
+      "start": 1839.0,
+      "duration": 4.0
+    },
+    {
+      "text": "the priority things U then maybe have",
+      "start": 1840.679,
+      "duration": 5.801
+    },
+    {
+      "text": "acceptable use policies um um for for",
+      "start": 1843.0,
+      "duration": 6.279
+    },
+    {
+      "text": "your users um you can have model cards",
+      "start": 1846.48,
+      "duration": 5.84
+    },
+    {
+      "text": "and scorecards something that is very um",
+      "start": 1849.279,
+      "duration": 4.721
+    },
+    {
+      "text": "often mentioned nowadays and then of",
+      "start": 1852.32,
+      "duration": 3.959
+    },
+    {
+      "text": "course you have this whole classic risk",
+      "start": 1854.0,
+      "duration": 4.76
+    },
+    {
+      "text": "management process with a risk risk",
+      "start": 1856.279,
+      "duration": 4.801
+    },
+    {
+      "text": "registry uh you know how do you treat",
+      "start": 1858.76,
+      "duration": 5.0
+    },
+    {
+      "text": "risks and this needs to cater into your",
+      "start": 1861.08,
+      "duration": 4.88
+    },
+    {
+      "text": "overall risk um Management in your",
+      "start": 1863.76,
+      "duration": 5.12
+    },
+    {
+      "text": "organization so my point is challenge is",
+      "start": 1865.96,
+      "duration": 4.76
+    },
+    {
+      "text": "there's a lot that we can do in a",
+      "start": 1868.88,
+      "duration": 3.639
+    },
+    {
+      "text": "governance but what are the priorities",
+      "start": 1870.72,
+      "duration": 3.799
+    },
+    {
+      "text": "and how does this actually align with AI",
+      "start": 1872.519,
+      "duration": 4.361
+    },
+    {
+      "text": "strategy where it's more about use case",
+      "start": 1874.519,
+      "duration": 4.4
+    },
+    {
+      "text": "Discovery how do I even find my proper",
+      "start": 1876.88,
+      "duration": 5.56
+    },
+    {
+      "text": "use cases and then how do I um put them",
+      "start": 1878.919,
+      "duration": 5.961
+    },
+    {
+      "text": "into practice do I have my own rack with",
+      "start": 1882.44,
+      "duration": 4.199
+    },
+    {
+      "text": "an open source model or do I just buy",
+      "start": 1884.88,
+      "duration": 4.24
+    },
+    {
+      "text": "something so um those and those things",
+      "start": 1886.639,
+      "duration": 4.28
+    },
+    {
+      "text": "can be addressed then in a feasibility",
+      "start": 1889.12,
+      "duration": 3.76
+    },
+    {
+      "text": "analysis and in the risk assessment so",
+      "start": 1890.919,
+      "duration": 4.281
+    },
+    {
+      "text": "this is where strategy and and",
+      "start": 1892.88,
+      "duration": 4.799
+    },
+    {
+      "text": "governance would then intersect to also",
+      "start": 1895.2,
+      "duration": 5.24
+    },
+    {
+      "text": "help assess which use cases you should",
+      "start": 1897.679,
+      "duration": 5.84
+    },
+    {
+      "text": "uh follow through with I love the the",
+      "start": 1900.44,
+      "duration": 4.32
+    },
+    {
+      "text": "connection with the",
+      "start": 1903.519,
+      "duration": 3.64
+    },
+    {
+      "text": "strategy as lawyers we sometimes have",
+      "start": 1904.76,
+      "duration": 4.44
+    },
+    {
+      "text": "this reputation of not not thinking",
+      "start": 1907.159,
+      "duration": 3.921
+    },
+    {
+      "text": "about strategy right we Al we always say",
+      "start": 1909.2,
+      "duration": 4.959
+    },
+    {
+      "text": "no not not allowed uh not compliant and",
+      "start": 1911.08,
+      "duration": 5.079
+    },
+    {
+      "text": "I think especially within organizations",
+      "start": 1914.159,
+      "duration": 3.681
+    },
+    {
+      "text": "it's important to tie together right so",
+      "start": 1916.159,
+      "duration": 3.48
+    },
+    {
+      "text": "let's think about something that will be",
+      "start": 1917.84,
+      "duration": 3.48
+    },
+    {
+      "text": "Innovative that will be connected to the",
+      "start": 1919.639,
+      "duration": 2.76
+    },
+    {
+      "text": "strategy",
+      "start": 1921.32,
+      "duration": 3.599
+    },
+    {
+      "text": "and connected to AI governance and sorry",
+      "start": 1922.399,
+      "duration": 3.921
+    },
+    {
+      "text": "if I just may add because we're all",
+      "start": 1924.919,
+      "duration": 3.201
+    },
+    {
+      "text": "coming from privacy I think you know we",
+      "start": 1926.32,
+      "duration": 3.76
+    },
+    {
+      "text": "always there's was this comment saying",
+      "start": 1928.12,
+      "duration": 4.6
+    },
+    {
+      "text": "privacy as a business enabler practical",
+      "start": 1930.08,
+      "duration": 5.64
+    },
+    {
+      "text": "example Apple always the same so I think",
+      "start": 1932.72,
+      "duration": 4.679
+    },
+    {
+      "text": "it's a totally different ball game with",
+      "start": 1935.72,
+      "duration": 3.4
+    },
+    {
+      "text": "AI because there it's really true",
+      "start": 1937.399,
+      "duration": 3.721
+    },
+    {
+      "text": "because we want to use AI for business",
+      "start": 1939.12,
+      "duration": 4.08
+    },
+    {
+      "text": "everyone knows we should improve things",
+      "start": 1941.12,
+      "duration": 4.159
+    },
+    {
+      "text": "so privacy per se you have to really",
+      "start": 1943.2,
+      "duration": 4.839
+    },
+    {
+      "text": "make an argument you know that it but in",
+      "start": 1945.279,
+      "duration": 6.441
+    },
+    {
+      "text": "AI it's really not so what do we even",
+      "start": 1948.039,
+      "duration": 6.0
+    },
+    {
+      "text": "govern if we not first talk what can we",
+      "start": 1951.72,
+      "duration": 4.64
+    },
+    {
+      "text": "do what can where can it help so it",
+      "start": 1954.039,
+      "duration": 4.6
+    },
+    {
+      "text": "really needs to focus so much more on on",
+      "start": 1956.36,
+      "duration": 4.96
+    },
+    {
+      "text": "business I think and it's great to see",
+      "start": 1958.639,
+      "duration": 4.441
+    },
+    {
+      "text": "for those that don't follow Karina on",
+      "start": 1961.32,
+      "duration": 4.28
+    },
+    {
+      "text": "LinkedIn she basic almost every day she",
+      "start": 1963.08,
+      "duration": 5.76
+    },
+    {
+      "text": "posts uh very interesting content AI",
+      "start": 1965.6,
+      "duration": 5.039
+    },
+    {
+      "text": "governance related AI related and it's",
+      "start": 1968.84,
+      "duration": 3.76
+    },
+    {
+      "text": "great to know that she she memorizes it",
+      "start": 1970.639,
+      "duration": 3.601
+    },
+    {
+      "text": "she's talking it by heart some very",
+      "start": 1972.6,
+      "duration": 3.6
+    },
+    {
+      "text": "specific things so I love it she not",
+      "start": 1974.24,
+      "duration": 3.799
+    },
+    {
+      "text": "only posts and and reads she also",
+      "start": 1976.2,
+      "duration": 5.599
+    },
+    {
+      "text": "memorizes so follow for follow all of us",
+      "start": 1978.039,
+      "duration": 6.321
+    },
+    {
+      "text": "on LinkedIn especially and here",
+      "start": 1981.799,
+      "duration": 4.0
+    },
+    {
+      "text": "specifically on Katarina's point when if",
+      "start": 1984.36,
+      "duration": 3.799
+    },
+    {
+      "text": "you want Frameworks she is the queen of",
+      "start": 1985.799,
+      "duration": 4.081
+    },
+    {
+      "text": "Frameworks she will post every day",
+      "start": 1988.159,
+      "duration": 3.321
+    },
+    {
+      "text": "something new and interesting so I",
+      "start": 1989.88,
+      "duration": 4.36
+    },
+    {
+      "text": "recommend Karina's advice and now I",
+      "start": 1991.48,
+      "duration": 4.52
+    },
+    {
+      "text": "would like to move a little bit to AI",
+      "start": 1994.24,
+      "duration": 5.08
+    },
+    {
+      "text": "ethics and and you know we there I feel",
+      "start": 1996.0,
+      "duration": 5.84
+    },
+    {
+      "text": "the the AI ethics folks not always are",
+      "start": 1999.32,
+      "duration": 4.4
+    },
+    {
+      "text": "the AI governance folks and we are",
+      "start": 2001.84,
+      "duration": 3.88
+    },
+    {
+      "text": "seeing some movement AI governance and",
+      "start": 2003.72,
+      "duration": 3.959
+    },
+    {
+      "text": "privacy right we are kind of merging",
+      "start": 2005.72,
+      "duration": 5.079
+    },
+    {
+      "text": "maybe and the IAP is talking about AI",
+      "start": 2007.679,
+      "duration": 6.0
+    },
+    {
+      "text": "governance but the AI ethics they I I",
+      "start": 2010.799,
+      "duration": 4.48
+    },
+    {
+      "text": "feel it's a bit separate so there is",
+      "start": 2013.679,
+      "duration": 3.96
+    },
+    {
+      "text": "kind of a separation here AI eics people",
+      "start": 2015.279,
+      "duration": 4.041
+    },
+    {
+      "text": "n governance people so I I wanted to",
+      "start": 2017.639,
+      "duration": 3.081
+    },
+    {
+      "text": "talk a little bit about these",
+      "start": 2019.32,
+      "duration": 3.56
+    },
+    {
+      "text": "intersection so are is the same thing so",
+      "start": 2020.72,
+      "duration": 4.679
+    },
+    {
+      "text": "for some people maybe it's not obvious H",
+      "start": 2022.88,
+      "duration": 4.96
+    },
+    {
+      "text": "so I want to ask Ravid and Chris so how",
+      "start": 2025.399,
+      "duration": 4.561
+    },
+    {
+      "text": "do you see the intersection of AI ethics",
+      "start": 2027.84,
+      "duration": 3.92
+    },
+    {
+      "text": "and AI governance both from a",
+      "start": 2029.96,
+      "duration": 3.959
+    },
+    {
+      "text": "theoretical and practical perspective",
+      "start": 2031.76,
+      "duration": 4.36
+    },
+    {
+      "text": "and how should companies deal with AI",
+      "start": 2033.919,
+      "duration": 3.48
+    },
+    {
+      "text": "ethics so we are talking about about all",
+      "start": 2036.12,
+      "duration": 4.039
+    },
+    {
+      "text": "about governance so what about ethics is",
+      "start": 2037.399,
+      "duration": 5.28
+    },
+    {
+      "text": "it separated is it together is it same",
+      "start": 2040.159,
+      "duration": 4.441
+    },
+    {
+      "text": "person same same people involved so",
+      "start": 2042.679,
+      "duration": 4.6
+    },
+    {
+      "text": "let's start with",
+      "start": 2044.6,
+      "duration": 2.679
+    },
+    {
+      "text": "Ravid yeah uh yeah the term AI eics I",
+      "start": 2048.52,
+      "duration": 7.44
+    },
+    {
+      "text": "think is not the best um to my knowledge",
+      "start": 2052.52,
+      "duration": 5.44
+    },
+    {
+      "text": "the history of this term comes from",
+      "start": 2055.96,
+      "duration": 3.879
+    },
+    {
+      "text": "Academia that's where some of the",
+      "start": 2057.96,
+      "duration": 5.439
+    },
+    {
+      "text": "discussions um maybe started or were",
+      "start": 2059.839,
+      "duration": 5.881
+    },
+    {
+      "text": "like had at some point there are a lot",
+      "start": 2063.399,
+      "duration": 6.161
+    },
+    {
+      "text": "of things people might mean by that name",
+      "start": 2065.72,
+      "duration": 5.76
+    },
+    {
+      "text": "uh so my background is philosophy that's",
+      "start": 2069.56,
+      "duration": 3.72
+    },
+    {
+      "text": "my PhD it",
+      "start": 2071.48,
+      "duration": 4.32
+    },
+    {
+      "text": "definitely uh is not ethics in that",
+      "start": 2073.28,
+      "duration": 4.72
+    },
+    {
+      "text": "sense it's not ethics in the philosophy",
+      "start": 2075.8,
+      "duration": 4.76
+    },
+    {
+      "text": "sense um I mean I guess some do it but",
+      "start": 2078.0,
+      "duration": 5.04
+    },
+    {
+      "text": "primarily that's not what it's not",
+      "start": 2080.56,
+      "duration": 4.44
+    },
+    {
+      "text": "primarily what people talk about uh",
+      "start": 2083.04,
+      "duration": 3.92
+    },
+    {
+      "text": "primarily what you would hear in AI",
+      "start": 2085.0,
+      "duration": 4.32
+    },
+    {
+      "text": "ethics conversations are things about",
+      "start": 2086.96,
+      "duration": 5.08
+    },
+    {
+      "text": "the societal impact of AI right so it",
+      "start": 2089.32,
+      "duration": 6.799
+    },
+    {
+      "text": "might also relate to um yeah let's",
+      "start": 2092.04,
+      "duration": 6.76
+    },
+    {
+      "text": "understand you know why this algorithm",
+      "start": 2096.119,
+      "duration": 5.561
+    },
+    {
+      "text": "you know discriminates or like um what",
+      "start": 2098.8,
+      "duration": 5.559
+    },
+    {
+      "text": "does it mean to be explainable right so",
+      "start": 2101.68,
+      "duration": 4.96
+    },
+    {
+      "text": "you could have both theoretical",
+      "start": 2104.359,
+      "duration": 4.041
+    },
+    {
+      "text": "questions about those Concepts and you",
+      "start": 2106.64,
+      "duration": 5.08
+    },
+    {
+      "text": "could have uh questions about social",
+      "start": 2108.4,
+      "duration": 5.36
+    },
+    {
+      "text": "impacts you could also have things that",
+      "start": 2111.72,
+      "duration": 4.8
+    },
+    {
+      "text": "would quote unquote would belong in um",
+      "start": 2113.76,
+      "duration": 5.599
+    },
+    {
+      "text": "like in a philosophy ethics class um but",
+      "start": 2116.52,
+      "duration": 4.44
+    },
+    {
+      "text": "these are some of the conversations in",
+      "start": 2119.359,
+      "duration": 4.601
+    },
+    {
+      "text": "AI ethics um the conversations about",
+      "start": 2120.96,
+      "duration": 5.32
+    },
+    {
+      "text": "governance in my mind are just a part of",
+      "start": 2123.96,
+      "duration": 4.76
+    },
+    {
+      "text": "the AI ethics discussion right and these",
+      "start": 2126.28,
+      "duration": 6.0
+    },
+    {
+      "text": "could be conversations about how do you",
+      "start": 2128.72,
+      "duration": 6.48
+    },
+    {
+      "text": "effectively do risk management for AI",
+      "start": 2132.28,
+      "duration": 5.28
+    },
+    {
+      "text": "systems well what is an effective AI",
+      "start": 2135.2,
+      "duration": 5.24
+    },
+    {
+      "text": "governance structure so in my mind AI",
+      "start": 2137.56,
+      "duration": 5.44
+    },
+    {
+      "text": "governance is one of the themes that is",
+      "start": 2140.44,
+      "duration": 6.24
+    },
+    {
+      "text": "discussed within AI ethics um AI",
+      "start": 2143.0,
+      "duration": 5.48
+    },
+    {
+      "text": "governance is also maybe a concept that",
+      "start": 2146.68,
+      "duration": 4.8
+    },
+    {
+      "text": "is more you might hear it more in",
+      "start": 2148.48,
+      "duration": 5.76
+    },
+    {
+      "text": "business context I think in the business",
+      "start": 2151.48,
+      "duration": 5.92
+    },
+    {
+      "text": "context the the term ethics",
+      "start": 2154.24,
+      "duration": 7.04
+    },
+    {
+      "text": "um can have negative connotations um",
+      "start": 2157.4,
+      "duration": 7.439
+    },
+    {
+      "text": "right so one one uh one CEO of a startup",
+      "start": 2161.28,
+      "duration": 7.52
+    },
+    {
+      "text": "told me you say ethic I think of Plato",
+      "start": 2164.839,
+      "duration": 6.601
+    },
+    {
+      "text": "uh and and I understand why because",
+      "start": 2168.8,
+      "duration": 4.4
+    },
+    {
+      "text": "there is a connection between ethics and",
+      "start": 2171.44,
+      "duration": 3.879
+    },
+    {
+      "text": "Plato but it does mean that the",
+      "start": 2173.2,
+      "duration": 4.04
+    },
+    {
+      "text": "connotations might be that ethics is",
+      "start": 2175.319,
+      "duration": 5.081
+    },
+    {
+      "text": "something like in the sky ideals that do",
+      "start": 2177.24,
+      "duration": 4.879
+    },
+    {
+      "text": "that are good but maybe don't",
+      "start": 2180.4,
+      "duration": 3.32
+    },
+    {
+      "text": "necessarily belong in the workplace",
+      "start": 2182.119,
+      "duration": 3.081
+    },
+    {
+      "text": "because in the workplace we care about",
+      "start": 2183.72,
+      "duration": 3.2
+    },
+    {
+      "text": "revenue and we care about business and",
+      "start": 2185.2,
+      "duration": 5.08
+    },
+    {
+      "text": "like ethics is nice but we can't really",
+      "start": 2186.92,
+      "duration": 4.919
+    },
+    {
+      "text": "do that so I think that that is an",
+      "start": 2190.28,
+      "duration": 3.6
+    },
+    {
+      "text": "unfortunate connotation that comes from",
+      "start": 2191.839,
+      "duration": 3.641
+    },
+    {
+      "text": "just like associations of the word",
+      "start": 2193.88,
+      "duration": 6.16
+    },
+    {
+      "text": "ethics but really A ethics in in the",
+      "start": 2195.48,
+      "duration": 6.32
+    },
+    {
+      "text": "workplace",
+      "start": 2200.04,
+      "duration": 4.319
+    },
+    {
+      "text": "really maybe almost merges with AI",
+      "start": 2201.8,
+      "duration": 4.64
+    },
+    {
+      "text": "governance because that's what they do",
+      "start": 2204.359,
+      "duration": 5.561
+    },
+    {
+      "text": "like uh to ensure that the social impact",
+      "start": 2206.44,
+      "duration": 6.72
+    },
+    {
+      "text": "of AI is not destructive is inherently",
+      "start": 2209.92,
+      "duration": 5.84
+    },
+    {
+      "text": "bound with how you're going to govern AI",
+      "start": 2213.16,
+      "duration": 4.88
+    },
+    {
+      "text": "ethics uh sorry how you're going to",
+      "start": 2215.76,
+      "duration": 5.4
+    },
+    {
+      "text": "govern AI so I I think that you're right",
+      "start": 2218.04,
+      "duration": 4.68
+    },
+    {
+      "text": "Louis say in terms of the population",
+      "start": 2221.16,
+      "duration": 3.48
+    },
+    {
+      "text": "there might be like people who would",
+      "start": 2222.72,
+      "duration": 4.359
+    },
+    {
+      "text": "kind of brand them themselves",
+      "start": 2224.64,
+      "duration": 6.08
+    },
+    {
+      "text": "differently but I think when it comes",
+      "start": 2227.079,
+      "duration": 7.481
+    },
+    {
+      "text": "to businesses and workplaces then AI",
+      "start": 2230.72,
+      "duration": 6.879
+    },
+    {
+      "text": "governance just is AI ethics in many",
+      "start": 2234.56,
+      "duration": 6.84
+    },
+    {
+      "text": "ways great I love this a is a perfect",
+      "start": 2237.599,
+      "duration": 5.801
+    },
+    {
+      "text": "philosophical and practical integration",
+      "start": 2241.4,
+      "duration": 3.8
+    },
+    {
+      "text": "and for those that don't follow R you",
+      "start": 2243.4,
+      "duration": 4.52
+    },
+    {
+      "text": "also post incredible ethics and AI in",
+      "start": 2245.2,
+      "duration": 4.8
+    },
+    {
+      "text": "general content so follow her I think",
+      "start": 2247.92,
+      "duration": 4.439
+    },
+    {
+      "text": "mainly on LinkedIn right have post but",
+      "start": 2250.0,
+      "duration": 5.359
+    },
+    {
+      "text": "yeah yeah I actually just uh started my",
+      "start": 2252.359,
+      "duration": 5.041
+    },
+    {
+      "text": "mailing list also so if people want to",
+      "start": 2255.359,
+      "duration": 4.681
+    },
+    {
+      "text": "follow my mailing list you should do so",
+      "start": 2257.4,
+      "duration": 4.52
+    },
+    {
+      "text": "I mean I already have more than a",
+      "start": 2260.04,
+      "duration": 4.52
+    },
+    {
+      "text": "thousand people",
+      "start": 2261.92,
+      "duration": 6.24
+    },
+    {
+      "text": "so chuz yeah for sure happy away and I",
+      "start": 2264.56,
+      "duration": 5.4
+    },
+    {
+      "text": "totally agree when I when I think about",
+      "start": 2268.16,
+      "duration": 4.919
+    },
+    {
+      "text": "um AI ethics I see it as focused on a",
+      "start": 2269.96,
+      "duration": 5.48
+    },
+    {
+      "text": "set of uh a set or system of moral",
+      "start": 2273.079,
+      "duration": 3.961
+    },
+    {
+      "text": "principles and techniques focused on",
+      "start": 2275.44,
+      "duration": 3.48
+    },
+    {
+      "text": "informing uh the development and",
+      "start": 2277.04,
+      "duration": 4.92
+    },
+    {
+      "text": "responsible use of AI technology it's",
+      "start": 2278.92,
+      "duration": 6.12
+    },
+    {
+      "text": "focused on AI adhering to well defined",
+      "start": 2281.96,
+      "duration": 5.08
+    },
+    {
+      "text": "ethical guidelines regarding fundamental",
+      "start": 2285.04,
+      "duration": 4.319
+    },
+    {
+      "text": "values including individual rights",
+      "start": 2287.04,
+      "duration": 4.799
+    },
+    {
+      "text": "privacy non-discrimination and",
+      "start": 2289.359,
+      "duration": 4.76
+    },
+    {
+      "text": "non-manipulation examples of AI ethics",
+      "start": 2291.839,
+      "duration": 3.801
+    },
+    {
+      "text": "issues is everything that we're talking",
+      "start": 2294.119,
+      "duration": 3.48
+    },
+    {
+      "text": "about so that would include data",
+      "start": 2295.64,
+      "duration": 4.08
+    },
+    {
+      "text": "responsibility privacy fairness",
+      "start": 2297.599,
+      "duration": 4.921
+    },
+    {
+      "text": "explainability robustness transparency",
+      "start": 2299.72,
+      "duration": 5.28
+    },
+    {
+      "text": "environmental sustainability inclusion",
+      "start": 2302.52,
+      "duration": 4.559
+    },
+    {
+      "text": "moral agency value alignment",
+      "start": 2305.0,
+      "duration": 4.56
+    },
+    {
+      "text": "accountability trust and technological",
+      "start": 2307.079,
+      "duration": 5.601
+    },
+    {
+      "text": "misuse and for the term AI governance",
+      "start": 2309.56,
+      "duration": 5.44
+    },
+    {
+      "text": "there is a broader definition of this",
+      "start": 2312.68,
+      "duration": 4.56
+    },
+    {
+      "text": "term that speaks to a framework of laws",
+      "start": 2315.0,
+      "duration": 4.319
+    },
+    {
+      "text": "and policies and ethical principles that",
+      "start": 2317.24,
+      "duration": 4.16
+    },
+    {
+      "text": "guide the development deployment and use",
+      "start": 2319.319,
+      "duration": 5.28
+    },
+    {
+      "text": "of AI Technologies and from this lens AI",
+      "start": 2321.4,
+      "duration": 4.959
+    },
+    {
+      "text": "governance is necessary to ensure that",
+      "start": 2324.599,
+      "duration": 3.881
+    },
+    {
+      "text": "AI is developed and used in a way that",
+      "start": 2326.359,
+      "duration": 4.321
+    },
+    {
+      "text": "benefits Society while minimizing",
+      "start": 2328.48,
+      "duration": 4.68
+    },
+    {
+      "text": "potential harm um then there's AI",
+      "start": 2330.68,
+      "duration": 4.439
+    },
+    {
+      "text": "governance of course within the context",
+      "start": 2333.16,
+      "duration": 4.4
+    },
+    {
+      "text": "of an organization and that's where",
+      "start": 2335.119,
+      "duration": 4.0
+    },
+    {
+      "text": "we're focused on and that's what we're",
+      "start": 2337.56,
+      "duration": 4.279
+    },
+    {
+      "text": "talking about today within this context",
+      "start": 2339.119,
+      "duration": 4.561
+    },
+    {
+      "text": "AI governance is a system or framework",
+      "start": 2341.839,
+      "duration": 4.48
+    },
+    {
+      "text": "designed to direct manage and monitor AI",
+      "start": 2343.68,
+      "duration": 5.0
+    },
+    {
+      "text": "activities within an organization and",
+      "start": 2346.319,
+      "duration": 4.441
+    },
+    {
+      "text": "it's focused on operationalizing AI",
+      "start": 2348.68,
+      "duration": 3.6
+    },
+    {
+      "text": "ethics principles and overseeing",
+      "start": 2350.76,
+      "duration": 3.64
+    },
+    {
+      "text": "responsible development deployment and",
+      "start": 2352.28,
+      "duration": 3.64
+    },
+    {
+      "text": "use of AI technology within an",
+      "start": 2354.4,
+      "duration": 3.0
+    },
+    {
+      "text": "organization so there's different ways",
+      "start": 2355.92,
+      "duration": 2.72
+    },
+    {
+      "text": "of looking at all of these different",
+      "start": 2357.4,
+      "duration": 3.959
+    },
+    {
+      "text": "concepts but um yeah I totally agree in",
+      "start": 2358.64,
+      "duration": 5.4
+    },
+    {
+      "text": "terms of the way that um people uh talk",
+      "start": 2361.359,
+      "duration": 4.521
+    },
+    {
+      "text": "about AI ethics versus like on the",
+      "start": 2364.04,
+      "duration": 4.2
+    },
+    {
+      "text": "ground the work Associated specifically",
+      "start": 2365.88,
+      "duration": 4.199
+    },
+    {
+      "text": "within an organization for example with",
+      "start": 2368.24,
+      "duration": 3.28
+    },
+    {
+      "text": "AI governance",
+      "start": 2370.079,
+      "duration": 4.401
+    },
+    {
+      "text": "work thank you Chris I'd like to switch",
+      "start": 2371.52,
+      "duration": 5.559
+    },
+    {
+      "text": "now to one of my f perhaps my favorite",
+      "start": 2374.48,
+      "duration": 4.96
+    },
+    {
+      "text": "topic nowadays which is AI and privacy",
+      "start": 2377.079,
+      "duration": 4.681
+    },
+    {
+      "text": "this very interesting intersection I",
+      "start": 2379.44,
+      "duration": 4.72
+    },
+    {
+      "text": "think it's in it's interesting from also",
+      "start": 2381.76,
+      "duration": 3.8
+    },
+    {
+      "text": "from a professional perspective",
+      "start": 2384.16,
+      "duration": 3.12
+    },
+    {
+      "text": "everybody now is is seeing what what",
+      "start": 2385.56,
+      "duration": 3.6
+    },
+    {
+      "text": "will happen right who are so we are",
+      "start": 2387.28,
+      "duration": 3.76
+    },
+    {
+      "text": "talking about AI governance but who are",
+      "start": 2389.16,
+      "duration": 3.64
+    },
+    {
+      "text": "the people that are going to govern AI",
+      "start": 2391.04,
+      "duration": 3.319
+    },
+    {
+      "text": "are those the Privacy people and the",
+      "start": 2392.8,
+      "duration": 4.039
+    },
+    {
+      "text": "Privacy people want to govern AI I see I",
+      "start": 2394.359,
+      "duration": 4.201
+    },
+    {
+      "text": "know many in the audience here listening",
+      "start": 2396.839,
+      "duration": 4.48
+    },
+    {
+      "text": "to us are privacy professionals and we",
+      "start": 2398.56,
+      "duration": 4.88
+    },
+    {
+      "text": "are seeing everybody in privacy I see",
+      "start": 2401.319,
+      "duration": 4.121
+    },
+    {
+      "text": "everywhere interested right it feels",
+      "start": 2403.44,
+      "duration": 3.639
+    },
+    {
+      "text": "like empty if you say that you're you're",
+      "start": 2405.44,
+      "duration": 4.76
+    },
+    {
+      "text": "specialized only in privacy okay and AI",
+      "start": 2407.079,
+      "duration": 5.481
+    },
+    {
+      "text": "so it's I see a lot this movement this",
+      "start": 2410.2,
+      "duration": 5.44
+    },
+    {
+      "text": "professional movement and I think both",
+      "start": 2412.56,
+      "duration": 5.6
+    },
+    {
+      "text": "from a theoretical as Alexander was",
+      "start": 2415.64,
+      "duration": 4.479
+    },
+    {
+      "text": "talking about before about the",
+      "start": 2418.16,
+      "duration": 3.8
+    },
+    {
+      "text": "legitimate interest and many uh",
+      "start": 2420.119,
+      "duration": 3.24
+    },
+    {
+      "text": "theoretical and practical uh",
+      "start": 2421.96,
+      "duration": 3.76
+    },
+    {
+      "text": "implications of AI systems so the",
+      "start": 2423.359,
+      "duration": 5.561
+    },
+    {
+      "text": "question is for Alexandra and Katarina",
+      "start": 2425.72,
+      "duration": 5.639
+    },
+    {
+      "text": "so AI compliance and privacy compliance",
+      "start": 2428.92,
+      "duration": 5.439
+    },
+    {
+      "text": "they might intersect but not always how",
+      "start": 2431.359,
+      "duration": 4.76
+    },
+    {
+      "text": "do we recommend navigating Ai and",
+      "start": 2434.359,
+      "duration": 3.281
+    },
+    {
+      "text": "private compliance in a corporate",
+      "start": 2436.119,
+      "duration": 4.041
+    },
+    {
+      "text": "setting and what are the main challenges",
+      "start": 2437.64,
+      "duration": 4.479
+    },
+    {
+      "text": "so let's start with",
+      "start": 2440.16,
+      "duration": 5.64
+    },
+    {
+      "text": "Alexander this is a really big question",
+      "start": 2442.119,
+      "duration": 7.0
+    },
+    {
+      "text": "so um like I said at at the top of the",
+      "start": 2445.8,
+      "duration": 6.96
+    },
+    {
+      "text": "call you know privacy and AI really go",
+      "start": 2449.119,
+      "duration": 6.0
+    },
+    {
+      "text": "hand inand because AI inherently",
+      "start": 2452.76,
+      "duration": 5.16
+    },
+    {
+      "text": "involves data and privacy is all about",
+      "start": 2455.119,
+      "duration": 6.681
+    },
+    {
+      "text": "data um you know I I would approach",
+      "start": 2457.92,
+      "duration": 6.159
+    },
+    {
+      "text": "implementing AI governance the same way",
+      "start": 2461.8,
+      "duration": 4.76
+    },
+    {
+      "text": "I would approach implementing privacy in",
+      "start": 2464.079,
+      "duration": 4.28
+    },
+    {
+      "text": "an organization and that always starts",
+      "start": 2466.56,
+      "duration": 4.44
+    },
+    {
+      "text": "with understanding the risk landscape",
+      "start": 2468.359,
+      "duration": 4.161
+    },
+    {
+      "text": "right",
+      "start": 2471.0,
+      "duration": 4.0
+    },
+    {
+      "text": "so different companies are going to be",
+      "start": 2472.52,
+      "duration": 4.12
+    },
+    {
+      "text": "doing different things with AI and",
+      "start": 2475.0,
+      "duration": 4.04
+    },
+    {
+      "text": "they're all going to have very different",
+      "start": 2476.64,
+      "duration": 4.16
+    },
+    {
+      "text": "requirements and risk Landscapes because",
+      "start": 2479.04,
+      "duration": 3.4
+    },
+    {
+      "text": "of that right a company that's",
+      "start": 2480.8,
+      "duration": 4.519
+    },
+    {
+      "text": "developing AI tools for public release",
+      "start": 2482.44,
+      "duration": 5.679
+    },
+    {
+      "text": "has a very different risk landscape from",
+      "start": 2485.319,
+      "duration": 5.241
+    },
+    {
+      "text": "a company integrating AI into their own",
+      "start": 2488.119,
+      "duration": 4.041
+    },
+    {
+      "text": "products has a very different risk",
+      "start": 2490.56,
+      "duration": 4.32
+    },
+    {
+      "text": "landscape from a company with a",
+      "start": 2492.16,
+      "duration": 4.76
+    },
+    {
+      "text": "marketing team that wants to use chat",
+      "start": 2494.88,
+      "duration": 5.64
+    },
+    {
+      "text": "GPT right um and by the way I think",
+      "start": 2496.92,
+      "duration": 5.72
+    },
+    {
+      "text": "everyone is probably in that last bucket",
+      "start": 2500.52,
+      "duration": 4.799
+    },
+    {
+      "text": "there was recently um a survey that I",
+      "start": 2502.64,
+      "duration": 6.76
+    },
+    {
+      "text": "read from axios that 70% of employees",
+      "start": 2505.319,
+      "duration": 7.081
+    },
+    {
+      "text": "were using chat GPT without asking their",
+      "start": 2509.4,
+      "duration": 5.0
+    },
+    {
+      "text": "boss's per or telling their boss like",
+      "start": 2512.4,
+      "duration": 3.4
+    },
+    {
+      "text": "they figured their boss didn't know",
+      "start": 2514.4,
+      "duration": 2.88
+    },
+    {
+      "text": "about it",
+      "start": 2515.8,
+      "duration": 5.08
+    },
+    {
+      "text": "um so this is underway it's already",
+      "start": 2517.28,
+      "duration": 6.28
+    },
+    {
+      "text": "happening um and I think for many many",
+      "start": 2520.88,
+      "duration": 4.12
+    },
+    {
+      "text": "companies it's really like harm",
+      "start": 2523.56,
+      "duration": 3.36
+    },
+    {
+      "text": "reduction when we're talking about that",
+      "start": 2525.0,
+      "duration": 5.72
+    },
+    {
+      "text": "last bucket of um teams that are using",
+      "start": 2526.92,
+      "duration": 6.04
+    },
+    {
+      "text": "um in particular large language models",
+      "start": 2530.72,
+      "duration": 5.56
+    },
+    {
+      "text": "in in their daily work so the way I",
+      "start": 2532.96,
+      "duration": 4.119
+    },
+    {
+      "text": "would",
+      "start": 2536.28,
+      "duration": 4.12
+    },
+    {
+      "text": "approach implementing this compliance is",
+      "start": 2537.079,
+      "duration": 5.121
+    },
+    {
+      "text": "starting by doing diligence with the",
+      "start": 2540.4,
+      "duration": 3.88
+    },
+    {
+      "text": "business understanding the use cases of",
+      "start": 2542.2,
+      "duration": 4.44
+    },
+    {
+      "text": "AI in the organization that's always",
+      "start": 2544.28,
+      "duration": 3.96
+    },
+    {
+      "text": "going to require cross functional",
+      "start": 2546.64,
+      "duration": 4.479
+    },
+    {
+      "text": "cooperation and collaboration in like",
+      "start": 2548.24,
+      "duration": 4.599
+    },
+    {
+      "text": "more than a decade of building privacy",
+      "start": 2551.119,
+      "duration": 3.361
+    },
+    {
+      "text": "programs I've never been proven wrong",
+      "start": 2552.839,
+      "duration": 3.48
+    },
+    {
+      "text": "that that's the single most important",
+      "start": 2554.48,
+      "duration": 4.839
+    },
+    {
+      "text": "thing um and I think you know what an",
+      "start": 2556.319,
+      "duration": 4.04
+    },
+    {
+      "text": "important",
+      "start": 2559.319,
+      "duration": 4.201
+    },
+    {
+      "text": "part of AI governance especially when",
+      "start": 2560.359,
+      "duration": 5.361
+    },
+    {
+      "text": "you're talking about um you know",
+      "start": 2563.52,
+      "duration": 4.72
+    },
+    {
+      "text": "implementing like an AI use policy",
+      "start": 2565.72,
+      "duration": 4.599
+    },
+    {
+      "text": "internally is to remind folks that",
+      "start": 2568.24,
+      "duration": 4.119
+    },
+    {
+      "text": "they're not in trouble right I think a",
+      "start": 2570.319,
+      "duration": 4.321
+    },
+    {
+      "text": "lot of people think oh if I'm using chat",
+      "start": 2572.359,
+      "duration": 4.881
+    },
+    {
+      "text": "GPT to do my job my boss is going to",
+      "start": 2574.64,
+      "duration": 4.4
+    },
+    {
+      "text": "think like why would I pay this person",
+      "start": 2577.24,
+      "duration": 4.0
+    },
+    {
+      "text": "if they're just using chat GPT so I",
+      "start": 2579.04,
+      "duration": 4.0
+    },
+    {
+      "text": "think it's important to have those",
+      "start": 2581.24,
+      "duration": 4.68
+    },
+    {
+      "text": "conversations um you know in",
+      "start": 2583.04,
+      "duration": 6.2
+    },
+    {
+      "text": "Earnest and um ravit actually shared a",
+      "start": 2585.92,
+      "duration": 5.8
+    },
+    {
+      "text": "really great list of simple questions on",
+      "start": 2589.24,
+      "duration": 5.96
+    },
+    {
+      "text": "LinkedIn that help the business you know",
+      "start": 2591.72,
+      "duration": 5.879
+    },
+    {
+      "text": "cross functional teams understand",
+      "start": 2595.2,
+      "duration": 4.159
+    },
+    {
+      "text": "whether the tools that they're using",
+      "start": 2597.599,
+      "duration": 3.801
+    },
+    {
+      "text": "have ai behind the scenes and it's not",
+      "start": 2599.359,
+      "duration": 5.281
+    },
+    {
+      "text": "always obvious so I highly recommend um",
+      "start": 2601.4,
+      "duration": 4.88
+    },
+    {
+      "text": "you know finding that on LinkedIn and",
+      "start": 2604.64,
+      "duration": 3.919
+    },
+    {
+      "text": "using that as part of the diligence with",
+      "start": 2606.28,
+      "duration": 4.76
+    },
+    {
+      "text": "the business and just understand like",
+      "start": 2608.559,
+      "duration": 4.161
+    },
+    {
+      "text": "you should talk to every team it's a",
+      "start": 2611.04,
+      "duration": 4.16
+    },
+    {
+      "text": "cross functional conversation um and it",
+      "start": 2612.72,
+      "duration": 3.879
+    },
+    {
+      "text": "will take",
+      "start": 2615.2,
+      "duration": 4.48
+    },
+    {
+      "text": "time you know once you have kind of an",
+      "start": 2616.599,
+      "duration": 5.121
+    },
+    {
+      "text": "idea of what's happening with AI then",
+      "start": 2619.68,
+      "duration": 4.32
+    },
+    {
+      "text": "consider the risks to the organization",
+      "start": 2621.72,
+      "duration": 5.08
+    },
+    {
+      "text": "you know assume that unless you've",
+      "start": 2624.0,
+      "duration": 5.599
+    },
+    {
+      "text": "licensed versions of all of the AI tools",
+      "start": 2626.8,
+      "duration": 5.559
+    },
+    {
+      "text": "being used assume that whatever is being",
+      "start": 2629.599,
+      "duration": 5.401
+    },
+    {
+      "text": "entered into a model is being used to",
+      "start": 2632.359,
+      "duration": 4.401
+    },
+    {
+      "text": "train that model",
+      "start": 2635.0,
+      "duration": 5.76
+    },
+    {
+      "text": "and also understand that anything could",
+      "start": 2636.76,
+      "duration": 6.319
+    },
+    {
+      "text": "be provided back in raw form right we've",
+      "start": 2640.76,
+      "duration": 4.559
+    },
+    {
+      "text": "seen that recently where there was a",
+      "start": 2643.079,
+      "duration": 5.881
+    },
+    {
+      "text": "prompt like say company over and over um",
+      "start": 2645.319,
+      "duration": 5.201
+    },
+    {
+      "text": "into one of the large language models",
+      "start": 2648.96,
+      "duration": 3.92
+    },
+    {
+      "text": "and it just spat back like was it source",
+      "start": 2650.52,
+      "duration": 4.36
+    },
+    {
+      "text": "code or something um that had been",
+      "start": 2652.88,
+      "duration": 5.239
+    },
+    {
+      "text": "entered into the model so you know",
+      "start": 2654.88,
+      "duration": 5.439
+    },
+    {
+      "text": "understand consider the risks to",
+      "start": 2658.119,
+      "duration": 4.681
+    },
+    {
+      "text": "personal data consider the risks to",
+      "start": 2660.319,
+      "duration": 6.8
+    },
+    {
+      "text": "company confidential data um to source",
+      "start": 2662.8,
+      "duration": 7.24
+    },
+    {
+      "text": "code and you know I think another",
+      "start": 2667.119,
+      "duration": 4.761
+    },
+    {
+      "text": "important risk to call out for every",
+      "start": 2670.04,
+      "duration": 7.24
+    },
+    {
+      "text": "company is talk to your HR team and",
+      "start": 2671.88,
+      "duration": 7.239
+    },
+    {
+      "text": "evaluate whether they are looking at",
+      "start": 2677.28,
+      "duration": 3.64
+    },
+    {
+      "text": "candidates with AI tools because that's",
+      "start": 2679.119,
+      "duration": 4.321
+    },
+    {
+      "text": "something that often happens behind the",
+      "start": 2680.92,
+      "duration": 5.96
+    },
+    {
+      "text": "scenes that maybe HR teams aren't even",
+      "start": 2683.44,
+      "duration": 6.04
+    },
+    {
+      "text": "aware of again questions like Rite had",
+      "start": 2686.88,
+      "duration": 4.199
+    },
+    {
+      "text": "posted on LinkedIn are really good to",
+      "start": 2689.48,
+      "duration": 3.44
+    },
+    {
+      "text": "kind of get to the bottom of what's",
+      "start": 2691.079,
+      "duration": 6.321
+    },
+    {
+      "text": "happening there and alexand on your the",
+      "start": 2692.92,
+      "duration": 6.199
+    },
+    {
+      "text": "survey you mentioned you mentioned what",
+      "start": 2697.4,
+      "duration": 4.88
+    },
+    {
+      "text": "was the percentage 70 and how much 70",
+      "start": 2699.119,
+      "duration": 5.641
+    },
+    {
+      "text": "yeah my guess is probably 100 but the",
+      "start": 2702.28,
+      "duration": 4.88
+    },
+    {
+      "text": "people that assumed to the survey was 70",
+      "start": 2704.76,
+      "duration": 4.599
+    },
+    {
+      "text": "so I think people should assume",
+      "start": 2707.16,
+      "duration": 4.199
+    },
+    {
+      "text": "everybody's using chat just it's there's",
+      "start": 2709.359,
+      "duration": 4.361
+    },
+    {
+      "text": "so much pressure why why are you not",
+      "start": 2711.359,
+      "duration": 5.521
+    },
+    {
+      "text": "using CH for this even for things that",
+      "start": 2713.72,
+      "duration": 5.879
+    },
+    {
+      "text": "they should not be and maybe you I we we",
+      "start": 2716.88,
+      "duration": 4.56
+    },
+    {
+      "text": "spoke in the past about AI policies",
+      "start": 2719.599,
+      "duration": 3.041
+    },
+    {
+      "text": "maybe you want to share a bit about that",
+      "start": 2721.44,
+      "duration": 3.0
+    },
+    {
+      "text": "Alexandra I think it's very specifically",
+      "start": 2722.64,
+      "duration": 4.88
+    },
+    {
+      "text": "in these areas I my my guess it would be",
+      "start": 2724.44,
+      "duration": 6.04
+    },
+    {
+      "text": "99.9% of people are experimenting with",
+      "start": 2727.52,
+      "duration": 5.72
+    },
+    {
+      "text": "ch and somehow it will intersect with",
+      "start": 2730.48,
+      "duration": 5.599
+    },
+    {
+      "text": "priv professional functions perhaps so I",
+      "start": 2733.24,
+      "duration": 4.52
+    },
+    {
+      "text": "remember in the past we spoke about AI",
+      "start": 2736.079,
+      "duration": 3.081
+    },
+    {
+      "text": "policies and it's a great way to",
+      "start": 2737.76,
+      "duration": 4.16
+    },
+    {
+      "text": "communicate also to to to begin with a",
+      "start": 2739.16,
+      "duration": 4.28
+    },
+    {
+      "text": "discussion right so I you don't need to",
+      "start": 2741.92,
+      "duration": 3.919
+    },
+    {
+      "text": "tell me if you're using CH or not just",
+      "start": 2743.44,
+      "duration": 4.32
+    },
+    {
+      "text": "proactively for for comp I think it's",
+      "start": 2745.839,
+      "duration": 4.76
+    },
+    {
+      "text": "you told you I I saw we spoke about it",
+      "start": 2747.76,
+      "duration": 5.359
+    },
+    {
+      "text": "so this is our AI policy and this is",
+      "start": 2750.599,
+      "duration": 4.601
+    },
+    {
+      "text": "what you should think about this and and",
+      "start": 2753.119,
+      "duration": 3.841
+    },
+    {
+      "text": "I maybe want to to to talk about it a",
+      "start": 2755.2,
+      "duration": 5.52
+    },
+    {
+      "text": "little bit yeah so when I document AI",
+      "start": 2756.96,
+      "duration": 6.879
+    },
+    {
+      "text": "policies for companies I like to have",
+      "start": 2760.72,
+      "duration": 5.639
+    },
+    {
+      "text": "things be simple wherever possible so I",
+      "start": 2763.839,
+      "duration": 5.201
+    },
+    {
+      "text": "usually um use like a red yellow green",
+      "start": 2766.359,
+      "duration": 4.521
+    },
+    {
+      "text": "approach and you can call it something",
+      "start": 2769.04,
+      "duration": 3.68
+    },
+    {
+      "text": "better than that you know",
+      "start": 2770.88,
+      "duration": 4.84
+    },
+    {
+      "text": "prohibited um you know reviewable",
+      "start": 2772.72,
+      "duration": 5.08
+    },
+    {
+      "text": "potentially allowable allowable",
+      "start": 2775.72,
+      "duration": 5.16
+    },
+    {
+      "text": "something like that um and that just you",
+      "start": 2777.8,
+      "duration": 4.799
+    },
+    {
+      "text": "know tells the company here's what we'll",
+      "start": 2780.88,
+      "duration": 5.199
+    },
+    {
+      "text": "never allow you know you can't enter",
+      "start": 2782.599,
+      "duration": 5.561
+    },
+    {
+      "text": "sensitive customer data into a large",
+      "start": 2786.079,
+      "duration": 4.681
+    },
+    {
+      "text": "language model would be like a pretty",
+      "start": 2788.16,
+      "duration": 4.679
+    },
+    {
+      "text": "obvious guard rail that you would put in",
+      "start": 2790.76,
+      "duration": 5.28
+    },
+    {
+      "text": "place and again whatever the not",
+      "start": 2792.839,
+      "duration": 6.0
+    },
+    {
+      "text": "allowable um pieces will be will be",
+      "start": 2796.04,
+      "duration": 4.44
+    },
+    {
+      "text": "dictated by the conversations that",
+      "start": 2798.839,
+      "duration": 3.72
+    },
+    {
+      "text": "you're having with the use case um use",
+      "start": 2800.48,
+      "duration": 4.2
+    },
+    {
+      "text": "cases that are already happening and the",
+      "start": 2802.559,
+      "duration": 4.321
+    },
+    {
+      "text": "risks that you've considered as a result",
+      "start": 2804.68,
+      "duration": 6.159
+    },
+    {
+      "text": "of that right yellow will be okay you",
+      "start": 2806.88,
+      "duration": 5.64
+    },
+    {
+      "text": "know it might be allowed but you need to",
+      "start": 2810.839,
+      "duration": 4.361
+    },
+    {
+      "text": "have a conversation with whomever is",
+      "start": 2812.52,
+      "duration": 4.12
+    },
+    {
+      "text": "running AI governance of the",
+      "start": 2815.2,
+      "duration": 5.32
+    },
+    {
+      "text": "organization legal compliance privacy um",
+      "start": 2816.64,
+      "duration": 7.8
+    },
+    {
+      "text": "and really do a review of the proposed",
+      "start": 2820.52,
+      "duration": 7.16
+    },
+    {
+      "text": "use case you know why what data is",
+      "start": 2824.44,
+      "duration": 5.8
+    },
+    {
+      "text": "involved um just similar to how you",
+      "start": 2827.68,
+      "duration": 5.12
+    },
+    {
+      "text": "would do a privacy review and then green",
+      "start": 2830.24,
+      "duration": 4.4
+    },
+    {
+      "text": "would obviously be what's already",
+      "start": 2832.8,
+      "duration": 3.559
+    },
+    {
+      "text": "pre-approved you're not entering",
+      "start": 2834.64,
+      "duration": 4.199
+    },
+    {
+      "text": "personal data you're using licensed",
+      "start": 2836.359,
+      "duration": 4.361
+    },
+    {
+      "text": "versions of these tools that we've",
+      "start": 2838.839,
+      "duration": 5.081
+    },
+    {
+      "text": "already said are okay um you know go",
+      "start": 2840.72,
+      "duration": 5.48
+    },
+    {
+      "text": "forth and it's nice because that",
+      "start": 2843.92,
+      "duration": 3.88
+    },
+    {
+      "text": "approach gives folks a little bit of",
+      "start": 2846.2,
+      "duration": 3.6
+    },
+    {
+      "text": "Runway while still implementing",
+      "start": 2847.8,
+      "duration": 4.12
+    },
+    {
+      "text": "meaningful guardrails and it's",
+      "start": 2849.8,
+      "duration": 4.24
+    },
+    {
+      "text": "understandable it it's kind of modeled",
+      "start": 2851.92,
+      "duration": 7.08
+    },
+    {
+      "text": "after the E AI act um structure so you",
+      "start": 2854.04,
+      "duration": 8.24
+    },
+    {
+      "text": "know it's um flexible as things continue",
+      "start": 2859.0,
+      "duration": 4.119
+    },
+    {
+      "text": "to",
+      "start": 2862.28,
+      "duration": 3.68
+    },
+    {
+      "text": "evolve I love your and one other oh",
+      "start": 2863.119,
+      "duration": 4.96
+    },
+    {
+      "text": "sorry oh sorry yeah one other thing I'll",
+      "start": 2865.96,
+      "duration": 3.92
+    },
+    {
+      "text": "just mention quickly is I'm starting to",
+      "start": 2868.079,
+      "duration": 4.04
+    },
+    {
+      "text": "see technology tools like I always think",
+      "start": 2869.88,
+      "duration": 3.92
+    },
+    {
+      "text": "about in terms of like people process",
+      "start": 2872.119,
+      "duration": 3.2
+    },
+    {
+      "text": "technology right we've talked about who",
+      "start": 2873.8,
+      "duration": 3.799
+    },
+    {
+      "text": "would run this process would be like a",
+      "start": 2875.319,
+      "duration": 4.961
+    },
+    {
+      "text": "policy would be one example of that and",
+      "start": 2877.599,
+      "duration": 4.681
+    },
+    {
+      "text": "then I'm starting to see technology",
+      "start": 2880.28,
+      "duration": 4.799
+    },
+    {
+      "text": "evolve that can act as like a almost",
+      "start": 2882.28,
+      "duration": 4.52
+    },
+    {
+      "text": "like a middleware within the",
+      "start": 2885.079,
+      "duration": 3.881
+    },
+    {
+      "text": "organization that if you want to use a",
+      "start": 2886.8,
+      "duration": 3.799
+    },
+    {
+      "text": "large language model you go to the",
+      "start": 2888.96,
+      "duration": 4.159
+    },
+    {
+      "text": "middleware it make sure that you know",
+      "start": 2890.599,
+      "duration": 3.76
+    },
+    {
+      "text": "the tool that you want to use is",
+      "start": 2893.119,
+      "duration": 3.48
+    },
+    {
+      "text": "approved you're on the licensed version",
+      "start": 2894.359,
+      "duration": 4.521
+    },
+    {
+      "text": "it'll strip out sensitive data or",
+      "start": 2896.599,
+      "duration": 4.201
+    },
+    {
+      "text": "personal data or just kind of implement",
+      "start": 2898.88,
+      "duration": 4.8
+    },
+    {
+      "text": "those controls so for companies that",
+      "start": 2900.8,
+      "duration": 6.12
+    },
+    {
+      "text": "have a lot of use of of large language",
+      "start": 2903.68,
+      "duration": 5.399
+    },
+    {
+      "text": "models I think that's worth thinking",
+      "start": 2906.92,
+      "duration": 4.84
+    },
+    {
+      "text": "about just to kind of have some hard",
+      "start": 2909.079,
+      "duration": 4.841
+    },
+    {
+      "text": "controls around the guard rails that",
+      "start": 2911.76,
+      "duration": 3.88
+    },
+    {
+      "text": "have been",
+      "start": 2913.92,
+      "duration": 3.919
+    },
+    {
+      "text": "implemented thank you Alex thank you for",
+      "start": 2915.64,
+      "duration": 4.24
+    },
+    {
+      "text": "sharing it and I love your framework",
+      "start": 2917.839,
+      "duration": 4.361
+    },
+    {
+      "text": "especially because of the you're already",
+      "start": 2919.88,
+      "duration": 4.679
+    },
+    {
+      "text": "educating people on the AI so they",
+      "start": 2922.2,
+      "duration": 4.639
+    },
+    {
+      "text": "colors and forbidden and and",
+      "start": 2924.559,
+      "duration": 4.721
+    },
+    {
+      "text": "risk different levels of risk so if",
+      "start": 2926.839,
+      "duration": 3.921
+    },
+    {
+      "text": "you're in the audience and you you're",
+      "start": 2929.28,
+      "duration": 4.079
+    },
+    {
+      "text": "looking for advice on AI policy so",
+      "start": 2930.76,
+      "duration": 5.079
+    },
+    {
+      "text": "contact Alexander she can give this is",
+      "start": 2933.359,
+      "duration": 5.881
+    },
+    {
+      "text": "she has a great uh experience with that",
+      "start": 2935.839,
+      "duration": 5.161
+    },
+    {
+      "text": "and",
+      "start": 2939.24,
+      "duration": 3.48
+    },
+    {
+      "text": "Katarina",
+      "start": 2941.0,
+      "duration": 8.2
+    },
+    {
+      "text": "um yes so privacy and AI um so where I",
+      "start": 2942.72,
+      "duration": 8.56
+    },
+    {
+      "text": "was coming from like three years ago was",
+      "start": 2949.2,
+      "duration": 4.0
+    },
+    {
+      "text": "when I um realized okay there's this",
+      "start": 2951.28,
+      "duration": 4.44
+    },
+    {
+      "text": "whole responsible AI trustworthy ethical",
+      "start": 2953.2,
+      "duration": 4.599
+    },
+    {
+      "text": "AI ecosystem and then there's privacy",
+      "start": 2955.72,
+      "duration": 4.72
+    },
+    {
+      "text": "and somehow they seem to be detached",
+      "start": 2957.799,
+      "duration": 5.681
+    },
+    {
+      "text": "while in fact most of those responsible",
+      "start": 2960.44,
+      "duration": 5.52
+    },
+    {
+      "text": "ey principles including of course",
+      "start": 2963.48,
+      "duration": 5.04
+    },
+    {
+      "text": "privacy but also security accountability",
+      "start": 2965.96,
+      "duration": 4.399
+    },
+    {
+      "text": "transparency even",
+      "start": 2968.52,
+      "duration": 4.319
+    },
+    {
+      "text": "non-discrimination uh Etc are already",
+      "start": 2970.359,
+      "duration": 4.24
+    },
+    {
+      "text": "covered by privacy",
+      "start": 2972.839,
+      "duration": 3.921
+    },
+    {
+      "text": "regulation um I think this is still the",
+      "start": 2974.599,
+      "duration": 5.921
+    },
+    {
+      "text": "case um but of course AI U processes not",
+      "start": 2976.76,
+      "duration": 6.24
+    },
+    {
+      "text": "only personal information but",
+      "start": 2980.52,
+      "duration": 4.24
+    },
+    {
+      "text": "non-personal information this is where",
+      "start": 2983.0,
+      "duration": 6.319
+    },
+    {
+      "text": "it goes beyond privacy and just staying",
+      "start": 2984.76,
+      "duration": 7.0
+    },
+    {
+      "text": "with privacy for for a minute there are",
+      "start": 2989.319,
+      "duration": 6.921
+    },
+    {
+      "text": "a couple of really um exciting",
+      "start": 2991.76,
+      "duration": 7.92
+    },
+    {
+      "text": "maybe worrisome problems uh in AI",
+      "start": 2996.24,
+      "duration": 5.72
+    },
+    {
+      "text": "related to privacy one of the most",
+      "start": 2999.68,
+      "duration": 4.08
+    },
+    {
+      "text": "interesting ones I think is machine",
+      "start": 3001.96,
+      "duration": 4.72
+    },
+    {
+      "text": "unlearning so how would we get like",
+      "start": 3003.76,
+      "duration": 4.48
+    },
+    {
+      "text": "training data",
+      "start": 3006.68,
+      "duration": 3.399
+    },
+    {
+      "text": "or the",
+      "start": 3008.24,
+      "duration": 4.64
+    },
+    {
+      "text": "parameters based on training data that",
+      "start": 3010.079,
+      "duration": 5.04
+    },
+    {
+      "text": "was used for training out of a model",
+      "start": 3012.88,
+      "duration": 4.36
+    },
+    {
+      "text": "there it's a whole new research um field",
+      "start": 3015.119,
+      "duration": 4.801
+    },
+    {
+      "text": "of research or what another question",
+      "start": 3017.24,
+      "duration": 4.879
+    },
+    {
+      "text": "that I find extremely interesting is",
+      "start": 3019.92,
+      "duration": 4.96
+    },
+    {
+      "text": "when would we need to consider a model",
+      "start": 3022.119,
+      "duration": 6.44
+    },
+    {
+      "text": "maybe even personal data because if the",
+      "start": 3024.88,
+      "duration": 7.56
+    },
+    {
+      "text": "if a risk assessment would um result in",
+      "start": 3028.559,
+      "duration": 6.121
+    },
+    {
+      "text": "uh that we see that it's kind of likely",
+      "start": 3032.44,
+      "duration": 5.56
+    },
+    {
+      "text": "that a model leaks personal data then",
+      "start": 3034.68,
+      "duration": 5.32
+    },
+    {
+      "text": "wouldn't we need to consider the model",
+      "start": 3038.0,
+      "duration": 3.839
+    },
+    {
+      "text": "itself personal data which would of",
+      "start": 3040.0,
+      "duration": 5.119
+    },
+    {
+      "text": "course be like a big issue and imagine",
+      "start": 3041.839,
+      "duration": 5.72
+    },
+    {
+      "text": "the open source topic being you know put",
+      "start": 3045.119,
+      "duration": 7.401
+    },
+    {
+      "text": "in the same thought process as as this a",
+      "start": 3047.559,
+      "duration": 6.681
+    },
+    {
+      "text": "model be personal data open source",
+      "start": 3052.52,
+      "duration": 4.48
+    },
+    {
+      "text": "everywhere um",
+      "start": 3054.24,
+      "duration": 6.319
+    },
+    {
+      "text": "um but apart from this I think that um",
+      "start": 3057.0,
+      "duration": 5.96
+    },
+    {
+      "text": "AI governance goes well beyond um",
+      "start": 3060.559,
+      "duration": 6.401
+    },
+    {
+      "text": "privacy so um I really like this ISO",
+      "start": 3062.96,
+      "duration": 7.56
+    },
+    {
+      "text": "420001 standard like we said ISO um AI",
+      "start": 3066.96,
+      "duration": 7.44
+    },
+    {
+      "text": "management system and this AI management",
+      "start": 3070.52,
+      "duration": 6.039
+    },
+    {
+      "text": "system is almost",
+      "start": 3074.4,
+      "duration": 5.12
+    },
+    {
+      "text": "100% I mean it's more it's it's a little",
+      "start": 3076.559,
+      "duration": 4.881
+    },
+    {
+      "text": "bit it adds a couple of things but it's",
+      "start": 3079.52,
+      "duration": 4.72
+    },
+    {
+      "text": "almost 100% identical to the structure",
+      "start": 3081.44,
+      "duration": 6.119
+    },
+    {
+      "text": "of this very famous ISO",
+      "start": 3084.24,
+      "duration": 6.079
+    },
+    {
+      "text": "27001 standard for Information Security",
+      "start": 3087.559,
+      "duration": 5.641
+    },
+    {
+      "text": "Management Systems so if you already use",
+      "start": 3090.319,
+      "duration": 6.081
+    },
+    {
+      "text": "or have a um infos management system in",
+      "start": 3093.2,
+      "duration": 5.639
+    },
+    {
+      "text": "place might might it be nist or might it",
+      "start": 3096.4,
+      "duration": 7.0
+    },
+    {
+      "text": "be ISO it's easy or it's like the best",
+      "start": 3098.839,
+      "duration": 8.601
+    },
+    {
+      "text": "starting point to add um controls or um",
+      "start": 3103.4,
+      "duration": 6.56
+    },
+    {
+      "text": "other things like whistle policy or",
+      "start": 3107.44,
+      "duration": 5.56
+    },
+    {
+      "text": "stuff for AI so this is why I think that",
+      "start": 3109.96,
+      "duration": 6.639
+    },
+    {
+      "text": "information security or it in general is",
+      "start": 3113.0,
+      "duration": 6.599
+    },
+    {
+      "text": "is in my view also because AI is so",
+      "start": 3116.599,
+      "duration": 5.321
+    },
+    {
+      "text": "intrinsically technical might be the",
+      "start": 3119.599,
+      "duration": 4.96
+    },
+    {
+      "text": "better place for for AI governance to",
+      "start": 3121.92,
+      "duration": 5.72
+    },
+    {
+      "text": "sit to coordinate of course with",
+      "start": 3124.559,
+      "duration": 5.52
+    },
+    {
+      "text": "legal and with all the other business",
+      "start": 3127.64,
+      "duration": 5.12
+    },
+    {
+      "text": "functions or other functions in the",
+      "start": 3130.079,
+      "duration": 4.921
+    },
+    {
+      "text": "organization um I think it's a similar",
+      "start": 3132.76,
+      "duration": 5.64
+    },
+    {
+      "text": "topic to how does privacy uh relate to",
+      "start": 3135.0,
+      "duration": 5.88
+    },
+    {
+      "text": "data governance um because data",
+      "start": 3138.4,
+      "duration": 3.8
+    },
+    {
+      "text": "governance is",
+      "start": 3140.88,
+      "duration": 4.439
+    },
+    {
+      "text": "actually like bigger right privacy is a",
+      "start": 3142.2,
+      "duration": 6.599
+    },
+    {
+      "text": "subset of it or um data governance is a",
+      "start": 3145.319,
+      "duration": 5.52
+    },
+    {
+      "text": "precondition also for good privacy um",
+      "start": 3148.799,
+      "duration": 4.241
+    },
+    {
+      "text": "management but it's similar to also",
+      "start": 3150.839,
+      "duration": 4.601
+    },
+    {
+      "text": "privacy engineering so we have all those",
+      "start": 3153.04,
+      "duration": 5.519
+    },
+    {
+      "text": "privacy policies legal policy",
+      "start": 3155.44,
+      "duration": 5.04
+    },
+    {
+      "text": "conversations but how do you actually",
+      "start": 3158.559,
+      "duration": 4.401
+    },
+    {
+      "text": "put those principles privacy principles",
+      "start": 3160.48,
+      "duration": 4.72
+    },
+    {
+      "text": "like data minimization into practice",
+      "start": 3162.96,
+      "duration": 4.24
+    },
+    {
+      "text": "this is then privacy engineering and",
+      "start": 3165.2,
+      "duration": 4.399
+    },
+    {
+      "text": "it's a huge field but still a little bit",
+      "start": 3167.2,
+      "duration": 4.52
+    },
+    {
+      "text": "under the radar because there are a lot",
+      "start": 3169.599,
+      "duration": 3.921
+    },
+    {
+      "text": "of techniques for privacy engineering",
+      "start": 3171.72,
+      "duration": 4.8
+    },
+    {
+      "text": "that are not even uh um that that could",
+      "start": 3173.52,
+      "duration": 5.279
+    },
+    {
+      "text": "be used but they're not like asked for",
+      "start": 3176.52,
+      "duration": 4.96
+    },
+    {
+      "text": "by the regulator or people don't know",
+      "start": 3178.799,
+      "duration": 5.0
+    },
+    {
+      "text": "about it or stuff and so same thing here",
+      "start": 3181.48,
+      "duration": 4.68
+    },
+    {
+      "text": "in AI we have all those subsets for this",
+      "start": 3183.799,
+      "duration": 4.201
+    },
+    {
+      "text": "responsive AI principles how can you put",
+      "start": 3186.16,
+      "duration": 3.84
+    },
+    {
+      "text": "them into practice for example with",
+      "start": 3188.0,
+      "duration": 4.16
+    },
+    {
+      "text": "privacy preserving machine learning the",
+      "start": 3190.0,
+      "duration": 5.16
+    },
+    {
+      "text": "US even had a national strategy on um",
+      "start": 3192.16,
+      "duration": 5.52
+    },
+    {
+      "text": "privacy preserving data data analytics",
+      "start": 3195.16,
+      "duration": 4.959
+    },
+    {
+      "text": "and data sharing so talking about",
+      "start": 3197.68,
+      "duration": 5.2
+    },
+    {
+      "text": "differential privacy here and others",
+      "start": 3200.119,
+      "duration": 5.24
+    },
+    {
+      "text": "like synthetic data and stuff so it get",
+      "start": 3202.88,
+      "duration": 4.479
+    },
+    {
+      "text": "so technical then that I think it's good",
+      "start": 3205.359,
+      "duration": 4.72
+    },
+    {
+      "text": "that it sits in um it in general and",
+      "start": 3207.359,
+      "duration": 5.44
+    },
+    {
+      "text": "builds on infoset programs that's how I",
+      "start": 3210.079,
+      "duration": 5.52
+    },
+    {
+      "text": "would go about it I didn't know that the",
+      "start": 3212.799,
+      "duration": 6.081
+    },
+    {
+      "text": "AI ISO is so similar to the infos one",
+      "start": 3215.599,
+      "duration": 5.161
+    },
+    {
+      "text": "and it's and your opinion is that it",
+      "start": 3218.88,
+      "duration": 5.479
+    },
+    {
+      "text": "should be more on the technical side so",
+      "start": 3220.76,
+      "duration": 5.039
+    },
+    {
+      "text": "let's see let's see how it will be in",
+      "start": 3224.359,
+      "duration": 3.641
+    },
+    {
+      "text": "practice I I think that the AI act will",
+      "start": 3225.799,
+      "duration": 3.56
+    },
+    {
+      "text": "probably give more at least from the",
+      "start": 3228.0,
+      "duration": 3.079
+    },
+    {
+      "text": "European perspective more guidance right",
+      "start": 3229.359,
+      "duration": 4.081
+    },
+    {
+      "text": "of the person of the obligations of the",
+      "start": 3231.079,
+      "duration": 4.681
+    },
+    {
+      "text": "the AI team within an organization",
+      "start": 3233.44,
+      "duration": 3.72
+    },
+    {
+      "text": "but I think there are two main points of",
+      "start": 3235.76,
+      "duration": 2.96
+    },
+    {
+      "text": "some people they think it should be more",
+      "start": 3237.16,
+      "duration": 3.76
+    },
+    {
+      "text": "connected to the DPO and to privacy",
+      "start": 3238.72,
+      "duration": 3.44
+    },
+    {
+      "text": "right so data protection impact",
+      "start": 3240.92,
+      "duration": 3.6
+    },
+    {
+      "text": "assessment together and it's interesting",
+      "start": 3242.16,
+      "duration": 4.48
+    },
+    {
+      "text": "to hear your opinion that more different",
+      "start": 3244.52,
+      "duration": 5.4
+    },
+    {
+      "text": "so more to the it or infos Department",
+      "start": 3246.64,
+      "duration": 7.0
+    },
+    {
+      "text": "less with the let's say thep side",
+      "start": 3249.92,
+      "duration": 6.52
+    },
+    {
+      "text": "so I think it's also it will have",
+      "start": 3253.64,
+      "duration": 4.52
+    },
+    {
+      "text": "ramifications in the professional",
+      "start": 3256.44,
+      "duration": 3.48
+    },
+    {
+      "text": "setting right careers what type of",
+      "start": 3258.16,
+      "duration": 3.32
+    },
+    {
+      "text": "training the person has to have or or",
+      "start": 3259.92,
+      "duration": 3.12
+    },
+    {
+      "text": "people involved with AI governance will",
+      "start": 3261.48,
+      "duration": 4.8
+    },
+    {
+      "text": "have to have do they need to know how uh",
+      "start": 3263.04,
+      "duration": 5.079
+    },
+    {
+      "text": "deep Learning Works do they need to know",
+      "start": 3266.28,
+      "duration": 3.559
+    },
+    {
+      "text": "to be fluent on that or no they just",
+      "start": 3268.119,
+      "duration": 3.96
+    },
+    {
+      "text": "need to know regulatory aspects in",
+      "start": 3269.839,
+      "duration": 4.081
+    },
+    {
+      "text": "government so I think it's it's so if I",
+      "start": 3272.079,
+      "duration": 5.801
+    },
+    {
+      "text": "may just add that um exclusively all AI",
+      "start": 3273.92,
+      "duration": 6.399
+    },
+    {
+      "text": "governance roles that I saw within the",
+      "start": 3277.88,
+      "duration": 4.239
+    },
+    {
+      "text": "last two or three weeks they required",
+      "start": 3280.319,
+      "duration": 4.161
+    },
+    {
+      "text": "computer science uh Science degrees or",
+      "start": 3282.119,
+      "duration": 4.321
+    },
+    {
+      "text": "something in AI machine learning there",
+      "start": 3284.48,
+      "duration": 3.0
+    },
+    {
+      "text": "was",
+      "start": 3286.44,
+      "duration": 3.96
+    },
+    {
+      "text": "no that was always in there okay you",
+      "start": 3287.48,
+      "duration": 4.8
+    },
+    {
+      "text": "might just catch up you might upskill",
+      "start": 3290.4,
+      "duration": 4.959
+    },
+    {
+      "text": "and then have this uh combination of",
+      "start": 3292.28,
+      "duration": 4.68
+    },
+    {
+      "text": "skills I think that's what it's needed",
+      "start": 3295.359,
+      "duration": 4.96
+    },
+    {
+      "text": "but where it sits because because there",
+      "start": 3296.96,
+      "duration": 5.08
+    },
+    {
+      "text": "are so many privacy problems in the a",
+      "start": 3300.319,
+      "duration": 3.601
+    },
+    {
+      "text": "that are unsolved that I think like a",
+      "start": 3302.04,
+      "duration": 3.559
+    },
+    {
+      "text": "lot of solutions if you would really",
+      "start": 3303.92,
+      "duration": 4.24
+    },
+    {
+      "text": "like look at them critically they do not",
+      "start": 3305.599,
+      "duration": 6.081
+    },
+    {
+      "text": "comply H how do you how can a a black",
+      "start": 3308.16,
+      "duration": 6.32
+    },
+    {
+      "text": "box model ever really comply and we just",
+      "start": 3311.68,
+      "duration": 4.56
+    },
+    {
+      "text": "accept it nowadays because I mean we",
+      "start": 3314.48,
+      "duration": 3.639
+    },
+    {
+      "text": "want to use it right so there's so much",
+      "start": 3316.24,
+      "duration": 3.44
+    },
+    {
+      "text": "gray areas that I don't know if it",
+      "start": 3318.119,
+      "duration": 4.321
+    },
+    {
+      "text": "really drives uh the business value that",
+      "start": 3319.68,
+      "duration": 4.879
+    },
+    {
+      "text": "we also want to create so how the risk",
+      "start": 3322.44,
+      "duration": 3.76
+    },
+    {
+      "text": "tolerance you know maybe that risk",
+      "start": 3324.559,
+      "duration": 3.721
+    },
+    {
+      "text": "tolerance would be lower so I think it's",
+      "start": 3326.2,
+      "duration": 3.56
+    },
+    {
+      "text": "a business decision where it sits",
+      "start": 3328.28,
+      "duration": 3.68
+    },
+    {
+      "text": "depending on what you want and I would",
+      "start": 3329.76,
+      "duration": 4.359
+    },
+    {
+      "text": "say also for computer scientist it would",
+      "start": 3331.96,
+      "duration": 4.359
+    },
+    {
+      "text": "be hard they don't have this legal",
+      "start": 3334.119,
+      "duration": 5.48
+    },
+    {
+      "text": "fluence right as a lawyer and I I'm in",
+      "start": 3336.319,
+      "duration": 4.76
+    },
+    {
+      "text": "I'm in touch with many comp it's",
+      "start": 3339.599,
+      "duration": 2.52
+    },
+    {
+      "text": "different right we think different",
+      "start": 3341.079,
+      "duration": 2.641
+    },
+    {
+      "text": "computer scientists and lawyers think",
+      "start": 3342.119,
+      "duration": 3.48
+    },
+    {
+      "text": "very differently our our brains work",
+      "start": 3343.72,
+      "duration": 4.119
+    },
+    {
+      "text": "differently and I think s because there",
+      "start": 3345.599,
+      "duration": 4.281
+    },
+    {
+      "text": "are so many critical issues also",
+      "start": 3347.839,
+      "duration": 3.921
+    },
+    {
+      "text": "involving legal aspects which will be",
+      "start": 3349.88,
+      "duration": 4.439
+    },
+    {
+      "text": "gdpr related or a related you need to",
+      "start": 3351.76,
+      "duration": 4.72
+    },
+    {
+      "text": "have this ad fluency that I don't think",
+      "start": 3354.319,
+      "duration": 3.681
+    },
+    {
+      "text": "it's they're used to right people in",
+      "start": 3356.48,
+      "duration": 3.76
+    },
+    {
+      "text": "computer side they don't work they don't",
+      "start": 3358.0,
+      "duration": 4.4
+    },
+    {
+      "text": "like to be the person fighting all the",
+      "start": 3360.24,
+      "duration": 5.44
+    },
+    {
+      "text": "time so it's perhaps so either one or so",
+      "start": 3362.4,
+      "duration": 4.8
+    },
+    {
+      "text": "the the computer SCI person will have to",
+      "start": 3365.68,
+      "duration": 3.399
+    },
+    {
+      "text": "up skill in the legal and the or the",
+      "start": 3367.2,
+      "duration": 4.04
+    },
+    {
+      "text": "legal Frameworks yes exactly and",
+      "start": 3369.079,
+      "duration": 5.441
+    },
+    {
+      "text": "management yeah so I think we will not",
+      "start": 3371.24,
+      "duration": 4.96
+    },
+    {
+      "text": "have time to the six so let's we have",
+      "start": 3374.52,
+      "duration": 3.799
+    },
+    {
+      "text": "still two questions that we have a bit",
+      "start": 3376.2,
+      "duration": 3.599
+    },
+    {
+      "text": "late so let's see if we will have time",
+      "start": 3378.319,
+      "duration": 4.081
+    },
+    {
+      "text": "for both so question five is for",
+      "start": 3379.799,
+      "duration": 5.28
+    },
+    {
+      "text": "Alexandra and havit it's about",
+      "start": 3382.4,
+      "duration": 5.24
+    },
+    {
+      "text": "regulations so soon we'll have U it's",
+      "start": 3385.079,
+      "duration": 4.321
+    },
+    {
+      "text": "still uncertain but soon we'll have more",
+      "start": 3387.64,
+      "duration": 4.0
+    },
+    {
+      "text": "clarity so given the current regulatory",
+      "start": 3389.4,
+      "duration": 4.199
+    },
+    {
+      "text": "background and also the uncertainty",
+      "start": 3391.64,
+      "duration": 4.159
+    },
+    {
+      "text": "regarding Global AI regulations what are",
+      "start": 3393.599,
+      "duration": 4.24
+    },
+    {
+      "text": "the best practices to navigate AI",
+      "start": 3395.799,
+      "duration": 5.0
+    },
+    {
+      "text": "regulation and compliance now so they",
+      "start": 3397.839,
+      "duration": 5.72
+    },
+    {
+      "text": "act soon we'll have some more we already",
+      "start": 3400.799,
+      "duration": 4.52
+    },
+    {
+      "text": "have right the the political agreements",
+      "start": 3403.559,
+      "duration": 4.361
+    },
+    {
+      "text": "so some sort of draft and how should we",
+      "start": 3405.319,
+      "duration": 5.8
+    },
+    {
+      "text": "navigate this uh regulation uh",
+      "start": 3407.92,
+      "duration": 5.96
+    },
+    {
+      "text": "compliance so let's start with the",
+      "start": 3411.119,
+      "duration": 5.521
+    },
+    {
+      "text": "havit",
+      "start": 3413.88,
+      "duration": 5.159
+    },
+    {
+      "text": "yeah excellent question a lot of people",
+      "start": 3416.64,
+      "duration": 4.479
+    },
+    {
+      "text": "have this question on their minds I",
+      "start": 3419.039,
+      "duration": 4.361
+    },
+    {
+      "text": "would say",
+      "start": 3421.119,
+      "duration": 5.2
+    },
+    {
+      "text": "um so a part of the complication is that",
+      "start": 3423.4,
+      "duration": 4.159
+    },
+    {
+      "text": "we do have a lot of different",
+      "start": 3426.319,
+      "duration": 3.161
+    },
+    {
+      "text": "regulations coming up in different",
+      "start": 3427.559,
+      "duration": 4.641
+    },
+    {
+      "text": "jurisdictions right um we have the EU we",
+      "start": 3429.48,
+      "duration": 6.04
+    },
+    {
+      "text": "have the UK we have China have Canada",
+      "start": 3432.2,
+      "duration": 5.76
+    },
+    {
+      "text": "yeah us of course and within the US",
+      "start": 3435.52,
+      "duration": 5.64
+    },
+    {
+      "text": "Federal States cities um so really it's",
+      "start": 3437.96,
+      "duration": 4.76
+    },
+    {
+      "text": "kind of an explosion on different kinds",
+      "start": 3441.16,
+      "duration": 4.639
+    },
+    {
+      "text": "of regulations um and Clarity so I would",
+      "start": 3442.72,
+      "duration": 6.16
+    },
+    {
+      "text": "say maybe two things to keep in mind one",
+      "start": 3445.799,
+      "duration": 5.24
+    },
+    {
+      "text": "right now a lot of the regulation the",
+      "start": 3448.88,
+      "duration": 5.6
+    },
+    {
+      "text": "things they require uh I feel are kind",
+      "start": 3451.039,
+      "duration": 6.681
+    },
+    {
+      "text": "of common sensical um don't discriminate",
+      "start": 3454.48,
+      "duration": 7.079
+    },
+    {
+      "text": "be transparent right um and so I think a",
+      "start": 3457.72,
+      "duration": 7.04
+    },
+    {
+      "text": "good way to prepare is just you know use",
+      "start": 3461.559,
+      "duration": 5.961
+    },
+    {
+      "text": "your regular common sense and think",
+      "start": 3464.76,
+      "duration": 4.68
+    },
+    {
+      "text": "about you know what might be problematic",
+      "start": 3467.52,
+      "duration": 4.839
+    },
+    {
+      "text": "and the product that I am producing um",
+      "start": 3469.44,
+      "duration": 6.399
+    },
+    {
+      "text": "would be a wonderful starting point when",
+      "start": 3472.359,
+      "duration": 5.521
+    },
+    {
+      "text": "considering AI",
+      "start": 3475.839,
+      "duration": 4.52
+    },
+    {
+      "text": "regulation globally and how to we pay",
+      "start": 3477.88,
+      "duration": 5.959
+    },
+    {
+      "text": "for that but then also think about the",
+      "start": 3480.359,
+      "duration": 6.921
+    },
+    {
+      "text": "current regulations that are Central to",
+      "start": 3483.839,
+      "duration": 5.161
+    },
+    {
+      "text": "your company so if you're in healthcare",
+      "start": 3487.28,
+      "duration": 4.6
+    },
+    {
+      "text": "it might be Hippa if it's education it",
+      "start": 3489.0,
+      "duration": 5.76
+    },
+    {
+      "text": "might be fra whatever that thing is",
+      "start": 3491.88,
+      "duration": 5.0
+    },
+    {
+      "text": "think about whether and how that",
+      "start": 3494.76,
+      "duration": 4.559
+    },
+    {
+      "text": "regulation might be impacted by your AI",
+      "start": 3496.88,
+      "duration": 4.56
+    },
+    {
+      "text": "usage so for example in your if you're",
+      "start": 3499.319,
+      "duration": 4.52
+    },
+    {
+      "text": "in the financial sector you also have to",
+      "start": 3501.44,
+      "duration": 4.8
+    },
+    {
+      "text": "give explanations if you give loans and",
+      "start": 3503.839,
+      "duration": 4.601
+    },
+    {
+      "text": "you the loans get denied you have to",
+      "start": 3506.24,
+      "duration": 3.92
+    },
+    {
+      "text": "give explanations about whether those",
+      "start": 3508.44,
+      "duration": 4.679
+    },
+    {
+      "text": "loans are denied you have to give those",
+      "start": 3510.16,
+      "duration": 5.76
+    },
+    {
+      "text": "explanations even if you had an AI",
+      "start": 3513.119,
+      "duration": 5.881
+    },
+    {
+      "text": "assisted decision um and so the second",
+      "start": 3515.92,
+      "duration": 5.439
+    },
+    {
+      "text": "point just to summarize is think about",
+      "start": 3519.0,
+      "duration": 4.48
+    },
+    {
+      "text": "how the current regulations that apply",
+      "start": 3521.359,
+      "duration": 5.641
+    },
+    {
+      "text": "to you are impacted by your AI",
+      "start": 3523.48,
+      "duration": 7.44
+    },
+    {
+      "text": "usage okay thank you har so",
+      "start": 3527.0,
+      "duration": 6.599
+    },
+    {
+      "text": "Alexandra yeah I mean I agree with",
+      "start": 3530.92,
+      "duration": 5.639
+    },
+    {
+      "text": "everything that R said and Chris gave us",
+      "start": 3533.599,
+      "duration": 5.0
+    },
+    {
+      "text": "a great summary at the at the top of the",
+      "start": 3536.559,
+      "duration": 4.321
+    },
+    {
+      "text": "call about all of the regulations and",
+      "start": 3538.599,
+      "duration": 4.52
+    },
+    {
+      "text": "the what did you call it a tight RPP and",
+      "start": 3540.88,
+      "duration": 4.88
+    },
+    {
+      "text": "a tornado I think that's five tornado",
+      "start": 3543.119,
+      "duration": 5.361
+    },
+    {
+      "text": "yeah yeah I think that's a very good",
+      "start": 3545.76,
+      "duration": 4.72
+    },
+    {
+      "text": "visual of where we are right now and I",
+      "start": 3548.48,
+      "duration": 5.359
+    },
+    {
+      "text": "think it's important to um like RIT",
+      "start": 3550.48,
+      "duration": 5.119
+    },
+    {
+      "text": "already said you know",
+      "start": 3553.839,
+      "duration": 5.121
+    },
+    {
+      "text": "Implement um best practices that align",
+      "start": 3555.599,
+      "duration": 6.321
+    },
+    {
+      "text": "with you know obvious principles around",
+      "start": 3558.96,
+      "duration": 5.96
+    },
+    {
+      "text": "responsible Ai and privacy under",
+      "start": 3561.92,
+      "duration": 5.48
+    },
+    {
+      "text": "understand which use cases are likely to",
+      "start": 3564.92,
+      "duration": 4.119
+    },
+    {
+      "text": "be high- risk for your business",
+      "start": 3567.4,
+      "duration": 3.04
+    },
+    {
+      "text": "depending on what you're doing and what",
+      "start": 3569.039,
+      "duration": 5.881
+    },
+    {
+      "text": "data you have um and just be ready to",
+      "start": 3570.44,
+      "duration": 7.0
+    },
+    {
+      "text": "Pivot and be as flexible as possible and",
+      "start": 3574.92,
+      "duration": 4.56
+    },
+    {
+      "text": "communicate to the business that",
+      "start": 3577.44,
+      "duration": 4.28
+    },
+    {
+      "text": "everything is up in the air right now so",
+      "start": 3579.48,
+      "duration": 5.4
+    },
+    {
+      "text": "that you know inevitably when things do",
+      "start": 3581.72,
+      "duration": 5.079
+    },
+    {
+      "text": "change it's not a total shock and",
+      "start": 3584.88,
+      "duration": 3.56
+    },
+    {
+      "text": "surprise to the business and there's",
+      "start": 3586.799,
+      "duration": 7.641
+    },
+    {
+      "text": "some um budget left over to to implement",
+      "start": 3588.44,
+      "duration": 7.879
+    },
+    {
+      "text": "um different controls that need",
+      "start": 3594.44,
+      "duration": 4.359
+    },
+    {
+      "text": "it and from your practice you feel",
+      "start": 3596.319,
+      "duration": 4.361
+    },
+    {
+      "text": "people are stressed people are anxious",
+      "start": 3598.799,
+      "duration": 3.481
+    },
+    {
+      "text": "what what's what's the vibe you're",
+      "start": 3600.68,
+      "duration": 2.48
+    },
+    {
+      "text": "feeling",
+      "start": 3602.28,
+      "duration": 3.88
+    },
+    {
+      "text": "Onex well I think privacy professionals",
+      "start": 3603.16,
+      "duration": 6.159
+    },
+    {
+      "text": "are mostly inured at this point to",
+      "start": 3606.16,
+      "duration": 6.32
+    },
+    {
+      "text": "uncertainty and Chaos in the um",
+      "start": 3609.319,
+      "duration": 5.76
+    },
+    {
+      "text": "legislative landscape I mean that's how",
+      "start": 3612.48,
+      "duration": 5.44
+    },
+    {
+      "text": "I feel at least but you know there is",
+      "start": 3615.079,
+      "duration": 4.681
+    },
+    {
+      "text": "just a ton of uncertainty and the",
+      "start": 3617.92,
+      "duration": 4.119
+    },
+    {
+      "text": "technology as always is moving faster",
+      "start": 3619.76,
+      "duration": 5.0
+    },
+    {
+      "text": "and faster every day so I think there is",
+      "start": 3622.039,
+      "duration": 7.0
+    },
+    {
+      "text": "definitely a collective just um I think",
+      "start": 3624.76,
+      "duration": 5.64
+    },
+    {
+      "text": "everyone's feeling",
+      "start": 3629.039,
+      "duration": 5.601
+    },
+    {
+      "text": "that okay thank you so thank you so much",
+      "start": 3630.4,
+      "duration": 6.52
+    },
+    {
+      "text": "for coming here everyone in the audience",
+      "start": 3634.64,
+      "duration": 4.24
+    },
+    {
+      "text": "so thank you for being so involved being",
+      "start": 3636.92,
+      "duration": 3.679
+    },
+    {
+      "text": "so active in the chat for us it's a",
+      "start": 3638.88,
+      "duration": 4.719
+    },
+    {
+      "text": "motivating is a we are happy to see you",
+      "start": 3640.599,
+      "duration": 4.801
+    },
+    {
+      "text": "involved with the discussion thank you",
+      "start": 3643.599,
+      "duration": 3.681
+    },
+    {
+      "text": "for the guest so Chris Alexandra",
+      "start": 3645.4,
+      "duration": 3.919
+    },
+    {
+      "text": "Katarina havid thank you so much I'm so",
+      "start": 3647.28,
+      "duration": 4.12
+    },
+    {
+      "text": "glad you came this was a wonderful",
+      "start": 3649.319,
+      "duration": 5.321
+    },
+    {
+      "text": "session fil full of uh practical Co",
+      "start": 3651.4,
+      "duration": 6.159
+    },
+    {
+      "text": "inside so we we put together privacy AI",
+      "start": 3654.64,
+      "duration": 8.0
+    },
+    {
+      "text": "governance e AI ethics um ISO infos uh",
+      "start": 3657.559,
+      "duration": 7.52
+    },
+    {
+      "text": "risks I think it it was amazing and",
+      "start": 3662.64,
+      "duration": 6.28
+    },
+    {
+      "text": "super valuable um last reminder if you",
+      "start": 3665.079,
+      "duration": 6.401
+    },
+    {
+      "text": "want to join the boot camp starting next",
+      "start": 3668.92,
+      "duration": 5.119
+    },
+    {
+      "text": "week right to me after this session uh",
+      "start": 3671.48,
+      "duration": 5.52
+    },
+    {
+      "text": "and we still have time for a few seats",
+      "start": 3674.039,
+      "duration": 5.201
+    },
+    {
+      "text": "thank you everyone and see you in the",
+      "start": 3677.0,
+      "duration": 3.52
+    },
+    {
+      "text": "next live talks if you want to get",
+      "start": 3679.24,
+      "duration": 3.28
+    },
+    {
+      "text": "informed about the next the upcoming",
+      "start": 3680.52,
+      "duration": 4.519
+    },
+    {
+      "text": "live talks we next week I'm announcing",
+      "start": 3682.52,
+      "duration": 4.92
+    },
+    {
+      "text": "the AI regulation live talk so I will",
+      "start": 3685.039,
+      "duration": 5.04
+    },
+    {
+      "text": "talk about it and it will be in April so",
+      "start": 3687.44,
+      "duration": 4.28
+    },
+    {
+      "text": "thank you everyone bye-bye see you in",
+      "start": 3690.079,
+      "duration": 4.801
+    },
+    {
+      "text": "the next live talk",
+      "start": 3691.72,
+      "duration": 3.16
+    }
+  ]
+}

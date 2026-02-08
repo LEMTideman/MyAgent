@@ -1,0 +1,1427 @@
+welcome everyone to one more episode of
+our live talks today we are in episode
+number 13 and I'm here with Professor
+Christiana Santos and professor woodo
+harthog and we are going to talk about
+tackling dark patterns and online
+manipulation in
+2024 while we wait for everybody to
+arrive I want you to please share in the
+chat where are you connecting from and
+why are you here so why are you
+interested in dark patterns if you want
+to share in the chat uh um and meanwhile
+also if you have I just want to share
+that we will have a a short time for
+questions at the end so if pay stay at
+the end if you have questions have have
+a traditional no AI so just pen and
+paper take notes while we are speaking
+and we have time for one or two
+questions uh before uh before the one
+hour session so please get ready and we
+are going to have the short time for
+questions uh before we start I'd like to
+thank our sponsor special thanks to M
+OS um and this is their message get
+better data mapping with Minos unique
+data Discovery classification solution
+for a nearly complete data map within
+hours see how it is possible at www.m
+m.ai so I soon post the link in the chat
+for you to check it out uh welcome
+Christiana and and woodu so if you want
+to share some uh words with the audience
+to say hello to ask them something for
+them to to write in the chat you're
+welcome I think Christi's gonna write
+something in the
+chat here thank you so much you're
+welcome would be my pleasure M let me
+just write m os. a thank you Louisa it's
+a pleasure to be here with you again we
+have exchanged before you have taught
+dark patterns and in my dark patterns
+and dat protection course so I'm always
+happy to learn from you and to exchange
+with you with pleasure so for those who
+know so Professor Santos she is
+Portuguese and I'm Brazilian so when we
+don't want everybody to understand what
+we're speaking we'll Portuguese in
+Portuguese yes so today we will talk
+about the past the present and the
+future of dark patterns laws against
+dark patterns and the challenges of
+regulating design dark patterns in code
+the challenges of identifying
+documenting and curbing online
+manipulation and deep fakes
+anthropomorphisms and other forms of AI
+related manipulation so before we start
+also please if you want to get informed
+of the next events and also to receive
+uh information about privacy Tech nii
+subscribe to my newsletter you have here
+the link under my name you can see the
+the the address so let's start let's
+start first with this idea of the past
+the present and the future of dark pns
+and I think the best way to start is is
+with Woody's book uh in 2018 he wrote PR
+privacy's blueprint the battle to
+control the design of new technologies I
+I would say it it's the first book uh
+the first big book that really changed
+how we see technology and design perhaps
+it was published precisely on the exact
+time that it should be published because
+then the discussion got bigger and and
+so many things that we see today
+connected to dark patterns and connected
+to this broad approach to regulating
+technology the discussion comes from
+Wood's book so uh maybe maybe we start W
+you want to share a little bit how it
+was the process of of writing the book
+and also so my question was so we
+talking about prast pres past present
+and future so first when you wrote the
+book and when you compared to what what
+we saw in 2018 and today 2024 did
+anything change did your opinion change
+where what do you hold like do you think
+about regulating design in the same way
+so yeah I
+sure thank you so much that's such a
+great question I appreciate you starting
+with the book it did come out right at
+the right time the book actually came
+out um within a week of the Cambridge
+analytica sort of debacle and so of
+course that's one of the most important
+dark patterns FTC complaints and so it
+really hit um uh maybe at the worst time
+best time I don't know depending on
+which way you're looking at it um the My
+entry into this world started and when I
+started really thinking about the book
+was when I met up with a uh a computer
+scientist named Greg Ki who was studying
+at the time what he called malicious
+interfaces or evil interfaces back in
+2010 um and it and that's really when I
+began to draw the lines between policy
+and design and and privacy um and when
+the book came out I tried to be um uh uh
+allinclusive about all the possible
+concerns that we have about design ways
+that design helps us ways that may maybe
+design pushes back against us and so if
+you read the book you'll see that I try
+to think about policy Frameworks at
+least in three different flavors the
+soft approach the moderate approach and
+the hard approach and the soft approach
+would be kind of our notice and choice
+or or co-regulatory responses and
+thinking about um uh private initiatives
+and things like that the moderate
+response would be duties and and making
+sure that we rigorously enforce the
+rules that we have existing and then the
+the more robust regulatory approach
+would be things like very significant
+rules and outright prohibitions or banss
+uh relating to the design of information
+Technologies and if your question is
+what has changed between 2018 and 2024 I
+will tell you if I had to rewrite the
+book now I would Advocate significantly
+more strongly for a robust approach to
+regulating design I think that
+self-regulatory efforts have largely um
+floundered I think that moderate
+approaches are are doomed to get kind of
+watered down by industry attempts when
+it comes to regulatory policy and so I
+think that we need strong robust and
+brid line rules for regulating the
+design of information
+Technologies thank you Woody and and for
+for Christiana I have also another
+question for for those who don't know
+christiana's work she is I was I was
+kiding in in the the backstage she's the
+queen of empirical studies in dark
+pattern so if you if you empirical
+studies
+around dark po so if you if you look up
+her name you'll see uh so many points of
+view when she talks about legitimate
+interest and and dark patterns in code
+and dark patterns in wax so it's really
+interesting so so you for already a few
+years researching dark patterns and
+conducting empirical studies and
+thinking about past present and future
+what would you say that has changed from
+when you started a few years ago and
+there were so many new reports and laws
+and cases and I think the coach around
+our patterns has changed right it was so
+fast in recent years so how from also
+from a legal empirical perspective what
+what has changed from when you started
+know oh nice nice nice question so
+actually um I started to study dark
+patterns or receptive design um together
+with my colleague computer science
+Natalia belova and with Colin Gray so
+actually we were detecting legal
+violations from the Privacy directive
+from the GDP
+and actually we came across this uh this
+seminal paper from Colin on the on this
+initial five uh types of dark patterns
+and we just mapped these gdpr and
+privacy directive violations to these
+dark patterns and uh we started our our
+collaboration since then and I will put
+the the link of this paper in our chat
+the legal requirements dark patterns and
+the legal requirements for constant
+banners and we studied
+dark patterns from the user perspective
+the UI artifact the designer perspective
+and also from the contextual ecosystem
+including the legal perspective and it
+was a major success because we
+understood dark patterns from all this
+multi-roll uh setting and yes you're
+right since when 2020 20 2019 2020 until
+last year multiple academic uh uh
+sources and Regulatory reports around
+five I mean let let me see briol started
+Bosch gray right calling gray matural
+and all these papers
+lri um but also again AR briol in 2022
+so all these academic Resources with
+full of full of taxonomies and then come
+what comes next regulatory reports so
+the European data protection ction board
+um uh taxonomy of dark patterns that
+might not always map to other taxonomies
+the CMA the FTC on the other side the
+European commission and the
+oecd uh taxonomies so can you imagine
+that since these couple of years uh
+245 distinctive practices and
+definitions of dark patterns emerged yes
+245 so what do we do in in these
+circumstances mapping uh obviously in a
+systematized way uh this academic
+knowledge and this regulatory knowledge
+of dark patterns and uh therefore we
+want it right to map all this knowledge
+and provide a unified uh definition of
+dark patterns types so we came up um
+with an ontology of dark patterns types
+to facilitate ter terminology use and
+consistent consistent reuse of such
+types of dark patterns across
+communities so across
+Regulators privacy professionals design
+professionals right uh for the academic
+Community as well and also with
+potentially ideally informing future
+legal decisions I mean we already know
+that there are three at or at least four
+decisions in Europe from a data
+protection persp perspective mentioning
+explicitly dark patterns so we see there
+is a a Confluence on regulating and
+sanctioning dark patterns which did not
+happen before but but let me correct
+it's not that beforehand there were no
+decisions on dark patterns in in our
+database of deceptive design cases there
+are more than 100 decisions finding dark
+patterns but they were not explicitly
+mentioned therein h but now since
+2023 at least three decisions really
+refer explicity in the EU on dark
+patterns and this is a major success
+right so this is what so far I have uh I
+can comment upon the past and the
+present of dark patterns and and a
+follow-up question what do you think had
+has happened I think I think the most
+prolific year in terms of reports was
+2022 from what I my list so what has
+happened what what happened in 202 is is
+there one specific also for you would
+did you see anything from from 20 this
+transition 21 22 something what what
+happened what what why did people
+suddenly and and regulators and what
+happened what do you
+think what was the boom yeah why why
+suddenly because dark patterns are there
+right things at least since heavy social
+media we could say many many factors
+that that can prove that dark patterns
+are for much longer than than 2022 so
+what happened in your view I think it
+was uh so we had decisions already from
+from consumer agencies in Europe much
+before
+2022 and and also uh Also regarding DPA
+decisions they just did not explicitly
+mention the concept of dark patterns or
+very concrete dark patterns types but
+leveraging from our knowledge on on on
+legal violations and about the
+conceptualization of dark patterns
+practices we we match right um so having
+knowledge on consumer law on data
+Protection Law is essential to map to
+these conceptualizations and I think
+that linking violations to dark patterns
+practices was was inevitable right so oh
+a dark pattern can be sanctioned and is
+sanctioned and so considering this this
+uh uh or factoring the risk of
+violations and of sanctions is a big
+step right not only for the academic
+scholarship but also for the regulatory
+environment so this mapping of uh dark
+patterns practices into very concrete
+fines in the EU but mostly in the US
+because the FTC is is far-fetched in
+dark patterns uh regulation and
+sanctioning was I think the the the
+Boost so the and enforcement both
+together so now we have a name and we we
+know it's forbidden then we we have the
+perfect case for more reports it's
+forbidden and it's it's fines Hefty
+fines
+right yeah for those not aware I I still
+from I think from my records maybe
+chrisan and would you tell me if I'm
+wrong is the Epic FTC versus epic games
+is the largest so far right 520 million
+from from my records so that for you for
+those that think that dark pattern finds
+are are are not so large uh so it was
+epic games against dark against FTC
+about the game fortnite so they had half
+was children's privacy but even the
+children's privacy part had dark
+patterns and the other half was explicit
+dark patterns so as Chris is saying
+finds they are really uh signif
+significative now so let's let's H
+proceed to to the second topic
+today I want to talk a little bit about
+loss against dark patterns and also the
+challenge of regulating design so going
+back to W this book and and and and this
+W this era era of regulating how do we
+regulate design so today if we think
+about major laws or or laws that have
+explicit Global influence we have at
+least the DSA so the G Digital Services
+act in Europe it expressly mentions the
+word dark pattern I think maybe
+Christina has
+more maybe a more diverse record from
+the whole world but from Europe is the
+DSA which mentions and from the US we
+have the CCPA when it was amended by the
+CPR it says that the about talks about
+manipulation it says that consent OB
+obtained through dark patterns is
+forbidden so we have those those two
+major laws and other laws and I know
+states in the US they also mentioning
+dark patterns and AI act brings
+manipulation the data act man not
+necessarily mentions dark pattern but
+brings so my question is maybe let's
+start with Woody so do you think that
+the current approach let's take the
+these two the let's take the CCPA for
+example the the express B is consent
+obtained through dark patterns is
+forbidden and and also the DSA has lost
+against manipulation so do do you are
+you optimistic on those uh ways of
+regulating dark patterns or you're you
+think it's not going to be effective
+what's your your your let's say your
+prediction from from what you're see so
+that's a really great question and I
+actually maybe this is a good at time as
+any to give you a preview of the latest
+uh research that I'm working on with
+with respect to dark pattern so um
+there's a another scholar that Cristiana
+also works with Joanna gunan who's a PhD
+student uh fixing to be a law professor
+at Mich University um who is in
+collaboration with Neil Richards and I
+um we are working on a new project where
+we're making the claim that dark
+patterns as it has been conceptualized
+in law and policy um right now is a
+relatively limited concept because it is
+built around the concept of interference
+with Choice um now you may be thinking
+well wait a second in dark pattern is
+all about choices and it is but the way
+it's been conceptualized and manifested
+in the CCPA and the Colorado regs um is
+largely about avoiding interfaces that
+interfere with the ability with the
+ability of people of indiv
+individuals um to assess risk and then
+make a choice based on those particular
+kinds of risks right or make some sort
+of meaningful autonomous decision um and
+I I like the way in which a lot of these
+laws have thought about dark patterns
+but um I think that I I worry that they
+don't go far enough because they um
+enshrine a
+conceptualization uh a very
+individualistic
+conceptualization of the way in which we
+want to go about um uh empowering
+individuals um rather than a collective
+approach to design and Collective
+well-being uh and so uh a lot of the
+ways in which the law now has
+conceptualized dark patterns would drive
+policy makers looking for evidence of
+manipulation to look at individual
+decisions right like would you have
+clicked on this or would you have
+clicked on that
+um what's the extent of manipulation
+what's right and and I think that this
+puts us right back into thinking about
+privacy in terms of control consent and
+choice which is something that I've been
+critiquing for a long time and so um
+we're proposing so Joan and Neil and I
+are proposing that in at least when it
+comes to policy that one way to build
+upon dark patterns is to actually think
+about all of this in terms of disloyal
+design and thinking about uh the way in
+which industry makes designed decisions
+that act against our best interests um
+and so that people are protected no
+matter what they choose right if they're
+influenced One Way um or another and we
+think that this is a better way of
+incorporating human values this is a WEA
+a better way of incorporating the
+collective good rather than just
+individual decision making um as a more
+longterm sustainable way to think about
+um dark patterns and so um there's a lot
+more to unpack there but but I I'll just
+say I'm actually tentatively optimistic
+that some of the um broader the uh law
+and policy for example the ftc's
+approach to unfair and deceptive trade
+practices is actually a little more
+agile and Nimble in incorporating the
+sort of concerns around disloyal design
+rather than the the slightly more narrow
+way in which dark patterns has been
+conceptualized in the CCPA or the
+Colorado Privacy Act for example kind of
+would it be right to say that it's a
+more paternalistic approach in the sense
+of what's the right thing to do as a
+company or or as a choice architect
+what's the design that will be more fair
+or or uh beneficial regardless of the
+vulnerabilities or regardless of the
+individual that you interact with in
+this sense like of of a more i' say I I
+would call it in my PhD research I talk
+I I bring a little bit this this
+question and my Approach is in the sense
+of more paternalism and fairness
+focusing on fairness as as a like a a
+test let's say and then we we don't
+think so much about about the choice in
+the concrete case maybe this case that
+person chose correctly but you you you
+have a spectrum of of vulnerability or
+capacity of of choice that's right
+exactly I I think that's exactly right I
+do think that it's more about thinking
+about not just fairness but but
+subservience of your own Financial
+interests in service of the people who
+are made vulnerable through a choice
+architecture um and so I think that what
+that involves in is creating an
+environment where um no matter what
+people choose it's relatively safe and
+and we we draw from a lot of lessons
+from fiduciary law duties of loyalty
+duties of care and duties of
+confidentiality rather than what I think
+is honestly a failed and broken approach
+to consent and giving people control um
+you can get you can still Empower
+people's choices and give them agency
+within a loyalty regime but you do so
+within a set of choices all of which are
+safe and have our best interests at
+heart rather than um basically allowing
+a sort of exploitation um under the
+illusion of giving you control or
+choice and Christiana you want you want
+to add something I think maybe it's very
+interesting you uh we will talk about it
+later but but from the so Christiana
+recently her article on legitimate
+interest so she analyzed the dark
+patterns uh in the cont text of gdpr's
+legitimate interest so this article
+received an award what tell me again the
+name of the award R I forgot yes it's a
+council of Europe
+Awards um and it's I don't want to brag
+but it's the highest award regarding the
+domain of data protection and this is
+this is a a it's it's a legal and an
+empirical paper huh and what is
+fantastic is this um recognized uh joint
+and transdisciplinary work we are
+several authors led by Lynn um and we
+have both uh computer science uh human
+computer interaction and legal expertise
+gathered in this paper and so it it is
+not a a traditional legal doctrinal
+approach right but it converges this
+empirical and legal um methods into
+understanding in practice how leg
+interests are used and so we um took a
+double A three-edged approach so we we
+we um made a user uh survey around 400
+participants if not if I'm not mistaken
+and we made a crawl on 10,000 websites
+uh privacy uh consent banners uh
+websites right and so I mean we all know
+that legal the the legal basis of
+legitimate interest and I'm sure that
+everybody is acquainted with these legal
+basis is kind is considered or
+speculative considered as somehow a
+loophole for collecting more data due to
+the flexibility ambiguity or paracity of
+this legal bases right so actually there
+is a there is a big interest on these
+legal basis because several data
+protection authorities are have been
+issue decisions on this there are some
+pending uh court of justice decisions on
+legitimate interest and they also
+merited attention by the European
+commission and so how to go through this
+speculation or or intuition of how these
+legitimate interest is used in theory
+let's see how they they work in practice
+so uh we made this um survey and this
+crawling of websites and we found
+several types of dark patterns and uh
+related to the user interface but also
+related to the text so to the linguistic
+level and we found that actually uh dark
+patterns reliant on um legitimate
+interest legal basis are more complex
+harder to avoid than actually dark
+constant related dark patterns and I
+think this was you know uh the Tipping
+Point of this
+paper so I can say some of the tricky
+practices that we have detected do you
+want me to proceed I I can I remember
+some of them so it is very hard for
+users to object to the use of legitimate
+interest sometimes taking two three
+actions to object to legitimate interest
+some
+users um answered in the survey that
+they believed that their data was
+collected in the in their own legitimate
+interests of of their of the users not
+of the third parties or Society or data
+controllers in concrete or third so
+um I mean it's a it's it's sad right and
+the the the concrete legitimate interest
+was not defined
+whatsoever
+um I think that uh yeah it was very hard
+to understand the use of the toggle it
+was very dubious the consideration of
+the Tuggle whether was it consent
+whether a concrete purpose was used
+under legitimate
+interest um sever
+sites demanded the user to object to
+legitimate interest purposes and vendors
+so imagine going through down uh and and
+objecting to individually to the vendors
+as well and to all the purposes per
+purpose as well and you know that this
+this design aspect is very problematic
+because user users will not go down at
+all right they will just accept and and
+proceed and this will likely lead to a
+low interactive or interation rates and
+um very
+interestingly most websites deploying
+legitimate interest legal basis in
+deceptive design practices used the IAB
+Europe transparency and consent
+framework which you know for sure it is
+being uh polemically used as of today
+and is being um at the focus of the
+court of justice due to which
+uh in compliant practices and also well
+well whether on whether they do process
+personal data or not within the Conant
+string uh but we already know the
+practices uh that cmps consent
+management platforms that are uh
+registered as
+ICF how these designs of the cmps
+facilitate by default dark patterns at
+scale due to their templates that they
+offer by default to their websites so
+and very interestingly This legal basis
+was mostly used for advertising
+purposes and in our survey we understood
+that actually users are not at all prone
+to accept tracking and their legitimate
+interest for advertising
+purposes this was something that was uh
+was very interesting as well which
+somehow correlates with the with the
+last case law regarding uh the what is
+the appropriate legal basis for for
+advertising purposes and from my
+understanding third party advertising
+cannot be uh put cannot rely leg
+interest right if you if you're I I've I
+always take screenshots when I see
+cookie banners and you see 800 there are
+feel like this maybe it's we can let's
+let's think positive maybe it was a
+mistake from the CMP maybe the the
+traine didn't realize so 800 third
+parties under legitimate interest how a
+legitimate interest to be collected
+information by to 800 third parties so
+this is really and it's nothing to do
+with the I IAB right it's a just oh it
+has because these vendors are IAB
+register they are
+includeed in the global vendor list of
+these IAB TCF de facto standard so yes
+it they are very Rel both the cmps that
+propagate these templates that are
+already biased sometimes you need to you
+know object to legitimate interest on
+the third four template and you really
+need to be an expert you know uh to
+check it so imagine our grandmothers our
+people that are not expert in data
+protection or that even there is a
+possibility to object to this to
+legitimate interest based purposes MH
+and
+lastly it was very interesting to find
+that users correlate content-based
+services with personalized uh
+advertising purposes so they it means
+that users would also potentially object
+to both purposes at the same time
+because they are associated correlated
+to advertising purposes so it was it was
+very interesting to know that not only
+dark patterns are related to consent but
+also to legitimate interest H and let's
+uh continue from that so the next topic
+is dark patterns in COD which is totally
+related to what we already talking about
+so just to explain to the audience so
+Christina she also has I think a few
+papers on empirical legal studies on the
+topic so she has CL I think you were you
+and your coauthors were the first ones
+to to classify it so this idea of dark
+patterns in code so most of the time
+when we talk about dark patterns we are
+talking about ux so we are talking about
+what Harry brno said in 2010 interfaces
+so we we talking about website and
+colors and shapes and language anything
+that has to do with the visual PR
+interaction and visual presentation of
+websites and apps and and Christiana she
+in her empirical studies she detected
+some hybrid forms of dark pots they
+involve both the U side and also the
+code that what's behind and especially
+in the data protection context has a lot
+to do with the cmps the conent
+management platforms so maybe I i' I've
+spoken I I love this I think it's an
+amazing and I I see it happening a lot
+and also I have a few websites and I've
+configured my cookie banners and I use C
+different cm pce and sometime I wanted
+so I know what what I I should do so I I
+wanted the like symmetric buttons with a
+with a good contrast and sometimes I
+could not I I had I had paid the CMP and
+I said I I cannot continue because it
+will be a big dark it will be a very
+green accept all and and a transparent I
+I could never use this so it's if it and
+if you think about it in privacy in
+practice the cmps have a lot of power if
+they they present you a default look I I
+am a specialist in the topic and I I had
+to go to a great extent and try
+different ones to see the one that was
+from my perspective the one without dark
+pots so this should not be like this but
+but I want to to to for Christina to
+talk a little bit about about her study
+and and also from from what what you
+think would be the solution so I I see
+the the a lot so today there are many
+plat many companies offering this
+service of being intermediaries so we
+they companies have to collect consent
+and they don't do it directly they use
+CMP so those platforms that they
+intermediaries and Christina will talk a
+little bit now about those dark patterns
+those dark patterns in in ux and cold
+and my my follow-up question I'm already
+saying so what how do we deal with this
+so what what's the the like a possible
+regulatory
+solution thank you this is so let me
+just tell you something I taught my
+husband on how to decline tracking
+purposes so of course this is we cannot
+have all this personalized approach but
+you know your role uh in these uh
+podcasts and and your articles are very
+important also to broadcast this topic
+of dark patterns so let me give you a
+little bit of context on these code
+level dark patterns in uh in our work
+with Mark lier on dark patterns
+enforcement and um digital design a quiz
+we understood that there are some
+practices that are very evident right
+very obvious uh within the user
+interface that you mentioned on digital
+on on websites on platforms and they are
+very easily recognizable by users by
+Regulators by Auditors so for example
+pre-checked boxes right uh the lack of a
+button or the the red or the use of
+colors prioritizing a decision but we
+also found practices that are not so
+obvious that are subtle that are elusive
+uh that only users realize later after
+it happened or never and they need uh
+this further oversight or scrutiny by
+Auditors by Tech technical colleagues by
+technical through technical expertise
+right through and also through
+regulatory authorities inspections on
+the websites themselves and uh how to
+how to understand them we need computer
+scientists so I've been working um with
+Natalia vova from
+Ina um a computer scientist with a with
+a big with a background on consent
+detections and measurements and so
+checking
+with her and with her other colleagues
+on what happens beside behind the scenes
+of a cookie Banner right of a Conant
+bner and so let me show you let me let
+me talk with you about some of these
+code related dark patterns actually they
+they are mismatches between the user
+interface of a consant banner and
+consant registration so what happens
+after we consent right uh we need tools
+for that we need technical auditing we
+just cannot do it at the in the face of
+the website right so we can include
+tools and we need a little bit of
+technical expertise to understand
+whether certain purposes are essential
+or not what is actually dropped what is
+actually
+passed uh so when a user interacts with
+the with a with a consant banner their
+decision is tor in a digital form in a
+consant string it is called called right
+within the users browser so what what do
+we expect as users that our choices made
+in the concern Banner in the UI right
+are collect are correctly stored within
+the browser but that's not the case at
+all and um and also we expect users that
+even before we made our choices accept
+reject accept to certain purposes Etc
+right object to certain legitimate
+interest based purposes we believe that
+even before we make any sort of
+interaction that no trackers are stored
+at
+all but there is a big mismatch between
+what we believe our users expectations
+which is are protected under the
+fairness principle under the gdpr and
+actually what is f is found behind the
+scenes right so we understood in our um
+empirical and legal works that constant
+can be stored before a user makes any
+sort of choice conert is stored even
+before the user uh consent is store even
+if the user rejected or with draw
+consent what is this sneaking practices
+obstruction practices right forced
+action these are called Dark patterns
+right um others other practices that we
+that we have identified in our papers uh
+are refer to cases is where the consant
+banner declared
+purposes um declared uh to process data
+only for necessary purposes right that
+we really require for example consent
+but actually um non necessary purposes
+were used without users consent without
+appropriate legal basis rendering all
+data processing illegal Etc and many
+other and many other stud I mean I'm
+very happy to share so these actually
+entail um sneaking obstruction and
+forced actions and we can only
+understand that this dark patterns occur
+by
+technically understanding how consent
+Works how consent is toward how consent
+is passed through cmps in a conent
+stream Upstream to vendors and feeding
+all the at tracking ecosystem this I
+mentioned some examples that are Conant
+related but this can apply to many other
+settings right and these are very
+serious so that's why we started this
+conversation uh with the the point that
+we need computer scientists working with
+legal Scholars and working with HCI and
+and and design experts this is the
+message of of um that I wanted to
+transmit by working with amazing people
+in in these spaces Jo Joanna G one is
+one example Colin Gray I've learned so
+much from this big expert in dark
+patterns and with Natalia obviously and
+all our
+team and specifically on on the CMP so
+you can imagine let's see me I I'm a
+small business owner and and when you're
+a small business you you have to
+configure yourself so I remember now you
+were talking about the the CMP so this
+intermediary when you're when you're so
+basically for the audience when you you
+you have a website you have to add a
+cookie Banner so how do you do it you go
+to a a third party a provider a CMP
+provider and you you you connect your
+website and you you create a line of
+code that you add to your website so I
+remember the first time I was
+configuring it it was there was a box so
+and it was written do you want H to
+collect cookie what happen so you have
+to choose what happens so there was a
+question like this what happens if the
+person doesn't interact with the banner
+so if the person closes so I I had to
+choose like it was a dark pattern for me
+so what what should the co the consent
+Banner do collect H store cookies or not
+store cookies as if it was like okay is
+like a choice and put put yourself in
+the place of a business owner a small
+business owner the owner of a bakery I
+don't know you just want to have your
+your your your Bakery website it you
+don't understand that a prodection law
+it looks like the same okay should I
+should I store cookies maybe I have a
+bakery cookies are tasty maybe people
+want cookies what should I do yeah cies
+or don't St so it's a dark pattern in
+the background so we don't even talk
+about it right behind the scenes user
+does not understand and not everybody is
+Google meta it's some people they are
+just small business owners they just
+want to do things right and they they go
+to the extent of having a cookie Banner
+with I think I I would say that most
+small com small business owners would
+not do that and it's they're trying to
+do good do good I'm doing good privacy
+they told me data protection is good and
+basically the choice there it doesn't it
+doesn't nudge me to do the right thing
+so this is wrong this if you do this
+you're doing against the law it doesn't
+tell me anything and I'm I would not
+have hire a lawyer just to do a cookie
+Banner so it was a whole exper
+configuring cookie Banner was that there
+is this is a study for you chis the dark
+patterns in the configuration of the
+cookie banners like Banner so and you
+know yeah the ccmps that actually offer
+these templates by default to website
+owners website Publishers can be
+considered in the circumstances data
+controllers jointly responsible with the
+website
+owners right so there is a make check a
+box in some of them they make you check
+a box you are the sole controller and
+then we that does not mean anything
+these self declarations are
+meaningless so but I also paid attention
+that make sure do it right because you
+are the controller here anything that
+happens it's your for you business owner
+you see cmps manipulating website owners
+so in this B2B relationship and CMP is
+manipulating web users in themselves so
+we have this bilateral
+relationship why there is no regulatory
+actions against
+cmps I don't know yet I don't understand
+why so now let's transition a little bit
+from uh ux to AI uh we we are 202 from
+2022 on any every talk has to have at
+least a little bit of AI right otherwise
+we we are not like on brand so I want to
+talk a little bit about dark online
+manipulation more generally and
+specifically the challenges of
+identifying documenting and curbing
+online manipulation and I want to begin
+with Woody so for those who don't know
+Woody went his gave a congressional
+testimony in last year and it was the
+hearing about legislating AI so I think
+first of all I think none of us here has
+ever given a a congressional testimony
+so maybe you can share a little bit
+about the the experience to begin with
+uh and also so let's start with that so
+let whatever you want to share with us
+the backstages there was a lot of gosip
+I'm kidding whatever you want to share
+with you about this this experience well
+it was a really interesting experience
+and so it's this started um I've been
+fortunate to testify I think four times
+now um in front of uh United States
+Congress on various different issues and
+the way it usually starts and the way
+it's started here is that someone
+usually a staffer probably read
+something that I had written uh either
+individually or with a group um that was
+relevance to the topic and that's what
+happened here I had uh been part of a
+um initiating comments actually to the
+nitia on their algorithmic
+accountability um requests for comments
+and as part of that um I joined the
+group of the Cordell Institute at
+Washington University um and the Cordell
+institutes and I along with that put
+together these comments that made the
+argument that everything that was being
+debated now in the world of artificial
+intelligence regulation was important
+but it wasn't nearly enough and and
+that's what got the intention of some of
+the the staffers um working for senators
+Blumenthal and Holly who were are
+chairing the uh subcommittee that was
+having this hearing about regulating
+artificial intelligence they called they
+said would you be interested in speaking
+on this um we got a little bit of
+instruction about maybe what to expect
+and who else might be uh uh ready to
+show up but but honestly we just sort of
+uh showed up on the day and we we gave
+the testimony and I think that it was a
+really interesting
+conversation uh mainly because I arrived
+thinking that there would be an
+incredible disagreement as to how to
+regulate artificial intelligence and
+that there would be at least two sides
+maybe more that would be yelling at each
+other about oh you think that it's
+important to have big strong rules but
+we're going to hamper Innovation and we
+can't do that so we should have soft
+rules and co-regulatory rules and and
+actually by the end of the the event
+at least in this subcommittee it seemed
+like almost everybody agreed on the big
+important stuff um which is basically
+significant robust regulation which was
+a surprise to me um and actually left me
+with a and I'm not optimistic much these
+days about the state of Law and policy
+but I was actually optimistic about the
+states of what might come out of at
+least of that subcommittee um and I'm
+happy now if you want me to go into the
+the substance of my uh testimony but I
+don't know if you wanted sure you you
+can go with sure I mean so so briefly um
+I in thinking about all the policies
+that have been put forth as you say it
+would not be a technology or privacy
+event unless we had the obligatory
+mention of artificial intelligence there
+are roughly 40,000 proposals to regulate
+AI in the United States right now all of
+them are wildly different and so what I
+wanted to do in the testimony and what
+we put together as part of the Cordell
+Institute and I'll put the the link in
+the chat in a minute is is a uh we urged
+lawmakers not to stop at what we call AI
+half measures and so there are four
+different things that are currently
+being proposed right now that are very
+important but they're not nearly enough
+the first one which is the go-to of all
+lawmakers and this is also pops up in
+the dark patterns conversation lot is
+well what we just need is transparency
+right we just need to have uh to to make
+everything be clear but transparency by
+itself s doesn't solve anything as a
+matter of fact if you have transparency
+without accountability then all you
+serve to do is justify the behavior
+because then the company gets to say see
+we told everybody and nobody had a
+problem with it so we kept on doing it
+um the second thing that we see a lot is
+ethical principles particularly
+self-regulatory ethical principles I
+think the burkman Klein Center at
+Harvard pulled together all of the sort
+of self- espoused AI principles and
+there was like 75 or 100 of them or
+something crazy um and and they all sort
+of say various things like we promise to
+do good and not bad um and sort of
+various kind of anod generic commitments
+um we know following the last 20 years
+of privacy regulation the
+self-regulatory commitments are doomed
+to fail companies simply don't have the
+incentive to leave money on the table
+for the betterment of society um and so
+they're going to do what they're going
+to do right they're going to fulfill
+their their commitments to shareholders
+by maximizing Financial value collect as
+much information as possible um you know
+Channel funnel our Behavior as much as
+possible so that we are most efficiently
+marketed to right so it's not just about
+personalization it's about
+homogenization of a populace so that we
+are easy to Market to as units right and
+so I think that self-regulatory
+principles are great right it's easy to
+sort of have ethical principles but
+they're they're not enough the third
+area that I got into and this is
+critically important is bias mitigation
+particularly around wrongful
+discrimination and the bad
+distributional effects of AI systems and
+so of course a lot of the discussion
+around facial recognition Technologies
+and other things centers on the fact
+that they don't work as well on people
+of color they're biased along gender
+lines um and a lot of the conversations
+if we could just fix the bias in these
+systems then they'll be great to use but
+the problem is is the more accurate
+system is the more dangerous it becomes
+and that's because those in power in
+industry and in governments are going to
+be significantly more attracted to them
+because they work better right and so
+all we will have done if we mitigate the
+bias is create a better tool for
+oppression and surveillance and
+behavioral control and so I I worry
+about as the bias mitigation being where
+we stop right of course we should make
+things as more accurate as possible we
+need to be concerned about the
+distributional effects I an accuracy to
+these systems but that's just the
+starting point in thinking about Justice
+with respect to Ai and then finally and
+this actually goes back to the dark
+patterns discussion directly the number
+one thing that that Regulators reach for
+and I think that's just because it's the
+easiest other than
+transparency um is control or consent
+right um and control and consent I I'll
+try to be very brief about this is a
+broken regulatory model model for
+information privacy we should excise it
+um particularly consent almost entirely
+um which I realize is difficult given
+the way it's the sort of heavy place the
+heavy role that it plays but consent is
+a losery first of all it's not as though
+we get to call up Google and say oh
+Google I only want you to collect my
+information on Sundays and only when I'm
+driving to the park and only when I'm in
+the mood for it right like that would be
+real control we would then really be
+empowered but of course we only get the
+options that are given to us right just
+just did a great job of describing all
+the different ways in which our
+constructed environments sort of funnel
+us into preset things all of which are
+fine with the company um because it
+doesn't disrupt their business model so
+it's an illusion even best case scenario
+the option that we get but it's not just
+an illusion it's also overwhelming right
+so anyone that has interacted with
+cookie banners more than once realizes
+the sort of fatalism that Creeps in
+after you've clicked your thousandth I
+agree button or right or or after you
+sort of worked your way through and
+clicked yes I agree or no I don't agree
+the problem with thinking about privacy
+as consent and control over information
+is that if we're given our wish for more
+privacy we're given so much consent and
+so much control that we choke on it
+right and there's no way for us to
+meaningfully project risk into the
+future I do this for a living and I can
+barely make it through any of the kinds
+of agreements right and the projections
+into the future and the the countless
+ways in which we become vulnerable um
+Within These complex ecosystems when we
+get into a car they don't ask do you
+want us to turn the airbag on or not
+right like you agree to have us not turn
+the airbag on right we we have an
+environment set that keeps us safe so
+that the choices we do make um are all
+safe and so so it's overwhelming and
+then finally it's myopic right the idea
+that what's best for society is the
+collected wisdom of billions of self
+motive ated decisions I think is
+misguided right because when I'm making
+a decision about whether to reveal my
+personal information typically I say
+what's in it for me right not what's in
+it for the good of society and so um I
+have all these sort of weird um
+self-focused risk calculations but my
+information is used to train AI models
+and create uxui based on population
+level inferences that are used on other
+people right and those other people
+didn't have the say as to whether I gave
+my data for the training model right and
+so there are collective concerns and
+concerns about privacy as a social good
+that simply aren't captured and so all
+of these are AI half measures
+transparency bias mitigation
+self-regulatory principles um and uh and
+consent and control and so we have to
+move beyond that right and I'm happy to
+get into I have a feeling a later
+question is what should we do about it
+so maybe I'll pause there um I think you
+should go on so my my my follow question
+here is every time I speak about consent
+and my Master's thesis was about consent
+is it I know it's horrible but taking
+out consent of the gay means it gives
+opens the door to authoritarianism right
+so we we have rules from the top that
+will decide about us
+so do what what's the the
+Practical I would resist that I would
+resist that me I get the idea that like
+if you if you take you know consent away
+from the people that that it it's
+completely paternalistic and they've got
+no saying it I don't think that's true
+at all I think the alternative to a
+consent-based model is one with clear
+rules that maximizes choice right that
+meaningful Choice safe choice because
+consent is not the same thing as Choice
+consent is legal magic that changes
+legal obligations of of others and what
+they can do to us right whereas
+maximizing Choice can still be an
+important aspect of a regulatory
+approach and this is where relational
+approaches o Neil Richards and I a few
+years ago wrote an article called a
+relational approach to data protection
+where we tried to emphasize um the
+importance in having these broad rules
+that create meaningful Choice spaces for
+us right um uh and and make sure that
+companies simply aren't exploiting us
+because the real problem is that the
+people that create the environments
+Within These choices are made and this
+is the root of dark patterns have an
+incentive for self-dealing they want to
+get as much as they can in their own
+interest regardless of how it affects us
+right and consent is to sort of kick
+that can it allows these companies to
+escape responsibility by being like well
+you're the one that makes the choice
+right and even if no dark pattern is
+involved I think consent is still going
+to be illusory myopic and and
+overwhelming um and so and so I I I
+think instead we simply need to focus on
+um a lot of the other wellestablished
+principles in in data Privacy Law data
+minimization uh prohibitions on abuse of
+unfair and deceptive conduct fairness
+right like all of these things I think
+are far better for us to build specific
+rules and robust regulations around
+rather than individualistic Notions of
+so but this approach so it would work
+more from a US perspective because the
+if we think about the gdpr we still
+would have for lawfulness we need to
+choose basically legitimate interest
+consent so you you so from your
+perspective Europeans are sced no for
+the Europeans well SC so look the
+dma which is such a recent piece of
+legislation requires consent and consent
+that actually is is defined by reference
+to the gdpr as you said requires
+consent um to data accumulation and data
+cross use so we are on the same page
+here right and how many dark patterns
+Louisa do we know uh regarding constant
+requests so we are still on the same Lo
+but from a pragmatic perspective let's
+say what looking to the Future so how do
+we fix it at least in Europe we need to
+change the gdpr then because either
+either we go for we say okay we don't
+need article six anymore that's it let's
+focus on principles and we fairness
+let's go over I don't I'm not sure if at
+least in maybe the US it would work but
+in Europe I think we article six is like
+the basics so what's the the lawful
+reason that you're collecting data so is
+it legitimate interest is it contract
+for for from a commercial perspective
+would be like contract leg interest or
+or
+consent maybe we start regulating
+contracts more strongly that that City
+you have to establish look Louisa I mean
+in the in the US and in the EU
+especially in the US there are this
+privacy by Design Solutions given by uh
+materialized through cons through
+signals privacy signal signals and um
+and so in in in the EU maybe the adpc
+signal where users are facing just a
+setting where they put their preferences
+and they will not be further uh
+knocked and uh and in us the GPC signal
+is also a big success in the US so kind
+of uh a legacy from from the do not
+track signal it is binary it's not
+purpose based like the gdpr so requires
+but there are this sort of privacy by
+Design uh signal instances that could
+potentially work in the EU not yet
+because it's not yet
+enforced uh but in there are some steps
+there too at some
+point yeah but I I I love Uh Wood this
+perspective I think
+it's my sincere I TR I I'm like
+naturally prag Matic I I just think that
+of uh getting away when we when I say
+consent I mean choice so maybe I choose
+I should speak with a with a correct
+like I I mean giving the user a chance
+to interact that that's what I mean so
+maybe I'm more talking about
+choice but prag pragmatically I think
+when we take you you say we don't want
+consent doesn't work I think it's
+difficult to implement my my my my
+position is that I think of as a from a
+business owner perspective or someone
+trying to do I want to do the right
+thing and what what should I do I think
+it becomes maybe some legal uncertainty
+I don't know maybe maybe what you want
+to say something that maybe I I just
+don't have the big picture but it not
+practical no so I get that it's daunting
+right so it certainly would be daunting
+to try to excise consent from the gdpr
+although honestly I think that given the
+way that gdpr defines consent it's
+practically impossible anyway so the the
+best way to go about it would just be
+like listen it's never going to exist in
+mediated environments period um and I
+don't think it will um but in terms of
+what would be tractable um every new
+move starts off with a fair amount of
+ambiguity right so when years ago when
+courts first said if you act um
+negligently uh then you're going to be
+liable in Tor law as a business Court
+businesses were probably like what does
+it mean to act negligently and then
+courts would respond well it means to
+act unreason under the circumstances and
+then businesses said what does that mean
+um and over time we've refined that and
+so I'm what I'm advocating for is a
+similar sort of approach and Neil and I
+have actually advocated for a two-tiered
+approach where you've got a broad duties
+of loyalty care confidentiality for the
+EU by the way I think that this maps on
+to fairness in some really interesting
+ways fairness and proportionality so
+there may be a um a language um
+translation but I think that what we're
+getting at is exploitation a which I
+think we would agree would be kind of
+unfair um and then actually specific
+rules that would be in furtherance of
+these broad duties um and a lot of it
+would start with data minimization some
+of it would be you know safeguards some
+of it is is safeguards for um you know
+mitigation in social media some of it
+would would be uh what I've advocated
+for is language that's borrowed from the
+Consumer Financial Protection bureau's
+um prohibition on abusive trade
+practices which is using people's own
+cognitive limitations against them for
+your own purposes right it's kind of a
+self-dealing rule um which is kind of
+what some of the dark patterns
+regulation looks like it borrows some of
+that language but I would advocate for
+an even broader rule um it would create
+a little uncertainty initially but over
+time just like all other kinds of
+indeterminate rules we could refy it and
+and I think it meaningful way fantastic
+I think this is a great way to end we
+are short in time so those I that have
+questions please go to the LinkedIn
+event and tag Christiana and wo they are
+going to check it out later so please uh
+please post there your comment your
+question and we'll be happy to check it
+afterwards thank you so much Christian
+and would this was a master class I'm so
+happy we had this section for for those
+in the audience here this was brilliant
+I'm um it is one of my my favorite
+topics St patterns and manipulation I
+think this was a go discussion thank you
+so much for accepting my invitation I'm
+so happy we we are here today we are
+having this exchange uh thanks again to
+minest this episode sponsor so check out
+their data mapping Solutions at www.m
+w.ai and if you want to get informed of
+the next events please subscribe to
+Lisas newsletter. comom everybody thank
+you so much for joining for being so
+always so participative and nice and
+kind in the chat and I I I think you saw
+here that Christian and Woody they left
+many useful links while we were speaking
+they were also like multitasking and
+posting the links here and see you in
+the next month in the next live talk
+thank you so much everyone byebye thanks
+you

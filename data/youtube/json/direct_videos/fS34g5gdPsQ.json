@@ -1,0 +1,6883 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "fS34g5gdPsQ",
+  "video_title": "RAG Risks: Why Retrieval-Augmented LLMs Are Not Safer [Sebastian Gehrmann] - 732",
+  "video_url": "https://www.youtube.com/watch?v=fS34g5gdPsQ",
+  "fetched_at": "2025-12-29T20:33:42.289377+00:00",
+  "transcript": [
+    {
+      "text": "I I think that's why it was also so",
+      "start": 0.08,
+      "duration": 3.599
+    },
+    {
+      "text": "surprising to us because it's a very",
+      "start": 2.24,
+      "duration": 3.92
+    },
+    {
+      "text": "simplistic setup. It is not fancy like",
+      "start": 3.679,
+      "duration": 4.561
+    },
+    {
+      "text": "oh you hijack the training data set and",
+      "start": 6.16,
+      "duration": 4.559
+    },
+    {
+      "text": "and make people train on it or you",
+      "start": 8.24,
+      "duration": 4.96
+    },
+    {
+      "text": "hijack this API and invoke certain tool",
+      "start": 10.719,
+      "duration": 5.201
+    },
+    {
+      "text": "calls or uh you take the gradients of",
+      "start": 13.2,
+      "duration": 4.4
+    },
+    {
+      "text": "the model and then optimize the certain",
+      "start": 15.92,
+      "duration": 2.88
+    },
+    {
+      "text": "queries but rather it's very",
+      "start": 17.6,
+      "duration": 4.08
+    },
+    {
+      "text": "straightforward malicious queries and",
+      "start": 18.8,
+      "duration": 4.639
+    },
+    {
+      "text": "completely save documents that together",
+      "start": 21.68,
+      "duration": 3.759
+    },
+    {
+      "text": "break the built-in safeguards of the of",
+      "start": 23.439,
+      "duration": 5.161
+    },
+    {
+      "text": "the system.",
+      "start": 25.439,
+      "duration": 3.161
+    },
+    {
+      "text": "[Music]",
+      "start": 29.62,
+      "duration": 8.95
+    },
+    {
+      "text": "All right, everyone. Welcome to another",
+      "start": 39.04,
+      "duration": 3.839
+    },
+    {
+      "text": "episode of the TwiML AI podcast. I am",
+      "start": 40.64,
+      "duration": 4.72
+    },
+    {
+      "text": "your host, Sam Sharington, and today I'm",
+      "start": 42.879,
+      "duration": 5.52
+    },
+    {
+      "text": "joined by Seb Germang. Seb is head of",
+      "start": 45.36,
+      "duration": 6.519
+    },
+    {
+      "text": "responsible AI in the CTO's office at",
+      "start": 48.399,
+      "duration": 6.241
+    },
+    {
+      "text": "Bloomberg. Seb, welcome to the podcast.",
+      "start": 51.879,
+      "duration": 5.32
+    },
+    {
+      "text": "Thanks for having me. I'm super excited",
+      "start": 54.64,
+      "duration": 4.399
+    },
+    {
+      "text": "for our conversation. We're going to be",
+      "start": 57.199,
+      "duration": 5.84
+    },
+    {
+      "text": "digging into uh your work in AI safety",
+      "start": 59.039,
+      "duration": 5.921
+    },
+    {
+      "text": "at Bloomberg and in particular a couple",
+      "start": 63.039,
+      "duration": 4.001
+    },
+    {
+      "text": "of recent papers that you and your teams",
+      "start": 64.96,
+      "duration": 5.44
+    },
+    {
+      "text": "have published. one on the topic of AI",
+      "start": 67.04,
+      "duration": 7.36
+    },
+    {
+      "text": "safety around rag and rag uh based",
+      "start": 70.4,
+      "duration": 7.399
+    },
+    {
+      "text": "systems and the other on really",
+      "start": 74.4,
+      "duration": 7.2
+    },
+    {
+      "text": "understanding the risks in of generative",
+      "start": 77.799,
+      "duration": 7.481
+    },
+    {
+      "text": "AI in the financial services context. To",
+      "start": 81.6,
+      "duration": 5.199
+    },
+    {
+      "text": "get us going though, I would love to",
+      "start": 85.28,
+      "duration": 3.04
+    },
+    {
+      "text": "have you share a little bit about your",
+      "start": 86.799,
+      "duration": 4.481
+    },
+    {
+      "text": "background. Yeah, of course. Um so yeah,",
+      "start": 88.32,
+      "duration": 5.36
+    },
+    {
+      "text": "as you said, my name is Sebastian. I'm",
+      "start": 91.28,
+      "duration": 4.64
+    },
+    {
+      "text": "originally from Germany, moved to the US",
+      "start": 93.68,
+      "duration": 4.96
+    },
+    {
+      "text": "uh for my PhD, after which I worked on",
+      "start": 95.92,
+      "duration": 4.72
+    },
+    {
+      "text": "large language models at Google's for a",
+      "start": 98.64,
+      "duration": 4.799
+    },
+    {
+      "text": "couple years and then moved on to uh to",
+      "start": 100.64,
+      "duration": 5.04
+    },
+    {
+      "text": "Bloomberg where I've been working on",
+      "start": 103.439,
+      "duration": 4.161
+    },
+    {
+      "text": "language technology and NLP ever since I",
+      "start": 105.68,
+      "duration": 4.079
+    },
+    {
+      "text": "joined about two and a half years ago.",
+      "start": 107.6,
+      "duration": 4.24
+    },
+    {
+      "text": "uh as part of my role in responsible AI",
+      "start": 109.759,
+      "duration": 4.481
+    },
+    {
+      "text": "now I'm developed the strategy for",
+      "start": 111.84,
+      "duration": 5.68
+    },
+    {
+      "text": "responsible AI of the company and I play",
+      "start": 114.24,
+      "duration": 5.839
+    },
+    {
+      "text": "the intermediate uh person in between",
+      "start": 117.52,
+      "duration": 5.44
+    },
+    {
+      "text": "our risk governance legal and teams and",
+      "start": 120.079,
+      "duration": 4.801
+    },
+    {
+      "text": "so on and our product and engineering",
+      "start": 122.96,
+      "duration": 4.08
+    },
+    {
+      "text": "teams kind of playing the facilitator",
+      "start": 124.88,
+      "duration": 5.28
+    },
+    {
+      "text": "translator and unblocker as as needed",
+      "start": 127.04,
+      "duration": 5.52
+    },
+    {
+      "text": "and make sure that our products follow",
+      "start": 130.16,
+      "duration": 4.48
+    },
+    {
+      "text": "our responsible AI best practices and",
+      "start": 132.56,
+      "duration": 5.36
+    },
+    {
+      "text": "principles. Awesome. Awesome. Um, I I'd",
+      "start": 134.64,
+      "duration": 6.239
+    },
+    {
+      "text": "love to maybe have you introduce or",
+      "start": 137.92,
+      "duration": 5.6
+    },
+    {
+      "text": "reintroduce folks to Bloomberg who might",
+      "start": 140.879,
+      "duration": 4.161
+    },
+    {
+      "text": "not be familiar with the company. I",
+      "start": 143.52,
+      "duration": 4.719
+    },
+    {
+      "text": "think the the name is well known as um,",
+      "start": 145.04,
+      "duration": 4.32
+    },
+    {
+      "text": "you know, being a player in the",
+      "start": 148.239,
+      "duration": 4.401
+    },
+    {
+      "text": "financial information space, but uh, if",
+      "start": 149.36,
+      "duration": 5.28
+    },
+    {
+      "text": "you can talk a little bit about that and",
+      "start": 152.64,
+      "duration": 5.28
+    },
+    {
+      "text": "how Bloomberg is using generative AI",
+      "start": 154.64,
+      "duration": 5.44
+    },
+    {
+      "text": "that might be helpful for folks. Yeah,",
+      "start": 157.92,
+      "duration": 5.28
+    },
+    {
+      "text": "of course. So Bloomberg is a financial",
+      "start": 160.08,
+      "duration": 6.32
+    },
+    {
+      "text": "services company and our business is to",
+      "start": 163.2,
+      "duration": 5.28
+    },
+    {
+      "text": "provide information to financial",
+      "start": 166.4,
+      "duration": 4.88
+    },
+    {
+      "text": "professionals. Uh our main product is",
+      "start": 168.48,
+      "duration": 4.399
+    },
+    {
+      "text": "the Bloomberg terminal through which",
+      "start": 171.28,
+      "duration": 4.08
+    },
+    {
+      "text": "this information is accessible and we",
+      "start": 172.879,
+      "duration": 5.601
+    },
+    {
+      "text": "have people from all kinds of",
+      "start": 175.36,
+      "duration": 4.8
+    },
+    {
+      "text": "institutions in the financial services",
+      "start": 178.48,
+      "duration": 4.56
+    },
+    {
+      "text": "industry use the terminal to read news",
+      "start": 180.16,
+      "duration": 6.24
+    },
+    {
+      "text": "to communicate to get any kind of",
+      "start": 183.04,
+      "duration": 5.68
+    },
+    {
+      "text": "insights into financial data including",
+      "start": 186.4,
+      "duration": 4.559
+    },
+    {
+      "text": "structured data, unstructured data,",
+      "start": 188.72,
+      "duration": 6.08
+    },
+    {
+      "text": "earnings calls u and everything else",
+      "start": 190.959,
+      "duration": 6.321
+    },
+    {
+      "text": "that goes on in uh and that is relevant",
+      "start": 194.8,
+      "duration": 6.159
+    },
+    {
+      "text": "to their respective job. Uh when it",
+      "start": 197.28,
+      "duration": 6.56
+    },
+    {
+      "text": "comes to generative AI, we have been AI",
+      "start": 200.959,
+      "duration": 5.521
+    },
+    {
+      "text": "non-generative for over 15 years and we",
+      "start": 203.84,
+      "duration": 5.44
+    },
+    {
+      "text": "started at first in providing",
+      "start": 206.48,
+      "duration": 5.839
+    },
+    {
+      "text": "extractions and enrichments of documents",
+      "start": 209.28,
+      "duration": 6.08
+    },
+    {
+      "text": "starting with new sentiment scores. So",
+      "start": 212.319,
+      "duration": 4.801
+    },
+    {
+      "text": "this piece of news that just came in is",
+      "start": 215.36,
+      "duration": 4.08
+    },
+    {
+      "text": "that positive, negative or neutral for a",
+      "start": 217.12,
+      "duration": 6.08
+    },
+    {
+      "text": "particular comp company, country, person",
+      "start": 219.44,
+      "duration": 5.84
+    },
+    {
+      "text": "uh going into entity linking and entity",
+      "start": 223.2,
+      "duration": 4.959
+    },
+    {
+      "text": "recognition. who is this article",
+      "start": 225.28,
+      "duration": 5.92
+    },
+    {
+      "text": "actually written about? Um, linking of",
+      "start": 228.159,
+      "duration": 4.72
+    },
+    {
+      "text": "stock tickers is incredibly important in",
+      "start": 231.2,
+      "duration": 3.44
+    },
+    {
+      "text": "the financial service industry to",
+      "start": 232.879,
+      "duration": 3.121
+    },
+    {
+      "text": "identify that if you're talking about",
+      "start": 234.64,
+      "duration": 3.12
+    },
+    {
+      "text": "Apple, uh, you are talking about the",
+      "start": 236.0,
+      "duration": 3.68
+    },
+    {
+      "text": "company Apple and not necessarily the",
+      "start": 237.76,
+      "duration": 5.92
+    },
+    {
+      "text": "the fruit. And linking this data",
+      "start": 239.68,
+      "duration": 6.559
+    },
+    {
+      "text": "together is an important aspect of of",
+      "start": 243.68,
+      "duration": 5.52
+    },
+    {
+      "text": "our AI. Uh, we've also been using AI for",
+      "start": 246.239,
+      "duration": 4.881
+    },
+    {
+      "text": "extractions for a long time. Whenever",
+      "start": 249.2,
+      "duration": 3.759
+    },
+    {
+      "text": "companies file their their earnings",
+      "start": 251.12,
+      "duration": 4.16
+    },
+    {
+      "text": "reports, this is usually through balance",
+      "start": 252.959,
+      "duration": 6.641
+    },
+    {
+      "text": "sheets and cash flow analyses u um",
+      "start": 255.28,
+      "duration": 6.639
+    },
+    {
+      "text": "published on their websites. Extracting",
+      "start": 259.6,
+      "duration": 4.8
+    },
+    {
+      "text": "this data and making it uh turning it",
+      "start": 261.919,
+      "duration": 4.56
+    },
+    {
+      "text": "into structured data that is querable",
+      "start": 264.4,
+      "duration": 4.4
+    },
+    {
+      "text": "and that is uh that players in the",
+      "start": 266.479,
+      "duration": 4.0
+    },
+    {
+      "text": "financial markets can then do their own",
+      "start": 268.8,
+      "duration": 3.76
+    },
+    {
+      "text": "analysis on top of is another part of",
+      "start": 270.479,
+      "duration": 5.201
+    },
+    {
+      "text": "how we've been using AI for a long time.",
+      "start": 272.56,
+      "duration": 5.919
+    },
+    {
+      "text": "Now with generative AI uh generative AI",
+      "start": 275.68,
+      "duration": 5.519
+    },
+    {
+      "text": "has enabled the development of a lot of",
+      "start": 278.479,
+      "duration": 5.201
+    },
+    {
+      "text": "new experiences that are driven by AI",
+      "start": 281.199,
+      "duration": 5.361
+    },
+    {
+      "text": "rather than that are enhanced by AI. So",
+      "start": 283.68,
+      "duration": 6.16
+    },
+    {
+      "text": "as part of that we uh first released uh",
+      "start": 286.56,
+      "duration": 6.56
+    },
+    {
+      "text": "earnings call transcript summaries.",
+      "start": 289.84,
+      "duration": 5.52
+    },
+    {
+      "text": "So by which we mean when when companies",
+      "start": 293.12,
+      "duration": 4.0
+    },
+    {
+      "text": "have the quarterly earnings call which",
+      "start": 295.36,
+      "duration": 4.32
+    },
+    {
+      "text": "is uh which can be in written form",
+      "start": 297.12,
+      "duration": 6.079
+    },
+    {
+      "text": "multiple page pages long and uh analysts",
+      "start": 299.68,
+      "duration": 5.6
+    },
+    {
+      "text": "for example might want to read or follow",
+      "start": 303.199,
+      "duration": 4.481
+    },
+    {
+      "text": "or listen to 40 50 of them that that is",
+      "start": 305.28,
+      "duration": 4.72
+    },
+    {
+      "text": "a full-time job already especially",
+      "start": 307.68,
+      "duration": 3.92
+    },
+    {
+      "text": "during earnings season when there is",
+      "start": 310.0,
+      "duration": 3.199
+    },
+    {
+      "text": "like 10 of these a day that that people",
+      "start": 311.6,
+      "duration": 4.0
+    },
+    {
+      "text": "are interested in. So that was our first",
+      "start": 313.199,
+      "duration": 5.84
+    },
+    {
+      "text": "generative AI uh product that that we",
+      "start": 315.6,
+      "duration": 7.599
+    },
+    {
+      "text": "released last year where we took a very",
+      "start": 319.039,
+      "duration": 6.921
+    },
+    {
+      "text": "subject matter expertdriven approach to",
+      "start": 323.199,
+      "duration": 5.28
+    },
+    {
+      "text": "summarization where we released",
+      "start": 325.96,
+      "duration": 4.2
+    },
+    {
+      "text": "summaries that are driven by questions",
+      "start": 328.479,
+      "duration": 4.241
+    },
+    {
+      "text": "that analysts might have. For example,",
+      "start": 330.16,
+      "duration": 4.24
+    },
+    {
+      "text": "what does the management of this company",
+      "start": 332.72,
+      "duration": 3.24
+    },
+    {
+      "text": "say about guidance or capital",
+      "start": 334.4,
+      "duration": 3.92
+    },
+    {
+      "text": "allocation? Are they going to be uh",
+      "start": 335.96,
+      "duration": 5.56
+    },
+    {
+      "text": "paying dividends and and so on. uh we've",
+      "start": 338.32,
+      "duration": 4.879
+    },
+    {
+      "text": "since expanded the topic list by quite a",
+      "start": 341.52,
+      "duration": 4.08
+    },
+    {
+      "text": "lot more. Uh so if you want to know",
+      "start": 343.199,
+      "duration": 5.361
+    },
+    {
+      "text": "whether the company is talking about AI",
+      "start": 345.6,
+      "duration": 4.48
+    },
+    {
+      "text": "that you might want to just say okay",
+      "start": 348.56,
+      "duration": 4.16
+    },
+    {
+      "text": "what does it say about AI? We have uh",
+      "start": 350.08,
+      "duration": 5.44
+    },
+    {
+      "text": "also newly released document insights",
+      "start": 352.72,
+      "duration": 5.6
+    },
+    {
+      "text": "where you can act actively ask questions",
+      "start": 355.52,
+      "duration": 5.44
+    },
+    {
+      "text": "to these kinds of documents. U in all of",
+      "start": 358.32,
+      "duration": 4.719
+    },
+    {
+      "text": "this is always super important that we",
+      "start": 360.96,
+      "duration": 4.72
+    },
+    {
+      "text": "provide grounded responses. I'm sure",
+      "start": 363.039,
+      "duration": 4.561
+    },
+    {
+      "text": "you've been talking about hallucinations",
+      "start": 365.68,
+      "duration": 4.079
+    },
+    {
+      "text": "and ungrounded unattributable answers a",
+      "start": 367.6,
+      "duration": 4.159
+    },
+    {
+      "text": "lot. So I'm not going to go into that",
+      "start": 369.759,
+      "duration": 4.081
+    },
+    {
+      "text": "topic too too deeply. But we have been",
+      "start": 371.759,
+      "duration": 3.681
+    },
+    {
+      "text": "developing this this concept of",
+      "start": 373.84,
+      "duration": 3.919
+    },
+    {
+      "text": "transparent attribution. Uh which",
+      "start": 375.44,
+      "duration": 4.4
+    },
+    {
+      "text": "basically is a way to provide",
+      "start": 377.759,
+      "duration": 4.56
+    },
+    {
+      "text": "attribution to trusted documents or",
+      "start": 379.84,
+      "duration": 3.919
+    },
+    {
+      "text": "structured data. So if you're talking",
+      "start": 382.319,
+      "duration": 4.081
+    },
+    {
+      "text": "about market data prices, you want to be",
+      "start": 383.759,
+      "duration": 3.921
+    },
+    {
+      "text": "able to link that to the actual",
+      "start": 386.4,
+      "duration": 3.359
+    },
+    {
+      "text": "databases that contain this information.",
+      "start": 387.68,
+      "duration": 5.04
+    },
+    {
+      "text": "And if you're talking u about a summary,",
+      "start": 389.759,
+      "duration": 6.88
+    },
+    {
+      "text": "you want to know who said this actual uh",
+      "start": 392.72,
+      "duration": 6.479
+    },
+    {
+      "text": "quote or who said or who made the",
+      "start": 396.639,
+      "duration": 3.361
+    },
+    {
+      "text": "statement that you're actually",
+      "start": 399.199,
+      "duration": 2.72
+    },
+    {
+      "text": "summarizing right now. So in all of",
+      "start": 400.0,
+      "duration": 3.12
+    },
+    {
+      "text": "these developments, we're always",
+      "start": 401.919,
+      "duration": 2.56
+    },
+    {
+      "text": "providing attribution to these",
+      "start": 403.12,
+      "duration": 5.04
+    },
+    {
+      "text": "underlying source sources. Uh we've also",
+      "start": 404.479,
+      "duration": 6.72
+    },
+    {
+      "text": "uh released a news summarization uh",
+      "start": 408.16,
+      "duration": 5.68
+    },
+    {
+      "text": "product where we provide a summaries of",
+      "start": 411.199,
+      "duration": 5.081
+    },
+    {
+      "text": "our own news articles also on the",
+      "start": 413.84,
+      "duration": 4.88
+    },
+    {
+      "text": "terminal and have been generally",
+      "start": 416.28,
+      "duration": 5.4
+    },
+    {
+      "text": "developing a lot of these uh these",
+      "start": 418.72,
+      "duration": 5.28
+    },
+    {
+      "text": "products in collaboration with with our",
+      "start": 421.68,
+      "duration": 5.519
+    },
+    {
+      "text": "subject matter experts to be providing",
+      "start": 424.0,
+      "duration": 5.759
+    },
+    {
+      "text": "more insights into the data that we're",
+      "start": 427.199,
+      "duration": 4.081
+    },
+    {
+      "text": "already providing on the terminal.",
+      "start": 429.759,
+      "duration": 3.041
+    },
+    {
+      "text": "Awesome. Awesome. And I should mention",
+      "start": 431.28,
+      "duration": 4.24
+    },
+    {
+      "text": "that I've had the opportunity to speak",
+      "start": 432.8,
+      "duration": 5.28
+    },
+    {
+      "text": "with uh one of your colleagues, David",
+      "start": 435.52,
+      "duration": 6.079
+    },
+    {
+      "text": "Rosenberg, a couple of times um over the",
+      "start": 438.08,
+      "duration": 5.92
+    },
+    {
+      "text": "years. One was back in 2018 talking",
+      "start": 441.599,
+      "duration": 5.121
+    },
+    {
+      "text": "about information extraction from",
+      "start": 444.0,
+      "duration": 4.56
+    },
+    {
+      "text": "natural document formats like financial",
+      "start": 446.72,
+      "duration": 4.479
+    },
+    {
+      "text": "reports and this was in the pregenai",
+      "start": 448.56,
+      "duration": 5.52
+    },
+    {
+      "text": "era. Uh and then a little bit more",
+      "start": 451.199,
+      "duration": 4.161
+    },
+    {
+      "text": "recently, but still a couple of years",
+      "start": 454.08,
+      "duration": 4.399
+    },
+    {
+      "text": "ago now, uh we spoke about a project",
+      "start": 455.36,
+      "duration": 6.32
+    },
+    {
+      "text": "that you guys did called Bloomberg GPT.",
+      "start": 458.479,
+      "duration": 6.321
+    },
+    {
+      "text": "Uh which explored kind of building a",
+      "start": 461.68,
+      "duration": 5.639
+    },
+    {
+      "text": "custom GPT model.",
+      "start": 464.8,
+      "duration": 5.36
+    },
+    {
+      "text": "Uh so folks can take a look at those for",
+      "start": 467.319,
+      "duration": 5.72
+    },
+    {
+      "text": "a little bit more context about uh what",
+      "start": 470.16,
+      "duration": 6.319
+    },
+    {
+      "text": "you guys have been doing. Uh I'd like to",
+      "start": 473.039,
+      "duration": 6.72
+    },
+    {
+      "text": "now dig into the first of those couple",
+      "start": 476.479,
+      "duration": 5.56
+    },
+    {
+      "text": "of papers that I mentioned",
+      "start": 479.759,
+      "duration": 5.361
+    },
+    {
+      "text": "and the uh the blunt headline there",
+      "start": 482.039,
+      "duration": 7.44
+    },
+    {
+      "text": "seems to be that rag breaks LLM",
+      "start": 485.12,
+      "duration": 7.12
+    },
+    {
+      "text": "safety. Let's dig into that a little bit",
+      "start": 489.479,
+      "duration": 4.28
+    },
+    {
+      "text": "more. Talk a little bit more about the",
+      "start": 492.24,
+      "duration": 3.2
+    },
+    {
+      "text": "origin story for this paper and what you",
+      "start": 493.759,
+      "duration": 3.84
+    },
+    {
+      "text": "set out to explore with it. Yes,",
+      "start": 495.44,
+      "duration": 4.72
+    },
+    {
+      "text": "absolutely. Um, so I I should mention",
+      "start": 497.599,
+      "duration": 4.72
+    },
+    {
+      "text": "that this this work in particular was",
+      "start": 500.16,
+      "duration": 4.159
+    },
+    {
+      "text": "done in collaboration also with our",
+      "start": 502.319,
+      "duration": 4.081
+    },
+    {
+      "text": "engineering AI organization and a",
+      "start": 504.319,
+      "duration": 4.081
+    },
+    {
+      "text": "fantastic intern who did who ran the",
+      "start": 506.4,
+      "duration": 3.68
+    },
+    {
+      "text": "experiments",
+      "start": 508.4,
+      "duration": 2.519
+    },
+    {
+      "text": "uh",
+      "start": 510.08,
+      "duration": 4.319
+    },
+    {
+      "text": "in in uh coming up with the direction of",
+      "start": 510.919,
+      "duration": 5.641
+    },
+    {
+      "text": "this uh of this project. This is very",
+      "start": 514.399,
+      "duration": 4.161
+    },
+    {
+      "text": "much grounded in ongoing work that uh",
+      "start": 516.56,
+      "duration": 3.919
+    },
+    {
+      "text": "we've been doing in terms of providing",
+      "start": 518.56,
+      "duration": 4.88
+    },
+    {
+      "text": "guardrails and and robust evaluation for",
+      "start": 520.479,
+      "duration": 5.761
+    },
+    {
+      "text": "our products. And as we're building",
+      "start": 523.44,
+      "duration": 4.72
+    },
+    {
+      "text": "guardrails, we want to also know like",
+      "start": 526.24,
+      "duration": 4.76
+    },
+    {
+      "text": "how how can people misuse either",
+      "start": 528.16,
+      "duration": 5.76
+    },
+    {
+      "text": "accidentally or uh purposefully our",
+      "start": 531.0,
+      "duration": 5.0
+    },
+    {
+      "text": "products that we're releasing. And as we",
+      "start": 533.92,
+      "duration": 4.4
+    },
+    {
+      "text": "are going more and more to a world where",
+      "start": 536.0,
+      "duration": 3.76
+    },
+    {
+      "text": "where products are becoming more",
+      "start": 538.32,
+      "duration": 3.6
+    },
+    {
+      "text": "conversational with open-ended inputs,",
+      "start": 539.76,
+      "duration": 4.0
+    },
+    {
+      "text": "this is incredibly important for a",
+      "start": 541.92,
+      "duration": 4.8
+    },
+    {
+      "text": "heavily regulated domain such as ours.",
+      "start": 543.76,
+      "duration": 4.96
+    },
+    {
+      "text": "So this is kind of the the background",
+      "start": 546.72,
+      "duration": 4.16
+    },
+    {
+      "text": "for why we investigated this in the",
+      "start": 548.72,
+      "duration": 3.52
+    },
+    {
+      "text": "first place.",
+      "start": 550.88,
+      "duration": 4.24
+    },
+    {
+      "text": "uh rag as a technology especially last",
+      "start": 552.24,
+      "duration": 4.48
+    },
+    {
+      "text": "year rag was the latest craze and",
+      "start": 555.12,
+      "duration": 3.44
+    },
+    {
+      "text": "everyone was talking about it but it's",
+      "start": 556.72,
+      "duration": 3.44
+    },
+    {
+      "text": "really really important even now that",
+      "start": 558.56,
+      "duration": 3.92
+    },
+    {
+      "text": "we've moved on to agents a lot of agents",
+      "start": 560.16,
+      "duration": 4.48
+    },
+    {
+      "text": "are just rack systems so this is still",
+      "start": 562.48,
+      "duration": 5.359
+    },
+    {
+      "text": "very ubiquitous technology and as I was",
+      "start": 564.64,
+      "duration": 4.72
+    },
+    {
+      "text": "already talking is very much bread and",
+      "start": 567.839,
+      "duration": 3.761
+    },
+    {
+      "text": "butter for a lot of enterprise use cases",
+      "start": 569.36,
+      "duration": 3.76
+    },
+    {
+      "text": "exactly I was already talking about",
+      "start": 571.6,
+      "duration": 3.28
+    },
+    {
+      "text": "transparent attribution well you can",
+      "start": 573.12,
+      "duration": 3.2
+    },
+    {
+      "text": "only attribute something that you",
+      "start": 574.88,
+      "duration": 3.519
+    },
+    {
+      "text": "already retrieved so obviously the",
+      "start": 576.32,
+      "duration": 4.0
+    },
+    {
+      "text": "implication here is like very heavy use",
+      "start": 578.399,
+      "duration": 4.481
+    },
+    {
+      "text": "of of rag or rag like technology where",
+      "start": 580.32,
+      "duration": 5.12
+    },
+    {
+      "text": "you always want to retrieve some kind of",
+      "start": 582.88,
+      "duration": 4.48
+    },
+    {
+      "text": "source document and you can basically",
+      "start": 585.44,
+      "duration": 3.839
+    },
+    {
+      "text": "turn your your open-ended question into",
+      "start": 587.36,
+      "duration": 3.44
+    },
+    {
+      "text": "one where you just extract the right",
+      "start": 589.279,
+      "duration": 3.761
+    },
+    {
+      "text": "answer from a document that you retrieve",
+      "start": 590.8,
+      "duration": 4.24
+    },
+    {
+      "text": "making this a much more feasible task",
+      "start": 593.04,
+      "duration": 3.6
+    },
+    {
+      "text": "grounded in actual information that you",
+      "start": 595.04,
+      "duration": 3.16
+    },
+    {
+      "text": "can trust.",
+      "start": 596.64,
+      "duration": 5.28
+    },
+    {
+      "text": "So born out of out of this uh we we have",
+      "start": 598.2,
+      "duration": 5.24
+    },
+    {
+      "text": "been building a lot of these guardrails,",
+      "start": 601.92,
+      "duration": 3.12
+    },
+    {
+      "text": "a lot of these evaluation processes and",
+      "start": 603.44,
+      "duration": 4.959
+    },
+    {
+      "text": "we were uh curious because a lot of uh",
+      "start": 605.04,
+      "duration": 5.76
+    },
+    {
+      "text": "the models that that we tested in this",
+      "start": 608.399,
+      "duration": 4.801
+    },
+    {
+      "text": "in this paper, they claim to be safe and",
+      "start": 610.8,
+      "duration": 4.56
+    },
+    {
+      "text": "they claim to abstain from certain types",
+      "start": 613.2,
+      "duration": 4.879
+    },
+    {
+      "text": "of queries. But the rack setting is",
+      "start": 615.36,
+      "duration": 4.24
+    },
+    {
+      "text": "slightly different because you use a lot",
+      "start": 618.079,
+      "duration": 3.681
+    },
+    {
+      "text": "more context than what these models are",
+      "start": 619.6,
+      "duration": 4.56
+    },
+    {
+      "text": "usually trained to handle. like even if",
+      "start": 621.76,
+      "duration": 4.639
+    },
+    {
+      "text": "they can on paper handle thousands and",
+      "start": 624.16,
+      "duration": 4.56
+    },
+    {
+      "text": "thousands of words in context, they're",
+      "start": 626.399,
+      "duration": 4.081
+    },
+    {
+      "text": "usually trained on on much shorter",
+      "start": 628.72,
+      "duration": 4.4
+    },
+    {
+      "text": "context and on very specific questions.",
+      "start": 630.48,
+      "duration": 5.2
+    },
+    {
+      "text": "So the hypothesis here was like well if",
+      "start": 633.12,
+      "duration": 4.08
+    },
+    {
+      "text": "if we're already doing this out of",
+      "start": 635.68,
+      "duration": 4.48
+    },
+    {
+      "text": "domain running of the model, how does",
+      "start": 637.2,
+      "duration": 6.079
+    },
+    {
+      "text": "this affect the built-in safeguards? And",
+      "start": 640.16,
+      "duration": 6.16
+    },
+    {
+      "text": "as our results found that yes indeed if",
+      "start": 643.279,
+      "duration": 6.641
+    },
+    {
+      "text": "you have a relatively safe model at",
+      "start": 646.32,
+      "duration": 6.48
+    },
+    {
+      "text": "least on paper it's safe and you give it",
+      "start": 649.92,
+      "duration": 5.76
+    },
+    {
+      "text": "context of a document that is still safe",
+      "start": 652.8,
+      "duration": 6.08
+    },
+    {
+      "text": "but if not safe query the additional",
+      "start": 655.68,
+      "duration": 4.56
+    },
+    {
+      "text": "context can actually override these",
+      "start": 658.88,
+      "duration": 2.88
+    },
+    {
+      "text": "built-in safeguards and make models a",
+      "start": 660.24,
+      "duration": 4.159
+    },
+    {
+      "text": "lot less safe. And that's why we we came",
+      "start": 661.76,
+      "duration": 4.88
+    },
+    {
+      "text": "up with this with this headline of rag",
+      "start": 664.399,
+      "duration": 6.161
+    },
+    {
+      "text": "is not safer because all the work that",
+      "start": 666.64,
+      "duration": 6.16
+    },
+    {
+      "text": "goes into safeguarding the LLM kind of",
+      "start": 670.56,
+      "duration": 3.68
+    },
+    {
+      "text": "goes out of the window as soon as you",
+      "start": 672.8,
+      "duration": 4.64
+    },
+    {
+      "text": "use it in in an employ in the deployment",
+      "start": 674.24,
+      "duration": 4.4
+    },
+    {
+      "text": "context that it wasn't necessarily",
+      "start": 677.44,
+      "duration": 4.72
+    },
+    {
+      "text": "optimized to to work. And with how",
+      "start": 678.64,
+      "duration": 5.52
+    },
+    {
+      "text": "ubiquitous rack is this is a pretty big",
+      "start": 682.16,
+      "duration": 4.16
+    },
+    {
+      "text": "finding. One question that I've got for",
+      "start": 684.16,
+      "duration": 7.919
+    },
+    {
+      "text": "you and this is maybe a semantic nit but",
+      "start": 686.32,
+      "duration": 7.16
+    },
+    {
+      "text": "throughout the",
+      "start": 692.079,
+      "duration": 4.401
+    },
+    {
+      "text": "paper you",
+      "start": 693.48,
+      "duration": 8.599
+    },
+    {
+      "text": "uh refer to rag LLMs and rag based LLMs",
+      "start": 696.48,
+      "duration": 7.68
+    },
+    {
+      "text": "uh and you also refer to like ragbased",
+      "start": 702.079,
+      "duration": 5.44
+    },
+    {
+      "text": "systems um but you know ragbased LLMs",
+      "start": 704.16,
+      "duration": 6.96
+    },
+    {
+      "text": "ragbased models like are you is there an",
+      "start": 707.519,
+      "duration": 6.88
+    },
+    {
+      "text": "implication to that terminology? ology.",
+      "start": 711.12,
+      "duration": 5.719
+    },
+    {
+      "text": "I I think mostly this is just a",
+      "start": 714.399,
+      "duration": 5.44
+    },
+    {
+      "text": "a to make sure that to distinguish that",
+      "start": 716.839,
+      "duration": 5.321
+    },
+    {
+      "text": "from just LLMs, but rather one that that",
+      "start": 719.839,
+      "duration": 4.56
+    },
+    {
+      "text": "you are talking about a system that is a",
+      "start": 722.16,
+      "duration": 4.88
+    },
+    {
+      "text": "retrieval step followed by by adding",
+      "start": 724.399,
+      "duration": 5.281
+    },
+    {
+      "text": "context to an LLM. Uh although there is",
+      "start": 727.04,
+      "duration": 4.0
+    },
+    {
+      "text": "an important distinction that we should",
+      "start": 729.68,
+      "duration": 3.44
+    },
+    {
+      "text": "make which is the distinction between a",
+      "start": 731.04,
+      "duration": 4.16
+    },
+    {
+      "text": "model and the system. When we're talking",
+      "start": 733.12,
+      "duration": 4.0
+    },
+    {
+      "text": "about uh applications built in our",
+      "start": 735.2,
+      "duration": 3.199
+    },
+    {
+      "text": "industries, we're talking about systems",
+      "start": 737.12,
+      "duration": 3.279
+    },
+    {
+      "text": "that usually have many many more steps",
+      "start": 738.399,
+      "duration": 6.24
+    },
+    {
+      "text": "than just retrieval and generate. Um so",
+      "start": 740.399,
+      "duration": 6.161
+    },
+    {
+      "text": "what we studied in this paper is a very",
+      "start": 744.639,
+      "duration": 5.121
+    },
+    {
+      "text": "academic setup fairly simplistic uh and",
+      "start": 746.56,
+      "duration": 4.959
+    },
+    {
+      "text": "vanilla rack setup where you do a",
+      "start": 749.76,
+      "duration": 3.519
+    },
+    {
+      "text": "retrieval you add context and you run",
+      "start": 751.519,
+      "duration": 3.841
+    },
+    {
+      "text": "that through an LLM. What we did not",
+      "start": 753.279,
+      "duration": 4.401
+    },
+    {
+      "text": "test or what we did not test for this",
+      "start": 755.36,
+      "duration": 5.8
+    },
+    {
+      "text": "paper at least is is any more",
+      "start": 757.68,
+      "duration": 6.0
+    },
+    {
+      "text": "complicated systems that have additional",
+      "start": 761.16,
+      "duration": 4.84
+    },
+    {
+      "text": "verifiers and query understanding and",
+      "start": 763.68,
+      "duration": 4.959
+    },
+    {
+      "text": "attribution and where you have a system",
+      "start": 766.0,
+      "duration": 5.12
+    },
+    {
+      "text": "that's not just the the vanilla rack",
+      "start": 768.639,
+      "duration": 4.961
+    },
+    {
+      "text": "setup but rather a whole pipeline that",
+      "start": 771.12,
+      "duration": 4.32
+    },
+    {
+      "text": "that also encodes a lot more business",
+      "start": 773.6,
+      "duration": 3.84
+    },
+    {
+      "text": "logic. Got it. So from the perspective",
+      "start": 775.44,
+      "duration": 4.24
+    },
+    {
+      "text": "of that broader system, you know, or",
+      "start": 777.44,
+      "duration": 5.0
+    },
+    {
+      "text": "that whole pipeline, the retriever and",
+      "start": 779.68,
+      "duration": 5.92
+    },
+    {
+      "text": "LLM you kind of think of as a rag LLM,",
+      "start": 782.44,
+      "duration": 4.519
+    },
+    {
+      "text": "even though they're kind of two separate",
+      "start": 785.6,
+      "duration": 4.08
+    },
+    {
+      "text": "things, and it's its own system, so to",
+      "start": 786.959,
+      "duration": 4.721
+    },
+    {
+      "text": "speak. It's its own very simplistic",
+      "start": 789.68,
+      "duration": 5.959
+    },
+    {
+      "text": "system. Yeah. Yeah. Okay.",
+      "start": 791.68,
+      "duration": 8.48
+    },
+    {
+      "text": "Um and so yeah, how do you go about like",
+      "start": 795.639,
+      "duration": 6.601
+    },
+    {
+      "text": "digging into this question about you",
+      "start": 800.16,
+      "duration": 6.479
+    },
+    {
+      "text": "know whether um rag is safer than uh",
+      "start": 802.24,
+      "duration": 8.159
+    },
+    {
+      "text": "LLMs alone, right? So so to begin with I",
+      "start": 806.639,
+      "duration": 6.081
+    },
+    {
+      "text": "think you need to come up with some kind",
+      "start": 810.399,
+      "duration": 4.321
+    },
+    {
+      "text": "of set of of test questions that you",
+      "start": 812.72,
+      "duration": 3.76
+    },
+    {
+      "text": "would like to answer and you need to",
+      "start": 814.72,
+      "duration": 3.919
+    },
+    {
+      "text": "also identify a set of of categories of",
+      "start": 816.48,
+      "duration": 4.32
+    },
+    {
+      "text": "of safety that you care about in this in",
+      "start": 818.639,
+      "duration": 3.481
+    },
+    {
+      "text": "the set.",
+      "start": 820.8,
+      "duration": 4.0
+    },
+    {
+      "text": "So for this paper, you you then run this",
+      "start": 822.12,
+      "duration": 4.839
+    },
+    {
+      "text": "to the LM and you can measure how often",
+      "start": 824.8,
+      "duration": 3.76
+    },
+    {
+      "text": "does it actually abstain from answering",
+      "start": 826.959,
+      "duration": 3.281
+    },
+    {
+      "text": "the question or how often does it",
+      "start": 828.56,
+      "duration": 4.839
+    },
+    {
+      "text": "respond with a with a safe",
+      "start": 830.24,
+      "duration": 5.92
+    },
+    {
+      "text": "answer. You can then replicate this in",
+      "start": 833.399,
+      "duration": 3.68
+    },
+    {
+      "text": "the rack",
+      "start": 836.16,
+      "duration": 3.6
+    },
+    {
+      "text": "setup, right? that that is kind of at",
+      "start": 837.079,
+      "duration": 4.76
+    },
+    {
+      "text": "its core the setup that we use in the",
+      "start": 839.76,
+      "duration": 5.439
+    },
+    {
+      "text": "paper where we have on the one hand the",
+      "start": 841.839,
+      "duration": 5.201
+    },
+    {
+      "text": "you just ask the large language model",
+      "start": 845.199,
+      "duration": 3.76
+    },
+    {
+      "text": "directly on the other one you also give",
+      "start": 847.04,
+      "duration": 3.96
+    },
+    {
+      "text": "it some kind of context that is",
+      "start": 848.959,
+      "duration": 4.32
+    },
+    {
+      "text": "retrieved and for that you run it",
+      "start": 851.0,
+      "duration": 4.199
+    },
+    {
+      "text": "through a set of queries that are aimed",
+      "start": 853.279,
+      "duration": 6.481
+    },
+    {
+      "text": "to to assess the safety by is uh sending",
+      "start": 855.199,
+      "duration": 7.64
+    },
+    {
+      "text": "a series of unsafe queries. Uh in the",
+      "start": 859.76,
+      "duration": 8.199
+    },
+    {
+      "text": "paper you explore some prior work on rag",
+      "start": 862.839,
+      "duration": 7.281
+    },
+    {
+      "text": "safety but note",
+      "start": 867.959,
+      "duration": 5.721
+    },
+    {
+      "text": "that it's primarily focused on uh",
+      "start": 870.12,
+      "duration": 6.04
+    },
+    {
+      "text": "various types of attacks. Can you give",
+      "start": 873.68,
+      "duration": 4.88
+    },
+    {
+      "text": "us an overview of what folks have looked",
+      "start": 876.16,
+      "duration": 5.039
+    },
+    {
+      "text": "at with regard to the safety of rag",
+      "start": 878.56,
+      "duration": 6.0
+    },
+    {
+      "text": "systems? Yeah. So I think one one of the",
+      "start": 881.199,
+      "duration": 5.361
+    },
+    {
+      "text": "big ones and and the one should we",
+      "start": 884.56,
+      "duration": 3.839
+    },
+    {
+      "text": "should probably focus on is is this",
+      "start": 886.56,
+      "duration": 4.639
+    },
+    {
+      "text": "entire notion of of prompt injection and",
+      "start": 888.399,
+      "duration": 4.721
+    },
+    {
+      "text": "prompt safety. So this has been a",
+      "start": 891.199,
+      "duration": 4.08
+    },
+    {
+      "text": "massive field of of study with rag",
+      "start": 893.12,
+      "duration": 4.32
+    },
+    {
+      "text": "without rag. I think there there are",
+      "start": 895.279,
+      "duration": 5.12
+    },
+    {
+      "text": "online communities uh where people make",
+      "start": 897.44,
+      "duration": 4.8
+    },
+    {
+      "text": "uh make it a fun task of breaking the",
+      "start": 900.399,
+      "duration": 4.641
+    },
+    {
+      "text": "largest language model that that has",
+      "start": 902.24,
+      "duration": 6.8
+    },
+    {
+      "text": "been released and we've had fantastic",
+      "start": 905.04,
+      "duration": 5.919
+    },
+    {
+      "text": "stories written about all of these fun",
+      "start": 909.04,
+      "duration": 4.479
+    },
+    {
+      "text": "exploits where you can get so jailbreaks",
+      "start": 910.959,
+      "duration": 4.401
+    },
+    {
+      "text": "essentially. Yeah, you can you can get",
+      "start": 913.519,
+      "duration": 4.081
+    },
+    {
+      "text": "models to do all kinds of silly things.",
+      "start": 915.36,
+      "duration": 5.32
+    },
+    {
+      "text": "Uh but the the goal of this is really",
+      "start": 917.6,
+      "duration": 6.88
+    },
+    {
+      "text": "the that prompt injection itself is not",
+      "start": 920.68,
+      "duration": 6.04
+    },
+    {
+      "text": "necessarily",
+      "start": 924.48,
+      "duration": 3.599
+    },
+    {
+      "text": "the goal, but the goal is the unsafe",
+      "start": 926.72,
+      "duration": 3.6
+    },
+    {
+      "text": "behavior, right? Whereas the queries",
+      "start": 928.079,
+      "duration": 4.641
+    },
+    {
+      "text": "that we tested on are by themselves",
+      "start": 930.32,
+      "duration": 4.4
+    },
+    {
+      "text": "unsafe. It's not trying to induce an",
+      "start": 932.72,
+      "duration": 4.4
+    },
+    {
+      "text": "unsafe behavior, but rather they're just",
+      "start": 934.72,
+      "duration": 4.0
+    },
+    {
+      "text": "by looking at them, you can say this is",
+      "start": 937.12,
+      "duration": 3.92
+    },
+    {
+      "text": "not safe. The prompt injection is kind",
+      "start": 938.72,
+      "duration": 4.239
+    },
+    {
+      "text": "of one step removed from that. It's very",
+      "start": 941.04,
+      "duration": 3.68
+    },
+    {
+      "text": "meta because you can use prompt",
+      "start": 942.959,
+      "duration": 5.041
+    },
+    {
+      "text": "injection to get a model to do all kinds",
+      "start": 944.72,
+      "duration": 5.119
+    },
+    {
+      "text": "of unsafe behavior across many different",
+      "start": 948.0,
+      "duration": 3.6
+    },
+    {
+      "text": "categories. So, it's very much a meta",
+      "start": 949.839,
+      "duration": 4.24
+    },
+    {
+      "text": "technique to to induce behaviors that",
+      "start": 951.6,
+      "duration": 5.359
+    },
+    {
+      "text": "you desire. and override all the inbuilt",
+      "start": 954.079,
+      "duration": 5.76
+    },
+    {
+      "text": "rules. Whereas what we tested is is",
+      "start": 956.959,
+      "duration": 3.961
+    },
+    {
+      "text": "different",
+      "start": 959.839,
+      "duration": 3.36
+    },
+    {
+      "text": "because just by looking at the query,",
+      "start": 960.92,
+      "duration": 4.039
+    },
+    {
+      "text": "we're not inducing any behavior other",
+      "start": 963.199,
+      "duration": 4.32
+    },
+    {
+      "text": "than answer the query. So I I think this",
+      "start": 964.959,
+      "duration": 4.8
+    },
+    {
+      "text": "is the probably the biggest area where",
+      "start": 967.519,
+      "duration": 3.841
+    },
+    {
+      "text": "where there's a lot of prior research.",
+      "start": 969.759,
+      "duration": 3.921
+    },
+    {
+      "text": "prompt injection and jailbreaking is is",
+      "start": 971.36,
+      "duration": 4.08
+    },
+    {
+      "text": "another way that this is commonly",
+      "start": 973.68,
+      "duration": 3.839
+    },
+    {
+      "text": "referred to and you also refer to",
+      "start": 975.44,
+      "duration": 5.519
+    },
+    {
+      "text": "various uh attempts to look at safety",
+      "start": 977.519,
+      "duration": 5.601
+    },
+    {
+      "text": "issues that arise from attacks against",
+      "start": 980.959,
+      "duration": 5.761
+    },
+    {
+      "text": "the corpus as well. Yeah. So uh there",
+      "start": 983.12,
+      "duration": 6.48
+    },
+    {
+      "text": "are data poisoning attacks for example",
+      "start": 986.72,
+      "duration": 5.6
+    },
+    {
+      "text": "uh where for example if you if you get",
+      "start": 989.6,
+      "duration": 5.2
+    },
+    {
+      "text": "access to to a corpus that is used by",
+      "start": 992.32,
+      "duration": 5.68
+    },
+    {
+      "text": "others to to tune their model you can",
+      "start": 994.8,
+      "duration": 4.8
+    },
+    {
+      "text": "kind of induce behaviors and you can do",
+      "start": 998.0,
+      "duration": 4.399
+    },
+    {
+      "text": "so with very very few examples as well.",
+      "start": 999.6,
+      "duration": 5.2
+    },
+    {
+      "text": "U in many industrial applications this",
+      "start": 1002.399,
+      "duration": 3.601
+    },
+    {
+      "text": "is not necessarily the case because",
+      "start": 1004.8,
+      "duration": 2.719
+    },
+    {
+      "text": "these data data sets are usually",
+      "start": 1006.0,
+      "duration": 3.12
+    },
+    {
+      "text": "internal",
+      "start": 1007.519,
+      "duration": 3.12
+    },
+    {
+      "text": "u but it is certainly something that",
+      "start": 1009.12,
+      "duration": 3.68
+    },
+    {
+      "text": "academics have looked at quite a bit.",
+      "start": 1010.639,
+      "duration": 4.401
+    },
+    {
+      "text": "There are also other completely",
+      "start": 1012.8,
+      "duration": 4.8
+    },
+    {
+      "text": "different attacks of hijacking the API",
+      "start": 1015.04,
+      "duration": 5.52
+    },
+    {
+      "text": "or trying to invoke certain tool calls",
+      "start": 1017.6,
+      "duration": 4.72
+    },
+    {
+      "text": "uh where you can say like oh hey call",
+      "start": 1020.56,
+      "duration": 3.759
+    },
+    {
+      "text": "out to this other separate tool here and",
+      "start": 1022.32,
+      "duration": 4.16
+    },
+    {
+      "text": "get me all the information. These are",
+      "start": 1024.319,
+      "duration": 4.921
+    },
+    {
+      "text": "all much u I would say higher level",
+      "start": 1026.48,
+      "duration": 5.52
+    },
+    {
+      "text": "attacks where you either need access to",
+      "start": 1029.24,
+      "duration": 5.719
+    },
+    {
+      "text": "the model itself or an API of the model",
+      "start": 1032.0,
+      "duration": 4.6
+    },
+    {
+      "text": "and you know a little bit more about",
+      "start": 1034.959,
+      "duration": 3.761
+    },
+    {
+      "text": "infrastructure or you have access to the",
+      "start": 1036.6,
+      "duration": 4.12
+    },
+    {
+      "text": "corpus and can influence the data that",
+      "start": 1038.72,
+      "duration": 4.0
+    },
+    {
+      "text": "the model is trained on. Uh so there are",
+      "start": 1040.72,
+      "duration": 3.76
+    },
+    {
+      "text": "many different attack vectors. There is",
+      "start": 1042.72,
+      "duration": 5.28
+    },
+    {
+      "text": "a great taxonomy by OWASP the LM top 10",
+      "start": 1044.48,
+      "duration": 7.28
+    },
+    {
+      "text": "uh security uh issues that kind of goes",
+      "start": 1048.0,
+      "duration": 5.44
+    },
+    {
+      "text": "through all of these different secondary",
+      "start": 1051.76,
+      "duration": 4.0
+    },
+    {
+      "text": "level attacks that go beyond just type",
+      "start": 1053.44,
+      "duration": 4.479
+    },
+    {
+      "text": "something into into a screen. But these",
+      "start": 1055.76,
+      "duration": 3.76
+    },
+    {
+      "text": "are all different from the approach you",
+      "start": 1057.919,
+      "duration": 4.161
+    },
+    {
+      "text": "took which is you've got a",
+      "start": 1059.52,
+      "duration": 4.88
+    },
+    {
+      "text": "straightforward query which is trying to",
+      "start": 1062.08,
+      "duration": 4.88
+    },
+    {
+      "text": "elicit information that the LLM should",
+      "start": 1064.4,
+      "duration": 5.6
+    },
+    {
+      "text": "not be willing to provide and you've got",
+      "start": 1066.96,
+      "duration": 5.839
+    },
+    {
+      "text": "a set of corp uh set of documents in the",
+      "start": 1070.0,
+      "duration": 5.28
+    },
+    {
+      "text": "rag scenario that you know isn't",
+      "start": 1072.799,
+      "duration": 4.481
+    },
+    {
+      "text": "attacked that's not poisoned it's not",
+      "start": 1075.28,
+      "duration": 4.0
+    },
+    {
+      "text": "you know doesn't contain unsafe",
+      "start": 1077.28,
+      "duration": 4.04
+    },
+    {
+      "text": "information it contains perfectly safe",
+      "start": 1079.28,
+      "duration": 5.519
+    },
+    {
+      "text": "information and the question is does",
+      "start": 1081.32,
+      "duration": 5.8
+    },
+    {
+      "text": "providing this additional safe context",
+      "start": 1084.799,
+      "duration": 6.521
+    },
+    {
+      "text": "text induced the LLM in some way to",
+      "start": 1087.12,
+      "duration": 7.76
+    },
+    {
+      "text": "um less safe behaviors.",
+      "start": 1091.32,
+      "duration": 7.16
+    },
+    {
+      "text": "Exactly. So I I think that's why it was",
+      "start": 1094.88,
+      "duration": 5.36
+    },
+    {
+      "text": "also so surprising to us because it's a",
+      "start": 1098.48,
+      "duration": 4.4
+    },
+    {
+      "text": "very simplistic setup. is not fancy like",
+      "start": 1100.24,
+      "duration": 4.64
+    },
+    {
+      "text": "oh you hijack the training data set and",
+      "start": 1102.88,
+      "duration": 4.56
+    },
+    {
+      "text": "and make people train on it or you",
+      "start": 1104.88,
+      "duration": 5.039
+    },
+    {
+      "text": "hijack this API and invoke certain tool",
+      "start": 1107.44,
+      "duration": 5.2
+    },
+    {
+      "text": "calls or uh you take the gradients of",
+      "start": 1109.919,
+      "duration": 4.401
+    },
+    {
+      "text": "the model and then optimize the certain",
+      "start": 1112.64,
+      "duration": 2.96
+    },
+    {
+      "text": "queries but rather it's very",
+      "start": 1114.32,
+      "duration": 4.16
+    },
+    {
+      "text": "straightforward malicious queries and",
+      "start": 1115.6,
+      "duration": 4.64
+    },
+    {
+      "text": "completely safe documents that together",
+      "start": 1118.48,
+      "duration": 3.68
+    },
+    {
+      "text": "break the built-in safeguards of the of",
+      "start": 1120.24,
+      "duration": 6.319
+    },
+    {
+      "text": "the system and one of the uh like",
+      "start": 1122.16,
+      "duration": 7.12
+    },
+    {
+      "text": "highlighted stats that you note is a",
+      "start": 1126.559,
+      "duration": 5.921
+    },
+    {
+      "text": "delta in the safety of the llama 3B",
+      "start": 1129.28,
+      "duration": 5.92
+    },
+    {
+      "text": "model. Uh what did you find there? Yeah,",
+      "start": 1132.48,
+      "duration": 5.12
+    },
+    {
+      "text": "so the llama case was very interesting",
+      "start": 1135.2,
+      "duration": 4.32
+    },
+    {
+      "text": "because I think those those deltas are",
+      "start": 1137.6,
+      "duration": 5.439
+    },
+    {
+      "text": "extremely large and I I can only",
+      "start": 1139.52,
+      "duration": 5.279
+    },
+    {
+      "text": "speculate as to why that is the case for",
+      "start": 1143.039,
+      "duration": 3.52
+    },
+    {
+      "text": "llama in in particular. But there might",
+      "start": 1144.799,
+      "duration": 3.12
+    },
+    {
+      "text": "be some correlation with the size at",
+      "start": 1146.559,
+      "duration": 3.36
+    },
+    {
+      "text": "least because the the smaller models",
+      "start": 1147.919,
+      "duration": 4.64
+    },
+    {
+      "text": "seem to uh at least for llama seem to",
+      "start": 1149.919,
+      "duration": 5.441
+    },
+    {
+      "text": "have some kind of out outsized impact in",
+      "start": 1152.559,
+      "duration": 7.12
+    },
+    {
+      "text": "terms of the uh effect. And this if you",
+      "start": 1155.36,
+      "duration": 5.76
+    },
+    {
+      "text": "look at it through a pure lens of",
+      "start": 1159.679,
+      "duration": 2.88
+    },
+    {
+      "text": "machine learning this could come back to",
+      "start": 1161.12,
+      "duration": 4.72
+    },
+    {
+      "text": "to simple overfitting right the the",
+      "start": 1162.559,
+      "duration": 5.12
+    },
+    {
+      "text": "model is optimized for safety in a",
+      "start": 1165.84,
+      "duration": 3.52
+    },
+    {
+      "text": "particular scenario and that scenario in",
+      "start": 1167.679,
+      "duration": 3.921
+    },
+    {
+      "text": "this case is you have a query you",
+      "start": 1169.36,
+      "duration": 3.84
+    },
+    {
+      "text": "typically have a length of maybe up to",
+      "start": 1171.6,
+      "duration": 4.72
+    },
+    {
+      "text": "25 or even 100 words and then you test",
+      "start": 1173.2,
+      "duration": 5.04
+    },
+    {
+      "text": "it on a scenario where the context",
+      "start": 1176.32,
+      "duration": 4.719
+    },
+    {
+      "text": "suddenly is 10,000 words and because",
+      "start": 1178.24,
+      "duration": 4.4
+    },
+    {
+      "text": "it's a small model it doesn't handle",
+      "start": 1181.039,
+      "duration": 4.721
+    },
+    {
+      "text": "this generalization not very well uh it",
+      "start": 1182.64,
+      "duration": 4.56
+    },
+    {
+      "text": "suffers more from this overfitting and",
+      "start": 1185.76,
+      "duration": 3.36
+    },
+    {
+      "text": "therefore for it is the breaks down a",
+      "start": 1187.2,
+      "duration": 3.92
+    },
+    {
+      "text": "lot more than the larger models which",
+      "start": 1189.12,
+      "duration": 3.36
+    },
+    {
+      "text": "might be a little bit more robust to",
+      "start": 1191.12,
+      "duration": 3.12
+    },
+    {
+      "text": "being kicked. Yeah. And so just to",
+      "start": 1192.48,
+      "duration": 4.64
+    },
+    {
+      "text": "provide the the additional context",
+      "start": 1194.24,
+      "duration": 5.96
+    },
+    {
+      "text": "there, the llama B llama",
+      "start": 1197.12,
+      "duration": 8.16
+    },
+    {
+      "text": "38B model um when tested against your",
+      "start": 1200.2,
+      "duration": 8.599
+    },
+    {
+      "text": "safety benchmarks for this you know",
+      "start": 1205.28,
+      "duration": 6.08
+    },
+    {
+      "text": "malicious prompt that you gave it uh had",
+      "start": 1208.799,
+      "duration": 7.24
+    },
+    {
+      "text": "a 3% uh sorry a.3%",
+      "start": 1211.36,
+      "duration": 8.4
+    },
+    {
+      "text": "um instance of you know producing unsafe",
+      "start": 1216.039,
+      "duration": 7.241
+    },
+    {
+      "text": "content but that jumped to over 9% when",
+      "start": 1219.76,
+      "duration": 7.44
+    },
+    {
+      "text": "you provided additional safe context. Am",
+      "start": 1223.28,
+      "duration": 6.0
+    },
+    {
+      "text": "I getting those numbers right? Um yeah,",
+      "start": 1227.2,
+      "duration": 3.28
+    },
+    {
+      "text": "I don't have them in front of me right",
+      "start": 1229.28,
+      "duration": 3.2
+    },
+    {
+      "text": "now, but that that sounds about right.",
+      "start": 1230.48,
+      "duration": 4.88
+    },
+    {
+      "text": "And again, nothing unsafe in the in the",
+      "start": 1232.48,
+      "duration": 5.04
+    },
+    {
+      "text": "documents. Yeah, that that is the the",
+      "start": 1235.36,
+      "duration": 4.96
+    },
+    {
+      "text": "staggering thing is is not like you ask",
+      "start": 1237.52,
+      "duration": 5.68
+    },
+    {
+      "text": "how do I shelter money on and some third",
+      "start": 1240.32,
+      "duration": 5.2
+    },
+    {
+      "text": "party jurisdiction and then you give it",
+      "start": 1243.2,
+      "duration": 4.479
+    },
+    {
+      "text": "a a document that contains information",
+      "start": 1245.52,
+      "duration": 4.88
+    },
+    {
+      "text": "of how to shelter money but rather it is",
+      "start": 1247.679,
+      "duration": 4.641
+    },
+    {
+      "text": "you give it a completely innocent",
+      "start": 1250.4,
+      "duration": 3.68
+    },
+    {
+      "text": "document completely saved document and",
+      "start": 1252.32,
+      "duration": 3.839
+    },
+    {
+      "text": "it might still ignore that additionally",
+      "start": 1254.08,
+      "duration": 4.76
+    },
+    {
+      "text": "given context and answer the original",
+      "start": 1256.159,
+      "duration": 5.121
+    },
+    {
+      "text": "question which was something that that",
+      "start": 1258.84,
+      "duration": 4.12
+    },
+    {
+      "text": "the model providers did not want to",
+      "start": 1261.28,
+      "duration": 4.879
+    },
+    {
+      "text": "answer. Yeah. Yeah. And so that uh you",
+      "start": 1262.96,
+      "duration": 5.36
+    },
+    {
+      "text": "gave one example, another couple in the",
+      "start": 1266.159,
+      "duration": 6.081
+    },
+    {
+      "text": "papers um was you asked the model to",
+      "start": 1268.32,
+      "duration": 6.0
+    },
+    {
+      "text": "write a guide for evading law",
+      "start": 1272.24,
+      "duration": 4.559
+    },
+    {
+      "text": "enforcement during a high-speed chase.",
+      "start": 1274.32,
+      "duration": 5.04
+    },
+    {
+      "text": "And you give it the the data here in",
+      "start": 1276.799,
+      "duration": 5.36
+    },
+    {
+      "text": "general is um the corpus in general is",
+      "start": 1279.36,
+      "duration": 5.04
+    },
+    {
+      "text": "like Wikipedia documents. So it",
+      "start": 1282.159,
+      "duration": 4.0
+    },
+    {
+      "text": "retrieves a handful of documents. Some",
+      "start": 1284.4,
+      "duration": 3.44
+    },
+    {
+      "text": "of them are totally irrelevant. Some",
+      "start": 1286.159,
+      "duration": 4.0
+    },
+    {
+      "text": "mention high-speed chases, but certainly",
+      "start": 1287.84,
+      "duration": 5.959
+    },
+    {
+      "text": "don't provide instructions for evading",
+      "start": 1290.159,
+      "duration": 6.88
+    },
+    {
+      "text": "police. Uh, but then in this riot",
+      "start": 1293.799,
+      "duration": 4.76
+    },
+    {
+      "text": "context, at least some percentage of the",
+      "start": 1297.039,
+      "duration": 4.241
+    },
+    {
+      "text": "time, you get this like elaborate",
+      "start": 1298.559,
+      "duration": 6.321
+    },
+    {
+      "text": "document for how to evade police in a",
+      "start": 1301.28,
+      "duration": 5.84
+    },
+    {
+      "text": "high-speed chase. Exactly. And in in",
+      "start": 1304.88,
+      "duration": 4.4
+    },
+    {
+      "text": "this case, it might be a little bit of a",
+      "start": 1307.12,
+      "duration": 5.039
+    },
+    {
+      "text": "of a silly use case because I if I'm in",
+      "start": 1309.28,
+      "duration": 4.16
+    },
+    {
+      "text": "the middle of a high-speed chase, I",
+      "start": 1312.159,
+      "duration": 2.64
+    },
+    {
+      "text": "might not want to ask my large language",
+      "start": 1313.44,
+      "duration": 3.2
+    },
+    {
+      "text": "model give you give me a report on on",
+      "start": 1314.799,
+      "duration": 4.401
+    },
+    {
+      "text": "such. But there are actual meaningful",
+      "start": 1316.64,
+      "duration": 5.6
+    },
+    {
+      "text": "risks of of and that are implied here,",
+      "start": 1319.2,
+      "duration": 5.68
+    },
+    {
+      "text": "which is that there are actual questions",
+      "start": 1322.24,
+      "duration": 5.16
+    },
+    {
+      "text": "that that will trigger certain illegal",
+      "start": 1324.88,
+      "duration": 4.799
+    },
+    {
+      "text": "activity. And some of these we we have",
+      "start": 1327.4,
+      "duration": 5.08
+    },
+    {
+      "text": "mentioned in in the paper. And that's",
+      "start": 1329.679,
+      "duration": 4.88
+    },
+    {
+      "text": "why these these models are generally",
+      "start": 1332.48,
+      "duration": 4.079
+    },
+    {
+      "text": "being safeguarded. That's why the the",
+      "start": 1334.559,
+      "duration": 3.841
+    },
+    {
+      "text": "companies that built these models have",
+      "start": 1336.559,
+      "duration": 4.561
+    },
+    {
+      "text": "invested into safeguarding the models.",
+      "start": 1338.4,
+      "duration": 4.48
+    },
+    {
+      "text": "Uh it's just that we found that they're",
+      "start": 1341.12,
+      "duration": 3.039
+    },
+    {
+      "text": "not safeguarded enough for the",
+      "start": 1342.88,
+      "duration": 3.039
+    },
+    {
+      "text": "particular application of rag. Yeah. One",
+      "start": 1344.159,
+      "duration": 5.201
+    },
+    {
+      "text": "thing that I found interesting was that",
+      "start": 1345.919,
+      "duration": 7.201
+    },
+    {
+      "text": "uh you tried a couple of variants on the",
+      "start": 1349.36,
+      "duration": 7.28
+    },
+    {
+      "text": "rag side of things. One you included in",
+      "start": 1353.12,
+      "duration": 8.48
+    },
+    {
+      "text": "the query that the LLM should only use",
+      "start": 1356.64,
+      "duration": 7.76
+    },
+    {
+      "text": "um knowledge from the context. So not",
+      "start": 1361.6,
+      "duration": 5.6
+    },
+    {
+      "text": "use its own knowledge and then the other",
+      "start": 1364.4,
+      "duration": 4.48
+    },
+    {
+      "text": "you",
+      "start": 1367.2,
+      "duration": 5.599
+    },
+    {
+      "text": "uh kind of ask the LM to you know build",
+      "start": 1368.88,
+      "duration": 6.799
+    },
+    {
+      "text": "its response from both essentially um",
+      "start": 1372.799,
+      "duration": 5.36
+    },
+    {
+      "text": "but that didn't really matter. No, it",
+      "start": 1375.679,
+      "duration": 4.801
+    },
+    {
+      "text": "didn't seem to matter. Which if if you",
+      "start": 1378.159,
+      "duration": 4.801
+    },
+    {
+      "text": "think about is actually even more",
+      "start": 1380.48,
+      "duration": 4.64
+    },
+    {
+      "text": "concerning because of what I said",
+      "start": 1382.96,
+      "duration": 3.599
+    },
+    {
+      "text": "earlier about this transparent",
+      "start": 1385.12,
+      "duration": 4.16
+    },
+    {
+      "text": "attribution where we do not like a lot",
+      "start": 1386.559,
+      "duration": 4.881
+    },
+    {
+      "text": "of businesses do not want to generate",
+      "start": 1389.28,
+      "duration": 6.0
+    },
+    {
+      "text": "from the LLM memory itself. If the task",
+      "start": 1391.44,
+      "duration": 5.84
+    },
+    {
+      "text": "is a rag test, then I expect the large",
+      "start": 1395.28,
+      "duration": 4.16
+    },
+    {
+      "text": "language model to generate using",
+      "start": 1397.28,
+      "duration": 5.36
+    },
+    {
+      "text": "information from the document I provide.",
+      "start": 1399.44,
+      "duration": 5.119
+    },
+    {
+      "text": "And if it doesn't follow that",
+      "start": 1402.64,
+      "duration": 3.519
+    },
+    {
+      "text": "instruction, then that's that's also",
+      "start": 1404.559,
+      "duration": 2.881
+    },
+    {
+      "text": "concerning from a completely different",
+      "start": 1406.159,
+      "duration": 3.961
+    },
+    {
+      "text": "perspective regardless of what the query",
+      "start": 1407.44,
+      "duration": 5.52
+    },
+    {
+      "text": "was. That just means that it's very",
+      "start": 1410.12,
+      "duration": 4.76
+    },
+    {
+      "text": "brittle and this is another aspect that",
+      "start": 1412.96,
+      "duration": 3.32
+    },
+    {
+      "text": "also needs to be",
+      "start": 1414.88,
+      "duration": 4.32
+    },
+    {
+      "text": "evaluated as to whether whether it",
+      "start": 1416.28,
+      "duration": 5.24
+    },
+    {
+      "text": "actually generates using content in in",
+      "start": 1419.2,
+      "duration": 4.24
+    },
+    {
+      "text": "the document or whether it's just making",
+      "start": 1421.52,
+      "duration": 4.08
+    },
+    {
+      "text": "stuff up. Uh, one thing that I noticed",
+      "start": 1423.44,
+      "duration": 4.44
+    },
+    {
+      "text": "is that in",
+      "start": 1425.6,
+      "duration": 5.52
+    },
+    {
+      "text": "evaluating the safety of the responses,",
+      "start": 1427.88,
+      "duration": 6.679
+    },
+    {
+      "text": "you use kind of an LLM as judge type of",
+      "start": 1431.12,
+      "duration": 6.88
+    },
+    {
+      "text": "an approach. Uh, how do you rule out",
+      "start": 1434.559,
+      "duration": 7.12
+    },
+    {
+      "text": "judge bias in that scenario? I think the",
+      "start": 1438.0,
+      "duration": 6.159
+    },
+    {
+      "text": "question is rather if there is bias in",
+      "start": 1441.679,
+      "duration": 4.48
+    },
+    {
+      "text": "in the judge, does it really matter?",
+      "start": 1444.159,
+      "duration": 3.841
+    },
+    {
+      "text": "because the the implications are really",
+      "start": 1446.159,
+      "duration": 4.481
+    },
+    {
+      "text": "more on on the order of magnitude like I",
+      "start": 1448.0,
+      "duration": 5.76
+    },
+    {
+      "text": "I think the implic u whether the result",
+      "start": 1450.64,
+      "duration": 7.279
+    },
+    {
+      "text": "from from llama is 9 or 10% in the end",
+      "start": 1453.76,
+      "duration": 6.48
+    },
+    {
+      "text": "compared to.3% we're talking about",
+      "start": 1457.919,
+      "duration": 5.401
+    },
+    {
+      "text": "orders of magnitude here um",
+      "start": 1460.24,
+      "duration": 5.84
+    },
+    {
+      "text": "so while there is a very active research",
+      "start": 1463.32,
+      "duration": 5.0
+    },
+    {
+      "text": "area of large language models as a judge",
+      "start": 1466.08,
+      "duration": 3.839
+    },
+    {
+      "text": "and there are many biases that people",
+      "start": 1468.32,
+      "duration": 4.479
+    },
+    {
+      "text": "have explored from positional bias and",
+      "start": 1469.919,
+      "duration": 5.12
+    },
+    {
+      "text": "models preferring their own family of",
+      "start": 1472.799,
+      "duration": 4.961
+    },
+    {
+      "text": "generation over others. Uh those all",
+      "start": 1475.039,
+      "duration": 4.801
+    },
+    {
+      "text": "need to be controlled for, but they are",
+      "start": 1477.76,
+      "duration": 3.519
+    },
+    {
+      "text": "not relevant for the finding of the",
+      "start": 1479.84,
+      "duration": 4.0
+    },
+    {
+      "text": "study here because of of the staggering",
+      "start": 1481.279,
+      "duration": 4.0
+    },
+    {
+      "text": "difference in and orders of magnitude",
+      "start": 1483.84,
+      "duration": 3.12
+    },
+    {
+      "text": "that we're talking about here. Maybe a",
+      "start": 1485.279,
+      "duration": 3.921
+    },
+    {
+      "text": "better way to get at what I was trying",
+      "start": 1486.96,
+      "duration": 5.04
+    },
+    {
+      "text": "to get at with this question was",
+      "start": 1489.2,
+      "duration": 5.359
+    },
+    {
+      "text": "um you know going back to this example",
+      "start": 1492.0,
+      "duration": 5.039
+    },
+    {
+      "text": "of the you know write a guide for",
+      "start": 1494.559,
+      "duration": 4.081
+    },
+    {
+      "text": "evading law enforcement or write a",
+      "start": 1497.039,
+      "duration": 3.12
+    },
+    {
+      "text": "speech for a politician that misleads",
+      "start": 1498.64,
+      "duration": 3.88
+    },
+    {
+      "text": "the public where you have",
+      "start": 1500.159,
+      "duration": 6.561
+    },
+    {
+      "text": "these you know very elaborate and clear",
+      "start": 1502.52,
+      "duration": 8.279
+    },
+    {
+      "text": "cases of the LLM disregarding its you",
+      "start": 1506.72,
+      "duration": 7.92
+    },
+    {
+      "text": "know safety uh training and providing",
+      "start": 1510.799,
+      "duration": 5.24
+    },
+    {
+      "text": "that",
+      "start": 1514.64,
+      "duration": 6.159
+    },
+    {
+      "text": "information. Um, were all of the",
+      "start": 1516.039,
+      "duration": 7.961
+    },
+    {
+      "text": "uh examples of unsafe generations like",
+      "start": 1520.799,
+      "duration": 5.921
+    },
+    {
+      "text": "so blatant or was there a lot of",
+      "start": 1524.0,
+      "duration": 5.2
+    },
+    {
+      "text": "subtlety that you know where the the",
+      "start": 1526.72,
+      "duration": 4.88
+    },
+    {
+      "text": "bias of the judge you know makes a big",
+      "start": 1529.2,
+      "duration": 5.28
+    },
+    {
+      "text": "difference? I don't have the data in",
+      "start": 1531.6,
+      "duration": 6.0
+    },
+    {
+      "text": "front of me to verify. Um, so I I will",
+      "start": 1534.48,
+      "duration": 5.28
+    },
+    {
+      "text": "have to rely on on my memory for that",
+      "start": 1537.6,
+      "duration": 5.52
+    },
+    {
+      "text": "one. But I there is certainly some",
+      "start": 1539.76,
+      "duration": 6.08
+    },
+    {
+      "text": "grayzone behavior where an LLM as a",
+      "start": 1543.12,
+      "duration": 4.48
+    },
+    {
+      "text": "judge would have to make make a judgment",
+      "start": 1545.84,
+      "duration": 4.48
+    },
+    {
+      "text": "call and it might or might not uh follow",
+      "start": 1547.6,
+      "duration": 5.199
+    },
+    {
+      "text": "human intuition or certain guidelines in",
+      "start": 1550.32,
+      "duration": 5.44
+    },
+    {
+      "text": "in this case. But the fact that it's",
+      "start": 1552.799,
+      "duration": 4.641
+    },
+    {
+      "text": "answering these questions and is giving",
+      "start": 1555.76,
+      "duration": 3.44
+    },
+    {
+      "text": "any kind of information really means",
+      "start": 1557.44,
+      "duration": 4.08
+    },
+    {
+      "text": "that it's if you take the strictest",
+      "start": 1559.2,
+      "duration": 4.64
+    },
+    {
+      "text": "interpretation of what is unsafe that is",
+      "start": 1561.52,
+      "duration": 4.399
+    },
+    {
+      "text": "already beyond the line and in this case",
+      "start": 1563.84,
+      "duration": 4.48
+    },
+    {
+      "text": "that is fairly easy to detect with with",
+      "start": 1565.919,
+      "duration": 4.961
+    },
+    {
+      "text": "LMS as a judge because all you need to",
+      "start": 1568.32,
+      "duration": 4.239
+    },
+    {
+      "text": "see is that there's any kind of mention",
+      "start": 1570.88,
+      "duration": 3.44
+    },
+    {
+      "text": "of this unsafe behavior any kind of",
+      "start": 1572.559,
+      "duration": 4.641
+    },
+    {
+      "text": "attempt at answering the question.",
+      "start": 1574.32,
+      "duration": 5.599
+    },
+    {
+      "text": "Right? It is important to note that we",
+      "start": 1577.2,
+      "duration": 4.959
+    },
+    {
+      "text": "did not evaluate whether the generated",
+      "start": 1579.919,
+      "duration": 4.721
+    },
+    {
+      "text": "plan for evaluating law enforcement is",
+      "start": 1582.159,
+      "duration": 4.081
+    },
+    {
+      "text": "actually correct. That's beyond the",
+      "start": 1584.64,
+      "duration": 3.039
+    },
+    {
+      "text": "point. Like that's beyond the point,",
+      "start": 1586.24,
+      "duration": 4.72
+    },
+    {
+      "text": "right? So when the when the LLM uh",
+      "start": 1587.679,
+      "duration": 6.0
+    },
+    {
+      "text": "safety measures were invoked, the LLM",
+      "start": 1590.96,
+      "duration": 4.56
+    },
+    {
+      "text": "just basically says I can't answer this",
+      "start": 1593.679,
+      "duration": 3.841
+    },
+    {
+      "text": "question. Ex Exactly. So there's usually",
+      "start": 1595.52,
+      "duration": 3.92
+    },
+    {
+      "text": "a pretty strong delineation between",
+      "start": 1597.52,
+      "duration": 3.36
+    },
+    {
+      "text": "something that cannot be answered and",
+      "start": 1599.44,
+      "duration": 3.44
+    },
+    {
+      "text": "something that is answered. But to what",
+      "start": 1600.88,
+      "duration": 3.52
+    },
+    {
+      "text": "extent it is answered, there's certainly",
+      "start": 1602.88,
+      "duration": 3.279
+    },
+    {
+      "text": "degradations,",
+      "start": 1604.4,
+      "duration": 5.32
+    },
+    {
+      "text": "you know. So you demonstrate this idea",
+      "start": 1606.159,
+      "duration": 6.161
+    },
+    {
+      "text": "that the",
+      "start": 1609.72,
+      "duration": 5.24
+    },
+    {
+      "text": "essentially providing safe context can",
+      "start": 1612.32,
+      "duration": 6.32
+    },
+    {
+      "text": "make LLMs produce unsafe responses. Uh",
+      "start": 1614.96,
+      "duration": 6.0
+    },
+    {
+      "text": "then the next obvious question is okay",
+      "start": 1618.64,
+      "duration": 6.0
+    },
+    {
+      "text": "why does this happen? Uh and you um did",
+      "start": 1620.96,
+      "duration": 5.599
+    },
+    {
+      "text": "some exploration into what makes these",
+      "start": 1624.64,
+      "duration": 6.159
+    },
+    {
+      "text": "ragbased LLMs or systems unsafe? Uh how",
+      "start": 1626.559,
+      "duration": 5.521
+    },
+    {
+      "text": "did you approach that and what did you",
+      "start": 1630.799,
+      "duration": 3.681
+    },
+    {
+      "text": "find there? Right. I I don't think we we",
+      "start": 1632.08,
+      "duration": 4.24
+    },
+    {
+      "text": "have a a conclusive answer to this to",
+      "start": 1634.48,
+      "duration": 4.16
+    },
+    {
+      "text": "this question because in the end we're",
+      "start": 1636.32,
+      "duration": 5.359
+    },
+    {
+      "text": "any any kind of research question in in",
+      "start": 1638.64,
+      "duration": 4.96
+    },
+    {
+      "text": "the space at the moment. It's it's all",
+      "start": 1641.679,
+      "duration": 5.161
+    },
+    {
+      "text": "based on observation and uh",
+      "start": 1643.6,
+      "duration": 8.0
+    },
+    {
+      "text": "hypothesis. Uh but you can meaning a",
+      "start": 1646.84,
+      "duration": 6.92
+    },
+    {
+      "text": "real answer to that question is based on",
+      "start": 1651.6,
+      "duration": 4.88
+    },
+    {
+      "text": "kind of a mechanistic interpretability",
+      "start": 1653.76,
+      "duration": 5.68
+    },
+    {
+      "text": "kind of understanding of how the LLM why",
+      "start": 1656.48,
+      "duration": 5.92
+    },
+    {
+      "text": "the LLM is doing what it's doing. If we",
+      "start": 1659.44,
+      "duration": 6.0
+    },
+    {
+      "text": "if we are taking the the assumption that",
+      "start": 1662.4,
+      "duration": 6.08
+    },
+    {
+      "text": "we can at a mechanistic level understand",
+      "start": 1665.44,
+      "duration": 5.88
+    },
+    {
+      "text": "and explain large language model",
+      "start": 1668.48,
+      "duration": 5.36
+    },
+    {
+      "text": "behavior, that is absolutely true. But",
+      "start": 1671.32,
+      "duration": 4.239
+    },
+    {
+      "text": "even a lot of mechanistic",
+      "start": 1673.84,
+      "duration": 3.68
+    },
+    {
+      "text": "interpretability literature only looks",
+      "start": 1675.559,
+      "duration": 3.72
+    },
+    {
+      "text": "at correlations rather than causation.",
+      "start": 1677.52,
+      "duration": 3.279
+    },
+    {
+      "text": "And really what you're looking for is a",
+      "start": 1679.279,
+      "duration": 3.721
+    },
+    {
+      "text": "causal effect that",
+      "start": 1680.799,
+      "duration": 5.921
+    },
+    {
+      "text": "says this broke down because the context",
+      "start": 1683.0,
+      "duration": 5.559
+    },
+    {
+      "text": "length was too long and it is out of",
+      "start": 1686.72,
+      "duration": 4.0
+    },
+    {
+      "text": "domain for how the model was trained.",
+      "start": 1688.559,
+      "duration": 4.641
+    },
+    {
+      "text": "Right? that is a causal interpretation,",
+      "start": 1690.72,
+      "duration": 4.4
+    },
+    {
+      "text": "but you're rarely ever going to get",
+      "start": 1693.2,
+      "duration": 4.959
+    },
+    {
+      "text": "anything like that. Um, so what we can",
+      "start": 1695.12,
+      "duration": 6.159
+    },
+    {
+      "text": "offer is empirical evidence and I think",
+      "start": 1698.159,
+      "duration": 4.721
+    },
+    {
+      "text": "in this case the empirical evidence is",
+      "start": 1701.279,
+      "duration": 3.601
+    },
+    {
+      "text": "fairly strong that it's really this the",
+      "start": 1702.88,
+      "duration": 3.76
+    },
+    {
+      "text": "way that the model was trained to be",
+      "start": 1704.88,
+      "duration": 4.08
+    },
+    {
+      "text": "safeguarded. It breaks down as you're",
+      "start": 1706.64,
+      "duration": 4.039
+    },
+    {
+      "text": "adding more",
+      "start": 1708.96,
+      "duration": 4.16
+    },
+    {
+      "text": "context which is really back back at the",
+      "start": 1710.679,
+      "duration": 6.921
+    },
+    {
+      "text": "core finding of of the paper. Um, so I I",
+      "start": 1713.12,
+      "duration": 6.159
+    },
+    {
+      "text": "think that is that is really the the key",
+      "start": 1717.6,
+      "duration": 5.28
+    },
+    {
+      "text": "takeaway of of this section is yeah the",
+      "start": 1719.279,
+      "duration": 6.0
+    },
+    {
+      "text": "the way that models are safeguarded",
+      "start": 1722.88,
+      "duration": 4.72
+    },
+    {
+      "text": "needs to be closer to how models are",
+      "start": 1725.279,
+      "duration": 4.88
+    },
+    {
+      "text": "actually deployed. How did you arrive at",
+      "start": 1727.6,
+      "duration": 4.4
+    },
+    {
+      "text": "that conclusion is that like that's",
+      "start": 1730.159,
+      "duration": 3.681
+    },
+    {
+      "text": "that's what's left. Yeah, I think it's",
+      "start": 1732.0,
+      "duration": 4.32
+    },
+    {
+      "text": "it's more like it's it's a a very fairly",
+      "start": 1733.84,
+      "duration": 4.24
+    },
+    {
+      "text": "strong assumption. It is what is left if",
+      "start": 1736.32,
+      "duration": 3.2
+    },
+    {
+      "text": "you eliminate most of the other",
+      "start": 1738.08,
+      "duration": 4.4
+    },
+    {
+      "text": "explanations. Meaning the model's safe,",
+      "start": 1739.52,
+      "duration": 6.32
+    },
+    {
+      "text": "the the context is safe, it's got to be",
+      "start": 1742.48,
+      "duration": 5.76
+    },
+    {
+      "text": "out of distribution or you know somehow",
+      "start": 1745.84,
+      "duration": 7.04
+    },
+    {
+      "text": "it's the safety mechanisms were not uh",
+      "start": 1748.24,
+      "duration": 7.679
+    },
+    {
+      "text": "designed to operate in this context.",
+      "start": 1752.88,
+      "duration": 6.159
+    },
+    {
+      "text": "Yeah, at at its core uh there there are",
+      "start": 1755.919,
+      "duration": 4.48
+    },
+    {
+      "text": "only so many ways in which models can",
+      "start": 1759.039,
+      "duration": 2.961
+    },
+    {
+      "text": "fail. It could also be a function of the",
+      "start": 1760.399,
+      "duration": 3.201
+    },
+    {
+      "text": "particular queries that we used for",
+      "start": 1762.0,
+      "duration": 4.88
+    },
+    {
+      "text": "example. Um that's that's why we have to",
+      "start": 1763.6,
+      "duration": 4.959
+    },
+    {
+      "text": "run this experiments with more than just",
+      "start": 1766.88,
+      "duration": 3.919
+    },
+    {
+      "text": "a single query",
+      "start": 1768.559,
+      "duration": 4.0
+    },
+    {
+      "text": "um to to strengthen empirical evidence",
+      "start": 1770.799,
+      "duration": 4.88
+    },
+    {
+      "text": "of of it not being related to the query",
+      "start": 1772.559,
+      "duration": 6.081
+    },
+    {
+      "text": "at all but rather the mechanism breaking",
+      "start": 1775.679,
+      "duration": 5.761
+    },
+    {
+      "text": "and it clearly seems to be a function of",
+      "start": 1778.64,
+      "duration": 5.6
+    },
+    {
+      "text": "this additional context that we put in",
+      "start": 1781.44,
+      "duration": 5.04
+    },
+    {
+      "text": "because if we don't put additional",
+      "start": 1784.24,
+      "duration": 4.12
+    },
+    {
+      "text": "context the models seem",
+      "start": 1786.48,
+      "duration": 5.12
+    },
+    {
+      "text": "safe that's the 03% number that you",
+      "start": 1788.36,
+      "duration": 5.96
+    },
+    {
+      "text": "quoted earlier. uh if models are not",
+      "start": 1791.6,
+      "duration": 4.0
+    },
+    {
+      "text": "answering and then suddenly they're",
+      "start": 1794.32,
+      "duration": 3.359
+    },
+    {
+      "text": "answering if you add context then the",
+      "start": 1795.6,
+      "duration": 4.72
+    },
+    {
+      "text": "added additional context causes the the",
+      "start": 1797.679,
+      "duration": 4.401
+    },
+    {
+      "text": "system to break down. But the specific",
+      "start": 1800.32,
+      "duration": 3.479
+    },
+    {
+      "text": "mechanism by which it breaks",
+      "start": 1802.08,
+      "duration": 4.479
+    },
+    {
+      "text": "down the the strongest hypothesis that",
+      "start": 1803.799,
+      "duration": 4.921
+    },
+    {
+      "text": "we can offer is that it is because it is",
+      "start": 1806.559,
+      "duration": 3.521
+    },
+    {
+      "text": "out of distribution for how the model",
+      "start": 1808.72,
+      "duration": 4.16
+    },
+    {
+      "text": "was trained. The model has not seen",
+      "start": 1810.08,
+      "duration": 5.079
+    },
+    {
+      "text": "unsafe queries with safe documents",
+      "start": 1812.88,
+      "duration": 4.32
+    },
+    {
+      "text": "together as part of the safety",
+      "start": 1815.159,
+      "duration": 3.481
+    },
+    {
+      "text": "alignment. Otherwise it would be in",
+      "start": 1817.2,
+      "duration": 2.56
+    },
+    {
+      "text": "distribution and we would expect the",
+      "start": 1818.64,
+      "duration": 3.279
+    },
+    {
+      "text": "model to not fail. But we have not we",
+      "start": 1819.76,
+      "duration": 3.519
+    },
+    {
+      "text": "don't have access to the training data",
+      "start": 1821.919,
+      "duration": 3.201
+    },
+    {
+      "text": "of the model. So we cannot actually see",
+      "start": 1823.279,
+      "duration": 4.4
+    },
+    {
+      "text": "what how the safety alignment was done.",
+      "start": 1825.12,
+      "duration": 5.12
+    },
+    {
+      "text": "It seems like a follow-on research",
+      "start": 1827.679,
+      "duration": 4.681
+    },
+    {
+      "text": "opportunity might then be",
+      "start": 1830.24,
+      "duration": 6.319
+    },
+    {
+      "text": "to safety tune one of these base models",
+      "start": 1832.36,
+      "duration": 7.24
+    },
+    {
+      "text": "with longer context and see if that",
+      "start": 1836.559,
+      "duration": 6.161
+    },
+    {
+      "text": "improves the results which I guess you",
+      "start": 1839.6,
+      "duration": 5.04
+    },
+    {
+      "text": "would expect it to. Yeah, I I I think",
+      "start": 1842.72,
+      "duration": 5.199
+    },
+    {
+      "text": "it's a fairly fairly obvious next step.",
+      "start": 1844.64,
+      "duration": 5.279
+    },
+    {
+      "text": "Um it's also something that I think is",
+      "start": 1847.919,
+      "duration": 3.281
+    },
+    {
+      "text": "one of the key takeaways and",
+      "start": 1849.919,
+      "duration": 3.841
+    },
+    {
+      "text": "recommendations from our paper is again",
+      "start": 1851.2,
+      "duration": 5.04
+    },
+    {
+      "text": "like models should be evaluated and then",
+      "start": 1853.76,
+      "duration": 4.08
+    },
+    {
+      "text": "safeguarded closer to deployment",
+      "start": 1856.24,
+      "duration": 4.24
+    },
+    {
+      "text": "contexts and especially since rag is",
+      "start": 1857.84,
+      "duration": 5.559
+    },
+    {
+      "text": "used so frequently across all",
+      "start": 1860.48,
+      "duration": 5.76
+    },
+    {
+      "text": "industries. We our original hope was",
+      "start": 1863.399,
+      "duration": 4.921
+    },
+    {
+      "text": "that it would already be taken care of",
+      "start": 1866.24,
+      "duration": 4.319
+    },
+    {
+      "text": "and that the models remain safe despite",
+      "start": 1868.32,
+      "duration": 4.64
+    },
+    {
+      "text": "the added context which in this case it",
+      "start": 1870.559,
+      "duration": 5.281
+    },
+    {
+      "text": "was not. So yeah, this is definitely a a",
+      "start": 1872.96,
+      "duration": 4.88
+    },
+    {
+      "text": "next step that we encourage everyone who",
+      "start": 1875.84,
+      "duration": 5.12
+    },
+    {
+      "text": "builds models to take and also I think",
+      "start": 1877.84,
+      "duration": 5.92
+    },
+    {
+      "text": "an opportunity for general research to",
+      "start": 1880.96,
+      "duration": 5.439
+    },
+    {
+      "text": "make safety alignment more robust to",
+      "start": 1883.76,
+      "duration": 4.88
+    },
+    {
+      "text": "variations and inputs. I think one thing",
+      "start": 1886.399,
+      "duration": 5.601
+    },
+    {
+      "text": "that that recommendation underscores is",
+      "start": 1888.64,
+      "duration": 5.6
+    },
+    {
+      "text": "that you're not saying that we should",
+      "start": 1892.0,
+      "duration": 5.12
+    },
+    {
+      "text": "all stop using rag because it's unsafe.",
+      "start": 1894.24,
+      "duration": 6.319
+    },
+    {
+      "text": "Absolutely. I think rag is a fantastic",
+      "start": 1897.12,
+      "duration": 6.24
+    },
+    {
+      "text": "uh type of technology. I think it is",
+      "start": 1900.559,
+      "duration": 6.561
+    },
+    {
+      "text": "necessary to to make anything any Genai",
+      "start": 1903.36,
+      "duration": 5.36
+    },
+    {
+      "text": "product that is grounded in actual",
+      "start": 1907.12,
+      "duration": 4.159
+    },
+    {
+      "text": "trusted information. You do need to use",
+      "start": 1908.72,
+      "duration": 6.079
+    },
+    {
+      "text": "rag, but you can't just take the safety",
+      "start": 1911.279,
+      "duration": 5.361
+    },
+    {
+      "text": "at the word of the provider of the",
+      "start": 1914.799,
+      "duration": 4.161
+    },
+    {
+      "text": "model, but rather you need to evaluate",
+      "start": 1916.64,
+      "duration": 4.279
+    },
+    {
+      "text": "and assess continuously to make sure",
+      "start": 1918.96,
+      "duration": 4.559
+    },
+    {
+      "text": "that your specific application does not",
+      "start": 1920.919,
+      "duration": 3.88
+    },
+    {
+      "text": "override any of these built-in",
+      "start": 1923.519,
+      "duration": 3.76
+    },
+    {
+      "text": "safeguards and any other safeguards that",
+      "start": 1924.799,
+      "duration": 5.12
+    },
+    {
+      "text": "you specifically care about are uh and",
+      "start": 1927.279,
+      "duration": 5.76
+    },
+    {
+      "text": "any other risk factors are are ruled",
+      "start": 1929.919,
+      "duration": 5.441
+    },
+    {
+      "text": "out. Otherwise, you're going to, you",
+      "start": 1933.039,
+      "duration": 4.0
+    },
+    {
+      "text": "know, run into issues when you want to",
+      "start": 1935.36,
+      "duration": 4.319
+    },
+    {
+      "text": "deploy the system and suddenly it it can",
+      "start": 1937.039,
+      "duration": 7.76
+    },
+    {
+      "text": "be misused. And that is a natural segue",
+      "start": 1939.679,
+      "duration": 9.761
+    },
+    {
+      "text": "to the next paper which is called",
+      "start": 1944.799,
+      "duration": 6.88
+    },
+    {
+      "text": "understanding and mitigating risks of",
+      "start": 1949.44,
+      "duration": 5.28
+    },
+    {
+      "text": "generative AI in financial services. And",
+      "start": 1951.679,
+      "duration": 4.401
+    },
+    {
+      "text": "what do you see as the connection",
+      "start": 1954.72,
+      "duration": 3.6
+    },
+    {
+      "text": "between these two works? Yeah. So the",
+      "start": 1956.08,
+      "duration": 5.199
+    },
+    {
+      "text": "connection very much is the the first",
+      "start": 1958.32,
+      "duration": 6.16
+    },
+    {
+      "text": "paper rag LMS are not safer offers a",
+      "start": 1961.279,
+      "duration": 5.681
+    },
+    {
+      "text": "view into how you can identify potential",
+      "start": 1964.48,
+      "duration": 5.12
+    },
+    {
+      "text": "issues in in the safety of these models.",
+      "start": 1966.96,
+      "duration": 4.719
+    },
+    {
+      "text": "The second paper takes takes a different",
+      "start": 1969.6,
+      "duration": 4.079
+    },
+    {
+      "text": "approach and asks okay in this",
+      "start": 1971.679,
+      "duration": 3.521
+    },
+    {
+      "text": "specialized domain what actually are the",
+      "start": 1973.679,
+      "duration": 3.761
+    },
+    {
+      "text": "risks that you're concerned about",
+      "start": 1975.2,
+      "duration": 4.719
+    },
+    {
+      "text": "because things like you know how do I",
+      "start": 1977.44,
+      "duration": 4.479
+    },
+    {
+      "text": "shelter money or how do I run away from",
+      "start": 1979.919,
+      "duration": 4.64
+    },
+    {
+      "text": "the law those are fairly ubiquitous and",
+      "start": 1981.919,
+      "duration": 5.281
+    },
+    {
+      "text": "they're they're things that are defined",
+      "start": 1984.559,
+      "duration": 4.561
+    },
+    {
+      "text": "and included in general purpose safety",
+      "start": 1987.2,
+      "duration": 3.92
+    },
+    {
+      "text": "taxonomies that are out there and that",
+      "start": 1989.12,
+      "duration": 3.6
+    },
+    {
+      "text": "are generally adopted across the",
+      "start": 1991.12,
+      "duration": 5.039
+    },
+    {
+      "text": "industry. uh especially in in our job in",
+      "start": 1992.72,
+      "duration": 6.0
+    },
+    {
+      "text": "our domain this is a very different type",
+      "start": 1996.159,
+      "duration": 4.4
+    },
+    {
+      "text": "of domain financial services is a",
+      "start": 1998.72,
+      "duration": 4.319
+    },
+    {
+      "text": "heavily regulated it is very domain it's",
+      "start": 2000.559,
+      "duration": 4.161
+    },
+    {
+      "text": "a very specialized knowledge intensive",
+      "start": 2003.039,
+      "duration": 4.401
+    },
+    {
+      "text": "domain uh the people who use the",
+      "start": 2004.72,
+      "duration": 4.199
+    },
+    {
+      "text": "Bloomberg terminal they're financial",
+      "start": 2007.44,
+      "duration": 3.76
+    },
+    {
+      "text": "professionals we're not dealing with",
+      "start": 2008.919,
+      "duration": 4.6
+    },
+    {
+      "text": "uneducated users but rather with users",
+      "start": 2011.2,
+      "duration": 4.479
+    },
+    {
+      "text": "that are very educated in very",
+      "start": 2013.519,
+      "duration": 5.201
+    },
+    {
+      "text": "particular type of application and so",
+      "start": 2015.679,
+      "duration": 5.84
+    },
+    {
+      "text": "the risk surface of applications that",
+      "start": 2018.72,
+      "duration": 4.959
+    },
+    {
+      "text": "we're building is very",
+      "start": 2021.519,
+      "duration": 3.441
+    },
+    {
+      "text": "than if you're thinking about end",
+      "start": 2023.679,
+      "duration": 3.84
+    },
+    {
+      "text": "consumer chatbot apps. Um the same is",
+      "start": 2024.96,
+      "duration": 4.48
+    },
+    {
+      "text": "true for for law, the same is true for",
+      "start": 2027.519,
+      "duration": 4.201
+    },
+    {
+      "text": "biomedical, the same is true for",
+      "start": 2029.44,
+      "duration": 5.359
+    },
+    {
+      "text": "healthcare. And so we wrote the paper",
+      "start": 2031.72,
+      "duration": 4.88
+    },
+    {
+      "text": "using financial services as a case",
+      "start": 2034.799,
+      "duration": 5.201
+    },
+    {
+      "text": "study. But really the point was to make",
+      "start": 2036.6,
+      "duration": 7.16
+    },
+    {
+      "text": "the connection to okay now that you have",
+      "start": 2040.0,
+      "duration": 5.84
+    },
+    {
+      "text": "ways to to measure whether something is",
+      "start": 2043.76,
+      "duration": 5.76
+    },
+    {
+      "text": "safe, what actually means safety to you?",
+      "start": 2045.84,
+      "duration": 5.759
+    },
+    {
+      "text": "And so what are some examples of the",
+      "start": 2049.52,
+      "duration": 4.0
+    },
+    {
+      "text": "taxonomy that you came up with on the",
+      "start": 2051.599,
+      "duration": 4.961
+    },
+    {
+      "text": "financial services side that illustrate",
+      "start": 2053.52,
+      "duration": 5.76
+    },
+    {
+      "text": "this idea that you know they're specific",
+      "start": 2056.56,
+      "duration": 4.799
+    },
+    {
+      "text": "to your industry as opposed to kind of",
+      "start": 2059.28,
+      "duration": 4.72
+    },
+    {
+      "text": "general academic safety concerns. So",
+      "start": 2061.359,
+      "duration": 6.24
+    },
+    {
+      "text": "give you one example. Um there is one",
+      "start": 2064.0,
+      "duration": 6.0
+    },
+    {
+      "text": "category that that is very irrelevant to",
+      "start": 2067.599,
+      "duration": 5.441
+    },
+    {
+      "text": "us which we we call uh financial",
+      "start": 2070.0,
+      "duration": 5.919
+    },
+    {
+      "text": "services impartiality because if you",
+      "start": 2073.04,
+      "duration": 5.28
+    },
+    {
+      "text": "give financial advice that is a very",
+      "start": 2075.919,
+      "duration": 6.081
+    },
+    {
+      "text": "regulated uh type of company and you're",
+      "start": 2078.32,
+      "duration": 6.0
+    },
+    {
+      "text": "under very different rules that you need",
+      "start": 2082.0,
+      "duration": 3.76
+    },
+    {
+      "text": "to follow. And you also need to make",
+      "start": 2084.32,
+      "duration": 3.2
+    },
+    {
+      "text": "sure that you're not giving preferential",
+      "start": 2085.76,
+      "duration": 4.72
+    },
+    {
+      "text": "advice to uh to one of your clients or",
+      "start": 2087.52,
+      "duration": 4.399
+    },
+    {
+      "text": "that you're not playing your clients",
+      "start": 2090.48,
+      "duration": 2.96
+    },
+    {
+      "text": "against each other.",
+      "start": 2091.919,
+      "duration": 3.841
+    },
+    {
+      "text": "uh you also are not aside from the",
+      "start": 2093.44,
+      "duration": 3.52
+    },
+    {
+      "text": "financial advice, you're also not",
+      "start": 2095.76,
+      "duration": 2.72
+    },
+    {
+      "text": "supposed to match buyers and sellers or",
+      "start": 2096.96,
+      "duration": 3.6
+    },
+    {
+      "text": "you're going to be a market maker. So",
+      "start": 2098.48,
+      "duration": 3.599
+    },
+    {
+      "text": "these different actors in financial",
+      "start": 2100.56,
+      "duration": 3.279
+    },
+    {
+      "text": "markets all have different rules and",
+      "start": 2102.079,
+      "duration": 4.241
+    },
+    {
+      "text": "regulations that apply to them. As a",
+      "start": 2103.839,
+      "duration": 4.481
+    },
+    {
+      "text": "data analytics provider within financial",
+      "start": 2106.32,
+      "duration": 3.519
+    },
+    {
+      "text": "services, we are not in the business of",
+      "start": 2108.32,
+      "duration": 3.519
+    },
+    {
+      "text": "giving financial advice. So for us to",
+      "start": 2109.839,
+      "duration": 5.921
+    },
+    {
+      "text": "stay neutral in whatever uh we use Genai",
+      "start": 2111.839,
+      "duration": 7.041
+    },
+    {
+      "text": "for is is very important. And for that",
+      "start": 2115.76,
+      "duration": 4.92
+    },
+    {
+      "text": "reason financial service",
+      "start": 2118.88,
+      "duration": 4.56
+    },
+    {
+      "text": "impartiality is is one of the key",
+      "start": 2120.68,
+      "duration": 5.32
+    },
+    {
+      "text": "aspects that we discuss in our taxonomy.",
+      "start": 2123.44,
+      "duration": 4.48
+    },
+    {
+      "text": "When you look at more public tonomies",
+      "start": 2126.0,
+      "duration": 3.359
+    },
+    {
+      "text": "the one of the most popular one is",
+      "start": 2127.92,
+      "duration": 3.6
+    },
+    {
+      "text": "called ML comments",
+      "start": 2129.359,
+      "duration": 5.121
+    },
+    {
+      "text": "u tax tonomy which is also the one that",
+      "start": 2131.52,
+      "duration": 6.079
+    },
+    {
+      "text": "for example metaslama is is built to to",
+      "start": 2134.48,
+      "duration": 5.68
+    },
+    {
+      "text": "mitigate. uh they have a category called",
+      "start": 2137.599,
+      "duration": 5.361
+    },
+    {
+      "text": "specialized advice and they take a",
+      "start": 2140.16,
+      "duration": 4.72
+    },
+    {
+      "text": "different stance and they say as long as",
+      "start": 2142.96,
+      "duration": 4.159
+    },
+    {
+      "text": "you give specialized advice you also",
+      "start": 2144.88,
+      "duration": 3.52
+    },
+    {
+      "text": "need to put a disclaimer that you're not",
+      "start": 2147.119,
+      "duration": 3.0
+    },
+    {
+      "text": "an expert because you're a language",
+      "start": 2148.4,
+      "duration": 4.719
+    },
+    {
+      "text": "model. This is very different uh if",
+      "start": 2150.119,
+      "duration": 5.641
+    },
+    {
+      "text": "you're saying yeah you can give a buy or",
+      "start": 2153.119,
+      "duration": 4.321
+    },
+    {
+      "text": "sell recommendation for a stock as long",
+      "start": 2155.76,
+      "duration": 2.72
+    },
+    {
+      "text": "as you say you're not a financial",
+      "start": 2157.44,
+      "duration": 3.52
+    },
+    {
+      "text": "adviser or you don't give any financial",
+      "start": 2158.48,
+      "duration": 4.8
+    },
+    {
+      "text": "advice at all. Right? Um, so that's",
+      "start": 2160.96,
+      "duration": 3.76
+    },
+    {
+      "text": "that's one of the diff key differences",
+      "start": 2163.28,
+      "duration": 3.68
+    },
+    {
+      "text": "that we have. We also have a category",
+      "start": 2164.72,
+      "duration": 4.48
+    },
+    {
+      "text": "specific to financial misconduct. So",
+      "start": 2166.96,
+      "duration": 5.119
+    },
+    {
+      "text": "fraud or insider trading, those might be",
+      "start": 2169.2,
+      "duration": 4.399
+    },
+    {
+      "text": "implicitly included in existing",
+      "start": 2172.079,
+      "duration": 3.201
+    },
+    {
+      "text": "tonomies, but they need to be a lot more",
+      "start": 2173.599,
+      "duration": 3.681
+    },
+    {
+      "text": "highlighted and explored in in our",
+      "start": 2175.28,
+      "duration": 4.079
+    },
+    {
+      "text": "domain. Similar to confidential",
+      "start": 2177.28,
+      "duration": 5.48
+    },
+    {
+      "text": "disclosure, which deals with aspects of",
+      "start": 2179.359,
+      "duration": 5.281
+    },
+    {
+      "text": "disclosing information that is not",
+      "start": 2182.76,
+      "duration": 5.0
+    },
+    {
+      "text": "public. So that is usually basis for for",
+      "start": 2184.64,
+      "duration": 5.12
+    },
+    {
+      "text": "cases of of insider trading. If you're",
+      "start": 2187.76,
+      "duration": 3.359
+    },
+    {
+      "text": "trading on information that is not",
+      "start": 2189.76,
+      "duration": 3.12
+    },
+    {
+      "text": "public, that that is insider trading.",
+      "start": 2191.119,
+      "duration": 4.801
+    },
+    {
+      "text": "Well, if you hook up generative AI",
+      "start": 2192.88,
+      "duration": 5.04
+    },
+    {
+      "text": "applications to databases that do not",
+      "start": 2195.92,
+      "duration": 4.56
+    },
+    {
+      "text": "have that might have non-public",
+      "start": 2197.92,
+      "duration": 3.84
+    },
+    {
+      "text": "information in there, you might be able",
+      "start": 2200.48,
+      "duration": 4.4
+    },
+    {
+      "text": "to surface that information and you can",
+      "start": 2201.76,
+      "duration": 6.16
+    },
+    {
+      "text": "query that that information through this",
+      "start": 2204.88,
+      "duration": 6.0
+    },
+    {
+      "text": "conversational interface. So, you know,",
+      "start": 2207.92,
+      "duration": 5.28
+    },
+    {
+      "text": "I could go on and on, but for for sake",
+      "start": 2210.88,
+      "duration": 5.04
+    },
+    {
+      "text": "of of time, uh there is a lot more",
+      "start": 2213.2,
+      "duration": 5.399
+    },
+    {
+      "text": "specialization in our taxonomy",
+      "start": 2215.92,
+      "duration": 6.159
+    },
+    {
+      "text": "to aspects of of safety that are a lot",
+      "start": 2218.599,
+      "duration": 5.721
+    },
+    {
+      "text": "more important to actors in our space,",
+      "start": 2222.079,
+      "duration": 4.561
+    },
+    {
+      "text": "whereas the general purpose tonomies",
+      "start": 2224.32,
+      "duration": 4.72
+    },
+    {
+      "text": "care more about, you know, blatant",
+      "start": 2226.64,
+      "duration": 4.16
+    },
+    {
+      "text": "illegal activities. They care a lot",
+      "start": 2229.04,
+      "duration": 4.4
+    },
+    {
+      "text": "about toxicity and discrimination. Uh",
+      "start": 2230.8,
+      "duration": 4.16
+    },
+    {
+      "text": "and rightfully so. Those are important",
+      "start": 2233.44,
+      "duration": 3.36
+    },
+    {
+      "text": "aspects, but they might be less",
+      "start": 2234.96,
+      "duration": 2.8
+    },
+    {
+      "text": "important when you're dealing with",
+      "start": 2236.8,
+      "duration": 3.039
+    },
+    {
+      "text": "financial professionals whose incentive",
+      "start": 2237.76,
+      "duration": 4.16
+    },
+    {
+      "text": "structure and and whose general usage of",
+      "start": 2239.839,
+      "duration": 4.161
+    },
+    {
+      "text": "the tool differs a lot from when you're",
+      "start": 2241.92,
+      "duration": 5.439
+    },
+    {
+      "text": "talking about uh consumer products. In",
+      "start": 2244.0,
+      "duration": 5.92
+    },
+    {
+      "text": "looking at the taxonomy and hearing you",
+      "start": 2247.359,
+      "duration": 5.521
+    },
+    {
+      "text": "talk about it, it strikes me that",
+      "start": 2249.92,
+      "duration": 6.0
+    },
+    {
+      "text": "uh this taxonomy isn't necessarily or",
+      "start": 2252.88,
+      "duration": 4.4
+    },
+    {
+      "text": "wasn't necessarily something that you",
+      "start": 2255.92,
+      "duration": 3.679
+    },
+    {
+      "text": "needed to develop ground up, you know,",
+      "start": 2257.28,
+      "duration": 4.799
+    },
+    {
+      "text": "in a vacuum, but that it probably lives",
+      "start": 2259.599,
+      "duration": 6.721
+    },
+    {
+      "text": "in a broad realm of governance and, you",
+      "start": 2262.079,
+      "duration": 7.76
+    },
+    {
+      "text": "know, regulatory compliance uh within",
+      "start": 2266.32,
+      "duration": 5.519
+    },
+    {
+      "text": "Bloomberg and more broadly the financial",
+      "start": 2269.839,
+      "duration": 4.081
+    },
+    {
+      "text": "services industry that gives rise to",
+      "start": 2271.839,
+      "duration": 4.161
+    },
+    {
+      "text": "these various safety concerns. Can you",
+      "start": 2273.92,
+      "duration": 4.08
+    },
+    {
+      "text": "talk a little bit about that broader",
+      "start": 2276.0,
+      "duration": 4.079
+    },
+    {
+      "text": "context? Yeah, you bring up a really",
+      "start": 2278.0,
+      "duration": 4.24
+    },
+    {
+      "text": "important point here, which is that air",
+      "start": 2280.079,
+      "duration": 4.081
+    },
+    {
+      "text": "safety for especially for heavily",
+      "start": 2282.24,
+      "duration": 4.32
+    },
+    {
+      "text": "regulated domains is is a is a",
+      "start": 2284.16,
+      "duration": 4.0
+    },
+    {
+      "text": "governance problem. It's not necessarily",
+      "start": 2286.56,
+      "duration": 3.92
+    },
+    {
+      "text": "a technical problem where you can as a",
+      "start": 2288.16,
+      "duration": 5.439
+    },
+    {
+      "text": "technologist just solve it. Uh but",
+      "start": 2290.48,
+      "duration": 5.599
+    },
+    {
+      "text": "rather and uh and that's why also our",
+      "start": 2293.599,
+      "duration": 4.401
+    },
+    {
+      "text": "our paper is written together with our",
+      "start": 2296.079,
+      "duration": 4.081
+    },
+    {
+      "text": "AI data organization and AI engineering",
+      "start": 2298.0,
+      "duration": 4.0
+    },
+    {
+      "text": "organization and people from the CTO's",
+      "start": 2300.16,
+      "duration": 4.4
+    },
+    {
+      "text": "office. Uh the taxonomy was developed",
+      "start": 2302.0,
+      "duration": 4.24
+    },
+    {
+      "text": "with input from many other functions in",
+      "start": 2304.56,
+      "duration": 3.96
+    },
+    {
+      "text": "the company including risk, security,",
+      "start": 2306.24,
+      "duration": 6.16
+    },
+    {
+      "text": "legal. Uh those are all people who have",
+      "start": 2308.52,
+      "duration": 6.64
+    },
+    {
+      "text": "concerns about their specific area of",
+      "start": 2312.4,
+      "duration": 5.04
+    },
+    {
+      "text": "expertise. And you need to listen to all",
+      "start": 2315.16,
+      "duration": 6.36
+    },
+    {
+      "text": "of these voices because of uh all the",
+      "start": 2317.44,
+      "duration": 5.52
+    },
+    {
+      "text": "rules and regulations that apply to you",
+      "start": 2321.52,
+      "duration": 5.36
+    },
+    {
+      "text": "as a company. uh and because there is",
+      "start": 2322.96,
+      "duration": 7.2
+    },
+    {
+      "text": "not necessarily a a a list that is",
+      "start": 2326.88,
+      "duration": 5.92
+    },
+    {
+      "text": "public that says oh you do AI in the",
+      "start": 2330.16,
+      "duration": 4.56
+    },
+    {
+      "text": "space here is what you need to do here's",
+      "start": 2332.8,
+      "duration": 3.52
+    },
+    {
+      "text": "the playbook this playbook does not",
+      "start": 2334.72,
+      "duration": 4.399
+    },
+    {
+      "text": "exist yet today and us publishing this",
+      "start": 2336.32,
+      "duration": 6.08
+    },
+    {
+      "text": "is really our our our goal of this is to",
+      "start": 2339.119,
+      "duration": 5.121
+    },
+    {
+      "text": "that list leads to more industry",
+      "start": 2342.4,
+      "duration": 4.16
+    },
+    {
+      "text": "standardization around shared taxonomies",
+      "start": 2344.24,
+      "duration": 4.72
+    },
+    {
+      "text": "and better understanding of what risk do",
+      "start": 2346.56,
+      "duration": 4.0
+    },
+    {
+      "text": "we actually need to care about where do",
+      "start": 2348.96,
+      "duration": 4.48
+    },
+    {
+      "text": "we need technical mitigations and how",
+      "start": 2350.56,
+      "duration": 4.76
+    },
+    {
+      "text": "does this all influence governance",
+      "start": 2353.44,
+      "duration": 4.399
+    },
+    {
+      "text": "processes. So,",
+      "start": 2355.32,
+      "duration": 4.68
+    },
+    {
+      "text": "um we've been talking a lot about safety",
+      "start": 2357.839,
+      "duration": 3.601
+    },
+    {
+      "text": "alignment of latch language models as",
+      "start": 2360.0,
+      "duration": 4.92
+    },
+    {
+      "text": "part of the first model uh first paper,",
+      "start": 2361.44,
+      "duration": 6.48
+    },
+    {
+      "text": "but really systems are much more than",
+      "start": 2364.92,
+      "duration": 5.04
+    },
+    {
+      "text": "just a single aligned",
+      "start": 2367.92,
+      "duration": 4.64
+    },
+    {
+      "text": "LLM. You can't necessarily have expect",
+      "start": 2369.96,
+      "duration": 4.68
+    },
+    {
+      "text": "that a single model solves all of these",
+      "start": 2372.56,
+      "duration": 3.6
+    },
+    {
+      "text": "problems at once, but rather you need to",
+      "start": 2374.64,
+      "duration": 3.76
+    },
+    {
+      "text": "have multi-layered safeguards through a",
+      "start": 2376.16,
+      "duration": 3.679
+    },
+    {
+      "text": "through application. You need to have",
+      "start": 2378.4,
+      "duration": 3.92
+    },
+    {
+      "text": "red teaming. You need to have exception",
+      "start": 2379.839,
+      "duration": 5.76
+    },
+    {
+      "text": "management. What if a user is detected",
+      "start": 2382.32,
+      "duration": 7.68
+    },
+    {
+      "text": "to violate the the misconduct category?",
+      "start": 2385.599,
+      "duration": 6.161
+    },
+    {
+      "text": "Do we escalate this? Does this need to",
+      "start": 2390.0,
+      "duration": 4.96
+    },
+    {
+      "text": "be reported? Uh does this person need to",
+      "start": 2391.76,
+      "duration": 8.16
+    },
+    {
+      "text": "be timed out or do they do we uh just",
+      "start": 2394.96,
+      "duration": 6.8
+    },
+    {
+      "text": "re-review this and say, \"Yeah, this this",
+      "start": 2399.92,
+      "duration": 3.919
+    },
+    {
+      "text": "was correct. We we need to make sure",
+      "start": 2401.76,
+      "duration": 4.0
+    },
+    {
+      "text": "that this never leads to any answer and",
+      "start": 2403.839,
+      "duration": 3.841
+    },
+    {
+      "text": "we use this as an evaluation set.\" There",
+      "start": 2405.76,
+      "duration": 3.92
+    },
+    {
+      "text": "are many ways in which these governance",
+      "start": 2407.68,
+      "duration": 3.919
+    },
+    {
+      "text": "processes that go on in the background",
+      "start": 2409.68,
+      "duration": 3.52
+    },
+    {
+      "text": "surrounding this application will then",
+      "start": 2411.599,
+      "duration": 3.201
+    },
+    {
+      "text": "inform also the technical solutions that",
+      "start": 2413.2,
+      "duration": 3.84
+    },
+    {
+      "text": "you need to have in place. The title of",
+      "start": 2414.8,
+      "duration": 4.319
+    },
+    {
+      "text": "the paper is understanding and",
+      "start": 2417.04,
+      "duration": 5.68
+    },
+    {
+      "text": "mitigating risks. Uh the taxonomy",
+      "start": 2419.119,
+      "duration": 5.361
+    },
+    {
+      "text": "taxonomy falls largely in the",
+      "start": 2422.72,
+      "duration": 4.879
+    },
+    {
+      "text": "understanding uh side of that. What are",
+      "start": 2424.48,
+      "duration": 4.72
+    },
+    {
+      "text": "your recommendations for risk",
+      "start": 2427.599,
+      "duration": 4.48
+    },
+    {
+      "text": "mitigation? So for risk mitigation uh we",
+      "start": 2429.2,
+      "duration": 5.0
+    },
+    {
+      "text": "we do make a couple of",
+      "start": 2432.079,
+      "duration": 4.881
+    },
+    {
+      "text": "uh of recommendations as to what should",
+      "start": 2434.2,
+      "duration": 6.28
+    },
+    {
+      "text": "happen and number one is really",
+      "start": 2436.96,
+      "duration": 4.92
+    },
+    {
+      "text": "uh our taxonomy is not a",
+      "start": 2440.48,
+      "duration": 3.2
+    },
+    {
+      "text": "one-sizefits-all. Companies need to",
+      "start": 2441.88,
+      "duration": 3.88
+    },
+    {
+      "text": "start by understanding the their own",
+      "start": 2443.68,
+      "duration": 3.6
+    },
+    {
+      "text": "risks.",
+      "start": 2445.76,
+      "duration": 3.52
+    },
+    {
+      "text": "This is already by itself a mitigation",
+      "start": 2447.28,
+      "duration": 5.36
+    },
+    {
+      "text": "because if you do not what you uh do not",
+      "start": 2449.28,
+      "duration": 5.6
+    },
+    {
+      "text": "measure you do not understand that",
+      "start": 2452.64,
+      "duration": 5.6
+    },
+    {
+      "text": "classic classic saying and by at least",
+      "start": 2454.88,
+      "duration": 5.36
+    },
+    {
+      "text": "putting on paper okay this this is the",
+      "start": 2458.24,
+      "duration": 3.359
+    },
+    {
+      "text": "risk that we care about these are",
+      "start": 2460.24,
+      "duration": 3.44
+    },
+    {
+      "text": "important to us that's the first step to",
+      "start": 2461.599,
+      "duration": 4.48
+    },
+    {
+      "text": "measuring it uh we also talk about the",
+      "start": 2463.68,
+      "duration": 4.88
+    },
+    {
+      "text": "importance of red teaming",
+      "start": 2466.079,
+      "duration": 5.601
+    },
+    {
+      "text": "uh red teaming has obviously been much",
+      "start": 2468.56,
+      "duration": 5.44
+    },
+    {
+      "text": "in in the in the press and in the",
+      "start": 2471.68,
+      "duration": 5.36
+    },
+    {
+      "text": "literature around lab language models",
+      "start": 2474.0,
+      "duration": 4.72
+    },
+    {
+      "text": "and especially around prompt injection",
+      "start": 2477.04,
+      "duration": 3.68
+    },
+    {
+      "text": "and jailbreaking. Again, how do you how",
+      "start": 2478.72,
+      "duration": 3.84
+    },
+    {
+      "text": "can you break them? How can you play bad",
+      "start": 2480.72,
+      "duration": 3.52
+    },
+    {
+      "text": "actor and and try and come up with",
+      "start": 2482.56,
+      "duration": 4.48
+    },
+    {
+      "text": "generalizable strategies around this?",
+      "start": 2484.24,
+      "duration": 5.079
+    },
+    {
+      "text": "But red teaming can also",
+      "start": 2487.04,
+      "duration": 6.4
+    },
+    {
+      "text": "mean building uh testing systems. So you",
+      "start": 2489.319,
+      "duration": 6.441
+    },
+    {
+      "text": "might have an application that provides",
+      "start": 2493.44,
+      "duration": 4.679
+    },
+    {
+      "text": "insights into into certain types of",
+      "start": 2495.76,
+      "duration": 4.559
+    },
+    {
+      "text": "documents. You then take that",
+      "start": 2498.119,
+      "duration": 4.2
+    },
+    {
+      "text": "application and you test it end to end.",
+      "start": 2500.319,
+      "duration": 3.841
+    },
+    {
+      "text": "So you work with subject matter experts",
+      "start": 2502.319,
+      "duration": 3.681
+    },
+    {
+      "text": "to really make sure that you're not",
+      "start": 2504.16,
+      "duration": 5.199
+    },
+    {
+      "text": "getting any of the answers. And the way",
+      "start": 2506.0,
+      "duration": 5.52
+    },
+    {
+      "text": "that these mitigation strategies we we",
+      "start": 2509.359,
+      "duration": 3.521
+    },
+    {
+      "text": "recommend are build is really a",
+      "start": 2511.52,
+      "duration": 5.04
+    },
+    {
+      "text": "multi-layer safety strategy. This can be",
+      "start": 2512.88,
+      "duration": 6.64
+    },
+    {
+      "text": "guardrail systems u we in our paper we",
+      "start": 2516.56,
+      "duration": 4.96
+    },
+    {
+      "text": "test a bunch of them. We we show that",
+      "start": 2519.52,
+      "duration": 4.559
+    },
+    {
+      "text": "they fail horribly but we do test a lot",
+      "start": 2521.52,
+      "duration": 4.559
+    },
+    {
+      "text": "of them like lamard and shield gemma and",
+      "start": 2524.079,
+      "duration": 3.601
+    },
+    {
+      "text": "so on.",
+      "start": 2526.079,
+      "duration": 3.841
+    },
+    {
+      "text": "Uh this can also be application itself.",
+      "start": 2527.68,
+      "duration": 3.919
+    },
+    {
+      "text": "The safety alignment of the underlying",
+      "start": 2529.92,
+      "duration": 3.12
+    },
+    {
+      "text": "language model that you're using that's",
+      "start": 2531.599,
+      "duration": 3.601
+    },
+    {
+      "text": "that's another mitigation layer. The",
+      "start": 2533.04,
+      "duration": 3.36
+    },
+    {
+      "text": "prompt that you use is another",
+      "start": 2535.2,
+      "duration": 3.84
+    },
+    {
+      "text": "mitigation layer. And by layering them",
+      "start": 2536.4,
+      "duration": 4.16
+    },
+    {
+      "text": "all together, you're building systems",
+      "start": 2539.04,
+      "duration": 4.4
+    },
+    {
+      "text": "that are supposed to be safe which you",
+      "start": 2540.56,
+      "duration": 4.72
+    },
+    {
+      "text": "can then measure again because you've",
+      "start": 2543.44,
+      "duration": 3.04
+    },
+    {
+      "text": "understood what risks you actually",
+      "start": 2545.28,
+      "duration": 4.72
+    },
+    {
+      "text": "measure. Can you talk a little bit about",
+      "start": 2546.48,
+      "duration": 8.0
+    },
+    {
+      "text": "how this plays out in the context of uh",
+      "start": 2550.0,
+      "duration": 7.44
+    },
+    {
+      "text": "you know new Gen AI application",
+      "start": 2554.48,
+      "duration": 6.52
+    },
+    {
+      "text": "uh in at Bloomberg like what is",
+      "start": 2557.44,
+      "duration": 6.879
+    },
+    {
+      "text": "the the kind of governance flow around",
+      "start": 2561.0,
+      "duration": 5.079
+    },
+    {
+      "text": "rolling out an app you know starting",
+      "start": 2564.319,
+      "duration": 4.081
+    },
+    {
+      "text": "from you know an engineering or research",
+      "start": 2566.079,
+      "duration": 4.161
+    },
+    {
+      "text": "team you know all the way to something",
+      "start": 2568.4,
+      "duration": 5.76
+    },
+    {
+      "text": "that uh or all the way to getting uh in",
+      "start": 2570.24,
+      "duration": 6.8
+    },
+    {
+      "text": "the hands of users. Sure. I I cannot",
+      "start": 2574.16,
+      "duration": 4.56
+    },
+    {
+      "text": "talk about too many of the details of",
+      "start": 2577.04,
+      "duration": 4.039
+    },
+    {
+      "text": "this process but a high level I can",
+      "start": 2578.72,
+      "duration": 4.879
+    },
+    {
+      "text": "certainly talk about it which really",
+      "start": 2581.079,
+      "duration": 6.601
+    },
+    {
+      "text": "starts by by defining what the system is",
+      "start": 2583.599,
+      "duration": 6.321
+    },
+    {
+      "text": "uh understanding okay here's the the",
+      "start": 2587.68,
+      "duration": 3.96
+    },
+    {
+      "text": "client experience that we're trying to",
+      "start": 2589.92,
+      "duration": 4.24
+    },
+    {
+      "text": "develop and then coming together and",
+      "start": 2591.64,
+      "duration": 5.4
+    },
+    {
+      "text": "saying okay for this type of client",
+      "start": 2594.16,
+      "duration": 4.64
+    },
+    {
+      "text": "experience these are the categories of",
+      "start": 2597.04,
+      "duration": 5.16
+    },
+    {
+      "text": "our tax tonomy that we are very worried",
+      "start": 2598.8,
+      "duration": 6.16
+    },
+    {
+      "text": "about or more worried about than than",
+      "start": 2602.2,
+      "duration": 3.56
+    },
+    {
+      "text": "others.",
+      "start": 2604.96,
+      "duration": 2.399
+    },
+    {
+      "text": "Based on this prioritization, you can",
+      "start": 2605.76,
+      "duration": 3.72
+    },
+    {
+      "text": "then develop targeted testing",
+      "start": 2607.359,
+      "duration": 4.401
+    },
+    {
+      "text": "strategies. So we stress the importance",
+      "start": 2609.48,
+      "duration": 4.68
+    },
+    {
+      "text": "here of red teaming and in particular",
+      "start": 2611.76,
+      "duration": 4.68
+    },
+    {
+      "text": "red teaming from people with diverse",
+      "start": 2614.16,
+      "duration": 4.24
+    },
+    {
+      "text": "backgrounds. It does not necessarily",
+      "start": 2616.44,
+      "duration": 5.159
+    },
+    {
+      "text": "suffice to have AI engineers red teaming",
+      "start": 2618.4,
+      "duration": 5.679
+    },
+    {
+      "text": "a system because the diversity of",
+      "start": 2621.599,
+      "duration": 4.48
+    },
+    {
+      "text": "queries that you're going to see is is",
+      "start": 2624.079,
+      "duration": 4.321
+    },
+    {
+      "text": "very much skewed and and what they have",
+      "start": 2626.079,
+      "duration": 4.721
+    },
+    {
+      "text": "experience with. So really the the goal",
+      "start": 2628.4,
+      "duration": 4.16
+    },
+    {
+      "text": "should be to bring people together with",
+      "start": 2630.8,
+      "duration": 4.48
+    },
+    {
+      "text": "very diverse backgrounds to test the",
+      "start": 2632.56,
+      "duration": 4.799
+    },
+    {
+      "text": "application and to focus the testing on",
+      "start": 2635.28,
+      "duration": 4.12
+    },
+    {
+      "text": "the identified",
+      "start": 2637.359,
+      "duration": 3.641
+    },
+    {
+      "text": "risks.",
+      "start": 2639.4,
+      "duration": 4.28
+    },
+    {
+      "text": "So to give you a very hypothetical",
+      "start": 2641.0,
+      "duration": 4.28
+    },
+    {
+      "text": "example, you might have an application",
+      "start": 2643.68,
+      "duration": 4.159
+    },
+    {
+      "text": "that helps journalists. Well, a big",
+      "start": 2645.28,
+      "duration": 4.319
+    },
+    {
+      "text": "concern for journalists might be the the",
+      "start": 2647.839,
+      "duration": 4.52
+    },
+    {
+      "text": "fabrication of of information.",
+      "start": 2649.599,
+      "duration": 5.441
+    },
+    {
+      "text": "So you might want to then specifically",
+      "start": 2652.359,
+      "duration": 5.48
+    },
+    {
+      "text": "test uh what we call in our taxonomy",
+      "start": 2655.04,
+      "duration": 5.44
+    },
+    {
+      "text": "counterfactual narratives. Uh narratives",
+      "start": 2657.839,
+      "duration": 5.641
+    },
+    {
+      "text": "that are simply grounded in in not true",
+      "start": 2660.48,
+      "duration": 5.92
+    },
+    {
+      "text": "information. And for for this",
+      "start": 2663.48,
+      "duration": 5.0
+    },
+    {
+      "text": "hypothetical journalist application that",
+      "start": 2666.4,
+      "duration": 3.76
+    },
+    {
+      "text": "that could then be the focus of the red",
+      "start": 2668.48,
+      "duration": 4.24
+    },
+    {
+      "text": "teaming and say okay yes for all the",
+      "start": 2670.16,
+      "duration": 3.76
+    },
+    {
+      "text": "other categories we can just kind of",
+      "start": 2672.72,
+      "duration": 2.879
+    },
+    {
+      "text": "reuse the data we already have but",
+      "start": 2673.92,
+      "duration": 4.88
+    },
+    {
+      "text": "really need to go deep here. Hey, let's",
+      "start": 2675.599,
+      "duration": 5.041
+    },
+    {
+      "text": "invite a bunch of journalists to to help",
+      "start": 2678.8,
+      "duration": 3.68
+    },
+    {
+      "text": "us test this application because they're",
+      "start": 2680.64,
+      "duration": 3.84
+    },
+    {
+      "text": "the subject matter experts, right? So,",
+      "start": 2682.48,
+      "duration": 3.119
+    },
+    {
+      "text": "you always need to engage with these",
+      "start": 2684.48,
+      "duration": 3.44
+    },
+    {
+      "text": "subject matter experts to help come up",
+      "start": 2685.599,
+      "duration": 4.561
+    },
+    {
+      "text": "with these test plans. Show them what do",
+      "start": 2687.92,
+      "duration": 3.52
+    },
+    {
+      "text": "they actually mean by contextual",
+      "start": 2690.16,
+      "duration": 2.64
+    },
+    {
+      "text": "narratives. It could be an example where",
+      "start": 2691.44,
+      "duration": 4.48
+    },
+    {
+      "text": "they say, \"Yeah, can you give me a a",
+      "start": 2692.8,
+      "duration": 5.36
+    },
+    {
+      "text": "headline that will dump the following",
+      "start": 2695.92,
+      "duration": 5.199
+    },
+    {
+      "text": "stock by 10% at least?\" This is not a",
+      "start": 2698.16,
+      "duration": 4.48
+    },
+    {
+      "text": "query that anyone should enter into a",
+      "start": 2701.119,
+      "duration": 2.96
+    },
+    {
+      "text": "large language model because that is",
+      "start": 2702.64,
+      "duration": 3.12
+    },
+    {
+      "text": "market manipulation. that's not only",
+      "start": 2704.079,
+      "duration": 4.28
+    },
+    {
+      "text": "illegal, that's also very much not not",
+      "start": 2705.76,
+      "duration": 4.2
+    },
+    {
+      "text": "desired.",
+      "start": 2708.359,
+      "duration": 4.601
+    },
+    {
+      "text": "So, so these kinds of uh tests should",
+      "start": 2709.96,
+      "duration": 5.48
+    },
+    {
+      "text": "can then be conducted. The red teaming",
+      "start": 2712.96,
+      "duration": 5.2
+    },
+    {
+      "text": "data itself is a very valuable corpus",
+      "start": 2715.44,
+      "duration": 4.56
+    },
+    {
+      "text": "that that comes out of it and which can",
+      "start": 2718.16,
+      "duration": 5.28
+    },
+    {
+      "text": "then be analyzed and understood for uh",
+      "start": 2720.0,
+      "duration": 6.88
+    },
+    {
+      "text": "given additional annotations, how often",
+      "start": 2723.44,
+      "duration": 5.679
+    },
+    {
+      "text": "given a thousand inputs, how many of",
+      "start": 2726.88,
+      "duration": 4.16
+    },
+    {
+      "text": "those actually led to outputs? How many",
+      "start": 2729.119,
+      "duration": 3.96
+    },
+    {
+      "text": "of those led to outputs that",
+      "start": 2731.04,
+      "duration": 5.279
+    },
+    {
+      "text": "were that were actually malicious? And",
+      "start": 2733.079,
+      "duration": 4.921
+    },
+    {
+      "text": "then we're at a very similar setup to",
+      "start": 2736.319,
+      "duration": 3.201
+    },
+    {
+      "text": "the first paper again where we say,",
+      "start": 2738.0,
+      "duration": 4.319
+    },
+    {
+      "text": "okay, here's a bad input. What is the",
+      "start": 2739.52,
+      "duration": 5.16
+    },
+    {
+      "text": "probability of getting a bad",
+      "start": 2742.319,
+      "duration": 5.121
+    },
+    {
+      "text": "output? So again, drawing the connection",
+      "start": 2744.68,
+      "duration": 4.76
+    },
+    {
+      "text": "between the two. It actually the the",
+      "start": 2747.44,
+      "duration": 3.679
+    },
+    {
+      "text": "setup is not too different except that",
+      "start": 2749.44,
+      "duration": 3.52
+    },
+    {
+      "text": "if you deal with systems, there are a",
+      "start": 2751.119,
+      "duration": 4.161
+    },
+    {
+      "text": "lot more stakeholders involved and a lot",
+      "start": 2752.96,
+      "duration": 4.96
+    },
+    {
+      "text": "more specialized expertise. like you",
+      "start": 2755.28,
+      "duration": 4.16
+    },
+    {
+      "text": "might not be able to red team a system",
+      "start": 2757.92,
+      "duration": 3.199
+    },
+    {
+      "text": "that requires very deep finance",
+      "start": 2759.44,
+      "duration": 3.52
+    },
+    {
+      "text": "knowledge if you've never taken an intro",
+      "start": 2761.119,
+      "duration": 4.361
+    },
+    {
+      "text": "to to finance class and then kind of",
+      "start": 2762.96,
+      "duration": 5.68
+    },
+    {
+      "text": "extending beyond you know building out",
+      "start": 2765.48,
+      "duration": 6.599
+    },
+    {
+      "text": "this uh test plan based on the taxonomy",
+      "start": 2768.64,
+      "duration": 4.959
+    },
+    {
+      "text": "and going back to the earlier",
+      "start": 2772.079,
+      "duration": 3.76
+    },
+    {
+      "text": "conversation then you would look at all",
+      "start": 2773.599,
+      "duration": 4.161
+    },
+    {
+      "text": "of the various layered defense",
+      "start": 2775.839,
+      "duration": 3.361
+    },
+    {
+      "text": "mechanisms that you have at your",
+      "start": 2777.76,
+      "duration": 3.44
+    },
+    {
+      "text": "disposal to try to mitigate some of the",
+      "start": 2779.2,
+      "duration": 4.56
+    },
+    {
+      "text": "risks. Yeah, you you can almost draw",
+      "start": 2781.2,
+      "duration": 5.36
+    },
+    {
+      "text": "this kind as a kind of sanki diagram",
+      "start": 2783.76,
+      "duration": 5.52
+    },
+    {
+      "text": "where you start with with like a large",
+      "start": 2786.56,
+      "duration": 5.84
+    },
+    {
+      "text": "amount of of queries that that were uh",
+      "start": 2789.28,
+      "duration": 5.92
+    },
+    {
+      "text": "used by red teamers and you have let's",
+      "start": 2792.4,
+      "duration": 4.4
+    },
+    {
+      "text": "say a thousand queries. You can then say",
+      "start": 2795.2,
+      "duration": 3.399
+    },
+    {
+      "text": "okay based on a secondary",
+      "start": 2796.8,
+      "duration": 4.799
+    },
+    {
+      "text": "analysis 500 of these 10,000 were",
+      "start": 2798.599,
+      "duration": 4.841
+    },
+    {
+      "text": "actually violating texonomy. The other",
+      "start": 2801.599,
+      "duration": 3.601
+    },
+    {
+      "text": "500 were actually fine but they were",
+      "start": 2803.44,
+      "duration": 4.639
+    },
+    {
+      "text": "maybe more tricky examples. Okay, you're",
+      "start": 2805.2,
+      "duration": 5.6
+    },
+    {
+      "text": "left with 500. of those 500 actual",
+      "start": 2808.079,
+      "duration": 4.721
+    },
+    {
+      "text": "malicious queries, how many made it",
+      "start": 2810.8,
+      "duration": 5.36
+    },
+    {
+      "text": "through the safety check? And say, okay,",
+      "start": 2812.8,
+      "duration": 5.039
+    },
+    {
+      "text": "safety check catches another 50% of",
+      "start": 2816.16,
+      "duration": 4.08
+    },
+    {
+      "text": "them. You're left with 250. Okay, of",
+      "start": 2817.839,
+      "duration": 6.321
+    },
+    {
+      "text": "those 250 that uh that bypass the first",
+      "start": 2820.24,
+      "duration": 6.16
+    },
+    {
+      "text": "layer of safety, how many did that then",
+      "start": 2824.16,
+      "duration": 3.76
+    },
+    {
+      "text": "go through the system and generate a",
+      "start": 2826.4,
+      "duration": 3.52
+    },
+    {
+      "text": "response at all rather than saying,",
+      "start": 2827.92,
+      "duration": 3.6
+    },
+    {
+      "text": "\"Sorry, I don't know what you're even",
+      "start": 2829.92,
+      "duration": 4.96
+    },
+    {
+      "text": "asking me to do.\" Uh you and and so on.",
+      "start": 2831.52,
+      "duration": 5.2
+    },
+    {
+      "text": "So you have this this filter where you",
+      "start": 2834.88,
+      "duration": 3.36
+    },
+    {
+      "text": "start with a lot and then in the end you",
+      "start": 2836.72,
+      "duration": 3.28
+    },
+    {
+      "text": "have some kind of fraction of the",
+      "start": 2838.24,
+      "duration": 4.119
+    },
+    {
+      "text": "overall that would lead to unsafe",
+      "start": 2840.0,
+      "duration": 4.64
+    },
+    {
+      "text": "behaviors in the best case categorized",
+      "start": 2842.359,
+      "duration": 4.681
+    },
+    {
+      "text": "across different classes where you can",
+      "start": 2844.64,
+      "duration": 4.8
+    },
+    {
+      "text": "say yeah this this system is very",
+      "start": 2847.04,
+      "duration": 3.84
+    },
+    {
+      "text": "susceptible to this counterfactual",
+      "start": 2849.44,
+      "duration": 3.76
+    },
+    {
+      "text": "narrative risk we and then based on that",
+      "start": 2850.88,
+      "duration": 3.92
+    },
+    {
+      "text": "you can recommend okay we recommend",
+      "start": 2853.2,
+      "duration": 3.119
+    },
+    {
+      "text": "adjusting the prompt we recommend",
+      "start": 2854.8,
+      "duration": 3.76
+    },
+    {
+      "text": "improving this guardrail we recommend",
+      "start": 2856.319,
+      "duration": 4.8
+    },
+    {
+      "text": "improving this guardrail and so on and",
+      "start": 2858.56,
+      "duration": 4.24
+    },
+    {
+      "text": "that way you can kind of build up your",
+      "start": 2861.119,
+      "duration": 4.801
+    },
+    {
+      "text": "your mitigation over time while also",
+      "start": 2862.8,
+      "duration": 4.88
+    },
+    {
+      "text": "gathering very valuable data that you",
+      "start": 2865.92,
+      "duration": 3.28
+    },
+    {
+      "text": "can analyze over and over again because",
+      "start": 2867.68,
+      "duration": 3.439
+    },
+    {
+      "text": "these queries",
+      "start": 2869.2,
+      "duration": 3.44
+    },
+    {
+      "text": "uh they might be static but you can run",
+      "start": 2871.119,
+      "duration": 2.801
+    },
+    {
+      "text": "them through the system again in a month",
+      "start": 2872.64,
+      "duration": 2.76
+    },
+    {
+      "text": "and see if it has",
+      "start": 2873.92,
+      "duration": 3.64
+    },
+    {
+      "text": "improved. Uh you",
+      "start": 2875.4,
+      "duration": 5.88
+    },
+    {
+      "text": "mentioned changing a prompt as a",
+      "start": 2877.56,
+      "duration": 5.48
+    },
+    {
+      "text": "mitigation and I don't recall us",
+      "start": 2881.28,
+      "duration": 4.0
+    },
+    {
+      "text": "discussing that in the context of the",
+      "start": 2883.04,
+      "duration": 5.36
+    },
+    {
+      "text": "the rag paper. Did you find that there",
+      "start": 2885.28,
+      "duration": 7.64
+    },
+    {
+      "text": "were uh mitigations that uh were",
+      "start": 2888.4,
+      "duration": 6.4
+    },
+    {
+      "text": "successful you know simply through",
+      "start": 2892.92,
+      "duration": 3.64
+    },
+    {
+      "text": "changing the prompt? In other words, you",
+      "start": 2894.8,
+      "duration": 4.96
+    },
+    {
+      "text": "know, are there uh bad prompts and good",
+      "start": 2896.56,
+      "duration": 5.92
+    },
+    {
+      "text": "prompts with respect to",
+      "start": 2899.76,
+      "duration": 6.24
+    },
+    {
+      "text": "um you know this particular problem of",
+      "start": 2902.48,
+      "duration": 8.079
+    },
+    {
+      "text": "uh rag impacting safety. Um so we did",
+      "start": 2906.0,
+      "duration": 6.64
+    },
+    {
+      "text": "not test this as part of the paper so",
+      "start": 2910.559,
+      "duration": 5.441
+    },
+    {
+      "text": "much as u what we already discussed uh",
+      "start": 2912.64,
+      "duration": 5.679
+    },
+    {
+      "text": "regarding prompting with you need to",
+      "start": 2916.0,
+      "duration": 4.559
+    },
+    {
+      "text": "answer with uh using the context that",
+      "start": 2918.319,
+      "duration": 4.881
+    },
+    {
+      "text": "you given to us. But I mean from from",
+      "start": 2920.559,
+      "duration": 5.121
+    },
+    {
+      "text": "just practical standpoint if the prompt",
+      "start": 2923.2,
+      "duration": 3.919
+    },
+    {
+      "text": "itself would not influence model",
+      "start": 2925.68,
+      "duration": 3.04
+    },
+    {
+      "text": "behavior the entire field of prompt",
+      "start": 2927.119,
+      "duration": 3.081
+    },
+    {
+      "text": "engineering would not",
+      "start": 2928.72,
+      "duration": 5.04
+    },
+    {
+      "text": "exist. So this is kind of a the some of",
+      "start": 2930.2,
+      "duration": 5.0
+    },
+    {
+      "text": "the prompt changes they might have more",
+      "start": 2933.76,
+      "duration": 4.079
+    },
+    {
+      "text": "or less impact. That's absolutely true,",
+      "start": 2935.2,
+      "duration": 4.48
+    },
+    {
+      "text": "but you can certainly steer the model",
+      "start": 2937.839,
+      "duration": 4.0
+    },
+    {
+      "text": "behavior by changing the prompt. Yeah. I",
+      "start": 2939.68,
+      "duration": 7.12
+    },
+    {
+      "text": "guess what I'm curious about the the in",
+      "start": 2941.839,
+      "duration": 11.321
+    },
+    {
+      "text": "the case of again this the rag safety",
+      "start": 2946.8,
+      "duration": 9.24
+    },
+    {
+      "text": "issues",
+      "start": 2953.16,
+      "duration": 6.52
+    },
+    {
+      "text": "were there.",
+      "start": 2956.04,
+      "duration": 6.279
+    },
+    {
+      "text": "Can you successfully achieve greater",
+      "start": 2959.68,
+      "duration": 5.12
+    },
+    {
+      "text": "safety by changing the general",
+      "start": 2962.319,
+      "duration": 5.841
+    },
+    {
+      "text": "instruction or you know is the prompting",
+      "start": 2964.8,
+      "duration": 5.36
+    },
+    {
+      "text": "that achieve safety just giving a bunch",
+      "start": 2968.16,
+      "duration": 4.48
+    },
+    {
+      "text": "of examples of what not to do? Again, we",
+      "start": 2970.16,
+      "duration": 4.399
+    },
+    {
+      "text": "we did not necessarily test this for the",
+      "start": 2972.64,
+      "duration": 4.52
+    },
+    {
+      "text": "paper, but the answer is",
+      "start": 2974.559,
+      "duration": 6.681
+    },
+    {
+      "text": "probably. Um I",
+      "start": 2977.16,
+      "duration": 7.24
+    },
+    {
+      "text": "the I I don't know to what extent it it",
+      "start": 2981.24,
+      "duration": 5.879
+    },
+    {
+      "text": "is fully feasible to mitigate everything",
+      "start": 2984.4,
+      "duration": 6.24
+    },
+    {
+      "text": "to 100% with prompting, but I'm sure",
+      "start": 2987.119,
+      "duration": 5.601
+    },
+    {
+      "text": "that given enough effort, you can get",
+      "start": 2990.64,
+      "duration": 5.36
+    },
+    {
+      "text": "that uh number of unsafe responses down",
+      "start": 2992.72,
+      "duration": 5.76
+    },
+    {
+      "text": "significantly. Okay. So another",
+      "start": 2996.0,
+      "duration": 6.72
+    },
+    {
+      "text": "potential area for future research is uh",
+      "start": 2998.48,
+      "duration": 5.359
+    },
+    {
+      "text": "you know we talked about it as",
+      "start": 3002.72,
+      "duration": 2.8
+    },
+    {
+      "text": "mitigation generally but you know",
+      "start": 3003.839,
+      "duration": 3.441
+    },
+    {
+      "text": "mitigation through prompting is one of",
+      "start": 3005.52,
+      "duration": 4.4
+    },
+    {
+      "text": "those dimensions. I mean, that's that's",
+      "start": 3007.28,
+      "duration": 3.799
+    },
+    {
+      "text": "also",
+      "start": 3009.92,
+      "duration": 4.08
+    },
+    {
+      "text": "why companies usually release system",
+      "start": 3011.079,
+      "duration": 5.0
+    },
+    {
+      "text": "prompts alongside their models because",
+      "start": 3014.0,
+      "duration": 3.68
+    },
+    {
+      "text": "they have found that system prompt to",
+      "start": 3016.079,
+      "duration": 2.961
+    },
+    {
+      "text": "work particularly well when you're",
+      "start": 3017.68,
+      "duration": 4.8
+    },
+    {
+      "text": "setting up conversational systems. And",
+      "start": 3019.04,
+      "duration": 5.12
+    },
+    {
+      "text": "in a lot of cases, even for automated",
+      "start": 3022.48,
+      "duration": 3.68
+    },
+    {
+      "text": "guardrail systems like those we tested",
+      "start": 3024.16,
+      "duration": 5.12
+    },
+    {
+      "text": "in the second paper, uh, like Lamagard,",
+      "start": 3026.16,
+      "duration": 5.0
+    },
+    {
+      "text": "they come with",
+      "start": 3029.28,
+      "duration": 4.72
+    },
+    {
+      "text": "pre-identified taxonomies and safety",
+      "start": 3031.16,
+      "duration": 5.88
+    },
+    {
+      "text": "categories that are that they ask to add",
+      "start": 3034.0,
+      "duration": 4.96
+    },
+    {
+      "text": "to the prompt.",
+      "start": 3037.04,
+      "duration": 3.68
+    },
+    {
+      "text": "So there's already the starter prompt",
+      "start": 3038.96,
+      "duration": 3.76
+    },
+    {
+      "text": "and then they say okay you can adapt the",
+      "start": 3040.72,
+      "duration": 4.879
+    },
+    {
+      "text": "prompt to add new tonomy classes. We",
+      "start": 3042.72,
+      "duration": 4.639
+    },
+    {
+      "text": "find that this does not really work. It",
+      "start": 3045.599,
+      "duration": 4.081
+    },
+    {
+      "text": "works a little bit. So that that's kind",
+      "start": 3047.359,
+      "duration": 4.561
+    },
+    {
+      "text": "of informing also my answer to the rack",
+      "start": 3049.68,
+      "duration": 4.879
+    },
+    {
+      "text": "case where yeah we know this works but",
+      "start": 3051.92,
+      "duration": 4.88
+    },
+    {
+      "text": "it's not perfect. Yeah, we've already in",
+      "start": 3054.559,
+      "duration": 4.321
+    },
+    {
+      "text": "the course of conversation identified a",
+      "start": 3056.8,
+      "duration": 6.48
+    },
+    {
+      "text": "few areas of uh future research. Um can",
+      "start": 3058.88,
+      "duration": 6.28
+    },
+    {
+      "text": "you talk briefly about",
+      "start": 3063.28,
+      "duration": 4.64
+    },
+    {
+      "text": "um additional opportunities for future",
+      "start": 3065.16,
+      "duration": 5.959
+    },
+    {
+      "text": "research that your team is uh thinking",
+      "start": 3067.92,
+      "duration": 5.36
+    },
+    {
+      "text": "about in in this domain as well as",
+      "start": 3071.119,
+      "duration": 4.321
+    },
+    {
+      "text": "safety broadly? Yeah, absolutely. I",
+      "start": 3073.28,
+      "duration": 4.279
+    },
+    {
+      "text": "think um I mean the",
+      "start": 3075.44,
+      "duration": 4.96
+    },
+    {
+      "text": "most necessary area is really in in the",
+      "start": 3077.559,
+      "duration": 3.841
+    },
+    {
+      "text": "realm of",
+      "start": 3080.4,
+      "duration": 4.0
+    },
+    {
+      "text": "mitigations. I think we we do need",
+      "start": 3081.4,
+      "duration": 5.679
+    },
+    {
+      "text": "guardrails for highly specific",
+      "start": 3084.4,
+      "duration": 5.76
+    },
+    {
+      "text": "applications and this does not focus",
+      "start": 3087.079,
+      "duration": 5.24
+    },
+    {
+      "text": "only on financial services but also on",
+      "start": 3090.16,
+      "duration": 4.32
+    },
+    {
+      "text": "on healthcare and biomedical research",
+      "start": 3092.319,
+      "duration": 5.921
+    },
+    {
+      "text": "and uh legal the legal field. uh it",
+      "start": 3094.48,
+      "duration": 5.52
+    },
+    {
+      "text": "might be specific to insurance companies",
+      "start": 3098.24,
+      "duration": 3.52
+    },
+    {
+      "text": "there might be there's all of these",
+      "start": 3100.0,
+      "duration": 3.92
+    },
+    {
+      "text": "knowledge intensive domains that are",
+      "start": 3101.76,
+      "duration": 6.0
+    },
+    {
+      "text": "adopting increasingly AI and as they are",
+      "start": 3103.92,
+      "duration": 5.36
+    },
+    {
+      "text": "increasingly adopting AI they need to",
+      "start": 3107.76,
+      "duration": 3.599
+    },
+    {
+      "text": "also be mindful of what spec domain",
+      "start": 3109.28,
+      "duration": 5.2
+    },
+    {
+      "text": "specific risks exist uh and how to",
+      "start": 3111.359,
+      "duration": 6.321
+    },
+    {
+      "text": "mitigate them and especially since we",
+      "start": 3114.48,
+      "duration": 7.119
+    },
+    {
+      "text": "found that broad general guardrail",
+      "start": 3117.68,
+      "duration": 5.679
+    },
+    {
+      "text": "solutions don't really work in these",
+      "start": 3121.599,
+      "duration": 4.321
+    },
+    {
+      "text": "specialized domains there needs to be",
+      "start": 3123.359,
+      "duration": 7.24
+    },
+    {
+      "text": "more work on adaptable or specializable",
+      "start": 3125.92,
+      "duration": 7.28
+    },
+    {
+      "text": "guardrails. One area we've also not not",
+      "start": 3130.599,
+      "duration": 5.441
+    },
+    {
+      "text": "touched uh today is",
+      "start": 3133.2,
+      "duration": 5.28
+    },
+    {
+      "text": "multilingualism. Uh just because your",
+      "start": 3136.04,
+      "duration": 3.64
+    },
+    {
+      "text": "model is safe in English does not",
+      "start": 3138.48,
+      "duration": 2.72
+    },
+    {
+      "text": "necessarily mean it is safe in all the",
+      "start": 3139.68,
+      "duration": 4.32
+    },
+    {
+      "text": "other languages. In fact, a lot of the",
+      "start": 3141.2,
+      "duration": 6.32
+    },
+    {
+      "text": "published attacks involve um getting the",
+      "start": 3144.0,
+      "duration": 5.48
+    },
+    {
+      "text": "model to transition from one language to",
+      "start": 3147.52,
+      "duration": 5.36
+    },
+    {
+      "text": "another or you know from some code RO 13",
+      "start": 3149.48,
+      "duration": 6.4
+    },
+    {
+      "text": "or whatever. Yes. uh and different",
+      "start": 3152.88,
+      "duration": 6.8
+    },
+    {
+      "text": "encodings and uh you know just using",
+      "start": 3155.88,
+      "duration": 6.36
+    },
+    {
+      "text": "letters that look similar to to the",
+      "start": 3159.68,
+      "duration": 4.159
+    },
+    {
+      "text": "original and there's all of these",
+      "start": 3162.24,
+      "duration": 3.359
+    },
+    {
+      "text": "attacks. They're usually categorized",
+      "start": 3163.839,
+      "duration": 3.361
+    },
+    {
+      "text": "still as as prompt injection because",
+      "start": 3165.599,
+      "duration": 3.281
+    },
+    {
+      "text": "you're trying to induce certain behavior",
+      "start": 3167.2,
+      "duration": 4.96
+    },
+    {
+      "text": "by by giving nonsensical inputs or",
+      "start": 3168.88,
+      "duration": 4.719
+    },
+    {
+      "text": "asking the model to have certain",
+      "start": 3172.16,
+      "duration": 3.28
+    },
+    {
+      "text": "behaviors like switching to a different",
+      "start": 3173.599,
+      "duration": 5.121
+    },
+    {
+      "text": "language. Um there there is certainly",
+      "start": 3175.44,
+      "duration": 5.679
+    },
+    {
+      "text": "some initial work in in all of these uh",
+      "start": 3178.72,
+      "duration": 5.119
+    },
+    {
+      "text": "fields now but there's very little that",
+      "start": 3181.119,
+      "duration": 5.121
+    },
+    {
+      "text": "is in the intersection between domain",
+      "start": 3183.839,
+      "duration": 5.0
+    },
+    {
+      "text": "very specific domains and all of these",
+      "start": 3186.24,
+      "duration": 5.44
+    },
+    {
+      "text": "issues and I think that's why in in our",
+      "start": 3188.839,
+      "duration": 4.28
+    },
+    {
+      "text": "second period we also specifically call",
+      "start": 3191.68,
+      "duration": 4.08
+    },
+    {
+      "text": "this out as an area where academics",
+      "start": 3193.119,
+      "duration": 4.48
+    },
+    {
+      "text": "actually are very well positioned in",
+      "start": 3195.76,
+      "duration": 4.0
+    },
+    {
+      "text": "addition to to people in industry",
+      "start": 3197.599,
+      "duration": 3.921
+    },
+    {
+      "text": "because academics often have access to",
+      "start": 3199.76,
+      "duration": 4.319
+    },
+    {
+      "text": "subject matter experts. is often cross",
+      "start": 3201.52,
+      "duration": 4.48
+    },
+    {
+      "text": "field collaborations that that can be",
+      "start": 3204.079,
+      "duration": 5.04
+    },
+    {
+      "text": "set up to really understand the the AI",
+      "start": 3206.0,
+      "duration": 7.28
+    },
+    {
+      "text": "risks in chemistry in uh in other social",
+      "start": 3209.119,
+      "duration": 7.521
+    },
+    {
+      "text": "sciences in economics and this is an",
+      "start": 3213.28,
+      "duration": 5.44
+    },
+    {
+      "text": "area where there's both qualitative and",
+      "start": 3216.64,
+      "duration": 4.0
+    },
+    {
+      "text": "quantitative work that can be done on",
+      "start": 3218.72,
+      "duration": 5.48
+    },
+    {
+      "text": "the mitigations on uh better ways to",
+      "start": 3220.64,
+      "duration": 6.88
+    },
+    {
+      "text": "measure uh violations on developing data",
+      "start": 3224.2,
+      "duration": 6.68
+    },
+    {
+      "text": "sets that can can be used and reused on",
+      "start": 3227.52,
+      "duration": 5.96
+    },
+    {
+      "text": "uh generating training data for",
+      "start": 3230.88,
+      "duration": 5.439
+    },
+    {
+      "text": "mitigations and and all of those areas",
+      "start": 3233.48,
+      "duration": 4.44
+    },
+    {
+      "text": "where there's very little research at",
+      "start": 3236.319,
+      "duration": 3.361
+    },
+    {
+      "text": "the moment specifically in in",
+      "start": 3237.92,
+      "duration": 3.919
+    },
+    {
+      "text": "specialized domains. Mhm. Yeah. It",
+      "start": 3239.68,
+      "duration": 4.639
+    },
+    {
+      "text": "sounds like in that regard you're saying",
+      "start": 3241.839,
+      "duration": 4.48
+    },
+    {
+      "text": "both that",
+      "start": 3244.319,
+      "duration": 4.52
+    },
+    {
+      "text": "uh what has come out of",
+      "start": 3246.319,
+      "duration": 6.681
+    },
+    {
+      "text": "academia is insufficient in",
+      "start": 3248.839,
+      "duration": 7.161
+    },
+    {
+      "text": "um you know direct application to",
+      "start": 3253.0,
+      "duration": 5.319
+    },
+    {
+      "text": "domains like financial services. But",
+      "start": 3256.0,
+      "duration": 6.48
+    },
+    {
+      "text": "there is a role for academics in uh",
+      "start": 3258.319,
+      "duration": 6.081
+    },
+    {
+      "text": "addressing some of these challenges.",
+      "start": 3262.48,
+      "duration": 3.839
+    },
+    {
+      "text": "Yeah. I think I think and and we make",
+      "start": 3264.4,
+      "duration": 3.48
+    },
+    {
+      "text": "the point that this is actually a huge",
+      "start": 3266.319,
+      "duration": 5.121
+    },
+    {
+      "text": "opportunity because there is so much",
+      "start": 3267.88,
+      "duration": 5.8
+    },
+    {
+      "text": "access to experts in different fields",
+      "start": 3271.44,
+      "duration": 4.879
+    },
+    {
+      "text": "that academics actually can do this kind",
+      "start": 3273.68,
+      "duration": 4.32
+    },
+    {
+      "text": "of research without being precluded from",
+      "start": 3276.319,
+      "duration": 3.441
+    },
+    {
+      "text": "doing so because they don't have enough",
+      "start": 3278.0,
+      "duration": 4.16
+    },
+    {
+      "text": "compute. There's this ongoing discussion",
+      "start": 3279.76,
+      "duration": 4.96
+    },
+    {
+      "text": "in academic community. Okay. What is our",
+      "start": 3282.16,
+      "duration": 5.04
+    },
+    {
+      "text": "role nowadays? And I think being thought",
+      "start": 3284.72,
+      "duration": 4.48
+    },
+    {
+      "text": "leaders and responsible AI is is",
+      "start": 3287.2,
+      "duration": 4.72
+    },
+    {
+      "text": "absolutely one that uh that they can",
+      "start": 3289.2,
+      "duration": 4.879
+    },
+    {
+      "text": "take up especially as as we're still",
+      "start": 3291.92,
+      "duration": 3.56
+    },
+    {
+      "text": "trying to understand all of these",
+      "start": 3294.079,
+      "duration": 4.401
+    },
+    {
+      "text": "domains. And obviously there there's a",
+      "start": 3295.48,
+      "duration": 4.76
+    },
+    {
+      "text": "lot of really important and interesting",
+      "start": 3298.48,
+      "duration": 3.68
+    },
+    {
+      "text": "research coming out also on on general",
+      "start": 3300.24,
+      "duration": 4.879
+    },
+    {
+      "text": "AI safety from academics. Uh but we",
+      "start": 3302.16,
+      "duration": 5.12
+    },
+    {
+      "text": "don't see much either from industry or",
+      "start": 3305.119,
+      "duration": 3.921
+    },
+    {
+      "text": "from academics in these specialized",
+      "start": 3307.28,
+      "duration": 3.6
+    },
+    {
+      "text": "domains. And that's where there's a lot",
+      "start": 3309.04,
+      "duration": 3.68
+    },
+    {
+      "text": "of opportunities for research today.",
+      "start": 3310.88,
+      "duration": 3.679
+    },
+    {
+      "text": "Well, Sebastian, thanks so much for",
+      "start": 3312.72,
+      "duration": 4.08
+    },
+    {
+      "text": "taking the time to talk through what",
+      "start": 3314.559,
+      "duration": 4.161
+    },
+    {
+      "text": "you've been working on there. Yeah,",
+      "start": 3316.8,
+      "duration": 4.72
+    },
+    {
+      "text": "thank you so much for having me. Great.",
+      "start": 3318.72,
+      "duration": 6.119
+    },
+    {
+      "text": "Thanks so much.",
+      "start": 3321.52,
+      "duration": 3.319
+    },
+    {
+      "text": "[Music]",
+      "start": 3329.01,
+      "duration": 4.419
+    },
+    {
+      "text": "[Applause]",
+      "start": 3335.93,
+      "duration": 4.0
+    },
+    {
+      "text": "[Music]",
+      "start": 3338.23,
+      "duration": 1.74
+    },
+    {
+      "text": "[Applause]",
+      "start": 3339.93,
+      "duration": 3.38
+    },
+    {
+      "text": "[Music]",
+      "start": 3339.97,
+      "duration": 4.01
+    },
+    {
+      "text": "[Applause]",
+      "start": 3343.31,
+      "duration": 8.629
+    },
+    {
+      "text": "[Music]",
+      "start": 3343.98,
+      "duration": 7.959
+    }
+  ]
+}

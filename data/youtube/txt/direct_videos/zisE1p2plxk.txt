@@ -1,0 +1,1592 @@
+If I'm an application developer, if if 5
+10 years ago, data was, you know, a gold
+mine, it's becoming actually a
+liability. In Europe, for example,
+there's GDPR data privacy. We have
+California data privacy. In China, you
+actually need to pay data tax if you're
+using consumer data. This this actually
+creates a platform where you as a
+developer don't need to deal with the
+user data. You're effectively pushing
+software to them. Again, you can have,
+you know, higher intelligent models, uh,
+and you can access all of their, you
+know, context and memory as well in
+this.
+All right, everyone. Welcome to another
+episode of the Twimble AI podcast. I am
+your host, Sam Charington. Today I'm
+joined by Ilia Polosuin. Ilia is a
+co-founder of Near AI, but is perhaps
+best known as a co-author of the now
+famous Attention is All You Need Paper,
+which introduced The Transformer. Before
+we get going, be sure to take a moment
+to hit that subscribe button wherever
+you're listening to today's show. Ilia,
+welcome to the podcast.
+>> Thank you for having here.
+>> I'm looking forward to digging into our
+chat. Uh we're going to be talking about
+the way you're approaching private AI at
+Near AI. Uh but to get us going there,
+I'd love to have you share a little bit
+about your background and in particular
+um you know how you ended up as uh a
+co-author of this you know now famous
+paper to working on the the privacy side
+of AI.
+>> For sure. Yeah. So my background is very
+much in machine learning and AI
+research. I joined Google research
+because I saw the cat neuron paper if
+folks remember that. Um and I was like
+okay we should do that but for text and
+uh really figure out how to learn uh and
+so Google was a great place to do that.
+Lots of language lots of compute. Um and
+so my team was working on question
+answering machine translation and as
+part of that um kind of due to even
+actually requirements and latency for
+google.com
+uh we were trying to figure out how to
+actually build deep learning model that
+can consume lots of context and really
+reason about it without taking ton of
+time right to process that and so that's
+where transformer architecture comes. Um
+now as you know there was a lot of
+evolution happening in 2016 2017 and
+with this transformer I was excited to
+actually put it in production and build
+a product around this and specifically I
+always excited about the idea of
+machines writing code. Uh and so in 2017
+I left and with my co-founder Alex
+Kdanov we started Near AI
+with the idea that how do we actually
+teach machines to code
+>> and you were one of the first authors of
+the paper to leave Google. Is that
+right?
+>> Yeah I was the first one to leave. Um
+and so back then I mean this is like
+even I actually left before the paper
+actually was officially published and so
+that's why I'm the only email that's
+actually Gmail.
+Uh back then nobody thought what's
+happening right now is possible, right?
+So it was like, you know, we were what
+we were pitching was kind of somewhere
+between science fiction and illusion. Um
+and and the reality is back then it
+wasn't possible. The compute wasn't
+there, right? The kind of the scale at
+which you know we know this models are
+needed uh kind of wasn't there and
+wasn't studied very well. Um and on our
+side what we're trying to do is get a
+lot more training data that is relevant
+to this problem which is you know people
+writing some code for descriptions or
+writing descriptions for some code and
+uh we found kind of a niche of people
+around the world who would do this for
+reasonably cheap. It was computer
+science students in like developing
+countries and so we effectively like I
+mean now you know
+>> you built like a quiz platform or
+something like that. We built like a
+crowdsourcing platform for computer
+science students where they can go and
+and you know effectively practice their
+coding and uh and get paid. Now the
+challenge we faced was the students were
+in China, they were in Eastern Europe,
+there's they were in Southeast Asia like
+in all of those countries there's some
+kind of problem with paying right in
+China people don't have bank accounts
+they have widget pay. In Ukraine, for
+example, you need to sell half of your
+dollars on arrival if it's in a foreign
+currency. There was like some countries
+you couldn't just like nothing worked.
+PayPal didn't work. Wise didn't work.
+And so we started looking at blockchain
+as like, hey, this global payment
+network that people talking about, you
+know, we can just use it, right, to pay
+people. And this was 2018. There was
+nothing that really kind of matched our
+requirements, right? We're sending, you
+know, small amounts of money. It was
+microtransactions.
+uh even though it was computer science
+students but we didn't want to make it
+super complicated for them. Um and so
+there was nothing that was like easy to
+use and actually cheap right back then
+uh kind of transaction fees were you
+know in dollars and that's how we
+actually like okay we should solve this
+problem right we have this you know we
+we talked with other people other people
+have this as well so like we can solve
+this problem and go back to AI kind of
+with that already in the pocket and so
+uh that's kind of how Near Protocol was
+born uh we we launched it in 2020 It's
+one of the most used blockchains in the
+world right now with 50 million uh
+monthly active users. It's used for
+payments, microp payments, uh kind of
+loyalty points, remittances
+um and variety of like financial use
+cases as well as uh data labeling and
+other AI workloads as well. We have like
+multiple data labeling projects actually
+running on top of it.
+And so now kind of in effectively in 22
+23 as the you know as the resurgence of
+this and actually like figuring out the
+scale of the uh AI kind of came in we
+started now with a renewed lens of the
+blockchain looking at it and actually
+see how can we contribute it and how can
+we leverage it and pretty quickly kind
+of the you know as you work in
+blockchain you get I would say
+indoctrinated by the value where it's
+kind of user ownership, right? Self
+ownership, self- sovereignty. Uh and it
+and it was pretty clear that the kind of
+AI space changed, right? It went from,
+you know, this was open research,
+everybody was contributing, the papers
+published, you know, transformer code
+was out, you know, for everybody to
+build on top to like kind of everybody
+was keeping a secret, things are
+starting to like close up. And as we
+know also just like from kind of market
+dynamics um that that leads to then you
+know more and more centralization
+monopolization of the technology and in
+turn becomes
+um kind of the monopoly that we've seen
+before in other areas. And so the
+example that I use is AOL. Like imagine
+if internet was effectively run out of
+AOL. uh and you know if you want to host
+a website you need to go to AOL and ask
+them uh to do this right and similar if
+you're a user you you can only kind of
+access through this but in case of AI
+because it's such a fundamental
+technology right is intelligence as a
+technology it it's so much more
+dangerous right because the like I mean
+internet is information but this is
+actually like the processing the
+decision- making and so kind of the
+realization was that if we have only
+kind of a handful of kind of closed
+source like profit driven companies
+dominating a space, we may end up in
+1984 type situation, right? Where uh you
+effectively have, you know, a company
+that that you know can be very much not
+intentionally even effectively deciding
+how everybody thinks, right? Because
+that's how we process information.
+that's how we going to be see the world
+and so that's kind of where this idea of
+user owned AI was born which was like
+hey let's combine what we've bu been
+building on the blockchain side which is
+user ownership kind of network effects
+of everybody contributing and
+participating
+in comparison to you know centralized
+kind of for-profit company and create an
+AI that actually is on the user side on
+you know your side not their side and so
+now there's a lot There was a lot of
+open question how do we actually do that
+right because you have
+right and so so that took some time
+because uh you know all the methods that
+people use for example for privacy for
+verifiability they're extremely
+expensive right uh there's like
+homorphic encryption there's z proofs
+etc all of them have you know like
+10,000 to 100,000 times overhead and
+when we're talking about you know
+machine learning which is already using
+all of the comput possibly We can
+>> let's layer in two super compute
+intensive projects.
+>> Yeah. And so so we've been doing a lot
+of research and actually the interesting
+thing happened is the hardware um so
+Nvidia hardware and Intel u both kind of
+at a similar time enabled this mode
+called confidential computing. So this
+is inside the chips itself there's a
+like you can enable it in such a way
+that even the owner of the hardware of
+the compute is not able to access what
+computation happening inside but whoever
+kind of requested this compute can
+actually have a certificate saying that
+this you know this data was run on this
+you know compute let's say docker and
+this is the response. Yeah, I was just
+going to ask if this came around. This
+is the like secure enclave stuff that
+came around when folks were trying to
+harden Docker containers uh for
+multi-tenant environments.
+>> That that was part of this. I mean, so
+there was a lot of research and kind of
+hardware uh over over the years trying
+to do this, but historically it's been
+very like lowlevel like you needed to
+rewrite your programs in in kind of like
+assembly effect or like C with like
+special instructions.
+And intellectually in 2024 mid 2024
+released on the new fifth generation
+zeons this new uh kind of generation
+which allows to exactly run just
+dockers. Um and similarly Nvidia enabled
+work with that specific mode where
+effectively drivers inside uh can
+connect to the Nvidia as well in the
+secure mode. So that that kind of all
+came together effectively like a year
+ago and so so since then like you know
+okay that enables us to that gives us
+some components but then now we still
+need the whole system right and so so
+that's really what you know we're
+enabling is we call it decentralized
+confidential machine learning um and so
+so confidentiality I think maybe
+important to discuss why it's why is it
+important well confidentiality is is
+combination of things, right? First of
+all, um, for the user, like a lot of
+people usually like, oh, you know, I
+don't really care. Like, there's some
+people who are like, I don't care about
+privacy. There's people who are like, I
+care about privacy, but they go and
+still use all the products that, you
+know, take all their data.
+But there's important kind of
+interesting effects that there's still
+some things that you're not going to
+trust. uh like you know we don't
+normally walk around with like a hot mic
+that records everything we say
+>> although that is becoming popularized by
+some AI companies right it is yeah it's
+a conversation that we're having now in
+spite of how crazy it sounds or would
+have sounded a few years ago
+>> yeah and and this is this is example of
+somebody who should definitely use our
+platform
+>> okay
+>> um and similarly like yeah I mean
+there's just so much context text in
+your life that right now we're still not
+putting on on you know into this AI
+systems and like I think everybody's
+kind of on different spectrum right like
+I for example don't trust you know my
+email and my calendar to uh maybe an AI
+company some people would right but then
+they wouldn't trust with their medical
+data but maybe they wouldn't trust with
+their banking bank data right so there's
+always a threshold where you kind of get
+all h maybe I shouldn't do that right
+and so what we offer is is effectively
+removing that threshold and say hey
+actually it's all confidential all end
+to end encrypted for you and you can
+trust that there's no other single party
+not you know developers not operators of
+hardware not model developers etc are
+able to access it right so it's as if it
+was local and potentially even better
+than local because you have like
+additional security mechanisms
+>> and so is the idea that
+oh there's like so many questions I'm
+trying to ask here So, like you're
+describing
+a a a system that, you know, many people
+say like if I don't if I can't run this
+locally on my machines, I'm not going to
+run it. But it sounds like what you're
+trying to do is more
+in like create a system that would allow
+like remote and cloud-based but also
+private to the same level as local AI.
+Am I parsing that correctly? I mean I' I
+run some of the models locally but I
+mean obviously they're not as um
+intelligent as what you can have in the
+cloud they're not as fast but
+importantly also like you know even even
+if we have like a smarter model you
+still have a lot of things that are
+happening on the background that you
+want to like keep happening right you
+want you know set up an agent that runs
+and reads all the news and summarizes it
+and process it or workflows etc. So
+there's always going to be a need for a
+background work and analysis and kind of
+surfacing it even as local models
+improve. So like I think that's that's
+really the and you know you want to back
+up you want you want a way to
+synchronize between devices like there's
+a lot of kind of um um kind of
+functionality that you want that
+requires cloud and right now there is no
+really private cloud right there's like
+always some multiple companies usually
+who actually have access to the to the
+to the data and to the computation. The
+other thing is for developers actually
+like if if I'm an application developer
+if if five 10 years ago data was you
+know a gold mine it's becoming actually
+a liability
+and it's become a liability both like in
+Europe for example there's GDPR data
+privacy we have California data privacy
+there's all this kind of different data
+privacy laws that popping up in China
+you actually need to pay data tax if
+you're using consumer data yeah uh and
+So, so the reality is actually like if
+before this was like really valuable for
+many use cases, now it's actually a
+liability. And so this this actually
+creates a platform where you as a
+developer don't need to deal with the
+user data. You're effectively pushing
+software to them. Again, similar how
+local works, right? You pushed the
+application, you know, to the user and
+it runs on their device. You don't need
+to deal with whatever data. But again,
+now you have background processing. You
+can have, you know, higher intelligent
+models. uh and you can access all of
+their you know context and memory as
+well in this. So you kind of get like
+interesting combinations from both sides
+there is another side which is also
+interesting. So right now if I'm a model
+developer like actual you know frontier
+AI models I have a interesting challenge
+where uh you know if I'm not a you know
+the largest labs which are only few uh
+let's say I developed a new you know
+amazing model for anime characters or
+whatever and now I have a choice I
+either you know I only have some amount
+of compute I either use this compute to
+serve customers or
+uh or research and develop a new model,
+right? And continue trading, right? Like
+there there's a and so if you if you get
+a lot of usage and like you're kind of
+limited by that, you you then still, you
+know, need to handle all of their data,
+right? So you have this kind of uh
+challenges with all the G D G D G D G D
+G D G D G D G D G D G DRS
+in the world.
+And now if you say like oh but you know
+there's ton of clouds GPU clouds around
+the world you can just go and you know
+rent them off when you need it. And the
+challenge is actually this model
+developers don't trust third parties
+because they're afraid that their model
+will leak and this has happened uh where
+the model weights have leaked from third
+parties.
+>> What's a specific example of that
+happening?
+>> So mistrol gave its weights to hugging
+face and it ended up on 4chan.
+>> Oh wow. I hadn't heard that.
+>> And so uh and and so I mean this is the
+same reason why like a lot of the um
+like you know people build their own
+clusters because they want to control
+everything. I mean obviously there's
+like some efficiency comes from like
+optimizations but a lot of it is also
+just like we want to control you know
+like literally have guards on the doors
+to make sure nobody can access. So we're
+also solving that problem interestingly
+because because of secure enclaves you
+can actually encrypt the model weights
+and they only get decrypted inside the
+secure enclave and then user data is
+also private right so you're effectively
+bringing kind of privacy from both sides
+uh like kind of model developers don't
+need to hand deal with user data they uh
+kind of don't need to you know they also
+don't need to rent the hardware right it
+gets kind of rented at the moment when
+users using it and then on Zaza side the
+users don't have access to the model but
+they also know their data is not going
+anywhere.
+>> Let's pause here. So
+you're you're introducing a twist here.
+So like I thought we had this trend like
+at least in my mental transition was
+okay privacy he's talking about this
+local thing and then you know the
+previous time I interrupted it was like
+no it's this cloud thing but now what
+I'm hearing strikes me more as like this
+decentralized thing where it is actually
+local like it's running on my laptop or
+device but also on other people's
+devices like uh and The reason why
+I'm saying that is because you're saying
+like
+uh I don't know you said something in
+particular that made me think that like
+the the model's coming to my device and
+the data is coming you know the data is
+on my device and the training's
+happening there and then like wait
+let's maybe back up and like like kind
+of frame what we're talking about
+topologically I think
+>> yeah topologically this is this is
+compute hardware Let's say GPUs and CPUs
+that live in this decentralized
+confidential cloud.
+>> Ah, so it is a cloud but it's not the
+same cloud. It's like a decentralized or
+maybe could you like run it in a
+like run it on it's it's hardware so
+probably not running it on
+>> Yeah, you need bare metal to that be
+configured and then join the network.
+But yeah, I mean like a Amazon, you
+know, data center can repurpose itself
+to become a member of this of this
+cloud. Um yeah, so this is a cloud. So
+like you you as a user accessing it. Um
+but it it gives you very kind of close
+guarantees to the local uh and you can
+potentially even add additional like you
+know pin code to FA etc. like you can
+actually restrict things that you may
+not even have on a local uh host because
+I mean local host you still can access
+the hard drive physically here you like
+you still have like a level of
+interaction that can provide additional
+controls but there's no other third like
+there's no third party that can access
+that like your data and your compute
+>> right so this this cloud is kind of the
+the you know the middle layer as a user
+as an end user like I'm contributing my
+data in some because I want some
+processing on my data or to access
+intelligence and the cloud can't access
+my data and presumably the model
+provider can't access my data but the
+model provider like is providing the
+model into this cloud and it can access
+my data and return some results back to
+me.
+>> Correct.
+>> Interesting. Interesting. You mentioned
+at one point that data is a liability to
+the model providers. like presumably
+they need access to if not enduser data
+like some data to train their models to
+tune their models like you know
+particularly now in the part of the you
+know AI life cycle that we're in like
+we're finding that one of the key
+differentiators for you know
+organizations is building this data
+flywheel where they're getting early
+users getting access to um their
+interactions or traces and then
+improving their models based on that
+using you know reinforcement fine-tuning
+or whatever. Um does this process like I
+get that user data can be uh you know
+can have a a cost you know to the model
+provider but um you know that's not all
+there is to the story like they still
+need that user data to improve like how
+does that play in in this model?
+>> Yeah. So I think it's um first I think
+that is changing as well the need for
+the for the actual user feedback data.
+Um but first be before we go there why
+is this liability? So imagine I'm a
+European right I'm in Lisbon right now.
+I use OpenAI. OpenAI trains on my data
+and then I go and I evoke my GDPR law
+and say hey remove all my data. I'm
+assuming that that that is not uh a
+resolved issue either because I can't
+believe it's because no one has asked
+yet. I'm assuming it's because they've
+just ignored it and uh at one point, you
+know, there may be a challenge, but
+we're just not there yet.
+>> Yeah. So, so that's what I mean by
+liability, right? I mean, and you know,
+maybe OpenAI has the money to pay their
+fine. Like, I mean, similar how Google
+and Facebook have the paid, you know,
+billions of dollars in fines. But if
+you're a smaller model developer, that's
+why I was kind of using, you know, other
+examples. You this effectively can be
+like existential.
+>> Yeah, I get it. It can be a liability.
+>> So that's piece number one. The piece
+number two is actually why I think the
+space is transitioning from user
+feedback is so let's use the deepseek
+example. So when deepseek released their
+first model right which was you know at
+least at the time from the open weight
+models was a state-of-the-art uh and
+like our for example for R1 it did not
+use the explicit like user queries right
+>> yeah we're talking about like this
+transition from user feedback to
+verifiable
+results
+>> it's combination of data labeling like
+indeed human but like you actually want
+a very specific supervision and you want
+to control kind of what feedback you
+get. So you like human labeling is very
+I mean its own space right where there's
+a lot of knowhow how to do it properly
+and again like we've been running that
+for years. So um there is synthetic data
+there is kind of this indeed verifiable
+you know math physics logic kind of uh
+coding etc which clearly improve
+reasoning as well. So there's like a lot
+of a lot of the I would say
+um you know even if we're talking about
+like the vi like shifting the vibe of
+the model which I think something that
+usually credited to you know like claude
+versus open AAI right like uh the vibe
+is different and kind of how uh even
+that is you probably want like more
+trained people to actually give feedback
+versus just relying on on kind very very
+noisy signal that comes from uh users.
+Now I mean again this is like I would
+say it's it's not fully transitioning to
+this and and depends on the use cases.
+So it's important to note but as I said
+like the co the cost versus reward is is
+shifting and and like it's shifting I
+think faster than uh at least some
+people realize it.
+>> Interesting. And would you say that that
+is
+because
+you know we're just learning how to
+manipulate you know the vibe or or
+output characteristics of a model based
+on more kind of curated uh you know
+training data or feedback or is there
+are there techniques that are enabling
+this shift like what do you see as the
+driver
+of this shift? I mean I think it's
+combination. I mean again even even the
+original chat GPT the GPT 3.5 it was
+like on the human label but not on the
+actual user feedback. Right.
+>> Sure. Yeah. So sure there's like this
+transition from RHF to RF and like the
+verifiable stuff and all that like but
+it sounds like you're
+it sounds like you're speaking to like a
+broader trend.
+>> Let's let's go back to like Google,
+right? of Facebook like Google and
+Facebook learn from user behavior like
+directly right there's no nobody's human
+labeling like hey which search result I
+mean there's like a little bit of that
+but like in mass it's mostly just signal
+from user clicks right and then at large
+scale it's been processed into like
+actual signal for the machine learning I
+think what LLM did is kind of transition
+that to like hey we actually just pass a
+lot of unsupervised data right not not
+like user click data and then we add a
+little bit of a human like a very
+specific human labelled data. And for
+that we also need like the better the
+foundational model almost like the more
+complex things we want people to label.
+And so kind of the like again for our
+example we were finding computer science
+students because we needed people who
+code and so just kind of the you know
+some some maybe broader data wouldn't be
+that much that useful. So part of it is
+we've collected enough data and we've
+kind of baked the generic stuff into the
+foundation models. So now where the
+innovation is happening is um you know
+bringing in more subject matter
+expertise or specialized skills
+>> or or indeed like a verifiable thing or
+combining like you know synthesizing
+data and then using another model to
+evaluate it and kind of then human
+labeling like all those kind of
+pipelines, right?
+>> Yeah. Yeah. And again, it depends like
+for for some things like I mean audio
+for example, same thing, right? Is like
+it it's great to have a bunch of audio
+from people that use your product, but
+then again like you you may get in
+trouble so much, right? We've seen that
+happening. It's better to just pay
+people to contribute their audio and
+like sign off the rights. And it's and
+it's like it's kind of pretty
+straightforward to do that. Like we have
+a project on near as well running that.
+Uh, and so like it like the amount of
+Yeah. like kind of that's what I mean
+like the the shift like how how much we
+can collect data and how how useful that
+is versus getting a bunch of user data
+and then dealing with all the
+repercussions of that. Uh so I had asked
+about the you know this like creating a
+data flywheel and the importance of that
+for you know companies in the space and
+your response is like
+kind of to reinforce the liability
+aspect of that data and then talk about
+this broader shift that's happening to
+more specialized data creation.
+Um
+I think yeah I'm not sure that I'm fully
+sold that that flywheel thing is not
+important. Uh but if you don't have
+anything else to add on that we can move
+we can move on.
+>> I mean the other piece we do want to is
+optin users can contribute their data.
+Right. So we do we do want like if you
+want to contribute you should get
+something in result right it can be
+economic it can be credits it can be
+something
+>> and the underlying blockchain has a
+mechanism to make that tenable in a way
+that it's not tenable today.
+>> Yeah. And and so one of the models for
+example that uh like a new business
+model that we have uh been building is
+right now I I don't know if you saw this
+post by Dario uh where he said like hey
+every model we've built was a successful
+thing but we spending money
+>> your own businesses.
+>> Yeah. So we actually do I mean we we we
+talked about this like last year like
+where effectively every model gets its
+own token. So like a way to distribute
+reward and value from the revenue while
+also re rewarding with this tok I mean
+effectively you can think of shares um
+where you can you can actually like
+whoever contributed data gets a token of
+this model that will be trained on their
+data and then the revenue is distributed
+to this token holders right as a like
+for the model's lifetime right so we can
+actually like run and guarantee those
+parameters as well
+>> it was so what's interesting thing about
+that idea is that
+you know when you talk about this
+idea of the kind of the broader
+conversation around like compensating
+rights holders for content that's
+consumed like
+I feel like it it you know gets to be
+like oh antenna like how would you ever
+do that like you know you you're
+crawling all of the internet like how
+would you even possibly begin to do
+that. But just you describing this token
+model, it's kind of like, oh well, you
+maybe you could do that. Like you're
+crawling a site, you know that site, you
+know, you reserve a token for that site.
+Someone needs to verify that they have
+control over that site to access the
+token. Now they have a share of the
+model and they can, you know, gain in
+the rewards. It all of a sudden, at
+least for me, it like clears up a lot of
+the just like it's not possible feeling
+about it.
+>> Yeah. Exactly. and and and so that's a
+really like that example as well as you
+can contribute data privately. So you
+can say hey I want this data to be used
+in the model training but I don't want
+any anyone to see it right for example
+right and so you can also do that or you
+can say hey I want it to be used at
+inference time as part of your the
+search like retrieval index but not not
+at training so you contribute like it's
+payable like for example for pay data
+New York Times can contribute their data
+fully privately into secure enclaves and
+then it's going to be used at retrieval
+time it it's going to get recorded and
+they're going to get paid for that, but
+it's so so things like that. You just
+get a lot of the pieces kind of for free
+in this new model. Earlier in the
+conversation, we talked a little bit
+about
+closed models versus open models
+and like did you anticipate, you know,
+as
+um you know, chat GPT happened and kind
+of the private foundation models began
+to establish themselves? was like did
+you anticipate that there would be like
+fast followers of like these open models
+or has it surprised you how quickly
+uh open weights and you know to a lesser
+degree open models have um come about
+and their capability? No, I was actually
+I think I was trying to remember it was
+like February 23.
+I was talking about like, hey, open
+source is going to catch up. Um because
+yeah, I mean I think I think the the
+challenge is like with pure open source
+right now. And again, this is something
+we're solving is that I built the model,
+I released it, everybody's like cool,
+you know, here's here's a stars on
+GitHub, stars on on hugging face, but
+then you don't make any money, right?
+And so and also like it's not because of
+that it's also becomes less about open
+source and about open weights and people
+keep the source so they can kind of
+continue continue doing things and so in
+result we're actually wasting a lot of
+resources because everybody kind of
+redoing experiments because we actually
+don't know what were the things people
+did to get to this results and so
+everybody kind of need to reproduce or
+or poach the people uh who've done it
+and so kind of the way we think about it
+is to reverse it where you can actually
+uh have an open process of training,
+right? So the training I mean the data
+either fully open or this like kind of
+encrypted data, right? That you can run
+over.
+>> So available but not necessarily
+transparent.
+>> Yeah. Yeah. Uh and you need to pay to
+access it in whatever your to your model
+token or some other way uh if you if
+you're planning to monetize differently.
+And then the resulting weights are
+actually also encrypted and and only run
+in this kind of uh uh DCML model. So you
+can actually monetize it, right? So you
+can receive kind of revenue from using
+it. You can say hey you know compute
+cost is X. I want you know 20 cents for
+edge million token over that uh to go to
+the model developers and all the
+contributors to do that. So you kind of
+can reverse that and get actually like
+actual open research and collaboration
+happening there um while monetizing the
+outcomes. And the benefit is you still
+get all the properties of open source,
+right? Everybody can use it. There's no
+like way to stop using it. You can even
+run it on your hardware if you have the
+modern like uh uh Blackwell or Hopper
+and like you need to set it up in this
+central mode and uh uh yeah you can
+fine-tune it. You can do all those
+things on top.
+>> Yeah, I mean a missing property is the
+ability to
+to see it and change it maybe. uh you
+know maybe that's more true for software
+than for a model. If you have the
+ability to to fine-tune on top of it
+that's you way that you can change it
+>> there's very little people who go and
+like do a brain surgery on a model
+>> I mean there's few that like do you know
+like evolutionary algorithms and other
+stuff but yeah usually it's either
+fine-tune post train etc. Uh you
+although I like the push back that I
+would offer is that like if the best
+models were open, you know, maybe we'd
+see a lot more brain surgery and maybe
+we'd have a more interesting kind of
+ecosystem of
+>> of results. Like I think, you know,
+there are people that do that kind of
+thing for various reasons with, you
+know, open models, but I think there's a
+lot less invested in them because
+they're not as good as the the closed
+models. Um I don't know. interesting.
+Um,
+you know, I'm curious like,
+you know, there definitely, you know,
+some aspects here that make a lot of
+sense to me. Historically,
+you know, there's always been this big
+barrier that's not at all technical, and
+that is, will people pay for privacy?
+And whether that's you know currency or
+um you know the the sheer force of will
+that's required to jump over the hurdles
+to achieve it um you know inconvenience
+uh you know do you do you feel like you
+know this is different or it's different
+in this space or like how do you think
+about that challenge?
+>> I think I think twofold. one is I think
+there there is a audience that will pay
+for privacy, right? Um and it's not
+>> I don't think the issue is that there's
+never that audience. It's that it's
+relatively small. it it is relatively
+small but I think the the idea here and
+and kind of I think everybody's on a
+threshold as I said of of like what they
+feel they would give to the model and
+the more you give the better the like
+actually we're getting to a stage where
+models are generally like they're
+sufficiently intelligent and actually
+it's all becomes about context like
+about context management about tool
+management about all the pieces right
+and so the idea here that kind of we are
+very much uh going after is that because
+it's private, you can actually share a
+lot more with it and you will add your
+email, your calendar, your medical data,
+your financial data, you know, your
+crypto wallet, etc. And so it's able to
+manage your whole life, not just like
+some aspects that you were willing to
+share. And so and kind of the the first
+cohort that actually cares about privacy
+that's you know that is our early
+adopters who we kind of target to really
+enable this but then kind of as this
+becomes mature now it's it's appealing
+to more people because it's a better
+product and kind of smarter product more
+intelligent product again not because
+the model is right away more intelligent
+but because um but because you have more
+context The other side of this is
+actually because of this open research
+process, what we are um aiming for is to
+have people again fine-tuning
+specialized models for specialized use
+cases, right? And again, this is where
+because they have a monetization
+embedded into this, right? they can
+actually you know invest effort and time
+and compute to actually build
+interesting specialized models that may
+be better at you know financial use
+cases healthcare etc. And again all of
+them are available on your platform they
+can compute over your your data and then
+again now that all your data is there
+it's useful there's useful models other
+developers as well again if I'm building
+a noteaker or something else I can take
+you know build a noteaker right now that
+takes all your data listens to it all
+the time you know sends it to my server
+stores it on my server etc but liability
+and also you know now it's a hurdle for
+everybody else to adopt it or you can
+just say actually I'm going to build my
+app and deploy it into this cloud where
+it runs on the on your side right you
+know and saves context there as well uh
+in your data store and so now your data
+store becomes even more uh useful
+because it has all the notes as well
+there and your AI can now read over
+those notes so you don't need to like
+again merge things with Zapier and do
+all
+Like that's the idea is like you have
+network effects of kind of more context,
+more data, more applications building
+around the user. And so yes, like it
+starts with early adopters who care
+about privacy and kind of layers on as
+more and more applications and things uh
+become uh available on this cloud. So I
+want to talk a little bit about the
+process of making models available to
+this environment. Like to what degree is
+it a simple lossless transformation of
+you know an existing like safe tensor
+ggf file whatever some weights file
+versus like am I having to rebuild my
+model it in some new paradigm. Um
+what how does that work? Yeah, I mean we
+effectively run you know VLM and
+customized version of VLM. So everything
+that you know normally served already
+works. Um and if if you need something
+custom then yeah you can also package
+your own docker. Uh I mean that is that
+is less secure from a user side but it's
+uh also available.
+It's the secure enclave that ensures
+that there's no kind of
+man-in-the-middle attack between VLM and
+like the model weights and the customer
+data.
+>> Yeah. So, exactly. So, what's happening
+is you know you checkpoint your uh you
+know model weights uh on chain. So, you
+know the hash the hash of the model
+weights and the encrypted hash as well.
+You know the encrypted data is uploaded
+kind of to decentralized storage. And
+now when somebody wants to run a model
+they have a encrypted TLS connection
+directly into the secure enclave that
+secure enclave you know gives you back
+the effectively signed certificates that
+it runs in secure enclave. You can also
+verify them with our onchain kind of uh
+key management system and then we also
+have this con uh concept called
+multi-party computation. So near
+blockchain itself kind of uh right now
+part of our nodes form this multi-party
+computation network which allows uh
+inside the secure enclave effectively
+have its own private key to decrypt
+things. And so that that's kind of one
+of like how all those pieces work
+together. is like secure enclaves but
+also like if you encrypt something right
+it needs to have like you need to
+encrypt it with some key that is only
+known like the private key of this is
+only known inside secure enclave and
+nowhere else and so this is where that
+there's kind of this MPC network uh
+enables that and so yeah like
+effectively you know you encrypt locally
+you upload it checkpoints and now when
+user calls they know that like
+effectively the secure enclave will
+respond that this model hash was run on
+your data. Here is like signature by
+Nvidia Intel etc. And you can also
+verify uh kind of certificate
+provisioning. And is that signature
+created at like you know by some process
+at the boundary or is it um you know
+intrinsic to the inference actually
+happening by this model on this data
+like is it a
+>> so the signature certifies the docker
+container that runs inside secure
+enclave and so docker container is our
+docker container with vlm that runs this
+model hash so we attach that that's what
+I'm If somebody builds custom Docker
+container, you can't do that. But then
+user needs to trust your Docker
+container.
+>> Got it. So the the trust boundary is the
+container and if the container is doing
+what you say it's doing, then the
+signature certifies that that was a
+container that was actually used.
+>> Yeah. And in in in our UI, we have
+effectively like, you know, like a green
+shield that you can click similar like
+HTTPS works. You go there and it gives
+you like it gives you like, hey, it's
+all correct. And then you can go and
+actually verify all the signatures and
+all the certificates and even which GPU
+it ran on and like other other stuff as
+well and like links you like effectively
+to all the relevant Docker GitHubs and
+other things you need to know if you
+want to like reverify everything
+yourself. And so that's maybe an
+interesting segue into
+like you know where you are with all of
+this in terms of the you know how much
+of it is you know aspirational how much
+of it is built like you you're you
+clearly you have at least the notion of
+a user interface if not an actual user
+interface like how far along are you?
+Yeah. So we have I mean we have a
+product uh that we can I mean that we're
+in testing and alpha testing with you
+know kind of cohort of users. Um it's
+it's both developer product so you can
+you know buy credits and effectively use
+confidential inference uh in your own
+applications as well as we have a kind
+of consumer product which is you know
+private chat GPT effectively
+um which indeed provides you all of the
+kind of certification and verification
+information uh if you want while using
+it um and then the the custom model
+right now is that's in development going
+to be coming out in a few weeks and and
+>> remind me which part is the custom
+model?
+>> So, this is where you can encrypt and
+upload the your own model.
+>> Oh, got it. Okay.
+>> Yeah. And then uh I mean the fine-tuning
+and and kind of training that's coming a
+bit later. And you know we started off
+talking about the fact that you know
+encryption is computationally complex
+like it brings along its own costs you
+know relative to
+um you know the per token inference cost
+that you know someone might see you know
+whether it's open AI or open router or
+something you know like where does this
+where do you expect this tend to fall to
+fall relatively speaking
+>> so it will be affected at the same cost
+the overhead on the computation side is
+1 to 5%.
+Yeah. So it's very minimal and it's
+mostly just I mean it's like encryption
+decryption on a boundary uh yeah and
+kind of constrained by that not by
+computation
+>> and so what what do you see as like the
+main barriers to you know near scaling
+you know this approach and um you know
+getting people on boarded or you know on
+boarded
+uh you know not just technically but
+like ideologically and and um that kind
+of thing.
+>> Yeah. I mean, I think the kind of as we
+just discussed, right, like are people
+willing to pay for it, right? That's um
+and again, I think
+>> but you know, well, I think what I heard
+you say is that like I'm not really
+paying like I'm paying it's the same,
+right? So,
+>> or actually it's open source. It's open
+source model, so it's actually cheaper
+uh than open AI.
+>> Yeah. So,
+and and I did reference the idea that
+the cost is also convenience and
+learning a new thing like um
+maybe maybe we should you know hit pause
+on the adoption conversation and and go
+back to you know we talked about from a
+model provider perspective you know
+that's you know the same they just
+deploy into your container the same you
+know model format what about from an
+enduser perspective I guess in the
+general case they're just using a chat
+app that you know or some whatever
+they're using an app so it's not
+different from them. So presum like who
+is the argument that you know there's no
+particular inconvenience cost to anyone
+in this in this you know ecosystem like
+everything's kind of the same or
+>> yeah I mean the the goal is to make it
+everything is like either the same or
+better right like you you either don't I
+mean it looks exactly I mean very
+similar experience right and the idea
+that because it's kind of private But
+you can also have additional features
+that you wouldn't have in uh in a
+public. It's also it is open source. So
+you can you know people can contribute
+can fork etc. Right? Uh so you know you
+cannot just go and fork chatgpt and add
+some stuff and have your own version
+with some things but here you will be
+able to do that because it's your data
+right it travels with you. So you can
+like launch your own version with custom
+like improvements and then everybody who
+logs in will get all their messages, all
+the history, all their memory, all the
+apps with them. So it's also like kind
+of detaching your identity from specific
+application. But
+>> what do you say to to the skeptic that
+says, you know, it all sounds stupid too
+good to be true. like where's the you
+know besides from the fact that you know
+building software is hard building a
+company's hard getting people to fund
+weird things is hard like what's what's
+the hard part
+>> I mean the hard part right now it's
+inertia right right now it's it's I mean
+I think like there there's a cohort of
+people who are like hey I'm already in
+Google ecosystem why would I do anything
+right everything is already here
+>> Google has my email and my calendar
+anyway why do I care if it's private
+>> exactly Yeah. So, so I think like
+there's again there's aspect of that. Uh
+and like I think people generally trust
+Google with their data. Um
+so I think that is like that's inertia
+that we kind of need to address, right?
+And I mean not to I mean I work at
+Google so there's inde there's indeed a
+lot of security to make sure the data is
+protected but uh obviously there's still
+like I mean there is a way for somebody
+in customer support to help you with
+your data. So there's a way for a third
+party to have access to your data. There
+is I mean we've seen this with open AI
+right? there's news that they're
+effectively scanning all the chat logs
+and then the ones that are flagged are
+sent to human to evaluation and then to
+police, right? So you effectively have
+potentially humans looking at your chat
+logs. Uh we had obviously data leaks
+from uh Grock and others that like you
+know your chat logs got vis visible uh
+and and indexed. So I think like like
+that that is that is the backdrop of
+like like why we get adoption but the
+inertia is the other side is like you
+know OpenAI already has whatever half a
+billion users or billion users. Um so we
+we need to have a product that indeed
+can deliver on uh on you know if people
+want to like switch and and use.
+>> How about latency? Uh admittedly like
+encryption is not the latency killer
+that it was you know 10 years ago or so
+as a lot of that stuff's getting pushed
+in the hardware like is it an issue for
+you?
+>> Not really. Yeah, I mean we have like
+it's a little bit a little bit higher
+latency again just because like when it
+goes through the boundary there's like
+some uh additional delay on kind of
+encryption but it's we're also working
+on like like it's also engineering
+challenge of just like streaming
+encryption and stuff like this like
+improving that um I mean we're using TLS
+right now right there's no additional
+latency like this connection isn't an
+encrypted although we actually going
+through centralized server uh we
+actually trying to fix you know figure
+out how to make it like as direct as
+possible. So like ideally actually
+latency is less because ideally right
+now yeah you you actually should be
+accessing the closest GPU ideally in
+your city there's like I mean I've
+talked to people who like you know there
+going to be data centers everywhere
+people build like mobile data centers
+etc and like you want to find that one
+connect to it run your compute on it you
+know hydrate your data there like that
+that's kind of where you know this
+infrastructure can move to and then
+really deliver on that like Uh I I would
+we're not there but that that's kind of
+the vision is really actually reducing
+latency because you know you s in
+Philippines you right now you need to go
+to Texas or whatever where OpenAI
+servers are uh versus like there's data
+center in Philippines actually sitting
+un underutilized
+um and so you should be using it.
+I guess another question that I have is
+that I I think it, you know, when you
+boil it down, a lot of the value
+proposition here is, you know, around
+trust and the user being able to
+uh trust the interactions they're having
+with uh AI and privacy is a part of
+that, but there are also still
+fundamental trustworthiness issues with,
+you know, your creation, the
+transformer, like and it's ability to
+give you results that are worthy of your
+trust. You know, hallucination for
+example. Um
+are you doing anything there? Like do
+you do you see that as you know how do
+you think about that as an issue and um
+you know what's your
+what are your thoughts about how or if
+or how that gets solved?
+Yeah, I mean that that is an important
+question and um indeed especially as we
+like I kind of mentioned like I think
+the com the AI will be how we interface
+with computing and you ideally yeah want
+to make sure that there is no kind of
+biases in that that are not represented
+with your view. uh so that I I think
+there's like few components improving
+trust in this models
+um I think it starts with indeed the
+open process of how these models were
+trained um because there's this concept
+of like sleeper agents right you can
+actually like train things into the
+model so that at some point during some
+conditions it activates and behaves in a
+different way than normal and so you can
+like you know introduce vulnerabilities
+in the code into a coding at all like
+based on some condition like you know
+I'm assuming if somebody wants to do a
+new stax net that's how they're going to
+do it
+um the so you want to know how it was
+trained then um right now you know
+you're running like even if it's open
+source model
+>> isn't that isn't that first point an
+argument for true open source as opposed
+to
+um you know just send an uh c you know
+certificate or a stamp of uh of
+something like
+>> so so that's like you want open source
+but you don't need open weights so you
+want to know what went in but the
+weights itself can be encrypted so you
+can monetize but yeah so that's what I'm
+saying we need the open source not like
+open weights is right now just kind of
+everybody's like
+I mean effectively it's useful but it's
+mostly like as if you know you have
+>> so was your was your argument earlier
+that if you can
+if you can close and encrypt the weights
+then you have greater you anticipate
+greater willingness to open the source
+like like make the training process more
+transparent
+>> because you can monetize like in this
+encrypted weight model you can monetize
+the usage of the model.
+>> Yeah that's right. So your point was
+people are holding on to the source
+because you know they want to retain
+some monetizability and they they're
+making the weights open. Um you know so
+that's their piece that they're holding
+back.
+>> So the opening of the weights is a
+marketing right for them to then
+leverage their closed sort of thing to
+then cook something else right either
+for specific customers or next model or
+whatever this is uh or attract like to
+their app. But if you can monetize
+actually the model you trained and you
+have the whole process open um and
+especially if there is like some
+semiformal way for people who leverage
+your learnings as well to then uh kind
+of contribute back as as well.
+>> Yeah. But I mean like that assumes that
+there's not a lot of perceived
+innovation in the training process and I
+don't know that folks that are training
+you know frontier models in the like
+ahead of the the you know at the
+frontier sense of the term would
+necessarily believe that right
+>> I mean there can be that's what I'm
+saying like but I I think the the the
+lag on the frontier right is you know
+three to six months
+And so I think the benefit here is like
+if you're able to effectively do a
+training run and start monetizing it,
+you like you can leverage that
+uh you know monetization to then
+potentially reinvest into the next thing
+etc. Uh but but because you opened
+everybody can go and contribute and
+maybe come up with new ideas etc. So
+like you just kind of accelerating this
+process. Again, this is how the computer
+science and AI worked. Before we would
+open it up, you know, the papers was out
+as soon as possible and now everybody's
+delaying everything like at least six
+months to a year.
+>> So, we're solving big picture trust. The
+first part is um you know openness.
+>> Yeah. Well, yeah, open research, open
+data. Well, knowing what data goes in
+and what bias there. Second is
+verifiability of the inference. Right.
+again right now you know there's people
+complaining that like claude gets dumber
+in you know daytime and like
+>> right
+>> maybe doesn't we don't actually know
+right
+>> yeah so like having verifiability again
+this there this can be something where
+like you know when you specifically ask
+what stocks to buy there's like a rule
+that says actually let me let me tell
+you to buy this
+>> only use smart quad
+>> so like verifiability of that that that
+gives you another level
+And then I agree that the the third part
+is actually like you know especially
+when we allow this models to go and
+start do actions like how do we make
+sure it doesn't do anything. Um and so
+so there I think there's few interesting
+areas I mean there's a lot of research
+right people are trying you know how to
+like ground hallucinations how to do all
+those things so like all of that needs
+to be done and again I think open
+research process would help a lot with
+that. Um but the other aspect of this we
+looking at is actually formal
+verification.
+So right now
+um you know kind of when we talk about
+software when we talk about this AI
+systems we kind of like we're testing
+some use cases we're testing you know we
+have evals maybe we have you know vibe
+testing but we don't really have
+guarantees that the system will comply
+to some requirements and so formal
+verification is a way to actually
+achieve that and formal verification
+should be happening at the invocation
+side. So as you call something right
+like hey so the example is like a little
+bit closer to blockchain space you know
+if you're putting money into something
+you want to make sure you can you know
+at least get as much money back right
+that nobody will be able to steal your
+money uh for example like savings
+account type thing and so you want to
+have the guarantee that when you put in
+your money that you'll be able to do so
+you want the proof at that time so so
+that's kind of like we call it at at
+invocation ation uh verification.
+Similarly, when you call an AI system,
+you can say, "Hey, you know, you can
+access my email, but you cannot delete
+anything, right? You can and you you
+cannot leak anything. You cannot you
+cannot do this set of actions, right?"
+You know, um and so the system like the
+the the TE that runs it, the secure
+enclave that runs it like proves to you
+that the code that it runs inside
+complies with it requirements.
+So this Docker hash for example, you
+know, complies to this requirements. And
+so now you have not just proof of
+verifiability, but also proof of
+specific, you know, preconditions. And
+and and if and if it fails, right, if it
+doesn't match your preconditions, right,
+this this doesn't execute. And so today
+what we talked about being possible is
+this idea that like if you can get if
+you can get access to whatever the
+source code is that's going into the
+Docker to container, you can certify
+that it's this thing that you know and
+trust that operated on your data. And
+what you're referring to is at some
+point in the future where, you know, you
+can not necessarily have to know what
+that thing was, but know some conditions
+about what it's able to do or how it's
+running. And it's um the verification is
+not, you know, just like a, you know,
+cryptographic hash, but it's like
+verification and validation of the code
+and what it's doing.
+And I mentioned it, you know, for folks
+that uh are curious about this just a
+couple of episodes ago. I had a a really
+interesting conversation with Christian
+Seigy about verification. You know, dug
+deep into all this stuff.
+>> He's one of the pioneers on that for
+sure.
+>> And so that was the third of your three
+your three things for kind of solving
+this broader trust issue. Yeah, I think
+that that's going to be a really
+important component of that. Um, to make
+sure that we can actually trust the
+systems especi
+as a user, you're probably not going to
+go and like review Docker container
+code, right? And insure, right?
+>> So, so we need we need and and
+especially it it it gets complicated
+when things are starting to call each
+other, right? Like when you have one AI
+system calling another AI system calling
+like some MCP tool calling another AI
+system. And so the idea here you
+actually have like the properties are
+actually uh composable right so like if
+this service proves to you that it will
+not you know will work in this specific
+way when it calls other services those
+services need to prove it as well and if
+it doesn't it's not able to call it so
+so that's I think is really important is
+like actually create kind of gives you
+this composible effect which I think
+right now is is is the biggest problem
+like as you can imagine Imagine the
+systems becoming more and more complex
+and you have all these AIs talking to
+each other and you know we have no idea
+like what they agree on doing and what
+they end up actually executing. So I
+think that that's going to be a pretty
+fundamental
+um like system change but it it actually
+requires this verifiability as like
+because you need you need something to
+guarantee that the code inside is
+following these properties. So you need
+like a some containerization that you
+can trust. Very cool. Uh well, Ilia,
+thanks so much for jumping on and kind
+of talking us through what you've been
+working on. It sounds like super
+interesting stuff. We've had I think
+we've covered like this idea of privacy
+on the podcast to some degree uh in the
+past. Like we've talked quite a bit
+about differential privacy, talked a
+little bit about like the open mind
+pyift kind of decentralized
+training kind of stuff. Um, but this is
+definitely uh a different take and one
+that I think is, you know, kind of right
+in line with the direction that things
+have gone from a, you know, Transformers
+Gen AI perspective. So, I'm super
+interested in, you know, seeing how it
+all unfolds.
+>> Yeah, I appreciate you having me here
+and diving in.
+>> Yeah, thanks so much.
+>> Thank you.
+[Music]
+[Music]

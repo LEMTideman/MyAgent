@@ -1,0 +1,19 @@
+{
+  "doc_id": "web-ai-act-service-desk-ec-europa-eu-en-ai-act-annex-12-83ae90dfce20",
+  "source_type": "web",
+  "source": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-12",
+  "title": "Annex XII | AI Act Service Desk",
+  "text": "```markdown\n# Annex XII\n\nThe information referred to in [Article 53(1)](/en/ai-act/article-53), point (b) shall contain at least the following:\n\n## General Description of the General-Purpose AI Model\n\n1. A general description of the general-purpose AI model including:\n   - The tasks that the model is intended to perform and the type and nature of AI systems into which it can be integrated;\n   - The acceptable use policies applicable;\n   - The date of release and methods of distribution;\n   - How the model interacts, or can be used to interact, with hardware or software that is not part of the model itself, where applicable;\n   - The versions of relevant software related to the use of the general-purpose AI model, where applicable;\n   - The architecture and number of parameters;\n   - The modality (e.g., text, image) and format of inputs and outputs;\n   - The license for the model.\n\n2. A description of the elements of the model and of the process for its development, including:\n   - The technical means (e.g., instructions for use, infrastructure, tools) required for the general-purpose AI model to be integrated into AI systems;\n   - The modality (e.g., text, image, etc.) and format of the inputs and outputs and their maximum size (e.g., context window length, etc.);\n   - Information on the data used for training, testing, and validation, where applicable, including the type and provenance of data and curation methodologies.\n\n## Elements Used in Development\n\n1. A description of how to integrate a general-purpose AI model into other AI systems using appropriate technologies.\n2. An outline of processes involved in developing a general-purpose AI model from raw data.\n3. Details about curating datasets used during development.\n4. Information on licensing agreements associated with a general-purpose AI model.\n\n---\n\nView the [official text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689). The text used in this tool is the ‘[Artificial Intelligence Act (Regulation (EU) 2024/1689), Official version of 13 June 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689)’.\n\n---\n```\n\nNote: This refined markdown strictly adheres to Markdown syntax while maintaining proper semantic structure and readability.\n```",
+  "fetched_at_utc": "2025-12-28T21:18:02Z",
+  "sha256": "83ae90dfce207b49d428b41c5b06db40a79cf6455a640ea327955a22ab7ef0b0",
+  "meta": {
+    "jina_status": 20000,
+    "jina_code": 200,
+    "description": null,
+    "links": null,
+    "images": null,
+    "usage": {
+      "tokens": 12000
+    }
+  }
+}

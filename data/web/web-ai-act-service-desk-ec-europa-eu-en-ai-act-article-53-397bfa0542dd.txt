@@ -1,0 +1,52 @@
+```markdown
+# Article 53: Obligations for providers of general-purpose AI models
+
+## Summary
+
+The article details the obligations of providers of general-purpose AI models. Providers must maintain technical documentation and make it available to authorities and providers of AI systems who intend to integrate the general-purpose AI model into their AI systems. They must also put in place a copyright policy and provide a public summary of training data. Open-source general-purpose AI models are exempt from some documentation requirements, unless they are classified as general-purpose AI models with systemic risks. Providers must cooperate with authorities and may use codes of practice to demonstrate compliance until a harmonised standard is published.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+1. Providers of general-purpose AI models shall:
+   - draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in [Annex XI](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-11) for the purpose of providing it, upon request, to the AI Office and the national competent authorities;
+   - draw up, keep up-to-date and make available information and documentation to providers of AI systems who intend to integrate the general-purpose AI model into their AI systems. Without prejudice to the need to observe and protect intellectual property rights and confidential business information or trade secrets in accordance with Union and national law, the information and documentation shall:
+     - enable providers of AI systems to have a good understanding of the capabilities and limitations of the general-purpose AI model and to comply with their obligations pursuant to this Regulation; and
+     - contain, at a minimum, the elements set out in [Annex XII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-12);
+   - put in place a policy to comply with Union law on copyright and related rights, and in particular to identify and comply with, including through state-of-the-art technologies, a reservation of rights expressed pursuant to [Article 4(3)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4) of Directive (EU) 2019/790;
+   - draw up and make publicly available a sufficiently detailed summary about the content used for training of the general-purpose AI model, according to a template provided by the AI Office.
+
+2. The obligations set out in paragraph 1, points (a) and (b), shall not apply to providers of AI models that are released under a free and open-source licence that allows for the access, usage, modification, and distribution of the model, and whose parameters, including the weights, the information on the model architecture, and the information on model usage, are made publicly available. This exception shall not apply to general-purpose AI models with systemic risks.
+
+3. Providers of general-purpose AI models shall cooperate as necessary with the Commission and the national competent authorities in the exercise of their competences and powers pursuant to this Regulation.
+
+4. Providers of general-purpose AI models may rely on codes of practice within the meaning of [Article 56](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-56) to demonstrate compliance with the obligations set out in paragraph 1 of this Article, until a harmonised standard is published. Compliance with European harmonised standards grants providers the presumption of conformity to the extent that those standards cover those obligations. Providers of general-purpose AI models who do not adhere to an approved code of practice or do not comply with a European harmonised standard shall demonstrate alternative adequate means of compliance for assessment by the Commission.
+
+5. For the purpose of facilitating compliance with [Annex XI](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-11), in particular points 2 (d) and (e) thereof, the Commission is empowered to adopt delegated acts in accordance with [Article 97](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-97) to detail measurement and calculation methodologies with a view to allowing for comparable and verifiable documentation.
+
+6. The Commission is empowered to adopt delegated acts in accordance with [Article 97(2)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-97) to amend Annexes XI and XII in light of evolving technological developments.
+
+7. Any information or documentation obtained pursuant to this Article, including trade secrets, shall be treated in accordance with the confidentiality obligations set out in [Article 78](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-78).
+
+### Relevant recitals
+
+* [Recital 97](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-97)
+* [Recital 98](https://ai-act-service-desk.ec.europa.ru/konferentsiya-kommercheskih-zakonev-i-pravovih-dokumentov-vseobshchennosti/)
+* [Recital 99](https://ru.wikipedia.org/wiki/%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8%D1%8F_%D0%A2%D0%B5%D1%82%D0%BE%D1%80%D1%8C_%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D1%8E-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%D1%82-%D0%B4%D0%B5%E2%A6%A6%E2%A6%A6%E2%A6%A6%E2%A6%A6%E2%A6%A6%E2%A6%A6%E2%A6%A6/)
+* [Recital 100](https://ru.wikipedia.org/wiki/%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF+CZ+VSEOBSHCHESSHIYCHENKI/)
+* [Recital 101](https://ru.wikipedia.org/wiki/%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF%C3%CFC+%D3%A3%C4%AF+CZ_VSEOBSHCHESSHIYCHENKI/)
+* [Recital 102](https://ru.wikipedia.org/wiki/%ДАРХАНЫЙСКИЙ_ВЕЧНОГО_ПРОГРАММИРОВАНИЯ_ОБЩИХ_)
+* [Recital 103](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKIM/)
+* [Recital 104](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOM/)
+* [Recital 105](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOVI/)
+* [Recital 106](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOMI/)
+* [Recital 107](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOMI/)
+* [Recital 108](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOMI/)
+* [Recital 109](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOMI/)
+* [Recital 116](https://ru.wikipedia.org/wiki/%DA.%A7ARHDANOVSKIYE_PROGRAMMIROVALNIY_OBShICHENKOMI)
+
+### Other resources
+
+[Guidelines on the scope of the obligations for general-purpose AI models](https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-07/guidelines_on_the_scope_of_the_obligations_for_generalpurpose_ai_models_established_by_regulation_1cx2atxgq79us4n3x8jfgyy1qlm_118340-3.pdf)
+
+View
+```

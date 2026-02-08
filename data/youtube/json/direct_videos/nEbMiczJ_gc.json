@@ -1,0 +1,5838 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "nEbMiczJ_gc",
+  "video_title": "Ensuring Privacy for Any LLM with Patricia Thaine - 716",
+  "video_url": "https://www.youtube.com/watch?v=nEbMiczJ_gc",
+  "fetched_at": "2025-12-29T20:33:48.736231+00:00",
+  "transcript": [
+    {
+      "text": "I think that uh a lot of the",
+      "start": 0.08,
+      "duration": 4.759
+    },
+    {
+      "text": "misconceptions around what is easy or",
+      "start": 2.76,
+      "duration": 4.119
+    },
+    {
+      "text": "hard in AI when it comes to thinking",
+      "start": 4.839,
+      "duration": 4.961
+    },
+    {
+      "text": "that it's easy it tends to be around",
+      "start": 6.879,
+      "duration": 4.441
+    },
+    {
+      "text": "misunderstanding",
+      "start": 9.8,
+      "duration": 4.44
+    },
+    {
+      "text": "the huge lift that it takes to get high",
+      "start": 11.32,
+      "duration": 5.36
+    },
+    {
+      "text": "quality representative",
+      "start": 14.24,
+      "duration": 7.52
+    },
+    {
+      "text": "data and then uh the misunderstanding",
+      "start": 16.68,
+      "duration": 7.72
+    },
+    {
+      "text": "how huge a lift it is to get a product",
+      "start": 21.76,
+      "duration": 4.64
+    },
+    {
+      "text": "in production that is",
+      "start": 24.4,
+      "duration": 6.4
+    },
+    {
+      "text": "scalable uh that uh also uh has a lot of",
+      "start": 26.4,
+      "duration": 7.32
+    },
+    {
+      "text": "corner cases in",
+      "start": 30.8,
+      "duration": 2.92
+    },
+    {
+      "text": "mind all right everyone welcome to",
+      "start": 44.48,
+      "duration": 4.48
+    },
+    {
+      "text": "another episode of the twiml AI podcast",
+      "start": 46.76,
+      "duration": 4.279
+    },
+    {
+      "text": "I am your host Sam charington today I'm",
+      "start": 48.96,
+      "duration": 4.32
+    },
+    {
+      "text": "joined by Patricia th Patricia is",
+      "start": 51.039,
+      "duration": 5.721
+    },
+    {
+      "text": "co-founder and CEO of private AI before",
+      "start": 53.28,
+      "duration": 5.16
+    },
+    {
+      "text": "we get going be sure to take a moment to",
+      "start": 56.76,
+      "duration": 3.36
+    },
+    {
+      "text": "hit that subscribe button whereever",
+      "start": 58.44,
+      "duration": 3.759
+    },
+    {
+      "text": "you're listening to Today's Show",
+      "start": 60.12,
+      "duration": 4.16
+    },
+    {
+      "text": "Patricia welcome to the podcast thanks",
+      "start": 62.199,
+      "duration": 3.92
+    },
+    {
+      "text": "so much Sam great to be here I'm looking",
+      "start": 64.28,
+      "duration": 4.44
+    },
+    {
+      "text": "forward to digging into our conversation",
+      "start": 66.119,
+      "duration": 5.241
+    },
+    {
+      "text": "we'll be talking about uh some really",
+      "start": 68.72,
+      "duration": 4.24
+    },
+    {
+      "text": "interesting things you're doing with",
+      "start": 71.36,
+      "duration": 6.88
+    },
+    {
+      "text": "regard to Ai and privacy and more uh to",
+      "start": 72.96,
+      "duration": 6.96
+    },
+    {
+      "text": "get us started I'd love to have you",
+      "start": 78.24,
+      "duration": 3.72
+    },
+    {
+      "text": "share a little bit about your background",
+      "start": 79.92,
+      "duration": 4.92
+    },
+    {
+      "text": "and how you came to start private AI",
+      "start": 81.96,
+      "duration": 4.4
+    },
+    {
+      "text": "that sounds great uh personally my",
+      "start": 84.84,
+      "duration": 4.12
+    },
+    {
+      "text": "background is uh in doing research in",
+      "start": 86.36,
+      "duration": 4.32
+    },
+    {
+      "text": "privacy preserving natural language",
+      "start": 88.96,
+      "duration": 4.119
+    },
+    {
+      "text": "processing uh specifically it was",
+      "start": 90.68,
+      "duration": 3.88
+    },
+    {
+      "text": "originally focused on homomorphic",
+      "start": 93.079,
+      "duration": 3.281
+    },
+    {
+      "text": "encryption so that lets you compute on",
+      "start": 94.56,
+      "duration": 5.839
+    },
+    {
+      "text": "encrypted data uh and um co-funded the",
+      "start": 96.36,
+      "duration": 6.0
+    },
+    {
+      "text": "first version of private AI on that",
+      "start": 100.399,
+      "duration": 4.4
+    },
+    {
+      "text": "topic you know I have a academic Hammer",
+      "start": 102.36,
+      "duration": 4.439
+    },
+    {
+      "text": "let's go find all the nails uh didn't",
+      "start": 104.799,
+      "duration": 3.96
+    },
+    {
+      "text": "work out uh turns out that's a very bad",
+      "start": 106.799,
+      "duration": 4.401
+    },
+    {
+      "text": "way of problem solving and",
+      "start": 108.759,
+      "duration": 4.68
+    },
+    {
+      "text": "then started the second version of",
+      "start": 111.2,
+      "duration": 4.0
+    },
+    {
+      "text": "private AI really with the focus of",
+      "start": 113.439,
+      "duration": 3.401
+    },
+    {
+      "text": "building a privacy layer that's built",
+      "start": 115.2,
+      "duration": 4.279
+    },
+    {
+      "text": "for developers uh that uh can actually",
+      "start": 116.84,
+      "duration": 4.199
+    },
+    {
+      "text": "help them comply with data protection",
+      "start": 119.479,
+      "duration": 3.6
+    },
+    {
+      "text": "regulations and now there I think a",
+      "start": 121.039,
+      "duration": 4.641
+    },
+    {
+      "text": "couple ways for us to dig into this",
+      "start": 123.079,
+      "duration": 5.841
+    },
+    {
+      "text": "topic the first I think is to dig",
+      "start": 125.68,
+      "duration": 6.08
+    },
+    {
+      "text": "into uh like what private AI is doing",
+      "start": 128.92,
+      "duration": 7.399
+    },
+    {
+      "text": "for AI developers and how um you know th",
+      "start": 131.76,
+      "duration": 6.72
+    },
+    {
+      "text": "those capabilities are expressed uh and",
+      "start": 136.319,
+      "duration": 5.521
+    },
+    {
+      "text": "then also like how you're using mln to",
+      "start": 138.48,
+      "duration": 6.56
+    },
+    {
+      "text": "do all of those things uh but let's you",
+      "start": 141.84,
+      "duration": 6.2
+    },
+    {
+      "text": "know start with the the use cases and",
+      "start": 145.04,
+      "duration": 5.52
+    },
+    {
+      "text": "what you're trying to enable absolutely",
+      "start": 148.04,
+      "duration": 5.96
+    },
+    {
+      "text": "so the the core technology is",
+      "start": 150.56,
+      "duration": 4.959
+    },
+    {
+      "text": "understanding what's in your data what",
+      "start": 154.0,
+      "duration": 3.12
+    },
+    {
+      "text": "kind of personal information you have",
+      "start": 155.519,
+      "duration": 3.201
+    },
+    {
+      "text": "protected health information payment",
+      "start": 157.12,
+      "duration": 3.56
+    },
+    {
+      "text": "card industry information confidential",
+      "start": 158.72,
+      "duration": 4.68
+    },
+    {
+      "text": "information all of these uh can play a",
+      "start": 160.68,
+      "duration": 5.199
+    },
+    {
+      "text": "really big role in whether or not uh you",
+      "start": 163.4,
+      "duration": 4.839
+    },
+    {
+      "text": "can end up getting data for your AI",
+      "start": 165.879,
+      "duration": 3.881
+    },
+    {
+      "text": "projects whether or not you're going to",
+      "start": 168.239,
+      "duration": 4.36
+    },
+    {
+      "text": "be able to use thirdparty tools uh what",
+      "start": 169.76,
+      "duration": 6.119
+    },
+    {
+      "text": "exactly happens with regards to uh the",
+      "start": 172.599,
+      "duration": 5.881
+    },
+    {
+      "text": "the uh output of the training data uh",
+      "start": 175.879,
+      "duration": 4.28
+    },
+    {
+      "text": "when it comes to sens sensitive",
+      "start": 178.48,
+      "duration": 4.16
+    },
+    {
+      "text": "information being displayed to your",
+      "start": 180.159,
+      "duration": 7.241
+    },
+    {
+      "text": "users or employees or otherwise and so",
+      "start": 182.64,
+      "duration": 7.319
+    },
+    {
+      "text": "really what the the product does is",
+      "start": 187.4,
+      "duration": 4.759
+    },
+    {
+      "text": "identifies this personal information and",
+      "start": 189.959,
+      "duration": 4.92
+    },
+    {
+      "text": "is able to uh redact whatever it is that",
+      "start": 192.159,
+      "duration": 5.481
+    },
+    {
+      "text": "you don't need uh and that's really the",
+      "start": 194.879,
+      "duration": 4.481
+    },
+    {
+      "text": "concept of data minimization which is",
+      "start": 197.64,
+      "duration": 3.159
+    },
+    {
+      "text": "core to a lot of data protection",
+      "start": 199.36,
+      "duration": 3.72
+    },
+    {
+      "text": "regulations got it got it minimization",
+      "start": 200.799,
+      "duration": 5.041
+    },
+    {
+      "text": "from the perspective of not having data",
+      "start": 203.08,
+      "duration": 6.28
+    },
+    {
+      "text": "that is not necessary in the process",
+      "start": 205.84,
+      "duration": 5.2
+    },
+    {
+      "text": "exactly",
+      "start": 209.36,
+      "duration": 5.32
+    },
+    {
+      "text": "and um it sounded like we're talking",
+      "start": 211.04,
+      "duration": 6.479
+    },
+    {
+      "text": "about data that comes into contact with",
+      "start": 214.68,
+      "duration": 6.16
+    },
+    {
+      "text": "a system in three different places maybe",
+      "start": 217.519,
+      "duration": 6.161
+    },
+    {
+      "text": "even more but you know certainly uh",
+      "start": 220.84,
+      "duration": 5.28
+    },
+    {
+      "text": "input and output and maybe you know",
+      "start": 223.68,
+      "duration": 5.119
+    },
+    {
+      "text": "storage and and can you kind of talk",
+      "start": 226.12,
+      "duration": 5.319
+    },
+    {
+      "text": "about data Flows at the way you see them",
+      "start": 228.799,
+      "duration": 4.28
+    },
+    {
+      "text": "absolutely so if you look at large",
+      "start": 231.439,
+      "duration": 3.44
+    },
+    {
+      "text": "language models in particular for",
+      "start": 233.079,
+      "duration": 4.08
+    },
+    {
+      "text": "example uh you're going to be sending",
+      "start": 234.879,
+      "duration": 5.161
+    },
+    {
+      "text": "data Maybe to a third party uh in which",
+      "start": 237.159,
+      "duration": 5.241
+    },
+    {
+      "text": "case whatever information you're sending",
+      "start": 240.04,
+      "duration": 4.32
+    },
+    {
+      "text": "you're losing control of uh when you're",
+      "start": 242.4,
+      "duration": 4.24
+    },
+    {
+      "text": "sending it external to your organization",
+      "start": 244.36,
+      "duration": 5.439
+    },
+    {
+      "text": "or to your own laptop and so it's really",
+      "start": 246.64,
+      "duration": 4.879
+    },
+    {
+      "text": "important to think about what kind of",
+      "start": 249.799,
+      "duration": 3.321
+    },
+    {
+      "text": "information you're sending through what",
+      "start": 251.519,
+      "duration": 3.8
+    },
+    {
+      "text": "can you remove and then once that",
+      "start": 253.12,
+      "duration": 5.0
+    },
+    {
+      "text": "information is removed it can very uh",
+      "start": 255.319,
+      "duration": 5.081
+    },
+    {
+      "text": "often be reintegrated into the resulting",
+      "start": 258.12,
+      "duration": 4.2
+    },
+    {
+      "text": "output of the model and so you can still",
+      "start": 260.4,
+      "duration": 4.04
+    },
+    {
+      "text": "have a fairly seamless interaction with",
+      "start": 262.32,
+      "duration": 4.52
+    },
+    {
+      "text": "the model without that risk of uh",
+      "start": 264.44,
+      "duration": 4.96
+    },
+    {
+      "text": "sending that data externally and then",
+      "start": 266.84,
+      "duration": 6.0
+    },
+    {
+      "text": "other aspects of it are even if you are",
+      "start": 269.4,
+      "duration": 5.239
+    },
+    {
+      "text": "have a model internally within your own",
+      "start": 272.84,
+      "duration": 3.359
+    },
+    {
+      "text": "private environment there are a few",
+      "start": 274.639,
+      "duration": 4.241
+    },
+    {
+      "text": "things to be concerned about one are you",
+      "start": 276.199,
+      "duration": 4.84
+    },
+    {
+      "text": "collecting data that you shouldn't be uh",
+      "start": 278.88,
+      "duration": 4.12
+    },
+    {
+      "text": "because whatever data that you do",
+      "start": 281.039,
+      "duration": 3.801
+    },
+    {
+      "text": "collect puts you at higher and higher",
+      "start": 283.0,
+      "duration": 5.28
+    },
+    {
+      "text": "risk of a a more significant data breach",
+      "start": 284.84,
+      "duration": 5.639
+    },
+    {
+      "text": "down the line uh that's part of the the",
+      "start": 288.28,
+      "duration": 3.639
+    },
+    {
+      "text": "interesting part about data minimization",
+      "start": 290.479,
+      "duration": 4.921
+    },
+    {
+      "text": "you keep what you need it you don't keep",
+      "start": 291.919,
+      "duration": 5.84
+    },
+    {
+      "text": "what you don't need meaning that you you",
+      "start": 295.4,
+      "duration": 6.28
+    },
+    {
+      "text": "strip out that risk uh from your data in",
+      "start": 297.759,
+      "duration": 5.72
+    },
+    {
+      "text": "the very likely chance that at some",
+      "start": 301.68,
+      "duration": 4.16
+    },
+    {
+      "text": "point there will be a data breach and",
+      "start": 303.479,
+      "duration": 4.041
+    },
+    {
+      "text": "then there are other aspects to it with",
+      "start": 305.84,
+      "duration": 4.48
+    },
+    {
+      "text": "regards to training uh when it comes to",
+      "start": 307.52,
+      "duration": 5.72
+    },
+    {
+      "text": "trading models you I think this",
+      "start": 310.32,
+      "duration": 6.04
+    },
+    {
+      "text": "community probably is aware that that",
+      "start": 313.24,
+      "duration": 5.519
+    },
+    {
+      "text": "data can be quote unquote memorized by",
+      "start": 316.36,
+      "duration": 5.399
+    },
+    {
+      "text": "the model and leaked out yeah and as a",
+      "start": 318.759,
+      "duration": 4.681
+    },
+    {
+      "text": "result leaked out and there's lots of",
+      "start": 321.759,
+      "duration": 4.241
+    },
+    {
+      "text": "research showing this uh there initially",
+      "start": 323.44,
+      "duration": 4.92
+    },
+    {
+      "text": "for character language models then for",
+      "start": 326.0,
+      "duration": 5.56
+    },
+    {
+      "text": "gpt2 uh and then uh you know they're",
+      "start": 328.36,
+      "duration": 5.48
+    },
+    {
+      "text": "more and more coming out around uh",
+      "start": 331.56,
+      "duration": 4.4
+    },
+    {
+      "text": "exactly the risks around training or",
+      "start": 333.84,
+      "duration": 4.32
+    },
+    {
+      "text": "fine tuning on personal and confidential",
+      "start": 335.96,
+      "duration": 4.0
+    },
+    {
+      "text": "data and we've got some episodes we can",
+      "start": 338.16,
+      "duration": 3.28
+    },
+    {
+      "text": "link to in the show notes about that",
+      "start": 339.96,
+      "duration": 3.64
+    },
+    {
+      "text": "topic perfect oh yeah I saw that you",
+      "start": 341.44,
+      "duration": 4.64
+    },
+    {
+      "text": "interviewed uh Professor Carini uh",
+      "start": 343.6,
+      "duration": 5.36
+    },
+    {
+      "text": "that's yeah he yeah great great person",
+      "start": 346.08,
+      "duration": 6.32
+    },
+    {
+      "text": "to talk to about that um then there's",
+      "start": 348.96,
+      "duration": 6.28
+    },
+    {
+      "text": "also the risk of uh having personal and",
+      "start": 352.4,
+      "duration": 5.4
+    },
+    {
+      "text": "confidential data in the contextual data",
+      "start": 355.24,
+      "duration": 4.16
+    },
+    {
+      "text": "that you're using to create embeds for",
+      "start": 357.8,
+      "duration": 4.6
+    },
+    {
+      "text": "rag for example and that's the one where",
+      "start": 359.4,
+      "duration": 4.76
+    },
+    {
+      "text": "a lot of people actually don't think",
+      "start": 362.4,
+      "duration": 4.919
+    },
+    {
+      "text": "about the assumption is that uh if it's",
+      "start": 364.16,
+      "duration": 5.159
+    },
+    {
+      "text": "an embedding uh you know it's",
+      "start": 367.319,
+      "duration": 4.401
+    },
+    {
+      "text": "generalized kind of opaque right yeah",
+      "start": 369.319,
+      "duration": 4.761
+    },
+    {
+      "text": "exactly but that is completely untrue",
+      "start": 371.72,
+      "duration": 4.8
+    },
+    {
+      "text": "and",
+      "start": 374.08,
+      "duration": 2.44
+    },
+    {
+      "text": "uh there there's um there's research",
+      "start": 377.0,
+      "duration": 5.599
+    },
+    {
+      "text": "showing how if you have for example word",
+      "start": 379.72,
+      "duration": 6.199
+    },
+    {
+      "text": "embeddings uh that are created through",
+      "start": 382.599,
+      "duration": 6.521
+    },
+    {
+      "text": "from Healthcare data uh the names and",
+      "start": 385.919,
+      "duration": 5.921
+    },
+    {
+      "text": "first name end up closer in distance to",
+      "start": 389.12,
+      "duration": 5.96
+    },
+    {
+      "text": "last names and disease that somebody had",
+      "start": 391.84,
+      "duration": 4.88
+    },
+    {
+      "text": "ends up closer in distance to the",
+      "start": 395.08,
+      "duration": 2.88
+    },
+    {
+      "text": "relevant",
+      "start": 396.72,
+      "duration": 5.4
+    },
+    {
+      "text": "name and so even just if you can't",
+      "start": 397.96,
+      "duration": 6.679
+    },
+    {
+      "text": "inverse the embedding does that mean",
+      "start": 402.12,
+      "duration": 5.72
+    },
+    {
+      "text": "that is subject to leakage or it's",
+      "start": 404.639,
+      "duration": 5.84
+    },
+    {
+      "text": "subject to attack like I can get",
+      "start": 407.84,
+      "duration": 5.28
+    },
+    {
+      "text": "attacking that but yeah leak you know",
+      "start": 410.479,
+      "duration": 6.12
+    },
+    {
+      "text": "kind of passive leakage seems more",
+      "start": 413.12,
+      "duration": 6.6
+    },
+    {
+      "text": "difficult to less likely I guess no",
+      "start": 416.599,
+      "duration": 4.361
+    },
+    {
+      "text": "subject to both it's subject to both",
+      "start": 419.72,
+      "duration": 2.52
+    },
+    {
+      "text": "really but I like that you're bringing",
+      "start": 420.96,
+      "duration": 3.0
+    },
+    {
+      "text": "that up because I I was doing a deep",
+      "start": 422.24,
+      "duration": 4.12
+    },
+    {
+      "text": "dive around uh inversion ATT talkx",
+      "start": 423.96,
+      "duration": 4.28
+    },
+    {
+      "text": "embeddings right uh there are some",
+      "start": 426.36,
+      "duration": 4.559
+    },
+    {
+      "text": "that's showing that are showing that uh",
+      "start": 428.24,
+      "duration": 5.239
+    },
+    {
+      "text": "when you invert an embedding uh even a",
+      "start": 430.919,
+      "duration": 5.761
+    },
+    {
+      "text": "dense embedding you can get up to 92% of",
+      "start": 433.479,
+      "duration": 5.44
+    },
+    {
+      "text": "the original context so that's that's an",
+      "start": 436.68,
+      "duration": 6.639
+    },
+    {
+      "text": "attack right okay that's an attack um",
+      "start": 438.919,
+      "duration": 8.041
+    },
+    {
+      "text": "however what is more likely is that uh",
+      "start": 443.319,
+      "duration": 5.241
+    },
+    {
+      "text": "you are going to be leaking that",
+      "start": 446.96,
+      "duration": 4.679
+    },
+    {
+      "text": "information uh to as part of the output",
+      "start": 448.56,
+      "duration": 5.759
+    },
+    {
+      "text": "of the model uh so if you for example",
+      "start": 451.639,
+      "duration": 5.921
+    },
+    {
+      "text": "have embeddings that uh discuss that are",
+      "start": 454.319,
+      "duration": 5.801
+    },
+    {
+      "text": "or um contain information about folks",
+      "start": 457.56,
+      "duration": 4.44
+    },
+    {
+      "text": "people's salaries for",
+      "start": 460.12,
+      "duration": 5.72
+    },
+    {
+      "text": "example that can get leaked out in one",
+      "start": 462.0,
+      "duration": 7.08
+    },
+    {
+      "text": "of the examples uh for a data leak for",
+      "start": 465.84,
+      "duration": 6.4
+    },
+    {
+      "text": "for U one of these LMS was finding out",
+      "start": 469.08,
+      "duration": 7.36
+    },
+    {
+      "text": "the salary of a CTO at a company um the",
+      "start": 472.24,
+      "duration": 6.0
+    },
+    {
+      "text": "this can happen with embeddings just as",
+      "start": 476.44,
+      "duration": 3.879
+    },
+    {
+      "text": "much as with fine tuning interesting",
+      "start": 478.24,
+      "duration": 5.799
+    },
+    {
+      "text": "interesting and was the example the CTO",
+      "start": 480.319,
+      "duration": 5.72
+    },
+    {
+      "text": "salary example that was an embedding",
+      "start": 484.039,
+      "duration": 4.88
+    },
+    {
+      "text": "leakage or I don't know okay I don't",
+      "start": 486.039,
+      "duration": 6.201
+    },
+    {
+      "text": "know if public info can you talk through",
+      "start": 488.919,
+      "duration": 6.801
+    },
+    {
+      "text": "an example of like how an embedding",
+      "start": 492.24,
+      "duration": 6.239
+    },
+    {
+      "text": "leaking data would work I I guess I'm",
+      "start": 495.72,
+      "duration": 5.72
+    },
+    {
+      "text": "imagining a scenario like a scenario",
+      "start": 498.479,
+      "duration": 4.56
+    },
+    {
+      "text": "with regard to a particular condition",
+      "start": 501.44,
+      "duration": 3.759
+    },
+    {
+      "text": "and somehow the name that it uses as an",
+      "start": 503.039,
+      "duration": 4.401
+    },
+    {
+      "text": "example is a real person's name is it",
+      "start": 505.199,
+      "duration": 4.44
+    },
+    {
+      "text": "like that kind of thing or yeah so so",
+      "start": 507.44,
+      "duration": 3.52
+    },
+    {
+      "text": "these embeddings can be more than just",
+      "start": 509.639,
+      "duration": 2.921
+    },
+    {
+      "text": "word embeddings right they could be",
+      "start": 510.96,
+      "duration": 4.04
+    },
+    {
+      "text": "representative of uh paragraphs of",
+      "start": 512.56,
+      "duration": 4.64
+    },
+    {
+      "text": "documents they could be uh chunks that",
+      "start": 515.0,
+      "duration": 6.279
+    },
+    {
+      "text": "are basically easy to search uh and then",
+      "start": 517.2,
+      "duration": 6.639
+    },
+    {
+      "text": "when you send in your query through your",
+      "start": 521.279,
+      "duration": 4.801
+    },
+    {
+      "text": "large language model uh it's going to go",
+      "start": 523.839,
+      "duration": 3.721
+    },
+    {
+      "text": "through an embedding model look through",
+      "start": 526.08,
+      "duration": 3.759
+    },
+    {
+      "text": "your database of uh embedding see what's",
+      "start": 527.56,
+      "duration": 4.88
+    },
+    {
+      "text": "closer to the query and then produce an",
+      "start": 529.839,
+      "duration": 5.921
+    },
+    {
+      "text": "output with that information uh and so",
+      "start": 532.44,
+      "duration": 6.24
+    },
+    {
+      "text": "if that query is asking for something",
+      "start": 535.76,
+      "duration": 5.28
+    },
+    {
+      "text": "sensitive that sensitive piece of",
+      "start": 538.68,
+      "duration": 3.96
+    },
+    {
+      "text": "information could be leaked and it could",
+      "start": 541.04,
+      "duration": 3.64
+    },
+    {
+      "text": "even be leaked accidentally if even if",
+      "start": 542.64,
+      "duration": 3.199
+    },
+    {
+      "text": "you're not asking for something",
+      "start": 544.68,
+      "duration": 2.96
+    },
+    {
+      "text": "particularly sensitive but it it is",
+      "start": 545.839,
+      "duration": 4.961
+    },
+    {
+      "text": "relevant to the context of the question",
+      "start": 547.64,
+      "duration": 5.56
+    },
+    {
+      "text": "but then we need to distinguish between",
+      "start": 550.8,
+      "duration": 6.32
+    },
+    {
+      "text": "sensitive information being in the",
+      "start": 553.2,
+      "duration": 7.04
+    },
+    {
+      "text": "Corpus of chunks that the embeddings are",
+      "start": 557.12,
+      "duration": 5.76
+    },
+    {
+      "text": "referring to and leaking information",
+      "start": 560.24,
+      "duration": 5.76
+    },
+    {
+      "text": "from the embeddings themselves so we",
+      "start": 562.88,
+      "duration": 4.8
+    },
+    {
+      "text": "need to distinguish",
+      "start": 566.0,
+      "duration": 4.72
+    },
+    {
+      "text": "between the leak if you have access to",
+      "start": 567.68,
+      "duration": 4.68
+    },
+    {
+      "text": "the embeddings",
+      "start": 570.72,
+      "duration": 5.0
+    },
+    {
+      "text": "directly uh and how you can how you can",
+      "start": 572.36,
+      "duration": 5.919
+    },
+    {
+      "text": "uh pull out information from there uh",
+      "start": 575.72,
+      "duration": 4.76
+    },
+    {
+      "text": "whether or not it's an inversion attack",
+      "start": 578.279,
+      "duration": 4.321
+    },
+    {
+      "text": "whether you're doing a distance",
+      "start": 580.48,
+      "duration": 5.64
+    },
+    {
+      "text": "measurements and you have or or similar",
+      "start": 582.6,
+      "duration": 7.96
+    },
+    {
+      "text": "and you have to uh distinguish that from",
+      "start": 586.12,
+      "duration": 9.0
+    },
+    {
+      "text": "uh output uh or risk with with output",
+      "start": 590.56,
+      "duration": 8.279
+    },
+    {
+      "text": "from uh models that are using a database",
+      "start": 595.12,
+      "duration": 5.8
+    },
+    {
+      "text": "of embed",
+      "start": 598.839,
+      "duration": 5.281
+    },
+    {
+      "text": "to create uh responses does the risk",
+      "start": 600.92,
+      "duration": 6.12
+    },
+    {
+      "text": "require that the sensitive information",
+      "start": 604.12,
+      "duration": 5.24
+    },
+    {
+      "text": "still be in the data",
+      "start": 607.04,
+      "duration": 5.88
+    },
+    {
+      "text": "or can just the fact that the sensitive",
+      "start": 609.36,
+      "duration": 5.52
+    },
+    {
+      "text": "information was used to produce the",
+      "start": 612.92,
+      "duration": 5.039
+    },
+    {
+      "text": "embeddings even though the database has",
+      "start": 614.88,
+      "duration": 3.88
+    },
+    {
+      "text": "been",
+      "start": 617.959,
+      "duration": 5.041
+    },
+    {
+      "text": "scrubbed uh cause problems so if the",
+      "start": 618.76,
+      "duration": 6.4
+    },
+    {
+      "text": "sensitive information was used to",
+      "start": 623.0,
+      "duration": 4.64
+    },
+    {
+      "text": "produce the embeddings uh the chances",
+      "start": 625.16,
+      "duration": 3.919
+    },
+    {
+      "text": "are that there's sensitive information",
+      "start": 627.64,
+      "duration": 3.48
+    },
+    {
+      "text": "left over in the embeddings themselves",
+      "start": 629.079,
+      "duration": 5.721
+    },
+    {
+      "text": "that could be output um and so that's",
+      "start": 631.12,
+      "duration": 7.0
+    },
+    {
+      "text": "why the the recommendation there is De",
+      "start": 634.8,
+      "duration": 5.159
+    },
+    {
+      "text": "identifying Data before you create",
+      "start": 638.12,
+      "duration": 5.08
+    },
+    {
+      "text": "embeddings or um understanding what data",
+      "start": 639.959,
+      "duration": 4.801
+    },
+    {
+      "text": "you have in the first place to not",
+      "start": 643.2,
+      "duration": 3.96
+    },
+    {
+      "text": "include that personal information uh",
+      "start": 644.76,
+      "duration": 5.0
+    },
+    {
+      "text": "period uh and just stripping out that",
+      "start": 647.16,
+      "duration": 4.919
+    },
+    {
+      "text": "entire entire piece it depends if you",
+      "start": 649.76,
+      "duration": 4.56
+    },
+    {
+      "text": "need the context or not uh around that",
+      "start": 652.079,
+      "duration": 4.281
+    },
+    {
+      "text": "personal information and the interesting",
+      "start": 654.32,
+      "duration": 4.0
+    },
+    {
+      "text": "part is that a lot of the times you",
+      "start": 656.36,
+      "duration": 3.32
+    },
+    {
+      "text": "don't need the personal information to",
+      "start": 658.32,
+      "duration": 3.959
+    },
+    {
+      "text": "get value from a lot of NLP applications",
+      "start": 659.68,
+      "duration": 5.36
+    },
+    {
+      "text": "if you think topic modeling sentiment",
+      "start": 662.279,
+      "duration": 6.881
+    },
+    {
+      "text": "analysis um and many many other ones you",
+      "start": 665.04,
+      "duration": 6.12
+    },
+    {
+      "text": "the sensitive information is generally",
+      "start": 669.16,
+      "duration": 3.52
+    },
+    {
+      "text": "Superfluous unless you're doing",
+      "start": 671.16,
+      "duration": 5.64
+    },
+    {
+      "text": "something very explicit in uh HR or in",
+      "start": 672.68,
+      "duration": 6.8
+    },
+    {
+      "text": "or need specific customer information uh",
+      "start": 676.8,
+      "duration": 4.32
+    },
+    {
+      "text": "for things like your master data",
+      "start": 679.48,
+      "duration": 4.799
+    },
+    {
+      "text": "management system uh you're not going to",
+      "start": 681.12,
+      "duration": 4.68
+    },
+    {
+      "text": "you you often don't need that personal",
+      "start": 684.279,
+      "duration": 4.56
+    },
+    {
+      "text": "information and in addition to that um",
+      "start": 685.8,
+      "duration": 5.76
+    },
+    {
+      "text": "the person information can lead to more",
+      "start": 688.839,
+      "duration": 5.641
+    },
+    {
+      "text": "bias in the responses uh and so that's",
+      "start": 691.56,
+      "duration": 4.2
+    },
+    {
+      "text": "something else to watch out for more and",
+      "start": 694.48,
+      "duration": 4.12
+    },
+    {
+      "text": "more research is coming out uh about how",
+      "start": 695.76,
+      "duration": 4.759
+    },
+    {
+      "text": "things like physical attribute or the",
+      "start": 698.6,
+      "duration": 5.479
+    },
+    {
+      "text": "country that you're from or uh the uh",
+      "start": 700.519,
+      "duration": 5.841
+    },
+    {
+      "text": "political affiliation Etc that can all",
+      "start": 704.079,
+      "duration": 4.801
+    },
+    {
+      "text": "lead to biased responses from the model",
+      "start": 706.36,
+      "duration": 5.08
+    },
+    {
+      "text": "and so by removing that that removes the",
+      "start": 708.88,
+      "duration": 4.44
+    },
+    {
+      "text": "or reduces the risk of having biased",
+      "start": 711.44,
+      "duration": 4.48
+    },
+    {
+      "text": "responses got it got it got it so that",
+      "start": 713.32,
+      "duration": 4.88
+    },
+    {
+      "text": "kind of brings us full circle to how",
+      "start": 715.92,
+      "duration": 6.479
+    },
+    {
+      "text": "folks might use private AI so one is you",
+      "start": 718.2,
+      "duration": 8.24
+    },
+    {
+      "text": "are interacting with third-party llm and",
+      "start": 722.399,
+      "duration": 5.921
+    },
+    {
+      "text": "you've got sensitive information that",
+      "start": 726.44,
+      "duration": 4.839
+    },
+    {
+      "text": "you don't want to be exposed to that llm",
+      "start": 728.32,
+      "duration": 3.639
+    },
+    {
+      "text": "and",
+      "start": 731.279,
+      "duration": 4.8
+    },
+    {
+      "text": "so uh private AI would sit between the S",
+      "start": 731.959,
+      "duration": 6.761
+    },
+    {
+      "text": "your system and the llm and kind of",
+      "start": 736.079,
+      "duration": 4.56
+    },
+    {
+      "text": "cleanse that data as it's passing",
+      "start": 738.72,
+      "duration": 5.679
+    },
+    {
+      "text": "through and then um there's another part",
+      "start": 740.639,
+      "duration": 7.841
+    },
+    {
+      "text": "that is about um if you're training",
+      "start": 744.399,
+      "duration": 6.68
+    },
+    {
+      "text": "doing finetuning or training embeddings",
+      "start": 748.48,
+      "duration": 7.52
+    },
+    {
+      "text": "or some uh aspect of using data to build",
+      "start": 751.079,
+      "duration": 8.44
+    },
+    {
+      "text": "a model then you can also cleanse that",
+      "start": 756.0,
+      "duration": 5.639
+    },
+    {
+      "text": "data kind of in is it like in place or",
+      "start": 759.519,
+      "duration": 3.841
+    },
+    {
+      "text": "is it as part of the training Loop that",
+      "start": 761.639,
+      "duration": 3.801
+    },
+    {
+      "text": "you're working with that data uh it's an",
+      "start": 763.36,
+      "duration": 4.32
+    },
+    {
+      "text": "API so it runs in your environment you",
+      "start": 765.44,
+      "duration": 4.44
+    },
+    {
+      "text": "send a post request through and then out",
+      "start": 767.68,
+      "duration": 4.68
+    },
+    {
+      "text": "comes the uh redacted data and the list",
+      "start": 769.88,
+      "duration": 4.0
+    },
+    {
+      "text": "of personal information and sensitive",
+      "start": 772.36,
+      "duration": 3.44
+    },
+    {
+      "text": "data that was found and so you could put",
+      "start": 773.88,
+      "duration": 3.8
+    },
+    {
+      "text": "it anywhere in your software pipeline",
+      "start": 775.8,
+      "duration": 4.44
+    },
+    {
+      "text": "that makes sense got it and are you is",
+      "start": 777.68,
+      "duration": 5.48
+    },
+    {
+      "text": "it um are you typically doing it request",
+      "start": 780.24,
+      "duration": 6.92
+    },
+    {
+      "text": "by request or like are there b batch or",
+      "start": 783.16,
+      "duration": 6.72
+    },
+    {
+      "text": "bulk apis there's there's a batch mode",
+      "start": 787.16,
+      "duration": 6.16
+    },
+    {
+      "text": "and also a streaming mode as well uh it",
+      "start": 789.88,
+      "duration": 6.24
+    },
+    {
+      "text": "sounds like a foundational part of what",
+      "start": 793.32,
+      "duration": 7.28
+    },
+    {
+      "text": "you're doing has to be kind of entity",
+      "start": 796.12,
+      "duration": 7.44
+    },
+    {
+      "text": "recognition identification uh in this",
+      "start": 800.6,
+      "duration": 5.76
+    },
+    {
+      "text": "data because the user is not expected to",
+      "start": 803.56,
+      "duration": 4.399
+    },
+    {
+      "text": "tell you",
+      "start": 806.36,
+      "duration": 6.159
+    },
+    {
+      "text": "specifically um um the entities that are",
+      "start": 807.959,
+      "duration": 6.601
+    },
+    {
+      "text": "well what information does the user need",
+      "start": 812.519,
+      "duration": 3.481
+    },
+    {
+      "text": "to provide is may be a better place to",
+      "start": 814.56,
+      "duration": 4.32
+    },
+    {
+      "text": "start yeah the user the user can provide",
+      "start": 816.0,
+      "duration": 5.0
+    },
+    {
+      "text": "uh the so we provide a list of entities",
+      "start": 818.88,
+      "duration": 3.079
+    },
+    {
+      "text": "that they can",
+      "start": 821.0,
+      "duration": 4.36
+    },
+    {
+      "text": "identify uh and they could either choose",
+      "start": 821.959,
+      "duration": 6.32
+    },
+    {
+      "text": "to by default remove all of them uh they",
+      "start": 825.36,
+      "duration": 4.76
+    },
+    {
+      "text": "could choose which ones to remove if",
+      "start": 828.279,
+      "duration": 3.081
+    },
+    {
+      "text": "they don't want all of them or they",
+      "start": 830.12,
+      "duration": 3.079
+    },
+    {
+      "text": "could choose based on regulation that",
+      "start": 831.36,
+      "duration": 3.839
+    },
+    {
+      "text": "they're trying to comply with so if it's",
+      "start": 833.199,
+      "duration": 7.401
+    },
+    {
+      "text": "Hippa or if it's uh gdpr uh CP PR uh you",
+      "start": 835.199,
+      "duration": 6.721
+    },
+    {
+      "text": "can choose which one you want and then",
+      "start": 840.6,
+      "duration": 2.96
+    },
+    {
+      "text": "it'll Auto Select which entities make",
+      "start": 841.92,
+      "duration": 4.359
+    },
+    {
+      "text": "most sense for uh that regulation",
+      "start": 843.56,
+      "duration": 5.12
+    },
+    {
+      "text": "thinking about entity recognition in",
+      "start": 846.279,
+      "duration": 5.521
+    },
+    {
+      "text": "general like that's been a problem for a",
+      "start": 848.68,
+      "duration": 6.159
+    },
+    {
+      "text": "long time and",
+      "start": 851.8,
+      "duration": 5.64
+    },
+    {
+      "text": "um on the one hand because it's been",
+      "start": 854.839,
+      "duration": 4.12
+    },
+    {
+      "text": "around for a while and there are lots of",
+      "start": 857.44,
+      "duration": 3.0
+    },
+    {
+      "text": "different solutions I think it's",
+      "start": 858.959,
+      "duration": 3.201
+    },
+    {
+      "text": "tempting to think that it's like a a",
+      "start": 860.44,
+      "duration": 4.639
+    },
+    {
+      "text": "solved problem uh on the other hand you",
+      "start": 862.16,
+      "duration": 4.84
+    },
+    {
+      "text": "know if you have any experience trying",
+      "start": 865.079,
+      "duration": 4.361
+    },
+    {
+      "text": "to get llms or you know even traditional",
+      "start": 867.0,
+      "duration": 5.44
+    },
+    {
+      "text": "tools to do this it is very hard uh talk",
+      "start": 869.44,
+      "duration": 5.0
+    },
+    {
+      "text": "a little bit about your experience with",
+      "start": 872.44,
+      "duration": 5.24
+    },
+    {
+      "text": "the entity recognition part yeah I think",
+      "start": 874.44,
+      "duration": 6.44
+    },
+    {
+      "text": "that uh a lot of the misconceptions",
+      "start": 877.68,
+      "duration": 6.92
+    },
+    {
+      "text": "around what is easy or hard in AI uh",
+      "start": 880.88,
+      "duration": 5.079
+    },
+    {
+      "text": "what it when it comes to thinking that",
+      "start": 884.6,
+      "duration": 4.12
+    },
+    {
+      "text": "it's easy it tends to be around",
+      "start": 885.959,
+      "duration": 4.281
+    },
+    {
+      "text": "misunderstanding",
+      "start": 888.72,
+      "duration": 4.44
+    },
+    {
+      "text": "the huge lift that it takes to get high",
+      "start": 890.24,
+      "duration": 5.36
+    },
+    {
+      "text": "quality representative",
+      "start": 893.16,
+      "duration": 6.52
+    },
+    {
+      "text": "data and then uh the",
+      "start": 895.6,
+      "duration": 6.44
+    },
+    {
+      "text": "misunderstanding how huge a lift it is",
+      "start": 899.68,
+      "duration": 5.64
+    },
+    {
+      "text": "to get a product in production that is",
+      "start": 902.04,
+      "duration": 7.68
+    },
+    {
+      "text": "scalable uh that uh also uh has a lot of",
+      "start": 905.32,
+      "duration": 9.0
+    },
+    {
+      "text": "corner cases in mind and part of the",
+      "start": 909.72,
+      "duration": 6.359
+    },
+    {
+      "text": "part of the problems that uh you have to",
+      "start": 914.32,
+      "duration": 3.12
+    },
+    {
+      "text": "deal with when building a named entity",
+      "start": 916.079,
+      "duration": 3.841
+    },
+    {
+      "text": "recognition system are um you're going",
+      "start": 917.44,
+      "duration": 3.639
+    },
+    {
+      "text": "to deal with optical character",
+      "start": 919.92,
+      "duration": 2.44
+    },
+    {
+      "text": "recognition errors you're going to deal",
+      "start": 921.079,
+      "duration": 3.241
+    },
+    {
+      "text": "with automatic speech recognition errors",
+      "start": 922.36,
+      "duration": 3.479
+    },
+    {
+      "text": "depending on of course your use case but",
+      "start": 924.32,
+      "duration": 2.759
+    },
+    {
+      "text": "if you're dealing with a lot of data",
+      "start": 925.839,
+      "duration": 3.601
+    },
+    {
+      "text": "like um many of these large organ ations",
+      "start": 927.079,
+      "duration": 5.32
+    },
+    {
+      "text": "are uh the the different types of",
+      "start": 929.44,
+      "duration": 6.48
+    },
+    {
+      "text": "contexts is huge and then the different",
+      "start": 932.399,
+      "duration": 5.92
+    },
+    {
+      "text": "languages that it needs to apply to as",
+      "start": 935.92,
+      "duration": 4.08
+    },
+    {
+      "text": "well so and then all of the different",
+      "start": 938.319,
+      "duration": 4.721
+    },
+    {
+      "text": "entity types that you need to uh be able",
+      "start": 940.0,
+      "duration": 5.6
+    },
+    {
+      "text": "to perform well enough on uh for it to",
+      "start": 943.04,
+      "duration": 4.56
+    },
+    {
+      "text": "be good enough to comply with data",
+      "start": 945.6,
+      "duration": 4.88
+    },
+    {
+      "text": "protection regulations so it's it's a a",
+      "start": 947.6,
+      "duration": 5.88
+    },
+    {
+      "text": "huge balance between speed accuracy uh",
+      "start": 950.48,
+      "duration": 5.12
+    },
+    {
+      "text": "and then multimodality in addition to",
+      "start": 953.48,
+      "duration": 4.24
+    },
+    {
+      "text": "that because it needs to generally deal",
+      "start": 955.6,
+      "duration": 5.32
+    },
+    {
+      "text": "with uh results from files and uh of",
+      "start": 957.72,
+      "duration": 7.08
+    },
+    {
+      "text": "course text transcripts chat logs uh but",
+      "start": 960.92,
+      "duration": 8.12
+    },
+    {
+      "text": "uh audio as well uh and if you put all",
+      "start": 964.8,
+      "duration": 6.92
+    },
+    {
+      "text": "of that together that's a that's a giant",
+      "start": 969.04,
+      "duration": 6.279
+    },
+    {
+      "text": "problem space to deal with uh so it's",
+      "start": 971.72,
+      "duration": 8.08
+    },
+    {
+      "text": "named entity recognition uh itself is a",
+      "start": 975.319,
+      "duration": 6.401
+    },
+    {
+      "text": "an important piece of the puzzle",
+      "start": 979.8,
+      "duration": 4.599
+    },
+    {
+      "text": "everything else is also a huge lift for",
+      "start": 981.72,
+      "duration": 4.52
+    },
+    {
+      "text": "the named entity recognition lift if we",
+      "start": 984.399,
+      "duration": 3.841
+    },
+    {
+      "text": "double click on that you have to think",
+      "start": 986.24,
+      "duration": 5.76
+    },
+    {
+      "text": "about uh the 50 plus entity types that",
+      "start": 988.24,
+      "duration": 5.56
+    },
+    {
+      "text": "you often need to recognize for many of",
+      "start": 992.0,
+      "duration": 3.839
+    },
+    {
+      "text": "for some of these regulations uh",
+      "start": 993.8,
+      "duration": 3.839
+    },
+    {
+      "text": "multiply by the number of languages that",
+      "start": 995.839,
+      "duration": 5.44
+    },
+    {
+      "text": "you need to to uh function on uh and you",
+      "start": 997.639,
+      "duration": 6.361
+    },
+    {
+      "text": "need to do that in a way that's also uh",
+      "start": 1001.279,
+      "duration": 7.36
+    },
+    {
+      "text": "Speedy right uh so uh We've created data",
+      "start": 1004.0,
+      "duration": 6.44
+    },
+    {
+      "text": "pipelines that are very efficient uh",
+      "start": 1008.639,
+      "duration": 4.88
+    },
+    {
+      "text": "with regards to and adding new entity",
+      "start": 1010.44,
+      "duration": 5.56
+    },
+    {
+      "text": "types uh We've created data pipelines",
+      "start": 1013.519,
+      "duration": 3.721
+    },
+    {
+      "text": "that are efficient with regards to",
+      "start": 1016.0,
+      "duration": 4.199
+    },
+    {
+      "text": "creating synthetic data to to add to our",
+      "start": 1017.24,
+      "duration": 4.76
+    },
+    {
+      "text": "current uh data because there's no",
+      "start": 1020.199,
+      "duration": 3.521
+    },
+    {
+      "text": "there's no real personal information",
+      "start": 1022.0,
+      "duration": 3.079
+    },
+    {
+      "text": "that you could go out and capture in the",
+      "start": 1023.72,
+      "duration": 4.68
+    },
+    {
+      "text": "wild uh you have to basically either beg",
+      "start": 1025.079,
+      "duration": 6.201
+    },
+    {
+      "text": "customers for data or uh you have to",
+      "start": 1028.4,
+      "duration": 5.84
+    },
+    {
+      "text": "create your own uh and then finding out",
+      "start": 1031.28,
+      "duration": 4.799
+    },
+    {
+      "text": "what kind of data you need to add to the",
+      "start": 1034.24,
+      "duration": 5.079
+    },
+    {
+      "text": "model in order to make it more efficient",
+      "start": 1036.079,
+      "duration": 6.681
+    },
+    {
+      "text": "uh or more effective without uh while",
+      "start": 1039.319,
+      "duration": 6.64
+    },
+    {
+      "text": "limiting the L the decreas in efficiency",
+      "start": 1042.76,
+      "duration": 5.6
+    },
+    {
+      "text": "in your data process with the more data",
+      "start": 1045.959,
+      "duration": 3.441
+    },
+    {
+      "text": "that you add",
+      "start": 1048.36,
+      "duration": 2.4
+    },
+    {
+      "text": "is the",
+      "start": 1049.4,
+      "duration": 2.92
+    },
+    {
+      "text": "customer",
+      "start": 1050.76,
+      "duration": 5.12
+    },
+    {
+      "text": "training The Entity recognition model",
+      "start": 1052.32,
+      "duration": 6.52
+    },
+    {
+      "text": "like or is it's supposed to be zero shot",
+      "start": 1055.88,
+      "duration": 5.12
+    },
+    {
+      "text": "with regard to the customer data yeah",
+      "start": 1058.84,
+      "duration": 4.68
+    },
+    {
+      "text": "absolutely no training by the customer",
+      "start": 1061.0,
+      "duration": 6.919
+    },
+    {
+      "text": "uh and for for pii in particular uh and",
+      "start": 1063.52,
+      "duration": 8.44
+    },
+    {
+      "text": "here's why um it takes a lot of training",
+      "start": 1067.919,
+      "duration": 7.681
+    },
+    {
+      "text": "to know how to annotate properly uh if",
+      "start": 1071.96,
+      "duration": 5.64
+    },
+    {
+      "text": "you introduce errors in The annotation",
+      "start": 1075.6,
+      "duration": 4.8
+    },
+    {
+      "text": "process uh that can have uh bad effects",
+      "start": 1077.6,
+      "duration": 4.04
+    },
+    {
+      "text": "in the models then we can't help you",
+      "start": 1080.4,
+      "duration": 4.279
+    },
+    {
+      "text": "debug the model because uh we don't know",
+      "start": 1081.64,
+      "duration": 7.36
+    },
+    {
+      "text": "what kind of data you put in there um",
+      "start": 1084.679,
+      "duration": 8.48
+    },
+    {
+      "text": "the in addition to that",
+      "start": 1089.0,
+      "duration": 4.159
+    },
+    {
+      "text": "the basically we won't be able to",
+      "start": 1093.559,
+      "duration": 5.24
+    },
+    {
+      "text": "provide the same model uh of that's",
+      "start": 1095.72,
+      "duration": 7.68
+    },
+    {
+      "text": "that's uh consistent for the kind of uh",
+      "start": 1098.799,
+      "duration": 7.041
+    },
+    {
+      "text": "Corner cases that you have that might be",
+      "start": 1103.4,
+      "duration": 4.279
+    },
+    {
+      "text": "relevant to other customers as well",
+      "start": 1105.84,
+      "duration": 4.079
+    },
+    {
+      "text": "meaning if a customer",
+      "start": 1107.679,
+      "duration": 4.24
+    },
+    {
+      "text": "fine-tuning you know what you're doing",
+      "start": 1109.919,
+      "duration": 4.88
+    },
+    {
+      "text": "then that it impacts repeatability",
+      "start": 1111.919,
+      "duration": 7.801
+    },
+    {
+      "text": "across customers and then um are you as",
+      "start": 1114.799,
+      "duration": 7.601
+    },
+    {
+      "text": "part of the the service like are you",
+      "start": 1119.72,
+      "duration": 6.36
+    },
+    {
+      "text": "making some uh type of guarantees to the",
+      "start": 1122.4,
+      "duration": 7.68
+    },
+    {
+      "text": "customer or uh anything like that uh we",
+      "start": 1126.08,
+      "duration": 6.36
+    },
+    {
+      "text": "do have a warranty that's optional that",
+      "start": 1130.08,
+      "duration": 4.719
+    },
+    {
+      "text": "folks can buy and that's uh provided by",
+      "start": 1132.44,
+      "duration": 6.359
+    },
+    {
+      "text": "arilla Ai and it has a a certain",
+      "start": 1134.799,
+      "duration": 6.841
+    },
+    {
+      "text": "accuracy threshold um that uh is",
+      "start": 1138.799,
+      "duration": 5.161
+    },
+    {
+      "text": "guaranteed that we reach if not your",
+      "start": 1141.64,
+      "duration": 5.68
+    },
+    {
+      "text": "your contract money is returned to you",
+      "start": 1143.96,
+      "duration": 5.76
+    },
+    {
+      "text": "uh and we have a certain time period uh",
+      "start": 1147.32,
+      "duration": 4.64
+    },
+    {
+      "text": "in which to fix anything that falls",
+      "start": 1149.72,
+      "duration": 4.72
+    },
+    {
+      "text": "below that threshold and so your ability",
+      "start": 1151.96,
+      "duration": 7.44
+    },
+    {
+      "text": "to to honor kind of warranties or like",
+      "start": 1154.44,
+      "duration": 6.8
+    },
+    {
+      "text": "that uh is going to be impacted if",
+      "start": 1159.4,
+      "duration": 3.759
+    },
+    {
+      "text": "you're customizing the model for each",
+      "start": 1161.24,
+      "duration": 4.52
+    },
+    {
+      "text": "customer yeah um however we do deal with",
+      "start": 1163.159,
+      "duration": 4.201
+    },
+    {
+      "text": "extremely sensitive information often",
+      "start": 1165.76,
+      "duration": 2.96
+    },
+    {
+      "text": "things like credit card numbers for p",
+      "start": 1167.36,
+      "duration": 3.6
+    },
+    {
+      "text": "PCI compliance uh or Healthcare",
+      "start": 1168.72,
+      "duration": 4.319
+    },
+    {
+      "text": "information where folks do not want to",
+      "start": 1170.96,
+      "duration": 4.04
+    },
+    {
+      "text": "have to go into the healthcare data and",
+      "start": 1173.039,
+      "duration": 4.041
+    },
+    {
+      "text": "and uh look around to see whether",
+      "start": 1175.0,
+      "duration": 6.159
+    },
+    {
+      "text": "anything was missed uh and so our um the",
+      "start": 1177.08,
+      "duration": 5.36
+    },
+    {
+      "text": "stakes are pretty high when it comes to",
+      "start": 1181.159,
+      "duration": 3.681
+    },
+    {
+      "text": "accuracy can you talk a little bit about",
+      "start": 1182.44,
+      "duration": 4.88
+    },
+    {
+      "text": "like how about generalizability and like",
+      "start": 1184.84,
+      "duration": 5.92
+    },
+    {
+      "text": "how you've built the system to be able",
+      "start": 1187.32,
+      "duration": 5.88
+    },
+    {
+      "text": "to deal with generalized",
+      "start": 1190.76,
+      "duration": 6.399
+    },
+    {
+      "text": "data um you know without without",
+      "start": 1193.2,
+      "duration": 5.76
+    },
+    {
+      "text": "training or tuning to specific ific",
+      "start": 1197.159,
+      "duration": 3.64
+    },
+    {
+      "text": "customer use cases I would imagine",
+      "start": 1198.96,
+      "duration": 3.76
+    },
+    {
+      "text": "there's a fair amount of even though",
+      "start": 1200.799,
+      "duration": 4.681
+    },
+    {
+      "text": "we're limiting ourselves to entities I",
+      "start": 1202.72,
+      "duration": 4.079
+    },
+    {
+      "text": "would imagine there's a fair amount of",
+      "start": 1205.48,
+      "duration": 3.28
+    },
+    {
+      "text": "variability in the types of files and",
+      "start": 1206.799,
+      "duration": 4.561
+    },
+    {
+      "text": "documents and that could be problematic",
+      "start": 1208.76,
+      "duration": 4.96
+    },
+    {
+      "text": "correct",
+      "start": 1211.36,
+      "duration": 7.0
+    },
+    {
+      "text": "um lots of data is the answer to that",
+      "start": 1213.72,
+      "duration": 7.439
+    },
+    {
+      "text": "okay lots of data collected over the",
+      "start": 1218.36,
+      "duration": 6.16
+    },
+    {
+      "text": "years uh where uh oftentimes it's our",
+      "start": 1221.159,
+      "duration": 4.841
+    },
+    {
+      "text": "customer saying hey you missed this",
+      "start": 1224.52,
+      "duration": 3.639
+    },
+    {
+      "text": "stuff uh fix it and they send us a chunk",
+      "start": 1226.0,
+      "duration": 3.24
+    },
+    {
+      "text": "of data",
+      "start": 1228.159,
+      "duration": 3.52
+    },
+    {
+      "text": "and then we'll add synthetic data to",
+      "start": 1229.24,
+      "duration": 4.64
+    },
+    {
+      "text": "that uh and do a lot of rounds of",
+      "start": 1231.679,
+      "duration": 7.161
+    },
+    {
+      "text": "testing um but yeah it's it's it's a big",
+      "start": 1233.88,
+      "duration": 6.84
+    },
+    {
+      "text": "uh lift to be able to have a",
+      "start": 1238.84,
+      "duration": 3.8
+    },
+    {
+      "text": "generalizable model like that you",
+      "start": 1240.72,
+      "duration": 6.4
+    },
+    {
+      "text": "mentioned multilingual as well is that",
+      "start": 1242.64,
+      "duration": 8.279
+    },
+    {
+      "text": "also solve with more data and the models",
+      "start": 1247.12,
+      "duration": 7.32
+    },
+    {
+      "text": "deal with it um on their own or You Are",
+      "start": 1250.919,
+      "duration": 6.681
+    },
+    {
+      "text": "there specific challenges and um things",
+      "start": 1254.44,
+      "duration": 5.88
+    },
+    {
+      "text": "that you have to do in order to support",
+      "start": 1257.6,
+      "duration": 4.6
+    },
+    {
+      "text": "multilingual there are specific",
+      "start": 1260.32,
+      "duration": 4.28
+    },
+    {
+      "text": "challenges um and and often times it",
+      "start": 1262.2,
+      "duration": 4.28
+    },
+    {
+      "text": "could be things like uh when you have",
+      "start": 1264.6,
+      "duration": 4.72
+    },
+    {
+      "text": "multilingual data uh conversations for",
+      "start": 1266.48,
+      "duration": 6.559
+    },
+    {
+      "text": "example so code switching uh that can be",
+      "start": 1269.32,
+      "duration": 8.599
+    },
+    {
+      "text": "fairly tricky to deal with um the also",
+      "start": 1273.039,
+      "duration": 6.801
+    },
+    {
+      "text": "the ability to detect what what kind of",
+      "start": 1277.919,
+      "duration": 5.24
+    },
+    {
+      "text": "language uh is being used to be able to",
+      "start": 1279.84,
+      "duration": 4.8
+    },
+    {
+      "text": "provide the best model that's something",
+      "start": 1283.159,
+      "duration": 2.921
+    },
+    {
+      "text": "that we put in place as well so a",
+      "start": 1284.64,
+      "duration": 4.84
+    },
+    {
+      "text": "language detection system um the ability",
+      "start": 1286.08,
+      "duration": 6.079
+    },
+    {
+      "text": "to uh also based on the language",
+      "start": 1289.48,
+      "duration": 4.0
+    },
+    {
+      "text": "detection system provide different",
+      "start": 1292.159,
+      "duration": 3.841
+    },
+    {
+      "text": "labels in the appropriate languages is",
+      "start": 1293.48,
+      "duration": 5.52
+    },
+    {
+      "text": "also something that we've worked on um",
+      "start": 1296.0,
+      "duration": 6.559
+    },
+    {
+      "text": "and so there there more data definitely",
+      "start": 1299.0,
+      "duration": 6.52
+    },
+    {
+      "text": "uh but also how do specific models deal",
+      "start": 1302.559,
+      "duration": 6.24
+    },
+    {
+      "text": "with uh uh logal graphic languages uh",
+      "start": 1305.52,
+      "duration": 6.36
+    },
+    {
+      "text": "like uh Chinese characters for example",
+      "start": 1308.799,
+      "duration": 8.721
+    },
+    {
+      "text": "versus um alphabets uh like English uh",
+      "start": 1311.88,
+      "duration": 8.6
+    },
+    {
+      "text": "and uh be being able to find models that",
+      "start": 1317.52,
+      "duration": 4.639
+    },
+    {
+      "text": "are suitable for each of these in",
+      "start": 1320.48,
+      "duration": 4.24
+    },
+    {
+      "text": "addition to finding optical character",
+      "start": 1322.159,
+      "duration": 4.201
+    },
+    {
+      "text": "recognition models that are suitable for",
+      "start": 1324.72,
+      "duration": 5.92
+    },
+    {
+      "text": "each of these uh and to training them uh",
+      "start": 1326.36,
+      "duration": 6.76
+    },
+    {
+      "text": "with the right data is very tricky and",
+      "start": 1330.64,
+      "duration": 4.84
+    },
+    {
+      "text": "you've mentioned OCR a couple of times",
+      "start": 1333.12,
+      "duration": 5.559
+    },
+    {
+      "text": "is the presumption that your customers",
+      "start": 1335.48,
+      "duration": 3.96
+    },
+    {
+      "text": "are",
+      "start": 1338.679,
+      "duration": 3.641
+    },
+    {
+      "text": "not responsible for the OCR themselves",
+      "start": 1339.44,
+      "duration": 4.239
+    },
+    {
+      "text": "they're giving you whatever their raw",
+      "start": 1342.32,
+      "duration": 4.52
+    },
+    {
+      "text": "data is and PDFs and scans and all that",
+      "start": 1343.679,
+      "duration": 5.041
+    },
+    {
+      "text": "and you have to deal with it for them",
+      "start": 1346.84,
+      "duration": 4.56
+    },
+    {
+      "text": "depends on the customer but oftentimes",
+      "start": 1348.72,
+      "duration": 4.8
+    },
+    {
+      "text": "yeah we have to deal with it and OCR is",
+      "start": 1351.4,
+      "duration": 3.639
+    },
+    {
+      "text": "another one of those things that is like",
+      "start": 1353.52,
+      "duration": 4.24
+    },
+    {
+      "text": "oh that's a solved",
+      "start": 1355.039,
+      "duration": 6.12
+    },
+    {
+      "text": "problem and it's",
+      "start": 1357.76,
+      "duration": 3.399
+    },
+    {
+      "text": "not um mainly again because of data",
+      "start": 1363.279,
+      "duration": 4.321
+    },
+    {
+      "text": "complexity uh because you've got",
+      "start": 1365.72,
+      "duration": 3.76
+    },
+    {
+      "text": "documents within documents or images",
+      "start": 1367.6,
+      "duration": 4.92
+    },
+    {
+      "text": "embedded in documents and uh being able",
+      "start": 1369.48,
+      "duration": 4.64
+    },
+    {
+      "text": "to",
+      "start": 1372.52,
+      "duration": 4.759
+    },
+    {
+      "text": "um it's not about just surface level",
+      "start": 1374.12,
+      "duration": 4.679
+    },
+    {
+      "text": "comprehension right it's not just a",
+      "start": 1377.279,
+      "duration": 4.041
+    },
+    {
+      "text": "summary that you're providing uh it's",
+      "start": 1378.799,
+      "duration": 4.48
+    },
+    {
+      "text": "this is really detailed work that's",
+      "start": 1381.32,
+      "duration": 6.04
+    },
+    {
+      "text": "being done and that's M you need to be",
+      "start": 1383.279,
+      "duration": 7.041
+    },
+    {
+      "text": "able to find the name in the chart in",
+      "start": 1387.36,
+      "duration": 5.72
+    },
+    {
+      "text": "the section and the you know on a page",
+      "start": 1390.32,
+      "duration": 6.16
+    },
+    {
+      "text": "in in an image basically exactly yeah",
+      "start": 1393.08,
+      "duration": 5.44
+    },
+    {
+      "text": "and and when folks say oh I could just",
+      "start": 1396.48,
+      "duration": 3.439
+    },
+    {
+      "text": "do that with a large language bottle",
+      "start": 1398.52,
+      "duration": 2.88
+    },
+    {
+      "text": "it's really not taking into",
+      "start": 1399.919,
+      "duration": 3.64
+    },
+    {
+      "text": "consideration uh the amount of lift it",
+      "start": 1401.4,
+      "duration": 4.48
+    },
+    {
+      "text": "actually takes for the more detailed",
+      "start": 1403.559,
+      "duration": 6.201
+    },
+    {
+      "text": "work at a large scale uh in in actual",
+      "start": 1405.88,
+      "duration": 6.159
+    },
+    {
+      "text": "production when you're handling so many",
+      "start": 1409.76,
+      "duration": 5.039
+    },
+    {
+      "text": "different variables at once so large",
+      "start": 1412.039,
+      "duration": 4.801
+    },
+    {
+      "text": "language models are out of the box very",
+      "start": 1414.799,
+      "duration": 3.521
+    },
+    {
+      "text": "good for things like",
+      "start": 1416.84,
+      "duration": 5.4
+    },
+    {
+      "text": "summarization uh for um you giving you",
+      "start": 1418.32,
+      "duration": 6.64
+    },
+    {
+      "text": "ideas stuff like that but when it comes",
+      "start": 1422.24,
+      "duration": 4.96
+    },
+    {
+      "text": "to really detailed work you the data is",
+      "start": 1424.96,
+      "duration": 5.64
+    },
+    {
+      "text": "still incredibly important and so as",
+      "start": 1427.2,
+      "duration": 5.88
+    },
+    {
+      "text": "opposed to large language models you're",
+      "start": 1430.6,
+      "duration": 6.36
+    },
+    {
+      "text": "using uh more traditional approaches to",
+      "start": 1433.08,
+      "duration": 6.44
+    },
+    {
+      "text": "you know these various problems entity",
+      "start": 1436.96,
+      "duration": 6.76
+    },
+    {
+      "text": "recognition and OCR",
+      "start": 1439.52,
+      "duration": 4.2
+    },
+    {
+      "text": "and a that question but also like are",
+      "start": 1444.159,
+      "duration": 6.681
+    },
+    {
+      "text": "you using off-the-shelf uh open source",
+      "start": 1447.48,
+      "duration": 6.0
+    },
+    {
+      "text": "or commercial things or if you rolled",
+      "start": 1450.84,
+      "duration": 4.839
+    },
+    {
+      "text": "your own for most of the underlying",
+      "start": 1453.48,
+      "duration": 4.6
+    },
+    {
+      "text": "models like how do you think about your",
+      "start": 1455.679,
+      "duration": 5.721
+    },
+    {
+      "text": "model supply chain so we think about it",
+      "start": 1458.08,
+      "duration": 5.4
+    },
+    {
+      "text": "in the sense of uh what our customers",
+      "start": 1461.4,
+      "duration": 3.32
+    },
+    {
+      "text": "really need and they're dealing with",
+      "start": 1463.48,
+      "duration": 4.36
+    },
+    {
+      "text": "massive volumes of data and so large",
+      "start": 1464.72,
+      "duration": 5.76
+    },
+    {
+      "text": "language model tend to be too slow for",
+      "start": 1467.84,
+      "duration": 7.88
+    },
+    {
+      "text": "them and um the amount of additional",
+      "start": 1470.48,
+      "duration": 7.04
+    },
+    {
+      "text": "accuracy that one might get with a large",
+      "start": 1475.72,
+      "duration": 3.839
+    },
+    {
+      "text": "language model with we were trained on",
+      "start": 1477.52,
+      "duration": 4.72
+    },
+    {
+      "text": "the data that we have and adapted uh for",
+      "start": 1479.559,
+      "duration": 8.081
+    },
+    {
+      "text": "their tasks um is often not worth the uh",
+      "start": 1482.24,
+      "duration": 8.28
+    },
+    {
+      "text": "speed and cost increase for the",
+      "start": 1487.64,
+      "duration": 5.919
+    },
+    {
+      "text": "customers and so we spend a lot of time",
+      "start": 1490.52,
+      "duration": 7.399
+    },
+    {
+      "text": "focusing on um making the models as",
+      "start": 1493.559,
+      "duration": 7.201
+    },
+    {
+      "text": "accurate as possible in you know a",
+      "start": 1497.919,
+      "duration": 6.161
+    },
+    {
+      "text": "smaller uh package and so there there",
+      "start": 1500.76,
+      "duration": 5.12
+    },
+    {
+      "text": "are multiple ways you can do that you",
+      "start": 1504.08,
+      "duration": 5.079
+    },
+    {
+      "text": "can you know start from a traditional",
+      "start": 1505.88,
+      "duration": 5.56
+    },
+    {
+      "text": "base and kind of build up from there or",
+      "start": 1509.159,
+      "duration": 4.441
+    },
+    {
+      "text": "you can like take a large language model",
+      "start": 1511.44,
+      "duration": 5.239
+    },
+    {
+      "text": "and distill it down to smaller language",
+      "start": 1513.6,
+      "duration": 6.52
+    },
+    {
+      "text": "model is there a general direction that",
+      "start": 1516.679,
+      "duration": 5.921
+    },
+    {
+      "text": "you prefer for these kinds of tasks it",
+      "start": 1520.12,
+      "duration": 4.159
+    },
+    {
+      "text": "it's a continuous experimentation",
+      "start": 1522.6,
+      "duration": 3.4
+    },
+    {
+      "text": "process we're always uh trying different",
+      "start": 1524.279,
+      "duration": 5.12
+    },
+    {
+      "text": "things to see what uh how how much juice",
+      "start": 1526.0,
+      "duration": 5.12
+    },
+    {
+      "text": "we could squeeze out of things you",
+      "start": 1529.399,
+      "duration": 4.201
+    },
+    {
+      "text": "mentioned synthetic data a bit can you",
+      "start": 1531.12,
+      "duration": 4.76
+    },
+    {
+      "text": "dig into that a little bit more and some",
+      "start": 1533.6,
+      "duration": 4.12
+    },
+    {
+      "text": "of the ways you're thinking about that I",
+      "start": 1535.88,
+      "duration": 4.76
+    },
+    {
+      "text": "can a little bit uh a lot of synthetic",
+      "start": 1537.72,
+      "duration": 7.12
+    },
+    {
+      "text": "data is helpful when you don't have uh",
+      "start": 1540.64,
+      "duration": 6.279
+    },
+    {
+      "text": "enough data for a particular problem I",
+      "start": 1544.84,
+      "duration": 4.24
+    },
+    {
+      "text": "think uh one thing I want to point out",
+      "start": 1546.919,
+      "duration": 4.76
+    },
+    {
+      "text": "there is",
+      "start": 1549.08,
+      "duration": 5.68
+    },
+    {
+      "text": "um some folks might think that synthetic",
+      "start": 1551.679,
+      "duration": 5.441
+    },
+    {
+      "text": "data is the right way to go for training",
+      "start": 1554.76,
+      "duration": 4.36
+    },
+    {
+      "text": "their models which might be true and it",
+      "start": 1557.12,
+      "duration": 3.72
+    },
+    {
+      "text": "worked for us and the reason that it",
+      "start": 1559.12,
+      "duration": 3.88
+    },
+    {
+      "text": "worked for us uh is because we also have",
+      "start": 1560.84,
+      "duration": 5.719
+    },
+    {
+      "text": "a good balance of real world data uh in",
+      "start": 1563.0,
+      "duration": 4.919
+    },
+    {
+      "text": "addition to the synthetic data and we've",
+      "start": 1566.559,
+      "duration": 2.681
+    },
+    {
+      "text": "informed that synthetic data with the",
+      "start": 1567.919,
+      "duration": 2.921
+    },
+    {
+      "text": "real world coordinate",
+      "start": 1569.24,
+      "duration": 4.84
+    },
+    {
+      "text": "cases um when it comes to fully",
+      "start": 1570.84,
+      "duration": 4.439
+    },
+    {
+      "text": "synthetic",
+      "start": 1574.08,
+      "duration": 5.599
+    },
+    {
+      "text": "data uh the hesitation there is that it",
+      "start": 1575.279,
+      "duration": 7.4
+    },
+    {
+      "text": "if you're able to create fully synthetic",
+      "start": 1579.679,
+      "duration": 5.641
+    },
+    {
+      "text": "data uh for a",
+      "start": 1582.679,
+      "duration": 5.401
+    },
+    {
+      "text": "problem you that problem might for in",
+      "start": 1585.32,
+      "duration": 3.92
+    },
+    {
+      "text": "some cases depending on the problem that",
+      "start": 1588.08,
+      "duration": 2.719
+    },
+    {
+      "text": "you're trying to solve uh that problem",
+      "start": 1589.24,
+      "duration": 3.76
+    },
+    {
+      "text": "might already be solved because you were",
+      "start": 1590.799,
+      "duration": 6.281
+    },
+    {
+      "text": "able to create that data um in other",
+      "start": 1593.0,
+      "duration": 7.6
+    },
+    {
+      "text": "cases you might lose context uh where",
+      "start": 1597.08,
+      "duration": 5.44
+    },
+    {
+      "text": "you might need things like uh",
+      "start": 1600.6,
+      "duration": 5.52
+    },
+    {
+      "text": "conversation flow information uh or did",
+      "start": 1602.52,
+      "duration": 5.44
+    },
+    {
+      "text": "particular customer service agent need",
+      "start": 1606.12,
+      "duration": 5.2
+    },
+    {
+      "text": "training in a in a particular case um",
+      "start": 1607.96,
+      "duration": 5.68
+    },
+    {
+      "text": "and uh medical information that's",
+      "start": 1611.32,
+      "duration": 4.079
+    },
+    {
+      "text": "related to one another to different",
+      "start": 1613.64,
+      "duration": 6.56
+    },
+    {
+      "text": "parts of um uh a or or a different time",
+      "start": 1615.399,
+      "duration": 7.441
+    },
+    {
+      "text": "a full timeline of a patient for example",
+      "start": 1620.2,
+      "duration": 5.839
+    },
+    {
+      "text": "um and so the the type of synthetic data",
+      "start": 1622.84,
+      "duration": 6.88
+    },
+    {
+      "text": "that we use uh is usable because we have",
+      "start": 1626.039,
+      "duration": 7.76
+    },
+    {
+      "text": "access to high quality original data and",
+      "start": 1629.72,
+      "duration": 7.16
+    },
+    {
+      "text": "uh we also um have a very specific task",
+      "start": 1633.799,
+      "duration": 5.561
+    },
+    {
+      "text": "where this works out well for it and are",
+      "start": 1636.88,
+      "duration": 6.039
+    },
+    {
+      "text": "you like at what level are you primarily",
+      "start": 1639.36,
+      "duration": 6.88
+    },
+    {
+      "text": "using synthetic data in the process of",
+      "start": 1642.919,
+      "duration": 6.24
+    },
+    {
+      "text": "training The Entity recognizer",
+      "start": 1646.24,
+      "duration": 5.679
+    },
+    {
+      "text": "or are there other parts of the system",
+      "start": 1649.159,
+      "duration": 4.921
+    },
+    {
+      "text": "where synthetic data comes in handy for",
+      "start": 1651.919,
+      "duration": 4.961
+    },
+    {
+      "text": "you we also generate synthetic personal",
+      "start": 1654.08,
+      "duration": 4.92
+    },
+    {
+      "text": "information as part of a an option for",
+      "start": 1656.88,
+      "duration": 4.56
+    },
+    {
+      "text": "the output and that's one of the",
+      "start": 1659.0,
+      "duration": 4.72
+    },
+    {
+      "text": "interesting pieces where if you want to",
+      "start": 1661.44,
+      "duration": 5.119
+    },
+    {
+      "text": "keep things like conversational flow or",
+      "start": 1663.72,
+      "duration": 5.439
+    },
+    {
+      "text": "uh topic modeling uh and and things like",
+      "start": 1666.559,
+      "duration": 4.521
+    },
+    {
+      "text": "that you still can because the majority",
+      "start": 1669.159,
+      "duration": 4.52
+    },
+    {
+      "text": "of the context is still there meaning as",
+      "start": 1671.08,
+      "duration": 4.64
+    },
+    {
+      "text": "opposed to masking you can generate",
+      "start": 1673.679,
+      "duration": 4.681
+    },
+    {
+      "text": "synthetic data that takes the place of",
+      "start": 1675.72,
+      "duration": 5.199
+    },
+    {
+      "text": "the original tokens yeah interesting",
+      "start": 1678.36,
+      "duration": 4.159
+    },
+    {
+      "text": "okay yeah and so very similar to masking",
+      "start": 1680.919,
+      "duration": 4.161
+    },
+    {
+      "text": "you could still keep the context of uh",
+      "start": 1682.519,
+      "duration": 4.321
+    },
+    {
+      "text": "of the data we've talked a little bit",
+      "start": 1685.08,
+      "duration": 4.36
+    },
+    {
+      "text": "about OCR and how you're using that as",
+      "start": 1686.84,
+      "duration": 4.88
+    },
+    {
+      "text": "one example of",
+      "start": 1689.44,
+      "duration": 4.599
+    },
+    {
+      "text": "multimodality um can you talk about",
+      "start": 1691.72,
+      "duration": 5.28
+    },
+    {
+      "text": "other ways that you're using and",
+      "start": 1694.039,
+      "duration": 6.201
+    },
+    {
+      "text": "incorporating multimodal data yeah so uh",
+      "start": 1697.0,
+      "duration": 5.84
+    },
+    {
+      "text": "we also do provide the ability to redact",
+      "start": 1700.24,
+      "duration": 4.84
+    },
+    {
+      "text": "information generally for PCI compliance",
+      "start": 1702.84,
+      "duration": 4.64
+    },
+    {
+      "text": "uh from audio recordings and so you",
+      "start": 1705.08,
+      "duration": 4.4
+    },
+    {
+      "text": "could bleep out the personal information",
+      "start": 1707.48,
+      "duration": 4.199
+    },
+    {
+      "text": "from the audio recordings themselves",
+      "start": 1709.48,
+      "duration": 4.52
+    },
+    {
+      "text": "meaning I've got a call center and I'm",
+      "start": 1711.679,
+      "duration": 5.641
+    },
+    {
+      "text": "recording for quality assurance and um",
+      "start": 1714.0,
+      "duration": 5.679
+    },
+    {
+      "text": "people are talking about personal",
+      "start": 1717.32,
+      "duration": 4.32
+    },
+    {
+      "text": "they're incorporating person pii into",
+      "start": 1719.679,
+      "duration": 4.281
+    },
+    {
+      "text": "those conversations and you want to",
+      "start": 1721.64,
+      "duration": 4.0
+    },
+    {
+      "text": "redact it before you store it for",
+      "start": 1723.96,
+      "duration": 3.959
+    },
+    {
+      "text": "example correct that's right and that's",
+      "start": 1725.64,
+      "duration": 5.08
+    },
+    {
+      "text": "really important for PCI DSS compliance",
+      "start": 1727.919,
+      "duration": 4.441
+    },
+    {
+      "text": "uh where you do need to remove things",
+      "start": 1730.72,
+      "duration": 3.319
+    },
+    {
+      "text": "like credit card numbers and account",
+      "start": 1732.36,
+      "duration": 5.0
+    },
+    {
+      "text": "numbers and um the way that we do that",
+      "start": 1734.039,
+      "duration": 6.441
+    },
+    {
+      "text": "is uh very much by you know where we",
+      "start": 1737.36,
+      "duration": 5.0
+    },
+    {
+      "text": "bleep at the pii uh one thing I will",
+      "start": 1740.48,
+      "duration": 4.36
+    },
+    {
+      "text": "point out is that um there is some",
+      "start": 1742.36,
+      "duration": 4.679
+    },
+    {
+      "text": "research on",
+      "start": 1744.84,
+      "duration": 6.319
+    },
+    {
+      "text": "anonymizing the voice within a recording",
+      "start": 1747.039,
+      "duration": 7.561
+    },
+    {
+      "text": "um and that's interesting because if you",
+      "start": 1751.159,
+      "duration": 5.801
+    },
+    {
+      "text": "anonymize information it falls outside",
+      "start": 1754.6,
+      "duration": 3.919
+    },
+    {
+      "text": "of certain data protection regulations",
+      "start": 1756.96,
+      "duration": 2.52
+    },
+    {
+      "text": "like the",
+      "start": 1758.519,
+      "duration": 3.361
+    },
+    {
+      "text": "gdpr um and for those of uh those",
+      "start": 1759.48,
+      "duration": 4.12
+    },
+    {
+      "text": "listeners who don't know the edpr is the",
+      "start": 1761.88,
+      "duration": 3.2
+    },
+    {
+      "text": "general data protection regulation in",
+      "start": 1763.6,
+      "duration": 4.0
+    },
+    {
+      "text": "the EU and it basically covers what",
+      "start": 1765.08,
+      "duration": 4.719
+    },
+    {
+      "text": "you're allowed to do with personable",
+      "start": 1767.6,
+      "duration": 4.6
+    },
+    {
+      "text": "information and how and consent and all",
+      "start": 1769.799,
+      "duration": 4.961
+    },
+    {
+      "text": "that jazz so if you anonymize data which",
+      "start": 1772.2,
+      "duration": 4.52
+    },
+    {
+      "text": "basically means you there's a very very",
+      "start": 1774.76,
+      "duration": 5.159
+    },
+    {
+      "text": "low risk of reidentifying the individual",
+      "start": 1776.72,
+      "duration": 4.92
+    },
+    {
+      "text": "then you don't have to comply with that",
+      "start": 1779.919,
+      "duration": 2.921
+    },
+    {
+      "text": "that regulation because you're no longer",
+      "start": 1781.64,
+      "duration": 3.96
+    },
+    {
+      "text": "dealing with person with personal data",
+      "start": 1782.84,
+      "duration": 5.92
+    },
+    {
+      "text": "um but anonymizing the voice doesn't",
+      "start": 1785.6,
+      "duration": 5.679
+    },
+    {
+      "text": "remove responsibility to anonymize pii",
+      "start": 1788.76,
+      "duration": 6.039
+    },
+    {
+      "text": "that's mentioned and yeah that's correct",
+      "start": 1791.279,
+      "duration": 5.76
+    },
+    {
+      "text": "uh and so the voice is a biometric",
+      "start": 1794.799,
+      "duration": 5.801
+    },
+    {
+      "text": "identifier uh and you can uh I'd say at",
+      "start": 1797.039,
+      "duration": 6.281
+    },
+    {
+      "text": "your own risk uh modify the voice and",
+      "start": 1800.6,
+      "duration": 4.679
+    },
+    {
+      "text": "and perhaps call it Anonymous but",
+      "start": 1803.32,
+      "duration": 3.959
+    },
+    {
+      "text": "there's not enough research out there in",
+      "start": 1805.279,
+      "duration": 5.961
+    },
+    {
+      "text": "my opinion to say that uh a voice",
+      "start": 1807.279,
+      "duration": 7.081
+    },
+    {
+      "text": "modification cannot be reversed and and",
+      "start": 1811.24,
+      "duration": 4.319
+    },
+    {
+      "text": "so there are certain assumptions you",
+      "start": 1814.36,
+      "duration": 4.559
+    },
+    {
+      "text": "might have to to make uh with regards to",
+      "start": 1815.559,
+      "duration": 4.96
+    },
+    {
+      "text": "whether or not you can consider an audio",
+      "start": 1818.919,
+      "duration": 4.921
+    },
+    {
+      "text": "recording actually anonymized but uh",
+      "start": 1820.519,
+      "duration": 6.961
+    },
+    {
+      "text": "data minimization uh is not just about",
+      "start": 1823.84,
+      "duration": 6.52
+    },
+    {
+      "text": "anonymizing it's about limiting the uh",
+      "start": 1827.48,
+      "duration": 5.36
+    },
+    {
+      "text": "risk of the data and in situations like",
+      "start": 1830.36,
+      "duration": 4.52
+    },
+    {
+      "text": "removing credit card numbers you're",
+      "start": 1832.84,
+      "duration": 5.12
+    },
+    {
+      "text": "reducing the risk of fraud for example",
+      "start": 1834.88,
+      "duration": 6.0
+    },
+    {
+      "text": "uh and if there's a data leak reducing",
+      "start": 1837.96,
+      "duration": 4.439
+    },
+    {
+      "text": "the risk of how much information is",
+      "start": 1840.88,
+      "duration": 3.56
+    },
+    {
+      "text": "going to be part of that data leak and",
+      "start": 1842.399,
+      "duration": 5.321
+    },
+    {
+      "text": "are you doing this on stored audio or do",
+      "start": 1844.44,
+      "duration": 5.64
+    },
+    {
+      "text": "you have the ability to do it real time",
+      "start": 1847.72,
+      "duration": 5.319
+    },
+    {
+      "text": "it could be both uh we we are not an ASR",
+      "start": 1850.08,
+      "duration": 5.24
+    },
+    {
+      "text": "compan that sounds a lot harder yeah",
+      "start": 1853.039,
+      "duration": 4.12
+    },
+    {
+      "text": "yeah it is hard it is hard but we are",
+      "start": 1855.32,
+      "duration": 4.64
+    },
+    {
+      "text": "not an ASR company to be clear so uh we",
+      "start": 1857.159,
+      "duration": 5.48
+    },
+    {
+      "text": "can do it on audio but if anybody needs",
+      "start": 1859.96,
+      "duration": 5.319
+    },
+    {
+      "text": "something uh that's more specialized",
+      "start": 1862.639,
+      "duration": 5.76
+    },
+    {
+      "text": "like um uh you know uh things like um",
+      "start": 1865.279,
+      "duration": 7.321
+    },
+    {
+      "text": "diarization of audio or uh things that",
+      "start": 1868.399,
+      "duration": 8.361
+    },
+    {
+      "text": "yeah if you need actual uh control of",
+      "start": 1872.6,
+      "duration": 5.559
+    },
+    {
+      "text": "what your what's going to happen to your",
+      "start": 1876.76,
+      "duration": 3.159
+    },
+    {
+      "text": "audio aside from deidentification there",
+      "start": 1878.159,
+      "duration": 3.12
+    },
+    {
+      "text": "are lots of good companies out there",
+      "start": 1879.919,
+      "duration": 4.0
+    },
+    {
+      "text": "like uh uh deepgram which I saw that you",
+      "start": 1881.279,
+      "duration": 6.481
+    },
+    {
+      "text": "interviewed assembly um and Chio and so",
+      "start": 1883.919,
+      "duration": 5.921
+    },
+    {
+      "text": "on who can do a great job at that you",
+      "start": 1887.76,
+      "duration": 4.519
+    },
+    {
+      "text": "have an audio stream coming from your",
+      "start": 1889.84,
+      "duration": 4.6
+    },
+    {
+      "text": "call center people are mentioning pii",
+      "start": 1892.279,
+      "duration": 3.801
+    },
+    {
+      "text": "and credit card numbers and the like on",
+      "start": 1894.44,
+      "duration": 4.599
+    },
+    {
+      "text": "your audio stream you can real time",
+      "start": 1896.08,
+      "duration": 7.04
+    },
+    {
+      "text": "redact certain types of pii as it's",
+      "start": 1899.039,
+      "duration": 6.36
+    },
+    {
+      "text": "happening is text being used as an",
+      "start": 1903.12,
+      "duration": 4.519
+    },
+    {
+      "text": "intermediate or is it happening real",
+      "start": 1905.399,
+      "duration": 5.561
+    },
+    {
+      "text": "time on it on voice yeah text is being",
+      "start": 1907.639,
+      "duration": 6.121
+    },
+    {
+      "text": "used as an intermediary um to if it were",
+      "start": 1910.96,
+      "duration": 5.64
+    },
+    {
+      "text": "to happen real time on voice uh You'",
+      "start": 1913.76,
+      "duration": 4.519
+    },
+    {
+      "text": "you'd be talking about uh probably",
+      "start": 1916.6,
+      "duration": 2.76
+    },
+    {
+      "text": "keyword",
+      "start": 1918.279,
+      "duration": 4.481
+    },
+    {
+      "text": "detection and uh then you have to train",
+      "start": 1919.36,
+      "duration": 7.08
+    },
+    {
+      "text": "a model specifically on keywords that's",
+      "start": 1922.76,
+      "duration": 6.0
+    },
+    {
+      "text": "just a very large search Bas of keywords",
+      "start": 1926.44,
+      "duration": 4.8
+    },
+    {
+      "text": "to to be looking for got it got it got",
+      "start": 1928.76,
+      "duration": 4.68
+    },
+    {
+      "text": "it so yeah I mean you could CH it for",
+      "start": 1931.24,
+      "duration": 4.48
+    },
+    {
+      "text": "digits for example and and probably be",
+      "start": 1933.44,
+      "duration": 6.239
+    },
+    {
+      "text": "okay but that's a big problem um so now",
+      "start": 1935.72,
+      "duration": 6.0
+    },
+    {
+      "text": "I'm thinking about the you know even",
+      "start": 1939.679,
+      "duration": 4.641
+    },
+    {
+      "text": "with Texas an intermediary",
+      "start": 1941.72,
+      "duration": 4.48
+    },
+    {
+      "text": "you're",
+      "start": 1944.32,
+      "duration": 6.199
+    },
+    {
+      "text": "either doing like Word level resolution",
+      "start": 1946.2,
+      "duration": 6.56
+    },
+    {
+      "text": "where each word has a Time associated",
+      "start": 1950.519,
+      "duration": 5.481
+    },
+    {
+      "text": "with it but then um I'm imagining",
+      "start": 1952.76,
+      "duration": 4.84
+    },
+    {
+      "text": "there's certain types of P well even",
+      "start": 1956.0,
+      "duration": 3.799
+    },
+    {
+      "text": "like a a string of credit card numbers",
+      "start": 1957.6,
+      "duration": 4.4
+    },
+    {
+      "text": "like you have to zoom out Beyond",
+      "start": 1959.799,
+      "duration": 4.88
+    },
+    {
+      "text": "individual numbers to know what's",
+      "start": 1962.0,
+      "duration": 5.159
+    },
+    {
+      "text": "happening there you know or you can look",
+      "start": 1964.679,
+      "duration": 5.12
+    },
+    {
+      "text": "at like complete utterances but then you",
+      "start": 1967.159,
+      "duration": 4.601
+    },
+    {
+      "text": "still have to figure out like how to",
+      "start": 1969.799,
+      "duration": 4.12
+    },
+    {
+      "text": "align the credit card number that's in",
+      "start": 1971.76,
+      "duration": 5.84
+    },
+    {
+      "text": "the middle of a phrase with the um with",
+      "start": 1973.919,
+      "duration": 7.801
+    },
+    {
+      "text": "the audio like how do you deal with that",
+      "start": 1977.6,
+      "duration": 7.039
+    },
+    {
+      "text": "is that a big deal for for doing this or",
+      "start": 1981.72,
+      "duration": 4.52
+    },
+    {
+      "text": "and how do you deal with that no it",
+      "start": 1984.639,
+      "duration": 3.0
+    },
+    {
+      "text": "definitely is and and the reason is",
+      "start": 1986.24,
+      "duration": 3.36
+    },
+    {
+      "text": "because of of disfluencies in speech",
+      "start": 1987.639,
+      "duration": 3.92
+    },
+    {
+      "text": "right so somebody might say my credit",
+      "start": 1989.6,
+      "duration": 4.0
+    },
+    {
+      "text": "card number is 5'9 oops I dropped my",
+      "start": 1991.559,
+      "duration": 5.401
+    },
+    {
+      "text": "card sorry it's 32 uh",
+      "start": 1993.6,
+      "duration": 6.959
+    },
+    {
+      "text": "592 oh no that was a two not a four yeah",
+      "start": 1996.96,
+      "duration": 5.12
+    },
+    {
+      "text": "and I wasn't even thinking about that",
+      "start": 2000.559,
+      "duration": 2.801
+    },
+    {
+      "text": "that would make it even a lot harder I",
+      "start": 2002.08,
+      "duration": 4.439
+    },
+    {
+      "text": "was think having been looking at uh you",
+      "start": 2003.36,
+      "duration": 6.36
+    },
+    {
+      "text": "know looking at some transcriptions ASR",
+      "start": 2006.519,
+      "duration": 5.76
+    },
+    {
+      "text": "data recently and the different levels",
+      "start": 2009.72,
+      "duration": 5.799
+    },
+    {
+      "text": "that it can that you can use it like it",
+      "start": 2012.279,
+      "duration": 5.841
+    },
+    {
+      "text": "yeah no it's it's definitely tricky uh",
+      "start": 2015.519,
+      "duration": 5.601
+    },
+    {
+      "text": "so the more context the better",
+      "start": 2018.12,
+      "duration": 7.32
+    },
+    {
+      "text": "definitely uh the um the cleaner the",
+      "start": 2021.12,
+      "duration": 8.6
+    },
+    {
+      "text": "transcript the better as well um and if",
+      "start": 2025.44,
+      "duration": 6.56
+    },
+    {
+      "text": "it's uh only one language it's also",
+      "start": 2029.72,
+      "duration": 4.6
+    },
+    {
+      "text": "easier uh but the the world isn't",
+      "start": 2032.0,
+      "duration": 3.72
+    },
+    {
+      "text": "perfect and none of these things really",
+      "start": 2034.32,
+      "duration": 5.28
+    },
+    {
+      "text": "apply most of the time",
+      "start": 2035.72,
+      "duration": 3.88
+    },
+    {
+      "text": "maybe the unil unilingual aspect but uh",
+      "start": 2039.84,
+      "duration": 5.16
+    },
+    {
+      "text": "even then like what I guess I'm trying",
+      "start": 2042.88,
+      "duration": 5.279
+    },
+    {
+      "text": "to get at some kind of practical detail",
+      "start": 2045.0,
+      "duration": 6.839
+    },
+    {
+      "text": "there uh in terms of either you know",
+      "start": 2048.159,
+      "duration": 5.76
+    },
+    {
+      "text": "models or you know things that people",
+      "start": 2051.839,
+      "duration": 3.601
+    },
+    {
+      "text": "should be thinking about in terms of the",
+      "start": 2053.919,
+      "duration": 3.48
+    },
+    {
+      "text": "data or if you know someone's",
+      "start": 2055.44,
+      "duration": 3.479
+    },
+    {
+      "text": "encountering problems like this what",
+      "start": 2057.399,
+      "duration": 2.841
+    },
+    {
+      "text": "should they be thinking about or what",
+      "start": 2058.919,
+      "duration": 3.68
+    },
+    {
+      "text": "have you learned about tackling it uh",
+      "start": 2060.24,
+      "duration": 4.32
+    },
+    {
+      "text": "real world examples are extremely",
+      "start": 2062.599,
+      "duration": 5.56
+    },
+    {
+      "text": "valuable and you might have all sorts of",
+      "start": 2064.56,
+      "duration": 5.64
+    },
+    {
+      "text": "so that that's the that's the limitation",
+      "start": 2068.159,
+      "duration": 6.881
+    },
+    {
+      "text": "of um fully synthetic data um what you",
+      "start": 2070.2,
+      "duration": 7.28
+    },
+    {
+      "text": "expect to encounter is very different",
+      "start": 2075.04,
+      "duration": 3.879
+    },
+    {
+      "text": "from what you might encounter in the",
+      "start": 2077.48,
+      "duration": 5.72
+    },
+    {
+      "text": "real world and um oftentimes you don't",
+      "start": 2078.919,
+      "duration": 6.521
+    },
+    {
+      "text": "it's very hard to get access to that",
+      "start": 2083.2,
+      "duration": 4.32
+    },
+    {
+      "text": "real world data because of personal",
+      "start": 2085.44,
+      "duration": 4.0
+    },
+    {
+      "text": "information and",
+      "start": 2087.52,
+      "duration": 5.24
+    },
+    {
+      "text": "so what one thing you can do is use our",
+      "start": 2089.44,
+      "duration": 6.32
+    },
+    {
+      "text": "uh synthetic pii model to generate just",
+      "start": 2092.76,
+      "duration": 5.2
+    },
+    {
+      "text": "the synthetic personal information get",
+      "start": 2095.76,
+      "duration": 4.56
+    },
+    {
+      "text": "access to the rest of the data uh which",
+      "start": 2097.96,
+      "duration": 5.28
+    },
+    {
+      "text": "might be relevant for your more minute",
+      "start": 2100.32,
+      "duration": 5.759
+    },
+    {
+      "text": "uh use cases meaning just inject",
+      "start": 2103.24,
+      "duration": 7.839
+    },
+    {
+      "text": "synthetic pii into random places and",
+      "start": 2106.079,
+      "duration": 7.401
+    },
+    {
+      "text": "conversations uh in instead of the",
+      "start": 2111.079,
+      "duration": 4.721
+    },
+    {
+      "text": "actual Pi because oftentimes you can't",
+      "start": 2113.48,
+      "duration": 3.68
+    },
+    {
+      "text": "get access to data because of the",
+      "start": 2115.8,
+      "duration": 4.2
+    },
+    {
+      "text": "privacy concerns meaning if you're if",
+      "start": 2117.16,
+      "duration": 6.56
+    },
+    {
+      "text": "you're building models and part of the",
+      "start": 2120.0,
+      "duration": 6.28
+    },
+    {
+      "text": "reason why you can't build strong enough",
+      "start": 2123.72,
+      "duration": 4.76
+    },
+    {
+      "text": "models is because you can't get the data",
+      "start": 2126.28,
+      "duration": 5.079
+    },
+    {
+      "text": "because of the pii concerns you can use",
+      "start": 2128.48,
+      "duration": 4.96
+    },
+    {
+      "text": "a tool like yours",
+      "start": 2131.359,
+      "duration": 6.0
+    },
+    {
+      "text": "to to mass the pii or make synthetic a",
+      "start": 2133.44,
+      "duration": 6.919
+    },
+    {
+      "text": "synthetic version of it with synthetic",
+      "start": 2137.359,
+      "duration": 6.641
+    },
+    {
+      "text": "pi and then um convince somebody to give",
+      "start": 2140.359,
+      "duration": 6.121
+    },
+    {
+      "text": "you their data based on that correct yes",
+      "start": 2144.0,
+      "duration": 4.079
+    },
+    {
+      "text": "we have customers who use us for that",
+      "start": 2146.48,
+      "duration": 5.28
+    },
+    {
+      "text": "purpose okay okay got it and there will",
+      "start": 2148.079,
+      "duration": 6.24
+    },
+    {
+      "text": "be some who have contractual agreements",
+      "start": 2151.76,
+      "duration": 4.0
+    },
+    {
+      "text": "uh for that with their customers where",
+      "start": 2154.319,
+      "duration": 4.601
+    },
+    {
+      "text": "they they promise to uh anonymize or",
+      "start": 2155.76,
+      "duration": 5.319
+    },
+    {
+      "text": "reduce the pi and the data uh in order",
+      "start": 2158.92,
+      "duration": 5.72
+    },
+    {
+      "text": "to be able to train their models with it",
+      "start": 2161.079,
+      "duration": 5.481
+    },
+    {
+      "text": "and that that's uh becoming more and",
+      "start": 2164.64,
+      "duration": 3.64
+    },
+    {
+      "text": "more important as people realize the",
+      "start": 2166.56,
+      "duration": 4.039
+    },
+    {
+      "text": "actual harms of training models with",
+      "start": 2168.28,
+      "duration": 4.64
+    },
+    {
+      "text": "sensitive information yeah also on the",
+      "start": 2170.599,
+      "duration": 5.041
+    },
+    {
+      "text": "multimodal front uh I think when we",
+      "start": 2172.92,
+      "duration": 4.199
+    },
+    {
+      "text": "spoke previously you mentioned something",
+      "start": 2175.64,
+      "duration": 3.959
+    },
+    {
+      "text": "about like logo detection in documents",
+      "start": 2177.119,
+      "duration": 4.881
+    },
+    {
+      "text": "was a a challenge that you ran up",
+      "start": 2179.599,
+      "duration": 5.641
+    },
+    {
+      "text": "against at one point yeah yeah so um we",
+      "start": 2182.0,
+      "duration": 5.16
+    },
+    {
+      "text": "have more and more a request for",
+      "start": 2185.24,
+      "duration": 4.44
+    },
+    {
+      "text": "confident information detection because",
+      "start": 2187.16,
+      "duration": 5.08
+    },
+    {
+      "text": "uh also of large language models uh and",
+      "start": 2189.68,
+      "duration": 5.0
+    },
+    {
+      "text": "so we've built out a solution that deals",
+      "start": 2192.24,
+      "duration": 4.24
+    },
+    {
+      "text": "with that also dealing in in the",
+      "start": 2194.68,
+      "duration": 3.96
+    },
+    {
+      "text": "confidential information detection piece",
+      "start": 2196.48,
+      "duration": 4.839
+    },
+    {
+      "text": "that one we do handle uh with customers",
+      "start": 2198.64,
+      "duration": 6.56
+    },
+    {
+      "text": "to to um adapt to their particular",
+      "start": 2201.319,
+      "duration": 5.681
+    },
+    {
+      "text": "confidential information because that's",
+      "start": 2205.2,
+      "duration": 5.0
+    },
+    {
+      "text": "that changes even on a daily basis for",
+      "start": 2207.0,
+      "duration": 6.4
+    },
+    {
+      "text": "some um but uh logos is actually",
+      "start": 2210.2,
+      "duration": 4.919
+    },
+    {
+      "text": "something that uh comes up as",
+      "start": 2213.4,
+      "duration": 3.76
+    },
+    {
+      "text": "confidential information so if you have",
+      "start": 2215.119,
+      "duration": 4.321
+    },
+    {
+      "text": "for example Le customer presentation uh",
+      "start": 2217.16,
+      "duration": 4.0
+    },
+    {
+      "text": "and you want to train a model or send",
+      "start": 2219.44,
+      "duration": 3.72
+    },
+    {
+      "text": "that through to a model uh and you don't",
+      "start": 2221.16,
+      "duration": 4.08
+    },
+    {
+      "text": "want to send that customer logo through",
+      "start": 2223.16,
+      "duration": 4.439
+    },
+    {
+      "text": "uh that's something that we can blur out",
+      "start": 2225.24,
+      "duration": 4.359
+    },
+    {
+      "text": "uh so that you don't have to deal with",
+      "start": 2227.599,
+      "duration": 5.121
+    },
+    {
+      "text": "that piece of information um but um",
+      "start": 2229.599,
+      "duration": 5.24
+    },
+    {
+      "text": "that's that's another piece think about",
+      "start": 2232.72,
+      "duration": 6.32
+    },
+    {
+      "text": "building a privacy solution uh it's so",
+      "start": 2234.839,
+      "duration": 6.201
+    },
+    {
+      "text": "many uh things that come up that you",
+      "start": 2239.04,
+      "duration": 4.24
+    },
+    {
+      "text": "don't expect that you need to collect",
+      "start": 2241.04,
+      "duration": 5.48
+    },
+    {
+      "text": "knowledge about year after year to keep",
+      "start": 2243.28,
+      "duration": 5.16
+    },
+    {
+      "text": "improving the product so it's not",
+      "start": 2246.52,
+      "duration": 3.64
+    },
+    {
+      "text": "something that you could just build out",
+      "start": 2248.44,
+      "duration": 3.639
+    },
+    {
+      "text": "of a box with a named entity recognition",
+      "start": 2250.16,
+      "duration": 4.679
+    },
+    {
+      "text": "model that recognizes five entities it's",
+      "start": 2252.079,
+      "duration": 6.881
+    },
+    {
+      "text": "it's a real drag to",
+      "start": 2254.839,
+      "duration": 4.121
+    },
+    {
+      "text": "to actually figure out what's",
+      "start": 2259.96,
+      "duration": 6.6
+    },
+    {
+      "text": "what how do you maintain like a coherent",
+      "start": 2263.24,
+      "duration": 5.04
+    },
+    {
+      "text": "how do you maintain your product as a",
+      "start": 2266.56,
+      "duration": 3.88
+    },
+    {
+      "text": "coherent system as opposed to a",
+      "start": 2268.28,
+      "duration": 6.079
+    },
+    {
+      "text": "patchwork of you know kind of individual",
+      "start": 2270.44,
+      "duration": 7.28
+    },
+    {
+      "text": "things to address individual issues um",
+      "start": 2274.359,
+      "duration": 5.321
+    },
+    {
+      "text": "I'm imagining that becomes a challenge",
+      "start": 2277.72,
+      "duration": 5.08
+    },
+    {
+      "text": "just in terms of you know manageability",
+      "start": 2279.68,
+      "duration": 6.639
+    },
+    {
+      "text": "of the system and like you know code",
+      "start": 2282.8,
+      "duration": 6.92
+    },
+    {
+      "text": "manageability like is there a particular",
+      "start": 2286.319,
+      "duration": 6.161
+    },
+    {
+      "text": "approach that you found useful for that",
+      "start": 2289.72,
+      "duration": 4.44
+    },
+    {
+      "text": "well one having great Architects and",
+      "start": 2292.48,
+      "duration": 5.48
+    },
+    {
+      "text": "Engineers uh but would highly recommend",
+      "start": 2294.16,
+      "duration": 9.08
+    },
+    {
+      "text": "if you can afford them um but to um",
+      "start": 2297.96,
+      "duration": 7.76
+    },
+    {
+      "text": "the it there there can definitely be",
+      "start": 2303.24,
+      "duration": 5.04
+    },
+    {
+      "text": "product scope uh product creep or or",
+      "start": 2305.72,
+      "duration": 6.119
+    },
+    {
+      "text": "feature creep and uh we'll have folks",
+      "start": 2308.28,
+      "duration": 5.559
+    },
+    {
+      "text": "requesting entity types that don't have",
+      "start": 2311.839,
+      "duration": 4.28
+    },
+    {
+      "text": "to do with privacy and if we can't fit",
+      "start": 2313.839,
+      "duration": 4.881
+    },
+    {
+      "text": "it into the framework of whether or not",
+      "start": 2316.119,
+      "duration": 4.2
+    },
+    {
+      "text": "it has to do with privacy or",
+      "start": 2318.72,
+      "duration": 3.359
+    },
+    {
+      "text": "confidentiality then it's not something",
+      "start": 2320.319,
+      "duration": 3.921
+    },
+    {
+      "text": "we really consider doing um we do have",
+      "start": 2322.079,
+      "duration": 3.921
+    },
+    {
+      "text": "many folks using us for named entity",
+      "start": 2324.24,
+      "duration": 4.04
+    },
+    {
+      "text": "recognition because of how highly",
+      "start": 2326.0,
+      "duration": 6.119
+    },
+    {
+      "text": "accurate our system is um and uh that's",
+      "start": 2328.28,
+      "duration": 6.559
+    },
+    {
+      "text": "where that uh that creep can come in in",
+      "start": 2332.119,
+      "duration": 5.441
+    },
+    {
+      "text": "those requests uh so it's really about",
+      "start": 2334.839,
+      "duration": 5.401
+    },
+    {
+      "text": "keeping it focused otherwise it it I",
+      "start": 2337.56,
+      "duration": 4.4
+    },
+    {
+      "text": "think people already sometimes have a",
+      "start": 2340.24,
+      "duration": 3.4
+    },
+    {
+      "text": "hard time figuring out what we can help",
+      "start": 2341.96,
+      "duration": 3.639
+    },
+    {
+      "text": "them with thinking we just do de",
+      "start": 2343.64,
+      "duration": 4.92
+    },
+    {
+      "text": "identification when we can also do this",
+      "start": 2345.599,
+      "duration": 6.201
+    },
+    {
+      "text": "detection and incorporation into their",
+      "start": 2348.56,
+      "duration": 5.44
+    },
+    {
+      "text": "uh their risk pipelines and and their",
+      "start": 2351.8,
+      "duration": 5.16
+    },
+    {
+      "text": "data cataloges and MDM systems and so on",
+      "start": 2354.0,
+      "duration": 8.04
+    },
+    {
+      "text": "um so not not having that go beyond the",
+      "start": 2356.96,
+      "duration": 8.159
+    },
+    {
+      "text": "realm of our goal is privacy and",
+      "start": 2362.04,
+      "duration": 4.559
+    },
+    {
+      "text": "confidentiality and making sure that",
+      "start": 2365.119,
+      "duration": 3.761
+    },
+    {
+      "text": "it's as important and as uh good as",
+      "start": 2366.599,
+      "duration": 4.76
+    },
+    {
+      "text": "cyber security processes can you talk a",
+      "start": 2368.88,
+      "duration": 4.959
+    },
+    {
+      "text": "little bit more about the integration",
+      "start": 2371.359,
+      "duration": 5.24
+    },
+    {
+      "text": "with data cataloges and MDM systems what",
+      "start": 2373.839,
+      "duration": 7.28
+    },
+    {
+      "text": "what is is it just that you have massed",
+      "start": 2376.599,
+      "duration": 6.801
+    },
+    {
+      "text": "the data before it gets put into those",
+      "start": 2381.119,
+      "duration": 3.841
+    },
+    {
+      "text": "systems or are we talking about",
+      "start": 2383.4,
+      "duration": 3.4
+    },
+    {
+      "text": "something different different different",
+      "start": 2384.96,
+      "duration": 3.72
+    },
+    {
+      "text": "in this case it's using that named",
+      "start": 2386.8,
+      "duration": 3.48
+    },
+    {
+      "text": "entity recognition aspect of it to",
+      "start": 2388.68,
+      "duration": 3.8
+    },
+    {
+      "text": "create metadata that goes into those",
+      "start": 2390.28,
+      "duration": 3.839
+    },
+    {
+      "text": "systems so while you're de identifying",
+      "start": 2392.48,
+      "duration": 3.839
+    },
+    {
+      "text": "data to go into your models for example",
+      "start": 2394.119,
+      "duration": 4.0
+    },
+    {
+      "text": "you're cataloging that data and putting",
+      "start": 2396.319,
+      "duration": 4.121
+    },
+    {
+      "text": "it into your data catalog uh so that you",
+      "start": 2398.119,
+      "duration": 4.761
+    },
+    {
+      "text": "could go back to it and see uh what the",
+      "start": 2400.44,
+      "duration": 5.08
+    },
+    {
+      "text": "risks were or are of specific data",
+      "start": 2402.88,
+      "duration": 4.8
+    },
+    {
+      "text": "sources and you don't have to go and",
+      "start": 2405.52,
+      "duration": 4.72
+    },
+    {
+      "text": "redo the work every time so while you're",
+      "start": 2407.68,
+      "duration": 5.399
+    },
+    {
+      "text": "de de identifying what is the data that",
+      "start": 2410.24,
+      "duration": 5.32
+    },
+    {
+      "text": "you're putting in into your data catalog",
+      "start": 2413.079,
+      "duration": 4.801
+    },
+    {
+      "text": "the entities that you pulled that you",
+      "start": 2415.56,
+      "duration": 6.519
+    },
+    {
+      "text": "identified or the um deidentified yeah",
+      "start": 2417.88,
+      "duration": 7.719
+    },
+    {
+      "text": "the entities the entities that you that",
+      "start": 2422.079,
+      "duration": 5.52
+    },
+    {
+      "text": "are identified along with the data",
+      "start": 2425.599,
+      "duration": 5.121
+    },
+    {
+      "text": "source uh as an example um there can be",
+      "start": 2427.599,
+      "duration": 4.881
+    },
+    {
+      "text": "other aspects to it as well depending on",
+      "start": 2430.72,
+      "duration": 2.96
+    },
+    {
+      "text": "what aspects of data protection",
+      "start": 2432.48,
+      "duration": 3.44
+    },
+    {
+      "text": "regulations you want to comply with and",
+      "start": 2433.68,
+      "duration": 4.0
+    },
+    {
+      "text": "um how you want to build out that",
+      "start": 2435.92,
+      "duration": 4.399
+    },
+    {
+      "text": "internal privacy pipeline uh but yeah",
+      "start": 2437.68,
+      "duration": 4.84
+    },
+    {
+      "text": "that's that's very much H so if you if",
+      "start": 2440.319,
+      "duration": 4.8
+    },
+    {
+      "text": "you think about it the there's a really",
+      "start": 2442.52,
+      "duration": 4.839
+    },
+    {
+      "text": "robust system right now in place within",
+      "start": 2445.119,
+      "duration": 5.881
+    },
+    {
+      "text": "organizations to uh deal with uh",
+      "start": 2447.359,
+      "duration": 7.841
+    },
+    {
+      "text": "compliance for structured data and 80 to",
+      "start": 2451.0,
+      "duration": 5.52
+    },
+    {
+      "text": "90% of the data they have is",
+      "start": 2455.2,
+      "duration": 3.919
+    },
+    {
+      "text": "unstructured there is no real robust",
+      "start": 2456.52,
+      "duration": 4.28
+    },
+    {
+      "text": "system for folks to deal with that at",
+      "start": 2459.119,
+      "duration": 6.2
+    },
+    {
+      "text": "the moment and uh with our technology uh",
+      "start": 2460.8,
+      "duration": 7.44
+    },
+    {
+      "text": "what people can do is build that build",
+      "start": 2465.319,
+      "duration": 6.361
+    },
+    {
+      "text": "out that system uh with that single API",
+      "start": 2468.24,
+      "duration": 6.04
+    },
+    {
+      "text": "to pull that data from the unstructured",
+      "start": 2471.68,
+      "duration": 4.84
+    },
+    {
+      "text": "side of things into their pre-existing",
+      "start": 2474.28,
+      "duration": 5.68
+    },
+    {
+      "text": "data catalog and and MDM system and that",
+      "start": 2476.52,
+      "duration": 6.079
+    },
+    {
+      "text": "means that uh suddenly you've got that",
+      "start": 2479.96,
+      "duration": 5.359
+    },
+    {
+      "text": "robust data management system covering",
+      "start": 2482.599,
+      "duration": 5.801
+    },
+    {
+      "text": "all your data not just 10 to 20% of it",
+      "start": 2485.319,
+      "duration": 5.921
+    },
+    {
+      "text": "and one really good place to start is if",
+      "start": 2488.4,
+      "duration": 4.88
+    },
+    {
+      "text": "you're already dealing with that data",
+      "start": 2491.24,
+      "duration": 3.76
+    },
+    {
+      "text": "for building up your large language",
+      "start": 2493.28,
+      "duration": 3.96
+    },
+    {
+      "text": "models you're looking at the risk of the",
+      "start": 2495.0,
+      "duration": 4.04
+    },
+    {
+      "text": "data you might as well use that",
+      "start": 2497.24,
+      "duration": 4.28
+    },
+    {
+      "text": "information to start updating your",
+      "start": 2499.04,
+      "duration": 5.88
+    },
+    {
+      "text": "internal systems uh you mentioned",
+      "start": 2501.52,
+      "duration": 7.88
+    },
+    {
+      "text": "earlier a bit about um how the kind of",
+      "start": 2504.92,
+      "duration": 6.88
+    },
+    {
+      "text": "the connection between privacy and",
+      "start": 2509.4,
+      "duration": 5.0
+    },
+    {
+      "text": "ethical responsible Ai and how the",
+      "start": 2511.8,
+      "duration": 5.24
+    },
+    {
+      "text": "personal information leaks or can leak",
+      "start": 2514.4,
+      "duration": 8.199
+    },
+    {
+      "text": "in into models and um cause Downstream",
+      "start": 2517.04,
+      "duration": 7.88
+    },
+    {
+      "text": "biases can you elaborate on that a",
+      "start": 2522.599,
+      "duration": 4.081
+    },
+    {
+      "text": "little bit sounds like that comes from",
+      "start": 2524.92,
+      "duration": 4.679
+    },
+    {
+      "text": "research that you've come across yeah so",
+      "start": 2526.68,
+      "duration": 5.04
+    },
+    {
+      "text": "um I used to when I had a little bit",
+      "start": 2529.599,
+      "duration": 4.201
+    },
+    {
+      "text": "more time co-organize this uh workshop",
+      "start": 2531.72,
+      "duration": 4.44
+    },
+    {
+      "text": "at uh various uh computational",
+      "start": 2533.8,
+      "duration": 4.12
+    },
+    {
+      "text": "Linguistics conferences the last one was",
+      "start": 2536.16,
+      "duration": 5.159
+    },
+    {
+      "text": "at ACL and in this last one there were a",
+      "start": 2537.92,
+      "duration": 6.439
+    },
+    {
+      "text": "couple of papers talking about how the",
+      "start": 2541.319,
+      "duration": 6.321
+    },
+    {
+      "text": "input to a model can affect uh the",
+      "start": 2544.359,
+      "duration": 7.76
+    },
+    {
+      "text": "output based on uh bias uh and one of",
+      "start": 2547.64,
+      "duration": 7.16
+    },
+    {
+      "text": "them were was about physical",
+      "start": 2552.119,
+      "duration": 5.121
+    },
+    {
+      "text": "attributes uh and how that can affect",
+      "start": 2554.8,
+      "duration": 5.519
+    },
+    {
+      "text": "the uh whether if those physical",
+      "start": 2557.24,
+      "duration": 6.119
+    },
+    {
+      "text": "attributes are about um uh disabilities",
+      "start": 2560.319,
+      "duration": 4.921
+    },
+    {
+      "text": "that can affect the output of the model",
+      "start": 2563.359,
+      "duration": 3.72
+    },
+    {
+      "text": "and when we fers came out with the",
+      "start": 2565.24,
+      "duration": 3.92
+    },
+    {
+      "text": "private GPT we were also looking at what",
+      "start": 2567.079,
+      "duration": 5.081
+    },
+    {
+      "text": "kind of biases can uh the model have",
+      "start": 2569.16,
+      "duration": 5.12
+    },
+    {
+      "text": "depending on the pii one of the",
+      "start": 2572.16,
+      "duration": 4.28
+    },
+    {
+      "text": "experiments we ran uh which has been",
+      "start": 2574.28,
+      "duration": 6.64
+    },
+    {
+      "text": "since correct did uh was if you uh write",
+      "start": 2576.44,
+      "duration": 8.879
+    },
+    {
+      "text": "out I my friend is British uh and he's",
+      "start": 2580.92,
+      "duration": 6.12
+    },
+    {
+      "text": "in prison what are some of the reasons",
+      "start": 2585.319,
+      "duration": 3.601
+    },
+    {
+      "text": "that he might be in prison you get very",
+      "start": 2587.04,
+      "duration": 4.44
+    },
+    {
+      "text": "different results from my friend is from",
+      "start": 2588.92,
+      "duration": 4.8
+    },
+    {
+      "text": "Somalia uh and is in prison what are the",
+      "start": 2591.48,
+      "duration": 5.079
+    },
+    {
+      "text": "reasons my friend might be in prison and",
+      "start": 2593.72,
+      "duration": 4.76
+    },
+    {
+      "text": "if you just say my friend is from",
+      "start": 2596.559,
+      "duration": 4.601
+    },
+    {
+      "text": "country one uh what are some of the",
+      "start": 2598.48,
+      "duration": 4.599
+    },
+    {
+      "text": "reasons you might be in prison uh you",
+      "start": 2601.16,
+      "duration": 5.399
+    },
+    {
+      "text": "get much more unbiased results uh as an",
+      "start": 2603.079,
+      "duration": 4.561
+    },
+    {
+      "text": "output",
+      "start": 2606.559,
+      "duration": 4.961
+    },
+    {
+      "text": "and so uh what this is showing is I the",
+      "start": 2607.64,
+      "duration": 6.52
+    },
+    {
+      "text": "inherent bias that is in the internet is",
+      "start": 2611.52,
+      "duration": 4.88
+    },
+    {
+      "text": "being showcased in the output of these",
+      "start": 2614.16,
+      "duration": 5.36
+    },
+    {
+      "text": "large language models we we can try to",
+      "start": 2616.4,
+      "duration": 6.88
+    },
+    {
+      "text": "minimize that by minimizing at input the",
+      "start": 2619.52,
+      "duration": 6.2
+    },
+    {
+      "text": "pieces that might lead to that bias got",
+      "start": 2623.28,
+      "duration": 3.92
+    },
+    {
+      "text": "it so as opposed",
+      "start": 2625.72,
+      "duration": 4.8
+    },
+    {
+      "text": "to um trying to mitigate it via",
+      "start": 2627.2,
+      "duration": 6.08
+    },
+    {
+      "text": "prompting techniques or various other",
+      "start": 2630.52,
+      "duration": 6.0
+    },
+    {
+      "text": "things if the input data is kind of has",
+      "start": 2633.28,
+      "duration": 4.72
+    },
+    {
+      "text": "these in",
+      "start": 2636.52,
+      "duration": 3.599
+    },
+    {
+      "text": "identifiers whether they're names or",
+      "start": 2638.0,
+      "duration": 6.28
+    },
+    {
+      "text": "countries or genders or um you know less",
+      "start": 2640.119,
+      "duration": 6.96
+    },
+    {
+      "text": "obvious things even uh you can identify",
+      "start": 2644.28,
+      "duration": 6.44
+    },
+    {
+      "text": "those things and um Mass them",
+      "start": 2647.079,
+      "duration": 6.961
+    },
+    {
+      "text": "and that will reduce bias in the llm",
+      "start": 2650.72,
+      "duration": 7.0
+    },
+    {
+      "text": "output correct yes and some of these",
+      "start": 2654.04,
+      "duration": 5.519
+    },
+    {
+      "text": "that do end up leading to bias are",
+      "start": 2657.72,
+      "duration": 3.879
+    },
+    {
+      "text": "actually classified as special",
+      "start": 2659.559,
+      "duration": 4.401
+    },
+    {
+      "text": "categories of sensitive data under the",
+      "start": 2661.599,
+      "duration": 6.121
+    },
+    {
+      "text": "gdpr and you are not allowed to process",
+      "start": 2663.96,
+      "duration": 5.639
+    },
+    {
+      "text": "them under the GDP which is interesting",
+      "start": 2667.72,
+      "duration": 3.56
+    },
+    {
+      "text": "because technically that means that we",
+      "start": 2669.599,
+      "duration": 3.24
+    },
+    {
+      "text": "might not be allowed to process it even",
+      "start": 2671.28,
+      "duration": 4.52
+    },
+    {
+      "text": "if our goal is removing them right so",
+      "start": 2672.839,
+      "duration": 4.401
+    },
+    {
+      "text": "that's a little bit of a that's always",
+      "start": 2675.8,
+      "duration": 3.039
+    },
+    {
+      "text": "been a bit of a",
+      "start": 2677.24,
+      "duration": 3.839
+    },
+    {
+      "text": "conundrum yeah yeah but we're helping",
+      "start": 2678.839,
+      "duration": 6.681
+    },
+    {
+      "text": "the problem anyway right right um but uh",
+      "start": 2681.079,
+      "duration": 7.52
+    },
+    {
+      "text": "things like uh your religious affili",
+      "start": 2685.52,
+      "duration": 5.4
+    },
+    {
+      "text": "political affiliation religion uh sexual",
+      "start": 2688.599,
+      "duration": 3.881
+    },
+    {
+      "text": "orientation those are all things that",
+      "start": 2690.92,
+      "duration": 5.24
+    },
+    {
+      "text": "are special category data uh and and you",
+      "start": 2692.48,
+      "duration": 5.4
+    },
+    {
+      "text": "have to be extra careful with those so",
+      "start": 2696.16,
+      "duration": 6.64
+    },
+    {
+      "text": "it's it's not uh just I I I don't really",
+      "start": 2697.88,
+      "duration": 6.76
+    },
+    {
+      "text": "want to use the word just but it's not",
+      "start": 2702.8,
+      "duration": 5.279
+    },
+    {
+      "text": "uh really about only complying only",
+      "start": 2704.64,
+      "duration": 6.36
+    },
+    {
+      "text": "trying to do this is this doesn't sound",
+      "start": 2708.079,
+      "duration": 5.121
+    },
+    {
+      "text": "great it's not about just ethics it's",
+      "start": 2711.0,
+      "duration": 6.04
+    },
+    {
+      "text": "also about compliance uh and uh both are",
+      "start": 2713.2,
+      "duration": 7.56
+    },
+    {
+      "text": "very important um but the ethics are",
+      "start": 2717.04,
+      "duration": 5.4
+    },
+    {
+      "text": "being reflected in the law in this case",
+      "start": 2720.76,
+      "duration": 5.44
+    },
+    {
+      "text": "which is nice and on the topic of Law",
+      "start": 2722.44,
+      "duration": 5.6
+    },
+    {
+      "text": "and regulation",
+      "start": 2726.2,
+      "duration": 5.639
+    },
+    {
+      "text": "uh there are host of new laws coming",
+      "start": 2728.04,
+      "duration": 9.0
+    },
+    {
+      "text": "online eui act the um you know things in",
+      "start": 2731.839,
+      "duration": 8.841
+    },
+    {
+      "text": "California in the US are evolving like",
+      "start": 2737.04,
+      "duration": 5.16
+    },
+    {
+      "text": "I'm imagining that that's something that",
+      "start": 2740.68,
+      "duration": 4.679
+    },
+    {
+      "text": "you keep an eye on absolutely uh what",
+      "start": 2742.2,
+      "duration": 6.0
+    },
+    {
+      "text": "what can you what's your kind of take on",
+      "start": 2745.359,
+      "duration": 6.041
+    },
+    {
+      "text": "the landscape and um you know it's",
+      "start": 2748.2,
+      "duration": 4.76
+    },
+    {
+      "text": "probably a whole different hourlong",
+      "start": 2751.4,
+      "duration": 3.88
+    },
+    {
+      "text": "conversation but like how are you seeing",
+      "start": 2752.96,
+      "duration": 4.72
+    },
+    {
+      "text": "things evolve",
+      "start": 2755.28,
+      "duration": 7.0
+    },
+    {
+      "text": "H interesting moment in time to ask that",
+      "start": 2757.68,
+      "duration": 4.6
+    },
+    {
+      "text": "question",
+      "start": 2762.76,
+      "duration": 6.96
+    },
+    {
+      "text": "so the the eui act when it comes to uh",
+      "start": 2764.839,
+      "duration": 7.401
+    },
+    {
+      "text": "ethical AI uh it it covers things like",
+      "start": 2769.72,
+      "duration": 4.639
+    },
+    {
+      "text": "bias what is or is not an acceptable use",
+      "start": 2772.24,
+      "duration": 5.76
+    },
+    {
+      "text": "of AI um and it really applies to the",
+      "start": 2774.359,
+      "duration": 7.48
+    },
+    {
+      "text": "higher risk uses of AI uh and with",
+      "start": 2778.0,
+      "duration": 6.359
+    },
+    {
+      "text": "regards to S sensitive or personal",
+      "start": 2781.839,
+      "duration": 4.321
+    },
+    {
+      "text": "information that's all covered still",
+      "start": 2784.359,
+      "duration": 4.121
+    },
+    {
+      "text": "under the GDP regardless of whether or",
+      "start": 2786.16,
+      "duration": 5.8
+    },
+    {
+      "text": "not the UI act applies to you and one",
+      "start": 2788.48,
+      "duration": 4.879
+    },
+    {
+      "text": "thing that's really nice about",
+      "start": 2791.96,
+      "duration": 3.8
+    },
+    {
+      "text": "regulation when it's clear is that it",
+      "start": 2793.359,
+      "duration": 4.361
+    },
+    {
+      "text": "provides guidelines to organizations",
+      "start": 2795.76,
+      "duration": 3.359
+    },
+    {
+      "text": "that are struggling and figuring out",
+      "start": 2797.72,
+      "duration": 3.32
+    },
+    {
+      "text": "what the best practices are uh because",
+      "start": 2799.119,
+      "duration": 3.2
+    },
+    {
+      "text": "they could go look at the regulation or",
+      "start": 2801.04,
+      "duration": 2.84
+    },
+    {
+      "text": "the standard and say okay this is what",
+      "start": 2802.319,
+      "duration": 3.961
+    },
+    {
+      "text": "is said is okay once we're done this we",
+      "start": 2803.88,
+      "duration": 5.8
+    },
+    {
+      "text": "could innovate and there's no limbo um I",
+      "start": 2806.28,
+      "duration": 5.279
+    },
+    {
+      "text": "can't say there's no Limbo with the gdpr",
+      "start": 2809.68,
+      "duration": 3.96
+    },
+    {
+      "text": "that there are a few",
+      "start": 2811.559,
+      "duration": 4.28
+    },
+    {
+      "text": "things I I I don't even know if it's",
+      "start": 2813.64,
+      "duration": 3.959
+    },
+    {
+      "text": "possible to comply with the gdpr at the",
+      "start": 2815.839,
+      "duration": 3.0
+    },
+    {
+      "text": "moment with the technology that's",
+      "start": 2817.599,
+      "duration": 4.881
+    },
+    {
+      "text": "available uh um and except for for more",
+      "start": 2818.839,
+      "duration": 9.28
+    },
+    {
+      "text": "constrained cases um but uh where part",
+      "start": 2822.48,
+      "duration": 8.16
+    },
+    {
+      "text": "of the world is headed is there's this",
+      "start": 2828.119,
+      "duration": 4.801
+    },
+    {
+      "text": "issue of trust uh and this issue of",
+      "start": 2830.64,
+      "duration": 4.8
+    },
+    {
+      "text": "trust is can be grappled with with",
+      "start": 2832.92,
+      "duration": 5.159
+    },
+    {
+      "text": "appropriate regulation uh with",
+      "start": 2835.44,
+      "duration": 5.76
+    },
+    {
+      "text": "transparency with um making sure the the",
+      "start": 2838.079,
+      "duration": 5.641
+    },
+    {
+      "text": "public and the users are aware that",
+      "start": 2841.2,
+      "duration": 4.76
+    },
+    {
+      "text": "their concerns are being taken seriously",
+      "start": 2843.72,
+      "duration": 5.2
+    },
+    {
+      "text": "and then uh this other part of the world",
+      "start": 2845.96,
+      "duration": 4.599
+    },
+    {
+      "text": "is uh currently putting a lot of",
+      "start": 2848.92,
+      "duration": 4.72
+    },
+    {
+      "text": "investments in AI when just dismantled",
+      "start": 2850.559,
+      "duration": 7.04
+    },
+    {
+      "text": "uh the uh guard rails if you will that",
+      "start": 2853.64,
+      "duration": 7.479
+    },
+    {
+      "text": "were recommended around AI uh and that",
+      "start": 2857.599,
+      "duration": 5.801
+    },
+    {
+      "text": "is not going to be particularly helpful",
+      "start": 2861.119,
+      "duration": 5.121
+    },
+    {
+      "text": "with dealing with the huge and growing",
+      "start": 2863.4,
+      "duration": 5.48
+    },
+    {
+      "text": "concerns that the population has around",
+      "start": 2866.24,
+      "duration": 6.04
+    },
+    {
+      "text": "misuse of AI uh and that's not good for",
+      "start": 2868.88,
+      "duration": 4.719
+    },
+    {
+      "text": "organizations that are trying to",
+      "start": 2872.28,
+      "duration": 3.48
+    },
+    {
+      "text": "integrate AI into their business either",
+      "start": 2873.599,
+      "duration": 3.921
+    },
+    {
+      "text": "because now they have to deal with with",
+      "start": 2875.76,
+      "duration": 3.96
+    },
+    {
+      "text": "uh that growing concern without any",
+      "start": 2877.52,
+      "duration": 5.12
+    },
+    {
+      "text": "guard rail to point to that's official",
+      "start": 2879.72,
+      "duration": 6.2
+    },
+    {
+      "text": "uh that so leads to inefficiencies down",
+      "start": 2882.64,
+      "duration": 6.12
+    },
+    {
+      "text": "Bel line so then taking a step back with",
+      "start": 2885.92,
+      "duration": 4.28
+    },
+    {
+      "text": "all of the things that we talked about",
+      "start": 2888.76,
+      "duration": 3.48
+    },
+    {
+      "text": "in mind like how do you see the space",
+      "start": 2890.2,
+      "duration": 5.24
+    },
+    {
+      "text": "evolving how I see this pce evolving",
+      "start": 2892.24,
+      "duration": 5.8
+    },
+    {
+      "text": "is there are certain",
+      "start": 2895.44,
+      "duration": 5.159
+    },
+    {
+      "text": "industries that are ahead of the game",
+      "start": 2898.04,
+      "duration": 4.64
+    },
+    {
+      "text": "when it comes to responsible data",
+      "start": 2900.599,
+      "duration": 5.48
+    },
+    {
+      "text": "practices and have already embedded them",
+      "start": 2902.68,
+      "duration": 5.72
+    },
+    {
+      "text": "within their data practices for over a",
+      "start": 2906.079,
+      "duration": 5.641
+    },
+    {
+      "text": "decade now uh and there are other",
+      "start": 2908.4,
+      "duration": 5.12
+    },
+    {
+      "text": "industries that are just catching up",
+      "start": 2911.72,
+      "duration": 5.44
+    },
+    {
+      "text": "when it comes to unstructured data and I",
+      "start": 2913.52,
+      "duration": 4.799
+    },
+    {
+      "text": "think there's going to be a lot of",
+      "start": 2917.16,
+      "duration": 3.48
+    },
+    {
+      "text": "cross-pollination uh once folks start",
+      "start": 2918.319,
+      "duration": 4.361
+    },
+    {
+      "text": "catching up uh what I'm seeing with",
+      "start": 2920.64,
+      "duration": 5.64
+    },
+    {
+      "text": "regards to uh larger Enterprise is that",
+      "start": 2922.68,
+      "duration": 5.12
+    },
+    {
+      "text": "the most the ones that have already been",
+      "start": 2926.28,
+      "duration": 3.279
+    },
+    {
+      "text": "thinking about AI for a while are now",
+      "start": 2927.8,
+      "duration": 3.559
+    },
+    {
+      "text": "starting to think about the guard rails",
+      "start": 2929.559,
+      "duration": 3.0
+    },
+    {
+      "text": "the ones who are just starting to",
+      "start": 2931.359,
+      "duration": 5.681
+    },
+    {
+      "text": "integrate AI are um not doing",
+      "start": 2932.559,
+      "duration": 7.961
+    },
+    {
+      "text": "necessarily trust ethics privacy by",
+      "start": 2937.04,
+      "duration": 6.0
+    },
+    {
+      "text": "Design they're waiting to find out what",
+      "start": 2940.52,
+      "duration": 4.599
+    },
+    {
+      "text": "they're going to be doing with AI first",
+      "start": 2943.04,
+      "duration": 3.2
+    },
+    {
+      "text": "and then they're thinking about what",
+      "start": 2945.119,
+      "duration": 3.281
+    },
+    {
+      "text": "they're going to be doing with uh the",
+      "start": 2946.24,
+      "duration": 4.2
+    },
+    {
+      "text": "Privacy aspect of things or the the",
+      "start": 2948.4,
+      "duration": 5.0
+    },
+    {
+      "text": "ethical aspect of things and that can be",
+      "start": 2950.44,
+      "duration": 6.6
+    },
+    {
+      "text": "quite uh problematic because you're not",
+      "start": 2953.4,
+      "duration": 5.52
+    },
+    {
+      "text": "building the pipeline that you need out",
+      "start": 2957.04,
+      "duration": 4.319
+    },
+    {
+      "text": "of the bat and so that's going to lead",
+      "start": 2958.92,
+      "duration": 6.52
+    },
+    {
+      "text": "to um you prototype prototype prototype",
+      "start": 2961.359,
+      "duration": 6.361
+    },
+    {
+      "text": "and then oh no we have to go back and",
+      "start": 2965.44,
+      "duration": 5.28
+    },
+    {
+      "text": "reconstruct everything to be able to uh",
+      "start": 2967.72,
+      "duration": 6.48
+    },
+    {
+      "text": "get this approved by uh the board uh the",
+      "start": 2970.72,
+      "duration": 5.599
+    },
+    {
+      "text": "the chief AI officer the Chief privacy",
+      "start": 2974.2,
+      "duration": 6.599
+    },
+    {
+      "text": "officer the ciso whatever um and um if",
+      "start": 2976.319,
+      "duration": 7.881
+    },
+    {
+      "text": "you start thinking about it from a this",
+      "start": 2980.799,
+      "duration": 5.241
+    },
+    {
+      "text": "is the problem that I want to solve what",
+      "start": 2984.2,
+      "duration": 3.359
+    },
+    {
+      "text": "does the pipeline look like that I need",
+      "start": 2986.04,
+      "duration": 3.92
+    },
+    {
+      "text": "to build in order to solve that problem",
+      "start": 2987.559,
+      "duration": 4.201
+    },
+    {
+      "text": "uh and then start addressing it from the",
+      "start": 2989.96,
+      "duration": 5.599
+    },
+    {
+      "text": "data aspect of things that can lead to a",
+      "start": 2991.76,
+      "duration": 6.079
+    },
+    {
+      "text": "a bigger lift on the UPF front but down",
+      "start": 2995.559,
+      "duration": 3.961
+    },
+    {
+      "text": "the line a much more efficient",
+      "start": 2997.839,
+      "duration": 3.561
+    },
+    {
+      "text": "organization uh because you don't have",
+      "start": 2999.52,
+      "duration": 4.559
+    },
+    {
+      "text": "to constantly just do Band-Aid solutions",
+      "start": 3001.4,
+      "duration": 5.8
+    },
+    {
+      "text": "to the problems yeah so data First Data",
+      "start": 3004.079,
+      "duration": 6.76
+    },
+    {
+      "text": "first that's that's I think",
+      "start": 3007.2,
+      "duration": 7.0
+    },
+    {
+      "text": "surise I feel like something at every AI",
+      "start": 3010.839,
+      "duration": 6.041
+    },
+    {
+      "text": "wave we keep",
+      "start": 3014.2,
+      "duration": 5.04
+    },
+    {
+      "text": "forgetting and we try to ignore it we",
+      "start": 3016.88,
+      "duration": 4.439
+    },
+    {
+      "text": "try to pretend that it's not GNA that we",
+      "start": 3019.24,
+      "duration": 3.72
+    },
+    {
+      "text": "don't need it anymore but it's not the",
+      "start": 3021.319,
+      "duration": 4.641
+    },
+    {
+      "text": "case",
+      "start": 3022.96,
+      "duration": 3.0
+    },
+    {
+      "text": "yeah",
+      "start": 3027.4,
+      "duration": 5.04
+    },
+    {
+      "text": "awesome well Patricia thanks so much for",
+      "start": 3029.319,
+      "duration": 5.081
+    },
+    {
+      "text": "jumping on and sharing a bit about what",
+      "start": 3032.44,
+      "duration": 4.56
+    },
+    {
+      "text": "you're working on uh very cool and",
+      "start": 3034.4,
+      "duration": 5.36
+    },
+    {
+      "text": "interesting stuff thanks so much talking",
+      "start": 3037.0,
+      "duration": 5.88
+    },
+    {
+      "text": "to you",
+      "start": 3039.76,
+      "duration": 3.12
+    },
+    {
+      "text": "[Music]",
+      "start": 3058.08,
+      "duration": 3.19
+    }
+  ]
+}

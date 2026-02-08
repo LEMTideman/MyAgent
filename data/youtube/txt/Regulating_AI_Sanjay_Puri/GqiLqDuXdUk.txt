@@ -1,0 +1,977 @@
+[Music]
+Welcome everyone. Well, I'm Baser. Thank
+you for coming. We have a fabulous
+panels, but I want to start off with
+what I thought agent AI was. I had to
+read up on it. I thought I knew and you
+know um agents making decisions
+autonomously
+and you know making calls with without
+humans.
+My first question is I'm going to start
+with Norm and go in that order. Haven't
+we haven't we been doing this? Are there
+is it a new term? But automatan was
+pretty much doing making decisions about
+humans, right? So what do you think
+about it? So I'm Norman Sadam, a
+professor at Carnegie Melon. It's a
+pleasure to be here. Thank you for
+having me on this on this panel. I work
+in um AI and human interaction uh cyber
+security, privacy and AI policy. also
+co-founded and co-direct the privacy
+engineering program at Trinity Melon
+which is considered to be the top
+program in this space and I've done a
+few other things including starting
+companies. I was the founding CEO of
+combat security technology a company
+that I sold to proof point in 2018 for
+quarter billion dollars. uh that company
+uh is helping tens of millions of
+employees around the world stay secure
+and I've done a few other things such as
+working for government at some point in
+time. not to get to your to your
+question. So, uh I've been around for a
+long time and in fact I've been working
+on AI agents for about 40 years. Uh and
+so uh this is not exactly a new concept
+but obviously what we have seen most
+recently is an acceleration in the
+capabilities of AI that has opened the
+door to all sorts of different things.
+So 40 years ago I was working on AI
+based scheduling supply chain
+management. 20 years ago, I was working
+on automated trading technologies. Over
+the past 15 years, I've been working on
+AI privacy assistance on Christianity
+that reads privacy policies
+automatically, helps you configure your
+privacy settings, AI cyber security
+assistants that help answer your cyber
+security questions, nudge you to make
+the right decisions, pay attention to
+things that you would naturally tend to
+overlook. So to not take over the whole
+panel here, u I think that the appeal of
+agents has to do with the fact that
+unfortunately
+uh brain power has not increased that
+dramatically over the past 50 years. But
+the power of computers has and will
+continue to and the same applies to AI.
+And so increasingly it's very tempting
+to say let's delegate these tasks to AI.
+And so AI agents are all about
+delegating different tasks to AI. And
+the more you delegate, presumably the
+more productive you are, the happier you
+are. Except that obviously occasionally
+these agents may not fully understand
+what you would like to do. They might
+misinterpret things. They might make
+things that you wish they didn't make.
+And uh obviously it's very easy to come
+up with all sorts of horror scenarios
+which I'm sure we're going to be talking
+about. So I'm going to stop here.
+>> Uh hi Adite Tani with uh HR Block. P of
+air platforms and I work primarily right
+now on um uh building AI systems uh
+really maybe more exploring building AI
+systems to reimagine the experience the
+services we offer but also the the
+service operations that goes into
+delivering
+um you know when I think about uh agents
+and agent existence the kind of two
+things that come to mind that we hear
+about a lot the the agency aspect of it
+and the autonomy you know the agencies
+in some ways I think over the last year
+or so we made the transition where LLMs
+went from talking to doing right that's
+to my mind the the key element of agency
+and that's you know obviously has a lot
+of value to business and we kind of look
+at how do we do that reliably
+consistently predictably something that
+Um maybe
+uh you could say we struggled with with
+LLMs generally speaking, right? The
+reliability, the consistency,
+but the the autonomy part to my mind is
+is a bit trickier from a definitional
+perspective. Um
+you know we even in people within
+organizations we talk about autonomy in
+such different tones and the to my mind
+the limited indication of autonomy I see
+right now in agentic systems is to the
+extent that we are designing systems
+uh that have made the leap from reacting
+and responding to a user to actually
+driving to an outcome pursuing an
+objective of its own. Right? So to the
+extent that if you think about a person
+talking to an agentic system, it's gone
+from just responding to what the user
+says to actually driving the
+conversation, the interaction to some
+objective. And that to my mind is a
+limited I mean but autonomy especially
+in humans when we talk about it is such
+a broad concept that I I struggle to see
+true autonomy in these systems yet. Hey
+everybody, Beth Linker. I'm the chief
+product officer at Finite State. We're a
+cyber security company helping connected
+device manufacturers keep their products
+secure. And we are using AI to do that.
+And what we're seeing as we as we build
+AI agents, as we work with organizations
+who are adopting AI agents in their
+software development process, in their
+product security process,
+is that we're we're at a really
+interesting place. and the shift from
+LLMs that could take a prompt and give
+you it's their best guess at what you
+wanted in response to LLMs that can use
+tools. So as Adita just said the
+difference between talking and doing and
+doing with tools in particular with the
+roll out of things like MCP model
+context protocol from anthropic
+we're opening up what's possible at a a
+really astonishing rate and in doing so
+we're going to find out some of the
+limitations of these things the hard way
+um As people discover
+new and innovative ways to
+attack these new tools that are that are
+operating within all of our environments
+and you know all of our our workplaces
+and so it's a it's a really I think
+exciting time to be to be working with
+agents to be figuring out how to use
+agents responsibly.
+and how to measure the behavior of
+agents in a world where everything is
+becoming less predictable, less
+deterministic.
+And you know, the way that it worked
+yesterday may not be the way that it
+works today. And so all of our
+frameworks for technology are going to
+have to stretch a little bit as as some
+of these things become more variable.
+So let's get a debate into that at some
+stage. But um let's get into trust which
+is the topic of what we're talking
+about. We're struggling to define
+agentic AI uh because some of it has
+already shown in other computer systems
+but each of us have a interesting
+definition. Uh I'm an old um enterprise
+IT person and we struggle to even find
+out how many people work for the
+company. It sounds ridiculous but we had
+to put so many systems to find out who
+work for us. are we paying the wrong
+people etc. And we finally somewhat got
+a hold of it. Reminds me of a Seinfeld
+episode where George will show up to
+some office and people thought he worked
+there and nobody knew. So my concern is
+first of all how do you do trust in this
+kind of environment. Secondly, even as a
+CIO I don't know where my agents are. I
+don't know who's deploying agents. Uh
+and I don't even have an inventory. and
+then interoperability of agents because
+I I believe it's a democratic process
+and every every person here is going to
+deploy agents and so I'm looking at it
+as how do you handle it and how do you
+build trust so first question is and I'm
+going to put it to the H&R block company
+because your whole business is on trust
+so Adita how do you how do you build
+trust within the AI systems
+>> it so you're absolutely right there
+trust is absolutely central central to
+our business. We are in the advice
+business, taxes and financial services.
+And when you kind of think about from a
+consumer perspective, they have come to
+trust the brand. They have come to trust
+the advisor that's sitting across the
+desk from them. They are implicitly
+trusting the systems that we all use in
+service delivery, but they also kind of
+trust the warranties that come with that
+service, right? So the trust is kind of
+made up of all of these elements and in
+many ways is
+earned through repeated interactions,
+you know, interaction after interaction.
+And and to my mind in many ways, if AI
+systems are going to enter this equation
+in a meaningful way, they have to play
+by the same rule of earning that trust,
+right? Interaction after interaction. Um
+so I I think people are going to trust
+systems the way they have always trusted
+systems. You know the the example I kind
+of think about is um you you know we all
+take online payments for granted now
+wasn't the case 20 years ago right a
+whole ecosystem had to evolve to build
+that trust right we have to get to the
+same place if we're going to realize
+value from this tech uh it we have to
+get to the same point from from an
+ecosystem perspective
+>> it looks like you're itching to go how
+would you build trust I was so I I was
+nodding in agreement and I I think the
+thing about trust is that it's fragile.
+So you can work really hard to build and
+maintain your customers trust as a
+business and all it takes is one really
+bad situation to make that completely
+evaporate.
+And you know I was also thinking Basque
+as you were talking about you know the
+challenges of you know it traditionally
+how many people do I have many servers
+do I have how many devices do I have and
+all of those have always been moving
+targets and how many agents do I have is
+is going to be a moving target too and
+if you look at how we've evolved from
+you know the old days when you had a
+network and everything was inside the
+perimeter and you could trust the stuff
+inside but not the stuff outside to now
+when you've got things like zero trust.
+I mean, we're going to need a zero trust
+for agents. We're going to need really
+crisp ways to articulate
+how do we identify agents? How do we
+know that they represent who they claim
+to represent? And how do we
+articulate what it is that they are or
+are not allowed to do? And I think that
+a lot of that is is still developing.
+>> Norma, I'm going to twist it. You're
+used to working with smart people. So,
+I'm going to ask you a tougher question.
+So, it's not just one agent. It's like
+an agent interacting with another agent.
+So, you could have could you have two
+good agents which oneplus 1 becomes evil
+or or not trustworthy?
+>> Well, I'm sure that you can, right? Uh
+and so, uh in a way, the problem that
+you're describing here is is not new,
+right? Uh you can have two quote unquote
+good pieces of software in the sense
+that each one of them has been tested to
+meet certain types of criteria and then
+you put them together and hoping that
+together going to do something except
+that in truth they're not quite fitting
+the profile that and the role that
+they're supposed to play within that
+scenario and all of a sudden two good
+pieces of software perhaps with AI in
+this case are no longer going to behave
+as expected. The truth is could you even
+define what a good AI is? I think that
+this is very challenging. So perhaps
+going back to the original question here
+uh you know can we really trust these
+products? Ideally would like to be able
+to we've been living in a world where uh
+we've placed our trust in a number of
+different products even before any AI
+found its way into products. Uh software
+as we know has been deployed with bugs.
+I mean uh there was a time 20 plus years
+ago when uh Microsoft was known to
+release new versions of its operating
+system with 50,000 plus bugs uh in it
+and yet we would all adopt the
+technology. What's challenging today is
+that with AI these products these
+technologies are becoming increasingly
+complex and so testing that technology
+and testing all these interactions in
+also an ecosystem where increasingly
+software builds on top of other
+software. It's not even just two agents.
+It's going to be a multitude of agents
+interacting with one another. So, how
+can you provide any sort of guarantees
+within this environment? And the quick
+answer is it's it's impossible, right?
+So, just a few days ago, Chad GPT5 was
+released, right? Uh and different people
+started to write articles about whether
+or not it's good, whether it's better,
+this and that. In truth, nobody has any
+clue. You cannot fully test this thing.
+It might look very good for a while. uh
+increasingly we're going to rely on all
+these users of the system collectively
+hopefully reporting potential problems
+and then when something bad happens
+hopefully that's going to be picked up
+very early hopefully some of these
+things would be picked up before the
+product gets released that would be the
+better scenario can we have regulations
+to help us or far can these regulations
+go I assume we're going to be talking
+about those things so don't want to pre
+preempt future your questions and I
+realize I've answered more than your
+question
+>> no good but I'm landing in somewhere
+between where bet is and you you are
+because as a as a chief information
+officer or a technology guy, I'm still
+going to be held accountable if when
+these things do something. So, I do want
+something like a zero trust, but I like
+the idea of building trust. That's how
+we build trust with humans, right? We we
+start off with no trust or or you know,
+a little trust, but then you have to
+prove that uh you're worth a trust over
+a long period of time. Maybe you need a
+combination of both is what I I think in
+when I look at critical cases zero trust
+is probably a not a bad idea. It may
+slow down progress. Uh but maybe in a
+regulated environment it can go you can
+speed up process if you can if you have
+the zero trust. I don't know. I'm
+landing somewhere in the middle.
+>> Could I potentially respond to this? So
+I I think one of the challenges that
+we're facing today is that people are
+not sophisticated enough to necessarily
+be able to make good judgments when it
+comes to deciding what they can trust
+and what they cannot trust. So yes,
+brand reputation is a big deal and we
+want to continue and people will clearly
+continue to build up their brand. But in
+truth, you know, today my car is a
+different car nearly, you know, every
+week as new software gets downloaded.
+And so perhaps it was a grand brand last
+week. still trust it this week and what
+do we need to help us as everyday
+consumers to somehow be able to trust
+these products? Uh clearly we're not
+able ourselves to do all the checking
+that needs to be done. And so what
+potential regulation or best practices
+would we want to see being adopted over
+time to make that task easier for people
+to enable people to continue to trust
+these technologies?
+>> You want to go to the next one which is
+getting a little bit harder now. Okay.
+If um let's talk about both brand and
+liability, okay? So I come to you and do
+my taxes. I don't want to get audited. I
+don't want to hear that you're using AI
+and AI screwed up or agent screwed up. I
+don't want to know about your technology
+now. I just want to make sure it works.
+So how would you who who's liable? How
+do you handle this? Can you get away by
+saying, "Sorry, Bas, I used an agent."
+And then you're going to get put into
+prison.
+No, I I think you're spot on in many
+ways when when consumers are engaging
+with brands,
+um all of these details in some ways are
+important but immaterial, right? Because
+when you think about it, um so we
+deployed an AI assistant for helping
+people who are trying to do using our
+software to do their own taxes, right?
+when we deploy it, we offer the same
+warranties to a user that uses the AI
+assistant that they used to get the day
+before the assistant was there, right?
+So, as as a company, when we deploy
+these systems, we essentially have to
+offer the same warranties. This, you
+know, we have a pro peace of mind that
+protects you against an IRS audit,
+right?
+So those all those things have to stay
+in place and we as designers and
+builders have to put together systems
+that kind of support that warranty right
+that's in some ways how we are trying to
+earn that trust right um now part of
+that also is that uh the the risk
+profile as designers is changing a lot
+right we go to market through 50,000 or
+so people advisor who are sewing our
+clients doing taxes every year and if
+you look at each one of them they may
+have a few thousand interactions client
+interactions in a year each one of them
+you deploy an AI assistant it'll you
+know in early year it had millions of
+transactions in a year right so suddenly
+you are actually creating a totally
+different kind of risk profile because
+uh as much as it is AI from a client's
+perspective, it is it has to align with
+our values with the brand voice. And I
+think the onus to to your point, the
+onus is on designers and builders to
+make sure that these systems represent
+those values and align with that with
+with what we want to stand for. Beth,
+you work with CISOs quite a bit, I would
+assume, or you know, they've been made
+the scapegoat for a period of time,
+right? And something happens, cyber
+security, ransomware, you said, "Oh, the
+CISO didn't do his job or whatever." I
+don't think somehow when you're actually
+using agents to run your business to
+increase your profitability,
+productivity, etc., I have a feeling
+that management cannot have that copout
+to just put it on a seesaw or I mean, he
+he or she is accountable. So, what is
+your perspective? who's who's
+accountable?
+>> So, it's it's interesting to me that
+when when we talk about
+AI agents making mistakes, we we often
+either implicitly or explicitly hold
+them up in comparison to humans who
+never make mistakes. Oh, wait. Oh, wait.
+That's that's not right. Um,
+you know, and it's it's interesting
+because,
+you know, if you look at a lot of
+security mistakes, a lot of security
+breaches,
+in a lot of really high-profile cases,
+the information was there, but the
+people couldn't see it because it was
+buried in so much other information.
+And so, you know, we're talking about
+bringing AI agent technology,
+which can make mistakes, to augment
+humans who also sometimes make mistakes.
+And a lot of those agents are trained
+off of human behavior, which isn't
+perfect. And so
+I think that we have to think about it
+less in terms of what if this makes a
+mistake and more in terms of what
+mitigations can you put in place for the
+inevitable mistakes that will occur. So
+Adida, you know, you were saying that
+the the number of interactions your AI
+assistant can have is so many orders of
+magnitude larger than what one person
+can do. And so sort of the blast radius
+if there's something incorrect in an AI
+assistant like that could be a lot
+bigger. So, you know, thinking about how
+do you how do you mitigate some of that?
+How do you measure it? And then at the
+end of the day, you know, as a as a
+software provider, we're making tools.
+We can train people. We can give them
+the ability to use those properly, but
+at the end of the day, they've got to
+figure out how to operate it safely
+within within their risk tolerances. And
+I think um you know, one of the things
+I've seen a lot of people I've worked
+with who've gone, "Oh, the AI made a
+mistake." And it's like, "Yeah, but your
+job was to catch it." Um, so having
+having humans in the loop and making
+sure that they're set up to be
+successful and I think um, you know,
+reviewing AI output is not necessarily a
+thing that most of us are are good at.
+You know, it's not a a skill that we've
+all had a chance to build. So, it's
+going to be really interesting to see
+how how that evolves and, you know,
+whether it's humans reviewing AI output
+or agents reviewing other agents and
+trying to get to some kind of consensus,
+which again is a thing that we've got a
+lot of established uh precedent on. I
+think that, you know, we're going to
+have to evolve how we do all that.
+Well, I I think we're we're dancing
+around uh some some core issues here and
+so perhaps it's time to mention them. Uh
+and uh I would start with with uh you
+know the need to have some kind of a a
+common framework to help organizations
+whatever their products uh
+systematically analyze uh the potential
+risk that are associated with these
+products these services. There are
+frameworks that have been developed uh
+for instance by NIST. They're not
+perfect, but they're certainly doing a a
+reasonable job at identifying the many
+different dimensions along which you
+want to think. For instance, uh the the
+the NIST AI risk management framework
+revolves around four different
+dimensions. There's a governance
+dimension which has to do with roles and
+processes and policies that you want to
+have. There is also three there are
+three other dimensions. It's called map,
+manage and measure. And that has to do
+with identifying the different types of
+risk that you might potentially open
+yourself up to with your new product or
+your new service, understanding what
+those risks are, measuring them, and
+trying to mitigate them. Now, I would
+like to add that uh so I've been
+teaching this now for a few years. I
+teach AI governance at at Carnegie
+Melon. And one of the first things I
+tell my students is I'm going to do my
+best to teach you everything we know
+today or at least a good amount of what
+we know. But I want you to realize I
+don't don't have any good solutions. And
+so I've had my students that's part of
+the the work that they do in the the
+class. I've had them analyze a number of
+different products using these
+frameworks and look for potential
+mitigations. And the sad truth is that
+there are very very few mitigations that
+are really going to enable you to say,
+"Oh wow, we got really this we really
+got this right." You've got concepts
+like red teaming. You've got algorithmic
+approaches to dealing with fairness. Uh
+you've got differential privacy. I mean,
+you've got a whole series of of
+techniques that I I teach. And each one
+of these techniques, as it turns out,
+fall short. So, I think one of the
+challenges that we need to realize is
+that we've moved into a really really
+complex environment where we clearly
+don't want to stop innovation. And I'm
+not a very strong advocate for very
+strong regulation in this space. I've
+got a very different view about privacy.
+I think GDPR is great. Not perfect, but
+I think it's much better than what we
+have in most places here in in the US.
+The EU AI act is a different story in
+that regard. I think they went a little
+too far, a little too fast, not knowing
+what they want to do. So, we want to
+move towards trying to understand best
+practices, coming up with light
+regulations that force people to
+continuously raise the bar as we get
+better techniques, better methodologies
+to deal with these many different
+threats that we got to deal with. I I
+have to agree with you. I think I get
+frustrated when I go to Europe even to
+use the internet. You know, by the time
+you click on the 100 cookies and stuff
+on your mobile phone, might as well go
+and and book the thing manually, right?
+So, we don't want to do that. That that
+is I mean, we have to use technology to
+do it smarter and not just have lawyers,
+you know, say acceptance for everyone of
+the AI. So, hope hope we don't let
+regulations um stifle innovation because
+it is fun. It seems like cool. I mean
+there's a lot of mundane things I don't
+want to do that I would love an agent to
+do. How do you do it carefully and how
+do you do it? Uh so I think that's a
+good balance to have in the perspective.
+>> Right.
+>> At some point I'd like to respond to
+that cookie issue but I uh the quick
+answer is that GDPR is not responsible
+for that and you can actually develop
+agents that will deal with that for you.
+That's the quick answer.
+No, I I think Spara in many ways um at
+least you know in my experience we are
+spending more time building tools to
+test the solution than the time that
+goes into designing the solution itself.
+Right? And in large part because you
+know you kind of have this combination
+of a stochastic system nondeterministic
+system in a in a dynamic unpredictable
+environment people can say anything when
+they talk to it right uh when you put
+that combination together uh building
+confidence and I think to my mind you
+know you talked about trusts
+before I think about consumers trusting
+a system I think about us the builders,
+people working on it having confidence
+in the system and what does it take to
+have that and with these systems you
+know the way we kind of tested that is
+no longer sufficient like it's actually
+far from sufficient right we have far
+outstripped that so now we are really
+spending a lot of time on building tools
+and frameworks for you know be red
+teaming and simulating malicious use but
+also sort of just uh uh just the diverse
+use cases of how people will engage and
+interact with the technology is so
+unpredictable in some ways because you
+know people surprise you right you
+especially when you put something as
+open-ended as it is in front of people
+how they engage and how they interact is
+can be really surprising. So but you
+know this is this is really a big part
+of what we are learning in some ways is
+how to uh how to uh build solutions and
+I I think I would kind of go back to the
+idea of we shouldn't think about these
+AI systems in isolation they are always
+going to live in an ecosystem where
+there is sort of the old school software
+the old school AI people all actually
+meaningful parts of this ecosystem and
+we have to kind of design it in a way so
+that things are kind of compensating for
+each other's gaps and and I think that's
+kind of how we build these robust
+systems. So, we have five more minutes
+before Q&A. I'm going to ask a quick
+round. As you guys were talking, I'm
+thinking, are we just making a bigger
+deal than it really is? It is. Is it
+just we've been doing testing systems,
+processes? Is this AI now? We're trying
+to invent something that doesn't exist
+because everything we described is stuff
+we've done. And by the way, AI itself,
+Norm, you reminded me, I did my thesis
+in AI a long time ago. So, it's not a
+new term. We just made it up in the last
+few years. So are we just creating
+should we just follow some of the
+guidelines that we've done before or is
+there something fundamentally different?
+Now
+>> I think there is something fundamentally
+different even though I made the case
+that agents have been around that
+concept has been around the term agentic
+by by the way is a fairly new term I was
+not using that until a few years for for
+many years but um what is new I think is
+the environment where we're deploying
+these agents the scale at which we're
+deploying these agents right so agents
+were really niche for many many years uh
+and AI was still very niche for for many
+years until maybe 15 years ago. What has
+changed now is the power of the
+technology, the the the the the
+investments that are being made in this
+technology and how quickly this is
+likely to change everything. If you
+think about these agents, they're going
+to they are today going on the web. Uh
+they can create accounts, they can, you
+know, use your credit card. Um they are
+doing all sorts of things, right, on
+your behalf. And that's the consumer
+side of things, right? Think about the
+military, right? Right. I mean, we we've
+deployed autonomous uh technology for
+defense. You know, you look at these
+amazing guns that you've got on frig uh
+to defend against incoming missiles.
+that's fully automated automated uh
+right and and uh I think the temptation
+would be to automate more and more just
+because as I mentioned at the beginning
+brain power is not really improving uh
+at the same speed as as computers and so
+it's really tempting to delegate more
+and more and so when you look at the
+power of this technology what is capable
+of doing how tempting it is to rely more
+and more on that replacing all your
+employees perhaps with with agents at
+some point which is clearly very
+tempting and we're seeing some of that
+in software development and all sorts of
+other industries. You call if you're
+staying here at the MGM Grand and you
+call the concierge or whatever it is,
+you fall on an AI today. It can be a
+little frustrating because that
+technology is not perfect. So I think
+that's not going to be the most horrific
+scenario. I can survive with that. But
+there are clearly scenarios I think
+where where the the consequences could
+be extremely extremely drastic. So I
+don't think that we're uh you know
+making this a bigger deal than it is. It
+is a huge deal with potentially asytoic
+scenarios that are absolutely horrific.
+>> And to some extent, you know, in this
+industry, everything old is new again
+every couple of years. And so there are
+definitely a lot of things where, you
+know, the threats associated with AI are
+the same ones that we had when we put
+everything on the internet. But I think
+also to professor Sat's point, the the
+sort of explosive nature of the reach
+that generative AI agents have because
+of because of APIs and things like model
+context protocol where you can really
+just open things up at a a really rapid
+clip is creating
+new and
+previously unm imagine ways of taking
+advantage of users who think that, you
+know, everything is okay until they
+discover that, you know, the set of
+rules that they uh downloaded from the
+internet for their coding agent
+apparently had a bunch of stuff in it
+that wasn't supposed to be there and now
+it's deleting all their files. And you
+know there are a lot of lot of new
+attack vectors in this stuff. And I
+think that the the speed at which some
+of these can go from zero to 100 is is
+different from human error. So it's the
+same but also you I think that
+proceeding with caution from a a safety
+perspective from a regulatory
+perspective from an internal governance
+perspective makes a lot of sense. It's
+like you can't stop but you also can't
+say yeah it'll be fine we don't we don't
+really need anything for governance cuz
+that's not going to work.
+>> Okay. So we have about 7 minutes for
+questions if anybody has a question.
+>> I have a question about tort liability.
+Uh and as you mentioned that humans are
+not perfect and tort liability is based
+on the idea of a reasonable person that
+you're not liable if you act as a
+reasonable person under those
+circumstances. And yet when we talk
+about electronic um you know
+self-driving cars and the Tesla and the
+recent cases where they've been found
+liable, we've not held that same
+standard. At least doesn't seem that
+way. I was curious to see where you see
+a liability going forward and where that
+standard may be.
+I'm not a lawyer, but the the way I look
+at it is if uh if the uh self-driving
+card puts me in a wrong place or puts me
+in a dangerous situation, I'm going to
+hold the the the company accountable.
+I'm I'm not going to give it a pass
+because it's a software agent. At the
+same time, it is true that humans make a
+lot of mistakes. Sometimes I like
+driving this autonomous car. It seems to
+be safer to me and I don't have to have
+a conversation. So that's a call that
+you would make, right? So it seems safer
+to me somehow. But I would hold not
+knowing what the law is, I'm probably
+going to say I'm going to call the CEO
+of the board and say, "What the hell is
+going on?" That's my call. So I'm not a
+lawyer either. Uh but uh and leaving
+aside the the the car crashes and and
+the other uh really uh horrible uh
+things that AI could be responsible for
+in some form or another. I'd like to
+point out there are lots of other
+scenarios where tort might be more
+difficult uh to prove uh today. Uh just
+think about communication that will be
+taking place between agents. Think about
+information that be that will be shared
+by these agents about different people.
+The inferences that might be made based
+on that information. uh people might get
+denied health insurance uh life
+insurance uh mortgages and all sorts of
+other things and tracing that back to a
+particular technology will prove very
+very difficult. This is one reason why I
+think there is a need for people to more
+carefully document their products and
+people will not do this out of their own
+benevolence. I think companies will need
+to be told that there there is an
+expectation of minimal documentation,
+minimal testing so that you can trace
+this back to someone uh because those
+consequences even though they're not as
+bad as directly killing someone in a car
+crash can still be extremely dramatic
+and I believe even though I'm not a
+lawyer that our laws right now are not
+necessarily sufficient when it comes to
+that. Quick question in this way. Uh I
+know putting laws like what uh EU AI act
+has created learning and all kinds of
+everything disclosures versus completely
+freedom of not doing it. Is there a
+between place that where human in the
+loop is mandated even with the most
+sophisticated agentic system if humans
+are put in in a certain place not just
+by company's own doing or their own risk
+tolerance but as a mandate what do you
+think about that kind of a way to govern
+this and where would that go I just want
+to get perspective
+>> does anybody you have a point of view
+adita or
+>> you know
+maybe a bit of a contrarian point of
+view uh you know as a as a designer and
+builder I couldn't think of
+how do you get
+uh responsible AI or responsible system
+of any kind is to build responsibly
+right I think what you're asking is is
+that enough can we trust people to just
+do the right thing and no I think that
+you're right in the end uh social
+systems institutions governmental
+systems are all designed around checks
+and balances, right?
+Yes to the right thing and yes, somebody
+is verifying that you're doing the right
+thing. I suspect that we are all going
+to navigate and find that equilibrium in
+this space. It's still new and evolving
+very fast and we'll struggle to keep up
+with it, but we'll find it. I suppose
+>> I'm not sure that your interpretation of
+the EU AI act is entirely accurate. Uh
+but going back to some of the scenarios
+I was mentioning earlier for instance
+being denied health insurance or a
+mortgage for instance there is something
+in the EU privacy law GDPR and that we
+also have here in many different states
+like California CCPA and it's the right
+for people to access their data and
+review it for potential errors. GDPR
+also has a right to object to automated
+decision making, which is basically if I
+get denied my mortgage or my health
+insurance, I have the right to request
+that a human being reviews the the
+decision in case there is a mistake. And
+I I think that's that's something that
+we need to have. That means that these
+AI systems will have to maintain again
+some traces for what they're doing, be
+able to explain their reasoning and
+engage potentially even in dialogue with
+the user. uh because at scale we may not
+be able to have a human being every time
+there's a decision that's made that you
+want to potentially object to. Would you
+agree that one of the challenges in
+validating the outputs of classical AI
+agents versus generative AI agents would
+be the non-deterministic nature of the
+outputs in the generative AI as opposed
+to the more deterministic outputs of the
+classical AI and that we don't have
+enough frameworks or models for testing
+and validating um this uh the scenario
+that that we're coming on with the
+undeterministic part of it.
+>> Yeah. Bet. Do you want to?
+>> Yeah. I mean, and I think that's a a
+great point. And if you look at software
+development,
+a lot of developers don't even have good
+automated tests for their deterministic
+code, never mind generative AI. So, you
+know, there is there is still a lot of
+maturing to do around this. And you
+know, I've seen it with my own teams
+where we've built something using, you
+know, a a commercial LLM and one week it
+was working great and then the next week
+everybody said, "Hey, you know, this
+this doesn't seem to be working as
+well." And we had really nowhere to go
+for, well, what changed and why? And
+that is probably only going to get
+harder as we go. So we're going to have
+to get creative about how we measure it
+and and manage it.
+>> All right, I think we had about the
+time. So let me just uh thank the
+panelists for fabulous discussion and
+the audience for participating. Uh my
+takeaway is uh we definitely this is
+exciting time. I don't want to put a
+downer on it. It's a fabulous thing even
+I feel like I want to get back in and do
+things. So if we tackle the trust and
+liability issues earlier and we can
+actually let the developers go faster
+and and speed up innovation rather than
+slow down. So thank you very much for
+the panelis and thank you for the crowd.
+Appreciate it. Thank you.

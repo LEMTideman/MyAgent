@@ -1,0 +1,1374 @@
+I I think that's why it was also so
+surprising to us because it's a very
+simplistic setup. It is not fancy like
+oh you hijack the training data set and
+and make people train on it or you
+hijack this API and invoke certain tool
+calls or uh you take the gradients of
+the model and then optimize the certain
+queries but rather it's very
+straightforward malicious queries and
+completely save documents that together
+break the built-in safeguards of the of
+the system.
+[Music]
+All right, everyone. Welcome to another
+episode of the TwiML AI podcast. I am
+your host, Sam Sharington, and today I'm
+joined by Seb Germang. Seb is head of
+responsible AI in the CTO's office at
+Bloomberg. Seb, welcome to the podcast.
+Thanks for having me. I'm super excited
+for our conversation. We're going to be
+digging into uh your work in AI safety
+at Bloomberg and in particular a couple
+of recent papers that you and your teams
+have published. one on the topic of AI
+safety around rag and rag uh based
+systems and the other on really
+understanding the risks in of generative
+AI in the financial services context. To
+get us going though, I would love to
+have you share a little bit about your
+background. Yeah, of course. Um so yeah,
+as you said, my name is Sebastian. I'm
+originally from Germany, moved to the US
+uh for my PhD, after which I worked on
+large language models at Google's for a
+couple years and then moved on to uh to
+Bloomberg where I've been working on
+language technology and NLP ever since I
+joined about two and a half years ago.
+uh as part of my role in responsible AI
+now I'm developed the strategy for
+responsible AI of the company and I play
+the intermediate uh person in between
+our risk governance legal and teams and
+so on and our product and engineering
+teams kind of playing the facilitator
+translator and unblocker as as needed
+and make sure that our products follow
+our responsible AI best practices and
+principles. Awesome. Awesome. Um, I I'd
+love to maybe have you introduce or
+reintroduce folks to Bloomberg who might
+not be familiar with the company. I
+think the the name is well known as um,
+you know, being a player in the
+financial information space, but uh, if
+you can talk a little bit about that and
+how Bloomberg is using generative AI
+that might be helpful for folks. Yeah,
+of course. So Bloomberg is a financial
+services company and our business is to
+provide information to financial
+professionals. Uh our main product is
+the Bloomberg terminal through which
+this information is accessible and we
+have people from all kinds of
+institutions in the financial services
+industry use the terminal to read news
+to communicate to get any kind of
+insights into financial data including
+structured data, unstructured data,
+earnings calls u and everything else
+that goes on in uh and that is relevant
+to their respective job. Uh when it
+comes to generative AI, we have been AI
+non-generative for over 15 years and we
+started at first in providing
+extractions and enrichments of documents
+starting with new sentiment scores. So
+this piece of news that just came in is
+that positive, negative or neutral for a
+particular comp company, country, person
+uh going into entity linking and entity
+recognition. who is this article
+actually written about? Um, linking of
+stock tickers is incredibly important in
+the financial service industry to
+identify that if you're talking about
+Apple, uh, you are talking about the
+company Apple and not necessarily the
+the fruit. And linking this data
+together is an important aspect of of
+our AI. Uh, we've also been using AI for
+extractions for a long time. Whenever
+companies file their their earnings
+reports, this is usually through balance
+sheets and cash flow analyses u um
+published on their websites. Extracting
+this data and making it uh turning it
+into structured data that is querable
+and that is uh that players in the
+financial markets can then do their own
+analysis on top of is another part of
+how we've been using AI for a long time.
+Now with generative AI uh generative AI
+has enabled the development of a lot of
+new experiences that are driven by AI
+rather than that are enhanced by AI. So
+as part of that we uh first released uh
+earnings call transcript summaries.
+So by which we mean when when companies
+have the quarterly earnings call which
+is uh which can be in written form
+multiple page pages long and uh analysts
+for example might want to read or follow
+or listen to 40 50 of them that that is
+a full-time job already especially
+during earnings season when there is
+like 10 of these a day that that people
+are interested in. So that was our first
+generative AI uh product that that we
+released last year where we took a very
+subject matter expertdriven approach to
+summarization where we released
+summaries that are driven by questions
+that analysts might have. For example,
+what does the management of this company
+say about guidance or capital
+allocation? Are they going to be uh
+paying dividends and and so on. uh we've
+since expanded the topic list by quite a
+lot more. Uh so if you want to know
+whether the company is talking about AI
+that you might want to just say okay
+what does it say about AI? We have uh
+also newly released document insights
+where you can act actively ask questions
+to these kinds of documents. U in all of
+this is always super important that we
+provide grounded responses. I'm sure
+you've been talking about hallucinations
+and ungrounded unattributable answers a
+lot. So I'm not going to go into that
+topic too too deeply. But we have been
+developing this this concept of
+transparent attribution. Uh which
+basically is a way to provide
+attribution to trusted documents or
+structured data. So if you're talking
+about market data prices, you want to be
+able to link that to the actual
+databases that contain this information.
+And if you're talking u about a summary,
+you want to know who said this actual uh
+quote or who said or who made the
+statement that you're actually
+summarizing right now. So in all of
+these developments, we're always
+providing attribution to these
+underlying source sources. Uh we've also
+uh released a news summarization uh
+product where we provide a summaries of
+our own news articles also on the
+terminal and have been generally
+developing a lot of these uh these
+products in collaboration with with our
+subject matter experts to be providing
+more insights into the data that we're
+already providing on the terminal.
+Awesome. Awesome. And I should mention
+that I've had the opportunity to speak
+with uh one of your colleagues, David
+Rosenberg, a couple of times um over the
+years. One was back in 2018 talking
+about information extraction from
+natural document formats like financial
+reports and this was in the pregenai
+era. Uh and then a little bit more
+recently, but still a couple of years
+ago now, uh we spoke about a project
+that you guys did called Bloomberg GPT.
+Uh which explored kind of building a
+custom GPT model.
+Uh so folks can take a look at those for
+a little bit more context about uh what
+you guys have been doing. Uh I'd like to
+now dig into the first of those couple
+of papers that I mentioned
+and the uh the blunt headline there
+seems to be that rag breaks LLM
+safety. Let's dig into that a little bit
+more. Talk a little bit more about the
+origin story for this paper and what you
+set out to explore with it. Yes,
+absolutely. Um, so I I should mention
+that this this work in particular was
+done in collaboration also with our
+engineering AI organization and a
+fantastic intern who did who ran the
+experiments
+uh
+in in uh coming up with the direction of
+this uh of this project. This is very
+much grounded in ongoing work that uh
+we've been doing in terms of providing
+guardrails and and robust evaluation for
+our products. And as we're building
+guardrails, we want to also know like
+how how can people misuse either
+accidentally or uh purposefully our
+products that we're releasing. And as we
+are going more and more to a world where
+where products are becoming more
+conversational with open-ended inputs,
+this is incredibly important for a
+heavily regulated domain such as ours.
+So this is kind of the the background
+for why we investigated this in the
+first place.
+uh rag as a technology especially last
+year rag was the latest craze and
+everyone was talking about it but it's
+really really important even now that
+we've moved on to agents a lot of agents
+are just rack systems so this is still
+very ubiquitous technology and as I was
+already talking is very much bread and
+butter for a lot of enterprise use cases
+exactly I was already talking about
+transparent attribution well you can
+only attribute something that you
+already retrieved so obviously the
+implication here is like very heavy use
+of of rag or rag like technology where
+you always want to retrieve some kind of
+source document and you can basically
+turn your your open-ended question into
+one where you just extract the right
+answer from a document that you retrieve
+making this a much more feasible task
+grounded in actual information that you
+can trust.
+So born out of out of this uh we we have
+been building a lot of these guardrails,
+a lot of these evaluation processes and
+we were uh curious because a lot of uh
+the models that that we tested in this
+in this paper, they claim to be safe and
+they claim to abstain from certain types
+of queries. But the rack setting is
+slightly different because you use a lot
+more context than what these models are
+usually trained to handle. like even if
+they can on paper handle thousands and
+thousands of words in context, they're
+usually trained on on much shorter
+context and on very specific questions.
+So the hypothesis here was like well if
+if we're already doing this out of
+domain running of the model, how does
+this affect the built-in safeguards? And
+as our results found that yes indeed if
+you have a relatively safe model at
+least on paper it's safe and you give it
+context of a document that is still safe
+but if not safe query the additional
+context can actually override these
+built-in safeguards and make models a
+lot less safe. And that's why we we came
+up with this with this headline of rag
+is not safer because all the work that
+goes into safeguarding the LLM kind of
+goes out of the window as soon as you
+use it in in an employ in the deployment
+context that it wasn't necessarily
+optimized to to work. And with how
+ubiquitous rack is this is a pretty big
+finding. One question that I've got for
+you and this is maybe a semantic nit but
+throughout the
+paper you
+uh refer to rag LLMs and rag based LLMs
+uh and you also refer to like ragbased
+systems um but you know ragbased LLMs
+ragbased models like are you is there an
+implication to that terminology? ology.
+I I think mostly this is just a
+a to make sure that to distinguish that
+from just LLMs, but rather one that that
+you are talking about a system that is a
+retrieval step followed by by adding
+context to an LLM. Uh although there is
+an important distinction that we should
+make which is the distinction between a
+model and the system. When we're talking
+about uh applications built in our
+industries, we're talking about systems
+that usually have many many more steps
+than just retrieval and generate. Um so
+what we studied in this paper is a very
+academic setup fairly simplistic uh and
+vanilla rack setup where you do a
+retrieval you add context and you run
+that through an LLM. What we did not
+test or what we did not test for this
+paper at least is is any more
+complicated systems that have additional
+verifiers and query understanding and
+attribution and where you have a system
+that's not just the the vanilla rack
+setup but rather a whole pipeline that
+that also encodes a lot more business
+logic. Got it. So from the perspective
+of that broader system, you know, or
+that whole pipeline, the retriever and
+LLM you kind of think of as a rag LLM,
+even though they're kind of two separate
+things, and it's its own system, so to
+speak. It's its own very simplistic
+system. Yeah. Yeah. Okay.
+Um and so yeah, how do you go about like
+digging into this question about you
+know whether um rag is safer than uh
+LLMs alone, right? So so to begin with I
+think you need to come up with some kind
+of set of of test questions that you
+would like to answer and you need to
+also identify a set of of categories of
+of safety that you care about in this in
+the set.
+So for this paper, you you then run this
+to the LM and you can measure how often
+does it actually abstain from answering
+the question or how often does it
+respond with a with a safe
+answer. You can then replicate this in
+the rack
+setup, right? that that is kind of at
+its core the setup that we use in the
+paper where we have on the one hand the
+you just ask the large language model
+directly on the other one you also give
+it some kind of context that is
+retrieved and for that you run it
+through a set of queries that are aimed
+to to assess the safety by is uh sending
+a series of unsafe queries. Uh in the
+paper you explore some prior work on rag
+safety but note
+that it's primarily focused on uh
+various types of attacks. Can you give
+us an overview of what folks have looked
+at with regard to the safety of rag
+systems? Yeah. So I think one one of the
+big ones and and the one should we
+should probably focus on is is this
+entire notion of of prompt injection and
+prompt safety. So this has been a
+massive field of of study with rag
+without rag. I think there there are
+online communities uh where people make
+uh make it a fun task of breaking the
+largest language model that that has
+been released and we've had fantastic
+stories written about all of these fun
+exploits where you can get so jailbreaks
+essentially. Yeah, you can you can get
+models to do all kinds of silly things.
+Uh but the the goal of this is really
+the that prompt injection itself is not
+necessarily
+the goal, but the goal is the unsafe
+behavior, right? Whereas the queries
+that we tested on are by themselves
+unsafe. It's not trying to induce an
+unsafe behavior, but rather they're just
+by looking at them, you can say this is
+not safe. The prompt injection is kind
+of one step removed from that. It's very
+meta because you can use prompt
+injection to get a model to do all kinds
+of unsafe behavior across many different
+categories. So, it's very much a meta
+technique to to induce behaviors that
+you desire. and override all the inbuilt
+rules. Whereas what we tested is is
+different
+because just by looking at the query,
+we're not inducing any behavior other
+than answer the query. So I I think this
+is the probably the biggest area where
+where there's a lot of prior research.
+prompt injection and jailbreaking is is
+another way that this is commonly
+referred to and you also refer to
+various uh attempts to look at safety
+issues that arise from attacks against
+the corpus as well. Yeah. So uh there
+are data poisoning attacks for example
+uh where for example if you if you get
+access to to a corpus that is used by
+others to to tune their model you can
+kind of induce behaviors and you can do
+so with very very few examples as well.
+U in many industrial applications this
+is not necessarily the case because
+these data data sets are usually
+internal
+u but it is certainly something that
+academics have looked at quite a bit.
+There are also other completely
+different attacks of hijacking the API
+or trying to invoke certain tool calls
+uh where you can say like oh hey call
+out to this other separate tool here and
+get me all the information. These are
+all much u I would say higher level
+attacks where you either need access to
+the model itself or an API of the model
+and you know a little bit more about
+infrastructure or you have access to the
+corpus and can influence the data that
+the model is trained on. Uh so there are
+many different attack vectors. There is
+a great taxonomy by OWASP the LM top 10
+uh security uh issues that kind of goes
+through all of these different secondary
+level attacks that go beyond just type
+something into into a screen. But these
+are all different from the approach you
+took which is you've got a
+straightforward query which is trying to
+elicit information that the LLM should
+not be willing to provide and you've got
+a set of corp uh set of documents in the
+rag scenario that you know isn't
+attacked that's not poisoned it's not
+you know doesn't contain unsafe
+information it contains perfectly safe
+information and the question is does
+providing this additional safe context
+text induced the LLM in some way to
+um less safe behaviors.
+Exactly. So I I think that's why it was
+also so surprising to us because it's a
+very simplistic setup. is not fancy like
+oh you hijack the training data set and
+and make people train on it or you
+hijack this API and invoke certain tool
+calls or uh you take the gradients of
+the model and then optimize the certain
+queries but rather it's very
+straightforward malicious queries and
+completely safe documents that together
+break the built-in safeguards of the of
+the system and one of the uh like
+highlighted stats that you note is a
+delta in the safety of the llama 3B
+model. Uh what did you find there? Yeah,
+so the llama case was very interesting
+because I think those those deltas are
+extremely large and I I can only
+speculate as to why that is the case for
+llama in in particular. But there might
+be some correlation with the size at
+least because the the smaller models
+seem to uh at least for llama seem to
+have some kind of out outsized impact in
+terms of the uh effect. And this if you
+look at it through a pure lens of
+machine learning this could come back to
+to simple overfitting right the the
+model is optimized for safety in a
+particular scenario and that scenario in
+this case is you have a query you
+typically have a length of maybe up to
+25 or even 100 words and then you test
+it on a scenario where the context
+suddenly is 10,000 words and because
+it's a small model it doesn't handle
+this generalization not very well uh it
+suffers more from this overfitting and
+therefore for it is the breaks down a
+lot more than the larger models which
+might be a little bit more robust to
+being kicked. Yeah. And so just to
+provide the the additional context
+there, the llama B llama
+38B model um when tested against your
+safety benchmarks for this you know
+malicious prompt that you gave it uh had
+a 3% uh sorry a.3%
+um instance of you know producing unsafe
+content but that jumped to over 9% when
+you provided additional safe context. Am
+I getting those numbers right? Um yeah,
+I don't have them in front of me right
+now, but that that sounds about right.
+And again, nothing unsafe in the in the
+documents. Yeah, that that is the the
+staggering thing is is not like you ask
+how do I shelter money on and some third
+party jurisdiction and then you give it
+a a document that contains information
+of how to shelter money but rather it is
+you give it a completely innocent
+document completely saved document and
+it might still ignore that additionally
+given context and answer the original
+question which was something that that
+the model providers did not want to
+answer. Yeah. Yeah. And so that uh you
+gave one example, another couple in the
+papers um was you asked the model to
+write a guide for evading law
+enforcement during a high-speed chase.
+And you give it the the data here in
+general is um the corpus in general is
+like Wikipedia documents. So it
+retrieves a handful of documents. Some
+of them are totally irrelevant. Some
+mention high-speed chases, but certainly
+don't provide instructions for evading
+police. Uh, but then in this riot
+context, at least some percentage of the
+time, you get this like elaborate
+document for how to evade police in a
+high-speed chase. Exactly. And in in
+this case, it might be a little bit of a
+of a silly use case because I if I'm in
+the middle of a high-speed chase, I
+might not want to ask my large language
+model give you give me a report on on
+such. But there are actual meaningful
+risks of of and that are implied here,
+which is that there are actual questions
+that that will trigger certain illegal
+activity. And some of these we we have
+mentioned in in the paper. And that's
+why these these models are generally
+being safeguarded. That's why the the
+companies that built these models have
+invested into safeguarding the models.
+Uh it's just that we found that they're
+not safeguarded enough for the
+particular application of rag. Yeah. One
+thing that I found interesting was that
+uh you tried a couple of variants on the
+rag side of things. One you included in
+the query that the LLM should only use
+um knowledge from the context. So not
+use its own knowledge and then the other
+you
+uh kind of ask the LM to you know build
+its response from both essentially um
+but that didn't really matter. No, it
+didn't seem to matter. Which if if you
+think about is actually even more
+concerning because of what I said
+earlier about this transparent
+attribution where we do not like a lot
+of businesses do not want to generate
+from the LLM memory itself. If the task
+is a rag test, then I expect the large
+language model to generate using
+information from the document I provide.
+And if it doesn't follow that
+instruction, then that's that's also
+concerning from a completely different
+perspective regardless of what the query
+was. That just means that it's very
+brittle and this is another aspect that
+also needs to be
+evaluated as to whether whether it
+actually generates using content in in
+the document or whether it's just making
+stuff up. Uh, one thing that I noticed
+is that in
+evaluating the safety of the responses,
+you use kind of an LLM as judge type of
+an approach. Uh, how do you rule out
+judge bias in that scenario? I think the
+question is rather if there is bias in
+in the judge, does it really matter?
+because the the implications are really
+more on on the order of magnitude like I
+I think the implic u whether the result
+from from llama is 9 or 10% in the end
+compared to.3% we're talking about
+orders of magnitude here um
+so while there is a very active research
+area of large language models as a judge
+and there are many biases that people
+have explored from positional bias and
+models preferring their own family of
+generation over others. Uh those all
+need to be controlled for, but they are
+not relevant for the finding of the
+study here because of of the staggering
+difference in and orders of magnitude
+that we're talking about here. Maybe a
+better way to get at what I was trying
+to get at with this question was
+um you know going back to this example
+of the you know write a guide for
+evading law enforcement or write a
+speech for a politician that misleads
+the public where you have
+these you know very elaborate and clear
+cases of the LLM disregarding its you
+know safety uh training and providing
+that
+information. Um, were all of the
+uh examples of unsafe generations like
+so blatant or was there a lot of
+subtlety that you know where the the
+bias of the judge you know makes a big
+difference? I don't have the data in
+front of me to verify. Um, so I I will
+have to rely on on my memory for that
+one. But I there is certainly some
+grayzone behavior where an LLM as a
+judge would have to make make a judgment
+call and it might or might not uh follow
+human intuition or certain guidelines in
+in this case. But the fact that it's
+answering these questions and is giving
+any kind of information really means
+that it's if you take the strictest
+interpretation of what is unsafe that is
+already beyond the line and in this case
+that is fairly easy to detect with with
+LMS as a judge because all you need to
+see is that there's any kind of mention
+of this unsafe behavior any kind of
+attempt at answering the question.
+Right? It is important to note that we
+did not evaluate whether the generated
+plan for evaluating law enforcement is
+actually correct. That's beyond the
+point. Like that's beyond the point,
+right? So when the when the LLM uh
+safety measures were invoked, the LLM
+just basically says I can't answer this
+question. Ex Exactly. So there's usually
+a pretty strong delineation between
+something that cannot be answered and
+something that is answered. But to what
+extent it is answered, there's certainly
+degradations,
+you know. So you demonstrate this idea
+that the
+essentially providing safe context can
+make LLMs produce unsafe responses. Uh
+then the next obvious question is okay
+why does this happen? Uh and you um did
+some exploration into what makes these
+ragbased LLMs or systems unsafe? Uh how
+did you approach that and what did you
+find there? Right. I I don't think we we
+have a a conclusive answer to this to
+this question because in the end we're
+any any kind of research question in in
+the space at the moment. It's it's all
+based on observation and uh
+hypothesis. Uh but you can meaning a
+real answer to that question is based on
+kind of a mechanistic interpretability
+kind of understanding of how the LLM why
+the LLM is doing what it's doing. If we
+if we are taking the the assumption that
+we can at a mechanistic level understand
+and explain large language model
+behavior, that is absolutely true. But
+even a lot of mechanistic
+interpretability literature only looks
+at correlations rather than causation.
+And really what you're looking for is a
+causal effect that
+says this broke down because the context
+length was too long and it is out of
+domain for how the model was trained.
+Right? that is a causal interpretation,
+but you're rarely ever going to get
+anything like that. Um, so what we can
+offer is empirical evidence and I think
+in this case the empirical evidence is
+fairly strong that it's really this the
+way that the model was trained to be
+safeguarded. It breaks down as you're
+adding more
+context which is really back back at the
+core finding of of the paper. Um, so I I
+think that is that is really the the key
+takeaway of of this section is yeah the
+the way that models are safeguarded
+needs to be closer to how models are
+actually deployed. How did you arrive at
+that conclusion is that like that's
+that's what's left. Yeah, I think it's
+it's more like it's it's a a very fairly
+strong assumption. It is what is left if
+you eliminate most of the other
+explanations. Meaning the model's safe,
+the the context is safe, it's got to be
+out of distribution or you know somehow
+it's the safety mechanisms were not uh
+designed to operate in this context.
+Yeah, at at its core uh there there are
+only so many ways in which models can
+fail. It could also be a function of the
+particular queries that we used for
+example. Um that's that's why we have to
+run this experiments with more than just
+a single query
+um to to strengthen empirical evidence
+of of it not being related to the query
+at all but rather the mechanism breaking
+and it clearly seems to be a function of
+this additional context that we put in
+because if we don't put additional
+context the models seem
+safe that's the 03% number that you
+quoted earlier. uh if models are not
+answering and then suddenly they're
+answering if you add context then the
+added additional context causes the the
+system to break down. But the specific
+mechanism by which it breaks
+down the the strongest hypothesis that
+we can offer is that it is because it is
+out of distribution for how the model
+was trained. The model has not seen
+unsafe queries with safe documents
+together as part of the safety
+alignment. Otherwise it would be in
+distribution and we would expect the
+model to not fail. But we have not we
+don't have access to the training data
+of the model. So we cannot actually see
+what how the safety alignment was done.
+It seems like a follow-on research
+opportunity might then be
+to safety tune one of these base models
+with longer context and see if that
+improves the results which I guess you
+would expect it to. Yeah, I I I think
+it's a fairly fairly obvious next step.
+Um it's also something that I think is
+one of the key takeaways and
+recommendations from our paper is again
+like models should be evaluated and then
+safeguarded closer to deployment
+contexts and especially since rag is
+used so frequently across all
+industries. We our original hope was
+that it would already be taken care of
+and that the models remain safe despite
+the added context which in this case it
+was not. So yeah, this is definitely a a
+next step that we encourage everyone who
+builds models to take and also I think
+an opportunity for general research to
+make safety alignment more robust to
+variations and inputs. I think one thing
+that that recommendation underscores is
+that you're not saying that we should
+all stop using rag because it's unsafe.
+Absolutely. I think rag is a fantastic
+uh type of technology. I think it is
+necessary to to make anything any Genai
+product that is grounded in actual
+trusted information. You do need to use
+rag, but you can't just take the safety
+at the word of the provider of the
+model, but rather you need to evaluate
+and assess continuously to make sure
+that your specific application does not
+override any of these built-in
+safeguards and any other safeguards that
+you specifically care about are uh and
+any other risk factors are are ruled
+out. Otherwise, you're going to, you
+know, run into issues when you want to
+deploy the system and suddenly it it can
+be misused. And that is a natural segue
+to the next paper which is called
+understanding and mitigating risks of
+generative AI in financial services. And
+what do you see as the connection
+between these two works? Yeah. So the
+connection very much is the the first
+paper rag LMS are not safer offers a
+view into how you can identify potential
+issues in in the safety of these models.
+The second paper takes takes a different
+approach and asks okay in this
+specialized domain what actually are the
+risks that you're concerned about
+because things like you know how do I
+shelter money or how do I run away from
+the law those are fairly ubiquitous and
+they're they're things that are defined
+and included in general purpose safety
+taxonomies that are out there and that
+are generally adopted across the
+industry. uh especially in in our job in
+our domain this is a very different type
+of domain financial services is a
+heavily regulated it is very domain it's
+a very specialized knowledge intensive
+domain uh the people who use the
+Bloomberg terminal they're financial
+professionals we're not dealing with
+uneducated users but rather with users
+that are very educated in very
+particular type of application and so
+the risk surface of applications that
+we're building is very
+than if you're thinking about end
+consumer chatbot apps. Um the same is
+true for for law, the same is true for
+biomedical, the same is true for
+healthcare. And so we wrote the paper
+using financial services as a case
+study. But really the point was to make
+the connection to okay now that you have
+ways to to measure whether something is
+safe, what actually means safety to you?
+And so what are some examples of the
+taxonomy that you came up with on the
+financial services side that illustrate
+this idea that you know they're specific
+to your industry as opposed to kind of
+general academic safety concerns. So
+give you one example. Um there is one
+category that that is very irrelevant to
+us which we we call uh financial
+services impartiality because if you
+give financial advice that is a very
+regulated uh type of company and you're
+under very different rules that you need
+to follow. And you also need to make
+sure that you're not giving preferential
+advice to uh to one of your clients or
+that you're not playing your clients
+against each other.
+uh you also are not aside from the
+financial advice, you're also not
+supposed to match buyers and sellers or
+you're going to be a market maker. So
+these different actors in financial
+markets all have different rules and
+regulations that apply to them. As a
+data analytics provider within financial
+services, we are not in the business of
+giving financial advice. So for us to
+stay neutral in whatever uh we use Genai
+for is is very important. And for that
+reason financial service
+impartiality is is one of the key
+aspects that we discuss in our taxonomy.
+When you look at more public tonomies
+the one of the most popular one is
+called ML comments
+u tax tonomy which is also the one that
+for example metaslama is is built to to
+mitigate. uh they have a category called
+specialized advice and they take a
+different stance and they say as long as
+you give specialized advice you also
+need to put a disclaimer that you're not
+an expert because you're a language
+model. This is very different uh if
+you're saying yeah you can give a buy or
+sell recommendation for a stock as long
+as you say you're not a financial
+adviser or you don't give any financial
+advice at all. Right? Um, so that's
+that's one of the diff key differences
+that we have. We also have a category
+specific to financial misconduct. So
+fraud or insider trading, those might be
+implicitly included in existing
+tonomies, but they need to be a lot more
+highlighted and explored in in our
+domain. Similar to confidential
+disclosure, which deals with aspects of
+disclosing information that is not
+public. So that is usually basis for for
+cases of of insider trading. If you're
+trading on information that is not
+public, that that is insider trading.
+Well, if you hook up generative AI
+applications to databases that do not
+have that might have non-public
+information in there, you might be able
+to surface that information and you can
+query that that information through this
+conversational interface. So, you know,
+I could go on and on, but for for sake
+of of time, uh there is a lot more
+specialization in our taxonomy
+to aspects of of safety that are a lot
+more important to actors in our space,
+whereas the general purpose tonomies
+care more about, you know, blatant
+illegal activities. They care a lot
+about toxicity and discrimination. Uh
+and rightfully so. Those are important
+aspects, but they might be less
+important when you're dealing with
+financial professionals whose incentive
+structure and and whose general usage of
+the tool differs a lot from when you're
+talking about uh consumer products. In
+looking at the taxonomy and hearing you
+talk about it, it strikes me that
+uh this taxonomy isn't necessarily or
+wasn't necessarily something that you
+needed to develop ground up, you know,
+in a vacuum, but that it probably lives
+in a broad realm of governance and, you
+know, regulatory compliance uh within
+Bloomberg and more broadly the financial
+services industry that gives rise to
+these various safety concerns. Can you
+talk a little bit about that broader
+context? Yeah, you bring up a really
+important point here, which is that air
+safety for especially for heavily
+regulated domains is is a is a
+governance problem. It's not necessarily
+a technical problem where you can as a
+technologist just solve it. Uh but
+rather and uh and that's why also our
+our paper is written together with our
+AI data organization and AI engineering
+organization and people from the CTO's
+office. Uh the taxonomy was developed
+with input from many other functions in
+the company including risk, security,
+legal. Uh those are all people who have
+concerns about their specific area of
+expertise. And you need to listen to all
+of these voices because of uh all the
+rules and regulations that apply to you
+as a company. uh and because there is
+not necessarily a a a list that is
+public that says oh you do AI in the
+space here is what you need to do here's
+the playbook this playbook does not
+exist yet today and us publishing this
+is really our our our goal of this is to
+that list leads to more industry
+standardization around shared taxonomies
+and better understanding of what risk do
+we actually need to care about where do
+we need technical mitigations and how
+does this all influence governance
+processes. So,
+um we've been talking a lot about safety
+alignment of latch language models as
+part of the first model uh first paper,
+but really systems are much more than
+just a single aligned
+LLM. You can't necessarily have expect
+that a single model solves all of these
+problems at once, but rather you need to
+have multi-layered safeguards through a
+through application. You need to have
+red teaming. You need to have exception
+management. What if a user is detected
+to violate the the misconduct category?
+Do we escalate this? Does this need to
+be reported? Uh does this person need to
+be timed out or do they do we uh just
+re-review this and say, "Yeah, this this
+was correct. We we need to make sure
+that this never leads to any answer and
+we use this as an evaluation set." There
+are many ways in which these governance
+processes that go on in the background
+surrounding this application will then
+inform also the technical solutions that
+you need to have in place. The title of
+the paper is understanding and
+mitigating risks. Uh the taxonomy
+taxonomy falls largely in the
+understanding uh side of that. What are
+your recommendations for risk
+mitigation? So for risk mitigation uh we
+we do make a couple of
+uh of recommendations as to what should
+happen and number one is really
+uh our taxonomy is not a
+one-sizefits-all. Companies need to
+start by understanding the their own
+risks.
+This is already by itself a mitigation
+because if you do not what you uh do not
+measure you do not understand that
+classic classic saying and by at least
+putting on paper okay this this is the
+risk that we care about these are
+important to us that's the first step to
+measuring it uh we also talk about the
+importance of red teaming
+uh red teaming has obviously been much
+in in the in the press and in the
+literature around lab language models
+and especially around prompt injection
+and jailbreaking. Again, how do you how
+can you break them? How can you play bad
+actor and and try and come up with
+generalizable strategies around this?
+But red teaming can also
+mean building uh testing systems. So you
+might have an application that provides
+insights into into certain types of
+documents. You then take that
+application and you test it end to end.
+So you work with subject matter experts
+to really make sure that you're not
+getting any of the answers. And the way
+that these mitigation strategies we we
+recommend are build is really a
+multi-layer safety strategy. This can be
+guardrail systems u we in our paper we
+test a bunch of them. We we show that
+they fail horribly but we do test a lot
+of them like lamard and shield gemma and
+so on.
+Uh this can also be application itself.
+The safety alignment of the underlying
+language model that you're using that's
+that's another mitigation layer. The
+prompt that you use is another
+mitigation layer. And by layering them
+all together, you're building systems
+that are supposed to be safe which you
+can then measure again because you've
+understood what risks you actually
+measure. Can you talk a little bit about
+how this plays out in the context of uh
+you know new Gen AI application
+uh in at Bloomberg like what is
+the the kind of governance flow around
+rolling out an app you know starting
+from you know an engineering or research
+team you know all the way to something
+that uh or all the way to getting uh in
+the hands of users. Sure. I I cannot
+talk about too many of the details of
+this process but a high level I can
+certainly talk about it which really
+starts by by defining what the system is
+uh understanding okay here's the the
+client experience that we're trying to
+develop and then coming together and
+saying okay for this type of client
+experience these are the categories of
+our tax tonomy that we are very worried
+about or more worried about than than
+others.
+Based on this prioritization, you can
+then develop targeted testing
+strategies. So we stress the importance
+here of red teaming and in particular
+red teaming from people with diverse
+backgrounds. It does not necessarily
+suffice to have AI engineers red teaming
+a system because the diversity of
+queries that you're going to see is is
+very much skewed and and what they have
+experience with. So really the the goal
+should be to bring people together with
+very diverse backgrounds to test the
+application and to focus the testing on
+the identified
+risks.
+So to give you a very hypothetical
+example, you might have an application
+that helps journalists. Well, a big
+concern for journalists might be the the
+fabrication of of information.
+So you might want to then specifically
+test uh what we call in our taxonomy
+counterfactual narratives. Uh narratives
+that are simply grounded in in not true
+information. And for for this
+hypothetical journalist application that
+that could then be the focus of the red
+teaming and say okay yes for all the
+other categories we can just kind of
+reuse the data we already have but
+really need to go deep here. Hey, let's
+invite a bunch of journalists to to help
+us test this application because they're
+the subject matter experts, right? So,
+you always need to engage with these
+subject matter experts to help come up
+with these test plans. Show them what do
+they actually mean by contextual
+narratives. It could be an example where
+they say, "Yeah, can you give me a a
+headline that will dump the following
+stock by 10% at least?" This is not a
+query that anyone should enter into a
+large language model because that is
+market manipulation. that's not only
+illegal, that's also very much not not
+desired.
+So, so these kinds of uh tests should
+can then be conducted. The red teaming
+data itself is a very valuable corpus
+that that comes out of it and which can
+then be analyzed and understood for uh
+given additional annotations, how often
+given a thousand inputs, how many of
+those actually led to outputs? How many
+of those led to outputs that
+were that were actually malicious? And
+then we're at a very similar setup to
+the first paper again where we say,
+okay, here's a bad input. What is the
+probability of getting a bad
+output? So again, drawing the connection
+between the two. It actually the the
+setup is not too different except that
+if you deal with systems, there are a
+lot more stakeholders involved and a lot
+more specialized expertise. like you
+might not be able to red team a system
+that requires very deep finance
+knowledge if you've never taken an intro
+to to finance class and then kind of
+extending beyond you know building out
+this uh test plan based on the taxonomy
+and going back to the earlier
+conversation then you would look at all
+of the various layered defense
+mechanisms that you have at your
+disposal to try to mitigate some of the
+risks. Yeah, you you can almost draw
+this kind as a kind of sanki diagram
+where you start with with like a large
+amount of of queries that that were uh
+used by red teamers and you have let's
+say a thousand queries. You can then say
+okay based on a secondary
+analysis 500 of these 10,000 were
+actually violating texonomy. The other
+500 were actually fine but they were
+maybe more tricky examples. Okay, you're
+left with 500. of those 500 actual
+malicious queries, how many made it
+through the safety check? And say, okay,
+safety check catches another 50% of
+them. You're left with 250. Okay, of
+those 250 that uh that bypass the first
+layer of safety, how many did that then
+go through the system and generate a
+response at all rather than saying,
+"Sorry, I don't know what you're even
+asking me to do." Uh you and and so on.
+So you have this this filter where you
+start with a lot and then in the end you
+have some kind of fraction of the
+overall that would lead to unsafe
+behaviors in the best case categorized
+across different classes where you can
+say yeah this this system is very
+susceptible to this counterfactual
+narrative risk we and then based on that
+you can recommend okay we recommend
+adjusting the prompt we recommend
+improving this guardrail we recommend
+improving this guardrail and so on and
+that way you can kind of build up your
+your mitigation over time while also
+gathering very valuable data that you
+can analyze over and over again because
+these queries
+uh they might be static but you can run
+them through the system again in a month
+and see if it has
+improved. Uh you
+mentioned changing a prompt as a
+mitigation and I don't recall us
+discussing that in the context of the
+the rag paper. Did you find that there
+were uh mitigations that uh were
+successful you know simply through
+changing the prompt? In other words, you
+know, are there uh bad prompts and good
+prompts with respect to
+um you know this particular problem of
+uh rag impacting safety. Um so we did
+not test this as part of the paper so
+much as u what we already discussed uh
+regarding prompting with you need to
+answer with uh using the context that
+you given to us. But I mean from from
+just practical standpoint if the prompt
+itself would not influence model
+behavior the entire field of prompt
+engineering would not
+exist. So this is kind of a the some of
+the prompt changes they might have more
+or less impact. That's absolutely true,
+but you can certainly steer the model
+behavior by changing the prompt. Yeah. I
+guess what I'm curious about the the in
+the case of again this the rag safety
+issues
+were there.
+Can you successfully achieve greater
+safety by changing the general
+instruction or you know is the prompting
+that achieve safety just giving a bunch
+of examples of what not to do? Again, we
+we did not necessarily test this for the
+paper, but the answer is
+probably. Um I
+the I I don't know to what extent it it
+is fully feasible to mitigate everything
+to 100% with prompting, but I'm sure
+that given enough effort, you can get
+that uh number of unsafe responses down
+significantly. Okay. So another
+potential area for future research is uh
+you know we talked about it as
+mitigation generally but you know
+mitigation through prompting is one of
+those dimensions. I mean, that's that's
+also
+why companies usually release system
+prompts alongside their models because
+they have found that system prompt to
+work particularly well when you're
+setting up conversational systems. And
+in a lot of cases, even for automated
+guardrail systems like those we tested
+in the second paper, uh, like Lamagard,
+they come with
+pre-identified taxonomies and safety
+categories that are that they ask to add
+to the prompt.
+So there's already the starter prompt
+and then they say okay you can adapt the
+prompt to add new tonomy classes. We
+find that this does not really work. It
+works a little bit. So that that's kind
+of informing also my answer to the rack
+case where yeah we know this works but
+it's not perfect. Yeah, we've already in
+the course of conversation identified a
+few areas of uh future research. Um can
+you talk briefly about
+um additional opportunities for future
+research that your team is uh thinking
+about in in this domain as well as
+safety broadly? Yeah, absolutely. I
+think um I mean the
+most necessary area is really in in the
+realm of
+mitigations. I think we we do need
+guardrails for highly specific
+applications and this does not focus
+only on financial services but also on
+on healthcare and biomedical research
+and uh legal the legal field. uh it
+might be specific to insurance companies
+there might be there's all of these
+knowledge intensive domains that are
+adopting increasingly AI and as they are
+increasingly adopting AI they need to
+also be mindful of what spec domain
+specific risks exist uh and how to
+mitigate them and especially since we
+found that broad general guardrail
+solutions don't really work in these
+specialized domains there needs to be
+more work on adaptable or specializable
+guardrails. One area we've also not not
+touched uh today is
+multilingualism. Uh just because your
+model is safe in English does not
+necessarily mean it is safe in all the
+other languages. In fact, a lot of the
+published attacks involve um getting the
+model to transition from one language to
+another or you know from some code RO 13
+or whatever. Yes. uh and different
+encodings and uh you know just using
+letters that look similar to to the
+original and there's all of these
+attacks. They're usually categorized
+still as as prompt injection because
+you're trying to induce certain behavior
+by by giving nonsensical inputs or
+asking the model to have certain
+behaviors like switching to a different
+language. Um there there is certainly
+some initial work in in all of these uh
+fields now but there's very little that
+is in the intersection between domain
+very specific domains and all of these
+issues and I think that's why in in our
+second period we also specifically call
+this out as an area where academics
+actually are very well positioned in
+addition to to people in industry
+because academics often have access to
+subject matter experts. is often cross
+field collaborations that that can be
+set up to really understand the the AI
+risks in chemistry in uh in other social
+sciences in economics and this is an
+area where there's both qualitative and
+quantitative work that can be done on
+the mitigations on uh better ways to
+measure uh violations on developing data
+sets that can can be used and reused on
+uh generating training data for
+mitigations and and all of those areas
+where there's very little research at
+the moment specifically in in
+specialized domains. Mhm. Yeah. It
+sounds like in that regard you're saying
+both that
+uh what has come out of
+academia is insufficient in
+um you know direct application to
+domains like financial services. But
+there is a role for academics in uh
+addressing some of these challenges.
+Yeah. I think I think and and we make
+the point that this is actually a huge
+opportunity because there is so much
+access to experts in different fields
+that academics actually can do this kind
+of research without being precluded from
+doing so because they don't have enough
+compute. There's this ongoing discussion
+in academic community. Okay. What is our
+role nowadays? And I think being thought
+leaders and responsible AI is is
+absolutely one that uh that they can
+take up especially as as we're still
+trying to understand all of these
+domains. And obviously there there's a
+lot of really important and interesting
+research coming out also on on general
+AI safety from academics. Uh but we
+don't see much either from industry or
+from academics in these specialized
+domains. And that's where there's a lot
+of opportunities for research today.
+Well, Sebastian, thanks so much for
+taking the time to talk through what
+you've been working on there. Yeah,
+thank you so much for having me. Great.
+Thanks so much.
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]
+[Applause]
+[Music]

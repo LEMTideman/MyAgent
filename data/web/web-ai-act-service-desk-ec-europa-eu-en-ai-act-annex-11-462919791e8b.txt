@@ -1,0 +1,49 @@
+```markdown
+# Annex XI
+
+## Section 1: Information to be provided by all providers of general-purpose AI models
+
+The technical documentation referred to in [Article 53(1)](/en/ai-act/article-53), point (a) shall contain at least the following information as appropriate to the size and risk profile of the model:
+
+### Point (a)
+- A general description of the general-purpose AI model including:
+  - the tasks that the model is intended to perform and the type and nature of AI systems in which it can be integrated;
+  - the acceptable use policies applicable;
+  - the date of release and methods of distribution;
+  - the architecture and number of parameters;
+  - the modality (e.g., text, image) and format of inputs and outputs;
+  - the licence.
+
+### Point (b)
+- A detailed description of the elements of the model referred to in point 1, and relevant information of the process for the development, including:
+  - the technical means (e.g., instructions of use, infrastructure, tools) required for the general-purpose AI model to be integrated in AI systems;
+  - the design specifications of the model and training process, including training methodologies and techniques, the key design choices including the rationale and assumptions made; what the model is designed to optimise for and the relevance of the different parameters, as applicable;
+  - information on the data used for training, testing, and validation, where applicable, including types and provenance of data and curative methodologies (e.g., cleaning, filtering);
+  - computational resources used to train the model (e.g., number of floating-point operations), training time, and other relevant details related to training;
+  - known or estimated energy consumption of the model.
+
+With regard to point (e), where energy consumption is unknown:
+- Energy consumption may be based on information about computational resources used.
+
+### Point (c)
+- Additional information regarding:
+  - evaluation strategies, including evaluation results on available public evaluation protocols and tools or otherwise using other evaluation methodologies. Evaluation strategies should include evaluation criteria, metrics, and methodology for identifying limitations.
+  - Where applicable:
+    - detailed description of measures put in place for internal and/or external adversarial testing (red teaming).
+    - Model adaptations including alignment and fine-tuning.
+    - System architecture explaining how software components build or feed into each other and integrate into overall processing.
+
+## Section 2: Additional information to be provided by providers of general-purpose AI models with systemic risk
+
+### Point (a)
+- A detailed description of evaluation strategies including evaluation results on available public evaluation protocols and tools or otherwise using other evaluation methodologies. Evaluation strategies should include evaluation criteria, metrics, methodology for identifying limitations.
+
+### Point (b)
+- Where applicable:
+  - Detailed description of measures put in place for internal and/or external adversarial testing (e.g., red teaming).
+  - Model adaptations including alignment and fine-tuning.
+
+### Point (c)
+- Where applicable:
+  - Detailed description of system architecture explaining how software components build or feed into each other and integrate into overall processing.
+```

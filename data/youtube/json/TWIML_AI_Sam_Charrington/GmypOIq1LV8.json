@@ -1,0 +1,5693 @@
+{
+  "source": "youtube",
+  "channel": "TWIML_AI_Sam_Charrington",
+  "playlist_title": "The TWIML AI Podcast (formerly This Week in Machine Learning & Artificial Intelligence)",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLILZm3MRkvH83C46bZ4rPmB-jKWBltWkP",
+  "playlist_id": "PLILZm3MRkvH83C46bZ4rPmB-jKWBltWkP",
+  "video_id": "GmypOIq1LV8",
+  "video_title": "Assessing the Risks of Open AI Models with Sayash Kapoor - 675",
+  "video_url": "https://www.youtube.com/watch?v=GmypOIq1LV8",
+  "fetched_at": "2025-12-29T08:44:28.592260+00:00",
+  "transcript": [
+    {
+      "text": "when it comes to AI safety openness is",
+      "start": 0.08,
+      "duration": 4.36
+    },
+    {
+      "text": "not the poison it's the antidote the",
+      "start": 2.48,
+      "duration": 4.799
+    },
+    {
+      "text": "alternative is that Ai and Foundation",
+      "start": 4.44,
+      "duration": 4.8
+    },
+    {
+      "text": "models more generally or built just by a",
+      "start": 7.279,
+      "duration": 3.641
+    },
+    {
+      "text": "small handful of companies who are",
+      "start": 9.24,
+      "duration": 3.6
+    },
+    {
+      "text": "licensed to create these models I don't",
+      "start": 10.92,
+      "duration": 3.56
+    },
+    {
+      "text": "think it leads to necessarily safer",
+      "start": 12.84,
+      "duration": 3.48
+    },
+    {
+      "text": "outcomes because it stops all of this",
+      "start": 14.48,
+      "duration": 3.879
+    },
+    {
+      "text": "crucial Safety Research there is going",
+      "start": 16.32,
+      "duration": 6.039
+    },
+    {
+      "text": "to be a time when the dam would",
+      "start": 18.359,
+      "duration": 4.0
+    },
+    {
+      "text": "break all right everyone welcome to",
+      "start": 23.32,
+      "duration": 4.68
+    },
+    {
+      "text": "another episode of the twiml AI podcast",
+      "start": 25.68,
+      "duration": 4.439
+    },
+    {
+      "text": "I am your host Sam charington",
+      "start": 28.0,
+      "duration": 4.48
+    },
+    {
+      "text": "today I'm joined by Sayes kapor Sayes is",
+      "start": 30.119,
+      "duration": 4.321
+    },
+    {
+      "text": "a PhD candidate in the department of",
+      "start": 32.48,
+      "duration": 4.079
+    },
+    {
+      "text": "computer science as well as a researcher",
+      "start": 34.44,
+      "duration": 4.119
+    },
+    {
+      "text": "in the center for information technology",
+      "start": 36.559,
+      "duration": 5.121
+    },
+    {
+      "text": "policy at Princeton University before we",
+      "start": 38.559,
+      "duration": 4.601
+    },
+    {
+      "text": "get going be sure to take a moment to",
+      "start": 41.68,
+      "duration": 3.28
+    },
+    {
+      "text": "hit that subscribe button wherever",
+      "start": 43.16,
+      "duration": 4.16
+    },
+    {
+      "text": "you're listening to Today's Show Sayes",
+      "start": 44.96,
+      "duration": 4.4
+    },
+    {
+      "text": "welcome to the podcast thank you so much",
+      "start": 47.32,
+      "duration": 4.68
+    },
+    {
+      "text": "for having me I'm really excited to dig",
+      "start": 49.36,
+      "duration": 4.48
+    },
+    {
+      "text": "into our conversation we'll be talking",
+      "start": 52.0,
+      "duration": 4.84
+    },
+    {
+      "text": "about a paper you recently published on",
+      "start": 53.84,
+      "duration": 5.239
+    },
+    {
+      "text": "the societal impact of open foundation",
+      "start": 56.84,
+      "duration": 4.32
+    },
+    {
+      "text": "models before before we do I'd love to",
+      "start": 59.079,
+      "duration": 3.96
+    },
+    {
+      "text": "have you share a little bit about your",
+      "start": 61.16,
+      "duration": 3.999
+    },
+    {
+      "text": "background and how you came to work in",
+      "start": 63.039,
+      "duration": 4.041
+    },
+    {
+      "text": "the field so my background is in",
+      "start": 65.159,
+      "duration": 3.881
+    },
+    {
+      "text": "computer science and I started off my",
+      "start": 67.08,
+      "duration": 3.84
+    },
+    {
+      "text": "research career working in theoretical",
+      "start": 69.04,
+      "duration": 4.64
+    },
+    {
+      "text": "machine learning um from there I sort of",
+      "start": 70.92,
+      "duration": 5.36
+    },
+    {
+      "text": "quickly pivoted to like investigating",
+      "start": 73.68,
+      "duration": 4.759
+    },
+    {
+      "text": "fairness and machine learning algorithms",
+      "start": 76.28,
+      "duration": 3.839
+    },
+    {
+      "text": "and then more broadly to the societal",
+      "start": 78.439,
+      "duration": 5.0
+    },
+    {
+      "text": "impact of AI um over the course of This",
+      "start": 80.119,
+      "duration": 5.121
+    },
+    {
+      "text": "research career I've worked at a few",
+      "start": 83.439,
+      "duration": 3.521
+    },
+    {
+      "text": "different institutions I worked at IIT",
+      "start": 85.24,
+      "duration": 4.64
+    },
+    {
+      "text": "coner for my undergrad um then did",
+      "start": 86.96,
+      "duration": 4.72
+    },
+    {
+      "text": "research stins at Columbia University",
+      "start": 89.88,
+      "duration": 4.239
+    },
+    {
+      "text": "and epfl in Switzerland I worked at meta",
+      "start": 91.68,
+      "duration": 4.52
+    },
+    {
+      "text": "for two years in their um Community",
+      "start": 94.119,
+      "duration": 4.121
+    },
+    {
+      "text": "Integrity team building machine learning",
+      "start": 96.2,
+      "duration": 3.44
+    },
+    {
+      "text": "in order to Cur some of the harms that",
+      "start": 98.24,
+      "duration": 3.36
+    },
+    {
+      "text": "you're talking about um and then I began",
+      "start": 99.64,
+      "duration": 4.28
+    },
+    {
+      "text": "my PhD at Princeton University with",
+      "start": 101.6,
+      "duration": 5.28
+    },
+    {
+      "text": "regards to this paper it's it's",
+      "start": 103.92,
+      "duration": 5.559
+    },
+    {
+      "text": "interesting timing I think uh at least",
+      "start": 106.88,
+      "duration": 4.879
+    },
+    {
+      "text": "in the context of the podcast we",
+      "start": 109.479,
+      "duration": 5.24
+    },
+    {
+      "text": "recently published an interview on Almo",
+      "start": 111.759,
+      "duration": 4.96
+    },
+    {
+      "text": "uh which as you all know and mentioned",
+      "start": 114.719,
+      "duration": 5.121
+    },
+    {
+      "text": "in the paper is a an open model that is",
+      "start": 116.719,
+      "duration": 5.44
+    },
+    {
+      "text": "is really uh seeking to promotee",
+      "start": 119.84,
+      "duration": 6.04
+    },
+    {
+      "text": "openness strongly uh and it the the",
+      "start": 122.159,
+      "duration": 7.481
+    },
+    {
+      "text": "paper also reminds me that when gpt2",
+      "start": 125.88,
+      "duration": 8.439
+    },
+    {
+      "text": "came out uh we held a big debate uh as a",
+      "start": 129.64,
+      "duration": 7.56
+    },
+    {
+      "text": "kind of a webcast on the you know there",
+      "start": 134.319,
+      "duration": 4.681
+    },
+    {
+      "text": "was the the big issue being raised at",
+      "start": 137.2,
+      "duration": 4.44
+    },
+    {
+      "text": "the time on whether open AI should make",
+      "start": 139.0,
+      "duration": 5.519
+    },
+    {
+      "text": "this available should it be uh should it",
+      "start": 141.64,
+      "duration": 5.64
+    },
+    {
+      "text": "be closed uh and should there be very",
+      "start": 144.519,
+      "duration": 5.601
+    },
+    {
+      "text": "limited access to it uh you know since",
+      "start": 147.28,
+      "duration": 6.12
+    },
+    {
+      "text": "come a long way and uh models like you",
+      "start": 150.12,
+      "duration": 5.199
+    },
+    {
+      "text": "know much more powerful than gp2 are",
+      "start": 153.4,
+      "duration": 2.88
+    },
+    {
+      "text": "readily",
+      "start": 155.319,
+      "duration": 5.121
+    },
+    {
+      "text": "available um and what this paper seeks",
+      "start": 156.28,
+      "duration": 8.679
+    },
+    {
+      "text": "to do is to uh really ask the question",
+      "start": 160.44,
+      "duration": 6.799
+    },
+    {
+      "text": "or a set of questions around you know",
+      "start": 164.959,
+      "duration": 4.681
+    },
+    {
+      "text": "that fundamental openness that is you",
+      "start": 167.239,
+      "duration": 5.0
+    },
+    {
+      "text": "know still to to a significant degree",
+      "start": 169.64,
+      "duration": 6.519
+    },
+    {
+      "text": "open to debate um and so I'm excited",
+      "start": 172.239,
+      "duration": 6.041
+    },
+    {
+      "text": "again to dig into that I'd love to start",
+      "start": 176.159,
+      "duration": 3.641
+    },
+    {
+      "text": "by having you share a little bit about",
+      "start": 178.28,
+      "duration": 4.28
+    },
+    {
+      "text": "about your motivations for the paper and",
+      "start": 179.8,
+      "duration": 5.84
+    },
+    {
+      "text": "how it came about so I guess the main",
+      "start": 182.56,
+      "duration": 5.679
+    },
+    {
+      "text": "impetus for the paper was we were in all",
+      "start": 185.64,
+      "duration": 4.08
+    },
+    {
+      "text": "of these conversations where we were",
+      "start": 188.239,
+      "duration": 3.041
+    },
+    {
+      "text": "talking about the benefits of openness",
+      "start": 189.72,
+      "duration": 3.56
+    },
+    {
+      "text": "on the one hand and then in other",
+      "start": 191.28,
+      "duration": 3.519
+    },
+    {
+      "text": "separate conversations when we were",
+      "start": 193.28,
+      "duration": 4.0
+    },
+    {
+      "text": "diving into the risks of openness um and",
+      "start": 194.799,
+      "duration": 4.041
+    },
+    {
+      "text": "in particular there was a lot of",
+      "start": 197.28,
+      "duration": 3.599
+    },
+    {
+      "text": "attention to papers that claimed these",
+      "start": 198.84,
+      "duration": 4.24
+    },
+    {
+      "text": "catastrophic risks from language models",
+      "start": 200.879,
+      "duration": 3.481
+    },
+    {
+      "text": "so there were a couple of studies that",
+      "start": 203.08,
+      "duration": 3.28
+    },
+    {
+      "text": "came out of MIT last year that pointed",
+      "start": 204.36,
+      "duration": 4.799
+    },
+    {
+      "text": "to the biocurity risks that having",
+      "start": 206.36,
+      "duration": 5.0
+    },
+    {
+      "text": "access to open language model could",
+      "start": 209.159,
+      "duration": 4.36
+    },
+    {
+      "text": "allow um malicious uses to create",
+      "start": 211.36,
+      "duration": 4.32
+    },
+    {
+      "text": "bioweapons so I think in the midst of",
+      "start": 213.519,
+      "duration": 4.201
+    },
+    {
+      "text": "all of these conversations one thing",
+      "start": 215.68,
+      "duration": 4.199
+    },
+    {
+      "text": "that stood out was just the lack of a",
+      "start": 217.72,
+      "duration": 3.879
+    },
+    {
+      "text": "common ground when it came to even",
+      "start": 219.879,
+      "duration": 4.321
+    },
+    {
+      "text": "talking about these risks so what is",
+      "start": 221.599,
+      "duration": 4.321
+    },
+    {
+      "text": "this sort of risk we're talking about",
+      "start": 224.2,
+      "duration": 3.239
+    },
+    {
+      "text": "what is it being compared to is it",
+      "start": 225.92,
+      "duration": 3.599
+    },
+    {
+      "text": "compared to like the risk of you know",
+      "start": 227.439,
+      "duration": 3.281
+    },
+    {
+      "text": "someone finding out how to create a",
+      "start": 229.519,
+      "duration": 3.44
+    },
+    {
+      "text": "bioweapon on the internet um and if so",
+      "start": 230.72,
+      "duration": 5.0
+    },
+    {
+      "text": "how do we go about conducting these risk",
+      "start": 232.959,
+      "duration": 6.2
+    },
+    {
+      "text": "assessments and so in this sort of um",
+      "start": 235.72,
+      "duration": 6.64
+    },
+    {
+      "text": "almost fractured debate um all of us",
+      "start": 239.159,
+      "duration": 4.64
+    },
+    {
+      "text": "like me and rishy and some of the other",
+      "start": 242.36,
+      "duration": 3.4
+    },
+    {
+      "text": "authors felt that it was necessary to",
+      "start": 243.799,
+      "duration": 4.28
+    },
+    {
+      "text": "come up with a framework that first",
+      "start": 245.76,
+      "duration": 4.16
+    },
+    {
+      "text": "removes a lot of the misconceptions",
+      "start": 248.079,
+      "duration": 4.8
+    },
+    {
+      "text": "about openness and what risks it enables",
+      "start": 249.92,
+      "duration": 5.039
+    },
+    {
+      "text": "and second it also opens the floor for",
+      "start": 252.879,
+      "duration": 4.04
+    },
+    {
+      "text": "more constructive debate going forward",
+      "start": 254.959,
+      "duration": 4.0
+    },
+    {
+      "text": "on what the risks are and how we should",
+      "start": 256.919,
+      "duration": 3.921
+    },
+    {
+      "text": "sort of um band together and",
+      "start": 258.959,
+      "duration": 4.001
+    },
+    {
+      "text": "collectively address these risks one of",
+      "start": 260.84,
+      "duration": 4.48
+    },
+    {
+      "text": "the things that struck me about the",
+      "start": 262.96,
+      "duration": 6.72
+    },
+    {
+      "text": "paper is the diversity of of authors",
+      "start": 265.32,
+      "duration": 7.84
+    },
+    {
+      "text": "that are named in the paper um folks",
+      "start": 269.68,
+      "duration": 5.56
+    },
+    {
+      "text": "that you know several folks have been uh",
+      "start": 273.16,
+      "duration": 4.44
+    },
+    {
+      "text": "interviewed on the podcast before from a",
+      "start": 275.24,
+      "duration": 5.799
+    },
+    {
+      "text": "variety of organizations academic and",
+      "start": 277.6,
+      "duration": 4.2
+    },
+    {
+      "text": "and",
+      "start": 281.039,
+      "duration": 2.72
+    },
+    {
+      "text": "non-academic I'd love to have you share",
+      "start": 281.8,
+      "duration": 4.28
+    },
+    {
+      "text": "a little bit about how that came about",
+      "start": 283.759,
+      "duration": 4.28
+    },
+    {
+      "text": "absolutely so I think the origin story",
+      "start": 286.08,
+      "duration": 4.32
+    },
+    {
+      "text": "of the paper is that uh last September",
+      "start": 288.039,
+      "duration": 5.16
+    },
+    {
+      "text": "we organized a workshop called um the",
+      "start": 290.4,
+      "duration": 4.72
+    },
+    {
+      "text": "responsible and open foundation model",
+      "start": 293.199,
+      "duration": 4.361
+    },
+    {
+      "text": "Workshop so this was a joint effort by",
+      "start": 295.12,
+      "duration": 4.519
+    },
+    {
+      "text": "Princeton and Stanford and as a part of",
+      "start": 297.56,
+      "duration": 3.6
+    },
+    {
+      "text": "of that we really brought together like",
+      "start": 299.639,
+      "duration": 4.521
+    },
+    {
+      "text": "a wide range of perspectives but all of",
+      "start": 301.16,
+      "duration": 4.52
+    },
+    {
+      "text": "these had one thing in common they",
+      "start": 304.16,
+      "duration": 2.96
+    },
+    {
+      "text": "thought deeply about the impact of",
+      "start": 305.68,
+      "duration": 3.72
+    },
+    {
+      "text": "openness on society so we looked at",
+      "start": 307.12,
+      "duration": 3.96
+    },
+    {
+      "text": "perspectives from the industry from",
+      "start": 309.4,
+      "duration": 3.44
+    },
+    {
+      "text": "Academia from Civil Society",
+      "start": 311.08,
+      "duration": 3.8
+    },
+    {
+      "text": "organizations and following that",
+      "start": 312.84,
+      "duration": 4.12
+    },
+    {
+      "text": "Workshop it became clear that there is a",
+      "start": 314.88,
+      "duration": 4.599
+    },
+    {
+      "text": "need to sort of write something more",
+      "start": 316.96,
+      "duration": 5.799
+    },
+    {
+      "text": "cohesive about the impacts of openness",
+      "start": 319.479,
+      "duration": 5.801
+    },
+    {
+      "text": "and it really became clear that a lot of",
+      "start": 322.759,
+      "duration": 4.041
+    },
+    {
+      "text": "the evidence that we were sort of",
+      "start": 325.28,
+      "duration": 4.6
+    },
+    {
+      "text": "talking about was not um well",
+      "start": 326.8,
+      "duration": 5.76
+    },
+    {
+      "text": "substantiated or a lot of the claims um",
+      "start": 329.88,
+      "duration": 5.319
+    },
+    {
+      "text": "did not really have the bar for",
+      "start": 332.56,
+      "duration": 4.0
+    },
+    {
+      "text": "empirical evidence that we would have",
+      "start": 335.199,
+      "duration": 4.081
+    },
+    {
+      "text": "liked and so really like in some sense",
+      "start": 336.56,
+      "duration": 4.88
+    },
+    {
+      "text": "the paper is a followup to that Workshop",
+      "start": 339.28,
+      "duration": 3.96
+    },
+    {
+      "text": "wherein a lot of these experts came",
+      "start": 341.44,
+      "duration": 3.72
+    },
+    {
+      "text": "together and tried to set some common",
+      "start": 343.24,
+      "duration": 5.04
+    },
+    {
+      "text": "ground for um how we should discuss the",
+      "start": 345.16,
+      "duration": 4.92
+    },
+    {
+      "text": "merits and benefits and risks of",
+      "start": 348.28,
+      "duration": 4.639
+    },
+    {
+      "text": "openness and one sort of other type of",
+      "start": 350.08,
+      "duration": 4.8
+    },
+    {
+      "text": "organization that's sort of referenced",
+      "start": 352.919,
+      "duration": 4.801
+    },
+    {
+      "text": "in the author list um is policy makers",
+      "start": 354.88,
+      "duration": 5.36
+    },
+    {
+      "text": "so I think people who are um trying to",
+      "start": 357.72,
+      "duration": 5.919
+    },
+    {
+      "text": "influence policy or influence um how",
+      "start": 360.24,
+      "duration": 5.079
+    },
+    {
+      "text": "policy around open foundation model",
+      "start": 363.639,
+      "duration": 3.801
+    },
+    {
+      "text": "plays out in the real world um and",
+      "start": 365.319,
+      "duration": 4.521
+    },
+    {
+      "text": "that's because like apart from all of",
+      "start": 367.44,
+      "duration": 3.92
+    },
+    {
+      "text": "the debate that's happening within the",
+      "start": 369.84,
+      "duration": 3.16
+    },
+    {
+      "text": "AI Community or within the research",
+      "start": 371.36,
+      "duration": 3.679
+    },
+    {
+      "text": "Community policy makers are also very",
+      "start": 373.0,
+      "duration": 3.639
+    },
+    {
+      "text": "actively considering the question of",
+      "start": 375.039,
+      "duration": 5.081
+    },
+    {
+      "text": "openness um so we have ongoing policy",
+      "start": 376.639,
+      "duration": 6.241
+    },
+    {
+      "text": "proposals in the US the UK and the EU",
+      "start": 380.12,
+      "duration": 4.44
+    },
+    {
+      "text": "specifically looking at the impact of",
+      "start": 382.88,
+      "duration": 4.0
+    },
+    {
+      "text": "open foundation models in some cases",
+      "start": 384.56,
+      "duration": 4.44
+    },
+    {
+      "text": "it's to impose stricter barriers um such",
+      "start": 386.88,
+      "duration": 4.48
+    },
+    {
+      "text": "as in the White House Executive Order in",
+      "start": 389.0,
+      "duration": 4.4
+    },
+    {
+      "text": "others it is to provide car outs for",
+      "start": 391.36,
+      "duration": 5.279
+    },
+    {
+      "text": "example in the EU but I think having",
+      "start": 393.4,
+      "duration": 5.44
+    },
+    {
+      "text": "this framework to assess the societal",
+      "start": 396.639,
+      "duration": 4.12
+    },
+    {
+      "text": "impact of foundation models can really",
+      "start": 398.84,
+      "duration": 3.6
+    },
+    {
+      "text": "help these policy conversations as well",
+      "start": 400.759,
+      "duration": 3.88
+    },
+    {
+      "text": "so many of the people um who wrote the",
+      "start": 402.44,
+      "duration": 4.08
+    },
+    {
+      "text": "paper with us uh we were very happy to",
+      "start": 404.639,
+      "duration": 4.761
+    },
+    {
+      "text": "have the policy expertise on board one",
+      "start": 406.52,
+      "duration": 4.56
+    },
+    {
+      "text": "of the very first things you do in the",
+      "start": 409.4,
+      "duration": 4.359
+    },
+    {
+      "text": "paper is Define what you mean by an open",
+      "start": 411.08,
+      "duration": 4.48
+    },
+    {
+      "text": "foundation model and you define that in",
+      "start": 413.759,
+      "duration": 4.401
+    },
+    {
+      "text": "terms of the weights being freely",
+      "start": 415.56,
+      "duration": 5.8
+    },
+    {
+      "text": "available uh I'm curious the degree to",
+      "start": 418.16,
+      "duration": 6.039
+    },
+    {
+      "text": "which you think that very definition is",
+      "start": 421.36,
+      "duration": 6.239
+    },
+    {
+      "text": "you know contentious or has nuances or",
+      "start": 424.199,
+      "duration": 5.761
+    },
+    {
+      "text": "uh is worthy of of discussion in and of",
+      "start": 427.599,
+      "duration": 5.481
+    },
+    {
+      "text": "itself absolutely I think this is uh",
+      "start": 429.96,
+      "duration": 5.04
+    },
+    {
+      "text": "like the definition of what constitutes",
+      "start": 433.08,
+      "duration": 3.959
+    },
+    {
+      "text": "open foundation models or even",
+      "start": 435.0,
+      "duration": 4.199
+    },
+    {
+      "text": "open-source Foundation models I think is",
+      "start": 437.039,
+      "duration": 3.681
+    },
+    {
+      "text": "one of the most contentious debates that",
+      "start": 439.199,
+      "duration": 3.56
+    },
+    {
+      "text": "going that's going on today um the",
+      "start": 440.72,
+      "duration": 4.759
+    },
+    {
+      "text": "reason we chose the specific definition",
+      "start": 442.759,
+      "duration": 5.0
+    },
+    {
+      "text": "and the words we did was first we did",
+      "start": 445.479,
+      "duration": 4.12
+    },
+    {
+      "text": "not want to call these models open S",
+      "start": 447.759,
+      "duration": 3.84
+    },
+    {
+      "text": "Foundation models because open source",
+      "start": 449.599,
+      "duration": 3.681
+    },
+    {
+      "text": "implies something completely different",
+      "start": 451.599,
+      "duration": 4.561
+    },
+    {
+      "text": "about an artifact it means that the code",
+      "start": 453.28,
+      "duration": 4.599
+    },
+    {
+      "text": "and some like to some extent the data",
+      "start": 456.16,
+      "duration": 2.96
+    },
+    {
+      "text": "used to train the model is made",
+      "start": 457.879,
+      "duration": 3.081
+    },
+    {
+      "text": "available you have the documentation to",
+      "start": 459.12,
+      "duration": 3.84
+    },
+    {
+      "text": "reproduce the data there is no use",
+      "start": 460.96,
+      "duration": 5.12
+    },
+    {
+      "text": "restrictions um on the model at all um",
+      "start": 462.96,
+      "duration": 5.16
+    },
+    {
+      "text": "so that's why we deliberately chose not",
+      "start": 466.08,
+      "duration": 4.2
+    },
+    {
+      "text": "to use the word open source but rather",
+      "start": 468.12,
+      "duration": 4.96
+    },
+    {
+      "text": "just open foundation models um a second",
+      "start": 470.28,
+      "duration": 4.199
+    },
+    {
+      "text": "part of it was you might have seen the",
+      "start": 473.08,
+      "duration": 2.92
+    },
+    {
+      "text": "author list going back to that for a",
+      "start": 474.479,
+      "duration": 3.68
+    },
+    {
+      "text": "second U that the executive director of",
+      "start": 476.0,
+      "duration": 4.52
+    },
+    {
+      "text": "the open source initiative um Stefano",
+      "start": 478.159,
+      "duration": 5.521
+    },
+    {
+      "text": "mauli is also one of the authors and uh",
+      "start": 480.52,
+      "duration": 5.639
+    },
+    {
+      "text": "he is actually leading this charge of um",
+      "start": 483.68,
+      "duration": 4.84
+    },
+    {
+      "text": "the open source initiative defining what",
+      "start": 486.159,
+      "duration": 4.841
+    },
+    {
+      "text": "open source really means for AI so to",
+      "start": 488.52,
+      "duration": 4.84
+    },
+    {
+      "text": "some extent the term open source AI is",
+      "start": 491.0,
+      "duration": 4.0
+    },
+    {
+      "text": "not even well defined right now because",
+      "start": 493.36,
+      "duration": 3.04
+    },
+    {
+      "text": "the open source initiative does not",
+      "start": 495.0,
+      "duration": 3.4
+    },
+    {
+      "text": "really have a definition of that so both",
+      "start": 496.4,
+      "duration": 3.68
+    },
+    {
+      "text": "of those meant that you know open source",
+      "start": 498.4,
+      "duration": 3.84
+    },
+    {
+      "text": "is out of the window um now when it",
+      "start": 500.08,
+      "duration": 4.239
+    },
+    {
+      "text": "comes to the question of U like the",
+      "start": 502.24,
+      "duration": 5.2
+    },
+    {
+      "text": "risks and benefits of models um we chose",
+      "start": 504.319,
+      "duration": 5.641
+    },
+    {
+      "text": "to focus on model weights because that's",
+      "start": 507.44,
+      "duration": 4.319
+    },
+    {
+      "text": "where a lot of the purped risks of these",
+      "start": 509.96,
+      "duration": 4.4
+    },
+    {
+      "text": "models come from um so well for many of",
+      "start": 511.759,
+      "duration": 5.601
+    },
+    {
+      "text": "the benefits of openness you might need",
+      "start": 514.36,
+      "duration": 4.799
+    },
+    {
+      "text": "access to the code and the data and",
+      "start": 517.36,
+      "duration": 4.72
+    },
+    {
+      "text": "projects like MMO and Pia from lutheri",
+      "start": 519.159,
+      "duration": 5.481
+    },
+    {
+      "text": "um are like you know Stand Out examples",
+      "start": 522.08,
+      "duration": 4.92
+    },
+    {
+      "text": "of how how far you can take openness",
+      "start": 524.64,
+      "duration": 4.08
+    },
+    {
+      "text": "with checkpoints and model weights and",
+      "start": 527.0,
+      "duration": 4.399
+    },
+    {
+      "text": "data um I think for a lot of the risks",
+      "start": 528.72,
+      "duration": 5.119
+    },
+    {
+      "text": "all you need is access to the um model",
+      "start": 531.399,
+      "duration": 4.361
+    },
+    {
+      "text": "weights alone and I think this also",
+      "start": 533.839,
+      "duration": 4.24
+    },
+    {
+      "text": "comes through in last year's um",
+      "start": 535.76,
+      "duration": 4.4
+    },
+    {
+      "text": "executive order from the the White House",
+      "start": 538.079,
+      "duration": 4.241
+    },
+    {
+      "text": "which focuses on Foundation models with",
+      "start": 540.16,
+      "duration": 4.4
+    },
+    {
+      "text": "widely available model weights so I",
+      "start": 542.32,
+      "duration": 3.56
+    },
+    {
+      "text": "think we really wanted to hone in on",
+      "start": 544.56,
+      "duration": 3.6
+    },
+    {
+      "text": "this specific question because once the",
+      "start": 545.88,
+      "duration": 4.12
+    },
+    {
+      "text": "model weights are released to some",
+      "start": 548.16,
+      "duration": 4.48
+    },
+    {
+      "text": "extent this decision is irreversible and",
+      "start": 550.0,
+      "duration": 4.44
+    },
+    {
+      "text": "this fact about releasing the model",
+      "start": 552.64,
+      "duration": 3.8
+    },
+    {
+      "text": "weights openly has caused a lot of",
+      "start": 554.44,
+      "duration": 3.88
+    },
+    {
+      "text": "concern about releasing open foundation",
+      "start": 556.44,
+      "duration": 4.0
+    },
+    {
+      "text": "models um and so that's why we chose to",
+      "start": 558.32,
+      "duration": 4.28
+    },
+    {
+      "text": "stick with Foundation model weights that",
+      "start": 560.44,
+      "duration": 4.6
+    },
+    {
+      "text": "are widely available and with the term",
+      "start": 562.6,
+      "duration": 4.239
+    },
+    {
+      "text": "open foundation models but not open",
+      "start": 565.04,
+      "duration": 5.16
+    },
+    {
+      "text": "source Foundation models many of the",
+      "start": 566.839,
+      "duration": 4.961
+    },
+    {
+      "text": "concerns that are referenced in the",
+      "start": 570.2,
+      "duration": 4.199
+    },
+    {
+      "text": "paper are still concerns in a world",
+      "start": 571.8,
+      "duration": 5.64
+    },
+    {
+      "text": "where the weights aren't released but",
+      "start": 574.399,
+      "duration": 7.12
+    },
+    {
+      "text": "you do reference the idea that with uh",
+      "start": 577.44,
+      "duration": 5.88
+    },
+    {
+      "text": "the weights be with the models behind an",
+      "start": 581.519,
+      "duration": 5.041
+    },
+    {
+      "text": "API of sorts there can be monitoring",
+      "start": 583.32,
+      "duration": 7.079
+    },
+    {
+      "text": "there can be um the services can shut",
+      "start": 586.56,
+      "duration": 7.76
+    },
+    {
+      "text": "down particular uses that are abusive",
+      "start": 590.399,
+      "duration": 6.761
+    },
+    {
+      "text": "and uh in to some degree you kind of",
+      "start": 594.32,
+      "duration": 5.4
+    },
+    {
+      "text": "call out that once the weight out it's a",
+      "start": 597.16,
+      "duration": 5.16
+    },
+    {
+      "text": "bit of a Pandora's Box being opened",
+      "start": 599.72,
+      "duration": 5.32
+    },
+    {
+      "text": "whereas behind a service there's still",
+      "start": 602.32,
+      "duration": 5.32
+    },
+    {
+      "text": "some optionality was that a core idea in",
+      "start": 605.04,
+      "duration": 4.68
+    },
+    {
+      "text": "the way you thought about the this idea",
+      "start": 607.64,
+      "duration": 4.8
+    },
+    {
+      "text": "of openness so I think again like going",
+      "start": 609.72,
+      "duration": 4.2
+    },
+    {
+      "text": "back to the concerns that people have",
+      "start": 612.44,
+      "duration": 3.32
+    },
+    {
+      "text": "had with openness a lot of these are",
+      "start": 613.92,
+      "duration": 4.359
+    },
+    {
+      "text": "tied to the fact that once Foundation",
+      "start": 615.76,
+      "duration": 4.88
+    },
+    {
+      "text": "model weights are out there basically",
+      "start": 618.279,
+      "duration": 4.12
+    },
+    {
+      "text": "anyone who can download these models off",
+      "start": 620.64,
+      "duration": 3.68
+    },
+    {
+      "text": "the internet can do with them whatever",
+      "start": 622.399,
+      "duration": 4.481
+    },
+    {
+      "text": "they please so there are some mechanisms",
+      "start": 624.32,
+      "duration": 5.759
+    },
+    {
+      "text": "you might um envision for reducing the",
+      "start": 626.88,
+      "duration": 5.199
+    },
+    {
+      "text": "harmful impacts so for instance if a",
+      "start": 630.079,
+      "duration": 3.841
+    },
+    {
+      "text": "model has been known to cause harm you",
+      "start": 632.079,
+      "duration": 3.801
+    },
+    {
+      "text": "might get it removed off of hugging face",
+      "start": 633.92,
+      "duration": 3.359
+    },
+    {
+      "text": "and GitHub so that the model weights",
+      "start": 635.88,
+      "duration": 3.759
+    },
+    {
+      "text": "aren't hosted but to some extent a lot",
+      "start": 637.279,
+      "duration": 4.721
+    },
+    {
+      "text": "of these um interventions can be easily",
+      "start": 639.639,
+      "duration": 4.681
+    },
+    {
+      "text": "circumvented for instance through model",
+      "start": 642.0,
+      "duration": 3.56
+    },
+    {
+      "text": "weights being uploaded to torent",
+      "start": 644.32,
+      "duration": 3.48
+    },
+    {
+      "text": "websites um so I think one of the",
+      "start": 645.56,
+      "duration": 3.92
+    },
+    {
+      "text": "reasons we focused on the concept of",
+      "start": 647.8,
+      "duration": 4.2
+    },
+    {
+      "text": "model weights was precisely because um",
+      "start": 649.48,
+      "duration": 5.919
+    },
+    {
+      "text": "the risks around models are um at least",
+      "start": 652.0,
+      "duration": 5.56
+    },
+    {
+      "text": "theoretically Amplified when you have no",
+      "start": 655.399,
+      "duration": 4.641
+    },
+    {
+      "text": "take-backs when you cannot um take back",
+      "start": 657.56,
+      "duration": 4.6
+    },
+    {
+      "text": "the mod we or control who uses them or",
+      "start": 660.04,
+      "duration": 4.96
+    },
+    {
+      "text": "for what purposes one of the things that",
+      "start": 662.16,
+      "duration": 5.799
+    },
+    {
+      "text": "is very clear when you read the paper is",
+      "start": 665.0,
+      "duration": 5.0
+    },
+    {
+      "text": "that you're really trying to create a",
+      "start": 667.959,
+      "duration": 4.601
+    },
+    {
+      "text": "framework for folks to communicate about",
+      "start": 670.0,
+      "duration": 6.0
+    },
+    {
+      "text": "these uh various risks and you get the",
+      "start": 672.56,
+      "duration": 5.0
+    },
+    {
+      "text": "the picture very quickly that you've",
+      "start": 676.0,
+      "duration": 4.04
+    },
+    {
+      "text": "been in conversations where people are",
+      "start": 677.56,
+      "duration": 4.12
+    },
+    {
+      "text": "talking about risks but they're really",
+      "start": 680.04,
+      "duration": 4.4
+    },
+    {
+      "text": "talking about uh you know very different",
+      "start": 681.68,
+      "duration": 6.44
+    },
+    {
+      "text": "types of risks and uh they aren't able",
+      "start": 684.44,
+      "duration": 6.28
+    },
+    {
+      "text": "to Recon how to to bring them all",
+      "start": 688.12,
+      "duration": 5.68
+    },
+    {
+      "text": "together how do you how did you conceive",
+      "start": 690.72,
+      "duration": 7.799
+    },
+    {
+      "text": "of um a way to to reconcile that so I",
+      "start": 693.8,
+      "duration": 6.32
+    },
+    {
+      "text": "guess one of the things that was most",
+      "start": 698.519,
+      "duration": 4.76
+    },
+    {
+      "text": "helpful was seeing how um two papers",
+      "start": 700.12,
+      "duration": 5.24
+    },
+    {
+      "text": "that came out of MIT last year dealt",
+      "start": 703.279,
+      "duration": 4.401
+    },
+    {
+      "text": "with concerns around biocurity risks in",
+      "start": 705.36,
+      "duration": 4.159
+    },
+    {
+      "text": "a follow-up work though I think a couple",
+      "start": 707.68,
+      "duration": 4.159
+    },
+    {
+      "text": "of months after this paper was released",
+      "start": 709.519,
+      "duration": 4.481
+    },
+    {
+      "text": "a group of researchers from Stanford",
+      "start": 711.839,
+      "duration": 4.761
+    },
+    {
+      "text": "looked at what this information was that",
+      "start": 714.0,
+      "duration": 5.079
+    },
+    {
+      "text": "the authors were arguing would lead to",
+      "start": 716.6,
+      "duration": 4.4
+    },
+    {
+      "text": "um like future pandemics being caused by",
+      "start": 719.079,
+      "duration": 4.121
+    },
+    {
+      "text": "language models and it turns out that",
+      "start": 721.0,
+      "duration": 4.36
+    },
+    {
+      "text": "all of the information that was um at",
+      "start": 723.2,
+      "duration": 4.24
+    },
+    {
+      "text": "stake here was easily available on",
+      "start": 725.36,
+      "duration": 4.32
+    },
+    {
+      "text": "Wikipedia and so that really drove home",
+      "start": 727.44,
+      "duration": 4.32
+    },
+    {
+      "text": "this concept of marginal risk for us and",
+      "start": 729.68,
+      "duration": 5.599
+    },
+    {
+      "text": "why it's important because like you know",
+      "start": 731.76,
+      "duration": 5.36
+    },
+    {
+      "text": "we can have a lot of harmful outputs",
+      "start": 735.279,
+      "duration": 4.481
+    },
+    {
+      "text": "from the uh from open language models",
+      "start": 737.12,
+      "duration": 4.159
+    },
+    {
+      "text": "and we can't monitor the outputs of",
+      "start": 739.76,
+      "duration": 3.879
+    },
+    {
+      "text": "those models um in of themselves but if",
+      "start": 741.279,
+      "duration": 4.081
+    },
+    {
+      "text": "we can get the same exact information",
+      "start": 743.639,
+      "duration": 3.681
+    },
+    {
+      "text": "from web search on the internet then",
+      "start": 745.36,
+      "duration": 5.24
+    },
+    {
+      "text": "perhaps looking at uh Banning or curbing",
+      "start": 747.32,
+      "duration": 5.28
+    },
+    {
+      "text": "the release of open foundation models is",
+      "start": 750.6,
+      "duration": 4.12
+    },
+    {
+      "text": "not the right policy proposal so this",
+      "start": 752.6,
+      "duration": 5.039
+    },
+    {
+      "text": "really informed us on the need for um",
+      "start": 754.72,
+      "duration": 4.84
+    },
+    {
+      "text": "creating this common ground because if",
+      "start": 757.639,
+      "duration": 3.44
+    },
+    {
+      "text": "you don't have this Common Ground it'll",
+      "start": 759.56,
+      "duration": 3.04
+    },
+    {
+      "text": "essentially be researchers on the one",
+      "start": 761.079,
+      "duration": 3.641
+    },
+    {
+      "text": "hand pointing out all of the risks of AI",
+      "start": 762.6,
+      "duration": 3.56
+    },
+    {
+      "text": "and on the other hand pointing out how",
+      "start": 764.72,
+      "duration": 3.799
+    },
+    {
+      "text": "they're just um equivalent to past",
+      "start": 766.16,
+      "duration": 5.64
+    },
+    {
+      "text": "releases or um basically equivalent to",
+      "start": 768.519,
+      "duration": 5.361
+    },
+    {
+      "text": "like information widely available on the",
+      "start": 771.8,
+      "duration": 4.279
+    },
+    {
+      "text": "internet the results of that second",
+      "start": 773.88,
+      "duration": 5.319
+    },
+    {
+      "text": "paper are fairly intuitive to anyone",
+      "start": 776.079,
+      "duration": 6.161
+    },
+    {
+      "text": "who's familiar with language models and",
+      "start": 779.199,
+      "duration": 5.841
+    },
+    {
+      "text": "the idea that to some degree they are",
+      "start": 782.24,
+      "duration": 4.44
+    },
+    {
+      "text": "pulling together information that's",
+      "start": 785.04,
+      "duration": 3.359
+    },
+    {
+      "text": "already in their training data sets why",
+      "start": 786.68,
+      "duration": 3.32
+    },
+    {
+      "text": "do you think there was so much",
+      "start": 788.399,
+      "duration": 4.88
+    },
+    {
+      "text": "contention around uh that idea so I",
+      "start": 790.0,
+      "duration": 5.279
+    },
+    {
+      "text": "think one of the reasons was that for a",
+      "start": 793.279,
+      "duration": 4.321
+    },
+    {
+      "text": "long time language models just did not",
+      "start": 795.279,
+      "duration": 5.68
+    },
+    {
+      "text": "work very well so if in 2020 or if in",
+      "start": 797.6,
+      "duration": 5.32
+    },
+    {
+      "text": "like I don't know 2015 someone had come",
+      "start": 800.959,
+      "duration": 3.88
+    },
+    {
+      "text": "up and said you know language models can",
+      "start": 802.92,
+      "duration": 4.96
+    },
+    {
+      "text": "help someone cause biocurity issues um I",
+      "start": 804.839,
+      "duration": 4.56
+    },
+    {
+      "text": "think that concern would not be taken",
+      "start": 807.88,
+      "duration": 3.84
+    },
+    {
+      "text": "seriously at all because the state of",
+      "start": 809.399,
+      "duration": 4.361
+    },
+    {
+      "text": "progress of language modeling was such",
+      "start": 811.72,
+      "duration": 3.559
+    },
+    {
+      "text": "that you know the state-of-the-art",
+      "start": 813.76,
+      "duration": 3.079
+    },
+    {
+      "text": "language models essentially could not",
+      "start": 815.279,
+      "duration": 4.12
+    },
+    {
+      "text": "offer any help I think that has sort of",
+      "start": 816.839,
+      "duration": 5.481
+    },
+    {
+      "text": "changed in the last five years or so and",
+      "start": 819.399,
+      "duration": 4.841
+    },
+    {
+      "text": "especially with um instruction tune",
+      "start": 822.32,
+      "duration": 4.04
+    },
+    {
+      "text": "models uh it has become easier for",
+      "start": 824.24,
+      "duration": 3.839
+    },
+    {
+      "text": "people to rely on language models for",
+      "start": 826.36,
+      "duration": 3.719
+    },
+    {
+      "text": "assistance and so to be clear I'm not",
+      "start": 828.079,
+      "duration": 4.721
+    },
+    {
+      "text": "saying that um like the paper's results",
+      "start": 830.079,
+      "duration": 4.521
+    },
+    {
+      "text": "are flawed or anything I think it's",
+      "start": 832.8,
+      "duration": 3.159
+    },
+    {
+      "text": "important empirical evidence it's",
+      "start": 834.6,
+      "duration": 3.479
+    },
+    {
+      "text": "important to know that we can use",
+      "start": 835.959,
+      "duration": 4.041
+    },
+    {
+      "text": "language models to extract information",
+      "start": 838.079,
+      "duration": 5.601
+    },
+    {
+      "text": "about biocurity risks um and it's very",
+      "start": 840.0,
+      "duration": 5.56
+    },
+    {
+      "text": "important to know what the capabilities",
+      "start": 843.68,
+      "duration": 3.92
+    },
+    {
+      "text": "of these models are but at the same time",
+      "start": 845.56,
+      "duration": 3.959
+    },
+    {
+      "text": "I think our main point is that we",
+      "start": 847.6,
+      "duration": 4.44
+    },
+    {
+      "text": "shouldn't be caught up by focusing on",
+      "start": 849.519,
+      "duration": 6.041
+    },
+    {
+      "text": "like just this modeling part of um just",
+      "start": 852.04,
+      "duration": 5.239
+    },
+    {
+      "text": "the part where we have a language model",
+      "start": 855.56,
+      "duration": 4.04
+    },
+    {
+      "text": "or access to a language model alone so",
+      "start": 857.279,
+      "duration": 4.761
+    },
+    {
+      "text": "for example there is a follow-up study",
+      "start": 859.6,
+      "duration": 5.359
+    },
+    {
+      "text": "by Stephanie balis um in foreign policy",
+      "start": 862.04,
+      "duration": 4.599
+    },
+    {
+      "text": "where she points out all of the things",
+      "start": 864.959,
+      "duration": 3.8
+    },
+    {
+      "text": "someone might want to do in order to",
+      "start": 866.639,
+      "duration": 4.921
+    },
+    {
+      "text": "create a bioweapon and essentially",
+      "start": 868.759,
+      "duration": 4.281
+    },
+    {
+      "text": "finding out information about the",
+      "start": 871.56,
+      "duration": 4.04
+    },
+    {
+      "text": "bioweapon is a very small part of this",
+      "start": 873.04,
+      "duration": 4.4
+    },
+    {
+      "text": "pipeline a lot of this information is",
+      "start": 875.6,
+      "duration": 3.64
+    },
+    {
+      "text": "available on the internet uh it's",
+      "start": 877.44,
+      "duration": 4.319
+    },
+    {
+      "text": "available in AP Bio courses and so if",
+      "start": 879.24,
+      "duration": 5.599
+    },
+    {
+      "text": "our aim is to sort of look back and sort",
+      "start": 881.759,
+      "duration": 5.921
+    },
+    {
+      "text": "of curb biocurity risks then perhaps",
+      "start": 884.839,
+      "duration": 4.68
+    },
+    {
+      "text": "looking at the language model is not the",
+      "start": 887.68,
+      "duration": 3.519
+    },
+    {
+      "text": "biggest choke point that we have there",
+      "start": 889.519,
+      "duration": 3.0
+    },
+    {
+      "text": "are other things that we can do for",
+      "start": 891.199,
+      "duration": 3.601
+    },
+    {
+      "text": "instance imposing banss on uh DNA",
+      "start": 892.519,
+      "duration": 4.12
+    },
+    {
+      "text": "synthesis or more restrictions on",
+      "start": 894.8,
+      "duration": 5.52
+    },
+    {
+      "text": "genetic screening and so on um and so",
+      "start": 896.639,
+      "duration": 5.281
+    },
+    {
+      "text": "our risk assessment framework is",
+      "start": 900.32,
+      "duration": 4.56
+    },
+    {
+      "text": "essentially trying to open up this space",
+      "start": 901.92,
+      "duration": 6.76
+    },
+    {
+      "text": "of risks um that have been called about",
+      "start": 904.88,
+      "duration": 5.48
+    },
+    {
+      "text": "because or called to have been coming",
+      "start": 908.68,
+      "duration": 4.12
+    },
+    {
+      "text": "out of language models and opening it up",
+      "start": 910.36,
+      "duration": 5.479
+    },
+    {
+      "text": "to see where the most um useful choke",
+      "start": 912.8,
+      "duration": 6.52
+    },
+    {
+      "text": "points might be right right and so to to",
+      "start": 915.839,
+      "duration": 5.481
+    },
+    {
+      "text": "really focus on it one of the big",
+      "start": 919.32,
+      "duration": 4.959
+    },
+    {
+      "text": "contributions of the paper is defining",
+      "start": 921.32,
+      "duration": 5.4
+    },
+    {
+      "text": "the risk space in terms of marginal risk",
+      "start": 924.279,
+      "duration": 4.961
+    },
+    {
+      "text": "can you dig into that a little bit more",
+      "start": 926.72,
+      "duration": 5.239
+    },
+    {
+      "text": "absolutely so um marginal risk really",
+      "start": 929.24,
+      "duration": 5.719
+    },
+    {
+      "text": "means um what is the risk of language",
+      "start": 931.959,
+      "duration": 4.401
+    },
+    {
+      "text": "models or Foundation models more",
+      "start": 934.959,
+      "duration": 3.761
+    },
+    {
+      "text": "generally compared to previous",
+      "start": 936.36,
+      "duration": 4.039
+    },
+    {
+      "text": "Technologies so when focusing",
+      "start": 938.72,
+      "duration": 4.119
+    },
+    {
+      "text": "specifically on open foundation models",
+      "start": 940.399,
+      "duration": 4.401
+    },
+    {
+      "text": "um we think there are like two things",
+      "start": 942.839,
+      "duration": 3.12
+    },
+    {
+      "text": "against which we should calculate",
+      "start": 944.8,
+      "duration": 3.959
+    },
+    {
+      "text": "marginal risk one is the existing state",
+      "start": 945.959,
+      "duration": 4.841
+    },
+    {
+      "text": "of the Affairs um with existing",
+      "start": 948.759,
+      "duration": 4.161
+    },
+    {
+      "text": "Technologies like the internet and the",
+      "start": 950.8,
+      "duration": 4.32
+    },
+    {
+      "text": "other is foundation models that are not",
+      "start": 952.92,
+      "duration": 4.159
+    },
+    {
+      "text": "released openly because a lot of the",
+      "start": 955.12,
+      "duration": 4.24
+    },
+    {
+      "text": "policy efforts at uh regulating",
+      "start": 957.079,
+      "duration": 4.601
+    },
+    {
+      "text": "Foundation models are specific to open",
+      "start": 959.36,
+      "duration": 4.68
+    },
+    {
+      "text": "foundation models so the second sort of",
+      "start": 961.68,
+      "duration": 4.24
+    },
+    {
+      "text": "comparator is what if the foundation",
+      "start": 964.04,
+      "duration": 3.56
+    },
+    {
+      "text": "model was not released openly what if it",
+      "start": 965.92,
+      "duration": 3.8
+    },
+    {
+      "text": "is a closed Foundation model and to come",
+      "start": 967.6,
+      "duration": 3.56
+    },
+    {
+      "text": "up with the framework for assessing",
+      "start": 969.72,
+      "duration": 4.88
+    },
+    {
+      "text": "marginal risk we Bank on um the cyber",
+      "start": 971.16,
+      "duration": 6.159
+    },
+    {
+      "text": "security um like threat modeling",
+      "start": 974.6,
+      "duration": 4.479
+    },
+    {
+      "text": "framework so threat modeling is a",
+      "start": 977.319,
+      "duration": 3.76
+    },
+    {
+      "text": "concept in cyber security which",
+      "start": 979.079,
+      "duration": 3.56
+    },
+    {
+      "text": "basically allows cyber security",
+      "start": 981.079,
+      "duration": 3.24
+    },
+    {
+      "text": "researchers to come up with the entire",
+      "start": 982.639,
+      "duration": 4.041
+    },
+    {
+      "text": "pipeline of how a risk actually",
+      "start": 984.319,
+      "duration": 5.041
+    },
+    {
+      "text": "materializes in the real world um it has",
+      "start": 986.68,
+      "duration": 5.12
+    },
+    {
+      "text": "several steps like reconnaissance are",
+      "start": 989.36,
+      "duration": 4.52
+    },
+    {
+      "text": "like figuring out what the systems are",
+      "start": 991.8,
+      "duration": 4.159
+    },
+    {
+      "text": "what the loopholes are um and",
+      "start": 993.88,
+      "duration": 3.319
+    },
+    {
+      "text": "essentially coming up with like an",
+      "start": 995.959,
+      "duration": 3.24
+    },
+    {
+      "text": "entire framework of how to do this um in",
+      "start": 997.199,
+      "duration": 4.32
+    },
+    {
+      "text": "a repeatable way so we take inspiration",
+      "start": 999.199,
+      "duration": 4.56
+    },
+    {
+      "text": "from this framework and we uh create",
+      "start": 1001.519,
+      "duration": 4.641
+    },
+    {
+      "text": "this six-step risk assessment framework",
+      "start": 1003.759,
+      "duration": 4.361
+    },
+    {
+      "text": "for identifying the marginal risks of",
+      "start": 1006.16,
+      "duration": 4.599
+    },
+    {
+      "text": "open foundation models um the first step",
+      "start": 1008.12,
+      "duration": 4.839
+    },
+    {
+      "text": "is threat identification so it's",
+      "start": 1010.759,
+      "duration": 4.281
+    },
+    {
+      "text": "important to know what specific threat",
+      "start": 1012.959,
+      "duration": 4.201
+    },
+    {
+      "text": "we looking out for and who this threat",
+      "start": 1015.04,
+      "duration": 4.4
+    },
+    {
+      "text": "is from so the point is important",
+      "start": 1017.16,
+      "duration": 4.72
+    },
+    {
+      "text": "because it's very different if a threat",
+      "start": 1019.44,
+      "duration": 4.56
+    },
+    {
+      "text": "is from like let's say a few individuals",
+      "start": 1021.88,
+      "duration": 4.0
+    },
+    {
+      "text": "or a small organization versus from",
+      "start": 1024.0,
+      "duration": 3.64
+    },
+    {
+      "text": "State packed actors they have very",
+      "start": 1025.88,
+      "duration": 3.6
+    },
+    {
+      "text": "different levels of resources so it's",
+      "start": 1027.64,
+      "duration": 4.0
+    },
+    {
+      "text": "important to understand what this threat",
+      "start": 1029.48,
+      "duration": 4.04
+    },
+    {
+      "text": "is where this threat is coming from the",
+      "start": 1031.64,
+      "duration": 4.039
+    },
+    {
+      "text": "next two steps are about the existing",
+      "start": 1033.52,
+      "duration": 4.039
+    },
+    {
+      "text": "level of that risk because in many cases",
+      "start": 1035.679,
+      "duration": 3.52
+    },
+    {
+      "text": "the risks we're talking about also exist",
+      "start": 1037.559,
+      "duration": 3.24
+    },
+    {
+      "text": "in the real world as well as the",
+      "start": 1039.199,
+      "duration": 3.521
+    },
+    {
+      "text": "existing defenses that we have against",
+      "start": 1040.799,
+      "duration": 3.76
+    },
+    {
+      "text": "those risks so taking together these",
+      "start": 1042.72,
+      "duration": 4.0
+    },
+    {
+      "text": "three points allow us to then think",
+      "start": 1044.559,
+      "duration": 5.0
+    },
+    {
+      "text": "about the marginal risk of releasing",
+      "start": 1046.72,
+      "duration": 5.12
+    },
+    {
+      "text": "Foundation models openly so this is",
+      "start": 1049.559,
+      "duration": 4.48
+    },
+    {
+      "text": "compared to existing risks for instance",
+      "start": 1051.84,
+      "duration": 4.36
+    },
+    {
+      "text": "from web search on the Internet or",
+      "start": 1054.039,
+      "duration": 5.401
+    },
+    {
+      "text": "closed Foundation models um as well as",
+      "start": 1056.2,
+      "duration": 5.719
+    },
+    {
+      "text": "how open language models or open",
+      "start": 1059.44,
+      "duration": 4.56
+    },
+    {
+      "text": "foundation models might allow us to",
+      "start": 1061.919,
+      "duration": 4.361
+    },
+    {
+      "text": "supersede the existing defenses that we",
+      "start": 1064.0,
+      "duration": 4.96
+    },
+    {
+      "text": "have and similarly like once we've sort",
+      "start": 1066.28,
+      "duration": 4.16
+    },
+    {
+      "text": "of come up with the marginal risk of",
+      "start": 1068.96,
+      "duration": 3.68
+    },
+    {
+      "text": "releasing open foundation models uh it's",
+      "start": 1070.44,
+      "duration": 4.28
+    },
+    {
+      "text": "also important to look at how easily we",
+      "start": 1072.64,
+      "duration": 4.44
+    },
+    {
+      "text": "can defend against this marginal risk",
+      "start": 1074.72,
+      "duration": 4.52
+    },
+    {
+      "text": "because in some cases um while open",
+      "start": 1077.08,
+      "duration": 4.44
+    },
+    {
+      "text": "foundation models might allow new risks",
+      "start": 1079.24,
+      "duration": 4.0
+    },
+    {
+      "text": "to materialize they might also be useful",
+      "start": 1081.52,
+      "duration": 4.6
+    },
+    {
+      "text": "for defense um and then finally our last",
+      "start": 1083.24,
+      "duration": 5.679
+    },
+    {
+      "text": "step in the framework is um very",
+      "start": 1086.12,
+      "duration": 5.6
+    },
+    {
+      "text": "precisely stating what the uncertainty",
+      "start": 1088.919,
+      "duration": 4.561
+    },
+    {
+      "text": "and the assumptions in this entire",
+      "start": 1091.72,
+      "duration": 4.439
+    },
+    {
+      "text": "analysis are because in many cases it's",
+      "start": 1093.48,
+      "duration": 4.88
+    },
+    {
+      "text": "these uncertainties and assumptions that",
+      "start": 1096.159,
+      "duration": 5.081
+    },
+    {
+      "text": "lead to the most um prevalent points of",
+      "start": 1098.36,
+      "duration": 5.0
+    },
+    {
+      "text": "contention between people arguing on",
+      "start": 1101.24,
+      "duration": 4.08
+    },
+    {
+      "text": "both sides of U of the open versus",
+      "start": 1103.36,
+      "duration": 4.6
+    },
+    {
+      "text": "closed debate I'm wondering with that",
+      "start": 1105.32,
+      "duration": 5.28
+    },
+    {
+      "text": "frame workk defined if you could walk us",
+      "start": 1107.96,
+      "duration": 6.24
+    },
+    {
+      "text": "through an example uh whether it's the",
+      "start": 1110.6,
+      "duration": 6.4
+    },
+    {
+      "text": "biot terrorism or another example of how",
+      "start": 1114.2,
+      "duration": 5.4
+    },
+    {
+      "text": "you would uh apply the framework step by",
+      "start": 1117.0,
+      "duration": 5.159
+    },
+    {
+      "text": "step um so in the paper we carry out",
+      "start": 1119.6,
+      "duration": 5.319
+    },
+    {
+      "text": "this analysis for two areas the first is",
+      "start": 1122.159,
+      "duration": 5.081
+    },
+    {
+      "text": "cyber security risks and the other is",
+      "start": 1124.919,
+      "duration": 4.24
+    },
+    {
+      "text": "the risk of non-consensual intimate",
+      "start": 1127.24,
+      "duration": 4.64
+    },
+    {
+      "text": "imagery um perhaps such as Technologies",
+      "start": 1129.159,
+      "duration": 4.921
+    },
+    {
+      "text": "like deep FES so maybe I can talk",
+      "start": 1131.88,
+      "duration": 4.24
+    },
+    {
+      "text": "through the latter example which is",
+      "start": 1134.08,
+      "duration": 5.2
+    },
+    {
+      "text": "non-consensual intimate imagery or NCI",
+      "start": 1136.12,
+      "duration": 5.799
+    },
+    {
+      "text": "um so first I mean the first step of the",
+      "start": 1139.28,
+      "duration": 4.84
+    },
+    {
+      "text": "framework is threat identification where",
+      "start": 1141.919,
+      "duration": 4.201
+    },
+    {
+      "text": "you identify who the threat is from in",
+      "start": 1144.12,
+      "duration": 3.72
+    },
+    {
+      "text": "many cases we've seen that the threat of",
+      "start": 1146.12,
+      "duration": 4.48
+    },
+    {
+      "text": "NCI is actually from individuals or",
+      "start": 1147.84,
+      "duration": 5.36
+    },
+    {
+      "text": "small organizations um so this might be",
+      "start": 1150.6,
+      "duration": 4.079
+    },
+    {
+      "text": "someone you know who's creating deep",
+      "start": 1153.2,
+      "duration": 4.16
+    },
+    {
+      "text": "fakes um in some cases it is deep fakes",
+      "start": 1154.679,
+      "duration": 5.081
+    },
+    {
+      "text": "of celebrities in others it is people um",
+      "start": 1157.36,
+      "duration": 5.0
+    },
+    {
+      "text": "they know in real life um and this",
+      "start": 1159.76,
+      "duration": 4.32
+    },
+    {
+      "text": "threat I mean in terms of the existing",
+      "start": 1162.36,
+      "duration": 3.559
+    },
+    {
+      "text": "risk this threat has been around for a",
+      "start": 1164.08,
+      "duration": 4.92
+    },
+    {
+      "text": "while um so we've seen many types of",
+      "start": 1165.919,
+      "duration": 6.12
+    },
+    {
+      "text": "digitally altered NCI images are being",
+      "start": 1169.0,
+      "duration": 4.799
+    },
+    {
+      "text": "created through tools like Photoshop for",
+      "start": 1172.039,
+      "duration": 4.281
+    },
+    {
+      "text": "example um and similarly in terms of",
+      "start": 1173.799,
+      "duration": 4.281
+    },
+    {
+      "text": "existing defenses there are a few",
+      "start": 1176.32,
+      "duration": 3.839
+    },
+    {
+      "text": "defenses that people have um so the",
+      "start": 1178.08,
+      "duration": 4.04
+    },
+    {
+      "text": "first is social media platforms like",
+      "start": 1180.159,
+      "duration": 3.961
+    },
+    {
+      "text": "Facebook and Instagram and YouTube have",
+      "start": 1182.12,
+      "duration": 4.52
+    },
+    {
+      "text": "channels to report um NCI if someone",
+      "start": 1184.12,
+      "duration": 4.48
+    },
+    {
+      "text": "posts your image you can report it and",
+      "start": 1186.64,
+      "duration": 4.08
+    },
+    {
+      "text": "it'll be reviewed U similarly there are",
+      "start": 1188.6,
+      "duration": 3.959
+    },
+    {
+      "text": "some federal statutes against the",
+      "start": 1190.72,
+      "duration": 4.04
+    },
+    {
+      "text": "sharing of non-consensual intimate",
+      "start": 1192.559,
+      "duration": 4.521
+    },
+    {
+      "text": "imagery um both in the US as well as",
+      "start": 1194.76,
+      "duration": 5.24
+    },
+    {
+      "text": "outside like in the UK and in the EU um",
+      "start": 1197.08,
+      "duration": 4.12
+    },
+    {
+      "text": "so this brings us to the question of",
+      "start": 1200.0,
+      "duration": 4.12
+    },
+    {
+      "text": "marginal risk like in this framework or",
+      "start": 1201.2,
+      "duration": 4.599
+    },
+    {
+      "text": "in this current scenario where we have",
+      "start": 1204.12,
+      "duration": 4.76
+    },
+    {
+      "text": "Photoshop and people do share um NCI of",
+      "start": 1205.799,
+      "duration": 5.801
+    },
+    {
+      "text": "other people um at some like rate of",
+      "start": 1208.88,
+      "duration": 4.76
+    },
+    {
+      "text": "preference what is the marginal impact",
+      "start": 1211.6,
+      "duration": 4.4
+    },
+    {
+      "text": "of open foundation models so for this",
+      "start": 1213.64,
+      "duration": 4.64
+    },
+    {
+      "text": "specific risk we find that the marginal",
+      "start": 1216.0,
+      "duration": 3.799
+    },
+    {
+      "text": "risk of open foundation models is",
+      "start": 1218.28,
+      "duration": 4.0
+    },
+    {
+      "text": "actually pretty high several analysis",
+      "start": 1219.799,
+      "duration": 4.841
+    },
+    {
+      "text": "have shown that since Foundation models",
+      "start": 1222.28,
+      "duration": 4.399
+    },
+    {
+      "text": "like stable diffusion have been released",
+      "start": 1224.64,
+      "duration": 5.08
+    },
+    {
+      "text": "openly the amount of NCI prevalent on",
+      "start": 1226.679,
+      "duration": 6.24
+    },
+    {
+      "text": "online websites has gone up dramatically",
+      "start": 1229.72,
+      "duration": 5.8
+    },
+    {
+      "text": "um compared to tools like Photoshop the",
+      "start": 1232.919,
+      "duration": 6.201
+    },
+    {
+      "text": "use of this like model might not require",
+      "start": 1235.52,
+      "duration": 5.8
+    },
+    {
+      "text": "uh any expertise in digital technology",
+      "start": 1239.12,
+      "duration": 5.6
+    },
+    {
+      "text": "at all um and compared to um earlier",
+      "start": 1241.32,
+      "duration": 6.0
+    },
+    {
+      "text": "tools or compared to earlier enforcement",
+      "start": 1244.72,
+      "duration": 5.439
+    },
+    {
+      "text": "strategies like um going on social media",
+      "start": 1247.32,
+      "duration": 4.92
+    },
+    {
+      "text": "and Reporting your image I think",
+      "start": 1250.159,
+      "duration": 4.201
+    },
+    {
+      "text": "advocating for taking down AI generated",
+      "start": 1252.24,
+      "duration": 4.28
+    },
+    {
+      "text": "NCI is a little bit harder simply",
+      "start": 1254.36,
+      "duration": 3.88
+    },
+    {
+      "text": "because of the legal status of AI",
+      "start": 1256.52,
+      "duration": 3.92
+    },
+    {
+      "text": "generated images right now um which is",
+      "start": 1258.24,
+      "duration": 5.24
+    },
+    {
+      "text": "unclear this is an interesting sort of a",
+      "start": 1260.44,
+      "duration": 4.96
+    },
+    {
+      "text": "policy Tabit hole but back in the '90s",
+      "start": 1263.48,
+      "duration": 5.16
+    },
+    {
+      "text": "um the Supreme Court ruled that virtual",
+      "start": 1265.4,
+      "duration": 5.36
+    },
+    {
+      "text": "pornography is protected under the First",
+      "start": 1268.64,
+      "duration": 5.56
+    },
+    {
+      "text": "Amendment um and so people have a First",
+      "start": 1270.76,
+      "duration": 4.72
+    },
+    {
+      "text": "Amendment right to create and share",
+      "start": 1274.2,
+      "duration": 2.959
+    },
+    {
+      "text": "these pictures even if social media",
+      "start": 1275.48,
+      "duration": 3.36
+    },
+    {
+      "text": "platforms later take them down that's",
+      "start": 1277.159,
+      "duration": 3.801
+    },
+    {
+      "text": "their prerogative under Section 230 just",
+      "start": 1278.84,
+      "duration": 4.4
+    },
+    {
+      "text": "the creation of these uh of these deep",
+      "start": 1280.96,
+      "duration": 4.599
+    },
+    {
+      "text": "fakes it's as of yet still un like still",
+      "start": 1283.24,
+      "duration": 4.0
+    },
+    {
+      "text": "a contentious First Amendment issue and",
+      "start": 1285.559,
+      "duration": 4.0
+    },
+    {
+      "text": "it's unclear if the use of uh Foundation",
+      "start": 1287.24,
+      "duration": 4.12
+    },
+    {
+      "text": "models for generating more believable or",
+      "start": 1289.559,
+      "duration": 5.081
+    },
+    {
+      "text": "more realistic imagy um will sort of",
+      "start": 1291.36,
+      "duration": 4.919
+    },
+    {
+      "text": "cause the cause the code to change its",
+      "start": 1294.64,
+      "duration": 2.96
+    },
+    {
+      "text": "opinions I think we have to that's a",
+      "start": 1296.279,
+      "duration": 3.921
+    },
+    {
+      "text": "tremendous example of legal Frameworks",
+      "start": 1297.6,
+      "duration": 4.24
+    },
+    {
+      "text": "not keeping up with",
+      "start": 1300.2,
+      "duration": 4.68
+    },
+    {
+      "text": "technology exactly and in some sense the",
+      "start": 1301.84,
+      "duration": 6.48
+    },
+    {
+      "text": "uh Supreme Court um sort of the Supreme",
+      "start": 1304.88,
+      "duration": 6.2
+    },
+    {
+      "text": "Court verdict in the '90s case was",
+      "start": 1308.32,
+      "duration": 4.719
+    },
+    {
+      "text": "actually",
+      "start": 1311.08,
+      "duration": 5.079
+    },
+    {
+      "text": "um like it had great foresight because",
+      "start": 1313.039,
+      "duration": 4.481
+    },
+    {
+      "text": "at the time the state of virtual",
+      "start": 1316.159,
+      "duration": 2.52
+    },
+    {
+      "text": "pornography",
+      "start": 1317.52,
+      "duration": 3.96
+    },
+    {
+      "text": "was such that um no one would mistake",
+      "start": 1318.679,
+      "duration": 4.561
+    },
+    {
+      "text": "like a virtually generated image from a",
+      "start": 1321.48,
+      "duration": 4.76
+    },
+    {
+      "text": "real uh image of a person but now when",
+      "start": 1323.24,
+      "duration": 4.439
+    },
+    {
+      "text": "we have Foundation models like",
+      "start": 1326.24,
+      "duration": 4.76
+    },
+    {
+      "text": "generative AI models um uh widely",
+      "start": 1327.679,
+      "duration": 5.36
+    },
+    {
+      "text": "available and easily downloadable you",
+      "start": 1331.0,
+      "duration": 3.88
+    },
+    {
+      "text": "like I can run Sable to Fusion on my",
+      "start": 1333.039,
+      "duration": 4.24
+    },
+    {
+      "text": "MacBook um it it just becomes really",
+      "start": 1334.88,
+      "duration": 4.24
+    },
+    {
+      "text": "hard it's like a difference in kind not",
+      "start": 1337.279,
+      "duration": 6.041
+    },
+    {
+      "text": "just a difference in um uh quantity and",
+      "start": 1339.12,
+      "duration": 6.799
+    },
+    {
+      "text": "so I think that really changes things",
+      "start": 1343.32,
+      "duration": 4.76
+    },
+    {
+      "text": "and so I'm sure we're likely to hear",
+      "start": 1345.919,
+      "duration": 6.281
+    },
+    {
+      "text": "many cases um on on Virtual NCI and",
+      "start": 1348.08,
+      "duration": 6.44
+    },
+    {
+      "text": "generative AI very soon you've mentioned",
+      "start": 1352.2,
+      "duration": 4.8
+    },
+    {
+      "text": "factors including the ease of creation",
+      "start": 1354.52,
+      "duration": 7.32
+    },
+    {
+      "text": "the the prevalence or the increase in um",
+      "start": 1357.0,
+      "duration": 6.88
+    },
+    {
+      "text": "uh",
+      "start": 1361.84,
+      "duration": 5.199
+    },
+    {
+      "text": "occurrences it sounds like many of these",
+      "start": 1363.88,
+      "duration": 6.44
+    },
+    {
+      "text": "factors are very much themselves kind of",
+      "start": 1367.039,
+      "duration": 6.721
+    },
+    {
+      "text": "Up For Debate or uh discussion and it's",
+      "start": 1370.32,
+      "duration": 4.28
+    },
+    {
+      "text": "uh",
+      "start": 1373.76,
+      "duration": 4.44
+    },
+    {
+      "text": "ultimately uh a judgment call uh on the",
+      "start": 1374.6,
+      "duration": 5.04
+    },
+    {
+      "text": "on behalf of the person who's making the",
+      "start": 1378.2,
+      "duration": 3.04
+    },
+    {
+      "text": "argument but what you're trying to do is",
+      "start": 1379.64,
+      "duration": 3.48
+    },
+    {
+      "text": "ground it in at least we're going to",
+      "start": 1381.24,
+      "duration": 4.24
+    },
+    {
+      "text": "talk about this factor is that a fair",
+      "start": 1383.12,
+      "duration": 4.439
+    },
+    {
+      "text": "assessment that's absolutely right and",
+      "start": 1385.48,
+      "duration": 4.0
+    },
+    {
+      "text": "that's why the last step of theum of the",
+      "start": 1387.559,
+      "duration": 3.401
+    },
+    {
+      "text": "risk assessment framework is",
+      "start": 1389.48,
+      "duration": 3.6
+    },
+    {
+      "text": "specifically about the assumptions built",
+      "start": 1390.96,
+      "duration": 4.64
+    },
+    {
+      "text": "into um the risk assessment framework",
+      "start": 1393.08,
+      "duration": 4.199
+    },
+    {
+      "text": "throughout like whether you think these",
+      "start": 1395.6,
+      "duration": 3.24
+    },
+    {
+      "text": "models will continue to improve at the",
+      "start": 1397.279,
+      "duration": 3.241
+    },
+    {
+      "text": "same rate or whether we're seeing like",
+      "start": 1398.84,
+      "duration": 4.4
+    },
+    {
+      "text": "somewhat of a plateau um there are also",
+      "start": 1400.52,
+      "duration": 4.399
+    },
+    {
+      "text": "assumptions about the quality of the",
+      "start": 1403.24,
+      "duration": 4.76
+    },
+    {
+      "text": "generated image and so on um and so",
+      "start": 1404.919,
+      "duration": 4.76
+    },
+    {
+      "text": "think that's the step where you sort of",
+      "start": 1408.0,
+      "duration": 4.48
+    },
+    {
+      "text": "ground all of your subjective calls in",
+      "start": 1409.679,
+      "duration": 5.12
+    },
+    {
+      "text": "this risk assessment framework um and",
+      "start": 1412.48,
+      "duration": 4.439
+    },
+    {
+      "text": "and explicitly call them out the final",
+      "start": 1414.799,
+      "duration": 4.561
+    },
+    {
+      "text": "point of the marginal risk uh assessment",
+      "start": 1416.919,
+      "duration": 4.081
+    },
+    {
+      "text": "is comparison to closed Foundation",
+      "start": 1419.36,
+      "duration": 3.88
+    },
+    {
+      "text": "models and here too at least based on",
+      "start": 1421.0,
+      "duration": 4.559
+    },
+    {
+      "text": "the empirical evidence we've seen so far",
+      "start": 1423.24,
+      "duration": 4.679
+    },
+    {
+      "text": "um closed model providers like openi",
+      "start": 1425.559,
+      "duration": 4.041
+    },
+    {
+      "text": "have been quite successful with their",
+      "start": 1427.919,
+      "duration": 4.12
+    },
+    {
+      "text": "guard rails um there was this incident",
+      "start": 1429.6,
+      "duration": 5.439
+    },
+    {
+      "text": "involving Taylor Swift's NCI uh that was",
+      "start": 1432.039,
+      "duration": 5.24
+    },
+    {
+      "text": "actually using Microsoft's tool which is",
+      "start": 1435.039,
+      "duration": 3.561
+    },
+    {
+      "text": "a closed model",
+      "start": 1437.279,
+      "duration": 2.801
+    },
+    {
+      "text": "um but at the same time what this",
+      "start": 1438.6,
+      "duration": 3.48
+    },
+    {
+      "text": "allowed Microsoft to do is very quickly",
+      "start": 1440.08,
+      "duration": 3.959
+    },
+    {
+      "text": "patch their model so that it wouldn't",
+      "start": 1442.08,
+      "duration": 4.599
+    },
+    {
+      "text": "generate NCI of real people and this is",
+      "start": 1444.039,
+      "duration": 4.681
+    },
+    {
+      "text": "just not something that's available as a",
+      "start": 1446.679,
+      "duration": 4.041
+    },
+    {
+      "text": "redressal mechanism to developers of",
+      "start": 1448.72,
+      "duration": 4.72
+    },
+    {
+      "text": "open foundation models um so in in",
+      "start": 1450.72,
+      "duration": 5.12
+    },
+    {
+      "text": "general I think it's clear that for NCI",
+      "start": 1453.44,
+      "duration": 4.479
+    },
+    {
+      "text": "at least the marginal risk of open",
+      "start": 1455.84,
+      "duration": 4.839
+    },
+    {
+      "text": "foundation models is pretty high um and",
+      "start": 1457.919,
+      "duration": 5.081
+    },
+    {
+      "text": "when it comes to the ease of defenses I",
+      "start": 1460.679,
+      "duration": 4.401
+    },
+    {
+      "text": "think this allows us to look at this",
+      "start": 1463.0,
+      "duration": 5.44
+    },
+    {
+      "text": "whole pipeline of uh the creation of NC",
+      "start": 1465.08,
+      "duration": 5.0
+    },
+    {
+      "text": "and come up with a few spots where we",
+      "start": 1468.44,
+      "duration": 4.88
+    },
+    {
+      "text": "can reduce the harm so the pipeline for",
+      "start": 1470.08,
+      "duration": 5.52
+    },
+    {
+      "text": "um like creating generative AI waste",
+      "start": 1473.32,
+      "duration": 5.359
+    },
+    {
+      "text": "ncii is you have a model you might have",
+      "start": 1475.6,
+      "duration": 5.24
+    },
+    {
+      "text": "platforms where those models are hosted",
+      "start": 1478.679,
+      "duration": 3.921
+    },
+    {
+      "text": "you might have Downstream platforms like",
+      "start": 1480.84,
+      "duration": 4.28
+    },
+    {
+      "text": "social media where uh people might",
+      "start": 1482.6,
+      "duration": 5.679
+    },
+    {
+      "text": "upload these images so interventions at",
+      "start": 1485.12,
+      "duration": 6.0
+    },
+    {
+      "text": "the model level are quite hard um it's",
+      "start": 1488.279,
+      "duration": 5.681
+    },
+    {
+      "text": "very hard to curb on or basically like",
+      "start": 1491.12,
+      "duration": 5.679
+    },
+    {
+      "text": "eradicate the spread of stable diffusion",
+      "start": 1493.96,
+      "duration": 4.4
+    },
+    {
+      "text": "simply because you can can download this",
+      "start": 1496.799,
+      "duration": 4.041
+    },
+    {
+      "text": "file as like a 4 gigb file uh you can",
+      "start": 1498.36,
+      "duration": 4.12
+    },
+    {
+      "text": "run it locally on your MacBook you can",
+      "start": 1500.84,
+      "duration": 3.92
+    },
+    {
+      "text": "also run it on your iPhone actually um",
+      "start": 1502.48,
+      "duration": 3.72
+    },
+    {
+      "text": "and so it's really hard to track the",
+      "start": 1504.76,
+      "duration": 4.12
+    },
+    {
+      "text": "usage of these models but when we come",
+      "start": 1506.2,
+      "duration": 4.52
+    },
+    {
+      "text": "to the next two sort of layers of the",
+      "start": 1508.88,
+      "duration": 3.84
+    },
+    {
+      "text": "pipeline um interventions become",
+      "start": 1510.72,
+      "duration": 4.24
+    },
+    {
+      "text": "somewhat easier so one example for the",
+      "start": 1512.72,
+      "duration": 4.28
+    },
+    {
+      "text": "middle L where models platforms where",
+      "start": 1514.96,
+      "duration": 4.839
+    },
+    {
+      "text": "models are shared is this startup called",
+      "start": 1517.0,
+      "duration": 6.08
+    },
+    {
+      "text": "Civ Civ is a platform for people to",
+      "start": 1519.799,
+      "duration": 5.12
+    },
+    {
+      "text": "share Foundation models that can",
+      "start": 1523.08,
+      "duration": 5.04
+    },
+    {
+      "text": "generate images of um like various sorts",
+      "start": 1524.919,
+      "duration": 5.76
+    },
+    {
+      "text": "one of the uses of Civ in the past has",
+      "start": 1528.12,
+      "duration": 5.48
+    },
+    {
+      "text": "been to post bounties for models that",
+      "start": 1530.679,
+      "duration": 6.401
+    },
+    {
+      "text": "generate NCI about specific people so",
+      "start": 1533.6,
+      "duration": 7.48
+    },
+    {
+      "text": "this example is basically um like one",
+      "start": 1537.08,
+      "duration": 6.0
+    },
+    {
+      "text": "where tangible harm is being caused",
+      "start": 1541.08,
+      "duration": 3.92
+    },
+    {
+      "text": "because an online platform is failing to",
+      "start": 1543.08,
+      "duration": 3.92
+    },
+    {
+      "text": "take down moduls that can cause harm in",
+      "start": 1545.0,
+      "duration": 4.84
+    },
+    {
+      "text": "the real world and a few weeks after",
+      "start": 1547.0,
+      "duration": 4.64
+    },
+    {
+      "text": "this very nice investigation from a news",
+      "start": 1549.84,
+      "duration": 4.4
+    },
+    {
+      "text": "Outlet called 404 media revealed this",
+      "start": 1551.64,
+      "duration": 5.2
+    },
+    {
+      "text": "fact I think um since then cvti has",
+      "start": 1554.24,
+      "duration": 4.84
+    },
+    {
+      "text": "imposed stricter guardrails on how these",
+      "start": 1556.84,
+      "duration": 4.52
+    },
+    {
+      "text": "models can be distributed and similarly",
+      "start": 1559.08,
+      "duration": 3.88
+    },
+    {
+      "text": "I think for social media platforms as",
+      "start": 1561.36,
+      "duration": 3.28
+    },
+    {
+      "text": "well so I think social media platforms",
+      "start": 1562.96,
+      "duration": 4.16
+    },
+    {
+      "text": "need to do a much better job of uh",
+      "start": 1564.64,
+      "duration": 6.039
+    },
+    {
+      "text": "curbing down on clamping down on NCI um",
+      "start": 1567.12,
+      "duration": 5.64
+    },
+    {
+      "text": "and one way they can do this is by",
+      "start": 1570.679,
+      "duration": 4.36
+    },
+    {
+      "text": "allowing users to take some of the power",
+      "start": 1572.76,
+      "duration": 4.0
+    },
+    {
+      "text": "back in the hand so there is this",
+      "start": 1575.039,
+      "duration": 5.281
+    },
+    {
+      "text": "nonprofit organization called stop NCI",
+      "start": 1576.76,
+      "duration": 6.799
+    },
+    {
+      "text": "high.org where if you fear that one of",
+      "start": 1580.32,
+      "duration": 5.079
+    },
+    {
+      "text": "your intimate images is about to be",
+      "start": 1583.559,
+      "duration": 3.48
+    },
+    {
+      "text": "shared on the Internet or perhaps has",
+      "start": 1585.399,
+      "duration": 2.76
+    },
+    {
+      "text": "already been Shar",
+      "start": 1587.039,
+      "duration": 3.401
+    },
+    {
+      "text": "you can upload a hash of that image to",
+      "start": 1588.159,
+      "duration": 6.4
+    },
+    {
+      "text": "stop nc.org um and when this image is",
+      "start": 1590.44,
+      "duration": 6.0
+    },
+    {
+      "text": "uploaded to any social media platform",
+      "start": 1594.559,
+      "duration": 3.84
+    },
+    {
+      "text": "that coordinates with stop NCI and I",
+      "start": 1596.44,
+      "duration": 3.959
+    },
+    {
+      "text": "think as of today this includes Facebook",
+      "start": 1598.399,
+      "duration": 4.921
+    },
+    {
+      "text": "Instagram Reddit and so on um any of",
+      "start": 1600.399,
+      "duration": 4.841
+    },
+    {
+      "text": "these platforms if that image is later",
+      "start": 1603.32,
+      "duration": 3.239
+    },
+    {
+      "text": "uploaded that image will be",
+      "start": 1605.24,
+      "duration": 3.28
+    },
+    {
+      "text": "automatically and proactively removed so",
+      "start": 1606.559,
+      "duration": 4.201
+    },
+    {
+      "text": "that people don't get a chance to see it",
+      "start": 1608.52,
+      "duration": 5.0
+    },
+    {
+      "text": "so I think interventions like these um",
+      "start": 1610.76,
+      "duration": 4.399
+    },
+    {
+      "text": "are much more tenable compared to",
+      "start": 1613.52,
+      "duration": 3.8
+    },
+    {
+      "text": "interventions at the model level simply",
+      "start": 1615.159,
+      "duration": 4.321
+    },
+    {
+      "text": "because because of the high costs of uh",
+      "start": 1617.32,
+      "duration": 4.76
+    },
+    {
+      "text": "nonproliferation of of these models um",
+      "start": 1619.48,
+      "duration": 4.48
+    },
+    {
+      "text": "so this is what like the risk assessment",
+      "start": 1622.08,
+      "duration": 3.24
+    },
+    {
+      "text": "framework and especially the ease of",
+      "start": 1623.96,
+      "duration": 3.199
+    },
+    {
+      "text": "Defense step in the risk assessment",
+      "start": 1625.32,
+      "duration": 3.479
+    },
+    {
+      "text": "framework tells us like where we should",
+      "start": 1627.159,
+      "duration": 4.24
+    },
+    {
+      "text": "focus our defenses but at the same time",
+      "start": 1628.799,
+      "duration": 4.561
+    },
+    {
+      "text": "like some of the harms would likely",
+      "start": 1631.399,
+      "duration": 5.201
+    },
+    {
+      "text": "still continue so uh even though public",
+      "start": 1633.36,
+      "duration": 6.16
+    },
+    {
+      "text": "platforms and AI model hosts might take",
+      "start": 1636.6,
+      "duration": 5.319
+    },
+    {
+      "text": "down these models you still have uh end",
+      "start": 1639.52,
+      "duration": 4.32
+    },
+    {
+      "text": "encrypted chats um you have telegram",
+      "start": 1641.919,
+      "duration": 4.24
+    },
+    {
+      "text": "Bots that create NCI of people so to",
+      "start": 1643.84,
+      "duration": 4.839
+    },
+    {
+      "text": "some extent this marginal risk of uh",
+      "start": 1646.159,
+      "duration": 4.12
+    },
+    {
+      "text": "open foundation models for creating",
+      "start": 1648.679,
+      "duration": 4.161
+    },
+    {
+      "text": "non-consensual intimate imagery um is",
+      "start": 1650.279,
+      "duration": 4.321
+    },
+    {
+      "text": "tangible and it has already caused real",
+      "start": 1652.84,
+      "duration": 4.4
+    },
+    {
+      "text": "world harm um and then when we come to",
+      "start": 1654.6,
+      "duration": 4.439
+    },
+    {
+      "text": "the last step which is the uncertainty",
+      "start": 1657.24,
+      "duration": 4.36
+    },
+    {
+      "text": "and assumptions um I guess some of the",
+      "start": 1659.039,
+      "duration": 5.281
+    },
+    {
+      "text": "assumptions are around um the legal",
+      "start": 1661.6,
+      "duration": 5.6
+    },
+    {
+      "text": "State of Affairs so in particular that",
+      "start": 1664.32,
+      "duration": 5.12
+    },
+    {
+      "text": "end to encrypted chats would still",
+      "start": 1667.2,
+      "duration": 5.359
+    },
+    {
+      "text": "continue I think there is a couple of uh",
+      "start": 1669.44,
+      "duration": 5.0
+    },
+    {
+      "text": "there are a couple of initiatives",
+      "start": 1672.559,
+      "duration": 4.36
+    },
+    {
+      "text": "especially in the UK which are trying to",
+      "start": 1674.44,
+      "duration": 4.76
+    },
+    {
+      "text": "undo end to end protection or end to end",
+      "start": 1676.919,
+      "duration": 3.921
+    },
+    {
+      "text": "encryption in the first place I think",
+      "start": 1679.2,
+      "duration": 3.4
+    },
+    {
+      "text": "that's a very dangerous and risky policy",
+      "start": 1680.84,
+      "duration": 3.6
+    },
+    {
+      "text": "proposal but nonetheless it is one of",
+      "start": 1682.6,
+      "duration": 4.52
+    },
+    {
+      "text": "the assumptions built into our analysis",
+      "start": 1684.44,
+      "duration": 5.079
+    },
+    {
+      "text": "uh similarly um the Assumption around",
+      "start": 1687.12,
+      "duration": 4.6
+    },
+    {
+      "text": "these models already being useful for",
+      "start": 1689.519,
+      "duration": 5.64
+    },
+    {
+      "text": "creating NCI means that even if like",
+      "start": 1691.72,
+      "duration": 5.839
+    },
+    {
+      "text": "future models can have guard rails",
+      "start": 1695.159,
+      "duration": 5.161
+    },
+    {
+      "text": "current models will already always exist",
+      "start": 1697.559,
+      "duration": 4.321
+    },
+    {
+      "text": "and they can always be used to create",
+      "start": 1700.32,
+      "duration": 4.56
+    },
+    {
+      "text": "NCI so this again this assumption says",
+      "start": 1701.88,
+      "duration": 5.159
+    },
+    {
+      "text": "that even if we can sort of somehow",
+      "start": 1704.88,
+      "duration": 5.44
+    },
+    {
+      "text": "curve the harms of NCI in future models",
+      "start": 1707.039,
+      "duration": 5.12
+    },
+    {
+      "text": "that doesn't really matter if current",
+      "start": 1710.32,
+      "duration": 4.04
+    },
+    {
+      "text": "models are already good enough um to",
+      "start": 1712.159,
+      "duration": 4.64
+    },
+    {
+      "text": "have this huge margin ofk you referenced",
+      "start": 1714.36,
+      "duration": 5.199
+    },
+    {
+      "text": "in your explanation the kind of",
+      "start": 1716.799,
+      "duration": 5.6
+    },
+    {
+      "text": "overwhelming benefit of proliferation of",
+      "start": 1719.559,
+      "duration": 6.401
+    },
+    {
+      "text": "open foundation models is that part of",
+      "start": 1722.399,
+      "duration": 5.921
+    },
+    {
+      "text": "the analysis is that your opinion is",
+      "start": 1725.96,
+      "duration": 6.0
+    },
+    {
+      "text": "that something that would end up in the",
+      "start": 1728.32,
+      "duration": 6.4
+    },
+    {
+      "text": "uh you know the assumptions phase of an",
+      "start": 1731.96,
+      "duration": 4.88
+    },
+    {
+      "text": "analysis um so the risk analysis",
+      "start": 1734.72,
+      "duration": 3.959
+    },
+    {
+      "text": "framework does not take into account the",
+      "start": 1736.84,
+      "duration": 3.319
+    },
+    {
+      "text": "benefits it's not meant to be like a",
+      "start": 1738.679,
+      "duration": 4.281
+    },
+    {
+      "text": "cost benefit analysis um I think the",
+      "start": 1740.159,
+      "duration": 5.24
+    },
+    {
+      "text": "cost benefit analysis is hard to do in",
+      "start": 1742.96,
+      "duration": 4.599
+    },
+    {
+      "text": "like a generalizable way simply because",
+      "start": 1745.399,
+      "duration": 3.801
+    },
+    {
+      "text": "different organizations might have very",
+      "start": 1747.559,
+      "duration": 4.441
+    },
+    {
+      "text": "different incentives um they might view",
+      "start": 1749.2,
+      "duration": 4.8
+    },
+    {
+      "text": "different benefits differently so in",
+      "start": 1752.0,
+      "duration": 3.76
+    },
+    {
+      "text": "order to scope the framework to",
+      "start": 1754.0,
+      "duration": 4.08
+    },
+    {
+      "text": "something that was uh like generalizable",
+      "start": 1755.76,
+      "duration": 4.919
+    },
+    {
+      "text": "but also specific enough to be useful um",
+      "start": 1758.08,
+      "duration": 4.88
+    },
+    {
+      "text": "I think we focus specifically only on",
+      "start": 1760.679,
+      "duration": 5.281
+    },
+    {
+      "text": "the risks of uh open foundation models",
+      "start": 1762.96,
+      "duration": 4.68
+    },
+    {
+      "text": "and to get clarity on the state of the",
+      "start": 1765.96,
+      "duration": 3.599
+    },
+    {
+      "text": "risks of releasing Foundation models",
+      "start": 1767.64,
+      "duration": 4.6
+    },
+    {
+      "text": "openly the paper is useful in the",
+      "start": 1769.559,
+      "duration": 4.921
+    },
+    {
+      "text": "context of you know these broader",
+      "start": 1772.24,
+      "duration": 4.36
+    },
+    {
+      "text": "arguments in which people are arguing",
+      "start": 1774.48,
+      "duration": 4.199
+    },
+    {
+      "text": "cost and benefits and risks versus",
+      "start": 1776.6,
+      "duration": 4.88
+    },
+    {
+      "text": "benefits you're focusing on the risks",
+      "start": 1778.679,
+      "duration": 4.201
+    },
+    {
+      "text": "it's up to the people that are making",
+      "start": 1781.48,
+      "duration": 3.76
+    },
+    {
+      "text": "those arguments one way or another to",
+      "start": 1782.88,
+      "duration": 5.519
+    },
+    {
+      "text": "assess the benefits um relative to those",
+      "start": 1785.24,
+      "duration": 5.6
+    },
+    {
+      "text": "risks essentially yeah we very much did",
+      "start": 1788.399,
+      "duration": 4.961
+    },
+    {
+      "text": "not want to offer like a guide for when",
+      "start": 1790.84,
+      "duration": 4.959
+    },
+    {
+      "text": "you should release a foundation model",
+      "start": 1793.36,
+      "duration": 4.159
+    },
+    {
+      "text": "because I think that decision depends",
+      "start": 1795.799,
+      "duration": 3.961
+    },
+    {
+      "text": "very much on the specific stakeholders",
+      "start": 1797.519,
+      "duration": 4.841
+    },
+    {
+      "text": "that having been said do you present as",
+      "start": 1799.76,
+      "duration": 5.12
+    },
+    {
+      "text": "by way of example specific Foundation",
+      "start": 1802.36,
+      "duration": 4.52
+    },
+    {
+      "text": "models and assess whether they should or",
+      "start": 1804.88,
+      "duration": 6.48
+    },
+    {
+      "text": "shouldn't be uh available or um provide",
+      "start": 1806.88,
+      "duration": 6.08
+    },
+    {
+      "text": "any further guidance into the",
+      "start": 1811.36,
+      "duration": 4.319
+    },
+    {
+      "text": "application of the the framework in the",
+      "start": 1812.96,
+      "duration": 6.36
+    },
+    {
+      "text": "context of an endend assessment or do",
+      "start": 1815.679,
+      "duration": 6.081
+    },
+    {
+      "text": "you do you stay away from that so I",
+      "start": 1819.32,
+      "duration": 4.12
+    },
+    {
+      "text": "think to the extent that we focus on",
+      "start": 1821.76,
+      "duration": 3.68
+    },
+    {
+      "text": "specific Foundation models it's always",
+      "start": 1823.44,
+      "duration": 4.479
+    },
+    {
+      "text": "tied to a specific risk or benefit so I",
+      "start": 1825.44,
+      "duration": 4.4
+    },
+    {
+      "text": "think our main focus is clarifying what",
+      "start": 1827.919,
+      "duration": 4.24
+    },
+    {
+      "text": "the risks are and what the benefits are",
+      "start": 1829.84,
+      "duration": 3.839
+    },
+    {
+      "text": "um and not on the foundation models",
+      "start": 1832.159,
+      "duration": 3.921
+    },
+    {
+      "text": "themselves um but like the other risk",
+      "start": 1833.679,
+      "duration": 4.961
+    },
+    {
+      "text": "that we analyze in depth is the risk of",
+      "start": 1836.08,
+      "duration": 6.199
+    },
+    {
+      "text": "cyber security um and Es specifically",
+      "start": 1838.64,
+      "duration": 6.36
+    },
+    {
+      "text": "lots of people have claimed that cyber",
+      "start": 1842.279,
+      "duration": 4.561
+    },
+    {
+      "text": "security risks would be hugely",
+      "start": 1845.0,
+      "duration": 3.88
+    },
+    {
+      "text": "exacerbated by these large language",
+      "start": 1846.84,
+      "duration": 4.64
+    },
+    {
+      "text": "models simply because we now have a tool",
+      "start": 1848.88,
+      "duration": 4.32
+    },
+    {
+      "text": "that allows us to automatically find",
+      "start": 1851.48,
+      "duration": 5.12
+    },
+    {
+      "text": "vulnerabilities in code now we look back",
+      "start": 1853.2,
+      "duration": 5.28
+    },
+    {
+      "text": "on the field of cyber security for the",
+      "start": 1856.6,
+      "duration": 4.039
+    },
+    {
+      "text": "last 20 years and we see that automated",
+      "start": 1858.48,
+      "duration": 4.679
+    },
+    {
+      "text": "vulnerability Discovery has been much",
+      "start": 1860.639,
+      "duration": 5.321
+    },
+    {
+      "text": "better than humans so what like um",
+      "start": 1863.159,
+      "duration": 5.0
+    },
+    {
+      "text": "someone might call superhuman uh for the",
+      "start": 1865.96,
+      "duration": 3.599
+    },
+    {
+      "text": "last 20 years there have been these",
+      "start": 1868.159,
+      "duration": 3.801
+    },
+    {
+      "text": "tools called fuzzing tools uh which look",
+      "start": 1869.559,
+      "duration": 4.281
+    },
+    {
+      "text": "at specific pieces of code and try to",
+      "start": 1871.96,
+      "duration": 3.679
+    },
+    {
+      "text": "find vulnerabilities they can do it in a",
+      "start": 1873.84,
+      "duration": 4.52
+    },
+    {
+      "text": "way that's much faster and much broader",
+      "start": 1875.639,
+      "duration": 5.081
+    },
+    {
+      "text": "uh compared to most human analysis and",
+      "start": 1878.36,
+      "duration": 4.96
+    },
+    {
+      "text": "so in this way they can also improve",
+      "start": 1880.72,
+      "duration": 5.4
+    },
+    {
+      "text": "automated vulnerability disclosure so",
+      "start": 1883.32,
+      "duration": 4.959
+    },
+    {
+      "text": "why haven't we been faced with like a",
+      "start": 1886.12,
+      "duration": 4.12
+    },
+    {
+      "text": "constant Scurry of hacks but it's",
+      "start": 1888.279,
+      "duration": 3.441
+    },
+    {
+      "text": "because Defenders have access to the",
+      "start": 1890.24,
+      "duration": 3.799
+    },
+    {
+      "text": "same tools so Defenders can also use",
+      "start": 1891.72,
+      "duration": 4.919
+    },
+    {
+      "text": "fuzzing tools to preemptively block out",
+      "start": 1894.039,
+      "duration": 6.281
+    },
+    {
+      "text": "a lot of the um like harms and fix these",
+      "start": 1896.639,
+      "duration": 5.92
+    },
+    {
+      "text": "bugs and we think the same will hold",
+      "start": 1900.32,
+      "duration": 4.959
+    },
+    {
+      "text": "true for um language models as well in",
+      "start": 1902.559,
+      "duration": 4.881
+    },
+    {
+      "text": "fact this is not just a hypothesis we've",
+      "start": 1905.279,
+      "duration": 4.481
+    },
+    {
+      "text": "already seen language models like Google",
+      "start": 1907.44,
+      "duration": 5.16
+    },
+    {
+      "text": "spam being used for uh security and",
+      "start": 1909.76,
+      "duration": 5.56
+    },
+    {
+      "text": "improving security um across their own",
+      "start": 1912.6,
+      "duration": 4.679
+    },
+    {
+      "text": "code but as well as for open source",
+      "start": 1915.32,
+      "duration": 4.319
+    },
+    {
+      "text": "libraries on the internet um so they're",
+      "start": 1917.279,
+      "duration": 5.801
+    },
+    {
+      "text": "using their llm combined with a previous",
+      "start": 1919.639,
+      "duration": 6.201
+    },
+    {
+      "text": "fuzzing tool called OSS fuzz which used",
+      "start": 1923.08,
+      "duration": 5.479
+    },
+    {
+      "text": "to basically automatically scan leading",
+      "start": 1925.84,
+      "duration": 4.52
+    },
+    {
+      "text": "open source libraries on the internet",
+      "start": 1928.559,
+      "duration": 4.0
+    },
+    {
+      "text": "and they found that using llms can",
+      "start": 1930.36,
+      "duration": 4.199
+    },
+    {
+      "text": "drastically improve the number of bugs",
+      "start": 1932.559,
+      "duration": 3.681
+    },
+    {
+      "text": "caught and the number of bugs later",
+      "start": 1934.559,
+      "duration": 4.881
+    },
+    {
+      "text": "fixed by developers so I think this um",
+      "start": 1936.24,
+      "duration": 5.6
+    },
+    {
+      "text": "offense defense balance will continue to",
+      "start": 1939.44,
+      "duration": 4.88
+    },
+    {
+      "text": "be somewhat tilted in favor of Defense",
+      "start": 1941.84,
+      "duration": 4.24
+    },
+    {
+      "text": "even with these large language models",
+      "start": 1944.32,
+      "duration": 3.4
+    },
+    {
+      "text": "like Palm",
+      "start": 1946.08,
+      "duration": 4.12
+    },
+    {
+      "text": "as long as we keep investing some amount",
+      "start": 1947.72,
+      "duration": 4.36
+    },
+    {
+      "text": "of effort and energy into building tools",
+      "start": 1950.2,
+      "duration": 4.24
+    },
+    {
+      "text": "for defense stepping back from the paper",
+      "start": 1952.08,
+      "duration": 4.64
+    },
+    {
+      "text": "for a moment I'd love to have you talk",
+      "start": 1954.44,
+      "duration": 4.04
+    },
+    {
+      "text": "about the way you think about the",
+      "start": 1956.72,
+      "duration": 5.6
+    },
+    {
+      "text": "broader cost benefit analysis of open",
+      "start": 1958.48,
+      "duration": 4.88
+    },
+    {
+      "text": "foundation",
+      "start": 1962.32,
+      "duration": 3.359
+    },
+    {
+      "text": "models one of the main reasons why",
+      "start": 1963.36,
+      "duration": 4.439
+    },
+    {
+      "text": "openness is important is because it",
+      "start": 1965.679,
+      "duration": 5.161
+    },
+    {
+      "text": "allows um safety critical research so I",
+      "start": 1967.799,
+      "duration": 5.72
+    },
+    {
+      "text": "think a lot of reasons for our",
+      "start": 1970.84,
+      "duration": 4.92
+    },
+    {
+      "text": "understanding of where Foundation models",
+      "start": 1973.519,
+      "duration": 4.16
+    },
+    {
+      "text": "can be used how they can go wrong in the",
+      "start": 1975.76,
+      "duration": 4.44
+    },
+    {
+      "text": "real world have been built upon a lot of",
+      "start": 1977.679,
+      "duration": 4.281
+    },
+    {
+      "text": "work done to make these models openly",
+      "start": 1980.2,
+      "duration": 4.8
+    },
+    {
+      "text": "available they've seen jailbreaks that",
+      "start": 1981.96,
+      "duration": 5.079
+    },
+    {
+      "text": "are applicable to open models but",
+      "start": 1985.0,
+      "duration": 4.72
+    },
+    {
+      "text": "transferable to closed ones um we've",
+      "start": 1987.039,
+      "duration": 5.321
+    },
+    {
+      "text": "seen new methods for um prompt based",
+      "start": 1989.72,
+      "duration": 4.6
+    },
+    {
+      "text": "attacks we've also seen new methods for",
+      "start": 1992.36,
+      "duration": 4.36
+    },
+    {
+      "text": "defenses being developed using",
+      "start": 1994.32,
+      "duration": 4.359
+    },
+    {
+      "text": "Foundation models being released openly",
+      "start": 1996.72,
+      "duration": 4.52
+    },
+    {
+      "text": "so to some extent it seems like openness",
+      "start": 1998.679,
+      "duration": 5.161
+    },
+    {
+      "text": "is extremely valuable to fix the very",
+      "start": 2001.24,
+      "duration": 4.12
+    },
+    {
+      "text": "problem that many critics of openness",
+      "start": 2003.84,
+      "duration": 3.959
+    },
+    {
+      "text": "say it causes um the was this very nice",
+      "start": 2005.36,
+      "duration": 5.08
+    },
+    {
+      "text": "letter that was released by Modzilla I",
+      "start": 2007.799,
+      "duration": 4.84
+    },
+    {
+      "text": "think last year late last year which",
+      "start": 2010.44,
+      "duration": 4.68
+    },
+    {
+      "text": "says that when it comes to AI safety",
+      "start": 2012.639,
+      "duration": 4.361
+    },
+    {
+      "text": "openness is not the poison it's the",
+      "start": 2015.12,
+      "duration": 4.76
+    },
+    {
+      "text": "antidote um and I think I very much um",
+      "start": 2017.0,
+      "duration": 4.96
+    },
+    {
+      "text": "believe that sort of claim simply",
+      "start": 2019.88,
+      "duration": 5.48
+    },
+    {
+      "text": "because the alternative is that Ai and",
+      "start": 2021.96,
+      "duration": 5.439
+    },
+    {
+      "text": "Foundation models more generally are",
+      "start": 2025.36,
+      "duration": 4.76
+    },
+    {
+      "text": "built using or built just by a small",
+      "start": 2027.399,
+      "duration": 5.081
+    },
+    {
+      "text": "handful of companies who are licensed to",
+      "start": 2030.12,
+      "duration": 4.399
+    },
+    {
+      "text": "create these models such licenses have",
+      "start": 2032.48,
+      "duration": 4.84
+    },
+    {
+      "text": "appeared in serious policy proposals so",
+      "start": 2034.519,
+      "duration": 4.841
+    },
+    {
+      "text": "uh Senators Blumenthal and Holly have",
+      "start": 2037.32,
+      "duration": 5.44
+    },
+    {
+      "text": "this bipartisan AI framework and I think",
+      "start": 2039.36,
+      "duration": 5.0
+    },
+    {
+      "text": "one of the provisions of that framework",
+      "start": 2042.76,
+      "duration": 3.879
+    },
+    {
+      "text": "is that we need licenses for AI",
+      "start": 2044.36,
+      "duration": 5.16
+    },
+    {
+      "text": "developers uh to deem a few people uh",
+      "start": 2046.639,
+      "duration": 4.881
+    },
+    {
+      "text": "fit for creating these models I think",
+      "start": 2049.52,
+      "duration": 3.639
+    },
+    {
+      "text": "that's absolutely the wrong approach",
+      "start": 2051.52,
+      "duration": 4.599
+    },
+    {
+      "text": "when it comes to AI safety um for one it",
+      "start": 2053.159,
+      "duration": 5.92
+    },
+    {
+      "text": "is um centralizing this power of",
+      "start": 2056.119,
+      "duration": 4.96
+    },
+    {
+      "text": "deciding what's safe and unsafe in the",
+      "start": 2059.079,
+      "duration": 4.0
+    },
+    {
+      "text": "hands of a few companies but more",
+      "start": 2061.079,
+      "duration": 4.121
+    },
+    {
+      "text": "importantly I think even if we ignore",
+      "start": 2063.079,
+      "duration": 4.08
+    },
+    {
+      "text": "that part entirely I don't think it",
+      "start": 2065.2,
+      "duration": 3.8
+    },
+    {
+      "text": "leads to necessarily safer outcomes",
+      "start": 2067.159,
+      "duration": 3.561
+    },
+    {
+      "text": "because it stops all of this crucial",
+      "start": 2069.0,
+      "duration": 4.52
+    },
+    {
+      "text": "Safety Research and there is going to be",
+      "start": 2070.72,
+      "duration": 5.28
+    },
+    {
+      "text": "a time when the dam would break right",
+      "start": 2073.52,
+      "duration": 3.68
+    },
+    {
+      "text": "there's there's going to be a time when",
+      "start": 2076.0,
+      "duration": 3.2
+    },
+    {
+      "text": "compute would be cheap enough that these",
+      "start": 2077.2,
+      "duration": 4.32
+    },
+    {
+      "text": "language models can be trained by just",
+      "start": 2079.2,
+      "duration": 4.36
+    },
+    {
+      "text": "about anyone so like the frontier models",
+      "start": 2081.52,
+      "duration": 4.079
+    },
+    {
+      "text": "of today are the land party models of",
+      "start": 2083.56,
+      "duration": 3.92
+    },
+    {
+      "text": "tomorrow like Gamers at the land party",
+      "start": 2085.599,
+      "duration": 3.32
+    },
+    {
+      "text": "would be able to train that model five",
+      "start": 2087.48,
+      "duration": 4.28
+    },
+    {
+      "text": "years from now um so restrictions based",
+      "start": 2088.919,
+      "duration": 5.561
+    },
+    {
+      "text": "on like how much compute a model needs",
+      "start": 2091.76,
+      "duration": 5.64
+    },
+    {
+      "text": "are just um in my view wrong because",
+      "start": 2094.48,
+      "duration": 4.52
+    },
+    {
+      "text": "they do not leave us with the resilience",
+      "start": 2097.4,
+      "duration": 6.439
+    },
+    {
+      "text": "of societal um sort of dams or societal",
+      "start": 2099.0,
+      "duration": 7.4
+    },
+    {
+      "text": "um interventions that would be robust to",
+      "start": 2103.839,
+      "duration": 4.641
+    },
+    {
+      "text": "the point where um these models are",
+      "start": 2106.4,
+      "duration": 4.24
+    },
+    {
+      "text": "released openly and widely do you in",
+      "start": 2108.48,
+      "duration": 3.92
+    },
+    {
+      "text": "your research are broadly thinking about",
+      "start": 2110.64,
+      "duration": 6.28
+    },
+    {
+      "text": "the space look into the idea of",
+      "start": 2112.4,
+      "duration": 7.32
+    },
+    {
+      "text": "regulatory capture by some of the large",
+      "start": 2116.92,
+      "duration": 5.48
+    },
+    {
+      "text": "technology incumbents and and that as a",
+      "start": 2119.72,
+      "duration": 6.08
+    },
+    {
+      "text": "motivation for um kind of these",
+      "start": 2122.4,
+      "duration": 5.28
+    },
+    {
+      "text": "anti-open",
+      "start": 2125.8,
+      "duration": 4.96
+    },
+    {
+      "text": "proposals um the way to sort of uh",
+      "start": 2127.68,
+      "duration": 5.52
+    },
+    {
+      "text": "counter bad proposals is by focusing on",
+      "start": 2130.76,
+      "duration": 4.48
+    },
+    {
+      "text": "the content of the proposals themselves",
+      "start": 2133.2,
+      "duration": 4.399
+    },
+    {
+      "text": "so a constant theme in my work has been",
+      "start": 2135.24,
+      "duration": 4.04
+    },
+    {
+      "text": "that I try to avoid looking at the",
+      "start": 2137.599,
+      "duration": 4.121
+    },
+    {
+      "text": "intentions of the actors who might be",
+      "start": 2139.28,
+      "duration": 4.839
+    },
+    {
+      "text": "sort of arguing for various proposals",
+      "start": 2141.72,
+      "duration": 4.68
+    },
+    {
+      "text": "and instead try to focus on the content",
+      "start": 2144.119,
+      "duration": 4.321
+    },
+    {
+      "text": "of the proposals themselves and I think",
+      "start": 2146.4,
+      "duration": 3.48
+    },
+    {
+      "text": "in that way it leads to a stronger",
+      "start": 2148.44,
+      "duration": 3.679
+    },
+    {
+      "text": "defense because rather than just relying",
+      "start": 2149.88,
+      "duration": 5.12
+    },
+    {
+      "text": "on hypothesis or speculations about um",
+      "start": 2152.119,
+      "duration": 4.561
+    },
+    {
+      "text": "why someone might be doing something I",
+      "start": 2155.0,
+      "duration": 3.04
+    },
+    {
+      "text": "think I think we can actually respond to",
+      "start": 2156.68,
+      "duration": 4.04
+    },
+    {
+      "text": "the substance of it so your argument",
+      "start": 2158.04,
+      "duration": 4.72
+    },
+    {
+      "text": "then is openness is strong enough on its",
+      "start": 2160.72,
+      "duration": 5.0
+    },
+    {
+      "text": "own merits and uh conversely closeness",
+      "start": 2162.76,
+      "duration": 4.96
+    },
+    {
+      "text": "is weak enough on its own merits it",
+      "start": 2165.72,
+      "duration": 4.0
+    },
+    {
+      "text": "doesn't really matter why it's being",
+      "start": 2167.72,
+      "duration": 4.28
+    },
+    {
+      "text": "proposed absolutely like to some extent",
+      "start": 2169.72,
+      "duration": 5.399
+    },
+    {
+      "text": "the interventions are uh like can sort",
+      "start": 2172.0,
+      "duration": 4.68
+    },
+    {
+      "text": "of can be debated on their own merits",
+      "start": 2175.119,
+      "duration": 4.401
+    },
+    {
+      "text": "too I would sort of not go as far as to",
+      "start": 2176.68,
+      "duration": 4.8
+    },
+    {
+      "text": "say that openness is strong enough on",
+      "start": 2179.52,
+      "duration": 4.28
+    },
+    {
+      "text": "its own terms and closedness is not",
+      "start": 2181.48,
+      "duration": 4.68
+    },
+    {
+      "text": "today it's very clear that releasing",
+      "start": 2183.8,
+      "duration": 3.64
+    },
+    {
+      "text": "language models and Foundation models",
+      "start": 2186.16,
+      "duration": 3.08
+    },
+    {
+      "text": "more generally openly seems like the",
+      "start": 2187.44,
+      "duration": 4.159
+    },
+    {
+      "text": "right call um but I think we need to",
+      "start": 2189.24,
+      "duration": 5.2
+    },
+    {
+      "text": "keep investing in uh assessments of",
+      "start": 2191.599,
+      "duration": 5.48
+    },
+    {
+      "text": "marginal risk um and the other thing is",
+      "start": 2194.44,
+      "duration": 4.48
+    },
+    {
+      "text": "like this debate is often framed as open",
+      "start": 2197.079,
+      "duration": 4.961
+    },
+    {
+      "text": "versus closed but to be clear no one is",
+      "start": 2198.92,
+      "duration": 5.12
+    },
+    {
+      "text": "really arguing that there should be no",
+      "start": 2202.04,
+      "duration": 4.36
+    },
+    {
+      "text": "closed models the only argument is about",
+      "start": 2204.04,
+      "duration": 3.88
+    },
+    {
+      "text": "whether there should be open models or",
+      "start": 2206.4,
+      "duration": 3.8
+    },
+    {
+      "text": "not and I think the framing this",
+      "start": 2207.92,
+      "duration": 4.88
+    },
+    {
+      "text": "question this way means that like my",
+      "start": 2210.2,
+      "duration": 4.68
+    },
+    {
+      "text": "point or my stance is reframed to there",
+      "start": 2212.8,
+      "duration": 3.559
+    },
+    {
+      "text": "there is a space for open foundation",
+      "start": 2214.88,
+      "duration": 4.12
+    },
+    {
+      "text": "model in this ecosystem of closed and",
+      "start": 2216.359,
+      "duration": 5.121
+    },
+    {
+      "text": "open um so it's not open versus closed",
+      "start": 2219.0,
+      "duration": 5.4
+    },
+    {
+      "text": "it's um closed and open versus only",
+      "start": 2221.48,
+      "duration": 5.72
+    },
+    {
+      "text": "closed how do you see this work being",
+      "start": 2224.4,
+      "duration": 5.84
+    },
+    {
+      "text": "built upon I think uh there are many",
+      "start": 2227.2,
+      "duration": 5.44
+    },
+    {
+      "text": "sort of different future Parts in fact",
+      "start": 2230.24,
+      "duration": 4.28
+    },
+    {
+      "text": "as a little backstory for how this work",
+      "start": 2232.64,
+      "duration": 4.92
+    },
+    {
+      "text": "came about um the first draft of this",
+      "start": 2234.52,
+      "duration": 5.76
+    },
+    {
+      "text": "paper which now is around like 10 pages",
+      "start": 2237.56,
+      "duration": 5.24
+    },
+    {
+      "text": "I think the final length um the first",
+      "start": 2240.28,
+      "duration": 5.76
+    },
+    {
+      "text": "draft was 60 pages long we tried to do",
+      "start": 2242.8,
+      "duration": 5.64
+    },
+    {
+      "text": "in-depth risk analysis of every single",
+      "start": 2246.04,
+      "duration": 4.799
+    },
+    {
+      "text": "risk that we mention and at some point",
+      "start": 2248.44,
+      "duration": 4.72
+    },
+    {
+      "text": "we realize that we're just not qualified",
+      "start": 2250.839,
+      "duration": 5.161
+    },
+    {
+      "text": "enough to do this um we do not have the",
+      "start": 2253.16,
+      "duration": 4.56
+    },
+    {
+      "text": "expertise needed in analyzing these",
+      "start": 2256.0,
+      "duration": 4.44
+    },
+    {
+      "text": "specific risks to be able to confidently",
+      "start": 2257.72,
+      "duration": 5.399
+    },
+    {
+      "text": "State um what the risk assessment",
+      "start": 2260.44,
+      "duration": 4.76
+    },
+    {
+      "text": "scenario looks like and so one of the",
+      "start": 2263.119,
+      "duration": 4.921
+    },
+    {
+      "text": "main things I would love to see is using",
+      "start": 2265.2,
+      "duration": 4.8
+    },
+    {
+      "text": "this risk assessment framework in",
+      "start": 2268.04,
+      "duration": 3.799
+    },
+    {
+      "text": "different domains like bio security and",
+      "start": 2270.0,
+      "duration": 3.92
+    },
+    {
+      "text": "disinformation to see what the marginal",
+      "start": 2271.839,
+      "duration": 4.401
+    },
+    {
+      "text": "risks are and to some extent like",
+      "start": 2273.92,
+      "duration": 4.52
+    },
+    {
+      "text": "clearly lay out this argument for why",
+      "start": 2276.24,
+      "duration": 4.76
+    },
+    {
+      "text": "there is or isn't um marginal risk from",
+      "start": 2278.44,
+      "duration": 5.399
+    },
+    {
+      "text": "openness I think on so this is on the",
+      "start": 2281.0,
+      "duration": 5.0
+    },
+    {
+      "text": "academic side on the research side or",
+      "start": 2283.839,
+      "duration": 4.681
+    },
+    {
+      "text": "sorry on the policy side um I think one",
+      "start": 2286.0,
+      "duration": 4.68
+    },
+    {
+      "text": "of the main ways this framework can be",
+      "start": 2288.52,
+      "duration": 4.64
+    },
+    {
+      "text": "helpful is in guiding what type of",
+      "start": 2290.68,
+      "duration": 4.919
+    },
+    {
+      "text": "research policy makers fund so we're",
+      "start": 2293.16,
+      "duration": 4.6
+    },
+    {
+      "text": "already seeing AI safety institutes in",
+      "start": 2295.599,
+      "duration": 4.24
+    },
+    {
+      "text": "the US and UK start to look at the",
+      "start": 2297.76,
+      "duration": 3.76
+    },
+    {
+      "text": "question of openness and I think the",
+      "start": 2299.839,
+      "duration": 3.321
+    },
+    {
+      "text": "framework can be helpful in informing",
+      "start": 2301.52,
+      "duration": 3.28
+    },
+    {
+      "text": "them what type of research is important",
+      "start": 2303.16,
+      "duration": 4.08
+    },
+    {
+      "text": "and Urgent and I think the second area",
+      "start": 2304.8,
+      "duration": 5.88
+    },
+    {
+      "text": "is to give policy makers who are um",
+      "start": 2307.24,
+      "duration": 5.079
+    },
+    {
+      "text": "extremely convinced that we need to lock",
+      "start": 2310.68,
+      "duration": 3.52
+    },
+    {
+      "text": "down these models a reason to think",
+      "start": 2312.319,
+      "duration": 4.081
+    },
+    {
+      "text": "again uh because I think we really do",
+      "start": 2314.2,
+      "duration": 4.119
+    },
+    {
+      "text": "see that there is very little marginal",
+      "start": 2316.4,
+      "duration": 4.12
+    },
+    {
+      "text": "um evidence of marginal risk from open",
+      "start": 2318.319,
+      "duration": 5.841
+    },
+    {
+      "text": "foundation models and once we sort of",
+      "start": 2320.52,
+      "duration": 5.36
+    },
+    {
+      "text": "hone in on this question of marginal",
+      "start": 2324.16,
+      "duration": 3.679
+    },
+    {
+      "text": "risk it becomes clear that at least for",
+      "start": 2325.88,
+      "duration": 4.959
+    },
+    {
+      "text": "the time being um clamping down on model",
+      "start": 2327.839,
+      "duration": 4.961
+    },
+    {
+      "text": "weight releases might not be the best",
+      "start": 2330.839,
+      "duration": 3.801
+    },
+    {
+      "text": "intervention to be clear we do need",
+      "start": 2332.8,
+      "duration": 4.36
+    },
+    {
+      "text": "interventions for biocurity um the",
+      "start": 2334.64,
+      "duration": 4.679
+    },
+    {
+      "text": "executive office the executive order",
+      "start": 2337.16,
+      "duration": 4.6
+    },
+    {
+      "text": "released last year had a provision for",
+      "start": 2339.319,
+      "duration": 5.04
+    },
+    {
+      "text": "stricter screening of biocurity",
+      "start": 2341.76,
+      "duration": 5.359
+    },
+    {
+      "text": "materials that I think is absolutely a",
+      "start": 2344.359,
+      "duration": 4.681
+    },
+    {
+      "text": "step in the right direction similarly",
+      "start": 2347.119,
+      "duration": 4.121
+    },
+    {
+      "text": "for cyber security we need resilience on",
+      "start": 2349.04,
+      "duration": 4.84
+    },
+    {
+      "text": "the downstream surface for NCI we need",
+      "start": 2351.24,
+      "duration": 4.44
+    },
+    {
+      "text": "these platforms to coordinate with each",
+      "start": 2353.88,
+      "duration": 4.0
+    },
+    {
+      "text": "other so that they can take down NCI as",
+      "start": 2355.68,
+      "duration": 5.12
+    },
+    {
+      "text": "soon as it's posted um so there is a lot",
+      "start": 2357.88,
+      "duration": 5.6
+    },
+    {
+      "text": "of urgent action needed it's just not at",
+      "start": 2360.8,
+      "duration": 4.72
+    },
+    {
+      "text": "the level of the AI model alone it's at",
+      "start": 2363.48,
+      "duration": 4.96
+    },
+    {
+      "text": "the entire pipeline of how these risks",
+      "start": 2365.52,
+      "duration": 5.2
+    },
+    {
+      "text": "materialize you were recently involved",
+      "start": 2368.44,
+      "duration": 5.44
+    },
+    {
+      "text": "in an open letter that was published on",
+      "start": 2370.72,
+      "duration": 5.04
+    },
+    {
+      "text": "uh related area can you talk a little",
+      "start": 2373.88,
+      "duration": 5.08
+    },
+    {
+      "text": "bit about that absolutely so um this is",
+      "start": 2375.76,
+      "duration": 5.16
+    },
+    {
+      "text": "somewhat related to our work on openness",
+      "start": 2378.96,
+      "duration": 4.32
+    },
+    {
+      "text": "in the open letter we argue for a safe",
+      "start": 2380.92,
+      "duration": 4.08
+    },
+    {
+      "text": "harbor for researchers who are",
+      "start": 2383.28,
+      "duration": 4.36
+    },
+    {
+      "text": "investigating the risks of AI um so",
+      "start": 2385.0,
+      "duration": 4.4
+    },
+    {
+      "text": "here's what I mean by a safe harbor a",
+      "start": 2387.64,
+      "duration": 3.56
+    },
+    {
+      "text": "lot of the legal terms and conditions",
+      "start": 2389.4,
+      "duration": 3.64
+    },
+    {
+      "text": "that are attached to closed Foundation",
+      "start": 2391.2,
+      "duration": 4.28
+    },
+    {
+      "text": "models as well as open foundation models",
+      "start": 2393.04,
+      "duration": 5.279
+    },
+    {
+      "text": "mandate that certain types of activity",
+      "start": 2395.48,
+      "duration": 5.24
+    },
+    {
+      "text": "conducted using the model is prohibited",
+      "start": 2398.319,
+      "duration": 4.241
+    },
+    {
+      "text": "so this might come from a place of",
+      "start": 2400.72,
+      "duration": 4.24
+    },
+    {
+      "text": "caution open AI might not want cyber",
+      "start": 2402.56,
+      "duration": 4.279
+    },
+    {
+      "text": "terrorists to use their models for",
+      "start": 2404.96,
+      "duration": 4.6
+    },
+    {
+      "text": "creating malware similarly um it might",
+      "start": 2406.839,
+      "duration": 4.881
+    },
+    {
+      "text": "not want people to create disinformation",
+      "start": 2409.56,
+      "duration": 4.799
+    },
+    {
+      "text": "campaigns um it might not want all sorts",
+      "start": 2411.72,
+      "duration": 4.639
+    },
+    {
+      "text": "of other materials to be generated and",
+      "start": 2414.359,
+      "duration": 4.441
+    },
+    {
+      "text": "this is all fine and good but what these",
+      "start": 2416.359,
+      "duration": 4.921
+    },
+    {
+      "text": "terms of conditions also mean or also",
+      "start": 2418.8,
+      "duration": 4.4
+    },
+    {
+      "text": "lead to is that when researchers are",
+      "start": 2421.28,
+      "duration": 4.16
+    },
+    {
+      "text": "investigating the risks of these modules",
+      "start": 2423.2,
+      "duration": 3.96
+    },
+    {
+      "text": "perhaps by looking at things like",
+      "start": 2425.44,
+      "duration": 4.2
+    },
+    {
+      "text": "jailbreaking or prompt engineering they",
+      "start": 2427.16,
+      "duration": 5.12
+    },
+    {
+      "text": "might also run a foul of these terms and",
+      "start": 2429.64,
+      "duration": 6.24
+    },
+    {
+      "text": "so in in imposing this one siiz fits-all",
+      "start": 2432.28,
+      "duration": 5.76
+    },
+    {
+      "text": "terms of condition um there is very",
+      "start": 2435.88,
+      "duration": 4.439
+    },
+    {
+      "text": "little room left for independent Safety",
+      "start": 2438.04,
+      "duration": 4.36
+    },
+    {
+      "text": "Research and independent trustworthiness",
+      "start": 2440.319,
+      "duration": 4.321
+    },
+    {
+      "text": "research um when it comes to a lot of",
+      "start": 2442.4,
+      "duration": 4.56
+    },
+    {
+      "text": "these AI modules and our open letter",
+      "start": 2444.64,
+      "duration": 5.28
+    },
+    {
+      "text": "calls for a legal Safe Harbor for AI",
+      "start": 2446.96,
+      "duration": 6.0
+    },
+    {
+      "text": "research that um might violate the terms",
+      "start": 2449.92,
+      "duration": 5.24
+    },
+    {
+      "text": "of condition but is still done in the",
+      "start": 2452.96,
+      "duration": 4.32
+    },
+    {
+      "text": "spirit of um AI trustworthiness and",
+      "start": 2455.16,
+      "duration": 3.84
+    },
+    {
+      "text": "safety and in fact there is a long",
+      "start": 2457.28,
+      "duration": 3.64
+    },
+    {
+      "text": "history of protecting similar types of",
+      "start": 2459.0,
+      "duration": 4.079
+    },
+    {
+      "text": "research um so in particular in the",
+      "start": 2460.92,
+      "duration": 5.32
+    },
+    {
+      "text": "security Community there is this uh well",
+      "start": 2463.079,
+      "duration": 5.601
+    },
+    {
+      "text": "established tradition of A Safe Harbor",
+      "start": 2466.24,
+      "duration": 5.2
+    },
+    {
+      "text": "for security researchers who responsibly",
+      "start": 2468.68,
+      "duration": 4.36
+    },
+    {
+      "text": "disclose these vulnerabilities to the",
+      "start": 2471.44,
+      "duration": 3.36
+    },
+    {
+      "text": "companies in advance we argue for",
+      "start": 2473.04,
+      "duration": 3.72
+    },
+    {
+      "text": "something very similar for AI safety and",
+      "start": 2474.8,
+      "duration": 4.72
+    },
+    {
+      "text": "trustworth research um if researchers",
+      "start": 2476.76,
+      "duration": 4.48
+    },
+    {
+      "text": "are responsibly disclosing these",
+      "start": 2479.52,
+      "duration": 3.52
+    },
+    {
+      "text": "vulnerabilities doing good faith",
+      "start": 2481.24,
+      "duration": 3.4
+    },
+    {
+      "text": "research um then they should be",
+      "start": 2483.04,
+      "duration": 3.319
+    },
+    {
+      "text": "protected in terms of legal inem",
+      "start": 2484.64,
+      "duration": 3.8
+    },
+    {
+      "text": "ification and also from their accounts",
+      "start": 2486.359,
+      "duration": 5.24
+    },
+    {
+      "text": "being banned or removed",
+      "start": 2488.44,
+      "duration": 7.879
+    },
+    {
+      "text": "completely in the case of the security",
+      "start": 2491.599,
+      "duration": 8.041
+    },
+    {
+      "text": "example you mentioned tradition is it",
+      "start": 2496.319,
+      "duration": 5.0
+    },
+    {
+      "text": "strictly tradition or is it legal",
+      "start": 2499.64,
+      "duration": 3.4
+    },
+    {
+      "text": "precedence I was under the impression",
+      "start": 2501.319,
+      "duration": 4.201
+    },
+    {
+      "text": "that it's not infrequent for a security",
+      "start": 2503.04,
+      "duration": 4.6
+    },
+    {
+      "text": "researcher to get in trouble with for",
+      "start": 2505.52,
+      "duration": 7.0
+    },
+    {
+      "text": "example the dcma uh um as part of their",
+      "start": 2507.64,
+      "duration": 8.12
+    },
+    {
+      "text": "work yeah absolutely I mean I think it",
+      "start": 2512.52,
+      "duration": 5.4
+    },
+    {
+      "text": "is very much more than just a tradition",
+      "start": 2515.76,
+      "duration": 5.079
+    },
+    {
+      "text": "at this point so you're right that in",
+      "start": 2517.92,
+      "duration": 5.199
+    },
+    {
+      "text": "the last few years security researchers",
+      "start": 2520.839,
+      "duration": 4.24
+    },
+    {
+      "text": "have had troubles with uh technology",
+      "start": 2523.119,
+      "duration": 4.121
+    },
+    {
+      "text": "companies they're investigating but very",
+      "start": 2525.079,
+      "duration": 3.841
+    },
+    {
+      "text": "recently I think it was the Department",
+      "start": 2527.24,
+      "duration": 4.32
+    },
+    {
+      "text": "of Justice that rolled out this notice",
+      "start": 2528.92,
+      "duration": 5.199
+    },
+    {
+      "text": "saying that uh like security researchers",
+      "start": 2531.56,
+      "duration": 4.64
+    },
+    {
+      "text": "doing good food security research are",
+      "start": 2534.119,
+      "duration": 4.641
+    },
+    {
+      "text": "exempt from the provisions of the uh",
+      "start": 2536.2,
+      "duration": 4.8
+    },
+    {
+      "text": "Digital Millennium Copyright Act and",
+      "start": 2538.76,
+      "duration": 5.04
+    },
+    {
+      "text": "similarly I think U people have in other",
+      "start": 2541.0,
+      "duration": 5.0
+    },
+    {
+      "text": "sort of security areas too fought for in",
+      "start": 2543.8,
+      "duration": 4.4
+    },
+    {
+      "text": "one these safe harbors from company so I",
+      "start": 2546.0,
+      "duration": 4.16
+    },
+    {
+      "text": "think we're very much relying on this",
+      "start": 2548.2,
+      "duration": 4.04
+    },
+    {
+      "text": "long tradition of security researchers",
+      "start": 2550.16,
+      "duration": 4.08
+    },
+    {
+      "text": "having done the work of coming up with",
+      "start": 2552.24,
+      "duration": 4.16
+    },
+    {
+      "text": "what responsible disclos disclosure",
+      "start": 2554.24,
+      "duration": 4.76
+    },
+    {
+      "text": "looks like and how we should go about um",
+      "start": 2556.4,
+      "duration": 4.959
+    },
+    {
+      "text": "articula articulating it um I'd be",
+      "start": 2559.0,
+      "duration": 3.96
+    },
+    {
+      "text": "remiss if I did not mention this other",
+      "start": 2561.359,
+      "duration": 3.161
+    },
+    {
+      "text": "Safe Harbor that was proposed which is",
+      "start": 2562.96,
+      "duration": 3.639
+    },
+    {
+      "text": "also very close to the one we propos",
+      "start": 2564.52,
+      "duration": 4.599
+    },
+    {
+      "text": "which is for social media platforms so",
+      "start": 2566.599,
+      "duration": 4.601
+    },
+    {
+      "text": "many researchers in the last few years",
+      "start": 2569.119,
+      "duration": 4.681
+    },
+    {
+      "text": "have tried to um collect data from",
+      "start": 2571.2,
+      "duration": 4.639
+    },
+    {
+      "text": "social media platforms let's say about",
+      "start": 2573.8,
+      "duration": 4.68
+    },
+    {
+      "text": "the transparency or the transparency of",
+      "start": 2575.839,
+      "duration": 4.52
+    },
+    {
+      "text": "how often users see certain types of",
+      "start": 2578.48,
+      "duration": 4.4
+    },
+    {
+      "text": "posts and in a lot of cases social media",
+      "start": 2580.359,
+      "duration": 5.681
+    },
+    {
+      "text": "platforms have gone after them um in",
+      "start": 2582.88,
+      "duration": 5.04
+    },
+    {
+      "text": "response to such concerns I think the",
+      "start": 2586.04,
+      "duration": 4.4
+    },
+    {
+      "text": "night First Amendment Institute um wrote",
+      "start": 2587.92,
+      "duration": 4.76
+    },
+    {
+      "text": "a letter calling for a safe harbor for",
+      "start": 2590.44,
+      "duration": 3.72
+    },
+    {
+      "text": "independent investigations of social",
+      "start": 2592.68,
+      "duration": 3.76
+    },
+    {
+      "text": "media um which I think was very",
+      "start": 2594.16,
+      "duration": 3.919
+    },
+    {
+      "text": "influential in informing our line of",
+      "start": 2596.44,
+      "duration": 4.119
+    },
+    {
+      "text": "thinking here as well and in particular",
+      "start": 2598.079,
+      "duration": 4.641
+    },
+    {
+      "text": "like it outlined this framework for how",
+      "start": 2600.559,
+      "duration": 4.201
+    },
+    {
+      "text": "to think about safe harbers while the",
+      "start": 2602.72,
+      "duration": 4.72
+    },
+    {
+      "text": "specifics um vary between these two",
+      "start": 2604.76,
+      "duration": 5.04
+    },
+    {
+      "text": "efforts simply because the prior effort",
+      "start": 2607.44,
+      "duration": 3.919
+    },
+    {
+      "text": "was aimed at social media and this one",
+      "start": 2609.8,
+      "duration": 3.6
+    },
+    {
+      "text": "is aimed at AI I think the overall",
+      "start": 2611.359,
+      "duration": 3.96
+    },
+    {
+      "text": "spirit is very much the same that we",
+      "start": 2613.4,
+      "duration": 4.36
+    },
+    {
+      "text": "need researcher access and protections",
+      "start": 2615.319,
+      "duration": 4.641
+    },
+    {
+      "text": "when people are doing research that can",
+      "start": 2617.76,
+      "duration": 4.839
+    },
+    {
+      "text": "uh that is so societally Ben beneficient",
+      "start": 2619.96,
+      "duration": 4.639
+    },
+    {
+      "text": "even if it is not useful to the",
+      "start": 2622.599,
+      "duration": 4.041
+    },
+    {
+      "text": "companies or even if it might impose",
+      "start": 2624.599,
+      "duration": 4.72
+    },
+    {
+      "text": "some liability on the companies well s",
+      "start": 2626.64,
+      "duration": 5.199
+    },
+    {
+      "text": "thanks so much for joining us to share a",
+      "start": 2629.319,
+      "duration": 4.881
+    },
+    {
+      "text": "bit about your work thank you so much",
+      "start": 2631.839,
+      "duration": 6.24
+    },
+    {
+      "text": "for having me it was a pleasure",
+      "start": 2634.2,
+      "duration": 3.879
+    }
+  ]
+}

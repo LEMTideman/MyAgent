@@ -1,0 +1,1317 @@
+[Music]
+Welcome back to the AI policy podcast.
+I'm Gregory Allen and today we've got a
+really important episode at the center
+of the AI regulation and governance
+conversation. Um, if you are following
+this podcast, you know that the EU AI
+Act is a landmark piece of legislation
+that has been taking an awful long time
+to implement. And now some of the big
+machinery behind that regulatory
+approach is now in effect. And one of
+the most important things in it is the
+code of practice for general purpose AI
+models. This is a very complex document,
+but a really important one, not just for
+Europe, but for the entire world in the
+future of AI regulation and governance.
+Um, it's also a pretty complex document,
+and that's why we're extremely lucky to
+have a guest here today, Maricha Shock,
+who is one of the most important drivers
+behind this code of practice. She was
+one of the working group chairs that
+drafted the safety and security section
+of the code of practice. She also has a
+distinguished background as a former
+member of the European Parliament. She
+also writes a column that you may have
+read uh at the Financial Times, which is
+excellent. And her current day job, I
+guess you would say, is that she's a
+fellow at Stanford's Cyber Policy Center
+and the Institute for Human- Centered AI
+and is also the author of the 2024 book,
+The Tech Coup. So, Marie Shashak, thank
+you so much for joining the AI policy
+podcast.
+>> Great to be here. Thanks for the
+introduction. So, we're going to get
+into the meat of the code of practice
+here, but before we do that, I want to
+understand a little bit more about your
+background. Um, how did you come to work
+on tech regulatory policy? How did you
+become interested in AI? What's sort of
+the starting point of your career which
+has uh done a lot of different things?
+>> I would say two starting points are
+important. One is when I studied at the
+University of Amsterdam. Um I I was
+constantly looking for how to apply any
+knowledge that I gained while studying
+and I didn't even find it so easy. I
+studied American studies by the way. So
+you know um like many I I will claim to
+be an expert on American politics even
+though it's mindboggling what's
+happening uh there now. But um um there
+was a new minor at the time uh that was
+a new media and new media meant you know
+questions around what is the worldwide
+web what is this internet that is
+emerging we're talking uh 199uh9
+2000 uh roughly speaking and so I
+decided to enroll and uh this was
+because I I always had a curiosity about
+where change was coming from. And so,
+you know, there are many things that uh
+induce change, but of course, technology
+is one of them. And you could argue
+policy and politics is also one of them.
+And so, I studied it a little bit, was
+always curious about technology. And um
+as an outsider in politics uh in my late
+20s when I ran for European Parliament
+for the first time uh this coincided
+with the Barack Obama campaign in the
+United States, the emergence of social
+media platforms where you know maybe
+this was the case in the US too, you
+would have to tell me. But in the
+Netherlands it was also this early phase
+where social media platforms were really
+platforms for political discussion. So
+it was a smaller group of people, maybe
+journalists, policy makers, experts in
+some fields that would gather there. And
+so I saw it as a way to reach audiences
+where I just didn't have a profile for
+national media at all. And so that was a
+sort of organic entry way um into using
+the technology, but also, you know, when
+I got elected at the age of 30, being
+seen as someone who represented this
+younger, more tech-savvy generation, I
+had this curiosity, this background in
+studying it. So I continued to also just
+look at this intersection of technology
+and society, technology and politics.
+And then what really accelerated my role
+as as you know a policy um you know lead
+as a representative focusing on these
+areas were the Arab uprisings.
+>> And so one of the first Arab Spring of
+the 2012 time frame.
+>> Yeah. But it also started in Iran if you
+remember. So I was elected first in 2009
+and this was when the Gree movement
+happened in Iran as well.
+>> And um you know one of the first trips
+that I took abroad was in uh early 2010
+because I went to eastern Turkey to meet
+with refugees from Iran. You know these
+activists were fleeing because they were
+being you know harshly uh persecuted,
+imprisoned, tortured, you know the worst
+conditions. And um when I met these
+activists of which we had heard they
+were organizing on social media, you
+know, there was this famous delay in the
+update of Twitter if you remember uh
+under the Obama administration because
+there was concern that then um the
+Iranians couldn't post the eyewitness
+accounts of what was happening. And so
+we were very familiar with the story of
+sort of Facebook revolutions, Twitter
+revolutions and that whole narrative
+which was you know very flawed. But when
+I met these activists that had fled to
+Turkey, I also learned of their deep
+concerns about surveillance, about
+hacking and I decided to dive in deeper.
+And so one of the first
+>> I guess I should just say like this was
+a pretty idealistic moment uh in terms
+of what technology meant for the
+signature of politics. I remember I
+think it was 2012 when uh then Facebook
+CEO now Meta CEO Mark Zuckerberg wrote a
+post in which he basically said that the
+growth of Facebook is synonymous with
+the spread of democracy and that like
+everything that we're doing is
+bolstering free speech liberty um and
+and as you just saw like Arab regimes
+like Libya fall over um and Tunisia uh
+it looked like Facebook was this tool
+for democratic promotion that was just
+going to usher in this beautiful era of
+peace and political harmony. Um didn't
+quite work out that way, but it was this
+this really idealistic moment and you
+had a really interesting viewpoint on it
+from your seat in the European
+Parliament.
+>> Yes. and being able to, you know, travel
+to these places, Iran first, but later
+also Tunisia, Egypt, meet with all these
+activists, and hear their eyewitness
+accounts, their firsthand accounts of,
+you know, being arrested, being
+tortured, um, but being confronted with
+their own messaging, with their own
+emails. Uh and then you know I decided
+to dig in further and I learned that
+some of the technologies that these
+dictatorships were using against
+bloggers, protesters, students you know
+human rights defenders, opposition
+leaders were sophisticated surveillance
+tools. I think that was the sort of less
+idealistic story about what role
+technology played in these uprisings.
+But they were also made in Europe. And
+you know it was a real wakeup call for
+me because on the one hand we sort of
+had universal outcry of the repression
+of people. There was also particularly
+from the democratic world US uh EU
+countries the EU a real hope that indeed
+this this youthful uh uprising uh cries
+for more justice, more equal treatment,
+more uh democracy were going to succeed
+and that that technology could play a
+role in this. But then, you know, how
+could it be that our our ministers were
+condemning the repression of of um these
+activists, but then our quote unquote,
+you know, Europeanmade technology was
+the tool of choice to repress. And of
+course, it's different if you can
+already surveil and intimidate and limit
+people before they have to take to the
+streets or before violence has to be
+used. So, it's actually a very
+sophisticated tool um because it's less
+visible and it was also um you know
+potentially not as violent but certainly
+very effective and so it would maybe
+lead to less outcry etc which I think
+was the case because it took forever
+>> to get restrictions on spyware and if we
+look globally now the market in spyware
+is still way too powerful and and
+unregulated. Um so those were a couple
+of years where I spend a lot of time at
+the intersection of human rights and
+technology, democracy and technology but
+it was mostly a foreign policy issue I
+should add.
+>> And then of course you know as the years
+progressed technology started to be used
+more and more the tech companies
+including the popular ones that we know
+became much more powerful. So then all
+kinds of angles like antitrust, cyber
+security, copyright protection, export
+controls, you know, were added to that
+portfolio of policy issues that I worked
+on. Um, but I have always been and
+continue to be motivated by the question
+of how can we make sure that the core
+values that define our quality of life,
+the rule of law, democracy, human rights
+are the core lens through which, you
+know, we treat technology. that we're
+not too frivolous or too careless about
+these core principles as we, you know,
+celebrate the the marvel of innovation,
+the hopes that we have of what beautiful
+solutions technology might bring. I
+mean, we're now in the age of AI. This
+is an AI podcast. I mean, you probably
+have a comprehensive list of promises
+that have been made by CEOs about, you
+know, curing cancer, ending climate
+change, uh, disaster, breakthroughs in
+science.
+>> Don't forget about ending poverty. We're
+gonna end that one, too.
+>> Oh, that's true. Yeah, I forgot that
+one.
+you know, there's such a long list of
+what AI is promising to deliver, but I
+think um you know, it's it's become my
+role to also ask myself um well, first
+of all, is this a hype? Second of all,
+what could it mean in a different
+context? What could it mean for the most
+vulnerable? Uh how do we make sure that
+we don't just hope, but that we have
+safeguards? You know, where do checks
+and balances come from and so on and so
+forth.
+>> Excellent. And um you know I think when
+most people think about European
+uh regulation of technology they're not
+thinking of those initial spyw wear uh
+kind of debates that you talked about. I
+think the the landmark legislation that
+most people sort of anchor on is GDPR um
+which of course relates to privacy and
+therefore has a tie to spyware. But were
+were you part of that sort of uh
+transition?
+>> Well, we were all voting on it. um but I
+wasn't as directly involved but it was
+definitely a piece of legislation that
+also focused the minds in Europe and I
+think you know part of why data
+protection has always been such a key
+issue for Europeans is because of our
+recent past with fascism you know I sat
+in the European Parliament with
+colleagues who grew up under communism
+>> as well yeah
+>> yes but that's you know clearly uh an
+anchoring
+identity uh for Europeans and one that
+you know most of us would hope never to
+repeat.
+>> Yeah. I'm gonna I'm gonna just interject
+with a uh uh a fun fact that has always
+blown my mind and I always anchor on
+this in uh discussions about
+surveillance and technology. So, um if
+you've ever been to Berlin uh and you
+haven't been to the Stazzi Museum,
+you've got to go. So, this is the
+original headquarters of the European
+Easter East Germany's uh secret police.
+And one of the amazing uh data points
+that they have is that it turns out that
+one out of every 67
+East Germans was either working directly
+as a Stazzy employee or was an
+officially you know known informant. So
+think about how labor intensive the
+surveillance apparatus of that
+repressive society was. One out of every
+67 humans in the country of working age
+or no not even of working age of the
+whole country.
+>> So if it's of working age it would
+probably be like one out of every 40
+people or something like that um was
+working for the surveillance apparatus
+and that's because they didn't have you
+know modern technology where computers
+can handle so much of the surveillance
+burden um and AI. And so, yes, you're
+you're you're totally right to point
+out, right, that those memories loom
+incredibly large uh in the minds of
+Europeans as they're thinking about uh
+privacy and and other things.
+>> What's interesting is that, you know, in
+those years uh the focus of Europeans
+was much more on data protection while
+the focus in the US was already on data
+mining and you know training AI models.
+So I think you know one of the lessons
+learned there and there are many when it
+comes to the general data protection
+regulation including how important
+enforcement is and not just the the
+letter of the law because the
+enforcement has has just not really been
+up to par. Um but it's also that
+sometimes there can be a tunnel vision
+right if you if you're focusing on one
+thing maybe another thing is happening
+in the meantime. So it's it's been a
+really interesting uh lesson learned.
+But yes, I think the reason why the GDPR
+is such a important um an important uh
+starting point of sort of tech
+regulation for Americans is that it was
+the first time that US companies started
+to take EU regulation seriously. So
+until then there was kind of a sort of
+you know laughing and dismissal of what
+European regulation was. It was
+sometimes framed as a bit emotional and
+and um you know typical for Europeans
+but not something that the tech
+companies and others by the way uh would
+have to reckon with because as you
+probably know the general data
+protection regulation is a horizontal
+law. It applies to you know the local
+swimming pool as much as it does to
+Google. And so uh while tech companies
+have kind of framed it as a weapon to go
+after the US tech companies and maybe
+unfairly so this is really one
+harmonizing 27 different uh systems of
+each member state into one standard
+which is something that a lot of EU
+regulation is about to make sure that we
+harmonize over time. Uh but it's it also
+applies to everyone. But because it it
+hit home in Silicon Valley that you know
+this really mattered they had to change
+their policies there could be serious
+fines. Um it is it is you know maybe the
+starting point of history for many in
+Silicon Valley.
+>> Yeah. And so uh coming back to you you
+know how did you make the jump to
+interest in AI specifically?
+>> Well again I think this was organic uh
+first of all some of the things that we
+used to call social media uh we now call
+AI. So um it's just you know if you're
+interested in tech you're sort of
+interested in AI
+>> as the as a sort of tech policy
+interested person as AI rises in
+prominence it naturally falls on your
+desk. I mean there's a very similar
+phenomenon in the US government where
+the sort of first trunch of AI policy
+people in the national security
+community were almost invariably cyber
+people or space people because those are
+the you know people who like understand
+technology things
+and and so it just sort of naturally
+falls on your desk I'm sure. Well, but
+it was also accelerated by the fact that
+so when I left the European Parliament
+in 2019 after 10 years there uh I uh got
+a job offer at Stanford and it was a a
+double appointment one that I still have
+one with the more political science kind
+of research uh clusters at FSI uh
+wonderful place run by by Mike McFall
+which also has the cyber policy center
+which is indeed you know the starting
+point is policy but then I also had an
+appointment at this very new institute
+at the time called the institute for
+human- centered AI and you know there
+the focus was really on AI and so all my
+colleagues there are focusing on AI
+exclusively and so as a result I sort of
+you know deepened my focus on AI was
+appointed to the UN high level advisory
+body to the secretary general on AI so
+you know that allowed allowed us all to
+take a much more global perspective
+where you know before that my my remit
+was mostly EU transatlantic because I
+served on the um US deleg ation of the
+parliament and because so many companies
+are American. So it's just grown by the
+various things I've done and then um I
+became one of the chairs of this code of
+practice that I know you'd like to focus
+on as well.
+>> So it's it's been organic but I don't
+consider myself an AI expert if that
+makes sense. I'm much more of a broad
+tech policy person and um I just think
+we all have to wrap our heads around
+what AI means in our society and sort of
+weed through hype and hysteria and
+>> um to a large extent the same policy
+questions apply if you ask me you know
+how do we make sure there yeah go ahead
+>> um let's turn to the the code of
+practice so first I I kind of want to
+understand like the machinery for how
+this came into existence so the EU AI
+act you has a bunch of thou shalts.
+Companies shall do X and then there's
+the question of like how does the
+government and how do even the companies
+know and show that they are complying
+with the law and it seems like a lot of
+the answer uh is going to be found in
+this code of practice. So help us
+understand like what is this thing? How
+does it fit into the larger picture?
+>> Right. Let me start with the larger
+picture because I think it will help
+listeners understand. So um in your
+introduction you said the AI act is this
+law that's taken you know ages to
+implement but actually by by legislative
+standards the uh process has been quick
+>> draft and implement it's taken ages. It
+took about 2 years to draft I would say
+and you know the irony is of course that
+what when the idea is to fastly
+implement companies say hold on just a
+minute we need time
+and other stakeholders may also say we
+need to adjust because you know
+institutions have to be set up or
+reorganized in order to do the
+enforcement. So you know there's often a
+reason for time spent which is to
+prepare stakeholders in this case AI
+companies that I think you know should
+be capable with their with their uh
+multiple billions because that's the
+group that has to do most of the uh
+preparation but you know we can get to
+that. So when the work on the AI act
+started, a lot of people said, "Oh my
+gosh, the EU is too quick, right? Why
+would you regulate AI now? You're going
+to stifle innovation," which is sort of
+the most heard mantra about the EU and
+regulation anyway when it comes from
+from tech and AI people. But the
+decision was made that this was going to
+be a very deeply impactful technology
+and that there needed to be a sort of
+conceptual framework in the law of how
+to how to assess risk and mitigate risk.
+And so the vast majority of use cases is
+not considered to be risky. But then
+there's a risk spectrum, you know, that
+goes from low-level risk to high level
+and even unacceptable risk, which is how
+the law is is um built up. And so you
+could say it's very much comparable to
+liability uh rules and you know safety
+rules in anything from I don't know
+machinery to pharmaceuticals right like
+where do we see the most risk what are
+the obligations of the providers the
+makers of this product uh to mitigate
+the risk
+but then while the law was being drafted
+you know generative AI broke through and
+the question became as AI was
+progressing So quickly what do we do
+with more general purpose AI models? So
+where it's not clear that it's used for
+biometric identification or for scanning
+someone's CV for employment
+>> because those risk classifications that
+you mentioned earlier those are use case
+breakdowns right like this is high risk
+this use case is low risk and so what do
+you do when you have AI capabilities
+that don't just have one use case they
+have potentially you know in infinite
+use cases
+>> exactly thank you that's an important
+clarification
+Um for for those categories,
+a group of independent experts were
+invited to help sort of create uh
+clarity for companies, you know, when
+when they were subject to this part of
+the law and how they might comply.
+And you know, this is a process that's
+still unfolding where the European AI
+office or the European Commission still
+is doing work with regards to standards
+and clarifying what these companies
+should do. But as independent experts
+with various backgrounds, a lot of
+actual AI experts, but also some others
+like in the space of copyright or in my
+case in policy were asked to
+basically clarify for companies what
+compliance with the AI act could look
+like. And so it's sort of you could see
+it as a sort of road map or series of
+steps that when companies take these
+they show good faith of course but they
+also show you know their their
+willingness and ability to comply and
+it's sort of maps out how they might do
+that but the law applies to anyone. I
+think that's really important. So it
+even if you if you're a company that
+doesn't want to sign the AI uh code of
+practice, you still have to comply to
+the AI act, but then it's sort of up to
+you how you want to do it and up to the
+AI office to see whether what you do if
+it's not following the code of practice,
+whether that's sufficient. So these are
+not two different laws. The one is the
+law. That's the only thing that's
+legally binding, the AI act. And then
+the code of practice is sort of a a
+series of steps that companies can take
+and adhere to. So sign up to that's
+where you have this whole question of
+signitories. Are companies uh interested
+in doing that um signing on committing
+to doing this and actually uh quite a
+few companies have.
+>> Yeah. So so breaking that down um the
+law says something like I don't think it
+uses these exact words but something
+like companies must take adequate
+precautions to ensure safety and
+reliability. And the question then
+becomes, if somebody sues you and you're
+going to go in front of a judge, how do
+you prove that you took quote adequate
+precautions?
+And the the a EU AI office has basically
+said, hey, if you do everything in this
+code of practice, we will treat that as
+though you have taken adequate
+precautions. So some companies have
+signed up to that, like Google, OpenAI
+have signed up. They're like, "This is
+what we're going to do in order to take
+adequate precautions." Other companies
+like Meta have said, you know, we hate
+this document and we know better what
+adequate precautions are than uh the
+people who drafted this and if it goes
+to court or if the regulators come after
+us like bring it on, I think is is sort
+of the nature of the conversation,
+right?
+>> Yeah, presumably. I mean, you'd have to
+invite Meta to explain their their
+reasoning. I doubt they would actually
+go on the record saying bring it on, but
+you know uh ish.
+>> Well, I mean, I've heard I've heard
+pretty pretty scathing statements by
+Joel Kaplan, you know, as maybe he was
+hired uh to to um uh send into the
+ether, but you know, I think they've
+they've gotten more and more brazen as a
+company.
+>> So, now let now that we understand like
+the context for why this document
+exists, let's actually get into the
+machinery of it. And I want to focus on
+the part where you were a co-chair uh
+which is the safety and security
+chapter. But just for the context of
+everyone, there's a section on um
+transparency which I think is very
+blasze. I mean anybody who is familiar
+with a model card in AI, this is just
+sort of like the biographical data of a
+model. Um it's pretty tame I would say
+in terms of what it's asking for in
+terms of transparency. Then you've got
+the copyright section which is like how
+do you handle intellectual property and
+and copyright. Um, but I want to mostly
+put those to the side and now talk about
+uh what is not undoubtedly the longest
+part of the code of practice. This is
+like 40 plus pages whereas those other
+ones are like six pages each. Um, and it
+also includes the most commitments.
+There's 10 commitments that signitories
+um are signing up to when they do this.
+So um sort of I realize it's a it's a
+big document. It's very uh complex. I'm
+going to defer to you as to like what's
+the what's the best way to walk us
+through this story. I think we should
+just think about it in pretty basic
+terms. So the idea is there are general
+purpose AI models and there are general
+purpose AI models with systemic risk and
+uh for those general purpose AI models
+with systemic risk, the providers have
+to show the steps in sort of you know
+formalized documentation and information
+sharing manners of how they assess the
+risk, what they've done to mitigate it
+uh and for how long for example they
+have to keep the documents, who they
+have to report it to when they have to
+report it. So it basically
+spells out um a way again companies can
+choose to do other ways but a way to um
+be rigorous but also identify the people
+within the companies for example who
+should have executive responsibility so
+that it's not some you know uh niche
+group of juniors who are assessing the
+most serious risks uh but that it
+actually is also in a governance sense
+you know uh with those responsibles on
+the executive level.
+>> Yeah. If you're if you're a part of the
+safety team and you're not allowed to
+say no to anybody else in the
+organization, are you really part of the
+safety team? Um
+>> yeah. Well, that's a big question. And
+so there's also provisions for
+whistleblowing, for example, because we
+want to make sure that that you know
+considerations for society at large, for
+national security, for public health,
+etc.
+uh are are um informing decisions that
+companies make instead of you know the
+business cases, the market um
+competition and everything else that's
+driving these companies.
+>> So I I definitely want to get there, but
+could we rewind one second because you
+basically said there's there's two paths
+you can go down. There's general purpose
+AI models and there's general purpose AI
+models that that pose some kind of
+systemic risk. How does the law, how
+does the code of practice determine
+whether you're in one group or the
+other?
+>> Um, there's a lot of responsibility for
+the companies themselves, but there are
+also standards forthcoming that will
+clarify more and more, you know, uh, the
+details there, which the AI office will
+do.
+>> Okay. So, it's not it's not obvious and
+set in stone right now which general
+purpose AI models pose systemic risk and
+which ones do not. And it's also because
+you know you and I or even you know my
+colleagues at Stanford who are deeply
+deeply in the weeds of how AI models
+work don't have access to this
+information. I think that's really
+important to understand. So a lot of
+what these companies do and decide in
+the process of building their models um
+testing them uh putting them out into
+the market tweaking them and so on is of
+course entirely proprietary
+>> if memory serves. Um, you know, the the
+Biden administration, one of their
+executive orders, they looked at total
+amount of processing power used in
+training as a proxy for power and power
+as a proxy for risk. And the B
+administration sort of knew that was a
+very unsatisfying definition, but
+they're like, look, this is what we've
+got right now. And I think um I think an
+earlier draft of the EU AI act, maybe it
+didn't make it into the final version, I
+forget, was also looking at like this 10
+to the 25th flops used in It has that
+>> it has that but of course time
+progresses and models may become more
+capable and then there's also questions
+of downstream uptake so you know some
+some models may reach many more people
+than than other models right so there's
+the power of the model but then there's
+also the reach of the model so I think I
+think um those criteria would naturally
+be fluid right I mean this law is
+written now but who knows where where we
+are in terms of power or new risks
+>> you Surely there are some models right
+now where we know like that model is
+subject to the systemic risk evaluation.
+Is that not the case?
+>> Um I wouldn't be in a position to just
+say this model or that model because
+it's the companies that have to really
+combine a whole bunch of uh information
+for that.
+>> Interesting. Okay. So um let's say we're
+we're in the the world where the model
+has been designated as one that is
+general purpose with the potentially
+posing some kind of systemic risk. Uh
+now what happens like what are the what
+are the commitments and and what are the
+companies going to do?
+>> Well so the companies are going to walk
+through I mean I don't know the code by
+heart but you will see all kinds of
+steps in there. It's online for everyone
+to review and it's fairly technical so I
+don't think it's interesting for
+listeners but basically the idea is they
+commit to a number of steps of how to
+assess their models
+how to also document what they found in
+this assessment you know it's not just
+you know scouts honor we've assessed all
+clear I mean this has to be you know
+documented um for a certain period of
+time has to be reported so for example
+there can be uh a model that that is
+being developed. So it's not on the
+market yet but the developers have the
+idea that this may reach a certain
+threshold or a certain impact or they
+may see certain risk. Then uh there's a
+there's a period within which it has to
+be notified. You know the information
+has to be has to be uh preserved and
+>> and notification in this case is uh to
+the EU AI office.
+>> Yes. and uh the AI board I believe at
+the same time or there's just hopefully
+going to be one contact point. Um but
+there there's the AI office which is
+sort of the central office at the EU
+level which falls under the European
+Commission which is the executive branch
+of the European Union but then there are
+also representatives from the member
+states because as is often the case EU
+law still gets enforced and implemented
+on the local level meaning country by
+country and so every member state the
+Netherlands, Germany, Italy, Spain you
+know France
+can designate the authority that is best
+capable within its own structure. So
+this could be the market authority or
+this could be the data protection
+authority. You know how oversight bodies
+may have different tasks in different
+contexts but in any case they need to be
+equipped with the right resources and
+mandate on the local level to
+independently verify whether companies
+comply. And so when you're talking about
+this transition between the law being
+politically adopted and uh entering into
+force, these are the kinds of processes
+you should think about that need to be
+um executed. Meaning you know the the
+the officers may have to hire new
+people. They have to have AI experts uh
+that they may not have needed before uh
+etc etc. So this is all now happening
+and representatives from the member
+states are part of this AI board and
+then there's the AI office if that makes
+sense.
+>> Cool. So um there's a few products uh
+that companies are sort of required to
+produce uh as they sign on to this code
+and these are things like um a safety
+and security framework
+uh safety and security model reports
+serious incident reports um and some
+public access stuff. So, I think the
+safety and security framework is doing a
+lot of uh a lot of the work um in how
+the EU is trying to deal with uh serious
+risks. But before we go there, because I
+want to go there next, but before we go
+there, can you just talk a little bit
+about like what are the big risks that
+the EU is trying to solve with this code
+of practice for and I'm I'm thinking
+specifically here of these quote unquote
+systemic risks. So like another way of
+putting the question is like what is the
+problem that the EU is trying to solve
+in terms of systemic risks?
+>> Well, you should think about risks to
+national security. You know that we all
+know the famous examples of of boweapons
+and might it be easier for people to
+develop those through models. uh but it
+could also have have implications for
+public health for example you know if if
+certain I don't know like toxics or
+whatever could be easy to understand and
+and spread or whatever through AI
+um but there's also a responsibility to
+sort of keep thinking about systemic
+risks so
+>> I think cyber security was also on the
+list if memory
+>> of course yeah loss of control is
+definitely uh there so if if if AI uh
+models kind of go go, you know, off on
+their own and create all kinds of
+problems through cyber security or
+otherwise. Yes, absolutely. Um, but
+there could be other things, right? I
+mean, um, we could learn we could learn
+more about new models and what problems
+uh, they create. I think, you know,
+that's the tension there. You you write
+the law at a moment where this
+technology is evolving so quickly. Um
+and and by the way, you know, uh
+important jurisdictions such as the US
+not taking comparable measures.
+>> Um but you have to kind of both be
+specific because that's what people need
+in order to comply with the law. It's
+what companies ask.
+>> Mhm.
+>> But you also need to be flexible in
+order to anticipate what might be
+coming. And so I think we've constantly
+been in this tension of okay well what
+what do we know we need and what do we
+not know that might happen and how can
+we still write it down so that this law
+is sustainable and it's not outdated you
+know 3 years from now um but at the same
+time is specific enough and so there's
+also the the uh opportunity for the AI
+office to update with new risks that
+need to be considered but also the
+companies are just expected to act in
+good faith visa v systemic risk based on
+for example the body of scientific work
+you know latest information that is out
+there in the world so that when
+basically everybody knows that there's a
+new problem the company can't say well
+we had no idea because we just you know
+have to assume that they will study and
+be aware of the latest in AI including
+systemic risks.
+>> Yeah. So, let me um uh chime in a bit
+here because uh you've caught me just
+after I published uh a report on AI and
+boweapons risk uh with my former
+colleague Georgia Adamson. Um so, I'm
+I'm chomping at the bit uh to to talk
+about this systemic risk thing. So,
+pardon me while I I butt in here. Um I
+think it is a extraordinary gift of
+human history and fate that it turns out
+nuclear weapons are hard to make. Right?
+And the reason is that separating
+uranium 238 isotope from uranium 235
+isotope is just really really hard. It's
+expensive and complicated. Saddam
+Hussein spent billions of dollars on it
+and failed. Um, and so thank goodness,
+right, that nuclear weapons are
+expensive and complicated to build. If
+nuclear weapons were as hard to build as
+Legos, we would all be dead. We would
+all have already died if nuclear weapons
+were as hard to build as Legos. And so,
+the fact that these weapons of mass
+destruction are expensive and
+complicated is good for humanity. Now
+you look at other kinds of weapons of
+mass destruction uh like biological
+weapons and it the the question you have
+to ask is well is that expensive and
+complicated now and could that change
+over time and AI is one of these areas
+where if you look at the existing
+safeguards both those that exist in
+nature and those that exist in human
+society and technology um it's just
+getting a lot easier to create new
+organisms to design uh changes to
+existing organisms and then to go create
+those organisms. And so the plausibility
+of a pandemic uh that is human created
+and not human created by like North
+Korea spending many years to develop
+bioweapons, but by like one or more, you
+know, groups of people. Like I think
+we're all familiar with the James Bond
+villain trope of like an evil genius on
+an island somewhere with a massive
+resources and massive brains developing
+WMDs. But what if WMDs were within the
+reach of an evil average person? Um and
+that is uh that is the the AI and
+bioweapons risk. And what's really
+interesting is that like it's not just
+you know national security types like me
+who care about this. Even the folks who
+are typically associated with being most
+hostile to AI regulation like Meta CEO
+Mark Zuckerberg, he's like, "Yes,
+boweapons is in a different category."
+Like, we absolutely need to to do
+something about this because, you know,
+even if nine out of 10 companies are
+deeply responsible and put in place a
+lot of safeguards, it only takes one bad
+actor to like screw us all over and
+cause another global pandemic. Similarly
+in you know cyber weapons
+error the sort of question is like well
+what if AI models because they're very
+very good at writing computer code and
+assessing computer code can make it
+easier to generate offensive or
+malicious computer code. Do we want you
+know a group of three or four cyber
+criminals or maybe even one to have the
+level of capability that today we
+normally associate with nation states in
+cyberspace. So those are kinds of
+systemic risks where um AI as a helpful
+technological enabler can enable a lot
+of good can enable a lot of bad and so
+the question is what are companies doing
+to like minimize the chance that it's
+going to be enabling an awful lot of bad
+and I think that that uh tell me if you
+disagree but that those that category of
+risks is what the code of practice was
+intended to go after.
+>> Yes. I mean part of the code of practice
+indeed
+>> right the safety and security
+>> I think it's a I think it's a good um a
+good summary you know I think I see a
+really important analogy in what you're
+saying about you know how one company
+can spoil it for the rest not only for
+you know life life on earth and maybe
+all of us get you know impacted by a new
+pandemic or what have you but I also
+think AI companies should think about
+how bad actors maybe some of them can
+really harm the trust in AI AI as a
+technology for many and so you know I've
+heard a lot of criticism of course of
+the AI act you know especially from the
+US but no surprises with this
+administration but also from the
+companies um
+>> but I also see clear advantages which is
+you know this is a way that you can uh
+facilitate compliance and show that that
+this is a trustworthy technology that
+can actually be assessed for risk while
+um you know I I don't know many AI
+experts who think that this is a
+risk-free technology. You know, not that
+long ago, we had academic experts, CEOs
+penning all kinds of letters that this
+needed to be paused, that there was
+going to be the end of of humanity
+potentially and you know, all the
+catastrophes you're talking about. But
+there's also risks in the in the present
+day. So, forget about systemic risks
+that are horrible and non-controversial.
+There are also problems in the here and
+now that could seriously impact the
+trust that people have in AI at large.
+Cyber security on a lower level being
+one of them. Discrimination of course uh
+impact on uh democracy being another one
+that I think is really important. And so
+um I would imagine and I think that the
+test case will be fascinating to observe
+between the US and Europe and other
+jurisdictions. You know, will this will
+this legal landscape where there are
+mechanisms, one, will it be sufficient?
+Will it work out in practice? But two,
+will it actually help build trust in the
+technology that has a lot of questions
+about, you know, what is it ultimately
+going to do? Are all these promises of
+good stuff going to materialize or are
+we going to continue to suffer from
+harms in in, you know, in uh this day
+and age, but also in the future. Um and
+so you know the analogy that one company
+can ruin it for the rest I think applies
+broadly and I think here laws and
+standards can really help build that
+trust and predictability which is
+something that companies typically want.
+You know now that the federal government
+in the US is not going to adopt much
+regulation at all uh around tech. It
+will be really interesting to see not
+only what individual states will do but
+also what the responses by the companies
+will be because this kind of
+fragmentation
+different laws on relatively small scale
+of amount of people makes the work of
+companies harder because they have to
+comply you know differently for
+different areas different states
+potentially different countries and so
+it may well be that when I don't know
+California comes up with a strict law
+either that there will be um the uh the
+California effect, you know, the way
+that there is a Brussels effect that the
+highest standard will apply to all or
+that companies will begin to lobby and
+say, "Hey, just why why can't we have
+this standard instead of, you know,
+five, six, 15, 20 different states doing
+different things and us having to figure
+it out for every different state?" So I
+think the whole process of how to
+regulate emerging technologies including
+AI and what it means for the impact that
+it has on trust but also on safety and
+other aspects is really interesting to
+observe now that we have such a big
+difference between the US and the EU in
+real time.
+>> Yeah. So um the
+going back to the products that we're
+talking about I think the safety and
+security framework is one that's really
+important for folks to understand. So,
+can you talk a little bit about like
+what is a safety and security framework?
+What do the companies have to do and how
+is that going to interact with uh the EU
+AI office?
+>> Well, I think it's it's what I just
+mentioned. So it spells out in greater
+detail and I don't know it off the top
+of my head but all kinds of criteria
+that the companies have to you know
+assess for
+uh before placing it onto the market but
+also while it's placed onto the market
+they have to keep monitoring lessons
+learned especially as bigger models get
+tweaked and used downstream if that
+makes sense. So you know one company may
+put a model out into the world but then
+others may use it in different context
+and what happens there. Yeah, just just
+to give like an example like anthropic
+um claude is used a lot uh as coding
+assistance but it's not just like you
+might be a customer of anthropic and not
+know it because you might not be buying
+uh claude directly from Anthropic you
+might be buying it through a company
+like wind surf or somebody else who adds
+on the sort of additional capability to
+make it uh more useful as a coding
+assistant and you can imagine that you
+know that kind of downstream
+implications
+there's a question of who's responsible
+to make sure that
+regulatory requirements that sort of
+like yeah I guess that sort of
+overarching question about like who's
+responsible for what uh in these
+obligations the original developer of
+the model somebody who's the actual
+person who's selling the model to the
+end user versus like the end user
+themselves
+>> yeah and I think just you know from a
+practical point of view this law is is
+more about the upstream provider. So the
+the handful of companies that have these
+rare capabilities of developing these
+very advanced models or the most
+advanced models today could be different
+a year from now. Um but um that is also
+just practically and this is not spelled
+out in the law but I you know as a
+policy person just think it's helpful to
+think this through. If you think about
+it from a practical perspective where
+would you want to intervene? Would you
+want to monitor the handful of companies
+that have these unique capabilities or
+would you want to have compliance from
+thousands if not tens of thousands if
+not hundreds of thousands of smaller
+players you know downstream? It makes no
+sense from a practical enforcement point
+of view either but also because these
+model providers have the biggest
+insights biggest handle on how these
+models get developed designed and they
+can see things that we can't see.
+>> Yeah. So I mean I think I think it looks
+different on a
+problem bypro kind of a basis right if
+you want to think about uh the the issue
+of deep fake imagery um in in some
+countries have put in place a
+requirement that deep fake generated
+imagery have associated metadata tags or
+like watermarks inside the image so that
+you know anybody who has like the
+appropriate tools can look at this and
+say this image is real. This image is a
+deep fake. You know, it's it's built
+into the image. Well, if you want that
+regulation to exist, you really need to
+go upstream to the people who are
+creating the image generation software,
+right? Like a watermarking requirement
+where the implementation is at the very
+last step of like the consumer who is
+using Photoshop has to go in and like
+manually add a watermark. That is a dumb
+way to address that regulatory hurdle.
+However, like in other areas like uh you
+can't stab people with a knife. Like the
+regulatory burden doesn't fall on the
+knife manufacturer, it falls on the
+consumer who is using the knife. Um and
+so like whether you want to target
+upstream or downstream, I think kind of
+depends on the nature of the problem
+you're trying to solve. And if if I
+understand you correctly, you're saying
+that most of the problems that this
+regulation is looking at tackling are
+the ones that the EU has identified as
+better tackled in the upstream, right?
+>> It's because they would be systemic. So
+the the moment that it spreads that
+becomes the problem, if it makes sense,
+>> you know, um so the risk would grow if
+more people had access to the models.
+>> I see. Okay. And so I think you have to
+think about
+you know closer to the source is the
+best place to prevent uh the risk but
+also who is ultimately the sort of owner
+of the model and the knowledge that goes
+into it and who has the levers
+uh before it gets put into society or
+the market. Some of them get released,
+some of them get sold um is of course
+the model providers. They have the
+resources, they have the insight, they
+have the knowledge more than anyone
+else. And you know, I think one of the
+problems and this is not in the in the
+law, but I think you know this will be a
+problem that we all have to reckon with
+is how unpredictable AI ends up being.
+And so the question is how much risk can
+you mitigate for at all? And that is a
+risk in and of itself because you know
+anthropic CEO Daniel Amoda has said it's
+a public secret that nobody really knows
+how generative AI works the way it does.
+um you know lots of people have
+basically said how unpredictable these
+uh models and their their uh workings
+are and I think you know it's hard to
+work with existing law and enforcement
+models to anticipate so much uncertainty
+but that is something that we will have
+to also learn as a society reform our
+legislative processes our enforcement
+processes because
+I just don't think that the sort of
+traditional legisl ative and enforcement
+bodies and processes are equipped to
+deal with so much change,
+>> unpredictability. And so I'm hoping that
+everyone who um is working with AI or is
+working in policy is also interested in
+reassessing how we deal with these risks
+at all because I honestly don't know.
+We'll have to see uh whether the laws
+that we have now um will be sufficient.
+>> Yeah. So uh as you think about that, you
+know, will this be sufficient? Um what
+are you thinking about for measuring the
+success or the failure of the code of
+practice? Like if we got in a time
+machine 5 years from now uh and you
+could track, I don't know, you know,
+three metrics that would tell you
+whether or not the code of practice is a
+success. Like how are you thinking about
+that? what what will you look to to to
+feel like whether or not this is working
+as intended or
+>> Well, I hope it will make the whole
+enforcement process more agile for
+everyone. So, both for the companies and
+for the AI office and for the uh AI
+board because you know this takes time
+and effort and we should make it as easy
+as possible for everyone. Uh and I'm
+sure there will be lots of lessons
+learned there in how to simplify the
+processes. But that is ultimately the
+intention. How can we make this
+predictable and manageable for
+everybody? And I hope that companies
+will say look um uh we weren't sure
+about how this AI act would work. Uh the
+administration at the time was very much
+against regulation um of American
+companies. But because we want our
+products to be trusted and because we
+also feel ownership of avoiding uh risk
+and particularly systemic risk to
+society uh we have now learned 5 years
+after uh beginning to implement uh the
+AI act that it has actually helped we
+have caught things that we might not
+have otherwise caught. We have been able
+to uh build trusted relationships. you
+know, we've been able to share knowledge
+also publicly because it's not a
+requirement but an encouragement to also
+share some of these uh lessons learned
+with the rest of the world, right? Not
+just in the very confident um
+confidential I should say sorry
+confidential context of uh the enforcer
+and and the model provider but also more
+broadly etc. So I hope it will turn out
+to be a positive thing for everybody.
+>> Yeah. Well, I think that's a a lovely
+note for us to conclude on even though
+we could easily go talking for another
+hour, but I know you have other
+important things to get to today. So,
+uh, let me just say, Maria Shock, thank
+you so much for coming on the AI policy
+podcast.
+>> Thanks for having me.
+>> Thanks for listening to this episode of
+the AI Policy Podcast. If you like what
+you heard, there's an easy way for you
+to help us. Please give us a five-star
+review on your favorite podcast platform
+and subscribe and tell your friends. It
+really helps when you spread the word.
+This podcast was produced by Sarah
+Baker, Satie McCulla, and Matt Mand. See
+you next time.
+[Music]

@@ -1,0 +1,64 @@
+```markdown
+# Article 43: Conformity assessment
+
+## Summary
+
+Providers of high-risk AI systems listed in point 1 of [Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3) (area of biometrics) must choose between internal control or involving a notified body for conformity assessment, based on the application of harmonised standards or common specifications. If these standards are not fully applied or are restricted, or common specifications were not available or were not applied by the provider, assessment with a notified body is required.
+
+For high-risk AI systems listed in points 2 to 8 of [Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3), providers must follow an internal control conformity assessment without involving a notified body.
+
+For high-risk AI systems covered by existing EU legislation listed in Section A of [Annex I](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1), the provider must follow the relevant conformity assessment procedures, with notified bodies ensuring compliance with AI-specific requirements. Substantial modifications to AI systems require new conformity assessments, except for predetermined changes in systems that continue to learn.
+
+High-risk AI systems must undergo a new conformity assessment if substantially modified, unless changes are predetermined and documented. The Commission can update annexes and conformity assessment procedures through delegated acts, considering the effectiveness of internal control and the capacity of notified bodies.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+## Article 43: Conformity assessment
+
+### For high-risk AI systems listed in point 1 of [Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)
+
+Where, in demonstrating the compliance of a high-risk AI system with the requirements set out in Section 2, the provider has applied harmonised standards referred to in [Article 40](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-40), or where applicable, common specifications referred to in [Article 41](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-41), the provider shall opt for one of the following conformity assessment procedures based on:
+
+(a) the internal control referred to in [Annex VI](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-6); or
+
+(b) the assessment of the quality management system and the assessment of the technical documentation, with the involvement of a notified body, referred to in [Annex VII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7).
+
+In demonstrating the compliance of a high-risk AI system with the requirements set out in Section 2, the provider shall follow the conformity assessment procedure set out in [Annex VII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7) where:
+
+(a) harmonised standards referred to in [Article 40](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-40) do not exist, and common specifications referred to in [Article 41](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-41) are not available;
+
+(b) the provider has not applied, or has applied only part of, the harmonised standard;
+
+(c) the common specifications referred to in point (a) exist, but the provider has not applied them;
+
+(d) one or more of the harmonised standards referred to in point (a) has been published with a restriction, and only on the part of the standard that was restricted.
+
+For the purposes of the conformity assessment procedure referred to in [Annex VII](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-7), the provider may choose any of the notified bodies. However, where the high-risk AI system is intended to be put into service by law enforcement, immigration or asylum authorities or by Union institutions, bodies, offices or agencies, the market surveillance authority referred to in [Article 74(8)](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-74)(9), as applicable, shall act as a notified body.
+
+### For high-risk AI systems referred to in points 2 to 8 of [Annex III](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3)
+
+Providers shall follow the conformity assessment procedure based on internal control as referred to in [Annex VI](https://ai-act-service-deskbdec.epa.fr/content/dam/opendata/publications/AI%20Act/SIP%20-%20En/FichiersSIP/AI%20Act%20-%20Conformance%20assessment.pdf#page=5).
+
+### For high-risk AI systems covered by EU harmonisation legislation listed in Section A of [Annex I](https://aiservicedesk.eeas-upr.es/content/dam/opendata/publications/AI%20Act/SIP%20-%20En/FichiersSIP/AI%20Act%20-%20Conformance%20assessment.pdf#page=5)
+
+The provider shall follow the relevant conformity assessment procedure as required under those legal acts. The requirements set out in Section 2 of this Chapter shall apply to those high-risk AI systems and shall be part of that assessment. Points 4.3., 4.4., 4.5. and paragraph’s five paragraph fof point 4.6. ([Annex VII](https://aiservicedesk.eeas-upr.es/content/dam/opendata/publications/AI%20Act/SIP%20-%20En/FichiersSIP/AI%20Act%20-%20Conformance%20assessment.pdf#page=5)) shall also apply.
+
+For instance:
+* One cannot use an option like “opt-out” from third-party certification due to lackluster results when combined with other options.
+* It is important that manufacturers who opted out from third-party certification ensure they have implemented all harmonized standards covering all relevant requirements before using that option again.
+* Manufacturers should also ensure they have applied both harmonized standards and common specifications referenced in Article IV.
+
+### High-risk AI systems that have already been subject to a conformity assessment procedure
+
+High-risk AI systems that have already been subject to a conformity assessment procedure shall undergo a new conformity assessment procedure in case of substantial modification (regardless whether modified system is intended for distribution or continued usage by current deployer).
+
+For high-risk AI systems that continue learning after being placed on market or put into service:
+* Changes pre-determined by manufacturer at time initial conformance assessment are considered substantial modifications.
+* These changes do not constitute substantial modification if performed according guidelines outlined above.
+
+### Commission's powers
+
+The Commission is empowered:
+* To adopt delegated acts updating Annexes VI and VII by updating them based on technical progress.
+* To adopt delegated acts amending Paragraphs 1 and 2 of Article IVIIIIIIIIIIIIIIIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVIIIIVXXXIXXIXXXIXXIXXXIXXIXXXIXXIXXXXIIXXIXXIXXIXXIXXIXXXXXXXXVIIIAVIIBIICCIICCDDCDEEEDFDFGEFGGHGFHHIGGIJJJKKKLMMNNOOOPPPQQRRSSSTTTTUUVWXYZZZYZZZZZZZZZZZZZZIZZIZZIZZIZZIZZIZZIZZIZZIZZIZZIZZIZZIZZIZZIZZZZZZZZZZZZZZZZZZZZZXXXXXXXXXXXXXXXVIIIAVIIBICIICCDCEEEEDFDFAFGBGGHGHIHIFIHJHKLLMNMNOOPQRSTTUTVVWWXYZYYZXYYYZYZZYZYXXYYYXXYYYXXYYYXXYYYXXYYYXXYYYXXYYYXXYYYXXYYYXXYYYXXYYYYYXLXXXLYLMLYMRLRSLTRTLURULURULURULURULURULURULURULURULURULURULURULURULURULURUUULLUMLUMLNLMNLUNLNLPOLPOQPORPRQLQLRQLQQLQQLQQLQQLQQLQQLQQLQQLQQLQQLQQLQQLQQLQUQUQUQUQUQUQUQUQUQUQUQUQUQUQQQQQQQQQQQQQQQQQQQQQQQQQQQQqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqoooppppqrrsttutvvwwxxyzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzyyxxyyxxxxyyzyyyxzxyzyzyyyyyxxxxxxxllmmnplorprqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrquuuullmlnlmnlpoolpoqporkrltrtluruluruluruluruluruluruluruluruluruluruluruluruluruulllmnmnnlnloorpqortrtslqrttsqturtttvtuvwxyzxxyyuzzzzyyxxyyxxxxyyzyyyxzxyzyzyyyyyxxxxxxxllmmnplorprqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrqlqrsqlsrslslslslslslslslslslslslslssssssoooootttttutttttttuttttttttuttttttttuttttttttuttttttttuttttttttuttttttttuttttttttuttttttttuttttttyyrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrlylrylrylrylrylrylrylrylrylrylrylrylrylrylrylrylrylryltototototototototototototototrtoptotpootropoqrotroqtroqtorqtttrrttrrtltrtltrtltrtltrtltrtltrtltrtltrtltrtolortoltorrortrorortotorortotorortotorortotorortotorortotorortotorortotorortotorortotoptopoqtpoqtpoqtptoqtptoqtptoqtptoqtptoqtptoprplrplrplrplrplrplrplrplrplrplrplrplrplrpnrnpnpppnppnppnppnppnppnppnppnppnppnppnppnppnrnpnnpnpnpnpnpnpnpnoronornornornornornornornormrnrmnrpmntpntntpntntpntntpntntpntntpntntpntntpntntpntntpntntpntpnoiotioitioitiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiitoitiiittoiittotiittotiittotiittotiittotiittotiittotiittotiittotiittotiittotiittotiitttiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottoiottiottiottiottiottiottiottiottiottiottiottiottiottiottiottoptoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpoppotpopptotporlorollollollollollollollollollollollollollollollollollollollolololololololololololioloilolioliolioliolioliolioliolioliolioliolioliolfmoilmiloimlioimlioimlioimlioimlioimlioimlioimliomlipmiomlipmipoimiomliomliomiomliomliomiomliomliomiomliomliomiomliomiomliomiomliomiomliomiommponiomponiomponiomponiomponiomponiomponiomponiomponiomponiomponiomponiomponiomponiomponsontionontionontionontionontionontionontionontionontionontionontionontionontionontionontionontiononitononitonitonitonitonitonitonitonitonitonitonitonitontonhonhonhonhonhonhonhonhonhonhonhonhonhonhonnhojnhojnhojnhojnhojnhojnhojnhojojonjohjjohnjohnjohnjohnjohnjohnjohnjohnjohnjohljlkjljkkljmkmknkkkljlkjljkkljkkljkkljkkljkkljkkljkllmjnjnklnkojpjqkrktluovpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrwpvwrvpvoqvrvqwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwvrwxwywywywywywywywywywywywywywywwywzwzwzwzwzwzwzwzwzwzwzwzwzwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWW WWWWWW WWWWWW WWWWWW WWWWWW WWWWWW WWWWWW WWWWWW WWWWWW WWWWWW www/www www/www www/www www/www www/www www/www www/www www/www www/www ww ww ww ww ww ww ww ww www www www www www www www www www www www www wfw fw fw fw fw fw fw fw fw fw fw fw fw fw fw fw fw/fw/fw/fw/fw/fw/fw/fw/fw/fw/fw/fw/fwf/wfw/wfw/wfw/wfw/wfw/wfw/wfw/wfw/wfw/wfw/wfw/wfw/wfw/fxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf/xxf xxf xxf xxf xxf xxf xxf xxf xxf xxbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/bbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf/rbbf rbbfr bbbr bbbr bbbr bbbr bbbr bbbr bbbr bbbr bbbr bbbr bbrb brb brb brb brb brb brb brb brb brb brb bbrb bbrb bbrb bbrb bbrb bbrb bbrb bbrb bbrb<br></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.d36df636be9d58769c7abaea37fc3ddaa.html?origin=https%3A%2F%2Faiservices.deskp.net" title="Twitter settings iframe" style="display: none;"></iframe><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
+```

@@ -1,0 +1,3388 @@
+{
+  "source": "youtube",
+  "channel": "Regulating_AI_Sanjay_Puri",
+  "playlist_title": "RegulatingAI Podcast: Innovate Responsibly",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLGBFGI3ApzqdS70H84yli1Q-j_cqqiJbL",
+  "playlist_id": "PLGBFGI3ApzqdS70H84yli1Q-j_cqqiJbL",
+  "video_id": "H22LMfyhj0c",
+  "video_title": "Governor Matt Meyer on Building America’s First AI-Ready State | RegulatingAI Podcast",
+  "video_url": "https://www.youtube.com/watch?v=H22LMfyhj0c",
+  "fetched_at": "2025-12-28T17:12:36.841155+00:00",
+  "transcript": [
+    {
+      "text": "We set up a supervised test bed, a sort",
+      "start": 0.24,
+      "duration": 5.28
+    },
+    {
+      "text": "of environment where regulation is",
+      "start": 3.36,
+      "duration": 5.12
+    },
+    {
+      "text": "loosened a little bit to experiment, not",
+      "start": 5.52,
+      "duration": 4.88
+    },
+    {
+      "text": "experiment at scale, but experiment in",
+      "start": 8.48,
+      "duration": 4.56
+    },
+    {
+      "text": "small ways. Uh allowing companies,",
+      "start": 10.4,
+      "duration": 5.68
+    },
+    {
+      "text": "schools, hospitals, and agencies to use",
+      "start": 13.04,
+      "duration": 6.239
+    },
+    {
+      "text": "AI tools using real guard rails. The",
+      "start": 16.08,
+      "duration": 6.24
+    },
+    {
+      "text": "idea is that we provide a little sandbox",
+      "start": 19.279,
+      "duration": 4.961
+    },
+    {
+      "text": "before it becomes a whole beach, before",
+      "start": 22.32,
+      "duration": 4.719
+    },
+    {
+      "text": "the sand scales up so we can get it",
+      "start": 24.24,
+      "duration": 4.799
+    },
+    {
+      "text": "right.",
+      "start": 27.039,
+      "duration": 4.881
+    },
+    {
+      "text": "Welcome to the Regulating AI podcast",
+      "start": 29.039,
+      "duration": 5.761
+    },
+    {
+      "text": "with Sanjay Puri. AI is changing the",
+      "start": 31.92,
+      "duration": 5.84
+    },
+    {
+      "text": "world faster than rules can keep up. So,",
+      "start": 34.8,
+      "duration": 5.2
+    },
+    {
+      "text": "how do we protect people without killing",
+      "start": 37.76,
+      "duration": 4.959
+    },
+    {
+      "text": "progress? Each week, Sanjay brings you",
+      "start": 40.0,
+      "duration": 4.64
+    },
+    {
+      "text": "inside conversations with global",
+      "start": 42.719,
+      "duration": 4.801
+    },
+    {
+      "text": "leaders, policy makers, and innovators",
+      "start": 44.64,
+      "duration": 5.2
+    },
+    {
+      "text": "who are wrestling with that exact",
+      "start": 47.52,
+      "duration": 4.879
+    },
+    {
+      "text": "question. So, if you're curious about",
+      "start": 49.84,
+      "duration": 4.8
+    },
+    {
+      "text": "the future of technology and how it's",
+      "start": 52.399,
+      "duration": 6.101
+    },
+    {
+      "text": "governed, you're in the right place.",
+      "start": 54.64,
+      "duration": 5.04
+    },
+    {
+      "text": "[Music]",
+      "start": 58.5,
+      "duration": 3.739
+    },
+    {
+      "text": "Today's guest is Governor Matt Meyer,",
+      "start": 59.68,
+      "duration": 5.36
+    },
+    {
+      "text": "Delaware's 76th governor, a former",
+      "start": 62.239,
+      "duration": 5.361
+    },
+    {
+      "text": "teacher, startup founder, and a diplomat",
+      "start": 65.04,
+      "duration": 4.96
+    },
+    {
+      "text": "who's now leading the way on responsible",
+      "start": 67.6,
+      "duration": 5.04
+    },
+    {
+      "text": "AI governance. He's turned Delaware into",
+      "start": 70.0,
+      "duration": 5.04
+    },
+    {
+      "text": "an AI innovation hub, launching the",
+      "start": 72.64,
+      "duration": 4.96
+    },
+    {
+      "text": "nation's first open AI partnership for",
+      "start": 75.04,
+      "duration": 5.52
+    },
+    {
+      "text": "students and workers, and building an AI",
+      "start": 77.6,
+      "duration": 5.6
+    },
+    {
+      "text": "sandbox to guide ethical adoption. A",
+      "start": 80.56,
+      "duration": 4.64
+    },
+    {
+      "text": "leader with heart and vision. He's",
+      "start": 83.2,
+      "duration": 4.559
+    },
+    {
+      "text": "redefining what it means for a state to",
+      "start": 85.2,
+      "duration": 6.16
+    },
+    {
+      "text": "lead in the age of AI.",
+      "start": 87.759,
+      "duration": 5.441
+    },
+    {
+      "text": ">> Governor Meyer, thank you so much for",
+      "start": 91.36,
+      "duration": 4.719
+    },
+    {
+      "text": "joining us on regulating AI.",
+      "start": 93.2,
+      "duration": 5.04
+    },
+    {
+      "text": ">> Hey, thank you Sanjay. It it's great to",
+      "start": 96.079,
+      "duration": 4.0
+    },
+    {
+      "text": "be here and congratulations on",
+      "start": 98.24,
+      "duration": 3.199
+    },
+    {
+      "text": "everything you've done with the podcast",
+      "start": 100.079,
+      "duration": 4.0
+    },
+    {
+      "text": "is playing a critical role in informing",
+      "start": 101.439,
+      "duration": 5.521
+    },
+    {
+      "text": "the public and decision makers like me",
+      "start": 104.079,
+      "duration": 4.641
+    },
+    {
+      "text": "on the latest greatest stuff that's out",
+      "start": 106.96,
+      "duration": 4.4
+    },
+    {
+      "text": "there and how we need to act on it. So,",
+      "start": 108.72,
+      "duration": 5.84
+    },
+    {
+      "text": "I appreciate it. one uh you know you've",
+      "start": 111.36,
+      "duration": 5.28
+    },
+    {
+      "text": "worn so many different hats over a",
+      "start": 114.56,
+      "duration": 3.599
+    },
+    {
+      "text": "period of time teacher, entrepreneur,",
+      "start": 116.64,
+      "duration": 4.56
+    },
+    {
+      "text": "diplomat, county exec. What are some of",
+      "start": 118.159,
+      "duration": 5.681
+    },
+    {
+      "text": "the principles from those experience",
+      "start": 121.2,
+      "duration": 6.239
+    },
+    {
+      "text": "that are guiding and shaping you uh from",
+      "start": 123.84,
+      "duration": 6.16
+    },
+    {
+      "text": "setting up AI governance today?",
+      "start": 127.439,
+      "duration": 5.52
+    },
+    {
+      "text": ">> First and foremost is don't run away",
+      "start": 130.0,
+      "duration": 5.76
+    },
+    {
+      "text": "from new things and new technology. It",
+      "start": 132.959,
+      "duration": 5.841
+    },
+    {
+      "text": "can be really scary. I mean you can",
+      "start": 135.76,
+      "duration": 7.92
+    },
+    {
+      "text": "imagine I I was 20",
+      "start": 138.8,
+      "duration": 6.88
+    },
+    {
+      "text": "30 years ago I was starting a a footwear",
+      "start": 143.68,
+      "duration": 4.32
+    },
+    {
+      "text": "company in Nairobi Kenya and we were",
+      "start": 145.68,
+      "duration": 4.16
+    },
+    {
+      "text": "selling sandals just kind of locally in",
+      "start": 148.0,
+      "duration": 4.64
+    },
+    {
+      "text": "Nairobi. a dream of making sandals and",
+      "start": 149.84,
+      "duration": 5.36
+    },
+    {
+      "text": "selling them all over the world. And the",
+      "start": 152.64,
+      "duration": 6.72
+    },
+    {
+      "text": "worldwide web was just coming of age and",
+      "start": 155.2,
+      "duration": 7.28
+    },
+    {
+      "text": "uh some guy in the west coast of the US",
+      "start": 159.36,
+      "duration": 6.48
+    },
+    {
+      "text": "started selling books out of his garage",
+      "start": 162.48,
+      "duration": 7.839
+    },
+    {
+      "text": "online. Uh, and from that, you know,",
+      "start": 165.84,
+      "duration": 6.8
+    },
+    {
+      "text": "there was there were we're like, \"Oh my",
+      "start": 170.319,
+      "duration": 4.161
+    },
+    {
+      "text": "god, like what if big companies start",
+      "start": 172.64,
+      "duration": 4.08
+    },
+    {
+      "text": "selling footwear and there's online and",
+      "start": 174.48,
+      "duration": 4.32
+    },
+    {
+      "text": "to Kenya and there's no chance we're",
+      "start": 176.72,
+      "duration": 3.92
+    },
+    {
+      "text": "going to be able to succeed.\" But we",
+      "start": 178.8,
+      "duration": 3.359
+    },
+    {
+      "text": "found we could embrace it and take",
+      "start": 180.64,
+      "duration": 3.76
+    },
+    {
+      "text": "advantage of it. We ended up growing our",
+      "start": 182.159,
+      "duration": 5.841
+    },
+    {
+      "text": "business to to a business with with 30",
+      "start": 184.4,
+      "duration": 6.0
+    },
+    {
+      "text": "employees selling in 17 countries from a",
+      "start": 188.0,
+      "duration": 4.8
+    },
+    {
+      "text": "little uh really poor neighborhood in",
+      "start": 190.4,
+      "duration": 4.8
+    },
+    {
+      "text": "Nairobi. Listen, I'm enthusiastic about",
+      "start": 192.8,
+      "duration": 4.719
+    },
+    {
+      "text": "technology generally, but I'm more",
+      "start": 195.2,
+      "duration": 4.48
+    },
+    {
+      "text": "interested in what it does for people.",
+      "start": 197.519,
+      "duration": 4.72
+    },
+    {
+      "text": "There has to be some people impact of",
+      "start": 199.68,
+      "duration": 5.279
+    },
+    {
+      "text": "that. I learned from that as a young guy",
+      "start": 202.239,
+      "duration": 5.441
+    },
+    {
+      "text": "that the value of the worldwide web, the",
+      "start": 204.959,
+      "duration": 5.121
+    },
+    {
+      "text": "value of e-commerce is what it actually",
+      "start": 207.68,
+      "duration": 5.119
+    },
+    {
+      "text": "does and means to people. There's no",
+      "start": 210.08,
+      "duration": 6.48
+    },
+    {
+      "text": "there's no end or or value to AI itself.",
+      "start": 212.799,
+      "duration": 7.121
+    },
+    {
+      "text": "AI is not a destiny. It's a tool. And",
+      "start": 216.56,
+      "duration": 5.84
+    },
+    {
+      "text": "our job and my job is to figure out how",
+      "start": 219.92,
+      "duration": 4.56
+    },
+    {
+      "text": "do we make it a useful one. How do we",
+      "start": 222.4,
+      "duration": 4.16
+    },
+    {
+      "text": "make it a tool that actually improves",
+      "start": 224.48,
+      "duration": 4.88
+    },
+    {
+      "text": "lives and doesn't ruin lives? You know,",
+      "start": 226.56,
+      "duration": 5.28
+    },
+    {
+      "text": "you've been in the uh job very very",
+      "start": 229.36,
+      "duration": 4.959
+    },
+    {
+      "text": "recently, but you moved so quickly in",
+      "start": 231.84,
+      "duration": 4.8
+    },
+    {
+      "text": "launch uh on AI and launching workforce",
+      "start": 234.319,
+      "duration": 4.721
+    },
+    {
+      "text": "programs, certification pathways, AI",
+      "start": 236.64,
+      "duration": 5.519
+    },
+    {
+      "text": "sandbox. I'm sure you got many things up",
+      "start": 239.04,
+      "duration": 5.04
+    },
+    {
+      "text": "your sleeve coming up. Why did you",
+      "start": 242.159,
+      "duration": 4.321
+    },
+    {
+      "text": "decide that Delaware should lead you",
+      "start": 244.08,
+      "duration": 4.879
+    },
+    {
+      "text": "know as a small state rather than follow",
+      "start": 246.48,
+      "duration": 5.119
+    },
+    {
+      "text": "and what's your overarching vision for",
+      "start": 248.959,
+      "duration": 5.681
+    },
+    {
+      "text": "you know state-led AI governance",
+      "start": 251.599,
+      "duration": 4.64
+    },
+    {
+      "text": ">> you know I learned both as a small",
+      "start": 254.64,
+      "duration": 3.92
+    },
+    {
+      "text": "business owner and as a teacher Sanjay",
+      "start": 256.239,
+      "duration": 5.12
+    },
+    {
+      "text": "you you want to be the first to value",
+      "start": 258.56,
+      "duration": 5.28
+    },
+    {
+      "text": "not the first to hype there's certainly",
+      "start": 261.359,
+      "duration": 4.721
+    },
+    {
+      "text": "in my business there's an inclination to",
+      "start": 263.84,
+      "duration": 4.079
+    },
+    {
+      "text": "be the first to hype the first to have",
+      "start": 266.08,
+      "duration": 5.76
+    },
+    {
+      "text": "the latest greatest social media post or",
+      "start": 267.919,
+      "duration": 6.241
+    },
+    {
+      "text": "whatever to grab grab the headlines,",
+      "start": 271.84,
+      "duration": 5.28
+    },
+    {
+      "text": "throw an event. Um, I'm less interested",
+      "start": 274.16,
+      "duration": 5.44
+    },
+    {
+      "text": "in in that. The key is how do we pilot",
+      "start": 277.12,
+      "duration": 4.639
+    },
+    {
+      "text": "something fast? How do we measure it",
+      "start": 279.6,
+      "duration": 4.64
+    },
+    {
+      "text": "honestly? And how do we scale what's",
+      "start": 281.759,
+      "duration": 4.88
+    },
+    {
+      "text": "what works? And I think w with an",
+      "start": 284.24,
+      "duration": 5.84
+    },
+    {
+      "text": "unknown uh tool like artificial",
+      "start": 286.639,
+      "duration": 5.761
+    },
+    {
+      "text": "intelligence, we want to make sure we're",
+      "start": 290.08,
+      "duration": 5.2
+    },
+    {
+      "text": "we're doing that. The quicker we can get",
+      "start": 292.4,
+      "duration": 6.56
+    },
+    {
+      "text": "products to and things and services and",
+      "start": 295.28,
+      "duration": 6.88
+    },
+    {
+      "text": "new tools to market, the quicker we can",
+      "start": 298.96,
+      "duration": 5.6
+    },
+    {
+      "text": "get either government workers or the",
+      "start": 302.16,
+      "duration": 4.879
+    },
+    {
+      "text": "broader public at large to use it with",
+      "start": 304.56,
+      "duration": 4.8
+    },
+    {
+      "text": "appropriate guard rails, the more we'll",
+      "start": 307.039,
+      "duration": 6.0
+    },
+    {
+      "text": "we'll have feedback, the more um AI can",
+      "start": 309.36,
+      "duration": 6.32
+    },
+    {
+      "text": "iterate, the tools can iterate, not just",
+      "start": 313.039,
+      "duration": 4.88
+    },
+    {
+      "text": "iterate the technology, but iterate the",
+      "start": 315.68,
+      "duration": 4.48
+    },
+    {
+      "text": "human uses so we understand, oh, this",
+      "start": 317.919,
+      "duration": 5.28
+    },
+    {
+      "text": "great thing that we think can be of",
+      "start": 320.16,
+      "duration": 5.28
+    },
+    {
+      "text": "tremendous benefit, maybe isn't really",
+      "start": 323.199,
+      "duration": 3.921
+    },
+    {
+      "text": "of benefit, but this other thing we",
+      "start": 325.44,
+      "duration": 3.44
+    },
+    {
+      "text": "never really thought of. This is how",
+      "start": 327.12,
+      "duration": 3.919
+    },
+    {
+      "text": "people are using it. So, we're eager to",
+      "start": 328.88,
+      "duration": 3.92
+    },
+    {
+      "text": "be we're we're known as the first state.",
+      "start": 331.039,
+      "duration": 4.16
+    },
+    {
+      "text": "Delaware is the first state of the 50",
+      "start": 332.8,
+      "duration": 4.64
+    },
+    {
+      "text": "United States to sign the Constitution",
+      "start": 335.199,
+      "duration": 5.44
+    },
+    {
+      "text": "and we're eager to be the first in AI as",
+      "start": 337.44,
+      "duration": 4.08
+    },
+    {
+      "text": "well.",
+      "start": 340.639,
+      "duration": 3.84
+    },
+    {
+      "text": ">> Do you ever worry that there is too much",
+      "start": 341.52,
+      "duration": 5.36
+    },
+    {
+      "text": "hype on AI? Uh, Governor,",
+      "start": 344.479,
+      "duration": 5.841
+    },
+    {
+      "text": ">> I do worry there's too much hype in AI.",
+      "start": 346.88,
+      "duration": 6.48
+    },
+    {
+      "text": "I worry that many people see artificial",
+      "start": 350.32,
+      "duration": 5.92
+    },
+    {
+      "text": "intelligence as an end. I I worry that",
+      "start": 353.36,
+      "duration": 5.679
+    },
+    {
+      "text": "many people making key decisions don't",
+      "start": 356.24,
+      "duration": 6.08
+    },
+    {
+      "text": "really understand a AI and machine",
+      "start": 359.039,
+      "duration": 4.961
+    },
+    {
+      "text": "learning. I have the benefit that in",
+      "start": 362.32,
+      "duration": 3.999
+    },
+    {
+      "text": "college I actually programmed in list",
+      "start": 364.0,
+      "duration": 5.6
+    },
+    {
+      "text": "that that is the basis of it and what I",
+      "start": 366.319,
+      "duration": 4.961
+    },
+    {
+      "text": "learned from that or one thing I learned",
+      "start": 369.6,
+      "duration": 4.56
+    },
+    {
+      "text": "from that experience is that but",
+      "start": 371.28,
+      "duration": 5.68
+    },
+    {
+      "text": "artificial intelligence isn't really",
+      "start": 374.16,
+      "duration": 5.44
+    },
+    {
+      "text": "intelligence. It's building machine",
+      "start": 376.96,
+      "duration": 5.359
+    },
+    {
+      "text": "models. It's building bits and bites to",
+      "start": 379.6,
+      "duration": 5.28
+    },
+    {
+      "text": "try and replicate really how humans",
+      "start": 382.319,
+      "duration": 5.44
+    },
+    {
+      "text": "think just thought processes and they",
+      "start": 384.88,
+      "duration": 5.12
+    },
+    {
+      "text": "can be built and they can learn in any",
+      "start": 387.759,
+      "duration": 4.88
+    },
+    {
+      "text": "way in which we we direct them and we",
+      "start": 390.0,
+      "duration": 5.36
+    },
+    {
+      "text": "can put guard rails on them uh in any",
+      "start": 392.639,
+      "duration": 4.241
+    },
+    {
+      "text": "way in which we direct them and it's",
+      "start": 395.36,
+      "duration": 2.959
+    },
+    {
+      "text": "really important we do that. There's",
+      "start": 396.88,
+      "duration": 3.599
+    },
+    {
+      "text": "also we have to be honest about there's",
+      "start": 398.319,
+      "duration": 4.72
+    },
+    {
+      "text": "a serious profit motive out there. This",
+      "start": 400.479,
+      "duration": 5.361
+    },
+    {
+      "text": "is this is billion trillion dollar",
+      "start": 403.039,
+      "duration": 5.121
+    },
+    {
+      "text": "market we're talking about and there are",
+      "start": 405.84,
+      "duration": 4.0
+    },
+    {
+      "text": "a lot of people out there trying to make",
+      "start": 408.16,
+      "duration": 4.08
+    },
+    {
+      "text": "a buck. They're not looking out for the",
+      "start": 409.84,
+      "duration": 4.639
+    },
+    {
+      "text": "for the welfare of Delawarians or",
+      "start": 412.24,
+      "duration": 4.799
+    },
+    {
+      "text": "Americans or humans. They're looking to",
+      "start": 414.479,
+      "duration": 4.481
+    },
+    {
+      "text": "do whatever they can to make a buck. And",
+      "start": 417.039,
+      "duration": 4.88
+    },
+    {
+      "text": "we have a serious responsibility in",
+      "start": 418.96,
+      "duration": 4.88
+    },
+    {
+      "text": "putting up guard rails to make sure that",
+      "start": 421.919,
+      "duration": 4.641
+    },
+    {
+      "text": "that humans that that Delawarians that",
+      "start": 423.84,
+      "duration": 4.799
+    },
+    {
+      "text": "Americans are protected. I mean people",
+      "start": 426.56,
+      "duration": 3.68
+    },
+    {
+      "text": "are saying hey we're going to have",
+      "start": 428.639,
+      "duration": 4.481
+    },
+    {
+      "text": "thousands millions of agents uh these",
+      "start": 430.24,
+      "duration": 5.04
+    },
+    {
+      "text": "guys these agents are going to report to",
+      "start": 433.12,
+      "duration": 5.12
+    },
+    {
+      "text": "employees and other stuff etc. Uh it's",
+      "start": 435.28,
+      "duration": 5.44
+    },
+    {
+      "text": "going to be a huge huge benefit. Any",
+      "start": 438.24,
+      "duration": 6.0
+    },
+    {
+      "text": "thoughts on AI agents? Uh governor?",
+      "start": 440.72,
+      "duration": 5.199
+    },
+    {
+      "text": ">> Yeah. One of my greatest concerns with",
+      "start": 444.24,
+      "duration": 4.799
+    },
+    {
+      "text": "AI is job loss. That if we're if we're",
+      "start": 445.919,
+      "duration": 6.081
+    },
+    {
+      "text": "introducing new technologies that make",
+      "start": 449.039,
+      "duration": 6.241
+    },
+    {
+      "text": "it uh difficult or impossible for a",
+      "start": 452.0,
+      "duration": 4.96
+    },
+    {
+      "text": "large number or a majority of",
+      "start": 455.28,
+      "duration": 4.16
+    },
+    {
+      "text": "Delawareians to get up in the morning",
+      "start": 456.96,
+      "duration": 4.56
+    },
+    {
+      "text": "and earn a living, you're not going to",
+      "start": 459.44,
+      "duration": 5.12
+    },
+    {
+      "text": "see much support from me. So, I think",
+      "start": 461.52,
+      "duration": 7.2
+    },
+    {
+      "text": "Agentic AI is exciting in so far as we",
+      "start": 464.56,
+      "duration": 6.56
+    },
+    {
+      "text": "can really identify what the human",
+      "start": 468.72,
+      "duration": 5.68
+    },
+    {
+      "text": "benefit is. I'm I'm open to",
+      "start": 471.12,
+      "duration": 5.44
+    },
+    {
+      "text": "experimentation to putting a few things",
+      "start": 474.4,
+      "duration": 4.56
+    },
+    {
+      "text": "out there with appropriate guardrails,",
+      "start": 476.56,
+      "duration": 5.359
+    },
+    {
+      "text": "ensuring saying this will not cause any",
+      "start": 478.96,
+      "duration": 5.519
+    },
+    {
+      "text": "job loss. There's not a single human in",
+      "start": 481.919,
+      "duration": 4.641
+    },
+    {
+      "text": "Delaware who will lose their job because",
+      "start": 484.479,
+      "duration": 4.16
+    },
+    {
+      "text": "the introduction of this technology and",
+      "start": 486.56,
+      "duration": 4.479
+    },
+    {
+      "text": "then monitoring and seeing how can we",
+      "start": 488.639,
+      "duration": 4.801
+    },
+    {
+      "text": "create meaningful",
+      "start": 491.039,
+      "duration": 4.801
+    },
+    {
+      "text": "efficiencies because if there is going",
+      "start": 493.44,
+      "duration": 5.599
+    },
+    {
+      "text": "to be um job loss, we have to make sure",
+      "start": 495.84,
+      "duration": 5.68
+    },
+    {
+      "text": "it's really job dislocation. I don't",
+      "start": 499.039,
+      "duration": 3.84
+    },
+    {
+      "text": "think I don't know if you remember eight",
+      "start": 501.52,
+      "duration": 3.92
+    },
+    {
+      "text": "track tapes. I don't think we need to be",
+      "start": 502.879,
+      "duration": 5.201
+    },
+    {
+      "text": "listening to music on eight track tapes",
+      "start": 505.44,
+      "duration": 4.72
+    },
+    {
+      "text": "from generation to generation. Whoever's",
+      "start": 508.08,
+      "duration": 3.92
+    },
+    {
+      "text": "making eight track tapes might lose",
+      "start": 510.16,
+      "duration": 3.999
+    },
+    {
+      "text": "their job so that people who's making",
+      "start": 512.0,
+      "duration": 4.719
+    },
+    {
+      "text": "cassette tapes can get the jobs and then",
+      "start": 514.159,
+      "duration": 4.641
+    },
+    {
+      "text": "people who are making CDs can take over",
+      "start": 516.719,
+      "duration": 4.8
+    },
+    {
+      "text": "from them and the people making digital",
+      "start": 518.8,
+      "duration": 4.4
+    },
+    {
+      "text": "music can take over from them and",
+      "start": 521.519,
+      "duration": 3.76
+    },
+    {
+      "text": "downloadable. I think that progression",
+      "start": 523.2,
+      "duration": 4.319
+    },
+    {
+      "text": "is fine but we just need to protect",
+      "start": 525.279,
+      "duration": 4.641
+    },
+    {
+      "text": "people through the process. We need to",
+      "start": 527.519,
+      "duration": 3.841
+    },
+    {
+      "text": "make sure that the folks making",
+      "start": 529.92,
+      "duration": 3.76
+    },
+    {
+      "text": "eighttrack tapes, the folks doing work",
+      "start": 531.36,
+      "duration": 6.24
+    },
+    {
+      "text": "that may be overtaken by Agentic AI have",
+      "start": 533.68,
+      "duration": 6.32
+    },
+    {
+      "text": "substantial opportunity to be retrained,",
+      "start": 537.6,
+      "duration": 4.88
+    },
+    {
+      "text": "to be upskilled, to maybe program some",
+      "start": 540.0,
+      "duration": 5.04
+    },
+    {
+      "text": "of the engines or provide maintenance to",
+      "start": 542.48,
+      "duration": 4.64
+    },
+    {
+      "text": "some of the agentic AI engines because",
+      "start": 545.04,
+      "duration": 4.239
+    },
+    {
+      "text": "certainly there will be need for",
+      "start": 547.12,
+      "duration": 4.08
+    },
+    {
+      "text": "maintenance or work at data centers that",
+      "start": 549.279,
+      "duration": 3.921
+    },
+    {
+      "text": "are ultimately fueling these. So, I",
+      "start": 551.2,
+      "duration": 4.0
+    },
+    {
+      "text": "think that's really where we're looking.",
+      "start": 553.2,
+      "duration": 5.52
+    },
+    {
+      "text": "It it's it's okay uh to introduce things",
+      "start": 555.2,
+      "duration": 6.48
+    },
+    {
+      "text": "that could in time make production",
+      "start": 558.72,
+      "duration": 5.119
+    },
+    {
+      "text": "processes more efficient, but we got to",
+      "start": 561.68,
+      "duration": 3.599
+    },
+    {
+      "text": "make sure we're putting people first",
+      "start": 563.839,
+      "duration": 2.321
+    },
+    {
+      "text": "when we do that.",
+      "start": 565.279,
+      "duration": 3.281
+    },
+    {
+      "text": ">> And some of our uh listeners when they",
+      "start": 566.16,
+      "duration": 4.56
+    },
+    {
+      "text": "knew you were coming on have uh",
+      "start": 568.56,
+      "duration": 4.32
+    },
+    {
+      "text": "expressed some concerns about regulatory",
+      "start": 570.72,
+      "duration": 4.239
+    },
+    {
+      "text": "capture and wanted to know what",
+      "start": 572.88,
+      "duration": 4.24
+    },
+    {
+      "text": "safeguards are in place. So these",
+      "start": 574.959,
+      "duration": 4.161
+    },
+    {
+      "text": "partnerships are public as you said",
+      "start": 577.12,
+      "duration": 4.0
+    },
+    {
+      "text": "putting people first. So talk a little",
+      "start": 579.12,
+      "duration": 4.08
+    },
+    {
+      "text": "bit to our audience about that. So",
+      "start": 581.12,
+      "duration": 4.0
+    },
+    {
+      "text": "Delaware is the first state to partner",
+      "start": 583.2,
+      "duration": 4.88
+    },
+    {
+      "text": "with Open AI on its AI certification",
+      "start": 585.12,
+      "duration": 4.64
+    },
+    {
+      "text": "program. So students, teachers, and",
+      "start": 588.08,
+      "duration": 6.08
+    },
+    {
+      "text": "workers can prove realw world AI fluency",
+      "start": 589.76,
+      "duration": 7.519
+    },
+    {
+      "text": "from basic workplace use to advanced",
+      "start": 594.16,
+      "duration": 5.44
+    },
+    {
+      "text": "skills like prompt engineering. If you",
+      "start": 597.279,
+      "duration": 5.281
+    },
+    {
+      "text": "think back to sort of when I was in in",
+      "start": 599.6,
+      "duration": 5.12
+    },
+    {
+      "text": "high school, there was this new product",
+      "start": 602.56,
+      "duration": 5.04
+    },
+    {
+      "text": "Microsoft Word and whoever got trained",
+      "start": 604.72,
+      "duration": 4.559
+    },
+    {
+      "text": "on it quickly, remember everybody used",
+      "start": 607.6,
+      "duration": 5.84
+    },
+    {
+      "text": "to put u Microsoft Word proficient on",
+      "start": 609.279,
+      "duration": 6.321
+    },
+    {
+      "text": "their resume. It was a it was a feather",
+      "start": 613.44,
+      "duration": 5.76
+    },
+    {
+      "text": "in your cap. What we're trying to do is",
+      "start": 615.6,
+      "duration": 6.0
+    },
+    {
+      "text": "enable as many Delawarians as possible",
+      "start": 619.2,
+      "duration": 4.879
+    },
+    {
+      "text": "to be able to put that feather in their",
+      "start": 621.6,
+      "duration": 5.359
+    },
+    {
+      "text": "in their cap earlier than than residents",
+      "start": 624.079,
+      "duration": 4.721
+    },
+    {
+      "text": "of other states and other countries.",
+      "start": 626.959,
+      "duration": 4.56
+    },
+    {
+      "text": "people can prepare and test inside",
+      "start": 628.8,
+      "duration": 5.68
+    },
+    {
+      "text": "what's called chat GBT's study mode in",
+      "start": 631.519,
+      "duration": 5.841
+    },
+    {
+      "text": "this partnership with OpenAI. It it it",
+      "start": 634.48,
+      "duration": 4.799
+    },
+    {
+      "text": "sort of meets learners where they are",
+      "start": 637.36,
+      "duration": 3.44
+    },
+    {
+      "text": "for people that don't have much",
+      "start": 639.279,
+      "duration": 4.881
+    },
+    {
+      "text": "experience or knowledge of of chat bots",
+      "start": 640.8,
+      "duration": 6.8
+    },
+    {
+      "text": "and chat GBT and it lowers some of the",
+      "start": 644.16,
+      "duration": 6.96
+    },
+    {
+      "text": "costs and friction of of learning. We're",
+      "start": 647.6,
+      "duration": 4.799
+    },
+    {
+      "text": "running it through an office of",
+      "start": 651.12,
+      "duration": 4.24
+    },
+    {
+      "text": "workforce development so that deals with",
+      "start": 652.399,
+      "duration": 5.12
+    },
+    {
+      "text": "some of the job loss concerns. The",
+      "start": 655.36,
+      "duration": 4.719
+    },
+    {
+      "text": "credentiing is really based on",
+      "start": 657.519,
+      "duration": 5.041
+    },
+    {
+      "text": "upskilling workers to get better jobs",
+      "start": 660.079,
+      "duration": 5.281
+    },
+    {
+      "text": "and better pay uh with on-ramps into",
+      "start": 662.56,
+      "duration": 4.399
+    },
+    {
+      "text": "high schools, community college, adult",
+      "start": 665.36,
+      "duration": 4.8
+    },
+    {
+      "text": "education, library um and and other",
+      "start": 666.959,
+      "duration": 7.521
+    },
+    {
+      "text": "areas. Um the bottom line is this is",
+      "start": 670.16,
+      "duration": 7.28
+    },
+    {
+      "text": "going to be an opportunity to to pilot",
+      "start": 674.48,
+      "duration": 5.599
+    },
+    {
+      "text": "um ed an educational process, a",
+      "start": 677.44,
+      "duration": 4.8
+    },
+    {
+      "text": "workforce development process, and we're",
+      "start": 680.079,
+      "duration": 4.0
+    },
+    {
+      "text": "going to look at it closely. We feel",
+      "start": 682.24,
+      "duration": 4.08
+    },
+    {
+      "text": "like we've put up guard rails to make",
+      "start": 684.079,
+      "duration": 6.801
+    },
+    {
+      "text": "sure that privacy, that safety, and that",
+      "start": 686.32,
+      "duration": 7.44
+    },
+    {
+      "text": "job loss is is protected. Uh, but we're",
+      "start": 690.88,
+      "duration": 4.56
+    },
+    {
+      "text": "going to watch it closely and and see",
+      "start": 693.76,
+      "duration": 4.16
+    },
+    {
+      "text": "what happens. The the advantage of being",
+      "start": 695.44,
+      "duration": 4.639
+    },
+    {
+      "text": "the first is you can provide tremendous",
+      "start": 697.92,
+      "duration": 5.52
+    },
+    {
+      "text": "benefit to your state to to constituents",
+      "start": 700.079,
+      "duration": 5.921
+    },
+    {
+      "text": "over other states. The downside is there",
+      "start": 703.44,
+      "duration": 4.48
+    },
+    {
+      "text": "there we're honest that there may be",
+      "start": 706.0,
+      "duration": 3.6
+    },
+    {
+      "text": "some missteps. We have to be measuring",
+      "start": 707.92,
+      "duration": 4.64
+    },
+    {
+      "text": "constantly and recalibrating as well.",
+      "start": 709.6,
+      "duration": 5.12
+    },
+    {
+      "text": "you also now",
+      "start": 712.56,
+      "duration": 5.36
+    },
+    {
+      "text": "put together an AI sandbox. So for our",
+      "start": 714.72,
+      "duration": 6.64
+    },
+    {
+      "text": "uh listeners or entrepreneurs uh who are",
+      "start": 717.92,
+      "duration": 5.68
+    },
+    {
+      "text": "out there and looking at Delaware which",
+      "start": 721.36,
+      "duration": 4.479
+    },
+    {
+      "text": "as you said you want companies to come",
+      "start": 723.6,
+      "duration": 5.2
+    },
+    {
+      "text": "in uh to Delaware to build systems in",
+      "start": 725.839,
+      "duration": 5.201
+    },
+    {
+      "text": "Delaware. What problems uh does it",
+      "start": 728.8,
+      "duration": 4.56
+    },
+    {
+      "text": "dearest and who gets to participate in",
+      "start": 731.04,
+      "duration": 3.599
+    },
+    {
+      "text": "that sandbox?",
+      "start": 733.36,
+      "duration": 4.56
+    },
+    {
+      "text": ">> If you ask me Delaware is number one in",
+      "start": 734.639,
+      "duration": 5.681
+    },
+    {
+      "text": "everything. We have the best food. We",
+      "start": 737.92,
+      "duration": 4.0
+    },
+    {
+      "text": "have the best sports teams. We have the",
+      "start": 740.32,
+      "duration": 3.28
+    },
+    {
+      "text": "best universities, high schools, middle",
+      "start": 741.92,
+      "duration": 4.08
+    },
+    {
+      "text": "schools. I understand if you ask other",
+      "start": 743.6,
+      "duration": 4.64
+    },
+    {
+      "text": "people, they may not agree with me on",
+      "start": 746.0,
+      "duration": 5.12
+    },
+    {
+      "text": "everything, but they will agree with me",
+      "start": 748.24,
+      "duration": 5.2
+    },
+    {
+      "text": "that Delaware is first really in the",
+      "start": 751.12,
+      "duration": 4.88
+    },
+    {
+      "text": "country and in the world in in",
+      "start": 753.44,
+      "duration": 5.12
+    },
+    {
+      "text": "corporations. We are the corporate home",
+      "start": 756.0,
+      "duration": 5.04
+    },
+    {
+      "text": "for twothirds of the Fortune 500, the",
+      "start": 758.56,
+      "duration": 5.92
+    },
+    {
+      "text": "largest 500 companies in in the world.",
+      "start": 761.04,
+      "duration": 6.08
+    },
+    {
+      "text": "PE um pretty much any company doing",
+      "start": 764.48,
+      "duration": 6.4
+    },
+    {
+      "text": "business in in the US uh either",
+      "start": 767.12,
+      "duration": 6.08
+    },
+    {
+      "text": "incorporates in Delaware or in in rare",
+      "start": 770.88,
+      "duration": 4.48
+    },
+    {
+      "text": "cases chooses to incorporate wherever",
+      "start": 773.2,
+      "duration": 4.96
+    },
+    {
+      "text": "their headquarters is. As a result of",
+      "start": 775.36,
+      "duration": 7.84
+    },
+    {
+      "text": "that, we have scale in in corporate",
+      "start": 778.16,
+      "duration": 6.88
+    },
+    {
+      "text": "governance for many of the leading",
+      "start": 783.2,
+      "duration": 3.6
+    },
+    {
+      "text": "corporations in the world. We're making",
+      "start": 785.04,
+      "duration": 4.479
+    },
+    {
+      "text": "the rules. We have the court system that",
+      "start": 786.8,
+      "duration": 4.96
+    },
+    {
+      "text": "governs many of the complex corporate",
+      "start": 789.519,
+      "duration": 5.281
+    },
+    {
+      "text": "decision making that's done every day in",
+      "start": 791.76,
+      "duration": 5.92
+    },
+    {
+      "text": "the modern business world. Obviously AI",
+      "start": 794.8,
+      "duration": 4.96
+    },
+    {
+      "text": "is increasingly part of that",
+      "start": 797.68,
+      "duration": 4.88
+    },
+    {
+      "text": "decision-making process. Agentic AI as",
+      "start": 799.76,
+      "duration": 5.04
+    },
+    {
+      "text": "you as you referenced. We want to make",
+      "start": 802.56,
+      "duration": 4.8
+    },
+    {
+      "text": "sure that we're not rejecting these new",
+      "start": 804.8,
+      "duration": 4.4
+    },
+    {
+      "text": "technologies wholesale but we're",
+      "start": 807.36,
+      "duration": 3.36
+    },
+    {
+      "text": "including them in our regulatory",
+      "start": 809.2,
+      "duration": 3.84
+    },
+    {
+      "text": "processes. So what we did, it's a long",
+      "start": 810.72,
+      "duration": 4.88
+    },
+    {
+      "text": "way of saying we set up a supervised",
+      "start": 813.04,
+      "duration": 5.84
+    },
+    {
+      "text": "test bed, a sort of environment where",
+      "start": 815.6,
+      "duration": 6.08
+    },
+    {
+      "text": "regulation is loosened a little bit to",
+      "start": 818.88,
+      "duration": 4.959
+    },
+    {
+      "text": "experiment, not experiment at scale, but",
+      "start": 821.68,
+      "duration": 5.12
+    },
+    {
+      "text": "experiment in small ways. Uh allowing",
+      "start": 823.839,
+      "duration": 4.641
+    },
+    {
+      "text": "companies, schools, hospitals and",
+      "start": 826.8,
+      "duration": 5.599
+    },
+    {
+      "text": "agencies to use AI tools using real",
+      "start": 828.48,
+      "duration": 6.88
+    },
+    {
+      "text": "guard rails. It temporary regulatory",
+      "start": 832.399,
+      "duration": 6.401
+    },
+    {
+      "text": "flexibility paired with consumer uh",
+      "start": 835.36,
+      "duration": 5.76
+    },
+    {
+      "text": "protections. The idea is that we provide",
+      "start": 838.8,
+      "duration": 4.96
+    },
+    {
+      "text": "a little sandbox before it becomes a",
+      "start": 841.12,
+      "duration": 5.68
+    },
+    {
+      "text": "whole beach before the sand scales up so",
+      "start": 843.76,
+      "duration": 4.72
+    },
+    {
+      "text": "we can get it right. Delaware is the",
+      "start": 846.8,
+      "duration": 3.52
+    },
+    {
+      "text": "leader globally in corporate governance",
+      "start": 848.48,
+      "duration": 3.599
+    },
+    {
+      "text": "law. People around the world look to",
+      "start": 850.32,
+      "duration": 4.079
+    },
+    {
+      "text": "Delaware corporate law decisions in our",
+      "start": 852.079,
+      "duration": 4.641
+    },
+    {
+      "text": "our statute. Um, we have the best",
+      "start": 854.399,
+      "duration": 4.24
+    },
+    {
+      "text": "lawyers and judges in the world and we",
+      "start": 856.72,
+      "duration": 3.919
+    },
+    {
+      "text": "have a unique opportunity to work with",
+      "start": 858.639,
+      "duration": 4.721
+    },
+    {
+      "text": "the tech industry to understand how the",
+      "start": 860.639,
+      "duration": 4.88
+    },
+    {
+      "text": "business utilization of AI interacts",
+      "start": 863.36,
+      "duration": 3.76
+    },
+    {
+      "text": "with corporate governance with actual",
+      "start": 865.519,
+      "duration": 4.88
+    },
+    {
+      "text": "governance of corporations. Can you have",
+      "start": 867.12,
+      "duration": 6.48
+    },
+    {
+      "text": "a board member sit in a room uh who's",
+      "start": 870.399,
+      "duration": 5.601
+    },
+    {
+      "text": "that's an AI engine and helping to make",
+      "start": 873.6,
+      "duration": 4.56
+    },
+    {
+      "text": "decisions? I I would hazard to guess",
+      "start": 876.0,
+      "duration": 4.16
+    },
+    {
+      "text": "that many companies have that now, but",
+      "start": 878.16,
+      "duration": 4.08
+    },
+    {
+      "text": "it's somebody just sort of quietly",
+      "start": 880.16,
+      "duration": 4.96
+    },
+    {
+      "text": "sitting on a laptop, you know, typing",
+      "start": 882.24,
+      "duration": 5.44
+    },
+    {
+      "text": "queries into Perplexity or Chat GBT.",
+      "start": 885.12,
+      "duration": 4.8
+    },
+    {
+      "text": "What we're saying is can maybe can we",
+      "start": 887.68,
+      "duration": 4.08
+    },
+    {
+      "text": "have an AI seat at the table just as",
+      "start": 889.92,
+      "duration": 3.52
+    },
+    {
+      "text": "often in Zoom calls and stuff you have",
+      "start": 891.76,
+      "duration": 4.56
+    },
+    {
+      "text": "your AI notetakers and can that have",
+      "start": 893.44,
+      "duration": 5.6
+    },
+    {
+      "text": "some legal relevance and where do we put",
+      "start": 896.32,
+      "duration": 5.04
+    },
+    {
+      "text": "that? Listen, we already know companies",
+      "start": 899.04,
+      "duration": 6.159
+    },
+    {
+      "text": "are using Agentic AI in a variety of",
+      "start": 901.36,
+      "duration": 6.64
+    },
+    {
+      "text": "ways. Retail companies are using AI",
+      "start": 905.199,
+      "duration": 4.721
+    },
+    {
+      "text": "agents to negotiate contracts for",
+      "start": 908.0,
+      "duration": 4.959
+    },
+    {
+      "text": "logistical supply chains.",
+      "start": 909.92,
+      "duration": 6.479
+    },
+    {
+      "text": "Um, agents are creating LLC's and and uh",
+      "start": 912.959,
+      "duration": 5.68
+    },
+    {
+      "text": "limited liability companies and various",
+      "start": 916.399,
+      "duration": 4.321
+    },
+    {
+      "text": "entities and in some cases managing",
+      "start": 918.639,
+      "duration": 4.241
+    },
+    {
+      "text": "them. We don't have all the answers yet.",
+      "start": 920.72,
+      "duration": 3.679
+    },
+    {
+      "text": "Uh, but Delaware is definitely the place",
+      "start": 922.88,
+      "duration": 3.6
+    },
+    {
+      "text": "to discover the right way to develop",
+      "start": 924.399,
+      "duration": 4.321
+    },
+    {
+      "text": "responsible products fit for business",
+      "start": 926.48,
+      "duration": 4.719
+    },
+    {
+      "text": "that can protect uh and ultimately",
+      "start": 928.72,
+      "duration": 4.72
+    },
+    {
+      "text": "support and assist customers around the",
+      "start": 931.199,
+      "duration": 5.76
+    },
+    {
+      "text": "globe. Do you think uh AI or AI agents",
+      "start": 933.44,
+      "duration": 6.24
+    },
+    {
+      "text": "should have a seat on the uh board?",
+      "start": 936.959,
+      "duration": 5.281
+    },
+    {
+      "text": ">> How does it help human beings if having",
+      "start": 939.68,
+      "duration": 6.32
+    },
+    {
+      "text": "an AI board member sit at the table is",
+      "start": 942.24,
+      "duration": 6.0
+    },
+    {
+      "text": "going to help corporate governance to be",
+      "start": 946.0,
+      "duration": 4.959
+    },
+    {
+      "text": "more honest, more transparent, produce",
+      "start": 948.24,
+      "duration": 4.719
+    },
+    {
+      "text": "efficiencies that are good for",
+      "start": 950.959,
+      "duration": 3.601
+    },
+    {
+      "text": "stakeholders in a company, for",
+      "start": 952.959,
+      "duration": 3.68
+    },
+    {
+      "text": "employees, for shareholders, and",
+      "start": 954.56,
+      "duration": 4.24
+    },
+    {
+      "text": "especially for customers, then we think",
+      "start": 956.639,
+      "duration": 4.32
+    },
+    {
+      "text": "it's a good thing. If it creates risk,",
+      "start": 958.8,
+      "duration": 4.959
+    },
+    {
+      "text": "if it if the safeguards are not there in",
+      "start": 960.959,
+      "duration": 6.0
+    },
+    {
+      "text": "terms of privacy and consumer safety, if",
+      "start": 963.759,
+      "duration": 5.52
+    },
+    {
+      "text": "there are ethics concerns that the the",
+      "start": 966.959,
+      "duration": 5.041
+    },
+    {
+      "text": "one thing I don't believe any AI engine",
+      "start": 969.279,
+      "duration": 5.68
+    },
+    {
+      "text": "has figured out is how to really develop",
+      "start": 972.0,
+      "duration": 5.519
+    },
+    {
+      "text": "a a true sense of morality and ethics",
+      "start": 974.959,
+      "duration": 4.641
+    },
+    {
+      "text": "and I think that's vitally important in",
+      "start": 977.519,
+      "duration": 3.68
+    },
+    {
+      "text": "any corporate board seat. And if we",
+      "start": 979.6,
+      "duration": 4.88
+    },
+    {
+      "text": "don't figure that that problem out, then",
+      "start": 981.199,
+      "duration": 5.44
+    },
+    {
+      "text": "uh maybe it's not a good idea. So for",
+      "start": 984.48,
+      "duration": 4.159
+    },
+    {
+      "text": "me, the jury's out. I I think you can",
+      "start": 986.639,
+      "duration": 4.56
+    },
+    {
+      "text": "think of situations where having an AI",
+      "start": 988.639,
+      "duration": 5.12
+    },
+    {
+      "text": "engine could be tremendously helpful to",
+      "start": 991.199,
+      "duration": 4.64
+    },
+    {
+      "text": "do complex corporate decision- making",
+      "start": 993.759,
+      "duration": 5.361
+    },
+    {
+      "text": "very quickly, efficiently that moves",
+      "start": 995.839,
+      "duration": 5.36
+    },
+    {
+      "text": "companies and our our business sector,",
+      "start": 999.12,
+      "duration": 3.76
+    },
+    {
+      "text": "various business sectors forward that",
+      "start": 1001.199,
+      "duration": 4.241
+    },
+    {
+      "text": "maybe even makes life, you know, and and",
+      "start": 1002.88,
+      "duration": 4.24
+    },
+    {
+      "text": "communities healthier. If you think of",
+      "start": 1005.44,
+      "duration": 4.48
+    },
+    {
+      "text": "like health tech sector um and and",
+      "start": 1007.12,
+      "duration": 5.04
+    },
+    {
+      "text": "various chemical pharmaceutical",
+      "start": 1009.92,
+      "duration": 3.68
+    },
+    {
+      "text": "technologies that could really help",
+      "start": 1012.16,
+      "duration": 4.96
+    },
+    {
+      "text": "people move forward but uh I'm not all",
+      "start": 1013.6,
+      "duration": 5.359
+    },
+    {
+      "text": "there yet. I got to see what human",
+      "start": 1017.12,
+      "duration": 4.719
+    },
+    {
+      "text": "benefit is. Let me give you one example",
+      "start": 1018.959,
+      "duration": 5.12
+    },
+    {
+      "text": "that's not directly related related to",
+      "start": 1021.839,
+      "duration": 4.08
+    },
+    {
+      "text": "our sandbox. I was a sixth and seventh",
+      "start": 1024.079,
+      "duration": 4.561
+    },
+    {
+      "text": "grade math teacher 10 years ago and we",
+      "start": 1025.919,
+      "duration": 6.721
+    },
+    {
+      "text": "spend about 24 days in a school year",
+      "start": 1028.64,
+      "duration": 7.039
+    },
+    {
+      "text": "with kids sitting uh doing standardized",
+      "start": 1032.64,
+      "duration": 7.039
+    },
+    {
+      "text": "tests. Right today things have changed a",
+      "start": 1035.679,
+      "duration": 5.28
+    },
+    {
+      "text": "little bit in the last 10 years in",
+      "start": 1039.679,
+      "duration": 3.601
+    },
+    {
+      "text": "Delaware but not much. Mostly kids are",
+      "start": 1040.959,
+      "duration": 4.48
+    },
+    {
+      "text": "spending an awful lot of school days",
+      "start": 1043.28,
+      "duration": 4.0
+    },
+    {
+      "text": "doing standardized tests. I think that's",
+      "start": 1045.439,
+      "duration": 3.6
+    },
+    {
+      "text": "crazy. I think in a world where there",
+      "start": 1047.28,
+      "duration": 3.759
+    },
+    {
+      "text": "are AI education tutors, we should be",
+      "start": 1049.039,
+      "duration": 5.281
+    },
+    {
+      "text": "able to utilize that technology to get",
+      "start": 1051.039,
+      "duration": 6.401
+    },
+    {
+      "text": "very valuable real time assessments of",
+      "start": 1054.32,
+      "duration": 5.44
+    },
+    {
+      "text": "what students in our public schools know",
+      "start": 1057.44,
+      "duration": 5.44
+    },
+    {
+      "text": "and don't know. Um, that would have",
+      "start": 1059.76,
+      "duration": 5.44
+    },
+    {
+      "text": "tremendous human benefit, but it's just",
+      "start": 1062.88,
+      "duration": 4.48
+    },
+    {
+      "text": "an idea. It's an idea we have down on a",
+      "start": 1065.2,
+      "duration": 3.44
+    },
+    {
+      "text": "piece of paper. Whether it actually",
+      "start": 1067.36,
+      "duration": 3.679
+    },
+    {
+      "text": "works in practice yet or not, we're not",
+      "start": 1068.64,
+      "duration": 4.159
+    },
+    {
+      "text": "sure. We're looking to have a small",
+      "start": 1071.039,
+      "duration": 3.76
+    },
+    {
+      "text": "pilot of that and then we'll scale it",
+      "start": 1072.799,
+      "duration": 4.88
+    },
+    {
+      "text": "and like like a number of AI tools we're",
+      "start": 1074.799,
+      "duration": 5.041
+    },
+    {
+      "text": "just looking to here's an idea let's",
+      "start": 1077.679,
+      "duration": 4.161
+    },
+    {
+      "text": "test it out with guard rails if it works",
+      "start": 1079.84,
+      "duration": 4.48
+    },
+    {
+      "text": "great if not let's learn and move on",
+      "start": 1081.84,
+      "duration": 4.64
+    },
+    {
+      "text": ">> should there be mandatory",
+      "start": 1084.32,
+      "duration": 4.239
+    },
+    {
+      "text": "training of some sort for corporate",
+      "start": 1086.48,
+      "duration": 3.52
+    },
+    {
+      "text": "boards because you can't assume the",
+      "start": 1088.559,
+      "duration": 4.24
+    },
+    {
+      "text": "board members all are AI but at least",
+      "start": 1090.0,
+      "duration": 5.2
+    },
+    {
+      "text": "for them to know about AI boards at",
+      "start": 1092.799,
+      "duration": 4.561
+    },
+    {
+      "text": "least some level of education should be",
+      "start": 1095.2,
+      "duration": 4.88
+    },
+    {
+      "text": "there what what is your thoughts on that",
+      "start": 1097.36,
+      "duration": 5.52
+    },
+    {
+      "text": ">> I am in the democratic party. But I I",
+      "start": 1100.08,
+      "duration": 5.04
+    },
+    {
+      "text": "have some libertarian beliefs. Companies",
+      "start": 1102.88,
+      "duration": 5.039
+    },
+    {
+      "text": "that are not incorporating AI, it's just",
+      "start": 1105.12,
+      "duration": 5.84
+    },
+    {
+      "text": "like if you go back 30 years, if you",
+      "start": 1107.919,
+      "duration": 5.281
+    },
+    {
+      "text": "weren't incorporating it, there were",
+      "start": 1110.96,
+      "duration": 4.32
+    },
+    {
+      "text": "there weren't many IT departments 30,",
+      "start": 1113.2,
+      "duration": 4.56
+    },
+    {
+      "text": "35, 40 years ago. If you didn't develop",
+      "start": 1115.28,
+      "duration": 5.12
+    },
+    {
+      "text": "an IT department and do it quickly, your",
+      "start": 1117.76,
+      "duration": 4.32
+    },
+    {
+      "text": "company was going to was going to go out",
+      "start": 1120.4,
+      "duration": 4.48
+    },
+    {
+      "text": "of business pretty quickly. And so my",
+      "start": 1122.08,
+      "duration": 5.52
+    },
+    {
+      "text": "expectation is in many industries AI is",
+      "start": 1124.88,
+      "duration": 4.48
+    },
+    {
+      "text": "going to be like that that either you",
+      "start": 1127.6,
+      "duration": 6.24
+    },
+    {
+      "text": "you adopt AI tools or you don't at your",
+      "start": 1129.36,
+      "duration": 5.12
+    },
+    {
+      "text": "peril",
+      "start": 1133.84,
+      "duration": 2.719
+    },
+    {
+      "text": ">> issue right now what state regulations",
+      "start": 1134.48,
+      "duration": 4.64
+    },
+    {
+      "text": "versus federal regulation as you know in",
+      "start": 1136.559,
+      "duration": 4.721
+    },
+    {
+      "text": "the big beautiful bill there was a",
+      "start": 1139.12,
+      "duration": 5.52
+    },
+    {
+      "text": "attempt to make to put a moratorium for",
+      "start": 1141.28,
+      "duration": 5.6
+    },
+    {
+      "text": "10 years that states would not be able",
+      "start": 1144.64,
+      "duration": 5.12
+    },
+    {
+      "text": "to put any kind of AI regulation where",
+      "start": 1146.88,
+      "duration": 5.28
+    },
+    {
+      "text": "do you come out on states having the",
+      "start": 1149.76,
+      "duration": 5.36
+    },
+    {
+      "text": "ability to uh regulate AI versus that",
+      "start": 1152.16,
+      "duration": 4.48
+    },
+    {
+      "text": "the federal perspective",
+      "start": 1155.12,
+      "duration": 6.16
+    },
+    {
+      "text": ">> I'm a huge fan of of you know something",
+      "start": 1156.64,
+      "duration": 7.6
+    },
+    {
+      "text": "that's been a core principle of our",
+      "start": 1161.28,
+      "duration": 4.96
+    },
+    {
+      "text": "country since its founding and that is",
+      "start": 1164.24,
+      "duration": 4.08
+    },
+    {
+      "text": "we have 50 laboratories of",
+      "start": 1166.24,
+      "duration": 4.64
+    },
+    {
+      "text": "experimentation. We have 50 places where",
+      "start": 1168.32,
+      "duration": 5.68
+    },
+    {
+      "text": "people can do things differently. Some",
+      "start": 1170.88,
+      "duration": 5.2
+    },
+    {
+      "text": "states have decided to legalize",
+      "start": 1174.0,
+      "duration": 4.72
+    },
+    {
+      "text": "marijuana. Other states don't think",
+      "start": 1176.08,
+      "duration": 5.12
+    },
+    {
+      "text": "that's right. Some states liquor stores",
+      "start": 1178.72,
+      "duration": 4.56
+    },
+    {
+      "text": "aren't open on Sundays. Other states",
+      "start": 1181.2,
+      "duration": 4.24
+    },
+    {
+      "text": "think some states New Mexico just made",
+      "start": 1183.28,
+      "duration": 4.56
+    },
+    {
+      "text": "child care free. Other states don't do",
+      "start": 1185.44,
+      "duration": 3.84
+    },
+    {
+      "text": "that. We can all look at each other and",
+      "start": 1187.84,
+      "duration": 3.68
+    },
+    {
+      "text": "we many of us as governors and state",
+      "start": 1189.28,
+      "duration": 4.32
+    },
+    {
+      "text": "legislators, elected officials and",
+      "start": 1191.52,
+      "duration": 3.519
+    },
+    {
+      "text": "members of the public look at other",
+      "start": 1193.6,
+      "duration": 3.199
+    },
+    {
+      "text": "states and say, \"Hey, look at this cool",
+      "start": 1195.039,
+      "duration": 4.321
+    },
+    {
+      "text": "thing New Mexico, Nevada or Nebraska is",
+      "start": 1196.799,
+      "duration": 4.321
+    },
+    {
+      "text": "doing. Let's do that.\" Or look at this",
+      "start": 1199.36,
+      "duration": 4.0
+    },
+    {
+      "text": "thing that that South Carolina or",
+      "start": 1201.12,
+      "duration": 3.84
+    },
+    {
+      "text": "Pennsylvania is doing. Let's not do",
+      "start": 1203.36,
+      "duration": 3.6
+    },
+    {
+      "text": "that. I think it's really important. So,",
+      "start": 1204.96,
+      "duration": 4.32
+    },
+    {
+      "text": "I I I'm glad that ultimately did not",
+      "start": 1206.96,
+      "duration": 4.8
+    },
+    {
+      "text": "make it in the into the bill into the",
+      "start": 1209.28,
+      "duration": 4.32
+    },
+    {
+      "text": "federal bill. I think it's important",
+      "start": 1211.76,
+      "duration": 3.6
+    },
+    {
+      "text": "especially when there's new technology",
+      "start": 1213.6,
+      "duration": 3.84
+    },
+    {
+      "text": "like this. give states the opportunity",
+      "start": 1215.36,
+      "duration": 3.679
+    },
+    {
+      "text": "to experiment. I think what we'll see",
+      "start": 1217.44,
+      "duration": 4.64
+    },
+    {
+      "text": "over time is some regulatory structures,",
+      "start": 1219.039,
+      "duration": 5.52
+    },
+    {
+      "text": "some pilots really working and some not",
+      "start": 1222.08,
+      "duration": 4.32
+    },
+    {
+      "text": "working and and states will tend to",
+      "start": 1224.559,
+      "duration": 3.281
+    },
+    {
+      "text": "adopt the ones that work and if they",
+      "start": 1226.4,
+      "duration": 3.519
+    },
+    {
+      "text": "don't then federal regulation can come",
+      "start": 1227.84,
+      "duration": 2.64
+    },
+    {
+      "text": "in.",
+      "start": 1229.919,
+      "duration": 3.681
+    },
+    {
+      "text": ">> Just shifting more at a broader level,",
+      "start": 1230.48,
+      "duration": 4.88
+    },
+    {
+      "text": "uh governor, you know, Deliver was one",
+      "start": 1233.6,
+      "duration": 3.52
+    },
+    {
+      "text": "of the first states to criminalize",
+      "start": 1235.36,
+      "duration": 5.12
+    },
+    {
+      "text": "election deep fakes. Um, how do you see",
+      "start": 1237.12,
+      "duration": 7.039
+    },
+    {
+      "text": "AI shaping threats to democracy more",
+      "start": 1240.48,
+      "duration": 6.24
+    },
+    {
+      "text": "broadly? And what role should states",
+      "start": 1244.159,
+      "duration": 6.241
+    },
+    {
+      "text": "have in protecting electoral integrity?",
+      "start": 1246.72,
+      "duration": 6.079
+    },
+    {
+      "text": ">> Yeah, I I think it's key and I think",
+      "start": 1250.4,
+      "duration": 3.68
+    },
+    {
+      "text": "that's an area where the federal",
+      "start": 1252.799,
+      "duration": 4.801
+    },
+    {
+      "text": "government should act as well.",
+      "start": 1254.08,
+      "duration": 6.719
+    },
+    {
+      "text": "Um, and it's not there are certainly new",
+      "start": 1257.6,
+      "duration": 5.439
+    },
+    {
+      "text": "aspects to it with deep fakes, but it's",
+      "start": 1260.799,
+      "duration": 4.24
+    },
+    {
+      "text": "not totally new things like doctoring",
+      "start": 1263.039,
+      "duration": 4.241
+    },
+    {
+      "text": "pictures, right? and even doctoring",
+      "start": 1265.039,
+      "duration": 3.841
+    },
+    {
+      "text": "videos. The technology has been around",
+      "start": 1267.28,
+      "duration": 4.72
+    },
+    {
+      "text": "to do that for for years now. The things",
+      "start": 1268.88,
+      "duration": 6.32
+    },
+    {
+      "text": "you can do now just on on in your in the",
+      "start": 1272.0,
+      "duration": 5.76
+    },
+    {
+      "text": "palm of your hand in a matter of",
+      "start": 1275.2,
+      "duration": 5.04
+    },
+    {
+      "text": "seconds, minutes or hours is",
+      "start": 1277.76,
+      "duration": 4.799
+    },
+    {
+      "text": "extraordinary and is dangerous. And I",
+      "start": 1280.24,
+      "duration": 4.16
+    },
+    {
+      "text": "think we need to take an active role.",
+      "start": 1282.559,
+      "duration": 4.801
+    },
+    {
+      "text": "You can envision a world where a",
+      "start": 1284.4,
+      "duration": 4.88
+    },
+    {
+      "text": "government that does not strictly",
+      "start": 1287.36,
+      "duration": 4.08
+    },
+    {
+      "text": "regulate this stuff really loses its",
+      "start": 1289.28,
+      "duration": 5.36
+    },
+    {
+      "text": "democracy. where one very smart creative",
+      "start": 1291.44,
+      "duration": 6.239
+    },
+    {
+      "text": "programmer or digital designer can take",
+      "start": 1294.64,
+      "duration": 5.68
+    },
+    {
+      "text": "over an entire society uh and we got to",
+      "start": 1297.679,
+      "duration": 4.48
+    },
+    {
+      "text": "make sure we regulate so that never",
+      "start": 1300.32,
+      "duration": 2.64
+    },
+    {
+      "text": "happens.",
+      "start": 1302.159,
+      "duration": 3.121
+    },
+    {
+      "text": ">> Governor, looking at uh the global",
+      "start": 1302.96,
+      "duration": 4.56
+    },
+    {
+      "text": "perspective, I know you are in Delaware.",
+      "start": 1305.28,
+      "duration": 4.879
+    },
+    {
+      "text": "You know the European Union has its AI",
+      "start": 1307.52,
+      "duration": 5.279
+    },
+    {
+      "text": "act. China is doing its own thing within",
+      "start": 1310.159,
+      "duration": 6.0
+    },
+    {
+      "text": "the US obviously our focus is on uh",
+      "start": 1312.799,
+      "duration": 5.681
+    },
+    {
+      "text": "states uh like yours who are doing",
+      "start": 1316.159,
+      "duration": 5.921
+    },
+    {
+      "text": "things. Should there be some kind of a",
+      "start": 1318.48,
+      "duration": 6.16
+    },
+    {
+      "text": "harmonization globally, you know, for",
+      "start": 1322.08,
+      "duration": 4.0
+    },
+    {
+      "text": "companies that are kind of trying to",
+      "start": 1324.64,
+      "duration": 3.919
+    },
+    {
+      "text": "figure out, hey, what all do I need to",
+      "start": 1326.08,
+      "duration": 4.479
+    },
+    {
+      "text": "be in compliance with, etc. What are",
+      "start": 1328.559,
+      "duration": 3.36
+    },
+    {
+      "text": "your thoughts in some kind of a",
+      "start": 1330.559,
+      "duration": 4.081
+    },
+    {
+      "text": "harmonization standards or something?",
+      "start": 1331.919,
+      "duration": 5.441
+    },
+    {
+      "text": ">> I it's a good question. Uh, I I I don't",
+      "start": 1334.64,
+      "duration": 4.399
+    },
+    {
+      "text": "have strong feelings about it. It makes",
+      "start": 1337.36,
+      "duration": 5.12
+    },
+    {
+      "text": "sense for there to be a a a a",
+      "start": 1339.039,
+      "duration": 8.321
+    },
+    {
+      "text": "baseline of safety, security, privacy",
+      "start": 1342.48,
+      "duration": 8.0
+    },
+    {
+      "text": "that uh you know major jurisdictions",
+      "start": 1347.36,
+      "duration": 6.88
+    },
+    {
+      "text": "that that our largest countries, the",
+      "start": 1350.48,
+      "duration": 6.16
+    },
+    {
+      "text": "most frequent users of AI all subscribe",
+      "start": 1354.24,
+      "duration": 5.28
+    },
+    {
+      "text": "to. That makes sense to me. Uh it's it's",
+      "start": 1356.64,
+      "duration": 6.159
+    },
+    {
+      "text": "it's uh uh I know like privacy can be a",
+      "start": 1359.52,
+      "duration": 4.96
+    },
+    {
+      "text": "nightmare for companies doing business",
+      "start": 1362.799,
+      "duration": 4.161
+    },
+    {
+      "text": "in Europe and the US. Technology",
+      "start": 1364.48,
+      "duration": 4.48
+    },
+    {
+      "text": "companies that are like we don't really",
+      "start": 1366.96,
+      "duration": 4.0
+    },
+    {
+      "text": "care where someone's using except for",
+      "start": 1368.96,
+      "duration": 3.68
+    },
+    {
+      "text": "the language they're using it in. It's",
+      "start": 1370.96,
+      "duration": 4.079
+    },
+    {
+      "text": "the same thing. Uh but they need to",
+      "start": 1372.64,
+      "duration": 3.76
+    },
+    {
+      "text": "change all these things because every",
+      "start": 1375.039,
+      "duration": 3.76
+    },
+    {
+      "text": "jurisdiction has different privacy laws",
+      "start": 1376.4,
+      "duration": 4.0
+    },
+    {
+      "text": "for example. So I think some some",
+      "start": 1378.799,
+      "duration": 4.481
+    },
+    {
+      "text": "standardization would make sense.",
+      "start": 1380.4,
+      "duration": 5.88
+    },
+    {
+      "text": ">> Wonderful.",
+      "start": 1383.28,
+      "duration": 3.0
+    },
+    {
+      "text": "So, uh, Governor, should advanced AI",
+      "start": 1388.559,
+      "duration": 4.24
+    },
+    {
+      "text": "systems require government approval",
+      "start": 1390.88,
+      "duration": 4.48
+    },
+    {
+      "text": "before public deployment? Yes or no?",
+      "start": 1392.799,
+      "duration": 3.201
+    },
+    {
+      "text": ">> No.",
+      "start": 1395.36,
+      "duration": 3.76
+    },
+    {
+      "text": ">> Okay. Uh, should algorithmic audits be",
+      "start": 1396.0,
+      "duration": 5.6
+    },
+    {
+      "text": "mandatory for AI used in hiring or",
+      "start": 1399.12,
+      "duration": 4.0
+    },
+    {
+      "text": "employment decisions?",
+      "start": 1401.6,
+      "duration": 3.52
+    },
+    {
+      "text": ">> Should they be mandatory? No. I told you",
+      "start": 1403.12,
+      "duration": 3.2
+    },
+    {
+      "text": "I'm a libertarian.",
+      "start": 1405.12,
+      "duration": 3.6
+    },
+    {
+      "text": ">> Cool. Uh, should states have the",
+      "start": 1406.32,
+      "duration": 4.64
+    },
+    {
+      "text": "authority to ban AI applications they",
+      "start": 1408.72,
+      "duration": 4.4
+    },
+    {
+      "text": "consider too risky?",
+      "start": 1410.96,
+      "duration": 2.959
+    },
+    {
+      "text": ">> Yes.",
+      "start": 1413.12,
+      "duration": 3.6
+    },
+    {
+      "text": ">> Okay. Is current federal oversight",
+      "start": 1413.919,
+      "duration": 6.161
+    },
+    {
+      "text": "sufficient to manage emerging AI risk?",
+      "start": 1416.72,
+      "duration": 4.24
+    },
+    {
+      "text": ">> No.",
+      "start": 1420.08,
+      "duration": 3.599
+    },
+    {
+      "text": ">> Okay. Should AI companies be required to",
+      "start": 1420.96,
+      "duration": 5.599
+    },
+    {
+      "text": "disclose their safety testing protocols?",
+      "start": 1423.679,
+      "duration": 3.921
+    },
+    {
+      "text": ">> Yes.",
+      "start": 1426.559,
+      "duration": 3.12
+    },
+    {
+      "text": ">> Do you think uh Governor, we kind of",
+      "start": 1427.6,
+      "duration": 4.4
+    },
+    {
+      "text": "touched on this way AI ultimately create",
+      "start": 1429.679,
+      "duration": 4.48
+    },
+    {
+      "text": "more jobs than it eliminates in the next",
+      "start": 1432.0,
+      "duration": 3.2
+    },
+    {
+      "text": "decade?",
+      "start": 1434.159,
+      "duration": 2.481
+    },
+    {
+      "text": ">> I think it will. Yes.",
+      "start": 1435.2,
+      "duration": 3.599
+    },
+    {
+      "text": ">> Should the US establish a dedicated",
+      "start": 1436.64,
+      "duration": 4.56
+    },
+    {
+      "text": "federal AI safety agency similar to the",
+      "start": 1438.799,
+      "duration": 3.601
+    },
+    {
+      "text": "FDA?",
+      "start": 1441.2,
+      "duration": 2.4
+    },
+    {
+      "text": ">> Okay.",
+      "start": 1442.4,
+      "duration": 4.08
+    },
+    {
+      "text": "And should all AI generated content be",
+      "start": 1443.6,
+      "duration": 5.199
+    },
+    {
+      "text": "clearly labeled as such that it is AI",
+      "start": 1446.48,
+      "duration": 3.679
+    },
+    {
+      "text": "generated?",
+      "start": 1448.799,
+      "duration": 2.321
+    },
+    {
+      "text": ">> Yes.",
+      "start": 1450.159,
+      "duration": 3.361
+    },
+    {
+      "text": ">> And should AI developers be held legally",
+      "start": 1451.12,
+      "duration": 5.2
+    },
+    {
+      "text": "liable for downstream harms caused by",
+      "start": 1453.52,
+      "duration": 4.24
+    },
+    {
+      "text": "their systems?",
+      "start": 1456.32,
+      "duration": 3.68
+    },
+    {
+      "text": ">> Uh I'm going to plead the fifth maybe. I",
+      "start": 1457.76,
+      "duration": 3.279
+    },
+    {
+      "text": "don't. That's a tough one. That's a",
+      "start": 1460.0,
+      "duration": 1.52
+    },
+    {
+      "text": "tough one.",
+      "start": 1461.039,
+      "duration": 3.12
+    },
+    {
+      "text": ">> It's it's uh fact specific. In some",
+      "start": 1461.52,
+      "duration": 4.399
+    },
+    {
+      "text": "instances, yes, and others no.",
+      "start": 1464.159,
+      "duration": 5.201
+    },
+    {
+      "text": ">> Sounds good. Now, Governor uh your peers",
+      "start": 1465.919,
+      "duration": 6.561
+    },
+    {
+      "text": "around the world, what would be one",
+      "start": 1469.36,
+      "duration": 5.919
+    },
+    {
+      "text": "thing that you would uh tell them from",
+      "start": 1472.48,
+      "duration": 4.72
+    },
+    {
+      "text": "your experiences? As I said, you've done",
+      "start": 1475.279,
+      "duration": 4.64
+    },
+    {
+      "text": "the certification, the sandbox, you're",
+      "start": 1477.2,
+      "duration": 4.959
+    },
+    {
+      "text": "kind of at the cutting edge. What would",
+      "start": 1479.919,
+      "duration": 5.521
+    },
+    {
+      "text": "be a message for you to them? Government",
+      "start": 1482.159,
+      "duration": 6.88
+    },
+    {
+      "text": ">> fear as as AI really sweeps across",
+      "start": 1485.44,
+      "duration": 6.8
+    },
+    {
+      "text": "global markets, we can't be driven by",
+      "start": 1489.039,
+      "duration": 5.361
+    },
+    {
+      "text": "fear. We have to be driven by",
+      "start": 1492.24,
+      "duration": 5.12
+    },
+    {
+      "text": "opportunity. But real be realistic about",
+      "start": 1494.4,
+      "duration": 5.279
+    },
+    {
+      "text": "the guardrails. That means move move",
+      "start": 1497.36,
+      "duration": 5.52
+    },
+    {
+      "text": "fast. Look at what um the startup guys",
+      "start": 1499.679,
+      "duration": 5.681
+    },
+    {
+      "text": "do and behave in government and in",
+      "start": 1502.88,
+      "duration": 4.72
+    },
+    {
+      "text": "regulatory processes a little bit like",
+      "start": 1505.36,
+      "duration": 4.72
+    },
+    {
+      "text": "them. Move quickly. You might break some",
+      "start": 1507.6,
+      "duration": 4.72
+    },
+    {
+      "text": "things, but you need systems to quickly",
+      "start": 1510.08,
+      "duration": 4.4
+    },
+    {
+      "text": "course correct. And that's that's the",
+      "start": 1512.32,
+      "duration": 3.92
+    },
+    {
+      "text": "approach we're taking. We're fortunate.",
+      "start": 1514.48,
+      "duration": 3.84
+    },
+    {
+      "text": "Delaware is unique. We're a smart we're",
+      "start": 1516.24,
+      "duration": 4.559
+    },
+    {
+      "text": "a small place. It's we call ourselves a",
+      "start": 1518.32,
+      "duration": 3.839
+    },
+    {
+      "text": "state of neighbors where everyone's",
+      "start": 1520.799,
+      "duration": 3.841
+    },
+    {
+      "text": "dated, mated, related. we can get",
+      "start": 1522.159,
+      "duration": 4.241
+    },
+    {
+      "text": "everybody in a room and move quickly",
+      "start": 1524.64,
+      "duration": 4.08
+    },
+    {
+      "text": "with regulatory structures. We can be",
+      "start": 1526.4,
+      "duration": 4.96
+    },
+    {
+      "text": "nimble and so we have that advantage.",
+      "start": 1528.72,
+      "duration": 4.64
+    },
+    {
+      "text": "It's an advantage that that numerous,",
+      "start": 1531.36,
+      "duration": 3.6
+    },
+    {
+      "text": "you know, large companies when they",
+      "start": 1533.36,
+      "duration": 3.28
+    },
+    {
+      "text": "started as small companies took",
+      "start": 1534.96,
+      "duration": 3.44
+    },
+    {
+      "text": "advantage of and that's what we're",
+      "start": 1536.64,
+      "duration": 3.68
+    },
+    {
+      "text": "looking to do here. But I think other",
+      "start": 1538.4,
+      "duration": 4.399
+    },
+    {
+      "text": "larger governments can do it as well.",
+      "start": 1540.32,
+      "duration": 4.8
+    },
+    {
+      "text": "put don't don't be there's a a",
+      "start": 1542.799,
+      "duration": 4.48
+    },
+    {
+      "text": "temptation particularly in government to",
+      "start": 1545.12,
+      "duration": 5.2
+    },
+    {
+      "text": "just be be bogged down by all the fears",
+      "start": 1547.279,
+      "duration": 5.921
+    },
+    {
+      "text": "and all the regulatory structure you can",
+      "start": 1550.32,
+      "duration": 5.92
+    },
+    {
+      "text": "put to really confine an industry which",
+      "start": 1553.2,
+      "duration": 5.839
+    },
+    {
+      "text": "may have tremendous human benefit in",
+      "start": 1556.24,
+      "duration": 4.559
+    },
+    {
+      "text": "terms of saving lives in terms of",
+      "start": 1559.039,
+      "duration": 3.76
+    },
+    {
+      "text": "creating wealth and efficiencies across",
+      "start": 1560.799,
+      "duration": 4.641
+    },
+    {
+      "text": "society. So look at it as a huge",
+      "start": 1562.799,
+      "duration": 6.321
+    },
+    {
+      "text": "opportunity but be be go enter it with a",
+      "start": 1565.44,
+      "duration": 7.2
+    },
+    {
+      "text": "critical mind um measure and take the",
+      "start": 1569.12,
+      "duration": 5.439
+    },
+    {
+      "text": "appropriate steps to protect people",
+      "start": 1572.64,
+      "duration": 5.519
+    },
+    {
+      "text": ">> for our audience he's a Emmy winner for",
+      "start": 1574.559,
+      "duration": 5.761
+    },
+    {
+      "text": "his documentary now from Emmy winner",
+      "start": 1578.159,
+      "duration": 5.041
+    },
+    {
+      "text": "you've gone to an AI pioneer governor so",
+      "start": 1580.32,
+      "duration": 5.12
+    },
+    {
+      "text": "really that's fantastic thanks for a",
+      "start": 1583.2,
+      "duration": 4.959
+    },
+    {
+      "text": "masterclass in building a responsible AI",
+      "start": 1585.44,
+      "duration": 5.52
+    },
+    {
+      "text": "state where innovation truly you paired",
+      "start": 1588.159,
+      "duration": 4.801
+    },
+    {
+      "text": "it with accountability and for our",
+      "start": 1590.96,
+      "duration": 4.16
+    },
+    {
+      "text": "audience of policy shapers and AI",
+      "start": 1592.96,
+      "duration": 4.64
+    },
+    {
+      "text": "leaders. Delaware's model, you know, AI",
+      "start": 1595.12,
+      "duration": 5.039
+    },
+    {
+      "text": "sandboxing with equity metric uh",
+      "start": 1597.6,
+      "duration": 4.64
+    },
+    {
+      "text": "portable credentials and clear guard",
+      "start": 1600.159,
+      "duration": 4.241
+    },
+    {
+      "text": "rail, you know, offers a pragmatic",
+      "start": 1602.24,
+      "duration": 4.48
+    },
+    {
+      "text": "blueprint that others can adopt. So,",
+      "start": 1604.4,
+      "duration": 4.48
+    },
+    {
+      "text": "thank you so much, uh, Governor, for",
+      "start": 1606.72,
+      "duration": 4.4
+    },
+    {
+      "text": "being on the regulating AI podcast and",
+      "start": 1608.88,
+      "duration": 3.76
+    },
+    {
+      "text": "for sharing what you do, and we're",
+      "start": 1611.12,
+      "duration": 4.159
+    },
+    {
+      "text": "hoping to have you back again with us.",
+      "start": 1612.64,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Great. Thanks so much, Shandre, and",
+      "start": 1615.279,
+      "duration": 3.28
+    },
+    {
+      "text": "thank you to all the listeners. Stay",
+      "start": 1616.96,
+      "duration": 4.0
+    },
+    {
+      "text": "engaged. There's an exciting future in",
+      "start": 1618.559,
+      "duration": 2.961
+    },
+    {
+      "text": "front of us.",
+      "start": 1620.96,
+      "duration": 3.52
+    },
+    {
+      "text": ">> Thank you, Governor.",
+      "start": 1621.52,
+      "duration": 4.96
+    },
+    {
+      "text": "Thanks for tuning in to the Regulating",
+      "start": 1624.48,
+      "duration": 4.64
+    },
+    {
+      "text": "AI podcast with Sanjay Puri. If you",
+      "start": 1626.48,
+      "duration": 5.12
+    },
+    {
+      "text": "enjoy today's conversation, don't forget",
+      "start": 1629.12,
+      "duration": 4.559
+    },
+    {
+      "text": "to leave a comment. We'd love to hear",
+      "start": 1631.6,
+      "duration": 4.319
+    },
+    {
+      "text": "what you thought. Share it with someone",
+      "start": 1633.679,
+      "duration": 4.961
+    },
+    {
+      "text": "curious about the future of EI. And join",
+      "start": 1635.919,
+      "duration": 4.64
+    },
+    {
+      "text": "us next time for more stories and",
+      "start": 1638.64,
+      "duration": 4.639
+    },
+    {
+      "text": "insights from the leaders shaping what's",
+      "start": 1640.559,
+      "duration": 5.6
+    },
+    {
+      "text": "ahead right here on the Regulating AI",
+      "start": 1643.279,
+      "duration": 5.681
+    },
+    {
+      "text": "podcast.",
+      "start": 1646.159,
+      "duration": 2.801
+    }
+  ]
+}

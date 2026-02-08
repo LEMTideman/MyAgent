@@ -1,0 +1,66 @@
+```markdown
+# Article 12: Record-keeping
+
+## Summary
+
+For high-risk AI systems record-keeping obligation applies. High-risk AI systems must have automatic logging capabilities to record events throughout their lifecycle. These logs should help identify risks, support post-market monitoring, and track system operation. For remote biometric identification systems, logs must include usage periods, reference databases, input data, and the identities of individuals verifying results. This ensures traceability and facilitates ongoing oversight and risk management.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+## Section 2: Requirements for High-Risk AI Systems
+
+### 1. High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.
+
+### 2. In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for:
+
+- **Identifying situations that may result in the high-risk AI system presenting a risk within the meaning of [Article 79(1)](/en/ai-act/article-79):**
+- **Facilitating the post-market monitoring referred to in [Article 72](/en/ai-act/article-72); and**
+- **Monitoring the operation of high-risk AI systems referred to in [Article 26(5)](/en/ai-act/article-26).**
+
+### 3. For high-risk AI systems referred to in point 1 (a), of [Annex III](/en/ai-act/annex-3), the logging capabilities shall provide, at a minimum:
+
+- **Recording of the period of each use of the system (start date and time and end date and time):**
+- **Reference database against which input data has been checked by the system:**
+- **Input data for which the search has led to a match:**
+- **Identification of the natural persons involved in the verification of the results, as referred to in [Article 14(5)](/en/ai-act/article-14).**
+
+## Relevant Recitals
+
+*   [Recital 66](/en/ai-act/recital-66)
+*   [Recital 71](/en/ai-act/recital-71)
+*   [Recital 131](/en/ai-act/recital-131)
+
+View the [official text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689). The text used in this tool is the ‘[Artificial Intelligence Act (Regulation (EU) 2024/1689), Official version of 13 June 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689)’.
+
+---
+
+**AI Act Service Desk**
+
+This site is managed by:
+Directorate-General for Communications Networks, Content and Technology
+
+*   [Accessibility](/en/accessibility-statement)
+
+**Contact us**
+
+*   [Contact the AI Office](mailto:CNECT-AIOFFICE@ec.europa.eu)
+
+**About us**
+
+*   [Copyright notice](/en/copyright-notice)
+*   [Legal notice](/en/legal-notice)
+*   [Privacy statement](/en/privacy-statement-ai-act-service-desk-website)
+*   [About Directorate-General CONNECT](https://commission.europa.eu/about-departments-and-executive-agencies/connect_en)
+
+[![European Commission logo](https://webtools.europa.eu/images/logos/logo.png)](https://commission.europa.eu/index_en)
+
+*   [Contact the European Commission](https://commission.europa.eu/about-european-commission/contact_en)
+*   [Follow the European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission)
+*   [Resources for partners](https://commission.europa.eu/resources-partners_en)
+*   [Report an IT vulnerability](https://commission.europa.eu/resources-partners_en/report-an-it-vulnerability)
+
+*   [Languages on our websites](https://commission.europa.eu/languages-on-others-websites_en)
+*   [Cookies](https://commission.europa.eu/cookies_en)
+*   [Privacy policy](https://commission.europa.eu/data-protection/right-to-be-forgotten/en/)
+*   [Legal notice](https://commission.europa.eu/legal-notices_legal-statements_eur-web/en/)
+```

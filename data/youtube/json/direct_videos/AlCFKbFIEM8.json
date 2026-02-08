@@ -1,0 +1,7113 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "AlCFKbFIEM8",
+  "video_title": "Trends in Data Engineering - Adrian Brudaru",
+  "video_url": "https://www.youtube.com/watch?v=AlCFKbFIEM8",
+  "fetched_at": "2025-12-30T09:09:19.454351+00:00",
+  "transcript": [
+    {
+      "text": "hi everyone Welcome to our event this",
+      "start": 1.24,
+      "duration": 3.88
+    },
+    {
+      "text": "event is brought to you by dat do club",
+      "start": 3.12,
+      "duration": 3.88
+    },
+    {
+      "text": "which is a community of people who love",
+      "start": 5.12,
+      "duration": 4.32
+    },
+    {
+      "text": "data we have weekly events and today is",
+      "start": 7.0,
+      "duration": 3.84
+    },
+    {
+      "text": "one of such events if you want to find",
+      "start": 9.44,
+      "duration": 3.04
+    },
+    {
+      "text": "out more about the events we have there",
+      "start": 10.84,
+      "duration": 3.959
+    },
+    {
+      "text": "is a link in the description click on",
+      "start": 12.48,
+      "duration": 4.2
+    },
+    {
+      "text": "that link and you'll see all the other",
+      "start": 14.799,
+      "duration": 4.64
+    },
+    {
+      "text": "events we have in our pipeline um do not",
+      "start": 16.68,
+      "duration": 4.04
+    },
+    {
+      "text": "forget to subscribe to our YouTube",
+      "start": 19.439,
+      "duration": 3.0
+    },
+    {
+      "text": "channel this way you'll stay up to date",
+      "start": 20.72,
+      "duration": 4.52
+    },
+    {
+      "text": "with all our future events and you'll",
+      "start": 22.439,
+      "duration": 5.401
+    },
+    {
+      "text": "get notifications when they start and",
+      "start": 25.24,
+      "duration": 5.64
+    },
+    {
+      "text": "last but not least don't forget to join",
+      "start": 27.84,
+      "duration": 5.44
+    },
+    {
+      "text": "our slack Community where you can hang",
+      "start": 30.88,
+      "duration": 4.72
+    },
+    {
+      "text": "out with other data into US during",
+      "start": 33.28,
+      "duration": 3.959
+    },
+    {
+      "text": "today's interview you can ask any",
+      "start": 35.6,
+      "duration": 4.16
+    },
+    {
+      "text": "question you want there is a pin Link in",
+      "start": 37.239,
+      "duration": 4.761
+    },
+    {
+      "text": "the live chat click on that link ask",
+      "start": 39.76,
+      "duration": 3.76
+    },
+    {
+      "text": "your questions and we will be covering",
+      "start": 42.0,
+      "duration": 4.36
+    },
+    {
+      "text": "these questions during the",
+      "start": 43.52,
+      "duration": 2.84
+    },
+    {
+      "text": "interview I also",
+      "start": 47.8,
+      "duration": 6.32
+    },
+    {
+      "text": "open this on my mobile phone so I'm",
+      "start": 50.559,
+      "duration": 7.041
+    },
+    {
+      "text": "still sharing my screen right um so then",
+      "start": 54.12,
+      "duration": 8.0
+    },
+    {
+      "text": "uh I see if something is in the live",
+      "start": 57.6,
+      "duration": 7.72
+    },
+    {
+      "text": "chat but yeah ad if you're ready we can",
+      "start": 62.12,
+      "duration": 5.2
+    },
+    {
+      "text": "start",
+      "start": 65.32,
+      "duration": 4.72
+    },
+    {
+      "text": "definitely so this week we'll talk about",
+      "start": 67.32,
+      "duration": 5.08
+    },
+    {
+      "text": "Trends in data engineering and we have a",
+      "start": 70.04,
+      "duration": 4.68
+    },
+    {
+      "text": "special guest today Adrian",
+      "start": 72.4,
+      "duration": 6.56
+    },
+    {
+      "text": "Adrian is a returning guest now",
+      "start": 74.72,
+      "duration": 6.52
+    },
+    {
+      "text": "it's third time if we just count",
+      "start": 78.96,
+      "duration": 4.4
+    },
+    {
+      "text": "podcasts but if we count other things",
+      "start": 81.24,
+      "duration": 5.36
+    },
+    {
+      "text": "like workshops open source demos and",
+      "start": 83.36,
+      "duration": 4.96
+    },
+    {
+      "text": "like I don't know what",
+      "start": 86.6,
+      "duration": 5.12
+    },
+    {
+      "text": "else people probably know you already",
+      "start": 88.32,
+      "duration": 7.079
+    },
+    {
+      "text": "and have seen so many times so Adrian is",
+      "start": 91.72,
+      "duration": 7.52
+    },
+    {
+      "text": "a co-founder of DT Hub and which is the",
+      "start": 95.399,
+      "duration": 6.641
+    },
+    {
+      "text": "company behind DLT and this is one of",
+      "start": 99.24,
+      "duration": 5.12
+    },
+    {
+      "text": "the things we will talk about today too",
+      "start": 102.04,
+      "duration": 3.64
+    },
+    {
+      "text": "uh but in general we wanted to talk",
+      "start": 104.36,
+      "duration": 2.96
+    },
+    {
+      "text": "about transends of data engineering",
+      "start": 105.68,
+      "duration": 5.28
+    },
+    {
+      "text": "because this is um when we launched our",
+      "start": 107.32,
+      "duration": 5.64
+    },
+    {
+      "text": "course recently data engineering Zoom",
+      "start": 110.96,
+      "duration": 5.28
+    },
+    {
+      "text": "Camp uh one of the questions um there",
+      "start": 112.96,
+      "duration": 5.839
+    },
+    {
+      "text": "from the audience from the participants",
+      "start": 116.24,
+      "duration": 4.12
+    },
+    {
+      "text": "was",
+      "start": 118.799,
+      "duration": 5.081
+    },
+    {
+      "text": "how do you see data engineering evolving",
+      "start": 120.36,
+      "duration": 5.079
+    },
+    {
+      "text": "and what are the trends in data",
+      "start": 123.88,
+      "duration": 5.599
+    },
+    {
+      "text": "engineering and I realized that I don't",
+      "start": 125.439,
+      "duration": 5.761
+    },
+    {
+      "text": "know the answer to this question I",
+      "start": 129.479,
+      "duration": 3.321
+    },
+    {
+      "text": "cannot really answer and I thought who",
+      "start": 131.2,
+      "duration": 3.84
+    },
+    {
+      "text": "might have the answer and then of course",
+      "start": 132.8,
+      "duration": 5.2
+    },
+    {
+      "text": "I thought about you Adrian so welcome to",
+      "start": 135.04,
+      "duration": 4.52
+    },
+    {
+      "text": "our event Welcome to our podcast",
+      "start": 138.0,
+      "duration": 3.879
+    },
+    {
+      "text": "interview it's a really great pleasure",
+      "start": 139.56,
+      "duration": 5.2
+    },
+    {
+      "text": "to have you again here pleasure is mine",
+      "start": 141.879,
+      "duration": 5.401
+    },
+    {
+      "text": "to join um I don't have the answers",
+      "start": 144.76,
+      "duration": 4.68
+    },
+    {
+      "text": "either you know I just have my view of",
+      "start": 147.28,
+      "duration": 3.88
+    },
+    {
+      "text": "what I can see and you know I can",
+      "start": 149.44,
+      "duration": 3.76
+    },
+    {
+      "text": "speculate a little bit I can talk about",
+      "start": 151.16,
+      "duration": 3.2
+    },
+    {
+      "text": "what I",
+      "start": 153.2,
+      "duration": 4.679
+    },
+    {
+      "text": "observed and this is what",
+      "start": 154.36,
+      "duration": 6.159
+    },
+    {
+      "text": "it was what makes it interesting right I",
+      "start": 157.879,
+      "duration": 6.921
+    },
+    {
+      "text": "mean everyone has opinions uh so uh and",
+      "start": 160.519,
+      "duration": 6.44
+    },
+    {
+      "text": "you're way closer to date engineering",
+      "start": 164.8,
+      "duration": 6.56
+    },
+    {
+      "text": "than I am uh so we can talk about that",
+      "start": 166.959,
+      "duration": 6.321
+    },
+    {
+      "text": "and as always the questions for today's",
+      "start": 171.36,
+      "duration": 3.92
+    },
+    {
+      "text": "interview are prepared by johana Bayer",
+      "start": 173.28,
+      "duration": 4.64
+    },
+    {
+      "text": "thanks Johanna for your help and before",
+      "start": 175.28,
+      "duration": 5.039
+    },
+    {
+      "text": "we go into talking about Trends in",
+      "start": 177.92,
+      "duration": 5.44
+    },
+    {
+      "text": "engineering maybe I know it's third time",
+      "start": 180.319,
+      "duration": 4.56
+    },
+    {
+      "text": "you will need to do this but maybe you",
+      "start": 183.36,
+      "duration": 4.68
+    },
+    {
+      "text": "can give us uh tell us about your",
+      "start": 184.879,
+      "duration": 4.92
+    },
+    {
+      "text": "background can you tell us about your",
+      "start": 188.04,
+      "duration": 5.72
+    },
+    {
+      "text": "career Journey so far sure um so um I",
+      "start": 189.799,
+      "duration": 8.561
+    },
+    {
+      "text": "was born in 1987 no I'm joking um so",
+      "start": 193.76,
+      "duration": 8.0
+    },
+    {
+      "text": "basically um I started in data in 2012 I",
+      "start": 198.36,
+      "duration": 7.159
+    },
+    {
+      "text": "did five years of startups in Berlin um",
+      "start": 201.76,
+      "duration": 6.0
+    },
+    {
+      "text": "so building lots of data warehouses then",
+      "start": 205.519,
+      "duration": 6.161
+    },
+    {
+      "text": "I joined um uh Enterprise I didn't enjoy",
+      "start": 207.76,
+      "duration": 6.119
+    },
+    {
+      "text": "working for an Enterprise so I became a",
+      "start": 211.68,
+      "duration": 4.96
+    },
+    {
+      "text": "freelancer for five years and after five",
+      "start": 213.879,
+      "duration": 4.521
+    },
+    {
+      "text": "years I wanted to do more than just",
+      "start": 216.64,
+      "duration": 4.36
+    },
+    {
+      "text": "being a freelancer an agency wasn't it",
+      "start": 218.4,
+      "duration": 5.759
+    },
+    {
+      "text": "since I don't enjoy managing agencies um",
+      "start": 221.0,
+      "duration": 6.56
+    },
+    {
+      "text": "so I decided to go for uh building DT",
+      "start": 224.159,
+      "duration": 5.761
+    },
+    {
+      "text": "which is the tool that I wish I had as a",
+      "start": 227.56,
+      "duration": 7.0
+    },
+    {
+      "text": "data engineer um and um I guess this is",
+      "start": 229.92,
+      "duration": 6.399
+    },
+    {
+      "text": "the",
+      "start": 234.56,
+      "duration": 4.599
+    },
+    {
+      "text": "introduction I I like tool I wish I had",
+      "start": 236.319,
+      "duration": 5.48
+    },
+    {
+      "text": "as a datting ER is it something you",
+      "start": 239.159,
+      "duration": 6.761
+    },
+    {
+      "text": "often use I use it all the time so um",
+      "start": 241.799,
+      "duration": 5.481
+    },
+    {
+      "text": "you know when it comes to data",
+      "start": 245.92,
+      "duration": 4.12
+    },
+    {
+      "text": "engineering you probably mostly do data",
+      "start": 247.28,
+      "duration": 5.679
+    },
+    {
+      "text": "ingestion as a data engineer and there",
+      "start": 250.04,
+      "duration": 5.559
+    },
+    {
+      "text": "the challenge is getting data from an",
+      "start": 252.959,
+      "duration": 4.601
+    },
+    {
+      "text": "weakly structured format like Json from",
+      "start": 255.599,
+      "duration": 4.401
+    },
+    {
+      "text": "an API into a strongly structured format",
+      "start": 257.56,
+      "duration": 4.639
+    },
+    {
+      "text": "so since DT automates this process and",
+      "start": 260.0,
+      "duration": 5.04
+    },
+    {
+      "text": "much more there's really no reason to do",
+      "start": 262.199,
+      "duration": 5.44
+    },
+    {
+      "text": "something else mhm do you remember last",
+      "start": 265.04,
+      "duration": 5.36
+    },
+    {
+      "text": "time we spoke when was it on on the",
+      "start": 267.639,
+      "duration": 5.361
+    },
+    {
+      "text": "podcast just over a year ago I think",
+      "start": 270.4,
+      "duration": 4.96
+    },
+    {
+      "text": "over a year ago so you already were at",
+      "start": 273.0,
+      "duration": 6.759
+    },
+    {
+      "text": "DLT and we were talking how um yeah so I",
+      "start": 275.36,
+      "duration": 6.2
+    },
+    {
+      "text": "I'm just looking it up quickly the",
+      "start": 279.759,
+      "duration": 3.201
+    },
+    {
+      "text": "entrepreneurship Journey from",
+      "start": 281.56,
+      "duration": 3.88
+    },
+    {
+      "text": "freelancing to starting a company so DT",
+      "start": 282.96,
+      "duration": 4.0
+    },
+    {
+      "text": "was already there and we were talking",
+      "start": 285.44,
+      "duration": 3.8
+    },
+    {
+      "text": "about your journey like how exactly the",
+      "start": 286.96,
+      "duration": 5.32
+    },
+    {
+      "text": "switch from being a freelancer to being",
+      "start": 289.24,
+      "duration": 6.92
+    },
+    {
+      "text": "a Founder co-founder how it happened so",
+      "start": 292.28,
+      "duration": 6.199
+    },
+    {
+      "text": "I'm just looking it's season 17 episode",
+      "start": 296.16,
+      "duration": 4.96
+    },
+    {
+      "text": "1 so you can go to our podcast and check",
+      "start": 298.479,
+      "duration": 5.681
+    },
+    {
+      "text": "it out um so what changed since then so",
+      "start": 301.12,
+      "duration": 6.48
+    },
+    {
+      "text": "it's been a year and uh it's for me",
+      "start": 304.16,
+      "duration": 4.96
+    },
+    {
+      "text": "personally like before you answer this",
+      "start": 307.6,
+      "duration": 3.72
+    },
+    {
+      "text": "question uh I really like coming to your",
+      "start": 309.12,
+      "duration": 4.76
+    },
+    {
+      "text": "office and you organize you always",
+      "start": 311.32,
+      "duration": 6.08
+    },
+    {
+      "text": "organize this nice uh events meetups and",
+      "start": 313.88,
+      "duration": 5.92
+    },
+    {
+      "text": "then I really liked coming to your old",
+      "start": 317.4,
+      "duration": 4.919
+    },
+    {
+      "text": "office and for me it was like cool you",
+      "start": 319.8,
+      "duration": 4.399
+    },
+    {
+      "text": "have such a cool office and then more",
+      "start": 322.319,
+      "duration": 3.681
+    },
+    {
+      "text": "and more people were joining the LT Hub",
+      "start": 324.199,
+      "duration": 3.961
+    },
+    {
+      "text": "and then at some point it was just the",
+      "start": 326.0,
+      "duration": 4.479
+    },
+    {
+      "text": "office the old office was just too small",
+      "start": 328.16,
+      "duration": 3.879
+    },
+    {
+      "text": "and then you move to another one which",
+      "start": 330.479,
+      "duration": 4.481
+    },
+    {
+      "text": "is like even cooler and it's always such",
+      "start": 332.039,
+      "duration": 4.641
+    },
+    {
+      "text": "a big pleasure for me to come to your",
+      "start": 334.96,
+      "duration": 4.84
+    },
+    {
+      "text": "office and like see like this vibrant",
+      "start": 336.68,
+      "duration": 6.239
+    },
+    {
+      "text": "company that you built so it's amazing U",
+      "start": 339.8,
+      "duration": 4.679
+    },
+    {
+      "text": "but this is just an outsider view of",
+      "start": 342.919,
+      "duration": 3.481
+    },
+    {
+      "text": "somebody who just comes to your office",
+      "start": 344.479,
+      "duration": 4.56
+    },
+    {
+      "text": "maybe once per in a couple of months so",
+      "start": 346.4,
+      "duration": 4.56
+    },
+    {
+      "text": "can you tell us more what exactly has",
+      "start": 349.039,
+      "duration": 3.961
+    },
+    {
+      "text": "been happening since uh last time I",
+      "start": 350.96,
+      "duration": 5.12
+    },
+    {
+      "text": "spoke so you know the office view is",
+      "start": 353.0,
+      "duration": 4.88
+    },
+    {
+      "text": "interesting cuz we started with",
+      "start": 356.08,
+      "duration": 4.44
+    },
+    {
+      "text": "squatting uh like no joke we were",
+      "start": 357.88,
+      "duration": 4.28
+    },
+    {
+      "text": "basically working from other people's",
+      "start": 360.52,
+      "duration": 4.32
+    },
+    {
+      "text": "offices but uh what happened was if you",
+      "start": 362.16,
+      "duration": 4.68
+    },
+    {
+      "text": "remember I was talking about uh trying",
+      "start": 364.84,
+      "duration": 4.199
+    },
+    {
+      "text": "to create a standard in ingestion with",
+      "start": 366.84,
+      "duration": 4.759
+    },
+    {
+      "text": "DT and essentially I think we succeeded",
+      "start": 369.039,
+      "duration": 5.201
+    },
+    {
+      "text": "with that um DT has become an ingestion",
+      "start": 371.599,
+      "duration": 5.681
+    },
+    {
+      "text": "standard with python um and I would say",
+      "start": 374.24,
+      "duration": 5.64
+    },
+    {
+      "text": "we managed to truly commoditize this",
+      "start": 377.28,
+      "duration": 4.96
+    },
+    {
+      "text": "market so what do I mean by",
+      "start": 379.88,
+      "duration": 5.84
+    },
+    {
+      "text": "commoditization because to some people",
+      "start": 382.24,
+      "duration": 5.079
+    },
+    {
+      "text": "say it but they don't really understand",
+      "start": 385.72,
+      "duration": 4.24
+    },
+    {
+      "text": "what it means and let me spell it out",
+      "start": 387.319,
+      "duration": 3.641
+    },
+    {
+      "text": "what are the",
+      "start": 389.96,
+      "duration": 3.44
+    },
+    {
+      "text": "implications well commoditization in any",
+      "start": 390.96,
+      "duration": 4.88
+    },
+    {
+      "text": "Market when you do that it means that",
+      "start": 393.4,
+      "duration": 6.84
+    },
+    {
+      "text": "you are turning um you you are basically",
+      "start": 395.84,
+      "duration": 6.479
+    },
+    {
+      "text": "lowering the cost of production of",
+      "start": 400.24,
+      "duration": 4.84
+    },
+    {
+      "text": "something uh to become accessible for",
+      "start": 402.319,
+      "duration": 5.801
+    },
+    {
+      "text": "everyone um and basically we've achieved",
+      "start": 405.08,
+      "duration": 5.6
+    },
+    {
+      "text": "to do this with dldt not only on short",
+      "start": 408.12,
+      "duration": 5.04
+    },
+    {
+      "text": "tale where vendors are already uh",
+      "start": 410.68,
+      "duration": 4.48
+    },
+    {
+      "text": "competing so like on SQL databases",
+      "start": 413.16,
+      "duration": 3.96
+    },
+    {
+      "text": "Salesforce and you know the general",
+      "start": 415.16,
+      "duration": 6.039
+    },
+    {
+      "text": "connectors but on longtail as well so",
+      "start": 417.12,
+      "duration": 6.16
+    },
+    {
+      "text": "basically people creating their own",
+      "start": 421.199,
+      "duration": 3.84
+    },
+    {
+      "text": "sources and what this means",
+      "start": 423.28,
+      "duration": 3.68
+    },
+    {
+      "text": "fundamentally for the industry it means",
+      "start": 425.039,
+      "duration": 4.361
+    },
+    {
+      "text": "that the value of what vendors offer",
+      "start": 426.96,
+      "duration": 5.079
+    },
+    {
+      "text": "currently these days is going down so",
+      "start": 429.4,
+      "duration": 5.72
+    },
+    {
+      "text": "this is a challenge to the entire Market",
+      "start": 432.039,
+      "duration": 6.16
+    },
+    {
+      "text": "to um let's say get better at their",
+      "start": 435.12,
+      "duration": 6.56
+    },
+    {
+      "text": "offering and offer things that are not",
+      "start": 438.199,
+      "duration": 6.4
+    },
+    {
+      "text": "just uh here's a connector which is kind",
+      "start": 441.68,
+      "duration": 5.359
+    },
+    {
+      "text": "of like low value but actually a value",
+      "start": 444.599,
+      "duration": 4.521
+    },
+    {
+      "text": "proposition that is beyond just moving",
+      "start": 447.039,
+      "duration": 4.481
+    },
+    {
+      "text": "some",
+      "start": 449.12,
+      "duration": 2.4
+    },
+    {
+      "text": "data yeah and U so right now you are not",
+      "start": 452.16,
+      "duration": 7.08
+    },
+    {
+      "text": "like can we say that you're",
+      "start": 456.96,
+      "duration": 4.679
+    },
+    {
+      "text": "active working as a data engineer these",
+      "start": 459.24,
+      "duration": 5.079
+    },
+    {
+      "text": "days or like what do you actually do at",
+      "start": 461.639,
+      "duration": 5.12
+    },
+    {
+      "text": "work uh to be honest what I'm doing",
+      "start": 464.319,
+      "duration": 5.201
+    },
+    {
+      "text": "right now at work is I'm working on DT",
+      "start": 466.759,
+      "duration": 5.961
+    },
+    {
+      "text": "plus and figuring out what how we can",
+      "start": 469.52,
+      "duration": 6.04
+    },
+    {
+      "text": "make a meaningful product there and uh",
+      "start": 472.72,
+      "duration": 8.039
+    },
+    {
+      "text": "what I mean basically we've been um",
+      "start": 475.56,
+      "duration": 7.199
+    },
+    {
+      "text": "we've been uh building DT and we've been",
+      "start": 480.759,
+      "duration": 4.601
+    },
+    {
+      "text": "looking at what people build around DLT",
+      "start": 482.759,
+      "duration": 5.56
+    },
+    {
+      "text": "and um essentially we are building the",
+      "start": 485.36,
+      "duration": 5.48
+    },
+    {
+      "text": "same thing that uh all these other smart",
+      "start": 488.319,
+      "duration": 5.761
+    },
+    {
+      "text": "people are doing uh just in our version",
+      "start": 490.84,
+      "duration": 5.4
+    },
+    {
+      "text": "and our version basically means the same",
+      "start": 494.08,
+      "duration": 4.2
+    },
+    {
+      "text": "thing that it means for dldt so like",
+      "start": 496.24,
+      "duration": 2.959
+    },
+    {
+      "text": "best",
+      "start": 498.28,
+      "duration": 3.639
+    },
+    {
+      "text": "practices um high quality and we try to",
+      "start": 499.199,
+      "duration": 5.481
+    },
+    {
+      "text": "go for Innovation so you know just like",
+      "start": 501.919,
+      "duration": 6.201
+    },
+    {
+      "text": "DT basically offers superior quality to",
+      "start": 504.68,
+      "duration": 5.959
+    },
+    {
+      "text": "almost and I think to any integration",
+      "start": 508.12,
+      "duration": 4.479
+    },
+    {
+      "text": "that you can currently buy because of",
+      "start": 510.639,
+      "duration": 4.161
+    },
+    {
+      "text": "schema Evolution alerting",
+      "start": 512.599,
+      "duration": 6.201
+    },
+    {
+      "text": "metadata um DT plus aims to do the same",
+      "start": 514.8,
+      "duration": 7.119
+    },
+    {
+      "text": "uh D plus basically being the let's say",
+      "start": 518.8,
+      "duration": 4.919
+    },
+    {
+      "text": "data platform that you'd end up building",
+      "start": 521.919,
+      "duration": 3.92
+    },
+    {
+      "text": "with",
+      "start": 523.719,
+      "duration": 2.12
+    },
+    {
+      "text": "dld u but in terms of so your actual",
+      "start": 526.24,
+      "duration": 5.159
+    },
+    {
+      "text": "work is figuring this out like how",
+      "start": 529.519,
+      "duration": 6.241
+    },
+    {
+      "text": "exactly the dld plus will work as a yes",
+      "start": 531.399,
+      "duration": 6.761
+    },
+    {
+      "text": "as a Founder basically it's all kinds of",
+      "start": 535.76,
+      "duration": 5.319
+    },
+    {
+      "text": "things from um let's say deciding which",
+      "start": 538.16,
+      "duration": 4.76
+    },
+    {
+      "text": "risks you're going to take to explore",
+      "start": 541.079,
+      "duration": 4.76
+    },
+    {
+      "text": "different initiatives right um listening",
+      "start": 542.92,
+      "duration": 8.08
+    },
+    {
+      "text": "to people um testing",
+      "start": 545.839,
+      "duration": 5.161
+    },
+    {
+      "text": "things sorry one of the things that I'm",
+      "start": 551.959,
+      "duration": 4.361
+    },
+    {
+      "text": "actually working on in preparation for",
+      "start": 554.519,
+      "duration": 5.081
+    },
+    {
+      "text": "our DT uh plus product is opening up a",
+      "start": 556.32,
+      "duration": 5.72
+    },
+    {
+      "text": "partnership Network so basically just",
+      "start": 559.6,
+      "duration": 5.08
+    },
+    {
+      "text": "like I wanted to create a",
+      "start": 562.04,
+      "duration": 5.28
+    },
+    {
+      "text": "freelance um agency if you remember back",
+      "start": 564.68,
+      "duration": 4.44
+    },
+    {
+      "text": "when I was a freelancer now I'm trying",
+      "start": 567.32,
+      "duration": 4.639
+    },
+    {
+      "text": "to create a partnership Network where",
+      "start": 569.12,
+      "duration": 4.92
+    },
+    {
+      "text": "let's say everybody wins so basically",
+      "start": 571.959,
+      "duration": 4.041
+    },
+    {
+      "text": "that is aimed at maximizing value",
+      "start": 574.04,
+      "duration": 5.359
+    },
+    {
+      "text": "delivered to the customer um which will",
+      "start": 576.0,
+      "duration": 7.04
+    },
+    {
+      "text": "also be let's say the it's the current",
+      "start": 579.399,
+      "duration": 5.161
+    },
+    {
+      "text": "uh Consulting partners are basically",
+      "start": 583.04,
+      "duration": 3.96
+    },
+    {
+      "text": "people who are already deploying DT and",
+      "start": 584.56,
+      "duration": 4.68
+    },
+    {
+      "text": "want to get more value out of",
+      "start": 587.0,
+      "duration": 5.44
+    },
+    {
+      "text": "it and uh well since you mentioned that",
+      "start": 589.24,
+      "duration": 4.68
+    },
+    {
+      "text": "this is not something we plan to talk",
+      "start": 592.44,
+      "duration": 4.48
+    },
+    {
+      "text": "about but I'm I'm sure maybe there are",
+      "start": 593.92,
+      "duration": 4.76
+    },
+    {
+      "text": "some Freelancers who are listening to",
+      "start": 596.92,
+      "duration": 4.0
+    },
+    {
+      "text": "that to our conversation right now so if",
+      "start": 598.68,
+      "duration": 4.159
+    },
+    {
+      "text": "they want to reach out and learn more",
+      "start": 600.92,
+      "duration": 3.919
+    },
+    {
+      "text": "about like this partnership Network what",
+      "start": 602.839,
+      "duration": 4.0
+    },
+    {
+      "text": "how should they find you",
+      "start": 604.839,
+      "duration": 4.24
+    },
+    {
+      "text": "LinkedIn um they can reach out on",
+      "start": 606.839,
+      "duration": 4.44
+    },
+    {
+      "text": "LinkedIn they can find the partnership",
+      "start": 609.079,
+      "duration": 4.2
+    },
+    {
+      "text": "links on our website and apply",
+      "start": 611.279,
+      "duration": 4.161
+    },
+    {
+      "text": "essentially this is mostly something for",
+      "start": 613.279,
+      "duration": 4.56
+    },
+    {
+      "text": "people who already use the LT so if you",
+      "start": 615.44,
+      "duration": 4.519
+    },
+    {
+      "text": "already use the LT you know just come",
+      "start": 617.839,
+      "duration": 6.401
+    },
+    {
+      "text": "forward okay and as you said part of",
+      "start": 619.959,
+      "duration": 6.281
+    },
+    {
+      "text": "your job is listening to people and I",
+      "start": 624.24,
+      "duration": 3.719
+    },
+    {
+      "text": "imagine it's also listening to their",
+      "start": 626.24,
+      "duration": 4.44
+    },
+    {
+      "text": "problems and you've been in the industry",
+      "start": 627.959,
+      "duration": 5.041
+    },
+    {
+      "text": "in the data engineering industry for 10",
+      "start": 630.68,
+      "duration": 4.24
+    },
+    {
+      "text": "years or more cuz you mentioned like",
+      "start": 633.0,
+      "duration": 4.72
+    },
+    {
+      "text": "working at startups for 5 years then",
+      "start": 634.92,
+      "duration": 4.52
+    },
+    {
+      "text": "Enterprise and also 5 years of",
+      "start": 637.72,
+      "duration": 3.88
+    },
+    {
+      "text": "freelancing and now you're running a",
+      "start": 639.44,
+      "duration": 4.56
+    },
+    {
+      "text": "company so you've been in the industry",
+      "start": 641.6,
+      "duration": 4.479
+    },
+    {
+      "text": "for quite some time and you probably",
+      "start": 644.0,
+      "duration": 4.04
+    },
+    {
+      "text": "remember like Hadoop times and uh I",
+      "start": 646.079,
+      "duration": 4.961
+    },
+    {
+      "text": "don't know um so what's happening in the",
+      "start": 648.04,
+      "duration": 4.599
+    },
+    {
+      "text": "industry right now like if you compare",
+      "start": 651.04,
+      "duration": 4.0
+    },
+    {
+      "text": "dat engineering 5 years ago and data",
+      "start": 652.639,
+      "duration": 6.361
+    },
+    {
+      "text": "engineering now um how does it look like",
+      "start": 655.04,
+      "duration": 8.16
+    },
+    {
+      "text": "like what are the what things changed we",
+      "start": 659.0,
+      "duration": 6.639
+    },
+    {
+      "text": "have multiple fronts to discuss so I",
+      "start": 663.2,
+      "duration": 4.36
+    },
+    {
+      "text": "would first start with the people the",
+      "start": 665.639,
+      "duration": 4.721
+    },
+    {
+      "text": "data engineer so I would say five years",
+      "start": 667.56,
+      "duration": 5.88
+    },
+    {
+      "text": "ago um there was a huge shortage of data",
+      "start": 670.36,
+      "duration": 5.08
+    },
+    {
+      "text": "engineers and just about let's say",
+      "start": 673.44,
+      "duration": 4.68
+    },
+    {
+      "text": "anyone who could do um let's say",
+      "start": 675.44,
+      "duration": 4.76
+    },
+    {
+      "text": "functioning integration could be called",
+      "start": 678.12,
+      "duration": 4.8
+    },
+    {
+      "text": "the data engineer back then um I would",
+      "start": 680.2,
+      "duration": 5.319
+    },
+    {
+      "text": "say this is slowly changing so the field",
+      "start": 682.92,
+      "duration": 5.88
+    },
+    {
+      "text": "is transitioning from um I can make",
+      "start": 685.519,
+      "duration": 6.12
+    },
+    {
+      "text": "something run to Specialists so what I",
+      "start": 688.8,
+      "duration": 4.68
+    },
+    {
+      "text": "mean here is I'm seeing more and more",
+      "start": 691.639,
+      "duration": 4.32
+    },
+    {
+      "text": "data Engineers specialize into let's say",
+      "start": 693.48,
+      "duration": 4.68
+    },
+    {
+      "text": "data governance Engineers or data",
+      "start": 695.959,
+      "duration": 6.241
+    },
+    {
+      "text": "quality Engineers or um streaming data",
+      "start": 698.16,
+      "duration": 6.96
+    },
+    {
+      "text": "engineers and many of these skill sets",
+      "start": 702.2,
+      "duration": 4.6
+    },
+    {
+      "text": "actually have very little overlap",
+      "start": 705.12,
+      "duration": 2.8
+    },
+    {
+      "text": "outside of",
+      "start": 706.8,
+      "duration": 3.08
+    },
+    {
+      "text": "engineering",
+      "start": 707.92,
+      "duration": 6.039
+    },
+    {
+      "text": "um part of this is driven basically by",
+      "start": 709.88,
+      "duration": 6.6
+    },
+    {
+      "text": "uh requirements of the industry like how",
+      "start": 713.959,
+      "duration": 4.961
+    },
+    {
+      "text": "you should deal sens with sensitive data",
+      "start": 716.48,
+      "duration": 5.32
+    },
+    {
+      "text": "or things things like that um or for",
+      "start": 718.92,
+      "duration": 5.719
+    },
+    {
+      "text": "example the energy changes in Europe",
+      "start": 721.8,
+      "duration": 5.68
+    },
+    {
+      "text": "where now everyone in their Grandma can",
+      "start": 724.639,
+      "duration": 5.281
+    },
+    {
+      "text": "have a solar panel on their house and",
+      "start": 727.48,
+      "duration": 4.2
+    },
+    {
+      "text": "the system needs to understand what is",
+      "start": 729.92,
+      "duration": 3.64
+    },
+    {
+      "text": "the production how can we bid for this",
+      "start": 731.68,
+      "duration": 5.44
+    },
+    {
+      "text": "right so it's completely different use",
+      "start": 733.56,
+      "duration": 6.279
+    },
+    {
+      "text": "cases and in terms of um well since we",
+      "start": 737.12,
+      "duration": 4.719
+    },
+    {
+      "text": "have a course on data engineering like",
+      "start": 739.839,
+      "duration": 5.881
+    },
+    {
+      "text": "in terms of um let's say junior data",
+      "start": 741.839,
+      "duration": 7.401
+    },
+    {
+      "text": "engineering um like is a junior dat",
+      "start": 745.72,
+      "duration": 5.72
+    },
+    {
+      "text": "engineer I think these days",
+      "start": 749.24,
+      "duration": 4.88
+    },
+    {
+      "text": "or so you need to be an experienced",
+      "start": 751.44,
+      "duration": 5.56
+    },
+    {
+      "text": "software engineer now to enter the field",
+      "start": 754.12,
+      "duration": 6.719
+    },
+    {
+      "text": "so I would say yes but it um depends you",
+      "start": 757.0,
+      "duration": 6.0
+    },
+    {
+      "text": "basically need to find a sweet spot of",
+      "start": 760.839,
+      "duration": 5.521
+    },
+    {
+      "text": "where you can help people um so",
+      "start": 763.0,
+      "duration": 5.279
+    },
+    {
+      "text": "specifically I would say there is",
+      "start": 766.36,
+      "duration": 4.56
+    },
+    {
+      "text": "actually a huge opportunity now um just",
+      "start": 768.279,
+      "duration": 5.161
+    },
+    {
+      "text": "like it used to be seven years ago with",
+      "start": 770.92,
+      "duration": 4.039
+    },
+    {
+      "text": "data science when people didn't know",
+      "start": 773.44,
+      "duration": 4.28
+    },
+    {
+      "text": "what data science was and they just hire",
+      "start": 774.959,
+      "duration": 5.201
+    },
+    {
+      "text": "a data scientist don't know what for but",
+      "start": 777.72,
+      "duration": 5.359
+    },
+    {
+      "text": "you know just get them on board um",
+      "start": 780.16,
+      "duration": 4.88
+    },
+    {
+      "text": "something similar is happening with AI",
+      "start": 783.079,
+      "duration": 3.88
+    },
+    {
+      "text": "and I would say this is not happening",
+      "start": 785.04,
+      "duration": 4.52
+    },
+    {
+      "text": "yet in Europe uh I'm seeing it happen in",
+      "start": 786.959,
+      "duration": 7.361
+    },
+    {
+      "text": "us and Asia and um basically people",
+      "start": 789.56,
+      "duration": 8.719
+    },
+    {
+      "text": "are they have this idea that um they",
+      "start": 794.32,
+      "duration": 8.12
+    },
+    {
+      "text": "will get huge Roi out of AI um and",
+      "start": 798.279,
+      "duration": 6.161
+    },
+    {
+      "text": "they're trying to figure out how to do",
+      "start": 802.44,
+      "duration": 4.04
+    },
+    {
+      "text": "that how to go there",
+      "start": 804.44,
+      "duration": 4.959
+    },
+    {
+      "text": "basically uh speaking of this is another",
+      "start": 806.48,
+      "duration": 5.0
+    },
+    {
+      "text": "um of those Specialties it's kind of",
+      "start": 809.399,
+      "duration": 5.201
+    },
+    {
+      "text": "like data Engineers that build for AI I",
+      "start": 811.48,
+      "duration": 5.719
+    },
+    {
+      "text": "think this is an opportunity for some um",
+      "start": 814.6,
+      "duration": 4.44
+    },
+    {
+      "text": "another opportunity could be just you",
+      "start": 817.199,
+      "duration": 4.88
+    },
+    {
+      "text": "know um there are still new startups",
+      "start": 819.04,
+      "duration": 5.44
+    },
+    {
+      "text": "being opened every day and they need to",
+      "start": 822.079,
+      "duration": 5.56
+    },
+    {
+      "text": "build a modern data stack um this has",
+      "start": 824.48,
+      "duration": 5.479
+    },
+    {
+      "text": "become way easier now you can literally",
+      "start": 827.639,
+      "duration": 4.841
+    },
+    {
+      "text": "if you look for example in DTS uh",
+      "start": 829.959,
+      "duration": 4.281
+    },
+    {
+      "text": "dependence on GitHub you will find",
+      "start": 832.48,
+      "duration": 4.279
+    },
+    {
+      "text": "multiple free open source data platforms",
+      "start": 834.24,
+      "duration": 6.839
+    },
+    {
+      "text": "you can just drop in um yeah so the help",
+      "start": 836.759,
+      "duration": 6.401
+    },
+    {
+      "text": "here is basically being the person that",
+      "start": 841.079,
+      "duration": 4.361
+    },
+    {
+      "text": "can interface between Technical and",
+      "start": 843.16,
+      "duration": 4.2
+    },
+    {
+      "text": "business it will",
+      "start": 845.44,
+      "duration": 4.839
+    },
+    {
+      "text": "always Yeah you mentioned One Thing This",
+      "start": 847.36,
+      "duration": 6.68
+    },
+    {
+      "text": "Modern Data stock so how modern is it it",
+      "start": 850.279,
+      "duration": 6.0
+    },
+    {
+      "text": "actually is cuz like I've heard this",
+      "start": 854.04,
+      "duration": 5.919
+    },
+    {
+      "text": "term some time ago and I guess it was",
+      "start": 856.279,
+      "duration": 6.24
+    },
+    {
+      "text": "created like as uh kind of the opposite",
+      "start": 859.959,
+      "duration": 6.401
+    },
+    {
+      "text": "of like this slow Hadoop uh stuff uh",
+      "start": 862.519,
+      "duration": 5.641
+    },
+    {
+      "text": "perhaps maybe correct me if I'm wrong",
+      "start": 866.36,
+      "duration": 4.12
+    },
+    {
+      "text": "but like what it actually is and how",
+      "start": 868.16,
+      "duration": 6.32
+    },
+    {
+      "text": "modern is it basically modern data stack",
+      "start": 870.48,
+      "duration": 7.08
+    },
+    {
+      "text": "is pure marketing it's not modern it's",
+      "start": 874.48,
+      "duration": 6.44
+    },
+    {
+      "text": "just um before modern data stack there",
+      "start": 877.56,
+      "duration": 6.16
+    },
+    {
+      "text": "were people doing all kinds of things to",
+      "start": 880.92,
+      "duration": 3.839
+    },
+    {
+      "text": "build data",
+      "start": 883.72,
+      "duration": 3.64
+    },
+    {
+      "text": "warehouses uh vendors came and they",
+      "start": 884.759,
+      "duration": 6.52
+    },
+    {
+      "text": "created let's say packages of software",
+      "start": 887.36,
+      "duration": 6.08
+    },
+    {
+      "text": "um between other vendors that you can",
+      "start": 891.279,
+      "duration": 3.881
+    },
+    {
+      "text": "put together to build the data platform",
+      "start": 893.44,
+      "duration": 4.959
+    },
+    {
+      "text": "so for example five Tran with Snowflake",
+      "start": 895.16,
+      "duration": 7.28
+    },
+    {
+      "text": "and uh looker I don't know just an",
+      "start": 898.399,
+      "duration": 6.88
+    },
+    {
+      "text": "example and basically vendors needed a",
+      "start": 902.44,
+      "duration": 4.959
+    },
+    {
+      "text": "way to communicate this and to be able",
+      "start": 905.279,
+      "duration": 3.961
+    },
+    {
+      "text": "to sell together this is what the modern",
+      "start": 907.399,
+      "duration": 3.721
+    },
+    {
+      "text": "data stack is I would say it was very",
+      "start": 909.24,
+      "duration": 3.68
+    },
+    {
+      "text": "effective as marketing because people",
+      "start": 911.12,
+      "duration": 3.719
+    },
+    {
+      "text": "identified and they talk about this",
+      "start": 912.92,
+      "duration": 4.64
+    },
+    {
+      "text": "concept now is it modern I would say it",
+      "start": 914.839,
+      "duration": 4.721
+    },
+    {
+      "text": "never was uh",
+      "start": 917.56,
+      "duration": 4.12
+    },
+    {
+      "text": "to now people are talking about",
+      "start": 919.56,
+      "duration": 3.8
+    },
+    {
+      "text": "postmodern data Stacks I would say a",
+      "start": 921.68,
+      "duration": 3.839
+    },
+    {
+      "text": "modern data stack is a data stack where",
+      "start": 923.36,
+      "duration": 4.76
+    },
+    {
+      "text": "you're not just like human middleware",
+      "start": 925.519,
+      "duration": 5.12
+    },
+    {
+      "text": "deploying some kind of vendor software",
+      "start": 928.12,
+      "duration": 4.959
+    },
+    {
+      "text": "but rather something that is way more",
+      "start": 930.639,
+      "duration": 4.401
+    },
+    {
+      "text": "efficient than we were doing things 10",
+      "start": 933.079,
+      "duration": 3.801
+    },
+    {
+      "text": "years ago so this is actually something",
+      "start": 935.04,
+      "duration": 4.4
+    },
+    {
+      "text": "that we think we're working on people",
+      "start": 936.88,
+      "duration": 4.12
+    },
+    {
+      "text": "call this we don't call it anything",
+      "start": 939.44,
+      "duration": 4.16
+    },
+    {
+      "text": "people call it the postmodern data stack",
+      "start": 941.0,
+      "duration": 4.68
+    },
+    {
+      "text": "which is basically using open source",
+      "start": 943.6,
+      "duration": 5.56
+    },
+    {
+      "text": "Technologies uh put together to achieve",
+      "start": 945.68,
+      "duration": 5.959
+    },
+    {
+      "text": "way better higher quality better",
+      "start": 949.16,
+      "duration": 4.679
+    },
+    {
+      "text": "efficiency lower cost than anything you",
+      "start": 951.639,
+      "duration": 5.2
+    },
+    {
+      "text": "can get from the cuz what you mentioned",
+      "start": 953.839,
+      "duration": 5.641
+    },
+    {
+      "text": "is five TR uh snowflake",
+      "start": 956.839,
+      "duration": 6.081
+    },
+    {
+      "text": "uh what was looker none of this is open",
+      "start": 959.48,
+      "duration": 7.64
+    },
+    {
+      "text": "source right yes pretty much I mean um",
+      "start": 962.92,
+      "duration": 6.56
+    },
+    {
+      "text": "not not those actual tools right but you",
+      "start": 967.12,
+      "duration": 5.0
+    },
+    {
+      "text": "can put together various stacks of such",
+      "start": 969.48,
+      "duration": 7.4
+    },
+    {
+      "text": "tools that will bu the same purpose MH",
+      "start": 972.12,
+      "duration": 7.399
+    },
+    {
+      "text": "okay and what do you think um which",
+      "start": 976.88,
+      "duration": 4.6
+    },
+    {
+      "text": "things we will see more and more so you",
+      "start": 979.519,
+      "duration": 5.081
+    },
+    {
+      "text": "said that there's this uh postmodern air",
+      "start": 981.48,
+      "duration": 7.159
+    },
+    {
+      "text": "codes Data stock uh I guess references",
+      "start": 984.6,
+      "duration": 5.479
+    },
+    {
+      "text": "uh like that there was some Modern",
+      "start": 988.639,
+      "duration": 4.0
+    },
+    {
+      "text": "postmodern in art",
+      "start": 990.079,
+      "duration": 5.081
+    },
+    {
+      "text": "right so which things do you think we'll",
+      "start": 992.639,
+      "duration": 6.921
+    },
+    {
+      "text": "see more uh as like in 2025 and",
+      "start": 995.16,
+      "duration": 6.919
+    },
+    {
+      "text": "Beyond so I think we'll see a lot more",
+      "start": 999.56,
+      "duration": 4.959
+    },
+    {
+      "text": "AI like uh the whole field is just",
+      "start": 1002.079,
+      "duration": 5.88
+    },
+    {
+      "text": "starting um there is let's say a",
+      "start": 1004.519,
+      "duration": 5.8
+    },
+    {
+      "text": "baseline level of use cases that can be",
+      "start": 1007.959,
+      "duration": 5.081
+    },
+    {
+      "text": "solved currently but this is growing",
+      "start": 1010.319,
+      "duration": 4.96
+    },
+    {
+      "text": "with knowledge graphs so basically you",
+      "start": 1013.04,
+      "duration": 4.479
+    },
+    {
+      "text": "know going in the direction of being",
+      "start": 1015.279,
+      "duration": 5.961
+    },
+    {
+      "text": "able to solve more complex tasks um with",
+      "start": 1017.519,
+      "duration": 5.0
+    },
+    {
+      "text": "less",
+      "start": 1021.24,
+      "duration": 3.839
+    },
+    {
+      "text": "hallucination um from what I can tell I",
+      "start": 1022.519,
+      "duration": 4.361
+    },
+    {
+      "text": "would say this is",
+      "start": 1025.079,
+      "duration": 4.24
+    },
+    {
+      "text": "probably the biggest thing happening",
+      "start": 1026.88,
+      "duration": 4.4
+    },
+    {
+      "text": "right now in the data market and I would",
+      "start": 1029.319,
+      "duration": 4.72
+    },
+    {
+      "text": "say AI is entering the field of data",
+      "start": 1031.28,
+      "duration": 5.0
+    },
+    {
+      "text": "Engineers so basically it used to be",
+      "start": 1034.039,
+      "duration": 5.121
+    },
+    {
+      "text": "first that oh only AI Engineers whatever",
+      "start": 1036.28,
+      "duration": 7.279
+    },
+    {
+      "text": "those are um are doing AI uh right now",
+      "start": 1039.16,
+      "duration": 6.039
+    },
+    {
+      "text": "it's going into the direction of",
+      "start": 1043.559,
+      "duration": 3.921
+    },
+    {
+      "text": "software Engineers are doing AI",
+      "start": 1045.199,
+      "duration": 4.201
+    },
+    {
+      "text": "engineering and this is now data",
+      "start": 1047.48,
+      "duration": 4.24
+    },
+    {
+      "text": "engineers in many teams and prompt",
+      "start": 1049.4,
+      "duration": 4.68
+    },
+    {
+      "text": "Engineers are building uh Last Mile",
+      "start": 1051.72,
+      "duration": 4.6
+    },
+    {
+      "text": "products right so it's kind of like two",
+      "start": 1054.08,
+      "duration": 5.56
+    },
+    {
+      "text": "different groups um another technology",
+      "start": 1056.32,
+      "duration": 5.16
+    },
+    {
+      "text": "direction is basically",
+      "start": 1059.64,
+      "duration": 4.76
+    },
+    {
+      "text": "Iceberg uh so I would say this is also",
+      "start": 1061.48,
+      "duration": 5.24
+    },
+    {
+      "text": "big what we're seeing is before it used",
+      "start": 1064.4,
+      "duration": 5.36
+    },
+    {
+      "text": "to be mostly hype uh somehow this hype",
+      "start": 1066.72,
+      "duration": 6.28
+    },
+    {
+      "text": "is basically transforming into uh",
+      "start": 1069.76,
+      "duration": 6.24
+    },
+    {
+      "text": "reality and production deployments so in",
+      "start": 1073.0,
+      "duration": 4.44
+    },
+    {
+      "text": "the beginning of the year we were",
+      "start": 1076.0,
+      "duration": 3.96
+    },
+    {
+      "text": "hearing every now and then about iceberg",
+      "start": 1077.44,
+      "duration": 4.479
+    },
+    {
+      "text": "people were getting excited about let's",
+      "start": 1079.96,
+      "duration": 4.28
+    },
+    {
+      "text": "say what by Iceberg could",
+      "start": 1081.919,
+      "duration": 5.841
+    },
+    {
+      "text": "mean um so you know pythonic",
+      "start": 1084.24,
+      "duration": 5.919
+    },
+    {
+      "text": "Iceberg can you tell us more what this",
+      "start": 1087.76,
+      "duration": 4.08
+    },
+    {
+      "text": "actually is what is Iceberg because I've",
+      "start": 1090.159,
+      "duration": 6.0
+    },
+    {
+      "text": "heard Iceberg people throw this uh like",
+      "start": 1091.84,
+      "duration": 8.44
+    },
+    {
+      "text": "what is it exactly okay so um basically",
+      "start": 1096.159,
+      "duration": 6.721
+    },
+    {
+      "text": "you know databases like special database",
+      "start": 1100.28,
+      "duration": 4.399
+    },
+    {
+      "text": "for example these databases have",
+      "start": 1102.88,
+      "duration": 3.48
+    },
+    {
+      "text": "multiple layers they have a storage",
+      "start": 1104.679,
+      "duration": 3.601
+    },
+    {
+      "text": "layer they have a compute layer and they",
+      "start": 1106.36,
+      "duration": 5.64
+    },
+    {
+      "text": "have an X layer metadata you know we can",
+      "start": 1108.28,
+      "duration": 5.08
+    },
+    {
+      "text": "describe them in many ways but",
+      "start": 1112.0,
+      "duration": 4.36
+    },
+    {
+      "text": "essentially what uh iceberg is it's a",
+      "start": 1113.36,
+      "duration": 5.72
+    },
+    {
+      "text": "file format it's a table format we call",
+      "start": 1116.36,
+      "duration": 5.16
+    },
+    {
+      "text": "it uh it's a way of storing data",
+      "start": 1119.08,
+      "duration": 5.44
+    },
+    {
+      "text": "independent of these databases that",
+      "start": 1121.52,
+      "duration": 5.399
+    },
+    {
+      "text": "simulates uh let's say the storage layer",
+      "start": 1124.52,
+      "duration": 5.039
+    },
+    {
+      "text": "of a SQL database so it's kind of like a",
+      "start": 1126.919,
+      "duration": 6.361
+    },
+    {
+      "text": "file but you can have some Logic on top",
+      "start": 1129.559,
+      "duration": 5.841
+    },
+    {
+      "text": "of it that allows you to update it",
+      "start": 1133.28,
+      "duration": 4.08
+    },
+    {
+      "text": "you're not actually updating it right",
+      "start": 1135.4,
+      "duration": 3.759
+    },
+    {
+      "text": "you're actually just writing some data",
+      "start": 1137.36,
+      "duration": 4.52
+    },
+    {
+      "text": "and invalidating the old one uh unless",
+      "start": 1139.159,
+      "duration": 4.161
+    },
+    {
+      "text": "you do cleanup",
+      "start": 1141.88,
+      "duration": 4.679
+    },
+    {
+      "text": "operations so it's uh would I be correct",
+      "start": 1143.32,
+      "duration": 5.52
+    },
+    {
+      "text": "saying it's just a bunch of parket files",
+      "start": 1146.559,
+      "duration": 4.961
+    },
+    {
+      "text": "on S3 organized in a special way you",
+      "start": 1148.84,
+      "duration": 5.0
+    },
+    {
+      "text": "could say it's a bunch of parket files",
+      "start": 1151.52,
+      "duration": 5.36
+    },
+    {
+      "text": "along with some metadata files yes okay",
+      "start": 1153.84,
+      "duration": 5.199
+    },
+    {
+      "text": "that tell you basically which records",
+      "start": 1156.88,
+      "duration": 6.52
+    },
+    {
+      "text": "from which parket files are valid um so",
+      "start": 1159.039,
+      "duration": 7.841
+    },
+    {
+      "text": "yes it's very similar to Delta it's very",
+      "start": 1163.4,
+      "duration": 5.759
+    },
+    {
+      "text": "similar to hoodie and I would say the",
+      "start": 1166.88,
+      "duration": 4.2
+    },
+    {
+      "text": "industry is super excited because this",
+      "start": 1169.159,
+      "duration": 5.52
+    },
+    {
+      "text": "means the decomposition of the database",
+      "start": 1171.08,
+      "duration": 6.56
+    },
+    {
+      "text": "and you might be aware that in software",
+      "start": 1174.679,
+      "duration": 6.321
+    },
+    {
+      "text": "engineering databases are heavily vendor",
+      "start": 1177.64,
+      "duration": 6.279
+    },
+    {
+      "text": "locked uh so basically what this means",
+      "start": 1181.0,
+      "duration": 5.64
+    },
+    {
+      "text": "is they are not competitive because",
+      "start": 1183.919,
+      "duration": 4.961
+    },
+    {
+      "text": "vendor lock allow vendors to set prices",
+      "start": 1186.64,
+      "duration": 5.039
+    },
+    {
+      "text": "that are maybe 10 or 100 times higher",
+      "start": 1188.88,
+      "duration": 6.32
+    },
+    {
+      "text": "than what the product is worth so",
+      "start": 1191.679,
+      "duration": 7.641
+    },
+    {
+      "text": "breaking this uh apart would mean um",
+      "start": 1195.2,
+      "duration": 7.88
+    },
+    {
+      "text": "freeing this in the software space but",
+      "start": 1199.32,
+      "duration": 6.44
+    },
+    {
+      "text": "one thing that people are kind of",
+      "start": 1203.08,
+      "duration": 5.16
+    },
+    {
+      "text": "getting wrong is here we're talking",
+      "start": 1205.76,
+      "duration": 4.039
+    },
+    {
+      "text": "about the storage layer we're talking",
+      "start": 1208.24,
+      "duration": 4.04
+    },
+    {
+      "text": "about data but really the way we",
+      "start": 1209.799,
+      "duration": 4.401
+    },
+    {
+      "text": "interact with data will always be on the",
+      "start": 1212.28,
+      "duration": 4.6
+    },
+    {
+      "text": "access layer right and we have vendors",
+      "start": 1214.2,
+      "duration": 4.719
+    },
+    {
+      "text": "that are trying to sell us their compute",
+      "start": 1216.88,
+      "duration": 5.84
+    },
+    {
+      "text": "in the middle but fundamentally um this",
+      "start": 1218.919,
+      "duration": 5.401
+    },
+    {
+      "text": "whole movement and this whole discussion",
+      "start": 1222.72,
+      "duration": 4.16
+    },
+    {
+      "text": "about file formats table formats and",
+      "start": 1224.32,
+      "duration": 5.68
+    },
+    {
+      "text": "where this is going is driven by vendor",
+      "start": 1226.88,
+      "duration": 6.0
+    },
+    {
+      "text": "uh so",
+      "start": 1230.0,
+      "duration": 5.84
+    },
+    {
+      "text": "while basically vendors are still trying",
+      "start": 1232.88,
+      "duration": 5.08
+    },
+    {
+      "text": "to use these stable formats and capture",
+      "start": 1235.84,
+      "duration": 4.76
+    },
+    {
+      "text": "value through a vendor lock through the",
+      "start": 1237.96,
+      "duration": 4.88
+    },
+    {
+      "text": "catalog and I guess what is really big",
+      "start": 1240.6,
+      "duration": 4.959
+    },
+    {
+      "text": "and what people are really excited about",
+      "start": 1242.84,
+      "duration": 4.36
+    },
+    {
+      "text": "is the concept of",
+      "start": 1245.559,
+      "duration": 4.6
+    },
+    {
+      "text": "headless uh table formats so basically",
+      "start": 1247.2,
+      "duration": 4.28
+    },
+    {
+      "text": "what this would mean is that you're no",
+      "start": 1250.159,
+      "duration": 4.481
+    },
+    {
+      "text": "longer using a catalog that you are",
+      "start": 1251.48,
+      "duration": 5.52
+    },
+    {
+      "text": "really free from the vendors and that",
+      "start": 1254.64,
+      "duration": 5.44
+    },
+    {
+      "text": "you are writing let's say Iceberg files",
+      "start": 1257.0,
+      "duration": 5.28
+    },
+    {
+      "text": "uh without using any kind of vendor",
+      "start": 1260.08,
+      "duration": 4.599
+    },
+    {
+      "text": "service you're just using those files",
+      "start": 1262.28,
+      "duration": 4.72
+    },
+    {
+      "text": "with open source Technologies on Top",
+      "start": 1264.679,
+      "duration": 3.48
+    },
+    {
+      "text": "This is actually something that we're",
+      "start": 1267.0,
+      "duration": 2.88
+    },
+    {
+      "text": "working on as",
+      "start": 1268.159,
+      "duration": 4.921
+    },
+    {
+      "text": "well I just want to take a step back so",
+      "start": 1269.88,
+      "duration": 6.279
+    },
+    {
+      "text": "you said that a database are four things",
+      "start": 1273.08,
+      "duration": 4.16
+    },
+    {
+      "text": "if",
+      "start": 1276.159,
+      "duration": 3.76
+    },
+    {
+      "text": "we abstract many things but like",
+      "start": 1277.24,
+      "duration": 4.0
+    },
+    {
+      "text": "essentially it's four things storage",
+      "start": 1279.919,
+      "duration": 4.321
+    },
+    {
+      "text": "compute access and metadata right and by",
+      "start": 1281.24,
+      "duration": 5.72
+    },
+    {
+      "text": "catalog you mean this metadata",
+      "start": 1284.24,
+      "duration": 5.96
+    },
+    {
+      "text": "right yes in fact actually no I mean",
+      "start": 1286.96,
+      "duration": 6.4
+    },
+    {
+      "text": "access um there are like what so storage",
+      "start": 1290.2,
+      "duration": 6.359
+    },
+    {
+      "text": "is let's say a bunch of parket files on",
+      "start": 1293.36,
+      "duration": 5.6
+    },
+    {
+      "text": "S3 right so this is storage compute is",
+      "start": 1296.559,
+      "duration": 5.24
+    },
+    {
+      "text": "what we use to actually go through these",
+      "start": 1298.96,
+      "duration": 5.36
+    },
+    {
+      "text": "files and take things out of there right",
+      "start": 1301.799,
+      "duration": 3.561
+    },
+    {
+      "text": "could be",
+      "start": 1304.32,
+      "duration": 4.08
+    },
+    {
+      "text": "parkb or python",
+      "start": 1305.36,
+      "duration": 6.919
+    },
+    {
+      "text": "MH okay and then we have uh metadata and",
+      "start": 1308.4,
+      "duration": 5.68
+    },
+    {
+      "text": "access metadata is like hi or something",
+      "start": 1312.279,
+      "duration": 3.64
+    },
+    {
+      "text": "like that or what it's more like an",
+      "start": 1314.08,
+      "duration": 3.52
+    },
+    {
+      "text": "information schema from the database",
+      "start": 1315.919,
+      "duration": 3.281
+    },
+    {
+      "text": "that is telling you know what you can",
+      "start": 1317.6,
+      "duration": 4.28
+    },
+    {
+      "text": "find there and also it's just like",
+      "start": 1319.2,
+      "duration": 5.8
+    },
+    {
+      "text": "imagine when you are writing to a table",
+      "start": 1321.88,
+      "duration": 5.48
+    },
+    {
+      "text": "when you're updating a record to do that",
+      "start": 1325.0,
+      "duration": 4.72
+    },
+    {
+      "text": "to a file you would need to read the",
+      "start": 1327.36,
+      "duration": 4.84
+    },
+    {
+      "text": "file rewrite the file and delete the old",
+      "start": 1329.72,
+      "duration": 4.76
+    },
+    {
+      "text": "file so this is like a huge amount of",
+      "start": 1332.2,
+      "duration": 4.359
+    },
+    {
+      "text": "data being throughput it when all you",
+      "start": 1334.48,
+      "duration": 4.319
+    },
+    {
+      "text": "want to change is one record so actually",
+      "start": 1336.559,
+      "duration": 4.841
+    },
+    {
+      "text": "how this is handled is you add the",
+      "start": 1338.799,
+      "duration": 5.201
+    },
+    {
+      "text": "information in another file and then you",
+      "start": 1341.4,
+      "duration": 4.56
+    },
+    {
+      "text": "say that this specific record should be",
+      "start": 1344.0,
+      "duration": 3.559
+    },
+    {
+      "text": "consumed from the new file instead of",
+      "start": 1345.96,
+      "duration": 4.48
+    },
+    {
+      "text": "the old file M basically this this is",
+      "start": 1347.559,
+      "duration": 4.761
+    },
+    {
+      "text": "also a layer of metadata that solves the",
+      "start": 1350.44,
+      "duration": 4.599
+    },
+    {
+      "text": "problem that files cannot be",
+      "start": 1352.32,
+      "duration": 4.44
+    },
+    {
+      "text": "updated",
+      "start": 1355.039,
+      "duration": 4.601
+    },
+    {
+      "text": "MH okay and access is",
+      "start": 1356.76,
+      "duration": 6.0
+    },
+    {
+      "text": "what access is basically the online",
+      "start": 1359.64,
+      "duration": 5.2
+    },
+    {
+      "text": "thing that allows you to you know access",
+      "start": 1362.76,
+      "duration": 4.799
+    },
+    {
+      "text": "the data query control who has access to",
+      "start": 1364.84,
+      "duration": 4.88
+    },
+    {
+      "text": "it package it with compute engine that",
+      "start": 1367.559,
+      "duration": 5.441
+    },
+    {
+      "text": "will be used M so it's basically the",
+      "start": 1369.72,
+      "duration": 4.839
+    },
+    {
+      "text": "thing that puts storage computer and",
+      "start": 1373.0,
+      "duration": 4.64
+    },
+    {
+      "text": "metadata together yes it's the thing",
+      "start": 1374.559,
+      "duration": 5.36
+    },
+    {
+      "text": "that basically turns it into a usable",
+      "start": 1377.64,
+      "duration": 3.6
+    },
+    {
+      "text": "product",
+      "start": 1379.919,
+      "duration": 4.161
+    },
+    {
+      "text": "online and when you say catalog what is",
+      "start": 1381.24,
+      "duration": 5.12
+    },
+    {
+      "text": "it exactly there are two types of",
+      "start": 1384.08,
+      "duration": 4.92
+    },
+    {
+      "text": "cataloges basically some cataloges serve",
+      "start": 1386.36,
+      "duration": 4.52
+    },
+    {
+      "text": "the function of access so it's just like",
+      "start": 1389.0,
+      "duration": 6.159
+    },
+    {
+      "text": "a service that maps to data somewhere",
+      "start": 1390.88,
+      "duration": 6.2
+    },
+    {
+      "text": "and to compute somewhere and allows you",
+      "start": 1395.159,
+      "duration": 4.201
+    },
+    {
+      "text": "to access this data with this compute",
+      "start": 1397.08,
+      "duration": 4.68
+    },
+    {
+      "text": "you have access control so you can",
+      "start": 1399.36,
+      "duration": 4.72
+    },
+    {
+      "text": "actually manage that and then there are",
+      "start": 1401.76,
+      "duration": 5.12
+    },
+    {
+      "text": "cataloges that actually handle metadata",
+      "start": 1404.08,
+      "duration": 5.04
+    },
+    {
+      "text": "that do all kinds of interesting things",
+      "start": 1406.88,
+      "duration": 4.32
+    },
+    {
+      "text": "like lineage and so on those actually",
+      "start": 1409.12,
+      "duration": 4.4
+    },
+    {
+      "text": "have a lot of you know built-in utility",
+      "start": 1411.2,
+      "duration": 6.28
+    },
+    {
+      "text": "that is useful for the developer MH okay",
+      "start": 1413.52,
+      "duration": 7.36
+    },
+    {
+      "text": "and in terms of tools uh what would it",
+      "start": 1417.48,
+      "duration": 7.4
+    },
+    {
+      "text": "be um I off the top of my head I don't",
+      "start": 1420.88,
+      "duration": 6.76
+    },
+    {
+      "text": "know all the tool names so like let's",
+      "start": 1424.88,
+      "duration": 5.36
+    },
+    {
+      "text": "say um so I remember from my days when I",
+      "start": 1427.64,
+      "duration": 5.84
+    },
+    {
+      "text": "worked um so for metadata we use these",
+      "start": 1430.24,
+      "duration": 6.559
+    },
+    {
+      "text": "Hive tables I think and then the files",
+      "start": 1433.48,
+      "duration": 5.84
+    },
+    {
+      "text": "were parket files on S3",
+      "start": 1436.799,
+      "duration": 5.961
+    },
+    {
+      "text": "right um so catalog is kind of similar",
+      "start": 1439.32,
+      "duration": 5.88
+    },
+    {
+      "text": "to these hi tables or there was another",
+      "start": 1442.76,
+      "duration": 5.399
+    },
+    {
+      "text": "tool where it was actually described if",
+      "start": 1445.2,
+      "duration": 7.04
+    },
+    {
+      "text": "you were doing um data L you might not",
+      "start": 1448.159,
+      "duration": 6.841
+    },
+    {
+      "text": "have had the concept of catalog but if",
+      "start": 1452.24,
+      "duration": 5.0
+    },
+    {
+      "text": "you've ever worked with data L on Amazon",
+      "start": 1455.0,
+      "duration": 4.84
+    },
+    {
+      "text": "maybe you worked with the glue catalog",
+      "start": 1457.24,
+      "duration": 5.6
+    },
+    {
+      "text": "yeah okay right so this is just like",
+      "start": 1459.84,
+      "duration": 6.28
+    },
+    {
+      "text": "access um but other cataloges have stuff",
+      "start": 1462.84,
+      "duration": 5.16
+    },
+    {
+      "text": "like lineage so you can understand you",
+      "start": 1466.12,
+      "duration": 4.48
+    },
+    {
+      "text": "know uh where is pii data or something",
+      "start": 1468.0,
+      "duration": 3.36
+    },
+    {
+      "text": "like",
+      "start": 1470.6,
+      "duration": 4.52
+    },
+    {
+      "text": "that and by lineage you mean U there's a",
+      "start": 1471.36,
+      "duration": 5.28
+    },
+    {
+      "text": "table and then there is something we",
+      "start": 1475.12,
+      "duration": 3.48
+    },
+    {
+      "text": "compute based on this table and maybe",
+      "start": 1476.64,
+      "duration": 3.48
+    },
+    {
+      "text": "some other",
+      "start": 1478.6,
+      "duration": 4.079
+    },
+    {
+      "text": "table imagine you have a data source it",
+      "start": 1480.12,
+      "duration": 4.96
+    },
+    {
+      "text": "contains pii and this data source is",
+      "start": 1482.679,
+      "duration": 4.641
+    },
+    {
+      "text": "then consumed to create various reports",
+      "start": 1485.08,
+      "duration": 4.28
+    },
+    {
+      "text": "or data products so you want to know",
+      "start": 1487.32,
+      "duration": 5.599
+    },
+    {
+      "text": "that the pi probably ended up there yeah",
+      "start": 1489.36,
+      "duration": 8.72
+    },
+    {
+      "text": "personal information yes mhm and um so",
+      "start": 1492.919,
+      "duration": 9.601
+    },
+    {
+      "text": "and and so iceberg is the storage player",
+      "start": 1498.08,
+      "duration": 6.479
+    },
+    {
+      "text": "in this case compute could be anything",
+      "start": 1502.52,
+      "duration": 3.6
+    },
+    {
+      "text": "could be I don't know data brick",
+      "start": 1504.559,
+      "duration": 4.921
+    },
+    {
+      "text": "snowflake uh duck DB I don't know bunch",
+      "start": 1506.12,
+      "duration": 6.52
+    },
+    {
+      "text": "of like a pandas python script right so",
+      "start": 1509.48,
+      "duration": 6.36
+    },
+    {
+      "text": "something that gets the data",
+      "start": 1512.64,
+      "duration": 7.12
+    },
+    {
+      "text": "um DB would be compute right yes this",
+      "start": 1515.84,
+      "duration": 6.559
+    },
+    {
+      "text": "case it would also be like a local",
+      "start": 1519.76,
+      "duration": 5.44
+    },
+    {
+      "text": "access but you know that's irrelevant",
+      "start": 1522.399,
+      "duration": 6.16
+    },
+    {
+      "text": "because uh you want an online catalog",
+      "start": 1525.2,
+      "duration": 4.24
+    },
+    {
+      "text": "not",
+      "start": 1528.559,
+      "duration": 4.6
+    },
+    {
+      "text": "local okay what do you think about ddb",
+      "start": 1529.44,
+      "duration": 6.16
+    },
+    {
+      "text": "will we see cuz what ddb allows maybe",
+      "start": 1533.159,
+      "duration": 4.681
+    },
+    {
+      "text": "I'm again not correct in understanding",
+      "start": 1535.6,
+      "duration": 5.48
+    },
+    {
+      "text": "what it's doing but it allows you to",
+      "start": 1537.84,
+      "duration": 6.12
+    },
+    {
+      "text": "do uh things locally that previously",
+      "start": 1541.08,
+      "duration": 4.88
+    },
+    {
+      "text": "would overwise not be possible like you",
+      "start": 1543.96,
+      "duration": 4.16
+    },
+    {
+      "text": "would need to have like a spark cluster",
+      "start": 1545.96,
+      "duration": 4.599
+    },
+    {
+      "text": "or I don't know use big query but now",
+      "start": 1548.12,
+      "duration": 5.32
+    },
+    {
+      "text": "with ddb it can just fetch a bunch of",
+      "start": 1550.559,
+      "duration": 4.881
+    },
+    {
+      "text": "parket files and quickly go through",
+      "start": 1553.44,
+      "duration": 6.0
+    },
+    {
+      "text": "these files and uh give you the results",
+      "start": 1555.44,
+      "duration": 5.88
+    },
+    {
+      "text": "I think it's amazing and for us it's",
+      "start": 1559.44,
+      "duration": 5.359
+    },
+    {
+      "text": "actually a key technology uh so what I",
+      "start": 1561.32,
+      "duration": 6.32
+    },
+    {
+      "text": "really love about it is think about SQL",
+      "start": 1564.799,
+      "duration": 6.36
+    },
+    {
+      "text": "Alchemy databas sorry um sqi databases",
+      "start": 1567.64,
+      "duration": 5.72
+    },
+    {
+      "text": "right if you're using a mobile phone",
+      "start": 1571.159,
+      "duration": 4.201
+    },
+    {
+      "text": "which I believe everyone is you probably",
+      "start": 1573.36,
+      "duration": 4.48
+    },
+    {
+      "text": "have a few dozen or a few hundred skite",
+      "start": 1575.36,
+      "duration": 4.439
+    },
+    {
+      "text": "databases running on your",
+      "start": 1577.84,
+      "duration": 5.199
+    },
+    {
+      "text": "phone right this what what this is",
+      "start": 1579.799,
+      "duration": 4.721
+    },
+    {
+      "text": "talking about it's talking about the",
+      "start": 1583.039,
+      "duration": 5.321
+    },
+    {
+      "text": "embeddability of this compute engine so",
+      "start": 1584.52,
+      "duration": 6.6
+    },
+    {
+      "text": "what does this mean for us it means that",
+      "start": 1588.36,
+      "duration": 4.24
+    },
+    {
+      "text": "we can actually assemble this as a",
+      "start": 1591.12,
+      "duration": 4.08
+    },
+    {
+      "text": "building block into our own product so",
+      "start": 1592.6,
+      "duration": 5.36
+    },
+    {
+      "text": "one of the things that we do with ddb",
+      "start": 1595.2,
+      "duration": 4.68
+    },
+    {
+      "text": "besides you know just using it for demos",
+      "start": 1597.96,
+      "duration": 3.64
+    },
+    {
+      "text": "and stuff like that",
+      "start": 1599.88,
+      "duration": 4.96
+    },
+    {
+      "text": "is basically I was telling you about",
+      "start": 1601.6,
+      "duration": 6.799
+    },
+    {
+      "text": "putting these layers together uh we",
+      "start": 1604.84,
+      "duration": 6.719
+    },
+    {
+      "text": "released an interface in dldt where you",
+      "start": 1608.399,
+      "duration": 6.721
+    },
+    {
+      "text": "can query the loaded data through uh a",
+      "start": 1611.559,
+      "duration": 6.281
+    },
+    {
+      "text": "universal interface like SQL or Python",
+      "start": 1615.12,
+      "duration": 6.84
+    },
+    {
+      "text": "and um why I say Universal is because",
+      "start": 1617.84,
+      "duration": 6.0
+    },
+    {
+      "text": "whether you're loading to file system",
+      "start": 1621.96,
+      "duration": 4.24
+    },
+    {
+      "text": "creating a data lake or a SQL database",
+      "start": 1623.84,
+      "duration": 4.92
+    },
+    {
+      "text": "it behaves the same and what we do",
+      "start": 1626.2,
+      "duration": 5.839
+    },
+    {
+      "text": "basically is when you don't have a real",
+      "start": 1628.76,
+      "duration": 6.6
+    },
+    {
+      "text": "SQL database we use an in memory uh doc",
+      "start": 1632.039,
+      "duration": 5.601
+    },
+    {
+      "text": "Deb for that and we have an abstraction",
+      "start": 1635.36,
+      "duration": 3.919
+    },
+    {
+      "text": "layer on top to basically make",
+      "start": 1637.64,
+      "duration": 3.56
+    },
+    {
+      "text": "everything behave the same way under the",
+      "start": 1639.279,
+      "duration": 5.841
+    },
+    {
+      "text": "hood whatever under and yeah basically",
+      "start": 1641.2,
+      "duration": 7.959
+    },
+    {
+      "text": "this enables you to access data",
+      "start": 1645.12,
+      "duration": 7.0
+    },
+    {
+      "text": "on the Fly",
+      "start": 1649.159,
+      "duration": 2.961
+    },
+    {
+      "text": "anywhere do you think",
+      "start": 1652.24,
+      "duration": 5.48
+    },
+    {
+      "text": "DB uh the appearance of ddb is changing",
+      "start": 1654.919,
+      "duration": 5.321
+    },
+    {
+      "text": "How We Do data engineering these days",
+      "start": 1657.72,
+      "duration": 5.319
+    },
+    {
+      "text": "yes uh absolutely so one of the things",
+      "start": 1660.24,
+      "duration": 5.559
+    },
+    {
+      "text": "that I noticed is",
+      "start": 1663.039,
+      "duration": 5.401
+    },
+    {
+      "text": "um people are really challenging the",
+      "start": 1665.799,
+      "duration": 5.081
+    },
+    {
+      "text": "concept of having to pay silly amounts",
+      "start": 1668.44,
+      "duration": 6.119
+    },
+    {
+      "text": "of money to vendors for data movement uh",
+      "start": 1670.88,
+      "duration": 6.32
+    },
+    {
+      "text": "or for data work and uh one of my",
+      "start": 1674.559,
+      "duration": 5.441
+    },
+    {
+      "text": "favorite setups that I seen using docdb",
+      "start": 1677.2,
+      "duration": 6.64
+    },
+    {
+      "text": "is basically uh leveraging D docdb and",
+      "start": 1680.0,
+      "duration": 6.64
+    },
+    {
+      "text": "files on GitHub actions so literally",
+      "start": 1683.84,
+      "duration": 5.36
+    },
+    {
+      "text": "there is no database it's just all",
+      "start": 1686.64,
+      "duration": 5.6
+    },
+    {
+      "text": "python code duck DB running on GitHub",
+      "start": 1689.2,
+      "duration": 6.359
+    },
+    {
+      "text": "actions uh free tier an entire data",
+      "start": 1692.24,
+      "duration": 6.2
+    },
+    {
+      "text": "stack data L for sizable",
+      "start": 1695.559,
+      "duration": 5.561
+    },
+    {
+      "text": "company cents per month over free tier",
+      "start": 1698.44,
+      "duration": 3.599
+    },
+    {
+      "text": "right",
+      "start": 1701.12,
+      "duration": 4.799
+    },
+    {
+      "text": "so so what with ddb what we can do is",
+      "start": 1702.039,
+      "duration": 5.841
+    },
+    {
+      "text": "let's say we have some sort of data Lake",
+      "start": 1705.919,
+      "duration": 3.321
+    },
+    {
+      "text": "which",
+      "start": 1707.88,
+      "duration": 4.679
+    },
+    {
+      "text": "a bunch of files in uh S3 or Google",
+      "start": 1709.24,
+      "duration": 5.6
+    },
+    {
+      "text": "storage or whatever right with ddb we",
+      "start": 1712.559,
+      "duration": 4.881
+    },
+    {
+      "text": "can get them process them save the",
+      "start": 1714.84,
+      "duration": 4.36
+    },
+    {
+      "text": "result somewhere again maybe back to",
+      "start": 1717.44,
+      "duration": 3.88
+    },
+    {
+      "text": "this storage exactly and then have",
+      "start": 1719.2,
+      "duration": 4.12
+    },
+    {
+      "text": "another script that gets the result and",
+      "start": 1721.32,
+      "duration": 4.599
+    },
+    {
+      "text": "runs it and because it's portable this",
+      "start": 1723.32,
+      "duration": 4.839
+    },
+    {
+      "text": "means you can take advantage so just",
+      "start": 1725.919,
+      "duration": 4.36
+    },
+    {
+      "text": "like the LT plus by the way uh it means",
+      "start": 1728.159,
+      "duration": 5.721
+    },
+    {
+      "text": "you can take advantage of um let's say",
+      "start": 1730.279,
+      "duration": 5.961
+    },
+    {
+      "text": "arbitration between compute vendors",
+      "start": 1733.88,
+      "duration": 4.48
+    },
+    {
+      "text": "right so if I want to use GitHub",
+      "start": 1736.24,
+      "duration": 4.039
+    },
+    {
+      "text": "serverless which is probably 100 times",
+      "start": 1738.36,
+      "duration": 4.76
+    },
+    {
+      "text": "cheaper than doing the same operation on",
+      "start": 1740.279,
+      "duration": 8.041
+    },
+    {
+      "text": "a rent always on machine whatever it is",
+      "start": 1743.12,
+      "duration": 7.32
+    },
+    {
+      "text": "whether it's you know running snowflake",
+      "start": 1748.32,
+      "duration": 3.88
+    },
+    {
+      "text": "or postgress it doesn't even matter at",
+      "start": 1750.44,
+      "duration": 5.56
+    },
+    {
+      "text": "that point um yeah it it helps you you",
+      "start": 1752.2,
+      "duration": 6.68
+    },
+    {
+      "text": "know do new patterns and",
+      "start": 1756.0,
+      "duration": 7.2
+    },
+    {
+      "text": "uh um take advantage of Technologies and",
+      "start": 1758.88,
+      "duration": 7.12
+    },
+    {
+      "text": "compute that you couldn't do before",
+      "start": 1763.2,
+      "duration": 6.0
+    },
+    {
+      "text": "mhm and is it relate it in any way to",
+      "start": 1766.0,
+      "duration": 6.799
+    },
+    {
+      "text": "this headless uh tables format that you",
+      "start": 1769.2,
+      "duration": 7.959
+    },
+    {
+      "text": "mentioned um yes",
+      "start": 1772.799,
+      "duration": 6.921
+    },
+    {
+      "text": "basically look uh when I'm talking about",
+      "start": 1777.159,
+      "duration": 4.601
+    },
+    {
+      "text": "these three three layers you have the",
+      "start": 1779.72,
+      "duration": 4.48
+    },
+    {
+      "text": "access layer and the access layer is",
+      "start": 1781.76,
+      "duration": 5.039
+    },
+    {
+      "text": "typically online because this is where",
+      "start": 1784.2,
+      "duration": 4.359
+    },
+    {
+      "text": "the tools are because this is where the",
+      "start": 1786.799,
+      "duration": 3.48
+    },
+    {
+      "text": "consumers are but when you're actually",
+      "start": 1788.559,
+      "duration": 3.6
+    },
+    {
+      "text": "working in the data pipeline you don't",
+      "start": 1790.279,
+      "duration": 4.0
+    },
+    {
+      "text": "need to go online if you had a local",
+      "start": 1792.159,
+      "duration": 4.161
+    },
+    {
+      "text": "access layer this would be good enough",
+      "start": 1794.279,
+      "duration": 5.601
+    },
+    {
+      "text": "and data uh sorry dub gives you this so",
+      "start": 1796.32,
+      "duration": 6.64
+    },
+    {
+      "text": "basically you know it enables you to do",
+      "start": 1799.88,
+      "duration": 6.399
+    },
+    {
+      "text": "whatever you want on local which local",
+      "start": 1802.96,
+      "duration": 5.52
+    },
+    {
+      "text": "to me means something that's deployed on",
+      "start": 1806.279,
+      "duration": 3.601
+    },
+    {
+      "text": "production running on a production",
+      "start": 1808.48,
+      "duration": 3.72
+    },
+    {
+      "text": "worker or it could also mean on my",
+      "start": 1809.88,
+      "duration": 6.36
+    },
+    {
+      "text": "machine when I'm developing um sorry I",
+      "start": 1812.2,
+      "duration": 7.56
+    },
+    {
+      "text": "lost my track got excited but uh so you",
+      "start": 1816.24,
+      "duration": 5.24
+    },
+    {
+      "text": "were talking about this headless uh",
+      "start": 1819.76,
+      "duration": 4.12
+    },
+    {
+      "text": "table format and you were talking about",
+      "start": 1821.48,
+      "duration": 7.48
+    },
+    {
+      "text": "that uh with DBT uh DT sorry with DLT",
+      "start": 1823.88,
+      "duration": 8.32
+    },
+    {
+      "text": "this something where you want to go yes",
+      "start": 1828.96,
+      "duration": 4.88
+    },
+    {
+      "text": "so basically this is something that",
+      "start": 1832.2,
+      "duration": 4.12
+    },
+    {
+      "text": "we're already serving so last year we",
+      "start": 1833.84,
+      "duration": 5.559
+    },
+    {
+      "text": "were working with post hog uh they're",
+      "start": 1836.32,
+      "duration": 7.0
+    },
+    {
+      "text": "like an open source um Analytics tool",
+      "start": 1839.399,
+      "duration": 7.481
+    },
+    {
+      "text": "and uh they wanted uh headless Delta",
+      "start": 1843.32,
+      "duration": 6.68
+    },
+    {
+      "text": "Lake uh so we worked with them on this",
+      "start": 1846.88,
+      "duration": 6.88
+    },
+    {
+      "text": "uh we did this for them basically and um",
+      "start": 1850.0,
+      "duration": 7.44
+    },
+    {
+      "text": "you know this this is kind of like um",
+      "start": 1853.76,
+      "duration": 7.759
+    },
+    {
+      "text": "common pattern that we see uh we uh help",
+      "start": 1857.44,
+      "duration": 6.68
+    },
+    {
+      "text": "create these data legs whether it's",
+      "start": 1861.519,
+      "duration": 6.361
+    },
+    {
+      "text": "Iceberg uh Delta or whatever um then",
+      "start": 1864.12,
+      "duration": 5.2
+    },
+    {
+      "text": "people do some kind of compute with",
+      "start": 1867.88,
+      "duration": 3.24
+    },
+    {
+      "text": "their own compute engines whether it's",
+      "start": 1869.32,
+      "duration": 4.76
+    },
+    {
+      "text": "click house or duck DB or something else",
+      "start": 1871.12,
+      "duration": 4.559
+    },
+    {
+      "text": "and then they push this data to an",
+      "start": 1874.08,
+      "duration": 3.68
+    },
+    {
+      "text": "access layer and this access layer might",
+      "start": 1875.679,
+      "duration": 3.84
+    },
+    {
+      "text": "be snowflake at this point right because",
+      "start": 1877.76,
+      "duration": 2.96
+    },
+    {
+      "text": "this is where the business people",
+      "start": 1879.519,
+      "duration": 3.64
+    },
+    {
+      "text": "interact with the",
+      "start": 1880.72,
+      "duration": 4.959
+    },
+    {
+      "text": "data instead of processing everything in",
+      "start": 1883.159,
+      "duration": 6.081
+    },
+    {
+      "text": "Snowflake and paying a fortune exactly",
+      "start": 1885.679,
+      "duration": 6.681
+    },
+    {
+      "text": "uhuh cuz like in Snowflake uh what's the",
+      "start": 1889.24,
+      "duration": 5.88
+    },
+    {
+      "text": "what's the business model like you",
+      "start": 1892.36,
+      "duration": 6.64
+    },
+    {
+      "text": "paper St or what you you you pay for",
+      "start": 1895.12,
+      "duration": 6.2
+    },
+    {
+      "text": "well I don't want to go into details",
+      "start": 1899.0,
+      "duration": 4.279
+    },
+    {
+      "text": "because I will probably say something",
+      "start": 1901.32,
+      "duration": 5.44
+    },
+    {
+      "text": "wrong uh okay but it's expensive right",
+      "start": 1903.279,
+      "duration": 6.88
+    },
+    {
+      "text": "expensive and um fundamentally there are",
+      "start": 1906.76,
+      "duration": 6.919
+    },
+    {
+      "text": "also benefits of doing it on your side",
+      "start": 1910.159,
+      "duration": 5.4
+    },
+    {
+      "text": "uh that relate to portability so what I",
+      "start": 1913.679,
+      "duration": 4.24
+    },
+    {
+      "text": "mean is there are many organizations",
+      "start": 1915.559,
+      "duration": 5.641
+    },
+    {
+      "text": "that use diverse data stacks and they",
+      "start": 1917.919,
+      "duration": 5.161
+    },
+    {
+      "text": "have multiple access interfaces so",
+      "start": 1921.2,
+      "duration": 3.959
+    },
+    {
+      "text": "ultimately they would like to do the",
+      "start": 1923.08,
+      "duration": 3.959
+    },
+    {
+      "text": "compute in a portable way that is",
+      "start": 1925.159,
+      "duration": 3.76
+    },
+    {
+      "text": "technology agnostic and then just serve",
+      "start": 1927.039,
+      "duration": 3.88
+    },
+    {
+      "text": "it where people use",
+      "start": 1928.919,
+      "duration": 6.041
+    },
+    {
+      "text": "it yeah and other thing that appeared uh",
+      "start": 1930.919,
+      "duration": 6.921
+    },
+    {
+      "text": "maybe not as recently as ddb but fairly",
+      "start": 1934.96,
+      "duration": 4.48
+    },
+    {
+      "text": "recently if we talk about grand scheme",
+      "start": 1937.84,
+      "duration": 3.16
+    },
+    {
+      "text": "of things like for example you've been",
+      "start": 1939.44,
+      "duration": 4.719
+    },
+    {
+      "text": "around the in the the engineering um",
+      "start": 1941.0,
+      "duration": 6.399
+    },
+    {
+      "text": "industry for quite some time is it's DBT",
+      "start": 1944.159,
+      "duration": 5.961
+    },
+    {
+      "text": "right so five years ago nobody used it",
+      "start": 1947.399,
+      "duration": 4.76
+    },
+    {
+      "text": "um people were trying to come up with",
+      "start": 1950.12,
+      "duration": 5.76
+    },
+    {
+      "text": "their sort of schedule or whatever for",
+      "start": 1952.159,
+      "duration": 7.161
+    },
+    {
+      "text": "SQL queries um but now we have um I",
+      "start": 1955.88,
+      "duration": 5.0
+    },
+    {
+      "text": "don't know if I can call it a standard",
+      "start": 1959.32,
+      "duration": 3.719
+    },
+    {
+      "text": "but uh we have this tool now which is",
+      "start": 1960.88,
+      "duration": 5.679
+    },
+    {
+      "text": "quite popular so how did DBT change the",
+      "start": 1963.039,
+      "duration": 5.12
+    },
+    {
+      "text": "way we do data engineering and do you",
+      "start": 1966.559,
+      "duration": 5.441
+    },
+    {
+      "text": "think it's going to continue changing",
+      "start": 1968.159,
+      "duration": 5.88
+    },
+    {
+      "text": "that",
+      "start": 1972.0,
+      "duration": 4.559
+    },
+    {
+      "text": "um that is a good question I cannot",
+      "start": 1974.039,
+      "duration": 5.681
+    },
+    {
+      "text": "speak for the future of theb BT um they",
+      "start": 1976.559,
+      "duration": 5.441
+    },
+    {
+      "text": "have some very interesting plans and I",
+      "start": 1979.72,
+      "duration": 4.199
+    },
+    {
+      "text": "don't quite understand them because",
+      "start": 1982.0,
+      "duration": 4.08
+    },
+    {
+      "text": "there are a couple of directions maybe",
+      "start": 1983.919,
+      "duration": 4.6
+    },
+    {
+      "text": "they're trying to broaden their offering",
+      "start": 1986.08,
+      "duration": 6.24
+    },
+    {
+      "text": "um but essentially yes DBT changed a lot",
+      "start": 1988.519,
+      "duration": 5.801
+    },
+    {
+      "text": "not just how we do data engineering but",
+      "start": 1992.32,
+      "duration": 4.319
+    },
+    {
+      "text": "how people think about it uh so before",
+      "start": 1994.32,
+      "duration": 4.599
+    },
+    {
+      "text": "it used to be that people orchestrated",
+      "start": 1996.639,
+      "duration": 7.241
+    },
+    {
+      "text": "their own SQL queries and um this led to",
+      "start": 1998.919,
+      "duration": 8.081
+    },
+    {
+      "text": "people writing boilerplate code all the",
+      "start": 2003.88,
+      "duration": 5.12
+    },
+    {
+      "text": "time and it was horrible lots of to",
+      "start": 2007.0,
+      "duration": 4.96
+    },
+    {
+      "text": "maintain lots of bugs uh and you know",
+      "start": 2009.0,
+      "duration": 5.08
+    },
+    {
+      "text": "you're reduced to like a typing person",
+      "start": 2011.96,
+      "duration": 4.8
+    },
+    {
+      "text": "at that point",
+      "start": 2014.08,
+      "duration": 6.0
+    },
+    {
+      "text": "um and what what it changed it kind of",
+      "start": 2016.76,
+      "duration": 5.0
+    },
+    {
+      "text": "made people think how can I do this",
+      "start": 2020.08,
+      "duration": 3.479
+    },
+    {
+      "text": "better right so when it comes to the",
+      "start": 2021.76,
+      "duration": 4.399
+    },
+    {
+      "text": "actual like SQL person I would say for",
+      "start": 2023.559,
+      "duration": 4.441
+    },
+    {
+      "text": "them probably not much changed they're",
+      "start": 2026.159,
+      "duration": 3.801
+    },
+    {
+      "text": "not thinking about the overall picture",
+      "start": 2028.0,
+      "duration": 3.559
+    },
+    {
+      "text": "they're just trying to do their work in",
+      "start": 2029.96,
+      "duration": 4.04
+    },
+    {
+      "text": "the SQL database but for the people",
+      "start": 2031.559,
+      "duration": 5.401
+    },
+    {
+      "text": "outside of that um you know now there's",
+      "start": 2034.0,
+      "duration": 5.039
+    },
+    {
+      "text": "no more boiler PL code there's no more",
+      "start": 2036.96,
+      "duration": 5.4
+    },
+    {
+      "text": "garbage to maintain so it significantly",
+      "start": 2039.039,
+      "duration": 5.52
+    },
+    {
+      "text": "improved let's say the quality of",
+      "start": 2042.36,
+      "duration": 5.68
+    },
+    {
+      "text": "Engineering in a project",
+      "start": 2044.559,
+      "duration": 6.681
+    },
+    {
+      "text": "MH and there are alternatives to DPT",
+      "start": 2048.04,
+      "duration": 4.92
+    },
+    {
+      "text": "right like C mesh and others like what",
+      "start": 2051.24,
+      "duration": 4.08
+    },
+    {
+      "text": "do you think about them well just like",
+      "start": 2052.96,
+      "duration": 4.119
+    },
+    {
+      "text": "any product there are you know many",
+      "start": 2055.32,
+      "duration": 5.64
+    },
+    {
+      "text": "Alternatives and um that's not a problem",
+      "start": 2057.079,
+      "duration": 8.201
+    },
+    {
+      "text": "right um what competition is healthy uh",
+      "start": 2060.96,
+      "duration": 6.159
+    },
+    {
+      "text": "it means there is demand and it means",
+      "start": 2065.28,
+      "duration": 3.52
+    },
+    {
+      "text": "that there are diverse groups of people",
+      "start": 2067.119,
+      "duration": 5.121
+    },
+    {
+      "text": "with different needs um what I think",
+      "start": 2068.8,
+      "duration": 6.52
+    },
+    {
+      "text": "about DBT is that DBT is in a unique",
+      "start": 2072.24,
+      "duration": 5.2
+    },
+    {
+      "text": "place because they were",
+      "start": 2075.32,
+      "duration": 4.68
+    },
+    {
+      "text": "first so you know",
+      "start": 2077.44,
+      "duration": 5.719
+    },
+    {
+      "text": "the let's say growth was rather because",
+      "start": 2080.0,
+      "duration": 6.399
+    },
+    {
+      "text": "of the concept than the product um I",
+      "start": 2083.159,
+      "duration": 7.081
+    },
+    {
+      "text": "would say and at this point uh DBT is",
+      "start": 2086.399,
+      "duration": 6.361
+    },
+    {
+      "text": "pivoting in a different direction right",
+      "start": 2090.24,
+      "duration": 5.76
+    },
+    {
+      "text": "so they're doing more uh of an open core",
+      "start": 2092.76,
+      "duration": 5.04
+    },
+    {
+      "text": "offering where they're offering things",
+      "start": 2096.0,
+      "duration": 4.44
+    },
+    {
+      "text": "around DBT and then there are tools like",
+      "start": 2097.8,
+      "duration": 4.92
+    },
+    {
+      "text": "SQL mesh that are actually doubling down",
+      "start": 2100.44,
+      "duration": 4.84
+    },
+    {
+      "text": "on what DBT was DBT core was offering",
+      "start": 2102.72,
+      "duration": 5.44
+    },
+    {
+      "text": "which is a way for developers to work",
+      "start": 2105.28,
+      "duration": 4.92
+    },
+    {
+      "text": "with their transformation code more",
+      "start": 2108.16,
+      "duration": 4.72
+    },
+    {
+      "text": "effectively and for example if you're a",
+      "start": 2110.2,
+      "duration": 4.879
+    },
+    {
+      "text": "data engineer that does a lot of SQL",
+      "start": 2112.88,
+      "duration": 3.92
+    },
+    {
+      "text": "development work you might be more",
+      "start": 2115.079,
+      "duration": 5.321
+    },
+    {
+      "text": "effective in uh SQL",
+      "start": 2116.8,
+      "duration": 6.84
+    },
+    {
+      "text": "mesh okay yeah and so we spoke a bit",
+      "start": 2120.4,
+      "duration": 5.24
+    },
+    {
+      "text": "about SQL orchestration but what would",
+      "start": 2123.64,
+      "duration": 5.479
+    },
+    {
+      "text": "what about workflow orchestration if we",
+      "start": 2125.64,
+      "duration": 6.88
+    },
+    {
+      "text": "wanted to start a data engineer project",
+      "start": 2129.119,
+      "duration": 5.841
+    },
+    {
+      "text": "today what should we use as workflow",
+      "start": 2132.52,
+      "duration": 4.64
+    },
+    {
+      "text": "orchestrator should we use",
+      "start": 2134.96,
+      "duration": 6.119
+    },
+    {
+      "text": "any so that is a great question um we",
+      "start": 2137.16,
+      "duration": 7.04
+    },
+    {
+      "text": "actually explored this topic in depth",
+      "start": 2141.079,
+      "duration": 6.76
+    },
+    {
+      "text": "and the conclusion is um basically it's",
+      "start": 2144.2,
+      "duration": 5.52
+    },
+    {
+      "text": "like ice cream pick the flavor that you",
+      "start": 2147.839,
+      "duration": 3.841
+    },
+    {
+      "text": "want and I would say it's not you",
+      "start": 2149.72,
+      "duration": 3.599
+    },
+    {
+      "text": "picking the flavor that you want but",
+      "start": 2151.68,
+      "duration": 3.88
+    },
+    {
+      "text": "it's rather pick the flavor that your",
+      "start": 2153.319,
+      "duration": 5.8
+    },
+    {
+      "text": "entire team can eat right so um",
+      "start": 2155.56,
+      "duration": 7.759
+    },
+    {
+      "text": "different or vanilla right sorry vanilla",
+      "start": 2159.119,
+      "duration": 6.121
+    },
+    {
+      "text": "vanilla so actually you know this is the",
+      "start": 2163.319,
+      "duration": 4.681
+    },
+    {
+      "text": "reason why people uh choose airflow many",
+      "start": 2165.24,
+      "duration": 5.32
+    },
+    {
+      "text": "times because it's the it's basically",
+      "start": 2168.0,
+      "duration": 4.599
+    },
+    {
+      "text": "the common denominator that everybody",
+      "start": 2170.56,
+      "duration": 4.96
+    },
+    {
+      "text": "want and I would argue just like with",
+      "start": 2172.599,
+      "duration": 6.24
+    },
+    {
+      "text": "DBT there are many competitors out there",
+      "start": 2175.52,
+      "duration": 6.319
+    },
+    {
+      "text": "that do specific things better uh when",
+      "start": 2178.839,
+      "duration": 6.161
+    },
+    {
+      "text": "it comes to our team for example",
+      "start": 2181.839,
+      "duration": 6.441
+    },
+    {
+      "text": "um if they haven't been exposed to",
+      "start": 2185.0,
+      "duration": 5.359
+    },
+    {
+      "text": "airflow before I would say they",
+      "start": 2188.28,
+      "duration": 4.92
+    },
+    {
+      "text": "gravitate to Dexter simply because kind",
+      "start": 2190.359,
+      "duration": 5.921
+    },
+    {
+      "text": "of captures their software development",
+      "start": 2193.2,
+      "duration": 6.159
+    },
+    {
+      "text": "uh way of thinking and so on if they",
+      "start": 2196.28,
+      "duration": 4.6
+    },
+    {
+      "text": "have used airflow and they want",
+      "start": 2199.359,
+      "duration": 4.281
+    },
+    {
+      "text": "something better they might go to prefa",
+      "start": 2200.88,
+      "duration": 4.68
+    },
+    {
+      "text": "right",
+      "start": 2203.64,
+      "duration": 6.04
+    },
+    {
+      "text": "so it's yeah U personally we actually",
+      "start": 2205.56,
+      "duration": 7.12
+    },
+    {
+      "text": "often use GitHub actions so know it's",
+      "start": 2209.68,
+      "duration": 6.919
+    },
+    {
+      "text": "really like it depends what do and",
+      "start": 2212.68,
+      "duration": 6.6
+    },
+    {
+      "text": "there's no unless you have very specific",
+      "start": 2216.599,
+      "duration": 5.601
+    },
+    {
+      "text": "use case if you need a simple",
+      "start": 2219.28,
+      "duration": 6.28
+    },
+    {
+      "text": "workflow um sequential workflow then",
+      "start": 2222.2,
+      "duration": 6.04
+    },
+    {
+      "text": "GitHub actions would be sufficient right",
+      "start": 2225.56,
+      "duration": 4.559
+    },
+    {
+      "text": "the reason why I love GitHub actions is",
+      "start": 2228.24,
+      "duration": 5.44
+    },
+    {
+      "text": "because it's actually serverless so it's",
+      "start": 2230.119,
+      "duration": 5.681
+    },
+    {
+      "text": "literally like a 100 times cheaper than",
+      "start": 2233.68,
+      "duration": 4.159
+    },
+    {
+      "text": "you know putting it on some kind of",
+      "start": 2235.8,
+      "duration": 4.319
+    },
+    {
+      "text": "always on",
+      "start": 2237.839,
+      "duration": 4.48
+    },
+    {
+      "text": "orchestrator we have a few questions I",
+      "start": 2240.119,
+      "duration": 4.321
+    },
+    {
+      "text": "think it's uh it would be good if we go",
+      "start": 2242.319,
+      "duration": 6.201
+    },
+    {
+      "text": "to the questions from the audience um",
+      "start": 2244.44,
+      "duration": 5.48
+    },
+    {
+      "text": "would it be effective for my Learning",
+      "start": 2248.52,
+      "duration": 3.16
+    },
+    {
+      "text": "Journey and career development if I",
+      "start": 2249.92,
+      "duration": 4.24
+    },
+    {
+      "text": "pursue multiple disciplines for example",
+      "start": 2251.68,
+      "duration": 4.28
+    },
+    {
+      "text": "data engineering data science and theyi",
+      "start": 2254.16,
+      "duration": 4.36
+    },
+    {
+      "text": "engineering at the same time I don't",
+      "start": 2255.96,
+      "duration": 5.24
+    },
+    {
+      "text": "think so I think you should get clear on",
+      "start": 2258.52,
+      "duration": 6.16
+    },
+    {
+      "text": "the type of role that you want to uh do",
+      "start": 2261.2,
+      "duration": 5.32
+    },
+    {
+      "text": "so basically look what kind of company",
+      "start": 2264.68,
+      "duration": 3.24
+    },
+    {
+      "text": "do you want to work in what kind of",
+      "start": 2266.52,
+      "duration": 2.839
+    },
+    {
+      "text": "colleagues do you want to have what kind",
+      "start": 2267.92,
+      "duration": 3.56
+    },
+    {
+      "text": "of challenge do you want and what kind",
+      "start": 2269.359,
+      "duration": 3.841
+    },
+    {
+      "text": "of problems that you want to solve and",
+      "start": 2271.48,
+      "duration": 5.0
+    },
+    {
+      "text": "then learn for that space uh you have",
+      "start": 2273.2,
+      "duration": 5.48
+    },
+    {
+      "text": "time in your career to learn the other",
+      "start": 2276.48,
+      "duration": 5.24
+    },
+    {
+      "text": "stuff just when you're starting out stay",
+      "start": 2278.68,
+      "duration": 6.2
+    },
+    {
+      "text": "focused yeah and also when it comes to",
+      "start": 2281.72,
+      "duration": 6.68
+    },
+    {
+      "text": "AI um a lot of AI engineering is",
+      "start": 2284.88,
+      "duration": 5.439
+    },
+    {
+      "text": "actually data engineering but called",
+      "start": 2288.4,
+      "duration": 3.76
+    },
+    {
+      "text": "differently cuz like for example if we",
+      "start": 2290.319,
+      "duration": 4.561
+    },
+    {
+      "text": "take rck and if we think what exactly we",
+      "start": 2292.16,
+      "duration": 5.04
+    },
+    {
+      "text": "need to do that to do there is",
+      "start": 2294.88,
+      "duration": 3.92
+    },
+    {
+      "text": "connecting a bunch of things and one of",
+      "start": 2297.2,
+      "duration": 3.6
+    },
+    {
+      "text": "these things is a database where we",
+      "start": 2298.8,
+      "duration": 4.36
+    },
+    {
+      "text": "store like where our knowledge B our",
+      "start": 2300.8,
+      "duration": 5.0
+    },
+    {
+      "text": "knowledge is right our knowledge base",
+      "start": 2303.16,
+      "duration": 4.36
+    },
+    {
+      "text": "and at the end if you look at this and",
+      "start": 2305.8,
+      "duration": 4.319
+    },
+    {
+      "text": "it's like okay we move data from here",
+      "start": 2307.52,
+      "duration": 4.28
+    },
+    {
+      "text": "this point to this point and then from",
+      "start": 2310.119,
+      "duration": 3.161
+    },
+    {
+      "text": "here and then we need to retrieve this",
+      "start": 2311.8,
+      "duration": 5.88
+    },
+    {
+      "text": "data it's kind of like you know B",
+      "start": 2313.28,
+      "duration": 7.6
+    },
+    {
+      "text": "engineering it's kind of like thinking",
+      "start": 2317.68,
+      "duration": 6.399
+    },
+    {
+      "text": "right so what I mean is fundamentally",
+      "start": 2320.88,
+      "duration": 5.84
+    },
+    {
+      "text": "you have a few moving pieces you have",
+      "start": 2324.079,
+      "duration": 4.721
+    },
+    {
+      "text": "data uh you",
+      "start": 2326.72,
+      "duration": 6.04
+    },
+    {
+      "text": "have some kind of algorithm which is the",
+      "start": 2328.8,
+      "duration": 7.12
+    },
+    {
+      "text": "llm and then I would say there's",
+      "start": 2332.76,
+      "duration": 4.48
+    },
+    {
+      "text": "something you haven't mentioned and",
+      "start": 2335.92,
+      "duration": 4.399
+    },
+    {
+      "text": "that's semantics so what I mean is you",
+      "start": 2337.24,
+      "duration": 4.56
+    },
+    {
+      "text": "know there is this concept of raw",
+      "start": 2340.319,
+      "duration": 3.161
+    },
+    {
+      "text": "intelligence so like if you have some",
+      "start": 2341.8,
+      "duration": 3.92
+    },
+    {
+      "text": "neurons in a Petri dish they will do",
+      "start": 2343.48,
+      "duration": 4.359
+    },
+    {
+      "text": "things they can solve problems but you",
+      "start": 2345.72,
+      "duration": 4.119
+    },
+    {
+      "text": "know it's a very basic thing that they",
+      "start": 2347.839,
+      "duration": 3.841
+    },
+    {
+      "text": "can do and if all the neurons are the",
+      "start": 2349.839,
+      "duration": 3.601
+    },
+    {
+      "text": "same then you know there's no",
+      "start": 2351.68,
+      "duration": 4.6
+    },
+    {
+      "text": "specialization but in a human brain uh",
+      "start": 2353.44,
+      "duration": 6.2
+    },
+    {
+      "text": "sometime I think like 60,000 years ago",
+      "start": 2356.28,
+      "duration": 5.68
+    },
+    {
+      "text": "um because humans evolved in the context",
+      "start": 2359.64,
+      "duration": 4.959
+    },
+    {
+      "text": "of Concepts we started to develop",
+      "start": 2361.96,
+      "duration": 4.359
+    },
+    {
+      "text": "specialized brain structures that deal",
+      "start": 2364.599,
+      "duration": 3.841
+    },
+    {
+      "text": "with these Concepts so so the way you",
+      "start": 2366.319,
+      "duration": 4.601
+    },
+    {
+      "text": "could think about it is the brain has a",
+      "start": 2368.44,
+      "duration": 4.8
+    },
+    {
+      "text": "semantic map data should also have a",
+      "start": 2370.92,
+      "duration": 4.88
+    },
+    {
+      "text": "semantic map and basically this would",
+      "start": 2373.24,
+      "duration": 5.64
+    },
+    {
+      "text": "help an llm understand how to work with",
+      "start": 2375.8,
+      "duration": 6.4
+    },
+    {
+      "text": "the data to give you an example if you",
+      "start": 2378.88,
+      "duration": 7.52
+    },
+    {
+      "text": "are trying to let's say work with an llm",
+      "start": 2382.2,
+      "duration": 6.68
+    },
+    {
+      "text": "to place an order for a screw and you",
+      "start": 2386.4,
+      "duration": 4.719
+    },
+    {
+      "text": "give it a text it doesn't actually",
+      "start": 2388.88,
+      "duration": 4.28
+    },
+    {
+      "text": "understand what you want because the",
+      "start": 2391.119,
+      "duration": 4.281
+    },
+    {
+      "text": "screw has Dimensions it has diameter",
+      "start": 2393.16,
+      "duration": 5.12
+    },
+    {
+      "text": "length it has a type of cap so in order",
+      "start": 2395.4,
+      "duration": 4.48
+    },
+    {
+      "text": "for the llm to understand how to work",
+      "start": 2398.28,
+      "duration": 3.44
+    },
+    {
+      "text": "with that you need to tell it hey this",
+      "start": 2399.88,
+      "duration": 4.36
+    },
+    {
+      "text": "is a screw this is what can be done with",
+      "start": 2401.72,
+      "duration": 4.28
+    },
+    {
+      "text": "a screw it has Dimensions it has",
+      "start": 2404.24,
+      "duration": 4.48
+    },
+    {
+      "text": "diameter and so on and then the llm can",
+      "start": 2406.0,
+      "duration": 6.319
+    },
+    {
+      "text": "actually help you place an order for the",
+      "start": 2408.72,
+      "duration": 7.72
+    },
+    {
+      "text": "screw yeah and that's a deep thought but",
+      "start": 2412.319,
+      "duration": 6.921
+    },
+    {
+      "text": "um speaking of uh well again coming back",
+      "start": 2416.44,
+      "duration": 4.679
+    },
+    {
+      "text": "to the to the topic we're talking about",
+      "start": 2419.24,
+      "duration": 4.119
+    },
+    {
+      "text": "Trends uh another question is like there",
+      "start": 2421.119,
+      "duration": 4.521
+    },
+    {
+      "text": "are so many tools in the field of data",
+      "start": 2423.359,
+      "duration": 4.041
+    },
+    {
+      "text": "engineering and also we have some so",
+      "start": 2425.64,
+      "duration": 3.439
+    },
+    {
+      "text": "many companies and the companies",
+      "start": 2427.4,
+      "duration": 3.959
+    },
+    {
+      "text": "promoted like the I don't know snowflake",
+      "start": 2429.079,
+      "duration": 5.0
+    },
+    {
+      "text": "will say ah our computer is the best one",
+      "start": 2431.359,
+      "duration": 4.24
+    },
+    {
+      "text": "then data bricks will say no our is",
+      "start": 2434.079,
+      "duration": 3.201
+    },
+    {
+      "text": "better and then you have like I don't",
+      "start": 2435.599,
+      "duration": 5.121
+    },
+    {
+      "text": "know five TR and Aires and like there",
+      "start": 2437.28,
+      "duration": 5.039
+    },
+    {
+      "text": "are many tools and then there's this",
+      "start": 2440.72,
+      "duration": 4.359
+    },
+    {
+      "text": "postmodern Data stock right where we",
+      "start": 2442.319,
+      "duration": 7.201
+    },
+    {
+      "text": "talk about um TLT and other tools",
+      "start": 2445.079,
+      "duration": 7.0
+    },
+    {
+      "text": "so there are many tools and it's",
+      "start": 2449.52,
+      "duration": 4.72
+    },
+    {
+      "text": "confusing like I'm just let's say I'm",
+      "start": 2452.079,
+      "duration": 6.921
+    },
+    {
+      "text": "just entering the field and I want to",
+      "start": 2454.24,
+      "duration": 7.24
+    },
+    {
+      "text": "select which tools I need to master in",
+      "start": 2459.0,
+      "duration": 6.44
+    },
+    {
+      "text": "each domain uh how do I select",
+      "start": 2461.48,
+      "duration": 6.599
+    },
+    {
+      "text": "them so if you're just entering the",
+      "start": 2465.44,
+      "duration": 4.44
+    },
+    {
+      "text": "field I would discourage you from",
+      "start": 2468.079,
+      "duration": 3.801
+    },
+    {
+      "text": "attempting to master any tools at this",
+      "start": 2469.88,
+      "duration": 4.68
+    },
+    {
+      "text": "point so I would say the most important",
+      "start": 2471.88,
+      "duration": 5.12
+    },
+    {
+      "text": "thing is that you get the concepts of",
+      "start": 2474.56,
+      "duration": 5.68
+    },
+    {
+      "text": "what you're doing right so kind of like",
+      "start": 2477.0,
+      "duration": 5.64
+    },
+    {
+      "text": "understand the problems in a generic way",
+      "start": 2480.24,
+      "duration": 4.92
+    },
+    {
+      "text": "and you are a that you are able to add",
+      "start": 2482.64,
+      "duration": 5.16
+    },
+    {
+      "text": "value to a company by solving problems",
+      "start": 2485.16,
+      "duration": 4.6
+    },
+    {
+      "text": "then when it comes to actual tooling you",
+      "start": 2487.8,
+      "duration": 5.24
+    },
+    {
+      "text": "know you can decide that later um",
+      "start": 2489.76,
+      "duration": 5.76
+    },
+    {
+      "text": "ultimately you if you want to work in",
+      "start": 2493.04,
+      "duration": 4.4
+    },
+    {
+      "text": "software engineering you need to adopt a",
+      "start": 2495.52,
+      "duration": 4.52
+    },
+    {
+      "text": "different uh attitude than learning up",
+      "start": 2497.44,
+      "duration": 4.12
+    },
+    {
+      "text": "front and that is you need to learn how",
+      "start": 2500.04,
+      "duration": 3.319
+    },
+    {
+      "text": "to learn and you need to have the",
+      "start": 2501.56,
+      "duration": 5.16
+    },
+    {
+      "text": "attitude that uh this is how you succeed",
+      "start": 2503.359,
+      "duration": 5.401
+    },
+    {
+      "text": "because you will have to learn every day",
+      "start": 2506.72,
+      "duration": 4.32
+    },
+    {
+      "text": "and you shouldn't be afraid to say hey",
+      "start": 2508.76,
+      "duration": 3.88
+    },
+    {
+      "text": "we're going to solve this problem I",
+      "start": 2511.04,
+      "duration": 3.279
+    },
+    {
+      "text": "haven't reached the technology decision",
+      "start": 2512.64,
+      "duration": 3.84
+    },
+    {
+      "text": "yet and when you get there you might",
+      "start": 2514.319,
+      "duration": 4.881
+    },
+    {
+      "text": "spend half a day to explore options and",
+      "start": 2516.48,
+      "duration": 7.48
+    },
+    {
+      "text": "then MH let say I don't work yet so okay",
+      "start": 2519.2,
+      "duration": 6.76
+    },
+    {
+      "text": "like adding values to the company is a",
+      "start": 2523.96,
+      "duration": 4.119
+    },
+    {
+      "text": "good thing right there is a problem I",
+      "start": 2525.96,
+      "duration": 3.879
+    },
+    {
+      "text": "want to solve this problem and then like",
+      "start": 2528.079,
+      "duration": 3.641
+    },
+    {
+      "text": "together with the team we select the",
+      "start": 2529.839,
+      "duration": 4.641
+    },
+    {
+      "text": "best way to solve this problem but I'm",
+      "start": 2531.72,
+      "duration": 5.8
+    },
+    {
+      "text": "just I just want to let's say build a",
+      "start": 2534.48,
+      "duration": 6.32
+    },
+    {
+      "text": "portfolio Okay",
+      "start": 2537.52,
+      "duration": 3.28
+    },
+    {
+      "text": "how um ignore the",
+      "start": 2541.2,
+      "duration": 6.52
+    },
+    {
+      "text": "vendors uh don't worry about it too much",
+      "start": 2544.72,
+      "duration": 5.68
+    },
+    {
+      "text": "um no one will hire you as a specialist",
+      "start": 2547.72,
+      "duration": 4.76
+    },
+    {
+      "text": "on snowflake when you're just starting",
+      "start": 2550.4,
+      "duration": 4.8
+    },
+    {
+      "text": "out so you know don't don't go there",
+      "start": 2552.48,
+      "duration": 5.359
+    },
+    {
+      "text": "rather learn SQL right Learn Python",
+      "start": 2555.2,
+      "duration": 5.24
+    },
+    {
+      "text": "learn data ingestion learn data",
+      "start": 2557.839,
+      "duration": 5.601
+    },
+    {
+      "text": "transformation modeling but most",
+      "start": 2560.44,
+      "duration": 5.52
+    },
+    {
+      "text": "importantly learn how to capture",
+      "start": 2563.44,
+      "duration": 4.52
+    },
+    {
+      "text": "business requirements and solve problems",
+      "start": 2565.96,
+      "duration": 4.8
+    },
+    {
+      "text": "because this is what you're hired for",
+      "start": 2567.96,
+      "duration": 7.28
+    },
+    {
+      "text": "and um the reality is that unless you're",
+      "start": 2570.76,
+      "duration": 6.599
+    },
+    {
+      "text": "joining a senior team that can give you",
+      "start": 2575.24,
+      "duration": 4.44
+    },
+    {
+      "text": "framework uh you're you're going to have",
+      "start": 2577.359,
+      "duration": 5.401
+    },
+    {
+      "text": "to figure that out and technology is",
+      "start": 2579.68,
+      "duration": 6.76
+    },
+    {
+      "text": "secondary and would you say just picking",
+      "start": 2582.76,
+      "duration": 5.359
+    },
+    {
+      "text": "for example we have a course right and",
+      "start": 2586.44,
+      "duration": 3.48
+    },
+    {
+      "text": "the course we say hey there are these",
+      "start": 2588.119,
+      "duration": 4.881
+    },
+    {
+      "text": "components like I don't know you need to",
+      "start": 2589.92,
+      "duration": 5.52
+    },
+    {
+      "text": "um have a data Lake you need to have",
+      "start": 2593.0,
+      "duration": 4.48
+    },
+    {
+      "text": "some sort of workflow registration you",
+      "start": 2595.44,
+      "duration": 4.04
+    },
+    {
+      "text": "need to know SQL right and then like I",
+      "start": 2597.48,
+      "duration": 4.359
+    },
+    {
+      "text": "don't know present data somehow would",
+      "start": 2599.48,
+      "duration": 5.32
+    },
+    {
+      "text": "you say just selecting any tool for each",
+      "start": 2601.839,
+      "duration": 6.321
+    },
+    {
+      "text": "of these uh sub problems would be okay",
+      "start": 2604.8,
+      "duration": 5.88
+    },
+    {
+      "text": "so I would say when you are solving",
+      "start": 2608.16,
+      "duration": 4.12
+    },
+    {
+      "text": "problems you will have requirements that",
+      "start": 2610.68,
+      "duration": 4.159
+    },
+    {
+      "text": "come up right so I encourage you to try",
+      "start": 2612.28,
+      "duration": 5.44
+    },
+    {
+      "text": "these tools and learn them up front any",
+      "start": 2614.839,
+      "duration": 5.561
+    },
+    {
+      "text": "in each category ultimately but when it",
+      "start": 2617.72,
+      "duration": 4.08
+    },
+    {
+      "text": "comes to",
+      "start": 2620.4,
+      "duration": 3.4
+    },
+    {
+      "text": "visualization you have a decision to",
+      "start": 2621.8,
+      "duration": 3.96
+    },
+    {
+      "text": "make how am I going to deliver data to",
+      "start": 2623.8,
+      "duration": 3.72
+    },
+    {
+      "text": "this company and depending on who the",
+      "start": 2625.76,
+      "duration": 3.76
+    },
+    {
+      "text": "consumer is you should consider them as",
+      "start": 2627.52,
+      "duration": 4.4
+    },
+    {
+      "text": "a person and can I get them to access",
+      "start": 2629.52,
+      "duration": 4.44
+    },
+    {
+      "text": "data through this interface will they",
+      "start": 2631.92,
+      "duration": 5.52
+    },
+    {
+      "text": "understand what they're doing right so",
+      "start": 2633.96,
+      "duration": 7.76
+    },
+    {
+      "text": "like I keep saying um if you know some",
+      "start": 2637.44,
+      "duration": 6.28
+    },
+    {
+      "text": "basics of how to do things that's enough",
+      "start": 2641.72,
+      "duration": 3.92
+    },
+    {
+      "text": "to start right so if you're joining a",
+      "start": 2643.72,
+      "duration": 4.8
+    },
+    {
+      "text": "company and your idea is that I will",
+      "start": 2645.64,
+      "duration": 5.88
+    },
+    {
+      "text": "display data in notebooks this is not",
+      "start": 2648.52,
+      "duration": 5.2
+    },
+    {
+      "text": "wrong it's not the best way but it's",
+      "start": 2651.52,
+      "duration": 3.839
+    },
+    {
+      "text": "better than what they have probably",
+      "start": 2653.72,
+      "duration": 4.44
+    },
+    {
+      "text": "right so ask them do you want your data",
+      "start": 2655.359,
+      "duration": 4.441
+    },
+    {
+      "text": "in notebooks and they're going to say",
+      "start": 2658.16,
+      "duration": 3.0
+    },
+    {
+      "text": "what's a notebook I don't know what a",
+      "start": 2659.8,
+      "duration": 3.96
+    },
+    {
+      "text": "notebook is I have a dashboard and then",
+      "start": 2661.16,
+      "duration": 4.959
+    },
+    {
+      "text": "maybe you're going to go to free Google",
+      "start": 2663.76,
+      "duration": 4.76
+    },
+    {
+      "text": "data Studio and you're going to do some",
+      "start": 2666.119,
+      "duration": 3.641
+    },
+    {
+      "text": "dashboards there and then you're going",
+      "start": 2668.52,
+      "duration": 3.68
+    },
+    {
+      "text": "to find some limitations then maybe",
+      "start": 2669.76,
+      "duration": 4.16
+    },
+    {
+      "text": "you'll ask somebody who has more",
+      "start": 2672.2,
+      "duration": 3.919
+    },
+    {
+      "text": "knowledge and they will give you a way",
+      "start": 2673.92,
+      "duration": 6.639
+    },
+    {
+      "text": "to think about it so basically just try",
+      "start": 2676.119,
+      "duration": 7.2
+    },
+    {
+      "text": "things and see where it's going yes",
+      "start": 2680.559,
+      "duration": 4.361
+    },
+    {
+      "text": "basically the modern data stack is",
+      "start": 2683.319,
+      "duration": 4.04
+    },
+    {
+      "text": "extremely interchangeable it's extremely",
+      "start": 2684.92,
+      "duration": 4.919
+    },
+    {
+      "text": "commoditized um many I would say if",
+      "start": 2687.359,
+      "duration": 4.921
+    },
+    {
+      "text": "there's one thing to take care of is",
+      "start": 2689.839,
+      "duration": 4.641
+    },
+    {
+      "text": "that in a commoditized",
+      "start": 2692.28,
+      "duration": 5.039
+    },
+    {
+      "text": "market revenue is hard which",
+      "start": 2694.48,
+      "duration": 6.32
+    },
+    {
+      "text": "incentivizes vendors to adopt blackhead",
+      "start": 2697.319,
+      "duration": 5.561
+    },
+    {
+      "text": "tactics so this is something that I",
+      "start": 2700.8,
+      "duration": 4.36
+    },
+    {
+      "text": "would look out for I would look out are",
+      "start": 2702.88,
+      "duration": 4.12
+    },
+    {
+      "text": "these reputable vendors or are they",
+      "start": 2705.16,
+      "duration": 4.0
+    },
+    {
+      "text": "going to rip me off what does their cost",
+      "start": 2707.0,
+      "duration": 4.8
+    },
+    {
+      "text": "structure look",
+      "start": 2709.16,
+      "duration": 2.64
+    },
+    {
+      "text": "like yeah interesting and um well you",
+      "start": 2712.8,
+      "duration": 6.24
+    },
+    {
+      "text": "said that um at the end you're an",
+      "start": 2715.92,
+      "duration": 5.32
+    },
+    {
+      "text": "engineer and then you think you should",
+      "start": 2719.04,
+      "duration": 2.96
+    },
+    {
+      "text": "think",
+      "start": 2721.24,
+      "duration": 3.24
+    },
+    {
+      "text": "about problems and how you solve these",
+      "start": 2722.0,
+      "duration": 5.0
+    },
+    {
+      "text": "problems and how you add value to the",
+      "start": 2724.48,
+      "duration": 5.4
+    },
+    {
+      "text": "company and then you don't need to be a",
+      "start": 2727.0,
+      "duration": 6.64
+    },
+    {
+      "text": "data engineer for that right so and uh",
+      "start": 2729.88,
+      "duration": 7.6
+    },
+    {
+      "text": "so the reason where I'm like I'm going",
+      "start": 2733.64,
+      "duration": 5.479
+    },
+    {
+      "text": "so there is a question how challenging",
+      "start": 2737.48,
+      "duration": 3.52
+    },
+    {
+      "text": "it is for a senior backend engineer to",
+      "start": 2739.119,
+      "duration": 3.281
+    },
+    {
+      "text": "transition into a senior data",
+      "start": 2741.0,
+      "duration": 4.119
+    },
+    {
+      "text": "engineering role and I was thinking that",
+      "start": 2742.4,
+      "duration": 5.959
+    },
+    {
+      "text": "as a senior backend engineer so they",
+      "start": 2745.119,
+      "duration": 5.72
+    },
+    {
+      "text": "probably already know how to translate",
+      "start": 2748.359,
+      "duration": 4.921
+    },
+    {
+      "text": "uh you know these problems into",
+      "start": 2750.839,
+      "duration": 4.28
+    },
+    {
+      "text": "Solutions and thinking about adding",
+      "start": 2753.28,
+      "duration": 4.52
+    },
+    {
+      "text": "value to the company right I had the",
+      "start": 2755.119,
+      "duration": 4.72
+    },
+    {
+      "text": "specific experience so actually when we",
+      "start": 2757.8,
+      "duration": 4.24
+    },
+    {
+      "text": "were building uh DT we tried it with",
+      "start": 2759.839,
+      "duration": 4.921
+    },
+    {
+      "text": "different people um and I would say the",
+      "start": 2762.04,
+      "duration": 6.24
+    },
+    {
+      "text": "knowledge gap for a software engineer is",
+      "start": 2764.76,
+      "duration": 5.48
+    },
+    {
+      "text": "of course not software right but it's",
+      "start": 2768.28,
+      "duration": 4.2
+    },
+    {
+      "text": "going to be in understanding the",
+      "start": 2770.24,
+      "duration": 4.879
+    },
+    {
+      "text": "business case of what they need to do so",
+      "start": 2772.48,
+      "duration": 4.72
+    },
+    {
+      "text": "what I mean is if you ask a random",
+      "start": 2775.119,
+      "duration": 3.921
+    },
+    {
+      "text": "software developer give me a pipeline",
+      "start": 2777.2,
+      "duration": 4.96
+    },
+    {
+      "text": "that brings my HubSpot data into",
+      "start": 2779.04,
+      "duration": 5.92
+    },
+    {
+      "text": "bigquery they will do that and you will",
+      "start": 2782.16,
+      "duration": 4.64
+    },
+    {
+      "text": "have some kind of output and then you'll",
+      "start": 2784.96,
+      "duration": 4.2
+    },
+    {
+      "text": "have have to chase them hey this is not",
+      "start": 2786.8,
+      "duration": 5.279
+    },
+    {
+      "text": "fine this is not fine this is different",
+      "start": 2789.16,
+      "duration": 5.56
+    },
+    {
+      "text": "this is not logically working properly",
+      "start": 2792.079,
+      "duration": 6.401
+    },
+    {
+      "text": "the business logic here is wrong and um",
+      "start": 2794.72,
+      "duration": 5.96
+    },
+    {
+      "text": "if you give it to a data engineer they",
+      "start": 2798.48,
+      "duration": 4.639
+    },
+    {
+      "text": "will work back from the requirement I",
+      "start": 2800.68,
+      "duration": 4.24
+    },
+    {
+      "text": "need to produce these reports because",
+      "start": 2803.119,
+      "duration": 3.401
+    },
+    {
+      "text": "this is the business requirement for",
+      "start": 2804.92,
+      "duration": 3.88
+    },
+    {
+      "text": "this I need to grab this data this data",
+      "start": 2806.52,
+      "duration": 4.48
+    },
+    {
+      "text": "has this logic of incrementing and then",
+      "start": 2808.8,
+      "duration": 3.799
+    },
+    {
+      "text": "you work back and you build the pipeline",
+      "start": 2811.0,
+      "duration": 4.079
+    },
+    {
+      "text": "and it's usually fine",
+      "start": 2812.599,
+      "duration": 5.0
+    },
+    {
+      "text": "MH yeah",
+      "start": 2815.079,
+      "duration": 5.681
+    },
+    {
+      "text": "okay so basically like u a senior",
+      "start": 2817.599,
+      "duration": 5.441
+    },
+    {
+      "text": "backend engineer can transition into a",
+      "start": 2820.76,
+      "duration": 4.799
+    },
+    {
+      "text": "senior dat engineer role right I would",
+      "start": 2823.04,
+      "duration": 6.559
+    },
+    {
+      "text": "say it's quite easy so and I would say",
+      "start": 2825.559,
+      "duration": 6.641
+    },
+    {
+      "text": "technology is not the obstacle usually",
+      "start": 2829.599,
+      "duration": 4.441
+    },
+    {
+      "text": "unless you're going for something like",
+      "start": 2832.2,
+      "duration": 3.84
+    },
+    {
+      "text": "super specialized but you know that's",
+      "start": 2834.04,
+      "duration": 3.279
+    },
+    {
+      "text": "not at",
+      "start": 2836.04,
+      "duration": 4.079
+    },
+    {
+      "text": "entry okay so if you want to position",
+      "start": 2837.319,
+      "duration": 5.52
+    },
+    {
+      "text": "yourself as a like spark expert and",
+      "start": 2840.119,
+      "duration": 5.881
+    },
+    {
+      "text": "maybe you'll need some time to actually",
+      "start": 2842.839,
+      "duration": 5.081
+    },
+    {
+      "text": "understand sparking detail but if you",
+      "start": 2846.0,
+      "duration": 4.319
+    },
+    {
+      "text": "want to position yourself as a engineer",
+      "start": 2847.92,
+      "duration": 4.24
+    },
+    {
+      "text": "who can solve data problems then it's",
+      "start": 2850.319,
+      "duration": 4.321
+    },
+    {
+      "text": "another thing right I would say if",
+      "start": 2852.16,
+      "duration": 4.159
+    },
+    {
+      "text": "you're trying to position yourself as a",
+      "start": 2854.64,
+      "duration": 3.8
+    },
+    {
+      "text": "spark expert I will look at the",
+      "start": 2856.319,
+      "duration": 5.04
+    },
+    {
+      "text": "portfolio of your work so if you're",
+      "start": 2858.44,
+      "duration": 6.36
+    },
+    {
+      "text": "doing this as a junior I will have a",
+      "start": 2861.359,
+      "duration": 6.881
+    },
+    {
+      "text": "bigle yeah understand uh another",
+      "start": 2864.8,
+      "duration": 5.08
+    },
+    {
+      "text": "question I'm a senior data engineer from",
+      "start": 2868.24,
+      "duration": 4.599
+    },
+    {
+      "text": "the UK and I don't see any data",
+      "start": 2869.88,
+      "duration": 6.199
+    },
+    {
+      "text": "engineering jobs here is the situation",
+      "start": 2872.839,
+      "duration": 5.28
+    },
+    {
+      "text": "same across acoss Europe and elsewhere",
+      "start": 2876.079,
+      "duration": 4.201
+    },
+    {
+      "text": "how is the job market world I don't know",
+      "start": 2878.119,
+      "duration": 3.561
+    },
+    {
+      "text": "if you have exposure to that but maybe",
+      "start": 2880.28,
+      "duration": 3.2
+    },
+    {
+      "text": "you have some visibility you have some",
+      "start": 2881.68,
+      "duration": 5.2
+    },
+    {
+      "text": "ideas I don't have firsthand uh exposure",
+      "start": 2883.48,
+      "duration": 5.639
+    },
+    {
+      "text": "since I'm not looking uh but I hear",
+      "start": 2886.88,
+      "duration": 5.719
+    },
+    {
+      "text": "about it from people and U basically",
+      "start": 2889.119,
+      "duration": 5.161
+    },
+    {
+      "text": "what I hear about is that if you're a",
+      "start": 2892.599,
+      "duration": 3.561
+    },
+    {
+      "text": "senior in the field there's no problem",
+      "start": 2894.28,
+      "duration": 4.48
+    },
+    {
+      "text": "to find work um and I actually have",
+      "start": 2896.16,
+      "duration": 6.919
+    },
+    {
+      "text": "former colleagues that um have recently",
+      "start": 2898.76,
+      "duration": 6.359
+    },
+    {
+      "text": "uh gotten jobs like because they wanted",
+      "start": 2903.079,
+      "duration": 4.52
+    },
+    {
+      "text": "to transition or change um",
+      "start": 2905.119,
+      "duration": 4.96
+    },
+    {
+      "text": "um so I would",
+      "start": 2907.599,
+      "duration": 5.121
+    },
+    {
+      "text": "say I would try to look at where those",
+      "start": 2910.079,
+      "duration": 6.201
+    },
+    {
+      "text": "jobs are what kind of jobs these are um",
+      "start": 2912.72,
+      "duration": 6.76
+    },
+    {
+      "text": "then maybe try to look at what could I",
+      "start": 2916.28,
+      "duration": 6.12
+    },
+    {
+      "text": "do so if I'm a senior uh sorry if I'm a",
+      "start": 2919.48,
+      "duration": 4.96
+    },
+    {
+      "text": "junior data engineer in the UK and I",
+      "start": 2922.4,
+      "duration": 3.88
+    },
+    {
+      "text": "cannot find any Jer data engineering",
+      "start": 2924.44,
+      "duration": 4.72
+    },
+    {
+      "text": "jobs maybe I can find I don't know bi",
+      "start": 2926.28,
+      "duration": 5.079
+    },
+    {
+      "text": "manager maybe data scientist maybe",
+      "start": 2929.16,
+      "duration": 4.159
+    },
+    {
+      "text": "something that will allow me to you know",
+      "start": 2931.359,
+      "duration": 4.76
+    },
+    {
+      "text": "get a job and then once you have a job",
+      "start": 2933.319,
+      "duration": 6.201
+    },
+    {
+      "text": "it's way to get a second One",
+      "start": 2936.119,
+      "duration": 7.361
+    },
+    {
+      "text": "MH yeah right and then there are quite a",
+      "start": 2939.52,
+      "duration": 6.12
+    },
+    {
+      "text": "few other questions I wanted to ask you",
+      "start": 2943.48,
+      "duration": 3.8
+    },
+    {
+      "text": "personally and I wanted to come back to",
+      "start": 2945.64,
+      "duration": 5.8
+    },
+    {
+      "text": "them and um so first of all uh we talked",
+      "start": 2947.28,
+      "duration": 6.039
+    },
+    {
+      "text": "about Apache Iceberg and then we also",
+      "start": 2951.44,
+      "duration": 5.679
+    },
+    {
+      "text": "you mentioned Delta and hoodie",
+      "start": 2953.319,
+      "duration": 7.161
+    },
+    {
+      "text": "um like what are these things so iceberg",
+      "start": 2957.119,
+      "duration": 6.521
+    },
+    {
+      "text": "is this as uh we talked about this is",
+      "start": 2960.48,
+      "duration": 5.16
+    },
+    {
+      "text": "special ways of organizing parket files",
+      "start": 2963.64,
+      "duration": 4.84
+    },
+    {
+      "text": "in such a way that if you want to change",
+      "start": 2965.64,
+      "duration": 4.84
+    },
+    {
+      "text": "something instead of changing you append",
+      "start": 2968.48,
+      "duration": 3.359
+    },
+    {
+      "text": "to this data and then there is like a",
+      "start": 2970.48,
+      "duration": 4.04
+    },
+    {
+      "text": "smart way of saying that this record is",
+      "start": 2971.839,
+      "duration": 6.641
+    },
+    {
+      "text": "not longer uh good there's another more",
+      "start": 2974.52,
+      "duration": 6.44
+    },
+    {
+      "text": "fresh one right so this is a pach iberg",
+      "start": 2978.48,
+      "duration": 4.92
+    },
+    {
+      "text": "so what are Delta and Hoodie the same",
+      "start": 2980.96,
+      "duration": 5.28
+    },
+    {
+      "text": "thing and basically where they differ is",
+      "start": 2983.4,
+      "duration": 5.399
+    },
+    {
+      "text": "a little bit in design like where is the",
+      "start": 2986.24,
+      "duration": 5.76
+    },
+    {
+      "text": "metadata stored what kind of it what",
+      "start": 2988.799,
+      "duration": 4.961
+    },
+    {
+      "text": "kind of things is it good at is it",
+      "start": 2992.0,
+      "duration": 4.0
+    },
+    {
+      "text": "optimized for streaming is it optimized",
+      "start": 2993.76,
+      "duration": 4.559
+    },
+    {
+      "text": "for badge what does the maintenance look",
+      "start": 2996.0,
+      "duration": 4.48
+    },
+    {
+      "text": "like because there is the maintenance",
+      "start": 2998.319,
+      "duration": 4.28
+    },
+    {
+      "text": "operation of cleaning up the Redundant",
+      "start": 3000.48,
+      "duration": 6.839
+    },
+    {
+      "text": "data right um so I would say Delta is",
+      "start": 3002.599,
+      "duration": 6.681
+    },
+    {
+      "text": "probably the most mature",
+      "start": 3007.319,
+      "duration": 3.721
+    },
+    {
+      "text": "implementation",
+      "start": 3009.28,
+      "duration": 4.839
+    },
+    {
+      "text": "um hoodie is quite specialized in the",
+      "start": 3011.04,
+      "duration": 6.72
+    },
+    {
+      "text": "open source um Iceberg I would say if",
+      "start": 3014.119,
+      "duration": 6.96
+    },
+    {
+      "text": "you're using spark it's fine if you are",
+      "start": 3017.76,
+      "duration": 5.68
+    },
+    {
+      "text": "waiting for pi Iceberg maturity I would",
+      "start": 3021.079,
+      "duration": 8.361
+    },
+    {
+      "text": "say don't hold your breath um yeah so uh",
+      "start": 3023.44,
+      "duration": 7.6
+    },
+    {
+      "text": "I would say these file formats you",
+      "start": 3029.44,
+      "duration": 3.159
+    },
+    {
+      "text": "should consider them more or less",
+      "start": 3031.04,
+      "duration": 4.039
+    },
+    {
+      "text": "interchangeable and go for whatever you",
+      "start": 3032.599,
+      "duration": 5.601
+    },
+    {
+      "text": "can work with right now um you can",
+      "start": 3035.079,
+      "duration": 5.201
+    },
+    {
+      "text": "always convert them",
+      "start": 3038.2,
+      "duration": 8.0
+    },
+    {
+      "text": "later okay and um are they all so since",
+      "start": 3040.28,
+      "duration": 8.799
+    },
+    {
+      "text": "it's a bunch of files at the end in some",
+      "start": 3046.2,
+      "duration": 6.159
+    },
+    {
+      "text": "sort of file storage I assume the way we",
+      "start": 3049.079,
+      "duration": 5.081
+    },
+    {
+      "text": "process these files and access these",
+      "start": 3052.359,
+      "duration": 4.681
+    },
+    {
+      "text": "files is in a batch way right so there",
+      "start": 3054.16,
+      "duration": 5.28
+    },
+    {
+      "text": "are a b there there are some files we",
+      "start": 3057.04,
+      "duration": 5.16
+    },
+    {
+      "text": "scan these files we produce some answer",
+      "start": 3059.44,
+      "duration": 5.76
+    },
+    {
+      "text": "and we maybe do this every hour or every",
+      "start": 3062.2,
+      "duration": 4.8
+    },
+    {
+      "text": "day or",
+      "start": 3065.2,
+      "duration": 3.84
+    },
+    {
+      "text": "like um are",
+      "start": 3067.0,
+      "duration": 6.48
+    },
+    {
+      "text": "there like this is bch but what are what",
+      "start": 3069.04,
+      "duration": 6.2
+    },
+    {
+      "text": "what what what about streaming like can",
+      "start": 3073.48,
+      "duration": 4.68
+    },
+    {
+      "text": "we use these things if we have a a",
+      "start": 3075.24,
+      "duration": 5.68
+    },
+    {
+      "text": "stream of data yes it's basically",
+      "start": 3078.16,
+      "duration": 5.48
+    },
+    {
+      "text": "exactly the same thing uh what is",
+      "start": 3080.92,
+      "duration": 5.12
+    },
+    {
+      "text": "streaming unless you have a very hard",
+      "start": 3083.64,
+      "duration": 3.52
+    },
+    {
+      "text": "SLA",
+      "start": 3086.04,
+      "duration": 2.519
+    },
+    {
+      "text": "it's micr",
+      "start": 3087.16,
+      "duration": 4.32
+    },
+    {
+      "text": "batching right so everything that is",
+      "start": 3088.559,
+      "duration": 5.321
+    },
+    {
+      "text": "streaming without a hard SLA is micr",
+      "start": 3091.48,
+      "duration": 4.879
+    },
+    {
+      "text": "batching so you know when it comes to",
+      "start": 3093.88,
+      "duration": 4.64
+    },
+    {
+      "text": "these file formats I would say the",
+      "start": 3096.359,
+      "duration": 3.881
+    },
+    {
+      "text": "distinctions of how well they can handle",
+      "start": 3098.52,
+      "duration": 4.92
+    },
+    {
+      "text": "streaming is on let's say the speed of",
+      "start": 3100.24,
+      "duration": 6.599
+    },
+    {
+      "text": "read write operations and",
+      "start": 3103.44,
+      "duration": 3.399
+    },
+    {
+      "text": "maintenance okay um but um don't try",
+      "start": 3107.0,
+      "duration": 7.52
+    },
+    {
+      "text": "Iceberg with streaming right now you",
+      "start": 3111.799,
+      "duration": 5.121
+    },
+    {
+      "text": "know have lots of people telling us it's",
+      "start": 3114.52,
+      "duration": 5.0
+    },
+    {
+      "text": "a bad idea so it will produce a ton of",
+      "start": 3116.92,
+      "duration": 5.6
+    },
+    {
+      "text": "small files right uh performance is a",
+      "start": 3119.52,
+      "duration": 6.96
+    },
+    {
+      "text": "problem basically but um you can use",
+      "start": 3122.52,
+      "duration": 5.68
+    },
+    {
+      "text": "Delta for",
+      "start": 3126.48,
+      "duration": 4.72
+    },
+    {
+      "text": "example Delta so what I was trying to",
+      "start": 3128.2,
+      "duration": 7.04
+    },
+    {
+      "text": "say is or figure out uh find out is if",
+      "start": 3131.2,
+      "duration": 7.48
+    },
+    {
+      "text": "we need to do something like this and if",
+      "start": 3135.24,
+      "duration": 6.96
+    },
+    {
+      "text": "want to use this sort of um was it",
+      "start": 3138.68,
+      "duration": 5.48
+    },
+    {
+      "text": "access storage layer then it's mostly",
+      "start": 3142.2,
+      "duration": 4.08
+    },
+    {
+      "text": "suited for batch workloads right for",
+      "start": 3144.16,
+      "duration": 5.28
+    },
+    {
+      "text": "stream we need something else uh what do",
+      "start": 3146.28,
+      "duration": 4.92
+    },
+    {
+      "text": "people use for streaming these days for",
+      "start": 3149.44,
+      "duration": 4.04
+    },
+    {
+      "text": "streaming first of all you need a buffer",
+      "start": 3151.2,
+      "duration": 4.359
+    },
+    {
+      "text": "right so because you need to have some",
+      "start": 3153.48,
+      "duration": 4.44
+    },
+    {
+      "text": "kind of service that is always available",
+      "start": 3155.559,
+      "duration": 6.52
+    },
+    {
+      "text": "very quickly um that use that ideally",
+      "start": 3157.92,
+      "duration": 7.199
+    },
+    {
+      "text": "implements some kind of protocol with",
+      "start": 3162.079,
+      "duration": 6.72
+    },
+    {
+      "text": "retrives um so that's going to be",
+      "start": 3165.119,
+      "duration": 5.801
+    },
+    {
+      "text": "probably Kafka or",
+      "start": 3168.799,
+      "duration": 5.201
+    },
+    {
+      "text": "sqs um and downstream of that it could",
+      "start": 3170.92,
+      "duration": 5.96
+    },
+    {
+      "text": "be anything so for example I would say",
+      "start": 3174.0,
+      "duration": 4.72
+    },
+    {
+      "text": "Kafka is actually one of our top sources",
+      "start": 3176.88,
+      "duration": 5.16
+    },
+    {
+      "text": "in DT right so you talk about streaming",
+      "start": 3178.72,
+      "duration": 5.32
+    },
+    {
+      "text": "I would say people don't think about",
+      "start": 3182.04,
+      "duration": 4.319
+    },
+    {
+      "text": "streaming in terms of strict slas and",
+      "start": 3184.04,
+      "duration": 5.16
+    },
+    {
+      "text": "it's usually micro batching uh I would",
+      "start": 3186.359,
+      "duration": 5.96
+    },
+    {
+      "text": "say the tightest deadline that I've seen",
+      "start": 3189.2,
+      "duration": 6.2
+    },
+    {
+      "text": "um outside of pure streaming is 60",
+      "start": 3192.319,
+      "duration": 5.841
+    },
+    {
+      "text": "seconds um many people talk about",
+      "start": 3195.4,
+      "duration": 6.12
+    },
+    {
+      "text": "streaming on 15 minute",
+      "start": 3198.16,
+      "duration": 7.72
+    },
+    {
+      "text": "intervals okay um so what what kind of U",
+      "start": 3201.52,
+      "duration": 8.599
+    },
+    {
+      "text": "tools do so we use Kafka sqs right",
+      "start": 3205.88,
+      "duration": 7.76
+    },
+    {
+      "text": "fors for for streaming but what do we",
+      "start": 3210.119,
+      "duration": 6.401
+    },
+    {
+      "text": "usually solve what kind of problems so",
+      "start": 3213.64,
+      "duration": 5.28
+    },
+    {
+      "text": "what I'm trying to ask you is okay we",
+      "start": 3216.52,
+      "duration": 4.88
+    },
+    {
+      "text": "have B we have streaming when do we",
+      "start": 3218.92,
+      "duration": 5.76
+    },
+    {
+      "text": "actually need streaming and uh like have",
+      "start": 3221.4,
+      "duration": 4.919
+    },
+    {
+      "text": "the tool changed because kka has been",
+      "start": 3224.68,
+      "duration": 7.36
+    },
+    {
+      "text": "around for long time right see sqs also",
+      "start": 3226.319,
+      "duration": 7.681
+    },
+    {
+      "text": "has been around for a very long time",
+      "start": 3232.04,
+      "duration": 4.559
+    },
+    {
+      "text": "like are these tools going to stay or",
+      "start": 3234.0,
+      "duration": 4.28
+    },
+    {
+      "text": "you see some other trends when it comes",
+      "start": 3236.599,
+      "duration": 3.401
+    },
+    {
+      "text": "to streaming and like new tools",
+      "start": 3238.28,
+      "duration": 4.2
+    },
+    {
+      "text": "appearing",
+      "start": 3240.0,
+      "duration": 6.319
+    },
+    {
+      "text": "um you need you need the buffer it's not",
+      "start": 3242.48,
+      "duration": 7.96
+    },
+    {
+      "text": "negotiable so buffer is right yes so you",
+      "start": 3246.319,
+      "duration": 5.641
+    },
+    {
+      "text": "can use a different buffer you could",
+      "start": 3250.44,
+      "duration": 3.84
+    },
+    {
+      "text": "write things to S3 for example but if",
+      "start": 3251.96,
+      "duration": 5.44
+    },
+    {
+      "text": "you do that the API cost of doing that",
+      "start": 3254.28,
+      "duration": 4.0
+    },
+    {
+      "text": "will be",
+      "start": 3257.4,
+      "duration": 3.159
+    },
+    {
+      "text": "ridiculous right so it's just I don't",
+      "start": 3258.28,
+      "duration": 4.0
+    },
+    {
+      "text": "think these will go away I think what",
+      "start": 3260.559,
+      "duration": 5.481
+    },
+    {
+      "text": "will change is um maybe how people use",
+      "start": 3262.28,
+      "duration": 6.16
+    },
+    {
+      "text": "it and what I mean is initially Kafka",
+      "start": 3266.04,
+      "duration": 5.16
+    },
+    {
+      "text": "was very much used for streaming for",
+      "start": 3268.44,
+      "duration": 4.28
+    },
+    {
+      "text": "capturing events and then doing",
+      "start": 3271.2,
+      "duration": 3.68
+    },
+    {
+      "text": "something with them nowadays I'm seeing",
+      "start": 3272.72,
+      "duration": 4.119
+    },
+    {
+      "text": "people literally throw everything in",
+      "start": 3274.88,
+      "duration": 4.239
+    },
+    {
+      "text": "Kafka um just now they have a",
+      "start": 3276.839,
+      "duration": 4.0
+    },
+    {
+      "text": "standardized layer and they work with",
+      "start": 3279.119,
+      "duration": 4.24
+    },
+    {
+      "text": "that is it a good",
+      "start": 3280.839,
+      "duration": 5.52
+    },
+    {
+      "text": "idea depends on the team if you can only",
+      "start": 3283.359,
+      "duration": 6.24
+    },
+    {
+      "text": "handle Kafka then yeah it's a great",
+      "start": 3286.359,
+      "duration": 6.76
+    },
+    {
+      "text": "idea and uh then in order so Kafka is",
+      "start": 3289.599,
+      "duration": 6.401
+    },
+    {
+      "text": "just a buffer right so we can put some",
+      "start": 3293.119,
+      "duration": 4.801
+    },
+    {
+      "text": "data there and it can stay there for",
+      "start": 3296.0,
+      "duration": 4.319
+    },
+    {
+      "text": "some time uh but then usually we use",
+      "start": 3297.92,
+      "duration": 4.52
+    },
+    {
+      "text": "something else to read data from Kafka",
+      "start": 3300.319,
+      "duration": 5.361
+    },
+    {
+      "text": "so it could be",
+      "start": 3302.44,
+      "duration": 6.32
+    },
+    {
+      "text": "iink yeah I don't actually know that",
+      "start": 3305.68,
+      "duration": 6.879
+    },
+    {
+      "text": "much about uh how Flink is used but uh I",
+      "start": 3308.76,
+      "duration": 6.24
+    },
+    {
+      "text": "know that some people use ksql uh to",
+      "start": 3312.559,
+      "duration": 6.24
+    },
+    {
+      "text": "read from kka uh other people use uh",
+      "start": 3315.0,
+      "duration": 6.599
+    },
+    {
+      "text": "basically just docdb uh to take data out",
+      "start": 3318.799,
+      "duration": 4.401
+    },
+    {
+      "text": "and process it before loading it",
+      "start": 3321.599,
+      "duration": 4.2
+    },
+    {
+      "text": "somewhere else DB can also do that can",
+      "start": 3323.2,
+      "duration": 5.8
+    },
+    {
+      "text": "it yeah I mean you BW everything with",
+      "start": 3325.799,
+      "duration": 8.921
+    },
+    {
+      "text": "python ultimately so okay and uh dt2",
+      "start": 3329.0,
+      "duration": 7.599
+    },
+    {
+      "text": "right you can connect to I think you",
+      "start": 3334.72,
+      "duration": 7.72
+    },
+    {
+      "text": "mentioned that okay um so basically yeah",
+      "start": 3336.599,
+      "duration": 8.801
+    },
+    {
+      "text": "we are quite heavily used as a Kafka",
+      "start": 3342.44,
+      "duration": 5.879
+    },
+    {
+      "text": "sync because you know if you're using uh",
+      "start": 3345.4,
+      "duration": 5.56
+    },
+    {
+      "text": "Kafka as a standard layer then you know",
+      "start": 3348.319,
+      "duration": 4.321
+    },
+    {
+      "text": "having a standard ingestion Downstream",
+      "start": 3350.96,
+      "duration": 6.32
+    },
+    {
+      "text": "is just nice MH yeah okay",
+      "start": 3352.64,
+      "duration": 7.919
+    },
+    {
+      "text": "and um yeah I see a question which is",
+      "start": 3357.28,
+      "duration": 6.16
+    },
+    {
+      "text": "related to what I also prepared so the",
+      "start": 3360.559,
+      "duration": 5.0
+    },
+    {
+      "text": "question is will do you think data",
+      "start": 3363.44,
+      "duration": 6.2
+    },
+    {
+      "text": "engineering will be automated by Ai and",
+      "start": 3365.559,
+      "duration": 8.641
+    },
+    {
+      "text": "like in general how does AI affect data",
+      "start": 3369.64,
+      "duration": 8.0
+    },
+    {
+      "text": "engineering great question I think it",
+      "start": 3374.2,
+      "duration": 6.32
+    },
+    {
+      "text": "goes in the direction of this",
+      "start": 3377.64,
+      "duration": 5.399
+    },
+    {
+      "text": "commoditization and having to offer",
+      "start": 3380.52,
+      "duration": 5.24
+    },
+    {
+      "text": "Innovation so basically AI is speeding",
+      "start": 3383.039,
+      "duration": 3.76
+    },
+    {
+      "text": "up the Comm",
+      "start": 3385.76,
+      "duration": 3.559
+    },
+    {
+      "text": "monetization by making it easier for",
+      "start": 3386.799,
+      "duration": 4.52
+    },
+    {
+      "text": "developers to work with AI so for",
+      "start": 3389.319,
+      "duration": 3.881
+    },
+    {
+      "text": "example we see some of our users are",
+      "start": 3391.319,
+      "duration": 6.961
+    },
+    {
+      "text": "using um cursor or continue or windmill",
+      "start": 3393.2,
+      "duration": 9.96
+    },
+    {
+      "text": "IDs uh to develop um two times faster",
+      "start": 3398.28,
+      "duration": 6.12
+    },
+    {
+      "text": "essentially",
+      "start": 3403.16,
+      "duration": 2.72
+    },
+    {
+      "text": "[Music]",
+      "start": 3404.4,
+      "duration": 5.56
+    },
+    {
+      "text": "um and basically what this will do",
+      "start": 3405.88,
+      "duration": 6.8
+    },
+    {
+      "text": "is I like to call this the era of",
+      "start": 3409.96,
+      "duration": 5.28
+    },
+    {
+      "text": "disposable code basically where people",
+      "start": 3412.68,
+      "duration": 5.48
+    },
+    {
+      "text": "are generating let's say basic code that",
+      "start": 3415.24,
+      "duration": 3.879
+    },
+    {
+      "text": "is very",
+      "start": 3418.16,
+      "duration": 3.919
+    },
+    {
+      "text": "disposable um",
+      "start": 3419.119,
+      "duration": 6.2
+    },
+    {
+      "text": "and the let's",
+      "start": 3422.079,
+      "duration": 6.801
+    },
+    {
+      "text": "say differentiate differentiators that",
+      "start": 3425.319,
+      "duration": 6.52
+    },
+    {
+      "text": "will uh have to exist will be around use",
+      "start": 3428.88,
+      "duration": 5.12
+    },
+    {
+      "text": "cases so basically I think data",
+      "start": 3431.839,
+      "duration": 4.401
+    },
+    {
+      "text": "Engineers will go deeper into their",
+      "start": 3434.0,
+      "duration": 4.039
+    },
+    {
+      "text": "Specialties they will learn how to use",
+      "start": 3436.24,
+      "duration": 3.839
+    },
+    {
+      "text": "AI more one of the things that we're",
+      "start": 3438.039,
+      "duration": 4.52
+    },
+    {
+      "text": "doing is um many people in the industry",
+      "start": 3440.079,
+      "duration": 3.96
+    },
+    {
+      "text": "call us AI",
+      "start": 3442.559,
+      "duration": 3.881
+    },
+    {
+      "text": "enablers um the reason for that is",
+      "start": 3444.039,
+      "duration": 4.56
+    },
+    {
+      "text": "basically because we provide an easy way",
+      "start": 3446.44,
+      "duration": 6.56
+    },
+    {
+      "text": "to feed data to llms AI stuff like that",
+      "start": 3448.599,
+      "duration": 8.641
+    },
+    {
+      "text": "we're also working um as part of this U",
+      "start": 3453.0,
+      "duration": 8.48
+    },
+    {
+      "text": "on topic uh startup program uh for the",
+      "start": 3457.24,
+      "duration": 7.079
+    },
+    {
+      "text": "mCP uh so basically what this does is",
+      "start": 3461.48,
+      "duration": 4.76
+    },
+    {
+      "text": "this adds that semantic layer that I was",
+      "start": 3464.319,
+      "duration": 4.161
+    },
+    {
+      "text": "talking about that you need together",
+      "start": 3466.24,
+      "duration": 5.64
+    },
+    {
+      "text": "with your data and with the algorithm uh",
+      "start": 3468.48,
+      "duration": 5.879
+    },
+    {
+      "text": "to be able to create intelligent AI",
+      "start": 3471.88,
+      "duration": 4.8
+    },
+    {
+      "text": "agents I mean Beyond just the bag or",
+      "start": 3474.359,
+      "duration": 5.72
+    },
+    {
+      "text": "just a you know simp engineering",
+      "start": 3476.68,
+      "duration": 5.639
+    },
+    {
+      "text": "um yeah this this is something that I'm",
+      "start": 3480.079,
+      "duration": 3.841
+    },
+    {
+      "text": "actually quite excited about because it",
+      "start": 3482.319,
+      "duration": 5.121
+    },
+    {
+      "text": "will enable you to uh feed the LT data",
+      "start": 3483.92,
+      "duration": 7.439
+    },
+    {
+      "text": "into a standard that uh accepts metadata",
+      "start": 3487.44,
+      "duration": 6.639
+    },
+    {
+      "text": "that will then be used by the a",
+      "start": 3491.359,
+      "duration": 6.48
+    },
+    {
+      "text": "a so I think data Engineers will end up",
+      "start": 3494.079,
+      "duration": 5.641
+    },
+    {
+      "text": "building AI",
+      "start": 3497.839,
+      "duration": 5.48
+    },
+    {
+      "text": "agents okay yeah interesting I think",
+      "start": 3499.72,
+      "duration": 5.72
+    },
+    {
+      "text": "recently I think you published an",
+      "start": 3503.319,
+      "duration": 3.72
+    },
+    {
+      "text": "article right",
+      "start": 3505.44,
+      "duration": 3.879
+    },
+    {
+      "text": "uh I saw it on your LinkedIn from",
+      "start": 3507.039,
+      "duration": 6.841
+    },
+    {
+      "text": "somebody um maybe from this",
+      "start": 3509.319,
+      "duration": 7.361
+    },
+    {
+      "text": "um from your from the network you",
+      "start": 3513.88,
+      "duration": 6.679
+    },
+    {
+      "text": "mentioned or from the partnership um",
+      "start": 3516.68,
+      "duration": 7.08
+    },
+    {
+      "text": "companies who use the to make things way",
+      "start": 3520.559,
+      "duration": 5.161
+    },
+    {
+      "text": "faster right",
+      "start": 3523.76,
+      "duration": 5.0
+    },
+    {
+      "text": "yes um so basically the uh what that",
+      "start": 3525.72,
+      "duration": 4.92
+    },
+    {
+      "text": "article talks about you can find out",
+      "start": 3528.76,
+      "duration": 4.24
+    },
+    {
+      "text": "find it on our blog it's literally a",
+      "start": 3530.64,
+      "duration": 5.04
+    },
+    {
+      "text": "guide of how to do it yourself uh coming",
+      "start": 3533.0,
+      "duration": 4.72
+    },
+    {
+      "text": "from a data senior data engineer that is",
+      "start": 3535.68,
+      "duration": 7.76
+    },
+    {
+      "text": "using DT and cser together okay okay",
+      "start": 3537.72,
+      "duration": 8.119
+    },
+    {
+      "text": "open have do you have a couple of more",
+      "start": 3543.44,
+      "duration": 6.04
+    },
+    {
+      "text": "minutes yes because um so the last",
+      "start": 3545.839,
+      "duration": 6.24
+    },
+    {
+      "text": "question I wanted to ask is the place of",
+      "start": 3549.48,
+      "duration": 5.559
+    },
+    {
+      "text": "DT in the Eos system so you said it's",
+      "start": 3552.079,
+      "duration": 5.72
+    },
+    {
+      "text": "already it has already become a standard",
+      "start": 3555.039,
+      "duration": 6.241
+    },
+    {
+      "text": "of for ingestion and right now you also",
+      "start": 3557.799,
+      "duration": 7.04
+    },
+    {
+      "text": "shared some plans that you want to maybe",
+      "start": 3561.28,
+      "duration": 5.279
+    },
+    {
+      "text": "go uh",
+      "start": 3564.839,
+      "duration": 4.72
+    },
+    {
+      "text": "to to give more Focus uh to become this",
+      "start": 3566.559,
+      "duration": 5.961
+    },
+    {
+      "text": "AI enabler enabler you already are but",
+      "start": 3569.559,
+      "duration": 6.361
+    },
+    {
+      "text": "like maybe double down on that um so",
+      "start": 3572.52,
+      "duration": 5.88
+    },
+    {
+      "text": "what are your plans for let's say one",
+      "start": 3575.92,
+      "duration": 5.159
+    },
+    {
+      "text": "year and where you see DLT in five",
+      "start": 3578.4,
+      "duration": 6.959
+    },
+    {
+      "text": "years so one year is DT plus it's",
+      "start": 3581.079,
+      "duration": 6.361
+    },
+    {
+      "text": "basically building out this data",
+      "start": 3585.359,
+      "duration": 5.24
+    },
+    {
+      "text": "platform around DLT um it's portable",
+      "start": 3587.44,
+      "duration": 6.0
+    },
+    {
+      "text": "it's really cool it enables new things",
+      "start": 3590.599,
+      "duration": 5.2
+    },
+    {
+      "text": "um what it also does is it enables you",
+      "start": 3593.44,
+      "duration": 4.359
+    },
+    {
+      "text": "to package data products in a portable",
+      "start": 3595.799,
+      "duration": 5.481
+    },
+    {
+      "text": "way so um and this is the reason I",
+      "start": 3597.799,
+      "duration": 5.04
+    },
+    {
+      "text": "mention it is because it plays into the",
+      "start": 3601.28,
+      "duration": 3.72
+    },
+    {
+      "text": "bigger Vision what I mean is I was",
+      "start": 3602.839,
+      "duration": 4.601
+    },
+    {
+      "text": "telling you about this Tech agnostic",
+      "start": 3605.0,
+      "duration": 4.48
+    },
+    {
+      "text": "access right so if you build on top of",
+      "start": 3607.44,
+      "duration": 3.679
+    },
+    {
+      "text": "this Tech agnostic access it means that",
+      "start": 3609.48,
+      "duration": 4.48
+    },
+    {
+      "text": "you can use the same code on any",
+      "start": 3611.119,
+      "duration": 5.281
+    },
+    {
+      "text": "technology which means that now you can",
+      "start": 3613.96,
+      "duration": 4.359
+    },
+    {
+      "text": "reuse things across",
+      "start": 3616.4,
+      "duration": 4.639
+    },
+    {
+      "text": "organizations uh so this is actually you",
+      "start": 3618.319,
+      "duration": 5.161
+    },
+    {
+      "text": "know um part of the commoditization",
+      "start": 3621.039,
+      "duration": 5.441
+    },
+    {
+      "text": "story is five TR",
+      "start": 3623.48,
+      "duration": 5.0
+    },
+    {
+      "text": "um and all the other vendors",
+      "start": 3626.48,
+      "duration": 5.96
+    },
+    {
+      "text": "commoditized maybe 300 sources and if we",
+      "start": 3628.48,
+      "duration": 7.319
+    },
+    {
+      "text": "are to talk about them in the concept of",
+      "start": 3632.44,
+      "duration": 6.76
+    },
+    {
+      "text": "raw data or bronze as data bricks would",
+      "start": 3635.799,
+      "duration": 5.641
+    },
+    {
+      "text": "call it and then silver and gold you",
+      "start": 3639.2,
+      "duration": 3.96
+    },
+    {
+      "text": "could say that the industry is currently",
+      "start": 3641.44,
+      "duration": 3.879
+    },
+    {
+      "text": "selling bronze or silver data sets and",
+      "start": 3643.16,
+      "duration": 4.56
+    },
+    {
+      "text": "it's 300 of them what we're trying to",
+      "start": 3645.319,
+      "duration": 4.681
+    },
+    {
+      "text": "create is the infrastructure that will",
+      "start": 3647.72,
+      "duration": 4.92
+    },
+    {
+      "text": "enable uh participants to the industry",
+      "start": 3650.0,
+      "duration": 6.599
+    },
+    {
+      "text": "to create a Marketplace for",
+      "start": 3652.64,
+      "duration": 6.56
+    },
+    {
+      "text": "bronze silver and gold data sets so what",
+      "start": 3656.599,
+      "duration": 4.561
+    },
+    {
+      "text": "I mean is essentially data products",
+      "start": 3659.2,
+      "duration": 7.119
+    },
+    {
+      "text": "whether they are sources Transformers or",
+      "start": 3661.16,
+      "duration": 7.639
+    },
+    {
+      "text": "um AI agents uh we want to create a",
+      "start": 3666.319,
+      "duration": 4.601
+    },
+    {
+      "text": "Marketplace that will enable people to",
+      "start": 3668.799,
+      "duration": 6.32
+    },
+    {
+      "text": "offer uh their creations and have them",
+      "start": 3670.92,
+      "duration": 6.639
+    },
+    {
+      "text": "reused so that's the LD Hub that's the",
+      "start": 3675.119,
+      "duration": 4.401
+    },
+    {
+      "text": "long-term",
+      "start": 3677.559,
+      "duration": 5.881
+    },
+    {
+      "text": "Vision so this is in five years I hope",
+      "start": 3679.52,
+      "duration": 7.599
+    },
+    {
+      "text": "sooner than that but uh yeah in 5 years",
+      "start": 3683.44,
+      "duration": 5.2
+    },
+    {
+      "text": "hopefully it will already have been",
+      "start": 3687.119,
+      "duration": 4.48
+    },
+    {
+      "text": "around for some time and uh gotten to",
+      "start": 3688.64,
+      "duration": 7.32
+    },
+    {
+      "text": "some side well um so since uh it looks",
+      "start": 3691.599,
+      "duration": 7.041
+    },
+    {
+      "text": "like U we already have a tradition to",
+      "start": 3695.96,
+      "duration": 7.359
+    },
+    {
+      "text": "talk in January every year so probably",
+      "start": 3698.64,
+      "duration": 7.0
+    },
+    {
+      "text": "we will have another interview in one",
+      "start": 3703.319,
+      "duration": 5.8
+    },
+    {
+      "text": "year and see uh how things uh will have",
+      "start": 3705.64,
+      "duration": 6.08
+    },
+    {
+      "text": "played out by then so it was amazing as",
+      "start": 3709.119,
+      "duration": 5.48
+    },
+    {
+      "text": "always talking to you um thanks Adrian",
+      "start": 3711.72,
+      "duration": 6.92
+    },
+    {
+      "text": "for joining sharing your opinion uh on",
+      "start": 3714.599,
+      "duration": 6.44
+    },
+    {
+      "text": "how things have developed and will um",
+      "start": 3718.64,
+      "duration": 4.52
+    },
+    {
+      "text": "develop it's very interesting for me",
+      "start": 3721.039,
+      "duration": 4.361
+    },
+    {
+      "text": "personally for the students I see a lot",
+      "start": 3723.16,
+      "duration": 4.679
+    },
+    {
+      "text": "of actually engagement um so thanks",
+      "start": 3725.4,
+      "duration": 5.12
+    },
+    {
+      "text": "everyone for also joining us today um",
+      "start": 3727.839,
+      "duration": 5.561
+    },
+    {
+      "text": "and being active uh for questions and",
+      "start": 3730.52,
+      "duration": 5.0
+    },
+    {
+      "text": "yeah it's been fun thanks Adrian thanks",
+      "start": 3733.4,
+      "duration": 8.159
+    },
+    {
+      "text": "Alex see you later goodbye bye everyone",
+      "start": 3735.52,
+      "duration": 6.039
+    }
+  ]
+}

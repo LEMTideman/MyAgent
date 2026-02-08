@@ -1,0 +1,2713 @@
+{
+  "source": "youtube",
+  "channel": "Regulating_AI_Sanjay_Puri",
+  "playlist_title": "RegulatingAI Podcast: Innovate Responsibly",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLGBFGI3ApzqdS70H84yli1Q-j_cqqiJbL",
+  "playlist_id": "PLGBFGI3ApzqdS70H84yli1Q-j_cqqiJbL",
+  "video_id": "fFa1sbJaEzY",
+  "video_title": "How UNHCR Uses AI to Transform Refugee Services with Hovig Etyemezian |  RegulatingAI Podcast",
+  "video_url": "https://www.youtube.com/watch?v=fFa1sbJaEzY",
+  "fetched_at": "2025-12-28T17:12:53.259023+00:00",
+  "transcript": [
+    {
+      "text": "[Music]",
+      "start": 0.47,
+      "duration": 7.77
+    },
+    {
+      "text": "Welcome to the regulating AI podcast. We",
+      "start": 5.759,
+      "duration": 5.681
+    },
+    {
+      "text": "are live from the ITU AI for good",
+      "start": 8.24,
+      "duration": 5.68
+    },
+    {
+      "text": "conference here in Geneva, Switzerland.",
+      "start": 11.44,
+      "duration": 5.759
+    },
+    {
+      "text": "I have a fantastic guest with me, Hovic,",
+      "start": 13.92,
+      "duration": 5.92
+    },
+    {
+      "text": "who is with the UN refugee agency. Hi,",
+      "start": 17.199,
+      "duration": 4.721
+    },
+    {
+      "text": "welcome to the regulating AI podcast.",
+      "start": 19.84,
+      "duration": 4.4
+    },
+    {
+      "text": "Thank you for having me here. Hovig,",
+      "start": 21.92,
+      "duration": 5.84
+    },
+    {
+      "text": "please tell our global listeners about",
+      "start": 24.24,
+      "duration": 6.08
+    },
+    {
+      "text": "the UN refugee agency and about your",
+      "start": 27.76,
+      "duration": 4.799
+    },
+    {
+      "text": "role there and how did you come to that",
+      "start": 30.32,
+      "duration": 3.44
+    },
+    {
+      "text": "position?",
+      "start": 32.559,
+      "duration": 4.721
+    },
+    {
+      "text": "Um, yes. So, I um I've been now with the",
+      "start": 33.76,
+      "duration": 6.56
+    },
+    {
+      "text": "UNCR, the UN refugee agency for almost",
+      "start": 37.28,
+      "duration": 6.959
+    },
+    {
+      "text": "20 years. Um, we are the United Nations",
+      "start": 40.32,
+      "duration": 7.36
+    },
+    {
+      "text": "mandated agency for refugees. So our",
+      "start": 44.239,
+      "duration": 5.761
+    },
+    {
+      "text": "role is to ensure international",
+      "start": 47.68,
+      "duration": 4.96
+    },
+    {
+      "text": "protection for refugees and also we're",
+      "start": 50.0,
+      "duration": 4.719
+    },
+    {
+      "text": "one of the biggest humanitarian UN",
+      "start": 52.64,
+      "duration": 5.04
+    },
+    {
+      "text": "agencies in the world. Um I started this",
+      "start": 54.719,
+      "duration": 6.64
+    },
+    {
+      "text": "journey long ago. Um I've worked in many",
+      "start": 57.68,
+      "duration": 5.28
+    },
+    {
+      "text": "countries on the African continent and",
+      "start": 61.359,
+      "duration": 4.241
+    },
+    {
+      "text": "the Middle East mostly with our uh",
+      "start": 62.96,
+      "duration": 4.8
+    },
+    {
+      "text": "humanitarian response. So building",
+      "start": 65.6,
+      "duration": 5.04
+    },
+    {
+      "text": "refugee camps, managing refugee camps,",
+      "start": 67.76,
+      "duration": 5.359
+    },
+    {
+      "text": "uh negotiating with host governments,",
+      "start": 70.64,
+      "duration": 3.839
+    },
+    {
+      "text": "working closely with refugee",
+      "start": 73.119,
+      "duration": 4.401
+    },
+    {
+      "text": "communities, uh who we are paid to",
+      "start": 74.479,
+      "duration": 4.0
+    },
+    {
+      "text": "serve.",
+      "start": 77.52,
+      "duration": 4.239
+    },
+    {
+      "text": "Um so I've played many roles in UNCCR.",
+      "start": 78.479,
+      "duration": 6.721
+    },
+    {
+      "text": "Um the my most recent role because come",
+      "start": 81.759,
+      "duration": 4.881
+    },
+    {
+      "text": "before coming to Geneva I was the head",
+      "start": 85.2,
+      "duration": 3.44
+    },
+    {
+      "text": "of Mosul office in Iraq",
+      "start": 86.64,
+      "duration": 5.68
+    },
+    {
+      "text": "during the war in 2016 uh 2019 where we",
+      "start": 88.64,
+      "duration": 5.2
+    },
+    {
+      "text": "were supporting internally displaced",
+      "start": 92.32,
+      "duration": 4.159
+    },
+    {
+      "text": "Iraqis fleeing the war and since mid",
+      "start": 93.84,
+      "duration": 4.72
+    },
+    {
+      "text": "2019 I've been heading the innovation",
+      "start": 96.479,
+      "duration": 4.881
+    },
+    {
+      "text": "service for UNCCR and our role in the",
+      "start": 98.56,
+      "duration": 4.8
+    },
+    {
+      "text": "innovation service is to help both",
+      "start": 101.36,
+      "duration": 7.039
+    },
+    {
+      "text": "refugees and UNCCR teams innovate. uh we",
+      "start": 103.36,
+      "duration": 7.6
+    },
+    {
+      "text": "collectively face very complex problems",
+      "start": 108.399,
+      "duration": 4.561
+    },
+    {
+      "text": "and the role of our innovation service",
+      "start": 110.96,
+      "duration": 5.04
+    },
+    {
+      "text": "is to help refugees and our teams solve",
+      "start": 112.96,
+      "duration": 5.119
+    },
+    {
+      "text": "some of those complex problems.",
+      "start": 116.0,
+      "duration": 4.079
+    },
+    {
+      "text": "Well, it will be a surprise to a lot of",
+      "start": 118.079,
+      "duration": 3.761
+    },
+    {
+      "text": "them including me that there is an",
+      "start": 120.079,
+      "duration": 4.72
+    },
+    {
+      "text": "innovation office within the refugee",
+      "start": 121.84,
+      "duration": 7.039
+    },
+    {
+      "text": "office of uh UN. So that is fantastic.",
+      "start": 124.799,
+      "duration": 6.481
+    },
+    {
+      "text": "Is what role does artificial",
+      "start": 128.879,
+      "duration": 5.921
+    },
+    {
+      "text": "intelligence AI play in this UN refugee",
+      "start": 131.28,
+      "duration": 5.039
+    },
+    {
+      "text": "office?",
+      "start": 134.8,
+      "duration": 4.32
+    },
+    {
+      "text": "Well, for us AI is a disruptive",
+      "start": 136.319,
+      "duration": 3.761
+    },
+    {
+      "text": "technology.",
+      "start": 139.12,
+      "duration": 1.28
+    },
+    {
+      "text": "Okay.",
+      "start": 140.08,
+      "duration": 2.48
+    },
+    {
+      "text": "But for us, all technologies are a means",
+      "start": 140.4,
+      "duration": 4.96
+    },
+    {
+      "text": "to an end and not an end by itself.",
+      "start": 142.56,
+      "duration": 5.28
+    },
+    {
+      "text": "Um, and so obviously with the",
+      "start": 145.36,
+      "duration": 4.32
+    },
+    {
+      "text": "advancements in AI, because we have been",
+      "start": 147.84,
+      "duration": 4.24
+    },
+    {
+      "text": "actually experimenting with AI for a",
+      "start": 149.68,
+      "duration": 3.919
+    },
+    {
+      "text": "number of years now,",
+      "start": 152.08,
+      "duration": 4.0
+    },
+    {
+      "text": "uh, even before generative AI,",
+      "start": 153.599,
+      "duration": 4.321
+    },
+    {
+      "text": "but now obviously with AI, with",
+      "start": 156.08,
+      "duration": 4.4
+    },
+    {
+      "text": "generative AI, things have moved faster",
+      "start": 157.92,
+      "duration": 5.28
+    },
+    {
+      "text": "and, uh, solutions are now much more",
+      "start": 160.48,
+      "duration": 5.119
+    },
+    {
+      "text": "sophisticated. What we're using AI for",
+      "start": 163.2,
+      "duration": 5.679
+    },
+    {
+      "text": "is to improve services to refugees.",
+      "start": 165.599,
+      "duration": 6.0
+    },
+    {
+      "text": "That's one element of how we are using",
+      "start": 168.879,
+      "duration": 4.0
+    },
+    {
+      "text": "AI for good.",
+      "start": 171.599,
+      "duration": 3.201
+    },
+    {
+      "text": "So, we work very closely with refugee",
+      "start": 172.879,
+      "duration": 5.601
+    },
+    {
+      "text": "communities um in the analog world. Our",
+      "start": 174.8,
+      "duration": 6.0
+    },
+    {
+      "text": "added value as a UN organization",
+      "start": 178.48,
+      "duration": 4.56
+    },
+    {
+      "text": "mandated to support refugees",
+      "start": 180.8,
+      "duration": 5.439
+    },
+    {
+      "text": "is to be close to refugees. Um wherever",
+      "start": 183.04,
+      "duration": 5.44
+    },
+    {
+      "text": "I've worked, we're the first sometimes",
+      "start": 186.239,
+      "duration": 3.681
+    },
+    {
+      "text": "the first ones who meets a refugee",
+      "start": 188.48,
+      "duration": 2.72
+    },
+    {
+      "text": "crossing the border. Mhm.",
+      "start": 189.92,
+      "duration": 3.599
+    },
+    {
+      "text": "That proximity of the relationship",
+      "start": 191.2,
+      "duration": 4.399
+    },
+    {
+      "text": "allows us to better serve them.",
+      "start": 193.519,
+      "duration": 2.481
+    },
+    {
+      "text": "Mhm.",
+      "start": 195.599,
+      "duration": 2.321
+    },
+    {
+      "text": "And over years we started getting better",
+      "start": 196.0,
+      "duration": 3.599
+    },
+    {
+      "text": "at collecting the data.",
+      "start": 197.92,
+      "duration": 2.399
+    },
+    {
+      "text": "Mhm.",
+      "start": 199.599,
+      "duration": 2.72
+    },
+    {
+      "text": "Analyzing the data so that we can better",
+      "start": 200.319,
+      "duration": 2.881
+    },
+    {
+      "text": "serve them.",
+      "start": 202.319,
+      "duration": 3.28
+    },
+    {
+      "text": "Now we are using AI to optimize the",
+      "start": 203.2,
+      "duration": 5.759
+    },
+    {
+      "text": "analysis of that data. uh so that we can",
+      "start": 205.599,
+      "duration": 6.241
+    },
+    {
+      "text": "let's say establish feedback mechanisms",
+      "start": 208.959,
+      "duration": 4.801
+    },
+    {
+      "text": "to hear their complaints or their",
+      "start": 211.84,
+      "duration": 5.44
+    },
+    {
+      "text": "suggestions at a faster pace to solve",
+      "start": 213.76,
+      "duration": 6.0
+    },
+    {
+      "text": "some of the challenges that they have at",
+      "start": 217.28,
+      "duration": 4.959
+    },
+    {
+      "text": "a faster pace than we did before.",
+      "start": 219.76,
+      "duration": 6.16
+    },
+    {
+      "text": "So we're definitely using AI to both",
+      "start": 222.239,
+      "duration": 6.481
+    },
+    {
+      "text": "improve our services to refugees but",
+      "start": 225.92,
+      "duration": 6.399
+    },
+    {
+      "text": "also improve our understanding of",
+      "start": 228.72,
+      "duration": 6.64
+    },
+    {
+      "text": "to improve the services to them as well",
+      "start": 232.319,
+      "duration": 6.56
+    },
+    {
+      "text": "as understand them. Hovic the population",
+      "start": 235.36,
+      "duration": 6.239
+    },
+    {
+      "text": "of refugees worldwide has grown",
+      "start": 238.879,
+      "duration": 5.92
+    },
+    {
+      "text": "dramatically in the past few decades and",
+      "start": 241.599,
+      "duration": 5.441
+    },
+    {
+      "text": "it just keeps growing on the number of",
+      "start": 244.799,
+      "duration": 5.681
+    },
+    {
+      "text": "displaced people around the world. Is AI",
+      "start": 247.04,
+      "duration": 6.32
+    },
+    {
+      "text": "a technology when you look at chat box",
+      "start": 250.48,
+      "duration": 6.719
+    },
+    {
+      "text": "and other things that can really provide",
+      "start": 253.36,
+      "duration": 7.2
+    },
+    {
+      "text": "the firstly that ability for them",
+      "start": 257.199,
+      "duration": 6.161
+    },
+    {
+      "text": "because now you can scale up",
+      "start": 260.56,
+      "duration": 6.0
+    },
+    {
+      "text": "dramatically with this technology",
+      "start": 263.36,
+      "duration": 5.68
+    },
+    {
+      "text": "because with the numbers of refugees",
+      "start": 266.56,
+      "duration": 4.16
+    },
+    {
+      "text": "going up obviously you can't just keep",
+      "start": 269.04,
+      "duration": 3.76
+    },
+    {
+      "text": "incrementally growing the staff because",
+      "start": 270.72,
+      "duration": 5.759
+    },
+    {
+      "text": "it requires funding. What kinds of tools",
+      "start": 272.8,
+      "duration": 6.56
+    },
+    {
+      "text": "and technologies are you using? tell our",
+      "start": 276.479,
+      "duration": 6.081
+    },
+    {
+      "text": "listeners I mean I'm just thinking uh",
+      "start": 279.36,
+      "duration": 6.32
+    },
+    {
+      "text": "from their perspective because you could",
+      "start": 282.56,
+      "duration": 5.919
+    },
+    {
+      "text": "be using agents you could be using chat",
+      "start": 285.68,
+      "duration": 5.76
+    },
+    {
+      "text": "bots may I'm getting ahead of myself now",
+      "start": 288.479,
+      "duration": 5.201
+    },
+    {
+      "text": "I'm getting excited but tell our",
+      "start": 291.44,
+      "duration": 4.88
+    },
+    {
+      "text": "audience what you're using or not also",
+      "start": 293.68,
+      "duration": 4.959
+    },
+    {
+      "text": "could be down the pike because that is a",
+      "start": 296.32,
+      "duration": 4.56
+    },
+    {
+      "text": "pretty exciting thing because ultimately",
+      "start": 298.639,
+      "duration": 4.641
+    },
+    {
+      "text": "how can we help the refugees",
+      "start": 300.88,
+      "duration": 4.72
+    },
+    {
+      "text": "yes and I think this is a there's no",
+      "start": 303.28,
+      "duration": 4.639
+    },
+    {
+      "text": "straight answer into is does this mean",
+      "start": 305.6,
+      "duration": 5.36
+    },
+    {
+      "text": "we need less people. Uh the answer is",
+      "start": 307.919,
+      "duration": 4.481
+    },
+    {
+      "text": "not necessarily",
+      "start": 310.96,
+      "duration": 2.4
+    },
+    {
+      "text": "and I'll tell you why.",
+      "start": 312.4,
+      "duration": 2.32
+    },
+    {
+      "text": "To deal with more people.",
+      "start": 313.36,
+      "duration": 4.08
+    },
+    {
+      "text": "Yes. Because what has happened over time",
+      "start": 314.72,
+      "duration": 5.28
+    },
+    {
+      "text": "is you know in the analog world.",
+      "start": 317.44,
+      "duration": 3.12
+    },
+    {
+      "text": "Mhm.",
+      "start": 320.0,
+      "duration": 2.8
+    },
+    {
+      "text": "Uh refugees would have to come to our",
+      "start": 320.56,
+      "duration": 3.04
+    },
+    {
+      "text": "offices",
+      "start": 322.8,
+      "duration": 1.52
+    },
+    {
+      "text": "physically.",
+      "start": 323.6,
+      "duration": 3.039
+    },
+    {
+      "text": "Physically line up",
+      "start": 324.32,
+      "duration": 4.4
+    },
+    {
+      "text": "in the camp. It might be in refugee",
+      "start": 326.639,
+      "duration": 4.801
+    },
+    {
+      "text": "camp. It might be easier because it's in",
+      "start": 328.72,
+      "duration": 4.0
+    },
+    {
+      "text": "closer proximity,",
+      "start": 331.44,
+      "duration": 1.759
+    },
+    {
+      "text": "right?",
+      "start": 332.72,
+      "duration": 2.64
+    },
+    {
+      "text": "But most refugees live in urban areas",
+      "start": 333.199,
+      "duration": 4.56
+    },
+    {
+      "text": "not in camps. So for them to come to our",
+      "start": 335.36,
+      "duration": 4.64
+    },
+    {
+      "text": "office was difficult. Sometimes people",
+      "start": 337.759,
+      "duration": 5.201
+    },
+    {
+      "text": "have to walk for kilometers before",
+      "start": 340.0,
+      "duration": 4.639
+    },
+    {
+      "text": "reaching UNCR.",
+      "start": 342.96,
+      "duration": 4.4
+    },
+    {
+      "text": "So over time what did we do? We started",
+      "start": 344.639,
+      "duration": 3.921
+    },
+    {
+      "text": "call centers.",
+      "start": 347.36,
+      "duration": 3.119
+    },
+    {
+      "text": "This is even in the what we call the",
+      "start": 348.56,
+      "duration": 3.28
+    },
+    {
+      "text": "analog world.",
+      "start": 350.479,
+      "duration": 3.681
+    },
+    {
+      "text": "Call centers have had improved our",
+      "start": 351.84,
+      "duration": 5.12
+    },
+    {
+      "text": "reach. So people would start calling us.",
+      "start": 354.16,
+      "duration": 5.599
+    },
+    {
+      "text": "Then we started upgrading our call",
+      "start": 356.96,
+      "duration": 5.679
+    },
+    {
+      "text": "centers. Uh a few years ago our",
+      "start": 359.759,
+      "duration": 5.361
+    },
+    {
+      "text": "innovation service tested third party",
+      "start": 362.639,
+      "duration": 4.481
+    },
+    {
+      "text": "messaging apps like WhatsApp for example",
+      "start": 365.12,
+      "duration": 3.6
+    },
+    {
+      "text": "which is the preferred channel of",
+      "start": 367.12,
+      "duration": 4.56
+    },
+    {
+      "text": "communication for refugees globally. Uh",
+      "start": 368.72,
+      "duration": 5.36
+    },
+    {
+      "text": "but by using their preferred channels of",
+      "start": 371.68,
+      "duration": 3.92
+    },
+    {
+      "text": "communication like WhatsApp in the",
+      "start": 374.08,
+      "duration": 3.92
+    },
+    {
+      "text": "digital space what happened is that the",
+      "start": 375.6,
+      "duration": 4.8
+    },
+    {
+      "text": "volume of people reaching out to us has",
+      "start": 378.0,
+      "duration": 4.08
+    },
+    {
+      "text": "increased.",
+      "start": 380.4,
+      "duration": 5.28
+    },
+    {
+      "text": "So yes the numbers are increasing but us",
+      "start": 382.08,
+      "duration": 5.119
+    },
+    {
+      "text": "opening digital channels of",
+      "start": 385.68,
+      "duration": 3.519
+    },
+    {
+      "text": "communication has also increased the",
+      "start": 387.199,
+      "duration": 3.84
+    },
+    {
+      "text": "volume of demand.",
+      "start": 389.199,
+      "duration": 4.321
+    },
+    {
+      "text": "Now a few years ago we started testing",
+      "start": 391.039,
+      "duration": 5.201
+    },
+    {
+      "text": "chat bots. So that's another layer",
+      "start": 393.52,
+      "duration": 6.72
+    },
+    {
+      "text": "but um most people have individual",
+      "start": 396.24,
+      "duration": 7.44
+    },
+    {
+      "text": "complex cases and so whereas chat bots",
+      "start": 400.24,
+      "duration": 6.079
+    },
+    {
+      "text": "could answer simple questions we want",
+      "start": 403.68,
+      "duration": 4.799
+    },
+    {
+      "text": "the human in the loop.",
+      "start": 406.319,
+      "duration": 4.88
+    },
+    {
+      "text": "So you will end up first of all not",
+      "start": 408.479,
+      "duration": 6.241
+    },
+    {
+      "text": "discussing confidential information on",
+      "start": 411.199,
+      "duration": 5.361
+    },
+    {
+      "text": "third party messaging apps. So yeah, so",
+      "start": 414.72,
+      "duration": 4.8
+    },
+    {
+      "text": "as as I was saying, we you know, after",
+      "start": 416.56,
+      "duration": 4.56
+    },
+    {
+      "text": "we established the call centers, we",
+      "start": 419.52,
+      "duration": 3.84
+    },
+    {
+      "text": "started using chat bots which then",
+      "start": 421.12,
+      "duration": 4.72
+    },
+    {
+      "text": "allowed us to answer frequently asked",
+      "start": 423.36,
+      "duration": 3.679
+    },
+    {
+      "text": "questions.",
+      "start": 425.84,
+      "duration": 3.759
+    },
+    {
+      "text": "But then most people have an individual",
+      "start": 427.039,
+      "duration": 4.72
+    },
+    {
+      "text": "case, an individual grievance, an",
+      "start": 429.599,
+      "duration": 3.44
+    },
+    {
+      "text": "individual worry,",
+      "start": 431.759,
+      "duration": 2.88
+    },
+    {
+      "text": "something very particular about their",
+      "start": 433.039,
+      "duration": 2.321
+    },
+    {
+      "text": "case.",
+      "start": 434.639,
+      "duration": 2.96
+    },
+    {
+      "text": "And so you need a human in the loop. You",
+      "start": 435.36,
+      "duration": 4.8
+    },
+    {
+      "text": "need then a human to talk to them. Mhm.",
+      "start": 437.599,
+      "duration": 4.801
+    },
+    {
+      "text": "We don't want to exchange with refugees",
+      "start": 440.16,
+      "duration": 4.96
+    },
+    {
+      "text": "on third party messaging apps on very",
+      "start": 442.4,
+      "duration": 4.96
+    },
+    {
+      "text": "confidential issues. So we will",
+      "start": 445.12,
+      "duration": 4.079
+    },
+    {
+      "text": "establish other channels for us to talk",
+      "start": 447.36,
+      "duration": 4.88
+    },
+    {
+      "text": "to them even including a family visit.",
+      "start": 449.199,
+      "duration": 7.601
+    },
+    {
+      "text": "We go to their place um etc. So that's",
+      "start": 452.24,
+      "duration": 7.679
+    },
+    {
+      "text": "the another kind of area where things",
+      "start": 456.8,
+      "duration": 5.04
+    },
+    {
+      "text": "have grown. The number of people we're",
+      "start": 459.919,
+      "duration": 4.481
+    },
+    {
+      "text": "getting to know using digital spaces is",
+      "start": 461.84,
+      "duration": 5.759
+    },
+    {
+      "text": "very high. But you were mentioning also",
+      "start": 464.4,
+      "duration": 5.359
+    },
+    {
+      "text": "uh when we're talking many people have",
+      "start": 467.599,
+      "duration": 5.201
+    },
+    {
+      "text": "the drive to be connected",
+      "start": 469.759,
+      "duration": 5.361
+    },
+    {
+      "text": "but it's not given in the last mile. So",
+      "start": 472.8,
+      "duration": 4.0
+    },
+    {
+      "text": "we have a connectivity for refugees",
+      "start": 475.12,
+      "duration": 4.4
+    },
+    {
+      "text": "program that is trying to help 20",
+      "start": 476.8,
+      "duration": 5.36
+    },
+    {
+      "text": "million refugees connect to the grid by",
+      "start": 479.52,
+      "duration": 5.44
+    },
+    {
+      "text": "2030. This is together with the ITU and",
+      "start": 482.16,
+      "duration": 3.439
+    },
+    {
+      "text": "GSMA.",
+      "start": 484.96,
+      "duration": 2.799
+    },
+    {
+      "text": "Wow. We need to solve problems like",
+      "start": 485.599,
+      "duration": 4.401
+    },
+    {
+      "text": "access to devices for refugees to be",
+      "start": 487.759,
+      "duration": 4.961
+    },
+    {
+      "text": "able to connect with us and with their",
+      "start": 490.0,
+      "duration": 4.24
+    },
+    {
+      "text": "families back home but also with",
+      "start": 492.72,
+      "duration": 3.039
+    },
+    {
+      "text": "humanitarian actors so that we can",
+      "start": 494.24,
+      "duration": 3.76
+    },
+    {
+      "text": "improve our services. So that's the",
+      "start": 495.759,
+      "duration": 4.241
+    },
+    {
+      "text": "second layer which is the chatbots.",
+      "start": 498.0,
+      "duration": 4.56
+    },
+    {
+      "text": "Now we are at a stage where we are using",
+      "start": 500.0,
+      "duration": 6.0
+    },
+    {
+      "text": "AI to identify bottlenecks in our",
+      "start": 502.56,
+      "duration": 5.68
+    },
+    {
+      "text": "service to them process of feedback so",
+      "start": 506.0,
+      "duration": 3.44
+    },
+    {
+      "text": "that we can solve those kind of",
+      "start": 508.24,
+      "duration": 4.64
+    },
+    {
+      "text": "problems. So we're getting better at",
+      "start": 509.44,
+      "duration": 6.719
+    },
+    {
+      "text": "transitioning from the analog services",
+      "start": 512.88,
+      "duration": 5.44
+    },
+    {
+      "text": "to the digital services and AI is kind",
+      "start": 516.159,
+      "duration": 4.88
+    },
+    {
+      "text": "of speeding the process up. What",
+      "start": 518.32,
+      "duration": 4.719
+    },
+    {
+      "text": "roadblocks do you see because this is",
+      "start": 521.039,
+      "duration": 4.48
+    },
+    {
+      "text": "where I feel",
+      "start": 523.039,
+      "duration": 5.521
+    },
+    {
+      "text": "that AI and technology is really I mean",
+      "start": 525.519,
+      "duration": 4.88
+    },
+    {
+      "text": "we can talk about all the other great",
+      "start": 528.56,
+      "duration": 4.8
+    },
+    {
+      "text": "things. This is where we are really",
+      "start": 530.399,
+      "duration": 5.041
+    },
+    {
+      "text": "impacting human lives here. What",
+      "start": 533.36,
+      "duration": 5.52
+    },
+    {
+      "text": "roadblocks do you see that are hindering",
+      "start": 535.44,
+      "duration": 5.92
+    },
+    {
+      "text": "what you would ultimately like you like",
+      "start": 538.88,
+      "duration": 4.959
+    },
+    {
+      "text": "there's a few thank you for the question",
+      "start": 541.36,
+      "duration": 6.72
+    },
+    {
+      "text": "uh one is I was uh uh alluding to it is",
+      "start": 543.839,
+      "duration": 7.361
+    },
+    {
+      "text": "uh the access of refugees to the grid",
+      "start": 548.08,
+      "duration": 3.68
+    },
+    {
+      "text": "right",
+      "start": 551.2,
+      "duration": 2.96
+    },
+    {
+      "text": "so the more we have communities",
+      "start": 551.76,
+      "duration": 4.56
+    },
+    {
+      "text": "connected the better we can serve them",
+      "start": 554.16,
+      "duration": 6.08
+    },
+    {
+      "text": "so one big roadblock is the access to",
+      "start": 556.32,
+      "duration": 5.36
+    },
+    {
+      "text": "the digital in the last mile",
+      "start": 560.24,
+      "duration": 2.08
+    },
+    {
+      "text": "satellite",
+      "start": 561.68,
+      "duration": 3.04
+    },
+    {
+      "text": "satellite or other means of",
+      "start": 562.32,
+      "duration": 3.28
+    },
+    {
+      "text": "connectivity.",
+      "start": 564.72,
+      "duration": 1.2
+    },
+    {
+      "text": "Mhm.",
+      "start": 565.6,
+      "duration": 3.6
+    },
+    {
+      "text": "But um in the last mile we have many",
+      "start": 565.92,
+      "duration": 5.039
+    },
+    {
+      "text": "refugees in remote areas in the world",
+      "start": 569.2,
+      "duration": 3.6
+    },
+    {
+      "text": "where connectivity hasn't reached.",
+      "start": 570.959,
+      "duration": 2.32
+    },
+    {
+      "text": "Okay.",
+      "start": 572.8,
+      "duration": 3.76
+    },
+    {
+      "text": "Devices are still too expensive.",
+      "start": 573.279,
+      "duration": 6.721
+    },
+    {
+      "text": "Refugees need connectivity not only to",
+      "start": 576.56,
+      "duration": 4.959
+    },
+    {
+      "text": "be in touch with the rest of the world",
+      "start": 580.0,
+      "duration": 5.839
+    },
+    {
+      "text": "but it's also um a means to solve their",
+      "start": 581.519,
+      "duration": 6.401
+    },
+    {
+      "text": "own challenges. We have launched for",
+      "start": 585.839,
+      "duration": 4.321
+    },
+    {
+      "text": "example a project on digital employment",
+      "start": 587.92,
+      "duration": 5.52
+    },
+    {
+      "text": "for refugees. Imagine refugees, Syrian",
+      "start": 590.16,
+      "duration": 5.84
+    },
+    {
+      "text": "refugees in Jordan working for a Finnish",
+      "start": 593.44,
+      "duration": 5.28
+    },
+    {
+      "text": "company remotely.",
+      "start": 596.0,
+      "duration": 5.279
+    },
+    {
+      "text": "Refugees have that commitment and they",
+      "start": 598.72,
+      "duration": 4.239
+    },
+    {
+      "text": "want to do this. There's there's this",
+      "start": 601.279,
+      "duration": 3.921
+    },
+    {
+      "text": "craving for education, but if you don't",
+      "start": 602.959,
+      "duration": 3.601
+    },
+    {
+      "text": "have connectivity, if you don't have",
+      "start": 605.2,
+      "duration": 3.36
+    },
+    {
+      "text": "laptops, you will miss out on the",
+      "start": 606.56,
+      "duration": 3.92
+    },
+    {
+      "text": "opportunity. So, I think one element is",
+      "start": 608.56,
+      "duration": 4.399
+    },
+    {
+      "text": "the infrastructure. The more investment",
+      "start": 610.48,
+      "duration": 3.919
+    },
+    {
+      "text": "we have in the infrastructure where",
+      "start": 612.959,
+      "duration": 4.32
+    },
+    {
+      "text": "refugees live, the we can speed up their",
+      "start": 614.399,
+      "duration": 5.281
+    },
+    {
+      "text": "digital access to it. There are also",
+      "start": 617.279,
+      "duration": 4.081
+    },
+    {
+      "text": "legal impediments. Sometimes refugees",
+      "start": 619.68,
+      "duration": 3.2
+    },
+    {
+      "text": "don't have the even the right to own a",
+      "start": 621.36,
+      "duration": 3.44
+    },
+    {
+      "text": "SIM card. So we're working with",
+      "start": 622.88,
+      "duration": 4.16
+    },
+    {
+      "text": "governments also on legal rights, the",
+      "start": 624.8,
+      "duration": 4.479
+    },
+    {
+      "text": "right to open a bank account.",
+      "start": 627.04,
+      "duration": 5.12
+    },
+    {
+      "text": "There's a misconception about refugees.",
+      "start": 629.279,
+      "duration": 4.56
+    },
+    {
+      "text": "There's a lot of misconceptions. One of",
+      "start": 632.16,
+      "duration": 3.44
+    },
+    {
+      "text": "them is, you know, reliance of",
+      "start": 633.839,
+      "duration": 4.161
+    },
+    {
+      "text": "assistance. People don't want to rely on",
+      "start": 635.6,
+      "duration": 4.56
+    },
+    {
+      "text": "assistance. They want to lead a",
+      "start": 638.0,
+      "duration": 4.399
+    },
+    {
+      "text": "dignified life. But if you can't open a",
+      "start": 640.16,
+      "duration": 4.48
+    },
+    {
+      "text": "bank account, how can you work? So we",
+      "start": 642.399,
+      "duration": 4.721
+    },
+    {
+      "text": "also try to pacify those kind of legal",
+      "start": 644.64,
+      "duration": 5.04
+    },
+    {
+      "text": "barriers for refugees to to have access",
+      "start": 647.12,
+      "duration": 4.64
+    },
+    {
+      "text": "to to the digital world.",
+      "start": 649.68,
+      "duration": 5.2
+    },
+    {
+      "text": "Um we also have uh resourcing issues on",
+      "start": 651.76,
+      "duration": 5.199
+    },
+    {
+      "text": "the humanitarian side.",
+      "start": 654.88,
+      "duration": 4.88
+    },
+    {
+      "text": "Technologies cost money.",
+      "start": 656.959,
+      "duration": 6.801
+    },
+    {
+      "text": "Um and with dwindling resources",
+      "start": 659.76,
+      "duration": 6.4
+    },
+    {
+      "text": "um it's very difficult for organizations",
+      "start": 663.76,
+      "duration": 4.079
+    },
+    {
+      "text": "to invest if we don't have the",
+      "start": 666.16,
+      "duration": 3.76
+    },
+    {
+      "text": "resources. Hence the need for us to work",
+      "start": 667.839,
+      "duration": 3.68
+    },
+    {
+      "text": "with the private sector. We're working",
+      "start": 669.92,
+      "duration": 4.72
+    },
+    {
+      "text": "with many companies who are here um in",
+      "start": 671.519,
+      "duration": 5.76
+    },
+    {
+      "text": "uh at the AI for good summit uh because",
+      "start": 674.64,
+      "duration": 5.84
+    },
+    {
+      "text": "they have a role to play in uh equaling",
+      "start": 677.279,
+      "duration": 5.761
+    },
+    {
+      "text": "the playing field working with us to",
+      "start": 680.48,
+      "duration": 5.76
+    },
+    {
+      "text": "reduce cost of uh access to technologies",
+      "start": 683.04,
+      "duration": 5.28
+    },
+    {
+      "text": "and solutions so that we can better",
+      "start": 686.24,
+      "duration": 4.96
+    },
+    {
+      "text": "serve uh refugees and dispace",
+      "start": 688.32,
+      "duration": 7.92
+    },
+    {
+      "text": "populations. There's also the idea of um",
+      "start": 691.2,
+      "duration": 7.84
+    },
+    {
+      "text": "not parachuting technologies on people.",
+      "start": 696.24,
+      "duration": 3.36
+    },
+    {
+      "text": "Mhm.",
+      "start": 699.04,
+      "duration": 2.56
+    },
+    {
+      "text": "We are very keen. We we have a",
+      "start": 699.6,
+      "duration": 4.08
+    },
+    {
+      "text": "refugeeled innovation program that",
+      "start": 701.6,
+      "duration": 4.56
+    },
+    {
+      "text": "invests in refugeeled organizations",
+      "start": 703.68,
+      "duration": 4.56
+    },
+    {
+      "text": "innovating. So we give them both",
+      "start": 706.16,
+      "duration": 4.48
+    },
+    {
+      "text": "financial support and technical support",
+      "start": 708.24,
+      "duration": 4.48
+    },
+    {
+      "text": "for them to lead the innovation projects",
+      "start": 710.64,
+      "duration": 5.68
+    },
+    {
+      "text": "they want wherever they live. They live.",
+      "start": 712.72,
+      "duration": 6.48
+    },
+    {
+      "text": "Um so we believe that communities have",
+      "start": 716.32,
+      "duration": 4.959
+    },
+    {
+      "text": "to be part and parcel of the design of",
+      "start": 719.2,
+      "duration": 3.92
+    },
+    {
+      "text": "AI solutions.",
+      "start": 721.279,
+      "duration": 5.12
+    },
+    {
+      "text": "uh some of the challenges lie in",
+      "start": 723.12,
+      "duration": 5.68
+    },
+    {
+      "text": "institutions, entities developing",
+      "start": 726.399,
+      "duration": 4.56
+    },
+    {
+      "text": "solutions elsewhere and trying to",
+      "start": 728.8,
+      "duration": 4.24
+    },
+    {
+      "text": "parachute those solutions or test those",
+      "start": 730.959,
+      "duration": 4.0
+    },
+    {
+      "text": "solutions on communities. We are not",
+      "start": 733.04,
+      "duration": 4.56
+    },
+    {
+      "text": "part of that club. We believe that we",
+      "start": 734.959,
+      "duration": 4.401
+    },
+    {
+      "text": "the solutions need to develop be",
+      "start": 737.6,
+      "duration": 3.84
+    },
+    {
+      "text": "developed together with communities",
+      "start": 739.36,
+      "duration": 4.64
+    },
+    {
+      "text": "ethically respecting human rights values",
+      "start": 741.44,
+      "duration": 4.88
+    },
+    {
+      "text": "and principles and making sure that the",
+      "start": 744.0,
+      "duration": 3.76
+    },
+    {
+      "text": "communities we serve are fully",
+      "start": 746.32,
+      "duration": 3.04
+    },
+    {
+      "text": "knowledgeable about the solutions we're",
+      "start": 747.76,
+      "duration": 3.04
+    },
+    {
+      "text": "developing.",
+      "start": 749.36,
+      "duration": 5.2
+    },
+    {
+      "text": "So you said basically uh the grid being",
+      "start": 750.8,
+      "duration": 8.479
+    },
+    {
+      "text": "a uh a challenge a device sometimes they",
+      "start": 754.56,
+      "duration": 8.079
+    },
+    {
+      "text": "don't have device um in some cases it's",
+      "start": 759.279,
+      "duration": 6.321
+    },
+    {
+      "text": "legal impediments because uh you know",
+      "start": 762.639,
+      "duration": 5.76
+    },
+    {
+      "text": "there is not clarity across the board on",
+      "start": 765.6,
+      "duration": 5.039
+    },
+    {
+      "text": "rules and laws can they open a bank",
+      "start": 768.399,
+      "duration": 7.201
+    },
+    {
+      "text": "account or not. Um and then obviously uh",
+      "start": 770.639,
+      "duration": 7.121
+    },
+    {
+      "text": "parachuting",
+      "start": 775.6,
+      "duration": 4.56
+    },
+    {
+      "text": "technologies from outside rather than",
+      "start": 777.76,
+      "duration": 4.72
+    },
+    {
+      "text": "going ground up.",
+      "start": 780.16,
+      "duration": 5.04
+    },
+    {
+      "text": "Is mobile payments and things of that",
+      "start": 782.48,
+      "duration": 4.479
+    },
+    {
+      "text": "nature playing a role in",
+      "start": 785.2,
+      "duration": 2.48
+    },
+    {
+      "text": "Absolutely.",
+      "start": 786.959,
+      "duration": 1.201
+    },
+    {
+      "text": "It is",
+      "start": 787.68,
+      "duration": 3.68
+    },
+    {
+      "text": "absolutely and we we are using digital",
+      "start": 788.16,
+      "duration": 5.84
+    },
+    {
+      "text": "digital currencies more and more. Mobile",
+      "start": 791.36,
+      "duration": 6.64
+    },
+    {
+      "text": "money is whatever is possible is used by",
+      "start": 794.0,
+      "duration": 5.6
+    },
+    {
+      "text": "us and many other organizations. So,",
+      "start": 798.0,
+      "duration": 4.16
+    },
+    {
+      "text": "we've I think we've gotten better at the",
+      "start": 799.6,
+      "duration": 5.12
+    },
+    {
+      "text": "mobile money component,",
+      "start": 802.16,
+      "duration": 5.28
+    },
+    {
+      "text": "but you you you're never perfect. We",
+      "start": 804.72,
+      "duration": 5.6
+    },
+    {
+      "text": "always improve the way we we do our uh",
+      "start": 807.44,
+      "duration": 6.88
+    },
+    {
+      "text": "programming. So, that definitely has um",
+      "start": 810.32,
+      "duration": 6.319
+    },
+    {
+      "text": "goes far, but I think the answer to that",
+      "start": 814.32,
+      "duration": 4.48
+    },
+    {
+      "text": "is the financial inclusion of refugees",
+      "start": 816.639,
+      "duration": 4.481
+    },
+    {
+      "text": "wherever they live. The ultimate goal is",
+      "start": 818.8,
+      "duration": 4.64
+    },
+    {
+      "text": "for them to have the right to open a",
+      "start": 821.12,
+      "duration": 5.279
+    },
+    {
+      "text": "bank account, have access to jobs. uh",
+      "start": 823.44,
+      "duration": 6.56
+    },
+    {
+      "text": "mobile money is a means to that end.",
+      "start": 826.399,
+      "duration": 4.721
+    },
+    {
+      "text": "It's a bridge towards",
+      "start": 830.0,
+      "duration": 3.12
+    },
+    {
+      "text": "it's a bridge. Yeah.",
+      "start": 831.12,
+      "duration": 4.719
+    },
+    {
+      "text": "As we as we build the bridge, we need to",
+      "start": 833.12,
+      "duration": 4.56
+    },
+    {
+      "text": "also build the infrastructure on the",
+      "start": 835.839,
+      "duration": 5.041
+    },
+    {
+      "text": "other side so that uh eventually our",
+      "start": 837.68,
+      "duration": 5.12
+    },
+    {
+      "text": "cash distributions need to stop. They",
+      "start": 840.88,
+      "duration": 4.639
+    },
+    {
+      "text": "cannot continue forever. U but what",
+      "start": 842.8,
+      "duration": 4.719
+    },
+    {
+      "text": "happens when you stop a cash",
+      "start": 845.519,
+      "duration": 4.161
+    },
+    {
+      "text": "distribution where refugees don't have",
+      "start": 847.519,
+      "duration": 3.361
+    },
+    {
+      "text": "access to jobs?",
+      "start": 849.68,
+      "duration": 1.839
+    },
+    {
+      "text": "You know,",
+      "start": 850.88,
+      "duration": 2.959
+    },
+    {
+      "text": "they again fall into very difficult",
+      "start": 851.519,
+      "duration": 5.12
+    },
+    {
+      "text": "situations. So I think the whereas we",
+      "start": 853.839,
+      "duration": 4.401
+    },
+    {
+      "text": "are keen on our humanitarian response",
+      "start": 856.639,
+      "duration": 3.921
+    },
+    {
+      "text": "and our assistance, we are also keen on",
+      "start": 858.24,
+      "duration": 4.0
+    },
+    {
+      "text": "making sure that refugees have the",
+      "start": 860.56,
+      "duration": 4.719
+    },
+    {
+      "text": "resources and the capability to live a",
+      "start": 862.24,
+      "duration": 6.959
+    },
+    {
+      "text": "dignified life without humanitarian",
+      "start": 865.279,
+      "duration": 6.641
+    },
+    {
+      "text": "live a dignified life.",
+      "start": 869.199,
+      "duration": 5.041
+    },
+    {
+      "text": "Is there an opportunity to reskill?",
+      "start": 871.92,
+      "duration": 5.52
+    },
+    {
+      "text": "Because AI is now hot and there are a",
+      "start": 874.24,
+      "duration": 6.719
+    },
+    {
+      "text": "lot of need for AI skills. I could be",
+      "start": 877.44,
+      "duration": 6.639
+    },
+    {
+      "text": "wrong. Generally refugees tend to be of",
+      "start": 880.959,
+      "duration": 6.801
+    },
+    {
+      "text": "a younger demographic. So maybe their",
+      "start": 884.079,
+      "duration": 6.641
+    },
+    {
+      "text": "adaption for mobile for AI would be",
+      "start": 887.76,
+      "duration": 5.28
+    },
+    {
+      "text": "better and I know maybe that's not your",
+      "start": 890.72,
+      "duration": 5.44
+    },
+    {
+      "text": "office in terms of innovation but",
+      "start": 893.04,
+      "duration": 5.2
+    },
+    {
+      "text": "giving some reskilling opportunities. is",
+      "start": 896.16,
+      "duration": 2.64
+    },
+    {
+      "text": "what we can",
+      "start": 898.24,
+      "duration": 2.399
+    },
+    {
+      "text": "certainly absolutely and we are working",
+      "start": 898.8,
+      "duration": 4.56
+    },
+    {
+      "text": "on it. Actually we have uh launched what",
+      "start": 900.639,
+      "duration": 5.361
+    },
+    {
+      "text": "we call IDEA which is the inclusive",
+      "start": 903.36,
+      "duration": 6.719
+    },
+    {
+      "text": "digital economy alliance which is about",
+      "start": 906.0,
+      "duration": 6.079
+    },
+    {
+      "text": "uh refugees having access to a digital",
+      "start": 910.079,
+      "duration": 4.801
+    },
+    {
+      "text": "economy. What does that mean? It means",
+      "start": 912.079,
+      "duration": 4.88
+    },
+    {
+      "text": "infrastructure so them having access to",
+      "start": 914.88,
+      "duration": 4.88
+    },
+    {
+      "text": "connectivity laptops and whatnot legal t",
+      "start": 916.959,
+      "duration": 4.161
+    },
+    {
+      "text": "right to work",
+      "start": 919.76,
+      "duration": 3.199
+    },
+    {
+      "text": "skilling and reskilling",
+      "start": 921.12,
+      "duration": 4.88
+    },
+    {
+      "text": "job matching. Uh I was in Rwanda not",
+      "start": 922.959,
+      "duration": 6.32
+    },
+    {
+      "text": "long ago and I met with a group of um",
+      "start": 926.0,
+      "duration": 6.48
+    },
+    {
+      "text": "young refugees who we had a digital",
+      "start": 929.279,
+      "duration": 6.641
+    },
+    {
+      "text": "employment um project with them. Some of",
+      "start": 932.48,
+      "duration": 5.76
+    },
+    {
+      "text": "them already have their companies",
+      "start": 935.92,
+      "duration": 3.2
+    },
+    {
+      "text": "established.",
+      "start": 938.24,
+      "duration": 1.44
+    },
+    {
+      "text": "Wow.",
+      "start": 939.12,
+      "duration": 3.279
+    },
+    {
+      "text": "And what they need is contracts so that",
+      "start": 939.68,
+      "duration": 5.44
+    },
+    {
+      "text": "they can first make the company work and",
+      "start": 942.399,
+      "duration": 5.521
+    },
+    {
+      "text": "hire more refugees. So the demand from",
+      "start": 945.12,
+      "duration": 4.48
+    },
+    {
+      "text": "all of the refugee communities I have",
+      "start": 947.92,
+      "duration": 3.52
+    },
+    {
+      "text": "worked and in Africa and Middle East,",
+      "start": 949.6,
+      "duration": 3.44
+    },
+    {
+      "text": "but also all the work we do in Latin",
+      "start": 951.44,
+      "duration": 4.48
+    },
+    {
+      "text": "America and Asia and even in Europe, the",
+      "start": 953.04,
+      "duration": 5.919
+    },
+    {
+      "text": "demand for skills is high. The zeal to",
+      "start": 955.92,
+      "duration": 6.08
+    },
+    {
+      "text": "work is very high. Um, you know, I come",
+      "start": 958.959,
+      "duration": 4.24
+    },
+    {
+      "text": "from a refugee background. My",
+      "start": 962.0,
+      "duration": 3.199
+    },
+    {
+      "text": "grandparents were Armenian refugees in",
+      "start": 963.199,
+      "duration": 5.76
+    },
+    {
+      "text": "uh in the Middle East and I know how",
+      "start": 965.199,
+      "duration": 5.841
+    },
+    {
+      "text": "hardworking my grandparents generation",
+      "start": 968.959,
+      "duration": 3.841
+    },
+    {
+      "text": "was because they were refugees and they",
+      "start": 971.04,
+      "duration": 3.28
+    },
+    {
+      "text": "had to you know",
+      "start": 972.8,
+      "duration": 3.039
+    },
+    {
+      "text": "life was difficult and they had to",
+      "start": 974.32,
+      "duration": 3.759
+    },
+    {
+      "text": "defeat those challenges. So the drive is",
+      "start": 975.839,
+      "duration": 3.12
+    },
+    {
+      "text": "there.",
+      "start": 978.079,
+      "duration": 3.041
+    },
+    {
+      "text": "The question is",
+      "start": 978.959,
+      "duration": 4.88
+    },
+    {
+      "text": "do does the rest of the world have the",
+      "start": 981.12,
+      "duration": 4.399
+    },
+    {
+      "text": "willingness",
+      "start": 983.839,
+      "duration": 4.0
+    },
+    {
+      "text": "to lend a hand to work with these",
+      "start": 985.519,
+      "duration": 4.481
+    },
+    {
+      "text": "communities? Uh the potential for",
+      "start": 987.839,
+      "duration": 4.641
+    },
+    {
+      "text": "reskilling and upskilling is very high.",
+      "start": 990.0,
+      "duration": 6.639
+    },
+    {
+      "text": "uh as you said um very young populations",
+      "start": 992.48,
+      "duration": 6.799
+    },
+    {
+      "text": "eager to learn languages in many of the",
+      "start": 996.639,
+      "duration": 4.161
+    },
+    {
+      "text": "camps I've managed we have language",
+      "start": 999.279,
+      "duration": 5.521
+    },
+    {
+      "text": "schools we have IT uh IT skills uh",
+      "start": 1000.8,
+      "duration": 6.56
+    },
+    {
+      "text": "sessions etc it's just that we need more",
+      "start": 1004.8,
+      "duration": 5.839
+    },
+    {
+      "text": "investments in that domain and um not",
+      "start": 1007.36,
+      "duration": 5.76
+    },
+    {
+      "text": "only skilling there's a lot of skilling",
+      "start": 1010.639,
+      "duration": 4.481
+    },
+    {
+      "text": "and reskilling that happens many",
+      "start": 1013.12,
+      "duration": 3.92
+    },
+    {
+      "text": "companies come and skill refugees",
+      "start": 1015.12,
+      "duration": 4.719
+    },
+    {
+      "text": "question is not whether skills it's the",
+      "start": 1017.04,
+      "duration": 3.76
+    },
+    {
+      "text": "choice",
+      "start": 1019.839,
+      "duration": 3.12
+    },
+    {
+      "text": "because if you skill A few years ago, I",
+      "start": 1020.8,
+      "duration": 4.159
+    },
+    {
+      "text": "was managing a camp in Jordan, Zaran for",
+      "start": 1022.959,
+      "duration": 4.24
+    },
+    {
+      "text": "Syrian refugees. At the time, coding was",
+      "start": 1024.959,
+      "duration": 5.281
+    },
+    {
+      "text": "the fashionable thing. Now it's AI.",
+      "start": 1027.199,
+      "duration": 4.561
+    },
+    {
+      "text": "Coding's going away.",
+      "start": 1030.24,
+      "duration": 3.76
+    },
+    {
+      "text": "Yes. But at the time, at the time,",
+      "start": 1031.76,
+      "duration": 4.079
+    },
+    {
+      "text": "coding was the fashionable thing.",
+      "start": 1034.0,
+      "duration": 2.48
+    },
+    {
+      "text": "Yeah.",
+      "start": 1035.839,
+      "duration": 2.48
+    },
+    {
+      "text": "Many companies came to the camp I was",
+      "start": 1036.48,
+      "duration": 4.0
+    },
+    {
+      "text": "managing and they would all of them",
+      "start": 1038.319,
+      "duration": 4.561
+    },
+    {
+      "text": "wanted to code. And I would say, great,",
+      "start": 1040.48,
+      "duration": 4.079
+    },
+    {
+      "text": "but what next?",
+      "start": 1042.88,
+      "duration": 2.959
+    },
+    {
+      "text": "Oh, well, we were just going to do the",
+      "start": 1044.559,
+      "duration": 3.36
+    },
+    {
+      "text": "coding. What are they going to do after",
+      "start": 1045.839,
+      "duration": 3.761
+    },
+    {
+      "text": "you teach them coding? Well, that's not",
+      "start": 1047.919,
+      "duration": 3.441
+    },
+    {
+      "text": "our",
+      "start": 1049.6,
+      "duration": 3.92
+    },
+    {
+      "text": "not that that's not our specialty. I",
+      "start": 1051.36,
+      "duration": 4.24
+    },
+    {
+      "text": "think that's that's the problem. If you",
+      "start": 1053.52,
+      "duration": 4.48
+    },
+    {
+      "text": "look at any challenge from a very myopic",
+      "start": 1055.6,
+      "duration": 4.56
+    },
+    {
+      "text": "way, you just look at one element of the",
+      "start": 1058.0,
+      "duration": 4.64
+    },
+    {
+      "text": "problem, it's very difficult to then",
+      "start": 1060.16,
+      "duration": 4.16
+    },
+    {
+      "text": "achieve results. So skilling and",
+      "start": 1062.64,
+      "duration": 4.159
+    },
+    {
+      "text": "reskilling is very important, but it has",
+      "start": 1064.32,
+      "duration": 4.16
+    },
+    {
+      "text": "to be in a context that you're thinking",
+      "start": 1066.799,
+      "duration": 4.24
+    },
+    {
+      "text": "about what next. And what next is what?",
+      "start": 1068.48,
+      "duration": 4.16
+    },
+    {
+      "text": "Jobs.",
+      "start": 1071.039,
+      "duration": 4.64
+    },
+    {
+      "text": "Access to the global digital economy.",
+      "start": 1072.64,
+      "duration": 4.8
+    },
+    {
+      "text": "The more we give access to refugees to",
+      "start": 1075.679,
+      "duration": 4.161
+    },
+    {
+      "text": "the global digital economy, pacify the",
+      "start": 1077.44,
+      "duration": 5.44
+    },
+    {
+      "text": "hurdles, the easier the solutions would",
+      "start": 1079.84,
+      "duration": 4.4
+    },
+    {
+      "text": "be. And then you would have more",
+      "start": 1082.88,
+      "duration": 3.679
+    },
+    {
+      "text": "communities who are willing to be",
+      "start": 1084.24,
+      "duration": 4.0
+    },
+    {
+      "text": "reskilled and upskilled because also",
+      "start": 1086.559,
+      "duration": 5.201
+    },
+    {
+      "text": "people see when you have a a portion of",
+      "start": 1088.24,
+      "duration": 5.679
+    },
+    {
+      "text": "the population in the camp all received",
+      "start": 1091.76,
+      "duration": 4.72
+    },
+    {
+      "text": "coding uh skills and then none of them",
+      "start": 1093.919,
+      "duration": 4.561
+    },
+    {
+      "text": "are working. That's not a it's not a",
+      "start": 1096.48,
+      "duration": 4.16
+    },
+    {
+      "text": "also a good example.",
+      "start": 1098.48,
+      "duration": 5.12
+    },
+    {
+      "text": "Kobic finally I'm probably taking you in",
+      "start": 1100.64,
+      "duration": 5.36
+    },
+    {
+      "text": "a direction you your innovation office",
+      "start": 1103.6,
+      "duration": 5.92
+    },
+    {
+      "text": "is not but you now got my mind flowing",
+      "start": 1106.0,
+      "duration": 6.48
+    },
+    {
+      "text": "data labeling is a very big thing for",
+      "start": 1109.52,
+      "duration": 5.039
+    },
+    {
+      "text": "artificial intelligence where you know",
+      "start": 1112.48,
+      "duration": 4.96
+    },
+    {
+      "text": "the internet data gets labeled with",
+      "start": 1114.559,
+      "duration": 5.441
+    },
+    {
+      "text": "certain tags and categories a lot of",
+      "start": 1117.44,
+      "duration": 5.68
+    },
+    {
+      "text": "that work has been done in Africa and",
+      "start": 1120.0,
+      "duration": 6.559
+    },
+    {
+      "text": "other places uh which is where you know",
+      "start": 1123.12,
+      "duration": 5.679
+    },
+    {
+      "text": "the foundation companies and others are",
+      "start": 1126.559,
+      "duration": 5.36
+    },
+    {
+      "text": "doing it Because AI needs huge amounts",
+      "start": 1128.799,
+      "duration": 7.041
+    },
+    {
+      "text": "of data, data that is makes sense. Is",
+      "start": 1131.919,
+      "duration": 6.321
+    },
+    {
+      "text": "there an opportunity to do some kind of",
+      "start": 1135.84,
+      "duration": 5.6
+    },
+    {
+      "text": "a public private partnership with these",
+      "start": 1138.24,
+      "duration": 6.319
+    },
+    {
+      "text": "organizations because they need help and",
+      "start": 1141.44,
+      "duration": 5.68
+    },
+    {
+      "text": "they're looking for help from people",
+      "start": 1144.559,
+      "duration": 6.641
+    },
+    {
+      "text": "with language skills with expertise",
+      "start": 1147.12,
+      "duration": 6.559
+    },
+    {
+      "text": "uh those kinds of things. Do you does",
+      "start": 1151.2,
+      "duration": 4.24
+    },
+    {
+      "text": "your organization do public private",
+      "start": 1153.679,
+      "duration": 2.24
+    },
+    {
+      "text": "partnership?",
+      "start": 1155.44,
+      "duration": 2.239
+    },
+    {
+      "text": "We have an opinion about this first.",
+      "start": 1155.919,
+      "duration": 5.441
+    },
+    {
+      "text": "Yes, we we do uh and we're very keen on",
+      "start": 1157.679,
+      "duration": 6.481
+    },
+    {
+      "text": "public private partnerships. So, we know",
+      "start": 1161.36,
+      "duration": 4.4
+    },
+    {
+      "text": "we can't do it alone",
+      "start": 1164.16,
+      "duration": 3.519
+    },
+    {
+      "text": "and as I said earlier, we work with many",
+      "start": 1165.76,
+      "duration": 3.76
+    },
+    {
+      "text": "private sector companies. I think for",
+      "start": 1167.679,
+      "duration": 4.081
+    },
+    {
+      "text": "us, what is very important is the",
+      "start": 1169.52,
+      "duration": 5.12
+    },
+    {
+      "text": "refugees have access to",
+      "start": 1171.76,
+      "duration": 6.32
+    },
+    {
+      "text": "all of the different ranges of skills",
+      "start": 1174.64,
+      "duration": 5.44
+    },
+    {
+      "text": "and jobs",
+      "start": 1178.08,
+      "duration": 4.64
+    },
+    {
+      "text": "uh that the global economy offers. What",
+      "start": 1180.08,
+      "duration": 6.64
+    },
+    {
+      "text": "we don't want is refugees boxed into",
+      "start": 1182.72,
+      "duration": 5.76
+    },
+    {
+      "text": "lowpaying",
+      "start": 1186.72,
+      "duration": 5.04
+    },
+    {
+      "text": "jobs that are also uh not necessarily",
+      "start": 1188.48,
+      "duration": 5.6
+    },
+    {
+      "text": "respecting the the dignified working",
+      "start": 1191.76,
+      "duration": 4.48
+    },
+    {
+      "text": "environment and whatnot. So as long as",
+      "start": 1194.08,
+      "duration": 7.28
+    },
+    {
+      "text": "it is within uh global efforts to bring",
+      "start": 1196.24,
+      "duration": 7.36
+    },
+    {
+      "text": "uh opportunities to refugee communities",
+      "start": 1201.36,
+      "duration": 5.679
+    },
+    {
+      "text": "across different layers of let's say uh",
+      "start": 1203.6,
+      "duration": 6.72
+    },
+    {
+      "text": "data services or digital services then",
+      "start": 1207.039,
+      "duration": 5.841
+    },
+    {
+      "text": "we feel more comfortable. What we want",
+      "start": 1210.32,
+      "duration": 7.92
+    },
+    {
+      "text": "to avoid is uh all of the pitfalls of uh",
+      "start": 1212.88,
+      "duration": 7.12
+    },
+    {
+      "text": "let's say in the analog world the sweat",
+      "start": 1218.24,
+      "duration": 4.48
+    },
+    {
+      "text": "shops. We don't want to take that into",
+      "start": 1220.0,
+      "duration": 4.559
+    },
+    {
+      "text": "the digital space. We want refugees to",
+      "start": 1222.72,
+      "duration": 4.56
+    },
+    {
+      "text": "have dignified jobs as long as they have",
+      "start": 1224.559,
+      "duration": 4.881
+    },
+    {
+      "text": "a potential for growth as long as they",
+      "start": 1227.28,
+      "duration": 5.36
+    },
+    {
+      "text": "are fairly paid um and fairly paid",
+      "start": 1229.44,
+      "duration": 4.88
+    },
+    {
+      "text": "according to the local economy",
+      "start": 1232.64,
+      "duration": 4.32
+    },
+    {
+      "text": "obviously. um as long as the intention",
+      "start": 1234.32,
+      "duration": 5.92
+    },
+    {
+      "text": "is towards that um we're very willing to",
+      "start": 1236.96,
+      "duration": 5.839
+    },
+    {
+      "text": "work with with partners but we want to",
+      "start": 1240.24,
+      "duration": 5.919
+    },
+    {
+      "text": "avoid the pitfalls of uh what we see in",
+      "start": 1242.799,
+      "duration": 4.88
+    },
+    {
+      "text": "the global economy. We don't want",
+      "start": 1246.159,
+      "duration": 5.361
+    },
+    {
+      "text": "refugees to just be a u a means to cut",
+      "start": 1247.679,
+      "duration": 7.041
+    },
+    {
+      "text": "costs and box them into a certain",
+      "start": 1251.52,
+      "duration": 5.44
+    },
+    {
+      "text": "workforce category.",
+      "start": 1254.72,
+      "duration": 4.16
+    },
+    {
+      "text": "You know that makes sense. Uh you don't",
+      "start": 1256.96,
+      "duration": 3.44
+    },
+    {
+      "text": "want to box them in. You want to give",
+      "start": 1258.88,
+      "duration": 5.679
+    },
+    {
+      "text": "them mobility up there. Hovic. Uh, I've",
+      "start": 1260.4,
+      "duration": 6.399
+    },
+    {
+      "text": "learned a lot. Maybe Hovic, we should",
+      "start": 1264.559,
+      "duration": 3.761
+    },
+    {
+      "text": "not, we should stop calling them",
+      "start": 1266.799,
+      "duration": 3.36
+    },
+    {
+      "text": "refugees. Maybe that's something to",
+      "start": 1268.32,
+      "duration": 4.16
+    },
+    {
+      "text": "think about because that's become a",
+      "start": 1270.159,
+      "duration": 4.88
+    },
+    {
+      "text": "little bit of a perception issue. Uh,",
+      "start": 1272.48,
+      "duration": 6.8
+    },
+    {
+      "text": "they are just talented people. Um, but",
+      "start": 1275.039,
+      "duration": 6.961
+    },
+    {
+      "text": "thank you so much uh for being on the",
+      "start": 1279.28,
+      "duration": 4.56
+    },
+    {
+      "text": "regulating AI podcast and thanks for the",
+      "start": 1282.0,
+      "duration": 4.0
+    },
+    {
+      "text": "great work you're doing for the",
+      "start": 1283.84,
+      "duration": 4.8
+    },
+    {
+      "text": "displaced people is what I call at least",
+      "start": 1286.0,
+      "duration": 5.039
+    },
+    {
+      "text": "I think of them around the world. uh and",
+      "start": 1288.64,
+      "duration": 4.56
+    },
+    {
+      "text": "how AI is transforming in some ways",
+      "start": 1291.039,
+      "duration": 3.12
+    },
+    {
+      "text": "their lives.",
+      "start": 1293.2,
+      "duration": 2.0
+    },
+    {
+      "text": "Thank you for having us.",
+      "start": 1294.159,
+      "duration": 1.76
+    },
+    {
+      "text": "Thank you so much.",
+      "start": 1295.2,
+      "duration": 1.84
+    },
+    {
+      "text": "Yes.",
+      "start": 1295.919,
+      "duration": 23.361
+    },
+    {
+      "text": "[Music]",
+      "start": 1297.04,
+      "duration": 22.24
+    }
+  ]
+}

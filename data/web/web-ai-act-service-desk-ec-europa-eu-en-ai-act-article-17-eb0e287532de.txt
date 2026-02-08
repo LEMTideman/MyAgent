@@ -1,0 +1,43 @@
+```markdown
+# Article 17: Quality management system
+
+## Chapter III: High-Risk AI Systems
+### Section 3: Obligations of Providers and Deployers of High-Risk AI Systems and Other Parties
+
+#### Summary
+Providers of high-risk AI systems must implement a quality management system to ensure regulatory compliance, covering design, development, testing, risk management, and data handling. This system must be documented and include procedures for post-market monitoring, incident reporting, and communication with authorities. The implementation should be proportionate to the provider's size and can be integrated with existing quality management systems under sectoral EU laws.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+1. Providers of high-risk AI systems shall put a quality management system in place that ensures compliance with this Regulation. That system shall be documented in a systematic and orderly manner in the form of written policies, procedures and instructions, and shall include at least the following aspects:
+
+   - a strategy for regulatory compliance, including compliance with conformity assessment procedures and procedures for the management of modifications to the high-risk AI system;
+   - techniques, procedures and systematic actions to be used for the design, design control and design verification of the high-risk AI system;
+   - techniques, procedures and systematic actions to be used for the development, quality control and quality assurance of the high-risk AI system;
+   - examination, test and validation procedures to be carried out before, during and after the development of the high-risk AI system, and the frequency with which they have to be carried out;
+   - technical specifications, including standards, to be applied and, where the relevant harmonised standards are not applied in full or do not cover all of the relevant requirements set out in Section 2, the means to be used to ensure that the high-risk AI system complies with those requirements;
+   - systems and procedures for data management, including data acquisition, data collection, data analysis, data labelling, data storage, data filtration, data mining, data aggregation, data retention and any other operation regarding the data that is performed before and for the purpose of the placing on the market or the putting into service of high-risk AI systems;
+   - risk management system referred to in [Article 9](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-9);
+   - setting-up, implementation and maintenance of a post-market monitoring system, in accordance with [Article 72](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-72);
+   - procedures related to the reporting of a serious incident in accordance with [Article 73](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-73);
+   - handling of communication with national competent authorities, other relevant authorities, including those providing or supporting the access to data, notified bodies, other operators, customers or other interested parties;
+   - systems and procedures for record-keeping of all relevant documentation and information;
+   - resource management, including security-of-supply related measures;
+   - an accountability framework setting out the responsibilities of the management and other staff with regard to all the aspects listed in this paragraph.
+
+2. The implementation of the aspects referred to in paragraph 1 shall be proportionate to the size of the provider’s organisation. Providers shall, in any event, respect the degree of rigour and the level of protection required to ensure the compliance of their high-risk AI systems with this Regulation.
+
+3. Providers of high-risk AI systems that are subject to obligations regarding quality management systems or an equivalent function under relevant sectoral Union law may include the aspects listed in paragraph 1 as part of the quality management systems pursuant to that law.
+
+4. For providers that are financial institutions subject to requirements regarding their internal governance arrangements or processes under Union financial services law (see Recital 81), these obligations shall be deemed fulfilled by complying with rules on internal governance arrangements or processes pursuant to relevant Union financial services law (as per Recital 146). To that end:
+   
+   * harmonised standards referred to in [Article 40](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-40) will apply.
+
+---
+
+### Relevant recitals
+* [Recital 81](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-81)
+* [Recital 146](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-146)
+
+View official text: [Artificial Intelligence Act (Regulation (EU) 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689).
+```

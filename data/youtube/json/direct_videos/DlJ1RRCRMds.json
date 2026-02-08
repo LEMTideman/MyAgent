@@ -1,0 +1,4658 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "DlJ1RRCRMds",
+  "video_title": "What California's SB 53 Means for AI Safety",
+  "video_url": "https://www.youtube.com/watch?v=DlJ1RRCRMds",
+  "fetched_at": "2025-12-29T20:14:17.552166+00:00",
+  "transcript": [
+    {
+      "text": "Welcome back to the AI policy podcast.",
+      "start": 11.28,
+      "duration": 5.759
+    },
+    {
+      "text": "Today we're doing a deep dive into SB53",
+      "start": 13.599,
+      "duration": 5.44
+    },
+    {
+      "text": "that enacts California's Transparency",
+      "start": 17.039,
+      "duration": 4.641
+    },
+    {
+      "text": "and Frontier AI act. So I'm Satie",
+      "start": 19.039,
+      "duration": 4.561
+    },
+    {
+      "text": "McCulla and I'm joined as always by Greg",
+      "start": 21.68,
+      "duration": 3.599
+    },
+    {
+      "text": "Allen. So welcome back Greg. I'm really",
+      "start": 23.6,
+      "duration": 3.679
+    },
+    {
+      "text": "excited for today's conversation.",
+      "start": 25.279,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Me too. All right, Greg, let's jump",
+      "start": 27.279,
+      "duration": 4.641
+    },
+    {
+      "text": "right in. So, on September 29th,",
+      "start": 29.599,
+      "duration": 4.64
+    },
+    {
+      "text": "California Governor Gavin Nuome signed",
+      "start": 31.92,
+      "duration": 6.4
+    },
+    {
+      "text": "into law SB53, which enacts California's",
+      "start": 34.239,
+      "duration": 6.561
+    },
+    {
+      "text": "Transparency and Frontier AI Act.",
+      "start": 38.32,
+      "duration": 4.96
+    },
+    {
+      "text": "Exactly one year earlier, Newsome vetoed",
+      "start": 40.8,
+      "duration": 6.88
+    },
+    {
+      "text": "SB 1047, the predecessor of SB53. So,",
+      "start": 43.28,
+      "duration": 6.4
+    },
+    {
+      "text": "before we get into the details of the",
+      "start": 47.68,
+      "duration": 3.44
+    },
+    {
+      "text": "text, could you walk us through this",
+      "start": 49.68,
+      "duration": 3.519
+    },
+    {
+      "text": "brief history?",
+      "start": 51.12,
+      "duration": 4.16
+    },
+    {
+      "text": "Yeah. So, I think it's worth taking us",
+      "start": 53.199,
+      "duration": 5.921
+    },
+    {
+      "text": "back to the spring of 2023",
+      "start": 55.28,
+      "duration": 6.88
+    },
+    {
+      "text": "and that is when a group of very",
+      "start": 59.12,
+      "duration": 5.759
+    },
+    {
+      "text": "prominent AI researchers and leaders of",
+      "start": 62.16,
+      "duration": 6.48
+    },
+    {
+      "text": "AI companies signed an open letter",
+      "start": 64.879,
+      "duration": 7.121
+    },
+    {
+      "text": "saying that the risks of the existential",
+      "start": 68.64,
+      "duration": 6.08
+    },
+    {
+      "text": "risks of AI should be a national",
+      "start": 72.0,
+      "duration": 6.0
+    },
+    {
+      "text": "priority on a par with the things that",
+      "start": 74.72,
+      "duration": 5.759
+    },
+    {
+      "text": "we do to prevent risks of nuclear",
+      "start": 78.0,
+      "duration": 5.84
+    },
+    {
+      "text": "weapons. So or pandemics. So that was",
+      "start": 80.479,
+      "duration": 6.161
+    },
+    {
+      "text": "signed by Sam Alman, that was signed by",
+      "start": 83.84,
+      "duration": 4.639
+    },
+    {
+      "text": "Dennis Hassabus, the CEO of Google",
+      "start": 86.64,
+      "duration": 5.119
+    },
+    {
+      "text": "DeepMind. Um, a huge share of the",
+      "start": 88.479,
+      "duration": 6.241
+    },
+    {
+      "text": "leading lights of the AI industry were",
+      "start": 91.759,
+      "duration": 5.441
+    },
+    {
+      "text": "seriously talking about existential risk",
+      "start": 94.72,
+      "duration": 4.56
+    },
+    {
+      "text": "of AI, meaning the risk of human",
+      "start": 97.2,
+      "duration": 5.599
+    },
+    {
+      "text": "extinction. Um, so from that letter,",
+      "start": 99.28,
+      "duration": 6.32
+    },
+    {
+      "text": "which I think I I said at the time and I",
+      "start": 102.799,
+      "duration": 5.201
+    },
+    {
+      "text": "still believe had a transformative",
+      "start": 105.6,
+      "duration": 4.96
+    },
+    {
+      "text": "impact on Washington DC and the",
+      "start": 108.0,
+      "duration": 5.52
+    },
+    {
+      "text": "conversation of AI. I mean, basically",
+      "start": 110.56,
+      "duration": 4.8
+    },
+    {
+      "text": "the the conclusion of that letter was",
+      "start": 113.52,
+      "duration": 4.08
+    },
+    {
+      "text": "that serious people take existential",
+      "start": 115.36,
+      "duration": 5.359
+    },
+    {
+      "text": "risk of AI seriously and so how can the",
+      "start": 117.6,
+      "duration": 5.28
+    },
+    {
+      "text": "government not take it seriously as",
+      "start": 120.719,
+      "duration": 3.521
+    },
+    {
+      "text": "well? These are a lot of things that",
+      "start": 122.88,
+      "duration": 3.44
+    },
+    {
+      "text": "people have been saying inside these",
+      "start": 124.24,
+      "duration": 4.159
+    },
+    {
+      "text": "companies. uh now they were saying them",
+      "start": 126.32,
+      "duration": 4.159
+    },
+    {
+      "text": "publicly in the in the in the open and",
+      "start": 128.399,
+      "duration": 3.681
+    },
+    {
+      "text": "in a way that was kind of impossible for",
+      "start": 130.479,
+      "duration": 4.801
+    },
+    {
+      "text": "the government to uh ignore. So out of",
+      "start": 132.08,
+      "duration": 4.72
+    },
+    {
+      "text": "that came the Biden administration's",
+      "start": 135.28,
+      "duration": 4.72
+    },
+    {
+      "text": "executive order. Out of that came uh",
+      "start": 136.8,
+      "duration": 6.0
+    },
+    {
+      "text": "Chuck Schumer's AI insight forums when",
+      "start": 140.0,
+      "duration": 4.319
+    },
+    {
+      "text": "he was the Senate majority leader trying",
+      "start": 142.8,
+      "duration": 3.04
+    },
+    {
+      "text": "to come up with comprehensive AI",
+      "start": 144.319,
+      "duration": 3.521
+    },
+    {
+      "text": "legislation to address among other",
+      "start": 145.84,
+      "duration": 4.16
+    },
+    {
+      "text": "things catastrophic risks. And one of",
+      "start": 147.84,
+      "duration": 4.08
+    },
+    {
+      "text": "the other things that came out after a",
+      "start": 150.0,
+      "duration": 3.44
+    },
+    {
+      "text": "lot of folks were disappointed that",
+      "start": 151.92,
+      "duration": 4.08
+    },
+    {
+      "text": "there was no movement in the US Congress",
+      "start": 153.44,
+      "duration": 6.64
+    },
+    {
+      "text": "was SB 1047 which was a landmark AI",
+      "start": 156.0,
+      "duration": 6.239
+    },
+    {
+      "text": "safety bill. And there's a bunch of",
+      "start": 160.08,
+      "duration": 4.799
+    },
+    {
+      "text": "reasons why this has the potential to be",
+      "start": 162.239,
+      "duration": 5.041
+    },
+    {
+      "text": "very important. You know number one is",
+      "start": 164.879,
+      "duration": 5.201
+    },
+    {
+      "text": "according to Governor Nuome you know of",
+      "start": 167.28,
+      "duration": 5.92
+    },
+    {
+      "text": "the top 50 AI companies in the world 32",
+      "start": 170.08,
+      "duration": 5.439
+    },
+    {
+      "text": "of them are headquartered in California.",
+      "start": 173.2,
+      "duration": 4.56
+    },
+    {
+      "text": "So California if it regulates even just",
+      "start": 175.519,
+      "duration": 3.681
+    },
+    {
+      "text": "the companies that you know develop",
+      "start": 177.76,
+      "duration": 3.6
+    },
+    {
+      "text": "stuff in California that can have big",
+      "start": 179.2,
+      "duration": 4.399
+    },
+    {
+      "text": "implications for what's going on in the",
+      "start": 181.36,
+      "duration": 4.56
+    },
+    {
+      "text": "entire AI industry as a whole. And the",
+      "start": 183.599,
+      "duration": 4.481
+    },
+    {
+      "text": "second thing is that California is a big",
+      "start": 185.92,
+      "duration": 4.88
+    },
+    {
+      "text": "market in the same way that Europe is a",
+      "start": 188.08,
+      "duration": 6.48
+    },
+    {
+      "text": "big market. So when Europe exercises its",
+      "start": 190.8,
+      "duration": 6.32
+    },
+    {
+      "text": "regulatory muscle, it's regulating, you",
+      "start": 194.56,
+      "duration": 4.72
+    },
+    {
+      "text": "know, what gets to be deployed to the",
+      "start": 197.12,
+      "duration": 4.24
+    },
+    {
+      "text": "European market and sometimes that can",
+      "start": 199.28,
+      "duration": 4.4
+    },
+    {
+      "text": "have major implications that go far",
+      "start": 201.36,
+      "duration": 5.12
+    },
+    {
+      "text": "beyond just the European market itself",
+      "start": 203.68,
+      "duration": 4.639
+    },
+    {
+      "text": "as people take those European standards",
+      "start": 206.48,
+      "duration": 3.839
+    },
+    {
+      "text": "and apply them globally, such as the",
+      "start": 208.319,
+      "duration": 3.92
+    },
+    {
+      "text": "case in California, most notably with",
+      "start": 210.319,
+      "duration": 4.56
+    },
+    {
+      "text": "fuel efficiency standards. Um, a lot of",
+      "start": 212.239,
+      "duration": 4.64
+    },
+    {
+      "text": "car manufacturers do not want to make",
+      "start": 214.879,
+      "duration": 3.44
+    },
+    {
+      "text": "one version of their car for the",
+      "start": 216.879,
+      "duration": 3.041
+    },
+    {
+      "text": "California market and another version of",
+      "start": 218.319,
+      "duration": 3.441
+    },
+    {
+      "text": "their car for the rest of America. And",
+      "start": 219.92,
+      "duration": 3.92
+    },
+    {
+      "text": "so California fuel efficiency standards",
+      "start": 221.76,
+      "duration": 5.039
+    },
+    {
+      "text": "have had an outsized impact impact in",
+      "start": 223.84,
+      "duration": 5.44
+    },
+    {
+      "text": "terms of driving US automakers uh and",
+      "start": 226.799,
+      "duration": 3.761
+    },
+    {
+      "text": "companies that want to sell to the",
+      "start": 229.28,
+      "duration": 3.36
+    },
+    {
+      "text": "United States in increasing their fuel",
+      "start": 230.56,
+      "duration": 5.599
+    },
+    {
+      "text": "efficiency. SP 1047 was looking to",
+      "start": 232.64,
+      "duration": 7.519
+    },
+    {
+      "text": "extend that and do so in the name of AI",
+      "start": 236.159,
+      "duration": 6.16
+    },
+    {
+      "text": "safety going after these potential",
+      "start": 240.159,
+      "duration": 5.121
+    },
+    {
+      "text": "catastrophic risks. And it had a bunch",
+      "start": 242.319,
+      "duration": 6.48
+    },
+    {
+      "text": "of pretty extensive provisions that at",
+      "start": 245.28,
+      "duration": 5.519
+    },
+    {
+      "text": "the time, I think to its proponents and",
+      "start": 248.799,
+      "duration": 4.401
+    },
+    {
+      "text": "to many others, seemed appropriate given",
+      "start": 250.799,
+      "duration": 4.241
+    },
+    {
+      "text": "the way those risks looked. If we're",
+      "start": 253.2,
+      "duration": 4.879
+    },
+    {
+      "text": "dealing with human extinction, then",
+      "start": 255.04,
+      "duration": 5.52
+    },
+    {
+      "text": "mandatory third-p partyy audits don't",
+      "start": 258.079,
+      "duration": 4.4
+    },
+    {
+      "text": "seem that absurd. Right? We have",
+      "start": 260.56,
+      "duration": 4.48
+    },
+    {
+      "text": "mandatory third party op uh audits for",
+      "start": 262.479,
+      "duration": 5.44
+    },
+    {
+      "text": "the people who run nuclear power plants.",
+      "start": 265.04,
+      "duration": 4.879
+    },
+    {
+      "text": "Uh and they could only kill tens of",
+      "start": 267.919,
+      "duration": 3.681
+    },
+    {
+      "text": "millions of people, right? and you're",
+      "start": 269.919,
+      "duration": 3.041
+    },
+    {
+      "text": "saying that AI could kill literally",
+      "start": 271.6,
+      "duration": 3.52
+    },
+    {
+      "text": "every human alive. Well, it seems like",
+      "start": 272.96,
+      "duration": 3.12
+    },
+    {
+      "text": "maybe you should have, you know,",
+      "start": 275.12,
+      "duration": 4.079
+    },
+    {
+      "text": "stricter regulatory standards. Well, uh,",
+      "start": 276.08,
+      "duration": 5.839
+    },
+    {
+      "text": "that ultimately passed in California's",
+      "start": 279.199,
+      "duration": 4.72
+    },
+    {
+      "text": "legislature, but was vetoed, as you",
+      "start": 281.919,
+      "duration": 3.921
+    },
+    {
+      "text": "mentioned, Sadi, by California's",
+      "start": 283.919,
+      "duration": 4.641
+    },
+    {
+      "text": "governor, Gavin Nuome. He basically said",
+      "start": 285.84,
+      "duration": 5.04
+    },
+    {
+      "text": "that this bill was too ownorous given",
+      "start": 288.56,
+      "duration": 4.079
+    },
+    {
+      "text": "where we are in the technologies",
+      "start": 290.88,
+      "duration": 3.84
+    },
+    {
+      "text": "evolution. It wasn't clear that the",
+      "start": 292.639,
+      "duration": 3.761
+    },
+    {
+      "text": "things that they were trying to do would",
+      "start": 294.72,
+      "duration": 3.44
+    },
+    {
+      "text": "actually solve the problems they were",
+      "start": 296.4,
+      "duration": 3.68
+    },
+    {
+      "text": "trying to solve. And so, he vetoed it.",
+      "start": 298.16,
+      "duration": 4.08
+    },
+    {
+      "text": "But he also set up a commission to write",
+      "start": 300.08,
+      "duration": 4.72
+    },
+    {
+      "text": "a report to make recommendations to sort",
+      "start": 302.24,
+      "duration": 4.959
+    },
+    {
+      "text": "of address this balance. And that",
+      "start": 304.8,
+      "duration": 5.52
+    },
+    {
+      "text": "included some of the the leaders of AI",
+      "start": 307.199,
+      "duration": 4.72
+    },
+    {
+      "text": "thinking from multiple different",
+      "start": 310.32,
+      "duration": 4.0
+    },
+    {
+      "text": "segments with a heavy heavy emphasis on",
+      "start": 311.919,
+      "duration": 4.961
+    },
+    {
+      "text": "voices from California. They came out",
+      "start": 314.32,
+      "duration": 4.879
+    },
+    {
+      "text": "with the report and they basically says",
+      "start": 316.88,
+      "duration": 4.8
+    },
+    {
+      "text": "it basically said yes something needs to",
+      "start": 319.199,
+      "duration": 5.28
+    },
+    {
+      "text": "be done. Here are principles for what uh",
+      "start": 321.68,
+      "duration": 4.799
+    },
+    {
+      "text": "reasonable legislation might look like",
+      "start": 324.479,
+      "duration": 3.361
+    },
+    {
+      "text": "sort of given the state of the",
+      "start": 326.479,
+      "duration": 3.681
+    },
+    {
+      "text": "technology and the risks that it poses",
+      "start": 327.84,
+      "duration": 3.919
+    },
+    {
+      "text": "today and the risks that it could",
+      "start": 330.16,
+      "duration": 4.08
+    },
+    {
+      "text": "conceivably pose in the future combined",
+      "start": 331.759,
+      "duration": 4.081
+    },
+    {
+      "text": "with the opportunities that it poses",
+      "start": 334.24,
+      "duration": 4.48
+    },
+    {
+      "text": "today and in the future. So basically",
+      "start": 335.84,
+      "duration": 5.68
+    },
+    {
+      "text": "the the group the expert group that",
+      "start": 338.72,
+      "duration": 5.44
+    },
+    {
+      "text": "Newsome set up came back and said yes",
+      "start": 341.52,
+      "duration": 4.56
+    },
+    {
+      "text": "you do need to do something. California",
+      "start": 344.16,
+      "duration": 3.84
+    },
+    {
+      "text": "should do something or or the federal",
+      "start": 346.08,
+      "duration": 2.959
+    },
+    {
+      "text": "government should do something and if",
+      "start": 348.0,
+      "duration": 2.16
+    },
+    {
+      "text": "the federal government fails to do",
+      "start": 349.039,
+      "duration": 2.321
+    },
+    {
+      "text": "something California should do",
+      "start": 350.16,
+      "duration": 5.12
+    },
+    {
+      "text": "something. So the author of SB 1047, the",
+      "start": 351.36,
+      "duration": 6.32
+    },
+    {
+      "text": "lead author I should say, Senator Scott",
+      "start": 355.28,
+      "duration": 5.359
+    },
+    {
+      "text": "Weiner, basically came back after that",
+      "start": 357.68,
+      "duration": 6.16
+    },
+    {
+      "text": "report was published and said, \"Okay,",
+      "start": 360.639,
+      "duration": 6.881
+    },
+    {
+      "text": "now here is SB 1053, a slimmed down",
+      "start": 363.84,
+      "duration": 6.639
+    },
+    {
+      "text": "version with less ownorous requirements",
+      "start": 367.52,
+      "duration": 5.36
+    },
+    {
+      "text": "um that adheres to the principles that",
+      "start": 370.479,
+      "duration": 4.72
+    },
+    {
+      "text": "came out of that expert committee report",
+      "start": 372.88,
+      "duration": 4.8
+    },
+    {
+      "text": "and is now what uh California should",
+      "start": 375.199,
+      "duration": 5.44
+    },
+    {
+      "text": "pass.\" And remember, the legislature had",
+      "start": 377.68,
+      "duration": 5.2
+    },
+    {
+      "text": "already passed SB1047. So they were",
+      "start": 380.639,
+      "duration": 3.84
+    },
+    {
+      "text": "ready to sign up for the very ownorous",
+      "start": 382.88,
+      "duration": 3.2
+    },
+    {
+      "text": "requirements. It was only Newsome's veto",
+      "start": 384.479,
+      "duration": 3.761
+    },
+    {
+      "text": "that prevented that. So this again",
+      "start": 386.08,
+      "duration": 3.839
+    },
+    {
+      "text": "passed the legislature, this more modest",
+      "start": 388.24,
+      "duration": 3.519
+    },
+    {
+      "text": "set of requirements. And then Governor",
+      "start": 389.919,
+      "duration": 4.081
+    },
+    {
+      "text": "Nuome did indeed sign it. So now we are",
+      "start": 391.759,
+      "duration": 4.641
+    },
+    {
+      "text": "facing this as the new law with most of",
+      "start": 394.0,
+      "duration": 4.24
+    },
+    {
+      "text": "its provisions set to take effect on",
+      "start": 396.4,
+      "duration": 4.079
+    },
+    {
+      "text": "January 1st, 2026.",
+      "start": 398.24,
+      "duration": 3.6
+    },
+    {
+      "text": ">> Sure. So I was just going to follow up",
+      "start": 400.479,
+      "duration": 5.921
+    },
+    {
+      "text": "and ask, you gave a brief overview of SB",
+      "start": 401.84,
+      "duration": 6.799
+    },
+    {
+      "text": "1047. what are these key differences",
+      "start": 406.4,
+      "duration": 5.28
+    },
+    {
+      "text": "between that bill and SB53 that we're",
+      "start": 408.639,
+      "duration": 4.721
+    },
+    {
+      "text": "looking at now?",
+      "start": 411.68,
+      "duration": 4.48
+    },
+    {
+      "text": ">> So, at the highest level, I think we're",
+      "start": 413.36,
+      "duration": 4.959
+    },
+    {
+      "text": "dealing with the difference between uh",
+      "start": 416.16,
+      "duration": 6.159
+    },
+    {
+      "text": "an AI safety law and an AI safety",
+      "start": 418.319,
+      "duration": 7.6
+    },
+    {
+      "text": "transparency law. That's how Senator",
+      "start": 422.319,
+      "duration": 5.841
+    },
+    {
+      "text": "Weiner describes the differences and I",
+      "start": 425.919,
+      "duration": 4.881
+    },
+    {
+      "text": "do think that's a fair reflection of",
+      "start": 428.16,
+      "duration": 5.2
+    },
+    {
+      "text": "what is going on here. So whereas",
+      "start": 430.8,
+      "duration": 4.239
+    },
+    {
+      "text": "previously",
+      "start": 433.36,
+      "duration": 4.64
+    },
+    {
+      "text": "um the companies you know were forced to",
+      "start": 435.039,
+      "duration": 5.201
+    },
+    {
+      "text": "submit to external audits they faced",
+      "start": 438.0,
+      "duration": 4.4
+    },
+    {
+      "text": "penalties you know if they didn't do",
+      "start": 440.24,
+      "duration": 4.56
+    },
+    {
+      "text": "specific things in preventing the safety",
+      "start": 442.4,
+      "duration": 6.96
+    },
+    {
+      "text": "of it. This version SB53",
+      "start": 444.8,
+      "duration": 6.959
+    },
+    {
+      "text": "it says that you have to have your own",
+      "start": 449.36,
+      "duration": 5.36
+    },
+    {
+      "text": "internal safety framework and you have",
+      "start": 451.759,
+      "duration": 5.681
+    },
+    {
+      "text": "to publish that conspicuously on your",
+      "start": 454.72,
+      "duration": 5.44
+    },
+    {
+      "text": "website as the legislation describes it.",
+      "start": 457.44,
+      "duration": 4.56
+    },
+    {
+      "text": "Um so like what is your safety",
+      "start": 460.16,
+      "duration": 3.84
+    },
+    {
+      "text": "framework? Are you adhering to national",
+      "start": 462.0,
+      "duration": 3.759
+    },
+    {
+      "text": "standards? Are you adhering to",
+      "start": 464.0,
+      "duration": 4.08
+    },
+    {
+      "text": "international standards? You know what",
+      "start": 465.759,
+      "duration": 5.041
+    },
+    {
+      "text": "are you doing internally to ensure the",
+      "start": 468.08,
+      "duration": 5.2
+    },
+    {
+      "text": "safety of your models and preventing",
+      "start": 470.8,
+      "duration": 5.04
+    },
+    {
+      "text": "that from uh poisoning you know",
+      "start": 473.28,
+      "duration": 5.199
+    },
+    {
+      "text": "presenting catastrophic risks to",
+      "start": 475.84,
+      "duration": 5.199
+    },
+    {
+      "text": "Californians and therefore of course the",
+      "start": 478.479,
+      "duration": 4.481
+    },
+    {
+      "text": "wider world. So the point here is it's",
+      "start": 481.039,
+      "duration": 5.28
+    },
+    {
+      "text": "like it's not saying you shall use this",
+      "start": 482.96,
+      "duration": 5.519
+    },
+    {
+      "text": "safety framework. It's just saying you",
+      "start": 486.319,
+      "duration": 4.801
+    },
+    {
+      "text": "have to have a safety framework and you",
+      "start": 488.479,
+      "duration": 5.041
+    },
+    {
+      "text": "have to tell the world what your safety",
+      "start": 491.12,
+      "duration": 5.84
+    },
+    {
+      "text": "framework is and you have to tell the",
+      "start": 493.52,
+      "duration": 5.76
+    },
+    {
+      "text": "Californian government whether or not",
+      "start": 496.96,
+      "duration": 5.04
+    },
+    {
+      "text": "you follow your safety framework. And",
+      "start": 499.28,
+      "duration": 6.24
+    },
+    {
+      "text": "the penalties here are quite modest. Um",
+      "start": 502.0,
+      "duration": 5.52
+    },
+    {
+      "text": "they are civil penalties, not criminal",
+      "start": 505.52,
+      "duration": 4.16
+    },
+    {
+      "text": "penalties. Uh so nobody's going to do",
+      "start": 507.52,
+      "duration": 6.8
+    },
+    {
+      "text": "jail time for this. and they also um max",
+      "start": 509.68,
+      "duration": 9.12
+    },
+    {
+      "text": "out at $1 million fines per violation.",
+      "start": 514.32,
+      "duration": 6.399
+    },
+    {
+      "text": "So, let's let's just like walk through",
+      "start": 518.8,
+      "duration": 4.64
+    },
+    {
+      "text": "an extreme example here. I I often think",
+      "start": 520.719,
+      "duration": 4.401
+    },
+    {
+      "text": "in extremes because it sort of",
+      "start": 523.44,
+      "duration": 4.48
+    },
+    {
+      "text": "highlights uh the boundary conditions of",
+      "start": 525.12,
+      "duration": 4.48
+    },
+    {
+      "text": "the situation. Let's imagine a",
+      "start": 527.92,
+      "duration": 4.479
+    },
+    {
+      "text": "hypothetical AI company called Evil AI.",
+      "start": 529.6,
+      "duration": 6.16
+    },
+    {
+      "text": "You know, not open AI. This is evil AI.",
+      "start": 532.399,
+      "duration": 4.641
+    },
+    {
+      "text": "Uh you know, they're they're not about",
+      "start": 535.76,
+      "duration": 3.6
+    },
+    {
+      "text": "openness, they're about evil. and they",
+      "start": 537.04,
+      "duration": 4.4
+    },
+    {
+      "text": "publish publish a safety framework and",
+      "start": 539.36,
+      "duration": 6.72
+    },
+    {
+      "text": "it says uh we're not going to do",
+      "start": 541.44,
+      "duration": 7.44
+    },
+    {
+      "text": "anything serious other than like have a",
+      "start": 546.08,
+      "duration": 6.48
+    },
+    {
+      "text": "staff meeting where we say safety is",
+      "start": 548.88,
+      "duration": 6.399
+    },
+    {
+      "text": "great and we should do it and they",
+      "start": 552.56,
+      "duration": 4.16
+    },
+    {
+      "text": "publish that as like their safety",
+      "start": 555.279,
+      "duration": 3.441
+    },
+    {
+      "text": "framework.",
+      "start": 556.72,
+      "duration": 4.48
+    },
+    {
+      "text": "Not necessarily anything bad um happens",
+      "start": 558.72,
+      "duration": 4.48
+    },
+    {
+      "text": "to them, right? like they could have a",
+      "start": 561.2,
+      "duration": 4.88
+    },
+    {
+      "text": "terrible plan for ensuring safety, but",
+      "start": 563.2,
+      "duration": 4.4
+    },
+    {
+      "text": "the thing is now it's going to go out on",
+      "start": 566.08,
+      "duration": 3.759
+    },
+    {
+      "text": "the internet and so the internet is",
+      "start": 567.6,
+      "duration": 4.96
+    },
+    {
+      "text": "going to see, okay, their safety plan is",
+      "start": 569.839,
+      "duration": 5.361
+    },
+    {
+      "text": "obviously a joke. And so a lot of the",
+      "start": 572.56,
+      "duration": 6.88
+    },
+    {
+      "text": "sanction is reputational or putting",
+      "start": 575.2,
+      "duration": 6.48
+    },
+    {
+      "text": "themselves at risk of additional",
+      "start": 579.44,
+      "duration": 4.72
+    },
+    {
+      "text": "legislation. You know, if basically the",
+      "start": 581.68,
+      "duration": 4.8
+    },
+    {
+      "text": "the California legislature sees that",
+      "start": 584.16,
+      "duration": 4.88
+    },
+    {
+      "text": "evil AIS, this hypothetical company's",
+      "start": 586.48,
+      "duration": 4.64
+    },
+    {
+      "text": "safety framework is we talk about it at",
+      "start": 589.04,
+      "duration": 3.919
+    },
+    {
+      "text": "one meeting per year and do literally",
+      "start": 591.12,
+      "duration": 3.68
+    },
+    {
+      "text": "nothing else. Well, then the California",
+      "start": 592.959,
+      "duration": 3.681
+    },
+    {
+      "text": "legislature can say to itself, okay, we",
+      "start": 594.8,
+      "duration": 3.84
+    },
+    {
+      "text": "tried to be nice to you guys, but",
+      "start": 596.64,
+      "duration": 4.8
+    },
+    {
+      "text": "clearly you have to be forced uh to take",
+      "start": 598.64,
+      "duration": 5.36
+    },
+    {
+      "text": "safety seriously. So, that's like one",
+      "start": 601.44,
+      "duration": 4.079
+    },
+    {
+      "text": "version of the sanction. The second",
+      "start": 604.0,
+      "duration": 5.2
+    },
+    {
+      "text": "version is imagine that evil AI um has a",
+      "start": 605.519,
+      "duration": 5.841
+    },
+    {
+      "text": "very robust safety plan, right? It's",
+      "start": 609.2,
+      "duration": 4.48
+    },
+    {
+      "text": "like, we're going to, you know, check",
+      "start": 611.36,
+      "duration": 5.76
+    },
+    {
+      "text": "everything a million times and at the",
+      "start": 613.68,
+      "duration": 5.2
+    },
+    {
+      "text": "slightest whiff of risk, we're going to",
+      "start": 617.12,
+      "duration": 3.04
+    },
+    {
+      "text": "shut everything down. Then they publish",
+      "start": 618.88,
+      "duration": 4.16
+    },
+    {
+      "text": "that online. If they don't abide by",
+      "start": 620.16,
+      "duration": 5.2
+    },
+    {
+      "text": "that, well, then the California State",
+      "start": 623.04,
+      "duration": 4.88
+    },
+    {
+      "text": "Attorney General can bring suits against",
+      "start": 625.36,
+      "duration": 4.8
+    },
+    {
+      "text": "them and find them up to a million",
+      "start": 627.92,
+      "duration": 4.56
+    },
+    {
+      "text": "dollar per violation. So, every time",
+      "start": 630.16,
+      "duration": 4.96
+    },
+    {
+      "text": "they're violating their internal safety",
+      "start": 632.48,
+      "duration": 4.56
+    },
+    {
+      "text": "protocols, um, they can be fined a",
+      "start": 635.12,
+      "duration": 3.44
+    },
+    {
+      "text": "million dollar. So if they're violating",
+      "start": 637.04,
+      "duration": 4.56
+    },
+    {
+      "text": "their own CP protocols that they wrote.",
+      "start": 638.56,
+      "duration": 4.64
+    },
+    {
+      "text": ">> Yes. Which is kind of interesting,",
+      "start": 641.6,
+      "duration": 3.76
+    },
+    {
+      "text": "right? So So it's trying to give",
+      "start": 643.2,
+      "duration": 5.12
+    },
+    {
+      "text": "self-regulation a little bit of teeth in",
+      "start": 645.36,
+      "duration": 5.44
+    },
+    {
+      "text": "this regard. Now, the teeth aren't that",
+      "start": 648.32,
+      "duration": 4.56
+    },
+    {
+      "text": "sharp, though, you could argue, because",
+      "start": 650.8,
+      "duration": 3.76
+    },
+    {
+      "text": "we're talking about a million dollar",
+      "start": 652.88,
+      "duration": 6.959
+    },
+    {
+      "text": "fine and Open AI and Anthropic and XAI",
+      "start": 654.56,
+      "duration": 8.32
+    },
+    {
+      "text": "are all, you know, they're all signing",
+      "start": 659.839,
+      "duration": 5.601
+    },
+    {
+      "text": "deals for data center construction in",
+      "start": 662.88,
+      "duration": 4.88
+    },
+    {
+      "text": "the tens or hundreds of billions of",
+      "start": 665.44,
+      "duration": 7.44
+    },
+    {
+      "text": "dollars. So, like $1 million fines, um,",
+      "start": 667.76,
+      "duration": 9.04
+    },
+    {
+      "text": "that is budget dust to them. So the",
+      "start": 672.88,
+      "duration": 7.28
+    },
+    {
+      "text": "monetary consequences of the fine are",
+      "start": 676.8,
+      "duration": 5.84
+    },
+    {
+      "text": "maybe not that big. But then again, it",
+      "start": 680.16,
+      "duration": 4.56
+    },
+    {
+      "text": "comes back to those reputational",
+      "start": 682.64,
+      "duration": 5.36
+    },
+    {
+      "text": "downsides, right? No company wants to",
+      "start": 684.72,
+      "duration": 6.72
+    },
+    {
+      "text": "see headlines called, you know, company",
+      "start": 688.0,
+      "duration": 7.2
+    },
+    {
+      "text": "X repeatedly, extensively violates its",
+      "start": 691.44,
+      "duration": 6.48
+    },
+    {
+      "text": "own internal safety protocols, you know,",
+      "start": 695.2,
+      "duration": 5.6
+    },
+    {
+      "text": "when it comes to catastrophic AI risk,",
+      "start": 697.92,
+      "duration": 5.039
+    },
+    {
+      "text": "etc., etc. And again you know those",
+      "start": 700.8,
+      "duration": 5.599
+    },
+    {
+      "text": "violations they have to be disclosed in",
+      "start": 702.959,
+      "duration": 6.32
+    },
+    {
+      "text": "an anonymized form where you try and not",
+      "start": 706.399,
+      "duration": 4.56
+    },
+    {
+      "text": "say you know which company experienced",
+      "start": 709.279,
+      "duration": 5.041
+    },
+    {
+      "text": "which safety incidents etc etc. um in an",
+      "start": 710.959,
+      "duration": 4.88
+    },
+    {
+      "text": "anonymous form is going to be published",
+      "start": 714.32,
+      "duration": 4.639
+    },
+    {
+      "text": "in an annual report. But you know the",
+      "start": 715.839,
+      "duration": 5.841
+    },
+    {
+      "text": "specific details of any incident can be",
+      "start": 718.959,
+      "duration": 5.681
+    },
+    {
+      "text": "referred by the office of emergency",
+      "start": 721.68,
+      "duration": 5.04
+    },
+    {
+      "text": "services which is sort of vaguely",
+      "start": 724.64,
+      "duration": 4.8
+    },
+    {
+      "text": "analogous to the California state",
+      "start": 726.72,
+      "duration": 4.4
+    },
+    {
+      "text": "equivalent of the department of homeland",
+      "start": 729.44,
+      "duration": 3.839
+    },
+    {
+      "text": "security. Um it has other functions as",
+      "start": 731.12,
+      "duration": 4.399
+    },
+    {
+      "text": "well but that that's a a a useful",
+      "start": 733.279,
+      "duration": 5.441
+    },
+    {
+      "text": "analogy. Um, so the Office of Emergency",
+      "start": 735.519,
+      "duration": 4.481
+    },
+    {
+      "text": "Services, which has some of the",
+      "start": 738.72,
+      "duration": 3.919
+    },
+    {
+      "text": "enforcement uh role in this legislation,",
+      "start": 740.0,
+      "duration": 4.959
+    },
+    {
+      "text": "and the California Attorney General,",
+      "start": 742.639,
+      "duration": 4.481
+    },
+    {
+      "text": "which has a big enforcement role in this",
+      "start": 744.959,
+      "duration": 5.921
+    },
+    {
+      "text": "legislation, they can now refer details",
+      "start": 747.12,
+      "duration": 6.159
+    },
+    {
+      "text": "of specific incidents to the California",
+      "start": 750.88,
+      "duration": 4.399
+    },
+    {
+      "text": "State Legislature. Right? So the public",
+      "start": 753.279,
+      "duration": 4.8
+    },
+    {
+      "text": "is going to get this anonymized report,",
+      "start": 755.279,
+      "duration": 5.12
+    },
+    {
+      "text": "but the California legislature might be",
+      "start": 758.079,
+      "duration": 4.081
+    },
+    {
+      "text": "getting the nitty-gritty details of",
+      "start": 760.399,
+      "duration": 3.921
+    },
+    {
+      "text": "every single violation, and that means",
+      "start": 762.16,
+      "duration": 4.56
+    },
+    {
+      "text": "they can use that to inform their",
+      "start": 764.32,
+      "duration": 4.4
+    },
+    {
+      "text": "decisions about future legislation.",
+      "start": 766.72,
+      "duration": 4.239
+    },
+    {
+      "text": "Also, you know, as anybody in Washington",
+      "start": 768.72,
+      "duration": 5.359
+    },
+    {
+      "text": "DC knows, once Congress knows about it,",
+      "start": 770.959,
+      "duration": 5.201
+    },
+    {
+      "text": "the odds that it's going to link leak to",
+      "start": 774.079,
+      "duration": 5.601
+    },
+    {
+      "text": "the media go way, way up. Um and so the",
+      "start": 776.16,
+      "duration": 5.04
+    },
+    {
+      "text": "same of course could be true at the",
+      "start": 779.68,
+      "duration": 3.12
+    },
+    {
+      "text": "California state level, right? Where",
+      "start": 781.2,
+      "duration": 4.96
+    },
+    {
+      "text": "where violations are disclosed to uh the",
+      "start": 782.8,
+      "duration": 5.36
+    },
+    {
+      "text": "the various California regulators, then",
+      "start": 786.16,
+      "duration": 3.52
+    },
+    {
+      "text": "to the the legislators and then the",
+      "start": 788.16,
+      "duration": 3.119
+    },
+    {
+      "text": "legislators make it out to the media. So",
+      "start": 789.68,
+      "duration": 3.279
+    },
+    {
+      "text": "that then comes back to the reputational",
+      "start": 791.279,
+      "duration": 4.721
+    },
+    {
+      "text": "sanction and the risk of additional uh",
+      "start": 792.959,
+      "duration": 5.761
+    },
+    {
+      "text": "legislative action. So on the one hand,",
+      "start": 796.0,
+      "duration": 4.56
+    },
+    {
+      "text": "you could argue, you know, these teeth",
+      "start": 798.72,
+      "duration": 4.0
+    },
+    {
+      "text": "aren't very sharp. $1 million fines",
+      "start": 800.56,
+      "duration": 3.92
+    },
+    {
+      "text": "aren't the end of the world for most of",
+      "start": 802.72,
+      "duration": 3.44
+    },
+    {
+      "text": "these companies. On the other hand, you",
+      "start": 804.48,
+      "duration": 3.44
+    },
+    {
+      "text": "could sort of say, well, we're starting",
+      "start": 806.16,
+      "duration": 3.52
+    },
+    {
+      "text": "from a much lower baseline, right? We're",
+      "start": 807.92,
+      "duration": 4.719
+    },
+    {
+      "text": "starting from not quite nothing. Uh, so",
+      "start": 809.68,
+      "duration": 4.8
+    },
+    {
+      "text": "this is something um and it's something",
+      "start": 812.639,
+      "duration": 3.521
+    },
+    {
+      "text": "that you could imagine that the",
+      "start": 814.48,
+      "duration": 3.68
+    },
+    {
+      "text": "companies involved would care about.",
+      "start": 816.16,
+      "duration": 3.6
+    },
+    {
+      "text": ">> So, we've talked a lot about like the",
+      "start": 818.16,
+      "duration": 3.04
+    },
+    {
+      "text": "penalties for not complying and who's",
+      "start": 819.76,
+      "duration": 3.36
+    },
+    {
+      "text": "enforcing this bill, but who does this",
+      "start": 821.2,
+      "duration": 3.6
+    },
+    {
+      "text": "actually apply to and under what",
+      "start": 823.12,
+      "duration": 4.24
+    },
+    {
+      "text": "conditions does it apply to them?",
+      "start": 824.8,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Yeah, this is a really important",
+      "start": 827.36,
+      "duration": 4.56
+    },
+    {
+      "text": "question. So there are carveouts that",
+      "start": 829.12,
+      "duration": 5.279
+    },
+    {
+      "text": "are designed to make this legislation",
+      "start": 831.92,
+      "duration": 4.88
+    },
+    {
+      "text": "apply to number one the types of",
+      "start": 834.399,
+      "duration": 4.961
+    },
+    {
+      "text": "organizations that can afford to comply",
+      "start": 836.8,
+      "duration": 5.52
+    },
+    {
+      "text": "with it and then also",
+      "start": 839.36,
+      "duration": 5.36
+    },
+    {
+      "text": "uh to people who are actually in a",
+      "start": 842.32,
+      "duration": 4.959
+    },
+    {
+      "text": "position to cause great harm. So the",
+      "start": 844.72,
+      "duration": 6.0
+    },
+    {
+      "text": "first thing is it only applies to uh the",
+      "start": 847.279,
+      "duration": 6.0
+    },
+    {
+      "text": "word in the California law is persons.",
+      "start": 850.72,
+      "duration": 4.799
+    },
+    {
+      "text": "Uh but persons under California law",
+      "start": 853.279,
+      "duration": 4.24
+    },
+    {
+      "text": "means much more than just people. A",
+      "start": 855.519,
+      "duration": 4.161
+    },
+    {
+      "text": "company can be a person, a nonprofit can",
+      "start": 857.519,
+      "duration": 4.641
+    },
+    {
+      "text": "be a person, etc. But it's persons who",
+      "start": 859.68,
+      "duration": 6.0
+    },
+    {
+      "text": "had more than $500 million in annual",
+      "start": 862.16,
+      "duration": 6.08
+    },
+    {
+      "text": "gross revenues the previous year. And",
+      "start": 865.68,
+      "duration": 6.32
+    },
+    {
+      "text": "it's focusing on frontier developers. So",
+      "start": 868.24,
+      "duration": 7.52
+    },
+    {
+      "text": "if you think about, by contrast, the EU",
+      "start": 872.0,
+      "duration": 7.6
+    },
+    {
+      "text": "AI act, the EU AI act has regulatory",
+      "start": 875.76,
+      "duration": 5.519
+    },
+    {
+      "text": "hooks that apply to the people who",
+      "start": 879.6,
+      "duration": 3.919
+    },
+    {
+      "text": "create models. It also has regulatory",
+      "start": 881.279,
+      "duration": 4.56
+    },
+    {
+      "text": "hooks that apply to the people who use",
+      "start": 883.519,
+      "duration": 4.88
+    },
+    {
+      "text": "models. This legislation is",
+      "start": 885.839,
+      "duration": 5.44
+    },
+    {
+      "text": "overwhelmingly focused on the developers",
+      "start": 888.399,
+      "duration": 5.841
+    },
+    {
+      "text": "of the models, so-called frontier model",
+      "start": 891.279,
+      "duration": 5.201
+    },
+    {
+      "text": "developers. And because of this $500",
+      "start": 894.24,
+      "duration": 5.039
+    },
+    {
+      "text": "million revenue position, um it's not",
+      "start": 896.48,
+      "duration": 5.359
+    },
+    {
+      "text": "applying to small startups. It's only",
+      "start": 899.279,
+      "duration": 4.481
+    },
+    {
+      "text": "applying to those who are doing",
+      "start": 901.839,
+      "duration": 4.24
+    },
+    {
+      "text": "something at a relevant scale.",
+      "start": 903.76,
+      "duration": 5.28
+    },
+    {
+      "text": ">> So, does this include AI labs as well?",
+      "start": 906.079,
+      "duration": 4.641
+    },
+    {
+      "text": ">> Yes, definitely. I mean, OpenAI is going",
+      "start": 909.04,
+      "duration": 3.28
+    },
+    {
+      "text": "to be hit, Anthropic's going to be hit,",
+      "start": 910.72,
+      "duration": 3.84
+    },
+    {
+      "text": "Google's going to be hit. Um,",
+      "start": 912.32,
+      "duration": 4.48
+    },
+    {
+      "text": "interestingly,",
+      "start": 914.56,
+      "duration": 4.639
+    },
+    {
+      "text": "uh, there are, you know, provisions in",
+      "start": 916.8,
+      "duration": 5.12
+    },
+    {
+      "text": "this dealing with open- source and open",
+      "start": 919.199,
+      "duration": 5.121
+    },
+    {
+      "text": "weight, uh, models, but none of them",
+      "start": 921.92,
+      "duration": 5.44
+    },
+    {
+      "text": "limit the applicability of this, uh,",
+      "start": 924.32,
+      "duration": 5.199
+    },
+    {
+      "text": "regulation. So, Meta will also be",
+      "start": 927.36,
+      "duration": 4.24
+    },
+    {
+      "text": "affected whether or not they are trying",
+      "start": 929.519,
+      "duration": 4.241
+    },
+    {
+      "text": "to sell their model. Even DeepSeek,",
+      "start": 931.6,
+      "duration": 4.0
+    },
+    {
+      "text": "Deepseek, the Chinese AI model",
+      "start": 933.76,
+      "duration": 4.639
+    },
+    {
+      "text": "developer, um because they're making it",
+      "start": 935.6,
+      "duration": 4.4
+    },
+    {
+      "text": "available to Californians, because",
+      "start": 938.399,
+      "duration": 4.8
+    },
+    {
+      "text": "they're deploying it in California, uh",
+      "start": 940.0,
+      "duration": 4.72
+    },
+    {
+      "text": "this would apply to them. And what's",
+      "start": 943.199,
+      "duration": 4.961
+    },
+    {
+      "text": "interesting is that $500 million revenue",
+      "start": 944.72,
+      "duration": 6.4
+    },
+    {
+      "text": "hook, it applies to the person or its",
+      "start": 948.16,
+      "duration": 4.72
+    },
+    {
+      "text": "affiliates. And so that means your",
+      "start": 951.12,
+      "duration": 3.68
+    },
+    {
+      "text": "corporate owners or your corporate",
+      "start": 952.88,
+      "duration": 4.399
+    },
+    {
+      "text": "subsidiaries. So, in Deepseek's case, I",
+      "start": 954.8,
+      "duration": 4.959
+    },
+    {
+      "text": "think Deepseek has very little revenue.",
+      "start": 957.279,
+      "duration": 4.0
+    },
+    {
+      "text": "Um, and certainly had very little",
+      "start": 959.759,
+      "duration": 4.401
+    },
+    {
+      "text": "revenue last year. Um, but Deepseek is a",
+      "start": 961.279,
+      "duration": 4.721
+    },
+    {
+      "text": "subsidiary of Highflyer Capital",
+      "start": 964.16,
+      "duration": 4.16
+    },
+    {
+      "text": "Management, a quantitative hedge fund in",
+      "start": 966.0,
+      "duration": 4.72
+    },
+    {
+      "text": "China that definitely makes a boatload",
+      "start": 968.32,
+      "duration": 5.28
+    },
+    {
+      "text": "of money. Um, and probably $500 million.",
+      "start": 970.72,
+      "duration": 4.239
+    },
+    {
+      "text": "That's why they could afford to start",
+      "start": 973.6,
+      "duration": 3.12
+    },
+    {
+      "text": "something like DeepSeek and not really",
+      "start": 974.959,
+      "duration": 4.161
+    },
+    {
+      "text": "need to go attract external financing in",
+      "start": 976.72,
+      "duration": 4.96
+    },
+    {
+      "text": "a significant degree. So that to me",
+      "start": 979.12,
+      "duration": 5.279
+    },
+    {
+      "text": "says, you know, theoretically Deepseek",
+      "start": 981.68,
+      "duration": 4.64
+    },
+    {
+      "text": "is going to have to publish, assuming",
+      "start": 984.399,
+      "duration": 2.961
+    },
+    {
+      "text": "they want to continue making their",
+      "start": 986.32,
+      "duration": 3.04
+    },
+    {
+      "text": "models available in California. Uh",
+      "start": 987.36,
+      "duration": 3.52
+    },
+    {
+      "text": "they're going to be legally required to",
+      "start": 989.36,
+      "duration": 3.44
+    },
+    {
+      "text": "disclose, you know, what is their safety",
+      "start": 990.88,
+      "duration": 3.84
+    },
+    {
+      "text": "plan. How are they, you know, going",
+      "start": 992.8,
+      "duration": 3.12
+    },
+    {
+      "text": "about it? And and they're going to have",
+      "start": 994.72,
+      "duration": 3.679
+    },
+    {
+      "text": "to have the same publish that openly on",
+      "start": 995.92,
+      "duration": 5.279
+    },
+    {
+      "text": "the web in a conspicuous manner, um",
+      "start": 998.399,
+      "duration": 4.641
+    },
+    {
+      "text": "etc., etc. So that is some really",
+      "start": 1001.199,
+      "duration": 4.32
+    },
+    {
+      "text": "interesting implications for who this",
+      "start": 1003.04,
+      "duration": 4.08
+    },
+    {
+      "text": "applies to.",
+      "start": 1005.519,
+      "duration": 3.361
+    },
+    {
+      "text": ">> Okay, Greg. So you've already talked",
+      "start": 1007.12,
+      "duration": 4.56
+    },
+    {
+      "text": "about um Frontier model developers who",
+      "start": 1008.88,
+      "duration": 4.56
+    },
+    {
+      "text": "meet the financial threshold. Can you",
+      "start": 1011.68,
+      "duration": 4.959
+    },
+    {
+      "text": "talk about other Frontier developers um",
+      "start": 1013.44,
+      "duration": 4.88
+    },
+    {
+      "text": "that maybe don't meet this threshold and",
+      "start": 1016.639,
+      "duration": 3.44
+    },
+    {
+      "text": "how it applies to them?",
+      "start": 1018.32,
+      "duration": 3.68
+    },
+    {
+      "text": ">> Yeah, so technically all Frontier",
+      "start": 1020.079,
+      "duration": 3.841
+    },
+    {
+      "text": "developers again, you know, making their",
+      "start": 1022.0,
+      "duration": 3.199
+    },
+    {
+      "text": "products available in California,",
+      "start": 1023.92,
+      "duration": 4.72
+    },
+    {
+      "text": "deploying in California, um do have some",
+      "start": 1025.199,
+      "duration": 5.521
+    },
+    {
+      "text": "obligations. I mean maybe maybe not a",
+      "start": 1028.64,
+      "duration": 3.6
+    },
+    {
+      "text": "Frontier model developer that's only",
+      "start": 1030.72,
+      "duration": 2.8
+    },
+    {
+      "text": "doing it for internal use. It's not",
+      "start": 1032.24,
+      "duration": 2.64
+    },
+    {
+      "text": "clear to me that that would be covered.",
+      "start": 1033.52,
+      "duration": 3.279
+    },
+    {
+      "text": "But if they're uh making it available",
+      "start": 1034.88,
+      "duration": 3.52
+    },
+    {
+      "text": "for public use, they do have some",
+      "start": 1036.799,
+      "duration": 3.441
+    },
+    {
+      "text": "requirements and those are transparency",
+      "start": 1038.4,
+      "duration": 3.919
+    },
+    {
+      "text": "requirements, but they don't go to the",
+      "start": 1040.24,
+      "duration": 3.76
+    },
+    {
+      "text": "same level of you have to publish a",
+      "start": 1042.319,
+      "duration": 4.24
+    },
+    {
+      "text": "safety framework, you have to tell us of",
+      "start": 1044.0,
+      "duration": 4.559
+    },
+    {
+      "text": "instances in which you violated your",
+      "start": 1046.559,
+      "duration": 6.0
+    },
+    {
+      "text": "safety framework, etc., etc. So that is",
+      "start": 1048.559,
+      "duration": 6.24
+    },
+    {
+      "text": "more about",
+      "start": 1052.559,
+      "duration": 3.761
+    },
+    {
+      "text": "inventorying",
+      "start": 1054.799,
+      "duration": 3.601
+    },
+    {
+      "text": "everybody in California who's doing this",
+      "start": 1056.32,
+      "duration": 3.84
+    },
+    {
+      "text": "stuff. like you have to tell us if you",
+      "start": 1058.4,
+      "duration": 4.0
+    },
+    {
+      "text": "are indeed a frontier model developer",
+      "start": 1060.16,
+      "duration": 4.879
+    },
+    {
+      "text": "versus telling us all the myriad ways in",
+      "start": 1062.4,
+      "duration": 4.639
+    },
+    {
+      "text": "which you're working to ensure that you",
+      "start": 1065.039,
+      "duration": 4.721
+    },
+    {
+      "text": "are safe that sort of those safety",
+      "start": 1067.039,
+      "duration": 5.361
+    },
+    {
+      "text": "transparency uh provisions I think are",
+      "start": 1069.76,
+      "duration": 4.24
+    },
+    {
+      "text": "more targeted at the large frontier",
+      "start": 1072.4,
+      "duration": 2.72
+    },
+    {
+      "text": "developers",
+      "start": 1074.0,
+      "duration": 4.559
+    },
+    {
+      "text": ">> all right um okay so what exactly is a",
+      "start": 1075.12,
+      "duration": 5.28
+    },
+    {
+      "text": "frontier model",
+      "start": 1078.559,
+      "duration": 4.161
+    },
+    {
+      "text": ">> yeah so like the regulation applies to",
+      "start": 1080.4,
+      "duration": 4.88
+    },
+    {
+      "text": "frontier developers aka developers of",
+      "start": 1082.72,
+      "duration": 5.199
+    },
+    {
+      "text": "frontier models logically implies like",
+      "start": 1085.28,
+      "duration": 5.68
+    },
+    {
+      "text": "what is a frontier model. And what's so",
+      "start": 1087.919,
+      "duration": 4.801
+    },
+    {
+      "text": "interesting here is that they have",
+      "start": 1090.96,
+      "duration": 4.56
+    },
+    {
+      "text": "defined it using a familiar definition.",
+      "start": 1092.72,
+      "duration": 4.88
+    },
+    {
+      "text": "Quote, a foundation model that was",
+      "start": 1095.52,
+      "duration": 4.159
+    },
+    {
+      "text": "trained using a quantity of computing",
+      "start": 1097.6,
+      "duration": 5.199
+    },
+    {
+      "text": "power greater than 10 the 26th integer",
+      "start": 1099.679,
+      "duration": 5.521
+    },
+    {
+      "text": "or floatingoint operations. Now that 10",
+      "start": 1102.799,
+      "duration": 4.401
+    },
+    {
+      "text": "to the 26th number, I think will be",
+      "start": 1105.2,
+      "duration": 4.24
+    },
+    {
+      "text": "familiar to many listeners of this",
+      "start": 1107.2,
+      "duration": 4.479
+    },
+    {
+      "text": "podcast because that is the same number",
+      "start": 1109.44,
+      "duration": 4.4
+    },
+    {
+      "text": "that was used in the Biden",
+      "start": 1111.679,
+      "duration": 4.561
+    },
+    {
+      "text": "administration's executive order. So",
+      "start": 1113.84,
+      "duration": 4.959
+    },
+    {
+      "text": "what they're basically saying is we we",
+      "start": 1116.24,
+      "duration": 6.48
+    },
+    {
+      "text": "think that safety risk is correlated",
+      "start": 1118.799,
+      "duration": 6.321
+    },
+    {
+      "text": "with intelligence, right? The smarter",
+      "start": 1122.72,
+      "duration": 5.04
+    },
+    {
+      "text": "something is, the theoretical, you know,",
+      "start": 1125.12,
+      "duration": 4.559
+    },
+    {
+      "text": "greater degree that something bad could",
+      "start": 1127.76,
+      "duration": 4.0
+    },
+    {
+      "text": "happen if that intelligence was put to",
+      "start": 1129.679,
+      "duration": 6.081
+    },
+    {
+      "text": "bad use. So they don't really have a a",
+      "start": 1131.76,
+      "duration": 6.96
+    },
+    {
+      "text": "perfect way of measuring the smartness",
+      "start": 1135.76,
+      "duration": 5.44
+    },
+    {
+      "text": "of a model. And so they're using this",
+      "start": 1138.72,
+      "duration": 5.199
+    },
+    {
+      "text": "imperfect proxy, which is how much",
+      "start": 1141.2,
+      "duration": 5.28
+    },
+    {
+      "text": "computing power was used during the",
+      "start": 1143.919,
+      "duration": 5.601
+    },
+    {
+      "text": "training phase. And just to be clear,",
+      "start": 1146.48,
+      "duration": 5.92
+    },
+    {
+      "text": "that really corresponds not to the",
+      "start": 1149.52,
+      "duration": 4.72
+    },
+    {
+      "text": "amount of computing power that was used",
+      "start": 1152.4,
+      "duration": 5.6
+    },
+    {
+      "text": "to train the original chat GPT. It's",
+      "start": 1154.24,
+      "duration": 7.28
+    },
+    {
+      "text": "really like one level beyond what was",
+      "start": 1158.0,
+      "duration": 4.799
+    },
+    {
+      "text": "available at the time of the Biden",
+      "start": 1161.52,
+      "duration": 3.039
+    },
+    {
+      "text": "administration executive order. So, what",
+      "start": 1162.799,
+      "duration": 3.441
+    },
+    {
+      "text": "they're sort of saying in the executive",
+      "start": 1164.559,
+      "duration": 3.681
+    },
+    {
+      "text": "order, they were saying, \"We don't want",
+      "start": 1166.24,
+      "duration": 3.6
+    },
+    {
+      "text": "these stipulations to apply to the",
+      "start": 1168.24,
+      "duration": 3.28
+    },
+    {
+      "text": "state-of-the-art now, but whatever the",
+      "start": 1169.84,
+      "duration": 2.88
+    },
+    {
+      "text": "state-of-the-art is going to be a year",
+      "start": 1171.52,
+      "duration": 2.72
+    },
+    {
+      "text": "from now, it's going to apply to you.\"",
+      "start": 1172.72,
+      "duration": 4.56
+    },
+    {
+      "text": "Well, now we're past that year, right?",
+      "start": 1174.24,
+      "duration": 5.2
+    },
+    {
+      "text": "So, this this applies to everything um",
+      "start": 1177.28,
+      "duration": 3.68
+    },
+    {
+      "text": "that is the state-of-the-art right now",
+      "start": 1179.44,
+      "duration": 4.479
+    },
+    {
+      "text": "is is using more than 10 to the 26th.",
+      "start": 1180.96,
+      "duration": 4.88
+    },
+    {
+      "text": "And it's it's interesting because it",
+      "start": 1183.919,
+      "duration": 4.321
+    },
+    {
+      "text": "contrasts with the EU AI act which had a",
+      "start": 1185.84,
+      "duration": 4.8
+    },
+    {
+      "text": "lot of their hooks applying at the 10 to",
+      "start": 1188.24,
+      "duration": 4.24
+    },
+    {
+      "text": "the 25th threshold because they did",
+      "start": 1190.64,
+      "duration": 3.6
+    },
+    {
+      "text": "explicitly want to say, \"Hey, this",
+      "start": 1192.48,
+      "duration": 3.92
+    },
+    {
+      "text": "applies to the stuff that's out uh right",
+      "start": 1194.24,
+      "duration": 5.04
+    },
+    {
+      "text": "now.\" So, I think it's also worth noting",
+      "start": 1196.4,
+      "duration": 5.44
+    },
+    {
+      "text": "that when we hosted Michael Katzios, the",
+      "start": 1199.28,
+      "duration": 3.759
+    },
+    {
+      "text": "director of the White House Office of",
+      "start": 1201.84,
+      "duration": 3.52
+    },
+    {
+      "text": "Science Technology Policy, one of his",
+      "start": 1203.039,
+      "duration": 5.441
+    },
+    {
+      "text": "criticisms of the Biden administration's",
+      "start": 1205.36,
+      "duration": 5.36
+    },
+    {
+      "text": "executive order was that use of the 10",
+      "start": 1208.48,
+      "duration": 4.72
+    },
+    {
+      "text": "to the 26th computing uh flops",
+      "start": 1210.72,
+      "duration": 3.839
+    },
+    {
+      "text": "threshold. He basically said, \"Look,",
+      "start": 1213.2,
+      "duration": 4.32
+    },
+    {
+      "text": "this is a obviously arbitrary number.",
+      "start": 1214.559,
+      "duration": 4.881
+    },
+    {
+      "text": "Like, how does that help us decide, you",
+      "start": 1217.52,
+      "duration": 3.44
+    },
+    {
+      "text": "know, who poses a safety risk and who",
+      "start": 1219.44,
+      "duration": 3.28
+    },
+    {
+      "text": "doesn't?\" And I heard from Biden",
+      "start": 1220.96,
+      "duration": 3.839
+    },
+    {
+      "text": "administration officials at the time and",
+      "start": 1222.72,
+      "duration": 4.72
+    },
+    {
+      "text": "they're like, \"We absolutely concede",
+      "start": 1224.799,
+      "duration": 5.521
+    },
+    {
+      "text": "that this is a highly imperfect number.",
+      "start": 1227.44,
+      "duration": 4.96
+    },
+    {
+      "text": "Um, if anybody has anything better,",
+      "start": 1230.32,
+      "duration": 4.0
+    },
+    {
+      "text": "you're welcome to tell us what it is. We",
+      "start": 1232.4,
+      "duration": 4.48
+    },
+    {
+      "text": "think this is good enough for right now",
+      "start": 1234.32,
+      "duration": 4.16
+    },
+    {
+      "text": "for what we're trying to cover.\" And",
+      "start": 1236.88,
+      "duration": 3.12
+    },
+    {
+      "text": "I've heard similar things from some of",
+      "start": 1238.48,
+      "duration": 3.92
+    },
+    {
+      "text": "the companies involved uh in in creating",
+      "start": 1240.0,
+      "duration": 5.28
+    },
+    {
+      "text": "these things that 10 the 26th is a",
+      "start": 1242.4,
+      "duration": 5.36
+    },
+    {
+      "text": "highly imperfect threshold uh but a",
+      "start": 1245.28,
+      "duration": 3.92
+    },
+    {
+      "text": "threshold that they understood and could",
+      "start": 1247.76,
+      "duration": 5.44
+    },
+    {
+      "text": "live with. So um here we are now that 10",
+      "start": 1249.2,
+      "duration": 6.56
+    },
+    {
+      "text": "to the 26th is being incorporated into",
+      "start": 1253.2,
+      "duration": 3.76
+    },
+    {
+      "text": "you know one of the most important",
+      "start": 1255.76,
+      "duration": 2.799
+    },
+    {
+      "text": "pieces of state AI regulatory",
+      "start": 1256.96,
+      "duration": 4.24
+    },
+    {
+      "text": "legislation that we've seen.",
+      "start": 1258.559,
+      "duration": 5.521
+    },
+    {
+      "text": ">> So why are people like Michael Katzios",
+      "start": 1261.2,
+      "duration": 5.04
+    },
+    {
+      "text": "and the Trump administration having such",
+      "start": 1264.08,
+      "duration": 5.44
+    },
+    {
+      "text": "problems with 10 to the 26 flops um",
+      "start": 1266.24,
+      "duration": 6.96
+    },
+    {
+      "text": "being the benchmark especially if uh the",
+      "start": 1269.52,
+      "duration": 7.44
+    },
+    {
+      "text": "EU AI act is using 10 to the 25th.",
+      "start": 1273.2,
+      "duration": 7.12
+    },
+    {
+      "text": "So I think you know Katzios uh I I have",
+      "start": 1276.96,
+      "duration": 5.68
+    },
+    {
+      "text": "the transcript of the conversation here",
+      "start": 1280.32,
+      "duration": 5.2
+    },
+    {
+      "text": "in front of me and his line he has he",
+      "start": 1282.64,
+      "duration": 6.56
+    },
+    {
+      "text": "has a few things. Number one is quote it",
+      "start": 1285.52,
+      "duration": 6.399
+    },
+    {
+      "text": "set very weird arbitrary limits around",
+      "start": 1289.2,
+      "duration": 5.76
+    },
+    {
+      "text": "pre-eployment testing of AI models and",
+      "start": 1291.919,
+      "duration": 5.601
+    },
+    {
+      "text": "it created this sort of fear in the AI",
+      "start": 1294.96,
+      "duration": 3.92
+    },
+    {
+      "text": "community that the government was going",
+      "start": 1297.52,
+      "duration": 3.44
+    },
+    {
+      "text": "to come down and overly regulate this",
+      "start": 1298.88,
+      "duration": 5.2
+    },
+    {
+      "text": "technology. So I think there is he has",
+      "start": 1300.96,
+      "duration": 5.28
+    },
+    {
+      "text": "two big criticisms. Number one is that",
+      "start": 1304.08,
+      "duration": 4.24
+    },
+    {
+      "text": "the B administration was overly focused",
+      "start": 1306.24,
+      "duration": 4.48
+    },
+    {
+      "text": "on fear. In fact, he said, quote, \"Fear",
+      "start": 1308.32,
+      "duration": 4.64
+    },
+    {
+      "text": "was what led almost all of their policy",
+      "start": 1310.72,
+      "duration": 4.16
+    },
+    {
+      "text": "decisions.\" End quote. And then the",
+      "start": 1312.96,
+      "duration": 4.24
+    },
+    {
+      "text": "second thing is that the rules and the",
+      "start": 1314.88,
+      "duration": 4.32
+    },
+    {
+      "text": "limits uh around which they dealt with",
+      "start": 1317.2,
+      "duration": 4.8
+    },
+    {
+      "text": "that were like arbitrary, which is to",
+      "start": 1319.2,
+      "duration": 4.479
+    },
+    {
+      "text": "say, you know, you you could draw the",
+      "start": 1322.0,
+      "duration": 4.159
+    },
+    {
+      "text": "line at 10 to the 26th flops. Why don't",
+      "start": 1323.679,
+      "duration": 4.321
+    },
+    {
+      "text": "you draw it at 10 to the 27th flops? Why",
+      "start": 1326.159,
+      "duration": 3.281
+    },
+    {
+      "text": "don't you draw it at 10 to the 25th",
+      "start": 1328.0,
+      "duration": 2.32
+    },
+    {
+      "text": "flops?",
+      "start": 1329.44,
+      "duration": 2.32
+    },
+    {
+      "text": ">> Um and so his point was like, look,",
+      "start": 1330.32,
+      "duration": 2.88
+    },
+    {
+      "text": "that's just an arbitrary threshold. And",
+      "start": 1331.76,
+      "duration": 3.12
+    },
+    {
+      "text": "I think the Biden administration would",
+      "start": 1333.2,
+      "duration": 4.32
+    },
+    {
+      "text": "concede, yes, it's an arbitrary",
+      "start": 1334.88,
+      "duration": 4.4
+    },
+    {
+      "text": "threshold. All we're really sort of",
+      "start": 1337.52,
+      "duration": 3.519
+    },
+    {
+      "text": "saying is we're trying to capture that",
+      "start": 1339.28,
+      "duration": 3.759
+    },
+    {
+      "text": "we're interested in stateofthe-art",
+      "start": 1341.039,
+      "duration": 4.561
+    },
+    {
+      "text": "models. And 10 to the 26th at the time",
+      "start": 1343.039,
+      "duration": 4.081
+    },
+    {
+      "text": "the Biden administration was drafting",
+      "start": 1345.6,
+      "duration": 4.4
+    },
+    {
+      "text": "that EO represented what was expected to",
+      "start": 1347.12,
+      "duration": 5.84
+    },
+    {
+      "text": "be the next generation state-of-the-art.",
+      "start": 1350.0,
+      "duration": 4.799
+    },
+    {
+      "text": "So not the current generation",
+      "start": 1352.96,
+      "duration": 4.079
+    },
+    {
+      "text": "state-of-the-art. And I think it's also",
+      "start": 1354.799,
+      "duration": 3.841
+    },
+    {
+      "text": "worth noting that in this California",
+      "start": 1357.039,
+      "duration": 4.0
+    },
+    {
+      "text": "legislation, they specifically say, you",
+      "start": 1358.64,
+      "duration": 4.8
+    },
+    {
+      "text": "know, that this threshold should be",
+      "start": 1361.039,
+      "duration": 5.361
+    },
+    {
+      "text": "evaluated again and potentially updated",
+      "start": 1363.44,
+      "duration": 6.32
+    },
+    {
+      "text": "on an annual basis. So, it's the job of",
+      "start": 1366.4,
+      "duration": 5.84
+    },
+    {
+      "text": "the California government's executive",
+      "start": 1369.76,
+      "duration": 5.84
+    },
+    {
+      "text": "branch to sort of say, hey, like even my",
+      "start": 1372.24,
+      "duration": 5.84
+    },
+    {
+      "text": "children's calculator now was trained on",
+      "start": 1375.6,
+      "duration": 4.559
+    },
+    {
+      "text": "10 26 flops. Are we really sure this,",
+      "start": 1378.08,
+      "duration": 4.4
+    },
+    {
+      "text": "you know, merits these kind of uh fancy",
+      "start": 1380.159,
+      "duration": 4.481
+    },
+    {
+      "text": "evaluations? maybe we should raise the",
+      "start": 1382.48,
+      "duration": 4.24
+    },
+    {
+      "text": "threshold to something more significant.",
+      "start": 1384.64,
+      "duration": 3.76
+    },
+    {
+      "text": "Um, they can do that, but it does",
+      "start": 1386.72,
+      "duration": 3.839
+    },
+    {
+      "text": "require the legislation being updated.",
+      "start": 1388.4,
+      "duration": 4.08
+    },
+    {
+      "text": "So, the the executive branch can't do it",
+      "start": 1390.559,
+      "duration": 3.681
+    },
+    {
+      "text": "by themselves. The legislature will have",
+      "start": 1392.48,
+      "duration": 3.199
+    },
+    {
+      "text": "to update the threshold, but the",
+      "start": 1394.24,
+      "duration": 3.439
+    },
+    {
+      "text": "executive branch is instructed to make",
+      "start": 1395.679,
+      "duration": 3.761
+    },
+    {
+      "text": "recommendations on that on an annual",
+      "start": 1397.679,
+      "duration": 2.561
+    },
+    {
+      "text": "basis.",
+      "start": 1399.44,
+      "duration": 2.239
+    },
+    {
+      "text": ">> Okay. Thanks for explaining that. It's",
+      "start": 1400.24,
+      "duration": 3.76
+    },
+    {
+      "text": "really helpful to understand. Um, I kind",
+      "start": 1401.679,
+      "duration": 4.88
+    },
+    {
+      "text": "of want to shift gears a little bit. um",
+      "start": 1404.0,
+      "duration": 5.12
+    },
+    {
+      "text": "and ask you about what other interesting",
+      "start": 1406.559,
+      "duration": 5.921
+    },
+    {
+      "text": "policies SB53 introduces and what else",
+      "start": 1409.12,
+      "duration": 5.12
+    },
+    {
+      "text": "you found interesting about these",
+      "start": 1412.48,
+      "duration": 4.8
+    },
+    {
+      "text": "transparency acts um that you want to",
+      "start": 1414.24,
+      "duration": 4.0
+    },
+    {
+      "text": "highlight.",
+      "start": 1417.28,
+      "duration": 2.639
+    },
+    {
+      "text": ">> Yeah, so I think there's a there's like",
+      "start": 1418.24,
+      "duration": 3.36
+    },
+    {
+      "text": "so many things that it's just sort of",
+      "start": 1419.919,
+      "duration": 4.24
+    },
+    {
+      "text": "occurring to me that we're going to know",
+      "start": 1421.6,
+      "duration": 6.4
+    },
+    {
+      "text": "uh in not too long. Um you know one",
+      "start": 1424.159,
+      "duration": 6.241
+    },
+    {
+      "text": "thing is that it instructs everybody to",
+      "start": 1428.0,
+      "duration": 5.919
+    },
+    {
+      "text": "make clear in their published safety",
+      "start": 1430.4,
+      "duration": 6.88
+    },
+    {
+      "text": "frameworks whether and how they are",
+      "start": 1433.919,
+      "duration": 6.481
+    },
+    {
+      "text": "drawing upon uh national standards and",
+      "start": 1437.28,
+      "duration": 5.68
+    },
+    {
+      "text": "international standards. So there are",
+      "start": 1440.4,
+      "duration": 6.48
+    },
+    {
+      "text": "some really big um standards that loom",
+      "start": 1442.96,
+      "duration": 6.0
+    },
+    {
+      "text": "large in industry and that industry has",
+      "start": 1446.88,
+      "duration": 4.72
+    },
+    {
+      "text": "been a part of creating and that to me",
+      "start": 1448.96,
+      "duration": 4.0
+    },
+    {
+      "text": "you know one that stands out of course",
+      "start": 1451.6,
+      "duration": 5.439
+    },
+    {
+      "text": "is the NIST AI risk management framework",
+      "start": 1452.96,
+      "duration": 6.719
+    },
+    {
+      "text": "um that NIST you know used an industry",
+      "start": 1457.039,
+      "duration": 4.481
+    },
+    {
+      "text": "consortium and an academic consortium",
+      "start": 1459.679,
+      "duration": 3.521
+    },
+    {
+      "text": "took a long time with a big working",
+      "start": 1461.52,
+      "duration": 3.279
+    },
+    {
+      "text": "group trying to come up with that. It",
+      "start": 1463.2,
+      "duration": 3.92
+    },
+    {
+      "text": "was roundly praised by many many",
+      "start": 1464.799,
+      "duration": 4.801
+    },
+    {
+      "text": "companies and now these transparency",
+      "start": 1467.12,
+      "duration": 5.039
+    },
+    {
+      "text": "requirements should give us you know a",
+      "start": 1469.6,
+      "duration": 4.48
+    },
+    {
+      "text": "novel degree of insight into what",
+      "start": 1472.159,
+      "duration": 4.4
+    },
+    {
+      "text": "actually implementing that looks like in",
+      "start": 1474.08,
+      "duration": 5.199
+    },
+    {
+      "text": "practice. Um the other thing is it's",
+      "start": 1476.559,
+      "duration": 6.161
+    },
+    {
+      "text": "trying to guide standardization of this",
+      "start": 1479.279,
+      "duration": 6.801
+    },
+    {
+      "text": "transparency reporting. So, you know,",
+      "start": 1482.72,
+      "duration": 4.8
+    },
+    {
+      "text": "again, you could have a company like",
+      "start": 1486.08,
+      "duration": 3.839
+    },
+    {
+      "text": "Evil AI Co. which says like here's our",
+      "start": 1487.52,
+      "duration": 4.639
+    },
+    {
+      "text": "published safety framework and all it",
+      "start": 1489.919,
+      "duration": 4.64
+    },
+    {
+      "text": "says is we are really safe, you know,",
+      "start": 1492.159,
+      "duration": 3.601
+    },
+    {
+      "text": "like you know, it's basically a",
+      "start": 1494.559,
+      "duration": 3.12
+    },
+    {
+      "text": "marketing document as opposed to a",
+      "start": 1495.76,
+      "duration": 5.36
+    },
+    {
+      "text": "substantive process um implementation",
+      "start": 1497.679,
+      "duration": 6.721
+    },
+    {
+      "text": "document. And I think the the hope here",
+      "start": 1501.12,
+      "duration": 6.32
+    },
+    {
+      "text": "is that there's going to be sort of a a",
+      "start": 1504.4,
+      "duration": 5.36
+    },
+    {
+      "text": "growth in industry consensus either",
+      "start": 1507.44,
+      "duration": 4.08
+    },
+    {
+      "text": "around these kinds of standards or",
+      "start": 1509.76,
+      "duration": 5.36
+    },
+    {
+      "text": "industry best practices uh for that. So",
+      "start": 1511.52,
+      "duration": 6.159
+    },
+    {
+      "text": "we can sort of say this is what good",
+      "start": 1515.12,
+      "duration": 4.32
+    },
+    {
+      "text": "looks like, this is, you know, not what",
+      "start": 1517.679,
+      "duration": 3.841
+    },
+    {
+      "text": "looks like. We're also going to learn",
+      "start": 1519.44,
+      "duration": 4.0
+    },
+    {
+      "text": "about implementation of things that are",
+      "start": 1521.52,
+      "duration": 3.759
+    },
+    {
+      "text": "international. So a lot of companies",
+      "start": 1523.44,
+      "duration": 4.719
+    },
+    {
+      "text": "have signed up to various parts of the",
+      "start": 1525.279,
+      "duration": 5.841
+    },
+    {
+      "text": "EU AI act code of practice. What's",
+      "start": 1528.159,
+      "duration": 4.561
+    },
+    {
+      "text": "interesting is, you know, even though",
+      "start": 1531.12,
+      "duration": 3.039
+    },
+    {
+      "text": "this is a California piece of",
+      "start": 1532.72,
+      "duration": 3.92
+    },
+    {
+      "text": "legislation, the companies are required",
+      "start": 1534.159,
+      "duration": 4.241
+    },
+    {
+      "text": "to disclose how they're going about",
+      "start": 1536.64,
+      "duration": 3.2
+    },
+    {
+      "text": "implementing that. So, we're going to",
+      "start": 1538.4,
+      "duration": 4.32
+    },
+    {
+      "text": "learn what it looks like, uh, to a",
+      "start": 1539.84,
+      "duration": 4.24
+    },
+    {
+      "text": "greater degree than I think we probably",
+      "start": 1542.72,
+      "duration": 3.12
+    },
+    {
+      "text": "would have otherwise, what it looks like",
+      "start": 1544.08,
+      "duration": 3.92
+    },
+    {
+      "text": "to implement the EUAI Act code of",
+      "start": 1545.84,
+      "duration": 4.88
+    },
+    {
+      "text": "practice, um, which is a big, you know,",
+      "start": 1548.0,
+      "duration": 4.559
+    },
+    {
+      "text": "important regulatory piece. I I I talked",
+      "start": 1550.72,
+      "duration": 4.319
+    },
+    {
+      "text": "about how the teeth of this law are",
+      "start": 1552.559,
+      "duration": 4.72
+    },
+    {
+      "text": "comparatively dull because it only has",
+      "start": 1555.039,
+      "duration": 5.12
+    },
+    {
+      "text": "$1 million fines. Well, the EU AI act,",
+      "start": 1557.279,
+      "duration": 4.64
+    },
+    {
+      "text": "you know, some provisions of it can find",
+      "start": 1560.159,
+      "duration": 4.64
+    },
+    {
+      "text": "you up to 7% of annual turnover, which",
+      "start": 1561.919,
+      "duration": 5.12
+    },
+    {
+      "text": "is like vaguely analogous to revenue.",
+      "start": 1564.799,
+      "duration": 4.161
+    },
+    {
+      "text": "Um, so that is big, very, very, very",
+      "start": 1567.039,
+      "duration": 4.481
+    },
+    {
+      "text": "sharp teeth. And, uh, what this means is",
+      "start": 1568.96,
+      "duration": 6.48
+    },
+    {
+      "text": "that California government officials are",
+      "start": 1571.52,
+      "duration": 5.519
+    },
+    {
+      "text": "going to have a remarkable amount of",
+      "start": 1575.44,
+      "duration": 4.0
+    },
+    {
+      "text": "information about what's going on inside",
+      "start": 1577.039,
+      "duration": 5.601
+    },
+    {
+      "text": "of these companies. um in a way that",
+      "start": 1579.44,
+      "duration": 5.599
+    },
+    {
+      "text": "like Europe's government is going to get",
+      "start": 1582.64,
+      "duration": 4.48
+    },
+    {
+      "text": "a lot of information around what's going",
+      "start": 1585.039,
+      "duration": 4.401
+    },
+    {
+      "text": "on inside these companies, but the US",
+      "start": 1587.12,
+      "duration": 4.559
+    },
+    {
+      "text": "federal government is not. And so I",
+      "start": 1589.44,
+      "duration": 4.0
+    },
+    {
+      "text": "think that's one of the interesting",
+      "start": 1591.679,
+      "duration": 4.721
+    },
+    {
+      "text": "outcomes of transparency uh provisions",
+      "start": 1593.44,
+      "duration": 4.64
+    },
+    {
+      "text": "like this is I think we're just in a",
+      "start": 1596.4,
+      "duration": 4.56
+    },
+    {
+      "text": "position to see under the hood in a way",
+      "start": 1598.08,
+      "duration": 6.079
+    },
+    {
+      "text": "that we couldn't. Um we we'll talk about",
+      "start": 1600.96,
+      "duration": 4.959
+    },
+    {
+      "text": "this more I'm sure but I I also think",
+      "start": 1604.159,
+      "duration": 4.721
+    },
+    {
+      "text": "it's worth noting that like anthropic",
+      "start": 1605.919,
+      "duration": 5.921
+    },
+    {
+      "text": "uh which is a very prominent uh frontier",
+      "start": 1608.88,
+      "duration": 5.12
+    },
+    {
+      "text": "AI model developer very publicly and",
+      "start": 1611.84,
+      "duration": 4.56
+    },
+    {
+      "text": "loudly supported this legislation. They",
+      "start": 1614.0,
+      "duration": 6.0
+    },
+    {
+      "text": "almost supported SB 1047 although they",
+      "start": 1616.4,
+      "duration": 5.92
+    },
+    {
+      "text": "said you know it needed amendments. Um,",
+      "start": 1620.0,
+      "duration": 4.48
+    },
+    {
+      "text": "but this is a company that was founded",
+      "start": 1622.32,
+      "duration": 4.0
+    },
+    {
+      "text": "in part by a group of people who quit",
+      "start": 1624.48,
+      "duration": 4.72
+    },
+    {
+      "text": "OpenAI over debates about issues of AI",
+      "start": 1626.32,
+      "duration": 4.56
+    },
+    {
+      "text": "safety and whether or not OpenAI was",
+      "start": 1629.2,
+      "duration": 4.4
+    },
+    {
+      "text": "going far enough uh to be safe.",
+      "start": 1630.88,
+      "duration": 5.12
+    },
+    {
+      "text": "Anthropic CEO Dario Amodai has sort of",
+      "start": 1633.6,
+      "duration": 4.24
+    },
+    {
+      "text": "said that he wanted to create a race to",
+      "start": 1636.0,
+      "duration": 5.36
+    },
+    {
+      "text": "the top in AI safety. And it's",
+      "start": 1637.84,
+      "duration": 5.839
+    },
+    {
+      "text": "interesting you can you can sort of see",
+      "start": 1641.36,
+      "duration": 4.88
+    },
+    {
+      "text": "um their fingerprints on this",
+      "start": 1643.679,
+      "duration": 6.0
+    },
+    {
+      "text": "legislation because in one mind an",
+      "start": 1646.24,
+      "duration": 5.28
+    },
+    {
+      "text": "analogy that comes to mind for me is",
+      "start": 1649.679,
+      "duration": 6.24
+    },
+    {
+      "text": "Amazon. Um Amazon uh for a long time was",
+      "start": 1651.52,
+      "duration": 7.039
+    },
+    {
+      "text": "not supportive of increasing the federal",
+      "start": 1655.919,
+      "duration": 5.201
+    },
+    {
+      "text": "minimum wage. And then Amazon was having",
+      "start": 1658.559,
+      "duration": 5.6
+    },
+    {
+      "text": "a lot a big problem recruiting enough",
+      "start": 1661.12,
+      "duration": 6.0
+    },
+    {
+      "text": "people to staff its fulfillment centers",
+      "start": 1664.159,
+      "duration": 4.88
+    },
+    {
+      "text": "to handle, you know, like the Christmas",
+      "start": 1667.12,
+      "duration": 6.72
+    },
+    {
+      "text": "holiday uh rush. And so one day Amazon",
+      "start": 1669.039,
+      "duration": 6.88
+    },
+    {
+      "text": "increased their corporate minimum wage",
+      "start": 1673.84,
+      "duration": 4.48
+    },
+    {
+      "text": "to $15 an hour, which at the time was",
+      "start": 1675.919,
+      "duration": 4.88
+    },
+    {
+      "text": "more than twice the federal minimum",
+      "start": 1678.32,
+      "duration": 4.479
+    },
+    {
+      "text": "wage. And what's so interesting is that",
+      "start": 1680.799,
+      "duration": 4.401
+    },
+    {
+      "text": "as soon as they did that, they said,",
+      "start": 1682.799,
+      "duration": 4.081
+    },
+    {
+      "text": "\"And also we support increasing the",
+      "start": 1685.2,
+      "duration": 4.16
+    },
+    {
+      "text": "federal minimum wage to $15 an hour.\"",
+      "start": 1686.88,
+      "duration": 4.0
+    },
+    {
+      "text": "Right? So they're like, \"Once we're",
+      "start": 1689.36,
+      "duration": 4.24
+    },
+    {
+      "text": "incurring the costs already, we want all",
+      "start": 1690.88,
+      "duration": 5.12
+    },
+    {
+      "text": "of our competitors to also be incurring",
+      "start": 1693.6,
+      "duration": 4.559
+    },
+    {
+      "text": "the cost.\" And I think one way of",
+      "start": 1696.0,
+      "duration": 3.76
+    },
+    {
+      "text": "thinking about this piece of legislation",
+      "start": 1698.159,
+      "duration": 3.841
+    },
+    {
+      "text": "is at least from from the perspective of",
+      "start": 1699.76,
+      "duration": 5.279
+    },
+    {
+      "text": "a company like Anthropic is we are",
+      "start": 1702.0,
+      "duration": 5.84
+    },
+    {
+      "text": "bearing a lot of costs trying to be",
+      "start": 1705.039,
+      "duration": 5.601
+    },
+    {
+      "text": "safer. Um, and there are reasons why we",
+      "start": 1707.84,
+      "duration": 4.319
+    },
+    {
+      "text": "do that that are aligned with our",
+      "start": 1710.64,
+      "duration": 2.96
+    },
+    {
+      "text": "corporate best interests, right? Which",
+      "start": 1712.159,
+      "duration": 5.201
+    },
+    {
+      "text": "is basically reliability and safety have",
+      "start": 1713.6,
+      "duration": 6.319
+    },
+    {
+      "text": "very similar technical requirements and",
+      "start": 1717.36,
+      "duration": 4.96
+    },
+    {
+      "text": "customers who want reliability are going",
+      "start": 1719.919,
+      "duration": 4.24
+    },
+    {
+      "text": "to probably like a lot of the features",
+      "start": 1722.32,
+      "duration": 3.92
+    },
+    {
+      "text": "that Anthropic has deployed, I think,",
+      "start": 1724.159,
+      "duration": 3.601
+    },
+    {
+      "text": "would be their sort of self-interested",
+      "start": 1726.24,
+      "duration": 3.12
+    },
+    {
+      "text": "argument for why they care a lot about",
+      "start": 1727.76,
+      "duration": 3.6
+    },
+    {
+      "text": "safety. Um, but there's also the",
+      "start": 1729.36,
+      "duration": 5.12
+    },
+    {
+      "text": "societal part of AI safety, like the",
+      "start": 1731.36,
+      "duration": 5.28
+    },
+    {
+      "text": "risk of, you know, accidentally helping",
+      "start": 1734.48,
+      "duration": 4.72
+    },
+    {
+      "text": "bad people create boweapons or really",
+      "start": 1736.64,
+      "duration": 5.039
+    },
+    {
+      "text": "powerful cyber weapons, etc., etc. And",
+      "start": 1739.2,
+      "duration": 5.599
+    },
+    {
+      "text": "their anthropic doesn't want to be alone",
+      "start": 1741.679,
+      "duration": 6.801
+    },
+    {
+      "text": "in incurring those costs of safety. They",
+      "start": 1744.799,
+      "duration": 6.321
+    },
+    {
+      "text": "want their competitors to also be",
+      "start": 1748.48,
+      "duration": 4.4
+    },
+    {
+      "text": "incurring those costs and taking safety",
+      "start": 1751.12,
+      "duration": 3.2
+    },
+    {
+      "text": "seriously. And so that's how",
+      "start": 1752.88,
+      "duration": 4.0
+    },
+    {
+      "text": "legislation, you know, such as this",
+      "start": 1754.32,
+      "duration": 4.88
+    },
+    {
+      "text": "doesn't force every company to be way",
+      "start": 1756.88,
+      "duration": 6.32
+    },
+    {
+      "text": "way safer, but it does help force, I",
+      "start": 1759.2,
+      "duration": 6.079
+    },
+    {
+      "text": "think it's fair to say, companies be",
+      "start": 1763.2,
+      "duration": 4.56
+    },
+    {
+      "text": "honest about the extent to which their",
+      "start": 1765.279,
+      "duration": 6.0
+    },
+    {
+      "text": "safety practices are less robust than uh",
+      "start": 1767.76,
+      "duration": 5.84
+    },
+    {
+      "text": "hypothetically somebody like Anthropic.",
+      "start": 1771.279,
+      "duration": 5.841
+    },
+    {
+      "text": "So, I'm seeing a lot of comparisons and",
+      "start": 1773.6,
+      "duration": 6.559
+    },
+    {
+      "text": "similarities between this policy and the",
+      "start": 1777.12,
+      "duration": 6.24
+    },
+    {
+      "text": "EU AI act, which is obviously um highly",
+      "start": 1780.159,
+      "duration": 7.601
+    },
+    {
+      "text": "debated uh in the US right now. So, how",
+      "start": 1783.36,
+      "duration": 6.64
+    },
+    {
+      "text": "have AI companies and other stakeholders",
+      "start": 1787.76,
+      "duration": 6.72
+    },
+    {
+      "text": "reacted to SB53 so far?",
+      "start": 1790.0,
+      "duration": 6.72
+    },
+    {
+      "text": ">> Well, I think there's been a diversity",
+      "start": 1794.48,
+      "duration": 6.799
+    },
+    {
+      "text": "of opinions. um but all of them are best",
+      "start": 1796.72,
+      "duration": 8.72
+    },
+    {
+      "text": "understood in comparison with SB 1047.",
+      "start": 1801.279,
+      "duration": 7.041
+    },
+    {
+      "text": "So there are people who opposed SB uh",
+      "start": 1805.44,
+      "duration": 4.8
+    },
+    {
+      "text": "1053, people in organizations who",
+      "start": 1808.32,
+      "duration": 3.839
+    },
+    {
+      "text": "opposed it. So for example, the venture",
+      "start": 1810.24,
+      "duration": 4.799
+    },
+    {
+      "text": "capital firm A16Z",
+      "start": 1812.159,
+      "duration": 6.0
+    },
+    {
+      "text": "uh which is headed by Mark Andreasen.",
+      "start": 1815.039,
+      "duration": 5.601
+    },
+    {
+      "text": "um they've had people come out opposing",
+      "start": 1818.159,
+      "duration": 5.681
+    },
+    {
+      "text": "SB uh SB53 saying it's still too",
+      "start": 1820.64,
+      "duration": 5.759
+    },
+    {
+      "text": "ownorous, it's still too early to have",
+      "start": 1823.84,
+      "duration": 5.28
+    },
+    {
+      "text": "this kind of regulation um and outright",
+      "start": 1826.399,
+      "duration": 4.561
+    },
+    {
+      "text": "opposing it. But what's interesting is",
+      "start": 1829.12,
+      "duration": 4.48
+    },
+    {
+      "text": "that there was a lot of people who",
+      "start": 1830.96,
+      "duration": 5.36
+    },
+    {
+      "text": "opposed SB1047",
+      "start": 1833.6,
+      "duration": 6.319
+    },
+    {
+      "text": "who were silent on the SB53 debate. So,",
+      "start": 1836.32,
+      "duration": 5.76
+    },
+    {
+      "text": "I think you saw companies like Google",
+      "start": 1839.919,
+      "duration": 7.12
+    },
+    {
+      "text": "which explicitly opposed um SB1047",
+      "start": 1842.08,
+      "duration": 6.56
+    },
+    {
+      "text": "uh saying it, you know, goes too far,",
+      "start": 1847.039,
+      "duration": 3.681
+    },
+    {
+      "text": "it's it's too much. Um and then we're",
+      "start": 1848.64,
+      "duration": 4.96
+    },
+    {
+      "text": "silent in the SB53 debate, which I think",
+      "start": 1850.72,
+      "duration": 7.12
+    },
+    {
+      "text": "is noteworthy. Um and then you also uh",
+      "start": 1853.6,
+      "duration": 6.64
+    },
+    {
+      "text": "have folks like Anthropic who are loudly",
+      "start": 1857.84,
+      "duration": 4.8
+    },
+    {
+      "text": "endorsing it and they were close to",
+      "start": 1860.24,
+      "duration": 4.64
+    },
+    {
+      "text": "supporting SB1047",
+      "start": 1862.64,
+      "duration": 5.2
+    },
+    {
+      "text": "um but did not and they have this time.",
+      "start": 1864.88,
+      "duration": 4.72
+    },
+    {
+      "text": "And I think perhaps one of the most",
+      "start": 1867.84,
+      "duration": 4.079
+    },
+    {
+      "text": "interesting endorsements uh in the",
+      "start": 1869.6,
+      "duration": 5.92
+    },
+    {
+      "text": "entire conversation comes from Dean Ball",
+      "start": 1871.919,
+      "duration": 6.401
+    },
+    {
+      "text": "who was previously a senior adviser in",
+      "start": 1875.52,
+      "duration": 7.2
+    },
+    {
+      "text": "the Trump White House and he had opposed",
+      "start": 1878.32,
+      "duration": 8.4
+    },
+    {
+      "text": "SB 1047. Um he had been a part of",
+      "start": 1882.72,
+      "duration": 5.839
+    },
+    {
+      "text": "debates in the US government and",
+      "start": 1886.72,
+      "duration": 4.16
+    },
+    {
+      "text": "especially the Congress about state",
+      "start": 1888.559,
+      "duration": 5.36
+    },
+    {
+      "text": "preeemption of AI or sorry uh federal",
+      "start": 1890.88,
+      "duration": 4.64
+    },
+    {
+      "text": "preeemption of state level AI",
+      "start": 1893.919,
+      "duration": 3.841
+    },
+    {
+      "text": "regulation. and he had some pretty kind",
+      "start": 1895.52,
+      "duration": 5.12
+    },
+    {
+      "text": "things uh to say about SB53. So, here's",
+      "start": 1897.76,
+      "duration": 5.44
+    },
+    {
+      "text": "here's one quote that he posted on X.",
+      "start": 1900.64,
+      "duration": 4.639
+    },
+    {
+      "text": "Quote, \"It is rare that a state law",
+      "start": 1903.2,
+      "duration": 4.16
+    },
+    {
+      "text": "introduces a genuinely novel legal",
+      "start": 1905.279,
+      "duration": 3.921
+    },
+    {
+      "text": "mechanism, but the latest version of",
+      "start": 1907.36,
+      "duration": 3.679
+    },
+    {
+      "text": "California's Frontier AI safety bill,",
+      "start": 1909.2,
+      "duration": 5.359
+    },
+    {
+      "text": "SB53, does just that. SB53 outlines a",
+      "start": 1911.039,
+      "duration": 5.12
+    },
+    {
+      "text": "mechanism whereby the state government",
+      "start": 1914.559,
+      "duration": 3.761
+    },
+    {
+      "text": "can designate a federal law, regulation,",
+      "start": 1916.159,
+      "duration": 4.4
+    },
+    {
+      "text": "or guidance, even if the federal thing",
+      "start": 1918.32,
+      "duration": 4.56
+    },
+    {
+      "text": "doesn't preempt as meeting the standards",
+      "start": 1920.559,
+      "duration": 4.72
+    },
+    {
+      "text": "set forth by state law and thus allow",
+      "start": 1922.88,
+      "duration": 4.32
+    },
+    {
+      "text": "companies to opt into complying with",
+      "start": 1925.279,
+      "duration": 4.561
+    },
+    {
+      "text": "state law via a federal alternative.",
+      "start": 1927.2,
+      "duration": 4.959
+    },
+    {
+      "text": "Really interesting. Almost as though",
+      "start": 1929.84,
+      "duration": 4.8
+    },
+    {
+      "text": "even California is saying, \"Please,",
+      "start": 1932.159,
+      "duration": 4.4
+    },
+    {
+      "text": "federal government, make some federal",
+      "start": 1934.64,
+      "duration": 4.56
+    },
+    {
+      "text": "standards for AI.\" And I think that line",
+      "start": 1936.559,
+      "duration": 4.48
+    },
+    {
+      "text": "is so interesting because some of the",
+      "start": 1939.2,
+      "duration": 5.599
+    },
+    {
+      "text": "criticism of SB53 is that like hey AI is",
+      "start": 1941.039,
+      "duration": 6.0
+    },
+    {
+      "text": "best regulated on a federal level. And",
+      "start": 1944.799,
+      "duration": 3.841
+    },
+    {
+      "text": "what's so interesting is like the",
+      "start": 1947.039,
+      "duration": 3.041
+    },
+    {
+      "text": "companies who are saying AI is best",
+      "start": 1948.64,
+      "duration": 4.0
+    },
+    {
+      "text": "regulated on a federal level. California",
+      "start": 1950.08,
+      "duration": 4.479
+    },
+    {
+      "text": "which through this legislation has some",
+      "start": 1952.64,
+      "duration": 3.68
+    },
+    {
+      "text": "of the most important state legislation",
+      "start": 1954.559,
+      "duration": 3.761
+    },
+    {
+      "text": "is saying we also agree it would be best",
+      "start": 1956.32,
+      "duration": 4.239
+    },
+    {
+      "text": "if this was regulated on a federal level",
+      "start": 1958.32,
+      "duration": 4.079
+    },
+    {
+      "text": "and we are creating hooks in our",
+      "start": 1960.559,
+      "duration": 5.441
+    },
+    {
+      "text": "mechanism uh that can allow uh federal",
+      "start": 1962.399,
+      "duration": 5.361
+    },
+    {
+      "text": "regulation to supersede us. and they",
+      "start": 1966.0,
+      "duration": 3.76
+    },
+    {
+      "text": "almost encourage uh that from being the",
+      "start": 1967.76,
+      "duration": 4.96
+    },
+    {
+      "text": "case. Now, one final thing I I I think",
+      "start": 1969.76,
+      "duration": 6.08
+    },
+    {
+      "text": "is worth saying uh from Dean Ball. It it",
+      "start": 1972.72,
+      "duration": 5.199
+    },
+    {
+      "text": "comes from a Substack post where he",
+      "start": 1975.84,
+      "duration": 5.439
+    },
+    {
+      "text": "basically said um I found myself opposed",
+      "start": 1977.919,
+      "duration": 5.521
+    },
+    {
+      "text": "to California's frontier AI safety bill",
+      "start": 1981.279,
+      "duration": 4.0
+    },
+    {
+      "text": "SB1047.",
+      "start": 1983.44,
+      "duration": 4.56
+    },
+    {
+      "text": "Uh, and then he goes on to say, \"My",
+      "start": 1985.279,
+      "duration": 4.961
+    },
+    {
+      "text": "confidence in the catastrophic risk",
+      "start": 1988.0,
+      "duration": 4.64
+    },
+    {
+      "text": "threat model improved and a year later I",
+      "start": 1990.24,
+      "duration": 4.319
+    },
+    {
+      "text": "find myself supportive of California's",
+      "start": 1992.64,
+      "duration": 5.36
+    },
+    {
+      "text": "SB 1047 SQL SB53.\" So, he's straight up",
+      "start": 1994.559,
+      "duration": 5.6
+    },
+    {
+      "text": "endorsing it, which I think sort of says",
+      "start": 1998.0,
+      "duration": 5.279
+    },
+    {
+      "text": "like this is a pretty modest set of",
+      "start": 2000.159,
+      "duration": 5.841
+    },
+    {
+      "text": "requirements uh going on companies. Um,",
+      "start": 2003.279,
+      "duration": 4.24
+    },
+    {
+      "text": "one other voice that I think is",
+      "start": 2006.0,
+      "duration": 3.519
+    },
+    {
+      "text": "important in this conver uh sation is",
+      "start": 2007.519,
+      "duration": 4.88
+    },
+    {
+      "text": "Senator Ted Cruz who had previously",
+      "start": 2009.519,
+      "duration": 5.04
+    },
+    {
+      "text": "said, quote, \"Do you really want Gavin",
+      "start": 2012.399,
+      "duration": 4.16
+    },
+    {
+      "text": "Newsome and Karen Bass and Comrade",
+      "start": 2014.559,
+      "duration": 4.48
+    },
+    {
+      "text": "Mandani in New York City setting the",
+      "start": 2016.559,
+      "duration": 4.72
+    },
+    {
+      "text": "rules for AI and governing AI across",
+      "start": 2019.039,
+      "duration": 3.76
+    },
+    {
+      "text": "this country? I think that would be",
+      "start": 2021.279,
+      "duration": 4.0
+    },
+    {
+      "text": "catac cataclysmic.\" And so he's talking",
+      "start": 2022.799,
+      "duration": 4.561
+    },
+    {
+      "text": "about how, you know, we should not be",
+      "start": 2025.279,
+      "duration": 4.721
+    },
+    {
+      "text": "rising to the most severe regulation",
+      "start": 2027.36,
+      "duration": 4.88
+    },
+    {
+      "text": "that is coming out of states. we should",
+      "start": 2030.0,
+      "duration": 3.919
+    },
+    {
+      "text": "have a federal standard which I think",
+      "start": 2032.24,
+      "duration": 5.76
+    },
+    {
+      "text": "most people in this story agree with. Um",
+      "start": 2033.919,
+      "duration": 6.401
+    },
+    {
+      "text": "so that's all uh very interesting. Uh",
+      "start": 2038.0,
+      "duration": 3.919
+    },
+    {
+      "text": "one thing that we haven't talked about",
+      "start": 2040.32,
+      "duration": 3.199
+    },
+    {
+      "text": "in terms of this legislation that I",
+      "start": 2041.919,
+      "duration": 3.041
+    },
+    {
+      "text": "think is really important is the",
+      "start": 2043.519,
+      "duration": 5.521
+    },
+    {
+      "text": "whistleblower provisions. Um so the idea",
+      "start": 2044.96,
+      "duration": 6.639
+    },
+    {
+      "text": "here is that if there are catastrophic",
+      "start": 2049.04,
+      "duration": 6.96
+    },
+    {
+      "text": "risks presented by an AI system uh you",
+      "start": 2051.599,
+      "duration": 7.121
+    },
+    {
+      "text": "want not just to say hey companies you",
+      "start": 2056.0,
+      "duration": 4.399
+    },
+    {
+      "text": "have to tell us when you have these",
+      "start": 2058.72,
+      "duration": 4.8
+    },
+    {
+      "text": "incidents you also want a mechanism that",
+      "start": 2060.399,
+      "duration": 6.24
+    },
+    {
+      "text": "can deal with evil AI co right the the",
+      "start": 2063.52,
+      "duration": 4.48
+    },
+    {
+      "text": "kind of company who's not going to tell",
+      "start": 2066.639,
+      "duration": 3.52
+    },
+    {
+      "text": "you about those incidents and so it",
+      "start": 2068.0,
+      "duration": 4.399
+    },
+    {
+      "text": "creates a framework whereby uh",
+      "start": 2070.159,
+      "duration": 4.801
+    },
+    {
+      "text": "individuals in those companies uh who",
+      "start": 2072.399,
+      "duration": 4.48
+    },
+    {
+      "text": "have privileged knowledge of safety",
+      "start": 2074.96,
+      "duration": 4.399
+    },
+    {
+      "text": "incidents can uh violate their",
+      "start": 2076.879,
+      "duration": 4.24
+    },
+    {
+      "text": "non-disclosure agreements which almost",
+      "start": 2079.359,
+      "duration": 3.201
+    },
+    {
+      "text": "all of their company all these companies",
+      "start": 2081.119,
+      "duration": 4.641
+    },
+    {
+      "text": "make their employees sign and uh tell",
+      "start": 2082.56,
+      "duration": 6.48
+    },
+    {
+      "text": "the world hey uh my company is doing",
+      "start": 2085.76,
+      "duration": 5.28
+    },
+    {
+      "text": "something that is very very unsafe and",
+      "start": 2089.04,
+      "duration": 3.92
+    },
+    {
+      "text": "they can do that in a way that that",
+      "start": 2091.04,
+      "duration": 4.16
+    },
+    {
+      "text": "information gets sent to the California",
+      "start": 2092.96,
+      "duration": 4.879
+    },
+    {
+      "text": "state government that their identity is",
+      "start": 2095.2,
+      "duration": 4.56
+    },
+    {
+      "text": "protected and that their legal",
+      "start": 2097.839,
+      "duration": 4.801
+    },
+    {
+      "text": "obligations are covered and that is",
+      "start": 2099.76,
+      "duration": 5.12
+    },
+    {
+      "text": "something that I think a lot of people",
+      "start": 2102.64,
+      "duration": 5.28
+    },
+    {
+      "text": "had supported in SB B 1047 and so I was",
+      "start": 2104.88,
+      "duration": 4.479
+    },
+    {
+      "text": "not surprised that it made it through to",
+      "start": 2107.92,
+      "duration": 3.199
+    },
+    {
+      "text": "the SB53 as well.",
+      "start": 2109.359,
+      "duration": 3.601
+    },
+    {
+      "text": ">> Okay. So, we've heard a lot of great a",
+      "start": 2111.119,
+      "duration": 3.441
+    },
+    {
+      "text": "lot of great information about this",
+      "start": 2112.96,
+      "duration": 3.68
+    },
+    {
+      "text": "bill. Um so, what should we keep an eye",
+      "start": 2114.56,
+      "duration": 4.16
+    },
+    {
+      "text": "out for as California moves to implement",
+      "start": 2116.64,
+      "duration": 3.76
+    },
+    {
+      "text": "this policy?",
+      "start": 2118.72,
+      "duration": 4.399
+    },
+    {
+      "text": ">> Well, I think there's uh this bill um",
+      "start": 2120.4,
+      "duration": 4.16
+    },
+    {
+      "text": "which is going to go into effect quite",
+      "start": 2123.119,
+      "duration": 4.641
+    },
+    {
+      "text": "soon uh January 1st, 2026. There's also",
+      "start": 2124.56,
+      "duration": 5.92
+    },
+    {
+      "text": "two other related bills that have come",
+      "start": 2127.76,
+      "duration": 4.64
+    },
+    {
+      "text": "out of California. One is around",
+      "start": 2130.48,
+      "duration": 4.24
+    },
+    {
+      "text": "transparency related to training data",
+      "start": 2132.4,
+      "duration": 4.32
+    },
+    {
+      "text": "which I think will be a big part of the",
+      "start": 2134.72,
+      "duration": 4.72
+    },
+    {
+      "text": "debate on copyright type issues and",
+      "start": 2136.72,
+      "duration": 5.2
+    },
+    {
+      "text": "intellectual property protections. Uh it",
+      "start": 2139.44,
+      "duration": 4.159
+    },
+    {
+      "text": "has relevance to the safety debate of",
+      "start": 2141.92,
+      "duration": 3.679
+    },
+    {
+      "text": "course as well but that could mean you",
+      "start": 2143.599,
+      "duration": 3.441
+    },
+    {
+      "text": "know we'll get an unprecedented degree",
+      "start": 2145.599,
+      "duration": 3.361
+    },
+    {
+      "text": "of information uh around the training",
+      "start": 2147.04,
+      "duration": 3.44
+    },
+    {
+      "text": "data going to these models. And then",
+      "start": 2148.96,
+      "duration": 4.159
+    },
+    {
+      "text": "there's an additional California law",
+      "start": 2150.48,
+      "duration": 5.2
+    },
+    {
+      "text": "that's dealing with deep fakes and the",
+      "start": 2153.119,
+      "duration": 5.521
+    },
+    {
+      "text": "risk of AI generated misinformation. And",
+      "start": 2155.68,
+      "duration": 5.84
+    },
+    {
+      "text": "so that is requiring model developers to",
+      "start": 2158.64,
+      "duration": 5.92
+    },
+    {
+      "text": "have capabilities to sort of disclose to",
+      "start": 2161.52,
+      "duration": 4.8
+    },
+    {
+      "text": "the user when they are interacting with",
+      "start": 2164.56,
+      "duration": 4.48
+    },
+    {
+      "text": "AI generated content. Um we're already",
+      "start": 2166.32,
+      "duration": 5.519
+    },
+    {
+      "text": "dealing with a flood of new AI generated",
+      "start": 2169.04,
+      "duration": 4.4
+    },
+    {
+      "text": "content not least of which with the",
+      "start": 2171.839,
+      "duration": 4.401
+    },
+    {
+      "text": "announcement from OpenAI of its latest",
+      "start": 2173.44,
+      "duration": 5.04
+    },
+    {
+      "text": "version of Sora which has really",
+      "start": 2176.24,
+      "duration": 5.2
+    },
+    {
+      "text": "impressive capabilities um especially",
+      "start": 2178.48,
+      "duration": 5.44
+    },
+    {
+      "text": "around preserving an individual's face",
+      "start": 2181.44,
+      "duration": 4.48
+    },
+    {
+      "text": "across a really diverse range of",
+      "start": 2183.92,
+      "duration": 5.36
+    },
+    {
+      "text": "potential situations. And so having the",
+      "start": 2185.92,
+      "duration": 6.0
+    },
+    {
+      "text": "models sort of embed like this is AI,",
+      "start": 2189.28,
+      "duration": 5.76
+    },
+    {
+      "text": "this is AI into that um I think is going",
+      "start": 2191.92,
+      "duration": 5.12
+    },
+    {
+      "text": "to be really interesting and California",
+      "start": 2195.04,
+      "duration": 3.6
+    },
+    {
+      "text": "is one of those states that has been",
+      "start": 2197.04,
+      "duration": 3.68
+    },
+    {
+      "text": "putting regula regulatory muscle behind",
+      "start": 2198.64,
+      "duration": 3.199
+    },
+    {
+      "text": "that.",
+      "start": 2200.72,
+      "duration": 2.96
+    },
+    {
+      "text": ">> Well, thank you Greg for breaking down",
+      "start": 2201.839,
+      "duration": 4.961
+    },
+    {
+      "text": "this new policy. Um I appreciate you",
+      "start": 2203.68,
+      "duration": 4.48
+    },
+    {
+      "text": "answering all my questions. I'm looking",
+      "start": 2206.8,
+      "duration": 3.76
+    },
+    {
+      "text": "forward to talking more about this uh in",
+      "start": 2208.16,
+      "duration": 4.56
+    },
+    {
+      "text": "the coming months. But thank you so much",
+      "start": 2210.56,
+      "duration": 4.559
+    },
+    {
+      "text": "and thanks everyone for listening.",
+      "start": 2212.72,
+      "duration": 5.84
+    },
+    {
+      "text": ">> Great. Thanks Eddie.",
+      "start": 2215.119,
+      "duration": 4.96
+    },
+    {
+      "text": "Thanks for listening to this episode of",
+      "start": 2218.56,
+      "duration": 3.84
+    },
+    {
+      "text": "the AI Policy Podcast. If you like what",
+      "start": 2220.079,
+      "duration": 3.921
+    },
+    {
+      "text": "you heard, there's an easy way for you",
+      "start": 2222.4,
+      "duration": 3.6
+    },
+    {
+      "text": "to help us. Please give us a five-star",
+      "start": 2224.0,
+      "duration": 4.48
+    },
+    {
+      "text": "review on your favorite podcast platform",
+      "start": 2226.0,
+      "duration": 4.88
+    },
+    {
+      "text": "and subscribe and tell your friends. It",
+      "start": 2228.48,
+      "duration": 4.48
+    },
+    {
+      "text": "really helps when you spread the word.",
+      "start": 2230.88,
+      "duration": 3.84
+    },
+    {
+      "text": "This podcast was produced by Sarah",
+      "start": 2232.96,
+      "duration": 4.32
+    },
+    {
+      "text": "Baker, Satie McCulla, and Matt Mand. See",
+      "start": 2234.72,
+      "duration": 5.96
+    },
+    {
+      "text": "you next time.",
+      "start": 2237.28,
+      "duration": 3.4
+    }
+  ]
+}

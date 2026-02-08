@@ -1,0 +1,7973 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "zisE1p2plxk",
+  "video_title": "The Decentralized Future of Private AI [Illia Polosukhin] - 749",
+  "video_url": "https://www.youtube.com/watch?v=zisE1p2plxk",
+  "fetched_at": "2025-12-29T20:34:00.175566+00:00",
+  "transcript": [
+    {
+      "text": "If I'm an application developer, if if 5",
+      "start": 0.16,
+      "duration": 5.599
+    },
+    {
+      "text": "10 years ago, data was, you know, a gold",
+      "start": 3.439,
+      "duration": 4.241
+    },
+    {
+      "text": "mine, it's becoming actually a",
+      "start": 5.759,
+      "duration": 3.521
+    },
+    {
+      "text": "liability. In Europe, for example,",
+      "start": 7.68,
+      "duration": 3.36
+    },
+    {
+      "text": "there's GDPR data privacy. We have",
+      "start": 9.28,
+      "duration": 4.399
+    },
+    {
+      "text": "California data privacy. In China, you",
+      "start": 11.04,
+      "duration": 4.96
+    },
+    {
+      "text": "actually need to pay data tax if you're",
+      "start": 13.679,
+      "duration": 4.561
+    },
+    {
+      "text": "using consumer data. This this actually",
+      "start": 16.0,
+      "duration": 3.84
+    },
+    {
+      "text": "creates a platform where you as a",
+      "start": 18.24,
+      "duration": 3.28
+    },
+    {
+      "text": "developer don't need to deal with the",
+      "start": 19.84,
+      "duration": 3.279
+    },
+    {
+      "text": "user data. You're effectively pushing",
+      "start": 21.52,
+      "duration": 3.599
+    },
+    {
+      "text": "software to them. Again, you can have,",
+      "start": 23.119,
+      "duration": 4.561
+    },
+    {
+      "text": "you know, higher intelligent models, uh,",
+      "start": 25.119,
+      "duration": 4.48
+    },
+    {
+      "text": "and you can access all of their, you",
+      "start": 27.68,
+      "duration": 4.32
+    },
+    {
+      "text": "know, context and memory as well in",
+      "start": 29.599,
+      "duration": 5.401
+    },
+    {
+      "text": "this.",
+      "start": 32.0,
+      "duration": 3.0
+    },
+    {
+      "text": "All right, everyone. Welcome to another",
+      "start": 45.68,
+      "duration": 4.08
+    },
+    {
+      "text": "episode of the Twimble AI podcast. I am",
+      "start": 47.52,
+      "duration": 4.64
+    },
+    {
+      "text": "your host, Sam Charington. Today I'm",
+      "start": 49.76,
+      "duration": 5.52
+    },
+    {
+      "text": "joined by Ilia Polosuin. Ilia is a",
+      "start": 52.16,
+      "duration": 5.36
+    },
+    {
+      "text": "co-founder of Near AI, but is perhaps",
+      "start": 55.28,
+      "duration": 4.72
+    },
+    {
+      "text": "best known as a co-author of the now",
+      "start": 57.52,
+      "duration": 4.8
+    },
+    {
+      "text": "famous Attention is All You Need Paper,",
+      "start": 60.0,
+      "duration": 4.72
+    },
+    {
+      "text": "which introduced The Transformer. Before",
+      "start": 62.32,
+      "duration": 3.839
+    },
+    {
+      "text": "we get going, be sure to take a moment",
+      "start": 64.72,
+      "duration": 3.04
+    },
+    {
+      "text": "to hit that subscribe button wherever",
+      "start": 66.159,
+      "duration": 3.761
+    },
+    {
+      "text": "you're listening to today's show. Ilia,",
+      "start": 67.76,
+      "duration": 3.52
+    },
+    {
+      "text": "welcome to the podcast.",
+      "start": 69.92,
+      "duration": 2.559
+    },
+    {
+      "text": ">> Thank you for having here.",
+      "start": 71.28,
+      "duration": 3.92
+    },
+    {
+      "text": ">> I'm looking forward to digging into our",
+      "start": 72.479,
+      "duration": 5.441
+    },
+    {
+      "text": "chat. Uh we're going to be talking about",
+      "start": 75.2,
+      "duration": 6.16
+    },
+    {
+      "text": "the way you're approaching private AI at",
+      "start": 77.92,
+      "duration": 6.8
+    },
+    {
+      "text": "Near AI. Uh but to get us going there,",
+      "start": 81.36,
+      "duration": 5.36
+    },
+    {
+      "text": "I'd love to have you share a little bit",
+      "start": 84.72,
+      "duration": 6.24
+    },
+    {
+      "text": "about your background and in particular",
+      "start": 86.72,
+      "duration": 7.6
+    },
+    {
+      "text": "um you know how you ended up as uh a",
+      "start": 90.96,
+      "duration": 5.92
+    },
+    {
+      "text": "co-author of this you know now famous",
+      "start": 94.32,
+      "duration": 5.6
+    },
+    {
+      "text": "paper to working on the the privacy side",
+      "start": 96.88,
+      "duration": 4.08
+    },
+    {
+      "text": "of AI.",
+      "start": 99.92,
+      "duration": 3.12
+    },
+    {
+      "text": ">> For sure. Yeah. So my background is very",
+      "start": 100.96,
+      "duration": 3.44
+    },
+    {
+      "text": "much in machine learning and AI",
+      "start": 103.04,
+      "duration": 3.92
+    },
+    {
+      "text": "research. I joined Google research",
+      "start": 104.4,
+      "duration": 6.719
+    },
+    {
+      "text": "because I saw the cat neuron paper if",
+      "start": 106.96,
+      "duration": 7.6
+    },
+    {
+      "text": "folks remember that. Um and I was like",
+      "start": 111.119,
+      "duration": 6.32
+    },
+    {
+      "text": "okay we should do that but for text and",
+      "start": 114.56,
+      "duration": 6.159
+    },
+    {
+      "text": "uh really figure out how to learn uh and",
+      "start": 117.439,
+      "duration": 6.161
+    },
+    {
+      "text": "so Google was a great place to do that.",
+      "start": 120.719,
+      "duration": 6.561
+    },
+    {
+      "text": "Lots of language lots of compute. Um and",
+      "start": 123.6,
+      "duration": 5.04
+    },
+    {
+      "text": "so my team was working on question",
+      "start": 127.28,
+      "duration": 3.599
+    },
+    {
+      "text": "answering machine translation and as",
+      "start": 128.64,
+      "duration": 5.04
+    },
+    {
+      "text": "part of that um kind of due to even",
+      "start": 130.879,
+      "duration": 5.121
+    },
+    {
+      "text": "actually requirements and latency for",
+      "start": 133.68,
+      "duration": 4.08
+    },
+    {
+      "text": "google.com",
+      "start": 136.0,
+      "duration": 4.16
+    },
+    {
+      "text": "uh we were trying to figure out how to",
+      "start": 137.76,
+      "duration": 4.479
+    },
+    {
+      "text": "actually build deep learning model that",
+      "start": 140.16,
+      "duration": 4.32
+    },
+    {
+      "text": "can consume lots of context and really",
+      "start": 142.239,
+      "duration": 4.881
+    },
+    {
+      "text": "reason about it without taking ton of",
+      "start": 144.48,
+      "duration": 4.64
+    },
+    {
+      "text": "time right to process that and so that's",
+      "start": 147.12,
+      "duration": 5.28
+    },
+    {
+      "text": "where transformer architecture comes. Um",
+      "start": 149.12,
+      "duration": 6.72
+    },
+    {
+      "text": "now as you know there was a lot of",
+      "start": 152.4,
+      "duration": 6.24
+    },
+    {
+      "text": "evolution happening in 2016 2017 and",
+      "start": 155.84,
+      "duration": 5.52
+    },
+    {
+      "text": "with this transformer I was excited to",
+      "start": 158.64,
+      "duration": 4.72
+    },
+    {
+      "text": "actually put it in production and build",
+      "start": 161.36,
+      "duration": 4.56
+    },
+    {
+      "text": "a product around this and specifically I",
+      "start": 163.36,
+      "duration": 4.56
+    },
+    {
+      "text": "always excited about the idea of",
+      "start": 165.92,
+      "duration": 5.44
+    },
+    {
+      "text": "machines writing code. Uh and so in 2017",
+      "start": 167.92,
+      "duration": 5.039
+    },
+    {
+      "text": "I left and with my co-founder Alex",
+      "start": 171.36,
+      "duration": 4.56
+    },
+    {
+      "text": "Kdanov we started Near AI",
+      "start": 172.959,
+      "duration": 5.201
+    },
+    {
+      "text": "with the idea that how do we actually",
+      "start": 175.92,
+      "duration": 3.52
+    },
+    {
+      "text": "teach machines to code",
+      "start": 178.16,
+      "duration": 3.04
+    },
+    {
+      "text": ">> and you were one of the first authors of",
+      "start": 179.44,
+      "duration": 3.04
+    },
+    {
+      "text": "the paper to leave Google. Is that",
+      "start": 181.2,
+      "duration": 1.679
+    },
+    {
+      "text": "right?",
+      "start": 182.48,
+      "duration": 3.839
+    },
+    {
+      "text": ">> Yeah I was the first one to leave. Um",
+      "start": 182.879,
+      "duration": 5.761
+    },
+    {
+      "text": "and so back then I mean this is like",
+      "start": 186.319,
+      "duration": 4.481
+    },
+    {
+      "text": "even I actually left before the paper",
+      "start": 188.64,
+      "duration": 4.56
+    },
+    {
+      "text": "actually was officially published and so",
+      "start": 190.8,
+      "duration": 4.24
+    },
+    {
+      "text": "that's why I'm the only email that's",
+      "start": 193.2,
+      "duration": 3.6
+    },
+    {
+      "text": "actually Gmail.",
+      "start": 195.04,
+      "duration": 5.36
+    },
+    {
+      "text": "Uh back then nobody thought what's",
+      "start": 196.8,
+      "duration": 5.12
+    },
+    {
+      "text": "happening right now is possible, right?",
+      "start": 200.4,
+      "duration": 3.199
+    },
+    {
+      "text": "So it was like, you know, we were what",
+      "start": 201.92,
+      "duration": 3.12
+    },
+    {
+      "text": "we were pitching was kind of somewhere",
+      "start": 203.599,
+      "duration": 4.881
+    },
+    {
+      "text": "between science fiction and illusion. Um",
+      "start": 205.04,
+      "duration": 5.44
+    },
+    {
+      "text": "and and the reality is back then it",
+      "start": 208.48,
+      "duration": 3.44
+    },
+    {
+      "text": "wasn't possible. The compute wasn't",
+      "start": 210.48,
+      "duration": 3.759
+    },
+    {
+      "text": "there, right? The kind of the scale at",
+      "start": 211.92,
+      "duration": 4.239
+    },
+    {
+      "text": "which you know we know this models are",
+      "start": 214.239,
+      "duration": 3.681
+    },
+    {
+      "text": "needed uh kind of wasn't there and",
+      "start": 216.159,
+      "duration": 5.36
+    },
+    {
+      "text": "wasn't studied very well. Um and on our",
+      "start": 217.92,
+      "duration": 5.599
+    },
+    {
+      "text": "side what we're trying to do is get a",
+      "start": 221.519,
+      "duration": 4.401
+    },
+    {
+      "text": "lot more training data that is relevant",
+      "start": 223.519,
+      "duration": 5.28
+    },
+    {
+      "text": "to this problem which is you know people",
+      "start": 225.92,
+      "duration": 5.039
+    },
+    {
+      "text": "writing some code for descriptions or",
+      "start": 228.799,
+      "duration": 5.601
+    },
+    {
+      "text": "writing descriptions for some code and",
+      "start": 230.959,
+      "duration": 5.761
+    },
+    {
+      "text": "uh we found kind of a niche of people",
+      "start": 234.4,
+      "duration": 4.16
+    },
+    {
+      "text": "around the world who would do this for",
+      "start": 236.72,
+      "duration": 3.28
+    },
+    {
+      "text": "reasonably cheap. It was computer",
+      "start": 238.56,
+      "duration": 3.52
+    },
+    {
+      "text": "science students in like developing",
+      "start": 240.0,
+      "duration": 4.239
+    },
+    {
+      "text": "countries and so we effectively like I",
+      "start": 242.08,
+      "duration": 3.2
+    },
+    {
+      "text": "mean now you know",
+      "start": 244.239,
+      "duration": 2.481
+    },
+    {
+      "text": ">> you built like a quiz platform or",
+      "start": 245.28,
+      "duration": 2.56
+    },
+    {
+      "text": "something like that. We built like a",
+      "start": 246.72,
+      "duration": 3.04
+    },
+    {
+      "text": "crowdsourcing platform for computer",
+      "start": 247.84,
+      "duration": 3.599
+    },
+    {
+      "text": "science students where they can go and",
+      "start": 249.76,
+      "duration": 3.839
+    },
+    {
+      "text": "and you know effectively practice their",
+      "start": 251.439,
+      "duration": 6.161
+    },
+    {
+      "text": "coding and uh and get paid. Now the",
+      "start": 253.599,
+      "duration": 6.48
+    },
+    {
+      "text": "challenge we faced was the students were",
+      "start": 257.6,
+      "duration": 4.24
+    },
+    {
+      "text": "in China, they were in Eastern Europe,",
+      "start": 260.079,
+      "duration": 4.481
+    },
+    {
+      "text": "there's they were in Southeast Asia like",
+      "start": 261.84,
+      "duration": 4.24
+    },
+    {
+      "text": "in all of those countries there's some",
+      "start": 264.56,
+      "duration": 3.44
+    },
+    {
+      "text": "kind of problem with paying right in",
+      "start": 266.08,
+      "duration": 3.679
+    },
+    {
+      "text": "China people don't have bank accounts",
+      "start": 268.0,
+      "duration": 4.16
+    },
+    {
+      "text": "they have widget pay. In Ukraine, for",
+      "start": 269.759,
+      "duration": 4.081
+    },
+    {
+      "text": "example, you need to sell half of your",
+      "start": 272.16,
+      "duration": 3.92
+    },
+    {
+      "text": "dollars on arrival if it's in a foreign",
+      "start": 273.84,
+      "duration": 4.24
+    },
+    {
+      "text": "currency. There was like some countries",
+      "start": 276.08,
+      "duration": 3.44
+    },
+    {
+      "text": "you couldn't just like nothing worked.",
+      "start": 278.08,
+      "duration": 3.679
+    },
+    {
+      "text": "PayPal didn't work. Wise didn't work.",
+      "start": 279.52,
+      "duration": 4.959
+    },
+    {
+      "text": "And so we started looking at blockchain",
+      "start": 281.759,
+      "duration": 4.561
+    },
+    {
+      "text": "as like, hey, this global payment",
+      "start": 284.479,
+      "duration": 4.641
+    },
+    {
+      "text": "network that people talking about, you",
+      "start": 286.32,
+      "duration": 4.4
+    },
+    {
+      "text": "know, we can just use it, right, to pay",
+      "start": 289.12,
+      "duration": 5.04
+    },
+    {
+      "text": "people. And this was 2018. There was",
+      "start": 290.72,
+      "duration": 5.199
+    },
+    {
+      "text": "nothing that really kind of matched our",
+      "start": 294.16,
+      "duration": 3.759
+    },
+    {
+      "text": "requirements, right? We're sending, you",
+      "start": 295.919,
+      "duration": 3.28
+    },
+    {
+      "text": "know, small amounts of money. It was",
+      "start": 297.919,
+      "duration": 3.041
+    },
+    {
+      "text": "microtransactions.",
+      "start": 299.199,
+      "duration": 3.361
+    },
+    {
+      "text": "uh even though it was computer science",
+      "start": 300.96,
+      "duration": 3.04
+    },
+    {
+      "text": "students but we didn't want to make it",
+      "start": 302.56,
+      "duration": 5.52
+    },
+    {
+      "text": "super complicated for them. Um and so",
+      "start": 304.0,
+      "duration": 6.16
+    },
+    {
+      "text": "there was nothing that was like easy to",
+      "start": 308.08,
+      "duration": 5.119
+    },
+    {
+      "text": "use and actually cheap right back then",
+      "start": 310.16,
+      "duration": 4.72
+    },
+    {
+      "text": "uh kind of transaction fees were you",
+      "start": 313.199,
+      "duration": 5.121
+    },
+    {
+      "text": "know in dollars and that's how we",
+      "start": 314.88,
+      "duration": 4.879
+    },
+    {
+      "text": "actually like okay we should solve this",
+      "start": 318.32,
+      "duration": 3.36
+    },
+    {
+      "text": "problem right we have this you know we",
+      "start": 319.759,
+      "duration": 3.601
+    },
+    {
+      "text": "we talked with other people other people",
+      "start": 321.68,
+      "duration": 3.519
+    },
+    {
+      "text": "have this as well so like we can solve",
+      "start": 323.36,
+      "duration": 4.0
+    },
+    {
+      "text": "this problem and go back to AI kind of",
+      "start": 325.199,
+      "duration": 5.201
+    },
+    {
+      "text": "with that already in the pocket and so",
+      "start": 327.36,
+      "duration": 4.72
+    },
+    {
+      "text": "uh that's kind of how Near Protocol was",
+      "start": 330.4,
+      "duration": 5.359
+    },
+    {
+      "text": "born uh we we launched it in 2020 It's",
+      "start": 332.08,
+      "duration": 5.36
+    },
+    {
+      "text": "one of the most used blockchains in the",
+      "start": 335.759,
+      "duration": 3.841
+    },
+    {
+      "text": "world right now with 50 million uh",
+      "start": 337.44,
+      "duration": 4.24
+    },
+    {
+      "text": "monthly active users. It's used for",
+      "start": 339.6,
+      "duration": 4.4
+    },
+    {
+      "text": "payments, microp payments, uh kind of",
+      "start": 341.68,
+      "duration": 4.959
+    },
+    {
+      "text": "loyalty points, remittances",
+      "start": 344.0,
+      "duration": 4.96
+    },
+    {
+      "text": "um and variety of like financial use",
+      "start": 346.639,
+      "duration": 6.241
+    },
+    {
+      "text": "cases as well as uh data labeling and",
+      "start": 348.96,
+      "duration": 6.4
+    },
+    {
+      "text": "other AI workloads as well. We have like",
+      "start": 352.88,
+      "duration": 4.24
+    },
+    {
+      "text": "multiple data labeling projects actually",
+      "start": 355.36,
+      "duration": 4.16
+    },
+    {
+      "text": "running on top of it.",
+      "start": 357.12,
+      "duration": 6.799
+    },
+    {
+      "text": "And so now kind of in effectively in 22",
+      "start": 359.52,
+      "duration": 7.44
+    },
+    {
+      "text": "23 as the you know as the resurgence of",
+      "start": 363.919,
+      "duration": 4.72
+    },
+    {
+      "text": "this and actually like figuring out the",
+      "start": 366.96,
+      "duration": 5.519
+    },
+    {
+      "text": "scale of the uh AI kind of came in we",
+      "start": 368.639,
+      "duration": 6.801
+    },
+    {
+      "text": "started now with a renewed lens of the",
+      "start": 372.479,
+      "duration": 4.961
+    },
+    {
+      "text": "blockchain looking at it and actually",
+      "start": 375.44,
+      "duration": 4.08
+    },
+    {
+      "text": "see how can we contribute it and how can",
+      "start": 377.44,
+      "duration": 5.84
+    },
+    {
+      "text": "we leverage it and pretty quickly kind",
+      "start": 379.52,
+      "duration": 6.72
+    },
+    {
+      "text": "of the you know as you work in",
+      "start": 383.28,
+      "duration": 4.88
+    },
+    {
+      "text": "blockchain you get I would say",
+      "start": 386.24,
+      "duration": 4.399
+    },
+    {
+      "text": "indoctrinated by the value where it's",
+      "start": 388.16,
+      "duration": 4.08
+    },
+    {
+      "text": "kind of user ownership, right? Self",
+      "start": 390.639,
+      "duration": 4.241
+    },
+    {
+      "text": "ownership, self- sovereignty. Uh and it",
+      "start": 392.24,
+      "duration": 6.799
+    },
+    {
+      "text": "and it was pretty clear that the kind of",
+      "start": 394.88,
+      "duration": 7.039
+    },
+    {
+      "text": "AI space changed, right? It went from,",
+      "start": 399.039,
+      "duration": 4.401
+    },
+    {
+      "text": "you know, this was open research,",
+      "start": 401.919,
+      "duration": 3.201
+    },
+    {
+      "text": "everybody was contributing, the papers",
+      "start": 403.44,
+      "duration": 2.96
+    },
+    {
+      "text": "published, you know, transformer code",
+      "start": 405.12,
+      "duration": 3.04
+    },
+    {
+      "text": "was out, you know, for everybody to",
+      "start": 406.4,
+      "duration": 4.48
+    },
+    {
+      "text": "build on top to like kind of everybody",
+      "start": 408.16,
+      "duration": 4.479
+    },
+    {
+      "text": "was keeping a secret, things are",
+      "start": 410.88,
+      "duration": 4.72
+    },
+    {
+      "text": "starting to like close up. And as we",
+      "start": 412.639,
+      "duration": 5.201
+    },
+    {
+      "text": "know also just like from kind of market",
+      "start": 415.6,
+      "duration": 6.159
+    },
+    {
+      "text": "dynamics um that that leads to then you",
+      "start": 417.84,
+      "duration": 5.6
+    },
+    {
+      "text": "know more and more centralization",
+      "start": 421.759,
+      "duration": 4.961
+    },
+    {
+      "text": "monopolization of the technology and in",
+      "start": 423.44,
+      "duration": 5.759
+    },
+    {
+      "text": "turn becomes",
+      "start": 426.72,
+      "duration": 6.4
+    },
+    {
+      "text": "um kind of the monopoly that we've seen",
+      "start": 429.199,
+      "duration": 6.4
+    },
+    {
+      "text": "before in other areas. And so the",
+      "start": 433.12,
+      "duration": 5.28
+    },
+    {
+      "text": "example that I use is AOL. Like imagine",
+      "start": 435.599,
+      "duration": 4.801
+    },
+    {
+      "text": "if internet was effectively run out of",
+      "start": 438.4,
+      "duration": 4.32
+    },
+    {
+      "text": "AOL. uh and you know if you want to host",
+      "start": 440.4,
+      "duration": 4.16
+    },
+    {
+      "text": "a website you need to go to AOL and ask",
+      "start": 442.72,
+      "duration": 5.28
+    },
+    {
+      "text": "them uh to do this right and similar if",
+      "start": 444.56,
+      "duration": 5.359
+    },
+    {
+      "text": "you're a user you you can only kind of",
+      "start": 448.0,
+      "duration": 3.919
+    },
+    {
+      "text": "access through this but in case of AI",
+      "start": 449.919,
+      "duration": 3.761
+    },
+    {
+      "text": "because it's such a fundamental",
+      "start": 451.919,
+      "duration": 4.801
+    },
+    {
+      "text": "technology right is intelligence as a",
+      "start": 453.68,
+      "duration": 5.6
+    },
+    {
+      "text": "technology it it's so much more",
+      "start": 456.72,
+      "duration": 5.919
+    },
+    {
+      "text": "dangerous right because the like I mean",
+      "start": 459.28,
+      "duration": 5.039
+    },
+    {
+      "text": "internet is information but this is",
+      "start": 462.639,
+      "duration": 3.441
+    },
+    {
+      "text": "actually like the processing the",
+      "start": 464.319,
+      "duration": 5.201
+    },
+    {
+      "text": "decision- making and so kind of the",
+      "start": 466.08,
+      "duration": 7.2
+    },
+    {
+      "text": "realization was that if we have only",
+      "start": 469.52,
+      "duration": 6.32
+    },
+    {
+      "text": "kind of a handful of kind of closed",
+      "start": 473.28,
+      "duration": 7.039
+    },
+    {
+      "text": "source like profit driven companies",
+      "start": 475.84,
+      "duration": 8.16
+    },
+    {
+      "text": "dominating a space, we may end up in",
+      "start": 480.319,
+      "duration": 8.0
+    },
+    {
+      "text": "1984 type situation, right? Where uh you",
+      "start": 484.0,
+      "duration": 6.72
+    },
+    {
+      "text": "effectively have, you know, a company",
+      "start": 488.319,
+      "duration": 5.681
+    },
+    {
+      "text": "that that you know can be very much not",
+      "start": 490.72,
+      "duration": 5.44
+    },
+    {
+      "text": "intentionally even effectively deciding",
+      "start": 494.0,
+      "duration": 4.4
+    },
+    {
+      "text": "how everybody thinks, right? Because",
+      "start": 496.16,
+      "duration": 3.84
+    },
+    {
+      "text": "that's how we process information.",
+      "start": 498.4,
+      "duration": 3.68
+    },
+    {
+      "text": "that's how we going to be see the world",
+      "start": 500.0,
+      "duration": 4.0
+    },
+    {
+      "text": "and so that's kind of where this idea of",
+      "start": 502.08,
+      "duration": 4.399
+    },
+    {
+      "text": "user owned AI was born which was like",
+      "start": 504.0,
+      "duration": 4.8
+    },
+    {
+      "text": "hey let's combine what we've bu been",
+      "start": 506.479,
+      "duration": 3.84
+    },
+    {
+      "text": "building on the blockchain side which is",
+      "start": 508.8,
+      "duration": 4.56
+    },
+    {
+      "text": "user ownership kind of network effects",
+      "start": 510.319,
+      "duration": 4.881
+    },
+    {
+      "text": "of everybody contributing and",
+      "start": 513.36,
+      "duration": 3.599
+    },
+    {
+      "text": "participating",
+      "start": 515.2,
+      "duration": 4.16
+    },
+    {
+      "text": "in comparison to you know centralized",
+      "start": 516.959,
+      "duration": 5.281
+    },
+    {
+      "text": "kind of for-profit company and create an",
+      "start": 519.36,
+      "duration": 5.44
+    },
+    {
+      "text": "AI that actually is on the user side on",
+      "start": 522.24,
+      "duration": 5.92
+    },
+    {
+      "text": "you know your side not their side and so",
+      "start": 524.8,
+      "duration": 5.36
+    },
+    {
+      "text": "now there's a lot There was a lot of",
+      "start": 528.16,
+      "duration": 4.4
+    },
+    {
+      "text": "open question how do we actually do that",
+      "start": 530.16,
+      "duration": 5.28
+    },
+    {
+      "text": "right because you have",
+      "start": 532.56,
+      "duration": 5.36
+    },
+    {
+      "text": "right and so so that took some time",
+      "start": 535.44,
+      "duration": 4.8
+    },
+    {
+      "text": "because uh you know all the methods that",
+      "start": 537.92,
+      "duration": 4.8
+    },
+    {
+      "text": "people use for example for privacy for",
+      "start": 540.24,
+      "duration": 4.32
+    },
+    {
+      "text": "verifiability they're extremely",
+      "start": 542.72,
+      "duration": 3.6
+    },
+    {
+      "text": "expensive right uh there's like",
+      "start": 544.56,
+      "duration": 4.8
+    },
+    {
+      "text": "homorphic encryption there's z proofs",
+      "start": 546.32,
+      "duration": 5.36
+    },
+    {
+      "text": "etc all of them have you know like",
+      "start": 549.36,
+      "duration": 5.52
+    },
+    {
+      "text": "10,000 to 100,000 times overhead and",
+      "start": 551.68,
+      "duration": 4.32
+    },
+    {
+      "text": "when we're talking about you know",
+      "start": 554.88,
+      "duration": 2.639
+    },
+    {
+      "text": "machine learning which is already using",
+      "start": 556.0,
+      "duration": 3.68
+    },
+    {
+      "text": "all of the comput possibly We can",
+      "start": 557.519,
+      "duration": 4.241
+    },
+    {
+      "text": ">> let's layer in two super compute",
+      "start": 559.68,
+      "duration": 4.0
+    },
+    {
+      "text": "intensive projects.",
+      "start": 561.76,
+      "duration": 4.48
+    },
+    {
+      "text": ">> Yeah. And so so we've been doing a lot",
+      "start": 563.68,
+      "duration": 4.88
+    },
+    {
+      "text": "of research and actually the interesting",
+      "start": 566.24,
+      "duration": 6.0
+    },
+    {
+      "text": "thing happened is the hardware um so",
+      "start": 568.56,
+      "duration": 7.04
+    },
+    {
+      "text": "Nvidia hardware and Intel u both kind of",
+      "start": 572.24,
+      "duration": 6.24
+    },
+    {
+      "text": "at a similar time enabled this mode",
+      "start": 575.6,
+      "duration": 5.04
+    },
+    {
+      "text": "called confidential computing. So this",
+      "start": 578.48,
+      "duration": 4.799
+    },
+    {
+      "text": "is inside the chips itself there's a",
+      "start": 580.64,
+      "duration": 4.56
+    },
+    {
+      "text": "like you can enable it in such a way",
+      "start": 583.279,
+      "duration": 6.481
+    },
+    {
+      "text": "that even the owner of the hardware of",
+      "start": 585.2,
+      "duration": 6.96
+    },
+    {
+      "text": "the compute is not able to access what",
+      "start": 589.76,
+      "duration": 6.24
+    },
+    {
+      "text": "computation happening inside but whoever",
+      "start": 592.16,
+      "duration": 6.16
+    },
+    {
+      "text": "kind of requested this compute can",
+      "start": 596.0,
+      "duration": 4.32
+    },
+    {
+      "text": "actually have a certificate saying that",
+      "start": 598.32,
+      "duration": 5.44
+    },
+    {
+      "text": "this you know this data was run on this",
+      "start": 600.32,
+      "duration": 5.6
+    },
+    {
+      "text": "you know compute let's say docker and",
+      "start": 603.76,
+      "duration": 4.16
+    },
+    {
+      "text": "this is the response. Yeah, I was just",
+      "start": 605.92,
+      "duration": 4.0
+    },
+    {
+      "text": "going to ask if this came around. This",
+      "start": 607.92,
+      "duration": 3.84
+    },
+    {
+      "text": "is the like secure enclave stuff that",
+      "start": 609.92,
+      "duration": 3.28
+    },
+    {
+      "text": "came around when folks were trying to",
+      "start": 611.76,
+      "duration": 4.0
+    },
+    {
+      "text": "harden Docker containers uh for",
+      "start": 613.2,
+      "duration": 4.4
+    },
+    {
+      "text": "multi-tenant environments.",
+      "start": 615.76,
+      "duration": 3.68
+    },
+    {
+      "text": ">> That that was part of this. I mean, so",
+      "start": 617.6,
+      "duration": 3.52
+    },
+    {
+      "text": "there was a lot of research and kind of",
+      "start": 619.44,
+      "duration": 4.72
+    },
+    {
+      "text": "hardware uh over over the years trying",
+      "start": 621.12,
+      "duration": 6.159
+    },
+    {
+      "text": "to do this, but historically it's been",
+      "start": 624.16,
+      "duration": 6.0
+    },
+    {
+      "text": "very like lowlevel like you needed to",
+      "start": 627.279,
+      "duration": 5.601
+    },
+    {
+      "text": "rewrite your programs in in kind of like",
+      "start": 630.16,
+      "duration": 5.359
+    },
+    {
+      "text": "assembly effect or like C with like",
+      "start": 632.88,
+      "duration": 4.32
+    },
+    {
+      "text": "special instructions.",
+      "start": 635.519,
+      "duration": 5.681
+    },
+    {
+      "text": "And intellectually in 2024 mid 2024",
+      "start": 637.2,
+      "duration": 5.84
+    },
+    {
+      "text": "released on the new fifth generation",
+      "start": 641.2,
+      "duration": 5.84
+    },
+    {
+      "text": "zeons this new uh kind of generation",
+      "start": 643.04,
+      "duration": 5.919
+    },
+    {
+      "text": "which allows to exactly run just",
+      "start": 647.04,
+      "duration": 5.52
+    },
+    {
+      "text": "dockers. Um and similarly Nvidia enabled",
+      "start": 648.959,
+      "duration": 5.841
+    },
+    {
+      "text": "work with that specific mode where",
+      "start": 652.56,
+      "duration": 5.12
+    },
+    {
+      "text": "effectively drivers inside uh can",
+      "start": 654.8,
+      "duration": 4.88
+    },
+    {
+      "text": "connect to the Nvidia as well in the",
+      "start": 657.68,
+      "duration": 4.24
+    },
+    {
+      "text": "secure mode. So that that kind of all",
+      "start": 659.68,
+      "duration": 4.719
+    },
+    {
+      "text": "came together effectively like a year",
+      "start": 661.92,
+      "duration": 5.76
+    },
+    {
+      "text": "ago and so so since then like you know",
+      "start": 664.399,
+      "duration": 6.401
+    },
+    {
+      "text": "okay that enables us to that gives us",
+      "start": 667.68,
+      "duration": 4.8
+    },
+    {
+      "text": "some components but then now we still",
+      "start": 670.8,
+      "duration": 3.84
+    },
+    {
+      "text": "need the whole system right and so so",
+      "start": 672.48,
+      "duration": 3.599
+    },
+    {
+      "text": "that's really what you know we're",
+      "start": 674.64,
+      "duration": 4.08
+    },
+    {
+      "text": "enabling is we call it decentralized",
+      "start": 676.079,
+      "duration": 6.081
+    },
+    {
+      "text": "confidential machine learning um and so",
+      "start": 678.72,
+      "duration": 6.0
+    },
+    {
+      "text": "so confidentiality I think maybe",
+      "start": 682.16,
+      "duration": 6.32
+    },
+    {
+      "text": "important to discuss why it's why is it",
+      "start": 684.72,
+      "duration": 5.679
+    },
+    {
+      "text": "important well confidentiality is is",
+      "start": 688.48,
+      "duration": 3.44
+    },
+    {
+      "text": "combination of things, right? First of",
+      "start": 690.399,
+      "duration": 5.921
+    },
+    {
+      "text": "all, um, for the user, like a lot of",
+      "start": 691.92,
+      "duration": 6.159
+    },
+    {
+      "text": "people usually like, oh, you know, I",
+      "start": 696.32,
+      "duration": 3.199
+    },
+    {
+      "text": "don't really care. Like, there's some",
+      "start": 698.079,
+      "duration": 2.481
+    },
+    {
+      "text": "people who are like, I don't care about",
+      "start": 699.519,
+      "duration": 2.641
+    },
+    {
+      "text": "privacy. There's people who are like, I",
+      "start": 700.56,
+      "duration": 3.44
+    },
+    {
+      "text": "care about privacy, but they go and",
+      "start": 702.16,
+      "duration": 3.679
+    },
+    {
+      "text": "still use all the products that, you",
+      "start": 704.0,
+      "duration": 4.72
+    },
+    {
+      "text": "know, take all their data.",
+      "start": 705.839,
+      "duration": 4.961
+    },
+    {
+      "text": "But there's important kind of",
+      "start": 708.72,
+      "duration": 4.32
+    },
+    {
+      "text": "interesting effects that there's still",
+      "start": 710.8,
+      "duration": 3.599
+    },
+    {
+      "text": "some things that you're not going to",
+      "start": 713.04,
+      "duration": 4.56
+    },
+    {
+      "text": "trust. uh like you know we don't",
+      "start": 714.399,
+      "duration": 5.921
+    },
+    {
+      "text": "normally walk around with like a hot mic",
+      "start": 717.6,
+      "duration": 4.96
+    },
+    {
+      "text": "that records everything we say",
+      "start": 720.32,
+      "duration": 4.639
+    },
+    {
+      "text": ">> although that is becoming popularized by",
+      "start": 722.56,
+      "duration": 5.04
+    },
+    {
+      "text": "some AI companies right it is yeah it's",
+      "start": 724.959,
+      "duration": 5.12
+    },
+    {
+      "text": "a conversation that we're having now in",
+      "start": 727.6,
+      "duration": 4.479
+    },
+    {
+      "text": "spite of how crazy it sounds or would",
+      "start": 730.079,
+      "duration": 4.161
+    },
+    {
+      "text": "have sounded a few years ago",
+      "start": 732.079,
+      "duration": 4.241
+    },
+    {
+      "text": ">> yeah and and this is this is example of",
+      "start": 734.24,
+      "duration": 3.68
+    },
+    {
+      "text": "somebody who should definitely use our",
+      "start": 736.32,
+      "duration": 2.639
+    },
+    {
+      "text": "platform",
+      "start": 737.92,
+      "duration": 3.28
+    },
+    {
+      "text": ">> okay",
+      "start": 738.959,
+      "duration": 4.801
+    },
+    {
+      "text": ">> um and similarly like yeah I mean",
+      "start": 741.2,
+      "duration": 4.8
+    },
+    {
+      "text": "there's just so much context text in",
+      "start": 743.76,
+      "duration": 4.879
+    },
+    {
+      "text": "your life that right now we're still not",
+      "start": 746.0,
+      "duration": 5.279
+    },
+    {
+      "text": "putting on on you know into this AI",
+      "start": 748.639,
+      "duration": 4.64
+    },
+    {
+      "text": "systems and like I think everybody's",
+      "start": 751.279,
+      "duration": 3.36
+    },
+    {
+      "text": "kind of on different spectrum right like",
+      "start": 753.279,
+      "duration": 3.521
+    },
+    {
+      "text": "I for example don't trust you know my",
+      "start": 754.639,
+      "duration": 6.0
+    },
+    {
+      "text": "email and my calendar to uh maybe an AI",
+      "start": 756.8,
+      "duration": 6.24
+    },
+    {
+      "text": "company some people would right but then",
+      "start": 760.639,
+      "duration": 3.681
+    },
+    {
+      "text": "they wouldn't trust with their medical",
+      "start": 763.04,
+      "duration": 2.72
+    },
+    {
+      "text": "data but maybe they wouldn't trust with",
+      "start": 764.32,
+      "duration": 3.759
+    },
+    {
+      "text": "their banking bank data right so there's",
+      "start": 765.76,
+      "duration": 3.92
+    },
+    {
+      "text": "always a threshold where you kind of get",
+      "start": 768.079,
+      "duration": 4.161
+    },
+    {
+      "text": "all h maybe I shouldn't do that right",
+      "start": 769.68,
+      "duration": 5.599
+    },
+    {
+      "text": "and so what we offer is is effectively",
+      "start": 772.24,
+      "duration": 4.64
+    },
+    {
+      "text": "removing that threshold and say hey",
+      "start": 775.279,
+      "duration": 3.601
+    },
+    {
+      "text": "actually it's all confidential all end",
+      "start": 776.88,
+      "duration": 3.92
+    },
+    {
+      "text": "to end encrypted for you and you can",
+      "start": 778.88,
+      "duration": 4.399
+    },
+    {
+      "text": "trust that there's no other single party",
+      "start": 780.8,
+      "duration": 4.96
+    },
+    {
+      "text": "not you know developers not operators of",
+      "start": 783.279,
+      "duration": 5.441
+    },
+    {
+      "text": "hardware not model developers etc are",
+      "start": 785.76,
+      "duration": 5.12
+    },
+    {
+      "text": "able to access it right so it's as if it",
+      "start": 788.72,
+      "duration": 4.32
+    },
+    {
+      "text": "was local and potentially even better",
+      "start": 790.88,
+      "duration": 3.519
+    },
+    {
+      "text": "than local because you have like",
+      "start": 793.04,
+      "duration": 3.12
+    },
+    {
+      "text": "additional security mechanisms",
+      "start": 794.399,
+      "duration": 6.321
+    },
+    {
+      "text": ">> and so is the idea that",
+      "start": 796.16,
+      "duration": 6.56
+    },
+    {
+      "text": "oh there's like so many questions I'm",
+      "start": 800.72,
+      "duration": 4.16
+    },
+    {
+      "text": "trying to ask here So, like you're",
+      "start": 802.72,
+      "duration": 3.919
+    },
+    {
+      "text": "describing",
+      "start": 804.88,
+      "duration": 4.32
+    },
+    {
+      "text": "a a a system that, you know, many people",
+      "start": 806.639,
+      "duration": 4.401
+    },
+    {
+      "text": "say like if I don't if I can't run this",
+      "start": 809.2,
+      "duration": 3.6
+    },
+    {
+      "text": "locally on my machines, I'm not going to",
+      "start": 811.04,
+      "duration": 3.359
+    },
+    {
+      "text": "run it. But it sounds like what you're",
+      "start": 812.8,
+      "duration": 4.24
+    },
+    {
+      "text": "trying to do is more",
+      "start": 814.399,
+      "duration": 7.041
+    },
+    {
+      "text": "in like create a system that would allow",
+      "start": 817.04,
+      "duration": 7.919
+    },
+    {
+      "text": "like remote and cloud-based but also",
+      "start": 821.44,
+      "duration": 6.56
+    },
+    {
+      "text": "private to the same level as local AI.",
+      "start": 824.959,
+      "duration": 5.68
+    },
+    {
+      "text": "Am I parsing that correctly? I mean I' I",
+      "start": 828.0,
+      "duration": 4.88
+    },
+    {
+      "text": "run some of the models locally but I",
+      "start": 830.639,
+      "duration": 4.561
+    },
+    {
+      "text": "mean obviously they're not as um",
+      "start": 832.88,
+      "duration": 4.959
+    },
+    {
+      "text": "intelligent as what you can have in the",
+      "start": 835.2,
+      "duration": 4.319
+    },
+    {
+      "text": "cloud they're not as fast but",
+      "start": 837.839,
+      "duration": 4.081
+    },
+    {
+      "text": "importantly also like you know even even",
+      "start": 839.519,
+      "duration": 4.241
+    },
+    {
+      "text": "if we have like a smarter model you",
+      "start": 841.92,
+      "duration": 3.52
+    },
+    {
+      "text": "still have a lot of things that are",
+      "start": 843.76,
+      "duration": 3.28
+    },
+    {
+      "text": "happening on the background that you",
+      "start": 845.44,
+      "duration": 3.839
+    },
+    {
+      "text": "want to like keep happening right you",
+      "start": 847.04,
+      "duration": 4.159
+    },
+    {
+      "text": "want you know set up an agent that runs",
+      "start": 849.279,
+      "duration": 3.68
+    },
+    {
+      "text": "and reads all the news and summarizes it",
+      "start": 851.199,
+      "duration": 3.76
+    },
+    {
+      "text": "and process it or workflows etc. So",
+      "start": 852.959,
+      "duration": 3.521
+    },
+    {
+      "text": "there's always going to be a need for a",
+      "start": 854.959,
+      "duration": 4.641
+    },
+    {
+      "text": "background work and analysis and kind of",
+      "start": 856.48,
+      "duration": 5.919
+    },
+    {
+      "text": "surfacing it even as local models",
+      "start": 859.6,
+      "duration": 5.12
+    },
+    {
+      "text": "improve. So like I think that's that's",
+      "start": 862.399,
+      "duration": 3.921
+    },
+    {
+      "text": "really the and you know you want to back",
+      "start": 864.72,
+      "duration": 2.96
+    },
+    {
+      "text": "up you want you want a way to",
+      "start": 866.32,
+      "duration": 2.959
+    },
+    {
+      "text": "synchronize between devices like there's",
+      "start": 867.68,
+      "duration": 5.68
+    },
+    {
+      "text": "a lot of kind of um um kind of",
+      "start": 869.279,
+      "duration": 5.601
+    },
+    {
+      "text": "functionality that you want that",
+      "start": 873.36,
+      "duration": 4.4
+    },
+    {
+      "text": "requires cloud and right now there is no",
+      "start": 874.88,
+      "duration": 4.8
+    },
+    {
+      "text": "really private cloud right there's like",
+      "start": 877.76,
+      "duration": 4.24
+    },
+    {
+      "text": "always some multiple companies usually",
+      "start": 879.68,
+      "duration": 4.159
+    },
+    {
+      "text": "who actually have access to the to the",
+      "start": 882.0,
+      "duration": 5.36
+    },
+    {
+      "text": "to the data and to the computation. The",
+      "start": 883.839,
+      "duration": 6.081
+    },
+    {
+      "text": "other thing is for developers actually",
+      "start": 887.36,
+      "duration": 5.12
+    },
+    {
+      "text": "like if if I'm an application developer",
+      "start": 889.92,
+      "duration": 5.359
+    },
+    {
+      "text": "if if five 10 years ago data was you",
+      "start": 892.48,
+      "duration": 5.12
+    },
+    {
+      "text": "know a gold mine it's becoming actually",
+      "start": 895.279,
+      "duration": 4.081
+    },
+    {
+      "text": "a liability",
+      "start": 897.6,
+      "duration": 3.76
+    },
+    {
+      "text": "and it's become a liability both like in",
+      "start": 899.36,
+      "duration": 3.839
+    },
+    {
+      "text": "Europe for example there's GDPR data",
+      "start": 901.36,
+      "duration": 4.24
+    },
+    {
+      "text": "privacy we have California data privacy",
+      "start": 903.199,
+      "duration": 4.08
+    },
+    {
+      "text": "there's all this kind of different data",
+      "start": 905.6,
+      "duration": 4.239
+    },
+    {
+      "text": "privacy laws that popping up in China",
+      "start": 907.279,
+      "duration": 4.961
+    },
+    {
+      "text": "you actually need to pay data tax if",
+      "start": 909.839,
+      "duration": 6.641
+    },
+    {
+      "text": "you're using consumer data yeah uh and",
+      "start": 912.24,
+      "duration": 6.48
+    },
+    {
+      "text": "So, so the reality is actually like if",
+      "start": 916.48,
+      "duration": 5.2
+    },
+    {
+      "text": "before this was like really valuable for",
+      "start": 918.72,
+      "duration": 5.76
+    },
+    {
+      "text": "many use cases, now it's actually a",
+      "start": 921.68,
+      "duration": 5.12
+    },
+    {
+      "text": "liability. And so this this actually",
+      "start": 924.48,
+      "duration": 4.0
+    },
+    {
+      "text": "creates a platform where you as a",
+      "start": 926.8,
+      "duration": 3.36
+    },
+    {
+      "text": "developer don't need to deal with the",
+      "start": 928.48,
+      "duration": 3.28
+    },
+    {
+      "text": "user data. You're effectively pushing",
+      "start": 930.16,
+      "duration": 3.52
+    },
+    {
+      "text": "software to them. Again, similar how",
+      "start": 931.76,
+      "duration": 4.0
+    },
+    {
+      "text": "local works, right? You pushed the",
+      "start": 933.68,
+      "duration": 4.24
+    },
+    {
+      "text": "application, you know, to the user and",
+      "start": 935.76,
+      "duration": 3.6
+    },
+    {
+      "text": "it runs on their device. You don't need",
+      "start": 937.92,
+      "duration": 3.919
+    },
+    {
+      "text": "to deal with whatever data. But again,",
+      "start": 939.36,
+      "duration": 4.0
+    },
+    {
+      "text": "now you have background processing. You",
+      "start": 941.839,
+      "duration": 3.12
+    },
+    {
+      "text": "can have, you know, higher intelligent",
+      "start": 943.36,
+      "duration": 4.479
+    },
+    {
+      "text": "models. uh and you can access all of",
+      "start": 944.959,
+      "duration": 5.281
+    },
+    {
+      "text": "their you know context and memory as",
+      "start": 947.839,
+      "duration": 5.44
+    },
+    {
+      "text": "well in this. So you kind of get like",
+      "start": 950.24,
+      "duration": 6.0
+    },
+    {
+      "text": "interesting combinations from both sides",
+      "start": 953.279,
+      "duration": 4.641
+    },
+    {
+      "text": "there is another side which is also",
+      "start": 956.24,
+      "duration": 4.24
+    },
+    {
+      "text": "interesting. So right now if I'm a model",
+      "start": 957.92,
+      "duration": 4.719
+    },
+    {
+      "text": "developer like actual you know frontier",
+      "start": 960.48,
+      "duration": 5.84
+    },
+    {
+      "text": "AI models I have a interesting challenge",
+      "start": 962.639,
+      "duration": 7.041
+    },
+    {
+      "text": "where uh you know if I'm not a you know",
+      "start": 966.32,
+      "duration": 6.639
+    },
+    {
+      "text": "the largest labs which are only few uh",
+      "start": 969.68,
+      "duration": 4.719
+    },
+    {
+      "text": "let's say I developed a new you know",
+      "start": 972.959,
+      "duration": 3.601
+    },
+    {
+      "text": "amazing model for anime characters or",
+      "start": 974.399,
+      "duration": 4.8
+    },
+    {
+      "text": "whatever and now I have a choice I",
+      "start": 976.56,
+      "duration": 4.88
+    },
+    {
+      "text": "either you know I only have some amount",
+      "start": 979.199,
+      "duration": 4.481
+    },
+    {
+      "text": "of compute I either use this compute to",
+      "start": 981.44,
+      "duration": 5.6
+    },
+    {
+      "text": "serve customers or",
+      "start": 983.68,
+      "duration": 6.24
+    },
+    {
+      "text": "uh or research and develop a new model,",
+      "start": 987.04,
+      "duration": 5.44
+    },
+    {
+      "text": "right? And continue trading, right? Like",
+      "start": 989.92,
+      "duration": 4.4
+    },
+    {
+      "text": "there there's a and so if you if you get",
+      "start": 992.48,
+      "duration": 4.24
+    },
+    {
+      "text": "a lot of usage and like you're kind of",
+      "start": 994.32,
+      "duration": 5.519
+    },
+    {
+      "text": "limited by that, you you then still, you",
+      "start": 996.72,
+      "duration": 4.64
+    },
+    {
+      "text": "know, need to handle all of their data,",
+      "start": 999.839,
+      "duration": 3.521
+    },
+    {
+      "text": "right? So you have this kind of uh",
+      "start": 1001.36,
+      "duration": 4.24
+    },
+    {
+      "text": "challenges with all the G D G D G D G D",
+      "start": 1003.36,
+      "duration": 3.76
+    },
+    {
+      "text": "G D G D G D G D G D G DRS",
+      "start": 1005.6,
+      "duration": 3.919
+    },
+    {
+      "text": "in the world.",
+      "start": 1007.12,
+      "duration": 5.36
+    },
+    {
+      "text": "And now if you say like oh but you know",
+      "start": 1009.519,
+      "duration": 5.521
+    },
+    {
+      "text": "there's ton of clouds GPU clouds around",
+      "start": 1012.48,
+      "duration": 4.24
+    },
+    {
+      "text": "the world you can just go and you know",
+      "start": 1015.04,
+      "duration": 3.76
+    },
+    {
+      "text": "rent them off when you need it. And the",
+      "start": 1016.72,
+      "duration": 3.44
+    },
+    {
+      "text": "challenge is actually this model",
+      "start": 1018.8,
+      "duration": 3.76
+    },
+    {
+      "text": "developers don't trust third parties",
+      "start": 1020.16,
+      "duration": 4.159
+    },
+    {
+      "text": "because they're afraid that their model",
+      "start": 1022.56,
+      "duration": 5.04
+    },
+    {
+      "text": "will leak and this has happened uh where",
+      "start": 1024.319,
+      "duration": 5.36
+    },
+    {
+      "text": "the model weights have leaked from third",
+      "start": 1027.6,
+      "duration": 2.64
+    },
+    {
+      "text": "parties.",
+      "start": 1029.679,
+      "duration": 2.0
+    },
+    {
+      "text": ">> What's a specific example of that",
+      "start": 1030.24,
+      "duration": 2.079
+    },
+    {
+      "text": "happening?",
+      "start": 1031.679,
+      "duration": 2.88
+    },
+    {
+      "text": ">> So mistrol gave its weights to hugging",
+      "start": 1032.319,
+      "duration": 5.281
+    },
+    {
+      "text": "face and it ended up on 4chan.",
+      "start": 1034.559,
+      "duration": 5.041
+    },
+    {
+      "text": ">> Oh wow. I hadn't heard that.",
+      "start": 1037.6,
+      "duration": 5.599
+    },
+    {
+      "text": ">> And so uh and and so I mean this is the",
+      "start": 1039.6,
+      "duration": 6.56
+    },
+    {
+      "text": "same reason why like a lot of the um",
+      "start": 1043.199,
+      "duration": 4.72
+    },
+    {
+      "text": "like you know people build their own",
+      "start": 1046.16,
+      "duration": 3.36
+    },
+    {
+      "text": "clusters because they want to control",
+      "start": 1047.919,
+      "duration": 2.88
+    },
+    {
+      "text": "everything. I mean obviously there's",
+      "start": 1049.52,
+      "duration": 3.6
+    },
+    {
+      "text": "like some efficiency comes from like",
+      "start": 1050.799,
+      "duration": 4.161
+    },
+    {
+      "text": "optimizations but a lot of it is also",
+      "start": 1053.12,
+      "duration": 3.28
+    },
+    {
+      "text": "just like we want to control you know",
+      "start": 1054.96,
+      "duration": 3.36
+    },
+    {
+      "text": "like literally have guards on the doors",
+      "start": 1056.4,
+      "duration": 4.0
+    },
+    {
+      "text": "to make sure nobody can access. So we're",
+      "start": 1058.32,
+      "duration": 3.92
+    },
+    {
+      "text": "also solving that problem interestingly",
+      "start": 1060.4,
+      "duration": 4.48
+    },
+    {
+      "text": "because because of secure enclaves you",
+      "start": 1062.24,
+      "duration": 4.16
+    },
+    {
+      "text": "can actually encrypt the model weights",
+      "start": 1064.88,
+      "duration": 3.36
+    },
+    {
+      "text": "and they only get decrypted inside the",
+      "start": 1066.4,
+      "duration": 4.24
+    },
+    {
+      "text": "secure enclave and then user data is",
+      "start": 1068.24,
+      "duration": 3.679
+    },
+    {
+      "text": "also private right so you're effectively",
+      "start": 1070.64,
+      "duration": 4.24
+    },
+    {
+      "text": "bringing kind of privacy from both sides",
+      "start": 1071.919,
+      "duration": 5.041
+    },
+    {
+      "text": "uh like kind of model developers don't",
+      "start": 1074.88,
+      "duration": 6.48
+    },
+    {
+      "text": "need to hand deal with user data they uh",
+      "start": 1076.96,
+      "duration": 6.8
+    },
+    {
+      "text": "kind of don't need to you know they also",
+      "start": 1081.36,
+      "duration": 4.0
+    },
+    {
+      "text": "don't need to rent the hardware right it",
+      "start": 1083.76,
+      "duration": 3.44
+    },
+    {
+      "text": "gets kind of rented at the moment when",
+      "start": 1085.36,
+      "duration": 4.48
+    },
+    {
+      "text": "users using it and then on Zaza side the",
+      "start": 1087.2,
+      "duration": 5.12
+    },
+    {
+      "text": "users don't have access to the model but",
+      "start": 1089.84,
+      "duration": 3.839
+    },
+    {
+      "text": "they also know their data is not going",
+      "start": 1092.32,
+      "duration": 2.32
+    },
+    {
+      "text": "anywhere.",
+      "start": 1093.679,
+      "duration": 4.401
+    },
+    {
+      "text": ">> Let's pause here. So",
+      "start": 1094.64,
+      "duration": 5.36
+    },
+    {
+      "text": "you're you're introducing a twist here.",
+      "start": 1098.08,
+      "duration": 4.4
+    },
+    {
+      "text": "So like I thought we had this trend like",
+      "start": 1100.0,
+      "duration": 4.24
+    },
+    {
+      "text": "at least in my mental transition was",
+      "start": 1102.48,
+      "duration": 3.92
+    },
+    {
+      "text": "okay privacy he's talking about this",
+      "start": 1104.24,
+      "duration": 4.319
+    },
+    {
+      "text": "local thing and then you know the",
+      "start": 1106.4,
+      "duration": 3.68
+    },
+    {
+      "text": "previous time I interrupted it was like",
+      "start": 1108.559,
+      "duration": 3.921
+    },
+    {
+      "text": "no it's this cloud thing but now what",
+      "start": 1110.08,
+      "duration": 6.719
+    },
+    {
+      "text": "I'm hearing strikes me more as like this",
+      "start": 1112.48,
+      "duration": 7.439
+    },
+    {
+      "text": "decentralized thing where it is actually",
+      "start": 1116.799,
+      "duration": 6.801
+    },
+    {
+      "text": "local like it's running on my laptop or",
+      "start": 1119.919,
+      "duration": 6.801
+    },
+    {
+      "text": "device but also on other people's",
+      "start": 1123.6,
+      "duration": 7.92
+    },
+    {
+      "text": "devices like uh and The reason why",
+      "start": 1126.72,
+      "duration": 6.56
+    },
+    {
+      "text": "I'm saying that is because you're saying",
+      "start": 1131.52,
+      "duration": 4.76
+    },
+    {
+      "text": "like",
+      "start": 1133.28,
+      "duration": 3.0
+    },
+    {
+      "text": "uh I don't know you said something in",
+      "start": 1136.32,
+      "duration": 3.44
+    },
+    {
+      "text": "particular that made me think that like",
+      "start": 1138.0,
+      "duration": 4.72
+    },
+    {
+      "text": "the the model's coming to my device and",
+      "start": 1139.76,
+      "duration": 4.72
+    },
+    {
+      "text": "the data is coming you know the data is",
+      "start": 1142.72,
+      "duration": 3.199
+    },
+    {
+      "text": "on my device and the training's",
+      "start": 1144.48,
+      "duration": 4.88
+    },
+    {
+      "text": "happening there and then like wait",
+      "start": 1145.919,
+      "duration": 6.401
+    },
+    {
+      "text": "let's maybe back up and like like kind",
+      "start": 1149.36,
+      "duration": 4.8
+    },
+    {
+      "text": "of frame what we're talking about",
+      "start": 1152.32,
+      "duration": 3.359
+    },
+    {
+      "text": "topologically I think",
+      "start": 1154.16,
+      "duration": 4.32
+    },
+    {
+      "text": ">> yeah topologically this is this is",
+      "start": 1155.679,
+      "duration": 6.401
+    },
+    {
+      "text": "compute hardware Let's say GPUs and CPUs",
+      "start": 1158.48,
+      "duration": 5.92
+    },
+    {
+      "text": "that live in this decentralized",
+      "start": 1162.08,
+      "duration": 4.4
+    },
+    {
+      "text": "confidential cloud.",
+      "start": 1164.4,
+      "duration": 4.56
+    },
+    {
+      "text": ">> Ah, so it is a cloud but it's not the",
+      "start": 1166.48,
+      "duration": 5.12
+    },
+    {
+      "text": "same cloud. It's like a decentralized or",
+      "start": 1168.96,
+      "duration": 6.719
+    },
+    {
+      "text": "maybe could you like run it in a",
+      "start": 1171.6,
+      "duration": 6.4
+    },
+    {
+      "text": "like run it on it's it's hardware so",
+      "start": 1175.679,
+      "duration": 4.321
+    },
+    {
+      "text": "probably not running it on",
+      "start": 1178.0,
+      "duration": 3.919
+    },
+    {
+      "text": ">> Yeah, you need bare metal to that be",
+      "start": 1180.0,
+      "duration": 3.84
+    },
+    {
+      "text": "configured and then join the network.",
+      "start": 1181.919,
+      "duration": 4.64
+    },
+    {
+      "text": "But yeah, I mean like a Amazon, you",
+      "start": 1183.84,
+      "duration": 4.8
+    },
+    {
+      "text": "know, data center can repurpose itself",
+      "start": 1186.559,
+      "duration": 4.561
+    },
+    {
+      "text": "to become a member of this of this",
+      "start": 1188.64,
+      "duration": 5.919
+    },
+    {
+      "text": "cloud. Um yeah, so this is a cloud. So",
+      "start": 1191.12,
+      "duration": 7.04
+    },
+    {
+      "text": "like you you as a user accessing it. Um",
+      "start": 1194.559,
+      "duration": 6.961
+    },
+    {
+      "text": "but it it gives you very kind of close",
+      "start": 1198.16,
+      "duration": 7.36
+    },
+    {
+      "text": "guarantees to the local uh and you can",
+      "start": 1201.52,
+      "duration": 6.399
+    },
+    {
+      "text": "potentially even add additional like you",
+      "start": 1205.52,
+      "duration": 4.399
+    },
+    {
+      "text": "know pin code to FA etc. like you can",
+      "start": 1207.919,
+      "duration": 3.841
+    },
+    {
+      "text": "actually restrict things that you may",
+      "start": 1209.919,
+      "duration": 5.201
+    },
+    {
+      "text": "not even have on a local uh host because",
+      "start": 1211.76,
+      "duration": 5.52
+    },
+    {
+      "text": "I mean local host you still can access",
+      "start": 1215.12,
+      "duration": 4.96
+    },
+    {
+      "text": "the hard drive physically here you like",
+      "start": 1217.28,
+      "duration": 4.08
+    },
+    {
+      "text": "you still have like a level of",
+      "start": 1220.08,
+      "duration": 3.2
+    },
+    {
+      "text": "interaction that can provide additional",
+      "start": 1221.36,
+      "duration": 4.48
+    },
+    {
+      "text": "controls but there's no other third like",
+      "start": 1223.28,
+      "duration": 4.08
+    },
+    {
+      "text": "there's no third party that can access",
+      "start": 1225.84,
+      "duration": 4.64
+    },
+    {
+      "text": "that like your data and your compute",
+      "start": 1227.36,
+      "duration": 5.199
+    },
+    {
+      "text": ">> right so this this cloud is kind of the",
+      "start": 1230.48,
+      "duration": 5.6
+    },
+    {
+      "text": "the you know the middle layer as a user",
+      "start": 1232.559,
+      "duration": 5.841
+    },
+    {
+      "text": "as an end user like I'm contributing my",
+      "start": 1236.08,
+      "duration": 3.839
+    },
+    {
+      "text": "data in some because I want some",
+      "start": 1238.4,
+      "duration": 3.44
+    },
+    {
+      "text": "processing on my data or to access",
+      "start": 1239.919,
+      "duration": 5.521
+    },
+    {
+      "text": "intelligence and the cloud can't access",
+      "start": 1241.84,
+      "duration": 6.64
+    },
+    {
+      "text": "my data and presumably the model",
+      "start": 1245.44,
+      "duration": 5.76
+    },
+    {
+      "text": "provider can't access my data but the",
+      "start": 1248.48,
+      "duration": 4.4
+    },
+    {
+      "text": "model provider like is providing the",
+      "start": 1251.2,
+      "duration": 3.92
+    },
+    {
+      "text": "model into this cloud and it can access",
+      "start": 1252.88,
+      "duration": 4.64
+    },
+    {
+      "text": "my data and return some results back to",
+      "start": 1255.12,
+      "duration": 3.039
+    },
+    {
+      "text": "me.",
+      "start": 1257.52,
+      "duration": 2.0
+    },
+    {
+      "text": ">> Correct.",
+      "start": 1258.159,
+      "duration": 3.201
+    },
+    {
+      "text": ">> Interesting. Interesting. You mentioned",
+      "start": 1259.52,
+      "duration": 4.399
+    },
+    {
+      "text": "at one point that data is a liability to",
+      "start": 1261.36,
+      "duration": 4.799
+    },
+    {
+      "text": "the model providers. like presumably",
+      "start": 1263.919,
+      "duration": 5.601
+    },
+    {
+      "text": "they need access to if not enduser data",
+      "start": 1266.159,
+      "duration": 5.76
+    },
+    {
+      "text": "like some data to train their models to",
+      "start": 1269.52,
+      "duration": 5.2
+    },
+    {
+      "text": "tune their models like you know",
+      "start": 1271.919,
+      "duration": 6.481
+    },
+    {
+      "text": "particularly now in the part of the you",
+      "start": 1274.72,
+      "duration": 5.92
+    },
+    {
+      "text": "know AI life cycle that we're in like",
+      "start": 1278.4,
+      "duration": 4.88
+    },
+    {
+      "text": "we're finding that one of the key",
+      "start": 1280.64,
+      "duration": 5.2
+    },
+    {
+      "text": "differentiators for you know",
+      "start": 1283.28,
+      "duration": 4.399
+    },
+    {
+      "text": "organizations is building this data",
+      "start": 1285.84,
+      "duration": 3.44
+    },
+    {
+      "text": "flywheel where they're getting early",
+      "start": 1287.679,
+      "duration": 4.801
+    },
+    {
+      "text": "users getting access to um their",
+      "start": 1289.28,
+      "duration": 5.36
+    },
+    {
+      "text": "interactions or traces and then",
+      "start": 1292.48,
+      "duration": 4.24
+    },
+    {
+      "text": "improving their models based on that",
+      "start": 1294.64,
+      "duration": 4.64
+    },
+    {
+      "text": "using you know reinforcement fine-tuning",
+      "start": 1296.72,
+      "duration": 8.48
+    },
+    {
+      "text": "or whatever. Um does this process like I",
+      "start": 1299.28,
+      "duration": 10.24
+    },
+    {
+      "text": "get that user data can be uh you know",
+      "start": 1305.2,
+      "duration": 7.599
+    },
+    {
+      "text": "can have a a cost you know to the model",
+      "start": 1309.52,
+      "duration": 6.639
+    },
+    {
+      "text": "provider but um you know that's not all",
+      "start": 1312.799,
+      "duration": 4.801
+    },
+    {
+      "text": "there is to the story like they still",
+      "start": 1316.159,
+      "duration": 3.52
+    },
+    {
+      "text": "need that user data to improve like how",
+      "start": 1317.6,
+      "duration": 4.16
+    },
+    {
+      "text": "does that play in in this model?",
+      "start": 1319.679,
+      "duration": 5.281
+    },
+    {
+      "text": ">> Yeah. So I think it's um first I think",
+      "start": 1321.76,
+      "duration": 5.44
+    },
+    {
+      "text": "that is changing as well the need for",
+      "start": 1324.96,
+      "duration": 5.44
+    },
+    {
+      "text": "the for the actual user feedback data.",
+      "start": 1327.2,
+      "duration": 5.76
+    },
+    {
+      "text": "Um but first be before we go there why",
+      "start": 1330.4,
+      "duration": 4.72
+    },
+    {
+      "text": "is this liability? So imagine I'm a",
+      "start": 1332.96,
+      "duration": 4.56
+    },
+    {
+      "text": "European right I'm in Lisbon right now.",
+      "start": 1335.12,
+      "duration": 5.12
+    },
+    {
+      "text": "I use OpenAI. OpenAI trains on my data",
+      "start": 1337.52,
+      "duration": 5.12
+    },
+    {
+      "text": "and then I go and I evoke my GDPR law",
+      "start": 1340.24,
+      "duration": 5.439
+    },
+    {
+      "text": "and say hey remove all my data. I'm",
+      "start": 1342.64,
+      "duration": 6.56
+    },
+    {
+      "text": "assuming that that that is not uh a",
+      "start": 1345.679,
+      "duration": 6.161
+    },
+    {
+      "text": "resolved issue either because I can't",
+      "start": 1349.2,
+      "duration": 4.479
+    },
+    {
+      "text": "believe it's because no one has asked",
+      "start": 1351.84,
+      "duration": 3.52
+    },
+    {
+      "text": "yet. I'm assuming it's because they've",
+      "start": 1353.679,
+      "duration": 5.521
+    },
+    {
+      "text": "just ignored it and uh at one point, you",
+      "start": 1355.36,
+      "duration": 5.199
+    },
+    {
+      "text": "know, there may be a challenge, but",
+      "start": 1359.2,
+      "duration": 3.04
+    },
+    {
+      "text": "we're just not there yet.",
+      "start": 1360.559,
+      "duration": 3.36
+    },
+    {
+      "text": ">> Yeah. So, so that's what I mean by",
+      "start": 1362.24,
+      "duration": 3.2
+    },
+    {
+      "text": "liability, right? I mean, and you know,",
+      "start": 1363.919,
+      "duration": 3.841
+    },
+    {
+      "text": "maybe OpenAI has the money to pay their",
+      "start": 1365.44,
+      "duration": 4.16
+    },
+    {
+      "text": "fine. Like, I mean, similar how Google",
+      "start": 1367.76,
+      "duration": 3.76
+    },
+    {
+      "text": "and Facebook have the paid, you know,",
+      "start": 1369.6,
+      "duration": 3.76
+    },
+    {
+      "text": "billions of dollars in fines. But if",
+      "start": 1371.52,
+      "duration": 3.76
+    },
+    {
+      "text": "you're a smaller model developer, that's",
+      "start": 1373.36,
+      "duration": 4.16
+    },
+    {
+      "text": "why I was kind of using, you know, other",
+      "start": 1375.28,
+      "duration": 4.639
+    },
+    {
+      "text": "examples. You this effectively can be",
+      "start": 1377.52,
+      "duration": 3.84
+    },
+    {
+      "text": "like existential.",
+      "start": 1379.919,
+      "duration": 3.921
+    },
+    {
+      "text": ">> Yeah, I get it. It can be a liability.",
+      "start": 1381.36,
+      "duration": 3.76
+    },
+    {
+      "text": ">> So that's piece number one. The piece",
+      "start": 1383.84,
+      "duration": 3.92
+    },
+    {
+      "text": "number two is actually why I think the",
+      "start": 1385.12,
+      "duration": 4.32
+    },
+    {
+      "text": "space is transitioning from user",
+      "start": 1387.76,
+      "duration": 4.48
+    },
+    {
+      "text": "feedback is so let's use the deepseek",
+      "start": 1389.44,
+      "duration": 5.2
+    },
+    {
+      "text": "example. So when deepseek released their",
+      "start": 1392.24,
+      "duration": 5.28
+    },
+    {
+      "text": "first model right which was you know at",
+      "start": 1394.64,
+      "duration": 6.159
+    },
+    {
+      "text": "least at the time from the open weight",
+      "start": 1397.52,
+      "duration": 5.6
+    },
+    {
+      "text": "models was a state-of-the-art uh and",
+      "start": 1400.799,
+      "duration": 5.041
+    },
+    {
+      "text": "like our for example for R1 it did not",
+      "start": 1403.12,
+      "duration": 7.919
+    },
+    {
+      "text": "use the explicit like user queries right",
+      "start": 1405.84,
+      "duration": 6.719
+    },
+    {
+      "text": ">> yeah we're talking about like this",
+      "start": 1411.039,
+      "duration": 3.361
+    },
+    {
+      "text": "transition from user feedback to",
+      "start": 1412.559,
+      "duration": 3.36
+    },
+    {
+      "text": "verifiable",
+      "start": 1414.4,
+      "duration": 2.399
+    },
+    {
+      "text": "results",
+      "start": 1415.919,
+      "duration": 3.12
+    },
+    {
+      "text": ">> it's combination of data labeling like",
+      "start": 1416.799,
+      "duration": 5.041
+    },
+    {
+      "text": "indeed human but like you actually want",
+      "start": 1419.039,
+      "duration": 5.041
+    },
+    {
+      "text": "a very specific supervision and you want",
+      "start": 1421.84,
+      "duration": 4.48
+    },
+    {
+      "text": "to control kind of what feedback you",
+      "start": 1424.08,
+      "duration": 4.8
+    },
+    {
+      "text": "get. So you like human labeling is very",
+      "start": 1426.32,
+      "duration": 5.28
+    },
+    {
+      "text": "I mean its own space right where there's",
+      "start": 1428.88,
+      "duration": 4.799
+    },
+    {
+      "text": "a lot of knowhow how to do it properly",
+      "start": 1431.6,
+      "duration": 4.24
+    },
+    {
+      "text": "and again like we've been running that",
+      "start": 1433.679,
+      "duration": 6.401
+    },
+    {
+      "text": "for years. So um there is synthetic data",
+      "start": 1435.84,
+      "duration": 6.88
+    },
+    {
+      "text": "there is kind of this indeed verifiable",
+      "start": 1440.08,
+      "duration": 6.079
+    },
+    {
+      "text": "you know math physics logic kind of uh",
+      "start": 1442.72,
+      "duration": 5.839
+    },
+    {
+      "text": "coding etc which clearly improve",
+      "start": 1446.159,
+      "duration": 5.281
+    },
+    {
+      "text": "reasoning as well. So there's like a lot",
+      "start": 1448.559,
+      "duration": 8.0
+    },
+    {
+      "text": "of a lot of the I would say",
+      "start": 1451.44,
+      "duration": 7.119
+    },
+    {
+      "text": "um you know even if we're talking about",
+      "start": 1456.559,
+      "duration": 4.321
+    },
+    {
+      "text": "like the vi like shifting the vibe of",
+      "start": 1458.559,
+      "duration": 5.521
+    },
+    {
+      "text": "the model which I think something that",
+      "start": 1460.88,
+      "duration": 5.36
+    },
+    {
+      "text": "usually credited to you know like claude",
+      "start": 1464.08,
+      "duration": 4.88
+    },
+    {
+      "text": "versus open AAI right like uh the vibe",
+      "start": 1466.24,
+      "duration": 5.36
+    },
+    {
+      "text": "is different and kind of how uh even",
+      "start": 1468.96,
+      "duration": 5.76
+    },
+    {
+      "text": "that is you probably want like more",
+      "start": 1471.6,
+      "duration": 5.52
+    },
+    {
+      "text": "trained people to actually give feedback",
+      "start": 1474.72,
+      "duration": 6.4
+    },
+    {
+      "text": "versus just relying on on kind very very",
+      "start": 1477.12,
+      "duration": 7.679
+    },
+    {
+      "text": "noisy signal that comes from uh users.",
+      "start": 1481.12,
+      "duration": 6.72
+    },
+    {
+      "text": "Now I mean again this is like I would",
+      "start": 1484.799,
+      "duration": 4.801
+    },
+    {
+      "text": "say it's it's not fully transitioning to",
+      "start": 1487.84,
+      "duration": 3.68
+    },
+    {
+      "text": "this and and depends on the use cases.",
+      "start": 1489.6,
+      "duration": 4.64
+    },
+    {
+      "text": "So it's important to note but as I said",
+      "start": 1491.52,
+      "duration": 6.32
+    },
+    {
+      "text": "like the co the cost versus reward is is",
+      "start": 1494.24,
+      "duration": 6.0
+    },
+    {
+      "text": "shifting and and like it's shifting I",
+      "start": 1497.84,
+      "duration": 4.8
+    },
+    {
+      "text": "think faster than uh at least some",
+      "start": 1500.24,
+      "duration": 4.16
+    },
+    {
+      "text": "people realize it.",
+      "start": 1502.64,
+      "duration": 4.08
+    },
+    {
+      "text": ">> Interesting. And would you say that that",
+      "start": 1504.4,
+      "duration": 4.96
+    },
+    {
+      "text": "is",
+      "start": 1506.72,
+      "duration": 5.64
+    },
+    {
+      "text": "because",
+      "start": 1509.36,
+      "duration": 3.0
+    },
+    {
+      "text": "you know we're just learning how to",
+      "start": 1512.48,
+      "duration": 4.72
+    },
+    {
+      "text": "manipulate you know the vibe or or",
+      "start": 1514.64,
+      "duration": 4.8
+    },
+    {
+      "text": "output characteristics of a model based",
+      "start": 1517.2,
+      "duration": 7.359
+    },
+    {
+      "text": "on more kind of curated uh you know",
+      "start": 1519.44,
+      "duration": 7.119
+    },
+    {
+      "text": "training data or feedback or is there",
+      "start": 1524.559,
+      "duration": 4.48
+    },
+    {
+      "text": "are there techniques that are enabling",
+      "start": 1526.559,
+      "duration": 4.401
+    },
+    {
+      "text": "this shift like what do you see as the",
+      "start": 1529.039,
+      "duration": 3.441
+    },
+    {
+      "text": "driver",
+      "start": 1530.96,
+      "duration": 4.4
+    },
+    {
+      "text": "of this shift? I mean I think it's",
+      "start": 1532.48,
+      "duration": 5.28
+    },
+    {
+      "text": "combination. I mean again even even the",
+      "start": 1535.36,
+      "duration": 6.559
+    },
+    {
+      "text": "original chat GPT the GPT 3.5 it was",
+      "start": 1537.76,
+      "duration": 7.84
+    },
+    {
+      "text": "like on the human label but not on the",
+      "start": 1541.919,
+      "duration": 5.521
+    },
+    {
+      "text": "actual user feedback. Right.",
+      "start": 1545.6,
+      "duration": 3.52
+    },
+    {
+      "text": ">> Sure. Yeah. So sure there's like this",
+      "start": 1547.44,
+      "duration": 5.68
+    },
+    {
+      "text": "transition from RHF to RF and like the",
+      "start": 1549.12,
+      "duration": 6.4
+    },
+    {
+      "text": "verifiable stuff and all that like but",
+      "start": 1553.12,
+      "duration": 5.039
+    },
+    {
+      "text": "it sounds like you're",
+      "start": 1555.52,
+      "duration": 4.639
+    },
+    {
+      "text": "it sounds like you're speaking to like a",
+      "start": 1558.159,
+      "duration": 2.961
+    },
+    {
+      "text": "broader trend.",
+      "start": 1560.159,
+      "duration": 2.801
+    },
+    {
+      "text": ">> Let's let's go back to like Google,",
+      "start": 1561.12,
+      "duration": 3.28
+    },
+    {
+      "text": "right? of Facebook like Google and",
+      "start": 1562.96,
+      "duration": 4.4
+    },
+    {
+      "text": "Facebook learn from user behavior like",
+      "start": 1564.4,
+      "duration": 5.2
+    },
+    {
+      "text": "directly right there's no nobody's human",
+      "start": 1567.36,
+      "duration": 4.0
+    },
+    {
+      "text": "labeling like hey which search result I",
+      "start": 1569.6,
+      "duration": 2.88
+    },
+    {
+      "text": "mean there's like a little bit of that",
+      "start": 1571.36,
+      "duration": 3.679
+    },
+    {
+      "text": "but like in mass it's mostly just signal",
+      "start": 1572.48,
+      "duration": 5.6
+    },
+    {
+      "text": "from user clicks right and then at large",
+      "start": 1575.039,
+      "duration": 5.041
+    },
+    {
+      "text": "scale it's been processed into like",
+      "start": 1578.08,
+      "duration": 4.479
+    },
+    {
+      "text": "actual signal for the machine learning I",
+      "start": 1580.08,
+      "duration": 5.52
+    },
+    {
+      "text": "think what LLM did is kind of transition",
+      "start": 1582.559,
+      "duration": 5.521
+    },
+    {
+      "text": "that to like hey we actually just pass a",
+      "start": 1585.6,
+      "duration": 4.959
+    },
+    {
+      "text": "lot of unsupervised data right not not",
+      "start": 1588.08,
+      "duration": 5.04
+    },
+    {
+      "text": "like user click data and then we add a",
+      "start": 1590.559,
+      "duration": 4.801
+    },
+    {
+      "text": "little bit of a human like a very",
+      "start": 1593.12,
+      "duration": 4.72
+    },
+    {
+      "text": "specific human labelled data. And for",
+      "start": 1595.36,
+      "duration": 4.88
+    },
+    {
+      "text": "that we also need like the better the",
+      "start": 1597.84,
+      "duration": 5.52
+    },
+    {
+      "text": "foundational model almost like the more",
+      "start": 1600.24,
+      "duration": 5.919
+    },
+    {
+      "text": "complex things we want people to label.",
+      "start": 1603.36,
+      "duration": 5.76
+    },
+    {
+      "text": "And so kind of the like again for our",
+      "start": 1606.159,
+      "duration": 5.12
+    },
+    {
+      "text": "example we were finding computer science",
+      "start": 1609.12,
+      "duration": 4.159
+    },
+    {
+      "text": "students because we needed people who",
+      "start": 1611.279,
+      "duration": 5.921
+    },
+    {
+      "text": "code and so just kind of the you know",
+      "start": 1613.279,
+      "duration": 6.801
+    },
+    {
+      "text": "some some maybe broader data wouldn't be",
+      "start": 1617.2,
+      "duration": 5.52
+    },
+    {
+      "text": "that much that useful. So part of it is",
+      "start": 1620.08,
+      "duration": 4.64
+    },
+    {
+      "text": "we've collected enough data and we've",
+      "start": 1622.72,
+      "duration": 4.959
+    },
+    {
+      "text": "kind of baked the generic stuff into the",
+      "start": 1624.72,
+      "duration": 5.12
+    },
+    {
+      "text": "foundation models. So now where the",
+      "start": 1627.679,
+      "duration": 6.321
+    },
+    {
+      "text": "innovation is happening is um you know",
+      "start": 1629.84,
+      "duration": 6.24
+    },
+    {
+      "text": "bringing in more subject matter",
+      "start": 1634.0,
+      "duration": 5.36
+    },
+    {
+      "text": "expertise or specialized skills",
+      "start": 1636.08,
+      "duration": 5.68
+    },
+    {
+      "text": ">> or or indeed like a verifiable thing or",
+      "start": 1639.36,
+      "duration": 4.4
+    },
+    {
+      "text": "combining like you know synthesizing",
+      "start": 1641.76,
+      "duration": 3.6
+    },
+    {
+      "text": "data and then using another model to",
+      "start": 1643.76,
+      "duration": 3.76
+    },
+    {
+      "text": "evaluate it and kind of then human",
+      "start": 1645.36,
+      "duration": 3.36
+    },
+    {
+      "text": "labeling like all those kind of",
+      "start": 1647.52,
+      "duration": 2.399
+    },
+    {
+      "text": "pipelines, right?",
+      "start": 1648.72,
+      "duration": 3.199
+    },
+    {
+      "text": ">> Yeah. Yeah. And again, it depends like",
+      "start": 1649.919,
+      "duration": 4.321
+    },
+    {
+      "text": "for for some things like I mean audio",
+      "start": 1651.919,
+      "duration": 5.041
+    },
+    {
+      "text": "for example, same thing, right? Is like",
+      "start": 1654.24,
+      "duration": 4.799
+    },
+    {
+      "text": "it it's great to have a bunch of audio",
+      "start": 1656.96,
+      "duration": 4.8
+    },
+    {
+      "text": "from people that use your product, but",
+      "start": 1659.039,
+      "duration": 4.401
+    },
+    {
+      "text": "then again like you you may get in",
+      "start": 1661.76,
+      "duration": 3.36
+    },
+    {
+      "text": "trouble so much, right? We've seen that",
+      "start": 1663.44,
+      "duration": 3.44
+    },
+    {
+      "text": "happening. It's better to just pay",
+      "start": 1665.12,
+      "duration": 3.52
+    },
+    {
+      "text": "people to contribute their audio and",
+      "start": 1666.88,
+      "duration": 4.24
+    },
+    {
+      "text": "like sign off the rights. And it's and",
+      "start": 1668.64,
+      "duration": 4.32
+    },
+    {
+      "text": "it's like it's kind of pretty",
+      "start": 1671.12,
+      "duration": 3.12
+    },
+    {
+      "text": "straightforward to do that. Like we have",
+      "start": 1672.96,
+      "duration": 4.079
+    },
+    {
+      "text": "a project on near as well running that.",
+      "start": 1674.24,
+      "duration": 7.12
+    },
+    {
+      "text": "Uh, and so like it like the amount of",
+      "start": 1677.039,
+      "duration": 7.041
+    },
+    {
+      "text": "Yeah. like kind of that's what I mean",
+      "start": 1681.36,
+      "duration": 5.039
+    },
+    {
+      "text": "like the the shift like how how much we",
+      "start": 1684.08,
+      "duration": 5.599
+    },
+    {
+      "text": "can collect data and how how useful that",
+      "start": 1686.399,
+      "duration": 5.28
+    },
+    {
+      "text": "is versus getting a bunch of user data",
+      "start": 1689.679,
+      "duration": 3.761
+    },
+    {
+      "text": "and then dealing with all the",
+      "start": 1691.679,
+      "duration": 4.401
+    },
+    {
+      "text": "repercussions of that. Uh so I had asked",
+      "start": 1693.44,
+      "duration": 6.16
+    },
+    {
+      "text": "about the you know this like creating a",
+      "start": 1696.08,
+      "duration": 5.52
+    },
+    {
+      "text": "data flywheel and the importance of that",
+      "start": 1699.6,
+      "duration": 5.36
+    },
+    {
+      "text": "for you know companies in the space and",
+      "start": 1701.6,
+      "duration": 6.16
+    },
+    {
+      "text": "your response is like",
+      "start": 1704.96,
+      "duration": 5.28
+    },
+    {
+      "text": "kind of to reinforce the liability",
+      "start": 1707.76,
+      "duration": 4.399
+    },
+    {
+      "text": "aspect of that data and then talk about",
+      "start": 1710.24,
+      "duration": 3.679
+    },
+    {
+      "text": "this broader shift that's happening to",
+      "start": 1712.159,
+      "duration": 6.081
+    },
+    {
+      "text": "more specialized data creation.",
+      "start": 1713.919,
+      "duration": 7.321
+    },
+    {
+      "text": "Um",
+      "start": 1718.24,
+      "duration": 3.0
+    },
+    {
+      "text": "I think yeah I'm not sure that I'm fully",
+      "start": 1721.679,
+      "duration": 3.681
+    },
+    {
+      "text": "sold that that flywheel thing is not",
+      "start": 1723.52,
+      "duration": 4.48
+    },
+    {
+      "text": "important. Uh but if you don't have",
+      "start": 1725.36,
+      "duration": 4.48
+    },
+    {
+      "text": "anything else to add on that we can move",
+      "start": 1728.0,
+      "duration": 3.12
+    },
+    {
+      "text": "we can move on.",
+      "start": 1729.84,
+      "duration": 4.079
+    },
+    {
+      "text": ">> I mean the other piece we do want to is",
+      "start": 1731.12,
+      "duration": 6.4
+    },
+    {
+      "text": "optin users can contribute their data.",
+      "start": 1733.919,
+      "duration": 5.521
+    },
+    {
+      "text": "Right. So we do we do want like if you",
+      "start": 1737.52,
+      "duration": 3.039
+    },
+    {
+      "text": "want to contribute you should get",
+      "start": 1739.44,
+      "duration": 3.599
+    },
+    {
+      "text": "something in result right it can be",
+      "start": 1740.559,
+      "duration": 4.24
+    },
+    {
+      "text": "economic it can be credits it can be",
+      "start": 1743.039,
+      "duration": 2.801
+    },
+    {
+      "text": "something",
+      "start": 1744.799,
+      "duration": 3.36
+    },
+    {
+      "text": ">> and the underlying blockchain has a",
+      "start": 1745.84,
+      "duration": 5.199
+    },
+    {
+      "text": "mechanism to make that tenable in a way",
+      "start": 1748.159,
+      "duration": 5.681
+    },
+    {
+      "text": "that it's not tenable today.",
+      "start": 1751.039,
+      "duration": 5.041
+    },
+    {
+      "text": ">> Yeah. And and so one of the models for",
+      "start": 1753.84,
+      "duration": 5.52
+    },
+    {
+      "text": "example that uh like a new business",
+      "start": 1756.08,
+      "duration": 8.4
+    },
+    {
+      "text": "model that we have uh been building is",
+      "start": 1759.36,
+      "duration": 6.96
+    },
+    {
+      "text": "right now I I don't know if you saw this",
+      "start": 1764.48,
+      "duration": 4.96
+    },
+    {
+      "text": "post by Dario uh where he said like hey",
+      "start": 1766.32,
+      "duration": 5.839
+    },
+    {
+      "text": "every model we've built was a successful",
+      "start": 1769.44,
+      "duration": 4.32
+    },
+    {
+      "text": "thing but we spending money",
+      "start": 1772.159,
+      "duration": 3.201
+    },
+    {
+      "text": ">> your own businesses.",
+      "start": 1773.76,
+      "duration": 4.56
+    },
+    {
+      "text": ">> Yeah. So we actually do I mean we we we",
+      "start": 1775.36,
+      "duration": 4.799
+    },
+    {
+      "text": "talked about this like last year like",
+      "start": 1778.32,
+      "duration": 3.839
+    },
+    {
+      "text": "where effectively every model gets its",
+      "start": 1780.159,
+      "duration": 5.281
+    },
+    {
+      "text": "own token. So like a way to distribute",
+      "start": 1782.159,
+      "duration": 6.161
+    },
+    {
+      "text": "reward and value from the revenue while",
+      "start": 1785.44,
+      "duration": 4.88
+    },
+    {
+      "text": "also re rewarding with this tok I mean",
+      "start": 1788.32,
+      "duration": 5.44
+    },
+    {
+      "text": "effectively you can think of shares um",
+      "start": 1790.32,
+      "duration": 5.04
+    },
+    {
+      "text": "where you can you can actually like",
+      "start": 1793.76,
+      "duration": 3.84
+    },
+    {
+      "text": "whoever contributed data gets a token of",
+      "start": 1795.36,
+      "duration": 4.72
+    },
+    {
+      "text": "this model that will be trained on their",
+      "start": 1797.6,
+      "duration": 5.439
+    },
+    {
+      "text": "data and then the revenue is distributed",
+      "start": 1800.08,
+      "duration": 6.16
+    },
+    {
+      "text": "to this token holders right as a like",
+      "start": 1803.039,
+      "duration": 5.201
+    },
+    {
+      "text": "for the model's lifetime right so we can",
+      "start": 1806.24,
+      "duration": 4.08
+    },
+    {
+      "text": "actually like run and guarantee those",
+      "start": 1808.24,
+      "duration": 3.439
+    },
+    {
+      "text": "parameters as well",
+      "start": 1810.32,
+      "duration": 2.88
+    },
+    {
+      "text": ">> it was so what's interesting thing about",
+      "start": 1811.679,
+      "duration": 4.72
+    },
+    {
+      "text": "that idea is that",
+      "start": 1813.2,
+      "duration": 7.52
+    },
+    {
+      "text": "you know when you talk about this",
+      "start": 1816.399,
+      "duration": 7.361
+    },
+    {
+      "text": "idea of the kind of the broader",
+      "start": 1820.72,
+      "duration": 5.04
+    },
+    {
+      "text": "conversation around like compensating",
+      "start": 1823.76,
+      "duration": 4.72
+    },
+    {
+      "text": "rights holders for content that's",
+      "start": 1825.76,
+      "duration": 5.519
+    },
+    {
+      "text": "consumed like",
+      "start": 1828.48,
+      "duration": 5.84
+    },
+    {
+      "text": "I feel like it it you know gets to be",
+      "start": 1831.279,
+      "duration": 4.88
+    },
+    {
+      "text": "like oh antenna like how would you ever",
+      "start": 1834.32,
+      "duration": 3.76
+    },
+    {
+      "text": "do that like you know you you're",
+      "start": 1836.159,
+      "duration": 4.0
+    },
+    {
+      "text": "crawling all of the internet like how",
+      "start": 1838.08,
+      "duration": 4.0
+    },
+    {
+      "text": "would you even possibly begin to do",
+      "start": 1840.159,
+      "duration": 4.481
+    },
+    {
+      "text": "that. But just you describing this token",
+      "start": 1842.08,
+      "duration": 4.56
+    },
+    {
+      "text": "model, it's kind of like, oh well, you",
+      "start": 1844.64,
+      "duration": 3.36
+    },
+    {
+      "text": "maybe you could do that. Like you're",
+      "start": 1846.64,
+      "duration": 3.279
+    },
+    {
+      "text": "crawling a site, you know that site, you",
+      "start": 1848.0,
+      "duration": 3.679
+    },
+    {
+      "text": "know, you reserve a token for that site.",
+      "start": 1849.919,
+      "duration": 3.36
+    },
+    {
+      "text": "Someone needs to verify that they have",
+      "start": 1851.679,
+      "duration": 3.201
+    },
+    {
+      "text": "control over that site to access the",
+      "start": 1853.279,
+      "duration": 3.76
+    },
+    {
+      "text": "token. Now they have a share of the",
+      "start": 1854.88,
+      "duration": 4.399
+    },
+    {
+      "text": "model and they can, you know, gain in",
+      "start": 1857.039,
+      "duration": 4.0
+    },
+    {
+      "text": "the rewards. It all of a sudden, at",
+      "start": 1859.279,
+      "duration": 4.4
+    },
+    {
+      "text": "least for me, it like clears up a lot of",
+      "start": 1861.039,
+      "duration": 5.601
+    },
+    {
+      "text": "the just like it's not possible feeling",
+      "start": 1863.679,
+      "duration": 4.24
+    },
+    {
+      "text": "about it.",
+      "start": 1866.64,
+      "duration": 3.68
+    },
+    {
+      "text": ">> Yeah. Exactly. and and and so that's a",
+      "start": 1867.919,
+      "duration": 4.561
+    },
+    {
+      "text": "really like that example as well as you",
+      "start": 1870.32,
+      "duration": 4.079
+    },
+    {
+      "text": "can contribute data privately. So you",
+      "start": 1872.48,
+      "duration": 3.679
+    },
+    {
+      "text": "can say hey I want this data to be used",
+      "start": 1874.399,
+      "duration": 3.121
+    },
+    {
+      "text": "in the model training but I don't want",
+      "start": 1876.159,
+      "duration": 5.281
+    },
+    {
+      "text": "any anyone to see it right for example",
+      "start": 1877.52,
+      "duration": 6.56
+    },
+    {
+      "text": "right and so you can also do that or you",
+      "start": 1881.44,
+      "duration": 4.64
+    },
+    {
+      "text": "can say hey I want it to be used at",
+      "start": 1884.08,
+      "duration": 4.079
+    },
+    {
+      "text": "inference time as part of your the",
+      "start": 1886.08,
+      "duration": 5.839
+    },
+    {
+      "text": "search like retrieval index but not not",
+      "start": 1888.159,
+      "duration": 5.841
+    },
+    {
+      "text": "at training so you contribute like it's",
+      "start": 1891.919,
+      "duration": 3.921
+    },
+    {
+      "text": "payable like for example for pay data",
+      "start": 1894.0,
+      "duration": 3.84
+    },
+    {
+      "text": "New York Times can contribute their data",
+      "start": 1895.84,
+      "duration": 4.4
+    },
+    {
+      "text": "fully privately into secure enclaves and",
+      "start": 1897.84,
+      "duration": 4.0
+    },
+    {
+      "text": "then it's going to be used at retrieval",
+      "start": 1900.24,
+      "duration": 4.88
+    },
+    {
+      "text": "time it it's going to get recorded and",
+      "start": 1901.84,
+      "duration": 5.199
+    },
+    {
+      "text": "they're going to get paid for that, but",
+      "start": 1905.12,
+      "duration": 3.919
+    },
+    {
+      "text": "it's so so things like that. You just",
+      "start": 1907.039,
+      "duration": 4.321
+    },
+    {
+      "text": "get a lot of the pieces kind of for free",
+      "start": 1909.039,
+      "duration": 4.64
+    },
+    {
+      "text": "in this new model. Earlier in the",
+      "start": 1911.36,
+      "duration": 3.76
+    },
+    {
+      "text": "conversation, we talked a little bit",
+      "start": 1913.679,
+      "duration": 3.281
+    },
+    {
+      "text": "about",
+      "start": 1915.12,
+      "duration": 5.039
+    },
+    {
+      "text": "closed models versus open models",
+      "start": 1916.96,
+      "duration": 6.4
+    },
+    {
+      "text": "and like did you anticipate, you know,",
+      "start": 1920.159,
+      "duration": 5.36
+    },
+    {
+      "text": "as",
+      "start": 1923.36,
+      "duration": 5.919
+    },
+    {
+      "text": "um you know, chat GPT happened and kind",
+      "start": 1925.519,
+      "duration": 6.4
+    },
+    {
+      "text": "of the private foundation models began",
+      "start": 1929.279,
+      "duration": 4.721
+    },
+    {
+      "text": "to establish themselves? was like did",
+      "start": 1931.919,
+      "duration": 4.161
+    },
+    {
+      "text": "you anticipate that there would be like",
+      "start": 1934.0,
+      "duration": 4.0
+    },
+    {
+      "text": "fast followers of like these open models",
+      "start": 1936.08,
+      "duration": 4.88
+    },
+    {
+      "text": "or has it surprised you how quickly",
+      "start": 1938.0,
+      "duration": 5.36
+    },
+    {
+      "text": "uh open weights and you know to a lesser",
+      "start": 1940.96,
+      "duration": 5.28
+    },
+    {
+      "text": "degree open models have um come about",
+      "start": 1943.36,
+      "duration": 5.52
+    },
+    {
+      "text": "and their capability? No, I was actually",
+      "start": 1946.24,
+      "duration": 4.159
+    },
+    {
+      "text": "I think I was trying to remember it was",
+      "start": 1948.88,
+      "duration": 4.56
+    },
+    {
+      "text": "like February 23.",
+      "start": 1950.399,
+      "duration": 4.561
+    },
+    {
+      "text": "I was talking about like, hey, open",
+      "start": 1953.44,
+      "duration": 4.64
+    },
+    {
+      "text": "source is going to catch up. Um because",
+      "start": 1954.96,
+      "duration": 4.959
+    },
+    {
+      "text": "yeah, I mean I think I think the the",
+      "start": 1958.08,
+      "duration": 3.599
+    },
+    {
+      "text": "challenge is like with pure open source",
+      "start": 1959.919,
+      "duration": 3.201
+    },
+    {
+      "text": "right now. And again, this is something",
+      "start": 1961.679,
+      "duration": 4.641
+    },
+    {
+      "text": "we're solving is that I built the model,",
+      "start": 1963.12,
+      "duration": 5.36
+    },
+    {
+      "text": "I released it, everybody's like cool,",
+      "start": 1966.32,
+      "duration": 3.839
+    },
+    {
+      "text": "you know, here's here's a stars on",
+      "start": 1968.48,
+      "duration": 4.64
+    },
+    {
+      "text": "GitHub, stars on on hugging face, but",
+      "start": 1970.159,
+      "duration": 4.64
+    },
+    {
+      "text": "then you don't make any money, right?",
+      "start": 1973.12,
+      "duration": 4.88
+    },
+    {
+      "text": "And so and also like it's not because of",
+      "start": 1974.799,
+      "duration": 5.441
+    },
+    {
+      "text": "that it's also becomes less about open",
+      "start": 1978.0,
+      "duration": 4.159
+    },
+    {
+      "text": "source and about open weights and people",
+      "start": 1980.24,
+      "duration": 3.6
+    },
+    {
+      "text": "keep the source so they can kind of",
+      "start": 1982.159,
+      "duration": 4.88
+    },
+    {
+      "text": "continue continue doing things and so in",
+      "start": 1983.84,
+      "duration": 4.48
+    },
+    {
+      "text": "result we're actually wasting a lot of",
+      "start": 1987.039,
+      "duration": 3.281
+    },
+    {
+      "text": "resources because everybody kind of",
+      "start": 1988.32,
+      "duration": 3.76
+    },
+    {
+      "text": "redoing experiments because we actually",
+      "start": 1990.32,
+      "duration": 3.599
+    },
+    {
+      "text": "don't know what were the things people",
+      "start": 1992.08,
+      "duration": 3.839
+    },
+    {
+      "text": "did to get to this results and so",
+      "start": 1993.919,
+      "duration": 4.161
+    },
+    {
+      "text": "everybody kind of need to reproduce or",
+      "start": 1995.919,
+      "duration": 5.041
+    },
+    {
+      "text": "or poach the people uh who've done it",
+      "start": 1998.08,
+      "duration": 5.28
+    },
+    {
+      "text": "and so kind of the way we think about it",
+      "start": 2000.96,
+      "duration": 6.8
+    },
+    {
+      "text": "is to reverse it where you can actually",
+      "start": 2003.36,
+      "duration": 6.4
+    },
+    {
+      "text": "uh have an open process of training,",
+      "start": 2007.76,
+      "duration": 4.48
+    },
+    {
+      "text": "right? So the training I mean the data",
+      "start": 2009.76,
+      "duration": 6.48
+    },
+    {
+      "text": "either fully open or this like kind of",
+      "start": 2012.24,
+      "duration": 5.76
+    },
+    {
+      "text": "encrypted data, right? That you can run",
+      "start": 2016.24,
+      "duration": 2.48
+    },
+    {
+      "text": "over.",
+      "start": 2018.0,
+      "duration": 2.72
+    },
+    {
+      "text": ">> So available but not necessarily",
+      "start": 2018.72,
+      "duration": 2.88
+    },
+    {
+      "text": "transparent.",
+      "start": 2020.72,
+      "duration": 3.199
+    },
+    {
+      "text": ">> Yeah. Yeah. Uh and you need to pay to",
+      "start": 2021.6,
+      "duration": 4.319
+    },
+    {
+      "text": "access it in whatever your to your model",
+      "start": 2023.919,
+      "duration": 4.321
+    },
+    {
+      "text": "token or some other way uh if you if",
+      "start": 2025.919,
+      "duration": 4.401
+    },
+    {
+      "text": "you're planning to monetize differently.",
+      "start": 2028.24,
+      "duration": 4.319
+    },
+    {
+      "text": "And then the resulting weights are",
+      "start": 2030.32,
+      "duration": 4.8
+    },
+    {
+      "text": "actually also encrypted and and only run",
+      "start": 2032.559,
+      "duration": 7.521
+    },
+    {
+      "text": "in this kind of uh uh DCML model. So you",
+      "start": 2035.12,
+      "duration": 6.88
+    },
+    {
+      "text": "can actually monetize it, right? So you",
+      "start": 2040.08,
+      "duration": 4.24
+    },
+    {
+      "text": "can receive kind of revenue from using",
+      "start": 2042.0,
+      "duration": 4.48
+    },
+    {
+      "text": "it. You can say hey you know compute",
+      "start": 2044.32,
+      "duration": 5.359
+    },
+    {
+      "text": "cost is X. I want you know 20 cents for",
+      "start": 2046.48,
+      "duration": 6.159
+    },
+    {
+      "text": "edge million token over that uh to go to",
+      "start": 2049.679,
+      "duration": 4.72
+    },
+    {
+      "text": "the model developers and all the",
+      "start": 2052.639,
+      "duration": 3.44
+    },
+    {
+      "text": "contributors to do that. So you kind of",
+      "start": 2054.399,
+      "duration": 3.44
+    },
+    {
+      "text": "can reverse that and get actually like",
+      "start": 2056.079,
+      "duration": 4.961
+    },
+    {
+      "text": "actual open research and collaboration",
+      "start": 2057.839,
+      "duration": 7.121
+    },
+    {
+      "text": "happening there um while monetizing the",
+      "start": 2061.04,
+      "duration": 6.48
+    },
+    {
+      "text": "outcomes. And the benefit is you still",
+      "start": 2064.96,
+      "duration": 4.32
+    },
+    {
+      "text": "get all the properties of open source,",
+      "start": 2067.52,
+      "duration": 4.0
+    },
+    {
+      "text": "right? Everybody can use it. There's no",
+      "start": 2069.28,
+      "duration": 4.24
+    },
+    {
+      "text": "like way to stop using it. You can even",
+      "start": 2071.52,
+      "duration": 4.079
+    },
+    {
+      "text": "run it on your hardware if you have the",
+      "start": 2073.52,
+      "duration": 6.399
+    },
+    {
+      "text": "modern like uh uh Blackwell or Hopper",
+      "start": 2075.599,
+      "duration": 6.24
+    },
+    {
+      "text": "and like you need to set it up in this",
+      "start": 2079.919,
+      "duration": 6.401
+    },
+    {
+      "text": "central mode and uh uh yeah you can",
+      "start": 2081.839,
+      "duration": 5.76
+    },
+    {
+      "text": "fine-tune it. You can do all those",
+      "start": 2086.32,
+      "duration": 2.319
+    },
+    {
+      "text": "things on top.",
+      "start": 2087.599,
+      "duration": 3.76
+    },
+    {
+      "text": ">> Yeah, I mean a missing property is the",
+      "start": 2088.639,
+      "duration": 5.04
+    },
+    {
+      "text": "ability to",
+      "start": 2091.359,
+      "duration": 5.361
+    },
+    {
+      "text": "to see it and change it maybe. uh you",
+      "start": 2093.679,
+      "duration": 5.201
+    },
+    {
+      "text": "know maybe that's more true for software",
+      "start": 2096.72,
+      "duration": 3.84
+    },
+    {
+      "text": "than for a model. If you have the",
+      "start": 2098.88,
+      "duration": 4.32
+    },
+    {
+      "text": "ability to to fine-tune on top of it",
+      "start": 2100.56,
+      "duration": 4.96
+    },
+    {
+      "text": "that's you way that you can change it",
+      "start": 2103.2,
+      "duration": 3.84
+    },
+    {
+      "text": ">> there's very little people who go and",
+      "start": 2105.52,
+      "duration": 4.88
+    },
+    {
+      "text": "like do a brain surgery on a model",
+      "start": 2107.04,
+      "duration": 5.52
+    },
+    {
+      "text": ">> I mean there's few that like do you know",
+      "start": 2110.4,
+      "duration": 3.84
+    },
+    {
+      "text": "like evolutionary algorithms and other",
+      "start": 2112.56,
+      "duration": 3.6
+    },
+    {
+      "text": "stuff but yeah usually it's either",
+      "start": 2114.24,
+      "duration": 4.96
+    },
+    {
+      "text": "fine-tune post train etc. Uh you",
+      "start": 2116.16,
+      "duration": 4.88
+    },
+    {
+      "text": "although I like the push back that I",
+      "start": 2119.2,
+      "duration": 4.639
+    },
+    {
+      "text": "would offer is that like if the best",
+      "start": 2121.04,
+      "duration": 5.52
+    },
+    {
+      "text": "models were open, you know, maybe we'd",
+      "start": 2123.839,
+      "duration": 5.201
+    },
+    {
+      "text": "see a lot more brain surgery and maybe",
+      "start": 2126.56,
+      "duration": 5.279
+    },
+    {
+      "text": "we'd have a more interesting kind of",
+      "start": 2129.04,
+      "duration": 4.799
+    },
+    {
+      "text": "ecosystem of",
+      "start": 2131.839,
+      "duration": 4.801
+    },
+    {
+      "text": ">> of results. Like I think, you know,",
+      "start": 2133.839,
+      "duration": 4.561
+    },
+    {
+      "text": "there are people that do that kind of",
+      "start": 2136.64,
+      "duration": 3.52
+    },
+    {
+      "text": "thing for various reasons with, you",
+      "start": 2138.4,
+      "duration": 3.439
+    },
+    {
+      "text": "know, open models, but I think there's a",
+      "start": 2140.16,
+      "duration": 3.36
+    },
+    {
+      "text": "lot less invested in them because",
+      "start": 2141.839,
+      "duration": 3.52
+    },
+    {
+      "text": "they're not as good as the the closed",
+      "start": 2143.52,
+      "duration": 6.319
+    },
+    {
+      "text": "models. Um I don't know. interesting.",
+      "start": 2145.359,
+      "duration": 7.48
+    },
+    {
+      "text": "Um,",
+      "start": 2149.839,
+      "duration": 3.0
+    },
+    {
+      "text": "you know, I'm curious like,",
+      "start": 2153.119,
+      "duration": 4.96
+    },
+    {
+      "text": "you know, there definitely, you know,",
+      "start": 2156.079,
+      "duration": 4.081
+    },
+    {
+      "text": "some aspects here that make a lot of",
+      "start": 2158.079,
+      "duration": 5.76
+    },
+    {
+      "text": "sense to me. Historically,",
+      "start": 2160.16,
+      "duration": 5.84
+    },
+    {
+      "text": "you know, there's always been this big",
+      "start": 2163.839,
+      "duration": 4.24
+    },
+    {
+      "text": "barrier that's not at all technical, and",
+      "start": 2166.0,
+      "duration": 5.599
+    },
+    {
+      "text": "that is, will people pay for privacy?",
+      "start": 2168.079,
+      "duration": 8.0
+    },
+    {
+      "text": "And whether that's you know currency or",
+      "start": 2171.599,
+      "duration": 7.52
+    },
+    {
+      "text": "um you know the the sheer force of will",
+      "start": 2176.079,
+      "duration": 5.04
+    },
+    {
+      "text": "that's required to jump over the hurdles",
+      "start": 2179.119,
+      "duration": 5.761
+    },
+    {
+      "text": "to achieve it um you know inconvenience",
+      "start": 2181.119,
+      "duration": 6.24
+    },
+    {
+      "text": "uh you know do you do you feel like you",
+      "start": 2184.88,
+      "duration": 4.16
+    },
+    {
+      "text": "know this is different or it's different",
+      "start": 2187.359,
+      "duration": 4.48
+    },
+    {
+      "text": "in this space or like how do you think",
+      "start": 2189.04,
+      "duration": 4.72
+    },
+    {
+      "text": "about that challenge?",
+      "start": 2191.839,
+      "duration": 4.641
+    },
+    {
+      "text": ">> I think I think twofold. one is I think",
+      "start": 2193.76,
+      "duration": 5.599
+    },
+    {
+      "text": "there there is a audience that will pay",
+      "start": 2196.48,
+      "duration": 6.72
+    },
+    {
+      "text": "for privacy, right? Um and it's not",
+      "start": 2199.359,
+      "duration": 5.281
+    },
+    {
+      "text": ">> I don't think the issue is that there's",
+      "start": 2203.2,
+      "duration": 2.879
+    },
+    {
+      "text": "never that audience. It's that it's",
+      "start": 2204.64,
+      "duration": 3.84
+    },
+    {
+      "text": "relatively small. it it is relatively",
+      "start": 2206.079,
+      "duration": 4.961
+    },
+    {
+      "text": "small but I think the the idea here and",
+      "start": 2208.48,
+      "duration": 4.48
+    },
+    {
+      "text": "and kind of I think everybody's on a",
+      "start": 2211.04,
+      "duration": 4.64
+    },
+    {
+      "text": "threshold as I said of of like what they",
+      "start": 2212.96,
+      "duration": 5.92
+    },
+    {
+      "text": "feel they would give to the model and",
+      "start": 2215.68,
+      "duration": 5.84
+    },
+    {
+      "text": "the more you give the better the like",
+      "start": 2218.88,
+      "duration": 4.32
+    },
+    {
+      "text": "actually we're getting to a stage where",
+      "start": 2221.52,
+      "duration": 3.68
+    },
+    {
+      "text": "models are generally like they're",
+      "start": 2223.2,
+      "duration": 3.6
+    },
+    {
+      "text": "sufficiently intelligent and actually",
+      "start": 2225.2,
+      "duration": 4.48
+    },
+    {
+      "text": "it's all becomes about context like",
+      "start": 2226.8,
+      "duration": 4.72
+    },
+    {
+      "text": "about context management about tool",
+      "start": 2229.68,
+      "duration": 3.439
+    },
+    {
+      "text": "management about all the pieces right",
+      "start": 2231.52,
+      "duration": 4.64
+    },
+    {
+      "text": "and so the idea here that kind of we are",
+      "start": 2233.119,
+      "duration": 6.72
+    },
+    {
+      "text": "very much uh going after is that because",
+      "start": 2236.16,
+      "duration": 5.28
+    },
+    {
+      "text": "it's private, you can actually share a",
+      "start": 2239.839,
+      "duration": 3.841
+    },
+    {
+      "text": "lot more with it and you will add your",
+      "start": 2241.44,
+      "duration": 4.48
+    },
+    {
+      "text": "email, your calendar, your medical data,",
+      "start": 2243.68,
+      "duration": 4.0
+    },
+    {
+      "text": "your financial data, you know, your",
+      "start": 2245.92,
+      "duration": 3.679
+    },
+    {
+      "text": "crypto wallet, etc. And so it's able to",
+      "start": 2247.68,
+      "duration": 5.04
+    },
+    {
+      "text": "manage your whole life, not just like",
+      "start": 2249.599,
+      "duration": 5.601
+    },
+    {
+      "text": "some aspects that you were willing to",
+      "start": 2252.72,
+      "duration": 6.639
+    },
+    {
+      "text": "share. And so and kind of the the first",
+      "start": 2255.2,
+      "duration": 6.32
+    },
+    {
+      "text": "cohort that actually cares about privacy",
+      "start": 2259.359,
+      "duration": 5.041
+    },
+    {
+      "text": "that's you know that is our early",
+      "start": 2261.52,
+      "duration": 5.36
+    },
+    {
+      "text": "adopters who we kind of target to really",
+      "start": 2264.4,
+      "duration": 5.04
+    },
+    {
+      "text": "enable this but then kind of as this",
+      "start": 2266.88,
+      "duration": 5.36
+    },
+    {
+      "text": "becomes mature now it's it's appealing",
+      "start": 2269.44,
+      "duration": 4.48
+    },
+    {
+      "text": "to more people because it's a better",
+      "start": 2272.24,
+      "duration": 4.4
+    },
+    {
+      "text": "product and kind of smarter product more",
+      "start": 2273.92,
+      "duration": 5.199
+    },
+    {
+      "text": "intelligent product again not because",
+      "start": 2276.64,
+      "duration": 4.8
+    },
+    {
+      "text": "the model is right away more intelligent",
+      "start": 2279.119,
+      "duration": 6.161
+    },
+    {
+      "text": "but because um but because you have more",
+      "start": 2281.44,
+      "duration": 6.0
+    },
+    {
+      "text": "context The other side of this is",
+      "start": 2285.28,
+      "duration": 4.48
+    },
+    {
+      "text": "actually because of this open research",
+      "start": 2287.44,
+      "duration": 7.84
+    },
+    {
+      "text": "process, what we are um aiming for is to",
+      "start": 2289.76,
+      "duration": 8.24
+    },
+    {
+      "text": "have people again fine-tuning",
+      "start": 2295.28,
+      "duration": 4.4
+    },
+    {
+      "text": "specialized models for specialized use",
+      "start": 2298.0,
+      "duration": 4.8
+    },
+    {
+      "text": "cases, right? And again, this is where",
+      "start": 2299.68,
+      "duration": 4.8
+    },
+    {
+      "text": "because they have a monetization",
+      "start": 2302.8,
+      "duration": 3.52
+    },
+    {
+      "text": "embedded into this, right? they can",
+      "start": 2304.48,
+      "duration": 5.28
+    },
+    {
+      "text": "actually you know invest effort and time",
+      "start": 2306.32,
+      "duration": 5.44
+    },
+    {
+      "text": "and compute to actually build",
+      "start": 2309.76,
+      "duration": 3.839
+    },
+    {
+      "text": "interesting specialized models that may",
+      "start": 2311.76,
+      "duration": 3.76
+    },
+    {
+      "text": "be better at you know financial use",
+      "start": 2313.599,
+      "duration": 4.641
+    },
+    {
+      "text": "cases healthcare etc. And again all of",
+      "start": 2315.52,
+      "duration": 4.24
+    },
+    {
+      "text": "them are available on your platform they",
+      "start": 2318.24,
+      "duration": 5.04
+    },
+    {
+      "text": "can compute over your your data and then",
+      "start": 2319.76,
+      "duration": 5.52
+    },
+    {
+      "text": "again now that all your data is there",
+      "start": 2323.28,
+      "duration": 5.28
+    },
+    {
+      "text": "it's useful there's useful models other",
+      "start": 2325.28,
+      "duration": 5.76
+    },
+    {
+      "text": "developers as well again if I'm building",
+      "start": 2328.56,
+      "duration": 5.44
+    },
+    {
+      "text": "a noteaker or something else I can take",
+      "start": 2331.04,
+      "duration": 4.559
+    },
+    {
+      "text": "you know build a noteaker right now that",
+      "start": 2334.0,
+      "duration": 3.28
+    },
+    {
+      "text": "takes all your data listens to it all",
+      "start": 2335.599,
+      "duration": 3.921
+    },
+    {
+      "text": "the time you know sends it to my server",
+      "start": 2337.28,
+      "duration": 6.24
+    },
+    {
+      "text": "stores it on my server etc but liability",
+      "start": 2339.52,
+      "duration": 6.4
+    },
+    {
+      "text": "and also you know now it's a hurdle for",
+      "start": 2343.52,
+      "duration": 4.8
+    },
+    {
+      "text": "everybody else to adopt it or you can",
+      "start": 2345.92,
+      "duration": 5.199
+    },
+    {
+      "text": "just say actually I'm going to build my",
+      "start": 2348.32,
+      "duration": 5.68
+    },
+    {
+      "text": "app and deploy it into this cloud where",
+      "start": 2351.119,
+      "duration": 5.601
+    },
+    {
+      "text": "it runs on the on your side right you",
+      "start": 2354.0,
+      "duration": 7.68
+    },
+    {
+      "text": "know and saves context there as well uh",
+      "start": 2356.72,
+      "duration": 8.16
+    },
+    {
+      "text": "in your data store and so now your data",
+      "start": 2361.68,
+      "duration": 5.679
+    },
+    {
+      "text": "store becomes even more uh useful",
+      "start": 2364.88,
+      "duration": 4.16
+    },
+    {
+      "text": "because it has all the notes as well",
+      "start": 2367.359,
+      "duration": 4.24
+    },
+    {
+      "text": "there and your AI can now read over",
+      "start": 2369.04,
+      "duration": 4.16
+    },
+    {
+      "text": "those notes so you don't need to like",
+      "start": 2371.599,
+      "duration": 4.161
+    },
+    {
+      "text": "again merge things with Zapier and do",
+      "start": 2373.2,
+      "duration": 3.52
+    },
+    {
+      "text": "all",
+      "start": 2375.76,
+      "duration": 2.72
+    },
+    {
+      "text": "Like that's the idea is like you have",
+      "start": 2376.72,
+      "duration": 3.76
+    },
+    {
+      "text": "network effects of kind of more context,",
+      "start": 2378.48,
+      "duration": 4.48
+    },
+    {
+      "text": "more data, more applications building",
+      "start": 2380.48,
+      "duration": 6.32
+    },
+    {
+      "text": "around the user. And so yes, like it",
+      "start": 2382.96,
+      "duration": 6.0
+    },
+    {
+      "text": "starts with early adopters who care",
+      "start": 2386.8,
+      "duration": 4.24
+    },
+    {
+      "text": "about privacy and kind of layers on as",
+      "start": 2388.96,
+      "duration": 5.04
+    },
+    {
+      "text": "more and more applications and things uh",
+      "start": 2391.04,
+      "duration": 6.48
+    },
+    {
+      "text": "become uh available on this cloud. So I",
+      "start": 2394.0,
+      "duration": 4.8
+    },
+    {
+      "text": "want to talk a little bit about the",
+      "start": 2397.52,
+      "duration": 3.839
+    },
+    {
+      "text": "process of making models available to",
+      "start": 2398.8,
+      "duration": 6.08
+    },
+    {
+      "text": "this environment. Like to what degree is",
+      "start": 2401.359,
+      "duration": 7.201
+    },
+    {
+      "text": "it a simple lossless transformation of",
+      "start": 2404.88,
+      "duration": 6.959
+    },
+    {
+      "text": "you know an existing like safe tensor",
+      "start": 2408.56,
+      "duration": 6.08
+    },
+    {
+      "text": "ggf file whatever some weights file",
+      "start": 2411.839,
+      "duration": 6.721
+    },
+    {
+      "text": "versus like am I having to rebuild my",
+      "start": 2414.64,
+      "duration": 9.12
+    },
+    {
+      "text": "model it in some new paradigm. Um",
+      "start": 2418.56,
+      "duration": 7.6
+    },
+    {
+      "text": "what how does that work? Yeah, I mean we",
+      "start": 2423.76,
+      "duration": 4.64
+    },
+    {
+      "text": "effectively run you know VLM and",
+      "start": 2426.16,
+      "duration": 4.72
+    },
+    {
+      "text": "customized version of VLM. So everything",
+      "start": 2428.4,
+      "duration": 5.04
+    },
+    {
+      "text": "that you know normally served already",
+      "start": 2430.88,
+      "duration": 5.36
+    },
+    {
+      "text": "works. Um and if if you need something",
+      "start": 2433.44,
+      "duration": 4.88
+    },
+    {
+      "text": "custom then yeah you can also package",
+      "start": 2436.24,
+      "duration": 4.96
+    },
+    {
+      "text": "your own docker. Uh I mean that is that",
+      "start": 2438.32,
+      "duration": 5.759
+    },
+    {
+      "text": "is less secure from a user side but it's",
+      "start": 2441.2,
+      "duration": 5.28
+    },
+    {
+      "text": "uh also available.",
+      "start": 2444.079,
+      "duration": 6.321
+    },
+    {
+      "text": "It's the secure enclave that ensures",
+      "start": 2446.48,
+      "duration": 5.28
+    },
+    {
+      "text": "that there's no kind of",
+      "start": 2450.4,
+      "duration": 4.0
+    },
+    {
+      "text": "man-in-the-middle attack between VLM and",
+      "start": 2451.76,
+      "duration": 4.96
+    },
+    {
+      "text": "like the model weights and the customer",
+      "start": 2454.4,
+      "duration": 3.439
+    },
+    {
+      "text": "data.",
+      "start": 2456.72,
+      "duration": 2.72
+    },
+    {
+      "text": ">> Yeah. So, exactly. So, what's happening",
+      "start": 2457.839,
+      "duration": 4.401
+    },
+    {
+      "text": "is you know you checkpoint your uh you",
+      "start": 2459.44,
+      "duration": 6.08
+    },
+    {
+      "text": "know model weights uh on chain. So, you",
+      "start": 2462.24,
+      "duration": 4.96
+    },
+    {
+      "text": "know the hash the hash of the model",
+      "start": 2465.52,
+      "duration": 3.92
+    },
+    {
+      "text": "weights and the encrypted hash as well.",
+      "start": 2467.2,
+      "duration": 4.72
+    },
+    {
+      "text": "You know the encrypted data is uploaded",
+      "start": 2469.44,
+      "duration": 4.32
+    },
+    {
+      "text": "kind of to decentralized storage. And",
+      "start": 2471.92,
+      "duration": 4.159
+    },
+    {
+      "text": "now when somebody wants to run a model",
+      "start": 2473.76,
+      "duration": 4.559
+    },
+    {
+      "text": "they have a encrypted TLS connection",
+      "start": 2476.079,
+      "duration": 4.641
+    },
+    {
+      "text": "directly into the secure enclave that",
+      "start": 2478.319,
+      "duration": 5.201
+    },
+    {
+      "text": "secure enclave you know gives you back",
+      "start": 2480.72,
+      "duration": 5.52
+    },
+    {
+      "text": "the effectively signed certificates that",
+      "start": 2483.52,
+      "duration": 4.96
+    },
+    {
+      "text": "it runs in secure enclave. You can also",
+      "start": 2486.24,
+      "duration": 5.44
+    },
+    {
+      "text": "verify them with our onchain kind of uh",
+      "start": 2488.48,
+      "duration": 6.08
+    },
+    {
+      "text": "key management system and then we also",
+      "start": 2491.68,
+      "duration": 4.48
+    },
+    {
+      "text": "have this con uh concept called",
+      "start": 2494.56,
+      "duration": 4.32
+    },
+    {
+      "text": "multi-party computation. So near",
+      "start": 2496.16,
+      "duration": 5.76
+    },
+    {
+      "text": "blockchain itself kind of uh right now",
+      "start": 2498.88,
+      "duration": 5.76
+    },
+    {
+      "text": "part of our nodes form this multi-party",
+      "start": 2501.92,
+      "duration": 5.36
+    },
+    {
+      "text": "computation network which allows uh",
+      "start": 2504.64,
+      "duration": 4.64
+    },
+    {
+      "text": "inside the secure enclave effectively",
+      "start": 2507.28,
+      "duration": 3.839
+    },
+    {
+      "text": "have its own private key to decrypt",
+      "start": 2509.28,
+      "duration": 3.76
+    },
+    {
+      "text": "things. And so that that's kind of one",
+      "start": 2511.119,
+      "duration": 4.081
+    },
+    {
+      "text": "of like how all those pieces work",
+      "start": 2513.04,
+      "duration": 4.319
+    },
+    {
+      "text": "together. is like secure enclaves but",
+      "start": 2515.2,
+      "duration": 3.6
+    },
+    {
+      "text": "also like if you encrypt something right",
+      "start": 2517.359,
+      "duration": 3.201
+    },
+    {
+      "text": "it needs to have like you need to",
+      "start": 2518.8,
+      "duration": 4.48
+    },
+    {
+      "text": "encrypt it with some key that is only",
+      "start": 2520.56,
+      "duration": 4.96
+    },
+    {
+      "text": "known like the private key of this is",
+      "start": 2523.28,
+      "duration": 3.839
+    },
+    {
+      "text": "only known inside secure enclave and",
+      "start": 2525.52,
+      "duration": 3.76
+    },
+    {
+      "text": "nowhere else and so this is where that",
+      "start": 2527.119,
+      "duration": 4.72
+    },
+    {
+      "text": "there's kind of this MPC network uh",
+      "start": 2529.28,
+      "duration": 4.96
+    },
+    {
+      "text": "enables that and so yeah like",
+      "start": 2531.839,
+      "duration": 5.201
+    },
+    {
+      "text": "effectively you know you encrypt locally",
+      "start": 2534.24,
+      "duration": 6.0
+    },
+    {
+      "text": "you upload it checkpoints and now when",
+      "start": 2537.04,
+      "duration": 5.84
+    },
+    {
+      "text": "user calls they know that like",
+      "start": 2540.24,
+      "duration": 4.32
+    },
+    {
+      "text": "effectively the secure enclave will",
+      "start": 2542.88,
+      "duration": 4.719
+    },
+    {
+      "text": "respond that this model hash was run on",
+      "start": 2544.56,
+      "duration": 5.6
+    },
+    {
+      "text": "your data. Here is like signature by",
+      "start": 2547.599,
+      "duration": 5.041
+    },
+    {
+      "text": "Nvidia Intel etc. And you can also",
+      "start": 2550.16,
+      "duration": 4.8
+    },
+    {
+      "text": "verify uh kind of certificate",
+      "start": 2552.64,
+      "duration": 5.92
+    },
+    {
+      "text": "provisioning. And is that signature",
+      "start": 2554.96,
+      "duration": 7.2
+    },
+    {
+      "text": "created at like you know by some process",
+      "start": 2558.56,
+      "duration": 8.0
+    },
+    {
+      "text": "at the boundary or is it um you know",
+      "start": 2562.16,
+      "duration": 8.0
+    },
+    {
+      "text": "intrinsic to the inference actually",
+      "start": 2566.56,
+      "duration": 6.48
+    },
+    {
+      "text": "happening by this model on this data",
+      "start": 2570.16,
+      "duration": 4.159
+    },
+    {
+      "text": "like is it a",
+      "start": 2573.04,
+      "duration": 3.2
+    },
+    {
+      "text": ">> so the signature certifies the docker",
+      "start": 2574.319,
+      "duration": 3.76
+    },
+    {
+      "text": "container that runs inside secure",
+      "start": 2576.24,
+      "duration": 4.079
+    },
+    {
+      "text": "enclave and so docker container is our",
+      "start": 2578.079,
+      "duration": 4.721
+    },
+    {
+      "text": "docker container with vlm that runs this",
+      "start": 2580.319,
+      "duration": 4.8
+    },
+    {
+      "text": "model hash so we attach that that's what",
+      "start": 2582.8,
+      "duration": 4.72
+    },
+    {
+      "text": "I'm If somebody builds custom Docker",
+      "start": 2585.119,
+      "duration": 3.921
+    },
+    {
+      "text": "container, you can't do that. But then",
+      "start": 2587.52,
+      "duration": 2.88
+    },
+    {
+      "text": "user needs to trust your Docker",
+      "start": 2589.04,
+      "duration": 2.16
+    },
+    {
+      "text": "container.",
+      "start": 2590.4,
+      "duration": 2.88
+    },
+    {
+      "text": ">> Got it. So the the trust boundary is the",
+      "start": 2591.2,
+      "duration": 3.84
+    },
+    {
+      "text": "container and if the container is doing",
+      "start": 2593.28,
+      "duration": 3.2
+    },
+    {
+      "text": "what you say it's doing, then the",
+      "start": 2595.04,
+      "duration": 3.76
+    },
+    {
+      "text": "signature certifies that that was a",
+      "start": 2596.48,
+      "duration": 4.4
+    },
+    {
+      "text": "container that was actually used.",
+      "start": 2598.8,
+      "duration": 4.24
+    },
+    {
+      "text": ">> Yeah. And in in in our UI, we have",
+      "start": 2600.88,
+      "duration": 5.199
+    },
+    {
+      "text": "effectively like, you know, like a green",
+      "start": 2603.04,
+      "duration": 4.96
+    },
+    {
+      "text": "shield that you can click similar like",
+      "start": 2606.079,
+      "duration": 4.481
+    },
+    {
+      "text": "HTTPS works. You go there and it gives",
+      "start": 2608.0,
+      "duration": 5.119
+    },
+    {
+      "text": "you like it gives you like, hey, it's",
+      "start": 2610.56,
+      "duration": 4.799
+    },
+    {
+      "text": "all correct. And then you can go and",
+      "start": 2613.119,
+      "duration": 4.321
+    },
+    {
+      "text": "actually verify all the signatures and",
+      "start": 2615.359,
+      "duration": 4.401
+    },
+    {
+      "text": "all the certificates and even which GPU",
+      "start": 2617.44,
+      "duration": 4.879
+    },
+    {
+      "text": "it ran on and like other other stuff as",
+      "start": 2619.76,
+      "duration": 4.96
+    },
+    {
+      "text": "well and like links you like effectively",
+      "start": 2622.319,
+      "duration": 4.8
+    },
+    {
+      "text": "to all the relevant Docker GitHubs and",
+      "start": 2624.72,
+      "duration": 4.16
+    },
+    {
+      "text": "other things you need to know if you",
+      "start": 2627.119,
+      "duration": 3.441
+    },
+    {
+      "text": "want to like reverify everything",
+      "start": 2628.88,
+      "duration": 3.52
+    },
+    {
+      "text": "yourself. And so that's maybe an",
+      "start": 2630.56,
+      "duration": 4.64
+    },
+    {
+      "text": "interesting segue into",
+      "start": 2632.4,
+      "duration": 5.6
+    },
+    {
+      "text": "like you know where you are with all of",
+      "start": 2635.2,
+      "duration": 5.44
+    },
+    {
+      "text": "this in terms of the you know how much",
+      "start": 2638.0,
+      "duration": 5.119
+    },
+    {
+      "text": "of it is you know aspirational how much",
+      "start": 2640.64,
+      "duration": 4.88
+    },
+    {
+      "text": "of it is built like you you're you",
+      "start": 2643.119,
+      "duration": 3.921
+    },
+    {
+      "text": "clearly you have at least the notion of",
+      "start": 2645.52,
+      "duration": 3.599
+    },
+    {
+      "text": "a user interface if not an actual user",
+      "start": 2647.04,
+      "duration": 4.72
+    },
+    {
+      "text": "interface like how far along are you?",
+      "start": 2649.119,
+      "duration": 4.801
+    },
+    {
+      "text": "Yeah. So we have I mean we have a",
+      "start": 2651.76,
+      "duration": 4.8
+    },
+    {
+      "text": "product uh that we can I mean that we're",
+      "start": 2653.92,
+      "duration": 4.8
+    },
+    {
+      "text": "in testing and alpha testing with you",
+      "start": 2656.56,
+      "duration": 5.68
+    },
+    {
+      "text": "know kind of cohort of users. Um it's",
+      "start": 2658.72,
+      "duration": 5.92
+    },
+    {
+      "text": "it's both developer product so you can",
+      "start": 2662.24,
+      "duration": 4.8
+    },
+    {
+      "text": "you know buy credits and effectively use",
+      "start": 2664.64,
+      "duration": 5.12
+    },
+    {
+      "text": "confidential inference uh in your own",
+      "start": 2667.04,
+      "duration": 4.88
+    },
+    {
+      "text": "applications as well as we have a kind",
+      "start": 2669.76,
+      "duration": 4.319
+    },
+    {
+      "text": "of consumer product which is you know",
+      "start": 2671.92,
+      "duration": 4.8
+    },
+    {
+      "text": "private chat GPT effectively",
+      "start": 2674.079,
+      "duration": 5.601
+    },
+    {
+      "text": "um which indeed provides you all of the",
+      "start": 2676.72,
+      "duration": 5.04
+    },
+    {
+      "text": "kind of certification and verification",
+      "start": 2679.68,
+      "duration": 4.72
+    },
+    {
+      "text": "information uh if you want while using",
+      "start": 2681.76,
+      "duration": 6.72
+    },
+    {
+      "text": "it um and then the the custom model",
+      "start": 2684.4,
+      "duration": 6.64
+    },
+    {
+      "text": "right now is that's in development going",
+      "start": 2688.48,
+      "duration": 6.08
+    },
+    {
+      "text": "to be coming out in a few weeks and and",
+      "start": 2691.04,
+      "duration": 4.96
+    },
+    {
+      "text": ">> remind me which part is the custom",
+      "start": 2694.56,
+      "duration": 1.92
+    },
+    {
+      "text": "model?",
+      "start": 2696.0,
+      "duration": 2.16
+    },
+    {
+      "text": ">> So, this is where you can encrypt and",
+      "start": 2696.48,
+      "duration": 3.76
+    },
+    {
+      "text": "upload the your own model.",
+      "start": 2698.16,
+      "duration": 3.36
+    },
+    {
+      "text": ">> Oh, got it. Okay.",
+      "start": 2700.24,
+      "duration": 5.599
+    },
+    {
+      "text": ">> Yeah. And then uh I mean the fine-tuning",
+      "start": 2701.52,
+      "duration": 6.4
+    },
+    {
+      "text": "and and kind of training that's coming a",
+      "start": 2705.839,
+      "duration": 5.121
+    },
+    {
+      "text": "bit later. And you know we started off",
+      "start": 2707.92,
+      "duration": 7.199
+    },
+    {
+      "text": "talking about the fact that you know",
+      "start": 2710.96,
+      "duration": 6.32
+    },
+    {
+      "text": "encryption is computationally complex",
+      "start": 2715.119,
+      "duration": 4.321
+    },
+    {
+      "text": "like it brings along its own costs you",
+      "start": 2717.28,
+      "duration": 4.48
+    },
+    {
+      "text": "know relative to",
+      "start": 2719.44,
+      "duration": 5.28
+    },
+    {
+      "text": "um you know the per token inference cost",
+      "start": 2721.76,
+      "duration": 6.319
+    },
+    {
+      "text": "that you know someone might see you know",
+      "start": 2724.72,
+      "duration": 5.44
+    },
+    {
+      "text": "whether it's open AI or open router or",
+      "start": 2728.079,
+      "duration": 5.361
+    },
+    {
+      "text": "something you know like where does this",
+      "start": 2730.16,
+      "duration": 5.36
+    },
+    {
+      "text": "where do you expect this tend to fall to",
+      "start": 2733.44,
+      "duration": 4.0
+    },
+    {
+      "text": "fall relatively speaking",
+      "start": 2735.52,
+      "duration": 4.319
+    },
+    {
+      "text": ">> so it will be affected at the same cost",
+      "start": 2737.44,
+      "duration": 5.04
+    },
+    {
+      "text": "the overhead on the computation side is",
+      "start": 2739.839,
+      "duration": 5.681
+    },
+    {
+      "text": "1 to 5%.",
+      "start": 2742.48,
+      "duration": 4.56
+    },
+    {
+      "text": "Yeah. So it's very minimal and it's",
+      "start": 2745.52,
+      "duration": 3.52
+    },
+    {
+      "text": "mostly just I mean it's like encryption",
+      "start": 2747.04,
+      "duration": 6.64
+    },
+    {
+      "text": "decryption on a boundary uh yeah and",
+      "start": 2749.04,
+      "duration": 7.68
+    },
+    {
+      "text": "kind of constrained by that not by",
+      "start": 2753.68,
+      "duration": 4.639
+    },
+    {
+      "text": "computation",
+      "start": 2756.72,
+      "duration": 3.84
+    },
+    {
+      "text": ">> and so what what do you see as like the",
+      "start": 2758.319,
+      "duration": 6.161
+    },
+    {
+      "text": "main barriers to you know near scaling",
+      "start": 2760.56,
+      "duration": 7.44
+    },
+    {
+      "text": "you know this approach and um you know",
+      "start": 2764.48,
+      "duration": 5.92
+    },
+    {
+      "text": "getting people on boarded or you know on",
+      "start": 2768.0,
+      "duration": 4.079
+    },
+    {
+      "text": "boarded",
+      "start": 2770.4,
+      "duration": 4.719
+    },
+    {
+      "text": "uh you know not just technically but",
+      "start": 2772.079,
+      "duration": 7.76
+    },
+    {
+      "text": "like ideologically and and um that kind",
+      "start": 2775.119,
+      "duration": 5.441
+    },
+    {
+      "text": "of thing.",
+      "start": 2779.839,
+      "duration": 3.361
+    },
+    {
+      "text": ">> Yeah. I mean, I think the kind of as we",
+      "start": 2780.56,
+      "duration": 4.08
+    },
+    {
+      "text": "just discussed, right, like are people",
+      "start": 2783.2,
+      "duration": 4.08
+    },
+    {
+      "text": "willing to pay for it, right? That's um",
+      "start": 2784.64,
+      "duration": 3.52
+    },
+    {
+      "text": "and again, I think",
+      "start": 2787.28,
+      "duration": 2.799
+    },
+    {
+      "text": ">> but you know, well, I think what I heard",
+      "start": 2788.16,
+      "duration": 4.0
+    },
+    {
+      "text": "you say is that like I'm not really",
+      "start": 2790.079,
+      "duration": 5.04
+    },
+    {
+      "text": "paying like I'm paying it's the same,",
+      "start": 2792.16,
+      "duration": 3.6
+    },
+    {
+      "text": "right? So,",
+      "start": 2795.119,
+      "duration": 2.081
+    },
+    {
+      "text": ">> or actually it's open source. It's open",
+      "start": 2795.76,
+      "duration": 3.68
+    },
+    {
+      "text": "source model, so it's actually cheaper",
+      "start": 2797.2,
+      "duration": 4.399
+    },
+    {
+      "text": "uh than open AI.",
+      "start": 2799.44,
+      "duration": 4.24
+    },
+    {
+      "text": ">> Yeah. So,",
+      "start": 2801.599,
+      "duration": 3.841
+    },
+    {
+      "text": "and and I did reference the idea that",
+      "start": 2803.68,
+      "duration": 3.76
+    },
+    {
+      "text": "the cost is also convenience and",
+      "start": 2805.44,
+      "duration": 6.24
+    },
+    {
+      "text": "learning a new thing like um",
+      "start": 2807.44,
+      "duration": 6.24
+    },
+    {
+      "text": "maybe maybe we should you know hit pause",
+      "start": 2811.68,
+      "duration": 5.439
+    },
+    {
+      "text": "on the adoption conversation and and go",
+      "start": 2813.68,
+      "duration": 6.0
+    },
+    {
+      "text": "back to you know we talked about from a",
+      "start": 2817.119,
+      "duration": 4.72
+    },
+    {
+      "text": "model provider perspective you know",
+      "start": 2819.68,
+      "duration": 4.24
+    },
+    {
+      "text": "that's you know the same they just",
+      "start": 2821.839,
+      "duration": 5.041
+    },
+    {
+      "text": "deploy into your container the same you",
+      "start": 2823.92,
+      "duration": 5.439
+    },
+    {
+      "text": "know model format what about from an",
+      "start": 2826.88,
+      "duration": 4.32
+    },
+    {
+      "text": "enduser perspective I guess in the",
+      "start": 2829.359,
+      "duration": 3.681
+    },
+    {
+      "text": "general case they're just using a chat",
+      "start": 2831.2,
+      "duration": 3.68
+    },
+    {
+      "text": "app that you know or some whatever",
+      "start": 2833.04,
+      "duration": 3.6
+    },
+    {
+      "text": "they're using an app so it's not",
+      "start": 2834.88,
+      "duration": 5.68
+    },
+    {
+      "text": "different from them. So presum like who",
+      "start": 2836.64,
+      "duration": 6.56
+    },
+    {
+      "text": "is the argument that you know there's no",
+      "start": 2840.56,
+      "duration": 4.799
+    },
+    {
+      "text": "particular inconvenience cost to anyone",
+      "start": 2843.2,
+      "duration": 6.08
+    },
+    {
+      "text": "in this in this you know ecosystem like",
+      "start": 2845.359,
+      "duration": 6.0
+    },
+    {
+      "text": "everything's kind of the same or",
+      "start": 2849.28,
+      "duration": 3.76
+    },
+    {
+      "text": ">> yeah I mean the the goal is to make it",
+      "start": 2851.359,
+      "duration": 3.76
+    },
+    {
+      "text": "everything is like either the same or",
+      "start": 2853.04,
+      "duration": 5.76
+    },
+    {
+      "text": "better right like you you either don't I",
+      "start": 2855.119,
+      "duration": 5.681
+    },
+    {
+      "text": "mean it looks exactly I mean very",
+      "start": 2858.8,
+      "duration": 5.12
+    },
+    {
+      "text": "similar experience right and the idea",
+      "start": 2860.8,
+      "duration": 6.64
+    },
+    {
+      "text": "that because it's kind of private But",
+      "start": 2863.92,
+      "duration": 5.12
+    },
+    {
+      "text": "you can also have additional features",
+      "start": 2867.44,
+      "duration": 4.32
+    },
+    {
+      "text": "that you wouldn't have in uh in a",
+      "start": 2869.04,
+      "duration": 5.12
+    },
+    {
+      "text": "public. It's also it is open source. So",
+      "start": 2871.76,
+      "duration": 4.24
+    },
+    {
+      "text": "you can you know people can contribute",
+      "start": 2874.16,
+      "duration": 4.8
+    },
+    {
+      "text": "can fork etc. Right? Uh so you know you",
+      "start": 2876.0,
+      "duration": 5.04
+    },
+    {
+      "text": "cannot just go and fork chatgpt and add",
+      "start": 2878.96,
+      "duration": 4.639
+    },
+    {
+      "text": "some stuff and have your own version",
+      "start": 2881.04,
+      "duration": 4.16
+    },
+    {
+      "text": "with some things but here you will be",
+      "start": 2883.599,
+      "duration": 3.441
+    },
+    {
+      "text": "able to do that because it's your data",
+      "start": 2885.2,
+      "duration": 3.68
+    },
+    {
+      "text": "right it travels with you. So you can",
+      "start": 2887.04,
+      "duration": 5.36
+    },
+    {
+      "text": "like launch your own version with custom",
+      "start": 2888.88,
+      "duration": 6.719
+    },
+    {
+      "text": "like improvements and then everybody who",
+      "start": 2892.4,
+      "duration": 5.12
+    },
+    {
+      "text": "logs in will get all their messages, all",
+      "start": 2895.599,
+      "duration": 3.361
+    },
+    {
+      "text": "the history, all their memory, all the",
+      "start": 2897.52,
+      "duration": 4.24
+    },
+    {
+      "text": "apps with them. So it's also like kind",
+      "start": 2898.96,
+      "duration": 5.28
+    },
+    {
+      "text": "of detaching your identity from specific",
+      "start": 2901.76,
+      "duration": 4.16
+    },
+    {
+      "text": "application. But",
+      "start": 2904.24,
+      "duration": 3.839
+    },
+    {
+      "text": ">> what do you say to to the skeptic that",
+      "start": 2905.92,
+      "duration": 4.32
+    },
+    {
+      "text": "says, you know, it all sounds stupid too",
+      "start": 2908.079,
+      "duration": 5.361
+    },
+    {
+      "text": "good to be true. like where's the you",
+      "start": 2910.24,
+      "duration": 5.28
+    },
+    {
+      "text": "know besides from the fact that you know",
+      "start": 2913.44,
+      "duration": 3.6
+    },
+    {
+      "text": "building software is hard building a",
+      "start": 2915.52,
+      "duration": 3.599
+    },
+    {
+      "text": "company's hard getting people to fund",
+      "start": 2917.04,
+      "duration": 5.84
+    },
+    {
+      "text": "weird things is hard like what's what's",
+      "start": 2919.119,
+      "duration": 4.96
+    },
+    {
+      "text": "the hard part",
+      "start": 2922.88,
+      "duration": 3.199
+    },
+    {
+      "text": ">> I mean the hard part right now it's",
+      "start": 2924.079,
+      "duration": 5.28
+    },
+    {
+      "text": "inertia right right now it's it's I mean",
+      "start": 2926.079,
+      "duration": 5.201
+    },
+    {
+      "text": "I think like there there's a cohort of",
+      "start": 2929.359,
+      "duration": 3.2
+    },
+    {
+      "text": "people who are like hey I'm already in",
+      "start": 2931.28,
+      "duration": 4.079
+    },
+    {
+      "text": "Google ecosystem why would I do anything",
+      "start": 2932.559,
+      "duration": 4.641
+    },
+    {
+      "text": "right everything is already here",
+      "start": 2935.359,
+      "duration": 3.601
+    },
+    {
+      "text": ">> Google has my email and my calendar",
+      "start": 2937.2,
+      "duration": 3.76
+    },
+    {
+      "text": "anyway why do I care if it's private",
+      "start": 2938.96,
+      "duration": 3.599
+    },
+    {
+      "text": ">> exactly Yeah. So, so I think like",
+      "start": 2940.96,
+      "duration": 4.159
+    },
+    {
+      "text": "there's again there's aspect of that. Uh",
+      "start": 2942.559,
+      "duration": 4.961
+    },
+    {
+      "text": "and like I think people generally trust",
+      "start": 2945.119,
+      "duration": 6.401
+    },
+    {
+      "text": "Google with their data. Um",
+      "start": 2947.52,
+      "duration": 7.52
+    },
+    {
+      "text": "so I think that is like that's inertia",
+      "start": 2951.52,
+      "duration": 6.079
+    },
+    {
+      "text": "that we kind of need to address, right?",
+      "start": 2955.04,
+      "duration": 6.319
+    },
+    {
+      "text": "And I mean not to I mean I work at",
+      "start": 2957.599,
+      "duration": 6.641
+    },
+    {
+      "text": "Google so there's inde there's indeed a",
+      "start": 2961.359,
+      "duration": 4.72
+    },
+    {
+      "text": "lot of security to make sure the data is",
+      "start": 2964.24,
+      "duration": 5.2
+    },
+    {
+      "text": "protected but uh obviously there's still",
+      "start": 2966.079,
+      "duration": 6.161
+    },
+    {
+      "text": "like I mean there is a way for somebody",
+      "start": 2969.44,
+      "duration": 4.72
+    },
+    {
+      "text": "in customer support to help you with",
+      "start": 2972.24,
+      "duration": 4.079
+    },
+    {
+      "text": "your data. So there's a way for a third",
+      "start": 2974.16,
+      "duration": 4.399
+    },
+    {
+      "text": "party to have access to your data. There",
+      "start": 2976.319,
+      "duration": 4.24
+    },
+    {
+      "text": "is I mean we've seen this with open AI",
+      "start": 2978.559,
+      "duration": 3.601
+    },
+    {
+      "text": "right? there's news that they're",
+      "start": 2980.559,
+      "duration": 3.681
+    },
+    {
+      "text": "effectively scanning all the chat logs",
+      "start": 2982.16,
+      "duration": 4.959
+    },
+    {
+      "text": "and then the ones that are flagged are",
+      "start": 2984.24,
+      "duration": 4.8
+    },
+    {
+      "text": "sent to human to evaluation and then to",
+      "start": 2987.119,
+      "duration": 3.841
+    },
+    {
+      "text": "police, right? So you effectively have",
+      "start": 2989.04,
+      "duration": 4.48
+    },
+    {
+      "text": "potentially humans looking at your chat",
+      "start": 2990.96,
+      "duration": 5.359
+    },
+    {
+      "text": "logs. Uh we had obviously data leaks",
+      "start": 2993.52,
+      "duration": 7.52
+    },
+    {
+      "text": "from uh Grock and others that like you",
+      "start": 2996.319,
+      "duration": 7.601
+    },
+    {
+      "text": "know your chat logs got vis visible uh",
+      "start": 3001.04,
+      "duration": 6.24
+    },
+    {
+      "text": "and and indexed. So I think like like",
+      "start": 3003.92,
+      "duration": 5.36
+    },
+    {
+      "text": "that that is that is the backdrop of",
+      "start": 3007.28,
+      "duration": 5.36
+    },
+    {
+      "text": "like like why we get adoption but the",
+      "start": 3009.28,
+      "duration": 5.839
+    },
+    {
+      "text": "inertia is the other side is like you",
+      "start": 3012.64,
+      "duration": 5.199
+    },
+    {
+      "text": "know OpenAI already has whatever half a",
+      "start": 3015.119,
+      "duration": 6.48
+    },
+    {
+      "text": "billion users or billion users. Um so we",
+      "start": 3017.839,
+      "duration": 5.441
+    },
+    {
+      "text": "we need to have a product that indeed",
+      "start": 3021.599,
+      "duration": 6.72
+    },
+    {
+      "text": "can deliver on uh on you know if people",
+      "start": 3023.28,
+      "duration": 7.36
+    },
+    {
+      "text": "want to like switch and and use.",
+      "start": 3028.319,
+      "duration": 4.8
+    },
+    {
+      "text": ">> How about latency? Uh admittedly like",
+      "start": 3030.64,
+      "duration": 4.16
+    },
+    {
+      "text": "encryption is not the latency killer",
+      "start": 3033.119,
+      "duration": 4.24
+    },
+    {
+      "text": "that it was you know 10 years ago or so",
+      "start": 3034.8,
+      "duration": 3.84
+    },
+    {
+      "text": "as a lot of that stuff's getting pushed",
+      "start": 3037.359,
+      "duration": 3.681
+    },
+    {
+      "text": "in the hardware like is it an issue for",
+      "start": 3038.64,
+      "duration": 3.439
+    },
+    {
+      "text": "you?",
+      "start": 3041.04,
+      "duration": 3.279
+    },
+    {
+      "text": ">> Not really. Yeah, I mean we have like",
+      "start": 3042.079,
+      "duration": 4.081
+    },
+    {
+      "text": "it's a little bit a little bit higher",
+      "start": 3044.319,
+      "duration": 4.481
+    },
+    {
+      "text": "latency again just because like when it",
+      "start": 3046.16,
+      "duration": 4.0
+    },
+    {
+      "text": "goes through the boundary there's like",
+      "start": 3048.8,
+      "duration": 4.96
+    },
+    {
+      "text": "some uh additional delay on kind of",
+      "start": 3050.16,
+      "duration": 5.76
+    },
+    {
+      "text": "encryption but it's we're also working",
+      "start": 3053.76,
+      "duration": 4.24
+    },
+    {
+      "text": "on like like it's also engineering",
+      "start": 3055.92,
+      "duration": 3.28
+    },
+    {
+      "text": "challenge of just like streaming",
+      "start": 3058.0,
+      "duration": 2.559
+    },
+    {
+      "text": "encryption and stuff like this like",
+      "start": 3059.2,
+      "duration": 4.48
+    },
+    {
+      "text": "improving that um I mean we're using TLS",
+      "start": 3060.559,
+      "duration": 4.881
+    },
+    {
+      "text": "right now right there's no additional",
+      "start": 3063.68,
+      "duration": 4.0
+    },
+    {
+      "text": "latency like this connection isn't an",
+      "start": 3065.44,
+      "duration": 4.159
+    },
+    {
+      "text": "encrypted although we actually going",
+      "start": 3067.68,
+      "duration": 4.24
+    },
+    {
+      "text": "through centralized server uh we",
+      "start": 3069.599,
+      "duration": 3.921
+    },
+    {
+      "text": "actually trying to fix you know figure",
+      "start": 3071.92,
+      "duration": 3.6
+    },
+    {
+      "text": "out how to make it like as direct as",
+      "start": 3073.52,
+      "duration": 4.079
+    },
+    {
+      "text": "possible. So like ideally actually",
+      "start": 3075.52,
+      "duration": 4.799
+    },
+    {
+      "text": "latency is less because ideally right",
+      "start": 3077.599,
+      "duration": 5.441
+    },
+    {
+      "text": "now yeah you you actually should be",
+      "start": 3080.319,
+      "duration": 5.201
+    },
+    {
+      "text": "accessing the closest GPU ideally in",
+      "start": 3083.04,
+      "duration": 4.4
+    },
+    {
+      "text": "your city there's like I mean I've",
+      "start": 3085.52,
+      "duration": 3.36
+    },
+    {
+      "text": "talked to people who like you know there",
+      "start": 3087.44,
+      "duration": 2.72
+    },
+    {
+      "text": "going to be data centers everywhere",
+      "start": 3088.88,
+      "duration": 3.6
+    },
+    {
+      "text": "people build like mobile data centers",
+      "start": 3090.16,
+      "duration": 4.32
+    },
+    {
+      "text": "etc and like you want to find that one",
+      "start": 3092.48,
+      "duration": 4.48
+    },
+    {
+      "text": "connect to it run your compute on it you",
+      "start": 3094.48,
+      "duration": 5.76
+    },
+    {
+      "text": "know hydrate your data there like that",
+      "start": 3096.96,
+      "duration": 4.96
+    },
+    {
+      "text": "that's kind of where you know this",
+      "start": 3100.24,
+      "duration": 3.28
+    },
+    {
+      "text": "infrastructure can move to and then",
+      "start": 3101.92,
+      "duration": 5.439
+    },
+    {
+      "text": "really deliver on that like Uh I I would",
+      "start": 3103.52,
+      "duration": 5.68
+    },
+    {
+      "text": "we're not there but that that's kind of",
+      "start": 3107.359,
+      "duration": 3.601
+    },
+    {
+      "text": "the vision is really actually reducing",
+      "start": 3109.2,
+      "duration": 3.28
+    },
+    {
+      "text": "latency because you know you s in",
+      "start": 3110.96,
+      "duration": 4.08
+    },
+    {
+      "text": "Philippines you right now you need to go",
+      "start": 3112.48,
+      "duration": 5.28
+    },
+    {
+      "text": "to Texas or whatever where OpenAI",
+      "start": 3115.04,
+      "duration": 5.6
+    },
+    {
+      "text": "servers are uh versus like there's data",
+      "start": 3117.76,
+      "duration": 4.24
+    },
+    {
+      "text": "center in Philippines actually sitting",
+      "start": 3120.64,
+      "duration": 3.52
+    },
+    {
+      "text": "un underutilized",
+      "start": 3122.0,
+      "duration": 5.359
+    },
+    {
+      "text": "um and so you should be using it.",
+      "start": 3124.16,
+      "duration": 5.6
+    },
+    {
+      "text": "I guess another question that I have is",
+      "start": 3127.359,
+      "duration": 5.121
+    },
+    {
+      "text": "that I I think it, you know, when you",
+      "start": 3129.76,
+      "duration": 4.799
+    },
+    {
+      "text": "boil it down, a lot of the value",
+      "start": 3132.48,
+      "duration": 5.44
+    },
+    {
+      "text": "proposition here is, you know, around",
+      "start": 3134.559,
+      "duration": 7.441
+    },
+    {
+      "text": "trust and the user being able to",
+      "start": 3137.92,
+      "duration": 6.24
+    },
+    {
+      "text": "uh trust the interactions they're having",
+      "start": 3142.0,
+      "duration": 6.48
+    },
+    {
+      "text": "with uh AI and privacy is a part of",
+      "start": 3144.16,
+      "duration": 6.399
+    },
+    {
+      "text": "that, but there are also still",
+      "start": 3148.48,
+      "duration": 5.119
+    },
+    {
+      "text": "fundamental trustworthiness issues with,",
+      "start": 3150.559,
+      "duration": 4.321
+    },
+    {
+      "text": "you know, your creation, the",
+      "start": 3153.599,
+      "duration": 4.081
+    },
+    {
+      "text": "transformer, like and it's ability to",
+      "start": 3154.88,
+      "duration": 5.12
+    },
+    {
+      "text": "give you results that are worthy of your",
+      "start": 3157.68,
+      "duration": 4.159
+    },
+    {
+      "text": "trust. You know, hallucination for",
+      "start": 3160.0,
+      "duration": 5.04
+    },
+    {
+      "text": "example. Um",
+      "start": 3161.839,
+      "duration": 6.48
+    },
+    {
+      "text": "are you doing anything there? Like do",
+      "start": 3165.04,
+      "duration": 5.2
+    },
+    {
+      "text": "you do you see that as you know how do",
+      "start": 3168.319,
+      "duration": 6.321
+    },
+    {
+      "text": "you think about that as an issue and um",
+      "start": 3170.24,
+      "duration": 7.599
+    },
+    {
+      "text": "you know what's your",
+      "start": 3174.64,
+      "duration": 5.84
+    },
+    {
+      "text": "what are your thoughts about how or if",
+      "start": 3177.839,
+      "duration": 4.961
+    },
+    {
+      "text": "or how that gets solved?",
+      "start": 3180.48,
+      "duration": 3.839
+    },
+    {
+      "text": "Yeah, I mean that that is an important",
+      "start": 3182.8,
+      "duration": 5.279
+    },
+    {
+      "text": "question and um indeed especially as we",
+      "start": 3184.319,
+      "duration": 5.76
+    },
+    {
+      "text": "like I kind of mentioned like I think",
+      "start": 3188.079,
+      "duration": 4.321
+    },
+    {
+      "text": "the com the AI will be how we interface",
+      "start": 3190.079,
+      "duration": 7.201
+    },
+    {
+      "text": "with computing and you ideally yeah want",
+      "start": 3192.4,
+      "duration": 7.28
+    },
+    {
+      "text": "to make sure that there is no kind of",
+      "start": 3197.28,
+      "duration": 7.12
+    },
+    {
+      "text": "biases in that that are not represented",
+      "start": 3199.68,
+      "duration": 7.6
+    },
+    {
+      "text": "with your view. uh so that I I think",
+      "start": 3204.4,
+      "duration": 5.6
+    },
+    {
+      "text": "there's like few components improving",
+      "start": 3207.28,
+      "duration": 5.039
+    },
+    {
+      "text": "trust in this models",
+      "start": 3210.0,
+      "duration": 5.359
+    },
+    {
+      "text": "um I think it starts with indeed the",
+      "start": 3212.319,
+      "duration": 5.28
+    },
+    {
+      "text": "open process of how these models were",
+      "start": 3215.359,
+      "duration": 5.2
+    },
+    {
+      "text": "trained um because there's this concept",
+      "start": 3217.599,
+      "duration": 4.641
+    },
+    {
+      "text": "of like sleeper agents right you can",
+      "start": 3220.559,
+      "duration": 3.601
+    },
+    {
+      "text": "actually like train things into the",
+      "start": 3222.24,
+      "duration": 4.72
+    },
+    {
+      "text": "model so that at some point during some",
+      "start": 3224.16,
+      "duration": 5.04
+    },
+    {
+      "text": "conditions it activates and behaves in a",
+      "start": 3226.96,
+      "duration": 4.639
+    },
+    {
+      "text": "different way than normal and so you can",
+      "start": 3229.2,
+      "duration": 4.159
+    },
+    {
+      "text": "like you know introduce vulnerabilities",
+      "start": 3231.599,
+      "duration": 4.48
+    },
+    {
+      "text": "in the code into a coding at all like",
+      "start": 3233.359,
+      "duration": 5.441
+    },
+    {
+      "text": "based on some condition like you know",
+      "start": 3236.079,
+      "duration": 4.881
+    },
+    {
+      "text": "I'm assuming if somebody wants to do a",
+      "start": 3238.8,
+      "duration": 4.559
+    },
+    {
+      "text": "new stax net that's how they're going to",
+      "start": 3240.96,
+      "duration": 4.0
+    },
+    {
+      "text": "do it",
+      "start": 3243.359,
+      "duration": 4.801
+    },
+    {
+      "text": "um the so you want to know how it was",
+      "start": 3244.96,
+      "duration": 7.599
+    },
+    {
+      "text": "trained then um right now you know",
+      "start": 3248.16,
+      "duration": 7.439
+    },
+    {
+      "text": "you're running like even if it's open",
+      "start": 3252.559,
+      "duration": 3.601
+    },
+    {
+      "text": "source model",
+      "start": 3255.599,
+      "duration": 3.601
+    },
+    {
+      "text": ">> isn't that isn't that first point an",
+      "start": 3256.16,
+      "duration": 6.399
+    },
+    {
+      "text": "argument for true open source as opposed",
+      "start": 3259.2,
+      "duration": 5.2
+    },
+    {
+      "text": "to",
+      "start": 3262.559,
+      "duration": 5.121
+    },
+    {
+      "text": "um you know just send an uh c you know",
+      "start": 3264.4,
+      "duration": 7.12
+    },
+    {
+      "text": "certificate or a stamp of uh of",
+      "start": 3267.68,
+      "duration": 5.04
+    },
+    {
+      "text": "something like",
+      "start": 3271.52,
+      "duration": 2.96
+    },
+    {
+      "text": ">> so so that's like you want open source",
+      "start": 3272.72,
+      "duration": 3.92
+    },
+    {
+      "text": "but you don't need open weights so you",
+      "start": 3274.48,
+      "duration": 3.76
+    },
+    {
+      "text": "want to know what went in but the",
+      "start": 3276.64,
+      "duration": 3.36
+    },
+    {
+      "text": "weights itself can be encrypted so you",
+      "start": 3278.24,
+      "duration": 3.119
+    },
+    {
+      "text": "can monetize but yeah so that's what I'm",
+      "start": 3280.0,
+      "duration": 3.839
+    },
+    {
+      "text": "saying we need the open source not like",
+      "start": 3281.359,
+      "duration": 4.48
+    },
+    {
+      "text": "open weights is right now just kind of",
+      "start": 3283.839,
+      "duration": 4.24
+    },
+    {
+      "text": "everybody's like",
+      "start": 3285.839,
+      "duration": 4.961
+    },
+    {
+      "text": "I mean effectively it's useful but it's",
+      "start": 3288.079,
+      "duration": 4.321
+    },
+    {
+      "text": "mostly like as if you know you have",
+      "start": 3290.8,
+      "duration": 3.519
+    },
+    {
+      "text": ">> so was your was your argument earlier",
+      "start": 3292.4,
+      "duration": 5.12
+    },
+    {
+      "text": "that if you can",
+      "start": 3294.319,
+      "duration": 6.961
+    },
+    {
+      "text": "if you can close and encrypt the weights",
+      "start": 3297.52,
+      "duration": 7.599
+    },
+    {
+      "text": "then you have greater you anticipate",
+      "start": 3301.28,
+      "duration": 8.0
+    },
+    {
+      "text": "greater willingness to open the source",
+      "start": 3305.119,
+      "duration": 6.96
+    },
+    {
+      "text": "like like make the training process more",
+      "start": 3309.28,
+      "duration": 3.68
+    },
+    {
+      "text": "transparent",
+      "start": 3312.079,
+      "duration": 3.601
+    },
+    {
+      "text": ">> because you can monetize like in this",
+      "start": 3312.96,
+      "duration": 5.119
+    },
+    {
+      "text": "encrypted weight model you can monetize",
+      "start": 3315.68,
+      "duration": 3.76
+    },
+    {
+      "text": "the usage of the model.",
+      "start": 3318.079,
+      "duration": 2.721
+    },
+    {
+      "text": ">> Yeah that's right. So your point was",
+      "start": 3319.44,
+      "duration": 3.6
+    },
+    {
+      "text": "people are holding on to the source",
+      "start": 3320.8,
+      "duration": 4.799
+    },
+    {
+      "text": "because you know they want to retain",
+      "start": 3323.04,
+      "duration": 4.72
+    },
+    {
+      "text": "some monetizability and they they're",
+      "start": 3325.599,
+      "duration": 5.281
+    },
+    {
+      "text": "making the weights open. Um you know so",
+      "start": 3327.76,
+      "duration": 4.48
+    },
+    {
+      "text": "that's their piece that they're holding",
+      "start": 3330.88,
+      "duration": 1.84
+    },
+    {
+      "text": "back.",
+      "start": 3332.24,
+      "duration": 2.0
+    },
+    {
+      "text": ">> So the opening of the weights is a",
+      "start": 3332.72,
+      "duration": 4.0
+    },
+    {
+      "text": "marketing right for them to then",
+      "start": 3334.24,
+      "duration": 5.04
+    },
+    {
+      "text": "leverage their closed sort of thing to",
+      "start": 3336.72,
+      "duration": 4.72
+    },
+    {
+      "text": "then cook something else right either",
+      "start": 3339.28,
+      "duration": 4.88
+    },
+    {
+      "text": "for specific customers or next model or",
+      "start": 3341.44,
+      "duration": 5.84
+    },
+    {
+      "text": "whatever this is uh or attract like to",
+      "start": 3344.16,
+      "duration": 5.199
+    },
+    {
+      "text": "their app. But if you can monetize",
+      "start": 3347.28,
+      "duration": 5.279
+    },
+    {
+      "text": "actually the model you trained and you",
+      "start": 3349.359,
+      "duration": 6.641
+    },
+    {
+      "text": "have the whole process open um and",
+      "start": 3352.559,
+      "duration": 6.321
+    },
+    {
+      "text": "especially if there is like some",
+      "start": 3356.0,
+      "duration": 5.2
+    },
+    {
+      "text": "semiformal way for people who leverage",
+      "start": 3358.88,
+      "duration": 5.439
+    },
+    {
+      "text": "your learnings as well to then uh kind",
+      "start": 3361.2,
+      "duration": 5.28
+    },
+    {
+      "text": "of contribute back as as well.",
+      "start": 3364.319,
+      "duration": 4.321
+    },
+    {
+      "text": ">> Yeah. But I mean like that assumes that",
+      "start": 3366.48,
+      "duration": 4.56
+    },
+    {
+      "text": "there's not a lot of perceived",
+      "start": 3368.64,
+      "duration": 5.04
+    },
+    {
+      "text": "innovation in the training process and I",
+      "start": 3371.04,
+      "duration": 6.319
+    },
+    {
+      "text": "don't know that folks that are training",
+      "start": 3373.68,
+      "duration": 7.84
+    },
+    {
+      "text": "you know frontier models in the like",
+      "start": 3377.359,
+      "duration": 6.161
+    },
+    {
+      "text": "ahead of the the you know at the",
+      "start": 3381.52,
+      "duration": 4.48
+    },
+    {
+      "text": "frontier sense of the term would",
+      "start": 3383.52,
+      "duration": 4.88
+    },
+    {
+      "text": "necessarily believe that right",
+      "start": 3386.0,
+      "duration": 3.68
+    },
+    {
+      "text": ">> I mean there can be that's what I'm",
+      "start": 3388.4,
+      "duration": 4.48
+    },
+    {
+      "text": "saying like but I I think the the the",
+      "start": 3389.68,
+      "duration": 5.84
+    },
+    {
+      "text": "lag on the frontier right is you know",
+      "start": 3392.88,
+      "duration": 3.919
+    },
+    {
+      "text": "three to six months",
+      "start": 3395.52,
+      "duration": 3.92
+    },
+    {
+      "text": "And so I think the benefit here is like",
+      "start": 3396.799,
+      "duration": 6.241
+    },
+    {
+      "text": "if you're able to effectively do a",
+      "start": 3399.44,
+      "duration": 5.52
+    },
+    {
+      "text": "training run and start monetizing it,",
+      "start": 3403.04,
+      "duration": 5.6
+    },
+    {
+      "text": "you like you can leverage that",
+      "start": 3404.96,
+      "duration": 6.32
+    },
+    {
+      "text": "uh you know monetization to then",
+      "start": 3408.64,
+      "duration": 4.479
+    },
+    {
+      "text": "potentially reinvest into the next thing",
+      "start": 3411.28,
+      "duration": 4.559
+    },
+    {
+      "text": "etc. Uh but but because you opened",
+      "start": 3413.119,
+      "duration": 4.48
+    },
+    {
+      "text": "everybody can go and contribute and",
+      "start": 3415.839,
+      "duration": 3.601
+    },
+    {
+      "text": "maybe come up with new ideas etc. So",
+      "start": 3417.599,
+      "duration": 3.601
+    },
+    {
+      "text": "like you just kind of accelerating this",
+      "start": 3419.44,
+      "duration": 4.159
+    },
+    {
+      "text": "process. Again, this is how the computer",
+      "start": 3421.2,
+      "duration": 5.2
+    },
+    {
+      "text": "science and AI worked. Before we would",
+      "start": 3423.599,
+      "duration": 4.561
+    },
+    {
+      "text": "open it up, you know, the papers was out",
+      "start": 3426.4,
+      "duration": 4.959
+    },
+    {
+      "text": "as soon as possible and now everybody's",
+      "start": 3428.16,
+      "duration": 4.639
+    },
+    {
+      "text": "delaying everything like at least six",
+      "start": 3431.359,
+      "duration": 3.121
+    },
+    {
+      "text": "months to a year.",
+      "start": 3432.799,
+      "duration": 4.8
+    },
+    {
+      "text": ">> So, we're solving big picture trust. The",
+      "start": 3434.48,
+      "duration": 6.879
+    },
+    {
+      "text": "first part is um you know openness.",
+      "start": 3437.599,
+      "duration": 5.681
+    },
+    {
+      "text": ">> Yeah. Well, yeah, open research, open",
+      "start": 3441.359,
+      "duration": 4.321
+    },
+    {
+      "text": "data. Well, knowing what data goes in",
+      "start": 3443.28,
+      "duration": 4.4
+    },
+    {
+      "text": "and what bias there. Second is",
+      "start": 3445.68,
+      "duration": 4.08
+    },
+    {
+      "text": "verifiability of the inference. Right.",
+      "start": 3447.68,
+      "duration": 3.84
+    },
+    {
+      "text": "again right now you know there's people",
+      "start": 3449.76,
+      "duration": 5.039
+    },
+    {
+      "text": "complaining that like claude gets dumber",
+      "start": 3451.52,
+      "duration": 5.76
+    },
+    {
+      "text": "in you know daytime and like",
+      "start": 3454.799,
+      "duration": 2.881
+    },
+    {
+      "text": ">> right",
+      "start": 3457.28,
+      "duration": 2.24
+    },
+    {
+      "text": ">> maybe doesn't we don't actually know",
+      "start": 3457.68,
+      "duration": 2.48
+    },
+    {
+      "text": "right",
+      "start": 3459.52,
+      "duration": 3.68
+    },
+    {
+      "text": ">> yeah so like having verifiability again",
+      "start": 3460.16,
+      "duration": 4.88
+    },
+    {
+      "text": "this there this can be something where",
+      "start": 3463.2,
+      "duration": 4.159
+    },
+    {
+      "text": "like you know when you specifically ask",
+      "start": 3465.04,
+      "duration": 4.799
+    },
+    {
+      "text": "what stocks to buy there's like a rule",
+      "start": 3467.359,
+      "duration": 4.401
+    },
+    {
+      "text": "that says actually let me let me tell",
+      "start": 3469.839,
+      "duration": 2.72
+    },
+    {
+      "text": "you to buy this",
+      "start": 3471.76,
+      "duration": 4.079
+    },
+    {
+      "text": ">> only use smart quad",
+      "start": 3472.559,
+      "duration": 5.601
+    },
+    {
+      "text": ">> so like verifiability of that that that",
+      "start": 3475.839,
+      "duration": 3.841
+    },
+    {
+      "text": "gives you another level",
+      "start": 3478.16,
+      "duration": 3.919
+    },
+    {
+      "text": "And then I agree that the the third part",
+      "start": 3479.68,
+      "duration": 4.879
+    },
+    {
+      "text": "is actually like you know especially",
+      "start": 3482.079,
+      "duration": 4.24
+    },
+    {
+      "text": "when we allow this models to go and",
+      "start": 3484.559,
+      "duration": 3.28
+    },
+    {
+      "text": "start do actions like how do we make",
+      "start": 3486.319,
+      "duration": 5.52
+    },
+    {
+      "text": "sure it doesn't do anything. Um and so",
+      "start": 3487.839,
+      "duration": 7.041
+    },
+    {
+      "text": "so there I think there's few interesting",
+      "start": 3491.839,
+      "duration": 4.561
+    },
+    {
+      "text": "areas I mean there's a lot of research",
+      "start": 3494.88,
+      "duration": 2.959
+    },
+    {
+      "text": "right people are trying you know how to",
+      "start": 3496.4,
+      "duration": 3.199
+    },
+    {
+      "text": "like ground hallucinations how to do all",
+      "start": 3497.839,
+      "duration": 3.76
+    },
+    {
+      "text": "those things so like all of that needs",
+      "start": 3499.599,
+      "duration": 3.681
+    },
+    {
+      "text": "to be done and again I think open",
+      "start": 3501.599,
+      "duration": 3.841
+    },
+    {
+      "text": "research process would help a lot with",
+      "start": 3503.28,
+      "duration": 5.36
+    },
+    {
+      "text": "that. Um but the other aspect of this we",
+      "start": 3505.44,
+      "duration": 4.48
+    },
+    {
+      "text": "looking at is actually formal",
+      "start": 3508.64,
+      "duration": 3.12
+    },
+    {
+      "text": "verification.",
+      "start": 3509.92,
+      "duration": 4.72
+    },
+    {
+      "text": "So right now",
+      "start": 3511.76,
+      "duration": 5.2
+    },
+    {
+      "text": "um you know kind of when we talk about",
+      "start": 3514.64,
+      "duration": 4.08
+    },
+    {
+      "text": "software when we talk about this AI",
+      "start": 3516.96,
+      "duration": 4.399
+    },
+    {
+      "text": "systems we kind of like we're testing",
+      "start": 3518.72,
+      "duration": 4.56
+    },
+    {
+      "text": "some use cases we're testing you know we",
+      "start": 3521.359,
+      "duration": 3.841
+    },
+    {
+      "text": "have evals maybe we have you know vibe",
+      "start": 3523.28,
+      "duration": 3.839
+    },
+    {
+      "text": "testing but we don't really have",
+      "start": 3525.2,
+      "duration": 4.72
+    },
+    {
+      "text": "guarantees that the system will comply",
+      "start": 3527.119,
+      "duration": 5.121
+    },
+    {
+      "text": "to some requirements and so formal",
+      "start": 3529.92,
+      "duration": 3.919
+    },
+    {
+      "text": "verification is a way to actually",
+      "start": 3532.24,
+      "duration": 3.68
+    },
+    {
+      "text": "achieve that and formal verification",
+      "start": 3533.839,
+      "duration": 4.561
+    },
+    {
+      "text": "should be happening at the invocation",
+      "start": 3535.92,
+      "duration": 5.199
+    },
+    {
+      "text": "side. So as you call something right",
+      "start": 3538.4,
+      "duration": 6.0
+    },
+    {
+      "text": "like hey so the example is like a little",
+      "start": 3541.119,
+      "duration": 6.561
+    },
+    {
+      "text": "bit closer to blockchain space you know",
+      "start": 3544.4,
+      "duration": 4.64
+    },
+    {
+      "text": "if you're putting money into something",
+      "start": 3547.68,
+      "duration": 2.96
+    },
+    {
+      "text": "you want to make sure you can you know",
+      "start": 3549.04,
+      "duration": 3.519
+    },
+    {
+      "text": "at least get as much money back right",
+      "start": 3550.64,
+      "duration": 3.52
+    },
+    {
+      "text": "that nobody will be able to steal your",
+      "start": 3552.559,
+      "duration": 3.841
+    },
+    {
+      "text": "money uh for example like savings",
+      "start": 3554.16,
+      "duration": 5.84
+    },
+    {
+      "text": "account type thing and so you want to",
+      "start": 3556.4,
+      "duration": 5.439
+    },
+    {
+      "text": "have the guarantee that when you put in",
+      "start": 3560.0,
+      "duration": 3.599
+    },
+    {
+      "text": "your money that you'll be able to do so",
+      "start": 3561.839,
+      "duration": 4.801
+    },
+    {
+      "text": "you want the proof at that time so so",
+      "start": 3563.599,
+      "duration": 4.801
+    },
+    {
+      "text": "that's kind of like we call it at at",
+      "start": 3566.64,
+      "duration": 5.6
+    },
+    {
+      "text": "invocation ation uh verification.",
+      "start": 3568.4,
+      "duration": 5.439
+    },
+    {
+      "text": "Similarly, when you call an AI system,",
+      "start": 3572.24,
+      "duration": 3.599
+    },
+    {
+      "text": "you can say, \"Hey, you know, you can",
+      "start": 3573.839,
+      "duration": 4.0
+    },
+    {
+      "text": "access my email, but you cannot delete",
+      "start": 3575.839,
+      "duration": 4.881
+    },
+    {
+      "text": "anything, right? You can and you you",
+      "start": 3577.839,
+      "duration": 4.401
+    },
+    {
+      "text": "cannot leak anything. You cannot you",
+      "start": 3580.72,
+      "duration": 3.76
+    },
+    {
+      "text": "cannot do this set of actions, right?\"",
+      "start": 3582.24,
+      "duration": 6.0
+    },
+    {
+      "text": "You know, um and so the system like the",
+      "start": 3584.48,
+      "duration": 5.68
+    },
+    {
+      "text": "the the TE that runs it, the secure",
+      "start": 3588.24,
+      "duration": 4.319
+    },
+    {
+      "text": "enclave that runs it like proves to you",
+      "start": 3590.16,
+      "duration": 4.639
+    },
+    {
+      "text": "that the code that it runs inside",
+      "start": 3592.559,
+      "duration": 4.881
+    },
+    {
+      "text": "complies with it requirements.",
+      "start": 3594.799,
+      "duration": 4.8
+    },
+    {
+      "text": "So this Docker hash for example, you",
+      "start": 3597.44,
+      "duration": 4.08
+    },
+    {
+      "text": "know, complies to this requirements. And",
+      "start": 3599.599,
+      "duration": 3.921
+    },
+    {
+      "text": "so now you have not just proof of",
+      "start": 3601.52,
+      "duration": 4.559
+    },
+    {
+      "text": "verifiability, but also proof of",
+      "start": 3603.52,
+      "duration": 4.799
+    },
+    {
+      "text": "specific, you know, preconditions. And",
+      "start": 3606.079,
+      "duration": 4.081
+    },
+    {
+      "text": "and and if and if it fails, right, if it",
+      "start": 3608.319,
+      "duration": 3.121
+    },
+    {
+      "text": "doesn't match your preconditions, right,",
+      "start": 3610.16,
+      "duration": 5.36
+    },
+    {
+      "text": "this this doesn't execute. And so today",
+      "start": 3611.44,
+      "duration": 6.56
+    },
+    {
+      "text": "what we talked about being possible is",
+      "start": 3615.52,
+      "duration": 6.319
+    },
+    {
+      "text": "this idea that like if you can get if",
+      "start": 3618.0,
+      "duration": 5.839
+    },
+    {
+      "text": "you can get access to whatever the",
+      "start": 3621.839,
+      "duration": 3.76
+    },
+    {
+      "text": "source code is that's going into the",
+      "start": 3623.839,
+      "duration": 3.441
+    },
+    {
+      "text": "Docker to container, you can certify",
+      "start": 3625.599,
+      "duration": 4.641
+    },
+    {
+      "text": "that it's this thing that you know and",
+      "start": 3627.28,
+      "duration": 6.96
+    },
+    {
+      "text": "trust that operated on your data. And",
+      "start": 3630.24,
+      "duration": 6.72
+    },
+    {
+      "text": "what you're referring to is at some",
+      "start": 3634.24,
+      "duration": 5.599
+    },
+    {
+      "text": "point in the future where, you know, you",
+      "start": 3636.96,
+      "duration": 5.599
+    },
+    {
+      "text": "can not necessarily have to know what",
+      "start": 3639.839,
+      "duration": 5.441
+    },
+    {
+      "text": "that thing was, but know some conditions",
+      "start": 3642.559,
+      "duration": 4.8
+    },
+    {
+      "text": "about what it's able to do or how it's",
+      "start": 3645.28,
+      "duration": 5.2
+    },
+    {
+      "text": "running. And it's um the verification is",
+      "start": 3647.359,
+      "duration": 5.44
+    },
+    {
+      "text": "not, you know, just like a, you know,",
+      "start": 3650.48,
+      "duration": 5.119
+    },
+    {
+      "text": "cryptographic hash, but it's like",
+      "start": 3652.799,
+      "duration": 4.881
+    },
+    {
+      "text": "verification and validation of the code",
+      "start": 3655.599,
+      "duration": 4.321
+    },
+    {
+      "text": "and what it's doing.",
+      "start": 3657.68,
+      "duration": 4.24
+    },
+    {
+      "text": "And I mentioned it, you know, for folks",
+      "start": 3659.92,
+      "duration": 4.399
+    },
+    {
+      "text": "that uh are curious about this just a",
+      "start": 3661.92,
+      "duration": 5.28
+    },
+    {
+      "text": "couple of episodes ago. I had a a really",
+      "start": 3664.319,
+      "duration": 4.48
+    },
+    {
+      "text": "interesting conversation with Christian",
+      "start": 3667.2,
+      "duration": 5.68
+    },
+    {
+      "text": "Seigy about verification. You know, dug",
+      "start": 3668.799,
+      "duration": 5.441
+    },
+    {
+      "text": "deep into all this stuff.",
+      "start": 3672.88,
+      "duration": 3.52
+    },
+    {
+      "text": ">> He's one of the pioneers on that for",
+      "start": 3674.24,
+      "duration": 2.559
+    },
+    {
+      "text": "sure.",
+      "start": 3676.4,
+      "duration": 3.04
+    },
+    {
+      "text": ">> And so that was the third of your three",
+      "start": 3676.799,
+      "duration": 5.04
+    },
+    {
+      "text": "your three things for kind of solving",
+      "start": 3679.44,
+      "duration": 4.96
+    },
+    {
+      "text": "this broader trust issue. Yeah, I think",
+      "start": 3681.839,
+      "duration": 3.52
+    },
+    {
+      "text": "that that's going to be a really",
+      "start": 3684.4,
+      "duration": 4.08
+    },
+    {
+      "text": "important component of that. Um, to make",
+      "start": 3685.359,
+      "duration": 4.801
+    },
+    {
+      "text": "sure that we can actually trust the",
+      "start": 3688.48,
+      "duration": 3.92
+    },
+    {
+      "text": "systems especi",
+      "start": 3690.16,
+      "duration": 3.52
+    },
+    {
+      "text": "as a user, you're probably not going to",
+      "start": 3692.4,
+      "duration": 2.88
+    },
+    {
+      "text": "go and like review Docker container",
+      "start": 3693.68,
+      "duration": 4.72
+    },
+    {
+      "text": "code, right? And insure, right?",
+      "start": 3695.28,
+      "duration": 4.799
+    },
+    {
+      "text": ">> So, so we need we need and and",
+      "start": 3698.4,
+      "duration": 3.36
+    },
+    {
+      "text": "especially it it it gets complicated",
+      "start": 3700.079,
+      "duration": 3.121
+    },
+    {
+      "text": "when things are starting to call each",
+      "start": 3701.76,
+      "duration": 2.96
+    },
+    {
+      "text": "other, right? Like when you have one AI",
+      "start": 3703.2,
+      "duration": 3.84
+    },
+    {
+      "text": "system calling another AI system calling",
+      "start": 3704.72,
+      "duration": 4.879
+    },
+    {
+      "text": "like some MCP tool calling another AI",
+      "start": 3707.04,
+      "duration": 5.2
+    },
+    {
+      "text": "system. And so the idea here you",
+      "start": 3709.599,
+      "duration": 5.121
+    },
+    {
+      "text": "actually have like the properties are",
+      "start": 3712.24,
+      "duration": 5.2
+    },
+    {
+      "text": "actually uh composable right so like if",
+      "start": 3714.72,
+      "duration": 6.16
+    },
+    {
+      "text": "this service proves to you that it will",
+      "start": 3717.44,
+      "duration": 5.84
+    },
+    {
+      "text": "not you know will work in this specific",
+      "start": 3720.88,
+      "duration": 5.04
+    },
+    {
+      "text": "way when it calls other services those",
+      "start": 3723.28,
+      "duration": 4.96
+    },
+    {
+      "text": "services need to prove it as well and if",
+      "start": 3725.92,
+      "duration": 4.48
+    },
+    {
+      "text": "it doesn't it's not able to call it so",
+      "start": 3728.24,
+      "duration": 3.92
+    },
+    {
+      "text": "so that's I think is really important is",
+      "start": 3730.4,
+      "duration": 3.439
+    },
+    {
+      "text": "like actually create kind of gives you",
+      "start": 3732.16,
+      "duration": 4.56
+    },
+    {
+      "text": "this composible effect which I think",
+      "start": 3733.839,
+      "duration": 5.201
+    },
+    {
+      "text": "right now is is is the biggest problem",
+      "start": 3736.72,
+      "duration": 4.399
+    },
+    {
+      "text": "like as you can imagine Imagine the",
+      "start": 3739.04,
+      "duration": 3.44
+    },
+    {
+      "text": "systems becoming more and more complex",
+      "start": 3741.119,
+      "duration": 2.881
+    },
+    {
+      "text": "and you have all these AIs talking to",
+      "start": 3742.48,
+      "duration": 4.0
+    },
+    {
+      "text": "each other and you know we have no idea",
+      "start": 3744.0,
+      "duration": 4.48
+    },
+    {
+      "text": "like what they agree on doing and what",
+      "start": 3746.48,
+      "duration": 4.48
+    },
+    {
+      "text": "they end up actually executing. So I",
+      "start": 3748.48,
+      "duration": 3.599
+    },
+    {
+      "text": "think that that's going to be a pretty",
+      "start": 3750.96,
+      "duration": 2.639
+    },
+    {
+      "text": "fundamental",
+      "start": 3752.079,
+      "duration": 4.801
+    },
+    {
+      "text": "um like system change but it it actually",
+      "start": 3753.599,
+      "duration": 6.641
+    },
+    {
+      "text": "requires this verifiability as like",
+      "start": 3756.88,
+      "duration": 4.88
+    },
+    {
+      "text": "because you need you need something to",
+      "start": 3760.24,
+      "duration": 3.44
+    },
+    {
+      "text": "guarantee that the code inside is",
+      "start": 3761.76,
+      "duration": 3.68
+    },
+    {
+      "text": "following these properties. So you need",
+      "start": 3763.68,
+      "duration": 4.72
+    },
+    {
+      "text": "like a some containerization that you",
+      "start": 3765.44,
+      "duration": 5.919
+    },
+    {
+      "text": "can trust. Very cool. Uh well, Ilia,",
+      "start": 3768.4,
+      "duration": 5.679
+    },
+    {
+      "text": "thanks so much for jumping on and kind",
+      "start": 3771.359,
+      "duration": 4.801
+    },
+    {
+      "text": "of talking us through what you've been",
+      "start": 3774.079,
+      "duration": 3.52
+    },
+    {
+      "text": "working on. It sounds like super",
+      "start": 3776.16,
+      "duration": 3.76
+    },
+    {
+      "text": "interesting stuff. We've had I think",
+      "start": 3777.599,
+      "duration": 4.401
+    },
+    {
+      "text": "we've covered like this idea of privacy",
+      "start": 3779.92,
+      "duration": 5.76
+    },
+    {
+      "text": "on the podcast to some degree uh in the",
+      "start": 3782.0,
+      "duration": 5.28
+    },
+    {
+      "text": "past. Like we've talked quite a bit",
+      "start": 3785.68,
+      "duration": 4.399
+    },
+    {
+      "text": "about differential privacy, talked a",
+      "start": 3787.28,
+      "duration": 5.2
+    },
+    {
+      "text": "little bit about like the open mind",
+      "start": 3790.079,
+      "duration": 5.121
+    },
+    {
+      "text": "pyift kind of decentralized",
+      "start": 3792.48,
+      "duration": 5.599
+    },
+    {
+      "text": "training kind of stuff. Um, but this is",
+      "start": 3795.2,
+      "duration": 5.839
+    },
+    {
+      "text": "definitely uh a different take and one",
+      "start": 3798.079,
+      "duration": 6.0
+    },
+    {
+      "text": "that I think is, you know, kind of right",
+      "start": 3801.039,
+      "duration": 5.201
+    },
+    {
+      "text": "in line with the direction that things",
+      "start": 3804.079,
+      "duration": 5.52
+    },
+    {
+      "text": "have gone from a, you know, Transformers",
+      "start": 3806.24,
+      "duration": 5.359
+    },
+    {
+      "text": "Gen AI perspective. So, I'm super",
+      "start": 3809.599,
+      "duration": 3.601
+    },
+    {
+      "text": "interested in, you know, seeing how it",
+      "start": 3811.599,
+      "duration": 3.601
+    },
+    {
+      "text": "all unfolds.",
+      "start": 3813.2,
+      "duration": 3.68
+    },
+    {
+      "text": ">> Yeah, I appreciate you having me here",
+      "start": 3815.2,
+      "duration": 3.359
+    },
+    {
+      "text": "and diving in.",
+      "start": 3816.88,
+      "duration": 3.199
+    },
+    {
+      "text": ">> Yeah, thanks so much.",
+      "start": 3818.559,
+      "duration": 3.241
+    },
+    {
+      "text": ">> Thank you.",
+      "start": 3820.079,
+      "duration": 4.78
+    },
+    {
+      "text": "[Music]",
+      "start": 3821.8,
+      "duration": 3.059
+    },
+    {
+      "text": "[Music]",
+      "start": 3839.34,
+      "duration": 3.179
+    }
+  ]
+}

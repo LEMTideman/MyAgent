@@ -1,0 +1,34 @@
+
+.env
+
+# ---- Python / virtual envs ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- uv ----
+.uv/
+# keep uv.lock and pyproject.toml (these are tracked by default, so no ignore needed)
+
+# ---- Jupyter notebooks ----
+*.ipynb
+!Jina_web_AI_Act.ipynb
+!Process_YouTube_Transcripts.ipynb
+
+# If those notebooks live in subfolders, use this instead:
+# !**/Jina_web_AI_Act.ipynb
+# !**/Process_YouTube_Transcripts.ipynb
+
+# ---- Common local stuff ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+

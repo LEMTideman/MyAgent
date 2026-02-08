@@ -1,0 +1,3708 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "HwCR59VuYn4",
+  "video_title": "From Human-in-the-Loop to Agent-in-the-Loop: A Practical Transition Guide - Ertugrul Mutlu",
+  "video_url": "https://www.youtube.com/watch?v=HwCR59VuYn4",
+  "fetched_at": "2025-12-30T09:09:09.636570+00:00",
+  "transcript": [
+    {
+      "text": "Hi everyone, welcome to our event. This",
+      "start": 0.32,
+      "duration": 4.64
+    },
+    {
+      "text": "event is brought to you by data talks",
+      "start": 2.72,
+      "duration": 3.76
+    },
+    {
+      "text": "club which is a community of people who",
+      "start": 4.96,
+      "duration": 3.92
+    },
+    {
+      "text": "love data. We have weekly events and",
+      "start": 6.48,
+      "duration": 4.32
+    },
+    {
+      "text": "today is one of such events. If you want",
+      "start": 8.88,
+      "duration": 3.759
+    },
+    {
+      "text": "to find out more about the events we",
+      "start": 10.8,
+      "duration": 3.2
+    },
+    {
+      "text": "have, there is a link in the",
+      "start": 12.639,
+      "duration": 3.761
+    },
+    {
+      "text": "description. Click on that link and",
+      "start": 14.0,
+      "duration": 4.72
+    },
+    {
+      "text": "check all the events we have in our",
+      "start": 16.4,
+      "duration": 4.32
+    },
+    {
+      "text": "pipeline which is quite a few. So for",
+      "start": 18.72,
+      "duration": 4.319
+    },
+    {
+      "text": "example, even today in the evening we're",
+      "start": 20.72,
+      "duration": 4.319
+    },
+    {
+      "text": "going to have a workshop where I'll show",
+      "start": 23.039,
+      "duration": 4.16
+    },
+    {
+      "text": "how to create a deep research agent. So",
+      "start": 25.039,
+      "duration": 5.201
+    },
+    {
+      "text": "check it out. then um you should",
+      "start": 27.199,
+      "duration": 4.721
+    },
+    {
+      "text": "subscribe to our YouTube channel. This",
+      "start": 30.24,
+      "duration": 4.88
+    },
+    {
+      "text": "way you'll get notified to all our",
+      "start": 31.92,
+      "duration": 4.56
+    },
+    {
+      "text": "future streams like the one we have",
+      "start": 35.12,
+      "duration": 4.56
+    },
+    {
+      "text": "today. Don't forget to like this video.",
+      "start": 36.48,
+      "duration": 5.759
+    },
+    {
+      "text": "It will help to uh it will help",
+      "start": 39.68,
+      "duration": 4.48
+    },
+    {
+      "text": "YouTube's algorithm to recognize that",
+      "start": 42.239,
+      "duration": 4.32
+    },
+    {
+      "text": "this is a cool video. And last but not",
+      "start": 44.16,
+      "duration": 4.16
+    },
+    {
+      "text": "least, we have a Slack community where",
+      "start": 46.559,
+      "duration": 3.281
+    },
+    {
+      "text": "you can hang out with other data",
+      "start": 48.32,
+      "duration": 4.239
+    },
+    {
+      "text": "enthusiasts. So check the link in the",
+      "start": 49.84,
+      "duration": 7.199
+    },
+    {
+      "text": "description. Join our community and yeah",
+      "start": 52.559,
+      "duration": 8.0
+    },
+    {
+      "text": "um be a part of it. So during uh today",
+      "start": 57.039,
+      "duration": 5.68
+    },
+    {
+      "text": "um today's webinar you can ask any",
+      "start": 60.559,
+      "duration": 4.161
+    },
+    {
+      "text": "question you want and then we will be",
+      "start": 62.719,
+      "duration": 4.08
+    },
+    {
+      "text": "covering these questions at the end uh",
+      "start": 64.72,
+      "duration": 6.48
+    },
+    {
+      "text": "of the webinar. So that's all I have and",
+      "start": 66.799,
+      "duration": 8.0
+    },
+    {
+      "text": "Mutlu now the floor is yours. Uh please",
+      "start": 71.2,
+      "duration": 5.68
+    },
+    {
+      "text": "um tell us a few words words about",
+      "start": 74.799,
+      "duration": 4.241
+    },
+    {
+      "text": "yourself and um yeah go ahead and share",
+      "start": 76.88,
+      "duration": 5.279
+    },
+    {
+      "text": "your screen. I am going to share my",
+      "start": 79.04,
+      "duration": 6.16
+    },
+    {
+      "text": "screen first.",
+      "start": 82.159,
+      "duration": 4.881
+    },
+    {
+      "text": "I think everybody can see my screen",
+      "start": 85.2,
+      "duration": 2.88
+    },
+    {
+      "text": "right now.",
+      "start": 87.04,
+      "duration": 3.439
+    },
+    {
+      "text": ">> Yeah. And your picture.",
+      "start": 88.08,
+      "duration": 4.64
+    },
+    {
+      "text": ">> Yeah. Yeah. Um Hello guys. My name is",
+      "start": 90.479,
+      "duration": 5.761
+    },
+    {
+      "text": "Art. I'm 21 years old living in Gal and",
+      "start": 92.72,
+      "duration": 6.079
+    },
+    {
+      "text": "studying computer engineering in Aras",
+      "start": 96.24,
+      "duration": 4.8
+    },
+    {
+      "text": "University. Uh right now I'm working",
+      "start": 98.799,
+      "duration": 4.241
+    },
+    {
+      "text": "with the panop institute. It's a",
+      "start": 101.04,
+      "duration": 4.079
+    },
+    {
+      "text": "research institute. I'm working as a",
+      "start": 103.04,
+      "duration": 4.0
+    },
+    {
+      "text": "artificial intelligent intelligent",
+      "start": 105.119,
+      "duration": 5.36
+    },
+    {
+      "text": "researcher. uh studying workers so I'm",
+      "start": 107.04,
+      "duration": 6.24
+    },
+    {
+      "text": "not fully time or something like that",
+      "start": 110.479,
+      "duration": 5.92
+    },
+    {
+      "text": "and also I should say like",
+      "start": 113.28,
+      "duration": 5.28
+    },
+    {
+      "text": "uh today we are going to talk about the",
+      "start": 116.399,
+      "duration": 4.72
+    },
+    {
+      "text": "some transition about from human",
+      "start": 118.56,
+      "duration": 5.12
+    },
+    {
+      "text": "interloop to agent in the loop. So I",
+      "start": 121.119,
+      "duration": 5.04
+    },
+    {
+      "text": "will give a elderly guides the basic",
+      "start": 123.68,
+      "duration": 5.999
+    },
+    {
+      "text": "term I will explain and also I will uh",
+      "start": 126.159,
+      "duration": 6.881
+    },
+    {
+      "text": "give some tips and advice about how you",
+      "start": 129.679,
+      "duration": 6.001
+    },
+    {
+      "text": "can build that or how the people doing",
+      "start": 133.04,
+      "duration": 6.64
+    },
+    {
+      "text": "that. So can I start directly?",
+      "start": 135.68,
+      "duration": 4.96
+    },
+    {
+      "text": ">> Yeah.",
+      "start": 139.68,
+      "duration": 2.24
+    },
+    {
+      "text": ">> Yes please.",
+      "start": 140.64,
+      "duration": 3.76
+    },
+    {
+      "text": ">> So the first thing you need the first",
+      "start": 141.92,
+      "duration": 4.0
+    },
+    {
+      "text": "thing we are trying to talk about is the",
+      "start": 144.4,
+      "duration": 3.919
+    },
+    {
+      "text": "motivation. What is the uh what is the",
+      "start": 145.92,
+      "duration": 4.959
+    },
+    {
+      "text": "motivation under this uh transformation",
+      "start": 148.319,
+      "duration": 5.761
+    },
+    {
+      "text": "actually? Uh and then we are going to",
+      "start": 150.879,
+      "duration": 5.601
+    },
+    {
+      "text": "talk about the basic term. What is the",
+      "start": 154.08,
+      "duration": 4.64
+    },
+    {
+      "text": "movement in the loop is this? What is",
+      "start": 156.48,
+      "duration": 3.6
+    },
+    {
+      "text": "the strange about it? What's the",
+      "start": 158.72,
+      "duration": 3.519
+    },
+    {
+      "text": "limitation about it? And then we are",
+      "start": 160.08,
+      "duration": 3.6
+    },
+    {
+      "text": "going to talk about the agent in the",
+      "start": 162.239,
+      "duration": 4.961
+    },
+    {
+      "text": "loop. the main topic of our meeting",
+      "start": 163.68,
+      "duration": 6.0
+    },
+    {
+      "text": "actually",
+      "start": 167.2,
+      "duration": 6.08
+    },
+    {
+      "text": "and after that we are going to make some",
+      "start": 169.68,
+      "duration": 6.24
+    },
+    {
+      "text": "compression which one is strange",
+      "start": 173.28,
+      "duration": 6.16
+    },
+    {
+      "text": "strength which one is like the most",
+      "start": 175.92,
+      "duration": 6.64
+    },
+    {
+      "text": "useful or something like that so which",
+      "start": 179.44,
+      "duration": 5.76
+    },
+    {
+      "text": "one is or will be or future or something",
+      "start": 182.56,
+      "duration": 4.0
+    },
+    {
+      "text": "like that and we are going to look at",
+      "start": 185.2,
+      "duration": 3.28
+    },
+    {
+      "text": "the real example of the agent in the",
+      "start": 186.56,
+      "duration": 4.8
+    },
+    {
+      "text": "loop systems actually",
+      "start": 188.48,
+      "duration": 5.2
+    },
+    {
+      "text": "and after that I'm going to say uh I'm",
+      "start": 191.36,
+      "duration": 4.799
+    },
+    {
+      "text": "going to explain some of frameworks not",
+      "start": 193.68,
+      "duration": 4.4
+    },
+    {
+      "text": "so detailed. I'm not I'm not going to",
+      "start": 196.159,
+      "duration": 3.761
+    },
+    {
+      "text": "show any cause or something like that",
+      "start": 198.08,
+      "duration": 4.879
+    },
+    {
+      "text": "because I want to make this webinar is",
+      "start": 199.92,
+      "duration": 5.84
+    },
+    {
+      "text": "fully theoretical and also",
+      "start": 202.959,
+      "duration": 4.401
+    },
+    {
+      "text": "understandable",
+      "start": 205.76,
+      "duration": 3.839
+    },
+    {
+      "text": "and at the end we are going to make a",
+      "start": 207.36,
+      "duration": 5.92
+    },
+    {
+      "text": "summary and future outlook actually some",
+      "start": 209.599,
+      "duration": 6.081
+    },
+    {
+      "text": "guesses about the future what's going to",
+      "start": 213.28,
+      "duration": 4.64
+    },
+    {
+      "text": "be in the future what could be what",
+      "start": 215.68,
+      "duration": 3.76
+    },
+    {
+      "text": "maybe",
+      "start": 217.92,
+      "duration": 3.12
+    },
+    {
+      "text": "would be happen in the future and",
+      "start": 219.44,
+      "duration": 5.2
+    },
+    {
+      "text": "something like that. So let's start with",
+      "start": 221.04,
+      "duration": 7.6
+    },
+    {
+      "text": "the motivation. The motivation be behind",
+      "start": 224.64,
+      "duration": 6.56
+    },
+    {
+      "text": "this the motivation behind this",
+      "start": 228.64,
+      "duration": 5.84
+    },
+    {
+      "text": "transformation is an actually uh ML",
+      "start": 231.2,
+      "duration": 4.88
+    },
+    {
+      "text": "systems are scaling faster than",
+      "start": 234.48,
+      "duration": 5.28
+    },
+    {
+      "text": "supervision. So that means we are using",
+      "start": 236.08,
+      "duration": 7.12
+    },
+    {
+      "text": "we are developing systems so efficient",
+      "start": 239.76,
+      "duration": 7.199
+    },
+    {
+      "text": "and so faster than developing us and",
+      "start": 243.2,
+      "duration": 6.239
+    },
+    {
+      "text": "also it means human workflow are too",
+      "start": 246.959,
+      "duration": 7.121
+    },
+    {
+      "text": "slow. So we like we still slower than",
+      "start": 249.439,
+      "duration": 7.52
+    },
+    {
+      "text": "the you know the agents and the other ML",
+      "start": 254.08,
+      "duration": 4.48
+    },
+    {
+      "text": "systems",
+      "start": 256.959,
+      "duration": 4.56
+    },
+    {
+      "text": "and also in last five year you see the",
+      "start": 258.56,
+      "duration": 5.68
+    },
+    {
+      "text": "news and the other technology news and",
+      "start": 261.519,
+      "duration": 5.761
+    },
+    {
+      "text": "the other things the agents are really",
+      "start": 264.24,
+      "duration": 6.239
+    },
+    {
+      "text": "really exponential growing up and that's",
+      "start": 267.28,
+      "duration": 6.4
+    },
+    {
+      "text": "the third motivation about it",
+      "start": 270.479,
+      "duration": 5.521
+    },
+    {
+      "text": "that's not the motivation that's could",
+      "start": 273.68,
+      "duration": 4.72
+    },
+    {
+      "text": "be sad or happier for some people but",
+      "start": 276.0,
+      "duration": 4.639
+    },
+    {
+      "text": "the motivation will",
+      "start": 278.4,
+      "duration": 4.239
+    },
+    {
+      "text": "that this transformation will be",
+      "start": 280.639,
+      "duration": 4.56
+    },
+    {
+      "text": "happening anyways if we are prepared or",
+      "start": 282.639,
+      "duration": 6.241
+    },
+    {
+      "text": "not. So every developer, every worker or",
+      "start": 285.199,
+      "duration": 6.401
+    },
+    {
+      "text": "every engineer should we know this basic",
+      "start": 288.88,
+      "duration": 5.84
+    },
+    {
+      "text": "term to keep up with the new trends or",
+      "start": 291.6,
+      "duration": 7.599
+    },
+    {
+      "text": "the new transformation. So what is",
+      "start": 294.72,
+      "duration": 7.44
+    },
+    {
+      "text": "actually in the loop? What is this basic",
+      "start": 299.199,
+      "duration": 6.161
+    },
+    {
+      "text": "term actually meaning? So basically the",
+      "start": 302.16,
+      "duration": 5.92
+    },
+    {
+      "text": "every workflow has a like this typical",
+      "start": 305.36,
+      "duration": 6.399
+    },
+    {
+      "text": "map like in every workflow that start",
+      "start": 308.08,
+      "duration": 6.8
+    },
+    {
+      "text": "with the new information or new idea or",
+      "start": 311.759,
+      "duration": 6.801
+    },
+    {
+      "text": "task. So in human in the loop this",
+      "start": 314.88,
+      "duration": 6.24
+    },
+    {
+      "text": "information interpreting by the one of",
+      "start": 318.56,
+      "duration": 4.639
+    },
+    {
+      "text": "the human let's say it is a developer",
+      "start": 321.12,
+      "duration": 4.799
+    },
+    {
+      "text": "and the idea is a app idea one of the",
+      "start": 323.199,
+      "duration": 6.161
+    },
+    {
+      "text": "developer interpreting this idea and",
+      "start": 325.919,
+      "duration": 6.881
+    },
+    {
+      "text": "then transform transformate this IT into",
+      "start": 329.36,
+      "duration": 5.839
+    },
+    {
+      "text": "the output. So this output in our",
+      "start": 332.8,
+      "duration": 5.28
+    },
+    {
+      "text": "example is like the application and this",
+      "start": 335.199,
+      "duration": 4.881
+    },
+    {
+      "text": "application published by by the stores",
+      "start": 338.08,
+      "duration": 4.48
+    },
+    {
+      "text": "publish over the stores and another",
+      "start": 340.08,
+      "duration": 6.959
+    },
+    {
+      "text": "thing and the user I mean in another",
+      "start": 342.56,
+      "duration": 7.04
+    },
+    {
+      "text": "human is actually feedbacking about this",
+      "start": 347.039,
+      "duration": 4.961
+    },
+    {
+      "text": "product and",
+      "start": 349.6,
+      "duration": 4.56
+    },
+    {
+      "text": "you know give a feedback for the you",
+      "start": 352.0,
+      "duration": 3.6
+    },
+    {
+      "text": "know negative feedback or positive",
+      "start": 354.16,
+      "duration": 4.72
+    },
+    {
+      "text": "feedback and then the another human. So",
+      "start": 355.6,
+      "duration": 5.599
+    },
+    {
+      "text": "I mean in this example this is developer",
+      "start": 358.88,
+      "duration": 4.64
+    },
+    {
+      "text": "taking this feedback and transforming",
+      "start": 361.199,
+      "duration": 5.28
+    },
+    {
+      "text": "into the new idea and that's complete",
+      "start": 363.52,
+      "duration": 5.2
+    },
+    {
+      "text": "our flow actually our circle. So that's",
+      "start": 366.479,
+      "duration": 4.321
+    },
+    {
+      "text": "a loop we need to understand basically",
+      "start": 368.72,
+      "duration": 4.64
+    },
+    {
+      "text": "we were working like a 100 years a",
+      "start": 370.8,
+      "duration": 4.8
+    },
+    {
+      "text": "thousand years like a managers team",
+      "start": 373.36,
+      "duration": 4.959
+    },
+    {
+      "text": "leaders give it the feedback or the user",
+      "start": 375.6,
+      "duration": 3.92
+    },
+    {
+      "text": "give the feedback and we are",
+      "start": 378.319,
+      "duration": 3.361
+    },
+    {
+      "text": "transforming the ideas to new ideas and",
+      "start": 379.52,
+      "duration": 4.959
+    },
+    {
+      "text": "the outcomes.",
+      "start": 381.68,
+      "duration": 5.04
+    },
+    {
+      "text": "Okay that's all right. So what the wrong",
+      "start": 384.479,
+      "duration": 4.481
+    },
+    {
+      "text": "wrong is uh with that system it's",
+      "start": 386.72,
+      "duration": 4.8
+    },
+    {
+      "text": "actually working like a 100 years right",
+      "start": 388.96,
+      "duration": 6.799
+    },
+    {
+      "text": "the basically after uh before 20 years",
+      "start": 391.52,
+      "duration": 6.0
+    },
+    {
+      "text": "or something like that when the agents",
+      "start": 395.759,
+      "duration": 5.121
+    },
+    {
+      "text": "become in our life [snorts] the problems",
+      "start": 397.52,
+      "duration": 6.64
+    },
+    {
+      "text": "coming out surface the",
+      "start": 400.88,
+      "duration": 5.36
+    },
+    {
+      "text": "first problem is like the context",
+      "start": 404.16,
+      "duration": 3.84
+    },
+    {
+      "text": "sensitivity",
+      "start": 406.24,
+      "duration": 5.04
+    },
+    {
+      "text": "so humans are trained by the scenarios",
+      "start": 408.0,
+      "duration": 6.319
+    },
+    {
+      "text": "so basically if you're a",
+      "start": 411.28,
+      "duration": 5.304
+    },
+    {
+      "text": "if you're Uh sorry about that.",
+      "start": 414.319,
+      "duration": 2.961
+    },
+    {
+      "text": "[laughter]",
+      "start": 416.584,
+      "duration": 3.335
+    },
+    {
+      "text": "If you're an back end developer, you are",
+      "start": 417.28,
+      "duration": 5.6
+    },
+    {
+      "text": "trained by for the back end development",
+      "start": 419.919,
+      "duration": 5.361
+    },
+    {
+      "text": "but not for the front end. If somebody",
+      "start": 422.88,
+      "duration": 5.28
+    },
+    {
+      "text": "wants to you to do a front end, you",
+      "start": 425.28,
+      "duration": 4.319
+    },
+    {
+      "text": "can't develop a front end because you",
+      "start": 428.16,
+      "duration": 3.36
+    },
+    {
+      "text": "don't own frameworks or you don't",
+      "start": 429.599,
+      "duration": 4.32
+    },
+    {
+      "text": "framework work or something like that.",
+      "start": 431.52,
+      "duration": 5.519
+    },
+    {
+      "text": "So basically humans are like context",
+      "start": 433.919,
+      "duration": 4.881
+    },
+    {
+      "text": "sensitive.",
+      "start": 437.039,
+      "duration": 4.801
+    },
+    {
+      "text": "The second is the evolution of the",
+      "start": 438.8,
+      "duration": 6.0
+    },
+    {
+      "text": "humans is so difficult. uh some of the",
+      "start": 441.84,
+      "duration": 5.52
+    },
+    {
+      "text": "way responsibility is unclear in a",
+      "start": 444.8,
+      "duration": 5.36
+    },
+    {
+      "text": "hybrid systems like the humans can't",
+      "start": 447.36,
+      "duration": 6.88
+    },
+    {
+      "text": "give a a good report in text in audio in",
+      "start": 450.16,
+      "duration": 7.68
+    },
+    {
+      "text": "video or understand let's say for more",
+      "start": 454.24,
+      "duration": 6.48
+    },
+    {
+      "text": "solid for example you have an idea for",
+      "start": 457.84,
+      "duration": 4.799
+    },
+    {
+      "text": "the project and you want to say",
+      "start": 460.72,
+      "duration": 3.84
+    },
+    {
+      "text": "something about the project to the user",
+      "start": 462.639,
+      "duration": 4.161
+    },
+    {
+      "text": "or another investor and you want to get",
+      "start": 464.56,
+      "duration": 5.919
+    },
+    {
+      "text": "a feedback you can't tell the truly and",
+      "start": 466.8,
+      "duration": 5.839
+    },
+    {
+      "text": "directed to about the project because",
+      "start": 470.479,
+      "duration": 5.12
+    },
+    {
+      "text": "you have a fear of steel. So that means",
+      "start": 472.639,
+      "duration": 4.96
+    },
+    {
+      "text": "you can't evalate your project and you",
+      "start": 475.599,
+      "duration": 4.32
+    },
+    {
+      "text": "can't evalate yourself too because you",
+      "start": 477.599,
+      "duration": 4.961
+    },
+    {
+      "text": "can't get a feedback.",
+      "start": 479.919,
+      "duration": 5.68
+    },
+    {
+      "text": "The last one is most likely the scaling",
+      "start": 482.56,
+      "duration": 4.8
+    },
+    {
+      "text": "issue.",
+      "start": 485.599,
+      "duration": 4.88
+    },
+    {
+      "text": "I would say the corporates uh while",
+      "start": 487.36,
+      "duration": 5.44
+    },
+    {
+      "text": "they're right creating their their name",
+      "start": 490.479,
+      "duration": 6.081
+    },
+    {
+      "text": "team or the another teams like uh the",
+      "start": 492.8,
+      "duration": 7.28
+    },
+    {
+      "text": "while developing a a programs and when",
+      "start": 496.56,
+      "duration": 5.52
+    },
+    {
+      "text": "you want to add the new things set to",
+      "start": 500.08,
+      "duration": 4.72
+    },
+    {
+      "text": "the programs for example",
+      "start": 502.08,
+      "duration": 6.08
+    },
+    {
+      "text": "zoom let's say there is a uh meeting",
+      "start": 504.8,
+      "duration": 5.6
+    },
+    {
+      "text": "program and they want to add a new AI",
+      "start": 508.16,
+      "duration": 4.64
+    },
+    {
+      "text": "specification the program they can't",
+      "start": 510.4,
+      "duration": 4.319
+    },
+    {
+      "text": "because the normally the back end or",
+      "start": 512.8,
+      "duration": 3.679
+    },
+    {
+      "text": "front end developers don't know how to",
+      "start": 514.719,
+      "duration": 4.081
+    },
+    {
+      "text": "use ML frameworks and the other thing",
+      "start": 516.479,
+      "duration": 5.68
+    },
+    {
+      "text": "and they need to get a new ML specialist",
+      "start": 518.8,
+      "duration": 4.88
+    },
+    {
+      "text": "specialization",
+      "start": 522.159,
+      "duration": 5.68
+    },
+    {
+      "text": "special or the guy use ML and how to",
+      "start": 523.68,
+      "duration": 6.8
+    },
+    {
+      "text": "code ML how to optimize ML or something",
+      "start": 527.839,
+      "duration": 4.801
+    },
+    {
+      "text": "like that",
+      "start": 530.48,
+      "duration": 5.039
+    },
+    {
+      "text": "they need to buy it that means it cost a",
+      "start": 532.64,
+      "duration": 6.08
+    },
+    {
+      "text": "lot because you know it's a work power",
+      "start": 535.519,
+      "duration": 6.401
+    },
+    {
+      "text": "it cost you know payment and other thing",
+      "start": 538.72,
+      "duration": 6.08
+    },
+    {
+      "text": "and the and other ends we need to know",
+      "start": 541.92,
+      "duration": 5.84
+    },
+    {
+      "text": "that the feedback back becomes human",
+      "start": 544.8,
+      "duration": 5.2
+    },
+    {
+      "text": "feedback becomes is always a bottleneck",
+      "start": 547.76,
+      "duration": 4.88
+    },
+    {
+      "text": "because not the everybody knows what",
+      "start": 550.0,
+      "duration": 4.88
+    },
+    {
+      "text": "they are doing or the another in the",
+      "start": 552.64,
+      "duration": 5.52
+    },
+    {
+      "text": "another side but uh the not the",
+      "start": 554.88,
+      "duration": 5.519
+    },
+    {
+      "text": "everybody knows what they are doing and",
+      "start": 558.16,
+      "duration": 4.72
+    },
+    {
+      "text": "uh if the report is false or the another",
+      "start": 560.399,
+      "duration": 4.081
+    },
+    {
+      "text": "thing is false going to be the feedback",
+      "start": 562.88,
+      "duration": 3.92
+    },
+    {
+      "text": "is false so it's going to be create the",
+      "start": 564.48,
+      "duration": 6.16
+    },
+    {
+      "text": "bottleneck so we create we talk about so",
+      "start": 566.8,
+      "duration": 7.599
+    },
+    {
+      "text": "much negativity in this page I know but",
+      "start": 570.64,
+      "duration": 5.92
+    },
+    {
+      "text": "at the another hands at the Another side",
+      "start": 574.399,
+      "duration": 5.841
+    },
+    {
+      "text": "of the metal there is a positive side of",
+      "start": 576.56,
+      "duration": 6.32
+    },
+    {
+      "text": "the women in the loop.",
+      "start": 580.24,
+      "duration": 7.2
+    },
+    {
+      "text": "So humans are safety critical. They can",
+      "start": 582.88,
+      "duration": 8.24
+    },
+    {
+      "text": "find the critical [snorts] critical type",
+      "start": 587.44,
+      "duration": 5.44
+    },
+    {
+      "text": "of the of the project or the critical",
+      "start": 591.12,
+      "duration": 4.32
+    },
+    {
+      "text": "type. It's critical phase of the project",
+      "start": 592.88,
+      "duration": 4.8
+    },
+    {
+      "text": "or the page and they can correct them",
+      "start": 595.44,
+      "duration": 6.0
+    },
+    {
+      "text": "fastly. So there is a higher accuracy in",
+      "start": 597.68,
+      "duration": 8.4
+    },
+    {
+      "text": "human correction to than the agents and",
+      "start": 601.44,
+      "duration": 8.72
+    },
+    {
+      "text": "also we are fast improve like we have a",
+      "start": 606.08,
+      "duration": 6.64
+    },
+    {
+      "text": "rapid refinement so we are improve",
+      "start": 610.16,
+      "duration": 6.799
+    },
+    {
+      "text": "faster faster and we are making a better",
+      "start": 612.72,
+      "duration": 6.799
+    },
+    {
+      "text": "decision than the agents actually. So we",
+      "start": 616.959,
+      "duration": 6.0
+    },
+    {
+      "text": "are finding a edge cases and making a",
+      "start": 619.519,
+      "duration": 5.121
+    },
+    {
+      "text": "faster and better decision than the",
+      "start": 622.959,
+      "duration": 4.56
+    },
+    {
+      "text": "agents.",
+      "start": 624.64,
+      "duration": 6.16
+    },
+    {
+      "text": "But in our world in our time zone",
+      "start": 627.519,
+      "duration": 6.961
+    },
+    {
+      "text": "actually there is an like",
+      "start": 630.8,
+      "duration": 6.0
+    },
+    {
+      "text": "uh there is an another type of the human",
+      "start": 634.48,
+      "duration": 4.96
+    },
+    {
+      "text": "agents artificial intelligence agents",
+      "start": 636.8,
+      "duration": 5.52
+    },
+    {
+      "text": "after the uh LLM. So growing up the",
+      "start": 639.44,
+      "duration": 5.839
+    },
+    {
+      "text": "agents come out our life and start doing",
+      "start": 642.32,
+      "duration": 7.04
+    },
+    {
+      "text": "the job like [snorts] and uh get out get",
+      "start": 645.279,
+      "duration": 8.0
+    },
+    {
+      "text": "out of us to the circle outside. So what",
+      "start": 649.36,
+      "duration": 5.76
+    },
+    {
+      "text": "the agent in the loop is what the",
+      "start": 653.279,
+      "duration": 4.321
+    },
+    {
+      "text": "actually agent is what the core idea is",
+      "start": 655.12,
+      "duration": 5.44
+    },
+    {
+      "text": "the basically the agent makes make",
+      "start": 657.6,
+      "duration": 6.64
+    },
+    {
+      "text": "itself the planning reasoning tool using",
+      "start": 660.56,
+      "duration": 6.08
+    },
+    {
+      "text": "monitoring and self evolation that's",
+      "start": 664.24,
+      "duration": 4.56
+    },
+    {
+      "text": "means the everything we are doing it",
+      "start": 666.64,
+      "duration": 4.08
+    },
+    {
+      "text": "right now in while we are working on the",
+      "start": 668.8,
+      "duration": 4.88
+    },
+    {
+      "text": "task the agent make itself they get the",
+      "start": 670.72,
+      "duration": 5.679
+    },
+    {
+      "text": "idea they create a plan and make a",
+      "start": 673.68,
+      "duration": 5.04
+    },
+    {
+      "text": "reasoning at the same time they're using",
+      "start": 676.399,
+      "duration": 5.44
+    },
+    {
+      "text": "the tools while they're uh they're using",
+      "start": 678.72,
+      "duration": 5.76
+    },
+    {
+      "text": "the tools where they are uh explo",
+      "start": 681.839,
+      "duration": 4.161
+    },
+    {
+      "text": "explore",
+      "start": 684.48,
+      "duration": 4.72
+    },
+    {
+      "text": "they answer the idea or answer the",
+      "start": 686.0,
+      "duration": 5.76
+    },
+    {
+      "text": "problem and they are getting feedback",
+      "start": 689.2,
+      "duration": 5.04
+    },
+    {
+      "text": "from the human or from the another agent",
+      "start": 691.76,
+      "duration": 6.639
+    },
+    {
+      "text": "and they are self evolated",
+      "start": 694.24,
+      "duration": 6.719
+    },
+    {
+      "text": "so that's a loop diagram I explained",
+      "start": 698.399,
+      "duration": 5.281
+    },
+    {
+      "text": "before the page actually there is an",
+      "start": 700.959,
+      "duration": 6.801
+    },
+    {
+      "text": "goal let's say the goal is developing a",
+      "start": 703.68,
+      "duration": 6.24
+    },
+    {
+      "text": "program basically",
+      "start": 707.76,
+      "duration": 4.96
+    },
+    {
+      "text": "they are interpreting idea themselves",
+      "start": 709.92,
+      "duration": 5.76
+    },
+    {
+      "text": "And they are making a plan and the",
+      "start": 712.72,
+      "duration": 5.04
+    },
+    {
+      "text": "reasoning on the background themselves",
+      "start": 715.68,
+      "duration": 4.96
+    },
+    {
+      "text": "and they are give us out with the tool",
+      "start": 717.76,
+      "duration": 7.04
+    },
+    {
+      "text": "usage actually. Then the another agent",
+      "start": 720.64,
+      "duration": 7.28
+    },
+    {
+      "text": "for example this agent is a bus and the",
+      "start": 724.8,
+      "duration": 6.159
+    },
+    {
+      "text": "first agent was a like the developer.",
+      "start": 727.92,
+      "duration": 6.32
+    },
+    {
+      "text": "The bus agent execute this program and",
+      "start": 730.959,
+      "duration": 6.32
+    },
+    {
+      "text": "observing the program output and give a",
+      "start": 734.24,
+      "duration": 6.159
+    },
+    {
+      "text": "feedback to the developer agent and the",
+      "start": 737.279,
+      "duration": 5.68
+    },
+    {
+      "text": "developer agent evate itself and create",
+      "start": 740.399,
+      "duration": 5.44
+    },
+    {
+      "text": "a new task or create a new version of",
+      "start": 742.959,
+      "duration": 5.281
+    },
+    {
+      "text": "the program and the loop is closed like",
+      "start": 745.839,
+      "duration": 7.921
+    },
+    {
+      "text": "that. So that's so close to our uh human",
+      "start": 748.24,
+      "duration": 8.24
+    },
+    {
+      "text": "loop I know because it should be like",
+      "start": 753.76,
+      "duration": 6.72
+    },
+    {
+      "text": "that. the on the other hand uh it is the",
+      "start": 756.48,
+      "duration": 8.0
+    },
+    {
+      "text": "feature we need to understand basically",
+      "start": 760.48,
+      "duration": 7.12
+    },
+    {
+      "text": "so uh what are the differences which one",
+      "start": 764.48,
+      "duration": 5.2
+    },
+    {
+      "text": "is best actually let's make some",
+      "start": 767.6,
+      "duration": 5.2
+    },
+    {
+      "text": "compression about it the of course we",
+      "start": 769.68,
+      "duration": 6.0
+    },
+    {
+      "text": "need to sell it uh I'm not going to say",
+      "start": 772.8,
+      "duration": 5.839
+    },
+    {
+      "text": "the every side about the topic because",
+      "start": 775.68,
+      "duration": 4.959
+    },
+    {
+      "text": "there is so much side about it social",
+      "start": 778.639,
+      "duration": 4.481
+    },
+    {
+      "text": "side and the other sides uh we are just",
+      "start": 780.639,
+      "duration": 4.32
+    },
+    {
+      "text": "human they are just robot they can work",
+      "start": 783.12,
+      "duration": 4.399
+    },
+    {
+      "text": "724 or something like that no we are",
+      "start": 784.959,
+      "duration": 5.601
+    },
+    {
+      "text": "directly objective talking about it. Uh",
+      "start": 787.519,
+      "duration": 5.841
+    },
+    {
+      "text": "they are more faster than us basically",
+      "start": 790.56,
+      "duration": 5.44
+    },
+    {
+      "text": "because they can focus only one job one",
+      "start": 793.36,
+      "duration": 5.36
+    },
+    {
+      "text": "time but the human mentality is actually",
+      "start": 796.0,
+      "duration": 5.36
+    },
+    {
+      "text": "focusing a multi-",
+      "start": 798.72,
+      "duration": 6.08
+    },
+    {
+      "text": "task in one time. They are most scalable",
+      "start": 801.36,
+      "duration": 5.599
+    },
+    {
+      "text": "because uh when you change the prompt",
+      "start": 804.8,
+      "duration": 5.52
+    },
+    {
+      "text": "they are directly adapt to the new task",
+      "start": 806.959,
+      "duration": 5.601
+    },
+    {
+      "text": "or something like that. But we need to",
+      "start": 810.32,
+      "duration": 4.8
+    },
+    {
+      "text": "train train about the task and another",
+      "start": 812.56,
+      "duration": 4.16
+    },
+    {
+      "text": "thing",
+      "start": 815.12,
+      "duration": 5.04
+    },
+    {
+      "text": "at another time they are more uh we are",
+      "start": 816.72,
+      "duration": 6.88
+    },
+    {
+      "text": "more expensive than that because uh",
+      "start": 820.16,
+      "duration": 7.359
+    },
+    {
+      "text": "about the scalable thing like uh if we",
+      "start": 823.6,
+      "duration": 6.0
+    },
+    {
+      "text": "need a new train we need to get from",
+      "start": 827.519,
+      "duration": 4.641
+    },
+    {
+      "text": "school or get from the tourist centers",
+      "start": 829.6,
+      "duration": 6.0
+    },
+    {
+      "text": "and that cost for the you know bus or",
+      "start": 832.16,
+      "duration": 6.96
+    },
+    {
+      "text": "company or another thing",
+      "start": 835.6,
+      "duration": 6.0
+    },
+    {
+      "text": "but in the reliability",
+      "start": 839.12,
+      "duration": 5.44
+    },
+    {
+      "text": "like monitoring and observing they are",
+      "start": 841.6,
+      "duration": 5.44
+    },
+    {
+      "text": "even we are even actually uh that is the",
+      "start": 844.56,
+      "duration": 4.88
+    },
+    {
+      "text": "most important point for me to uh",
+      "start": 847.04,
+      "duration": 4.479
+    },
+    {
+      "text": "everybody needs to understand why the",
+      "start": 849.44,
+      "duration": 5.6
+    },
+    {
+      "text": "agents can't replace us because the both",
+      "start": 851.519,
+      "duration": 6.88
+    },
+    {
+      "text": "of sides need a feedback and monitor the",
+      "start": 855.04,
+      "duration": 7.12
+    },
+    {
+      "text": "output monitor and observe the output to",
+      "start": 858.399,
+      "duration": 7.12
+    },
+    {
+      "text": "to get a feedback and self evolate",
+      "start": 862.16,
+      "duration": 5.359
+    },
+    {
+      "text": "that's the most important thing for me",
+      "start": 865.519,
+      "duration": 5.041
+    },
+    {
+      "text": "to uh everybody needs to understand that",
+      "start": 867.519,
+      "duration": 6.641
+    },
+    {
+      "text": "to understand why I'm seeing saying the",
+      "start": 870.56,
+      "duration": 6.16
+    },
+    {
+      "text": "wall things",
+      "start": 874.16,
+      "duration": 5.119
+    },
+    {
+      "text": "that is the wall table when you want to",
+      "start": 876.72,
+      "duration": 4.559
+    },
+    {
+      "text": "see the you know the what's really",
+      "start": 879.279,
+      "duration": 4.721
+    },
+    {
+      "text": "changed what's really not uh so change",
+      "start": 881.279,
+      "duration": 4.721
+    },
+    {
+      "text": "so basically I don't explain the",
+      "start": 884.0,
+      "duration": 5.199
+    },
+    {
+      "text": "portings or uh something that table the",
+      "start": 886.0,
+      "duration": 5.839
+    },
+    {
+      "text": "accuracy the agents is more accurate",
+      "start": 889.199,
+      "duration": 6.08
+    },
+    {
+      "text": "when they're optimized the transparency",
+      "start": 891.839,
+      "duration": 6.641
+    },
+    {
+      "text": "we are more transparent than the agents",
+      "start": 895.279,
+      "duration": 6.56
+    },
+    {
+      "text": "because the LLM actually blackbox in the",
+      "start": 898.48,
+      "duration": 6.24
+    },
+    {
+      "text": "another time. uh they are more adaptive",
+      "start": 901.839,
+      "duration": 5.921
+    },
+    {
+      "text": "as I said and we are not and the",
+      "start": 904.72,
+      "duration": 6.479
+    },
+    {
+      "text": "trustful trustful like we are more",
+      "start": 907.76,
+      "duration": 6.72
+    },
+    {
+      "text": "trustful because we have a transparency",
+      "start": 911.199,
+      "duration": 6.561
+    },
+    {
+      "text": "because like the LLM is still a black",
+      "start": 914.48,
+      "duration": 7.039
+    },
+    {
+      "text": "box for us the and the agents are still",
+      "start": 917.76,
+      "duration": 6.079
+    },
+    {
+      "text": "we don't the things we don't know how to",
+      "start": 921.519,
+      "duration": 4.961
+    },
+    {
+      "text": "work so basically we are trying every",
+      "start": 923.839,
+      "duration": 5.12
+    },
+    {
+      "text": "time to optimize it but we don't know",
+      "start": 926.48,
+      "duration": 5.28
+    },
+    {
+      "text": "how so it's like a experiment for us so",
+      "start": 928.959,
+      "duration": 5.68
+    },
+    {
+      "text": "we are more trust",
+      "start": 931.76,
+      "duration": 2.879
+    },
+    {
+      "text": "We talk about so much thing about so",
+      "start": 935.279,
+      "duration": 5.761
+    },
+    {
+      "text": "faster I know but uh let's look at the",
+      "start": 937.92,
+      "duration": 5.919
+    },
+    {
+      "text": "real world examples and uh let's look at",
+      "start": 941.04,
+      "duration": 6.72
+    },
+    {
+      "text": "the real world example and see how the",
+      "start": 943.839,
+      "duration": 7.92
+    },
+    {
+      "text": "site is working in the real world. So we",
+      "start": 947.76,
+      "duration": 5.92
+    },
+    {
+      "text": "have a medical diagnosis ensuring",
+      "start": 951.759,
+      "duration": 4.561
+    },
+    {
+      "text": "patient safety. That means like we have",
+      "start": 953.68,
+      "duration": 5.599
+    },
+    {
+      "text": "a doctors they can",
+      "start": 956.32,
+      "duration": 6.24
+    },
+    {
+      "text": "regulate us to to get out of the",
+      "start": 959.279,
+      "duration": 5.201
+    },
+    {
+      "text": "sickness or something like that and they",
+      "start": 962.56,
+      "duration": 4.48
+    },
+    {
+      "text": "can ensure our safety",
+      "start": 964.48,
+      "duration": 5.12
+    },
+    {
+      "text": "and uh the another example is like",
+      "start": 967.04,
+      "duration": 4.96
+    },
+    {
+      "text": "autonomous vehicles",
+      "start": 969.6,
+      "duration": 5.039
+    },
+    {
+      "text": "like that's the example for the RA rare",
+      "start": 972.0,
+      "duration": 4.88
+    },
+    {
+      "text": "age cases because the most of the",
+      "start": 974.639,
+      "duration": 4.801
+    },
+    {
+      "text": "important thing in our life we are using",
+      "start": 976.88,
+      "duration": 5.12
+    },
+    {
+      "text": "cars so much and after the Teslas come",
+      "start": 979.44,
+      "duration": 5.199
+    },
+    {
+      "text": "out in the industry in the American or",
+      "start": 982.0,
+      "duration": 5.6
+    },
+    {
+      "text": "something like that we can say the",
+      "start": 984.639,
+      "duration": 6.161
+    },
+    {
+      "text": "autonomous cycle term is coming in up",
+      "start": 987.6,
+      "duration": 8.479
+    },
+    {
+      "text": "coming in up in our life and uh we are",
+      "start": 990.8,
+      "duration": 8.479
+    },
+    {
+      "text": "talking so much about it but the still",
+      "start": 996.079,
+      "duration": 5.601
+    },
+    {
+      "text": "after five or 10 years I don't know how",
+      "start": 999.279,
+      "duration": 4.961
+    },
+    {
+      "text": "much year is that but still the",
+      "start": 1001.68,
+      "duration": 4.8
+    },
+    {
+      "text": "autonomous cycles can't understand the",
+      "start": 1004.24,
+      "duration": 6.08
+    },
+    {
+      "text": "rare age cases when should they stop or",
+      "start": 1006.48,
+      "duration": 6.4
+    },
+    {
+      "text": "the can't answer the ethical questions",
+      "start": 1010.32,
+      "duration": 6.079
+    },
+    {
+      "text": "or something like That and the third one",
+      "start": 1012.88,
+      "duration": 7.44
+    },
+    {
+      "text": "is the manufacturing. Actually",
+      "start": 1016.399,
+      "duration": 7.761
+    },
+    {
+      "text": "we need to understand that uh if the a",
+      "start": 1020.32,
+      "duration": 7.2
+    },
+    {
+      "text": "if we are not saying the exception to",
+      "start": 1024.16,
+      "duration": 6.24
+    },
+    {
+      "text": "the agent uh agent can't handle the",
+      "start": 1027.52,
+      "duration": 5.6
+    },
+    {
+      "text": "exceptions. So every time in a",
+      "start": 1030.4,
+      "duration": 5.279
+    },
+    {
+      "text": "manufacturer industry needs an",
+      "start": 1033.12,
+      "duration": 5.839
+    },
+    {
+      "text": "supervisor like a industry engineer",
+      "start": 1035.679,
+      "duration": 6.081
+    },
+    {
+      "text": "engineers or the bosses or another",
+      "start": 1038.959,
+      "duration": 4.88
+    },
+    {
+      "text": "another person who is responsible for",
+      "start": 1041.76,
+      "duration": 6.919
+    },
+    {
+      "text": "the handling the exceptions",
+      "start": 1043.839,
+      "duration": 4.84
+    },
+    {
+      "text": "but the agent in the loop has also real",
+      "start": 1048.96,
+      "duration": 7.12
+    },
+    {
+      "text": "world examples we are using that. So the",
+      "start": 1053.36,
+      "duration": 6.24
+    },
+    {
+      "text": "first one the banks use agents the LLMs",
+      "start": 1056.08,
+      "duration": 7.28
+    },
+    {
+      "text": "and the ML ML uh systems for a fraud",
+      "start": 1059.6,
+      "duration": 6.4
+    },
+    {
+      "text": "deduction that's very easy to understand",
+      "start": 1063.36,
+      "duration": 5.28
+    },
+    {
+      "text": "because they are selfate so when they",
+      "start": 1066.0,
+      "duration": 5.36
+    },
+    {
+      "text": "are getting uh when they are see the one",
+      "start": 1068.64,
+      "duration": 7.6
+    },
+    {
+      "text": "Freud attack or one Freud try they",
+      "start": 1071.36,
+      "duration": 6.88
+    },
+    {
+      "text": "understand this",
+      "start": 1076.24,
+      "duration": 4.16
+    },
+    {
+      "text": "they understand this while when they're",
+      "start": 1078.24,
+      "duration": 4.16
+    },
+    {
+      "text": "analyzing that attack or when they see",
+      "start": 1080.4,
+      "duration": 4.48
+    },
+    {
+      "text": "it they understand this there's a Freud",
+      "start": 1082.4,
+      "duration": 5.6
+    },
+    {
+      "text": "like I need to save it when I see that",
+      "start": 1084.88,
+      "duration": 5.52
+    },
+    {
+      "text": "you know I need to alert the people or",
+      "start": 1088.0,
+      "duration": 4.64
+    },
+    {
+      "text": "something like that. The recommener",
+      "start": 1090.4,
+      "duration": 4.56
+    },
+    {
+      "text": "systems they're using MS system and the",
+      "start": 1092.64,
+      "duration": 4.0
+    },
+    {
+      "text": "agent system for the recommendation",
+      "start": 1094.96,
+      "duration": 4.56
+    },
+    {
+      "text": "system too. The Netflix, Spotify or the",
+      "start": 1096.64,
+      "duration": 4.48
+    },
+    {
+      "text": "another application you know they're",
+      "start": 1099.52,
+      "duration": 6.72
+    },
+    {
+      "text": "using that the main thing is",
+      "start": 1101.12,
+      "duration": 8.0
+    },
+    {
+      "text": "they are creating model about you to",
+      "start": 1106.24,
+      "duration": 6.08
+    },
+    {
+      "text": "make a recommendation. They know you in",
+      "start": 1109.12,
+      "duration": 6.4
+    },
+    {
+      "text": "some way or in in the meantime they know",
+      "start": 1112.32,
+      "duration": 5.12
+    },
+    {
+      "text": "you and they understand what your",
+      "start": 1115.52,
+      "duration": 4.399
+    },
+    {
+      "text": "preferences is in the application and",
+      "start": 1117.44,
+      "duration": 5.84
+    },
+    {
+      "text": "they they give they give an examples or",
+      "start": 1119.919,
+      "duration": 5.681
+    },
+    {
+      "text": "they give an recommendation",
+      "start": 1123.28,
+      "duration": 5.759
+    },
+    {
+      "text": "and the smart logic and IoT we cannot uh",
+      "start": 1125.6,
+      "duration": 6.959
+    },
+    {
+      "text": "you know we cannot just border this",
+      "start": 1129.039,
+      "duration": 7.441
+    },
+    {
+      "text": "example smart logic and IoT uh I can say",
+      "start": 1132.559,
+      "duration": 7.36
+    },
+    {
+      "text": "they can make a realtime coordination",
+      "start": 1136.48,
+      "duration": 6.24
+    },
+    {
+      "text": "with the tracks and the other things and",
+      "start": 1139.919,
+      "duration": 6.241
+    },
+    {
+      "text": "they can create a mapping or the optim",
+      "start": 1142.72,
+      "duration": 7.92
+    },
+    {
+      "text": "optimized mapping for the logic logistic",
+      "start": 1146.16,
+      "duration": 6.24
+    },
+    {
+      "text": "but on the other hand we need to look",
+      "start": 1150.64,
+      "duration": 4.64
+    },
+    {
+      "text": "like that the agents can create a real",
+      "start": 1152.4,
+      "duration": 6.08
+    },
+    {
+      "text": "time coordination right so the basically",
+      "start": 1155.28,
+      "duration": 8.72
+    },
+    {
+      "text": "CEO or the seale uh seale buses or sea",
+      "start": 1158.48,
+      "duration": 7.439
+    },
+    {
+      "text": "level managers can create real-time",
+      "start": 1164.0,
+      "duration": 4.799
+    },
+    {
+      "text": "coordination too the main thing is like",
+      "start": 1165.919,
+      "duration": 5.841
+    },
+    {
+      "text": "in the what I'm see what I'm saying is",
+      "start": 1168.799,
+      "duration": 5.521
+    },
+    {
+      "text": "what I'm saying is like they create a",
+      "start": 1171.76,
+      "duration": 5.52
+    },
+    {
+      "text": "real-time coordination at the C sele",
+      "start": 1174.32,
+      "duration": 4.64
+    },
+    {
+      "text": "create a real-time coordination too.",
+      "start": 1177.28,
+      "duration": 3.36
+    },
+    {
+      "text": "There is of course the another task they",
+      "start": 1178.96,
+      "duration": 4.079
+    },
+    {
+      "text": "do that but but the basically over the",
+      "start": 1180.64,
+      "duration": 4.96
+    },
+    {
+      "text": "surface we need to understand the agents",
+      "start": 1183.039,
+      "duration": 5.76
+    },
+    {
+      "text": "can replace the CEO and they can uh",
+      "start": 1185.6,
+      "duration": 6.079
+    },
+    {
+      "text": "manage a companies like maybe the little",
+      "start": 1188.799,
+      "duration": 5.361
+    },
+    {
+      "text": "one big little big one like they can",
+      "start": 1191.679,
+      "duration": 4.961
+    },
+    {
+      "text": "manage it but right now they are they",
+      "start": 1194.16,
+      "duration": 5.2
+    },
+    {
+      "text": "are managing the like cargo systems and",
+      "start": 1196.64,
+      "duration": 5.2
+    },
+    {
+      "text": "the another system or the IoT systems",
+      "start": 1199.36,
+      "duration": 5.36
+    },
+    {
+      "text": "right now.",
+      "start": 1201.84,
+      "duration": 4.48
+    },
+    {
+      "text": "So",
+      "start": 1204.72,
+      "duration": 5.28
+    },
+    {
+      "text": "how that transition is going right now",
+      "start": 1206.32,
+      "duration": 6.8
+    },
+    {
+      "text": "before the LM's coming coming out we",
+      "start": 1210.0,
+      "duration": 6.64
+    },
+    {
+      "text": "were in the human in the loop. So we are",
+      "start": 1213.12,
+      "duration": 6.72
+    },
+    {
+      "text": "everywhere. We were everywhere you know",
+      "start": 1216.64,
+      "duration": 7.2
+    },
+    {
+      "text": "but right now we are doing doing a human",
+      "start": 1219.84,
+      "duration": 6.24
+    },
+    {
+      "text": "on the loop.",
+      "start": 1223.84,
+      "duration": 6.079
+    },
+    {
+      "text": "We are trying to uh stay on the loop but",
+      "start": 1226.08,
+      "duration": 6.4
+    },
+    {
+      "text": "we don't know where we are",
+      "start": 1229.919,
+      "duration": 4.961
+    },
+    {
+      "text": "in the in the near future. We are going",
+      "start": 1232.48,
+      "duration": 5.12
+    },
+    {
+      "text": "to be in the over the loop like we are",
+      "start": 1234.88,
+      "duration": 5.84
+    },
+    {
+      "text": "going to make a supervisor thing fully",
+      "start": 1237.6,
+      "duration": 6.88
+    },
+    {
+      "text": "not developing not as a worker work or",
+      "start": 1240.72,
+      "duration": 6.4
+    },
+    {
+      "text": "something like that.",
+      "start": 1244.48,
+      "duration": 6.24
+    },
+    {
+      "text": "What does that mean is more like",
+      "start": 1247.12,
+      "duration": 6.0
+    },
+    {
+      "text": "uh we are we are the one who is give a",
+      "start": 1250.72,
+      "duration": 5.52
+    },
+    {
+      "text": "feedback to the you know agents like",
+      "start": 1253.12,
+      "duration": 4.88
+    },
+    {
+      "text": "when the agent make a posting we are",
+      "start": 1256.24,
+      "duration": 3.84
+    },
+    {
+      "text": "going to say that's false you need to",
+      "start": 1258.0,
+      "duration": 4.96
+    },
+    {
+      "text": "selfate yourself don't do don't do like",
+      "start": 1260.08,
+      "duration": 6.64
+    },
+    {
+      "text": "that anytime in the future also we would",
+      "start": 1262.96,
+      "duration": 6.56
+    },
+    {
+      "text": "say the rare age cases to the agent and",
+      "start": 1266.72,
+      "duration": 6.48
+    },
+    {
+      "text": "h the agents work like that too like",
+      "start": 1269.52,
+      "duration": 6.96
+    },
+    {
+      "text": "exception handling handling we can say",
+      "start": 1273.2,
+      "duration": 6.08
+    },
+    {
+      "text": "the exception to the agents over the",
+      "start": 1276.48,
+      "duration": 7.12
+    },
+    {
+      "text": "loop and the agent correct himself for",
+      "start": 1279.28,
+      "duration": 8.279
+    },
+    {
+      "text": "that exception.",
+      "start": 1283.6,
+      "duration": 3.959
+    },
+    {
+      "text": "Let's look at the example of the agent",
+      "start": 1287.6,
+      "duration": 5.68
+    },
+    {
+      "text": "in book also they are the same topic as",
+      "start": 1290.0,
+      "duration": 6.08
+    },
+    {
+      "text": "as they are this under the same topic of",
+      "start": 1293.28,
+      "duration": 5.36
+    },
+    {
+      "text": "the human over the loop. So GitHub",
+      "start": 1296.08,
+      "duration": 4.719
+    },
+    {
+      "text": "copilot is a good example of two human",
+      "start": 1298.64,
+      "duration": 3.84
+    },
+    {
+      "text": "over the loop at the same time agents in",
+      "start": 1300.799,
+      "duration": 4.481
+    },
+    {
+      "text": "the loop because agents in the loop but",
+      "start": 1302.48,
+      "duration": 5.439
+    },
+    {
+      "text": "humans over the loop like in GitHub",
+      "start": 1305.28,
+      "duration": 5.6
+    },
+    {
+      "text": "copilot the basically is working like do",
+      "start": 1307.919,
+      "duration": 5.441
+    },
+    {
+      "text": "you say the agent what you want and the",
+      "start": 1310.88,
+      "duration": 4.88
+    },
+    {
+      "text": "agents creates a codes or explanation",
+      "start": 1313.36,
+      "duration": 4.64
+    },
+    {
+      "text": "about the code and you accept the code",
+      "start": 1315.76,
+      "duration": 4.799
+    },
+    {
+      "text": "edit the code or reject the code. So",
+      "start": 1318.0,
+      "duration": 5.84
+    },
+    {
+      "text": "what is uh what is going on in the loop",
+      "start": 1320.559,
+      "duration": 6.081
+    },
+    {
+      "text": "is the agent planning reasoning tool",
+      "start": 1323.84,
+      "duration": 6.8
+    },
+    {
+      "text": "using and the evolating or feedback",
+      "start": 1326.64,
+      "duration": 6.8
+    },
+    {
+      "text": "itself and selfate itself but in the",
+      "start": 1330.64,
+      "duration": 5.519
+    },
+    {
+      "text": "another time the agent use alone for us",
+      "start": 1333.44,
+      "duration": 4.96
+    },
+    {
+      "text": "to create a code or applicate the code",
+      "start": 1336.159,
+      "duration": 5.281
+    },
+    {
+      "text": "on the E day so that means we are giving",
+      "start": 1338.4,
+      "duration": 6.159
+    },
+    {
+      "text": "the we are the decision center not the",
+      "start": 1341.44,
+      "duration": 5.84
+    },
+    {
+      "text": "agent is a decision center actually so",
+      "start": 1344.559,
+      "duration": 5.12
+    },
+    {
+      "text": "the agent is on the worker right so that",
+      "start": 1347.28,
+      "duration": 5.68
+    },
+    {
+      "text": "means is it's human over loop.",
+      "start": 1349.679,
+      "duration": 7.281
+    },
+    {
+      "text": "Another example is like the model. The",
+      "start": 1352.96,
+      "duration": 7.599
+    },
+    {
+      "text": "model is a open-source label system",
+      "start": 1356.96,
+      "duration": 7.68
+    },
+    {
+      "text": "labeling programs. The role of the agent",
+      "start": 1360.559,
+      "duration": 7.12
+    },
+    {
+      "text": "is like identify the key samples and",
+      "start": 1364.64,
+      "duration": 7.44
+    },
+    {
+      "text": "then labeling labeling the I don't know",
+      "start": 1367.679,
+      "duration": 7.761
+    },
+    {
+      "text": "image text and then another thing. But",
+      "start": 1372.08,
+      "duration": 6.32
+    },
+    {
+      "text": "in the other hand in the meantime we are",
+      "start": 1375.44,
+      "duration": 4.719
+    },
+    {
+      "text": "cor we are cor we are making a",
+      "start": 1378.4,
+      "duration": 3.84
+    },
+    {
+      "text": "correction about the labels and we say",
+      "start": 1380.159,
+      "duration": 4.241
+    },
+    {
+      "text": "you need to label this truly you need to",
+      "start": 1382.24,
+      "duration": 4.48
+    },
+    {
+      "text": "label this like that and something like",
+      "start": 1384.4,
+      "duration": 4.96
+    },
+    {
+      "text": "that and the agents in the program in",
+      "start": 1386.72,
+      "duration": 6.16
+    },
+    {
+      "text": "the model the model agent actually evate",
+      "start": 1389.36,
+      "duration": 7.679
+    },
+    {
+      "text": "itself and make a correct labeling. So",
+      "start": 1392.88,
+      "duration": 5.919
+    },
+    {
+      "text": "that's another example for the human",
+      "start": 1397.039,
+      "duration": 5.681
+    },
+    {
+      "text": "overs. We are the decisions that not the",
+      "start": 1398.799,
+      "duration": 6.401
+    },
+    {
+      "text": "uh not the workers or something like",
+      "start": 1402.72,
+      "duration": 3.76
+    },
+    {
+      "text": "that. We are not doing actually",
+      "start": 1405.2,
+      "duration": 3.359
+    },
+    {
+      "text": "anything. We are just doing it's false,",
+      "start": 1406.48,
+      "duration": 7.439
+    },
+    {
+      "text": "it's true. Make a decision and go on.",
+      "start": 1408.559,
+      "duration": 8.801
+    },
+    {
+      "text": "So uh we were talk about so much about",
+      "start": 1413.919,
+      "duration": 6.481
+    },
+    {
+      "text": "the things I want to give a a little",
+      "start": 1417.36,
+      "duration": 5.439
+    },
+    {
+      "text": "break about the theory or something like",
+      "start": 1420.4,
+      "duration": 4.0
+    },
+    {
+      "text": "that. So we can talk about the",
+      "start": 1422.799,
+      "duration": 3.681
+    },
+    {
+      "text": "frameworks and another thing who can",
+      "start": 1424.4,
+      "duration": 5.12
+    },
+    {
+      "text": "enter to a cases for the agents or who",
+      "start": 1426.48,
+      "duration": 5.12
+    },
+    {
+      "text": "want to start the developing the agents",
+      "start": 1429.52,
+      "duration": 4.159
+    },
+    {
+      "text": "in the loop systems.",
+      "start": 1431.6,
+      "duration": 5.28
+    },
+    {
+      "text": "Uh so basically that's a that's this",
+      "start": 1433.679,
+      "duration": 5.681
+    },
+    {
+      "text": "five framework is very popular at this",
+      "start": 1436.88,
+      "duration": 5.679
+    },
+    {
+      "text": "in in this time. So they can use it they",
+      "start": 1439.36,
+      "duration": 5.52
+    },
+    {
+      "text": "can create project with them or",
+      "start": 1442.559,
+      "duration": 4.801
+    },
+    {
+      "text": "something like that and they are beside",
+      "start": 1444.88,
+      "duration": 4.48
+    },
+    {
+      "text": "of the open AI they are fully open",
+      "start": 1447.36,
+      "duration": 4.559
+    },
+    {
+      "text": "source. I think I am going to start with",
+      "start": 1449.36,
+      "duration": 4.64
+    },
+    {
+      "text": "the lang chain and langraph they that's",
+      "start": 1451.919,
+      "duration": 4.801
+    },
+    {
+      "text": "a good soft that's a good they they are",
+      "start": 1454.0,
+      "duration": 4.96
+    },
+    {
+      "text": "a good framework to start the agent",
+      "start": 1456.72,
+      "duration": 4.24
+    },
+    {
+      "text": "system at the other hand they can they",
+      "start": 1458.96,
+      "duration": 4.959
+    },
+    {
+      "text": "are so basic you can use in python and",
+      "start": 1460.96,
+      "duration": 6.319
+    },
+    {
+      "text": "create a stateful reasoning models or",
+      "start": 1463.919,
+      "duration": 6.481
+    },
+    {
+      "text": "just the agent models at the other hand",
+      "start": 1467.279,
+      "duration": 5.121
+    },
+    {
+      "text": "if you want to create a multi- aent",
+      "start": 1470.4,
+      "duration": 3.92
+    },
+    {
+      "text": "orchestration",
+      "start": 1472.4,
+      "duration": 4.879
+    },
+    {
+      "text": "the what I mean is the a lot of agents",
+      "start": 1474.32,
+      "duration": 5.599
+    },
+    {
+      "text": "talking coordinating each each other and",
+      "start": 1477.279,
+      "duration": 5.841
+    },
+    {
+      "text": "doing a one task or one big project. You",
+      "start": 1479.919,
+      "duration": 7.441
+    },
+    {
+      "text": "can use a auto gun again or basically",
+      "start": 1483.12,
+      "duration": 8.159
+    },
+    {
+      "text": "you can use a crew AI for a role based",
+      "start": 1487.36,
+      "duration": 6.48
+    },
+    {
+      "text": "agents. For example, I'm right now",
+      "start": 1491.279,
+      "duration": 6.561
+    },
+    {
+      "text": "developing um Bob I didn't make it today",
+      "start": 1493.84,
+      "duration": 7.28
+    },
+    {
+      "text": "but it's going to be used crew AI",
+      "start": 1497.84,
+      "duration": 6.079
+    },
+    {
+      "text": "because it's actually the co-host role.",
+      "start": 1501.12,
+      "duration": 5.76
+    },
+    {
+      "text": "it's take a co-host role in my uh talk",
+      "start": 1503.919,
+      "duration": 6.081
+    },
+    {
+      "text": "shows or in my standups or in my podcast",
+      "start": 1506.88,
+      "duration": 6.96
+    },
+    {
+      "text": "and also uh that means I need to use a",
+      "start": 1510.0,
+      "duration": 7.24
+    },
+    {
+      "text": "crew AI.",
+      "start": 1513.84,
+      "duration": 3.4
+    },
+    {
+      "text": "So the what's we are learning today in",
+      "start": 1517.919,
+      "duration": 7.521
+    },
+    {
+      "text": "this short webinary",
+      "start": 1521.6,
+      "duration": 6.24
+    },
+    {
+      "text": "we learned actually human in the loop is",
+      "start": 1525.44,
+      "duration": 6.0
+    },
+    {
+      "text": "a strong that's so much uh good things",
+      "start": 1527.84,
+      "duration": 5.6
+    },
+    {
+      "text": "in the human in the loop but at the same",
+      "start": 1531.44,
+      "duration": 4.8
+    },
+    {
+      "text": "time we are not cale",
+      "start": 1533.44,
+      "duration": 6.64
+    },
+    {
+      "text": "so that means we are slow and um without",
+      "start": 1536.24,
+      "duration": 5.6
+    },
+    {
+      "text": "a good feedback or something like that",
+      "start": 1540.08,
+      "duration": 4.959
+    },
+    {
+      "text": "we can't evolate itself we can't evolate",
+      "start": 1541.84,
+      "duration": 5.04
+    },
+    {
+      "text": "ourselves",
+      "start": 1545.039,
+      "duration": 4.88
+    },
+    {
+      "text": "but it Other hand agent in the loop put",
+      "start": 1546.88,
+      "duration": 6.159
+    },
+    {
+      "text": "the agent at the center. So the agents",
+      "start": 1549.919,
+      "duration": 5.281
+    },
+    {
+      "text": "can evalate itself very well. They are",
+      "start": 1553.039,
+      "duration": 5.041
+    },
+    {
+      "text": "not so slow. If we optimize it well they",
+      "start": 1555.2,
+      "duration": 5.76
+    },
+    {
+      "text": "are working well than us [snorts]",
+      "start": 1558.08,
+      "duration": 6.32
+    },
+    {
+      "text": "actually. That means agent drive loops",
+      "start": 1560.96,
+      "duration": 6.56
+    },
+    {
+      "text": "is coming in the way and that's working",
+      "start": 1564.4,
+      "duration": 5.279
+    },
+    {
+      "text": "in the real world too. Right now there",
+      "start": 1567.52,
+      "duration": 4.72
+    },
+    {
+      "text": "is a agent loop system and we are using",
+      "start": 1569.679,
+      "duration": 7.681
+    },
+    {
+      "text": "it at the same time. uh you need to make",
+      "start": 1572.24,
+      "duration": 8.319
+    },
+    {
+      "text": "a decision like when you need to make a",
+      "start": 1577.36,
+      "duration": 7.04
+    },
+    {
+      "text": "decision about should I get my project",
+      "start": 1580.559,
+      "duration": 5.761
+    },
+    {
+      "text": "woman in the loop to do agent in the",
+      "start": 1584.4,
+      "duration": 4.48
+    },
+    {
+      "text": "loop you need to look at the four",
+      "start": 1586.32,
+      "duration": 6.64
+    },
+    {
+      "text": "critical keys or critical shift if you",
+      "start": 1588.88,
+      "duration": 7.76
+    },
+    {
+      "text": "need a speed scalability cost and",
+      "start": 1592.96,
+      "duration": 6.719
+    },
+    {
+      "text": "transparency or reliability",
+      "start": 1596.64,
+      "duration": 6.32
+    },
+    {
+      "text": "like just look at these four keys and",
+      "start": 1599.679,
+      "duration": 5.841
+    },
+    {
+      "text": "decision and make here make a decision",
+      "start": 1602.96,
+      "duration": 5.28
+    },
+    {
+      "text": "about that. Yeah, I can change these",
+      "start": 1605.52,
+      "duration": 5.6
+    },
+    {
+      "text": "four things and I can change my so I can",
+      "start": 1608.24,
+      "duration": 5.439
+    },
+    {
+      "text": "change my application women into loop to",
+      "start": 1611.12,
+      "duration": 5.28
+    },
+    {
+      "text": "agent in the loop.",
+      "start": 1613.679,
+      "duration": 6.161
+    },
+    {
+      "text": "So the basically is a feature for me is",
+      "start": 1616.4,
+      "duration": 6.96
+    },
+    {
+      "text": "agent plus human supervisor that means",
+      "start": 1619.84,
+      "duration": 6.16
+    },
+    {
+      "text": "human woman human over the loop not",
+      "start": 1623.36,
+      "duration": 5.439
+    },
+    {
+      "text": "fully autonomy but safe human guided",
+      "start": 1626.0,
+      "duration": 5.279
+    },
+    {
+      "text": "models going to be appear in the near",
+      "start": 1628.799,
+      "duration": 5.041
+    },
+    {
+      "text": "future and we are going to see it we are",
+      "start": 1631.279,
+      "duration": 6.4
+    },
+    {
+      "text": "seeing right now too",
+      "start": 1633.84,
+      "duration": 6.64
+    },
+    {
+      "text": "as I said in the future we are going to",
+      "start": 1637.679,
+      "duration": 5.201
+    },
+    {
+      "text": "see the like the woman over the loop",
+      "start": 1640.48,
+      "duration": 5.6
+    },
+    {
+      "text": "system multi- aent system Maybe upgraded",
+      "start": 1642.88,
+      "duration": 5.84
+    },
+    {
+      "text": "system like the not one agents going to",
+      "start": 1646.08,
+      "duration": 5.36
+    },
+    {
+      "text": "be work in one task the agent team going",
+      "start": 1648.72,
+      "duration": 5.12
+    },
+    {
+      "text": "to be work under one task but we are",
+      "start": 1651.44,
+      "duration": 4.4
+    },
+    {
+      "text": "going to still supervisor this",
+      "start": 1653.84,
+      "duration": 7.439
+    },
+    {
+      "text": "supervising this agents at the same time",
+      "start": 1655.84,
+      "duration": 8.4
+    },
+    {
+      "text": "that's a safe and that is the safest",
+      "start": 1661.279,
+      "duration": 6.0
+    },
+    {
+      "text": "option I think we have as my based on my",
+      "start": 1664.24,
+      "duration": 8.24
+    },
+    {
+      "text": "research right now so that's all",
+      "start": 1667.279,
+      "duration": 6.88
+    },
+    {
+      "text": "that's all from me thank you for",
+      "start": 1672.48,
+      "duration": 5.28
+    },
+    {
+      "text": "listening me I think I create a good",
+      "start": 1674.159,
+      "duration": 6.0
+    },
+    {
+      "text": "base for that the agent in the loop",
+      "start": 1677.76,
+      "duration": 4.08
+    },
+    {
+      "text": "agent the woman in the loop and the",
+      "start": 1680.159,
+      "duration": 3.52
+    },
+    {
+      "text": "catastrophe in the news what you're",
+      "start": 1681.84,
+      "duration": 4.719
+    },
+    {
+      "text": "saying or what you're seeing in that so",
+      "start": 1683.679,
+      "duration": 6.561
+    },
+    {
+      "text": "stay curious and build responsibly",
+      "start": 1686.559,
+      "duration": 6.641
+    },
+    {
+      "text": "and that's the link for the source my",
+      "start": 1690.24,
+      "duration": 6.64
+    },
+    {
+      "text": "accounts and other things",
+      "start": 1693.2,
+      "duration": 5.839
+    },
+    {
+      "text": "I'm going to check what you have on this",
+      "start": 1696.88,
+      "duration": 5.919
+    },
+    {
+      "text": "QR code uh but you have um you showed us",
+      "start": 1699.039,
+      "duration": 5.36
+    },
+    {
+      "text": "a table um Yeah,",
+      "start": 1702.799,
+      "duration": 3.76
+    },
+    {
+      "text": ">> with somebody. Can you go back to this",
+      "start": 1704.399,
+      "duration": 3.201
+    },
+    {
+      "text": "table",
+      "start": 1706.559,
+      "duration": 2.321
+    },
+    {
+      "text": ">> please?",
+      "start": 1707.6,
+      "duration": 3.679
+    },
+    {
+      "text": ">> Um, so here Yeah, I had some questions",
+      "start": 1708.88,
+      "duration": 6.24
+    },
+    {
+      "text": "like so you said uh",
+      "start": 1711.279,
+      "duration": 5.841
+    },
+    {
+      "text": "um like when I looked at this I I",
+      "start": 1715.12,
+      "duration": 4.159
+    },
+    {
+      "text": "thought like wait a minute like why",
+      "start": 1717.12,
+      "duration": 4.64
+    },
+    {
+      "text": "accuracy medium for humans and high for",
+      "start": 1719.279,
+      "duration": 6.88
+    },
+    {
+      "text": "agents and you said like you add added",
+      "start": 1721.76,
+      "duration": 6.799
+    },
+    {
+      "text": "like kind of disclaimer that it's",
+      "start": 1726.159,
+      "duration": 4.321
+    },
+    {
+      "text": "optimized agent right?",
+      "start": 1728.559,
+      "duration": 4.641
+    },
+    {
+      "text": ">> Yeah. So how do we optimate optimize",
+      "start": 1730.48,
+      "duration": 5.439
+    },
+    {
+      "text": "agent in this case? Like how do we make",
+      "start": 1733.2,
+      "duration": 5.44
+    },
+    {
+      "text": "sure accuracy is actually high? Cuz from",
+      "start": 1735.919,
+      "duration": 5.041
+    },
+    {
+      "text": "what I see typically",
+      "start": 1738.64,
+      "duration": 4.32
+    },
+    {
+      "text": "humans",
+      "start": 1740.96,
+      "duration": 6.8
+    },
+    {
+      "text": "um cuz for them sometimes like accuracy",
+      "start": 1742.96,
+      "duration": 8.319
+    },
+    {
+      "text": "is better. Um so how do we",
+      "start": 1747.76,
+      "duration": 5.44
+    },
+    {
+      "text": ">> optimize agent and maybe how do we use",
+      "start": 1751.279,
+      "duration": 4.4
+    },
+    {
+      "text": "humans to optimize agents?",
+      "start": 1753.2,
+      "duration": 4.4
+    },
+    {
+      "text": ">> That's actually actually based on the",
+      "start": 1755.679,
+      "duration": 4.561
+    },
+    {
+      "text": "task, right? uh",
+      "start": 1757.6,
+      "duration": 4.88
+    },
+    {
+      "text": "let's say there's a test the agents can",
+      "start": 1760.24,
+      "duration": 7.2
+    },
+    {
+      "text": "do like repeatedly like I don't know",
+      "start": 1762.48,
+      "duration": 7.199
+    },
+    {
+      "text": "there there's a task about the writing",
+      "start": 1767.44,
+      "duration": 6.479
+    },
+    {
+      "text": "an excel writing a data index right and",
+      "start": 1769.679,
+      "duration": 8.321
+    },
+    {
+      "text": "the the task is about create a data from",
+      "start": 1773.919,
+      "duration": 6.801
+    },
+    {
+      "text": "the zero and you need to write exel this",
+      "start": 1778.0,
+      "duration": 5.84
+    },
+    {
+      "text": "data to train a MS",
+      "start": 1780.72,
+      "duration": 6.319
+    },
+    {
+      "text": "when the human needs to create a data He",
+      "start": 1783.84,
+      "duration": 5.52
+    },
+    {
+      "text": "needs the idea first what what data can",
+      "start": 1787.039,
+      "duration": 5.041
+    },
+    {
+      "text": "be like that or something like that and",
+      "start": 1789.36,
+      "duration": 6.16
+    },
+    {
+      "text": "the supervisor of this woman",
+      "start": 1792.08,
+      "duration": 5.68
+    },
+    {
+      "text": "let's say the supervisor of this woman",
+      "start": 1795.52,
+      "duration": 5.2
+    },
+    {
+      "text": "so bad to explain something or something",
+      "start": 1797.76,
+      "duration": 5.039
+    },
+    {
+      "text": "like that or there is not enough",
+      "start": 1800.72,
+      "duration": 5.04
+    },
+    {
+      "text": "information about that about the data or",
+      "start": 1802.799,
+      "duration": 5.12
+    },
+    {
+      "text": "something like that the accuracy will be",
+      "start": 1805.76,
+      "duration": 4.0
+    },
+    {
+      "text": "not enough for the project or something",
+      "start": 1807.919,
+      "duration": 4.721
+    },
+    {
+      "text": "like that but at the other hand",
+      "start": 1809.76,
+      "duration": 7.12
+    },
+    {
+      "text": "the agents are [snorts] high Because if",
+      "start": 1812.64,
+      "duration": 8.8
+    },
+    {
+      "text": "you give a proper uh prompt and also if",
+      "start": 1816.88,
+      "duration": 9.44
+    },
+    {
+      "text": "you op uh if you set the settings of the",
+      "start": 1821.44,
+      "duration": 8.32
+    },
+    {
+      "text": "agent properly like temperature like if",
+      "start": 1826.32,
+      "duration": 6.64
+    },
+    {
+      "text": "you want to create a create a creativity",
+      "start": 1829.76,
+      "duration": 5.12
+    },
+    {
+      "text": "tax you need to make higher the",
+      "start": 1832.96,
+      "duration": 4.079
+    },
+    {
+      "text": "temperature basically and if you don't",
+      "start": 1834.88,
+      "duration": 4.96
+    },
+    {
+      "text": "want it you want to strict the rules you",
+      "start": 1837.039,
+      "duration": 6.961
+    },
+    {
+      "text": "need to set the temperature low so",
+      "start": 1839.84,
+      "duration": 7.199
+    },
+    {
+      "text": "they can create meth this repetitive",
+      "start": 1844.0,
+      "duration": 6.399
+    },
+    {
+      "text": "test task normally good and they are",
+      "start": 1847.039,
+      "duration": 6.401
+    },
+    {
+      "text": "making that uh accurate",
+      "start": 1850.399,
+      "duration": 7.961
+    },
+    {
+      "text": "so that's basically based on the test",
+      "start": 1853.44,
+      "duration": 4.92
+    },
+    {
+      "text": "okay",
+      "start": 1859.36,
+      "duration": 5.039
+    },
+    {
+      "text": ">> yeah",
+      "start": 1862.0,
+      "duration": 4.88
+    },
+    {
+      "text": "um so I just have a story from my",
+      "start": 1864.399,
+      "duration": 5.361
+    },
+    {
+      "text": "previous experience um so what we we",
+      "start": 1866.88,
+      "duration": 4.88
+    },
+    {
+      "text": "used crowd sourcing",
+      "start": 1869.76,
+      "duration": 5.12
+    },
+    {
+      "text": ">> for evaluating search results so imagine",
+      "start": 1871.76,
+      "duration": 5.44
+    },
+    {
+      "text": "there there's some sort of search system",
+      "start": 1874.88,
+      "duration": 6.24
+    },
+    {
+      "text": "in e-commerce and you can use a crowd",
+      "start": 1877.2,
+      "duration": 6.32
+    },
+    {
+      "text": "sourcing provider um you give a task",
+      "start": 1881.12,
+      "duration": 4.559
+    },
+    {
+      "text": "okay here are the some here are some",
+      "start": 1883.52,
+      "duration": 5.68
+    },
+    {
+      "text": "search results and please tell if this",
+      "start": 1885.679,
+      "duration": 5.36
+    },
+    {
+      "text": "result is relevant to this query if",
+      "start": 1889.2,
+      "duration": 4.32
+    },
+    {
+      "text": "somebody's looking for iPhone and then",
+      "start": 1891.039,
+      "duration": 6.0
+    },
+    {
+      "text": "we show um I don't know Samsung like is",
+      "start": 1893.52,
+      "duration": 5.12
+    },
+    {
+      "text": "it relevant or not like and then they",
+      "start": 1897.039,
+      "duration": 3.441
+    },
+    {
+      "text": "say oh it's not relevant",
+      "start": 1898.64,
+      "duration": 5.6
+    },
+    {
+      "text": ">> and then uh we replaced it with LLMs and",
+      "start": 1900.48,
+      "duration": 6.079
+    },
+    {
+      "text": "it worked much better uh because it's",
+      "start": 1904.24,
+      "duration": 4.799
+    },
+    {
+      "text": "faster, it's easier to iterate.",
+      "start": 1906.559,
+      "duration": 5.201
+    },
+    {
+      "text": ">> Uh but I still think sometimes we need",
+      "start": 1909.039,
+      "duration": 5.12
+    },
+    {
+      "text": "humans, right? So it's not possible to",
+      "start": 1911.76,
+      "duration": 6.639
+    },
+    {
+      "text": "completely remove humans from um I was",
+      "start": 1914.159,
+      "duration": 5.921
+    },
+    {
+      "text": "trying to say the loop but like from the",
+      "start": 1918.399,
+      "duration": 4.4
+    },
+    {
+      "text": "interaction with agent right",
+      "start": 1920.08,
+      "duration": 5.12
+    },
+    {
+      "text": ">> the best thing is that we are seeing so",
+      "start": 1922.799,
+      "duration": 4.561
+    },
+    {
+      "text": "much news about the the agents going to",
+      "start": 1925.2,
+      "duration": 3.599
+    },
+    {
+      "text": "replace us agents going to replace",
+      "start": 1927.36,
+      "duration": 2.88
+    },
+    {
+      "text": "developer or something like that. No,",
+      "start": 1928.799,
+      "duration": 3.36
+    },
+    {
+      "text": "it's it's can't it's it's not possible",
+      "start": 1930.24,
+      "duration": 3.84
+    },
+    {
+      "text": "actually for this time because they",
+      "start": 1932.159,
+      "duration": 4.161
+    },
+    {
+      "text": "can't do some of the works they can't do",
+      "start": 1934.08,
+      "duration": 4.56
+    },
+    {
+      "text": "we are not give allow us to do works",
+      "start": 1936.32,
+      "duration": 5.599
+    },
+    {
+      "text": "like by themsel actually they always",
+      "start": 1938.64,
+      "duration": 5.36
+    },
+    {
+      "text": "need a supervisor things they always",
+      "start": 1941.919,
+      "duration": 5.441
+    },
+    {
+      "text": "need a feedback human feedback because",
+      "start": 1944.0,
+      "duration": 5.519
+    },
+    {
+      "text": "they don't understand the things they",
+      "start": 1947.36,
+      "duration": 3.439
+    },
+    {
+      "text": "don't understand what they are doing",
+      "start": 1949.519,
+      "duration": 3.681
+    },
+    {
+      "text": "actually they just understand they they",
+      "start": 1950.799,
+      "duration": 4.24
+    },
+    {
+      "text": "don't understand the thing but they know",
+      "start": 1953.2,
+      "duration": 5.76
+    },
+    {
+      "text": "how to give a ordinary output structured",
+      "start": 1955.039,
+      "duration": 8.081
+    },
+    {
+      "text": "output they know how to give a output",
+      "start": 1958.96,
+      "duration": 7.599
+    },
+    {
+      "text": "like JSON text or paragraph. So they",
+      "start": 1963.12,
+      "duration": 5.84
+    },
+    {
+      "text": "always need a human supervisory human",
+      "start": 1966.559,
+      "duration": 4.48
+    },
+    {
+      "text": "feedback",
+      "start": 1968.96,
+      "duration": 4.559
+    },
+    {
+      "text": "but at the other hand they are good at",
+      "start": 1971.039,
+      "duration": 4.801
+    },
+    {
+      "text": "like the repetitive task right now and",
+      "start": 1973.519,
+      "duration": 4.241
+    },
+    {
+      "text": "they're good at the team of agent is",
+      "start": 1975.84,
+      "duration": 4.48
+    },
+    {
+      "text": "good at like the at the other task we",
+      "start": 1977.76,
+      "duration": 5.039
+    },
+    {
+      "text": "are doing right right now.",
+      "start": 1980.32,
+      "duration": 6.239
+    },
+    {
+      "text": ">> Mhm. Okay. Well, I don't see any",
+      "start": 1982.799,
+      "duration": 7.6
+    },
+    {
+      "text": "questions um on Slido.",
+      "start": 1986.559,
+      "duration": 6.641
+    },
+    {
+      "text": "Um so at the end we have your QR code.",
+      "start": 1990.399,
+      "duration": 5.52
+    },
+    {
+      "text": "This is how you can find you, right? Um",
+      "start": 1993.2,
+      "duration": 5.28
+    },
+    {
+      "text": "is this a part of your um research that",
+      "start": 1995.919,
+      "duration": 4.48
+    },
+    {
+      "text": "you do? Is is are you doing masters",
+      "start": 1998.48,
+      "duration": 2.64
+    },
+    {
+      "text": "right now?",
+      "start": 2000.399,
+      "duration": 2.561
+    },
+    {
+      "text": ">> No, I'm doing it bachelor, right?",
+      "start": 2001.12,
+      "duration": 3.679
+    },
+    {
+      "text": ">> Bachelor. Okay. So is it part of your",
+      "start": 2002.96,
+      "duration": 3.599
+    },
+    {
+      "text": "research that you do at the at the",
+      "start": 2004.799,
+      "duration": 3.681
+    },
+    {
+      "text": ">> uh actually it is it is my interest",
+      "start": 2006.559,
+      "duration": 4.081
+    },
+    {
+      "text": "right now. I'm working on the agents too",
+      "start": 2008.48,
+      "duration": 6.24
+    },
+    {
+      "text": "in my work and uh beside of the work I'm",
+      "start": 2010.64,
+      "duration": 6.24
+    },
+    {
+      "text": "developing agents the ML systems and",
+      "start": 2014.72,
+      "duration": 4.319
+    },
+    {
+      "text": "tiny ML projects.",
+      "start": 2016.88,
+      "duration": 4.96
+    },
+    {
+      "text": ">> That's cool. [laughter]",
+      "start": 2019.039,
+      "duration": 5.12
+    },
+    {
+      "text": ">> Okay, I guess then that's it. I don't",
+      "start": 2021.84,
+      "duration": 4.88
+    },
+    {
+      "text": "see any more questions. So, thanks a",
+      "start": 2024.159,
+      "duration": 3.441
+    },
+    {
+      "text": "lot.",
+      "start": 2026.72,
+      "duration": 3.439
+    },
+    {
+      "text": ">> Yeah. Um if somebody has questions, so",
+      "start": 2027.6,
+      "duration": 4.88
+    },
+    {
+      "text": "here's the QR code. I checked there is a",
+      "start": 2030.159,
+      "duration": 5.681
+    },
+    {
+      "text": "link to LinkedIn and that probably would",
+      "start": 2032.48,
+      "duration": 5.039
+    },
+    {
+      "text": "be a good place to ask you questions,",
+      "start": 2035.84,
+      "duration": 4.4
+    },
+    {
+      "text": "right? Yeah, there's a source for the",
+      "start": 2037.519,
+      "duration": 4.481
+    },
+    {
+      "text": "presentations that will also upload the",
+      "start": 2040.24,
+      "duration": 2.88
+    },
+    {
+      "text": "presentation too. So,",
+      "start": 2042.0,
+      "duration": 4.72
+    },
+    {
+      "text": ">> yeah, I can see it there.",
+      "start": 2043.12,
+      "duration": 7.12
+    },
+    {
+      "text": ">> Yeah. Okay. Well, thanks a lot and uh",
+      "start": 2046.72,
+      "duration": 6.8
+    },
+    {
+      "text": "thanks everyone for joining us today.",
+      "start": 2050.24,
+      "duration": 8.56
+    },
+    {
+      "text": ">> So, yeah. See you around. Bye. Bye. Bye.",
+      "start": 2053.52,
+      "duration": 5.28
+    }
+  ]
+}

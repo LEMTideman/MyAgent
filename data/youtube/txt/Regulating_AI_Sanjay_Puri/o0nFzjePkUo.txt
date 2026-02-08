@@ -1,0 +1,1049 @@
+I feel the accountability is a shared
+responsibility of everybody. It's not
+only the one right. I think the
+technology like the technology providers
+also should come up with some kind of
+regulatory frameworks. They should not
+wait for the government to tell that one
+regulations in such a way that which
+where you are using the model depends on
+the risk of the uh model. The scale and
+the risks are too high with the AI in
+the regulator industry. Not only the
+regulator, all the industries,
+right? Welcome to the regulating AI
+podcast. Join host Sanjay Pury as he
+explores the dynamic and developing
+world of artificial intelligence
+governance. Each episode features deep
+dives with global leaders at the
+forefront of regulating AI responsibly,
+tackling the challenges using AI can
+bring about head-on and enabling balance
+without hindering
+[Music]
+innovation. Welcome to the Regulating AI
+podcast, your premium platform dedicated
+to promoting responsible, ethical, and
+trustworthy AI practices globally. Our
+goal is to shape the future of AI
+governance through education, awareness
+and policy advocacy while fostering
+responsible innovation. I'm your host
+Sanjay Puri and today we are thrilled to
+have Naresh Dulam, a distinguished data
+AI and cloud leader. He's also a global
+speaker, a podcast guest and a mentor,
+author and an AI ambassador. Wow. uh as
+senior vice president of software
+engineering at JP Morgan Chase. Naresh
+is renowned for pioneering scalable AI
+and data solutions advocating
+responsible AI innovation and mentoring
+tech professionals worldwide. Narish
+welcome to the regulating AI podcast. Uh
+thanks an having me here. Um it's it's
+my honor to be here and talking to the
+community.
+Wonderful Nares. As I've we discussed in
+our prep call, we have a global audience
+base of people who are policy leaders,
+civil society leaders, entrepreneurs,
+and uh tech experts like you. Uh so uh
+we're going to get into some of the
+issues that are facing AI policy and
+governance today. But to begin with uh
+Naresh you've been implementing AI
+solutions at JP Morgan Chase which is
+probably the world leader in financial
+services and serving over 1500 business
+users. You know from your frontline
+experience what do you see are the most
+critical regulatory gaps in today's AI
+landscape?
+Um yeah so I see today's u landscape is
+bit like a growing cities you know that
+in the last few years the cities like
+the especially the Dallas is growing
+like exponentially so the AI is I see
+the same trend with the AI and like the
+cities are like the AI is growing like
+without basic in infrastructures like
+the cities grows like no street signs no
+traffic lights or kind of no zoning
+rules that exploded the AI. So it's
+growing fast but the uh like the people
+are moving in but there is no clear
+systems in place to manage this safety
+growth explode explode of the
+AI. So uh so we know that these models
+are getting deployed into the production
+systems that affect the people's lives
+like uh in my experience if I say that
+like the people who gets the loan or
+like which transaction gets escalated
+fraud alert right so in the financial
+systems because they have been there
+here for a long time they have the very
+strong regulatory frameworks uh but with
+AI we are as of today we are often
+relying on the good intentions of the
+developers and the practitioners or the
+leaderships teams who are building these
+AIs from from my point of view I see the
+three main gaps especially so one is um
+the explanability so most regulations
+don't require that AI systems the output
+is not required to be explainable to the
+end user but let's assume that when a
+model denies someone is the moh
+someone's the mortgage loans are like
+the flagging a transaction but I feel
+like as a person that who is get
+affected need to know the why he was um
+that transaction or why he was not able
+to do that one. So that's explanability
+is missing in today's AI and the other
+thing is the bias and fairness. So we
+know that AI systems just can reflect
+what they learned right so they are not
+think like a humans. So all they can do
+that they just magnifying the bias in
+data. uh but today if you're looking at
+the data most of the data is biased
+because there is no controls around
+right and whenever you are using these
+models to be deployed uh most of the
+times the fairness uh the legal
+requirements to check this data is not
+there so that's something is fairness
+and bias I see that one uh it's like you
+letting the new car on the road without
+checking that whether the brakes works
+in the dry and wet roads they should be
+in a different so and the third one is
+the accountability when when things were
+going well good but when things go west
+let's say the model makes some harmful
+decision then we don't have a clear
+responsible uh clear answer for who is
+responsible for it whether it's a model
+or like the developer who develop it or
+the vendor I think we need to uh the
+regulation need to create a a specific
+uh rule rules around these things to
+make them uh these AI products
+work in the production or in the real
+life. So to sum it up u I think we are
+building the powerful tools like the
+models are getting every day better
+right but we needed urgently need a
+clear a flexible outcome focused
+regulations not the theoretical
+regulation they each regulation that we
+put should have seen some outcome so
+that's something is missing uh I feel in
+today's landscape
+so nar I think uh you covered a vast
+amount of uh points. So if I can just uh
+follow up on a few points. You basically
+said there are three things that concern
+you about AI uh especially from a policy
+standpoint. One is explanability
+uh and
+explanability is hard. Now you are
+starting to see some models narish that
+are attempting when you look at
+anthropic and others. But is it your
+opinion that there should be some kind
+of u regulatory framework that asks
+foundation model companies to have some
+kind of an explanability uh mechanism in
+there. Yeah. So um I mean the few few
+players are coming up because the
+government is pushing behind uh further
+regulations like uh it's not the
+government it's like the people are
+pushing more they wanted okay if the
+decision came so they wanted to be
+explained to me so that's where these
+they are doing that one but if you see
+overall
+to the lot of extent I don't see that
+these models can explain why they are
+deriving that because of the scale Still
+they the data they train there is no
+guardrails on the data they train. So it
+my personal opinion is like it's still
+there is a gap but we have the long way
+to go. If you look at the uh financial
+frameworks right maybe they started 40
+50 years back these reporting all those
+things they were not in the state those
+are supposed to be right. So they are
+matured over a period of time. I think
+over a period of time these models the
+vendors or providers will come up with a
+more um tools that explain to each of
+the audience like if you if you look at
+that explanability that you're saying
+the anthropic it's mostly explainable to
+the developers like the most technology
+but the explanability should go to the
+end user who are not aware of this tech
+uh technology or technology terms so
+that's where I think still So we need to
+go there. Just a quick followup and
+again as you said this is also for our
+listeners. The new models are you know
+focused in on reasoning and inference
+basis. They kind of walk you through how
+they are kind of coming to some of these
+conclusions. Does that help in terms of
+explanability or you still think it's a
+black box uh that still exists out
+there? Um so that so yeah that is
+definitely explaining u how it was
+coming to the earlier if you go back to
+one year back it was not like that. So
+we see the progress. I see I was trying
+to say that we made a progress a little
+bit but we need to be completely
+explained like why the each token is
+predicted in a after this token why I
+predicted this token that kind of um
+explainability so that anyone can
+understand is still missing. Uh that's
+what I felt. Okay. Um the second thing
+that you talked about was bias uh that
+there is a gap in terms of bias and uh
+those things and I've had a lot of
+guests that we talk about some of those
+guests uh say it is impossible to have a
+bias-free system because human beings
+are biased the if if you build AI
+systems uh they are just going to be
+biased. So my question is to you Narish
+because our listeners are listening
+obviously and they get impacted by a lot
+of these decisions. So to tackle this
+problem is synthetic data an answer to
+uh problem in some shape or form and
+then I'll ask you another question the
+issue of bias um the synthetic data how
+the synthetic data is coming it's again
+coming from another model's uh
+understanding right so we uh I agree
+with that we never get to the 100%age of
+the without biased data so but I would
+say that
+Whenever you you train this model at
+least you should represent the data that
+is used to train this model of all the
+groups not not only the only one
+specific group because I I can give one
+example of uh when I was working for a
+one telecom company a few years back we
+rolled out an a a system where it can
+predict the customers customer chart.
+Mhm. So but we found out that that the
+model was trained most of the data
+that's on the rural u sorry urban area
+people not on the rural we we have the
+people on the rural area those are the
+very uh loyal customers. Mhm. Uh so we
+we found out that one. So again we
+trained uh that we took that data of the
+both the groups representing and we we
+trained it and we have seen the progress
+a little bit. uh it it was doing the
+better than the previous version of the
+model. So I I I agree that we still
+don't have I mean we cannot avoid that
+100% bias but what if but if we can go
+to the 80 or 90%age of the u data that
+we are train this model representing all
+the groups then we can avoid right again
+we at the end we need to have this human
+in the loop to make the final decisions
+right so like depends on the use case if
+the use case is very risky like it's
+impacting somebody's
+lives then you definitely need to have
+somebody in even though you fully
+automated your system with AI you you
+can put somebody to validate it run so
+what I'm trying to say that we try to do
+as much as regulations put around the
+data that was trained to these models
+and these model providers also should
+explain tell us that which data they
+have used to train the d models so
+that's an that will help the user users
+or the end users to know that okay there
+could be a possibility of challenges
+because this model drained and a
+specific data uh it has an a bias so
+that I should be careful whenever I'm
+taking my final decision using those
+model so that's that's the way I I see
+that one we can uh avoid uh we cannot
+avoid 100% but we can reduce the risk of
+um data bias
+so what you're saying to reduce the risk
+of uh data bias uh narish if I'm uh
+understanding you clearly one is to have
+a human in the loop and the second would
+be uh what you're saying is for uh the
+foundation model companies to tell us
+where this data is coming from per se.
+Um as far as bias is
+concerned now you know looking at it
+from a regulatory standpoints there are
+existing laws in the books especially I
+mean I'm talking now United States but I
+I have a feeling it might be in the EU
+and other places too and we'll come to
+that that if you're making a credit
+decision whether it is for uh any kind
+of a loan or a home or anything like
+that it is illegal to discriminate based
+on you know different different
+criteria. Just because you are using AI
+and this is what members of Congress and
+Senate have told me doesn't give you a
+pass from following those rules and
+regulations uh per se.
+Um
+so that's on the bias front. The third
+point which you made was a very
+important point was
+accountability because we don't have
+regulations in this
+country.
+So I'll pose that question to you
+because I posed that question to many uh
+legislators, senators, members of
+Congress, entrepreneurs. Where is the
+accountability? If if somebody uses this
+system and because of hallucination or
+anything like that uh
+it may gave them some kind of a medical
+or some kind of an important thing which
+led to some serious
+uh issues, damages or bad
+outcomes is the accountability with the
+uh model the foundation builder or is it
+with the company that might have built a
+wrapper around it? Is it with the
+implementer? Is it with the user? Where
+is the accountability in this situation?
+Um I feel the accountability is a shared
+responsibility of everybody. It's not
+only the one right. So I mean you might
+have the regulations put around that one
+but the system can the bad actors in the
+system they may make sure all the check
+boxes will do that one. I feel like uh
+is the accountability is on everybody
+else like the model providers who are
+building those training those models and
+the uh people who are uh building using
+those models to uh implement uh give the
+services to the end users who who are in
+the business of serving them using those
+models and also the government also I
+feel like uh it's like a com everybody
+should have and um responsibility and so
+I think the technology like the
+technology providers also should come up
+with some kind of regulatory frameworks
+they should not wait for the government
+to tell that one they should be
+proactively build some kind of uh tools
+or frameworks to selfassess the risk of
+the um um some kind of the bad bad
+decisions. So that's something is like
+an everybody responsible it's I mean if
+it is the government is putting the
+respons if you as an individual if I
+don't follow that one uh so then we get
+we could not go anywhere right so I
+would say that it's an shared
+responsibility of each individual uh
+starting from the data provider who is
+generating the data making sure that he
+should not give a biased data to the
+model provider who is training the
+models and the people who are using that
+making sure that what is the model how
+the model was built and and of course
+when we are serving user model you
+always need to have the watch on that
+whether it's always like you need to
+have the visibility into that whether
+it's always making the right decision or
+not so that's something I feel like so
+you're saying the entire supply chain so
+to speak has a shared responsibility for
+that shared responsibility okay um nar
+uh one of the things that you said was
+that um the responsibility or the uh
+accountability should be more outcome
+based rather than anything else. Right?
+Yeah. Yeah. Can you uh explain that to
+our audience? What do you mean by that?
+So outcome based means so we we put the
+regulations right. So there will be
+regulations will come up right. uh but
+if the regulations are too difficult to
+implement. Mhm. So most of the times
+with the people the the model providers
+will if it is a big model provider like
+if they have the budget and all they can
+do that one but if it is a small u small
+startups they could not offer that kind
+of report uh audit report to generated
+for the model right. So what we should
+do that one is we should build these
+models in such a way that where you are
+regulations in such a way that which
+where you are using the model depends on
+the risk of the uh model like let's say
+if you are using the model for uh uh
+building a system that summarizing the
+data from a documents or something like
+that that should be fine you there there
+should be a tired regulation like the
+the regulations on those kind of of
+models could be a little uh not
+restrictive. But if the model those are
+making the impact of the life like you
+are putting the model in the health care
+or education or financial system right
+so the risk of the model is too high. So
+then you need to have an more stricter
+rules. So the tired way of having the
+regulation is the a better way. So this
+tired tired way will help anybody to
+implement that one. So the a small
+startup he can simply if the rules are
+lighter he can easily implement that one
+and also the rules should be the
+regulation should not be is like
+complicated. It should be very simple
+the governments or the whoever the
+regulatory body should provide the
+frameworks to selfassess the uh
+compliance of their product. So these
+some of these like simplicity in all of
+the things that we are bringing help us
+all these providers to implement these
+regulations and that will give an
+outcome. You can clearly see that a
+result of it. Mhm. So that's what mean
+by outcome.
+So in a way narish if I'm not mistaken
+correct me if I'm not uh uh when you
+look at the EU AI act it's based a
+riskbased uh act where you know you have
+these different tiers of risk you know
+you have the high risk and the you know
+and you work your way around that you're
+kind of alluding to a similar kind of
+you know setup where they talk about
+things that you know obviously
+uh which you know like biometrics or uh
+facial recognition is an absolute no no
+or when you look at uh when you get down
+to the one with healthcare and other
+things. So you're saying uh something of
+that nature would be uh more suited to
+us. So several questions that come in is
+that one is that we in the United States
+do not have any AI regulation. So that's
+number one. Uh you talked about small
+businesses
+uh and not having lack of complexity.
+Now, if you're a small
+business, there are now states in the
+United States that are actually coming
+in and saying, I am going to, you know,
+state Connecticut, California, we're
+going to have our own AI act because the
+federal government doesn't have that.
+How can small businesses now have to
+deal with the these different pockets as
+well as you know the EU AI act and other
+other countries? You know, if you are a
+large company, you have large deep
+pockets.
+So what are your thoughts in terms of
+how do we get around some of these
+things?
+Um
+so again right right so the simplicity
+of the regulations um will help the
+everybody to adapt okay and you you you
+know that I have because in my
+experience I worked with a few startups
+also in the past
+they they were not ready to apply these
+regulations even though they know that
+one because of the uh the pockets like
+they have don't have the resources right
+so I feel Like um the regulation should
+be treat as an a respon ethical
+responsibility of every everyone like
+all the players should feel that it's my
+responsibility to have that my product
+follow the regulation even though there
+is no um regulations available in the um
+from the government from the government
+oversight. Mhm. It's um individual or in
+organizational culture or philosophy is
+the way to implement the governance
+around these the models they were
+developing instead of waiting on
+somebody to force them to do that one.
+Mhm. So you're saying that it should be
+the responsibility of all of these
+people to do that. Um in terms of um you
+know your work you are obviously working
+for one of the largest financial
+services company in the world and and
+financial services Naria is a highly
+regulated
+industry for our audience you know there
+are so many rules and regulations
+already in financial services whether
+it's you know the DoddFrank rule and
+this and that etc. Do you think that
+there are there is a need in the
+financial services industry to have some
+rules and regulations
+incorporating the evolution of AI now
+because it's going to have a ra it is
+having a rampant use in financial
+services and also what can other
+industries learn from the regulatory
+environment within financial services uh
+nar Okay. Yeah. Uh sometimes this
+working in highly regulated industries
+frustrates people but uh they are there
+for the good reasons the regulations. So
+I know we know that banks are high
+security chose right. So they already
+have a better frameworks around this
+reporting and
+all. So financials regulations already
+most of the time financial regulators
+ask these questions like can you explain
+your decisions? How did you come to that
+decision and can you prove uh your model
+works for how the model works for you or
+if something happened can you trace back
+it's not the right now you have to trace
+back to the few years like six or seven
+years of what has what are the events
+happens right so these are the good
+questions that financial regulations
+already have it and they are helping
+these uh regulators to incomply and do
+the job as per the regulation
+But this AI is adding a scale to that
+one. With the AI earlier maybe
+underwriter write one one underwriter
+write writing in a one day maybe one
+application he write but with the AI you
+are doing thousands in in a seconds or
+in minute right the scale is going up
+and earlier like if there is a let's say
+you have some spreadsheet or something
+that may impact only a specific branch
+but with the centralized systems these
+AI system the scale is going high
+the scale and the risks are too high
+with the AI in the regulator industry
+not only the regulator all the
+industries right. So I what I see that
+financial regulator need to update their
+policies like they need to enforce the
+model transparency like dis asking the
+model providers to disclose which data
+they used for the training their models
+and also the mandating the bias and
+addit fairness audit checks every
+quarterly. So every quarterly or yearly.
+So then and also these models when they
+come with that they need to have the
+card saying that this model trained on
+this data and these are the li
+capabilities of it these are the
+limitations that kind of information
+providing these models will help the
+regulators uh to write a clear rules
+around them. So I see that one other
+sectors like the healthcare is highly
+regulated than the financial I felt
+always the retail and education these
+guys can learn from them because uh the
+financial institutes have the regulator
+frameworks for the reporting and all. So
+if we can build those kind of uh uh
+reports for other sectors uh other
+sectors in the means like they should be
+a more generic ones not an industry
+specific one there should be a common
+ground if you set it up for all these
+industries. Uh so they everybody can
+benefit from these uh baselines and they
+can use these as a navigation or a
+compass to come up with more detailed
+their um domain specific uh regulations
+or acts. Mhm. No. So uh lessons to be
+learned from um financial services and
+other regulatory environments.
+Um you obviously uh have dealt and you
+talk a lot about the whole regulatory
+framework. when I uh talk to
+entrepreneurs who are building AI
+systems uh and then I talk to
+legislators and policy makers, there is
+this push and pull versus innovation
+versus regulation because the innovators
+say if you have too much regulation,
+it'll kill uh innovation and regulators
+say unchecked innovation will uh lead us
+to where social media is create a lot of
+harm along the way. How I mean you
+obviously in your role have to balance
+internal innovation uh you work with
+startups etc. How can we uh do that
+threading that needle between innovation
+and regulation?
+Yeah that's this is one of the trickiest
+question I say. So the innovation and
+safety I I felt like a two kids on the
+seesaw when one goes up one goes down.
+uh right so but I I feel like with uh
+right design we can balance them so I'll
+give an example because when uh I have
+done the modernization of the lot of
+legacy platforms when when I was doing
+the modernization what we did is like we
+uh we just not replace the old system
+with a new system we run we run the
+parallelly so and then we evaluated the
+um outcome of the both the systems. So
+that's a one way you can make sure that
+your innovation will continue on that
+one but at the same time you can have
+the safety of uh your users or your
+applications. Mhm. And actually the
+innovation uh thrives when the teams are
+not afraid to experiment. I felt so if
+you give like the if the rules are very
+strict right it's very difficult for
+them to um experiment the teams or the
+uh peoples to experiment and do
+innovation right so as I said in the
+previously so if you have the tired god
+rails for each of the use case by use
+case then we can give a little uh
+flexibility for this innovation to go
+and
+also they can come up with a better
+solutions. Mhm. And I and one more thing
+I saw that one you we know the sandbox
+concept right? Mhm. If we can provide
+these uh like the environment where the
+controlled environment where these
+people can experiment with the realtime
+data but with the guardrails in place.
+If something went go wrong, they should
+be able to recover that that kind of
+sand sandbox environment will help the
+uh innovation to thrive. Mhm. uh I think
+the the the tired way of the regulation
+and the sand sandbox kind of environment
+to uh experiment for the uh people to
+try out new things is the way for me to
+in both the innovation safety go in one
+in both hands.
+No, that I think is a a good perspective
+tiered innovation uh you know approach
+as well as sandbox uh for uh innovators
+and I think the uh European uh union is
+trying to work on that especially for
+financial services. Um Nares the uh you
+know you talked about explanability you
+talked about data bias etc. Uh there is
+a big open-source movement happening in
+AI. Uh when you look at Llama, you look
+at Mistral, you look now obviously at
+Deep Seek and several others. Mhm. From
+a policy regulatory standpoint, what are
+your thoughts in terms of open source
+versus closed source? And if it is open
+source, then how is that going, you
+know, what kind of policy
+implementations can you really do?
+Um I I feel that open source are the
+gift to that not only the AI community
+all the tech community right so open
+source is where the innovation thrives
+mhm I'm a big fan of the open source
+throughout my career uh I I built a lot
+of projects around the open source tools
+and coming back to the ai the open
+source is a again a big g biggest guest
+gift so it's like Um I feel like u when
+you take the open source and you
+implement it like I compare it like we
+if you let's go you go to
+an shelter and you adopted a puppy right
+when you get it to your home you train
+it right you will uh train it how to
+behave so these open source is like I
+feel like the puppies those um models or
+whatever the artifacts that we are
+getting it so uh in in in my experience
+I worked on these lang chain hugging
+face models and lot of open source
+vector store databases. Mhm. So what
+they gave me is that like they help me
+to quickly implement speed uh speed
+implementation of the products and
+flexibility and also the larger
+community of the people to help you if
+something uh there is some issue in this
+opensource framework because everybody
+is ready to contribute right. So the
+these are the some of the advantages I
+see with the open source but there is a
+risk as well with this open source. One
+is that if you take the model we don't
+know the how the model was trained which
+data it was used to that one and we
+don't know that the model was tested in
+the regulated environments.
+Mhm. And uh sometimes if they are the
+open source models are pretty new you
+it's very difficult to find the
+documentation and support from the other
+people's as well right so these are the
+some of the challenges I I feel like it
+uh but when we come to when we bring
+this open source component uh to an
+industry so we need to have the same
+kind of um regulations around these open
+uh we need to apply the regulations on
+these open source that the way we apply
+for third party tools. Whenever the
+regulator industries they bring the
+third party they will go through a
+security checks make sure that there is
+no um black holes or any any data leak
+issues there with the tools. So we we do
+that same kind of thing with these uh
+open source components when we are
+bringing into the uh building the
+products. Mhm. I I think I feel like the
+regulations the regulation that we are
+going to see should encourage this open
+source but at the same time they should
+make put a regulations on that you
+should document all your opensource
+component that you are uh releasing to
+use like the transparency in the
+documentation is very very important um
+and it's like a I I feel like u we build
+um like building blocks these are the
+building blocks right if one of the
+building blocks have a hole then it
+might entirely impact your whole system
+whole structure of your system right so
+that's something we should be very
+careful when we are bringing them and
+other thing with the open source I like
+is that
+interoperability these may these will
+help us to plug and play the multiple
+components together to build your
+overall system
+without the open source if you go with
+one vendor if the that spe spe spe spe
+spe spe spe spe spe spe spe spe spe spe
+spe spe spe spe spe spe spe spe spe spe
+spe spe spe spe spe spe spe spe spe spe
+spe spe spe spe spe spe specific vendor
+has an some issue in their some bias is
+not undetected in that system then you
+the scale of the impact will be more
+across all the uh users are using those
+closed or vendor specific tools right so
+that that is something uh we we can
+avoid with the open source because it's
+use case specific you have a guardrails
+around that to um make sure it's not
+impacting your old
+system and also the plug and play kind
+of functionality you can if everybody is
+following the same standards with the
+open source you can easily replace the
+components of your overall systems
+without rewriting that's an huge effort
+in the uh industry like most of the
+times uh I see that one the legacy
+systems are very hard to replace but
+they are the backbones of the uh
+business functionality they are
+from my experience we try to replace
+them in one go but we never succeeded in
+replacing that one go
+so the legacy systems are more more
+vendor specific but with the open source
+you get a flexibility to to easily
+replace the um building blocks so that's
+something I see that uh some of the
+greatest um advantages with these
+open-source components
+No, that's true. U so what you're saying
+uh Naresious you're for opensource open
+source makes innovation thrive. It
+creates efficiency with you know
+building blocks that you can plug and
+play etc. But there needs to be some
+kind of safeguards with documentation
+and things of that nature uh that kind
+of need to happen. um you know uh Naresh
+you also been a mentor to a lot of uh
+you know people etc uh in your
+career workforce is changing
+dramatically and so I'm going to talk
+about two basic things as far as
+workforce is
+concerned and we are seeing this right
+now across the board in terms of uh
+layoff offs in tech companies. Now they
+can say it's efficiency etc focusing
+refocusing etc etc but some of these
+companies have actually come out and
+said 25% of their code is now written by
+AI some companies have said even 50%
+will be
+etc. So from a workforce
+standpoint, you know, I want to
+understand your thoughts and what would
+you say to policy makers when you look
+at some major seismic shifts that are
+happening in there and the second
+question I have is really related to
+this but it is related to agentic AI
+where you are going to have now people
+say we're going to hire people to be
+agent managers or whatever the new uh
+you buzzword is so you're going to
+basically manage a thousand digital
+agents
+etc. That tells me it'll be thousand
+less workers or at least 100 less
+workers or whatever it
+is. Now what are the policy implications
+if the agent makes a mistake? Is the
+manager responsible or is who is where
+is the from a policy standpoint? So my
+one question is about what happens uh
+from a policy standpoint with this
+transformation in um uh from workforce
+in and then what's happening with this
+whole agent workforce that we are
+building very very fast.
+U okay yeah I think these are the great
+questions uh uh
+Sanjay I I I've been uh over the weekend
+I do these mentoring activities I meet
+the people um mostly the people across
+the US as well as from India and some
+people from the Africa
+I always remind them that a won't
+replace the people but I say that the
+way you do your job will change with a
+I this is one of the example I always
+give like when the ATMs came uh around
+'90s right '90s or 2000s so they did not
+remove the bank workers right all they
+the bank cashiers transformed to an
+advisor like what what they can do right
+they can give an advice when they are
+opening so it changed the same thing
+with the AI as well I feel that AI
+automates task the even the agents
+automates the task but they are not
+replacing old system
+that that's that's my observation and uh
+yeah that fear is real between the
+people always ask me will I be replaced
+so I think that's where uh the
+regulations of the government should
+help the people
+uh let the companies to adopt the AI but
+at the same time they should support the
+people during that shift. M what I felt
+is like government should come up with
+um upskilling and reskilling programs
+available to the all the uh roles those
+are mostly impacted by this AI
+automation and the other thing is like
+the government should assess the impact
+of this major AI deployment like the
+companies are going to deploy a product
+they should evaluate which roles are
+going to be impacted and what is the
+other program we can help these people
+to be upskilled so that they will be
+available for the next generation of the
+work and also I feel this is something
+incentivized like if the
+company holds the people even after
+automation bringing their AI if they
+incentivize the people and help the
+people to grow or or expand their uh
+skills that's another way I feel like uh
+helping the um this workforce
+with the AI
+automation. When when I was u talking to
+these people, lot of people like I I I
+always tell them that um AI um my moto
+of this mentoring is like making the
+learning is democratization or the AI is
+democratization.
+So that's where I try to talk to the
+people and explain how they can navigate
+their careers. uh I if you look at me I
+am not an AI developer from the
+beginning AI engineer or leader I was
+transitioned through my career from
+legacy system to that one I always give
+them an example so the only one way for
+you to be relevant in the industry with
+the uh the rapid involvement of techn uh
+advancement of the technology is like
+keep upskilling having in a dedicated
+time of your uh in your day or in a
+month have your personal time where you
+can invest learn on something that will
+help your career. So that's something to
+be people to avoid the fear of a
+replacing their
+jobs and and the other question you
+asked like the agent AI these companies
+are replacing that um I honestly I don't
+buy in that idea of that with the agency
+they are replacing the people uh in my
+in my close observation when I was I I
+spoke with this lot of people you
+mentioned who are lost their jobs in
+this process of the AI automation. I I I
+see it's more of like an hype than
+reality. In fact these uh what I felt is
+that most of the times these
+organization did not invest on these
+people to upskill themsel and due to the
+various reasons and they did not upskill
+by themsel. So and with the little bit
+of the automation helping them. So they
+definitely don't need to need a 100
+people maybe they need a 10 people to do
+the same job. So at the end in the
+industry it's all a balance sheet right
+they have to show what is the outcome
+right so they have to let the people to
+go go. Mhm. So I I I don't blame the uh
+this any of the industries. It's like
+individually you know that one we are we
+are the far more intelligent than AI
+systems. We should be know that one. We
+should be ready.
+Mhm.
+Mhm. So narish what you're saying is
+reskilling upskilling is uh important
+and you don't buy that these agents will
+replace human beings um uh etc. Now
+obviously some of these companies are
+saying some of these agents are PhD
+level uh agents that can do you know
+very high-end
+um uh research all kinds of other works
+etc. Um but obviously uh you know that's
+a long topic that we could spend a lot
+of time on because it's a very important
+topic because
+um you know today when someone's coming
+go either going to college or coming out
+of college they probably are thinking
+what should I be learning or if you're
+coming out of college did I learn the
+right thing because we are at that
+pivotal moment. Did I learn the right
+thing? Um because if you're a CS
+computer science major, is that uh going
+to get you a
+job? Uh like I said, we don't know. But
+uh what we do towards the end uh Nares
+is for our audience. We do a quick
+lightning round questions just a little
+fun. Uh these are you know uh one-word
+answers. Uh so are you ready for that?
+Yeah, sure.
+Okay. So, uh this is just focus on um AI
+regulation, AI policy. So, uh Naresh
+current AI regulation globally is it
+adequate or is it insufficient?
+Insufficient.
+Okay. And uh today if you were to look
+at the biggest AI risk is it technical
+or is it social?
+Social always. Okay.
+uh from a AI governance priority and
+this is for our policy makers who are
+listening to you. Should they focus on
+innovation or safety? Safety first.
+Okay. And AI regulation should they be
+global or national?
+Uh it's a global but uh everybody
+represent interpret them in their own
+way. So there should be a global like in
+a health uh
+environmental regulations we have right?
+Mhm. That's what I Yeah. So finally nar
+most important data or algorithms?
+Data.
+Data. Data is as someone says the new
+oil or whatever it is. But Nares thank
+you so much for sharing your valuable
+insights with us today. you know your
+perspective on AI development,
+responsible innovation, you know,
+regulation in the financial sector about
+workforce mentoring, the tiered uh
+structure that you lay out uh and
+responsibility for, you know, errors,
+mistakes, you know, that provides us
+with critical guidance as we, you know,
+collectively navigate the complexities
+of AI. And to our listeners, thank you
+for joining the regulating AI podcast
+where we continue to explore the
+pathways to a fair, democratic and
+innovative AIdriven future. Don't forget
+to subscribe for more expert
+conversations. Until next time, this is
+Sanjay Puri. Stay curious, stay informed
+and stay
+responsible. Thank you Nares. This was
+fabulous. Really, really enjoyed having
+you on the podcast.
+Thank you Saj. Okay.
+[Music]

@@ -1,0 +1,7233 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "1aMuynlLM3o",
+  "video_title": "Trends in AI Infrastructure - Andrey Cheptsov",
+  "video_url": "https://www.youtube.com/watch?v=1aMuynlLM3o",
+  "fetched_at": "2025-12-30T09:09:14.653619+00:00",
+  "transcript": [
+    {
+      "text": "everyone Welcome to our event this is",
+      "start": 1.719,
+      "duration": 3.361
+    },
+    {
+      "text": "our first event in",
+      "start": 3.48,
+      "duration": 5.079
+    },
+    {
+      "text": "2025 happy New Year everyone and yeah",
+      "start": 5.08,
+      "duration": 5.519
+    },
+    {
+      "text": "I'm really excited to start the new year",
+      "start": 8.559,
+      "duration": 5.521
+    },
+    {
+      "text": "with this stream and uh but before like",
+      "start": 10.599,
+      "duration": 7.161
+    },
+    {
+      "text": "I'll do the usual thing so we have a lot",
+      "start": 14.08,
+      "duration": 7.16
+    },
+    {
+      "text": "of uh things a lot of events planned uh",
+      "start": 17.76,
+      "duration": 5.16
+    },
+    {
+      "text": "so there is a link in the description",
+      "start": 21.24,
+      "duration": 3.08
+    },
+    {
+      "text": "you can go there click on that link and",
+      "start": 22.92,
+      "duration": 2.679
+    },
+    {
+      "text": "see all the event we have on our",
+      "start": 24.32,
+      "duration": 3.56
+    },
+    {
+      "text": "pipeline uh there are a few like there",
+      "start": 25.599,
+      "duration": 5.08
+    },
+    {
+      "text": "is one Workshop there is um a few other",
+      "start": 27.88,
+      "duration": 5.76
+    },
+    {
+      "text": "things so check it out uh then of course",
+      "start": 30.679,
+      "duration": 4.161
+    },
+    {
+      "text": "if you have not subscribed to our",
+      "start": 33.64,
+      "duration": 2.84
+    },
+    {
+      "text": "YouTube channel now it's the best time",
+      "start": 34.84,
+      "duration": 3.36
+    },
+    {
+      "text": "to do it so click on the Subscribe",
+      "start": 36.48,
+      "duration": 3.88
+    },
+    {
+      "text": "button and then you'll get notified",
+      "start": 38.2,
+      "duration": 4.08
+    },
+    {
+      "text": "about all future streams like the one we",
+      "start": 40.36,
+      "duration": 3.8
+    },
+    {
+      "text": "have today and last but not least we",
+      "start": 42.28,
+      "duration": 3.439
+    },
+    {
+      "text": "have an amazing slack Community where",
+      "start": 44.16,
+      "duration": 3.879
+    },
+    {
+      "text": "you can hang out with other data inas",
+      "start": 45.719,
+      "duration": 4.281
+    },
+    {
+      "text": "the link is also in the description",
+      "start": 48.039,
+      "duration": 3.84
+    },
+    {
+      "text": "during today's interview you can ask any",
+      "start": 50.0,
+      "duration": 3.64
+    },
+    {
+      "text": "question you want there is a pin Link in",
+      "start": 51.879,
+      "duration": 3.921
+    },
+    {
+      "text": "the live chat click on that link ask",
+      "start": 53.64,
+      "duration": 3.719
+    },
+    {
+      "text": "your questions and we will be covering",
+      "start": 55.8,
+      "duration": 2.96
+    },
+    {
+      "text": "these questions during the",
+      "start": 57.359,
+      "duration": 4.081
+    },
+    {
+      "text": "interview um it's good that I still",
+      "start": 58.76,
+      "duration": 4.479
+    },
+    {
+      "text": "remember this thing I think if you just",
+      "start": 61.44,
+      "duration": 3.439
+    },
+    {
+      "text": "wake me up in the middle of the night",
+      "start": 63.239,
+      "duration": 3.2
+    },
+    {
+      "text": "I'll still be able to do this",
+      "start": 64.879,
+      "duration": 3.761
+    },
+    {
+      "text": "introduction hopefully even though it's",
+      "start": 66.439,
+      "duration": 5.04
+    },
+    {
+      "text": "been roughly one month since the last",
+      "start": 68.64,
+      "duration": 6.72
+    },
+    {
+      "text": "maybe slightly less but anyways um so",
+      "start": 71.479,
+      "duration": 7.081
+    },
+    {
+      "text": "now I will open the questions that we",
+      "start": 75.36,
+      "duration": 6.24
+    },
+    {
+      "text": "prepared for you and if you're ready we",
+      "start": 78.56,
+      "duration": 3.919
+    },
+    {
+      "text": "can",
+      "start": 81.6,
+      "duration": 3.159
+    },
+    {
+      "text": "start yeah I should",
+      "start": 82.479,
+      "duration": 5.041
+    },
+    {
+      "text": "it yeah so then this week we'll talk",
+      "start": 84.759,
+      "duration": 4.801
+    },
+    {
+      "text": "about AI infrastructure everything",
+      "start": 87.52,
+      "duration": 4.279
+    },
+    {
+      "text": "around that that uh maybe we'll slightly",
+      "start": 89.56,
+      "duration": 4.599
+    },
+    {
+      "text": "talk about we'll talk a bit about Trends",
+      "start": 91.799,
+      "duration": 4.401
+    },
+    {
+      "text": "in a infrastructure but we will see",
+      "start": 94.159,
+      "duration": 3.96
+    },
+    {
+      "text": "where the conversation goes so we have a",
+      "start": 96.2,
+      "duration": 3.84
+    },
+    {
+      "text": "special guest today Andre Andre is the",
+      "start": 98.119,
+      "duration": 4.96
+    },
+    {
+      "text": "founder and CEO of DC which is an open",
+      "start": 100.04,
+      "duration": 5.48
+    },
+    {
+      "text": "source alternative to kubernetes and SL",
+      "start": 103.079,
+      "duration": 4.08
+    },
+    {
+      "text": "I don't know what slur is I know what",
+      "start": 105.52,
+      "duration": 3.44
+    },
+    {
+      "text": "kubernetes is but we'll probably talk",
+      "start": 107.159,
+      "duration": 4.64
+    },
+    {
+      "text": "about that uh and the idea behind this",
+      "start": 108.96,
+      "duration": 4.72
+    },
+    {
+      "text": "Tech is it's build to simplify the",
+      "start": 111.799,
+      "duration": 4.081
+    },
+    {
+      "text": "artion of AI infrastructure before this",
+      "start": 113.68,
+      "duration": 5.6
+    },
+    {
+      "text": "T Andre worked at J jet brains for 10",
+      "start": 115.88,
+      "duration": 6.4
+    },
+    {
+      "text": "years helping different teams make the",
+      "start": 119.28,
+      "duration": 4.439
+    },
+    {
+      "text": "best developer",
+      "start": 122.28,
+      "duration": 6.28
+    },
+    {
+      "text": "tools so welcome thank you Alex for",
+      "start": 123.719,
+      "duration": 6.841
+    },
+    {
+      "text": "introducing me and yeah also for",
+      "start": 128.56,
+      "duration": 5.319
+    },
+    {
+      "text": "inviting so yeah uh pretty excited",
+      "start": 130.56,
+      "duration": 5.0
+    },
+    {
+      "text": "talking about the infra and everything",
+      "start": 133.879,
+      "duration": 4.72
+    },
+    {
+      "text": "that is",
+      "start": 135.56,
+      "duration": 5.36
+    },
+    {
+      "text": "related and we've actually known each",
+      "start": 138.599,
+      "duration": 4.801
+    },
+    {
+      "text": "other for quite some time so it was long",
+      "start": 140.92,
+      "duration": 4.76
+    },
+    {
+      "text": "overdue to actually invite you so thanks",
+      "start": 143.4,
+      "duration": 5.16
+    },
+    {
+      "text": "for accepting the invite and um as",
+      "start": 145.68,
+      "duration": 4.36
+    },
+    {
+      "text": "always the questions for today interview",
+      "start": 148.56,
+      "duration": 3.72
+    },
+    {
+      "text": "you are prepared by Johanna Bayer thanks",
+      "start": 150.04,
+      "duration": 5.24
+    },
+    {
+      "text": "Johanna for help and let's start with",
+      "start": 152.28,
+      "duration": 5.4
+    },
+    {
+      "text": "our main topic AI",
+      "start": 155.28,
+      "duration": 5.679
+    },
+    {
+      "text": "infrastructure and before we go into the",
+      "start": 157.68,
+      "duration": 5.76
+    },
+    {
+      "text": "main topic let's talk about your",
+      "start": 160.959,
+      "duration": 3.961
+    },
+    {
+      "text": "background can you tell us about your",
+      "start": 163.44,
+      "duration": 6.64
+    },
+    {
+      "text": "career Journey so far sure um well um I",
+      "start": 164.92,
+      "duration": 8.0
+    },
+    {
+      "text": "started my professional career as a",
+      "start": 170.08,
+      "duration": 5.36
+    },
+    {
+      "text": "software engineer and back then I didn't",
+      "start": 172.92,
+      "duration": 5.08
+    },
+    {
+      "text": "call it in professional career just um",
+      "start": 175.44,
+      "duration": 6.56
+    },
+    {
+      "text": "liked coding uh um and I even skip",
+      "start": 178.0,
+      "duration": 5.72
+    },
+    {
+      "text": "sometimes going to school because I was",
+      "start": 182.0,
+      "duration": 4.959
+    },
+    {
+      "text": "working on some coding problem uh",
+      "start": 183.72,
+      "duration": 6.12
+    },
+    {
+      "text": "started coding at high school yes yes",
+      "start": 186.959,
+      "duration": 5.681
+    },
+    {
+      "text": "and I missed those days when I coded it",
+      "start": 189.84,
+      "duration": 4.92
+    },
+    {
+      "text": "only for fun",
+      "start": 192.64,
+      "duration": 3.8
+    },
+    {
+      "text": "um",
+      "start": 194.76,
+      "duration": 5.119
+    },
+    {
+      "text": "great don't we all those",
+      "start": 196.44,
+      "duration": 7.359
+    },
+    {
+      "text": "things then I switch to professional um",
+      "start": 199.879,
+      "duration": 7.601
+    },
+    {
+      "text": "software development um and yeah worked",
+      "start": 203.799,
+      "duration": 7.36
+    },
+    {
+      "text": "in different companies uh one of the",
+      "start": 207.48,
+      "duration": 5.88
+    },
+    {
+      "text": "companies's worst mentioning was Dev",
+      "start": 211.159,
+      "duration": 5.0
+    },
+    {
+      "text": "experts um I lived in s Petersburg the",
+      "start": 213.36,
+      "duration": 5.48
+    },
+    {
+      "text": "company was uh making professional tools",
+      "start": 216.159,
+      "duration": 5.64
+    },
+    {
+      "text": "for Traders like options talks",
+      "start": 218.84,
+      "duration": 6.319
+    },
+    {
+      "text": "everything um and that was quite fun so",
+      "start": 221.799,
+      "duration": 5.761
+    },
+    {
+      "text": "while that was professional development",
+      "start": 225.159,
+      "duration": 6.0
+    },
+    {
+      "text": "I really enjoyed uh that and then I uh",
+      "start": 227.56,
+      "duration": 7.48
+    },
+    {
+      "text": "joined J RS and it was basically a dream",
+      "start": 231.159,
+      "duration": 7.241
+    },
+    {
+      "text": "job uh as a programmer um at least for",
+      "start": 235.04,
+      "duration": 6.44
+    },
+    {
+      "text": "me and I know for many other people uh",
+      "start": 238.4,
+      "duration": 7.24
+    },
+    {
+      "text": "well J Rin tools are the the best uh and",
+      "start": 241.48,
+      "duration": 7.08
+    },
+    {
+      "text": "um when I was invited to to join them it",
+      "start": 245.64,
+      "duration": 8.599
+    },
+    {
+      "text": "was super super cool uh um thing um and",
+      "start": 248.56,
+      "duration": 9.56
+    },
+    {
+      "text": "yeah um I like you mentioned spend there",
+      "start": 254.239,
+      "duration": 6.12
+    },
+    {
+      "text": "like a 10 years uh working with",
+      "start": 258.12,
+      "duration": 4.44
+    },
+    {
+      "text": "different teams I started working with",
+      "start": 260.359,
+      "duration": 6.961
+    },
+    {
+      "text": "intellig then also um was um helping",
+      "start": 262.56,
+      "duration": 7.76
+    },
+    {
+      "text": "launch a data group this an ID for for",
+      "start": 267.32,
+      "duration": 6.319
+    },
+    {
+      "text": "um for working with database and then",
+      "start": 270.32,
+      "duration": 6.0
+    },
+    {
+      "text": "also worked with other IDs as well help",
+      "start": 273.639,
+      "duration": 6.161
+    },
+    {
+      "text": "launch goand is a go ID and and",
+      "start": 276.32,
+      "duration": 7.0
+    },
+    {
+      "text": "eventually eventually I uh joined the",
+      "start": 279.8,
+      "duration": 6.64
+    },
+    {
+      "text": "pycharm team as a PM and uh what I was",
+      "start": 283.32,
+      "duration": 5.96
+    },
+    {
+      "text": "working on was uh called Data spell this",
+      "start": 286.44,
+      "duration": 6.72
+    },
+    {
+      "text": "is actually a dedicated ID for data",
+      "start": 289.28,
+      "duration": 7.04
+    },
+    {
+      "text": "analysis and data science um and it is",
+      "start": 293.16,
+      "duration": 6.319
+    },
+    {
+      "text": "also a part of pie charm and this is how",
+      "start": 296.32,
+      "duration": 6.4
+    },
+    {
+      "text": "I was introduced to machine learning and",
+      "start": 299.479,
+      "duration": 5.601
+    },
+    {
+      "text": "that that's what eventually caused me to",
+      "start": 302.72,
+      "duration": 5.96
+    },
+    {
+      "text": "to leave Jet brains to fully focus on",
+      "start": 305.08,
+      "duration": 7.16
+    },
+    {
+      "text": "D how did this idea of",
+      "start": 308.68,
+      "duration": 6.76
+    },
+    {
+      "text": "actually focusing on this Tech come to",
+      "start": 312.24,
+      "duration": 6.92
+    },
+    {
+      "text": "you why why this te why this topic why",
+      "start": 315.44,
+      "duration": 5.319
+    },
+    {
+      "text": "you thought that okay like this is the",
+      "start": 319.16,
+      "duration": 4.12
+    },
+    {
+      "text": "problem people have and I want to focus",
+      "start": 320.759,
+      "duration": 5.761
+    },
+    {
+      "text": "full-time on U solving this",
+      "start": 323.28,
+      "duration": 7.919
+    },
+    {
+      "text": "problem right um yeah this is a I mean",
+      "start": 326.52,
+      "duration": 7.399
+    },
+    {
+      "text": "this is certainly a topic that we can",
+      "start": 331.199,
+      "duration": 6.12
+    },
+    {
+      "text": "talk about longer than we we have time",
+      "start": 333.919,
+      "duration": 6.12
+    },
+    {
+      "text": "for for this one uh but maybe if you ask",
+      "start": 337.319,
+      "duration": 7.921
+    },
+    {
+      "text": "me for very few uh specific reasons uh",
+      "start": 340.039,
+      "duration": 9.88
+    },
+    {
+      "text": "um one uh one is I remember very",
+      "start": 345.24,
+      "duration": 7.48
+    },
+    {
+      "text": "specifically I I was um I was doing",
+      "start": 349.919,
+      "duration": 4.601
+    },
+    {
+      "text": "quite a lot of interviews with different",
+      "start": 352.72,
+      "duration": 4.44
+    },
+    {
+      "text": "my teams and I one one topic that I've",
+      "start": 354.52,
+      "duration": 6.0
+    },
+    {
+      "text": "heard a lot um I was always curious like",
+      "start": 357.16,
+      "duration": 5.64
+    },
+    {
+      "text": "okay so what is standing in the way in",
+      "start": 360.52,
+      "duration": 4.2
+    },
+    {
+      "text": "your way what is standing in the way of",
+      "start": 362.8,
+      "duration": 5.839
+    },
+    {
+      "text": "your ml team um and oh you can imagine",
+      "start": 364.72,
+      "duration": 6.08
+    },
+    {
+      "text": "there are so many problems right as an",
+      "start": 368.639,
+      "duration": 6.201
+    },
+    {
+      "text": "my team you can deal with uh but one",
+      "start": 370.8,
+      "duration": 6.92
+    },
+    {
+      "text": "that struck me like a super interesting",
+      "start": 374.84,
+      "duration": 5.6
+    },
+    {
+      "text": "one is uh",
+      "start": 377.72,
+      "duration": 5.0
+    },
+    {
+      "text": "um there are two ways and there are",
+      "start": 380.44,
+      "duration": 4.08
+    },
+    {
+      "text": "still two ways to to do machine learning",
+      "start": 382.72,
+      "duration": 4.039
+    },
+    {
+      "text": "today one is on Prem and other one is",
+      "start": 384.52,
+      "duration": 5.84
+    },
+    {
+      "text": "cloud and um um there were some teams",
+      "start": 386.759,
+      "duration": 7.121
+    },
+    {
+      "text": "that uh couldn't do either of them",
+      "start": 390.36,
+      "duration": 5.88
+    },
+    {
+      "text": "because uh the cost was a big topic like",
+      "start": 393.88,
+      "duration": 5.159
+    },
+    {
+      "text": "for example on Prem infrastructure is is",
+      "start": 396.24,
+      "duration": 4.799
+    },
+    {
+      "text": "fixed cost you have to invest a lot of",
+      "start": 399.039,
+      "duration": 4.16
+    },
+    {
+      "text": "time and then you have to utilize that",
+      "start": 401.039,
+      "duration": 5.841
+    },
+    {
+      "text": "that hardware and that's uh quite hard",
+      "start": 403.199,
+      "duration": 5.72
+    },
+    {
+      "text": "to to make this decision about investing",
+      "start": 406.88,
+      "duration": 4.28
+    },
+    {
+      "text": "this uh this money and before you do",
+      "start": 408.919,
+      "duration": 6.28
+    },
+    {
+      "text": "that investment um um I mean in order to",
+      "start": 411.16,
+      "duration": 5.8
+    },
+    {
+      "text": "do that you have to clearly understand",
+      "start": 415.199,
+      "duration": 5.321
+    },
+    {
+      "text": "how you would utilize that and uh",
+      "start": 416.96,
+      "duration": 5.359
+    },
+    {
+      "text": "how to make this uh process",
+      "start": 420.52,
+      "duration": 3.44
+    },
+    {
+      "text": "straightforward for the entire team so",
+      "start": 422.319,
+      "duration": 4.0
+    },
+    {
+      "text": "there's a lot of risks associated with",
+      "start": 423.96,
+      "duration": 4.12
+    },
+    {
+      "text": "that right and that that's why a lot of",
+      "start": 426.319,
+      "duration": 5.201
+    },
+    {
+      "text": "companies are not that uh open to to",
+      "start": 428.08,
+      "duration": 7.0
+    },
+    {
+      "text": "using on PR and the other one the cloud",
+      "start": 431.52,
+      "duration": 5.64
+    },
+    {
+      "text": "cloud what what we know about cloud is",
+      "start": 435.08,
+      "duration": 5.799
+    },
+    {
+      "text": "it's expensive right um and when it when",
+      "start": 437.16,
+      "duration": 5.36
+    },
+    {
+      "text": "when it comes to machine learning uh",
+      "start": 440.879,
+      "duration": 3.681
+    },
+    {
+      "text": "it's even more expensive uh so if if you",
+      "start": 442.52,
+      "duration": 5.799
+    },
+    {
+      "text": "look at uh the cost structure for uh",
+      "start": 444.56,
+      "duration": 6.56
+    },
+    {
+      "text": "well those teams that do cutting age",
+      "start": 448.319,
+      "duration": 5.401
+    },
+    {
+      "text": "development in AI it's it's very costly",
+      "start": 451.12,
+      "duration": 4.88
+    },
+    {
+      "text": "of course um compan is very concerned",
+      "start": 453.72,
+      "duration": 4.28
+    },
+    {
+      "text": "about that and",
+      "start": 456.0,
+      "duration": 4.44
+    },
+    {
+      "text": "um but the more I worked with different",
+      "start": 458.0,
+      "duration": 4.28
+    },
+    {
+      "text": "teams the more I learned that there were",
+      "start": 460.44,
+      "duration": 6.199
+    },
+    {
+      "text": "ways to work this around um but but",
+      "start": 462.28,
+      "duration": 6.16
+    },
+    {
+      "text": "again there were no straightforward way",
+      "start": 466.639,
+      "duration": 3.52
+    },
+    {
+      "text": "for example when when it comes to Cloud",
+      "start": 468.44,
+      "duration": 3.96
+    },
+    {
+      "text": "development right now everybody knows",
+      "start": 470.159,
+      "duration": 4.16
+    },
+    {
+      "text": "that is thanks to the tools like",
+      "start": 472.4,
+      "duration": 6.479
+    },
+    {
+      "text": "terraform like kubernetes um and Docker",
+      "start": 474.319,
+      "duration": 5.681
+    },
+    {
+      "text": "it's it's not",
+      "start": 478.879,
+      "duration": 2.921
+    },
+    {
+      "text": "rocket science anymore when it comes to",
+      "start": 480.0,
+      "duration": 3.759
+    },
+    {
+      "text": "deploying to to Cloud now it's",
+      "start": 481.8,
+      "duration": 3.92
+    },
+    {
+      "text": "predictable I mean of course cost is a",
+      "start": 483.759,
+      "duration": 4.321
+    },
+    {
+      "text": "is a concern but but thanks to these",
+      "start": 485.72,
+      "duration": 4.479
+    },
+    {
+      "text": "open source tools is a lot more",
+      "start": 488.08,
+      "duration": 4.6
+    },
+    {
+      "text": "straightforward process and that's why",
+      "start": 490.199,
+      "duration": 4.801
+    },
+    {
+      "text": "originally I thought there should be",
+      "start": 492.68,
+      "duration": 5.04
+    },
+    {
+      "text": "something for an now uh that would",
+      "start": 495.0,
+      "duration": 6.12
+    },
+    {
+      "text": "greatly reduce the costs of ownership",
+      "start": 497.72,
+      "duration": 5.64
+    },
+    {
+      "text": "and the entire process that that's why I",
+      "start": 501.12,
+      "duration": 4.16
+    },
+    {
+      "text": "started working on",
+      "start": 503.36,
+      "duration": 5.239
+    },
+    {
+      "text": "this there is something for ML but uh",
+      "start": 505.28,
+      "duration": 5.16
+    },
+    {
+      "text": "you know all this tools like Sage maker",
+      "start": 508.599,
+      "duration": 4.36
+    },
+    {
+      "text": "but I guess when we talk about costs",
+      "start": 510.44,
+      "duration": 4.839
+    },
+    {
+      "text": "then this is become becoming an issue",
+      "start": 512.959,
+      "duration": 6.721
+    },
+    {
+      "text": "right it's a good example uh yeah well",
+      "start": 515.279,
+      "duration": 6.64
+    },
+    {
+      "text": "while Sage maker is one of the best most",
+      "start": 519.68,
+      "duration": 4.56
+    },
+    {
+      "text": "mature let's say Amo platforms for",
+      "start": 521.919,
+      "duration": 5.121
+    },
+    {
+      "text": "working with aob yes um of course",
+      "start": 524.24,
+      "duration": 6.92
+    },
+    {
+      "text": "they're certainly like not addressed by",
+      "start": 527.04,
+      "duration": 6.239
+    },
+    {
+      "text": "that tool at all and that's also why",
+      "start": 531.16,
+      "duration": 4.08
+    },
+    {
+      "text": "people are afraid of using cloud in the",
+      "start": 533.279,
+      "duration": 3.281
+    },
+    {
+      "text": "first",
+      "start": 535.24,
+      "duration": 3.64
+    },
+    {
+      "text": "place yeah because I I remember when I",
+      "start": 536.56,
+      "duration": 5.0
+    },
+    {
+      "text": "joined my prev company um as a senior",
+      "start": 538.88,
+      "duration": 5.32
+    },
+    {
+      "text": "data scientist was like um six years ago",
+      "start": 541.56,
+      "duration": 5.279
+    },
+    {
+      "text": "yes so the first thing I wanted to do is",
+      "start": 544.2,
+      "duration": 6.0
+    },
+    {
+      "text": "get a a machine with a GPU with couple",
+      "start": 546.839,
+      "duration": 7.041
+    },
+    {
+      "text": "of gpus and then yeah like I don't think",
+      "start": 550.2,
+      "duration": 6.6
+    },
+    {
+      "text": "they still have it cuz like I I wrote a",
+      "start": 553.88,
+      "duration": 4.959
+    },
+    {
+      "text": "proposal saying hey like I want to have",
+      "start": 556.8,
+      "duration": 5.159
+    },
+    {
+      "text": "this uh uh machine with this gpus and",
+      "start": 558.839,
+      "duration": 5.481
+    },
+    {
+      "text": "then uh everyone approved it but then it",
+      "start": 561.959,
+      "duration": 5.12
+    },
+    {
+      "text": "never just happened cuz like the cost of",
+      "start": 564.32,
+      "duration": 6.44
+    },
+    {
+      "text": "ownership of this like this GPU needs to",
+      "start": 567.079,
+      "duration": 5.401
+    },
+    {
+      "text": "this computer needs to stay somewhere",
+      "start": 570.76,
+      "duration": 3.759
+    },
+    {
+      "text": "right somebody needs to look after it",
+      "start": 572.48,
+      "duration": 3.4
+    },
+    {
+      "text": "and with the cloud sometimes it's way",
+      "start": 574.519,
+      "duration": 3.32
+    },
+    {
+      "text": "simpler to just you know you go there",
+      "start": 575.88,
+      "duration": 4.16
+    },
+    {
+      "text": "click a button but then when you click a",
+      "start": 577.839,
+      "duration": 4.56
+    },
+    {
+      "text": "button and then a month later you see",
+      "start": 580.04,
+      "duration": 5.919
+    },
+    {
+      "text": "the bill it's like okay it's expensive",
+      "start": 582.399,
+      "duration": 6.281
+    },
+    {
+      "text": "so one of the first tasks I had as a",
+      "start": 585.959,
+      "duration": 4.161
+    },
+    {
+      "text": "senior data scientist at the same",
+      "start": 588.68,
+      "duration": 4.279
+    },
+    {
+      "text": "company was porting some code from Sage",
+      "start": 590.12,
+      "duration": 4.2
+    },
+    {
+      "text": "maker to",
+      "start": 592.959,
+      "duration": 6.481
+    },
+    {
+      "text": "kubernetes so I guess this is how people",
+      "start": 594.32,
+      "duration": 7.56
+    },
+    {
+      "text": "used to do this right yes and while many",
+      "start": 599.44,
+      "duration": 8.04
+    },
+    {
+      "text": "of this um much of this is still um um",
+      "start": 601.88,
+      "duration": 7.88
+    },
+    {
+      "text": "actual topic today of course is still a",
+      "start": 607.48,
+      "duration": 4.359
+    },
+    {
+      "text": "problem and it's not",
+      "start": 609.76,
+      "duration": 4.759
+    },
+    {
+      "text": "solved um there are even more challenges",
+      "start": 611.839,
+      "duration": 6.041
+    },
+    {
+      "text": "ahead right now since since uh basically",
+      "start": 614.519,
+      "duration": 5.241
+    },
+    {
+      "text": "how they say CH GPT moment there are",
+      "start": 617.88,
+      "duration": 5.12
+    },
+    {
+      "text": "even bigger challenges and that that's",
+      "start": 619.76,
+      "duration": 5.36
+    },
+    {
+      "text": "yeah makes AI in even more important",
+      "start": 623.0,
+      "duration": 3.92
+    },
+    {
+      "text": "topic",
+      "start": 625.12,
+      "duration": 3.88
+    },
+    {
+      "text": "today for how long have you been doing",
+      "start": 626.92,
+      "duration": 3.68
+    },
+    {
+      "text": "this",
+      "start": 629.0,
+      "duration": 7.279
+    },
+    {
+      "text": "um it's uh it's now um two years U maybe",
+      "start": 630.6,
+      "duration": 9.88
+    },
+    {
+      "text": "just a bit years yeah uh but it's two",
+      "start": 636.279,
+      "duration": 6.481
+    },
+    {
+      "text": "years I think we have known each other",
+      "start": 640.48,
+      "duration": 4.84
+    },
+    {
+      "text": "for two years maybe slightly more right",
+      "start": 642.76,
+      "duration": 6.72
+    },
+    {
+      "text": "so basically I managed to see the tack",
+      "start": 645.32,
+      "duration": 7.079
+    },
+    {
+      "text": "starting yes yes I was I was uh",
+      "start": 649.48,
+      "duration": 4.76
+    },
+    {
+      "text": "basically doing um doing some",
+      "start": 652.399,
+      "duration": 3.721
+    },
+    {
+      "text": "experiments even though I was was still",
+      "start": 654.24,
+      "duration": 6.92
+    },
+    {
+      "text": "with jet BRS um and um and yeah it went",
+      "start": 656.12,
+      "duration": 9.44
+    },
+    {
+      "text": "U like what I call official day I qued",
+      "start": 661.16,
+      "duration": 7.0
+    },
+    {
+      "text": "J okay",
+      "start": 665.56,
+      "duration": 6.399
+    },
+    {
+      "text": "okay so um so the question I have the",
+      "start": 668.16,
+      "duration": 5.96
+    },
+    {
+      "text": "next one is how did you begin working on",
+      "start": 671.959,
+      "duration": 4.041
+    },
+    {
+      "text": "on AI infrastructure but I think you",
+      "start": 674.12,
+      "duration": 4.32
+    },
+    {
+      "text": "partly answered that right so you",
+      "start": 676.0,
+      "duration": 7.6
+    },
+    {
+      "text": "started uh as a PM at jet brains right",
+      "start": 678.44,
+      "duration": 7.199
+    },
+    {
+      "text": "uh you saw some things related to",
+      "start": 683.6,
+      "duration": 4.28
+    },
+    {
+      "text": "machine learning and then you understood",
+      "start": 685.639,
+      "duration": 3.88
+    },
+    {
+      "text": "that there is a problem you started St",
+      "start": 687.88,
+      "duration": 3.88
+    },
+    {
+      "text": "and this is how it happened",
+      "start": 689.519,
+      "duration": 7.76
+    },
+    {
+      "text": "right um yeah in a in a rough sense uh",
+      "start": 691.76,
+      "duration": 8.6
+    },
+    {
+      "text": "well what what I can uh tell about J BRS",
+      "start": 697.279,
+      "duration": 7.24
+    },
+    {
+      "text": "is that it's this very flat company",
+      "start": 700.36,
+      "duration": 7.36
+    },
+    {
+      "text": "where well while of course everyone has",
+      "start": 704.519,
+      "duration": 6.641
+    },
+    {
+      "text": "a dedicated Ro uh still it's it's very",
+      "start": 707.72,
+      "duration": 5.559
+    },
+    {
+      "text": "close to programming so for example a",
+      "start": 711.16,
+      "duration": 3.72
+    },
+    {
+      "text": "lot of marketing people that work with J",
+      "start": 713.279,
+      "duration": 3.921
+    },
+    {
+      "text": "Brands they were originally programmers",
+      "start": 714.88,
+      "duration": 4.48
+    },
+    {
+      "text": "and that's why they they were hard to do",
+      "start": 717.2,
+      "duration": 4.079
+    },
+    {
+      "text": "marketing and that's how I got into jet",
+      "start": 719.36,
+      "duration": 3.599
+    },
+    {
+      "text": "Brands to to do marketing and product",
+      "start": 721.279,
+      "duration": 2.761
+    },
+    {
+      "text": "management",
+      "start": 722.959,
+      "duration": 3.361
+    },
+    {
+      "text": "eventually um and then also everything",
+      "start": 724.04,
+      "duration": 3.76
+    },
+    {
+      "text": "you do at jet Brands is mostly around",
+      "start": 726.32,
+      "duration": 4.88
+    },
+    {
+      "text": "developer tuning um and that's why your",
+      "start": 727.8,
+      "duration": 5.44
+    },
+    {
+      "text": "your full-time job is to think about the",
+      "start": 731.2,
+      "duration": 3.84
+    },
+    {
+      "text": "developer experience taking feedback",
+      "start": 733.24,
+      "duration": 3.48
+    },
+    {
+      "text": "from the community to the development",
+      "start": 735.04,
+      "duration": 3.68
+    },
+    {
+      "text": "team and then spreading the word so",
+      "start": 736.72,
+      "duration": 5.64
+    },
+    {
+      "text": "basically um for me this even though it",
+      "start": 738.72,
+      "duration": 5.799
+    },
+    {
+      "text": "was a bit like",
+      "start": 742.36,
+      "duration": 5.039
+    },
+    {
+      "text": "challenging decision to to live to brins",
+      "start": 744.519,
+      "duration": 5.0
+    },
+    {
+      "text": "at the same time it didn't change much",
+      "start": 747.399,
+      "duration": 4.481
+    },
+    {
+      "text": "things for me uh I was I was still",
+      "start": 749.519,
+      "duration": 5.401
+    },
+    {
+      "text": "working on developer tooling uh it is",
+      "start": 751.88,
+      "duration": 5.16
+    },
+    {
+      "text": "just that I focused more on on very",
+      "start": 754.92,
+      "duration": 4.8
+    },
+    {
+      "text": "specific topic of AI",
+      "start": 757.04,
+      "duration": 6.44
+    },
+    {
+      "text": "infrastructure uh and yeah just title",
+      "start": 759.72,
+      "duration": 8.04
+    },
+    {
+      "text": "maybe changed on Twitter and nothing",
+      "start": 763.48,
+      "duration": 6.599
+    },
+    {
+      "text": "more well now you have to figure out",
+      "start": 767.76,
+      "duration": 4.639
+    },
+    {
+      "text": "where to get money yourself right well",
+      "start": 770.079,
+      "duration": 5.161
+    },
+    {
+      "text": "previously it was different especially",
+      "start": 772.399,
+      "duration": 6.161
+    },
+    {
+      "text": "working on open source for sure yeah so",
+      "start": 775.24,
+      "duration": 5.08
+    },
+    {
+      "text": "speaking of open source that's actually",
+      "start": 778.56,
+      "duration": 4.8
+    },
+    {
+      "text": "the other thing like I wanted to ask you",
+      "start": 780.32,
+      "duration": 5.72
+    },
+    {
+      "text": "why open source why did you decide to",
+      "start": 783.36,
+      "duration": 5.68
+    },
+    {
+      "text": "work in the open and I see this is a",
+      "start": 786.04,
+      "duration": 4.88
+    },
+    {
+      "text": "trend many companies actually start",
+      "start": 789.04,
+      "duration": 5.56
+    },
+    {
+      "text": "working uh in open source some start as",
+      "start": 790.92,
+      "duration": 6.12
+    },
+    {
+      "text": "closed Source but then they make their",
+      "start": 794.6,
+      "duration": 5.12
+    },
+    {
+      "text": "code open eventually so why did you make",
+      "start": 797.04,
+      "duration": 6.52
+    },
+    {
+      "text": "this decision of uh to follow this model",
+      "start": 799.72,
+      "duration": 7.04
+    },
+    {
+      "text": "to work on open source to uh open all",
+      "start": 803.56,
+      "duration": 6.36
+    },
+    {
+      "text": "your code from the beginning",
+      "start": 806.76,
+      "duration": 8.079
+    },
+    {
+      "text": "uh right um yeah",
+      "start": 809.92,
+      "duration": 7.279
+    },
+    {
+      "text": "well I",
+      "start": 814.839,
+      "duration": 5.961
+    },
+    {
+      "text": "think um it's a it's a clear pattern",
+      "start": 817.199,
+      "duration": 7.921
+    },
+    {
+      "text": "right a lot of for example",
+      "start": 820.8,
+      "duration": 7.52
+    },
+    {
+      "text": "um we we know a lot a lot of developer",
+      "start": 825.12,
+      "duration": 6.8
+    },
+    {
+      "text": "choose are open source uh and even",
+      "start": 828.32,
+      "duration": 6.199
+    },
+    {
+      "text": "without knowing the actual reasons why",
+      "start": 831.92,
+      "duration": 5.359
+    },
+    {
+      "text": "people decide to open source uh we can",
+      "start": 834.519,
+      "duration": 4.76
+    },
+    {
+      "text": "we can see that the clear pattern that",
+      "start": 837.279,
+      "duration": 3.601
+    },
+    {
+      "text": "that a lot of developer tools are open",
+      "start": 839.279,
+      "duration": 4.36
+    },
+    {
+      "text": "source so there must be a reason right",
+      "start": 840.88,
+      "duration": 4.8
+    },
+    {
+      "text": "uh that would go beyond someone's",
+      "start": 843.639,
+      "duration": 5.081
+    },
+    {
+      "text": "personal opinion about like whether",
+      "start": 845.68,
+      "duration": 4.76
+    },
+    {
+      "text": "something should be open source or not",
+      "start": 848.72,
+      "duration": 4.2
+    },
+    {
+      "text": "of course in the end the company has",
+      "start": 850.44,
+      "duration": 3.92
+    },
+    {
+      "text": "just as you said",
+      "start": 852.92,
+      "duration": 7.039
+    },
+    {
+      "text": "commercial um interest um uh there are",
+      "start": 854.36,
+      "duration": 9.56
+    },
+    {
+      "text": "not so many uh fully known profit",
+      "start": 859.959,
+      "duration": 6.641
+    },
+    {
+      "text": "companies uh one we know is open AI",
+      "start": 863.92,
+      "duration": 7.32
+    },
+    {
+      "text": "which is as it comes not nonprofit",
+      "start": 866.6,
+      "duration": 7.599
+    },
+    {
+      "text": "anymore but uh they recently changed",
+      "start": 871.24,
+      "duration": 7.32
+    },
+    {
+      "text": "their model completely right uh true uh",
+      "start": 874.199,
+      "duration": 9.0
+    },
+    {
+      "text": "yes uh again I I don't know the story at",
+      "start": 878.56,
+      "duration": 7.199
+    },
+    {
+      "text": "full detail but it's it's a known fact",
+      "start": 883.199,
+      "duration": 5.44
+    },
+    {
+      "text": "that they started as nonprofit uh and it",
+      "start": 885.759,
+      "duration": 6.121
+    },
+    {
+      "text": "was financed as a nonprofit but at",
+      "start": 888.639,
+      "duration": 5.12
+    },
+    {
+      "text": "certain point the motel has changed",
+      "start": 891.88,
+      "duration": 3.879
+    },
+    {
+      "text": "again the motel is is always a",
+      "start": 893.759,
+      "duration": 4.64
+    },
+    {
+      "text": "reflection of uh uh what is the best way",
+      "start": 895.759,
+      "duration": 4.841
+    },
+    {
+      "text": "to achieve the goal right sometimes goal",
+      "start": 898.399,
+      "duration": 5.641
+    },
+    {
+      "text": "change change sometimes uh we change our",
+      "start": 900.6,
+      "duration": 5.32
+    },
+    {
+      "text": "minds about what is the best way to get",
+      "start": 904.04,
+      "duration": 4.2
+    },
+    {
+      "text": "where we want uh so which is totally",
+      "start": 905.92,
+      "duration": 5.359
+    },
+    {
+      "text": "fine I think and again there's I would",
+      "start": 908.24,
+      "duration": 6.2
+    },
+    {
+      "text": "not rant to be honest now that I",
+      "start": 911.279,
+      "duration": 6.161
+    },
+    {
+      "text": "mentioned open AI that well non commerci",
+      "start": 914.44,
+      "duration": 5.24
+    },
+    {
+      "text": "nonprofit is better than commercial or",
+      "start": 917.44,
+      "duration": 3.519
+    },
+    {
+      "text": "the the other way around I would just",
+      "start": 919.68,
+      "duration": 4.56
+    },
+    {
+      "text": "say that um we we",
+      "start": 920.959,
+      "duration": 7.0
+    },
+    {
+      "text": "see normally we see a pattern that most",
+      "start": 924.24,
+      "duration": 7.2
+    },
+    {
+      "text": "of a Point has to go commercial way and",
+      "start": 927.959,
+      "duration": 5.44
+    },
+    {
+      "text": "we know that a lot of the opp tooling",
+      "start": 931.44,
+      "duration": 3.92
+    },
+    {
+      "text": "companies leverage open source as the",
+      "start": 933.399,
+      "duration": 4.12
+    },
+    {
+      "text": "way",
+      "start": 935.36,
+      "duration": 5.64
+    },
+    {
+      "text": "forward now now getting back to to to",
+      "start": 937.519,
+      "duration": 7.041
+    },
+    {
+      "text": "the question that you asked um for D",
+      "start": 941.0,
+      "duration": 5.16
+    },
+    {
+      "text": "well",
+      "start": 944.56,
+      "duration": 4.0
+    },
+    {
+      "text": "we this was not",
+      "start": 946.16,
+      "duration": 6.359
+    },
+    {
+      "text": "their um let's say obvious decision for",
+      "start": 948.56,
+      "duration": 5.839
+    },
+    {
+      "text": "for us for example when we started we",
+      "start": 952.519,
+      "duration": 3.401
+    },
+    {
+      "text": "were not really sure whether it should",
+      "start": 954.399,
+      "duration": 4.8
+    },
+    {
+      "text": "be open source or not but uh the more we",
+      "start": 955.92,
+      "duration": 4.719
+    },
+    {
+      "text": "talked with different teams that were",
+      "start": 959.199,
+      "duration": 4.44
+    },
+    {
+      "text": "using different tools uh the well the",
+      "start": 960.639,
+      "duration": 5.081
+    },
+    {
+      "text": "more we learn from that and one of the",
+      "start": 963.639,
+      "duration": 6.281
+    },
+    {
+      "text": "learnings was that open source has um",
+      "start": 965.72,
+      "duration": 7.72
+    },
+    {
+      "text": "one advantage um when it comes to infa",
+      "start": 969.92,
+      "duration": 5.44
+    },
+    {
+      "text": "for example when it comes to using",
+      "start": 973.44,
+      "duration": 4.319
+    },
+    {
+      "text": "something within the company that is",
+      "start": 975.36,
+      "duration": 5.08
+    },
+    {
+      "text": "sensitive to the infrastructure uh there",
+      "start": 977.759,
+      "duration": 5.44
+    },
+    {
+      "text": "is typically process and uh well in",
+      "start": 980.44,
+      "duration": 5.44
+    },
+    {
+      "text": "order to move the tool forward and and",
+      "start": 983.199,
+      "duration": 4.601
+    },
+    {
+      "text": "increase this adoption you you need to",
+      "start": 985.88,
+      "duration": 4.519
+    },
+    {
+      "text": "bring adopter or early adopters of the",
+      "start": 987.8,
+      "duration": 4.44
+    },
+    {
+      "text": "tool and then most importantly you need",
+      "start": 990.399,
+      "duration": 4.601
+    },
+    {
+      "text": "to get feedback from them to to the team",
+      "start": 992.24,
+      "duration": 5.8
+    },
+    {
+      "text": "so you can uh improve the tool and open",
+      "start": 995.0,
+      "duration": 6.199
+    },
+    {
+      "text": "source um is uh one of the best",
+      "start": 998.04,
+      "duration": 5.0
+    },
+    {
+      "text": "Frameworks that allow you to set out",
+      "start": 1001.199,
+      "duration": 4.241
+    },
+    {
+      "text": "this process um again there could be",
+      "start": 1003.04,
+      "duration": 4.719
+    },
+    {
+      "text": "different ways and there's no way to say",
+      "start": 1005.44,
+      "duration": 4.079
+    },
+    {
+      "text": "that open source is better than",
+      "start": 1007.759,
+      "duration": 7.041
+    },
+    {
+      "text": "something else um for me as a as a as a",
+      "start": 1009.519,
+      "duration": 7.44
+    },
+    {
+      "text": "someone who has always been working with",
+      "start": 1014.8,
+      "duration": 5.36
+    },
+    {
+      "text": "developer tooling um",
+      "start": 1016.959,
+      "duration": 5.36
+    },
+    {
+      "text": "to me it's it's a lot I I understand",
+      "start": 1020.16,
+      "duration": 4.0
+    },
+    {
+      "text": "better how developers think so for me",
+      "start": 1022.319,
+      "duration": 4.681
+    },
+    {
+      "text": "it's much easier to to communicate",
+      "start": 1024.16,
+      "duration": 5.159
+    },
+    {
+      "text": "directly to the development team rather",
+      "start": 1027.0,
+      "duration": 4.0
+    },
+    {
+      "text": "than for example to go through this",
+      "start": 1029.319,
+      "duration": 5.561
+    },
+    {
+      "text": "sales cycle and uh work with a decision",
+      "start": 1031.0,
+      "duration": 6.28
+    },
+    {
+      "text": "makers that that are not technical at",
+      "start": 1034.88,
+      "duration": 6.24
+    },
+    {
+      "text": "all um which which is the way that also",
+      "start": 1037.28,
+      "duration": 6.24
+    },
+    {
+      "text": "works but but for me uh due to the",
+      "start": 1041.12,
+      "duration": 3.719
+    },
+    {
+      "text": "background and everything it's it's a",
+      "start": 1043.52,
+      "duration": 3.039
+    },
+    {
+      "text": "lot easier to to communicate to the",
+      "start": 1044.839,
+      "duration": 3.441
+    },
+    {
+      "text": "developers and really relate to their",
+      "start": 1046.559,
+      "duration": 3.881
+    },
+    {
+      "text": "problems that that's why open source is",
+      "start": 1048.28,
+      "duration": 3.759
+    },
+    {
+      "text": "the is the best one of the best",
+      "start": 1050.44,
+      "duration": 3.8
+    },
+    {
+      "text": "approaches to",
+      "start": 1052.039,
+      "duration": 5.481
+    },
+    {
+      "text": "that and I I think I don't also know the",
+      "start": 1054.24,
+      "duration": 5.16
+    },
+    {
+      "text": "story behind open Ai and what they were",
+      "start": 1057.52,
+      "duration": 3.76
+    },
+    {
+      "text": "doing but I think at the beginning they",
+      "start": 1059.4,
+      "duration": 4.159
+    },
+    {
+      "text": "were actually open they were releasing",
+      "start": 1061.28,
+      "duration": 5.08
+    },
+    {
+      "text": "uh many things that they were doing open",
+      "start": 1063.559,
+      "duration": 4.961
+    },
+    {
+      "text": "source I think gpt2 was open source",
+      "start": 1066.36,
+      "duration": 4.36
+    },
+    {
+      "text": "right if I remember correctly they also",
+      "start": 1068.52,
+      "duration": 4.08
+    },
+    {
+      "text": "did a lot of things like",
+      "start": 1070.72,
+      "duration": 4.64
+    },
+    {
+      "text": "whisper uh clip right so many many",
+      "start": 1072.6,
+      "duration": 6.0
+    },
+    {
+      "text": "things were actually open sourced but",
+      "start": 1075.36,
+      "duration": 5.28
+    },
+    {
+      "text": "then when they realized that they",
+      "start": 1078.6,
+      "duration": 4.68
+    },
+    {
+      "text": "sitting on a gold mine right when they",
+      "start": 1080.64,
+      "duration": 5.159
+    },
+    {
+      "text": "released gpt3 they thought maybe this is",
+      "start": 1083.28,
+      "duration": 4.2
+    },
+    {
+      "text": "the cow we should milk right we",
+      "start": 1085.799,
+      "duration": 4.481
+    },
+    {
+      "text": "shouldn't just release it uh but then of",
+      "start": 1087.48,
+      "duration": 6.92
+    },
+    {
+      "text": "course people started to uh reproduce it",
+      "start": 1090.28,
+      "duration": 5.8
+    },
+    {
+      "text": "like the there was I don't remember the",
+      "start": 1094.4,
+      "duration": 3.519
+    },
+    {
+      "text": "name of the company but basically like",
+      "start": 1096.08,
+      "duration": 4.719
+    },
+    {
+      "text": "there were people who repeated Chad GPT",
+      "start": 1097.919,
+      "duration": 6.521
+    },
+    {
+      "text": "gpt3 as open source and they were on par",
+      "start": 1100.799,
+      "duration": 6.12
+    },
+    {
+      "text": "when it comes to Performance and then of",
+      "start": 1104.44,
+      "duration": 4.8
+    },
+    {
+      "text": "course uh what I see now GPT is",
+      "start": 1106.919,
+      "duration": 3.681
+    },
+    {
+      "text": "releasing something is releasing",
+      "start": 1109.24,
+      "duration": 3.12
+    },
+    {
+      "text": "something and then open source Community",
+      "start": 1110.6,
+      "duration": 4.16
+    },
+    {
+      "text": "tries to catch up so what is your",
+      "start": 1112.36,
+      "duration": 4.559
+    },
+    {
+      "text": "opinion um so we have some close Source",
+      "start": 1114.76,
+      "duration": 6.159
+    },
+    {
+      "text": "Solutions like uh open AI anthropic",
+      "start": 1116.919,
+      "duration": 4.88
+    },
+    {
+      "text": "right so",
+      "start": 1120.919,
+      "duration": 4.0
+    },
+    {
+      "text": "that give really good performance right",
+      "start": 1121.799,
+      "duration": 5.281
+    },
+    {
+      "text": "they give models um but they also",
+      "start": 1124.919,
+      "duration": 4.481
+    },
+    {
+      "text": "Hostess models versus you have due to",
+      "start": 1127.08,
+      "duration": 6.44
+    },
+    {
+      "text": "yourself uh open source like uh so many",
+      "start": 1129.4,
+      "duration": 6.36
+    },
+    {
+      "text": "different models with different uh",
+      "start": 1133.52,
+      "duration": 5.399
+    },
+    {
+      "text": "characteristics uh with different uh I",
+      "start": 1135.76,
+      "duration": 6.08
+    },
+    {
+      "text": "don't know patterns of usage with",
+      "start": 1138.919,
+      "duration": 5.12
+    },
+    {
+      "text": "different use cases uh so what's your",
+      "start": 1141.84,
+      "duration": 4.28
+    },
+    {
+      "text": "opinion on that like where is the",
+      "start": 1144.039,
+      "duration": 5.681
+    },
+    {
+      "text": "industry going with all that right right",
+      "start": 1146.12,
+      "duration": 6.76
+    },
+    {
+      "text": "yeah this is um um it's a Pity that uh",
+      "start": 1149.72,
+      "duration": 5.319
+    },
+    {
+      "text": "we we have to discuss it uh super",
+      "start": 1152.88,
+      "duration": 6.6
+    },
+    {
+      "text": "briefly uh this one topics that uh that",
+      "start": 1155.039,
+      "duration": 10.12
+    },
+    {
+      "text": "we could uh talk hours um um and I i'",
+      "start": 1159.48,
+      "duration": 8.04
+    },
+    {
+      "text": "I've i' I've done some some talks",
+      "start": 1165.159,
+      "duration": 4.721
+    },
+    {
+      "text": "recently about closed Source models",
+      "start": 1167.52,
+      "duration": 5.6
+    },
+    {
+      "text": "versus open source models um and I had a",
+      "start": 1169.88,
+      "duration": 5.72
+    },
+    {
+      "text": "chance to to think and reflect on that",
+      "start": 1173.12,
+      "duration": 6.799
+    },
+    {
+      "text": "um and what I what I think is um a lot",
+      "start": 1175.6,
+      "duration": 7.4
+    },
+    {
+      "text": "of people get confused uh because people",
+      "start": 1179.919,
+      "duration": 6.0
+    },
+    {
+      "text": "uh I mean maybe it's sounds as like I'm",
+      "start": 1183.0,
+      "duration": 5.48
+    },
+    {
+      "text": "getting old but um it seems that a lot",
+      "start": 1185.919,
+      "duration": 6.361
+    },
+    {
+      "text": "of people live in a bubble um and uh for",
+      "start": 1188.48,
+      "duration": 5.36
+    },
+    {
+      "text": "example there's a lot of conversation",
+      "start": 1192.28,
+      "duration": 3.48
+    },
+    {
+      "text": "okay so what is better proprietary or",
+      "start": 1193.84,
+      "duration": 5.24
+    },
+    {
+      "text": "open source will open source catch up uh",
+      "start": 1195.76,
+      "duration": 5.08
+    },
+    {
+      "text": "and to me it it seems like people live",
+      "start": 1199.08,
+      "duration": 4.839
+    },
+    {
+      "text": "in a bubble uh because they the world",
+      "start": 1200.84,
+      "duration": 5.199
+    },
+    {
+      "text": "basically is very small and they think",
+      "start": 1203.919,
+      "duration": 4.161
+    },
+    {
+      "text": "okay so which is",
+      "start": 1206.039,
+      "duration": 4.561
+    },
+    {
+      "text": "better if you think of it a bit more uh",
+      "start": 1208.08,
+      "duration": 5.12
+    },
+    {
+      "text": "you'll realize that you cannot even",
+      "start": 1210.6,
+      "duration": 4.959
+    },
+    {
+      "text": "frame the questions like that doesn't",
+      "start": 1213.2,
+      "duration": 5.64
+    },
+    {
+      "text": "even matter what is better or like uh",
+      "start": 1215.559,
+      "duration": 5.081
+    },
+    {
+      "text": "there are so many different dimensions",
+      "start": 1218.84,
+      "duration": 6.319
+    },
+    {
+      "text": "here to this to this question um and",
+      "start": 1220.64,
+      "duration": 5.84
+    },
+    {
+      "text": "it's not even a question of what is",
+      "start": 1225.159,
+      "duration": 3.561
+    },
+    {
+      "text": "better like at all nobody really cares",
+      "start": 1226.48,
+      "duration": 4.36
+    },
+    {
+      "text": "what is better it's it's not even a",
+      "start": 1228.72,
+      "duration": 4.92
+    },
+    {
+      "text": "question that is important at all like",
+      "start": 1230.84,
+      "duration": 4.079
+    },
+    {
+      "text": "worth",
+      "start": 1233.64,
+      "duration": 5.48
+    },
+    {
+      "text": "discussing uh the question is like",
+      "start": 1234.919,
+      "duration": 7.481
+    },
+    {
+      "text": "sorry okay yeah I'm just wondering where",
+      "start": 1239.12,
+      "duration": 8.919
+    },
+    {
+      "text": "is it going right um so um um if if if",
+      "start": 1242.4,
+      "duration": 12.48
+    },
+    {
+      "text": "you think of um um like of propriatary",
+      "start": 1248.039,
+      "duration": 9.841
+    },
+    {
+      "text": "models and um and open source models you",
+      "start": 1254.88,
+      "duration": 6.44
+    },
+    {
+      "text": "see that those are two different um",
+      "start": 1257.88,
+      "duration": 4.799
+    },
+    {
+      "text": "different",
+      "start": 1261.32,
+      "duration": 5.599
+    },
+    {
+      "text": "businesses uh one business is about uh",
+      "start": 1262.679,
+      "duration": 6.561
+    },
+    {
+      "text": "more a",
+      "start": 1266.919,
+      "duration": 5.721
+    },
+    {
+      "text": "service uh and it's monolith it's",
+      "start": 1269.24,
+      "duration": 6.0
+    },
+    {
+      "text": "centralized it means there's one company",
+      "start": 1272.64,
+      "duration": 4.919
+    },
+    {
+      "text": "and it offers you a service and they",
+      "start": 1275.24,
+      "duration": 4.84
+    },
+    {
+      "text": "it's a very big company there's so many",
+      "start": 1277.559,
+      "duration": 4.401
+    },
+    {
+      "text": "Engineers working on different aspects",
+      "start": 1280.08,
+      "duration": 4.92
+    },
+    {
+      "text": "of that service and AI is a service it's",
+      "start": 1281.96,
+      "duration": 5.079
+    },
+    {
+      "text": "it's not just a model it's a it's so",
+      "start": 1285.0,
+      "duration": 4.159
+    },
+    {
+      "text": "many things in the end it's a service",
+      "start": 1287.039,
+      "duration": 5.0
+    },
+    {
+      "text": "that uh as we see impacts every part of",
+      "start": 1289.159,
+      "duration": 6.0
+    },
+    {
+      "text": "our life right so we chpt is much more",
+      "start": 1292.039,
+      "duration": 5.601
+    },
+    {
+      "text": "than just a model right yes uh it's it's",
+      "start": 1295.159,
+      "duration": 5.161
+    },
+    {
+      "text": "a lot more than model it's um it's um",
+      "start": 1297.64,
+      "duration": 4.68
+    },
+    {
+      "text": "it's a I don't know for me it's a new",
+      "start": 1300.32,
+      "duration": 5.08
+    },
+    {
+      "text": "Google right Google Chang our life now",
+      "start": 1302.32,
+      "duration": 5.08
+    },
+    {
+      "text": "we Google everything we can Google",
+      "start": 1305.4,
+      "duration": 3.879
+    },
+    {
+      "text": "anything and just the fact that we can",
+      "start": 1307.4,
+      "duration": 4.399
+    },
+    {
+      "text": "Google anything changes so many aspects",
+      "start": 1309.279,
+      "duration": 4.921
+    },
+    {
+      "text": "of our life so now that we can chpt",
+      "start": 1311.799,
+      "duration": 6.441
+    },
+    {
+      "text": "things um it's um it changes uh not even",
+      "start": 1314.2,
+      "duration": 5.88
+    },
+    {
+      "text": "how we I don't know how we search for",
+      "start": 1318.24,
+      "duration": 3.559
+    },
+    {
+      "text": "something but but how we work in China",
+      "start": 1320.08,
+      "duration": 5.36
+    },
+    {
+      "text": "so like it is like super uh disruptive",
+      "start": 1321.799,
+      "duration": 6.36
+    },
+    {
+      "text": "change but if you think of Open Source",
+      "start": 1325.44,
+      "duration": 5.08
+    },
+    {
+      "text": "AI open source AI is a totally different",
+      "start": 1328.159,
+      "duration": 4.601
+    },
+    {
+      "text": "business it's it's a business of",
+      "start": 1330.52,
+      "duration": 6.92
+    },
+    {
+      "text": "decentralized uh approach where um um",
+      "start": 1332.76,
+      "duration": 7.68
+    },
+    {
+      "text": "where it's not all done by one company",
+      "start": 1337.44,
+      "duration": 6.4
+    },
+    {
+      "text": "but it's all but it's when um different",
+      "start": 1340.44,
+      "duration": 6.719
+    },
+    {
+      "text": "aspects of that let's say business can",
+      "start": 1343.84,
+      "duration": 5.76
+    },
+    {
+      "text": "be done by different companies",
+      "start": 1347.159,
+      "duration": 4.041
+    },
+    {
+      "text": "and different",
+      "start": 1349.6,
+      "duration": 5.199
+    },
+    {
+      "text": "stakeholders um just one little example",
+      "start": 1351.2,
+      "duration": 5.839
+    },
+    {
+      "text": "here let's take privacy right you",
+      "start": 1354.799,
+      "duration": 4.36
+    },
+    {
+      "text": "consider bank and for bank it's very",
+      "start": 1357.039,
+      "duration": 4.681
+    },
+    {
+      "text": "important to control every aspect of um",
+      "start": 1359.159,
+      "duration": 4.721
+    },
+    {
+      "text": "what they call AI or what the employees",
+      "start": 1361.72,
+      "duration": 6.839
+    },
+    {
+      "text": "call AI um and they think totally",
+      "start": 1363.88,
+      "duration": 7.24
+    },
+    {
+      "text": "different way they think of control they",
+      "start": 1368.559,
+      "duration": 3.881
+    },
+    {
+      "text": "they think of",
+      "start": 1371.12,
+      "duration": 4.96
+    },
+    {
+      "text": "privacy um and this this monolith",
+      "start": 1372.44,
+      "duration": 5.4
+    },
+    {
+      "text": "approach just simply doesn't work it",
+      "start": 1376.08,
+      "duration": 3.0
+    },
+    {
+      "text": "doesn't work at",
+      "start": 1377.84,
+      "duration": 4.48
+    },
+    {
+      "text": "all um but then it's not only one like",
+      "start": 1379.08,
+      "duration": 5.92
+    },
+    {
+      "text": "Bank there are so many Industries um",
+      "start": 1382.32,
+      "duration": 4.8
+    },
+    {
+      "text": "where control and privacy matter",
+      "start": 1385.0,
+      "duration": 5.36
+    },
+    {
+      "text": "healthare right and yeah and then it's",
+      "start": 1387.12,
+      "duration": 6.2
+    },
+    {
+      "text": "not only controlling privacy it's also",
+      "start": 1390.36,
+      "duration": 5.6
+    },
+    {
+      "text": "competition right you like to compete",
+      "start": 1393.32,
+      "duration": 6.8
+    },
+    {
+      "text": "and um uh bring your own value otherwise",
+      "start": 1395.96,
+      "duration": 6.52
+    },
+    {
+      "text": "if AI will disrupt everything and then",
+      "start": 1400.12,
+      "duration": 4.52
+    },
+    {
+      "text": "your margin margin of every business",
+      "start": 1402.48,
+      "duration": 4.52
+    },
+    {
+      "text": "will shrink and shrink and shrink and",
+      "start": 1404.64,
+      "duration": 5.519
+    },
+    {
+      "text": "then you are not able to even compete so",
+      "start": 1407.0,
+      "duration": 5.24
+    },
+    {
+      "text": "you basically protect your business uh",
+      "start": 1410.159,
+      "duration": 4.321
+    },
+    {
+      "text": "by leveraging open source that's why",
+      "start": 1412.24,
+      "duration": 5.28
+    },
+    {
+      "text": "open source AI is such a big thing and",
+      "start": 1414.48,
+      "duration": 4.439
+    },
+    {
+      "text": "it doesn't even matter whether open",
+      "start": 1417.52,
+      "duration": 3.56
+    },
+    {
+      "text": "source AI is better than CH gbt or not",
+      "start": 1418.919,
+      "duration": 3.0
+    },
+    {
+      "text": "at",
+      "start": 1421.08,
+      "duration": 4.32
+    },
+    {
+      "text": "all so that's a bit ranty answer to your",
+      "start": 1421.919,
+      "duration": 6.161
+    },
+    {
+      "text": "question but that's Le it's more like uh",
+      "start": 1425.4,
+      "duration": 5.84
+    },
+    {
+      "text": "it depends right depends on your use",
+      "start": 1428.08,
+      "duration": 5.92
+    },
+    {
+      "text": "case um yes but but the whole point here",
+      "start": 1431.24,
+      "duration": 4.039
+    },
+    {
+      "text": "is",
+      "start": 1434.0,
+      "duration": 3.279
+    },
+    {
+      "text": "decentralization open source is about",
+      "start": 1435.279,
+      "duration": 5.801
+    },
+    {
+      "text": "decentral ation and it's a mega Trend",
+      "start": 1437.279,
+      "duration": 6.321
+    },
+    {
+      "text": "and it's Mega Trend uh that is not",
+      "start": 1441.08,
+      "duration": 4.4
+    },
+    {
+      "text": "influenced by the even the",
+      "start": 1443.6,
+      "duration": 4.16
+    },
+    {
+      "text": "quality the quality is the result of",
+      "start": 1445.48,
+      "duration": 3.88
+    },
+    {
+      "text": "that meat",
+      "start": 1447.76,
+      "duration": 4.2
+    },
+    {
+      "text": "Trend we we see that open source models",
+      "start": 1449.36,
+      "duration": 5.52
+    },
+    {
+      "text": "are better it's not that people use open",
+      "start": 1451.96,
+      "duration": 3.959
+    },
+    {
+      "text": "source model because they are better",
+      "start": 1454.88,
+      "duration": 2.72
+    },
+    {
+      "text": "than CH GPT they are better because",
+      "start": 1455.919,
+      "duration": 3.721
+    },
+    {
+      "text": "people need",
+      "start": 1457.6,
+      "duration": 4.16
+    },
+    {
+      "text": "that but it's not like they are better",
+      "start": 1459.64,
+      "duration": 4.279
+    },
+    {
+      "text": "in terms of performance but they are",
+      "start": 1461.76,
+      "duration": 4.76
+    },
+    {
+      "text": "better in terms of other aspects like",
+      "start": 1463.919,
+      "duration": 6.961
+    },
+    {
+      "text": "being able to control the data flow or",
+      "start": 1466.52,
+      "duration": 6.8
+    },
+    {
+      "text": "like other things being able to control",
+      "start": 1470.88,
+      "duration": 5.24
+    },
+    {
+      "text": "latency if you host it yourself yeah",
+      "start": 1473.32,
+      "duration": 6.16
+    },
+    {
+      "text": "yeah and then and that's when we can dis",
+      "start": 1476.12,
+      "duration": 5.88
+    },
+    {
+      "text": "then we can can compare some of the",
+      "start": 1479.48,
+      "duration": 5.4
+    },
+    {
+      "text": "aspects of of models uh",
+      "start": 1482.0,
+      "duration": 5.88
+    },
+    {
+      "text": "uh but but again to me does make sense",
+      "start": 1484.88,
+      "duration": 6.399
+    },
+    {
+      "text": "to compare them side by side",
+      "start": 1487.88,
+      "duration": 7.64
+    },
+    {
+      "text": "uh and what is certainly makes sense for",
+      "start": 1491.279,
+      "duration": 7.721
+    },
+    {
+      "text": "open source models is um",
+      "start": 1495.52,
+      "duration": 7.279
+    },
+    {
+      "text": "um whether they are customizable and",
+      "start": 1499.0,
+      "duration": 5.36
+    },
+    {
+      "text": "that's why we use them because they are",
+      "start": 1502.799,
+      "duration": 4.561
+    },
+    {
+      "text": "very easy to customize and but what even",
+      "start": 1504.36,
+      "duration": 4.799
+    },
+    {
+      "text": "more important is that there's another",
+      "start": 1507.36,
+      "duration": 5.76
+    },
+    {
+      "text": "Mega Trend here is that um it's getting",
+      "start": 1509.159,
+      "duration": 5.961
+    },
+    {
+      "text": "less rocket",
+      "start": 1513.12,
+      "duration": 5.799
+    },
+    {
+      "text": "science uh the process uh pre-training",
+      "start": 1515.12,
+      "duration": 6.6
+    },
+    {
+      "text": "and post trining is done getting easier",
+      "start": 1518.919,
+      "duration": 4.921
+    },
+    {
+      "text": "and simpler because this",
+      "start": 1521.72,
+      "duration": 5.76
+    },
+    {
+      "text": "decentralization trend going on we want",
+      "start": 1523.84,
+      "duration": 6.8
+    },
+    {
+      "text": "we may like it or we may not like it but",
+      "start": 1527.48,
+      "duration": 5.64
+    },
+    {
+      "text": "this trend is there and we cannot even",
+      "start": 1530.64,
+      "duration": 5.039
+    },
+    {
+      "text": "influence",
+      "start": 1533.12,
+      "duration": 2.559
+    },
+    {
+      "text": "that and do you know if these big",
+      "start": 1535.88,
+      "duration": 6.159
+    },
+    {
+      "text": "companies like uh so we have Meta Meta",
+      "start": 1538.12,
+      "duration": 6.72
+    },
+    {
+      "text": "releases meta contributes a lot to the",
+      "start": 1542.039,
+      "duration": 5.281
+    },
+    {
+      "text": "open source Community uh especially when",
+      "start": 1544.84,
+      "duration": 5.4
+    },
+    {
+      "text": "it comes to AI with models like llama do",
+      "start": 1547.32,
+      "duration": 6.719
+    },
+    {
+      "text": "you know if there is any if they put any",
+      "start": 1550.24,
+      "duration": 6.52
+    },
+    {
+      "text": "information in public how exactly uh",
+      "start": 1554.039,
+      "duration": 5.201
+    },
+    {
+      "text": "they train these models and what they AI",
+      "start": 1556.76,
+      "duration": 5.639
+    },
+    {
+      "text": "infrastructure uh",
+      "start": 1559.24,
+      "duration": 3.159
+    },
+    {
+      "text": "is well I want to answer for sure uh but",
+      "start": 1563.32,
+      "duration": 7.959
+    },
+    {
+      "text": "I would say yes",
+      "start": 1568.44,
+      "duration": 6.8
+    },
+    {
+      "text": "um um well te typically typically it's",
+      "start": 1571.279,
+      "duration": 6.501
+    },
+    {
+      "text": "called the technical report right",
+      "start": 1575.24,
+      "duration": 4.799
+    },
+    {
+      "text": "[Music]",
+      "start": 1577.78,
+      "duration": 3.779
+    },
+    {
+      "text": "um",
+      "start": 1580.039,
+      "duration": 5.52
+    },
+    {
+      "text": "even open AI while they not open",
+      "start": 1581.559,
+      "duration": 7.281
+    },
+    {
+      "text": "sourcing uh most of what they do um",
+      "start": 1585.559,
+      "duration": 5.72
+    },
+    {
+      "text": "still they are sharing some of the",
+      "start": 1588.84,
+      "duration": 4.079
+    },
+    {
+      "text": "information on how they and they",
+      "start": 1591.279,
+      "duration": 5.241
+    },
+    {
+      "text": "contributed significantly into",
+      "start": 1592.919,
+      "duration": 6.441
+    },
+    {
+      "text": "theity um and it started even before",
+      "start": 1596.52,
+      "duration": 5.279
+    },
+    {
+      "text": "that so like for example if you remember",
+      "start": 1599.36,
+      "duration": 4.439
+    },
+    {
+      "text": "this attention is all you need is like",
+      "start": 1601.799,
+      "duration": 4.681
+    },
+    {
+      "text": "it's dated I guess if I'm not mistaken",
+      "start": 1603.799,
+      "duration": 8.641
+    },
+    {
+      "text": "17th year yeah so it was 2017 yeah",
+      "start": 1606.48,
+      "duration": 7.679
+    },
+    {
+      "text": "2017",
+      "start": 1612.44,
+      "duration": 4.64
+    },
+    {
+      "text": "um and even though it wasn't open sour",
+      "start": 1614.159,
+      "duration": 5.601
+    },
+    {
+      "text": "but but uh the the P paper on on on this",
+      "start": 1617.08,
+      "duration": 4.8
+    },
+    {
+      "text": "algorithm on this Transformers thing uh",
+      "start": 1619.76,
+      "duration": 7.72
+    },
+    {
+      "text": "was was open um and of course meta um",
+      "start": 1621.88,
+      "duration": 7.84
+    },
+    {
+      "text": "went even further for example with a",
+      "start": 1627.48,
+      "duration": 5.0
+    },
+    {
+      "text": "Lama model U with at least with their",
+      "start": 1629.72,
+      "duration": 6.199
+    },
+    {
+      "text": "with the 3.1 they open they open the",
+      "start": 1632.48,
+      "duration": 6.559
+    },
+    {
+      "text": "weights again again sometimes people",
+      "start": 1635.919,
+      "duration": 5.76
+    },
+    {
+      "text": "rent about this word whether open source",
+      "start": 1639.039,
+      "duration": 5.481
+    },
+    {
+      "text": "actually applies to Motors and some",
+      "start": 1641.679,
+      "duration": 4.921
+    },
+    {
+      "text": "people prefer to say open ways to be",
+      "start": 1644.52,
+      "duration": 8.08
+    },
+    {
+      "text": "honest I I'm not that picky um um but",
+      "start": 1646.6,
+      "duration": 8.959
+    },
+    {
+      "text": "but the thing is um uh even opening I",
+      "start": 1652.6,
+      "duration": 5.88
+    },
+    {
+      "text": "shared a lot of details on how they do",
+      "start": 1655.559,
+      "duration": 5.0
+    },
+    {
+      "text": "post training or",
+      "start": 1658.48,
+      "duration": 5.48
+    },
+    {
+      "text": "pre-training uh and of course Lama uh",
+      "start": 1660.559,
+      "duration": 6.641
+    },
+    {
+      "text": "shared this um technical report on how",
+      "start": 1663.96,
+      "duration": 5.4
+    },
+    {
+      "text": "they trained it so there are so many",
+      "start": 1667.2,
+      "duration": 4.319
+    },
+    {
+      "text": "details on on how this is done and this",
+      "start": 1669.36,
+      "duration": 6.36
+    },
+    {
+      "text": "is also how the community learns um and",
+      "start": 1671.519,
+      "duration": 5.961
+    },
+    {
+      "text": "from it and it's it's a very good",
+      "start": 1675.72,
+      "duration": 4.72
+    },
+    {
+      "text": "example of um of what I mean with",
+      "start": 1677.48,
+      "duration": 4.679
+    },
+    {
+      "text": "decentralization it's not even about the",
+      "start": 1680.44,
+      "duration": 4.88
+    },
+    {
+      "text": "moral in the end it's not so much about",
+      "start": 1682.159,
+      "duration": 6.201
+    },
+    {
+      "text": "the moral it's it's about sharing um uh",
+      "start": 1685.32,
+      "duration": 6.28
+    },
+    {
+      "text": "the details on the technical details on",
+      "start": 1688.36,
+      "duration": 4.96
+    },
+    {
+      "text": "how the training and post training was",
+      "start": 1691.6,
+      "duration": 4.4
+    },
+    {
+      "text": "was done how many gpus were used what",
+      "start": 1693.32,
+      "duration": 5.079
+    },
+    {
+      "text": "was the what was the architecture of the",
+      "start": 1696.0,
+      "duration": 6.279
+    },
+    {
+      "text": "model so a lot of details are publicly",
+      "start": 1698.399,
+      "duration": 5.76
+    },
+    {
+      "text": "available and this is also one of the",
+      "start": 1702.279,
+      "duration": 5.52
+    },
+    {
+      "text": "best ways for learning how I start by by",
+      "start": 1704.159,
+      "duration": 6.921
+    },
+    {
+      "text": "reading technical reports uh might seem",
+      "start": 1707.799,
+      "duration": 7.281
+    },
+    {
+      "text": "that it's um it's a boring thing so some",
+      "start": 1711.08,
+      "duration": 5.439
+    },
+    {
+      "text": "some people might think oh it's too",
+      "start": 1715.08,
+      "duration": 3.599
+    },
+    {
+      "text": "boring maybe I'll just read some high",
+      "start": 1716.519,
+      "duration": 4.721
+    },
+    {
+      "text": "level overview but I personally",
+      "start": 1718.679,
+      "duration": 4.641
+    },
+    {
+      "text": "encourage everyone to read those",
+      "start": 1721.24,
+      "duration": 4.039
+    },
+    {
+      "text": "technical reports so they are not that",
+      "start": 1723.32,
+      "duration": 5.76
+    },
+    {
+      "text": "boring uh they are super interesting and",
+      "start": 1725.279,
+      "duration": 6.88
+    },
+    {
+      "text": "um well I mean I am actually a big fan",
+      "start": 1729.08,
+      "duration": 5.599
+    },
+    {
+      "text": "of books and um I I used to read a lot",
+      "start": 1732.159,
+      "duration": 5.281
+    },
+    {
+      "text": "and well most of that was fiction uh but",
+      "start": 1734.679,
+      "duration": 3.961
+    },
+    {
+      "text": "but nowadays",
+      "start": 1737.44,
+      "duration": 4.16
+    },
+    {
+      "text": "R fiction is super boring for me so",
+      "start": 1738.64,
+      "duration": 6.639
+    },
+    {
+      "text": "actually I find reg for a lot more",
+      "start": 1741.6,
+      "duration": 5.84
+    },
+    {
+      "text": "entertaining",
+      "start": 1745.279,
+      "duration": 6.4
+    },
+    {
+      "text": "okay uh yeah right uh and uh so since",
+      "start": 1747.44,
+      "duration": 6.2
+    },
+    {
+      "text": "you like this way of entertaining",
+      "start": 1751.679,
+      "duration": 4.281
+    },
+    {
+      "text": "yourself I'm just wondering what are the",
+      "start": 1753.64,
+      "duration": 4.84
+    },
+    {
+      "text": "challenges these companies discuss and",
+      "start": 1755.96,
+      "duration": 5.719
+    },
+    {
+      "text": "whether these challenges uh apply to",
+      "start": 1758.48,
+      "duration": 5.559
+    },
+    {
+      "text": "small smaller companies like I don't",
+      "start": 1761.679,
+      "duration": 4.24
+    },
+    {
+      "text": "know of course there are metas there are",
+      "start": 1764.039,
+      "duration": 4.401
+    },
+    {
+      "text": "Googles there are uh I don't know open",
+      "start": 1765.919,
+      "duration": 4.441
+    },
+    {
+      "text": "but there are companies like small",
+      "start": 1768.44,
+      "duration": 5.16
+    },
+    {
+      "text": "Enterprises or midsize companies or like",
+      "start": 1770.36,
+      "duration": 5.84
+    },
+    {
+      "text": "Smalls siiz companies they probably have",
+      "start": 1773.6,
+      "duration": 4.199
+    },
+    {
+      "text": "different training challenges right so",
+      "start": 1776.2,
+      "duration": 3.64
+    },
+    {
+      "text": "what are these challenges are in general",
+      "start": 1777.799,
+      "duration": 4.72
+    },
+    {
+      "text": "and how does this affect the the trends",
+      "start": 1779.84,
+      "duration": 4.559
+    },
+    {
+      "text": "in AI",
+      "start": 1782.519,
+      "duration": 6.721
+    },
+    {
+      "text": "infrastructure H yeah well um I mean uh",
+      "start": 1784.399,
+      "duration": 7.64
+    },
+    {
+      "text": "I I I prefer to call myself a generalist",
+      "start": 1789.24,
+      "duration": 5.88
+    },
+    {
+      "text": "that that's why I always uh try to at",
+      "start": 1792.039,
+      "duration": 4.921
+    },
+    {
+      "text": "least I'm interested not only in the",
+      "start": 1795.12,
+      "duration": 3.84
+    },
+    {
+      "text": "technical side of things but but also",
+      "start": 1796.96,
+      "duration": 3.599
+    },
+    {
+      "text": "the other one the other side of things",
+      "start": 1798.96,
+      "duration": 2.8
+    },
+    {
+      "text": "that that's why for example when when",
+      "start": 1800.559,
+      "duration": 2.681
+    },
+    {
+      "text": "you say okay so what are the challenges",
+      "start": 1801.76,
+      "duration": 4.399
+    },
+    {
+      "text": "I'm like um probably there are technical",
+      "start": 1803.24,
+      "duration": 5.039
+    },
+    {
+      "text": "challenges and every every team which is",
+      "start": 1806.159,
+      "duration": 4.36
+    },
+    {
+      "text": "focused on very specific thing has their",
+      "start": 1808.279,
+      "duration": 4.0
+    },
+    {
+      "text": "own challenges like for example there's",
+      "start": 1810.519,
+      "duration": 4.361
+    },
+    {
+      "text": "infra team there's this uh AI team",
+      "start": 1812.279,
+      "duration": 5.52
+    },
+    {
+      "text": "there's data team um well maybe we can",
+      "start": 1814.88,
+      "duration": 4.88
+    },
+    {
+      "text": "talk about since we talk about AI",
+      "start": 1817.799,
+      "duration": 4.161
+    },
+    {
+      "text": "infrastructure maybe we can focus on",
+      "start": 1819.76,
+      "duration": 5.159
+    },
+    {
+      "text": "that uh because in order to train a",
+      "start": 1821.96,
+      "duration": 5.8
+    },
+    {
+      "text": "model we need thousands of gpus right so",
+      "start": 1824.919,
+      "duration": 4.441
+    },
+    {
+      "text": "how do we get them in the first place",
+      "start": 1827.76,
+      "duration": 3.519
+    },
+    {
+      "text": "how do we coordinate like I guess these",
+      "start": 1829.36,
+      "duration": 3.4
+    },
+    {
+      "text": "are all the questions we need to think",
+      "start": 1831.279,
+      "duration": 3.4
+    },
+    {
+      "text": "about when we embark on something like",
+      "start": 1832.76,
+      "duration": 5.88
+    },
+    {
+      "text": "that yes yes yes uh which is still why",
+      "start": 1834.679,
+      "duration": 5.521
+    },
+    {
+      "text": "we have to think not only about",
+      "start": 1838.64,
+      "duration": 4.12
+    },
+    {
+      "text": "technical problems but also the other",
+      "start": 1840.2,
+      "duration": 6.16
+    },
+    {
+      "text": "side where where do we get money from uh",
+      "start": 1842.76,
+      "duration": 5.519
+    },
+    {
+      "text": "because because well what what we know",
+      "start": 1846.36,
+      "duration": 4.039
+    },
+    {
+      "text": "for sure is that without GPU we cannot",
+      "start": 1848.279,
+      "duration": 6.081
+    },
+    {
+      "text": "do that simply it's just possible",
+      "start": 1850.399,
+      "duration": 8.081
+    },
+    {
+      "text": "challenges or not challenges uh",
+      "start": 1854.36,
+      "duration": 7.679
+    },
+    {
+      "text": "for example like lamb 3.1 was trained",
+      "start": 1858.48,
+      "duration": 4.919
+    },
+    {
+      "text": "like",
+      "start": 1862.039,
+      "duration": 5.0
+    },
+    {
+      "text": "16,000 gpus using 16,000",
+      "start": 1863.399,
+      "duration": 8.561
+    },
+    {
+      "text": "GPS uh just for you to compare um",
+      "start": 1867.039,
+      "duration": 9.801
+    },
+    {
+      "text": "well um I I guess meta uh has uh an",
+      "start": 1871.96,
+      "duration": 6.719
+    },
+    {
+      "text": "another of magnitude more gpus in",
+      "start": 1876.84,
+      "duration": 4.439
+    },
+    {
+      "text": "general so they use only a fraction or",
+      "start": 1878.679,
+      "duration": 4.801
+    },
+    {
+      "text": "small fraction what they what they",
+      "start": 1881.279,
+      "duration": 7.64
+    },
+    {
+      "text": "actually have U to train this L 3.1",
+      "start": 1883.48,
+      "duration": 5.439
+    },
+    {
+      "text": "um but getting back uh so first first",
+      "start": 1889.519,
+      "duration": 7.04
+    },
+    {
+      "text": "question is is you need inra however I",
+      "start": 1894.36,
+      "duration": 4.159
+    },
+    {
+      "text": "was still to like to mention one thing",
+      "start": 1896.559,
+      "duration": 5.441
+    },
+    {
+      "text": "like um we we tend to think that it's",
+      "start": 1898.519,
+      "duration": 6.88
+    },
+    {
+      "text": "it's GPU that that we need to in the end",
+      "start": 1902.0,
+      "duration": 6.08
+    },
+    {
+      "text": "to train Frontier models right but what",
+      "start": 1905.399,
+      "duration": 5.481
+    },
+    {
+      "text": "was quite interesting recently was uh",
+      "start": 1908.08,
+      "duration": 3.88
+    },
+    {
+      "text": "deep",
+      "start": 1910.88,
+      "duration": 7.32
+    },
+    {
+      "text": "seek uh release this V3 model",
+      "start": 1911.96,
+      "duration": 8.24
+    },
+    {
+      "text": "it on my social media",
+      "start": 1918.2,
+      "duration": 4.88
+    },
+    {
+      "text": "feeds like um a couple of days ago I",
+      "start": 1920.2,
+      "duration": 5.64
+    },
+    {
+      "text": "just started seeing these posts all over",
+      "start": 1923.08,
+      "duration": 6.319
+    },
+    {
+      "text": "my yeah it was basically end of December",
+      "start": 1925.84,
+      "duration": 7.799
+    },
+    {
+      "text": "when when I seen the report uh they they",
+      "start": 1929.399,
+      "duration": 7.721
+    },
+    {
+      "text": "used a small fraction of what meta used",
+      "start": 1933.639,
+      "duration": 6.16
+    },
+    {
+      "text": "to train Lama 3.1 and they trained a",
+      "start": 1937.12,
+      "duration": 6.159
+    },
+    {
+      "text": "model that is um well another of magude",
+      "start": 1939.799,
+      "duration": 5.521
+    },
+    {
+      "text": "better I mean",
+      "start": 1943.279,
+      "duration": 5.601
+    },
+    {
+      "text": "MH maybe not another but",
+      "start": 1945.32,
+      "duration": 6.4
+    },
+    {
+      "text": "um significantly better in terms of",
+      "start": 1948.88,
+      "duration": 6.56
+    },
+    {
+      "text": "their benchmarks uh compared to L1 and",
+      "start": 1951.72,
+      "duration": 5.36
+    },
+    {
+      "text": "then also given the the size of the",
+      "start": 1955.44,
+      "duration": 3.64
+    },
+    {
+      "text": "money so what I'm I'm trying to say here",
+      "start": 1957.08,
+      "duration": 8.24
+    },
+    {
+      "text": "is that um GPU are important and uh and",
+      "start": 1959.08,
+      "duration": 8.4
+    },
+    {
+      "text": "money are important but it's not it's",
+      "start": 1965.32,
+      "duration": 4.92
+    },
+    {
+      "text": "not all of it so there are other aspects",
+      "start": 1967.48,
+      "duration": 5.039
+    },
+    {
+      "text": "but but back to your question uh by no",
+      "start": 1970.24,
+      "duration": 5.76
+    },
+    {
+      "text": "means I I would aim to you know kind of",
+      "start": 1972.519,
+      "duration": 6.12
+    },
+    {
+      "text": "answer your question at at depth",
+      "start": 1976.0,
+      "duration": 4.6
+    },
+    {
+      "text": "uh it's just super",
+      "start": 1978.639,
+      "duration": 6.4
+    },
+    {
+      "text": "super challenging even to generally",
+      "start": 1980.6,
+      "duration": 7.0
+    },
+    {
+      "text": "answer your question but but basically",
+      "start": 1985.039,
+      "duration": 4.48
+    },
+    {
+      "text": "you can think of uh like when it when it",
+      "start": 1987.6,
+      "duration": 7.28
+    },
+    {
+      "text": "comes to to like free training um it is",
+      "start": 1989.519,
+      "duration": 7.601
+    },
+    {
+      "text": "high scale and a lot of gpus are",
+      "start": 1994.88,
+      "duration": 4.639
+    },
+    {
+      "text": "involved means that it's distributed and",
+      "start": 1997.12,
+      "duration": 4.96
+    },
+    {
+      "text": "basically man distributed training is is",
+      "start": 1999.519,
+      "duration": 5.321
+    },
+    {
+      "text": "a big pain in the S uh and it's",
+      "start": 2002.08,
+      "duration": 6.479
+    },
+    {
+      "text": "basically it's a it's a it's a um if if",
+      "start": 2004.84,
+      "duration": 6.48
+    },
+    {
+      "text": "you if you speak with some of these",
+      "start": 2008.559,
+      "duration": 4.201
+    },
+    {
+      "text": "people they",
+      "start": 2011.32,
+      "duration": 5.16
+    },
+    {
+      "text": "are they are yeah they can share like",
+      "start": 2012.76,
+      "duration": 5.48
+    },
+    {
+      "text": "how",
+      "start": 2016.48,
+      "duration": 5.4
+    },
+    {
+      "text": "uh close to horrible the the in terms of",
+      "start": 2018.24,
+      "duration": 5.64
+    },
+    {
+      "text": "the complexity the the process is",
+      "start": 2021.88,
+      "duration": 4.84
+    },
+    {
+      "text": "basically just you have tons of gpus and",
+      "start": 2023.88,
+      "duration": 5.36
+    },
+    {
+      "text": "you need to run a process which is",
+      "start": 2026.72,
+      "duration": 4.6
+    },
+    {
+      "text": "coordinated uh on all those",
+      "start": 2029.24,
+      "duration": 3.399
+    },
+    {
+      "text": "infrastructure and then something",
+      "start": 2031.32,
+      "duration": 2.92
+    },
+    {
+      "text": "doesn't work and that's the main",
+      "start": 2032.639,
+      "duration": 2.92
+    },
+    {
+      "text": "challenge basically something doesn't",
+      "start": 2034.24,
+      "duration": 3.679
+    },
+    {
+      "text": "work on some of the nodes you have to do",
+      "start": 2035.559,
+      "duration": 3.36
+    },
+    {
+      "text": "with",
+      "start": 2037.919,
+      "duration": 3.561
+    },
+    {
+      "text": "that yeah the more gpus you have the",
+      "start": 2038.919,
+      "duration": 4.401
+    },
+    {
+      "text": "more chances that somebody something",
+      "start": 2041.48,
+      "duration": 4.319
+    },
+    {
+      "text": "will go wrong right yeah and and you",
+      "start": 2043.32,
+      "duration": 5.24
+    },
+    {
+      "text": "need to manage that at scale and uh of",
+      "start": 2045.799,
+      "duration": 5.001
+    },
+    {
+      "text": "course there are so many other issues",
+      "start": 2048.56,
+      "duration": 5.799
+    },
+    {
+      "text": "and you still need to address this",
+      "start": 2050.8,
+      "duration": 3.559
+    },
+    {
+      "text": "one uh do you know how does it actually",
+      "start": 2054.639,
+      "duration": 4.96
+    },
+    {
+      "text": "look like so probably there are computer",
+      "start": 2057.599,
+      "duration": 3.121
+    },
+    {
+      "text": "I don't know there's a computer with",
+      "start": 2059.599,
+      "duration": 3.121
+    },
+    {
+      "text": "four or hpus there's another computer",
+      "start": 2060.72,
+      "duration": 3.84
+    },
+    {
+      "text": "with four hpus and all these computers",
+      "start": 2062.72,
+      "duration": 3.919
+    },
+    {
+      "text": "are a part of a network and somehow you",
+      "start": 2064.56,
+      "duration": 5.44
+    },
+    {
+      "text": "need to um distribute your training",
+      "start": 2066.639,
+      "duration": 4.601
+    },
+    {
+      "text": "process across all these computers",
+      "start": 2070.0,
+      "duration": 3.76
+    },
+    {
+      "text": "across and each computer has a bunch of",
+      "start": 2071.24,
+      "duration": 4.48
+    },
+    {
+      "text": "gpus and then like each of these gpus",
+      "start": 2073.76,
+      "duration": 3.48
+    },
+    {
+      "text": "needs to compute something then send the",
+      "start": 2075.72,
+      "duration": 4.119
+    },
+    {
+      "text": "weight or gradients I don't know what",
+      "start": 2077.24,
+      "duration": 5.04
+    },
+    {
+      "text": "whatever it does somewhere back to the",
+      "start": 2079.839,
+      "duration": 4.481
+    },
+    {
+      "text": "central location right so this is how",
+      "start": 2082.28,
+      "duration": 3.92
+    },
+    {
+      "text": "roughly it looks like",
+      "start": 2084.32,
+      "duration": 7.16
+    },
+    {
+      "text": "or uh yes uh but um again just like any",
+      "start": 2086.2,
+      "duration": 8.32
+    },
+    {
+      "text": "any complex problem uh any any complex",
+      "start": 2091.48,
+      "duration": 7.24
+    },
+    {
+      "text": "problem can be um split into smaller",
+      "start": 2094.52,
+      "duration": 7.599
+    },
+    {
+      "text": "problems uh and then be solved uh on",
+      "start": 2098.72,
+      "duration": 5.119
+    },
+    {
+      "text": "different levels of",
+      "start": 2102.119,
+      "duration": 4.641
+    },
+    {
+      "text": "abstraction um generally speaking",
+      "start": 2103.839,
+      "duration": 5.841
+    },
+    {
+      "text": "there's py torch right this is a",
+      "start": 2106.76,
+      "duration": 8.64
+    },
+    {
+      "text": "framework again mostly by meta uh um",
+      "start": 2109.68,
+      "duration": 8.52
+    },
+    {
+      "text": "built to to do training and distributed",
+      "start": 2115.4,
+      "duration": 4.64
+    },
+    {
+      "text": "training is basically just the general",
+      "start": 2118.2,
+      "duration": 4.639
+    },
+    {
+      "text": "use General use case the one of the main",
+      "start": 2120.04,
+      "duration": 5.24
+    },
+    {
+      "text": "use cases for for training so by George",
+      "start": 2122.839,
+      "duration": 5.52
+    },
+    {
+      "text": "for that's what we what is used for",
+      "start": 2125.28,
+      "duration": 6.04
+    },
+    {
+      "text": "llama and other models right it's",
+      "start": 2128.359,
+      "duration": 5.401
+    },
+    {
+      "text": "by",
+      "start": 2131.32,
+      "duration": 8.2
+    },
+    {
+      "text": "uh yes uh again I I I only B based my",
+      "start": 2133.76,
+      "duration": 10.24
+    },
+    {
+      "text": "reply on on the latest uh Lama training",
+      "start": 2139.52,
+      "duration": 8.2
+    },
+    {
+      "text": "report but um it even even though the",
+      "start": 2144.0,
+      "duration": 6.72
+    },
+    {
+      "text": "the previous versions were trained with",
+      "start": 2147.72,
+      "duration": 5.28
+    },
+    {
+      "text": "something else even though I don't think",
+      "start": 2150.72,
+      "duration": 5.359
+    },
+    {
+      "text": "why they I think when we download models",
+      "start": 2153.0,
+      "duration": 5.16
+    },
+    {
+      "text": "from hgen face hub",
+      "start": 2156.079,
+      "duration": 5.601
+    },
+    {
+      "text": "um and we use this Transformers uh",
+      "start": 2158.16,
+      "duration": 5.64
+    },
+    {
+      "text": "package right and it's based on byor",
+      "start": 2161.68,
+      "duration": 4.12
+    },
+    {
+      "text": "yeah but but again the point here is not",
+      "start": 2163.8,
+      "duration": 4.08
+    },
+    {
+      "text": "that it's py torch is just matter is",
+      "start": 2165.8,
+      "duration": 4.039
+    },
+    {
+      "text": "using pytorch mostly and a lot of other",
+      "start": 2167.88,
+      "duration": 4.439
+    },
+    {
+      "text": "people are also using pytorch uh for",
+      "start": 2169.839,
+      "duration": 6.921
+    },
+    {
+      "text": "example Google uh is not using that",
+      "start": 2172.319,
+      "duration": 9.0
+    },
+    {
+      "text": "again I I invite people to correct me um",
+      "start": 2176.76,
+      "duration": 6.88
+    },
+    {
+      "text": "I'm I'm not that aware of of the the",
+      "start": 2181.319,
+      "duration": 4.721
+    },
+    {
+      "text": "process like uh Jim for example was",
+      "start": 2183.64,
+      "duration": 4.92
+    },
+    {
+      "text": "trained but I assume that py toch was",
+      "start": 2186.04,
+      "duration": 5.0
+    },
+    {
+      "text": "not used there",
+      "start": 2188.56,
+      "duration": 6.84
+    },
+    {
+      "text": "um but because again it's it's a",
+      "start": 2191.04,
+      "duration": 6.88
+    },
+    {
+      "text": "different topic for a discussion why and",
+      "start": 2195.4,
+      "duration": 4.84
+    },
+    {
+      "text": "maybe we touch upon that if we have time",
+      "start": 2197.92,
+      "duration": 5.399
+    },
+    {
+      "text": "for talking about different chips uh but",
+      "start": 2200.24,
+      "duration": 5.44
+    },
+    {
+      "text": "uh B basically even if it's not py torch",
+      "start": 2203.319,
+      "duration": 4.841
+    },
+    {
+      "text": "there's another framework but again it",
+      "start": 2205.68,
+      "duration": 4.36
+    },
+    {
+      "text": "doesn't have to be py torch it can be",
+      "start": 2208.16,
+      "duration": 3.8
+    },
+    {
+      "text": "any other training framework it's it's",
+      "start": 2210.04,
+      "duration": 5.079
+    },
+    {
+      "text": "one level of abstraction but on the on",
+      "start": 2211.96,
+      "duration": 5.84
+    },
+    {
+      "text": "the beneath pie torch there is a back",
+      "start": 2215.119,
+      "duration": 4.361
+    },
+    {
+      "text": "end which is responsible for",
+      "start": 2217.8,
+      "duration": 5.519
+    },
+    {
+      "text": "communication between NES for example",
+      "start": 2219.48,
+      "duration": 6.639
+    },
+    {
+      "text": "one of the most famous ones is is called",
+      "start": 2223.319,
+      "duration": 6.601
+    },
+    {
+      "text": "nickel um and this is what is",
+      "start": 2226.119,
+      "duration": 6.601
+    },
+    {
+      "text": "responsible for the most challenging",
+      "start": 2229.92,
+      "duration": 5.72
+    },
+    {
+      "text": "part communication of",
+      "start": 2232.72,
+      "duration": 2.92
+    },
+    {
+      "text": "ndes uh and for example if you talk to",
+      "start": 2235.88,
+      "duration": 6.52
+    },
+    {
+      "text": "like folks training Frontier morals this",
+      "start": 2239.319,
+      "duration": 6.0
+    },
+    {
+      "text": "is what caused a lot of frustration and",
+      "start": 2242.4,
+      "duration": 4.64
+    },
+    {
+      "text": "they had to basically reimplement that",
+      "start": 2245.319,
+      "duration": 5.401
+    },
+    {
+      "text": "nle from from scratch maybe uh to to",
+      "start": 2247.04,
+      "duration": 6.92
+    },
+    {
+      "text": "make sure that this process is",
+      "start": 2250.72,
+      "duration": 3.24
+    },
+    {
+      "text": "optimized so if I just summarize what",
+      "start": 2255.48,
+      "duration": 6.639
+    },
+    {
+      "text": "you said you've said many things so um",
+      "start": 2258.119,
+      "duration": 5.881
+    },
+    {
+      "text": "there is this trend that when it comes",
+      "start": 2262.119,
+      "duration": 4.48
+    },
+    {
+      "text": "to training these large language models",
+      "start": 2264.0,
+      "duration": 5.079
+    },
+    {
+      "text": "uh while previously it was mostly using",
+      "start": 2266.599,
+      "duration": 5.24
+    },
+    {
+      "text": "blun Force like okay we're meta we have",
+      "start": 2269.079,
+      "duration": 4.361
+    },
+    {
+      "text": "a ton of gpus we can just take a",
+      "start": 2271.839,
+      "duration": 4.321
+    },
+    {
+      "text": "fraction of them and just throw I don't",
+      "start": 2273.44,
+      "duration": 5.0
+    },
+    {
+      "text": "know this problem at the these gpus and",
+      "start": 2276.16,
+      "duration": 6.32
+    },
+    {
+      "text": "they will process it um not everyone not",
+      "start": 2278.44,
+      "duration": 6.48
+    },
+    {
+      "text": "all companies can afford that not all",
+      "start": 2282.48,
+      "duration": 4.76
+    },
+    {
+      "text": "companies have the same amount of gpus",
+      "start": 2284.92,
+      "duration": 4.64
+    },
+    {
+      "text": "like Google and meta uh so there are",
+      "start": 2287.24,
+      "duration": 3.92
+    },
+    {
+      "text": "smaller companies like this deep seek",
+      "start": 2289.56,
+      "duration": 3.559
+    },
+    {
+      "text": "who try",
+      "start": 2291.16,
+      "duration": 5.159
+    },
+    {
+      "text": "to like the trend is being smarter",
+      "start": 2293.119,
+      "duration": 5.361
+    },
+    {
+      "text": "rather than just using blun Force right",
+      "start": 2296.319,
+      "duration": 3.841
+    },
+    {
+      "text": "and this is what we see now when it",
+      "start": 2298.48,
+      "duration": 4.08
+    },
+    {
+      "text": "comes to uh actually large scale",
+      "start": 2300.16,
+      "duration": 4.159
+    },
+    {
+      "text": "training that okay like how can we",
+      "start": 2302.56,
+      "duration": 4.24
+    },
+    {
+      "text": "optimize if we don't have access to so",
+      "start": 2304.319,
+      "duration": 3.76
+    },
+    {
+      "text": "many gpus",
+      "start": 2306.8,
+      "duration": 3.64
+    },
+    {
+      "text": "and we don't have so much money how can",
+      "start": 2308.079,
+      "duration": 5.961
+    },
+    {
+      "text": "we train uh a similar model right so",
+      "start": 2310.44,
+      "duration": 6.48
+    },
+    {
+      "text": "that's the one of the trends that we",
+      "start": 2314.04,
+      "duration": 6.039
+    },
+    {
+      "text": "see how about yeah",
+      "start": 2316.92,
+      "duration": 5.8
+    },
+    {
+      "text": "yeah yeah I was just thinking okay this",
+      "start": 2320.079,
+      "duration": 5.961
+    },
+    {
+      "text": "is one thing but like most of people",
+      "start": 2322.72,
+      "duration": 5.0
+    },
+    {
+      "text": "most of the companies most of the use",
+      "start": 2326.04,
+      "duration": 3.6
+    },
+    {
+      "text": "cases they're not about training these",
+      "start": 2327.72,
+      "duration": 5.72
+    },
+    {
+      "text": "models so if I need a",
+      "start": 2329.64,
+      "duration": 6.479
+    },
+    {
+      "text": "model right and if I don't know have a",
+      "start": 2333.44,
+      "duration": 4.6
+    },
+    {
+      "text": "specific use case",
+      "start": 2336.119,
+      "duration": 4.081
+    },
+    {
+      "text": "I take this model and maybe I F tune or",
+      "start": 2338.04,
+      "duration": 4.2
+    },
+    {
+      "text": "maybe I don't even need F tuning I just",
+      "start": 2340.2,
+      "duration": 4.639
+    },
+    {
+      "text": "Host this model so the challenges in AI",
+      "start": 2342.24,
+      "duration": 5.079
+    },
+    {
+      "text": "infrastructure I have are very different",
+      "start": 2344.839,
+      "duration": 4.641
+    },
+    {
+      "text": "from the challenges the these companies",
+      "start": 2347.319,
+      "duration": 5.121
+    },
+    {
+      "text": "like meta or DPS uh that they have right",
+      "start": 2349.48,
+      "duration": 6.08
+    },
+    {
+      "text": "so I'm more concerned about uh I know",
+      "start": 2352.44,
+      "duration": 4.76
+    },
+    {
+      "text": "how do i f tune the model and how do I",
+      "start": 2355.56,
+      "duration": 3.72
+    },
+    {
+      "text": "serve the model and the challenges are",
+      "start": 2357.2,
+      "duration": 3.36
+    },
+    {
+      "text": "different so I'm wondering what these",
+      "start": 2359.28,
+      "duration": 3.16
+    },
+    {
+      "text": "challenges are and where do you see the",
+      "start": 2360.56,
+      "duration": 4.08
+    },
+    {
+      "text": "trend is going with like you know small",
+      "start": 2362.44,
+      "duration": 4.96
+    },
+    {
+      "text": "or medium companies that do not need to",
+      "start": 2364.64,
+      "duration": 5.76
+    },
+    {
+      "text": "train a model they just want to use a",
+      "start": 2367.4,
+      "duration": 7.919
+    },
+    {
+      "text": "model um correct even though I would",
+      "start": 2370.4,
+      "duration": 7.52
+    },
+    {
+      "text": "say maybe I'm a bit picky here on the",
+      "start": 2375.319,
+      "duration": 4.921
+    },
+    {
+      "text": "terms but I would not even split them",
+      "start": 2377.92,
+      "duration": 4.159
+    },
+    {
+      "text": "into small and medium size and large",
+      "start": 2380.24,
+      "duration": 5.04
+    },
+    {
+      "text": "ones I would talk about AI first and not",
+      "start": 2382.079,
+      "duration": 7.601
+    },
+    {
+      "text": "AI first privacy first Andy first um",
+      "start": 2385.28,
+      "duration": 6.36
+    },
+    {
+      "text": "once we figure out that then everything",
+      "start": 2389.68,
+      "duration": 5.52
+    },
+    {
+      "text": "is so much clear at least to me um first",
+      "start": 2391.64,
+      "duration": 6.16
+    },
+    {
+      "text": "company then you want to customize tomor",
+      "start": 2395.2,
+      "duration": 4.68
+    },
+    {
+      "text": "to make sure that the performance is",
+      "start": 2397.8,
+      "duration": 4.88
+    },
+    {
+      "text": "optimized and then you choose between uh",
+      "start": 2399.88,
+      "duration": 4.92
+    },
+    {
+      "text": "which part of the process you want to",
+      "start": 2402.68,
+      "duration": 4.439
+    },
+    {
+      "text": "optimize depending on how much resources",
+      "start": 2404.8,
+      "duration": 4.76
+    },
+    {
+      "text": "you want um uh if if you have a lot of",
+      "start": 2407.119,
+      "duration": 6.24
+    },
+    {
+      "text": "resources you indeed can go into either",
+      "start": 2409.56,
+      "duration": 7.16
+    },
+    {
+      "text": "pre-training or heavily fine-tuned that",
+      "start": 2413.359,
+      "duration": 5.121
+    },
+    {
+      "text": "uh and you don't if you don't have that",
+      "start": 2416.72,
+      "duration": 4.68
+    },
+    {
+      "text": "much resources or if you are not AI FOC",
+      "start": 2418.48,
+      "duration": 5.28
+    },
+    {
+      "text": "first uh company for example you can be",
+      "start": 2421.4,
+      "duration": 3.52
+    },
+    {
+      "text": "a very big",
+      "start": 2423.76,
+      "duration": 4.599
+    },
+    {
+      "text": "Bank um and you can be concerned a lot",
+      "start": 2424.92,
+      "duration": 5.679
+    },
+    {
+      "text": "about the privacy but because you are",
+      "start": 2428.359,
+      "duration": 5.641
+    },
+    {
+      "text": "not AI first I mean some banks going to",
+      "start": 2430.599,
+      "duration": 5.961
+    },
+    {
+      "text": "go AI first and I could even predict",
+      "start": 2434.0,
+      "duration": 5.56
+    },
+    {
+      "text": "that um it's like a lot of banks went",
+      "start": 2436.56,
+      "duration": 7.4
+    },
+    {
+      "text": "software first or mobile first right um",
+      "start": 2439.56,
+      "duration": 7.84
+    },
+    {
+      "text": "can you go AI first like because for",
+      "start": 2443.96,
+      "duration": 5.48
+    },
+    {
+      "text": "that you need a new company",
+      "start": 2447.4,
+      "duration": 4.76
+    },
+    {
+      "text": "no um",
+      "start": 2449.44,
+      "duration": 5.8
+    },
+    {
+      "text": "again some companies some compan some",
+      "start": 2452.16,
+      "duration": 5.8
+    },
+    {
+      "text": "some banks if you talk about Bank some",
+      "start": 2455.24,
+      "duration": 5.079
+    },
+    {
+      "text": "banks may decide make that decision to",
+      "start": 2457.96,
+      "duration": 6.0
+    },
+    {
+      "text": "to go first and then they have their own",
+      "start": 2460.319,
+      "duration": 6.241
+    },
+    {
+      "text": "idea what what they mean with that um",
+      "start": 2463.96,
+      "duration": 4.56
+    },
+    {
+      "text": "some banks might not and there might be",
+      "start": 2466.56,
+      "duration": 3.519
+    },
+    {
+      "text": "some new",
+      "start": 2468.52,
+      "duration": 4.24
+    },
+    {
+      "text": "Banks uh on the market that actually you",
+      "start": 2470.079,
+      "duration": 4.921
+    },
+    {
+      "text": "know focus on just that and again some",
+      "start": 2472.76,
+      "duration": 6.88
+    },
+    {
+      "text": "companies will go um leveraging orp",
+      "start": 2475.0,
+      "duration": 7.16
+    },
+    {
+      "text": "model and some companies will will go uh",
+      "start": 2479.64,
+      "duration": 4.52
+    },
+    {
+      "text": "customizing B but getting back now to",
+      "start": 2482.16,
+      "duration": 5.24
+    },
+    {
+      "text": "your actually main question which is",
+      "start": 2484.16,
+      "duration": 6.4
+    },
+    {
+      "text": "okay so uh what are the challenges and",
+      "start": 2487.4,
+      "duration": 5.199
+    },
+    {
+      "text": "uh your assumption is that most the",
+      "start": 2490.56,
+      "duration": 4.08
+    },
+    {
+      "text": "companies do not need to to go That",
+      "start": 2492.599,
+      "duration": 5.361
+    },
+    {
+      "text": "Matter's way and and pre-train the model",
+      "start": 2494.64,
+      "duration": 6.56
+    },
+    {
+      "text": "um and my assumption is that yeah and",
+      "start": 2497.96,
+      "duration": 6.639
+    },
+    {
+      "text": "yeah uh uh",
+      "start": 2501.2,
+      "duration": 8.84
+    },
+    {
+      "text": "obviously if they don't uh buy gpus uh",
+      "start": 2504.599,
+      "duration": 10.921
+    },
+    {
+      "text": "um on the daily basis um um then yes uh",
+      "start": 2510.04,
+      "duration": 8.52
+    },
+    {
+      "text": "but then they it's all about",
+      "start": 2515.52,
+      "duration": 5.36
+    },
+    {
+      "text": "customization of the models and it's",
+      "start": 2518.56,
+      "duration": 3.36
+    },
+    {
+      "text": "it's",
+      "start": 2520.88,
+      "duration": 4.76
+    },
+    {
+      "text": "um certainly in France becomes a very",
+      "start": 2521.92,
+      "duration": 7.6
+    },
+    {
+      "text": "important topic um and then also uh",
+      "start": 2525.64,
+      "duration": 6.36
+    },
+    {
+      "text": "systemization of the post basically fine",
+      "start": 2529.52,
+      "duration": 4.48
+    },
+    {
+      "text": "tuning we can use the word fine tuning",
+      "start": 2532.0,
+      "duration": 4.48
+    },
+    {
+      "text": "for now to to simplify not go into how",
+      "start": 2534.0,
+      "duration": 5.0
+    },
+    {
+      "text": "exactly this fine tuning Works",
+      "start": 2536.48,
+      "duration": 7.639
+    },
+    {
+      "text": "um not not even because I don't know uh",
+      "start": 2539.0,
+      "duration": 8.76
+    },
+    {
+      "text": "we even need that but I I would even say",
+      "start": 2544.119,
+      "duration": 6.681
+    },
+    {
+      "text": "that we would go there simply because we",
+      "start": 2547.76,
+      "duration": 6.44
+    },
+    {
+      "text": "can imagine you are a team in a bank you",
+      "start": 2550.8,
+      "duration": 6.6
+    },
+    {
+      "text": "not a focus sorry AI first but you still",
+      "start": 2554.2,
+      "duration": 5.72
+    },
+    {
+      "text": "want to want to leverage Ai and you want",
+      "start": 2557.4,
+      "duration": 6.52
+    },
+    {
+      "text": "to you know in introduce AI into",
+      "start": 2559.92,
+      "duration": 7.24
+    },
+    {
+      "text": "services that your bank offers um of",
+      "start": 2563.92,
+      "duration": 6.439
+    },
+    {
+      "text": "course your team would be interested in",
+      "start": 2567.16,
+      "duration": 5.919
+    },
+    {
+      "text": "how do I make that more efficient how",
+      "start": 2570.359,
+      "duration": 5.24
+    },
+    {
+      "text": "can I improve the accuracy and then",
+      "start": 2573.079,
+      "duration": 4.24
+    },
+    {
+      "text": "Engineers will figure out okay so I need",
+      "start": 2575.599,
+      "duration": 5.281
+    },
+    {
+      "text": "to fine tune or I need to align on",
+      "start": 2577.319,
+      "duration": 6.321
+    },
+    {
+      "text": "um and and and and then again if you are",
+      "start": 2580.88,
+      "duration": 6.959
+    },
+    {
+      "text": "not AI first you would seek for um for",
+      "start": 2583.64,
+      "duration": 6.12
+    },
+    {
+      "text": "already existing Solutions right you're",
+      "start": 2587.839,
+      "duration": 3.041
+    },
+    {
+      "text": "not going to implement your own",
+      "start": 2589.76,
+      "duration": 3.28
+    },
+    {
+      "text": "inference framework I mean unless you",
+      "start": 2590.88,
+      "duration": 6.32
+    },
+    {
+      "text": "arei first team you would go and um and",
+      "start": 2593.04,
+      "duration": 7.559
+    },
+    {
+      "text": "use some of their existing tools well",
+      "start": 2597.2,
+      "duration": 5.52
+    },
+    {
+      "text": "thanks thanks to the open source",
+      "start": 2600.599,
+      "duration": 4.601
+    },
+    {
+      "text": "Community uh we we have quite a few",
+      "start": 2602.72,
+      "duration": 5.72
+    },
+    {
+      "text": "inference Solutions and also the point",
+      "start": 2605.2,
+      "duration": 5.879
+    },
+    {
+      "text": "Solutions uh but what I want to say here",
+      "start": 2608.44,
+      "duration": 5.2
+    },
+    {
+      "text": "is that even if you area first you would",
+      "start": 2611.079,
+      "duration": 5.48
+    },
+    {
+      "text": "still go that way even if you first you",
+      "start": 2613.64,
+      "duration": 6.0
+    },
+    {
+      "text": "would still be looking for ways to",
+      "start": 2616.559,
+      "duration": 6.081
+    },
+    {
+      "text": "optimize your development and you would",
+      "start": 2619.64,
+      "duration": 6.6
+    },
+    {
+      "text": "use open source tools that's why open",
+      "start": 2622.64,
+      "duration": 6.24
+    },
+    {
+      "text": "source Community is the B is the is the",
+      "start": 2626.24,
+      "duration": 7.079
+    },
+    {
+      "text": "main winner of the process yeah mhm and",
+      "start": 2628.88,
+      "duration": 7.4
+    },
+    {
+      "text": "for this Tech the clients uh or the",
+      "start": 2633.319,
+      "duration": 5.601
+    },
+    {
+      "text": "users let's say the users are mainly",
+      "start": 2636.28,
+      "duration": 5.44
+    },
+    {
+      "text": "this non AI thirst category like I mean",
+      "start": 2638.92,
+      "duration": 6.159
+    },
+    {
+      "text": "the the companies Who U are looking for",
+      "start": 2641.72,
+      "duration": 5.359
+    },
+    {
+      "text": "existing Solutions rather",
+      "start": 2645.079,
+      "duration": 4.401
+    },
+    {
+      "text": "than well I guess otherwise they would",
+      "start": 2647.079,
+      "duration": 4.561
+    },
+    {
+      "text": "be implementing this tack themselves",
+      "start": 2649.48,
+      "duration": 6.56
+    },
+    {
+      "text": "right uh finally enough well those that",
+      "start": 2651.64,
+      "duration": 6.36
+    },
+    {
+      "text": "that use this de originally were",
+      "start": 2656.04,
+      "duration": 4.68
+    },
+    {
+      "text": "implementing it themselves",
+      "start": 2658.0,
+      "duration": 6.8
+    },
+    {
+      "text": "uhuh uh that's classic uh right so",
+      "start": 2660.72,
+      "duration": 5.599
+    },
+    {
+      "text": "people try to implement something then",
+      "start": 2664.8,
+      "duration": 3.4
+    },
+    {
+      "text": "they figure out that there's something",
+      "start": 2666.319,
+      "duration": 3.681
+    },
+    {
+      "text": "else there that Sol the problem and then",
+      "start": 2668.2,
+      "duration": 3.48
+    },
+    {
+      "text": "okay like we don't feel like maintaining",
+      "start": 2670.0,
+      "duration": 4.72
+    },
+    {
+      "text": "our own thing let's just switch yes yes",
+      "start": 2671.68,
+      "duration": 5.24
+    },
+    {
+      "text": "for sure everybody's looking for ways to",
+      "start": 2674.72,
+      "duration": 4.68
+    },
+    {
+      "text": "do what they do already better without",
+      "start": 2676.92,
+      "duration": 5.0
+    },
+    {
+      "text": "investing that much effort um at the",
+      "start": 2679.4,
+      "duration": 5.439
+    },
+    {
+      "text": "same time I would would have what I how",
+      "start": 2681.92,
+      "duration": 4.919
+    },
+    {
+      "text": "I like to think of this de is not in",
+      "start": 2684.839,
+      "duration": 4.76
+    },
+    {
+      "text": "terms of we are doing it for smaller",
+      "start": 2686.839,
+      "duration": 5.321
+    },
+    {
+      "text": "teams or not the first teams or AI first",
+      "start": 2689.599,
+      "duration": 7.48
+    },
+    {
+      "text": "teams um um um take kubernetes for",
+      "start": 2692.16,
+      "duration": 6.76
+    },
+    {
+      "text": "example as an example and we",
+      "start": 2697.079,
+      "duration": 4.161
+    },
+    {
+      "text": "actually we publicly say that that we",
+      "start": 2698.92,
+      "duration": 4.76
+    },
+    {
+      "text": "are building alternative to that um you",
+      "start": 2701.24,
+      "duration": 4.76
+    },
+    {
+      "text": "can actually say that kubernetes is for",
+      "start": 2703.68,
+      "duration": 4.0
+    },
+    {
+      "text": "cloud first companies",
+      "start": 2706.0,
+      "duration": 5.64
+    },
+    {
+      "text": "or uh not Cloud first companies kuar is",
+      "start": 2707.68,
+      "duration": 7.6
+    },
+    {
+      "text": "for everyone like it's a it's a",
+      "start": 2711.64,
+      "duration": 6.4
+    },
+    {
+      "text": "foundational um it's a platform",
+      "start": 2715.28,
+      "duration": 5.24
+    },
+    {
+      "text": "foundational platform uh and it doesn't",
+      "start": 2718.04,
+      "duration": 4.64
+    },
+    {
+      "text": "really matter whether your your use case",
+      "start": 2720.52,
+      "duration": 5.599
+    },
+    {
+      "text": "is a expert use case or um even beginner",
+      "start": 2722.68,
+      "duration": 6.159
+    },
+    {
+      "text": "use case PL is designed in a in a in a",
+      "start": 2726.119,
+      "duration": 6.081
+    },
+    {
+      "text": "way that it's it's Universal and then",
+      "start": 2728.839,
+      "duration": 5.76
+    },
+    {
+      "text": "foundational so that's exactly how we",
+      "start": 2732.2,
+      "duration": 5.96
+    },
+    {
+      "text": "think of D stack um and there's all",
+      "start": 2734.599,
+      "duration": 6.72
+    },
+    {
+      "text": "there's never black and white uh it's",
+      "start": 2738.16,
+      "duration": 4.88
+    },
+    {
+      "text": "it's always",
+      "start": 2741.319,
+      "duration": 5.921
+    },
+    {
+      "text": "Spectrum um sometimes you need to train",
+      "start": 2743.04,
+      "duration": 6.319
+    },
+    {
+      "text": "a large model sometimes you need to",
+      "start": 2747.24,
+      "duration": 6.599
+    },
+    {
+      "text": "fine-tune that sometimes you um need a",
+      "start": 2749.359,
+      "duration": 6.561
+    },
+    {
+      "text": "something very simple but but you don't",
+      "start": 2753.839,
+      "duration": 3.921
+    },
+    {
+      "text": "want to use different Sol soltions for",
+      "start": 2755.92,
+      "duration": 3.36
+    },
+    {
+      "text": "this and that and then and something in",
+      "start": 2757.76,
+      "duration": 5.48
+    },
+    {
+      "text": "between right so that's how you reduce",
+      "start": 2759.28,
+      "duration": 6.72
+    },
+    {
+      "text": "the cost of ownership by invest",
+      "start": 2763.24,
+      "duration": 4.879
+    },
+    {
+      "text": "investing into one tool that is",
+      "start": 2766.0,
+      "duration": 5.68
+    },
+    {
+      "text": "universal and that sounds challenging",
+      "start": 2768.119,
+      "duration": 5.281
+    },
+    {
+      "text": "and that's actually challenging to make",
+      "start": 2771.68,
+      "duration": 4.0
+    },
+    {
+      "text": "such a universal tool and that's what",
+      "start": 2773.4,
+      "duration": 4.919
+    },
+    {
+      "text": "the most challenging about building this",
+      "start": 2775.68,
+      "duration": 6.32
+    },
+    {
+      "text": "TCH is is to is to make it Universal and",
+      "start": 2778.319,
+      "duration": 7.161
+    },
+    {
+      "text": "flexible but get the question the the",
+      "start": 2782.0,
+      "duration": 7.839
+    },
+    {
+      "text": "idea here just to make it Universal um",
+      "start": 2785.48,
+      "duration": 7.2
+    },
+    {
+      "text": "mhm okay and um so we already have",
+      "start": 2789.839,
+      "duration": 4.681
+    },
+    {
+      "text": "kubernetes why do we need another",
+      "start": 2792.68,
+      "duration": 4.32
+    },
+    {
+      "text": "Universal tool well I know you have an",
+      "start": 2794.52,
+      "duration": 4.839
+    },
+    {
+      "text": "opinion on that and I remember from my",
+      "start": 2797.0,
+      "duration": 4.2
+    },
+    {
+      "text": "days like I was when somebody would",
+      "start": 2799.359,
+      "duration": 4.441
+    },
+    {
+      "text": "mention kubernetes I was like sounds",
+      "start": 2801.2,
+      "duration": 4.919
+    },
+    {
+      "text": "scary like I don't want to go there when",
+      "start": 2803.8,
+      "duration": 4.72
+    },
+    {
+      "text": "I figured out how it works it was way",
+      "start": 2806.119,
+      "duration": 4.881
+    },
+    {
+      "text": "easier but like my first impression was",
+      "start": 2808.52,
+      "duration": 3.92
+    },
+    {
+      "text": "it's something complex I want to stay",
+      "start": 2811.0,
+      "duration": 4.76
+    },
+    {
+      "text": "away but then as I got into that it",
+      "start": 2812.44,
+      "duration": 4.96
+    },
+    {
+      "text": "turned out to be quite",
+      "start": 2815.76,
+      "duration": 5.88
+    },
+    {
+      "text": "easy maybe not easy not simp not",
+      "start": 2817.4,
+      "duration": 7.719
+    },
+    {
+      "text": "manageable I would say but we had a team",
+      "start": 2821.64,
+      "duration": 5.6
+    },
+    {
+      "text": "who was looking for after the kubernetes",
+      "start": 2825.119,
+      "duration": 3.841
+    },
+    {
+      "text": "cluster right and I guess that's the",
+      "start": 2827.24,
+      "duration": 4.44
+    },
+    {
+      "text": "main problem like not everyone has a",
+      "start": 2828.96,
+      "duration": 6.119
+    },
+    {
+      "text": "team that can do",
+      "start": 2831.68,
+      "duration": 7.76
+    },
+    {
+      "text": "that totally yeah um I mean again this",
+      "start": 2835.079,
+      "duration": 6.721
+    },
+    {
+      "text": "is one of the topics that that uh that",
+      "start": 2839.44,
+      "duration": 4.399
+    },
+    {
+      "text": "deserves that that would need more time",
+      "start": 2841.8,
+      "duration": 5.96
+    },
+    {
+      "text": "to for more fair and more let's say",
+      "start": 2843.839,
+      "duration": 5.48
+    },
+    {
+      "text": "specific",
+      "start": 2847.76,
+      "duration": 5.16
+    },
+    {
+      "text": "discussions but but on that high level",
+      "start": 2849.319,
+      "duration": 9.641
+    },
+    {
+      "text": "um um we are focusing on teams that are",
+      "start": 2852.92,
+      "duration": 11.28
+    },
+    {
+      "text": "constrained by kubernetes orl um umra in",
+      "start": 2858.96,
+      "duration": 8.2
+    },
+    {
+      "text": "which sense they cannot move the speit",
+      "start": 2864.2,
+      "duration": 5.6
+    },
+    {
+      "text": "they want they are challenged by that or",
+      "start": 2867.16,
+      "duration": 5.52
+    },
+    {
+      "text": "they they have experience specific pain",
+      "start": 2869.8,
+      "duration": 5.48
+    },
+    {
+      "text": "there and again because this te is",
+      "start": 2872.68,
+      "duration": 6.24
+    },
+    {
+      "text": "focused on AI uh um well you can guess",
+      "start": 2875.28,
+      "duration": 6.12
+    },
+    {
+      "text": "that most the challenges are around yeah",
+      "start": 2878.92,
+      "duration": 4.56
+    },
+    {
+      "text": "making it work for yeah for example take",
+      "start": 2881.4,
+      "duration": 5.439
+    },
+    {
+      "text": "kubernetes um there are two topics uh",
+      "start": 2883.48,
+      "duration": 7.56
+    },
+    {
+      "text": "that pop up uh a lot first one is well",
+      "start": 2886.839,
+      "duration": 7.561
+    },
+    {
+      "text": "kubernetes um it's it like AI is not",
+      "start": 2891.04,
+      "duration": 6.279
+    },
+    {
+      "text": "first class citizen right on kubernetes",
+      "start": 2894.4,
+      "duration": 5.12
+    },
+    {
+      "text": "kubernetes is designed for for",
+      "start": 2897.319,
+      "duration": 5.0
+    },
+    {
+      "text": "containers for ports basically ports is",
+      "start": 2899.52,
+      "duration": 7.799
+    },
+    {
+      "text": "a is a deployment um um is a",
+      "start": 2902.319,
+      "duration": 7.28
+    },
+    {
+      "text": "is a deployment",
+      "start": 2907.319,
+      "duration": 4.561
+    },
+    {
+      "text": "Paradigm",
+      "start": 2909.599,
+      "duration": 6.561
+    },
+    {
+      "text": "uh and for example when it comes to AI",
+      "start": 2911.88,
+      "duration": 7.479
+    },
+    {
+      "text": "there's always training involved uh and",
+      "start": 2916.16,
+      "duration": 5.04
+    },
+    {
+      "text": "even if we take just training just",
+      "start": 2919.359,
+      "duration": 5.24
+    },
+    {
+      "text": "training for training um as an a",
+      "start": 2921.2,
+      "duration": 5.119
+    },
+    {
+      "text": "engineer you certainly don't don't think",
+      "start": 2924.599,
+      "duration": 3.72
+    },
+    {
+      "text": "in terms of PODS",
+      "start": 2926.319,
+      "duration": 4.681
+    },
+    {
+      "text": "right you would think in terms of their",
+      "start": 2928.319,
+      "duration": 4.121
+    },
+    {
+      "text": "that's why for example slurm exists",
+      "start": 2931.0,
+      "duration": 3.16
+    },
+    {
+      "text": "right because it simplifies that and a",
+      "start": 2932.44,
+      "duration": 3.919
+    },
+    {
+      "text": "lot of people enjoy slurm in the first",
+      "start": 2934.16,
+      "duration": 4.0
+    },
+    {
+      "text": "place because it simplified that that",
+      "start": 2936.359,
+      "duration": 5.521
+    },
+    {
+      "text": "thing uh instead of going devops and",
+      "start": 2938.16,
+      "duration": 5.76
+    },
+    {
+      "text": "learning kubernetes they only had to",
+      "start": 2941.88,
+      "duration": 3.76
+    },
+    {
+      "text": "learn Lear because it's a specialized",
+      "start": 2943.92,
+      "duration": 3.679
+    },
+    {
+      "text": "tool for",
+      "start": 2945.64,
+      "duration": 4.4
+    },
+    {
+      "text": "engineers um and that's that's an",
+      "start": 2947.599,
+      "duration": 4.161
+    },
+    {
+      "text": "advantage right for example why don't we",
+      "start": 2950.04,
+      "duration": 4.44
+    },
+    {
+      "text": "use assembler I mean is is assembler",
+      "start": 2951.76,
+      "duration": 6.28
+    },
+    {
+      "text": "worse than rust of course it's not worse",
+      "start": 2954.48,
+      "duration": 6.839
+    },
+    {
+      "text": "yes powerful but complex there is one",
+      "start": 2958.04,
+      "duration": 8.12
+    },
+    {
+      "text": "more aspect very important that cost and",
+      "start": 2961.319,
+      "duration": 8.601
+    },
+    {
+      "text": "development speed are very important",
+      "start": 2966.16,
+      "duration": 5.8
+    },
+    {
+      "text": "points in the process and they are not",
+      "start": 2969.92,
+      "duration": 5.04
+    },
+    {
+      "text": "only good to have they are must for the",
+      "start": 2971.96,
+      "duration": 5.48
+    },
+    {
+      "text": "more process that that's why we're",
+      "start": 2974.96,
+      "duration": 4.399
+    },
+    {
+      "text": "talking about orchestration if we talk",
+      "start": 2977.44,
+      "duration": 5.24
+    },
+    {
+      "text": "about container orchestration um and",
+      "start": 2979.359,
+      "duration": 5.681
+    },
+    {
+      "text": "that's our thesis that container",
+      "start": 2982.68,
+      "duration": 4.52
+    },
+    {
+      "text": "orchestration should be",
+      "start": 2985.04,
+      "duration": 4.4
+    },
+    {
+      "text": "rethought that's the thesis that we",
+      "start": 2987.2,
+      "duration": 5.0
+    },
+    {
+      "text": "drive it simply should re thought we",
+      "start": 2989.44,
+      "duration": 5.84
+    },
+    {
+      "text": "cannot go the the pre the the old way we",
+      "start": 2992.2,
+      "duration": 4.72
+    },
+    {
+      "text": "we should rethink it and that that's",
+      "start": 2995.28,
+      "duration": 3.72
+    },
+    {
+      "text": "what we try to do and again we I",
+      "start": 2996.92,
+      "duration": 3.639
+    },
+    {
+      "text": "wouldn't claim that we're doing it",
+      "start": 2999.0,
+      "duration": 4.04
+    },
+    {
+      "text": "better or um we are certainly interested",
+      "start": 3000.559,
+      "duration": 4.481
+    },
+    {
+      "text": "in rethinking it and we see a lot of",
+      "start": 3003.04,
+      "duration": 3.48
+    },
+    {
+      "text": "people that are very much interested",
+      "start": 3005.04,
+      "duration": 2.72
+    },
+    {
+      "text": "about that as",
+      "start": 3006.52,
+      "duration": 4.799
+    },
+    {
+      "text": "well um that's why we work on that um",
+      "start": 3007.76,
+      "duration": 6.319
+    },
+    {
+      "text": "and it doesn't mean that that well I",
+      "start": 3011.319,
+      "duration": 5.961
+    },
+    {
+      "text": "mean uh for example I mean maybe",
+      "start": 3014.079,
+      "duration": 5.24
+    },
+    {
+      "text": "assembler is not used today but but",
+      "start": 3017.28,
+      "duration": 4.92
+    },
+    {
+      "text": "prologue is certainly used and I if we",
+      "start": 3019.319,
+      "duration": 5.121
+    },
+    {
+      "text": "compare for example C++ and and Python",
+      "start": 3022.2,
+      "duration": 4.96
+    },
+    {
+      "text": "and and rust we see that rust usage",
+      "start": 3024.44,
+      "duration": 5.159
+    },
+    {
+      "text": "sorry C++ usage is only",
+      "start": 3027.16,
+      "duration": 4.36
+    },
+    {
+      "text": "growing",
+      "start": 3029.599,
+      "duration": 5.161
+    },
+    {
+      "text": "MH uh seriously if if you if you look at",
+      "start": 3031.52,
+      "duration": 5.799
+    },
+    {
+      "text": "at the usage C++ usage is",
+      "start": 3034.76,
+      "duration": 5.76
+    },
+    {
+      "text": "growing regardless of python regardless",
+      "start": 3037.319,
+      "duration": 7.321
+    },
+    {
+      "text": "of go regardless of rust well it's just",
+      "start": 3040.52,
+      "duration": 7.319
+    },
+    {
+      "text": "to tell that uh that kubernetes adoption",
+      "start": 3044.64,
+      "duration": 6.719
+    },
+    {
+      "text": "is going to grow as well but uh we this",
+      "start": 3047.839,
+      "duration": 5.681
+    },
+    {
+      "text": "super vibrant",
+      "start": 3051.359,
+      "duration": 5.72
+    },
+    {
+      "text": "niche of Engineers that are interested",
+      "start": 3053.52,
+      "duration": 5.4
+    },
+    {
+      "text": "in the",
+      "start": 3057.079,
+      "duration": 4.76
+    },
+    {
+      "text": "infr so as an engineer as a software",
+      "start": 3058.92,
+      "duration": 6.639
+    },
+    {
+      "text": "engineer I still should uh not stay away",
+      "start": 3061.839,
+      "duration": 5.801
+    },
+    {
+      "text": "from kubernetes and it's still a good",
+      "start": 3065.559,
+      "duration": 4.601
+    },
+    {
+      "text": "tool in your tool belt",
+      "start": 3067.64,
+      "duration": 5.88
+    },
+    {
+      "text": "right uh that's the only tool when it",
+      "start": 3070.16,
+      "duration": 4.959
+    },
+    {
+      "text": "comes to",
+      "start": 3073.52,
+      "duration": 6.559
+    },
+    {
+      "text": "deployment right okay is the only one uh",
+      "start": 3075.119,
+      "duration": 8.2
+    },
+    {
+      "text": "whenever regardless of what you use aw",
+      "start": 3080.079,
+      "duration": 4.801
+    },
+    {
+      "text": "Azure or",
+      "start": 3083.319,
+      "duration": 4.121
+    },
+    {
+      "text": "even alib CL",
+      "start": 3084.88,
+      "duration": 6.239
+    },
+    {
+      "text": "um you in the end use kubernetes MH I",
+      "start": 3087.44,
+      "duration": 6.119
+    },
+    {
+      "text": "mean I personally don't but the projects",
+      "start": 3091.119,
+      "duration": 4.24
+    },
+    {
+      "text": "I have are smaller I don't want to pay",
+      "start": 3093.559,
+      "duration": 4.721
+    },
+    {
+      "text": "like I don't know how much per day of a",
+      "start": 3095.359,
+      "duration": 4.881
+    },
+    {
+      "text": "govern cluster but for companies that",
+      "start": 3098.28,
+      "duration": 5.12
+    },
+    {
+      "text": "are more than I know one person then",
+      "start": 3100.24,
+      "duration": 5.44
+    },
+    {
+      "text": "perhaps it makes sense",
+      "start": 3103.4,
+      "duration": 4.52
+    },
+    {
+      "text": "right yeah yeah I mean of course there",
+      "start": 3105.68,
+      "duration": 6.919
+    },
+    {
+      "text": "are age cases and I'm probably use more",
+      "start": 3107.92,
+      "duration": 8.919
+    },
+    {
+      "text": "General average enter",
+      "start": 3112.599,
+      "duration": 8.24
+    },
+    {
+      "text": "there is a question um do you think that",
+      "start": 3116.839,
+      "duration": 6.601
+    },
+    {
+      "text": "the future is hybrid bare metal plus",
+      "start": 3120.839,
+      "duration": 5.361
+    },
+    {
+      "text": "cloud or Cloud",
+      "start": 3123.44,
+      "duration": 6.32
+    },
+    {
+      "text": "only well predicting future is a super",
+      "start": 3126.2,
+      "duration": 6.359
+    },
+    {
+      "text": "uh easy",
+      "start": 3129.76,
+      "duration": 2.799
+    },
+    {
+      "text": "thing and some people even like that but",
+      "start": 3133.799,
+      "duration": 7.481
+    },
+    {
+      "text": "if we extrapolate the trans right",
+      "start": 3137.839,
+      "duration": 5.061
+    },
+    {
+      "text": "now",
+      "start": 3141.28,
+      "duration": 3.319
+    },
+    {
+      "text": "[Music]",
+      "start": 3142.9,
+      "duration": 4.419
+    },
+    {
+      "text": "um cloud is the trend",
+      "start": 3144.599,
+      "duration": 5.641
+    },
+    {
+      "text": "in the only cloud is the only",
+      "start": 3147.319,
+      "duration": 6.52
+    },
+    {
+      "text": "Trend yeah because people don't want to",
+      "start": 3150.24,
+      "duration": 7.0
+    },
+    {
+      "text": "have a GPU machine under the desk or",
+      "start": 3153.839,
+      "duration": 8.121
+    },
+    {
+      "text": "what I don't know 16,000 of them",
+      "start": 3157.24,
+      "duration": 6.28
+    },
+    {
+      "text": "um",
+      "start": 3161.96,
+      "duration": 4.839
+    },
+    {
+      "text": "well uh it's more predictable for",
+      "start": 3163.52,
+      "duration": 4.839
+    },
+    {
+      "text": "Enterprises to use",
+      "start": 3166.799,
+      "duration": 5.601
+    },
+    {
+      "text": "cloud uh right on the other hand on the",
+      "start": 3168.359,
+      "duration": 4.921
+    },
+    {
+      "text": "other",
+      "start": 3172.4,
+      "duration": 4.679
+    },
+    {
+      "text": "hand AI is kind of a black SW here",
+      "start": 3173.28,
+      "duration": 8.48
+    },
+    {
+      "text": "M um so nobody really knows uh What will",
+      "start": 3177.079,
+      "duration": 8.801
+    },
+    {
+      "text": "What what will happen um",
+      "start": 3181.76,
+      "duration": 8.839
+    },
+    {
+      "text": "and a lot of companies right now are",
+      "start": 3185.88,
+      "duration": 8.28
+    },
+    {
+      "text": "investing into onr so we see cont Trend",
+      "start": 3190.599,
+      "duration": 5.72
+    },
+    {
+      "text": "because of a because of a we see cont",
+      "start": 3194.16,
+      "duration": 4.48
+    },
+    {
+      "text": "Trend here a lot of companies are very",
+      "start": 3196.319,
+      "duration": 6.561
+    },
+    {
+      "text": "much interested in um but uh but again",
+      "start": 3198.64,
+      "duration": 7.24
+    },
+    {
+      "text": "um",
+      "start": 3202.88,
+      "duration": 3.0
+    },
+    {
+      "text": "again I'm maybe not the best not like a",
+      "start": 3206.64,
+      "duration": 5.959
+    },
+    {
+      "text": "real expert in that particular in the",
+      "start": 3210.119,
+      "duration": 5.081
+    },
+    {
+      "text": "discussion of that particular charm but",
+      "start": 3212.599,
+      "duration": 4.681
+    },
+    {
+      "text": "personally personally I prefer not to",
+      "start": 3215.2,
+      "duration": 5.399
+    },
+    {
+      "text": "use again I'm using the word on PR but",
+      "start": 3217.28,
+      "duration": 6.519
+    },
+    {
+      "text": "when I for example know like like with",
+      "start": 3220.599,
+      "duration": 5.801
+    },
+    {
+      "text": "myself I I don't like the word on",
+      "start": 3223.799,
+      "duration": 7.52
+    },
+    {
+      "text": "PR because it's very confusing term um",
+      "start": 3226.4,
+      "duration": 7.76
+    },
+    {
+      "text": "um for",
+      "start": 3231.319,
+      "duration": 6.76
+    },
+    {
+      "text": "example um you can you can have your own",
+      "start": 3234.16,
+      "duration": 8.36
+    },
+    {
+      "text": "rack uh in your building and then you",
+      "start": 3238.079,
+      "duration": 6.52
+    },
+    {
+      "text": "can call it on Prem on the other hand",
+      "start": 3242.52,
+      "duration": 4.559
+    },
+    {
+      "text": "you can call it a data center however",
+      "start": 3244.599,
+      "duration": 4.401
+    },
+    {
+      "text": "when you data center you can also call",
+      "start": 3247.079,
+      "duration": 4.601
+    },
+    {
+      "text": "it a CL",
+      "start": 3249.0,
+      "duration": 2.68
+    },
+    {
+      "text": "Cloud right there are difficulties in",
+      "start": 3252.16,
+      "duration": 5.959
+    },
+    {
+      "text": "these terms that's why there's no",
+      "start": 3255.92,
+      "duration": 5.52
+    },
+    {
+      "text": "there's when I'm with myself only I I",
+      "start": 3258.119,
+      "duration": 5.761
+    },
+    {
+      "text": "don't I don't even say on pram or Cloud",
+      "start": 3261.44,
+      "duration": 6.72
+    },
+    {
+      "text": "I just say different versions of cloud",
+      "start": 3263.88,
+      "duration": 4.28
+    },
+    {
+      "text": "okay yeah so what I think um when I hear",
+      "start": 3268.88,
+      "duration": 6.479
+    },
+    {
+      "text": "on pram when it comes to data teams data",
+      "start": 3272.96,
+      "duration": 5.0
+    },
+    {
+      "text": "science teams ml teams so in my first",
+      "start": 3275.359,
+      "duration": 5.081
+    },
+    {
+      "text": "company in Germany we actually had a",
+      "start": 3277.96,
+      "duration": 5.92
+    },
+    {
+      "text": "machine with gpus there and everyone had",
+      "start": 3280.44,
+      "duration": 4.919
+    },
+    {
+      "text": "access to these machines we would just",
+      "start": 3283.88,
+      "duration": 3.8
+    },
+    {
+      "text": "SSH to this machine and do things there",
+      "start": 3285.359,
+      "duration": 3.681
+    },
+    {
+      "text": "and then we would need to figure out",
+      "start": 3287.68,
+      "duration": 2.28
+    },
+    {
+      "text": "like how",
+      "start": 3289.04,
+      "duration": 5.559
+    },
+    {
+      "text": "to uh uh claim the gpus okay I'm using",
+      "start": 3289.96,
+      "duration": 6.72
+    },
+    {
+      "text": "this GPU so you cannot use it like you",
+      "start": 3294.599,
+      "duration": 5.041
+    },
+    {
+      "text": "have to wait and then uh yeah it was",
+      "start": 3296.68,
+      "duration": 4.56
+    },
+    {
+      "text": "like at the end it was terrible like",
+      "start": 3299.64,
+      "duration": 3.12
+    },
+    {
+      "text": "coordinating this stuff so this is what",
+      "start": 3301.24,
+      "duration": 3.72
+    },
+    {
+      "text": "I think about on Prem and the challenges",
+      "start": 3302.76,
+      "duration": 3.72
+    },
+    {
+      "text": "okay now you have these machines and how",
+      "start": 3304.96,
+      "duration": 4.76
+    },
+    {
+      "text": "do you actually split and now I use this",
+      "start": 3306.48,
+      "duration": 5.16
+    },
+    {
+      "text": "machine but then your project is more",
+      "start": 3309.72,
+      "duration": 3.8
+    },
+    {
+      "text": "important doesn't mean I need to stop my",
+      "start": 3311.64,
+      "duration": 3.6
+    },
+    {
+      "text": "training and you can start training like",
+      "start": 3313.52,
+      "duration": 4.599
+    },
+    {
+      "text": "these things so this is what I think um",
+      "start": 3315.24,
+      "duration": 4.44
+    },
+    {
+      "text": "this is what comes to mind when I think",
+      "start": 3318.119,
+      "duration": 5.24
+    },
+    {
+      "text": "on Prem on Prem GPU machines yes I think",
+      "start": 3319.68,
+      "duration": 6.32
+    },
+    {
+      "text": "you are right actually here you are more",
+      "start": 3323.359,
+      "duration": 6.361
+    },
+    {
+      "text": "when accurate here all p is is when you",
+      "start": 3326.0,
+      "duration": 5.76
+    },
+    {
+      "text": "have to deal with a lot of challenges",
+      "start": 3329.72,
+      "duration": 4.56
+    },
+    {
+      "text": "yourself of maintaining those servers",
+      "start": 3331.76,
+      "duration": 4.96
+    },
+    {
+      "text": "and you have to think about updating the",
+      "start": 3334.28,
+      "duration": 5.039
+    },
+    {
+      "text": "software you have uh to think of",
+      "start": 3336.72,
+      "duration": 4.68
+    },
+    {
+      "text": "managing",
+      "start": 3339.319,
+      "duration": 6.321
+    },
+    {
+      "text": "um the orchestration there yourself uh",
+      "start": 3341.4,
+      "duration": 6.84
+    },
+    {
+      "text": "with the cloud it's done by as a service",
+      "start": 3345.64,
+      "duration": 6.159
+    },
+    {
+      "text": "uh with with your Hardware is done by",
+      "start": 3348.24,
+      "duration": 6.48
+    },
+    {
+      "text": "you MH and then maybe also it's kind of",
+      "start": 3351.799,
+      "duration": 6.641
+    },
+    {
+      "text": "on Prem when you or a machine that you",
+      "start": 3354.72,
+      "duration": 7.0
+    },
+    {
+      "text": "rent is somewhere remote on a remote",
+      "start": 3358.44,
+      "duration": 5.48
+    },
+    {
+      "text": "location but you have access to this",
+      "start": 3361.72,
+      "duration": 4.44
+    },
+    {
+      "text": "machine uh so for example there is a",
+      "start": 3363.92,
+      "duration": 4.24
+    },
+    {
+      "text": "provider called hetner in Germany maybe",
+      "start": 3366.16,
+      "duration": 4.72
+    },
+    {
+      "text": "you know it right so where you can there",
+      "start": 3368.16,
+      "duration": 5.199
+    },
+    {
+      "text": "you can just rent a machine for a year",
+      "start": 3370.88,
+      "duration": 4.679
+    },
+    {
+      "text": "and this machine can have a GPU or maybe",
+      "start": 3373.359,
+      "duration": 4.76
+    },
+    {
+      "text": "like a bunch of powerful CPUs but",
+      "start": 3375.559,
+      "duration": 4.24
+    },
+    {
+      "text": "basically what you have SSH access to",
+      "start": 3378.119,
+      "duration": 3.081
+    },
+    {
+      "text": "this machine and nothing else right so",
+      "start": 3379.799,
+      "duration": 3.641
+    },
+    {
+      "text": "there is machine it's not physically",
+      "start": 3381.2,
+      "duration": 4.72
+    },
+    {
+      "text": "under your desk but you can always SSH",
+      "start": 3383.44,
+      "duration": 3.399
+    },
+    {
+      "text": "to that",
+      "start": 3385.92,
+      "duration": 3.52
+    },
+    {
+      "text": "but because all you have is just this",
+      "start": 3386.839,
+      "duration": 5.96
+    },
+    {
+      "text": "SSH it comes with all these challenges",
+      "start": 3389.44,
+      "duration": 4.84
+    },
+    {
+      "text": "that we talked about right so when there",
+      "start": 3392.799,
+      "duration": 3.641
+    },
+    {
+      "text": "is a team there are four machines and",
+      "start": 3394.28,
+      "duration": 4.16
+    },
+    {
+      "text": "there is a team of 10 people and",
+      "start": 3396.44,
+      "duration": 3.639
+    },
+    {
+      "text": "somebody wants to train their XG boost",
+      "start": 3398.44,
+      "duration": 3.84
+    },
+    {
+      "text": "models there right like how do you",
+      "start": 3400.079,
+      "duration": 4.681
+    },
+    {
+      "text": "coordinate that so that's kind of all on",
+      "start": 3402.28,
+      "duration": 4.839
+    },
+    {
+      "text": "Prem",
+      "start": 3404.76,
+      "duration": 2.359
+    },
+    {
+      "text": "right well uh bar metal uh okay bare",
+      "start": 3407.319,
+      "duration": 7.561
+    },
+    {
+      "text": "metal right bare metal is a service and",
+      "start": 3412.119,
+      "duration": 4.401
+    },
+    {
+      "text": "there are companies that offer bar on",
+      "start": 3414.88,
+      "duration": 2.32
+    },
+    {
+      "text": "the",
+      "start": 3416.52,
+      "duration": 3.44
+    },
+    {
+      "text": "service uh this is where the management",
+      "start": 3417.2,
+      "duration": 6.08
+    },
+    {
+      "text": "is split uh they still allow you to",
+      "start": 3419.96,
+      "duration": 5.359
+    },
+    {
+      "text": "provision those sometimes machines as a",
+      "start": 3423.28,
+      "duration": 3.799
+    },
+    {
+      "text": "service programmatic you can just say",
+      "start": 3425.319,
+      "duration": 4.04
+    },
+    {
+      "text": "okay so I need a since next week I I",
+      "start": 3427.079,
+      "duration": 5.0
+    },
+    {
+      "text": "need a thousand machines uh and you have",
+      "start": 3429.359,
+      "duration": 4.601
+    },
+    {
+      "text": "access to that and that service will",
+      "start": 3432.079,
+      "duration": 4.76
+    },
+    {
+      "text": "promise you in that the firmware will be",
+      "start": 3433.96,
+      "duration": 5.119
+    },
+    {
+      "text": "up to date uh and you don't have to",
+      "start": 3436.839,
+      "duration": 5.24
+    },
+    {
+      "text": "update the firmware yourself however for",
+      "start": 3439.079,
+      "duration": 4.641
+    },
+    {
+      "text": "example now imagine that you would like",
+      "start": 3442.079,
+      "duration": 3.561
+    },
+    {
+      "text": "to run a service yourself and then you'd",
+      "start": 3443.72,
+      "duration": 3.72
+    },
+    {
+      "text": "like to rent bar met from from this",
+      "start": 3445.64,
+      "duration": 3.959
+    },
+    {
+      "text": "Provider from that provider you now need",
+      "start": 3447.44,
+      "duration": 4.879
+    },
+    {
+      "text": "to automate that process and ensure that",
+      "start": 3449.599,
+      "duration": 4.361
+    },
+    {
+      "text": "even though these bare Mets come from",
+      "start": 3452.319,
+      "duration": 4.561
+    },
+    {
+      "text": "different providers they are up to dat",
+      "start": 3453.96,
+      "duration": 5.079
+    },
+    {
+      "text": "uh now you have to deal with that so",
+      "start": 3456.88,
+      "duration": 4.199
+    },
+    {
+      "text": "basically split between Barrow provider",
+      "start": 3459.039,
+      "duration": 4.28
+    },
+    {
+      "text": "and and you but yes basically you have",
+      "start": 3461.079,
+      "duration": 6.081
+    },
+    {
+      "text": "to have to think of it yourself as",
+      "start": 3463.319,
+      "duration": 6.961
+    },
+    {
+      "text": "well so the best example of one Prem is",
+      "start": 3467.16,
+      "duration": 5.639
+    },
+    {
+      "text": "a GPU machine under my desk",
+      "start": 3470.28,
+      "duration": 7.4
+    },
+    {
+      "text": "right no uh",
+      "start": 3472.799,
+      "duration": 7.161
+    },
+    {
+      "text": "by the way we we didn't talk about that",
+      "start": 3477.68,
+      "duration": 4.52
+    },
+    {
+      "text": "um um I don't know how much time we we",
+      "start": 3479.96,
+      "duration": 6.0
+    },
+    {
+      "text": "have but uh it's a time we can talk like",
+      "start": 3482.2,
+      "duration": 6.159
+    },
+    {
+      "text": "for five 10 minutes one maybe that that",
+      "start": 3485.96,
+      "duration": 5.96
+    },
+    {
+      "text": "might be last uh last uh one to speak",
+      "start": 3488.359,
+      "duration": 5.561
+    },
+    {
+      "text": "about",
+      "start": 3491.92,
+      "duration": 6.0
+    },
+    {
+      "text": "Edge uh and cloud and how this is",
+      "start": 3493.92,
+      "duration": 7.119
+    },
+    {
+      "text": "different so what is Edge is it like uh",
+      "start": 3497.92,
+      "duration": 5.0
+    },
+    {
+      "text": "HS like this",
+      "start": 3501.039,
+      "duration": 6.601
+    },
+    {
+      "text": "one um yeah well to be entirely Fair",
+      "start": 3502.92,
+      "duration": 7.199
+    },
+    {
+      "text": "again maybe there are Edge experts that",
+      "start": 3507.64,
+      "duration": 4.84
+    },
+    {
+      "text": "will correct me uh but but based on what",
+      "start": 3510.119,
+      "duration": 7.881
+    },
+    {
+      "text": "I know um um there is nothing",
+      "start": 3512.48,
+      "duration": 7.4
+    },
+    {
+      "text": "that",
+      "start": 3518.0,
+      "duration": 4.88
+    },
+    {
+      "text": "agreed by everyone what we call",
+      "start": 3519.88,
+      "duration": 5.12
+    },
+    {
+      "text": "Edge I would even say that there is a",
+      "start": 3522.88,
+      "duration": 2.959
+    },
+    {
+      "text": "lot of",
+      "start": 3525.0,
+      "duration": 3.16
+    },
+    {
+      "text": "confusion and most people because it",
+      "start": 3525.839,
+      "duration": 4.361
+    },
+    {
+      "text": "could be a Raspberry Pi device right or",
+      "start": 3528.16,
+      "duration": 3.679
+    },
+    {
+      "text": "maybe",
+      "start": 3530.2,
+      "duration": 6.159
+    },
+    {
+      "text": "Jetson uh yeah so Edge can be any",
+      "start": 3531.839,
+      "duration": 6.48
+    },
+    {
+      "text": "customer facing device",
+      "start": 3536.359,
+      "duration": 6.401
+    },
+    {
+      "text": "or site facing device it's any device",
+      "start": 3538.319,
+      "duration": 7.76
+    },
+    {
+      "text": "which is somewhere not in the in their",
+      "start": 3542.76,
+      "duration": 8.44
+    },
+    {
+      "text": "um in their in their let's say cloud but",
+      "start": 3546.079,
+      "duration": 9.121
+    },
+    {
+      "text": "but some people even call",
+      "start": 3551.2,
+      "duration": 7.919
+    },
+    {
+      "text": "original cloud services as Edge for",
+      "start": 3555.2,
+      "duration": 7.359
+    },
+    {
+      "text": "example uh there's such a thing as Edge",
+      "start": 3559.119,
+      "duration": 6.44
+    },
+    {
+      "text": "Ai and some Cloud companies refer to Ed",
+      "start": 3562.559,
+      "duration": 4.601
+    },
+    {
+      "text": "AI",
+      "start": 3565.559,
+      "duration": 4.361
+    },
+    {
+      "text": "well it's just normal Cloud it's just",
+      "start": 3567.16,
+      "duration": 4.879
+    },
+    {
+      "text": "that they offer original comput so in a",
+      "start": 3569.92,
+      "duration": 4.36
+    },
+    {
+      "text": "way for example when you use aob yes I",
+      "start": 3572.039,
+      "duration": 3.961
+    },
+    {
+      "text": "mean following that logic you can call",
+      "start": 3574.28,
+      "duration": 5.88
+    },
+    {
+      "text": "it AI because you have a in your region",
+      "start": 3576.0,
+      "duration": 7.48
+    },
+    {
+      "text": "right on the other hand we have uh",
+      "start": 3580.16,
+      "duration": 5.879
+    },
+    {
+      "text": "exactly like like you said uh mobile",
+      "start": 3583.48,
+      "duration": 5.48
+    },
+    {
+      "text": "devices or your laptop or I don't know",
+      "start": 3586.039,
+      "duration": 6.401
+    },
+    {
+      "text": "some some device in your smart um house",
+      "start": 3588.96,
+      "duration": 5.079
+    },
+    {
+      "text": "or some video",
+      "start": 3592.44,
+      "duration": 4.84
+    },
+    {
+      "text": "cams or some that's a drone that is",
+      "start": 3594.039,
+      "duration": 7.28
+    },
+    {
+      "text": "flying around uh that hopefully nothing",
+      "start": 3597.28,
+      "duration": 6.519
+    },
+    {
+      "text": "is flying",
+      "start": 3601.319,
+      "duration": 2.48
+    },
+    {
+      "text": "around maybe in",
+      "start": 3604.119,
+      "duration": 5.361
+    },
+    {
+      "text": "Theon but the the point is that yes this",
+      "start": 3606.2,
+      "duration": 6.52
+    },
+    {
+      "text": "is Edge Edge is uh when it's a remote",
+      "start": 3609.48,
+      "duration": 6.0
+    },
+    {
+      "text": "remote device and of course you can run",
+      "start": 3612.72,
+      "duration": 4.639
+    },
+    {
+      "text": "guy there as",
+      "start": 3615.48,
+      "duration": 5.119
+    },
+    {
+      "text": "well and this is where where you need",
+      "start": 3617.359,
+      "duration": 4.44
+    },
+    {
+      "text": "actually small",
+      "start": 3620.599,
+      "duration": 3.121
+    },
+    {
+      "text": "models",
+      "start": 3621.799,
+      "duration": 4.841
+    },
+    {
+      "text": "because because it's really hard to to",
+      "start": 3623.72,
+      "duration": 6.319
+    },
+    {
+      "text": "ship yeah on on these",
+      "start": 3626.64,
+      "duration": 7.76
+    },
+    {
+      "text": "devices I think uh there are companies",
+      "start": 3630.039,
+      "duration": 6.841
+    },
+    {
+      "text": "who do Federated learning right so this",
+      "start": 3634.4,
+      "duration": 6.08
+    },
+    {
+      "text": "is when you need to do learning on the",
+      "start": 3636.88,
+      "duration": 5.76
+    },
+    {
+      "text": "edge like let's say there is this",
+      "start": 3640.48,
+      "duration": 4.319
+    },
+    {
+      "text": "customer facing device I don't know a",
+      "start": 3642.64,
+      "duration": 5.24
+    },
+    {
+      "text": "drone or a I don't know a probe",
+      "start": 3644.799,
+      "duration": 4.961
+    },
+    {
+      "text": "somewhere and then like you cannot",
+      "start": 3647.88,
+      "duration": 3.439
+    },
+    {
+      "text": "really send all the data somewhere you",
+      "start": 3649.76,
+      "duration": 3.2
+    },
+    {
+      "text": "just do the training on device and then",
+      "start": 3651.319,
+      "duration": 3.961
+    },
+    {
+      "text": "you somehow centralize it I don't know",
+      "start": 3652.96,
+      "duration": 5.04
+    },
+    {
+      "text": "if it's a think in uh llms in EI in",
+      "start": 3655.28,
+      "duration": 5.12
+    },
+    {
+      "text": "general but that's certainly I think in",
+      "start": 3658.0,
+      "duration": 5.599
+    },
+    {
+      "text": "some manufacturing uh",
+      "start": 3660.4,
+      "duration": 5.719
+    },
+    {
+      "text": "setups well a lot of people will hate me",
+      "start": 3663.599,
+      "duration": 5.96
+    },
+    {
+      "text": "for that uh but I would say that",
+      "start": 3666.119,
+      "duration": 6.44
+    },
+    {
+      "text": "Federated learning is a very Orthodox",
+      "start": 3669.559,
+      "duration": 6.081
+    },
+    {
+      "text": "and um let's say",
+      "start": 3672.559,
+      "duration": 8.361
+    },
+    {
+      "text": "very uh Niche use case um I just again",
+      "start": 3675.64,
+      "duration": 11.399
+    },
+    {
+      "text": "it's it's like debating on um on U uh",
+      "start": 3680.92,
+      "duration": 10.0
+    },
+    {
+      "text": "D5 uh versus I don't know some Cloud",
+      "start": 3687.039,
+      "duration": 7.441
+    },
+    {
+      "text": "basically it's it's a debatable topic",
+      "start": 3690.92,
+      "duration": 7.08
+    },
+    {
+      "text": "um it's it's it's called distributed",
+      "start": 3694.48,
+      "duration": 7.04
+    },
+    {
+      "text": "comput well it's used to call to be",
+      "start": 3698.0,
+      "duration": 6.319
+    },
+    {
+      "text": "called by Federate learning today people",
+      "start": 3701.52,
+      "duration": 5.799
+    },
+    {
+      "text": "say distributed",
+      "start": 3704.319,
+      "duration": 6.601
+    },
+    {
+      "text": "compute okay and",
+      "start": 3707.319,
+      "duration": 6.681
+    },
+    {
+      "text": "uh it it's but but then it goes in the",
+      "start": 3710.92,
+      "duration": 5.0
+    },
+    {
+      "text": "also in a similar direction as as",
+      "start": 3714.0,
+      "duration": 3.599
+    },
+    {
+      "text": "blockchain into the",
+      "start": 3715.92,
+      "duration": 3.639
+    },
+    {
+      "text": "decentralization and then it it's",
+      "start": 3717.599,
+      "duration": 4.161
+    },
+    {
+      "text": "becomes",
+      "start": 3719.559,
+      "duration": 3.72
+    },
+    {
+      "text": "religion",
+      "start": 3721.76,
+      "duration": 3.839
+    },
+    {
+      "text": "science I mean it's still science but",
+      "start": 3723.279,
+      "duration": 4.04
+    },
+    {
+      "text": "it's more",
+      "start": 3725.599,
+      "duration": 4.121
+    },
+    {
+      "text": "religion if you see what I mean and then",
+      "start": 3727.319,
+      "duration": 6.0
+    },
+    {
+      "text": "you have also um some evangelist let's",
+      "start": 3729.72,
+      "duration": 6.92
+    },
+    {
+      "text": "say let's use that word that that preach",
+      "start": 3733.319,
+      "duration": 5.881
+    },
+    {
+      "text": "that idea that everything should be over",
+      "start": 3736.64,
+      "duration": 5.84
+    },
+    {
+      "text": "blockchain um and we see we are not",
+      "start": 3739.2,
+      "duration": 5.04
+    },
+    {
+      "text": "there even with blockchain yet but but",
+      "start": 3742.48,
+      "duration": 4.559
+    },
+    {
+      "text": "we see a lot of stuff not a lot but",
+      "start": 3744.24,
+      "duration": 4.839
+    },
+    {
+      "text": "maybe some stuff going there right we we",
+      "start": 3747.039,
+      "duration": 4.641
+    },
+    {
+      "text": "see some stuff going blockchain but not",
+      "start": 3749.079,
+      "duration": 3.791
+    },
+    {
+      "text": "all stuff going",
+      "start": 3751.68,
+      "duration": 3.28
+    },
+    {
+      "text": "[Laughter]",
+      "start": 3752.87,
+      "duration": 4.37
+    },
+    {
+      "text": "blockchain yeah I'm not really following",
+      "start": 3754.96,
+      "duration": 6.0
+    },
+    {
+      "text": "that uh domain let's say well maybe last",
+      "start": 3757.24,
+      "duration": 6.44
+    },
+    {
+      "text": "question for you but yeah just closing",
+      "start": 3760.96,
+      "duration": 4.68
+    },
+    {
+      "text": "this down this is a big topic as well",
+      "start": 3763.68,
+      "duration": 3.639
+    },
+    {
+      "text": "and there are quite a lot of experts",
+      "start": 3765.64,
+      "duration": 3.919
+    },
+    {
+      "text": "that that really believe in in a",
+      "start": 3767.319,
+      "duration": 4.04
+    },
+    {
+      "text": "distributed compute as",
+      "start": 3769.559,
+      "duration": 4.361
+    },
+    {
+      "text": "well so last question for you so you",
+      "start": 3771.359,
+      "duration": 4.76
+    },
+    {
+      "text": "mentioned you like science fiction so",
+      "start": 3773.92,
+      "duration": 4.919
+    },
+    {
+      "text": "what's your favorite",
+      "start": 3776.119,
+      "duration": 2.72
+    },
+    {
+      "text": "book uh well this one of the most",
+      "start": 3779.119,
+      "duration": 5.281
+    },
+    {
+      "text": "difficult it's much easier to talk about",
+      "start": 3782.319,
+      "duration": 4.24
+    },
+    {
+      "text": "I don't know challenges in distributed",
+      "start": 3784.4,
+      "duration": 5.28
+    },
+    {
+      "text": "training rather than picking one best",
+      "start": 3786.559,
+      "duration": 6.04
+    },
+    {
+      "text": "book okay well I don't know",
+      "start": 3789.68,
+      "duration": 6.72
+    },
+    {
+      "text": "three it's it's it's it's still fun to",
+      "start": 3792.599,
+      "duration": 7.881
+    },
+    {
+      "text": "to just pick one um well if we talk",
+      "start": 3796.4,
+      "duration": 6.48
+    },
+    {
+      "text": "about science fiction um certainly three",
+      "start": 3800.48,
+      "duration": 3.44
+    },
+    {
+      "text": "body",
+      "start": 3802.88,
+      "duration": 6.12
+    },
+    {
+      "text": "problem biing three body problem yeah",
+      "start": 3803.92,
+      "duration": 8.119
+    },
+    {
+      "text": "that's that's that's the book body right",
+      "start": 3809.0,
+      "duration": 5.039
+    },
+    {
+      "text": "yeah yeah three",
+      "start": 3812.039,
+      "duration": 6.08
+    },
+    {
+      "text": "body okay by who Ling if I pronounce the",
+      "start": 3814.039,
+      "duration": 7.401
+    },
+    {
+      "text": "name correctly it's a Chinese um",
+      "start": 3818.119,
+      "duration": 10.081
+    },
+    {
+      "text": "um um author um but again there TV",
+      "start": 3821.44,
+      "duration": 8.919
+    },
+    {
+      "text": "show yeah but I'm not saying anything",
+      "start": 3828.2,
+      "duration": 5.8
+    },
+    {
+      "text": "new so like for example okay whether you",
+      "start": 3830.359,
+      "duration": 5.48
+    },
+    {
+      "text": "are into science fiction or not but it's",
+      "start": 3834.0,
+      "duration": 4.16
+    },
+    {
+      "text": "a name that's pretty much known to",
+      "start": 3835.839,
+      "duration": 4.76
+    },
+    {
+      "text": "anyone who is who is into science",
+      "start": 3838.16,
+      "duration": 6.08
+    },
+    {
+      "text": "fiction I guess uh I have not heard",
+      "start": 3840.599,
+      "duration": 6.841
+    },
+    {
+      "text": "about I'm not into science fiction I a",
+      "start": 3844.24,
+      "duration": 6.319
+    },
+    {
+      "text": "year ago I read ring world I did not",
+      "start": 3847.44,
+      "duration": 4.879
+    },
+    {
+      "text": "know about this book but it was quite",
+      "start": 3850.559,
+      "duration": 5.52
+    },
+    {
+      "text": "interesting so I'm looking to expand my",
+      "start": 3852.319,
+      "duration": 5.841
+    },
+    {
+      "text": "yeah totally can recommend that one it's",
+      "start": 3856.079,
+      "duration": 4.321
+    },
+    {
+      "text": "actually three books it's not just one",
+      "start": 3858.16,
+      "duration": 5.76
+    },
+    {
+      "text": "it's a three books three body problem is",
+      "start": 3860.4,
+      "duration": 7.6
+    },
+    {
+      "text": "just okay it's it's actually from math",
+      "start": 3863.92,
+      "duration": 7.639
+    },
+    {
+      "text": "uh three body problem is a geom not it's",
+      "start": 3868.0,
+      "duration": 5.44
+    },
+    {
+      "text": "not geometrical but it's math problem",
+      "start": 3871.559,
+      "duration": 6.201
+    },
+    {
+      "text": "it's you have three uh three physical",
+      "start": 3873.44,
+      "duration": 7.56
+    },
+    {
+      "text": "bodies in let's say",
+      "start": 3877.76,
+      "duration": 6.76
+    },
+    {
+      "text": "SP uh for example three",
+      "start": 3881.0,
+      "duration": 6.839
+    },
+    {
+      "text": "sons and then there's a gra okay and",
+      "start": 3884.52,
+      "duration": 7.16
+    },
+    {
+      "text": "then uh you need to come up with an um",
+      "start": 3887.839,
+      "duration": 7.561
+    },
+    {
+      "text": "with a with a formula for to predict the",
+      "start": 3891.68,
+      "duration": 6.32
+    },
+    {
+      "text": "movement basically to you need to come",
+      "start": 3895.4,
+      "duration": 5.08
+    },
+    {
+      "text": "up with an",
+      "start": 3898.0,
+      "duration": 2.48
+    },
+    {
+      "text": "equation it's known as a non solvable",
+      "start": 3900.92,
+      "duration": 6.6
+    },
+    {
+      "text": "problem uhuh so I'm reading I'm looking",
+      "start": 3904.599,
+      "duration": 5.561
+    },
+    {
+      "text": "at the article right now called Oilers",
+      "start": 3907.52,
+      "duration": 5.079
+    },
+    {
+      "text": "three body problem in physics and",
+      "start": 3910.16,
+      "duration": 4.959
+    },
+    {
+      "text": "astronomy ear three problem is to solve",
+      "start": 3912.599,
+      "duration": 4.44
+    },
+    {
+      "text": "the for the motion of a particle that is",
+      "start": 3915.119,
+      "duration": 5.601
+    },
+    {
+      "text": "acted up okay it's difficult techque the",
+      "start": 3917.039,
+      "duration": 5.401
+    },
+    {
+      "text": "the book is interesting because it goes",
+      "start": 3920.72,
+      "duration": 6.119
+    },
+    {
+      "text": "beyond math and it goes into philosophy",
+      "start": 3922.44,
+      "duration": 8.24
+    },
+    {
+      "text": "and politics um and uh basically",
+      "start": 3926.839,
+      "duration": 6.321
+    },
+    {
+      "text": "existential um",
+      "start": 3930.68,
+      "duration": 4.84
+    },
+    {
+      "text": "problems it's certainly a good way to",
+      "start": 3933.16,
+      "duration": 4.8
+    },
+    {
+      "text": "kill time",
+      "start": 3935.52,
+      "duration": 5.88
+    },
+    {
+      "text": "U okay Andre thanks a lot we haven't we",
+      "start": 3937.96,
+      "duration": 6.56
+    },
+    {
+      "text": "only talked about a partion par portion",
+      "start": 3941.4,
+      "duration": 5.52
+    },
+    {
+      "text": "like only a fraction of topics we wanted",
+      "start": 3944.52,
+      "duration": 4.519
+    },
+    {
+      "text": "to cover today which is not the surprise",
+      "start": 3946.92,
+      "duration": 4.24
+    },
+    {
+      "text": "right because we wanted to talk about so",
+      "start": 3949.039,
+      "duration": 4.76
+    },
+    {
+      "text": "many things um but yeah it was awesome",
+      "start": 3951.16,
+      "duration": 4.84
+    },
+    {
+      "text": "it was really great thanks for being",
+      "start": 3953.799,
+      "duration": 4.601
+    },
+    {
+      "text": "here thanks for accepting the invite I",
+      "start": 3956.0,
+      "duration": 4.68
+    },
+    {
+      "text": "really enjoyed our conversation and uh",
+      "start": 3958.4,
+      "duration": 5.84
+    },
+    {
+      "text": "looking forward to working more with you",
+      "start": 3960.68,
+      "duration": 7.8
+    },
+    {
+      "text": "thank you Alex and everyone else uh see",
+      "start": 3964.24,
+      "duration": 4.24
+    }
+  ]
+}

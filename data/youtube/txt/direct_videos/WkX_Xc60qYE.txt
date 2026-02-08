@@ -1,0 +1,1671 @@
+[Music]
+Welcome back to the AI policy podcast.
+I'm Gregory Allen and today we are very
+fortunate to get the voice of AI in
+Congress from one of its most important
+leaders, Congressman Jay Obermulti, who
+recently served as the co-chair of the
+bipartisan House Task Force on AI and
+also serves as the vice chair of the
+Congressional AI Caucus. He's got an
+incredible wealth of experience, not
+least of which from his time before
+Congress, uh, when he actually did some
+engineering work and some professional
+work in the AI industry. Congressman Jay
+Obeli, thank you so much for coming on
+the AI policy podcast.
+>> Absolutely. It's wonderful to see you
+again.
+>> So, I want to start uh with your
+background because in 1990, while you
+were pursuing a degree, an engineering
+degree from Caltech, you founded a video
+game company. uh which you still own
+called Farside Studios. So talk to me
+about your life as an engineer before
+you started your life as a legislator.
+What what type of AI were you working
+on? Uh how far did you go in in that
+work?
+>> Well, it was always my ambition in life
+to be a researcher in artificial
+intelligence. Uh my father uh brought
+home an Apple 2 computer from work when
+I was in fifth grade which kind of dates
+me and gave me a book on how to teach
+yourself programming in basic uh and uh
+that ignited in me a lifelong learn uh
+love of uh computer science and computer
+programming uh and I looked at the the
+field of the different careers that were
+available to me and I thought you know
+what artificial intelligence is going to
+change the world that's what I want to
+do with my life and so I went to Caltech
+I get got a degree in computer
+engineering and then was working on my
+doctorate at UCLA in AI doing some of
+the early research in natural language
+processing and computer vision when my
+side hustle at the time uh which was
+writing video game software which I
+never thought was actually going to you
+know be a career for me took off and uh
+you know that that came kind of out of
+an interesting set of coincidences. I
+was uh uh sitting in our computer
+science department at Caltech and I
+noticed a want ad that someone had put
+on a bulletin board looking for an
+expert programmer at uh the 6502
+microprocessor which happens to be the
+same one that was in the Apple 2. And so
+I said, "Okay, you know what? I I
+actually am an expert at that." And I
+answered the ad and it turned out to be
+a company working with a firm in Japan
+that not very many people had heard of
+at the time. They called themselves
+Nintendo.
+They just introduced Nintendo's first
+game machine in North America, the
+Nintendo Entertainment System. So, uh,
+you know, I remember vividly. I called
+my mother and I said, "Uh, mom, you you
+can't believe they're going to pay me to
+write video games." And I'll never
+forget what she said in response. She
+said, "That sounds great, honey, but
+wouldn't you rather do something that
+might have a future for you?" You know,
+at the time, it wasn't clear that you
+could actually make a living writing
+video games. So, I just did that to put
+myself through college and then graduate
+school. But then when I was at uh UCLA
+working on my doctorate in AI, uh one of
+the games that I'd written for the Sega
+Genesis, an NFL football game called NFL
+95, uh became a big hit and uh that's
+what deflected me out of a career in
+academia into a career in business. And
+so I ran uh that development studio for
+30 years. My uh son still runs it. It's
+kind of a family business now. We uh
+we're still around, although I don't I'm
+not involved in any of the development
+or the day-to-day management of the
+company anymore because I've got other
+responsibilities, but we do console
+development for platforms like
+PlayStation, Xbox, Nintendo Switch.
+>> Very cool. So, uh I I have to note uh an
+interesting parallel here. Um you're
+probably aware of this, but Demis Deis
+Hassabus, the CEO of Google Deep Mind,
+his uh entry point into AI was video
+games. He created the game theme park
+and had to create this was a
+deterministic rules-based AI, but sort
+of how does the population of park
+attendees in the video game. How does
+their behavior, you know, uh start out
+as an individual making decisions, but
+also have these sort of macro attendance
+effects that the the player can interact
+with in interesting ways? So, I'm I'm
+curious, you know, when you were uh
+making the NFL game, was there any sort
+of overlap between your AI work and your
+video game work? You know, it's
+interesting.
+We say that we create AI when we make
+the opponent logic for playing against
+you in a, you know, one-on-one player
+game where where, you know, you are just
+playing against the computer. Uh, we
+it's not really what we would call AI in
+the traditional sense.
+>> It's AI in the 1980s sense though.
+>> Yeah. Well, I mean I mean kind of the
+opposite where AI, you know, when I was
+in graduate school, AI is something that
+you uh left running on a mainframe
+overnight and then got an answer in the
+morning. Whereas uh in the NFL game, you
+know, we needed an answer in a 60th of a
+second, which is the time between two
+successive frame television frames.
+That's the amount of time we had to make
+a decision. So, for the longest time,
+those universes didn't uh didn't coexist
+at all. uh but now I would actually say
+the situation is the opposite because uh
+when we use the term AI it's become very
+generic right we don't we're not talking
+about just a neural net we're not
+talking about just a a non-deterministic
+algorithm we're talking about anything
+really that makes a computer seem
+humanlike and people mean when they say
+AI and so I think in that sense video
+games very much are AI
+>> Yep. And uh now now you just got me
+curious. Uh so you said you were working
+on computer vision and natural language
+processing. What was there a specific
+problem that you were working on? Uh you
+you said LA which always makes me think
+JPL and space technology from that era
+of AI. But what what what were you
+trying to solve?
+>> Well in machine vision uh we were doing
+image segmentation. So you know for
+example if you have a picture and you
+ask you want the computer to be able to
+say what that picture is. uh that turns
+out to be a really difficult problem to
+solve and you might think that like okay
+look I've got a car you know it's should
+be easy to teach a computer to recognize
+a car but if you look at even something
+simple like a chair when we say chair we
+mean a whole lot of things it could have
+a back it could have no back it could be
+like a chase lounger it could have a
+single you know a single seat could have
+cushions it could have no cushions and
+if you think about the orientation of
+the chair you know there sometimes when
+one leg is in front of the other and so
+you only see three legs and you know so
+it it turns out to be really really
+difficult So, you know, you start with
+edge detection and you put those
+silhouettes together in a way that that
+you know, tries to make it seem like uh
+you can classify what you're what you're
+seeing. We do it in a completely
+different way now. It's such a hard
+problem to solve. It turns out to be
+easier to train a neural net to
+recognize what we mean when we see chair
+by feeding it, you know, a huge number
+of examples that are classified. Okay,
+this is chair or no chair, chair or no
+chair. Uh, and then let it, you know,
+sus out the subtleties of what we mean
+when we say chair. Um,
+>> so is it accurate to say you were trying
+to sort of handcraft an algorithm that
+could input, you know, could intake an
+image and output classification?
+>> Yeah, learn an algorithm.
+>> At the time, we were on a very different
+path. I mean, you can imagine that the
+path that we're on now is much more
+non-deterministic, right? We just we use
+big neural nets with lots of layers and
+lots of nodes and we just feed it lots
+of data. uh but at the time you know it
+was never imagined that we could ever
+have neural nets big enough or you know
+data sets that were large enough to make
+that work but that I mean that's
+essentially the way large language
+models work now.
+>> Amazing. So you're kind of an obvious
+choice uh to be a leader in Congress on
+AI having a professional background in
+this field from both the technical side
+and the business side. Um how did that
+come to be? Um, how did you find
+yourself? Uh, did did you uh seek out
+opportunities to do this or or were you
+uh punished somehow by being forced to
+take on this incredibly difficult task?
+>> Well, are you asking how I got into
+politics or are you asking how I got
+>> got into AI once you were already in
+politics?
+>> Oh, it was a natural fit. You know, it's
+u it's interesting in Congress what you
+find is from a distance everyone thinks
+that our knowledge is a mile wide
+because we legislate on such a wide
+variety of different topics. But,
+>> right, you you have to have something to
+say about healthcare. You have to have
+something to say about space policy. You
+have to have something to say. Yeah.
+Exactly.
+>> That's right. And every I mean that and
+you're to talk about my committees of
+jurisdiction. I mean like financial
+services, you know, we had a very
+complicated cryptocurrency bill that
+came up uh in the house a month ago and
+you know that that uh uh that took a lot
+of specialized knowledge to make an
+informed vote there. So uh from you know
+when when you really get close to the
+situation you realize that our knowledge
+is might be a mile wide but it's only an
+inch deep in a lot of cases. And so we
+rely on silos of expertise. So for
+example, uh one of the committees I sit
+on is the health subcommittee that and
+we're in charge of health policy for the
+entire country. Uh we have bills that
+are related to pharmacists that come up
+all the time and we're very fortunate
+that we have two pharmacists right now
+in Congress. For the longest time we had
+one, now we have two. It'll be back to
+one unfortunately next year unless
+something changes. Uh but I rely on
+those people. It's Congressman Carter
+and uh and our our friend from Tennessee
+that that uh Congresswoman Harshbarter
+uh I rely on them when we have a
+question about pharmacists because they
+are pharmacists and they're experts and
+so uh you know we're really lucky to
+have that and so I'm honored to be able
+to fulfill that function when it comes
+to technology policy just because I've
+had so much experience with it. So if I
+can be a resource and an asset to the
+people that I serve with and you know I
+think the system is functioning as it as
+it was designed to be.
+>> Great. So, in uh February 2024, uh
+Speaker of the House uh Mike Johnson and
+the Democratic leader Hakee Jeff
+announced a bipartisan task force on AI
+which along with Ted Congressman Ted
+Louu uh you co-chared. Talk to us a
+little bit about the origins of that
+task force and then of course it
+culminated in a report that was
+published late last year. So, um how did
+that work unfold and what do you see as
+being the big uh outcomes?
+>> Right. um you know that actually the the
+the genesis of that task force was uh
+several years before that when uh I
+asked uh then speaker Kevin McCarthy to
+form a working group on artificial
+intelligence and my point to him was
+that uh
+the federal government was in danger of
+being overrun by the states and the
+states getting far out ahead of us in
+setting AI policy and that we needed uh
+some kind of nexus to be able to build
+uh expertise and consensus and knowledge
+amongst members of Congress in this, you
+know, burgeoning field of AI. And so
+Kevin McCarthy uh founded the working
+group that I chaired for the year before
+that. And then we went to Speaker
+Johnson and asked him to to create a
+task force with a defined uh work
+product, you know, because I was
+convinced what we really needed was to
+produce a report that detailed to
+everyone in Congress what we thought a
+reasonable federal regulatory framework
+for AI would be. And so that was that
+was the defined product of that uh of
+that task force. And I asked the speaker
+uh I I said you please don't first of
+all don't make two chairs. Let's have
+two co-chairs. Uh let's have it be
+broadly bipartisan because we need to
+acknowledge going in that anything that
+we do that's substantive uh has got to
+be bipartisan. And so rather than uh
+having a chair and a a ranking member,
+which is the normal course for policy
+committees in Congress, I said let's
+just have two two co-chairs. uh I said
+let's not let's assue the usual practice
+of putting more members of the majority
+party on the ta the uh task force than
+the minority party. Let's just have it
+uh have them be completely equal. And
+that's what we got. 12 Republicans, 12
+Democrats. Um and also interestingly uh
+you know we did a lot of things very
+different about our hearings. We uh I
+told everyone the usual practices that
+uh Democrats sit on one side of the uh
+of the dis and the Republicans sit on
+the other. And I told everyone, "No,
+we're not doing that. In fact, we have
+and normally it's arranged by seniority.
+And I said, "No, there's going to be no
+assigned seating here. I would really
+like everyone to sit somewhere different
+every time, pick different people to sit
+next to. And I would like Democrats and
+Republicans, you know, mixed in with
+each other. Go, you know, make some
+friends, build some relationships, meet
+some people that you haven't met
+before." And I think that we're really
+successful in doing that.
+>> That's amazing. So, uh, you talked a
+little bit about the process. Of course,
+you're you're having hearings, you're
+engaging with experts, you're engaging
+with various voices who have, you know,
+different opinions and stakes in the AI
+explosion. Uh, it culminates in this
+report. So, uh, if if memory serves, the
+report is more than 250 pages long. Uh,
+can you walk folks through, you know,
+what you see as kind of the the most
+important findings of the report? Um,
+and, you know, what happens now that
+there is this?
+>> Right. Um, well, you're right. It was
+about 270 pages long. Uh I'm very proud
+of the report we put out is there's very
+little fluff in there. It's all
+substantive discussions about concrete
+policy recommendations. Uh we had 25
+different hearings of the task force to
+create that report and uh we make over
+80 concrete policy uh recommendations in
+it. Uh so if I were to summarize and
+there is an executive summary and no by
+the way before you ask we did not use AI
+to summarize the document. I got that
+question all the time. Um, but uh
+there's an executive summary if anyone's
+interested. We uh you know it's just a
+few pages long and we'll we'll summarize
+it uh for folks. And the report's easy
+to find if you just uh ask Professor
+Google or whatever your search engine of
+choice is uh uh you know AI House AI
+task force report. It'll take you right
+to it. Um but if I were to summarize I
+mean so the the kind of stark choice
+confronting
+uh our country in terms of AI regulation
+is whether or not we follow the lead of
+entities like the European Union who
+have adopted a very centralized approach
+to AI regulation. So basically they've
+said AI is different than than other
+types of regulation. We are going to
+create a separate parallel licensing
+requirement for AI and spin up a brand
+new bureaucracy to write the rules for
+that. So if you are uh if you already
+have a sectoral regulator in the EU now
+you have to have you have two regulators
+in if you use AI you have two regulators
+now your sectoral regulator and the AI
+regulator. So you know that's one choice
+or the other choice is to embrace
+sectoral regulation where we equip and
+empower our sectoral regulators with the
+tools resources and authorities that
+they need to regulate AI in their
+sectoral spaces. And that is what we uh
+strongly recommend that the United
+States do. And there are a couple of
+reasons for that. Uh if you read the
+NIST AI risk management framework that
+they came out with last year, that's
+been acknowledged uh is one of the
+furthest thinking documents on the topic
+of AI risk that's ever been created. uh
+if if you read through that framework,
+you realize that uh what NIST is saying
+is that the risks of AI deployment are
+highly contextual, which means it it
+matters very much what you're going to
+do with the AI when you're trying to
+evaluate what the risks of deploying it
+are. And something that is unacceptably
+risky in what one uh usage might be
+completely benign another even though
+the model is identical. So, uh, when you
+think about it that sense, you know, it
+really makes you realize how difficult
+it is to have a non- sectoral regulator
+evaluate the risks. And I'll give you a
+specific example. The FDA has already
+issued over a thousand permits for the
+use of AI and medical devices, which is
+pretty much one of the highest risk
+usage contexts you can think of. I mean,
+something that's going to be implanted
+in someone's body or used to make
+diagnostic decisions about people's
+health, that's pretty risky. you know,
+if you if someone were to say, uh, I'm
+going to put AI in your heart m in your
+pacemaker, uh, you would want the FDA to
+be looking into that, right? So, uh, the
+question is, is it easier to teach,
+uh, the FDA what it might not already
+know about AI or is it easier to teach a
+brand new regulator everything the FDA
+has learned over decades of ensuring
+patient safety? And the the answer is
+clearly it's the former, not the latter.
+And so that that's that is the the
+recommendation that we're making in the
+report, the chief recommendation.
+>> And I think you know that recommendation
+you can even see it in the table of
+contents. And what I mean by that is you
+have sections on agriculture,
+healthcare, financial services, uh
+intellectual property. The point
+basically being that what appropriate AI
+regulation looks like is going to be on
+a sector by sector uh framework. there's
+not there there's very rarely going to
+be a one-sizefits-all part of the story
+here. Now, I'm I'm curious, you know,
+what your evolution on these uh
+positions has been over time and and how
+it overlaps with the evolution in the
+position of industry because if you
+think about going back to 2023,
+I mean, I recall when a group of
+executives signed a letter, it included
+Sam Alman, the CEO of OpenAI. It
+included Elon Musk, now the CEO of XAI.
+included demis the CEO of Google
+DeepMind, you know, talking about the
+existential risk of artificial
+intelligence. And Sam Alman even
+testified before Congress in 2023, you
+know, calling for regulation that was
+tied to the power level of the models.
+This uh 10 to the 26th number, uh which
+actually still shows up even more
+recently in uh California state
+legislation has its origins in an OpenAI
+white paper. And so I I'm curious, you
+know, is there any part of the AI story
+where you think a sectoral approach is
+is insufficient where regulation based
+on the generation that you know the
+capabilities of the model etc. And maybe
+just to put another point on it, um
+while there is this sort of sector by
+sector um logic to regulation, if you go
+back only as long ago as like 5 or 10
+years, that tended to accord with how AI
+capabilities were developed. You know,
+the AI that's very very good at
+recognizing faces is not going to be
+good at listening to voices, etc. But by
+contrast, if you look at some of these
+large language models, they want to give
+you medical advice. They want to give
+you legal advice. They want to give you
+therapy services. They want to give you
+engineering advice. And so the point is
+that the the systems themselves have
+become deeply cross sectoral. Um does
+any of that pose uh any uh challenges to
+what you said or or how do you
+incorporate that into your uh existing
+framework?
+>> Right. No, it's an important question.
+Um, and I think that you have to
+differentiate what our responsibilities
+are as legislators from what our
+responsibilities are as human beings,
+right? Because uh, as legislators, we
+are uh, required to protect consumers
+against the risks of malicious use of
+AI. uh and to try and differentiate
+between doing that and uh creating this
+overreaching government bureaucracy that
+controls every aspects of the decisions
+that people make. Right? And so this is
+a balance that we try and achieve every
+day when we create law. Uh so when we
+are figuring out what ought to be
+against the law and what safeguards need
+to be put in place, we need to make a
+list of the things that we're trying to
+protect people against, right? Because
+without that list, without, you know,
+the the what what lawyers call the
+parade of horriles, all the bad stuff
+that can happen, you really can't come
+up with safeguards and laws that protect
+people against those risks. It's not
+enough to say this is big and scary and
+we don't understand it and therefore
+we're going to outlaw it, right? That
+would be, I would say, an inappropriate
+uh action for a government to take. Uh,
+you know, unless unless you were so
+convinced that the risk was real that,
+you know, that that it made sense to do
+that. So, you know, when we classify
+these risks into these two different
+buckets, you know, you have all the
+sectoral risks of the ones we've been
+talking about, but you're talking about
+like a non- sectoral risk and the chief
+amongst them and what uh a lot of AI
+visionaries in those letters that you're
+referring to are are uh bringing up is
+this risk of uh what they call uh AGI,
+artificial general intelligence. You
+know, where we have an AI algorithm that
+is smarter than a human that you know
+doesn't want to be turned off. you know,
+the HAL 9000 scenario
+>> and uh you know that that is a real
+possibility. We've got computer
+scientists are split on it uh you know
+where you've got about half and half
+about half computer scientists think
+that uh AGI is going to be inevitable in
+in in everywhere. I mean, some people
+say 6 months, some people say a couple
+of years, and then you've got about half
+of computer scientists that are in their
+other camp that think that AGI, if it
+even ever happens, is uh something
+that's farther in the future. And that
+the path that we're on right now with
+large language models, I mean, what
+we're creating is, you know, stochastic
+parrots that just, you know, mimic the
+behavior they've been trained on and
+that that there isn't any in
+intentionality, there isn't any
+planning, there isn't any centralized,
+you know, thought process. and therefore
+it's that's not the track that AGI will
+occur on. So, you know, this is this is
+you you got you know, people are split
+on this. Uh I actually think I I'm kind
+of an AGI skeptic.
+>> Uh I think that AI is amazing. It's
+going to be more amazing. Uh I think it
+seems we we've already got AI that
+probably passes the Turing test, you
+know, which was supposed for, you know,
+for decades the the gold standard of of
+figuring out when we've gotten to AGI.
+Um, uh, I think that if you, it depends
+on how you define AGI, like if you
+define AGI, well, what does it mean to
+be smarter than a human? Well, if you
+can pass all these tests, if you can
+pass a, uh, you know, if you can pass
+the bar in California and you can pass,
+uh, a test to get your medical license
+in Vermont, you know, then that's pretty
+smart. Uh, and AI, I mean, uh, you know,
+we we can probably already do that
+within the next year or two. AI will be
+able to do those things. uh you know on
+the other hand uh I think you need to
+figure out what we mean when we say
+intelligence like what does it mean to
+be intelligent because you know what
+what's become very clear is that AI is
+intelligent in a way that's completely
+different and uh not human you know in
+compared with the way that mankind is
+intelligent um and when it you know when
+it gets when you get right down to these
+existential questions like you just have
+to finally throw up your hands and say
+okay look let's talk about risks here
+you know what are we really concerned
+about um so uh you know that those are
+those are the trade-offs uh when we talk
+about that. So like if to the extent
+that you can put a a concrete risk on
+something like you know for example we
+don't want AI to be used uh for some to
+allow someone to make a biological or a
+nuclear weapon right that is a a
+quantifiable risk well good let's
+protect against that uh we don't want AI
+to fill the role of therapist although
+we might in the future but I mean only
+to the extent that uh trained human
+professionals have have created it and
+equipped it with uh you know with
+safeguards you know against things like
+suicide ideology. We, you know, we can
+say it's, you know, it would really be
+bad if AI assisted a child in committing
+suicide because it reinforced this
+ideology they brought to it. Okay,
+great. We can agree on that. Let's let's
+put safeguard place, you know, but this
+this like non-quantifiable, well, maybe
+it will be too smart and we'll, you
+know, end up in the Terminator where
+we're battling Skynet for control of the
+world. like unless you can put uh you
+know you can quantify that risk and
+explain how it would happen and how we
+protect against it it's really difficult
+to make the case that government needs
+to act.
+>> Yep. So um in terms of you know
+preventing those quantifiable harms that
+you described uh one of them being the
+the risk of assisting in the development
+of weapons of mass destruction. uh the
+other being you know sort of stepping
+into an area where it's inappropriate
+like providing uh therapeutic uh advice
+in the absence of you know genuine
+medical expertise informing that and
+overseeing the delivery of those kinds
+of services. What does an appropriate
+government intervention look like in
+those cases? And I guess I mean it in in
+a couple of ways. One is who do we
+regulate? Right? Um, if I uh if I use my
+car to go run someone over, I'm going to
+jail. Ford Motor Company is not going to
+jail. But if uh the brakes explode um
+and therefore I can't stop and I run
+some over perhaps, you know, Ford is
+going to face some uh uh penalties or or
+liabilities there. And when you think
+about the the types of harms that we're
+talking about, some of the burden could
+fall on deployers, some of the burden
+could fall on developers, some of the
+burden could fall on users. Do you in
+your own mind have a sense of like what
+the appropriate regulatory framework is
+for knowing when it is appropriate to
+impose burdens on which category of of
+uh user, developer, deployer?
+>> Yeah. Well, absolutely. And we did a lot
+of thinking about this in the task
+force. Uh and I mean the answer is that
+it's much easier to think about these
+things. These are not new questions. I
+mean you you raised a couple of them uh
+already with cars. I mean talk about uh
+uh firearm violence, right? That's
+another one. It's a really a hot topic.
+And you know who's at fault? The person
+that that manufactured the gun, the you
+know the person that distributed the
+gun, the person that fired the gun, the
+person that trained the the person that
+fired the gun, right? But we we this is
+these are things our society has already
+been through you know thinking about
+these things and AI is no different you
+know we have an existing framework for
+dealing with these questions of
+vicarious liability uh and you know uh
+kind of a a great example of this is
+uh you know the the way we approach
+the uh making new laws about the legal
+and illegal use of AI. So I mean there
+are a lot of people that think wow AI is
+so different. We need a law uh
+protecting people against this. We need
+a law protecting about that. Uh but I
+mean we are a society that believes in
+regulating outcomes not regulating
+tools. And that fits into the examples
+that you just gave. You know we don't we
+don't blame Ford when the car uh causes
+you know when the car gets into an
+accident unless we look at it and we say
+that there's a flaw in the design of the
+car. you know, we recognize that driving
+a car at 80 miles an hour on a freeway
+is an inherently risky activity and you
+know that there are risks that people
+assume and we try and you know balance
+that. So, uh we regulate outcomes. So,
+uh for example, we don't need a new law
+that says that it's illegal to use AI to
+steal people's money through cyber
+fraud. You know, it is already illegal
+to do that. It doesn't matter if you use
+AI to do it or another tool to do it.
+And uh that holds true in other you know
+kind of more fringe cases like when you
+talk about bias. Uh there was a really
+uh well publicized case a few years ago
+where a company developed an algorithm
+for the automated screening of résumés
+which you know in in hindsight we would
+recognize that as a highly consequential
+decision-making process that deserves
+extra scrutiny because of the potential
+impact on you know someone that didn't
+get a job because AI screened out their
+resume in inappropriately you know
+especially when bias was involved but
+you know these were early days uh you
+know the idea was you'd use the AI to
+uh your number of applicants down from
+10,000 to the hundred that were going to
+get a call back from from a human. Um
+and uh before that algorithm was
+deployed thankfully uh some really
+troubling biases were discovered in it
+and it turns out that those biases were
+unintentional but they crept in through
+the training process and they were
+racial biases you know exactly the kind
+of thing that we're trying to guard
+against. So I mean a lot
+>> and it's illegal right? Yeah.
+>> Yeah. Yeah. Yeah. Well, that's that is
+the issue. Like a lot of people freaked
+out about this. Like, oh my god, see
+this is exactly what we should be
+concerned about. This is, you know, bias
+and AI. And I mean, uh, we learned a lot
+about the way those biases creep in. It
+was great that it was unintentional. It
+was great that it was caught before it
+was deployed. Uh, but none of that
+distract from the fact that what you
+just said is true. It's already illegal
+to use racial bias in hiring decision-m.
+And it doesn't matter if you use an AI
+algorithm to do that or you know a human
+decision maker or you know any other
+tool. Uh so if that algorithm had been
+deployed the moment those biases were
+exposed it would have been illegal to
+continue to use it
+>> right?
+>> So we don't need a whole new body of law
+for that we already have I mean we we
+were focusing on the outcomes that we
+want to control. Um and I mean this is
+goes to people's fears about AI. A lot
+of people think that AI is unregulated
+right now in the United States and that
+is absolutely untrue. I mean, in
+addition to the fact that we've got all
+of our sectoral regulators already
+dealing, we've talked about the FDA and
+medical devices, but Nitsa regulating
+the use of AI and uh the driving of
+autonomous vehicles, FAA regulating the
+use of AI in uh aircraft avionics. Uh
+you know, in addition to that, we've got
+this whole body of law that that you
+know that is based on outcomes, not on
+tools that AI can fit into. So to the
+extent that we can regulate that way, to
+the extent that we can think about
+safety and liability that way, I think
+we're much better served as a society.
+And also, you know, we you you mentioned
+uh copyright protection. You know, we
+had a whole chapter on intellectual
+property in uh
+>> and I should I should flag for listeners
+that part of your congressional district
+includes Los Angeles County, obviously
+uh as the center of the US entertainment
+industry, intellectual property and
+copyright issues, a very hot topic. So,
+it it's it's kind of amazing that you're
+at the center of both of these uh
+things.
+Exactly. Yeah, but I mean uh we uh what
+we say in the task force report, we
+acknowledge two things. The first thing
+is that uh solving these intellectual
+property issues is probably going to be
+the thorniest part of AI regulation. Uh
+the second thing we acknowledge is that
+the courts are going to be ahead of
+Congress in this sense. We've got some
+really uh interesting and compelling
+court cases that are pending,
+particularly the New York Times case,
+and the courts are going to have to try
+and figure out if they can extend the
+doctrine of fair use to cover these
+novel cases. You know what, you know,
+when when copyrighted material is used
+to train an algorithm that then
+commercially deployed to create new
+material, you know, to to what extent is
+that uh illegal use? To what extent is
+fair use? to what extent is it uh is it
+a derivative create a derivative work
+and you know how do you balance those
+competing interests well the courts are
+going to try and if they can succeed I
+mean they might need some backup from
+Congress in cottifying some of the
+things that they decide because you know
+we don't want them to put them in the
+position of lawmakers but I mean if they
+can exceed succeed in extending this
+doctrine that served us well for decades
+uh it would be much better than saying
+AI is completely different and here are
+the new rules for AI and you know the
+old rules for everything else so that
+that that is kind of what I'ming
+happens is that we can figure out a way
+of fitting AI into the larger way that
+we approach, you know, our legal world
+and our laws.
+>> So, I want to go back to something you
+said, which is, you know, racial
+discrimination in hiring was illegal
+before AI was invented and it's illegal
+after AI is invented. And using AI in
+your hiring is not a get out of jail
+free card, you know, to to use racism in
+hiring decisions. Ditto with uh uh cyber
+fraud, uh, for example. Um, so those are
+those are great instances in which the
+existing regulatory frameworks still
+maps pretty well uh to the AI era. Um,
+but I think there's a a flip side of it.
+You know, if we're talking about the
+sort of three elements of any regulatory
+structure, authority, capacity, and
+political will. I do wonder about the
+question of capacity because cyber
+crime, you know, was a much smaller
+problem when not very many people had
+hacker skills and if we are moving
+towards a world in which AI makes it
+easier for sort of unsophisticated
+people to carry out sophisticated
+hacking attacks, you know, that is a
+problem. I mean, I I'm I you you
+probably know people who have
+experienced this, but um uh one of my
+friends, you know, her mother received a
+phone call uh that was in her voice
+talking about how she had been kidnapped
+and, you know, needed to pay a ransom in
+Bitcoin, etc., etc. And then the mother,
+you know, texted uh the daughter and the
+daughter's like, "What are you talking
+about? I'm fine." They deep faked her
+voice to execute this scam. And this is
+obviously very prominent in going after
+the elderly in the United States. And so
+I do wonder if you know AI can make
+certain problems that were tractable
+because of a certain scale that they
+were occurring on but now might bring
+new scale to those problems which you
+know calls into question not authority
+which as you pointed out in many cases
+the law is already decent but capacity.
+How how are you wrestling with those
+kinds of issues?
+>> Right. No, it's an interesting it's a
+completely uh worthwhile distinction,
+you know, to make and uh we were I mean
+it's kind of a different distin
+conversation though because we were
+talking about the law. You know, we
+don't need a new law, but you know, we
+very much need to make sure that our law
+enforcement agencies are equipped with
+the resources and tools that they need
+to go after the people that are uh that
+are creating this uh you know this
+illegal activity. And uh to answer your
+question, yes, I hear from people every
+day, my constituents, you know, every
+day about this. Uh however, that fits
+into kind of a larger discussion and
+I'll be interested to get your opinion
+on this. Uh you know, one of the things
+that AI is accelerating is uh the
+ability for anyone to create anything
+that they want to create in such a way
+that a casual observer would not be able
+to distinguish between what they've
+created and reality.
+>> Mhm. And this has profound consequences
+for us as a society especially when it
+comes to the spread of miss and
+disinformation which is something that
+we highlight in the report. You know
+this something that that uh no one has a
+good answer for. Um we had a several
+hearings in our task force about this.
+Uh and one of the hearings was on the
+specific topic of whether or not
+watermarking should be mandatory for AI
+generated content. And the conclusion
+that we reached is no, it should not.
+And not because it's not useful, but be
+for the same reason why you can't solve
+the problem of counterfeit currency by
+requiring people to stamp fake on,
+right? Because everyone will everyone
+who's law-abiding will do it and the the
+people that aren't law- abiding won't do
+it. And uh so you not only have you not
+solved the problem, but you've
+desensitized people to the fact that
+there's current fake currency sitting
+around there that's not stamp fake. And
+that's the same we have the same problem
+with AI generated content. So I think
+that we as a society are going to put a
+much stronger premium on authenticity.
+So I don't think that you know AI
+generated content will be watermarked. I
+think authentic uh content will be
+watermarked. And we're already seeing
+this in things like security cameras
+where you have evident evidentiary rules
+for introduction into court cases. And
+you want to be able to say, "No, no, I I
+know I can prove that this is from
+camera number four and it was taken, you
+know, at 2 2 a.m., you know, on this
+location on this date because, you know,
+it's got an encrypted watermark and, you
+know, it's blockchain encrypted and, you
+know, chain of custody and all of that."
+Yeah.
+>> Yeah.
+>> And I think this this phenomenon is is
+now also uh coming into journalism.
+there's a consortium of international
+journalists and they're even working
+with camera manufacturers like Leica and
+Nikon so that you know as soon as they
+take the picture from you know just say
+a war zone or wherever um it's
+immediately hashed in a blockchain so
+there's sort of an authoritative this is
+the version of the image that was taken
+at this specific date and and I I
+definitely take your point in terms of
+the authentic stuff uh needs the
+watermark perhaps more desperately than
+the the the fake stuff. I do want to
+push back and and I I this is not
+something, you know, I've spent a
+hundred years uh thinking about, so I'm
+I'm certainly open to being persuaded,
+but um your point on counterfeiting, um
+an example that comes to mind for me is
+that if you try and take a $100 bill and
+you put it in a photocopier machine and
+you say, "Make a copy of this." Uh the
+photocopier will refuse to engage in uh
+the thing. It will say, "I I detect that
+this is a $100 bill. you're obviously
+trying to engage in counterfeiting. You
+know, I'm not going to be a part of
+this. And um you know, this was
+obviously a more significant uh
+phenomenon, you know, 20 years ago
+before every $100 bill had a hologram
+strip in it, etc., etc. Um but the point
+being here that it does not make
+counterfeiting impossible, but it does
+make it more expensive and more
+complicated. And so it basically
+eliminates casual, effortless
+counterfeiting. um which is not the sum
+total of the problem but is also a
+non-trivial portion of the problem. And
+so the question is you know do you want
+um teenagers to plausibly be able to
+pull off sophisticated uh disinformation
+attacks or do you want to say hey only
+the Russian intelligence services
+devoting a lot of time and effort to
+sort of coming up with this and
+inventing their own tools are going to
+be able to do this. This is something
+when I was in the department of defense
+uh we were thinking about DARPA funded a
+lot of uh research to authenticate
+synthetic media because like we you know
+for intelligence reasons for operational
+reasons we needed to be able to
+understand when media was true or false
+but we also recognized that we had an
+interest in the general public being
+able to understand what was true or
+false when we were seeing for example
+Russian disinformation attacks
+associated with NATO exercises um and we
+were like okay we actually it actually
+matters for some of the strategic
+outcomes that we're trying to get here
+that a a huge share of the population
+understands that these these media
+images are fake. And so the point here
+being that like I do think it is worth
+thinking about you know where is the
+right locus of intervention.
+You know, when you make it illegal to
+make a copy machine or Photoshop
+software engage with $100 bills, you're
+you're raising the bar for what it takes
+to execute a sophisticated
+disinformation attack. And that might be
+a non-trivial share of the problem. When
+you think about some of the most viral
+disinformation images, uh they weren't
+always created by um very sophisticated
+actors.
+>> Sure. No, and I think it's a fair point.
+uh and I think that the ultimate answer
+is you have to evaluate on a case-byase
+basis what the impact of your regulation
+is. So, for example, with your case of
+the of, you know, using a photocopier to
+create a a counterfeit bill, um, if the
+it's a it adds $1 to the cost of the
+copier and works well enough that
+there's never a false positive, uh, you
+know, then you might be reasonable to
+say, okay, you know, this this because
+the impact, you know, on on the
+law-abiding population is so small, this
+is a reasonable regulation. You know, on
+the other side of it, if it doubles the
+cost of the copier to do that and
+there's false positives all the time
+where I'm making a copy of something
+else and the copier is saying, "Oh, no.
+I'm I'm not going to do this because it
+looks, you know, I think it looks like a
+dollar bill."
+>> Franklin's on it and, you know, it's his
+biography, not his dollar bill. Right.
+>> Yep. And, you know, then we would say,
+"No, that's not reasonable." And so, I
+mean, I think that that really is uh,
+you know, the barometer that you have to
+use uh because, you know, we have to
+strike a balance. But I mean also don't
+don't forget about the risks of
+desensitizing the public because we
+already have a public that believes far
+too much. And it's I used to think it
+was a generational problem where you
+know was my parents that you know my
+mother still thinks everything that she
+reads on the internet is true even if
+it's a comment on someone's social media
+post you know well it's a that's a
+generational problem but you know uh it
+turns out that our kids you know the Gen
+Xers Gen X you know the genzers and the
+millennials they uh they're just as
+susceptible to this problem as as our
+generation is. So, you know, we can't
+desensitize people to the fact that they
+are going to have to, you know, at some
+level exercise judgment about and and
+has have some healthy skepticism. So, I
+remember I mean going back to your case
+like uh when in the early days of copy
+machines, uh teenagers were using copy
+machines to make counterfeit $20 bills.
+But, I mean, you'd walk into one of
+those with a 7-Eleven and the guy be
+like, "Come on now." You know what I
+mean? Because because I mean, people
+were conditioned to be able to to look
+for that. I mean, uh, but if if you've
+created technology that weeds out the
+vast majority of that, uh, you know,
+then then you've also destroyed the
+healthy skepticism that people are going
+to have to have about it. So, so I mean
+that you have to think about that as
+well.
+>> Yeah, that's really interesting. So, I
+want to I want to take us back to
+Congress. Um, so we're obviously in a
+very difficult moment to pass
+legislation in Congress. one of the uh
+most noteworthy efforts to pass federal
+legislation on AI which was the
+preeemption of state level uh AI
+regulation um did not get included in
+the the recent bill and so is not law. I
+want to ask you what do you think is
+realistic to expect from Congress you
+know over the next year in terms of AI
+related legislation and specifically on
+the topic of regulation and governance.
+>> Mhm. Yeah. Well, it this is a
+timeritical topic because we have a
+situation where uh states are getting
+way ahead of the federal government in
+regulating AI. Uh you've seen some
+far-reaching legislation passed in
+places like Colorado and Illinois. Uh
+and of course, Governor Nuomo just
+signed a uh pretty far-reaching piece of
+legislation in California that is uh
+admittedly less farreaching than the one
+he vetoed last year, but still uh
+clearly impinges on Congress's
+prerogative under article one of the
+constitution to regulate interstate
+commerce. So, uh, what we are in danger
+of having happen is the same thing that
+happened on digital data privacy where
+because Congress failed to act, we now
+have what, 23 different states with 23
+different standards for digital data
+privacy. Uh, which, you know, is
+something that's clearly interstate
+commerce related. You know, that's
+clearly interstate commerce. And
+everyone would be better served if
+Congress were to just say, look, here is
+the standard. uh to the extent that it's
+interstate commerce related states are
+preempted because you know we've created
+a standard and that way uh not only is
+it less confusing but it's more uh
+conducive to entrepreneurialism because
+the people that have the legal
+sophistication to deal with 50 different
+state standards are the big companies
+you know with rooms full of lawyers and
+the people that can't are two folks in a
+garage somewhere trying to start the
+next big company right so uh this is the
+this is the case with AI because we have
+over currently over a thousand different
+bills pending in state legislatores on
+the topic of AI regulation just this
+year. So, you know, we we need to get
+that done. Now, to be clear, you talked
+about preeemption. You know, what what
+uh was attempted earlier this year as
+part of HR1 uh was not preeemption, but
+a moratorum, a temporary moratorium on
+uh on uh state AI regulation just to
+give time Congress a little bit of time
+to get that done and to make it clear to
+the states that Congress needs to go
+first. That's why we put it in there is
+is you know not not that we don't think
+that there's going to be a state lane
+for regulation. There definitely is. You
+know under a system of federalism states
+have responsibility for some things and
+Congress has responsibility for other
+things. And uh you know really the
+dividing line when it comes to AI is is
+it interstate commerce or not. So I
+think what needs to be done uh urgently
+is that we pass federal AI legislation
+that creates those lanes that makes it
+clear where the preemptive guardrails
+are. you know what is you know
+interstate commerce related uh and
+therefore reserved for regulation by the
+federal government and what outside of
+those guardrails where the states are
+free to be the laboratories of democracy
+that they always have been uh and I
+think that's what really urgently needs
+to get done.
+>> Yeah. And you know just to uh play
+skeptic for a moment here uh there was
+your own bipartisan task force in the
+house. Senator Schumer led a gang of
+four that also had a bipartisan uh group
+trying to craft uh AI legislation in the
+Senate. That GPT dropped in uh late
+2022. I've been hearing about how it's
+urgent since late 2022. Um and still, I
+think we I think it's fair to say we
+haven't seen much uh come out of
+Congress. So, um it's urgent, but is it
+possible? I mean, is there anything that
+gives you cause for optimism that this
+could be the year or or well, we're
+already in October, so maybe in the next
+12 months?
+>> Uh, yes, actually. So, if you want if
+you want some uh reason for optimism, I
+mean, look at uh the fact first of all
+that our task force report, which you
+know, as we've discussed, is pretty
+substantive.
+It was unanimously approved by all 24
+members of our task force. 12 Democrats,
+12 Republicans and it was approved by
+the speaker and the minority leader and
+their staffs.
+>> Okay, that that's should be pretty
+compelling. You know, you should have
+seen what was left on the cutting room
+floor of those 270 pages because we we
+had enough that there was broad
+bipartisan consensus on that we had the
+luxury of saying, "Okay, you know what?
+all the stuff that that you know might
+be more controversial, we're not even
+going to touch that because we've got
+plenty of stuff here that uh you know
+that that to form the nucleus of of a
+comprehensive plan. So I mean that gives
+me some confidence. Uh when you talk to
+people in Congress,
+there is no one that thinks that there
+shouldn't be a federal framework for the
+regulation of AI and that it shouldn't
+at least partially preempt the states. I
+mean literally no one thinks that.
+people will disagree on exactly what the
+preeemption looks like. So, you know,
+that uh the fact that we have broad
+agreement on this and and even the the
+time urgency, you know, when we when you
+state the the problem and you look at
+what happened with digital data privacy,
+which by the way, we're taking another
+run at. I'm on the data privacy working
+group. We're we're going to try again
+this year to come up with a standard.
+The problem is that when you fail to do
+that initially and you let the states
+get out of head, they all feel creative
+ownership of what they have made and
+they're more likely to say, "Well, what
+we have is better than what you're
+proposing and so that we're we're going
+to oppose you."
+>> Right. So
+>> So you you've given some you've given
+what I think is a pretty credible case
+for why this time could be different.
+Can I just ask what form uh that might
+take? Like would you and your co-chair,
+Congressman Ted Lou, uh jointly
+introduce uh draft legislation? Would it
+come out of committees?
+Would it be, you know, something else
+that comes out of the speaker's office?
+H how might this legislation uh emerge?
+>> No, I think it's important to follow the
+regular legislative process. And that
+way, we've been working on this now for
+what, 9 months. So, we have a bill.
+We're calling it Gaia, the Great
+American AI Act. And uh it has it
+codifies a big chunk of what the task
+force recommendations were, including
+some preemptive guard rails focused
+around uh the distinction between
+interstate commerce and non-instate
+commerce. Uh and uh and it does some
+other things. We uh you know how
+passionate I am about NAR, the national
+AI research resource. We've got that in
+there. It codifies KC, which is part of
+the White House's action AI action plan
+because we need a uh a standard setting
+body within NIST. And so, uh, you know,
+we do that. So, there's whistleblower
+protections. We got a bunch of stuff
+good stuff in there. Um, and, uh, the
+problem is that things have been so
+dysfunctional in Congress right now that
+we just can't get any legislative oxygen
+for it.
+>> I mean, right now, the whole federal
+government is shut down. The House is
+not in session. The Senate seems like
+all they're voting on is uh, you know,
+one continuing resolution after another.
+like and even when we get out of this
+because unfortunately we we've gotten so
+far behind on other things. We've got
+some other pressing concerns like uh
+National Defense Authorization Act that
+has to be passed by the end of the year.
+The Farm Bill authorizations are going
+to lapse. You know, these are really
+high priority issues for Congress. You
+know, we we are struggling to get enough
+traction, but but the process that
+you've outlined is the one that we need
+to follow. We need to get uh a bunch of
+bipartisan co-sponsors on it. uh we need
+to introduce it and go through the
+regular committee process and you know
+have to see if it it's going to go
+through energy and commerce or science
+space and technology or both um you know
+and go through and see if we just can't
+get some traction for it but I I still
+remain an optimist just because I think
+we proved last year with the task force
+that this is a bipartisan issue uh and I
+think that you know you can make a
+really easily proven case that it's time
+critical.
+>> Yeah. Um, I think that's uh that's a
+great spot. And now you did raise the
+point about uh the White House AI action
+plan. We at CSIS hosted the director of
+the White House Office of Science
+Technology Policy, Michael Kratzios, uh
+during the roll out of that new plan.
+And one of the things that he said was,
+look, there's a lot of areas here where
+we're going basically as far as we
+believe ourselves able to go under
+executive branch unilateral authority,
+and there are places where Congress
+needs to act. And so I'm curious, you
+know, as you think about Gaia or other
+pieces of legislation, your own work,
+uh, you know, Congress's work, um, how
+do you take the the AI action plan? Is
+there anything that that um on the sort
+of the White House can't do it alone
+to-do list that strikes you as
+especially important?
+>> Sure. Um we've talked about a couple of
+them, you know, particularly uh Casey,
+which we we absolutely need a uh an
+agency within the US government to
+coordinate standard settings for AI and
+to coordinate international cooperation
+on not just standards, but things like
+uh the non-prololiferation of malicious
+AI. And uh I think it's it's wonderful
+that you know if you look at the Biden
+executive order and the Trump executive
+order there's a lot of parallels on
+those topics and that should give people
+some comfort because you really can't
+think of two administrations that are
+more diametrically opposed on a lot of
+different things but the fact that we've
+got this thread of continuity through
+through there uh you know should give
+people some comfort and also you know
+we're we're very lucky to have uh
+Secretary Katzios in there. He's he's a
+guy that's uh deeply informed and
+educated on the issue of AI given his
+background and so you know he's he's
+been a steady hand at the wheel there.
+>> Yeah, I I uh I appreciate your shout out
+to Casey there and and I should say for
+the audience uh Congressman and I were
+at an event together uh yesterday and he
+was uh opining on the the wisdom of
+Casey's residency within NIST. Could I
+just get you to sort of repeat a little
+bit about what you said yesterday?
+>> Sure. Right. Well, I mean, if if you
+you're looking at the task force report,
+one of the things that we want to avoid
+is having uh an unelected bureaucracy
+make a bunch of rules uh about AI. We
+think that that's if you look at what's
+happening in Europe, uh it's an
+illustration of uh of the fallacy of
+that kind of approach. So uh we wanted
+to make sure that the
+body that is setting standards for AI is
+not the same body that is empowered to
+make those standards mandatory. We think
+that a check and balance there is a much
+more appropriate uh you know way to go
+there. And that's why I am very happy
+that the Trump administration is
+electing to keep Casey uh under NIST,
+which is where it was, you know, when
+when it was the AI Safety Institute uh
+under the Biden executive order was also
+under NIST because NIST is inherently a
+non-regulatory body. They are a standard
+setting organization and that's exactly
+where you need an an agency like this.
+So, uh really happy to see that.
+>> Great.
+So, we we touched on it a bit before,
+but I just wanted to get your sort of
+explicit reaction uh to the recently
+passed California legislation SB53. Uh
+because there are elements of this law
+that echo some legislation that you've
+introduced at the federal level,
+including a protection for
+whistleblowers uh in AI. So, what do you
+make of uh SB53, which I think it's
+worth noting out that Dean Ball, who was
+previously part of the White House OSTP,
+he said that even that legislation
+appears to be begging for federal uh
+regulatory frameworks to come and take
+the plot and include some interesting
+regulatory hooks to enable preeemption
+even when the federal government doesn't
+declare uh that it's preempting state
+law. So, I I'm curious, you know, what
+you make of of SB53. Well, it's uh the
+uh the author uh of SB53, Scott Weiner,
+and I served together in the state
+legislature. You know, we uh we chat
+periodically about this. Uh I was not a
+fan of his bill last year. Uh this bill
+is a lot uh more supportable. Um you
+know, you can we can have a case by case
+discussions about some of the things
+that that are in there like the
+whistleblower protections, the mandatory
+reporting requirements for uh security
+vulnerabilities. I think that that's a
+really interesting idea. A centralized
+database for uh vulnerabilities. I think
+that that is something that would uh
+give us, you know, researchers a broad
+overview of what was actually going on
+in the vulnerability space with with
+respect to uh to frontier models.
+However,
+you no one could argue that what what
+the governor just signed in California
+does not uh interfere with Congress's
+ability impinge on Congress's authority
+to regulate the interstate uh commerce
+applications of AI. I mean, it very
+clearly does. So, uh, I mean, I I really
+think that that that could be the poster
+child of like, look, you know, when to
+the extent that you're regulating the
+deployment of AI within your state, you
+know, that's reasonable. um to the
+extent that you're regulating the
+development of AI in your state, AI
+that's meant to be uh used in commerce
+in all the 50 states, you know, that is
+definitely something that should not be
+allowed at the state level and should
+only be uh allowed in Congress because
+otherwise you've get this nonsensical
+patchwork quilt of 50 different state
+regulations. I mean it would be u it
+would be impossible to comply with and
+easily evaded because all you have to do
+is you know then you go jurisdiction
+shopping and you put your development
+studio in a state with the least
+restrictive policies. It's it makes no
+sense. So I mean really that's a
+compelling uh argument for why we need
+federal preeemption. And to be clear, I
+mean, we, as we've talked about, uh, no
+one thinks that there isn't a lane for
+states in AI regulation, but it needs to
+be consistent with article one of the
+federal constitution
+in allowing Congress the unrestricted
+lane of regulating interstate commerce
+and then allowing states to go, you
+know, do their experimentation and be
+the laboratories of democracy that they
+are.
+>> Yeah. And so given that, I mean, given
+that situation, does that give you some
+extra momentum in Congress? Can you now
+go to your colleagues and say this, you
+know, this is what we need to prevent.
+We don't want California setting the
+nationwide policy. Let's get together
+and pass nationwide policy.
+>> Yes. Uh it does, but I mean, we already
+had that that momentum because there
+were um Colorado that had passed things.
+And it was amazing to see in the
+governor's signing message in Colorado.
+He even explicitly said, "Look, I don't
+think this is something that states
+ought to be doing, but because I don't
+have any faith that Congress is going to
+get around to this anytime soon." And as
+a former member, he would know,
+>> yeah,
+>> I'm going to go ahead and sign this with
+delayed implementation. You know,
+interestingly, he came out in uh in
+public support of the moratorum uh
+earlier this year when uh when we put
+that in HR1,
+>> which which just just just goes to show
+you how how hard it is when the rubber
+meets the road of implementing these
+kinds of regulations. He's like uh yeah,
+if you would give me a break, that would
+be great.
+>> Right. Exactly.
+>> Um so, uh Congressman, I want to uh
+close it out here and be in, uh be
+respectful of your time, but is there
+any other issues that we didn't touch on
+that you wanted to talk about? Well, I
+mean, let's let's close it with this
+because I think that we um in the
+industry do a terrible job at
+articulating the optimistic case for AI.
+You know, we we start having these
+discussions. We talk about risks. We
+talk about malicious use. We talk about
+how the law needs to adapt. We need we
+talk about infringement of copyrights.
+You know, we we talk about all this bad
+stuff. And then we we haven't had a
+discussion about some of the other
+things in the report like uh job
+displacement and you know disruption and
+things like that. And you know
+we don't we aren't articulating the
+optimistic case for AI. You know we
+aren't articulating why we do this
+because I had a constituent you know to
+give an example come up to me the other
+day and say look I hear all the stuff
+about AI. Look if it's that risky why do
+we even allow it? Why don't you say it's
+illegal? Right? And I was just I was
+dumbfounded for a moment, but it really
+drove home to me the fact that we're not
+talking about the upside. And the
+upsides are are two things. You know,
+number one, AI is probably already the
+most effective tool for the
+dissemination of human knowledge that
+mankind has ever come up with. It can
+teach you anything that you want to
+learn in any learning style that is
+optimal for you. And it's going to get
+more and more powerful in that respect.
+But it will be probably the most
+effective tool for the enhancement of
+human productivity that mankind has ever
+invented. It's going to be incredibly
+empowering. It will be disruptive as
+technological advances always are. But
+in the end, at the end of the day, it's
+it it has the potential to create first
+of all many many more jobs for humans
+than it displaces. Uh and second of all,
+this r create this rising wave of
+prosperity that literally lifts all the
+boats of everyone in the world. And
+that's the promise of AI. If we get if
+we do our jobs right in balancing
+regulation that, you know,
+simultaneously protects Americans
+against the harms that they need to be
+protected against while at the same time
+allowing AI to bring those beneficial
+advancements to our society. So I mean
+that that is what's possible if we do
+our jobs right. And we don't
+>> uh you know to put it in ultra simple
+terms, right? It's not just the
+government's job to decrease bad. It's
+also to increase good. And there's a lot
+of good out there that we should be
+excited about when it comes to AI.
+>> Yeah.
+>> Um well, Congressman, this has been a
+fascinating conversation and you've
+really given us a peak under the hood at
+what's going on in Congress and what we
+might be able to expect over the next
+year. Uh we're of course grateful for
+your leadership and grateful for you
+taking the time to talk with us today.
+>> Always good to see you. Let's do it
+again.
+>> Excellent. Thank you.
+Thanks for listening to this episode of
+the AI Policy Podcast. If you like what
+you heard, there's an easy way for you
+to help us. Please give us a five-star
+review on your favorite podcast platform
+and subscribe and tell your friends. It
+really helps when you spread the word.
+This podcast was produced by Sarah
+Baker, Satie McCulla, and Matt Mand. See
+you next time.

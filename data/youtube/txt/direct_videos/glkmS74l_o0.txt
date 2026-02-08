@@ -1,0 +1,661 @@
+spend time in supporting the uh AI
+research Community uh around the world I
+think that most of the people will have
+seen the latest advancement of AI
+because they are available to everybody
+in particular the conversational systems
+because in some sense AI instead has
+been used for many many years in many
+different sectors in many different
+things that we do every day constant
+Evolution
+multimodal uh you know super agents
+every day things are happening so what
+would you suggest how should we regulate
+AI welcome to the regulating AI podcast
+join host Sanjay purri as he explores
+the dynamic and developing world of
+artificial intelligence governance each
+episode features deep Dives with global
+leaders at the Forefront of regulating
+AI responsibly tackling the challenges
+using AI can bring about head-on and
+enabling balance without hindering
+innovation
+[Music]
+welcome to the regulating AI podcast
+artificial intelligence AI stands at the
+Forefront of technological Revolution so
+how do we regulate it without stifling
+Innovation our podcast features insights
+from various perspectives we get
+industry leaders to government officials
+to advocacy group leaders together they
+address pivotal questions that are
+needed to create a fair and practical IC
+legislation I'm very excited to have
+Francesca Rossi with us today she's an
+IBM fellow and the IBM ethics Global
+leader I invited her on this show as it
+is very important to get many different
+perspectives towards framing AI
+legislation and we need to get a global
+perspective on AI ethics for this
+transformative
+technology welcome Francesca it's an
+absolute pleasure to have you on the
+Ting a podcast thanks for having
+me uh francisa we have uh listener base
+that is global we have members of
+congress senate staff of the legislators
+think tanks industry people can you
+please give them a brief overview of
+your role currently yeah of course um so
+first of all my background is uh uh in
+computer science I have a PhD in
+computer science and I work in uh doing
+AI research for many years almost 30
+years in Academia so I was a professor
+of Computer Science teaching AI to
+undergraduate and graduate students um
+and then uh eight years ago I joined IBM
+uh at the TJ Watson Lab close to New
+York and uh So within IBM I'm still part
+of IBM research so I am leading research
+projects on a I but then as you said I'm
+also the company AI ethics Global leader
+which means that I uh supervise and lead
+a lot of activities that the company has
+around AI ethics for being the co-chair
+of the internal AI ethics board which is
+the IBM centralized governance um for AI
+ethics for the whole company that uh uh
+talks and decides upon uh things like
+very high level principles around the
+atis but also very very concrete actions
+like risk assessment processes playbook
+for our developers um educational
+material uh and and many others and then
+also I spend a lot of time in all the
+Partnerships that the company has with
+many other stakeholders companies
+Academia Civil Society organizations
+policy makers and so on around again AI
+ethics and also regulating AI so
+um as part of my uh AI research work um
+I also spend time in supporting the uh
+AI research Community uh around the
+world So currently uh I am the President
+of triple AI which is the worldwide
+Association of AI
+researchers uh that
+in that has more than 6,000 researchers
+all over the world that publish papers
+in alal conference and many other
+activities so that's also another part
+of my overall role so I have different
+Hearts I like to have this diversity in
+what I do during the days um and I learn
+a lot from uh all these different
+environments where I work wow we are
+really lucky to have some Someone Like
+You Francesca you have been an academic
+you're working in Industry now uh also
+working in Partnership so that's very
+very helpful to us um given the dynamic
+nature of AI which it keeps evolving uh
+why can you tell our listeners what is
+the current state of AI and tell them
+about its capabilities and uh
+limitations you know because there's so
+much news every day there's something
+you know you have a AG you have uh AGI
+all that conversation going on so please
+tell our listeners about the where is ai
+ai
+today sure uh well I think that um I
+don't you know whatever the audience is
+I think that most of the people will
+have seen the latest advancement of AI
+because they are available to everybody
+in particular the conversational systems
+no that like CH GPT or others or the
+systems that that generate um generate
+uh images or even videos from textual
+descriptions so like Dal M Journey Sora
+and so on so uh so people are aware and
+in fact people um they are so aware of
+these uh more recent Advantage advant uh
+advances of AI that U many tend to think
+that AI is here now and has never been
+here before because in some sense AI
+instead has been used for many many
+years in many different sectors in many
+different things that we do every day
+but it was kind of hidden so far and not
+that explicitly that you could you could
+interact that directly with an AI system
+so we we have used AI even on web web
+search we use AI in handling the spam
+emails we use they are in um in uh
+in many sectors in Industries whenever
+we use a credit card that is an AI
+algorithm that checks for fraudulent
+transactions so we use AI basically all
+the time and uh but now the public
+perception is really that AI is here
+because of this direct way of posing
+question to an AI system and receiving
+answers that are very similar to how
+human human being would write an answer
+so that is amazing of course um and uh
+but it can also generate a false
+perception of an AI system that can
+reason like a human being so we tend to
+think that since it can write like a
+human being possibly it has also all the
+other features of the human reasoning
+and this is not not not the case so that
+means that we have to be very aware of
+yes the the capabilities so the ability
+to generate content images videos text
+besides interpreting content like it was
+used to do for many years already with
+machine learning techniques but also the
+limitations and some of the limitations
+have to do with the fact that these AI
+systems like the large language models
+are trained on large amounts of text um
+and are trained with one goal in mind to
+be able to generate uh text that is
+makes sense uh according to the uh
+probability distribution of how words
+correlate with each other in the
+training data and uh this allows these
+AI systems to generate text and and the
+same thing is with images just not one
+word at a time but one pixel at a time
+so to generate content that is very
+realistic um but not NE necessarily that
+is always uh factual right so so that
+then then there is you know we have to
+understand that uh we have to be aware
+that there are these uh possibilities
+for the so-called hallucinations so that
+the AI system May generate false content
+even if all the content in training data
+is true um and we need to be aware of
+that and aware of many other risks that
+are um the same or amplifying risks that
+were already well known in previous
+versions of machine learning approaches
+like of course the issue related to
+fairness to explainability to
+transparency to robustness and so on so
+and that are now appear also in the
+generated content in order to use them
+in the best way uh in the most
+appropriate way and in also to
+understand that there are um there are
+necessity to mitigate this some of these
+risks that come from the from some
+limitations uh and the behavior of the
+system and we have to put together
+mitigation uh scenarios you know
+mitigation
+techniques and we have to be aware that
+these mitigation techniques uh are going
+to be supported also by the technology
+itself AI itself can help us identify
+for example if there is bias in the day
+training data or you know mitigate that
+bias and so on but the technology itself
+alone cannot be the only solution
+because this risks and uh are soot
+technological and they need to have soot
+Technical Solutions which means that
+people and communities and impacted um
+uh communities need to be involved and
+many different stakeholders need to be
+involved to understand really what is
+best to do and also all the societal Act
+need to play a complementary role
+companies but also governments in
+regulating AI in the best way also Civil
+Society organization and also every
+single user of
+AI so uh Francesca just to unpack uh you
+put a lot of things out there one is you
+said AI is been hidden it's always been
+there so for our users to know that this
+is not something that suddenly popped up
+and secondly you said you know there's
+this text that is being generated it
+gives uh people answers now obviously
+there are image generator tools as you
+said like mid Journey do Etc but you you
+talked a little bit about the risk also
+you said about fairness uh transparency
+robustness Etc and uh and you talked
+about how different parts of our society
+whether it is Civil Society governments
+people communities need to be uh engaged
+in doing that now in terms of uh ethics
+you are the IBM's uh ethics leader
+Global Ethics leader for our listeners
+can you explain to them what are
+specific AI ethics just so that they
+understand what that means yeah of
+course um so
+um what AI ethics is a discipline of
+study and the community of studies that
+in involves many different people so
+people that have a technology background
+like myself but people that have more of
+a philosophy background a business
+process background or a policy
+background so you need everybody as we
+said to get together and to try to
+achieve one goal which is very simple to
+state which is to take best out of this
+technology that has so many
+opportunities as and has shown already
+to be so U you know positive for Society
+for people for health and so on many
+different sectors while at the same time
+identifying and mitigating the risks and
+the possible negative impact on society
+and on people okay so now how do you do
+that how do you achieve that goal or you
+get closer to that goal um you need to
+you know what the ethic community did um
+over the world over this past let's say
+10 years at least is to start from very
+high level principles at some point
+everybody was writing principles about
+how you want to position yourself in
+terms of producing creating AI or using
+AI then we went from principles
+to to more awareness of of these
+principles and then to practice ice say
+okay but I have these principles but
+what do the principle mean in practice
+in the everyday job of some somebody
+involved in AI so like the developers
+the Educators the policy makers and so
+on so that's where these principles were
+translated into very concrete actions
+like the one that I mentioned earlier
+that we have at IBM like around you know
+what's the right governance in a company
+so for example do we have to uh do we
+want to have an external Advisory board
+that tells the company advises the
+company what to do about these risks or
+do we want to have an internal
+governance body and where is this body
+positioned it's all all the decision
+about the governance to make it most
+effective then the other decision is how
+do we tell so do we build tools software
+tools for example to identify and
+mitigate these risks like bias we
+mentioned for example so IBM put
+together this so was called AI fairness
+360 is a software tool that helps
+mitigate identify a mitigate bias um in
+in an AI in a machine Learning System
+then you say okay but then uh I
+understand that these tools are not
+enough because my developers I give them
+the tool they don't know how to use the
+tool so I need to give them a very uh
+more elaborate playbooks and educational
+material so that they understand when we
+gave the tool to for example to our
+developers to mitigate bias they were
+not even sure to understand what it
+meant by buy what we meant by bias so
+what does it mean does it mean that uh
+uh if my project does not have a
+protected variables for example in the
+project then I don't I don't have bias
+they said no because there are proxies
+and so on so a lot of Education of these
+uh developers and then also many other
+activities that as you mentioned also
+about regulating AI so helping policy
+makers understand from the technology
+point of view what what what uh how can
+AI be regulated in a way that you
+mentioned at the beginning that doesn't
+stifle Innovation but still protects
+everybody from possible risks and makes
+them aware and mitigates and so on so AI
+ethics is about all of these risk
+including the risk of misinformation not
+the the new risk uh and and of course
+the atis community evolves over time in
+the Frameworks in the governance in the
+handling of the risk because the AI
+technology evolves and we have seen that
+in the last few years it evolves very
+rapidly with new capabilities new
+limitations and therefore possible uh
+expanded or even new risks like the risk
+of misinformation this was not there
+when we didn't have generative AI right
+because the content was not gener at or
+at least it was generated but it was
+chosen by from a Content that was defi
+predefined by a human being now instead
+is generated um in in in new content by
+AI so uh so AI ethics is about all these
+issues um that again are mostly related
+to machine learning approaches including
+generative AI rather than uh other
+approaches to a i they still exist they
+are most rule based but those approaches
+are are more um uh explainable and are
+more controllable than machine learning
+approaches because machine learning
+approaches the machine learns from huge
+amounts of data rather than being told
+by a human being exactly what to do to
+solve a problem so the machine is there
+there is a more indirection between the
+human being designing and building the
+machine and the behavior of the machine
+we don't tell the machine these are the
+steps to solve a problem we tell the
+machine these are the data from which
+you have to learn uh and then and then
+the machine will go on and and and solve
+future problems that hasn't seen
+hopefully generalizing from the from the
+training data another aspect that is
+very relevant in AI ethics is also the
+aspects of data privacy of course
+because uh again machine learning needs
+data to function otherwise the Machine
+by itself will not know what to do it
+learn from data and most of these some
+many of these data is can also be
+personal data because that that's the
+way we get personaliz services from
+machines but of course this introduces
+the um questions about you know who
+handles that data who stores the data
+who this that is shared with so all the
+issues about data privacy and and and
+using um that we give to to a machine uh
+in a direct or indirect way so that the
+machine can function
+better so uh Francesca it is a
+interdisciplinary effort when you talk
+about uh AI ethics it is involves a lot
+of different aspects it involves as you
+said privacy transp ercy all those
+things so if uh you know there is an a
+regulator the members of congress senate
+who are in many cases listening how
+should they go about uh regulating AI
+keeping all these different different
+aspects in mind and constant Evolution
+multimodal uh you know super agents
+every day things are happening so what
+would you suggest how should we regulate
+a yeah well um
+the I mean regulating AI is definitely
+needed okay so it's one important actor
+the policy makers are one important
+actor to uh make sure that AI has a
+positive impact on society another
+important actor of course is those that
+build AI know and those that use AI
+companies that build it and companies
+that use AI but definitely regul is
+needed um however we have to remember
+that first of all that the purpose of
+regulation in general I think is to be
+uh enforceable to be technically
+feasible what the regulation asks but
+also to
+be uh future proof in some sense so
+because the technology evolve so rapidly
+that if you focus the regulation on a
+specific technology or an specific
+approach then maybe in two years then it
+will be another approach that so so it
+will be outdated very very um very fast
+also because the regulation uh cycle is
+much slower than the technology you know
+Evolution so so that's some few thoughts
+about you know what should be kept in
+mind between the relationship between
+ation and the technology like AI that
+evolves rapidly and to be adopted
+doesn't need very complex or physical
+infrastructures but it needs like a
+piece of software that yes it has to be
+trained on gpus and whatever but then it
+can be used and replicated how many
+times we want so so that makes it very
+fast to be adopted every time there is a
+new uh advance in AI so and that
+Regulators have to keep that in mind um
+also um I think that um there are a lot
+of uh let's say kind of fear mongering
+discussions that say oh AI is dangerous
+or AI is like I don't know uh exist an
+existential risk of some form I am not
+in that uh I don't agree on that I think
+that of course of course AI can be used
+in dangerous ways and can be used in
+ways that are risky know and we have to
+take we even regulate and make sure that
+uh there is a lot of scrutiny on those
+use cases and lot of obligations also by
+law uh but I don't think that the
+technology is by itself you know a huge
+an existential risk for society this is
+a technology like um like uh another uh
+science like like physics like another
+technology that can be used in many
+different ways and that's is it's more
+and more General as we move forward with
+the advances but is the different uses
+that determine in my view the uh risk
+level of the use of the of of the impact
+on society so that's in my view that's
+why I think the regulation should focus
+more on the downstream meaning the uses
+of the technology rather than Upstream
+when the technolog is designed and
+trained and and developed uh so that's
+another thing and and in some sense the
+US has a very um multi-dimensional
+approach federal state cities you know
+very multi-dimensional all the different
+agencies and so on and I see a lot of um
+a lot of um really positive uh
+development there um and I I see it that
+in a completely
+different regulation environment the
+approach is not that different in the
+content to for example to what has been
+happening in Europe around the European
+AI act that also has um based on some
+levels of risk or four levels of risks
+for the uses of AI
+um uh and it puts a lot of scrutiny and
+a lot of request on those that want to
+use AI in one of the so-called highrisk
+uh scenarios so that that to me uh of
+course that regulation has been
+discussed and is almost approved now in
+Europe and so it's a different region of
+the world but I think that that
+discussion on how to regulate AI that
+was started by that uh or in Europe by
+the discussion about that regulation
+that has been under discussion for more
+than two years um also went outside
+Europe also in the US and impacted also
+uh and and showed some alignment between
+how uh policy makers in the two regions
+think that AI should be regulated um of
+course there are also some
+um um I mean I'm sure that policy makers
+in the US have already uh listen to uh
+discussions about not just just AI
+ethics but also the so-called AI safety
+which is usually intended to be the
+additional risks compared to the AI
+ethics around privacy bias that that
+were already traditional in some sense
+machine learning approaches the
+additional risk po posed by generative
+AI in terms of again addition amplifying
+the old risks in some sense but also
+introducing uh more risk as we said
+around misinformation or uh the
+copyright information or uh more risks
+about um automation of jobs right impact
+on jobs uh or other things so AI safety
+most is mostly about this additional
+risk posed by generative AI as well as
+future risks that maybe POS my more
+powerful uh AI systems um that can be
+used by Bad actors to for doing bad
+things just because they are so powerful
+uh the the future AI systems um or even
+risks about again deep fakes that again
+deep deep fakes per se is not a bad
+thing is the fact that humans can use it
+to do bad things without consent of the
+people that they are making a deep fakes
+about and so possibly impacting
+negatively on the uh structures of our
+democracy including election including
+the whole Democratic process even the
+legal legal system right because the
+legal system you want to be able to know
+for sure that something is true or false
+given some picture or a video or or so
+so so AI ethics now has been expanded
+with this AI safety um uh concept that
+includes all these additional or
+Amplified
+risks so you talked a lot about this
+risk
+um Francesa uh deep fakes uh safety bias
+fairness Etc are you optimistic about uh
+the future of
+AI yes I I am and the reason why I am
+optimistic with the caveat uh is that
+I've seen the uh exponentially
+accelerating trend in AI ethics in the
+past let's say 10 years so in the past
+10 years 10 years ago there were like
+few people say oh maybe there is some
+bias here maybe what do we do there so
+it was very P patch based approach to
+say okay let's fix this algorithm let's
+so and from these few people that were
+talking about this possible use cases
+with risks uh now it's everywhere right
+I've seen it within IBM that the whole
+company is about you know making sure
+that AI is done in a responsible way you
+know and so on but also I've seen it
+everywhere that is really
+now this these issues uh are everybody
+is aware of these issues right H and and
+so that and not only is aware but there
+are a lot of uh all the actors are
+activated companies users as you
+mentioned policy makers all over the
+world every every country has a national
+strategy on AI and the national strategy
+on AI usually includes also not only how
+to take the best out of the
+opportunities of AI but also how to
+mitigate the risks so really I saw
+this um Trend exponentially increasing
+trend of identifying the risks and also
+uh being very Concrete in how to
+possibly mitigate
+as I said in a complementary way by the
+various actors and so I think that this
+trend will continue even though the
+technology evolves and as generative AI
+did it will generate possibly new risks
+also related to new limitations of the
+technology because for example the
+hallucination risk is not because some
+Bad actors wants to hallucinate but
+because there is still a limitation of
+the technology um and I also see
+that in the research community in the AI
+research Community now basically all of
+the in in last last week I was at the
+triple AI annual conference there were
+uh more than almost 4,000 researchers
+presented their latest Advantage most of
+them were talking about and doing
+advances in research uh about how to
+mitigate risk you know in AI uh besides
+augmenting the the AI capabilities and
+the two things are not separated because
+there are now a lot of proposals to uh
+come up with new approaches to uh create
+AI new AI uh um systems uh which maybe
+are not based on exactly the same
+architecture as chbt or the Lou language
+model are based so Transformer based but
+with a different structure so that some
+of the limitations are overcome so and
+if this is done then of course some of
+the risk also will be mitigated as well
+so I see that everybody is working very
+concretely not just at the level of
+principles in really trying to do that
+and I don't think that this trend will
+stop and will continue even more
+increasingly so I have uh I am
+optimistic because of that but of course
+um and also and also sometimes I hear
+people saying oh AI is like an asteroid
+you know it will going to hit uh uh our
+planet and we have to be prepared and
+but I don't like this analogy because it
+makes people think that we have no
+control on AI no like asteroid and we
+have no control of what it does while we
+build we design this technology we build
+it we use it so we are in control on how
+it will behave and how it will be used
+of course this this point of view as the
+other side of the coin that since we are
+in control we have to make the good
+decisions we have the responsibility of
+making good decisions because we are in
+control of the technology and its uses
+so all the actors have the
+responsibility to really make good
+decisions so that the impact will be
+positive on society overall right well
+so the responsib is upon us uh you're
+optimistic but maybe cautiously
+optimistic is what you're saying uh
+Francesca so uh I think this has been a
+fantastic conversation I know how busy
+you are I'd love to have you again
+because there's so many other areas and
+topics that we'd love to cover with you
+but thanks so much for taking the time
+uh for our audience it's been really
+really very very helpful for us Princesa
+thanks s thank thanks for having me
+[Music]

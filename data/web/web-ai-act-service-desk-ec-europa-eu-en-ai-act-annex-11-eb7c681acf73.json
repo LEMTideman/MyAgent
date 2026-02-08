@@ -1,0 +1,19 @@
+{
+  "doc_id": "web-ai-act-service-desk-ec-europa-eu-en-ai-act-annex-11-eb7c681acf73",
+  "source_type": "web",
+  "source": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-11",
+  "title": "Annex XI | AI Act Service Desk",
+  "text": "```markdown\n# Annex XI\n\n## Section 1: Information to be provided by all providers of general-purpose AI models\n\nThe technical documentation referred to in [Article 53(1)](/en/ai-act/article-53), point (a) shall contain at least the following information as appropriate to the size and risk profile of the model:\n\n### Point (a)\n- A general description of the general-purpose AI model including:\n  - the tasks that the model is intended to perform and the type and nature of AI systems in which it can be integrated;\n  - the acceptable use policies applicable;\n  - the date of release and methods of distribution;\n  - the architecture and number of parameters;\n  - the modality (e.g., text, image) and format of inputs and outputs;\n  - the licence.\n\n### Point (b)\n- A detailed description of the elements of the model referred to in point 1, and relevant information of the process for the development, including:\n  - the technical means (e.g., instructions of use, infrastructure, tools) required for the general-purpose AI model to be integrated in AI systems;\n  - the design specifications of the model and training process, including training methodologies and techniques, the key design choices including the rationale and assumptions made; what the model is designed to optimise for and the relevance of the different parameters, as applicable;\n  - information on the data used for training, testing, and validation, where applicable, including types and provenance of data and curative methodologies (e.g., cleaning, filtering);\n  - computational resources used to train the model (e.g., number of floating-point operations), training time, and other relevant details related to training;\n\n#### Note\nWith regard to point (e), where there is unknown energy consumption of the model due to information about computational resources used.\n\n### Point (c)\n- Known or estimated energy consumption of the model.\n\n### Point (d)\n- Information on how data was obtained and selected as well as all other measures to detect unsuitable data sources and methods to detect identified biases.\n\n### Point (e)\n- The computational resources used to train the model.\n\n## Section 2: Additional information to be provided by providers of general-purpose AI models with systemic risk\n\n### Point (a)\n- A detailed description of evaluation strategies, including evaluation results on availability using available public evaluation protocols or otherwise through other evaluation methodologies. Evaluation strategies should include evaluation criteria, metrics, and methodology for identifying limitations.\n\n### Point (b)\n- Where applicable, a detailed description of measures put in place for internal or external adversarial testing (red teaming).\n\n### Point (c)\n- Where applicable, a detailed description of system architecture explaining how software components build or feed into each other and integrate into overall processing.\n```",
+  "fetched_at_utc": "2025-12-28T21:17:46Z",
+  "sha256": "eb7c681acf73a9e9b61d453fd120f6423b6c8ba0c0565ac59d5a1548776fdb65",
+  "meta": {
+    "jina_status": 20000,
+    "jina_code": 200,
+    "description": null,
+    "links": null,
+    "images": null,
+    "usage": {
+      "tokens": 12000
+    }
+  }
+}

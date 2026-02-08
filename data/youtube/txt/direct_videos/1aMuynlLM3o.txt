@@ -1,0 +1,1444 @@
+everyone Welcome to our event this is
+our first event in
+2025 happy New Year everyone and yeah
+I'm really excited to start the new year
+with this stream and uh but before like
+I'll do the usual thing so we have a lot
+of uh things a lot of events planned uh
+so there is a link in the description
+you can go there click on that link and
+see all the event we have on our
+pipeline uh there are a few like there
+is one Workshop there is um a few other
+things so check it out uh then of course
+if you have not subscribed to our
+YouTube channel now it's the best time
+to do it so click on the Subscribe
+button and then you'll get notified
+about all future streams like the one we
+have today and last but not least we
+have an amazing slack Community where
+you can hang out with other data inas
+the link is also in the description
+during today's interview you can ask any
+question you want there is a pin Link in
+the live chat click on that link ask
+your questions and we will be covering
+these questions during the
+interview um it's good that I still
+remember this thing I think if you just
+wake me up in the middle of the night
+I'll still be able to do this
+introduction hopefully even though it's
+been roughly one month since the last
+maybe slightly less but anyways um so
+now I will open the questions that we
+prepared for you and if you're ready we
+can
+start yeah I should
+it yeah so then this week we'll talk
+about AI infrastructure everything
+around that that uh maybe we'll slightly
+talk about we'll talk a bit about Trends
+in a infrastructure but we will see
+where the conversation goes so we have a
+special guest today Andre Andre is the
+founder and CEO of DC which is an open
+source alternative to kubernetes and SL
+I don't know what slur is I know what
+kubernetes is but we'll probably talk
+about that uh and the idea behind this
+Tech is it's build to simplify the
+artion of AI infrastructure before this
+T Andre worked at J jet brains for 10
+years helping different teams make the
+best developer
+tools so welcome thank you Alex for
+introducing me and yeah also for
+inviting so yeah uh pretty excited
+talking about the infra and everything
+that is
+related and we've actually known each
+other for quite some time so it was long
+overdue to actually invite you so thanks
+for accepting the invite and um as
+always the questions for today interview
+you are prepared by Johanna Bayer thanks
+Johanna for help and let's start with
+our main topic AI
+infrastructure and before we go into the
+main topic let's talk about your
+background can you tell us about your
+career Journey so far sure um well um I
+started my professional career as a
+software engineer and back then I didn't
+call it in professional career just um
+liked coding uh um and I even skip
+sometimes going to school because I was
+working on some coding problem uh
+started coding at high school yes yes
+and I missed those days when I coded it
+only for fun
+um
+great don't we all those
+things then I switch to professional um
+software development um and yeah worked
+in different companies uh one of the
+companies's worst mentioning was Dev
+experts um I lived in s Petersburg the
+company was uh making professional tools
+for Traders like options talks
+everything um and that was quite fun so
+while that was professional development
+I really enjoyed uh that and then I uh
+joined J RS and it was basically a dream
+job uh as a programmer um at least for
+me and I know for many other people uh
+well J Rin tools are the the best uh and
+um when I was invited to to join them it
+was super super cool uh um thing um and
+yeah um I like you mentioned spend there
+like a 10 years uh working with
+different teams I started working with
+intellig then also um was um helping
+launch a data group this an ID for for
+um for working with database and then
+also worked with other IDs as well help
+launch goand is a go ID and and
+eventually eventually I uh joined the
+pycharm team as a PM and uh what I was
+working on was uh called Data spell this
+is actually a dedicated ID for data
+analysis and data science um and it is
+also a part of pie charm and this is how
+I was introduced to machine learning and
+that that's what eventually caused me to
+to leave Jet brains to fully focus on
+D how did this idea of
+actually focusing on this Tech come to
+you why why this te why this topic why
+you thought that okay like this is the
+problem people have and I want to focus
+full-time on U solving this
+problem right um yeah this is a I mean
+this is certainly a topic that we can
+talk about longer than we we have time
+for for this one uh but maybe if you ask
+me for very few uh specific reasons uh
+um one uh one is I remember very
+specifically I I was um I was doing
+quite a lot of interviews with different
+my teams and I one one topic that I've
+heard a lot um I was always curious like
+okay so what is standing in the way in
+your way what is standing in the way of
+your ml team um and oh you can imagine
+there are so many problems right as an
+my team you can deal with uh but one
+that struck me like a super interesting
+one is uh
+um there are two ways and there are
+still two ways to to do machine learning
+today one is on Prem and other one is
+cloud and um um there were some teams
+that uh couldn't do either of them
+because uh the cost was a big topic like
+for example on Prem infrastructure is is
+fixed cost you have to invest a lot of
+time and then you have to utilize that
+that hardware and that's uh quite hard
+to to make this decision about investing
+this uh this money and before you do
+that investment um um I mean in order to
+do that you have to clearly understand
+how you would utilize that and uh
+how to make this uh process
+straightforward for the entire team so
+there's a lot of risks associated with
+that right and that that's why a lot of
+companies are not that uh open to to
+using on PR and the other one the cloud
+cloud what what we know about cloud is
+it's expensive right um and when it when
+when it comes to machine learning uh
+it's even more expensive uh so if if you
+look at uh the cost structure for uh
+well those teams that do cutting age
+development in AI it's it's very costly
+of course um compan is very concerned
+about that and
+um but the more I worked with different
+teams the more I learned that there were
+ways to work this around um but but
+again there were no straightforward way
+for example when when it comes to Cloud
+development right now everybody knows
+that is thanks to the tools like
+terraform like kubernetes um and Docker
+it's it's not
+rocket science anymore when it comes to
+deploying to to Cloud now it's
+predictable I mean of course cost is a
+is a concern but but thanks to these
+open source tools is a lot more
+straightforward process and that's why
+originally I thought there should be
+something for an now uh that would
+greatly reduce the costs of ownership
+and the entire process that that's why I
+started working on
+this there is something for ML but uh
+you know all this tools like Sage maker
+but I guess when we talk about costs
+then this is become becoming an issue
+right it's a good example uh yeah well
+while Sage maker is one of the best most
+mature let's say Amo platforms for
+working with aob yes um of course
+they're certainly like not addressed by
+that tool at all and that's also why
+people are afraid of using cloud in the
+first
+place yeah because I I remember when I
+joined my prev company um as a senior
+data scientist was like um six years ago
+yes so the first thing I wanted to do is
+get a a machine with a GPU with couple
+of gpus and then yeah like I don't think
+they still have it cuz like I I wrote a
+proposal saying hey like I want to have
+this uh uh machine with this gpus and
+then uh everyone approved it but then it
+never just happened cuz like the cost of
+ownership of this like this GPU needs to
+this computer needs to stay somewhere
+right somebody needs to look after it
+and with the cloud sometimes it's way
+simpler to just you know you go there
+click a button but then when you click a
+button and then a month later you see
+the bill it's like okay it's expensive
+so one of the first tasks I had as a
+senior data scientist at the same
+company was porting some code from Sage
+maker to
+kubernetes so I guess this is how people
+used to do this right yes and while many
+of this um much of this is still um um
+actual topic today of course is still a
+problem and it's not
+solved um there are even more challenges
+ahead right now since since uh basically
+how they say CH GPT moment there are
+even bigger challenges and that that's
+yeah makes AI in even more important
+topic
+today for how long have you been doing
+this
+um it's uh it's now um two years U maybe
+just a bit years yeah uh but it's two
+years I think we have known each other
+for two years maybe slightly more right
+so basically I managed to see the tack
+starting yes yes I was I was uh
+basically doing um doing some
+experiments even though I was was still
+with jet BRS um and um and yeah it went
+U like what I call official day I qued
+J okay
+okay so um so the question I have the
+next one is how did you begin working on
+on AI infrastructure but I think you
+partly answered that right so you
+started uh as a PM at jet brains right
+uh you saw some things related to
+machine learning and then you understood
+that there is a problem you started St
+and this is how it happened
+right um yeah in a in a rough sense uh
+well what what I can uh tell about J BRS
+is that it's this very flat company
+where well while of course everyone has
+a dedicated Ro uh still it's it's very
+close to programming so for example a
+lot of marketing people that work with J
+Brands they were originally programmers
+and that's why they they were hard to do
+marketing and that's how I got into jet
+Brands to to do marketing and product
+management
+eventually um and then also everything
+you do at jet Brands is mostly around
+developer tuning um and that's why your
+your full-time job is to think about the
+developer experience taking feedback
+from the community to the development
+team and then spreading the word so
+basically um for me this even though it
+was a bit like
+challenging decision to to live to brins
+at the same time it didn't change much
+things for me uh I was I was still
+working on developer tooling uh it is
+just that I focused more on on very
+specific topic of AI
+infrastructure uh and yeah just title
+maybe changed on Twitter and nothing
+more well now you have to figure out
+where to get money yourself right well
+previously it was different especially
+working on open source for sure yeah so
+speaking of open source that's actually
+the other thing like I wanted to ask you
+why open source why did you decide to
+work in the open and I see this is a
+trend many companies actually start
+working uh in open source some start as
+closed Source but then they make their
+code open eventually so why did you make
+this decision of uh to follow this model
+to work on open source to uh open all
+your code from the beginning
+uh right um yeah
+well I
+think um it's a it's a clear pattern
+right a lot of for example
+um we we know a lot a lot of developer
+choose are open source uh and even
+without knowing the actual reasons why
+people decide to open source uh we can
+we can see that the clear pattern that
+that a lot of developer tools are open
+source so there must be a reason right
+uh that would go beyond someone's
+personal opinion about like whether
+something should be open source or not
+of course in the end the company has
+just as you said
+commercial um interest um uh there are
+not so many uh fully known profit
+companies uh one we know is open AI
+which is as it comes not nonprofit
+anymore but uh they recently changed
+their model completely right uh true uh
+yes uh again I I don't know the story at
+full detail but it's it's a known fact
+that they started as nonprofit uh and it
+was financed as a nonprofit but at
+certain point the motel has changed
+again the motel is is always a
+reflection of uh uh what is the best way
+to achieve the goal right sometimes goal
+change change sometimes uh we change our
+minds about what is the best way to get
+where we want uh so which is totally
+fine I think and again there's I would
+not rant to be honest now that I
+mentioned open AI that well non commerci
+nonprofit is better than commercial or
+the the other way around I would just
+say that um we we
+see normally we see a pattern that most
+of a Point has to go commercial way and
+we know that a lot of the opp tooling
+companies leverage open source as the
+way
+forward now now getting back to to to
+the question that you asked um for D
+well
+we this was not
+their um let's say obvious decision for
+for us for example when we started we
+were not really sure whether it should
+be open source or not but uh the more we
+talked with different teams that were
+using different tools uh the well the
+more we learn from that and one of the
+learnings was that open source has um
+one advantage um when it comes to infa
+for example when it comes to using
+something within the company that is
+sensitive to the infrastructure uh there
+is typically process and uh well in
+order to move the tool forward and and
+increase this adoption you you need to
+bring adopter or early adopters of the
+tool and then most importantly you need
+to get feedback from them to to the team
+so you can uh improve the tool and open
+source um is uh one of the best
+Frameworks that allow you to set out
+this process um again there could be
+different ways and there's no way to say
+that open source is better than
+something else um for me as a as a as a
+someone who has always been working with
+developer tooling um
+to me it's it's a lot I I understand
+better how developers think so for me
+it's much easier to to communicate
+directly to the development team rather
+than for example to go through this
+sales cycle and uh work with a decision
+makers that that are not technical at
+all um which which is the way that also
+works but but for me uh due to the
+background and everything it's it's a
+lot easier to to communicate to the
+developers and really relate to their
+problems that that's why open source is
+the is the best one of the best
+approaches to
+that and I I think I don't also know the
+story behind open Ai and what they were
+doing but I think at the beginning they
+were actually open they were releasing
+uh many things that they were doing open
+source I think gpt2 was open source
+right if I remember correctly they also
+did a lot of things like
+whisper uh clip right so many many
+things were actually open sourced but
+then when they realized that they
+sitting on a gold mine right when they
+released gpt3 they thought maybe this is
+the cow we should milk right we
+shouldn't just release it uh but then of
+course people started to uh reproduce it
+like the there was I don't remember the
+name of the company but basically like
+there were people who repeated Chad GPT
+gpt3 as open source and they were on par
+when it comes to Performance and then of
+course uh what I see now GPT is
+releasing something is releasing
+something and then open source Community
+tries to catch up so what is your
+opinion um so we have some close Source
+Solutions like uh open AI anthropic
+right so
+that give really good performance right
+they give models um but they also
+Hostess models versus you have due to
+yourself uh open source like uh so many
+different models with different uh
+characteristics uh with different uh I
+don't know patterns of usage with
+different use cases uh so what's your
+opinion on that like where is the
+industry going with all that right right
+yeah this is um um it's a Pity that uh
+we we have to discuss it uh super
+briefly uh this one topics that uh that
+we could uh talk hours um um and I i'
+I've i' I've done some some talks
+recently about closed Source models
+versus open source models um and I had a
+chance to to think and reflect on that
+um and what I what I think is um a lot
+of people get confused uh because people
+uh I mean maybe it's sounds as like I'm
+getting old but um it seems that a lot
+of people live in a bubble um and uh for
+example there's a lot of conversation
+okay so what is better proprietary or
+open source will open source catch up uh
+and to me it it seems like people live
+in a bubble uh because they the world
+basically is very small and they think
+okay so which is
+better if you think of it a bit more uh
+you'll realize that you cannot even
+frame the questions like that doesn't
+even matter what is better or like uh
+there are so many different dimensions
+here to this to this question um and
+it's not even a question of what is
+better like at all nobody really cares
+what is better it's it's not even a
+question that is important at all like
+worth
+discussing uh the question is like
+sorry okay yeah I'm just wondering where
+is it going right um so um um if if if
+you think of um um like of propriatary
+models and um and open source models you
+see that those are two different um
+different
+businesses uh one business is about uh
+more a
+service uh and it's monolith it's
+centralized it means there's one company
+and it offers you a service and they
+it's a very big company there's so many
+Engineers working on different aspects
+of that service and AI is a service it's
+it's not just a model it's a it's so
+many things in the end it's a service
+that uh as we see impacts every part of
+our life right so we chpt is much more
+than just a model right yes uh it's it's
+a lot more than model it's um it's um
+it's a I don't know for me it's a new
+Google right Google Chang our life now
+we Google everything we can Google
+anything and just the fact that we can
+Google anything changes so many aspects
+of our life so now that we can chpt
+things um it's um it changes uh not even
+how we I don't know how we search for
+something but but how we work in China
+so like it is like super uh disruptive
+change but if you think of Open Source
+AI open source AI is a totally different
+business it's it's a business of
+decentralized uh approach where um um
+where it's not all done by one company
+but it's all but it's when um different
+aspects of that let's say business can
+be done by different companies
+and different
+stakeholders um just one little example
+here let's take privacy right you
+consider bank and for bank it's very
+important to control every aspect of um
+what they call AI or what the employees
+call AI um and they think totally
+different way they think of control they
+they think of
+privacy um and this this monolith
+approach just simply doesn't work it
+doesn't work at
+all um but then it's not only one like
+Bank there are so many Industries um
+where control and privacy matter
+healthare right and yeah and then it's
+not only controlling privacy it's also
+competition right you like to compete
+and um uh bring your own value otherwise
+if AI will disrupt everything and then
+your margin margin of every business
+will shrink and shrink and shrink and
+then you are not able to even compete so
+you basically protect your business uh
+by leveraging open source that's why
+open source AI is such a big thing and
+it doesn't even matter whether open
+source AI is better than CH gbt or not
+at
+all so that's a bit ranty answer to your
+question but that's Le it's more like uh
+it depends right depends on your use
+case um yes but but the whole point here
+is
+decentralization open source is about
+decentral ation and it's a mega Trend
+and it's Mega Trend uh that is not
+influenced by the even the
+quality the quality is the result of
+that meat
+Trend we we see that open source models
+are better it's not that people use open
+source model because they are better
+than CH GPT they are better because
+people need
+that but it's not like they are better
+in terms of performance but they are
+better in terms of other aspects like
+being able to control the data flow or
+like other things being able to control
+latency if you host it yourself yeah
+yeah and then and that's when we can dis
+then we can can compare some of the
+aspects of of models uh
+uh but but again to me does make sense
+to compare them side by side
+uh and what is certainly makes sense for
+open source models is um
+um whether they are customizable and
+that's why we use them because they are
+very easy to customize and but what even
+more important is that there's another
+Mega Trend here is that um it's getting
+less rocket
+science uh the process uh pre-training
+and post trining is done getting easier
+and simpler because this
+decentralization trend going on we want
+we may like it or we may not like it but
+this trend is there and we cannot even
+influence
+that and do you know if these big
+companies like uh so we have Meta Meta
+releases meta contributes a lot to the
+open source Community uh especially when
+it comes to AI with models like llama do
+you know if there is any if they put any
+information in public how exactly uh
+they train these models and what they AI
+infrastructure uh
+is well I want to answer for sure uh but
+I would say yes
+um um well te typically typically it's
+called the technical report right
+[Music]
+um
+even open AI while they not open
+sourcing uh most of what they do um
+still they are sharing some of the
+information on how they and they
+contributed significantly into
+theity um and it started even before
+that so like for example if you remember
+this attention is all you need is like
+it's dated I guess if I'm not mistaken
+17th year yeah so it was 2017 yeah
+2017
+um and even though it wasn't open sour
+but but uh the the P paper on on on this
+algorithm on this Transformers thing uh
+was was open um and of course meta um
+went even further for example with a
+Lama model U with at least with their
+with the 3.1 they open they open the
+weights again again sometimes people
+rent about this word whether open source
+actually applies to Motors and some
+people prefer to say open ways to be
+honest I I'm not that picky um um but
+but the thing is um uh even opening I
+shared a lot of details on how they do
+post training or
+pre-training uh and of course Lama uh
+shared this um technical report on how
+they trained it so there are so many
+details on on how this is done and this
+is also how the community learns um and
+from it and it's it's a very good
+example of um of what I mean with
+decentralization it's not even about the
+moral in the end it's not so much about
+the moral it's it's about sharing um uh
+the details on the technical details on
+how the training and post training was
+was done how many gpus were used what
+was the what was the architecture of the
+model so a lot of details are publicly
+available and this is also one of the
+best ways for learning how I start by by
+reading technical reports uh might seem
+that it's um it's a boring thing so some
+some people might think oh it's too
+boring maybe I'll just read some high
+level overview but I personally
+encourage everyone to read those
+technical reports so they are not that
+boring uh they are super interesting and
+um well I mean I am actually a big fan
+of books and um I I used to read a lot
+and well most of that was fiction uh but
+but nowadays
+R fiction is super boring for me so
+actually I find reg for a lot more
+entertaining
+okay uh yeah right uh and uh so since
+you like this way of entertaining
+yourself I'm just wondering what are the
+challenges these companies discuss and
+whether these challenges uh apply to
+small smaller companies like I don't
+know of course there are metas there are
+Googles there are uh I don't know open
+but there are companies like small
+Enterprises or midsize companies or like
+Smalls siiz companies they probably have
+different training challenges right so
+what are these challenges are in general
+and how does this affect the the trends
+in AI
+infrastructure H yeah well um I mean uh
+I I I prefer to call myself a generalist
+that that's why I always uh try to at
+least I'm interested not only in the
+technical side of things but but also
+the other one the other side of things
+that that's why for example when when
+you say okay so what are the challenges
+I'm like um probably there are technical
+challenges and every every team which is
+focused on very specific thing has their
+own challenges like for example there's
+infra team there's this uh AI team
+there's data team um well maybe we can
+talk about since we talk about AI
+infrastructure maybe we can focus on
+that uh because in order to train a
+model we need thousands of gpus right so
+how do we get them in the first place
+how do we coordinate like I guess these
+are all the questions we need to think
+about when we embark on something like
+that yes yes yes uh which is still why
+we have to think not only about
+technical problems but also the other
+side where where do we get money from uh
+because because well what what we know
+for sure is that without GPU we cannot
+do that simply it's just possible
+challenges or not challenges uh
+for example like lamb 3.1 was trained
+like
+16,000 gpus using 16,000
+GPS uh just for you to compare um
+well um I I guess meta uh has uh an
+another of magnitude more gpus in
+general so they use only a fraction or
+small fraction what they what they
+actually have U to train this L 3.1
+um but getting back uh so first first
+question is is you need inra however I
+was still to like to mention one thing
+like um we we tend to think that it's
+it's GPU that that we need to in the end
+to train Frontier models right but what
+was quite interesting recently was uh
+deep
+seek uh release this V3 model
+it on my social media
+feeds like um a couple of days ago I
+just started seeing these posts all over
+my yeah it was basically end of December
+when when I seen the report uh they they
+used a small fraction of what meta used
+to train Lama 3.1 and they trained a
+model that is um well another of magude
+better I mean
+MH maybe not another but
+um significantly better in terms of
+their benchmarks uh compared to L1 and
+then also given the the size of the
+money so what I'm I'm trying to say here
+is that um GPU are important and uh and
+money are important but it's not it's
+not all of it so there are other aspects
+but but back to your question uh by no
+means I I would aim to you know kind of
+answer your question at at depth
+uh it's just super
+super challenging even to generally
+answer your question but but basically
+you can think of uh like when it when it
+comes to to like free training um it is
+high scale and a lot of gpus are
+involved means that it's distributed and
+basically man distributed training is is
+a big pain in the S uh and it's
+basically it's a it's a it's a um if if
+you if you speak with some of these
+people they
+are they are yeah they can share like
+how
+uh close to horrible the the in terms of
+the complexity the the process is
+basically just you have tons of gpus and
+you need to run a process which is
+coordinated uh on all those
+infrastructure and then something
+doesn't work and that's the main
+challenge basically something doesn't
+work on some of the nodes you have to do
+with
+that yeah the more gpus you have the
+more chances that somebody something
+will go wrong right yeah and and you
+need to manage that at scale and uh of
+course there are so many other issues
+and you still need to address this
+one uh do you know how does it actually
+look like so probably there are computer
+I don't know there's a computer with
+four or hpus there's another computer
+with four hpus and all these computers
+are a part of a network and somehow you
+need to um distribute your training
+process across all these computers
+across and each computer has a bunch of
+gpus and then like each of these gpus
+needs to compute something then send the
+weight or gradients I don't know what
+whatever it does somewhere back to the
+central location right so this is how
+roughly it looks like
+or uh yes uh but um again just like any
+any complex problem uh any any complex
+problem can be um split into smaller
+problems uh and then be solved uh on
+different levels of
+abstraction um generally speaking
+there's py torch right this is a
+framework again mostly by meta uh um
+built to to do training and distributed
+training is basically just the general
+use General use case the one of the main
+use cases for for training so by George
+for that's what we what is used for
+llama and other models right it's
+by
+uh yes uh again I I I only B based my
+reply on on the latest uh Lama training
+report but um it even even though the
+the previous versions were trained with
+something else even though I don't think
+why they I think when we download models
+from hgen face hub
+um and we use this Transformers uh
+package right and it's based on byor
+yeah but but again the point here is not
+that it's py torch is just matter is
+using pytorch mostly and a lot of other
+people are also using pytorch uh for
+example Google uh is not using that
+again I I invite people to correct me um
+I'm I'm not that aware of of the the
+process like uh Jim for example was
+trained but I assume that py toch was
+not used there
+um but because again it's it's a
+different topic for a discussion why and
+maybe we touch upon that if we have time
+for talking about different chips uh but
+uh B basically even if it's not py torch
+there's another framework but again it
+doesn't have to be py torch it can be
+any other training framework it's it's
+one level of abstraction but on the on
+the beneath pie torch there is a back
+end which is responsible for
+communication between NES for example
+one of the most famous ones is is called
+nickel um and this is what is
+responsible for the most challenging
+part communication of
+ndes uh and for example if you talk to
+like folks training Frontier morals this
+is what caused a lot of frustration and
+they had to basically reimplement that
+nle from from scratch maybe uh to to
+make sure that this process is
+optimized so if I just summarize what
+you said you've said many things so um
+there is this trend that when it comes
+to training these large language models
+uh while previously it was mostly using
+blun Force like okay we're meta we have
+a ton of gpus we can just take a
+fraction of them and just throw I don't
+know this problem at the these gpus and
+they will process it um not everyone not
+all companies can afford that not all
+companies have the same amount of gpus
+like Google and meta uh so there are
+smaller companies like this deep seek
+who try
+to like the trend is being smarter
+rather than just using blun Force right
+and this is what we see now when it
+comes to uh actually large scale
+training that okay like how can we
+optimize if we don't have access to so
+many gpus
+and we don't have so much money how can
+we train uh a similar model right so
+that's the one of the trends that we
+see how about yeah
+yeah yeah I was just thinking okay this
+is one thing but like most of people
+most of the companies most of the use
+cases they're not about training these
+models so if I need a
+model right and if I don't know have a
+specific use case
+I take this model and maybe I F tune or
+maybe I don't even need F tuning I just
+Host this model so the challenges in AI
+infrastructure I have are very different
+from the challenges the these companies
+like meta or DPS uh that they have right
+so I'm more concerned about uh I know
+how do i f tune the model and how do I
+serve the model and the challenges are
+different so I'm wondering what these
+challenges are and where do you see the
+trend is going with like you know small
+or medium companies that do not need to
+train a model they just want to use a
+model um correct even though I would
+say maybe I'm a bit picky here on the
+terms but I would not even split them
+into small and medium size and large
+ones I would talk about AI first and not
+AI first privacy first Andy first um
+once we figure out that then everything
+is so much clear at least to me um first
+company then you want to customize tomor
+to make sure that the performance is
+optimized and then you choose between uh
+which part of the process you want to
+optimize depending on how much resources
+you want um uh if if you have a lot of
+resources you indeed can go into either
+pre-training or heavily fine-tuned that
+uh and you don't if you don't have that
+much resources or if you are not AI FOC
+first uh company for example you can be
+a very big
+Bank um and you can be concerned a lot
+about the privacy but because you are
+not AI first I mean some banks going to
+go AI first and I could even predict
+that um it's like a lot of banks went
+software first or mobile first right um
+can you go AI first like because for
+that you need a new company
+no um
+again some companies some compan some
+some banks if you talk about Bank some
+banks may decide make that decision to
+to go first and then they have their own
+idea what what they mean with that um
+some banks might not and there might be
+some new
+Banks uh on the market that actually you
+know focus on just that and again some
+companies will go um leveraging orp
+model and some companies will will go uh
+customizing B but getting back now to
+your actually main question which is
+okay so uh what are the challenges and
+uh your assumption is that most the
+companies do not need to to go That
+Matter's way and and pre-train the model
+um and my assumption is that yeah and
+yeah uh uh
+obviously if they don't uh buy gpus uh
+um on the daily basis um um then yes uh
+but then they it's all about
+customization of the models and it's
+it's
+um certainly in France becomes a very
+important topic um and then also uh
+systemization of the post basically fine
+tuning we can use the word fine tuning
+for now to to simplify not go into how
+exactly this fine tuning Works
+um not not even because I don't know uh
+we even need that but I I would even say
+that we would go there simply because we
+can imagine you are a team in a bank you
+not a focus sorry AI first but you still
+want to want to leverage Ai and you want
+to you know in introduce AI into
+services that your bank offers um of
+course your team would be interested in
+how do I make that more efficient how
+can I improve the accuracy and then
+Engineers will figure out okay so I need
+to fine tune or I need to align on
+um and and and and then again if you are
+not AI first you would seek for um for
+already existing Solutions right you're
+not going to implement your own
+inference framework I mean unless you
+arei first team you would go and um and
+use some of their existing tools well
+thanks thanks to the open source
+Community uh we we have quite a few
+inference Solutions and also the point
+Solutions uh but what I want to say here
+is that even if you area first you would
+still go that way even if you first you
+would still be looking for ways to
+optimize your development and you would
+use open source tools that's why open
+source Community is the B is the is the
+main winner of the process yeah mhm and
+for this Tech the clients uh or the
+users let's say the users are mainly
+this non AI thirst category like I mean
+the the companies Who U are looking for
+existing Solutions rather
+than well I guess otherwise they would
+be implementing this tack themselves
+right uh finally enough well those that
+that use this de originally were
+implementing it themselves
+uhuh uh that's classic uh right so
+people try to implement something then
+they figure out that there's something
+else there that Sol the problem and then
+okay like we don't feel like maintaining
+our own thing let's just switch yes yes
+for sure everybody's looking for ways to
+do what they do already better without
+investing that much effort um at the
+same time I would would have what I how
+I like to think of this de is not in
+terms of we are doing it for smaller
+teams or not the first teams or AI first
+teams um um um take kubernetes for
+example as an example and we
+actually we publicly say that that we
+are building alternative to that um you
+can actually say that kubernetes is for
+cloud first companies
+or uh not Cloud first companies kuar is
+for everyone like it's a it's a
+foundational um it's a platform
+foundational platform uh and it doesn't
+really matter whether your your use case
+is a expert use case or um even beginner
+use case PL is designed in a in a in a
+way that it's it's Universal and then
+foundational so that's exactly how we
+think of D stack um and there's all
+there's never black and white uh it's
+it's always
+Spectrum um sometimes you need to train
+a large model sometimes you need to
+fine-tune that sometimes you um need a
+something very simple but but you don't
+want to use different Sol soltions for
+this and that and then and something in
+between right so that's how you reduce
+the cost of ownership by invest
+investing into one tool that is
+universal and that sounds challenging
+and that's actually challenging to make
+such a universal tool and that's what
+the most challenging about building this
+TCH is is to is to make it Universal and
+flexible but get the question the the
+idea here just to make it Universal um
+mhm okay and um so we already have
+kubernetes why do we need another
+Universal tool well I know you have an
+opinion on that and I remember from my
+days like I was when somebody would
+mention kubernetes I was like sounds
+scary like I don't want to go there when
+I figured out how it works it was way
+easier but like my first impression was
+it's something complex I want to stay
+away but then as I got into that it
+turned out to be quite
+easy maybe not easy not simp not
+manageable I would say but we had a team
+who was looking for after the kubernetes
+cluster right and I guess that's the
+main problem like not everyone has a
+team that can do
+that totally yeah um I mean again this
+is one of the topics that that uh that
+deserves that that would need more time
+to for more fair and more let's say
+specific
+discussions but but on that high level
+um um we are focusing on teams that are
+constrained by kubernetes orl um umra in
+which sense they cannot move the speit
+they want they are challenged by that or
+they they have experience specific pain
+there and again because this te is
+focused on AI uh um well you can guess
+that most the challenges are around yeah
+making it work for yeah for example take
+kubernetes um there are two topics uh
+that pop up uh a lot first one is well
+kubernetes um it's it like AI is not
+first class citizen right on kubernetes
+kubernetes is designed for for
+containers for ports basically ports is
+a is a deployment um um is a
+is a deployment
+Paradigm
+uh and for example when it comes to AI
+there's always training involved uh and
+even if we take just training just
+training for training um as an a
+engineer you certainly don't don't think
+in terms of PODS
+right you would think in terms of their
+that's why for example slurm exists
+right because it simplifies that and a
+lot of people enjoy slurm in the first
+place because it simplified that that
+thing uh instead of going devops and
+learning kubernetes they only had to
+learn Lear because it's a specialized
+tool for
+engineers um and that's that's an
+advantage right for example why don't we
+use assembler I mean is is assembler
+worse than rust of course it's not worse
+yes powerful but complex there is one
+more aspect very important that cost and
+development speed are very important
+points in the process and they are not
+only good to have they are must for the
+more process that that's why we're
+talking about orchestration if we talk
+about container orchestration um and
+that's our thesis that container
+orchestration should be
+rethought that's the thesis that we
+drive it simply should re thought we
+cannot go the the pre the the old way we
+we should rethink it and that that's
+what we try to do and again we I
+wouldn't claim that we're doing it
+better or um we are certainly interested
+in rethinking it and we see a lot of
+people that are very much interested
+about that as
+well um that's why we work on that um
+and it doesn't mean that that well I
+mean uh for example I mean maybe
+assembler is not used today but but
+prologue is certainly used and I if we
+compare for example C++ and and Python
+and and rust we see that rust usage
+sorry C++ usage is only
+growing
+MH uh seriously if if you if you look at
+at the usage C++ usage is
+growing regardless of python regardless
+of go regardless of rust well it's just
+to tell that uh that kubernetes adoption
+is going to grow as well but uh we this
+super vibrant
+niche of Engineers that are interested
+in the
+infr so as an engineer as a software
+engineer I still should uh not stay away
+from kubernetes and it's still a good
+tool in your tool belt
+right uh that's the only tool when it
+comes to
+deployment right okay is the only one uh
+whenever regardless of what you use aw
+Azure or
+even alib CL
+um you in the end use kubernetes MH I
+mean I personally don't but the projects
+I have are smaller I don't want to pay
+like I don't know how much per day of a
+govern cluster but for companies that
+are more than I know one person then
+perhaps it makes sense
+right yeah yeah I mean of course there
+are age cases and I'm probably use more
+General average enter
+there is a question um do you think that
+the future is hybrid bare metal plus
+cloud or Cloud
+only well predicting future is a super
+uh easy
+thing and some people even like that but
+if we extrapolate the trans right
+now
+[Music]
+um cloud is the trend
+in the only cloud is the only
+Trend yeah because people don't want to
+have a GPU machine under the desk or
+what I don't know 16,000 of them
+um
+well uh it's more predictable for
+Enterprises to use
+cloud uh right on the other hand on the
+other
+hand AI is kind of a black SW here
+M um so nobody really knows uh What will
+What what will happen um
+and a lot of companies right now are
+investing into onr so we see cont Trend
+because of a because of a we see cont
+Trend here a lot of companies are very
+much interested in um but uh but again
+um
+again I'm maybe not the best not like a
+real expert in that particular in the
+discussion of that particular charm but
+personally personally I prefer not to
+use again I'm using the word on PR but
+when I for example know like like with
+myself I I don't like the word on
+PR because it's very confusing term um
+um for
+example um you can you can have your own
+rack uh in your building and then you
+can call it on Prem on the other hand
+you can call it a data center however
+when you data center you can also call
+it a CL
+Cloud right there are difficulties in
+these terms that's why there's no
+there's when I'm with myself only I I
+don't I don't even say on pram or Cloud
+I just say different versions of cloud
+okay yeah so what I think um when I hear
+on pram when it comes to data teams data
+science teams ml teams so in my first
+company in Germany we actually had a
+machine with gpus there and everyone had
+access to these machines we would just
+SSH to this machine and do things there
+and then we would need to figure out
+like how
+to uh uh claim the gpus okay I'm using
+this GPU so you cannot use it like you
+have to wait and then uh yeah it was
+like at the end it was terrible like
+coordinating this stuff so this is what
+I think about on Prem and the challenges
+okay now you have these machines and how
+do you actually split and now I use this
+machine but then your project is more
+important doesn't mean I need to stop my
+training and you can start training like
+these things so this is what I think um
+this is what comes to mind when I think
+on Prem on Prem GPU machines yes I think
+you are right actually here you are more
+when accurate here all p is is when you
+have to deal with a lot of challenges
+yourself of maintaining those servers
+and you have to think about updating the
+software you have uh to think of
+managing
+um the orchestration there yourself uh
+with the cloud it's done by as a service
+uh with with your Hardware is done by
+you MH and then maybe also it's kind of
+on Prem when you or a machine that you
+rent is somewhere remote on a remote
+location but you have access to this
+machine uh so for example there is a
+provider called hetner in Germany maybe
+you know it right so where you can there
+you can just rent a machine for a year
+and this machine can have a GPU or maybe
+like a bunch of powerful CPUs but
+basically what you have SSH access to
+this machine and nothing else right so
+there is machine it's not physically
+under your desk but you can always SSH
+to that
+but because all you have is just this
+SSH it comes with all these challenges
+that we talked about right so when there
+is a team there are four machines and
+there is a team of 10 people and
+somebody wants to train their XG boost
+models there right like how do you
+coordinate that so that's kind of all on
+Prem
+right well uh bar metal uh okay bare
+metal right bare metal is a service and
+there are companies that offer bar on
+the
+service uh this is where the management
+is split uh they still allow you to
+provision those sometimes machines as a
+service programmatic you can just say
+okay so I need a since next week I I
+need a thousand machines uh and you have
+access to that and that service will
+promise you in that the firmware will be
+up to date uh and you don't have to
+update the firmware yourself however for
+example now imagine that you would like
+to run a service yourself and then you'd
+like to rent bar met from from this
+Provider from that provider you now need
+to automate that process and ensure that
+even though these bare Mets come from
+different providers they are up to dat
+uh now you have to deal with that so
+basically split between Barrow provider
+and and you but yes basically you have
+to have to think of it yourself as
+well so the best example of one Prem is
+a GPU machine under my desk
+right no uh
+by the way we we didn't talk about that
+um um I don't know how much time we we
+have but uh it's a time we can talk like
+for five 10 minutes one maybe that that
+might be last uh last uh one to speak
+about
+Edge uh and cloud and how this is
+different so what is Edge is it like uh
+HS like this
+one um yeah well to be entirely Fair
+again maybe there are Edge experts that
+will correct me uh but but based on what
+I know um um there is nothing
+that
+agreed by everyone what we call
+Edge I would even say that there is a
+lot of
+confusion and most people because it
+could be a Raspberry Pi device right or
+maybe
+Jetson uh yeah so Edge can be any
+customer facing device
+or site facing device it's any device
+which is somewhere not in the in their
+um in their in their let's say cloud but
+but some people even call
+original cloud services as Edge for
+example uh there's such a thing as Edge
+Ai and some Cloud companies refer to Ed
+AI
+well it's just normal Cloud it's just
+that they offer original comput so in a
+way for example when you use aob yes I
+mean following that logic you can call
+it AI because you have a in your region
+right on the other hand we have uh
+exactly like like you said uh mobile
+devices or your laptop or I don't know
+some some device in your smart um house
+or some video
+cams or some that's a drone that is
+flying around uh that hopefully nothing
+is flying
+around maybe in
+Theon but the the point is that yes this
+is Edge Edge is uh when it's a remote
+remote device and of course you can run
+guy there as
+well and this is where where you need
+actually small
+models
+because because it's really hard to to
+ship yeah on on these
+devices I think uh there are companies
+who do Federated learning right so this
+is when you need to do learning on the
+edge like let's say there is this
+customer facing device I don't know a
+drone or a I don't know a probe
+somewhere and then like you cannot
+really send all the data somewhere you
+just do the training on device and then
+you somehow centralize it I don't know
+if it's a think in uh llms in EI in
+general but that's certainly I think in
+some manufacturing uh
+setups well a lot of people will hate me
+for that uh but I would say that
+Federated learning is a very Orthodox
+and um let's say
+very uh Niche use case um I just again
+it's it's like debating on um on U uh
+D5 uh versus I don't know some Cloud
+basically it's it's a debatable topic
+um it's it's it's called distributed
+comput well it's used to call to be
+called by Federate learning today people
+say distributed
+compute okay and
+uh it it's but but then it goes in the
+also in a similar direction as as
+blockchain into the
+decentralization and then it it's
+becomes
+religion
+science I mean it's still science but
+it's more
+religion if you see what I mean and then
+you have also um some evangelist let's
+say let's use that word that that preach
+that idea that everything should be over
+blockchain um and we see we are not
+there even with blockchain yet but but
+we see a lot of stuff not a lot but
+maybe some stuff going there right we we
+see some stuff going blockchain but not
+all stuff going
+[Laughter]
+blockchain yeah I'm not really following
+that uh domain let's say well maybe last
+question for you but yeah just closing
+this down this is a big topic as well
+and there are quite a lot of experts
+that that really believe in in a
+distributed compute as
+well so last question for you so you
+mentioned you like science fiction so
+what's your favorite
+book uh well this one of the most
+difficult it's much easier to talk about
+I don't know challenges in distributed
+training rather than picking one best
+book okay well I don't know
+three it's it's it's it's still fun to
+to just pick one um well if we talk
+about science fiction um certainly three
+body
+problem biing three body problem yeah
+that's that's that's the book body right
+yeah yeah three
+body okay by who Ling if I pronounce the
+name correctly it's a Chinese um
+um um author um but again there TV
+show yeah but I'm not saying anything
+new so like for example okay whether you
+are into science fiction or not but it's
+a name that's pretty much known to
+anyone who is who is into science
+fiction I guess uh I have not heard
+about I'm not into science fiction I a
+year ago I read ring world I did not
+know about this book but it was quite
+interesting so I'm looking to expand my
+yeah totally can recommend that one it's
+actually three books it's not just one
+it's a three books three body problem is
+just okay it's it's actually from math
+uh three body problem is a geom not it's
+not geometrical but it's math problem
+it's you have three uh three physical
+bodies in let's say
+SP uh for example three
+sons and then there's a gra okay and
+then uh you need to come up with an um
+with a with a formula for to predict the
+movement basically to you need to come
+up with an
+equation it's known as a non solvable
+problem uhuh so I'm reading I'm looking
+at the article right now called Oilers
+three body problem in physics and
+astronomy ear three problem is to solve
+the for the motion of a particle that is
+acted up okay it's difficult techque the
+the book is interesting because it goes
+beyond math and it goes into philosophy
+and politics um and uh basically
+existential um
+problems it's certainly a good way to
+kill time
+U okay Andre thanks a lot we haven't we
+only talked about a partion par portion
+like only a fraction of topics we wanted
+to cover today which is not the surprise
+right because we wanted to talk about so
+many things um but yeah it was awesome
+it was really great thanks for being
+here thanks for accepting the invite I
+really enjoyed our conversation and uh
+looking forward to working more with you
+thank you Alex and everyone else uh see

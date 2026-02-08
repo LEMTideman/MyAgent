@@ -1,0 +1,1151 @@
+If you're using your own data set, does
+that mean you don't need to worry about
+bias anymore? Unfortunately, you you
+will still have to worry about bias. But
+wellcrafted regulation should just
+really be there to make sure that
+systems perform the way that they
+should. the core question about how to
+regulate AI. We actually see that China,
+Europe, the US, you know, the way in
+which China's regulating AI or the way
+in which uh the US is approaching
+regulation of AI isn't that different.
+Regulations often don't get into that
+level of detail. They just say one way
+or another, make sure that your data set
+is representative. one way or another,
+make sure that your outputs aren't uh
+discriminating against these particular
+groups.
+Welcome to the regulating AI podcast.
+Join host Sanjay Puri as he explores the
+dynamic and developing world of
+artificial intelligence governance. Each
+episode features deep dives with global
+leaders at the forefront of regulating
+AI responsibly, tackling the challenges
+using AI can bring about head-on and
+enabling balance without hindering
+[Music]
+innovation. Welcome to the regulating AI
+podcast where we explore the
+intersection of artificial intelligence,
+ethics, and policy. I'm your host Sanjay
+Puri and today we have an exceptional
+guest who's been at the forefront of AI
+ethics and regulation for over a decade.
+Anskar Kone currently serves as the
+global AI ethics and regulatory leader
+at Ernstston Young and is an expert
+adviser to the UN secretary general's
+highle body on AI with extensive
+experience chairing ILE E's working
+group on algorithmic bias consideration
+and his work with organizations like
+five rights foundation focusing on
+children's digital rights brings a
+unique perspective on building ethical
+AI systems that serve humanity
+Welcome to the show, Ansar.
+Hi, great to be here. Wonderful. Anskar,
+our uh show uh is global. It has a a
+global audience of policy makers, uh
+think tanks,
+entrepreneurs, AI afficionado uh around
+the world.
+So uh for them uh and for me uh I'm
+curious uh your career has spanned uh
+from neuroscience to AI ethics. What has
+inspired this transition and how does
+your background in understanding uh
+human cognition influenced your approach
+to AI governance?
+Sure. So the the transition really from
+doing academic research into um
+computational neuroscience and robotics.
+It was really on that kind of an
+intersection between those two that I
+was working. Um it led me in around 2016
+to start looking more into computational
+social science, the use of online data
+for understanding human behavior. And
+that was really sort of the trigger for
+me to start moving more into the policy
+kind of space because the space around
+computational social science um is
+fraught with ethical questions around
+the use of online data for purposes
+other than the reasons why a person may
+initially have created the kind of data.
+It's excellent to be able to use a
+resource like Twitter to understand
+human communication. But the people
+having that initial Twitter
+communication they did not think you
+were going to do that kind of an
+analysis on. So that really opened up
+the the space of thinking around how are
+we using this kind of digital
+information um and how is that also
+shaping people. So that really led to
+the the follow-on project around bias
+and recommener systems and it snowballed
+from there looking at bias and
+recommener systems getting involved with
+the ILE E on the standards the the
+global initiative on ethics of AI and
+through that um reaching out to an
+organization like EY that is there to
+make sure that um businesses business
+governance around the use of various
+ious things including emerging
+technologies like AI is uh is built on a
+solid foundation as well as of course
+engaging with policy makers around the
+kinds of regulatory thinking that needs
+to be um taking place in order to to
+deal with the new kinds of challenges
+that might come come up. So it wasn't a
+planned transition per se, but it was
+something that
+grew out of engagement with the new
+kinds of uh challenges that these kinds
+of technologies bring the new kinds of
+issues that we need to be thinking about
+like when is it effectively the the case
+of um just because we can do a thing,
+should we do be doing that thing? And if
+we're going to do it, what is the right
+way to do that? Um and you asked me uh
+around so how does my experience of
+working in neuroscience um and and in
+robotics actually help me in this kind
+of space. I think often what people say,
+what I bring to this conversation,
+especially in the public policy kind of
+area is that I do actually come to at it
+with a background in
+engineering, with a background in
+thinking about um you know reinforcement
+learning. How does this work? not just
+in an artificial setting but actually
+also in the biological space where we
+got our initial
+uh initial sort of ideas about
+reinforcement learning from. So it means
+that I come at it with uh a different
+kind of understanding of what are the
+real what what is possible with these
+kinds of tools. Um what are the
+challenges that exist if you think about
+translating regulation into
+implementation of those regulations and
+those kinds of questions. Wow. Uh Ankar,
+we're going to talk about policy but I'm
+uh just a a little fascinated with your
+background. So I want to just ask you uh
+just as a
+curiosity young is you know a very
+typical consulting kind of a form when
+they looked at your incredible
+background of so many different uh
+things was it uh something that attract
+was an attraction to them or is it a
+distraction to a organization like uh
+Sten Young? This is just my curiosity.
+Sure. So the the connection between
+myself and Singong came actually through
+the IT working group. So I was okay I'd
+taken on board the work to chair the
+standard on algorithmic bias
+considerations and um one of the
+partners from young had joined that
+standards working group. So that's how
+we started having conversations
+including around possibly giving some
+workshops at EY about AI ethics. Um and
+so that's how we came to to um
+identifying the kind of value that my
+kind of background and and and what I
+was doing would bring to UI and then
+creating my role of global AI ethics and
+regulatory leader and for myself it was
+uh a very interesting proposition at
+that point in my career where I was
+looking to transition from doing the
+research to doing more of the policy
+engagement. um in that EY as you say
+being in the kind of consulting space as
+well as in the assurance space is
+interestingly positioned to be able to
+really bring these kinds of um
+recommendations on good practices out of
+the academic bubble and into the
+practical application kind of space.
+Well, that's great to know. uh because
+again for our listeners some of them who
+are charting their path in AI ethics
+this is a good message that to have
+multidisciplinary skills and interest
+actually is a positive so uh because a
+lot of people you know are looking at
+your career trajectory and saying how
+did he get there so I think this is very
+very helpful uh talking just uh briefly
+about eny you know as the global AI
+ethics and regulatory leader there. What
+are some of the most pressing ethical
+challenges that you see large
+organizations facing when implementing
+AI system? Because eny consults with
+large uh you know organizations. So uh
+it it would be interesting to hear as
+Fortune 500, Fortune 1000 companies are
+implementing this uh you know everybody
+is talking about responsible AI,
+trustworthy AI uh I I would love to get
+your perspective what are they uh
+dealing
+with? I think when you're really looking
+at the the sort of the responsible ethic
+ethical aspect of the challenges that
+come of introducing AI, there are many
+challenges that come in. Um this is just
+one one of the sets there. But I think a
+big element of that is around
+communication. It's really part of the
+transparency aspect which is to say
+making sure that the various parties who
+will be impacted by the introduction of
+the AI system be it um employees
+internally because of the way it's going
+to change the work that they're doing or
+be it the people that are um you know
+receiving the services that you are
+performing by using AI that they need to
+understand uh to a sufficient amount how
+you are using AI I in this service so
+that they can bring to you um uh the
+challenge where necessary as to is this
+system actually performing the way it
+should because maybe you don't have the
+right kind of data that you're using in
+this kind of process or maybe the system
+because inherently AI of course is
+finding patterns in historical data to
+extrapolate to the future but perhaps
+the future is not a straight
+extrapolation of the current. uh
+something has changed. Is that are you
+taking that into account in the right
+way? And it's both the frontline staff
+that have been performing these services
+and of course those who will be
+receiving the outputs that are best
+placed in order to flag where these
+challenges are. But they can only do
+that if you're sufficiently transparent
+with them as to what is happening behind
+the scenes. And of course the other area
+where ethics really comes to the four is
+around the question of um because AI has
+made it possible to do this should you
+be doing it I mean this is where there's
+a lot of concern especially from uh
+labor unions for instance around because
+with AI in the mix you can potentially
+monitor your employees to much greater
+detail etc. But is that something that
+you should be doing? I mean what kind of
+a signal are you sending to your
+employees by doing that? Uh or is that
+really going to be to the net benefit?
+Um so these are some of the issues. Um
+there's of course all kinds of questions
+touching also on things like data
+privacy um and uh bias um I mean how
+have you managed to make sure that the
+system is going to differentiate its
+outputs truly on the basis of those
+kinds of features that should be
+relevant to the task and not um making
+kind of distinctions based on factors
+that that shouldn't be relevant. The
+classical one being of course concerns
+around gender or or
+race. But um the the real issue with the
+bias question is um that you can't just
+give a singular kind of we've now
+unbiased the system. Uh it's always
+going to be very context specific. You
+really need to understand um what is the
+decision that needs to be made here and
+what are the truly relevant factors that
+come into play. So that's where a big
+challenge is. If you especially with the
+new kinds of AI systems that are much
+closer to a plug-andplay, they're not
+really plug-and-play, but they're closer
+to it. Uh you can take an off-the-shelf
+AI system to try to feed it data to to
+do something, but have you sufficiently
+understood the problem that you're
+training it to in order to make it
+possible for you to assess whether the
+system is biased? So there's you know
+quite a broad spectrum of areas where
+ethics and responsibility come into
+play. Uh but at the core really it's
+making sure that you're being a
+responsible actor when you're using AI
+same as you have to be a responsible
+actor in all kinds of other ways in
+which your organization is is um
+working. So uh you have unpacked a lot
+of things in there which has kind of uh
+raised a bunch of questions to me. So
+before I forget as I'm growing older I
+forget I'm going to just uh shoot out
+the questions and then you can address
+one aspect is as you said these
+companies you know comm you emphasize
+communication as being one of the key
+tenants of doing
+this. Do you think these companies uh
+you know they a lot of them are setting
+up ethics boards maybe even helps in
+some of those things. Uh one aspect is
+should ethics boards be made up just of
+internal uh folks because I when I talk
+to chief AI officers most of these
+fortune 500 companies it's all internal
+maybe it's across uh different uh folks.
+Should there be an external and an
+internal component? That's question one.
+Second is is innovation getting held up
+because when I talk to a lot of uh chief
+AI officers, I ask them what keeps you
+up at night and they say governance and
+uh you know policy is definitely one
+thing. Is innovation getting held up?
+And final question is because you kind
+of address uh this is lot of companies
+including some of your clients are now
+creating custom LLMs based on their
+proprietary data and this is a curiosity
+uh and also question that came up from
+the audience is when you create these
+custom LLMs is bias still going to be an
+element in there because now this is
+let's just say I'm a law firm and I've
+taken all my 20 years of cases is bias
+still going to be part of that. Uh it's
+really I don't know the answer. This is
+so I have given you three questions.
+Let's uh let's see if you can remember
+them but at least maybe you can answer
+some of them.
+Sure. Um so I'll start with the the the
+last one. If you're using your own data
+set, does that mean you don't need to
+worry about bias anymore? Unfortunately,
+you you will still have to worry about
+bias. I mean for starters um it's going
+to learn uh to reproduce the type of
+pattern of u outputs that you've
+produced in the past. Um how sure are
+you that you haven't been biased in the
+past? Uh if you that's that's one of the
+areas where we've been seeing um bias
+occurring in in automated decision-m
+systems where it's effectively
+identified patterns in your past
+behavior. The classical experiment uh a
+sort of um case is recruitment
+algorithms where if traditionally it
+ended up being mostly men that got
+recruited or men that got um promoted to
+high
+positions, the AI system is likely to
+pick up on that pattern and may then in
+inherently make maleness one of the
+factors that suggests that this is a
+good hire. That's not what you wanted.
+Um, so you're definitely going to have
+to think about this. Um, so you need to
+always critically ask, is this data set
+really the one that we need to be
+having? Is it complete? You know, we're
+going to have minority groups within
+that. How do we make sure that we can
+balance out the way in which it um
+performs for those? And you need to
+challenge yourself. um if I give it test
+cases, can I see that it is only
+differentially giving outputs in those
+cases where it should be making a
+differential output? Um yeah, just
+tested by having two identical
+candidates where you've only changed the
+gender those kinds of questions. The
+other questions that you posed were
+around sorry I forgot um uh one was on
+the ethics board. Uh should there be
+internal external uh that was basically
+a question. Yeah. Yeah. Um this is going
+to be a recurring thing but it it's
+context. It it depends on the context.
+If you are if the performance you the
+kind of service that you're providing
+with this AI system is going to be
+something that really has a significant
+impact on certain external groups then I
+think there is a strong case to be made
+that you need to have a process for
+engaging those external groups. Now
+whether that means that you need to have
+a representative of that external group
+on an ethics board or whether that means
+you use a different kind of process that
+you know will depend but um there needs
+to be a way to make sure that the
+concerns of that external group are
+raised um and can be addressed
+appropriately. So this may it may very
+well be beneficial to have external u
+representatives there. On the other
+hand, for many uses of AI systems
+practically, I mean, if we're talking
+about an AI system to help with your
+supply chain management or something
+like that, you probably don't
+necessarily need to have external um
+people on on your ethics board. Um the
+ethics questions will in that case be
+more around how you're managing your
+internal people um and those kinds of
+questions. So, the board needs to um
+have the rel the the relevant expertise
+to address the kind of questions that
+are going to arise in the types of use
+cases that you're using AI for. I think
+the other most important point is the AI
+ethics board should not live in its own
+bubble. It needs to be connected to your
+overall um ethical organization
+thinking. It needs to be integrated into
+the broader thinking of how are we a
+responsible organization.
+Final and then I thought of another
+question. Sorry because you're coming up
+with some um incredible insights. Uh it
+can be a brief answer. Do you find uh
+organizations uh kind of slowing down
+implementations because of uh concerns
+about ethics, policy,
+regulation? Or should they? uh they
+should um slow down their implementation
+if they are finding that um they're
+struggling with with with meeting the
+sort of the core concerns. Um I think we
+are seeing some organizations slowing
+down uh the roll out of AI systems
+because of com concerns around
+compliance with new regulation. Um
+however the the biggest thing that is um
+slowing down organizations in their
+process from trans from uh having done a
+proof of concept into an actual
+deployment of a system is usually not um
+specific to uh regulatory compliance or
+to ethics questions but rather to
+quality control. How do we make sure
+that the system is going to be robust
+and reliable when it is being deployed
+at scale with data that is now
+potentially a bit more messy and where
+the circumstances can drift more than
+they did in the proof of concept kind of
+situation. I mean
+ultimately well-crafted regulation and
+that's going to be in uh perhaps part of
+our discussion when is regulation well
+crafted and when not but wellcrafted
+regulation should just really be there
+to make sure that systems perform the
+way that they should. So you know you
+don't as an organization you don't want
+your system to to fail. You want your
+system to perform have good quality. Um
+what regulation does is it
+clarifies a standard of what is good
+quality. Um it brings to the four
+certain concerns about how um systems
+might have a negative impact on society
+perhaps more broadly. But those are
+kinds of negative externalities that you
+really wanted to avoid anyway because um
+even if if there wasn't a regulatory
+consequence, there would certainly be a
+reputational consequence uh if the
+system failed in that way. So I don't
+really see um regulation and and
+similarly ethics. I don't really see
+that as a primary thing that uh slows
+down deployment for um actors who are
+you know thinking long term that they
+want to be in this game with a good
+reputation in the long term. Um
+but the challenge is often getting it
+clearly specified in a way that you
+really understand um what is and what
+isn't good. um how do we assess whether
+we are living up to these requirements
+sufficiently? How do we operationalize
+our quality assessment?
+I promise this will be my last question
+on this topic but uh you
+uh uh lot of chief AI officers when I
+talk to them they're you know they say
+there are hundreds in some cases with
+large company thousands of use cases
+that they have to figure out. Should
+ethics be a consideration in finalizing
+which use case they should be going for?
+This is to the chief AI officers who are
+listening to you right now.
+It should certainly be um part of the
+consideration. Um I mean I would hope
+that we're all uh looking to be a good
+actor in society. Uh and ethics is
+really about that. It's making sure that
+the way in which we engage um with our
+internal people, with our external
+stakeholders, with our customers is as a
+good actor um that all parties will want
+to continue to engage with. Um and as
+such uh ethics should be uh an important
+aspect of the way in which you assess
+whether this is a a domain where AI is
+appropriate to use and whether or not
+this particular AI system is the
+appropriate one to use and how far to go
+with the type of automation versus and
+where to make sure that there is still
+space for people to to raise uh if they
+think the system isn't performing
+correctly. to get um a human on the line
+to speak to if um you know they really
+can't figure out how to get this AI
+system to to do what is needed.
+Okay. So ethics should definitely be uh
+a consideration when picking up this. Uh
+moving on you've been currently advising
+the UN Secretary General's high level
+advisory body on AI. What global
+challenges do you see in terms of
+creating a unified AI governance
+framework or harmonizing of uh some of
+these regulations because you are a uh
+Ernston Young is a global company
+uh you deal with companies that have
+global footprints now they have to deal
+with the EU AI act they have to deal in
+the United States with uh uh we don't
+have a comprehensive regulation it might
+be in California, it might be different
+states etc. Then there is you know it
+could be different places in Africa,
+China, India etc. What are your thoughts
+uh on that?
+I think with any kind of um attempt to
+create comprehensive or um certainly um
+closely aligned approaches to regulation
+at a global kind of scale. A core
+challenge is just that so many of the
+different um jurisdictions are in a diff
+at a different place in how they are
+engaging with and using these
+technologies. I mean we've got for
+instance the OECD countries in the west
+that are highly industrialized um and
+who are also uh key players in the
+creation of these type of technologies
+their interests and also the way in
+which they're going to use these
+technologies is somewhat different from
+the global majority countries u that are
+more of a consumer of these
+technologies. they are not, you know,
+this is not where these main technology
+companies are based. Um, who are
+probably, you know, going to use this
+technology for different kind of
+purposes than, uh, the highly
+industrialized countries are going to
+do. And then how are you going to bring
+those different interests together into
+a single unified uh, approach of of
+regulating or at least setting key
+principles of regulation. That's always
+the big challenge and that's also why we
+end up with um at the UN level generally
+going towards guidelines as opposed to
+regulations and that the language tends
+to become more vague because it needs to
+be able to be open to interpretations to
+meet the different kinds of um uh sort
+of local context.
+So this is of course why um this this
+way of working is often open to to
+criticism. It's people say what's the
+point of this? Um but I think there is a
+a a real valid point to it because it
+does help um first of all raise
+awareness amongst the different players
+as to what the issues are at play in
+with with other parties. um it does
+provide even if it's vaguely formulated
+a core baseline to work against which is
+effectively for instance the AI
+principles that were adopted by the G20
+developed by OECD initially adopted by
+the
+G20 effectively the global standard um
+they are somewhat vague they talk about
+human- centeredness they talk about
+transparency but what exactly do we need
+mean with human centeredness
+um those kinds of things, but they do
+provide a baseline from which national
+AI strategies and national approaches
+then are being built. And because of
+that common baseline, we have uh a
+better chance of getting uh to if not
+alignment at least compatibility between
+the different approaches to doing
+regulation on on this new technology. So
+they're providing a baseline uh to do
+that. uh two questions that come out of
+it. Um hopefully I'll remember
+uh AI has become a geopolitical issue so
+to speak. How and I'm looking at it from
+a company standpoint. Companies just
+want to you know sell their product or
+their service etc. How does that
+discussion from a framework or
+suggestion etc impact that? The other
+question is that what role do you see I
+mean you talked about ILE E and your
+work there what do what role does
+organizations like ILE E and
+SELAC play in uh a discussion around
+let's say the policy or AI governance so
+two quick questions on that so the
+geopolitical aspect obviously um
+complicates matters it makes more
+difficult to uh for the different
+parties to speak openly uh around the
+issues. But what if we look at sort of
+the core question about how to regulate
+AI, we actually see that China, Europe,
+the
+US, they see the same same kind of
+problems. They see the same kind of
+things that need to be done to make sure
+that their own populations can engage
+with these technologies in a safe and a
+confident way. So you know the way in
+which China is regulating AI or the way
+in which uh the US is approaching
+regulation of AI isn't that different.
+Um but what you do see is that the
+geopolitics gets used as a tool to argue
+for you shouldn't be regulating us now
+because yeah that that will stifle our
+ability to compete with the others. uh
+and of course what happens in the
+national security space is always a
+somewhat of a matter of its own. If you
+look at the EU AI act, national security
+and defense is not covered uh by the AI
+act. It is not part of the competency of
+the EU. It's in national membership
+competency. Um so that is always a space
+on its own. Um but it definitely gets in
+the way to a certain extent of uh a free
+and open dialogue and and information
+exchange. Um but you know the national
+uh sort of the the um Bletchley and
+Seoul dialogues around AI safety were
+open. China participated in that. But we
+are seeing you know that um the common
+interest does trump geopolitics when it
+comes to the question of how do we
+regulate AI. It doesn't necessarily
+trump politics when it comes to other
+aspects around AI like how to invest and
+how to make sure that um you're the
+frontr runner in in you know creating
+this technology. So what is what is the
+role of organizations like the ILS is
+um sens all of these standards
+development
+bodies standards development plays an
+important role in this space because
+it's really the kind of bridge between
+regulations which talk about the types
+of outcomes that you want to be seeing
+and implementation. what do we actually
+need to do in order to get to those
+kinds of outcomes? Cuz especially in
+this technology space with emerging
+technologies, regulations often don't
+get into that level of detail. They just
+say one way or another, make sure that
+your data set is representative. One way
+or another, make sure that your outputs
+aren't uh discriminating against these
+particular groups. So, how do I
+translate that into what I actually need
+to do as an organization? That's where
+standards come into play. They're
+effectively where industry but also
+academia and civil society experts can
+come together and
+really formulate what does best practice
+look like. And this is a challenging
+process. And for something like the EUAI
+act, the fact that the legislation was
+passed and within 2 years companies are
+going to have to be compliant with the
+obligations for high risk um is is a big
+problem for the standards development
+because that means we've got less than
+two years more like one and a half years
+to create the standards and the standard
+is a it's finding what is best practice.
+It means experts need to be come
+together and need to have the space to
+do consensus by um forming and doing
+that on a short timeline um is not
+really uh the best thing to do but it's
+it's where we are and it's what we need
+to be doing. So it's all hands on deck
+to try and get that done. So obviously
+uh you know the role of standards
+becomes very important. What about the
+role of third-party auditing and
+certification organizations for
+enforcing some of these standards? Do
+you think there is a role for them? Uh
+absolutely. Um it's still early stages.
+Um there are still a lot of questions
+around what does good third party
+assessment look like? Um we need
+standards to assess against. We need um
+also clarity when a regulator says we
+want you to do a bias audit of these a
+uh AI systems. Do they mean auditing the
+process or do they mean auditing the
+actual outputs and how are we going to
+pro you know what level of assurance are
+we going to give? um how long is that
+supposed to be, you know, the the the
+confidence that a user is going to get
+from the fact that this has been assured
+or how long should they be able to to go
+with that and when do you need to do
+reassurance because of drift? These are
+all questions that are still open. Um
+and certainly in the policy space there
+is a tendency to use the language in an
+imprecise way. Audit versus assurance
+versus certification versus third party
+verification. get used in a somewhat
+interchangeable way which is somewhat
+frustrating for people in the assurance
+industry. Um but it is I think going to
+become an important um contributor to
+being able to let people and businesses
+that are looking to purchase these kinds
+of technologies or businesses that
+looking to do business with other
+businesses to be able to get a
+a signal. Is this a trustworthy um
+partner to be engaging in? Uh and that's
+not just in terms of compliance with
+regulation, but it's also in terms of um
+robustness of the system in terms of to
+what extent the system has been assessed
+in its uh performance uh quality. So I
+think it's going to become an important
+uh contributor uh but it is still uh at
+a nent stage. Um financial audit has had
+decades century of development to get to
+where it is currently and there's still
+plenty of criticisms as to the um
+whether it it lives up to what people
+expect from it.
+assurance on AI systems is going to need
+some time to really get to where it
+delivers what people want. Um, and part
+of that is that there needs to be
+clarity on uh expectations. you know
+what should you be expecting from this
+kind of an assessment? If we're doing uh
+an assurance on the process that you
+know you have a riskmanagement process
+in place that you have a data governance
+process in place. You know if that's
+what's being
+assured that means you've got
+fundamentally a good operation going but
+that that is not going to guarantee that
+you won't have the occasional failure of
+the system.
+Recognizing what it is that is or isn't
+being assessed and assured and and and
+so forth is going to be an important
+element to uh expectation management in
+this space. And if we don't have that,
+we'll get a lot of people very
+disappointed with the kind of um results
+that they're getting from this. They'll
+say this system failed on me even though
+certain provider did you know a
+certification of that that system. um
+and that's because there was a
+misunderstanding as to what the
+certification actually certified uh etc.
+And that you know those kinds of
+misunderstandings could lead to real
+difficulties for this ecosystem to grow
+if people basically don't trust the
+outcomes of of an insurance. So that's
+why we need at this point in time to
+really be crystallizing
+um what do we mean with different types
+of verification? What are the standards
+against which we are doing the
+verification? How do we assess the
+quality of the assurance provider? You
+know what kind of accreditation or other
+uh ways of certifying the assessors uh
+need to be in place.
+So there is a role but it needs to be
+well thought through. as you said
+financial auditing took us decades maybe
+centuries and still as we know what
+happened with Enron and other stuff we
+still have those questions that come up
+uh as you said the quality of assessors
+what are we verifying uh those things uh
+need to so it's an it's going to be an
+evolutionary process is what you're
+saying to our audience right yeah yeah
+uh coming to this issue I have lot of
+policy makers that come in and let's
+just take the EU AI act which you're
+very familiar with it's now this body of
+uh rules regulations policies that's
+been set up now
+obviously you know it started way before
+uh chat GPT and others came in and they
+had to kind of rework LLMs in there now
+if there is let's say 6 months from now
+uh some transformational technology
+within this whole sphere and the
+likelihood is pretty high because you've
+got multimodal, you've got agents and
+things of that nature. How does policy
+keep up with this because the speed of
+innovation here is unlike you know I've
+spent all my life in technology and you
+obviously have a much better window.
+unlike anything uh I've seen and I ask
+this to lawmakers all the time in the US
+they have a very different perspective
+because they say we're going to do
+incremental legislation we're not going
+to do comprehensive legislation your
+thoughts on keeping policy in touch with
+the speed of uh innovation
+sure I mean this is always challenging
+but um I think you're right it's
+especially challenging in a space like
+AI where things have been moving so very
+fast The first approach of course in
+policym is always to say we're not going
+to give specific rules uh as to
+particular technology aspects but rather
+we're focusing on the outcomes the
+outcomes on people and you basically the
+regulator says
+um if you are going to harm people's uh
+fundamental rights or you cause a
+physical harm to a person that is
+something that is not allowed. So you
+need to make sure that that doesn't
+happen. Um and the regulation doesn't
+really specify anything beyond that.
+It's up to you as an organization to
+make sure those outcomes don't occur. So
+that's one way in which the regulation
+tries to avoid getting too much pinned
+down on a particular state of
+technology. However, as we saw with the
+AI act, you know, a a shift from AI
+systems that are very purpose-built to
+more general purpose kind of AI had a
+significant impact on the fundamentals
+of how the regulation was framed around,
+you know, assessment of the risks of the
+particular use case. Um so that meant a
+new piece needed to be bolted on.
+Something of that nature could occur
+again. Um if it is not too dramatic of a
+change, there is some scope for the AI
+office. So that's the part of the
+European Commission that is primarily
+focused on the implementation of the AI
+act for the AI office to potentially
+um put out some uh secondary legislation
+to amend what exists which would be a
+faster process. But if the change is too
+big, it would probably not fit within
+this kind of mold at all. uh and new
+legislation would be necessary which you
+know goes through its process that
+usually a multi multi-year kind of
+process. Would the EU be in a more
+difficult position there than say the
+US? Maybe maybe not. I mean the US also
+with their peacemail approach would for
+a new situation also have to pass a a
+new piece. So they'd sort of be in a
+similar kind of position there.
+Um so the the regulators have tried to
+think about this. They've tried to build
+the system in in a flexible way. You
+know the list of applications of AI that
+would make it a high-risk case. So the
+kind of case where most of the
+regulatory obligations come into play is
+uh as an annex to the regulation that
+makes it easier to be updated as well.
+So, you know, those kinds of things have
+been put in play. Perhaps, and we'll
+have to see how well it works. Perhaps
+one of the most important aspects is
+actually the fact that you have a
+centralized organization like the AI
+office, which is supported by a
+scientific board and an advisory board.
+So you've got academia scientists
+looking at where is AI going to provide
+input to the AI office, but you've also
+got an advisory board that has
+representation from industry and from
+civil society to also flag when things
+um you know are changing in a way that
+might need um ch adaptation of of the
+regulatory approach. But the big
+challenge is around the whole
+implementation of the AI act. You know,
+a piece of legislation is just a piece
+of paper until it gets implemented. And
+the implementation depends on so many
+things beyond the piece of paper. It
+depends on having the right people that
+actually have the skills to be able to
+deliver on this. It depends on the
+interplay between in the case of the EU
+the the centralized work at the at the
+European Commission but also then the
+work at the authorities the national
+authorities at the different member
+states. Is that going to work nicely? A
+lot of the challenges and concerns that
+people have had around GDPR
+implementation has been about that
+different national authorities are
+implementing it slightly differently and
+those kinds of things. So um and a big
+one at the in the AI act is around the
+regulatory sandbox. It's supposed to be
+a key tool to make it easier
+formemes to become compliant. I mean
+small medium enterprises they can't have
+the same kind of compliance teams that
+large organizations have. So they need
+support for this. Every country has to
+have or has to participate in a
+regulatory sandbox to help these. But at
+the moment, none of these is really
+running yet. Um where are they going to
+get the expertise in order to do this?
+It's a question mark. Again, I think
+this is a an area where um it's mutual
+learning.
+While companies are learning how to do
+their compliance, the regulatory
+authorities, the oversight bodies are
+learning how to do the oversight as
+well. And you know, we will
+need some time to to really get into a a
+stable state of this is what good
+compliance looks like and this is what
+good oversight um looks like.
+We need to get to a stable state. uh as
+you said and it's going to take some
+time and as you said if it is not a
+major
+uh transformative innovation the uh
+regulations might be able to handle it
+otherwise they might have to come up
+with something different and you're
+right in the US we have to do that it
+gets much harder in the US right now we
+have a very complicated political system
+uh I was in um Europe um about two weeks
+ago and one of the questions and you're
+in Brussels. I just want uh just a very
+brief uh thing and I I talked to a lot
+of uh policy makers too and
+entrepreneurs and there is this whole
+concern uh you know uh Mario Draghi uh
+the former head of the European bank he
+came up with this whole thing that we
+need to change things in Europe and
+again
+uh so I've had many interactions with uh
+folks
+What is your view uh on this? Because
+some of the entrepreneurs I met, they
+have some amazing ideas but they are
+coming over to the US for funding and
+selling their businesses here
+which is good
+uh but maybe not as good for the
+European ecosystem is what I'm thinking.
+Um so just some quick thoughts on that.
+Sure. I mean this has been a concern for
+Europe now for many years. the that um
+you know Europe has a good ecosystem
+when it comes to education. You know
+people you know get their training uh
+and then they get to the point of having
+ideas as to how to how to you know
+create new innovative um businesses. uh
+but then far too frequently from a
+European point of view uh they move to
+other locations be it the US but also
+sometimes to Asia um to to run their
+business. There are many drivers for
+that and actually only very few of those
+have to do with technology regulation.
+Many more are related to the challenges
+of even starting a business. Um it
+depends on which member state you're in.
+A former um colleague of mine has been
+launching a robotics related company in
+Germany and he was saying uh so many
+people advised him to just go to the US.
+You could have had your company up and
+running already instead of all of this
+bureaucracy. But he's been insisting
+because the original research was funded
+from uh European research funding. uh
+but it's it's it's often more that kind
+of basic business you know how to run a
+business that is uh stifling the ability
+to to to start up in in
+Europe. I think um there are efforts to
+try to make that easier but they still
+have a long way to go. But the next
+stage is the even when companies you
+know the startup phase is done in Europe
+they may still move outside of Europe
+when they go into growth phase because
+of the challenges of attracting the
+right kind of funding. Um and that's
+another area where Europe um still has a
+lot of work to do. Um and there are
+initiatives around that. I was just
+reading today about a new uh way of
+registering your company at the European
+level instead of at the member state
+level and attempts to simplify things
+through that route. We'll have to see if
+that works. Um but
+certainly the biggest challenges that
+are driving companies away from Europe
+at the moment are most frequently not to
+do with technology regulation. There
+will be instances where that is the case
+but uh but are to do with with other
+kinds of um red tape. Okay. Uh and I
+hope that improves because the talent is
+I saw was there in huge huge speeds. I
+mean look at some of the top AI experts,
+the gurus of the uh AI uh
+godfathers. Most of them are actually
+from Europe if you really think about
+it. Uh they might not be in Europe
+anymore but they are originally from
+Europe. But uh uh Ankar this has been
+fantastic. Uh at the end we have a
+lightning round just a little uh to not
+to put you on the spot to just get some
+concise answers. We've had uh good form
+discussion. So are you ready for that?
+Go for it. Okay. One word answer is uh
+innovation or regulation?
+One word answer. I'm sorry I can't give
+you that cuz I think it has to be both.
+Okay. We'll make an exception for you.
+uh future of AI. Is it bright or is it
+concerning?
+Uh it's a bit of both, but I think there
+are
+um it's fairly bright. Okay, good. We
+like the bright uh bright aspect. Uh
+open source or proprietary AI?
+Depends on the use case. I am a fan of
+open source. Um, so I'll go with open
+source.
+Okay. Uh, what is more important data or
+algorithms?
+I'll go with algorithms. All right.
+Okay. Finally, for our global audience,
+any uh based on your extensive
+experience, one concrete action that
+organizations can take to improve their
+AI governance. one, if you were to give
+them one uh actionable uh advice,
+strong support from the top.
+Get support from the top. Great advice.
+Great advice. Agar, thank you really for
+joining us. Your insights uh from you
+know working across so many different
+sectors as I talked about global
+corporations, international
+organizations, academia. uh you've given
+us some very valuable perspective on how
+we can you know develop AI governance
+frameworks that are both effective as
+well as inclusive and to our listeners
+remember that shaping the future of AI
+requires active participation from all
+stakeholders as Amskar pointed out and
+please don't forget to subscribe and
+share this episode with others
+interested in the future of AI policy
+governance and regulation thank you very
+much Anskar and thank you to our
+listeners
+This has been fantastic.
+Thank you.
+[Music]

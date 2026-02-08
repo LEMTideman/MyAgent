@@ -1,0 +1,825 @@
+you need to consider on a daily basis
+spending at least 30 minutes focusing on
+your own AI learning. And I'm not saying
+try to make things overly complex. Just
+take a picture of something and say,
+"Can I use AI to edit it?" If you're
+really good at AI, I'm pretty sure
+you're not working in the federal
+government right now. You're sitting
+somewhere in uh California and you're
+you're being offered uh job offers from
+OpenAI Meta or anyone else. Every
+function within an organization is
+struggling with their own PI expertise.
+Executives to legal, HR, marketing,
+product, and of course security.
+There are no clear expertise levels that
+I feel have been defined yet. I think a
+lot of innovators to be able to figure
+out how fast they could lean forward in
+the development of AI capabilities
+inside their own companies which in many
+cases are a critical infrastructure and
+also to be able to understand exactly
+how much security they should weave into
+that.
+>> Welcome to the regulating AI podcast.
+Join host Sanjay Pury as he explores the
+dynamic and developing world of
+artificial intelligence governance. Each
+episode features deep dives with global
+leaders at the forefront of regulating
+AI responsibly, tackling the challenges
+using AI can bring about headon and
+enabling balance without hindering
+innovation.
+[Music]
+Welcome to the regulating AI podcast
+where we bring together policy makers,
+industry leaders, and civil society to
+advance innovationfriendly AI
+governance. Today we are speaking with
+Rob Ti. He's the chief AI officer and
+chief of research at the SANS Institute.
+He's also known across the community as
+the godfather of digital forensics. He
+also serves as the amicus
+technical adviser to the US foreign
+intelligence surveillance court and his
+experience spans nationwide intrusion,
+nation state intrusions, incident
+response and advanced threat hunting. We
+wanted to get his perspective because
+the white house uh last week released
+the America's AI action plan which was
+really uh
+had three uh key pillars which had
+innovation infrastructure and
+international diplomacy and security uh
+which had specific actions for federal
+adoption evaluations and secure by
+design AI. So, we'll get Rob's feedback
+on uh the action plan and more. Rob,
+welcome to the regulating AI podcast.
+>> Hi, thank you for having me. Pleasure to
+be here.
+>> Same here. Rob, we have a global
+audience. Uh we get policy makers, their
+staff, entrepreneurs, AI experts, and as
+I said, it's a global audience. uh for
+them who might not be as well-versed. Uh
+the Trump administration it released its
+AI action plan which was focused on
+winning the AI global race through
+innovation and infrastructure.
+>> Mhm.
+>> But you have a little different
+perspective uh saying that it does miss
+a critical threat that America's AI
+systems are already under attack and
+we'll talk a little bit about that. What
+specific
+uh vulnerabilities does this plan
+overlook according to you for our
+audience?
+>> Well, that's a great question. It it's
+not that it directly overlooks it. It
+basically when we're talking about what
+is currently going on, adversaries are
+specifically increasing their use of AI
+capabilities already. And to a certain
+extent even if workforce were trained
+now there's a lot of
+hesitation on the part of I think a lot
+of innovators to be able to figure out
+how fast they could lean forward in the
+development of AI capabilities inside
+their own companies which in many cases
+are critical infrastructure and also to
+be able to understand exactly how much
+security they should weave into that. As
+a result, uh, leaders are faced with a
+risk conundrum. If they move too fast,
+they're at risk of not being able to
+maintain security, but if they don't
+move fast enough on the other side,
+they're not able to remain competitive.
+Now, the AI action plan addresses a lot
+of that. Uh, but it really doesn't
+highlight the current ongoing threats
+that exist.
+>> Now, as you said, they can't move too
+fast. They can't move too slow. So they
+are really in a conundrum. For our
+listeners uh you know tell them you
+stated that traditional cyber defenses
+fail against AI targeted attacks. Walk
+us through why a CISO who has
+successfully defended networks for
+decades might miss these new uh attack
+vectors.
+Well, when it comes down to and again, I
+applaud the AI action plan for many
+things, including the fact that it's
+highlighting the fact that workforce
+development and training is going to be
+needed to be able to move things
+forward, the adversaries are utilizing
+AI models and that unlike what happens
+in the defensive side or the, you know,
+I think any normal company that is
+trying to figure out what is ways to
+implement them, it's even the focus of
+your overall podcast, which is, you
+know, I I really applaud these
+discussions. How do you potentially
+implement regulation and safety and
+security around these implementations?
+On the other side, what ends up
+happening with adversaries and nation
+state attackers in organized crime,
+they're not restricted by any
+regulation. They're not restricted by
+any guard rails or safety protocols,
+privacy that are going to hold them
+back. As a result, there might be a
+disparity that'll be created that the
+nation state attackers will be able to
+use unrestricted capabilities of LLMs
+and generative AI whereas defensive
+capabilities might be limited might be
+limited by the restrictions placed on it
+by regulatory controls and rightly so.
+they needed but adversaries can say be
+as evil as possible to their LLMs where
+we can't.
+>> So we can't uh be as evil but our
+adversaries can be and you keep you
+mentioned nation states sometimes.
+You also pointed to salt typhoon as
+evidence that these threats aren't
+theoretical. Right.
+>> How do these kinds of operations Rob
+demonstrate the evolution from a
+traditional network infiltration which
+is in simplistic terms uh you know our
+audience is not all cyber savvy but to
+an AI system manipulation.
+So the way you end up taking a look at
+attacks such as salt or volt typhoon is
+that the adversaries out there are
+deliberately infecting networks. No
+longer as much as focus on the data
+exfiltration and espionage aspects which
+we've seen for over 20 years. In many of
+these instances, the nation state
+attackers are trying to lay the
+groundwork for potential future
+disruption. And as a result, it is very
+difficult to find them if they're not
+moving around. It is very similar to if
+someone does a burglary against your
+home. You might be able to tell things
+are out of place, things have been
+tossed up, but if someone walks in your
+place very serreptitiously, inserts a
+single bug somewhere, be very hard to
+detect that. And with AI capabilities
+for the adversaries, they're able to
+increase their velocity and being able
+to do these type of operations,
+especially if they're starting to build
+reasoning capabilities that will be able
+to detect the different cap capabilities
+of defenses in your network, subvert
+them not within weeks, but within
+minutes or seconds.
+>> Minutes and seconds. And uh that leads
+me to many questions, but let me ask you
+this. The plan also invests in AI
+evaluations and test beds, you know,
+with NIST and DOE and NSF, etc. What
+must these evaluations include to
+actually catch some of the things like
+you talked about poisoning, jailbreaking
+and distribution shift before these
+systems go live, Rob? Well, that's also
+you're you're highlighting a very
+important part of the action plan which
+again I very much applaud is that in
+order to deploy AI or and again we're
+using very generically here depending on
+the capability you're deploying there
+are key questions that leaders should
+probably ask before these deployments
+are put onto their network. uh if you
+have a massive amount of data that
+you're trying to utilize in AI to be
+able to analyze, is there ways for
+adversaries to potentially exploit that
+data or potentially poison that data
+against the organization itself? Say if
+you do a lookup of saying critical
+information that's needed for a supply
+chain or to be able to run your
+operation, it'll potentially give you
+the wrong data back. kind of like
+similar, let's make it real world a
+little bit, is you put a prescription in
+to the pharmacist and the pharmacist
+ends up prescribing you something else
+that is lethal. That is essentially what
+might happen under a prompt injection
+style attack is that you not even sure
+what the pills are in the in the uh what
+you think they are uh because there's no
+way to validate it. These regulations in
+this act is aimed at trying to encourage
+companies to follow some sort of
+standards that are out there. SANS has
+their own the AI security controls as
+well and we're trying to work with other
+organizations to advise them to be able
+to do this. But there's a caveat. The
+caveat is by trying to follow a lot of
+these uh protocols, it could slow you
+down on your deployments. So if faster,
+more efficient and cheaper models
+released such as what we saw with
+DeepSeek and its open source models, you
+are have the pressure of the board and
+the pressure of your advisors to reduce
+cost to increase profit.
+>> If you implement a model that may be
+untrustworthy, how much risk are you
+adding onto the organization compared to
+the reduction of cost and more
+efficiencies you're able to achieve by
+implementing these models?
+So Rob, are you saying
+or maybe I'm putting words in is open
+source not the way to open source not
+the way to go? Because in this plan they
+focus heavily on open source uh and deep
+sig is an open source uh you know
+mistral is an open source uh you know
+there are several uh you know open
+source do you think because of it being
+open source it opens up to more risk?
+Well, no, actually re very much
+emphasize that open source does allow
+for a lot more auditing uh and
+pre-eployment examination but as you
+know with the open source it needs to
+come with the correct weights and that
+could also be used for analysis
+>> and initially deepseek did not and other
+models that are open source also need to
+be equally be able be analyzed and the
+good thing about open source is it
+allows for that introspection and also
+what's missing in them. Just because
+they're open source doesn't mean it is
+easy to analyze. Also, when you end up
+taking a look at a lot of the hugging
+face models that are out there that are
+open source in the past, they have found
+uh crypto miners that are embedded in
+these models uh for uh it just kind of
+it's interesting that even if it's open
+source, who's doing the audit to make
+sure there's nothing embedded in that uh
+before you deploy it inside your
+organization?
+Um Rob, the other thing this plan uh
+prioritizes is rapid infrastructure
+buildout and removing regulatory
+barriers. How does one balance the need
+for speed and the requirement for
+security? Rob
+>> because you're saying hey be careful and
+here we remember we want to be number
+one. Yeah, and we will be number one.
+And I do fully believe in innovation
+does bring a lot of folks along with it.
+Typically in organization, if you let
+security or legal run the organization,
+you actually will have very little
+innovation. And I I say that being a
+security person, you need to sometimes
+as a leader say we need to potentially
+invest in this technology. I understand
+you may not know enough about it, but
+I'm tasking you to reduce as much risk
+as possible. And that's why I was
+leaning in on NIST, you know, SANS,
+WASP, and other guidelines to say
+they're trying to advise you here are
+ways to reduce that risk. But just like
+anything else out there, there's nothing
+that is completely risk averse. As a
+result, I'm I'm advising a lot of
+executives out there. I believe it is
+more risky by not leaning enough forward
+in your organization by removing the
+barriers for implementation even at a
+functional level rather than trying to
+let someone else figure out all the
+security controls that have to be in
+place to have zero risk. Even fires
+firemen and fire uh women their
+buildings even where they live have a
+fire danger. and they does it mean
+because they're uh they're you know fire
+people that you're going to have no risk
+because they're really smart. No, they
+too are going to be cooking on the stove
+and having outdoor barbecues. The
+question is are you basically
+implementing small little steps in order
+to reduce the risk at all. That's what
+is really being emphasized by this plan.
+If you overregulate something, you tend
+to limit innovation. And I'm not going
+to point at where this has occurred
+globally, but there's enough examples
+out there in different regions of the
+world where you could clearly see where
+innovation is thriving and where
+innovation is stifled.
+>> Uh Rob, you earlier talked about and
+you've said this several times uh at
+different conferences that organizations
+lack professionals that have AI security
+expertise.
+How significant because this AI action
+plan does talk about the skills and
+building up skills. How significant for
+our listeners is the skills gap and how
+do we address this and is AI security uh
+skill or expertise different than just
+regular security expertise again for our
+listeners who might not be in as much
+into this as you are.
+To answer that question, I'll actually
+bring it up to a little bit higher
+level. I believe
+by a broad stroke that every function
+within an organization is struggling
+with their own AI expertise, executives
+to legal, HR, marketing, product, and of
+course security.
+There are no clear
+expertise levels that I feel have been
+defined yet. And as a result, one of the
+mantras that I'm really trying to push
+even folks in uh security to live by is
+that you can't simply let someone else
+write the book on this. You need to
+study it daily. You need to examine how
+what is your use case for using AI. And
+that translates to a lot of use cases
+that you potentially do in your
+profession. So executives for example,
+if you're just relying on CTO's and CIOS
+to inform you of how to best use AI in
+your organization, I feel that is a
+leadership miss. It is similar to being
+in the late 90s and trying to set
+internet strategy as an executive
+without ever having used a web browser
+or email. It it kind of defies logic.
+Everyone from executives to the board to
+the security personnel need to start
+working with AI daily to explore to
+learn and therefore come to their own
+realization of how best to use it in
+your own uh function and cyber security
+is no different. We don't have all the
+answers but neither does anyone else.
+>> So everyone should be well informed. Um
+Rob, one of the things the plan proposes
+is a GSA managed AI procurement toolbox
+which formalizes a CIO council.
+What if you your input in terms of what
+procurement guard rails like mandatory
+red teaming evals model uh sooms or data
+set provenence or test sessions should
+be the baseline for all agencies because
+security uh is involved in some of these
+things.
+>> Well, security is involved in
+everything. uh when you end up thinking
+about it, it's uh you know, if you build
+a car or a plane or work in healthcare,
+safety is paramount. You know, people in
+order to buy your pro product must feel
+that they're getting into a vehicle or
+that the pharmaceutical industry is
+creating things that are safe. You know,
+if you get on a plane, the same thing.
+So when I explain what this leads into
+is making sure that there's always a
+proper security culture that is the
+bedrock of a lot of these the mindsets
+that are moving forward. You need to
+allow for enough innovation and growth
+but also you know essentially take a
+look at well are we too restrictive on
+the requirements. It's really hard to
+balance and when you end up taking a
+look at what is being tasked for
+procurement I think at a bare minimum
+they need to talk about the security
+culture the source of where some of
+these capabilities are namely and let's
+go back to something everyone is very
+familiar with is the Tik Tok debate
+is Tik Tok the fact that it's in China a
+questionable social media uh capability
+that your kids you're using, could it be
+used for, you know, spying? A lot of
+these questions are very sound and these
+are the questions that I feel are the
+same questions that are going to be
+asked of this council that is being put
+together is what types of um products
+and capabilities and where are they
+housed are critically important
+questions to ask when you're looking at
+potential procurement for critical
+infrastructure across uh the US and the
+world.
+So we our procurement policies really
+need to be uh taken a great look at the
+plan also Rob proposes the use extensive
+use of AI within the federal government
+agencies
+from a federal government agency
+perspective
+um given that I'm in DC how should
+federal agencies separate duties between
+you know you have the model builders you
+have the data stewards and the security
+assessors to avoid
+you know, the proverbial fox guarding
+the hen house, so to speak, in AI
+decisions. Any thoughts on that?
+>> Well, I think the challenge initially is
+going to be for the federal government
+is where they're going to get the
+general expertise uh in the talent to be
+able to help make some of these core
+basic decisions. The real challenge is
+talent that have AI backgrounds. I mean,
+you may be talking maybe five years in
+the future with the question you just
+asked. Currently, I don't think there's
+a lot of expertise running around the
+federal government with AI background.
+And that's not meant to be insulting.
+Not at all. If you're really good at AI,
+I'm pretty sure you're not working in
+the federal government right now. You're
+sitting somewhere in uh California and
+you're you're being offered uh job
+offers from OpenAI Meta or anyone else.
+Um the key point here is that the
+federal government needs to take
+training in its emphasis of its
+individuals to explore how AI could be
+impacted in their functions and to
+develop individuals inside the
+organizations that begin to have this
+expertise and very similar to a lot of
+public companies Fiverr, Shopify is make
+AI knowledge a part of their performance
+reviews. These type of changes will
+slowly if not immediately change the
+dynamic in organizations to set an
+expectation of AI literacy even at a
+basic level to be able to help make some
+of these decisions. It's less fox
+guarding the hen house is there's
+nothing guarding nothing at this point.
+You need a baseline type of individual
+that will help the federal government
+identify where efficiencies could be
+obtained by utilizing AI in the
+workforce in the federal government and
+state and local governments in addition
+to how would you potentially ask someone
+on your teams to implement secure
+reviews of them. There's not a lot of
+individuals out there that have that
+experience. And if they do have that
+experience, there's a lot of other
+organizations that are starting to
+realize AI talent rush is going to be a
+thing for the next two years.
+>> Next two years. Uh Rob, I have had
+leaders from the federal government,
+state government, you know, we've had a
+lot of them come in and they are saying
+this technology is moving so rapidly.
+You know, the talent that if you train
+it kind of either the the talent leaves
+or you kind of have to be. So there is a
+real upskilling reskilling challenge
+that is intense going on. I mean you
+just look at from in the past 3 years or
+past two years where we have come
+whether it is multimodal and we've not
+even talked about agentic AI and the
+challenges it's going to uh propose
+that's a topic for another day uh
+because that got serious implications in
+there so I think the the pace of change
+also is something that uh the federal
+government and others are dealing with
+it but you know before uh I let you guys
+there's a couple of things especially
+given your background with FISA how well
+positioned is our IC our intelligence
+community in terms of to defend against
+this AI
+world of um cyber
+ordriven espionage in your view
+>> that's a great question I can't comment
+specifically on what the intelligence
+>> well I'm just talking at a broad level
+>> of course so broadly when you end up
+taking a look that well first of all as
+you mentioned at your part of your
+initial point is the technology is
+moving fast or so fast that it's hard
+for individuals who even focusing in on
+it daily to feel that they're able to
+keep up with my own
+examinations and research I almost have
+to spend two to three hours on the
+weekend just to catch up on articles
+that I bookmark during the week
+when you end up taking a look at the
+cyber security and what the adversarial
+uh capabilities are. I think the biggest
+thing that folks will realize almost
+immediately is that when you build
+reasoning agents, they're going to be
+able to make decision in a network um
+within seconds. And as a result of that,
+without even guessing, we haven't
+directly seen adversarial agents at play
+within the network. We've only seen a
+increase in velocity and Google, OpenAI
+and others have directly attributed
+threat actors sitting inside Deep Mind,
+OpenAI that they've been able to detect
+and boot out. So they know they're
+there. But at the same time when you end
+up taking a look at what you know uh
+that DoD and federal governments and
+well even the uh cyber security
+corporations that are out there, they're
+obviously investing heavily into agentic
+capabilities. For example, DeepMind is
+releasing SEC Gemini at Black Hat Devcon
+in the next few weeks, which is a
+reasoning cyber security agent that is
+able to do basic level tasks. So, this
+is a step in the right direction, but as
+I will note, a lot of the key data that
+is needed to be able to lay a proper
+defense sits in things that are attacked
+routinely like your email, a fishing
+attack, hitting your browser, your Zoom
+information. All this information is
+heavily guarded from a privacy and
+safety standpoint. My question to
+regulators are if that's your main
+attack vector, are the LLMs that are
+used defensively able to analyze that
+data successfully to detect where these
+anomalies are are going on to be able to
+prevent a mass-cale ransomware attack.
+So the par between both really rests on
+the creativity of both sides being able
+to move forward fast on it. I do believe
+that someone might have a good idea on
+the defensive side and they realize, oh,
+I'm not sure I'm able to ingest
+everyone's email into the LLM to
+successfully detect a ransomware attack.
+I'm not saying it can't be done. I just
+put that out there to say consider. A
+lot of these attacks are utilizing the
+human weakness of trust and the ability
+for someone to say, "Oh, I think that's
+someone I know." But deep fake attacks
+are clearly on the rise. And as a result
+of that, you need to be really thinking
+about, well, if those are the attack
+vectors and someone sends you an email
+or a Zoom call, how do you really know
+it's that person? And would that data be
+able to be ingested and to be able to
+detect large-scale organizations or the
+federal government wasn't just a vehicle
+for the next piece of malware that was
+just uh uh let loose in your network?
+Long answer. I'm sorry for for your
+quick question.
+>> No worries. Uh finally just maybe
+turning things on the head uh as you
+know the AI innovation act talks about
+us uh leading the AI uh you know uh the
+effort towards global leadership in AI.
+Do you think the focus on winning the AI
+race u is creating vulnerabilities that
+could ultimately hand our adversaries
+the victory in some ways?
+>> Um that's a very black black or white
+question. Um, no, I had to be very clear
+on this one and I feel very passionately
+about this. Every single time we've had
+new technological, you know, advances,
+whether it's, um, and again, you go
+through World War II or even World War I
+post it with the airplane, nuclear
+power, uh, the semiconductor, the
+computer chip, personal computer,
+there's always this aspect that, um,
+we're completely vulnerable by
+implementing these technologies. we're
+completely vulnerable by not
+implementing them as well. So based on
+history, I'm more on this side that sure
+there are going to be vulnerabilities
+that are introduced in any new
+technology, but those same
+vulnerabilities are going to provide for
+things we've never seen before and I'm
+sure you've chatted about it from the
+healthcare industry, the ability to find
+formulas and be able to do testing of
+drugs without having to do human trials.
+the ability for this and I'm I'm a very
+big uh optimist when it comes to AI. All
+of these things are going to for sure
+introduce new vulnerabilities, but it's
+also going to introduce a lot more
+capability for us to solve problems that
+we never had to think about before. So I
+get excited both sides that we just have
+to be keep our eye on the fact that yes
+implementing anything new especially as
+widespread as this will increase that
+level but even like I'll show my phone
+here the how many attacks now occur on
+the smartphone but also take a look at
+what it's able to do for your daily life
+>> that is so true can't do without the
+smartphone I can do without almost
+everything else we won't
+>> zoom rest but yeah
+>> absolutely Absolutely Rob. Uh
+>> absolutely Rob. Uh for the lawmakers and
+uh regulators who are listening to you,
+>> one piece of advice given the this AI
+action uh plan for them. U there are a
+lot of them listening to you now. Just
+if you were to give one piece of advice
+for them.
+>> Oh, great question. I go back to the
+advice I give a lot of other executives
+and leaders that are out there.
+You need to consider on a daily basis
+spending at least 30 minutes focusing on
+your own AI learning. And I'm not saying
+try to make things overly complex. Just
+take a picture of something and say,
+"Can I use AI to edit it?" Take a
+something that you've written and
+saying, "What is the tone of voice that
+I use?" initially some very basic things
+or even taking this podcast and
+summarizing it into something that they
+the AI may know what you find
+interesting and saying please take this
+podcast and pull out the three things
+that would inform me because you get
+that personalization. The more that you
+start tapping into what AI can do for
+you, even on a very personal level, even
+extending it to work, the more you're
+going to be able to ask really hard
+questions to those implementing it. And
+it doesn't take that much. As I
+mentioned before, in order to set
+strategy in the late 90s, you at least
+had to use a web browser, email, not be
+an expert at it. You didn't need to know
+it was sitting on a BSD server and what
+TCP IP is. That's the LLM and rags. You
+just need to see, oh, I was able to go
+to this website had news on it. Wonder
+what that's going to mean. Or I sent
+this email. It used to take me minutes
+to make a phone call. Now I could just
+send a note. What does that mean? Those
+are the types of questions every leader
+needs to take a look at the broader
+picture. And they're so good at they
+wouldn't be in the positions they're in
+unless they had that massive vision,
+that massive capability of tying things
+together no one else can see. I just
+encourage them to start on a daily basis
+like a workout or even do it during your
+workout. Listen to a podcast like this
+one and it'll help you out and it'll
+help you make uh close the loop on the
+key questions you need to ask and I hope
+you're able to do so. O obviously Sans
+is here to help that as well.
+>> Well, that's a great point. Uh educate
+yourself, understand the possibilities,
+but uh one thing I would say is listen
+to our whole podcast. Just don't ask for
+those three things. We need the
+viewership. Just kidding.
+>> Yeah. Yeah. Yeah. Don't True. Listen to
+the entire podcast. After you listen to
+it, then say, "What are the three things
+I need to do?" Yes.
+>> Exactly. Yeah.
+Rob, uh, for our, uh, audience, uh, who
+likes short things. We do a lightning
+round of questions. You're a security
+person. I know you might not like it.
+Uh, but we're going to give it uh, an
+attempt. Just a couple of, uh, yes or no
+answers. Are you ready?
+>> 100%.
+>> Okay. Is the current AI action plan
+adequate for national security? Yes or
+no?
+>> Yes.
+>> Can traditional cyber security tools
+detect AI data poisoning? Yes or no?
+>> Not yet.
+>> Okay. Uh, are federal agencies currently
+equipped to secure AI systems? No.
+>> Yes or no?
+>> Should AI deployment be paused until
+security catches up?
+>> No.
+Okay. Will salt typhoon-l like attacks
+become more common? Yes or no?
+>> I believe so. Yes.
+>> Okay. Should there be mandatory AI
+security standards for government? Yes
+or no?
+>> Yes. Eventually.
+>> Okay. Is the skill gap in AI security
+getting worse? Yes or no?
+>> Yes. Currently AI's and I'll just say
+Kota AI is moving too fast and that's
+one of the reasons why we need people
+focusing in on it more people.
+>> Okay. Finally, are we already behind in
+AI security compared to our adversaries?
+>> No.
+>> The
+>> that's a tough one.
+>> That's that's a tough one. And I I say
+no uh with a caveat. It's less than
+that. You just said security. So it's a
+focus on defense.
+>> Yeah. Security. I said AI security.
+>> Well, you're focusing in on defense. Uh
+but at the same time, I believe that if
+you're there's a lot more research going
+on the offense side, offensive side for
+AI uh than there is on defensive and we
+need to change that and that's one of
+the reasons that your discussions are
+very helpful.
+>> Well, thanks Rob. uh you painted a
+sobering picture but still an optimistic
+perspective and thank you for bringing
+this critical perspective on this you
+know very important piece uh that was uh
+released by the white house this AI
+action plan the conversation around this
+is very very important because it
+focuses on innovation but also on
+security and reminds us that security
+should be found foundational to
+everything else we built. So thank you
+really for coming at a short notice.
+Thank you for being here and we'll
+probably have you back again.
+>> Thank you. Appreciate it.
+[Music]

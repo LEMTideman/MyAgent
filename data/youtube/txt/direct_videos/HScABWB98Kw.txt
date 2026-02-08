@@ -1,0 +1,1359 @@
+and here's the fundamental Paradox with
+agents the capability of Agents I think
+is already in some ways mind-blowing you
+know if agents could do reliably in the
+real world in the hands of consumers
+everything that they're capable of it
+would truly be an economic
+transformation but even if they're going
+to fail 10% of the time it's a useless
+product because no one wants to uh have
+an agent that orders door Dash to the
+wrong address 10% of the time right the
+these are the kinds of failures that
+consumers are actually
+[Music]
+reporting all right everyone welcome to
+another episode of the twiml AI podcast
+I am your host Sam charington today I'm
+joined by Arvin Naran Arvin is a
+professor at Princeton University before
+we get going be sure to take a moment to
+hit that subscribe button wherever
+you're listening listening to Today's
+Show Arvin welcome to the podcast Hi Sam
+thanks for having me on I'm super
+excited to jump into our conversation
+we'll be talking about some of your
+recent work exploring AI agents and how
+we should be benchmarking and assessing
+their performance as well as your recent
+book AI snake oil uh which I should
+mention you co-wrote with sash gapor who
+we spoke uh two on the podcast earlier
+this year talking about the risks of
+open AI models and I think you were a
+co-author on that work as well yeah
+we've done a bunch of uh research
+together looking at the risks of AI in V
+various ways yes so really looking
+forward to jumping in let's get started
+by having you share a little bit about
+your background sure I'm a computer
+scientist I'm also the director of a
+center here at Princeton called the
+center for information technology policy
+so I split my time into a few buckets
+one is technical AI research these days
+it's been primarily in the AI agents
+Topic in the past a lot of it has been
+on AI bias and then a second bucket is
+advising policy makers you know where AI
+is going what sorts of guard rails are
+needed policy on open versus closed
+Foundation models those sorts of things
+and perhaps the third bucket is uh
+breaking this all down for a broader
+audience Beyond you know AI researchers
+and policy makers and that's kind of
+where uh the book comes in and we have a
+newsletter as well AI snake oil so I
+spent quite a bit of time doing that as
+well you talk a little bit more deeply
+about the way you kind of craft your
+your research agenda what are some of
+the problems that you've been digging
+into what are some of the the ways you
+formulated them and uh how do you kind
+of pull all that together into a broad
+research agenda so when we we look at
+AI one of the things that I think as
+academics we can contribute is doing
+things uh that companies are maybe uh
+not going to do even if uh even if they
+they're they're capable of doing right
+because we don't want to be competing
+with Google or Microsoft or open Ai and
+uh so I think um benchmarking is one
+area where academic research can really
+contribute and more rigorous evals are
+needed now more than ever so as we moved
+from traditional machine learning models
+to Foundation models evaluation became a
+lot harder right because with a
+traditional machine learning model it's
+built to perform one task and that task
+is often something really simple like
+handwriting recognition so you know
+amnest is a pretty decent Benchmark for
+handwriting recognition there are
+limitations you know it doesn't measure
+distribution shifts Etc uh but that said
+you know it worked well for for decades
+but then you get to Foundation models
+these are models that are supposed to be
+able to do everything to some degree and
+so benchmarking started to become really
+messy yeah I mean we've all heard that
+story many times uh you know every time
+a company releases a model they pick
+some set of benchmarks and uh and their
+model looks good but it turns out they
+prompted it in different ways or
+whatever right so uh uh and then the
+Vibes don't really match the benchmarks
+so that was already a problem and we're
+expecting it get to get harder as the
+models are getting trained on training
+data that they've generated exactly
+exactly and another thing that makes it
+harder is when you get from Models to AI
+agents because agents are supposed to be
+able to do things in the real world and
+you know if you have an agent that is
+supposed to book flight tickets you
+can't actually ask it to book flight
+tickets right and so you have to create
+some simulated version of that and now
+you have to worry about does your
+simulated version actually model reality
+or are you encouraging developers to
+build
+brittle agents that will do well on your
+benchmark but completely fail when you
+put it on a on a real website uh so
+those are some of the challenges that
+have motivated our work and you know
+this kind of uh ties in neatly with our
+uh other gig that I mentioned of calling
+on some of the overhyped
+claims right so that's what AI snake oil
+is about so can we uh can we actually
+take that premise and try to make it
+rigorous build better evals uh and
+actually use that to push the community
+forward uh towards agents that work
+better in the real world and not just do
+well on benchmarks yeah yeah um and it's
+interesting that kind of Agents is one
+of the areas that it I don't know I
+guess it strikes me as like this Nexus
+for both you know promise and you know
+what many are hoping to enable with AI
+you know even historically and you know
+because you know there's a lot
+of uh inflated expectations I guess we
+can call it that um what's your sense of
+you know where we are today with regard
+to kind of the capability of agents
+and I guess I'm mostly interested in
+like do you when you look at the
+technology do you see like fundamental
+or where do you see fundamental
+limitations such that you know will'll
+never catch up to the hype you know
+versus you know it's just being early
+and and the tooling needing to evolve
+and the benchmarks needing to evolve and
+all that how how do you think about that
+landscape that's a great question and
+here's the fundamental Paradox with
+agents the capability of Agents I think
+is already in some ways mind-blowing and
+I'll put it the following way if uh you
+know if agents could do reliably in the
+real world in the hands of consumers
+everything that they're capable of it
+would truly be an economic
+transformation and this is what I think
+a lot of developers have fully
+recognized right this what we call the
+capability reliability Gap and when you
+look at a lot of the products that have
+pled on the market recently uh like the
+rabbit and so forth I mean I you know I
+get the concept right and sometimes
+these magical experiences do work but
+even if they're going to fail 10% of the
+time it's a useless product because no
+one wants to uh have an agent that
+orders door Dash to the wrong address
+10% of the time right the these are the
+kinds of failures that consumers are
+actually reporting so so that's one
+thing the capabilities are really strong
+but how do you get that last Mile and
+that's the same issue we had with
+self-driving cars for instance right we
+had really good prototypes you know 20
+years ago and that's why uh developers
+and CEOs perpetually thought that
+self-driving was two years away I mean
+we're finally there now right weo is
+offering rights to the public in several
+cities but it's taken decades to get
+there uh and maybe you know maybe agents
+are going to take that long but maybe we
+can accelerate that through better rigor
+in our research and development there
+are I think a bunch of other challenges
+with agents but reliability is the
+number one
+challenge yeah when I hear that I think
+a little bit about uh an argument that I
+see raging on LinkedIn and x uh about uh
+code generation and um you know don't
+both strikes me as like two sides
+talking past one another in the sense of
+um you know any who's used it
+particularly on something that they're
+not intimately familiar with like is
+astounded because it's like helping you
+write some app and some language that
+you've never programmed before and
+that's amazing um but I think the calls
+for you know broad studies that look at
+the impact over many developers and um
+you know the degree to which the bugs
+that it
+introduced uh you know if you're not
+trying to build a production system
+those bugs don't matter but then when
+you're really talking about productivity
+on the economic scale they do uh those
+are valid as well right that's exactly
+right that's exactly right yeah and I
+think you really put the finger on it
+there's a difference between coding and
+software engineering and I think that's
+a big part of where the Gap is so
+interestingly for me as uh you know a
+computer scientist of researcher I write
+a lot of code and most of it is not
+production software right so actually
+for me agents for coding are extremely
+valuable because a lot of my code is
+something that only needs to run once
+because I'm just testing out some
+interesting idea that I had you know is
+this a promising research direction
+right uh and also even in my personal
+life let me give you this example this
+is one of my uh Beautiful Moments uh
+that I had with my kid which was a
+positive use case for AI she's five
+years old I was teaching her to tell
+time and you might be wondering what
+does this have to do with agents and
+coding but it does and that's the crazy
+thing Engineers always make things more
+complex than they need to be well but
+but but but yeah but this this wasn't
+complex and you know it didn't require
+any engineering skills so I drew a bunch
+of clocks for her to teach her how to do
+it and she was really enjoying it but it
+kind of got tiring to keep drawing these
+clocks and uh you know I pulled up Claud
+and said make a random clock generator
+app right and so this is something that
+I call a onetime use app I don't know if
+there's a standard term for it but I
+find myself doing this more and more and
+it produced the app within a minute I
+gave it some modifications that did that
+and then I played with her for 5 or 10
+minutes using this app having it
+generate random clock faces and asking
+her to tell the time uh and she really
+got it you know she learned yeah within
+those 10 minutes and it would have been
+much more annoying for me to have to
+draw 50 different clocks on a piece of
+paper and then I've never used the app
+again right so right before AI it would
+have been crazy to try to you know sit
+down and write an app for this it would
+have taken two hours uh but now I can do
+this with AI and it it's not a
+production software engineering uh
+scenario so it doesn't matter if there
+are bugs Etc but you mentioned
+self-driving cars as an analogy and you
+know early on one of
+the conversation points was always that
+like the corner cases are too vast and
+you know we'll need to constrain the
+infrastructure like you know build lanes
+for self-driving cars or um you know
+that kind of thing have them only
+operate as airport buses or what have
+you I think we we're a little bit beyond
+that uh to some degree but uh I'm
+wondering if there's an
+analogy for agents that um you knows the
+idea a way of like I guess guard rails
+or like constrained environments for
+agents I think in the conversation with
+sash the we talked a little bit about
+[Music]
+um uh the idea of you know just how how
+little how much risk is involved with
+allowing them to actually interact in
+the
+world um and I'm wondering how you see
+that playing out uh safely yeah for sure
+so there's a strong analogy here and uh
+this is actually a big part of our next
+research project building on the AI
+agents that matter paper so we're making
+a bet on what people are calling
+verifiers so the idea here is that if
+you have a coding agent then a set of
+unit tests is a verifier right so you
+have the agent WR code see if it passes
+the unit tests if it doesn't you know
+you can throw it away and start again or
+give it feedback and ask it to debug it
+Etc so uh a verifier is a kind of guard
+rail and uh this relates to uh open AI
+strawberry model as well and other
+things that other uh uh companies are
+working on uh from what I understand the
+way that they have trained um strawberry
+is or you know um A1 preview yeah
+whatever they're calling it is having
+these kinds of domain specific uh
+verifier and then you know using
+reinforcement learning if it didn't
+ultimately lead to a passing score from
+the verifier uh then that's you know
+negative reinforcement that sort of
+thing that's great so this leads to a
+general model that can work well in a
+bunch of reasoning domains but still you
+know it doesn't give you that 99.9%
+reliability so what we're asking is
+instead of a general model if you want
+to make a domain specific if you want
+something only for coding or or if you
+want something only for web navigation
+right so can you build really strong
+strong verifiers that you can be
+confident with you know with 99.9%
+accuracy it's going to be able to tell
+you if the code is correct or if it
+navigated the website correctly and can
+you then use that to build domain
+specific agents that can actually work
+reibly it sounds like verifiers in this
+context is a design time constraint as
+opposed to envisioning some kind of
+runtime constraint you I I would always
+say uh for a long time that you know
+agents is a political problem as opposed
+to a technical problem in the sense of
+like you know for many years uh and to
+this day like companies actively try to
+restrict uh crawlers from accessing
+their websites you know they are
+selective about what they make available
+via apis and to who and there are
+licensing agreements uh and you know
+part of the promise is that you know I
+have this agent and it'll be able to do
+anything that I can do um but you know
+there are legal and uh and other you
+know reasons why we haven't been that in
+other words part of what needs to happen
+is kind of changing the way we think
+about you know machines accessing you
+know systems and I wonder if your
+research has kind of come across that
+idea do do you think that the the kind
+of momentum of AI will make some of
+those changes uh societally or um you
+know we still have these kinds of issues
+there's a case that the momentum will uh
+you know um overcome some of these
+barriers there's also a case to be made
+that it will make things worse because
+you know everybody who's not a big AI
+company is just so terrified right of uh
+AI companies capturing all the value
+basically and every website or app now
+just becoming a sort of backend data
+provider or service provider and I
+wonder if this is one of the reasons why
+AI uh gpt's uh feature uh didn't really
+take off where you know they wanted
+Expedia or whoever else to
+be um essentially you know hooking into
+uh chat GPT so that chat GPT would be a
+universal interface to access all of
+these right so that that you know that's
+um that was an attempt to realize the
+vision you were talking about instead of
+having to build an agent that can
+navigate the web generally you know
+bring the web to the agent right um and
+I don't know it hasn't worked I think
+maybe it's on the user side maybe uh the
+user experience wasn't great or maybe
+it's because they didn't get as many
+providers to play nice with them as they
+wanted and we're seeing that a little
+bit when it comes to uh web crawling
+which as as you mentioned there was a
+study
+recently showing that over the past two
+years the percentage of websites using
+robots. text to stop crawlers from
+accessing them has shot up dramatic Al
+interesting I hadn't heard that yeah
+yeah I think Shane Long pre was the the
+first author yeah so I totally agree
+it's uh you know it's as much economic
+and political as it is technical I think
+for agents to work um we're going to
+have to figure out who's going to
+capture the economic value that they
+create and how to do that in an
+equitable way you know we jump right
+into this conversation as I often do uh
+but defining agent is still an open
+question in many ways when you think
+about agents or agentic behaviors like
+what are all the elements that come to
+mind for you so before I talk about
+those elements let me say for a second
+you know one might ask genuinely you
+know is is this even a meaningful term
+or is it just marketing Tye
+right and I think that's a fair question
+to ask um and but here here's why I mean
+there is a lot of hype around agents but
+here's why I do also think it's it's a
+meaningful term
+unless one thinks that companies are
+going to be able to scale models all the
+way up to Ai and I don't think that's
+going to happen right and and so if
+that's not going to happen then it it
+must inevitably be the case that to take
+these models and to do more useful
+things with them than they can do just
+through zero shot prompting you have to
+build more complex scaffolding and you
+know you can call it whatever you want
+you know it needs some term and I think
+for better or worse uh for these
+compound AI systems as some researchers
+call them which is also a fine term but
+the more well recognized term is Agents
+so I feel it's uh you know it is
+something meaningful so in terms of how
+to define them we looked at a bunch of
+attempts to to Define agents and it
+seems like people have a certain set of
+factors in mind one how complex is the
+environment in which uh the system is
+asked to operate so a chatbot operates
+in a really simple environment compared
+to a web agent or some other kind of
+agent
+and how difficult are the tasks that
+it's asked to do are there you know
+multiple stakeholders whether people or
+other agents is it asked to operate over
+a long time frame so that's one set of
+factors a second set of factors is is
+the user basically babysitting it or is
+the system given certain a certain
+amount of autonomy based on High level
+goals to go off and do things in the way
+that it thinks is the best way to
+accomplish that goal so that's the
+second factor and the third factor is uh
+the design patterns themselves is this
+um you know does it is is it does it go
+just beyond an AI model does it do tool
+use for instance or reflection or
+planning or those types of patterns so I
+think there's no strict binary dividing
+line agent or not agent and I think the
+more factors uh that a system has the
+more agentic it is yeah I think one of
+the the interest in things uh and and
+you know perhaps the central thing in
+the agents that matter paper is this
+idea that you know we can look at agent
+performance uh in different areas of
+capability and you know kind of law
+these agents but unless we look at the
+cost and the efficiency of their
+operations it's kind of meaningless is
+that what you're trying to communicate
+with the with that work that's exactly
+right so many years ago Google's Alpha
+code paper showed that if you can just
+repeatedly sample solutions from a code
+generating agent and then you know you
+had some Oracle maybe unit tests or
+whatever and uh uh that let you as long
+as one of the generated Solutions was
+correct you could somehow pick that
+solution then you could just keep doing
+this and increasing accuracy uh they
+stopped after 1 million attempts but
+even up until 1 million attempts the
+accuracy kept going up right starting
+from a really weak model today's
+standards they could just keep
+increasing the accuracy so if we don't
+measure cost what does it mean to say
+that you have state-of-the-art
+performance right so you could always
+just invoke the model more and more
+times uh you know it's like teaching a
+kid that there is no biggest number
+because it's always that number plus one
+uh so it's just a basic Insight but
+somehow I think uh people were uh not
+willing to admit this because it's just
+very nice to have this abstraction of a
+one-dimensional leaderboard board and
+the minute you say no it's it's at least
+two Dimensions you have to consider cost
+it's not a leaderboard anymore you have
+to talk about what's the best model for
+this cost budget or whatever and it's
+messy to talk about dollar costs right
+when you're trying to figure out uh
+what's the best model uh so what we say
+is no we can you know let's let's plot
+these agents or models or whatever on a
+Paro curve one AIS is the accuracy and
+the other axis is cost and instead of a
+one dimensional leaderboard maybe these
+parader curves are what we should be
+measuring when it comes to benchmarks
+and in the last three months uh this has
+become much more common it's almost
+become the default way to talk about
+performance now and then you know when
+someone wants to look at this to see if
+they want to actually use an agent in a
+particular application they can think
+about what their own cost budget is and
+based on that how to go about things um
+and the other thing we say is if what
+you're trying to do is get the best
+performance per for a particular cost
+budget often the simplest way to do that
+is just to retry until you get it right
+instead of more complex methods like uh
+trying to debug the code and so forth so
+uh don't forget brood force is one of
+the lessons of the paper uh yeah I've
+had that experience personally working
+with uh some of the smaller models like
+Gemini flash for example and uh I don't
+I don't recall if currently they have I
+think they actually they do now have a
+structured output ability but prior to
+that
+it was like you know ask it to give you
+some Jason and try to uh you know
+confirm that you receive Jason and if
+not just keep trying and eventually
+it'll give you
+Jason um and by the way can I can I just
+point out uh my gratification in hearing
+someone else call it Jason instead of
+[Laughter]
+Json I have no idea how consistent I am
+in the way I pronounce that but
+and so
+um as a follow on
+to this idea of kind of cost versus
+performance um one of the things you're
+working on now is some benchmarking
+around agents can you talk a little bit
+about those efforts uh so we're taking
+in taking it in a couple of different
+directions uh one is related
+to can we build agents for some very
+specific mundane Tas ask S that people
+need to do as opposed to you know
+reasoning is uh is very abstract and
+very tempting very sexy a lot of people
+want to work on that but if you've
+solved reasoning it's still a little bit
+unclear what you can actually do with
+that on the other hand let's take some
+you know a real problem that many people
+are struggling with and as
+researchers uh our mind immediately went
+to Scientific reproducibility so this is
+just the idea that when someone puts out
+a paper and code other researchers
+should be able to download that code you
+know set up all the package packages all
+the messy stuff that's necessary run
+that code and verify that it produces
+the same results as are reported in the
+paper so that's you know a basic
+prerequisite for being able to build on
+that paper right and unfortunately it
+turns out that so often this basic
+notion of reproducibility doesn't work
+out it's not because anyone's cheating
+it's very rarely that but it's just that
+you know um it sometimes it just takes
+too long and people get up it's just
+hard to install a bunch of packages
+other times you have a slight difference
+in your library version and because of
+that there are minor differences in the
+code that actually translate to
+substantial differences in the output
+things like this so it's a very subtle
+problem and worldwide you know tens of
+millions of researcher hours are wasted
+on just you know reproducing others code
+so our question was can we automate this
+and so my team got together uh uh Zach
+seagull is the first first author uh and
+uh we've put out this Benchmark called
+core bench it stands for computational
+reproducibility agent Benchmark and so
+we sourced this from actual scientific
+papers uh 90 different papers and this
+is not just about machine learning our
+papers are across computer science
+social science and medicine and what we
+say is okay so here's here's the code
+and we give it to the agent at various
+levels of uh uh chaos if you will
+everything perfectly documented as it
+should be or uh we remove the docker
+file that's supposed to be there to make
+it easy to run the code or you know uh
+various things like that so we simulate
+the way in which researchers very often
+don't do all the things they need to do
+to make it easy for others to reproduce
+the code meaning so for these 90 papers
+you've gotten to the point where they
+should be machine reproducible and then
+insert kind of artificial noise to
+simulate deficiencies
+exactly exactly I mean they should still
+be reproducible you know a person can do
+it because they can figure out what's
+missing and how to fill that in and the
+code is there write the docker files the
+requirement files missing you know
+figure that out yeah okay yeah um and
+this turns out to be surprisingly hard
+for agents because uh I suspect you know
+it's it's hard to pinpoint an exact
+cause I think it's a bunch of things but
+it requires a lot of back and forth
+interaction with the shell so that
+requires very long context agents
+actually uh get confused a lot they
+forget exactly what the state of the
+shell is at any given time and so that's
+one difficulty and then after you run
+the code especially in fields outside
+computer science it turns out the result
+is not necessarily in a nicely formatted
+code output it's in a PDF and so now you
+have to visually inspect the PDF using a
+vision language model in order to
+extract uh what it has actually output
+and these are all you know uh hard for a
+model it's they're easy for humans
+although mundane timec consuming and so
+forth right so that's the kind of task
+this is and this is very different from
+some of the other tasks which are more
+aspirational things like reasoning and
+so two main differences right one is
+it's it's kind of mundane uh as opposed
+to some some Northstar Challenge and the
+other is if you solve this you're
+probably immediately going to save
+people you know tens of millions of
+hours per year so we think this is a
+nice challenge current
+uh agents don't do that well at it not
+well enough to be useful but we can see
+that even with some simple modifications
+to off-the-shelf agents like Auto GPT we
+can push up the accuracy a lot so we do
+think that with uh with with a good
+amount of effort on this we can get it
+to a point where we can largely automate
+the problem of computational
+reproducibility and to be clear it's not
+a problem youve solve it's an open
+Benchmark that you're offering to the
+community to kind of go after uh exactly
+exactly I guess I'm envisioning like one
+possible use is you know when you check
+in your work at a conference this thing
+does an assessment for you um and gives
+you like red yellow green light kind of
+thing um but then if it can do that like
+why not just fix the problems and put
+everything into a standard format like
+how do you see it of being used yeah
+yeah absolutely yeah that's that's the
+first step right so to be able to check
+if things are reprodu able and the next
+immediate step after that exactly is is
+to is to fix things and I think yeah
+once you do the first one the second one
+is not going to be that much harder and
+we hope that this will lead
+to uh the integration of llms into you
+know Packaging Systems and so forth so
+that for a researcher to actually take
+their code and make it reproducible you
+can have a lot of AI assistance for for
+that step as well you asked yourself an
+interesting question then there in kind
+of thinking through you know what makes
+this particular task difficult for
+agents do you have a mental model of
+what agents are good at what agents are
+uh not so good at today and yeah I guess
+uh not a not not one that I can back up
+with a lot of evidence but one uh mental
+model is that stuff that is uh you know
+well represented on the on the web
+obviously agents are going to be better
+at that and I think in in this
+particular case the reason it's hard is
+that it's it's a lot of back and forth
+so that's not so well represented on the
+web you know there's there's a lot of
+shell commands on the web right so if
+it's a if it's a zero shot thing you
+know what's the command for doing this
+in my experience at least playing with
+these models they almost always get it
+right but if you have to take a bunch of
+steps and kind of quote unquote remember
+uh what things look like at each point
+in time then that becomes much harder
+understanding the state of ay file
+system all of that is harder and just
+turn taking I think is hard hard one of
+my favorite examples of this is uh
+anytime a new model comes out I try to
+play tic tac uh rock paper scissors with
+it and I say you go first and it'll say
+you know I I pick paper or whatever and
+I'll be like uh I I pick scissors so
+scissors speeds paper and we do this
+over and over I keep winning every time
+and then I ask the model why am I
+winning every time and I it's just
+amazing that the model doesn't recognize
+that it's because we're not going s
+ously right so I mean despite so much
+smarts in other areas despite you know
+terabytes of data from the web that's
+one thing the model is not going to is
+not able to get this nature of turn
+taking unless it's been specifically
+fine-tuned for that these days models
+are better at that I suspect it's
+because developers have specifically um
+fine tuned them to to understand
+understand this so I think that's one of
+the difficulties of automating a long
+sequence of shell commands yeah how do
+you think we get to models that are
+better able to reason um you know some
+of that quote unquote emerged from you
+know llms training on the internet but
+you we talked a little bit about 01 or
+strawberry and they've taken you know
+clear steps to build the model into more
+of a reasoning engine do you have a
+sense for the you know the trajectory or
+you know what people are thinking about
+or the different you know ways that
+um we're able to like engineer in or
+focus on reasoning capability absolutely
+yeah so I think uh for llm based
+reasoning there are uh three broad
+approaches one is to just keep scaling
+up the models and hope that they
+continue to improve at reasoning and I
+think you know that's uh probably will
+happen if uh if we see bigger models
+they will be better at reasoning uh but
+I don't think scaling is going to
+continue forever and it's not going to
+get us to you know human level reasoning
+uh by any stretch a second way to do it
+is inference time methods and uh in
+particular you know we've talked a
+little bit about these kind of brood
+Force inference time methods of using a
+verifier and then uh trying it over and
+over but we can certainly imagine much
+more complex stuff and broadly we can
+call this neuros symbolic AI so the
+model is the neural part and there's a
+symbolic system whether it's a verifier
+or a more traditional kind of planning
+engine or whatever it is right so you
+try to put a symbolic system and a
+neural system together and see what they
+can accomplish together so for instance
+when we look at benchmarks like uh
+what's the franois Chalet Benchmark The
+Arc AGI so in in Arc uh so his
+hypothesis is that the the best models
+are going to be neuros symbolic so you
+have uh you know you're using an llm as
+as a clever way of doing program
+synthesis for instance but then you have
+to actually take the programs you have
+to run the programs you have to look at
+the output you have to try to verify the
+output so that's a more symbolic part of
+it right so that's the second big
+approach and I think the third approach
+is what we're seeing with strawberry or
+01 which is actually training or
+fine-tuning the models to be better at
+reasoning and so there you're using some
+symbolic system or something else during
+the training process itself uh and I
+think that's that's that's a new
+approach I think this is the first time
+we've really seen that uh and I think
+that's uh what makes it exciting I mean
+these are three of the appro I don't I
+don't mean to say these are the only
+three approaches but these are three
+that are really uh as far as I've seen
+being being pursued a lot and I I think
+all of them are promising and uh so I
+think it's exciting times for for
+reasoning and so do you think of the
+gains of strawberry as being more
+attributable to this fine-tuning than uh
+inference scaling sure yeah has that
+been published or like what do we
+know about the way the way it works when
+I look at um and this could just be an
+artifact that it's displaying like it I
+see Echoes of like an iterative process
+and more like traditional agent
+behaviors like I'm G to try this I'm
+gonna try that I'm G to try that as
+opposed
+to um you know when I think of uh you
+know something that would be you know
+trained or fine-tuned into a model it's
+like a you know a single shot but the
+you know maybe the time to First token
+is longer or the token generation time
+is longer it seems more iterative so I
+think what's exciting about this model
+is that it's it's a true hybrid in the
+sense that yeah it is doing those
+inference time agentic behaviors but
+it's trained to be better at that right
+instead of just traing to be better at
+it zero shot and I've I haven't verified
+it myself but I have seen tweets from
+other credible people comparing it to uh
+what would happen if you took the same
+inference budget it is you know using up
+a lot more token an inference but still
+with that inference budget if you did
+did it with GPT 40 or whatever it's
+really not reaching anywhere close to
+the same level of uh performance on
+benchmarks so I do think that this is
+something new and also I would say that
+the kind of summary that it gives you uh
+people suspect that that's a little bit
+bogus
+yeah yeah UI sugar or something like
+that to yeah yeah probably yeah to to to
+to make people feel like pressing the uh
+the street Crossing button doesn't
+really do it or changing the thermostat
+in an office building like it's just
+there to make you happy
+yeah you know how does all of this kind
+of translate
+to you or with all of this in mind like
+you know recontextualize this idea of
+snake oil and uh what it all means for
+consumers broadly which I I think is
+your target for for that book yeah
+definitely so almost none of what we've
+talked about is snake oil right I mean
+these are you know researchers and
+developers trying at you know very hard
+problems sometimes they fail but you
+know that's that's perfectly okay uh the
+only uh you know little bit dodgy
+product that we discussed is uh some of
+these agent uh Hardware based products
+that promised a lot more than they could
+deliver and again I don't think that was
+because the developers were trying to
+fool anyone just genuinely
+underestimated uh all of the Practical
+difficulties the capability reliability
+Gap and just how hard the user interface
+is because agents are messy enough if
+you're looking at them on a desktop
+computer and you're babysitting them and
+making sure they don't do things they're
+not supposed to do but then if you have
+a very limited voice-based user
+interface uh it's you know a million
+times harder to get the agent to work
+reliably enough I've not been able to
+get uh open ai's advanced voice mode to
+uh come anywhere near the demo
+performance that I
+saw yeah there yeah so you know clearly
+a lot of hype but it's you know it's
+again there's not you know it's it's not
+a completely broken product it's it's
+researchers really trying to solve hard
+problems Etc want to give companies the
+benefit of the doubt here right uh but I
+think there have been claims that are
+much more problematic so let me talk
+about somewhat problematic claims and
+then some really problematic claims so
+when GP before came out you know open AI
+bragged about how well it did on the
+medical licensing exam and the bar exam
+and so forth and you know it's true in a
+very narrow sense it did well on those
+exam questions but I think the way this
+was presented the way it was Amplified
+by the media and others overall it it
+portrayed a a really really wrong
+impression for the public as if these
+models were now capable enough to take
+over a lawyer's job or something like
+that and that as we know now with the
+benefit of hindsight was very very far
+from reality anytime lawyers have tried
+to use these models in non-trivial ways
+I think the results have been pretty
+disastrous like hallucinating entire
+cases and then lawyers getting into
+trouble with the judge for uh submitting
+incorrect information and so on and I
+think you know one reason for that is
+probably contamination on benchmarks a
+more important reason for that is that
+lawyers real jobs look nothing like the
+bar exam right the bar exam is a very
+constrained setting a setting that many
+ways is almost designed to let AI really
+shine and there's a generalization gap
+between what it's being tested on and
+what it needs to do in the real world um
+and you know these are high stakes
+domains erors have a very high cost and
+so forth so I think companies
+unfortunately really freaked people out
+a year and a half ago and you know
+working in the policy area um and on the
+societal impacts of technology I saw the
+extent to which people were panicking
+and uh uh expecting massive and imminent
+job loss and not being sure how to react
+to this so I think that was pretty
+problematic that sort of thing we call
+out in the book but the most problematic
+thing is actually not even in the
+generative AI space it's companies who
+are using the hype around AI to take
+basic regression models that are just
+statistics that we've known how to do
+for a 100 years but then rebranding them
+as Ai and selling them as something far
+more sophisticated than they are so
+quote unquote AI is used in all kinds of
+things in hiring in the criminal justice
+system in various other domains and so
+you know in criminal justice for
+instance what these algorithms might be
+trained to do is look at various
+characteristics of a defendant and
+predict what is the probability that
+they will fail to appear at trial so
+when someone's arrested there's this
+risk assessment right and someone is
+judged to be too
+risky then
+bail May might be denied or set at a
+very high amount or whatever and they
+might be jailed until their trial which
+might be months or years away now just
+going back to the compass work from
+years ago are there uh more contemporary
+examples around criminal justice uh
+other folks trying to do the same thing
+with the same classes of models yeah I
+mean this is this is happening all over
+the place and these models are so brutal
+let me give a couple of examples uh
+there's one by Arnold Ventures called
+Public Safety assessment I mentioned
+this because Arnold Ventures is an
+organization that I respect a lot right
+so these are you know this not a company
+that's trying to fool anyone this is a
+philanthropic organization really trying
+to make the criminal justice system
+better and they've built the model with
+really good intentions and yet you know
+it's just the problem is not that they
+are um that they are you know being
+irresponsible or something like that
+it's just fundamentally that you can't
+predict people's behavior that well and
+so the intrinsic uh the irreducible
+error as we often call them of these
+models is very very high and so you're
+you know you're making decisions about
+someone based on little more than the
+flip of a coin and so that's really
+morally problematic so even the system
+PSA by Arnold Ventures which was
+developed much more responsibly than
+Compass right um but one of the failures
+here was it was calibrated on a national
+data set of defendants but as we can
+imagine crime patterns in various parts
+of the country differ dramatic i al so
+when an investigative reporter looked in
+a particular County for instance in Ohio
+or somewhere I forget where the base
+rate of crime was relatively low the
+model was not accounting for that and
+apparently it was jailing 10 times the
+number of people that uh really should
+have been jailed right so so that's
+obviously very problematic let me give
+you one more example from Healthcare uh
+epic is a health tech company that um
+you know is very ubiquitous yeah exactly
+uh and they built this model back in I
+want to say like 2017 or so and it was
+for predicting which hospitalized
+patients might develop sepsis and sepsis
+is deadly and early detection really
+saves lives again this is very
+well-intentioned nothing wrong with
+trying to detect sepsis but they claimed
+it had a uh an accuracy in the sense of
+au of between 76 and 83 so that's that
+you know that's pretty high um and so on
+the basis of this it was deployed in
+hundreds of hospitals but it's a
+proprietary system so the doctors or the
+you know the it teams in the hospitals
+couldn't examine these systems really
+and it was only much later that uh
+external doctors were able to publish a
+validation of the system and it turned
+out the accuracy was in facts much much
+lower in AU of 63 and 0.5 is random
+right so this is only slightly better
+than random and it turns out what had
+happened was a classic error call
+leakage again this is not epic trying to
+fool people but more fooling themselves
+uh one of the features one of the
+variables that was part of their set of
+predictors was whether the patient had
+been prescribed antibiotics by the
+clinician for treating sepsis right so
+the model is making the prediction once
+it's no longer useless and you know they
+had not even uh recognized this and once
+we realize that the achievable accuracy
+here is pretty low it's questionable
+whether we should be using this kind of
+system at all and in fact this blew up
+on Epic and they had to stop selling
+this one- siiz fits all system and now
+they're just saying you know here's our
+model GO train it on your own hospitals
+data set and I think that's the more
+responsible way to do it because every
+patient population is going to be so
+different and there's going to be
+distribution shift between those and so
+these plug-and-play AI systems don't
+really work in these high stakes domains
+um and so uh those are the uh kind of
+more dangerous applications of AI that
+we call out of the book and so from the
+perspective of advising policy makers
+like how do
+you how do you present that perspective
+to them one of the things that you know
+we we hear about talk about frequently
+is
+that Tech has gotten so far ahead of
+policy makers like they don't have they
+have no way of really comprehending
+what's happening like you're close to
+them like what do you see happening in
+the policy domain yeah definitely so
+yeah Tech does move very fast and um you
+know politicians are not uh
+technologists I think there is a
+criminal of Truth to that but then going
+from there to saying Tech policy is
+completely hopeless I think that's a
+very big leap and involves I think a
+series of misconceptions so I think the
+first thing to note is that the
+politicians that we see on TV those are
+not the ones you know making policy
+right at the level of the the details of
+the legislation they might set
+priorities they might say oh you know uh
+everybody's concerned about um AI
+failures and Healthcare so we better do
+something about it right but then it's
+up to up to the staffers uh and others
+to really turn that into legislation but
+then again it's up to the enforcement
+agencies which are a whole different uh
+set of entities for actually uh putting
+that into practice right so if there's
+uh medical you know AI legislation then
+the FDA will be tasked with specific rul
+making and yeah there's a whole
+complicated process right so there is
+technical expertise in many parts of
+this system maybe you could argue that
+it's not enough but it doesn't have to
+be that Senators need to be Tech experts
+that's not the problem right um if
+anything you know it's more things like
+some of these agencies being
+underresourced and not having enough
+budgets to do their jobs and that sort
+of thing so that's one aspect the other
+aspect of this is that regulation is not
+about the details of the latest models
+it's not you know the regulation is not
+saying um you know what what should your
+uh metrics be for you know for for a GPD
+4 that's not it's not how regulation
+operates right it's in fact usually it's
+not about the technology itself it's
+about human behavior around the
+technology right you shouldn't use it
+for in a discriminatory way and that
+sort of thing and so in that sense
+regulation doesn't have to even make any
+reference to the internals of the models
+and so it's you know it's it's it's not
+as hard as as people think uh so I think
+if um if there is political will if if
+uh if agencies were well resourced um
+and and uh uh and Congress were less
+dysfunctional I think we could be doing
+a much better job of these things Tech
+moving fast is I think a little bit of a
+problem but it's not by any means the
+the biggest problem with with
+policy and so how do you see policy
+evolving currently what are the the
+priorities and where are folks really
+digging in try to figure things out yeah
+so a big part of the priority right now
+is just enforcement so enforcing
+long-existing laws right so the FTC for
+instance I think it was just last week
+came out with a sweep of cases against
+AI companies for
+misrepresentation so we were talking a
+minute ago about uh AI replacing lawyers
+and uh there was there is this company
+do not pay that has been making those
+claims that they've built a robot lawyer
+and you know they've wasn't that a kid
+in in the UK or something that is that
+am I thinking of the same thing um I I I
+think um I don't know no I think it was
+a Stanford student who started it they
+definitely operate in the US um one of
+their publicity stunts was saying they
+would pay a million dollars to any
+attorney who went and argued a case in
+front of the Supreme Court by having
+this robot lawyer talk to them in their
+earpiece which you you know they're
+bullshitting because that's first of all
+illegal electronic devices are not even
+allowed in the Supreme
+Court right anyway and of course they
+didn't have a robot lawyer um and so the
+FTC went after them and a bunch of other
+companies for making false claims about
+their AI products right so so while the
+actual action here was about AI
+companies the ftc's authority to police
+these kinds of uh false claims in the
+marketplace is you know 100 years old
+right and so that's one thing people
+Miss there so much we can and should be
+doing even without new legislation uh
+and yes in some cases new leg ation is
+needed and I think uh there's two
+aspects to that one is around the
+specific behaviors that we want to
+prohibit so for instance using image
+generators to create non-consensual
+nudes I think that's been a really huge
+problem it's affected you know hundreds
+of thousands of primarily women around
+the world lots of teens we've been
+hearing so many cases of this in high
+schools so yeah so on those specific
+problems uh Regulators need to be taking
+legislators need to be taking action uh
+but then there's like the big question
+of what to do about um what to do about
+the the the industry big problems like
+copyright which you know don't have a
+simple solution in terms of prohibiting
+a specific action what to do about the
+danger of catastrophic risks those are
+the areas where there are kind of bitter
+fights going on and I certainly have my
+perspectives on that but uh definitely a
+lot more debate is needed before we can
+get to Clarity on those types of
+questions mhm and I guess on that point
+and your perspectives on that um I'm
+inferring from the AI risks work that
+you feel like a lot of that is overblown
+at least from the perspective of llms
+teaching people how to make chemical
+weapons and you know those ideas that
+were thrown around that you uh I guess I
+I kind of took the that paper as kind of
+a takedown of of shallow thinking there
+one of the things we recognized in
+pushing back against hype in terms of
+capabilities is that a lot of that also
+applies to the risks that people are
+alarmed about we've been pushing back
+against those uh certainly you know
+researchers should be studying the risks
+and I'm glad that there is a very
+vibrant Safety Research Community um but
+I do think policy should still be
+evidence-based it should for the most
+part focus on known risks and certainly
+we need to be uh making preparations to
+deal with you know more catastrophic
+risks if we have uh at least even
+circumstantial evidence to think that
+these are these are more realistic so
+things we could be doing now are things
+like insisting on much more transparency
+from Big tech companies who might know
+more on the inside about the potential
+for those risks than we might on the
+outside so I think instead of doing that
+you know trying to legislate against
+risks that currently are in the realm of
+Science Fiction might become reality but
+really depends on models behaving in a
+very different way than they do today I
+think the the potential for going really
+really wrong with that and uh you know
+curbing AI development for little
+benefit and not even necessarily
+improving safety I think that risk is
+too great so while I do support action
+on AI safety I think that action has to
+start with collecting a lot more
+evidence than we have now do you believe
+AI poses catastrophic risk and sounds
+like no um but then like what are the
+ways that you kind of taxonomize that
+risk there are many ways to taxonomize
+it but from a policy perspective you can
+broadly think of two kinds of risks one
+is let's say you know AI That's used uh
+to discriminate against people or
+something like that right so that you
+know I would say is not a catastrophic
+risk it it might be catastrophic to a
+person who is affected for sure not
+minimizing that in any way but from a
+policy-making perspective we have a very
+strong presumption that we don't act
+unless we think those risks are real as
+opposed to someone describing in a paper
+hey look this might happen sometime in
+the future right so that's not a
+catastrophic risk on the other hand
+something that clearly would be
+catastrophic is um an adversary taking
+over critical infrastructure and the
+reason that's catastrophic is that it's
+not the kind of thing we can necessarily
+easily recover from so it requires
+action even before such risks have
+materialized it requires an application
+of the precaution Ary principle right
+and U you know in in the US at least
+we're generally very very cautious we
+don't rush into the application of the
+precautionary principle because we
+recognize that
+premature uh regulation also has a lot
+of downsides different countries or
+regions of the world might have
+different approaches but I think in
+keeping with our approach uh before we
+can say this risk is so catastrophic
+that we can't recover from it you know
+bioterror or or um pandemics uh and so
+forth that could be aided by AI that we
+should put limits on people's
+freedom uh because we're worried that
+this might potentially happen in the
+future based on models behaving very
+differently than we do today to me
+that's a bridge too far I think you know
+let's let's uh let's gather more
+evidence on that awesome well Arvin
+thanks so much for taking some time to
+share a bit about your research and what
+you've been working on very great stuff
+thank you Sam this has been really fun
+thank you

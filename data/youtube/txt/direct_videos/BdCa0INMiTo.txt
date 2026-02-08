@@ -1,0 +1,988 @@
+Welcome to another episode of Legal for
+Tech the podcast. So guys, you do
+recognize my voice now. It is always
+Rosie here. And as I've said many, many
+times, this is just a group of students
+and young professionals who are very
+interested in technology and yes, it's
+regulation. So today I am joined by the
+non-boss boss Jagar. Hi Jagar.
+Hello Rosie. Nice to see you again.
+Nice to see you because today is a very
+special day because we never get a
+second chance in life. I think this is a
+a very important um thing to live on.
+But we did get a second chance today. We
+got a second chance to talk to our great
+friend Isabelle Baba. Hello Isabelle.
+Hi.
+It's so great to see you and I'm sorry
+for the um problems that we've had in
+recording this interview. It's a
+pleasure to have you here again. Our
+listeners don't know it, but this one is
+going to be even better than the first
+one. I can assure you. So, I guess our
+listeners will know your name already,
+but I would like for you to tell them
+who you are and of course what you've
+been doing so far and how you know you
+imagine this amazing path for your life
+that led you to this incredible
+new position, I'm told.
+Yeah. Well, that is will be from
+tomorrow. So not not yet. So maybe for
+the ones that don't know from I I will
+start tomorrow working by the by the
+Dutch AI supervisor, the Dutch DPA and
+yeah it has been a really long journey
+uh especially because for the last 10
+years I've been
+yeah as an entrepreneur. So I had my my
+own company. Um and you asked about the
+journey. Yeah, I think in if I
+understand most of you have kind of a
+legal background and and that's um
+that's not my case. Well, after many
+years I I decided to to study an LLM in
+the Ital technology. But uh but the
+thing is that I studied many many years
+ago uh linguistics and computational
+linguistics and that is kind of a mix
+technical but it's not like a super
+technical study. So I think with that
+you can already see that that I I loved
+both sides not only the the technology
+side. Um and from there I I I move into
+more technical fields and especially
+software development a lot of cyber
+security um privacy privacy engineering
+and later with the years I I decided to
+to study low and and I think it has come
+a bit I'm a really curious person so I
+think that the cyber security part and
+know how technology works is has been
+yeah for me for me like the foundation
+of of my career but H but I'm also
+really um yeah a person that I give a
+lot of importance to the protection of
+vulnerable people. I have al children I
+have a family for me it's it's something
+really important. So just to summarize I
+would say that given the importance that
+I give to in general fundamental rights
+it made for me really sense to yeah to
+kind of broaden the my my scope and not
+focusing only on technology but looking
+further than that of course it's also
+something that I've seen often in my own
+work that I always like to take care of
+much more like I don't know we are doing
+a data migration but can we really do
+this and are we doing it properly and is
+people informed I don't know always busy
+with all these concepts. So, so I think
+for me was a was a natural way of moving
+into that direction.
+Yeah, I've been involved in the field of
+AI also really long. Um,
+yeah, I think already when I was working
+I mentioned before I've been I have my
+own company for 10 years but before that
+I work also 10 years for IBM. So already
+there we have uh these big data projects
+and data later when I was
+entrepreneur I I also was involved in a
+lot of these projects some of them quite
+sensitive and like that yeah for me has
+been just a normal transition I must say
+what I what I like of the field of AI is
+that it never stops mean I think you
+have you see also now with also from the
+legal side there's always something new
+happening and that for somebody like me
+that that I like learning so much and
+I'm so curious is it's fascinating. So
+especially
+I know from the legal side a lot of
+things happen but from the technical
+side it's especially the side that I get
+more fascinated reading the different
+papers and all the things that uh that
+appear. So don't know if with that more
+or less I put you in track of of my
+background.
+Let's start from something that we have
+seen everywhere on LinkedIn.
+uh the report that was published in
+April for the ADPB entitled AI privacy
+risk and mitigation of large language
+models. Can you talk a little bit about
+it and try to explain to us what is
+about?
+Yeah, in fact this um um this is a
+report from the from the European Data
+Protection Board like you mentioned. Um
+it was an assignment from the Croatian
+DPA. So I don't know for the ones of you
+that don't know
+I mean I I I've been and I say I've been
+because now in my new role I that's not
+something I will be doing anymore but as
+part of the of the of the pool of uh
+support pool of experts for from the
+EDPB.
+Uh you can get assignments from
+different DPAs. uh and this was uh one
+of the assignments that that I had to do
+and it came in fact in a really good
+time because uh I still remember I was
+um at that time I one of the days I got
+a bit frustrated I don't know some
+comments I saw in LinkedIn and and and
+especially from
+a legal perspective that I think oh but
+we need to really understand how the
+technology works yeah because if we
+don't understand that we we really
+cannot uh give proper advice or really
+interpret the the regulation in then to
+have to find the alignment between their
+interpretation of regulation and how the
+technology works. So,
+so after that frustration, I still
+remember because was the day before that
+I was bit angry commented to somebody
+and then the next day I got this uh this
+this excitement that this is really the
+the right moment the opportunity to to
+to make clear uh yeah how how things how
+things are are are working from a
+especially from a risk perspective. Um
+so yeah this document um I mean the
+assignment was to um especially to focus
+the document on on how uh developers and
+users of uh LLMs
+um can identify risks, how how can they
+uh
+implement risk management and again
+privacy risk management and um and how
+can they mitigate um most of these risks
+and And again there's no answer to
+everything because these are really
+emerging technology. So things keep
+changing. Uh but lots of risks and non
+mitigation measures uh uh was my
+intention to to add to this uh report.
+And so as you can see and it's also
+mentioned in the beginning it's it's
+mostly uh though it's a privacy risk
+management but it's not uh a guidance to
+how to uh perform a DPIA article 35 but
+it's mostly focus on article 32 and and
+security measures and and and and then
+it goes into the whole um uh yeah
+process of risk management and
+eventually the main goal is how to apply
+that or use that as a support of a DPI
+DPIA process just to put it like that.
+So it has to be clear that this this
+report is not uh pretending to be a
+substitution of a of a DPIA but more of
+the process that eventually you need to
+go through to identify uh um most of
+them technical risks though in the
+report you see that there's also other
+other type of risks but it's mostly ones
+related to article 32 from the GDPR and
+when I did this report I also tried to
+align it with the AI act and uh and also
+of all the work that we are doing at
+standardization.
+uh I didn't mention it during the
+introduction but I am I'm also
+contributing I'm one of the contributors
+uh to the um to the European uh AI
+standardization especially the one of
+risk management and and cyber security
+and and of course I mean part of the
+work we do there is still confidential
+until it will make be made public but uh
+but I've tried to align with the with
+the work we do there in risk management
+so that for organizations is not such a
+big um gap between the different
+processes. So
+basically the document describes um a
+whole process of risk management. I also
+introduce the concept of threat modeling
+and I know in the legal field is a bit
+like what is that? It sounds always like
+thread modeling is nothing super
+technical and it's true that we use it a
+lot in security but uh but in in in
+privacy uh it's something that for
+already many years had been already
+introduced by the framework Lindum that
+I did myself later also with my
+framework plot AI and it's simply a way
+of considering what can go wrong and and
+a way to implement privacy by design. So
+by doing this in the different life uh
+cycle uh phases of the development of a
+of a system it helps you to to better um
+think and become more aware of the
+different things that that can go wrong
+during that phase. So, so yeah, I was in
+that sense really happy that I had the
+opportunity to to bring to everybody the
+understanding of what is really threat
+modeling, how can you do it in a
+different phases, how can you identify
+the different risks, the importance of
+of of of looking into the context of
+this technology of looking into um also
+stakeholder analysis which who could be
+harmed by the technology, who could be
+the the users do a bit more um deep
+analysis of these steps that is
+something that I don't see happening in
+practice but are really important points
+to later understand the different um
+risks that could arise with the
+technology and um yeah basically um that
+was it and I'm I was a bit overwhelmed
+with all the the feedback I got with the
+report from all different fields in
+especially of engineering fields
+and and it's It's yeah overwhelming.
+Everybody really happy with it. I'm
+happy that I think I managed to make it
+a comprehensive and practical guidance.
+And speaking of reports that made a lot
+of people happy because that's also been
+going along uh and a lot on LinkedIn is
+another report that you also offered um
+together with um your colleague and this
+was published a bit um more recently. So
+it's it was published at the beginning
+of June and it was a report similar in
+terms of content because it was still
+about the um idea of LM risks but this
+time of course the focus was different
+because um it was um kind of uh
+committed by a different agency and we
+are talking in this time um from like it
+was um asked uh from the council of
+Europe. So, we're talking firstly about
+the ADPB and the European Union. Now,
+we're talking about the Council of
+Europe. Um, did you find the same kind
+of um
+um materials for the second report? Did
+you use the same approach? What did you
+focus on? What were the differences? And
+I mean, did you enjoy writing the second
+one as much as you enjoyed writing the
+first one then?
+Yeah, absolutely. And the nice thing of
+the second one is that I didn't do it
+alone, but I have my colleague Mariela
+Fab. So, we are both as experts working
+for the Council of Europe for this
+specific assignment. And that is also
+nice because uh yeah, I'm a bit of a
+nerd. So, I I also like to work alone
+and and do my analysis. But um but for
+instance, I must also say that for the
+work of the EDPB, one of the things I
+agreed that I I I needed to do to have
+conversations and talk with also other
+experts. say I mean I don't want to
+pretend myself here I'm the expert in
+everything. It's true that I have a
+really mixed background uh but uh that
+that doesn't mean I I know everything
+and I really don't advise to anybody to
+pretend to be the expert in everything.
+It's really in really nice to talk to
+different people and learn from
+different people and that is something
+that I that of course I also did for my
+ADPB uh report. uh but here for the
+Council of Europe the nice is that we
+were the two experts uh contractors for
+this assignment. So so that's nice to
+work together and look at the uh the two
+different perspectives. Um
+it is true that some things uh from the
+EDBB report are used uh in the Council
+of Europe uh Europe report um but the
+different uh um yeah approaches. So
+while the EDB report was meant to be a a
+proper guidance and that was it uh in
+the council of Europe or what has been
+released until now because everything is
+published on the website but has not
+been endorsed yet. It will be endorsed
+in a couple of weeks when the really
+really final version will be uh
+published. Um this is more a proposal
+for the creation of guidance uh of
+guidance uh for organizations uh
+providers, deployers
+um
+to understand how to do risk management
+uh when developing LLM models but also
+systems and and specifically focusing on
+uh convention 108 plus uh principles. So
+that is also important because it's not
+the same uh the EDPB like I mentioned
+before article 32 a support for article
+35 and here we are focusing on really
+convention 100 plus uh principles. Um so
+what we try to um to demonstrate in our
+in our proposal is that um by um based
+on scientific background information
+that it is eventually necessary you have
+some guidance on uh on NLM risk
+management. So that's why in the report
+of course you see some similarities with
+the EDPB report because the this the
+foundation of the technology uh of of of
+data itself how data is represented in
+in in models uh the different threats
+that arise and then of course it's much
+limited in the in this proposal of the
+council of Europe because because it's
+it's a proposal of course it's not a
+complete guidance
+and uh and and and we um We aim um to
+create a guidelines uh where where this
+risk management framework is based on on
+the different phases of the of the life
+cycle and making um really the important
+distinction between an LLM model and LM
+system because they're uh often
+developed in a different way parallel
+processes or not and by just for just
+define our our proposal what we did also
+was interview uh different stakeholders
+and Um it's a bit I cannot mention all
+the different stakeholders we mentioned
+because some of them uh they wanted to
+be uh anonymous and others didn't have
+the approval yet from management to be
+mentioned but uh I can say that we talk
+from all type of institutions like it is
+in the report from big uh tech to
+startups uh to researchers to regulators
+and that um brought us a really good
+overview I didn't this is in report as
+you can see there of of where the
+problematic is and and it's a the common
+um understanding was that yes with some
+guidance specific for privacy risk
+management will really really much more
+welcome. So uh Muriel and I had the uh
+the pleasure to to present this report
+uh the 17th of June in Strasburg
+uh to the committee of convention 108
+and uh and after that the result of the
+presentation uh was that yeah that it
+was um voted that that some guidelines
+will uh uh will be built
+and that will be the next steps. So ask
+you know what is going to keep happening
+there. So we will keep researching and
+uh we are going to keep interviewing
+some other stakeholders and eventually
+what we want is also to to pilot to be
+able to to do some test uh to see kind
+of a trial and and error to see uh based
+on the frameworks that are there and
+specifically uh like I mentioned before
+that some information from the ADPV
+report is taken as a as a baseline. So
+the framework in risk management that is
+there h that is a really important
+foundation in in this uh council of
+Europe report and um and and those are
+the yeah kind of tools that we want to
+uh start u testing and see what works
+what doesn't work and give eventually
+come with a guidelines that is uh quite
+practical because now you see I mean
+risk management might doesn't look so
+different for if you look at different
+frameworks works but um but for for LLM
+uh based on the different benchmarks
+evaluation methods and the way it's
+developed especially the the the
+experimentation phase uh that makes it
+really complicated especially to be able
+to comply with the the principles of uh
+of the convention as well as just with
+any privacy uh
+regulation uh requirements.
+Yeah,
+since I'm working in the privacy field,
+I will be curious to know better what is
+the relationship with article 32 and 35
+in the privacy risk management.
+Could you better explain how these two
+articles are related to the LLM's risk
+management?
+Yeah, of course. If you look at article
+32, you are focus focusing on on on
+security uh risks. Uh and if if you look
+at article 35, we're talking about the
+requirement for performance of the data
+protection impact assessment as an an
+impact assessment doesn't look only at
+uh security uh requirements. And that is
+in fact something it's a it's a nice
+question this that you ask because it's
+something we also saw in our
+stakeholders interviews on the the
+council of Europe project that there are
+many organizations that u kind of
+mistake both so they think well by
+applying security measures I I'm done so
+it's already data protection right so I
+don't have to worry anymore about that
+um but but it's is it's not sufficient
+so of course it's necessary and and I
+will even say essential to to look at at
+security risks. H but privacy goes
+beyond uh security and um and apart from
+that article you mentioned about the
+difference with article 35. Um when you
+perform that data privacy impact
+assessments you have other requirements
+right. So looking at risks is only one
+part of it. H eventually you have to do
+the whole impact assessment. You also
+question yourself other other matters
+like the lawfulness. You you eventually
+will go through article four, five, six
+eventually the to do your whole process
+of the pre impact assessment and give
+answer to that and and looking at for
+instance the requirements of security
+will only be necessary if you know well
+basically you passed the test in the
+first phase you know the article. So uh
+so yeah it's an it's important but then
+is it I would say it's only related to
+the phase where you are you are really
+identifying uh risks and then you go
+into the phase of uh of doing your risk
+assessment and mitigating your risks but
+it doesn't cover the whole process of uh
+DPIA and uh and absolutely not the the
+the obligation to perform a DPIA based
+on the different criteria from the GPR
+from the DBP. So that's that's another
+story that of course has to be taken in
+account. So like I say this this
+complement so article 32 complement
+article 35 and that will be the also the
+purpose of this document from the ADPB
+talking about that document.
+Talking about risks of course you've
+encountered a variety of risks in both
+uh type of um reports. Which ones do you
+think are most um kind of urgent to
+solve and how would you suggest that
+specific problems for example specific
+risks um that are linked to the
+processing of personal data by LMS
+should be targeted and how most
+importantly
+yeah I wish I will have answer for
+everything
+but uh
+if I think um of course a lot of
+different things can go wrong and and
+and especially from the side of security
+we see the how things are getting
+basically every week you see new new
+attacks or new things new issues
+happening but um
+um
+one of the things I see and and that
+brings me also to the to the
+yeah to the fact that that that we need
+to look beyond an LLM model um and look
+at the infrastructure where where this
+model is embedded
+um is the fact of how I would say this
+to understanding where our our data is
+going. So that is why in the EDP report
+I give a lot of importance to the data
+flow and to understand where the data
+goes because I see that that is one of
+the issues we have now. So looking um
+only at data protection that sometimes
+it's even hard for me because when I
+work in the field of AI risk I don't
+look only into privacy or security I
+look much more beyond that and other
+type of of of risks
+but when we focus only on on on privacy
+and data protection uh I would say that
+that understanding where your data is
+going uh it's one of the most important
+because that that brings a lot of
+different other risks.
+from having your queries uh your
+conversations stored in a database that
+is not properly protected
+um understanding that very often there's
+different layers built in a in in an LLM
+system because
+your queries need to be your input needs
+to be also analyzed
+um as well as the output could be also
+analyzed for for instance for harmful uh
+content um and then any other filter
+that you want to implement and there. So
+those are um a lot of measures that are
+used at this time to to prevent uh
+safeguard to prevent other type of risks
+and um and then by understanding how the
+system works is that really helps you oh
+yeah better have an and and and deny
+things that can go wrong there and also
+what to require especially if you are
+using a third party application they
+should comply with this or with that.
+So, so those are uh important things to
+understand from a disputation
+perspective.
+Um, other risks uh of course now we talk
+a lot about deep fakes that
+I think it has been now in the news that
+that Denmark wanted to give copyright
+rights to everybody to protect for their
+own deep fakes. Well, I think
+that won't probably protect people from
+appear there at this moment unless
+enforcement gets really serious. But um
+but yeah, of course that is one of the
+issues that uh that that we have at this
+moment with this uh technology and uh
+and mitigations. Yeah, I wish I would
+have had mitigations for all of this.
+It's not like deep fakes is not a matter
+only of water marking. I think uh I like
+always to relate this to the fact that
+uh that we need education uh not only we
+talk about AI literacy but it's not only
+about learning how technology works but
+but also about how technology affects
+you and affects others. I always say if
+you are able to to feel how it could
+harm you, it will mainly help you to
+avoid to harm others, right? Because you
+you know what the how does it feel. Um
+so I I like like if I'm with children of
+teenagers talking about this using some
+role playing
+uh this kind of games help to to to
+realize of what happens if this will
+happen to me. But um but yeah, I think
+raising awareness um is one of the best
+things uh to do and increasing
+enforcement of course and technically we
+are we are still not there
+unfortunately. So there's no solutions
+for everything of course like I said
+with the other issue of of of
+data understanding where my data is what
+is happening if it's reused for training
+if it's not properly stored. I mean
+those are also standard security issues
+that you might have with any vendor and
+you need to ask properly and and and
+with some of them yeah you sometimes you
+it's a matter of trust you need to to
+some organizations that's also the thing
+if you're dealing with a big
+organization they might have different
+certificates to demonstrate that okay
+they are doing everything properly
+uh according to c certain audits this
+and that but um you could I don't know
+ask pentest and and different
+requirements you might uh ask in your
+organization. But considering that in a
+lot of these organizations
+providers that we are dealing now with
+are smaller companies that is what
+become more tricky. Uh and in that sense
+yeah I'm I'm I'm not so fan of um like
+being in the beginning really strict
+with organizations and don't know well
+but we're giving a lot of guidance. So I
+think uh these organizations need to
+understand what are the steps how you
+develop properly and and and an
+application how do you protect the data
+how do you yeah take care of the data of
+your of your users and um
+yeah I hope with guidance like the one
+of the EVB can be helpful of course for
+some of these organizations.
+Yeah.
+Um in terms of as you talked about
+organizations and like the different
+steps and the different um kind of
+number of um um let's say risk areas
+that there are within a single
+organization
+if you had to suggest where at which
+point of the use of LM it's best to
+target the risks where would you place
+this targeting because we know that like
+many LMs are built by for example big
+American companies it they may be very
+far away from the end purpose of the LLM
+and that's that can create a problem in
+accountability so where would you place
+the risk management where is it best to
+target the risk
+yeah in fact
+um one of the of the things I advocate
+for is this the life cycle approach in
+risk management so that will mean that
+every different phase uh of the life
+cycle you will need to apply risk
+management. Um but of course it depends
+on the type of organization you are. So
+like like you well mentioned if you are
+an LLM model provider and though still
+on the some regulations like with a act
+you you are supposed to understand where
+are the intended purposes of your system
+and and also misuse uh scenarios. So
+that means that for you as provider you
+will still need to yeah threat model the
+different scenarios
+and and and of use and
+but then again your development life
+cycle or your the life cycle of your AIS
+is is is maybe shorter especially if
+you're just deploying a model and you
+feel that you don't don't embed it in a
+in a system. Um so it it depends at
+which point in the life cycle of an AI
+system you are kind of acquiring that uh
+that system to put it like that if you
+are like the beginner from the inception
+phase until the end uh you will need to
+do risk management in in any case in in
+in every phase of it. So um you ask at
+which point is more important. Uh I
+think one of the most important points
+is inception phase. So it's really the
+beginning the beginning when you will
+even ask yourself do we really even need
+this application because um and going
+from the idea that it's not only the the
+the provider of an LLM system but let's
+let's go from the idea of a deployer
+that that's what we see now more more
+nowadays organizations that just want to
+use an LLM system uh or or build their
+own chatbot using an offtheshelf uh LLM
+to but the inception phase the the
+moment when you just uh you ask yourself
+and not only yourself as the talking
+about the engineer or just the technical
+team but as organization
+I mean usually uh depends on the
+organizations but there's like product
+owners business owners I mean there's
+different people in organization taking
+this type of decisions uh but I always
+advise to to have a a broad and diverse
+uh um meeting and and and and and and
+especially in the beginning phase uh
+when you wonder yourself what what what
+things could go wrong the here and is it
+really a good idea and what are the even
+the the the effects that we that this
+implementation could bring to ush I mean
+I've seen cases where
+the idea of implementing certain
+technology could could bring some extra
+lot of work and that you couldn't cope
+with because you didn't have those
+resources. So and and then you don't
+think about that uh until it happens. So
+it's uh it's important to to think is
+this something we we we really need what
+what is the benefits we're going to have
+of it and then thinking about all these
+like I said sort of threat modeling
+thinking of of the different things that
+could go wrong. I know for LLM uh
+providers um for many I've talked it's a
+in fact a really important phase too to
+looking at the inception phase and and
+and thinking of the things that can go
+wrong but what I see al also in practice
+is that after that it's like the
+questioning of what can go wrong and the
+different risks doesn't happen until
+basically the product is is there so so
+and that's what I advocate for in my in
+my guidance
+It's it's it's much better uh to do it
+at every phase your phase I mean because
+every organization has different phases
+doesn't have to be the ones from the ISO
+those are those are users reference you
+might have the three phases or phases no
+matter how in general we understand each
+other when we see the phases from ISO we
+understand okay I call it in this way
+but it's is basically the same if I call
+it data preparation or I call it data
+whatever It's it's it's we understand
+each other but it's important that at
+the different phases you question
+yourself those things. Now again this is
+not only a matter of questioning
+yourself what can go wrong. A lot of
+organizations um they have a pipeline
+implemented where already different
+processes are are are being u observed
+and and solved. And so it's important to
+also mention that this is not only a
+question of sitting and discussing that
+a lot of things are automated and
+there's a lot of tools and and ways to
+to do this. Not everything can be
+automated but a a lot of it just so it's
+just a matter of being aware of all the
+the risks that could arise and and
+sometimes implementing the right tools
+or open source tools is also allowed and
+uh and yeah I think um don't know if
+that answer your question but hope
+yes that was a great answer and and it
+really highlighted um I think the
+difference in how AI is perceived in a
+way how LLM Um, so I perceived as being
+a hype, something that everyone needs by
+definition and the practicalities and
+kind of importance of understanding the
+costs and benefits of having them and
+and implementing them and and some of
+the costs uh do um have privacy and data
+protection as as um main title in a way.
+So it is very important. Um how I think
+it it was a great way to to frame the
+answer. Uh if if I may. Um
+our last question is kind of like always
+the same for all of our guests and it is
+basically trying to look at what
+suggestions they could give us in terms
+of podcast, books, uh publications,
+readings that may help them understand
+this topic better. But our listeners
+already have two records to read. They
+have been published and produced by you.
+So my last question is going to be a
+tiny tiny bit different which is given
+that they have to read the reports as we
+have and and I really know they will
+enjoy them as much as we have. What kind
+of future do you see this um reporting
+um trajectory having? What would you
+like to research on next?
+That's a really good question.
+Well, of course, my my work with for the
+Council of Europe will continue. So, I
+will continue with the with Muriela um
+researching on privacy risks and and
+like I said before interviewing ST
+stakeholders trying to pilot framework.
+Um
+but yeah, besides that, um I'm I'm I'm
+myself doing some other type of research
+too. So I'm I'm I'm finalizing that it's
+also mentioned in the ADBB report by the
+way one of
+one of my frameworks that I call FRAP
+that is a framework on it says severity
+and uh and probability assessment of uh
+inferences of fundamental rights. So
+what I did was create a criteria for
+this assessment so that it is a bit less
+uh kind of subjective and that based on
+some other research uh that is there is
+I'm I'm sort of finalized in this
+framework. So that will be also soon
+published uh because uh yeah what I used
+for the ADPB report was part of my
+research but like the paper is not
+published yet. Um
+yeah another thing I keep uh um doing
+research uh is risk in general AI risks
+and and for that I think if you look
+into my plot for AI framework
+u so I don't know if you put links there
+is plot for.ai AI uh but this is a
+threat modeling library of risks that I
+published well in fact in the beginning
+in 2022 uh after three years of research
+and piloted also in in in
+an organization in in the Netherlands in
+fact in in one of the tax office. So
+that was a really good place to to test
+it probably to start with and um and now
+in 2025 in fact uh when was that again?
+I think end of beginning of June I don't
+even know anymore. I've been so busy the
+last weeks but I I published a new
+update and so it's like that the version
+two has been released and and it has
+increased a lot. So it it it's a so for
+just for your for your listeners to
+understand what is a plot of AI it's a
+library of of risks of AI and it's a
+taxonomy so maybe some of you also know
+the one of of the MIT uh of the
+Massachusett
+AI risks um
+that one is
+it contains I don't know something risks
+and and and
+is
+yeah it has been more based on on a lot
+of research. So if you if you look at
+that that it's a more of a kind of
+academic uh way to of looking at risks
+that's more the way to say it. So some
+of the risks are really similar and they
+need um yeah eventually I know the goal
+is there are working on to making it a
+bit more practical and that will be in
+that sense the difference with plot for
+uh of course plot for is older because
+like I said I published it in 2022 and
+it contains at that time 86 uh different
+risks or sources of of risks and um and
+I classified in eight different
+categories every risks and and now in
+the new update uh there's uh 138 risks
+and uh still the eight categories but
+they have been also updated. So so you
+have risk related to of course cyber
+security and also data privacy and data
+protection but also uh ethics and human
+rights um risk related to data
+governance risks related to uh safety
+and environmental impact. So like that
+there's eight different categories
+and what is nice I think also as lecture
+because by reading plot AI you learn a
+lot about AI uh from a technical and
+organizational perspective because you
+see um um eventually it's a it's a sort
+of a game for threat modeling. So every
+every risk has a has a a question that
+that's what you ask when you are in a
+team about can this go wrong and by
+answering yes or no or I don't know the
+game already tell you well then you
+might be at risk so you might have to do
+something about that but if you turn the
+the card so it gives you explanations it
+gives you recommendations to solve the
+the issue and all this is based on a lot
+of research papers well you can see the
+references in the proi website and
+there's already more than 400 uh
+references and uh and and of course also
+my expertise from all these years. So
+that's I think really really nice source
+of uh of um of knowledge to be like that
+uh for for for learning from a like I
+said from a more diverse perspective
+about different things that can go wrong
+with AI some more legal perspective
+other much more technical perspective
+there's a governance perspective so so
+that might be an interesting reading and
+of course it's open source and it's
+communitydriven so maybe this is now a
+bit of a call to action here to take the
+opportunity that whoever that wants to
+contribute through GitHub or just
+sending an email like hey I have a new
+uh risk threat I don't get now into the
+discussion if it's a threat it is a risk
+I mean some are just sources of risk but
+it's the game is called it's a
+methodical threat modeling that's why we
+call it threats uh but some of them are
+not proper threats are more sources of
+risk anyways this is really more this is
+really deep risk management discussion
+so no need to to get into that here and
+now. But in any case, if you think, hey,
+I know a new source, a new, I don't
+know, I've read a paper that could be
+interesting here or a new mitigation
+measure for this uh risk or I know a new
+risk that should be mentioned. Uh yeah,
+you can just collaborate and then would
+be really really helpful for the
+community.
+Perfect. then our listeners will
+definitely find the link in the show
+notes and on the LinkedIn post that will
+go with this interview and I really
+really hope everyone will engage in the
+reading and perhaps in the signaling
+because it's very important that
+communities kind of act together to find
+the best suit to regulating AI LMS and
+um well anything that will come
+afterwards because you know we live in
+very interesting times.
+Exactly. And plus is not only for LLMs.
+It has to be clear. It's a framework for
+just AI in general. Though if you look
+at the instructions, you see that
+summaries are only specific for
+generative AI because yeah, it is like
+that. Now it's everybody talks about
+genative AI and LLMs, but AI is much
+more than that and has been used for
+many many years already. So it's
+something that we should not uh yeah
+from the eye. there so much technology
+like recommended systems other
+technologies just this built with the
+classifier models. So it's important to
+think that it's not all LLMs. That's
+just a a part of it. It's more the hype
+now. It's much more than that.
+An anchor to the ground today with
+Isabelle Dabra. Thank you so so so much
+for coming here
+um at distance but still and this was a
+great pleasure and um
+for your new job.
+Yeah, thank you. Gracias.
+This was all with my colleague here
+Jakamo. Thanks Jako for joining me.
+Thank you Rosie. Thank you Isabelle.
+Was a great pleasure. A
+pleasure. Thank you.

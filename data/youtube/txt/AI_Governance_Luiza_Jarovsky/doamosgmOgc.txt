@@ -1,0 +1,1526 @@
+hi everyone welcome to another edition
+of our live talks this is the 14th
+Edition I'm so happy to have this
+amazing guest here today we are talking
+about AI governance Hot Topics key
+Concepts and best practices and I'm here
+with Chris Johnson Alexandra VGA Ravid
+Doan and Katarina Kern before I
+introduce them and first let's have give
+some two or three minutes for everyone
+to join so please let me know in the
+chat where are you connecting from and
+if you have already any questions or
+something you think about AI governance
+feel free to post in the chat so
+Alexandra visala hi Alexandra welcome so
+happy to have you here today she's the
+founder of Av privacy Christen Johnson
+hi Chris she's associate General councel
+AI privacy and security of affinity
+Karina
+Kernan she is the responsible AI advisor
+at the tech diplomacy Network and the
+corporate development development
+manager at D and havan hi havit she is
+the CEO of tech betterer so I'm so glad
+to have you here today thank you for
+joining me thank you for accepting my
+invitation today is a very dense session
+we will cover six topics so if you
+registered you know already you saw the
+list of topics uh it's so I recommend
+you stay until the end there will be
+practical advice important knowledge
+especially uh if you're not aware so
+next week there will be the final voting
+for the AI act so for those that are
+waiting for the final text uh so there
+will be big news NE next week so it's
+the perfect time to discuss AI
+governance and this aspect of
+implementing AI governance in an
+organization uh before we start a
+reminder that next week we have the
+fourth cohort of my privacy Tech nii
+boot camp is a four-week program so if
+you didn't register yet you're welcome
+to contact me everybody watching this
+session will get a 10%
+discount so let's start we have a lot to
+cover today I want I will go straight to
+the questions and I hope you enjoyed the
+session so the first question is about
+uh Hot Topics I want to hear from the
+guests in your view what are currently
+the hottest tops topics in the context
+of AI governance and why why do you
+think those are the hottest topics so
+who wants to start yeah I'm happy to
+start um thank you so much yes so um I'm
+happy to chime in on this question such
+a great question I'll just quickly note
+to start that the views I'm sharing
+today are mine and don't relate to any
+specific company but the first Hot Topic
+I'd like to call out is the increasingly
+complex regulatory landscape and its
+impact on organizational AI governance
+programs consider for example The
+Landmark soon to be adopted EU AI act
+and then widen the lens a bit and
+consider the fact that the organization
+for economic cooperation and development
+is tracking over 1,000 AI policy
+initiatives from 69 countries
+territories and the EU on the website
+oecd AI it's a lot and then let's zero
+in specifically on the US legislative
+momentum is growing on a state level for
+AI an industry report from last fall
+found that state lawmakers introduced
+440 per more AI related bills in 2023
+compared to the prior calendar year a
+metric which includes legislation
+focused on specific AI use cases
+including use of AI in healthcare
+Financial sectors and employment context
+AI governance framework State AI use in
+vories task forces and committees law
+enforcement use of AI state government
+use of AI and so many other elements and
+by mid January this year in 2024
+lawmakers in at least 20 States
+pre-filed or introduced 89 bills or
+resolutions specifically referring to Ai
+and then layer on top of all of this
+activity the number of voluntary
+Frameworks and standards to consider for
+AI governance including but not limited
+to the nist AI risk management framework
+the new ISO 4200 one standard the
+world's first AI management system
+standard the overall complexity of this
+landscape is a Hot Topic by itself and
+then the second Hot Topic that I'll just
+briefly note is the fact that many AI
+governance professionals feel like
+they're walking on a tight rope in an F5
+tornado that's a pretty strong tornado
+to say the least I think about the movie
+Twister when I think about an F5 um on a
+daily basis AI governance professionals
+are getting hit with three moving
+factors in particular number one the
+rapidly Dev veloping AI um rapidly
+developing AI technology two rapidly
+developing regulatory landscape globally
+and then three their company's interest
+in and use of AI and also potentially
+development of AI as well and when I
+refresh my LinkedIn feed alone and I'm
+sure everyone can relate to this I see a
+number of updates about the latest AI
+developments from both a technological
+and Regulatory perspective in addition
+to Industry specific implementation
+guidance especially in the healthc care
+sector in fact I along with other
+attorneys interested in ethical AI are
+tracking and curating these developments
+on a new LinkedIn page called the
+responsible AI resource Collective or
+the rare Collective for short there's so
+much to share every day including great
+content from my fellow panelists um
+there's so much happening every day so
+overall I would say it's important to
+accept that the tornado isn't going to
+let up anytime soon just accept that
+it's there it's a bit windy and we need
+to adapt to it a key question is how to
+consistently remain balanced given all
+of these developments it's truly
+fascinating so that requires in part
+having a strong human in the loop tight
+RPP your AI governance program while
+also being Nimble and flexible and
+staying on track uh on top of the latest
+developments externally as well as
+internally within your organization so
+you can adjust your balance accordingly
+so if we thought that the Privacy
+tornado was bad the AI is is worse yeah
+exactly yeah thank you Chris so who who
+would like to to share the thoughts next
+I can go next
+so um the topic I see being really super
+important and um on top of the list is
+open source versus proprietary as models
+um so there's this whole discussion
+about like what is open source AI I'm
+glad that the open source initiative is
+working on a working definition because
+open source in general is traced back to
+open source software and that's coming
+from OSI uh and also I think in practice
+it's also relevant for companies because
+would I um take a proprietary
+proprietary model and also rely for
+liability on I don't know Microsoft and
+Google's promise to You Know cover any
+liabilities that might emerge from
+copyright issues or do I build my own R
+system and buy a model or take an open
+source model and work with it but what
+would then happen um with any Downstream
+issues copyright issues in that
+uh open source model so I think there
+are a lot of open questions also around
+licensing maybe do the open source
+software licenses really
+cover models to a full extent so I think
+that's a that's a Hot Topic second Hot
+Topic and maybe that should be actually
+first is still um bias and um so as we
+see with the latest news Microsoft
+having diverse Nazis I mean that's
+really um really so out of proportion
+and I think that there are a lot of
+attempts of course to address this but
+um we do not know how to get this could
+get solved in general plus I think on a
+very uh practical level for
+organizations for data scientists in
+machine learning engineers in
+organizations there's also not this set
+of good governance uh good
+operationalization of trustworthy ey
+guidelines for buyers so do this this
+this this this this this this so I think
+it would be great to that some
+organization or us come up with a really
+good overview because I still hear a lot
+of questions about like I want to do it
+right but how and the third topic I
+thought um I'm GNA add a third one I
+know we supposed to have only two the
+third one is AI security because um AI
+security is a huge topic um and we have
+so many really mature information
+security Frameworks of course um and now
+all of those additional AI security
+controls would need or will need to be
+added to to information security
+controls in general and this
+collaboration and this whole new field
+of machine learning security being added
+on general information security is a is
+a challenge but also an emerging field
+where a lot of people invest a lot of um
+time and effort and I just want to um
+recommend this oasp AI exchange
+resources because they have like a lot
+of controls SEC AI security controls for
+free on their
+website and so those are the three
+topics that I think are
+top top I agree and the the aspect of
+open and close not only uh from a legal
+perspective also that in the tech Arena
+right you've see the recent lawsuits so
+Elon Musk versus open AI this whole
+thing of keeping open and many
+interesting initiatives happening the
+open source uh Arena also very very
+interesting thank you so uh havit or
+Alexandra who wants to continue I can
+hop in next so um as a privacy
+practitioner the AI govern issues that
+usually stick in my mind or the ones
+that overlap with privacy which doesn't
+necessarily narrow it down that much
+because of course AI is a a data data
+dependent operation right um but two hot
+topics that stood out to me as I was
+thinking about this are lawful basis of
+processing for training data so um for
+those that maybe don't deal with gdpr
+every day of their lives um in order to
+process personal data in the EU
+you have to have a lawful basis there
+are six laid out in the gdpr five of
+them are relatively specific and one of
+them is called legitimate interest and
+it's um much broader and involves a
+balancing test of saying does the
+organization have a a legitimate
+interest or a legitimate purpose to
+process this data that doesn't outweigh
+individual rights Liberties freedoms
+including privacy and so the Italian
+data protection authority the grante has
+been really really vocal in their
+opinion and investigation against open
+AI um who is using legitimate interest
+as their lawful basis for uh using
+personal data to train um their large
+language models so um you know they've
+gone as far as to ban um chat GPT in
+Italy and so this is obviously like an
+existential issue for um for AI models
+right um if they don't have a lawful
+basis to rely on we're going to be in
+big trouble from a gdpr
+perspective the other Hot Topic that
+I'll raise is related to that it
+dovetails pretty well I think um you
+know when we're talking about privacy
+and AI I often say like we have the same
+problems we've always had just at scale
+and one example of that is there's been
+a lot of conversation in the Privacy
+realm over the
+last at least decade um that I been in
+this industry about the kind of
+framework that privacy has been set up
+on which is like transparency and
+consent or Choice attached to that right
+and just this question of you know I
+don't know a single privacy lawyer who
+has the time to read every privacy
+policy out there and make truly informed
+decisions about how they're sharing our
+data so like if we don't have time to do
+it no one does that's kind of how I look
+at it right um and again like thinking
+about that in the scale of AI there's
+just new um Dimension and urgency to
+that question of like what should the
+structure of privacy be going forward so
+that um we can inform the people that
+this data relates to how it's being used
+and give them
+choices thank you I totally agree the
+the legitimate interest thing and a few
+at least from from the European side I
+saw that the Ico they have if you look
+at the the UK's protection authority
+they said that leg legitimate interest
+might be fine so they are the only one
+that explicitly said took the step
+they're much friendlier than the
+Italians yeah but at the same time I
+just saw that they opened a consultation
+so maybe they're not so sure anymore and
+I know as you mentioned open AI they
+they mention in their website so they
+are relying on legitimate interest
+because then you can go there and read
+what they say why they think I don't
+agree and i' I've been discussing the
+newsletter but I totally agree from a
+privacy perspective the legitimate
+interest topic is if if you don't if you
+take it out then what you we are we
+remain with contract or consent
+basically so it's a I think Super
+interesting havid would like to share
+some hot
+topics yeah thank you uh so first of all
+great to be here um and I really love
+all the comments so far so I feel really
+honored to be a part of this panel i w
+to pick it back especially on what uh
+Chris had said I really appreciated your
+points about the explosion of governance
+Frameworks and I think you know this is
+a process we've
+seen since 2016 is when those Frameworks
+started appearing and then in 2019 there
+was there was also a movement of let's
+try to figure out what they all have in
+common right like what are those
+principles uh and since then we've only
+seen more and more of those Frameworks
+and um a Salient question
+is how do we get companies to actually
+do those things in their Frameworks and
+how much of this is maybe ethics wise
+washing right of a company wanting to
+appear good by having some kind of like
+guidelines framework like guidelines
+principles Frameworks or whatever on
+their website versus actually doing it
+so there's been an increasingly growing
+conversation about what people call
+operation you see I can't say this word
+no I can but operationalized AI ethics
+is is how people talk about it sometimes
+like how do you move from abstract ideas
+of how to govern AI responsibly to
+actually governing a responsibly because
+there's a a huge huge
+gap things that people typically see as
+signs of responsible governance of AI
+include yeah does the company have
+ethics principles on their website do
+they do any thought leadership do they
+have an Ethics team but the problem is
+of course having those things doesn't
+necessarily mean doing anything any more
+over uh empirically is just not
+correlated so for example I did this
+research study
+Based on data collected by an ESG
+company called ethics grade anyway they
+collected data from public disclosures
+of companies about their AI governance
+practices and so we had 20 uh 254
+companies included in that uh it was end
+of 2022 um and we had just general
+companies 76% of them indicated in their
+public disclosures that they had some
+kind of you know one of those signals
+like an AI ethics framework or like
+commitments half of them had those um
+and then like 76 had like percent had
+either that or like a team or you know
+stuff like that but when it came to the
+actual practices that they did it was a
+Bally low so like things
+like um do they have you know
+documentation of their like models or
+you know an incident um an incident
+database you know percentages were like
+you know single digits so we do have
+this gap between this explosion of
+Frameworks and actually operationalizing
+it I don't like that name but that
+that's the name that people use like
+acting on it implementing it it's a huge
+gap that people are starting to notice
+more and more and more personally that's
+the thing that
+I um really find motivating in my work
+trying to see how I can minimize that
+Gap and and on this topic of
+implementation I my guess is the the AI
+act when it enters into Force so even if
+it's approved uh now it will take right
+two years until the first possible
+infringement fine I think it will have
+my guess is that it will it will at
+least in the more regulatory aspects
+will happen similarly to what we saw
+with the gdpr right so one month before
+the gdpr the enforcement date everybody
+was moving and afraid of getting fine so
+perhaps at least uh regarding the topics
+that are regulated by the a act I my My
+Hope Is that we will see some Global
+wave of compliance so I hope not not for
+the AI more uh AI ethics topic they are
+not regulated I cannot say that but at
+least I hope for the the topics that are
+covered by the AI act I just want to can
+I have a followup to that uh I think
+yeah it's really interesting to see
+what's gonna happen with the eoi act of
+course one difference from gdpr is that
+um the rules are not the same for all
+companies right because of the risk
+categor and they say that only like five
+or 10% of the companies are supposed to
+be in the high you know in the high risk
+category companies are going to uh I'm
+sure fight pretty hard to say that
+they're not in that category pretty much
+no matter what they do and I think that
+complicates the impact on on
+unresponsible a governance um however I
+also want to emphasize there's there's
+an additional movement that's happening
+and the enforcement of laws on AI people
+pay like a lot of attention to those AI
+specific laws especially of course the
+euii ACT but what we're starting to see
+more and more especially in the US is
+the enforcement of general laws on AI
+right in a in a sense it's kind of
+surprising that people are trying to
+have like new laws about discrimination
+and AI we already have laws about
+discrimination it's already not allowed
+in the workplace in many forms right um
+so there's a huge potential here to just
+like we already have laws can't we just
+Implement them on AI and so we're
+starting to see more and more of that uh
+both from this lawsuits if we're seeing
+people you know people uh submit apply
+whatever the verb is for lawsuits uh but
+lawsuits that people utilize against AI
+companies just using the existing laws
+and also in the US the federal agencies
+are starting to be increasingly more
+proactive so just one recent example we
+saw you know the fishal recognition ban
+on Right Aid following an investigation
+and a lawsuit from the federal uh trade
+committee like the f TC so we are seeing
+more of that so for me um when I think
+about like compliance I think about the
+impact of growing enforcement of the
+regular you know law system on AI and I
+think in the short term I expect that
+this could would and should drive
+companies to Greater compliance hope so
+I would take from what you said about
+also implementation so now we are moving
+to some more uh specific topics within
+AI governance and let's talk a bit about
+implementation and I'm asking this uh to
+Christen and Karina so I would like to
+hear your than so what are the in your
+view what are the biggest challenges
+when implementing AI governance in a
+corporate setting and what are your
+recommendations in that case yeah for
+sure I'm happy to chime in um so I would
+say high level across companies globally
+there's a number of challenges when
+implementing AI governance in a
+corporate setting I'll focus on three uh
+challenges in particular I actually
+listed out like just for full transparen
+y like eight but I I would take up
+literally the entire panel talking about
+like all the challenges that immediately
+come to mind so I'll focus on the top
+three um the first challenge is getting
+organizational uh buyin this can be a
+struggle for some uh AI governance is
+most successful when you consider the
+tone at the top a common compliance
+expression where AI governance is
+considered as business critical by
+senior leadership including your board
+and CEO and it's important for
+leadership to understand what is AI
+governance and from an organizational
+context perspective it's a system or
+framework designed to direct manage and
+monitor the AI activities of an
+organization and if you're looking for
+talking points for our discussions with
+leadership about AI governance programs
+serving a critical role as both a
+revenue protector as well as a revenue
+uh generator within an organization I
+strongly recommend checking out
+Dominique Shelton Lep's new book trust
+responsible AI Innovation privacy and
+data leadership it is so good and she
+notes in in that book that companies
+that win in the future will be the ones
+that consumers International regulators
+and business partners trust so trust is
+a critical Factor here and that's why
+it's really important to articulate your
+why like Simon syic style in your
+discussions to get organizational Buy in
+like why does AI governance matter and
+it's more than just Regulatory
+Compliance that's a key and critical
+Factor but it's really also about doing
+the right thing and tying your why back
+to your end us your clients your
+consumers and the benefits intended for
+those individuals and the Second
+Challenge I would focus on is um on the
+point we're already discussing which is
+how do you operationalize your ethical
+AI principles how do you take a set of
+principles like fairness explainability
+and transparency and operationalize them
+within your organization and it's one
+thing to have them on paper it's another
+thing to operationalize them effectively
+where you're in essence driving ethical
+AI behaviors across your organization
+and every team member understands the
+role that they play in relation to your
+responsible or ethical AI uh program and
+so I do recommend considering a set of
+ethical AI principles most applicable to
+your organization especially keeping in
+mind any relevant regulatory
+requirements clearly defining what they
+mean within the context of your
+organization and work with a cross
+functional diverse team to establish a
+set of implementation guidelines met to
+each principle and a set of policies and
+procedures paired with each guideline so
+you can look at it like an AI governance
+pyramid you start with your principles
+then your implementation guidelines and
+then a detailed base of policies and
+procedures mapped to those guidelines
+and your principles and once these are
+mapped out you can visualize your entire
+AI governance program in one
+comprehensive chart or Playbook
+capturing the applicable written
+protocols procedures and requirements of
+for each principal and as an additional
+benefit this effort can help companies
+isolate andin Point specific protocols
+within their program that require
+updates due to changes in organizational
+AI strategy or the regulatory landscape
+and I'll give a quick example of an
+ethical AI implementation guideline um
+it could be a tailored version of the
+legal requirement itself so let's say
+one of your principles is data privacy a
+corresponding implementation guideline
+could focus on data minimization where
+it says personal data collected should
+be relevant and limited to what is
+necessary in relation to the purposes
+for which it is processed in the AI
+system and then you would have a set of
+policies and procedures in relation to
+operationalizing this particular
+guideline in relation to AI systems in
+your environment and the third challenge
+I'll mention and then I'll pause is um
+focusing on operationalizing privacy
+rights for certain AI systems privacy
+laws like the gdpr or technology
+agnostic but there's a lot of discourse
+underway at the moment about
+opportunities from from a Privacy Law
+perspective to cover AI system specific
+risks and considerations so consider for
+example the right to be forgotten that
+is such a popular Topic at the moment
+what does that right look like from an
+AI system perspective particularly if
+the system did not originally factor in
+privacy by Design hopefully it did but
+if it didn't how do you account for that
+going forward in addition to the removal
+of the data what are implications from a
+training data perspective um and if
+you're using personal data for training
+purposes is uh how are you retraining
+the model after you're removing the the
+data and how does that impact the system
+there's a lot of considerations in terms
+of how do you operation operationalize
+that right including uh potentially
+retraining the model and so forth I'll
+note briefly that Microsoft researchers
+noted in a recent article in relation to
+llms that unlearning isn't as
+straightforward as learning imagine
+trying to remove specific ingredients
+from a baked cake it seems nearly
+impossible fine-tuning can introduce new
+flavors to the cake but removing a
+specific ingredient that's a tall order
+and I love that quote it is so spot-on
+so overall as a recommendation if you're
+an AI developer it's critical to have a
+cross functional Council in place
+including stakeholders from legal
+compliance infosec data governance
+Engineers like so many key stakeholders
+that should be a part of that discussion
+to think through these requirements and
+the best way to strategically
+operationalize them given your specific
+AI systems and the data flows involved
+so that's just a few challenges um that
+I could note I would take up the rest of
+the time talking about the others that
+I've listed but I would say those are
+the top three that come to mind at the
+moment before Karina speaks everybody
+this was great and dense so do like me
+everyone get a piece of paper you you
+heard everything that Chris said so I'm
+seeing that perhaps I will have to share
+the transcript of this conversation
+because
+it's great and many people and also we
+need more multi media screen so that you
+could draw the pyramid right with the
+principles it would be really uh great
+with with I need a graph behind me I
+need like yeah like a whiteboard just
+like write it up AI based I have one
+over here I need to turn my camera yeah
+an entrepreneur in the audience we need
+a star like AI program that listens and
+already builds the pyramid behind her so
+I love it and for those in the audience
+if you when we are speaking if you if
+Chris or anyone or Karina and Alexa
+mentions a book or a group if if you
+want to type in the chat you're welcome
+to do it we are focusing here on our
+notes and so you're please welcome to to
+add to the chat whatever you find
+relevant whatever resource uh
+Karina thanks um so challenges I see so
+um maybe more high level or practical so
+I do see um the challenge of having a AI
+strategy and having AI governance how do
+those two things align how do those two
+things like work together because I
+think AI strategy development or having
+an AI strategy like how can I use AI to
+improve my kpis to to cater to my
+business goals um how does this relate
+to AI governance and uh because I think
+they're complimentary and they're
+overlapping but uh I do think that AI
+governance is a precondition is a part
+of good management and in that sense a
+precondition for good strategy um
+execution and it also I think shows in
+practice when you have like machine
+learning Engineers or data scientists
+who really want to solve problems you
+know build stuff and improve kpis like
+um help the um organization grow and um
+get that you know data analytics right
+and so on get insights and then you have
+this uh presumably uh burdening
+responsible AI or compliance topic and I
+think this um natural tension should get
+bridged in a sense
+of making very readable practical
+policies Etc and also the challenge is
+if you have ai if you're talking about
+the I governance not that we're always
+talking about the same thing I for
+example talk about basically what you
+mentioned at the very beginning Chris U
+ISO 427 001 AI Management systems or the
+ndi risk management framework and
+um I lost my train of thought yeah that
+we talk about the same thing and then
+the second challenge uh Associated is
+what do you prioritize like if you for
+example take 420001 there are so many
+required processes for really good AI
+management system in
+place it's overwhelming if you just buy
+the iso standard you're like okay that
+reads nicely but it says this process
+this documentation it's and I'm
+currently working on translating those
+ISO 4201 requirements into proc
+processes and do document templates and
+it's like like a yeast D you know the
+longer you look at it the actually more
+it grows because of course AI governance
+or or AI management management needs to
+build on already some mature processes
+so incident response policy you don't
+have them in place yet theoretic or
+practically you need to actually have
+them as part of your AI management
+system or change management if you don't
+have process in place so all of those
+fundamental governance processes are the
+also the basis for good AI governance so
+um it's super complex and um so when we
+talk about actually what would be some
+priority documents or some priority
+projects for I governance I think um
+where we should start is actually what
+are really my AI assets or or have a
+model inventory such as in any risk um
+management process you need to actually
+first know what you want to protect and
+what are your assets then thei policy is
+super important and there are like in
+this there are so many hints what should
+be in this AI policy so that's already
+like kind of a a challenge to write a
+policy that covers things and means
+something and in my view and in the view
+of iso
+40201 um responsibly I princip ethical
+trustworth principles are
+also um as objectives as AI objectives
+part of this policy just saying then you
+need to really Define roles and
+responsibility I think this is one of
+the priority things U then maybe have
+acceptable use policies um um for for
+your users um you can have model cards
+and scorecards something that is very um
+often mentioned nowadays and then of
+course you have this whole classic risk
+management process with a risk risk
+registry uh you know how do you treat
+risks and this needs to cater into your
+overall risk um Management in your
+organization so my point is challenge is
+there's a lot that we can do in a
+governance but what are the priorities
+and how does this actually align with AI
+strategy where it's more about use case
+Discovery how do I even find my proper
+use cases and then how do I um put them
+into practice do I have my own rack with
+an open source model or do I just buy
+something so um those and those things
+can be addressed then in a feasibility
+analysis and in the risk assessment so
+this is where strategy and and
+governance would then intersect to also
+help assess which use cases you should
+uh follow through with I love the the
+connection with the
+strategy as lawyers we sometimes have
+this reputation of not not thinking
+about strategy right we Al we always say
+no not not allowed uh not compliant and
+I think especially within organizations
+it's important to tie together right so
+let's think about something that will be
+Innovative that will be connected to the
+strategy
+and connected to AI governance and sorry
+if I just may add because we're all
+coming from privacy I think you know we
+always there's was this comment saying
+privacy as a business enabler practical
+example Apple always the same so I think
+it's a totally different ball game with
+AI because there it's really true
+because we want to use AI for business
+everyone knows we should improve things
+so privacy per se you have to really
+make an argument you know that it but in
+AI it's really not so what do we even
+govern if we not first talk what can we
+do what can where can it help so it
+really needs to focus so much more on on
+business I think and it's great to see
+for those that don't follow Karina on
+LinkedIn she basic almost every day she
+posts uh very interesting content AI
+governance related AI related and it's
+great to know that she she memorizes it
+she's talking it by heart some very
+specific things so I love it she not
+only posts and and reads she also
+memorizes so follow for follow all of us
+on LinkedIn especially and here
+specifically on Katarina's point when if
+you want Frameworks she is the queen of
+Frameworks she will post every day
+something new and interesting so I
+recommend Karina's advice and now I
+would like to move a little bit to AI
+ethics and and you know we there I feel
+the the AI ethics folks not always are
+the AI governance folks and we are
+seeing some movement AI governance and
+privacy right we are kind of merging
+maybe and the IAP is talking about AI
+governance but the AI ethics they I I
+feel it's a bit separate so there is
+kind of a separation here AI eics people
+n governance people so I I wanted to
+talk a little bit about these
+intersection so are is the same thing so
+for some people maybe it's not obvious H
+so I want to ask Ravid and Chris so how
+do you see the intersection of AI ethics
+and AI governance both from a
+theoretical and practical perspective
+and how should companies deal with AI
+ethics so we are talking about about all
+about governance so what about ethics is
+it separated is it together is it same
+person same same people involved so
+let's start with
+Ravid yeah uh yeah the term AI eics I
+think is not the best um to my knowledge
+the history of this term comes from
+Academia that's where some of the
+discussions um maybe started or were
+like had at some point there are a lot
+of things people might mean by that name
+uh so my background is philosophy that's
+my PhD it
+definitely uh is not ethics in that
+sense it's not ethics in the philosophy
+sense um I mean I guess some do it but
+primarily that's not what it's not
+primarily what people talk about uh
+primarily what you would hear in AI
+ethics conversations are things about
+the societal impact of AI right so it
+might also relate to um yeah let's
+understand you know why this algorithm
+you know discriminates or like um what
+does it mean to be explainable right so
+you could have both theoretical
+questions about those Concepts and you
+could have uh questions about social
+impacts you could also have things that
+would quote unquote would belong in um
+like in a philosophy ethics class um but
+these are some of the conversations in
+AI ethics um the conversations about
+governance in my mind are just a part of
+the AI ethics discussion right and these
+could be conversations about how do you
+effectively do risk management for AI
+systems well what is an effective AI
+governance structure so in my mind AI
+governance is one of the themes that is
+discussed within AI ethics um AI
+governance is also maybe a concept that
+is more you might hear it more in
+business context I think in the business
+context the the term ethics
+um can have negative connotations um
+right so one one uh one CEO of a startup
+told me you say ethic I think of Plato
+uh and and I understand why because
+there is a connection between ethics and
+Plato but it does mean that the
+connotations might be that ethics is
+something like in the sky ideals that do
+that are good but maybe don't
+necessarily belong in the workplace
+because in the workplace we care about
+revenue and we care about business and
+like ethics is nice but we can't really
+do that so I think that that is an
+unfortunate connotation that comes from
+just like associations of the word
+ethics but really A ethics in in the
+workplace
+really maybe almost merges with AI
+governance because that's what they do
+like uh to ensure that the social impact
+of AI is not destructive is inherently
+bound with how you're going to govern AI
+ethics uh sorry how you're going to
+govern AI so I I think that you're right
+Louis say in terms of the population
+there might be like people who would
+kind of brand them themselves
+differently but I think when it comes
+to businesses and workplaces then AI
+governance just is AI ethics in many
+ways great I love this a is a perfect
+philosophical and practical integration
+and for those that don't follow R you
+also post incredible ethics and AI in
+general content so follow her I think
+mainly on LinkedIn right have post but
+yeah yeah I actually just uh started my
+mailing list also so if people want to
+follow my mailing list you should do so
+I mean I already have more than a
+thousand people
+so chuz yeah for sure happy away and I
+totally agree when I when I think about
+um AI ethics I see it as focused on a
+set of uh a set or system of moral
+principles and techniques focused on
+informing uh the development and
+responsible use of AI technology it's
+focused on AI adhering to well defined
+ethical guidelines regarding fundamental
+values including individual rights
+privacy non-discrimination and
+non-manipulation examples of AI ethics
+issues is everything that we're talking
+about so that would include data
+responsibility privacy fairness
+explainability robustness transparency
+environmental sustainability inclusion
+moral agency value alignment
+accountability trust and technological
+misuse and for the term AI governance
+there is a broader definition of this
+term that speaks to a framework of laws
+and policies and ethical principles that
+guide the development deployment and use
+of AI Technologies and from this lens AI
+governance is necessary to ensure that
+AI is developed and used in a way that
+benefits Society while minimizing
+potential harm um then there's AI
+governance of course within the context
+of an organization and that's where
+we're focused on and that's what we're
+talking about today within this context
+AI governance is a system or framework
+designed to direct manage and monitor AI
+activities within an organization and
+it's focused on operationalizing AI
+ethics principles and overseeing
+responsible development deployment and
+use of AI technology within an
+organization so there's different ways
+of looking at all of these different
+concepts but um yeah I totally agree in
+terms of the way that um people uh talk
+about AI ethics versus like on the
+ground the work Associated specifically
+within an organization for example with
+AI governance
+work thank you Chris I'd like to switch
+now to one of my f perhaps my favorite
+topic nowadays which is AI and privacy
+this very interesting intersection I
+think it's in it's interesting from also
+from a professional perspective
+everybody now is is seeing what what
+will happen right who are so we are
+talking about AI governance but who are
+the people that are going to govern AI
+are those the Privacy people and the
+Privacy people want to govern AI I see I
+know many in the audience here listening
+to us are privacy professionals and we
+are seeing everybody in privacy I see
+everywhere interested right it feels
+like empty if you say that you're you're
+specialized only in privacy okay and AI
+so it's I see a lot this movement this
+professional movement and I think both
+from a theoretical as Alexander was
+talking about before about the
+legitimate interest and many uh
+theoretical and practical uh
+implications of AI systems so the
+question is for Alexandra and Katarina
+so AI compliance and privacy compliance
+they might intersect but not always how
+do we recommend navigating Ai and
+private compliance in a corporate
+setting and what are the main challenges
+so let's start with
+Alexander this is a really big question
+so um like I said at at the top of the
+call you know privacy and AI really go
+hand inand because AI inherently
+involves data and privacy is all about
+data um you know I I would approach
+implementing AI governance the same way
+I would approach implementing privacy in
+an organization and that always starts
+with understanding the risk landscape
+right
+so different companies are going to be
+doing different things with AI and
+they're all going to have very different
+requirements and risk Landscapes because
+of that right a company that's
+developing AI tools for public release
+has a very different risk landscape from
+a company integrating AI into their own
+products has a very different risk
+landscape from a company with a
+marketing team that wants to use chat
+GPT right um and by the way I think
+everyone is probably in that last bucket
+there was recently um a survey that I
+read from axios that 70% of employees
+were using chat GPT without asking their
+boss's per or telling their boss like
+they figured their boss didn't know
+about it
+um so this is underway it's already
+happening um and I think for many many
+companies it's really like harm
+reduction when we're talking about that
+last bucket of um teams that are using
+um in particular large language models
+in in their daily work so the way I
+would
+approach implementing this compliance is
+starting by doing diligence with the
+business understanding the use cases of
+AI in the organization that's always
+going to require cross functional
+cooperation and collaboration in like
+more than a decade of building privacy
+programs I've never been proven wrong
+that that's the single most important
+thing um and I think you know what an
+important
+part of AI governance especially when
+you're talking about um you know
+implementing like an AI use policy
+internally is to remind folks that
+they're not in trouble right I think a
+lot of people think oh if I'm using chat
+GPT to do my job my boss is going to
+think like why would I pay this person
+if they're just using chat GPT so I
+think it's important to have those
+conversations um you know in
+Earnest and um ravit actually shared a
+really great list of simple questions on
+LinkedIn that help the business you know
+cross functional teams understand
+whether the tools that they're using
+have ai behind the scenes and it's not
+always obvious so I highly recommend um
+you know finding that on LinkedIn and
+using that as part of the diligence with
+the business and just understand like
+you should talk to every team it's a
+cross functional conversation um and it
+will take
+time you know once you have kind of an
+idea of what's happening with AI then
+consider the risks to the organization
+you know assume that unless you've
+licensed versions of all of the AI tools
+being used assume that whatever is being
+entered into a model is being used to
+train that model
+and also understand that anything could
+be provided back in raw form right we've
+seen that recently where there was a
+prompt like say company over and over um
+into one of the large language models
+and it just spat back like was it source
+code or something um that had been
+entered into the model so you know
+understand consider the risks to
+personal data consider the risks to
+company confidential data um to source
+code and you know I think another
+important risk to call out for every
+company is talk to your HR team and
+evaluate whether they are looking at
+candidates with AI tools because that's
+something that often happens behind the
+scenes that maybe HR teams aren't even
+aware of again questions like Rite had
+posted on LinkedIn are really good to
+kind of get to the bottom of what's
+happening there and alexand on your the
+survey you mentioned you mentioned what
+was the percentage 70 and how much 70
+yeah my guess is probably 100 but the
+people that assumed to the survey was 70
+so I think people should assume
+everybody's using chat just it's there's
+so much pressure why why are you not
+using CH for this even for things that
+they should not be and maybe you I we we
+spoke in the past about AI policies
+maybe you want to share a bit about that
+Alexandra I think it's very specifically
+in these areas I my my guess it would be
+99.9% of people are experimenting with
+ch and somehow it will intersect with
+priv professional functions perhaps so I
+remember in the past we spoke about AI
+policies and it's a great way to
+communicate also to to to begin with a
+discussion right so I you don't need to
+tell me if you're using CH or not just
+proactively for for comp I think it's
+you told you I I saw we spoke about it
+so this is our AI policy and this is
+what you should think about this and and
+I maybe want to to to talk about it a
+little bit yeah so when I document AI
+policies for companies I like to have
+things be simple wherever possible so I
+usually um use like a red yellow green
+approach and you can call it something
+better than that you know
+prohibited um you know reviewable
+potentially allowable allowable
+something like that um and that just you
+know tells the company here's what we'll
+never allow you know you can't enter
+sensitive customer data into a large
+language model would be like a pretty
+obvious guard rail that you would put in
+place and again whatever the not
+allowable um pieces will be will be
+dictated by the conversations that
+you're having with the use case um use
+cases that are already happening and the
+risks that you've considered as a result
+of that right yellow will be okay you
+know it might be allowed but you need to
+have a conversation with whomever is
+running AI governance of the
+organization legal compliance privacy um
+and really do a review of the proposed
+use case you know why what data is
+involved um just similar to how you
+would do a privacy review and then green
+would obviously be what's already
+pre-approved you're not entering
+personal data you're using licensed
+versions of these tools that we've
+already said are okay um you know go
+forth and it's nice because that
+approach gives folks a little bit of
+Runway while still implementing
+meaningful guardrails and it's
+understandable it it's kind of modeled
+after the E AI act um structure so you
+know it's um flexible as things continue
+to
+evolve I love your and one other oh
+sorry oh sorry yeah one other thing I'll
+just mention quickly is I'm starting to
+see technology tools like I always think
+about in terms of like people process
+technology right we've talked about who
+would run this process would be like a
+policy would be one example of that and
+then I'm starting to see technology
+evolve that can act as like a almost
+like a middleware within the
+organization that if you want to use a
+large language model you go to the
+middleware it make sure that you know
+the tool that you want to use is
+approved you're on the licensed version
+it'll strip out sensitive data or
+personal data or just kind of implement
+those controls so for companies that
+have a lot of use of of large language
+models I think that's worth thinking
+about just to kind of have some hard
+controls around the guard rails that
+have been
+implemented thank you Alex thank you for
+sharing it and I love your framework
+especially because of the you're already
+educating people on the AI so they
+colors and forbidden and and
+risk different levels of risk so if
+you're in the audience and you you're
+looking for advice on AI policy so
+contact Alexander she can give this is
+she has a great uh experience with that
+and
+Katarina
+um yes so privacy and AI um so where I
+was coming from like three years ago was
+when I um realized okay there's this
+whole responsible AI trustworthy ethical
+AI ecosystem and then there's privacy
+and somehow they seem to be detached
+while in fact most of those responsible
+ey principles including of course
+privacy but also security accountability
+transparency even
+non-discrimination uh Etc are already
+covered by privacy
+regulation um I think this is still the
+case um but of course AI U processes not
+only personal information but
+non-personal information this is where
+it goes beyond privacy and just staying
+with privacy for for a minute there are
+a couple of really um exciting
+maybe worrisome problems uh in AI
+related to privacy one of the most
+interesting ones I think is machine
+unlearning so how would we get like
+training data
+or the
+parameters based on training data that
+was used for training out of a model
+there it's a whole new research um field
+of research or what another question
+that I find extremely interesting is
+when would we need to consider a model
+maybe even personal data because if the
+if a risk assessment would um result in
+uh that we see that it's kind of likely
+that a model leaks personal data then
+wouldn't we need to consider the model
+itself personal data which would of
+course be like a big issue and imagine
+the open source topic being you know put
+in the same thought process as as this a
+model be personal data open source
+everywhere um
+um but apart from this I think that um
+AI governance goes well beyond um
+privacy so um I really like this ISO
+420001 standard like we said ISO um AI
+management system and this AI management
+system is almost
+100% I mean it's more it's it's a little
+bit it adds a couple of things but it's
+almost 100% identical to the structure
+of this very famous ISO
+27001 standard for Information Security
+Management Systems so if you already use
+or have a um infos management system in
+place might might it be nist or might it
+be ISO it's easy or it's like the best
+starting point to add um controls or um
+other things like whistle policy or
+stuff for AI so this is why I think that
+information security or it in general is
+is in my view also because AI is so
+intrinsically technical might be the
+better place for for AI governance to
+sit to coordinate of course with
+legal and with all the other business
+functions or other functions in the
+organization um I think it's a similar
+topic to how does privacy uh relate to
+data governance um because data
+governance is
+actually like bigger right privacy is a
+subset of it or um data governance is a
+precondition also for good privacy um
+management but it's similar to also
+privacy engineering so we have all those
+privacy policies legal policy
+conversations but how do you actually
+put those principles privacy principles
+like data minimization into practice
+this is then privacy engineering and
+it's a huge field but still a little bit
+under the radar because there are a lot
+of techniques for privacy engineering
+that are not even uh um that that could
+be used but they're not like asked for
+by the regulator or people don't know
+about it or stuff and so same thing here
+in AI we have all those subsets for this
+responsive AI principles how can you put
+them into practice for example with
+privacy preserving machine learning the
+US even had a national strategy on um
+privacy preserving data data analytics
+and data sharing so talking about
+differential privacy here and others
+like synthetic data and stuff so it get
+so technical then that I think it's good
+that it sits in um it in general and
+builds on infoset programs that's how I
+would go about it I didn't know that the
+AI ISO is so similar to the infos one
+and it's and your opinion is that it
+should be more on the technical side so
+let's see let's see how it will be in
+practice I I think that the AI act will
+probably give more at least from the
+European perspective more guidance right
+of the person of the obligations of the
+the AI team within an organization
+but I think there are two main points of
+some people they think it should be more
+connected to the DPO and to privacy
+right so data protection impact
+assessment together and it's interesting
+to hear your opinion that more different
+so more to the it or infos Department
+less with the let's say thep side
+so I think it's also it will have
+ramifications in the professional
+setting right careers what type of
+training the person has to have or or
+people involved with AI governance will
+have to have do they need to know how uh
+deep Learning Works do they need to know
+to be fluent on that or no they just
+need to know regulatory aspects in
+government so I think it's it's so if I
+may just add that um exclusively all AI
+governance roles that I saw within the
+last two or three weeks they required
+computer science uh Science degrees or
+something in AI machine learning there
+was
+no that was always in there okay you
+might just catch up you might upskill
+and then have this uh combination of
+skills I think that's what it's needed
+but where it sits because because there
+are so many privacy problems in the a
+that are unsolved that I think like a
+lot of solutions if you would really
+like look at them critically they do not
+comply H how do you how can a a black
+box model ever really comply and we just
+accept it nowadays because I mean we
+want to use it right so there's so much
+gray areas that I don't know if it
+really drives uh the business value that
+we also want to create so how the risk
+tolerance you know maybe that risk
+tolerance would be lower so I think it's
+a business decision where it sits
+depending on what you want and I would
+say also for computer scientist it would
+be hard they don't have this legal
+fluence right as a lawyer and I I'm in
+I'm in touch with many comp it's
+different right we think different
+computer scientists and lawyers think
+very differently our our brains work
+differently and I think s because there
+are so many critical issues also
+involving legal aspects which will be
+gdpr related or a related you need to
+have this ad fluency that I don't think
+it's they're used to right people in
+computer side they don't work they don't
+like to be the person fighting all the
+time so it's perhaps so either one or so
+the the computer SCI person will have to
+up skill in the legal and the or the
+legal Frameworks yes exactly and
+management yeah so I think we will not
+have time to the six so let's we have
+still two questions that we have a bit
+late so let's see if we will have time
+for both so question five is for
+Alexandra and havit it's about
+regulations so soon we'll have U it's
+still uncertain but soon we'll have more
+clarity so given the current regulatory
+background and also the uncertainty
+regarding Global AI regulations what are
+the best practices to navigate AI
+regulation and compliance now so they
+act soon we'll have some more we already
+have right the the political agreements
+so some sort of draft and how should we
+navigate this uh regulation uh
+compliance so let's start with the
+havit
+yeah excellent question a lot of people
+have this question on their minds I
+would say
+um so a part of the complication is that
+we do have a lot of different
+regulations coming up in different
+jurisdictions right um we have the EU we
+have the UK we have China have Canada
+yeah us of course and within the US
+Federal States cities um so really it's
+kind of an explosion on different kinds
+of regulations um and Clarity so I would
+say maybe two things to keep in mind one
+right now a lot of the regulation the
+things they require uh I feel are kind
+of common sensical um don't discriminate
+be transparent right um and so I think a
+good way to prepare is just you know use
+your regular common sense and think
+about you know what might be problematic
+and the product that I am producing um
+would be a wonderful starting point when
+considering AI
+regulation globally and how to we pay
+for that but then also think about the
+current regulations that are Central to
+your company so if you're in healthcare
+it might be Hippa if it's education it
+might be fra whatever that thing is
+think about whether and how that
+regulation might be impacted by your AI
+usage so for example in your if you're
+in the financial sector you also have to
+give explanations if you give loans and
+you the loans get denied you have to
+give explanations about whether those
+loans are denied you have to give those
+explanations even if you had an AI
+assisted decision um and so the second
+point just to summarize is think about
+how the current regulations that apply
+to you are impacted by your AI
+usage okay thank you har so
+Alexandra yeah I mean I agree with
+everything that R said and Chris gave us
+a great summary at the at the top of the
+call about all of the regulations and
+the what did you call it a tight RPP and
+a tornado I think that's five tornado
+yeah yeah I think that's a very good
+visual of where we are right now and I
+think it's important to um like RIT
+already said you know
+Implement um best practices that align
+with you know obvious principles around
+responsible Ai and privacy under
+understand which use cases are likely to
+be high- risk for your business
+depending on what you're doing and what
+data you have um and just be ready to
+Pivot and be as flexible as possible and
+communicate to the business that
+everything is up in the air right now so
+that you know inevitably when things do
+change it's not a total shock and
+surprise to the business and there's
+some um budget left over to to implement
+um different controls that need
+it and from your practice you feel
+people are stressed people are anxious
+what what's what's the vibe you're
+feeling
+Onex well I think privacy professionals
+are mostly inured at this point to
+uncertainty and Chaos in the um
+legislative landscape I mean that's how
+I feel at least but you know there is
+just a ton of uncertainty and the
+technology as always is moving faster
+and faster every day so I think there is
+definitely a collective just um I think
+everyone's feeling
+that okay thank you so thank you so much
+for coming here everyone in the audience
+so thank you for being so involved being
+so active in the chat for us it's a
+motivating is a we are happy to see you
+involved with the discussion thank you
+for the guest so Chris Alexandra
+Katarina havid thank you so much I'm so
+glad you came this was a wonderful
+session fil full of uh practical Co
+inside so we we put together privacy AI
+governance e AI ethics um ISO infos uh
+risks I think it it was amazing and
+super valuable um last reminder if you
+want to join the boot camp starting next
+week right to me after this session uh
+and we still have time for a few seats
+thank you everyone and see you in the
+next live talks if you want to get
+informed about the next the upcoming
+live talks we next week I'm announcing
+the AI regulation live talk so I will
+talk about it and it will be in April so
+thank you everyone bye-bye see you in
+the next live talk

@@ -1,0 +1,7878 @@
+{
+  "source": "youtube",
+  "channel": "AI_Governance_Luiza_Jarovsky",
+  "playlist_title": "AI Governance Live Talks",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLMO4Px4-9culSwfqBJMycCbAJAuL7IhDJ",
+  "playlist_id": "PLMO4Px4-9culSwfqBJMycCbAJAuL7IhDJ",
+  "video_id": "eVOitsizPCA",
+  "video_title": "Privacy Challenges in the Age of AI, with Daniel Solove",
+  "video_url": "https://www.youtube.com/watch?v=eVOitsizPCA",
+  "fetched_at": "2025-12-28T17:26:38.964804+00:00",
+  "transcript": [
+    {
+      "text": "Hello everyone. Welcome to our AI",
+      "start": 0.4,
+      "duration": 4.48
+    },
+    {
+      "text": "governance live talk. So today I'm here",
+      "start": 3.04,
+      "duration": 4.64
+    },
+    {
+      "text": "with Professor Daniel Solof. Welcome",
+      "start": 4.88,
+      "duration": 5.28
+    },
+    {
+      "text": "Dan. Thanks so much for having me. It's",
+      "start": 7.68,
+      "duration": 4.16
+    },
+    {
+      "text": "a pleasure. It's the second time. So",
+      "start": 10.16,
+      "duration": 3.359
+    },
+    {
+      "text": "many of you maybe some of you in the",
+      "start": 11.84,
+      "duration": 3.28
+    },
+    {
+      "text": "audience you have been to the first one",
+      "start": 13.519,
+      "duration": 4.961
+    },
+    {
+      "text": "in 2023. So almost uh two years ago. So",
+      "start": 15.12,
+      "duration": 5.6
+    },
+    {
+      "text": "I'm so happy to have Dan again. So let",
+      "start": 18.48,
+      "duration": 4.48
+    },
+    {
+      "text": "me introduce Professor Dan Solo. If you",
+      "start": 20.72,
+      "duration": 4.799
+    },
+    {
+      "text": "are in the privacy field, I'm 100% sure",
+      "start": 22.96,
+      "duration": 5.52
+    },
+    {
+      "text": "you know who professor Solovv is, but I",
+      "start": 25.519,
+      "duration": 5.201
+    },
+    {
+      "text": "will introduce him. Uh, so by the way,",
+      "start": 28.48,
+      "duration": 5.759
+    },
+    {
+      "text": "today we are also celebrating 25 years",
+      "start": 30.72,
+      "duration": 6.4
+    },
+    {
+      "text": "of his his is longer than that. We were",
+      "start": 34.239,
+      "duration": 4.401
+    },
+    {
+      "text": "chatting about that, but he has been in",
+      "start": 37.12,
+      "duration": 3.92
+    },
+    {
+      "text": "the privacy field for longer than 25",
+      "start": 38.64,
+      "duration": 4.0
+    },
+    {
+      "text": "years. So we are also celebrating",
+      "start": 41.04,
+      "duration": 4.08
+    },
+    {
+      "text": "professor Solov's uh incredible",
+      "start": 42.64,
+      "duration": 4.48
+    },
+    {
+      "text": "contribution to the privacy field. So",
+      "start": 45.12,
+      "duration": 4.08
+    },
+    {
+      "text": "Daniel Salv is the Bernard professor of",
+      "start": 47.12,
+      "duration": 4.16
+    },
+    {
+      "text": "intellectual property and technology law",
+      "start": 49.2,
+      "duration": 3.92
+    },
+    {
+      "text": "at the George Washington University Law",
+      "start": 51.28,
+      "duration": 5.279
+    },
+    {
+      "text": "School. He's the co-director of the",
+      "start": 53.12,
+      "duration": 5.439
+    },
+    {
+      "text": "center of for law and technology and is",
+      "start": 56.559,
+      "duration": 4.0
+    },
+    {
+      "text": "the director of the privacy and",
+      "start": 58.559,
+      "duration": 4.561
+    },
+    {
+      "text": "technology law program. Solov is also",
+      "start": 60.559,
+      "duration": 4.56
+    },
+    {
+      "text": "the founder of teach privacy a company",
+      "start": 63.12,
+      "duration": 3.84
+    },
+    {
+      "text": "that provides privacy and data security",
+      "start": 65.119,
+      "duration": 3.281
+    },
+    {
+      "text": "training programs to businesses,",
+      "start": 66.96,
+      "duration": 2.96
+    },
+    {
+      "text": "schools, healthcare institutions and",
+      "start": 68.4,
+      "duration": 3.52
+    },
+    {
+      "text": "other organizations. He is an",
+      "start": 69.92,
+      "duration": 4.08
+    },
+    {
+      "text": "internationally known expert in privacy",
+      "start": 71.92,
+      "duration": 3.92
+    },
+    {
+      "text": "law and he has been interviewed and",
+      "start": 74.0,
+      "duration": 3.52
+    },
+    {
+      "text": "quoted by the media in several hundred",
+      "start": 75.84,
+      "duration": 3.2
+    },
+    {
+      "text": "articles and broadcasts including New",
+      "start": 77.52,
+      "duration": 3.36
+    },
+    {
+      "text": "York Times, Washington Post, Wall Street",
+      "start": 79.04,
+      "duration": 4.0
+    },
+    {
+      "text": "Journal, USA Today, Chicago Tribute and",
+      "start": 80.88,
+      "duration": 4.84
+    },
+    {
+      "text": "others. He has written numerous books",
+      "start": 83.04,
+      "duration": 4.88
+    },
+    {
+      "text": "including on privacy and technology",
+      "start": 85.72,
+      "duration": 4.6
+    },
+    {
+      "text": "which we'll be discussing today but also",
+      "start": 87.92,
+      "duration": 4.0
+    },
+    {
+      "text": "nothing to hide the false trade-off",
+      "start": 90.32,
+      "duration": 3.119
+    },
+    {
+      "text": "between privacy and security",
+      "start": 91.92,
+      "duration": 3.12
+    },
+    {
+      "text": "understanding privacy. Some people",
+      "start": 93.439,
+      "duration": 3.36
+    },
+    {
+      "text": "commented uh when I asked on LinkedIn",
+      "start": 95.04,
+      "duration": 3.36
+    },
+    {
+      "text": "that what was the your your book that",
+      "start": 96.799,
+      "duration": 4.401
+    },
+    {
+      "text": "they most enjoy and and some people",
+      "start": 98.4,
+      "duration": 5.44
+    },
+    {
+      "text": "commented uh understanding privacy uh",
+      "start": 101.2,
+      "duration": 4.8
+    },
+    {
+      "text": "the future of reputation gossip rumor",
+      "start": 103.84,
+      "duration": 4.0
+    },
+    {
+      "text": "and privacy on the internet and other",
+      "start": 106.0,
+      "duration": 3.84
+    },
+    {
+      "text": "books. He has also written a ch",
+      "start": 107.84,
+      "duration": 3.68
+    },
+    {
+      "text": "children's fiction book about privacy",
+      "start": 109.84,
+      "duration": 3.44
+    },
+    {
+      "text": "called the eye monger. So if if you",
+      "start": 111.52,
+      "duration": 3.68
+    },
+    {
+      "text": "didn't know that so you if you have kids",
+      "start": 113.28,
+      "duration": 4.0
+    },
+    {
+      "text": "you should check it out. Uh professor",
+      "start": 115.2,
+      "duration": 3.919
+    },
+    {
+      "text": "solv has written more than a 100 law",
+      "start": 117.28,
+      "duration": 3.36
+    },
+    {
+      "text": "review articles in the Harvard Law",
+      "start": 119.119,
+      "duration": 3.201
+    },
+    {
+      "text": "Review, Yale Law Journal, Stanford Law",
+      "start": 120.64,
+      "duration": 4.24
+    },
+    {
+      "text": "Review and others. Um he is the founder",
+      "start": 122.32,
+      "duration": 4.479
+    },
+    {
+      "text": "and co-organizer of several annual",
+      "start": 124.88,
+      "duration": 3.439
+    },
+    {
+      "text": "conferences including the privacy and",
+      "start": 126.799,
+      "duration": 3.6
+    },
+    {
+      "text": "security forum which is happening uh",
+      "start": 128.319,
+      "duration": 4.081
+    },
+    {
+      "text": "very soon I think next week right then",
+      "start": 130.399,
+      "duration": 5.121
+    },
+    {
+      "text": "it's next week or two weeks a few weeks",
+      "start": 132.4,
+      "duration": 6.16
+    },
+    {
+      "text": "early May early May and also the privacy",
+      "start": 135.52,
+      "duration": 6.0
+    },
+    {
+      "text": "law scholars conference and he's one of",
+      "start": 138.56,
+      "duration": 6.24
+    },
+    {
+      "text": "the most cited law scholars of all time",
+      "start": 141.52,
+      "duration": 5.359
+    },
+    {
+      "text": "and we are here today to discuss of",
+      "start": 144.8,
+      "duration": 4.079
+    },
+    {
+      "text": "course AI the intersection of privacy",
+      "start": 146.879,
+      "duration": 5.281
+    },
+    {
+      "text": "and AI and his new book on privacy and",
+      "start": 148.879,
+      "duration": 5.281
+    },
+    {
+      "text": "technology so welcome Welcome Dan. I'm",
+      "start": 152.16,
+      "duration": 5.6
+    },
+    {
+      "text": "so happy to have you again. Um let's",
+      "start": 154.16,
+      "duration": 4.96
+    },
+    {
+      "text": "start. So we are talking we are",
+      "start": 157.76,
+      "duration": 4.479
+    },
+    {
+      "text": "celebrating your uh outstanding career",
+      "start": 159.12,
+      "duration": 4.88
+    },
+    {
+      "text": "in privacy. Before we talk about your",
+      "start": 162.239,
+      "duration": 3.521
+    },
+    {
+      "text": "book, do you want to share a bit of",
+      "start": 164.0,
+      "duration": 3.36
+    },
+    {
+      "text": "really uh whatever you want to share",
+      "start": 165.76,
+      "duration": 4.72
+    },
+    {
+      "text": "about why you decided to focus on",
+      "start": 167.36,
+      "duration": 5.44
+    },
+    {
+      "text": "privacy? Why did you decide to build",
+      "start": 170.48,
+      "duration": 4.88
+    },
+    {
+      "text": "this uh long career in the field of",
+      "start": 172.8,
+      "duration": 4.079
+    },
+    {
+      "text": "privacy? What's interesting? What's",
+      "start": 175.36,
+      "duration": 2.72
+    },
+    {
+      "text": "nice? Especially maybe there are some",
+      "start": 176.879,
+      "duration": 3.041
+    },
+    {
+      "text": "people in the audience that maybe they",
+      "start": 178.08,
+      "duration": 3.439
+    },
+    {
+      "text": "are still in law school. maybe they're",
+      "start": 179.92,
+      "duration": 3.44
+    },
+    {
+      "text": "trying to decide where if they want to",
+      "start": 181.519,
+      "duration": 3.601
+    },
+    {
+      "text": "be privacy professional. So what's about",
+      "start": 183.36,
+      "duration": 4.56
+    },
+    {
+      "text": "privacy that is so interesting?",
+      "start": 185.12,
+      "duration": 5.039
+    },
+    {
+      "text": "Well, I started actually in law school",
+      "start": 187.92,
+      "duration": 5.2
+    },
+    {
+      "text": "in the mid 90s. I took a course on cyber",
+      "start": 190.159,
+      "duration": 5.44
+    },
+    {
+      "text": "law. Uh one of the very first that was",
+      "start": 193.12,
+      "duration": 4.8
+    },
+    {
+      "text": "taught and uh I really found the issues",
+      "start": 195.599,
+      "duration": 4.56
+    },
+    {
+      "text": "fascinating. I thought that the internet",
+      "start": 197.92,
+      "duration": 4.56
+    },
+    {
+      "text": "was here to stay. At the time it wasn't",
+      "start": 200.159,
+      "duration": 4.401
+    },
+    {
+      "text": "clear that the internet uh was here to",
+      "start": 202.48,
+      "duration": 4.08
+    },
+    {
+      "text": "stay. Uh people thought it was just a",
+      "start": 204.56,
+      "duration": 4.48
+    },
+    {
+      "text": "passing fad. uh but I really thought",
+      "start": 206.56,
+      "duration": 5.28
+    },
+    {
+      "text": "they it was here and there were very",
+      "start": 209.04,
+      "duration": 5.04
+    },
+    {
+      "text": "fascinating issues with it and one was",
+      "start": 211.84,
+      "duration": 4.479
+    },
+    {
+      "text": "privacy. So I started writing about",
+      "start": 214.08,
+      "duration": 4.879
+    },
+    {
+      "text": "privacy thinking it would just be",
+      "start": 216.319,
+      "duration": 4.56
+    },
+    {
+      "text": "something I would write a paper or two",
+      "start": 218.959,
+      "duration": 4.241
+    },
+    {
+      "text": "on and that's it. Uh but it turned out",
+      "start": 220.879,
+      "duration": 6.72
+    },
+    {
+      "text": "that privacy uh is really big. It it's a",
+      "start": 223.2,
+      "duration": 6.72
+    },
+    {
+      "text": "you know it's a rabbit hole into a a",
+      "start": 227.599,
+      "duration": 5.521
+    },
+    {
+      "text": "gigantic wonderland of issues that I",
+      "start": 229.92,
+      "duration": 5.599
+    },
+    {
+      "text": "found fascinating. And so I stuck with",
+      "start": 233.12,
+      "duration": 5.119
+    },
+    {
+      "text": "it and have been just writing about it",
+      "start": 235.519,
+      "duration": 6.0
+    },
+    {
+      "text": "privacy ever since. And do you mentioned",
+      "start": 238.239,
+      "duration": 4.801
+    },
+    {
+      "text": "the beginning of the internet, you",
+      "start": 241.519,
+      "duration": 4.161
+    },
+    {
+      "text": "thought it was just maybe a trend. Do",
+      "start": 243.04,
+      "duration": 4.479
+    },
+    {
+      "text": "you see similarities with the beginning",
+      "start": 245.68,
+      "duration": 3.68
+    },
+    {
+      "text": "of the internet and what we see now with",
+      "start": 247.519,
+      "duration": 4.0
+    },
+    {
+      "text": "AI? Do there are there similarities",
+      "start": 249.36,
+      "duration": 4.799
+    },
+    {
+      "text": "especially uh from a maybe tech",
+      "start": 251.519,
+      "duration": 5.361
+    },
+    {
+      "text": "perspective are those major issues that",
+      "start": 254.159,
+      "duration": 4.401
+    },
+    {
+      "text": "are only going to become bigger? Maybe",
+      "start": 256.88,
+      "duration": 2.96
+    },
+    {
+      "text": "it was the same what we saw with",
+      "start": 258.56,
+      "duration": 2.799
+    },
+    {
+      "text": "privacy. We've seen new issues with the",
+      "start": 259.84,
+      "duration": 3.68
+    },
+    {
+      "text": "do you see similarities? I think there",
+      "start": 261.359,
+      "duration": 4.481
+    },
+    {
+      "text": "are some similarities definitely um you",
+      "start": 263.52,
+      "duration": 4.32
+    },
+    {
+      "text": "know I think one is that you know AI is",
+      "start": 265.84,
+      "duration": 4.48
+    },
+    {
+      "text": "not anything really that that new I mean",
+      "start": 267.84,
+      "duration": 3.919
+    },
+    {
+      "text": "that what's new is that it's more",
+      "start": 270.32,
+      "duration": 3.599
+    },
+    {
+      "text": "powerful that the technologies have",
+      "start": 271.759,
+      "duration": 5.921
+    },
+    {
+      "text": "really been fueled by the uh the vast",
+      "start": 273.919,
+      "duration": 6.72
+    },
+    {
+      "text": "amount of data out there now and the uh",
+      "start": 277.68,
+      "duration": 4.799
+    },
+    {
+      "text": "increased computing power but a lot of",
+      "start": 280.639,
+      "duration": 3.681
+    },
+    {
+      "text": "the technologies are ones that have been",
+      "start": 282.479,
+      "duration": 4.561
+    },
+    {
+      "text": "developed for a long time um and they've",
+      "start": 284.32,
+      "duration": 5.2
+    },
+    {
+      "text": "been evolving uh and uh there's been",
+      "start": 287.04,
+      "duration": 6.64
+    },
+    {
+      "text": "talk of AI for you know 50 70 years. Uh",
+      "start": 289.52,
+      "duration": 6.88
+    },
+    {
+      "text": "and and and also I think that there are",
+      "start": 293.68,
+      "duration": 4.88
+    },
+    {
+      "text": "also some lessons to be learned here too",
+      "start": 296.4,
+      "duration": 7.48
+    },
+    {
+      "text": "in that um there you know a AI is a",
+      "start": 298.56,
+      "duration": 8.32
+    },
+    {
+      "text": "continuation of issues that have been",
+      "start": 303.88,
+      "duration": 6.36
+    },
+    {
+      "text": "arising already. Uh and so there's",
+      "start": 306.88,
+      "duration": 4.96
+    },
+    {
+      "text": "something new there but there's also",
+      "start": 310.24,
+      "duration": 5.12
+    },
+    {
+      "text": "something old. And I think that there's",
+      "start": 311.84,
+      "duration": 5.44
+    },
+    {
+      "text": "uh a tendency to think, oh, well, it's",
+      "start": 315.36,
+      "duration": 3.6
+    },
+    {
+      "text": "AI, so we're going to treat it radically",
+      "start": 317.28,
+      "duration": 3.44
+    },
+    {
+      "text": "differently than everything else, and we",
+      "start": 318.96,
+      "duration": 5.28
+    },
+    {
+      "text": "need uh all these new special laws. Uh",
+      "start": 320.72,
+      "duration": 5.919
+    },
+    {
+      "text": "and one thing I think is uh that we we",
+      "start": 324.24,
+      "duration": 4.64
+    },
+    {
+      "text": "shouldn't forget the existing privacy",
+      "start": 326.639,
+      "duration": 5.28
+    },
+    {
+      "text": "laws that we have. Uh the existing",
+      "start": 328.88,
+      "duration": 5.28
+    },
+    {
+      "text": "privacy laws deal with privacy issues",
+      "start": 331.919,
+      "duration": 6.481
+    },
+    {
+      "text": "that are not dealt with by a new AI law.",
+      "start": 334.16,
+      "duration": 8.08
+    },
+    {
+      "text": "Uh I do think AI creates the need for us",
+      "start": 338.4,
+      "duration": 7.28
+    },
+    {
+      "text": "to rethink privacy laws. Uh but this is",
+      "start": 342.24,
+      "duration": 5.2
+    },
+    {
+      "text": "something that privacy scholars have",
+      "start": 345.68,
+      "duration": 4.32
+    },
+    {
+      "text": "been arguing for decades now that the",
+      "start": 347.44,
+      "duration": 4.64
+    },
+    {
+      "text": "privacy laws and the approaches they",
+      "start": 350.0,
+      "duration": 4.88
+    },
+    {
+      "text": "take now don't work. Uh have never",
+      "start": 352.08,
+      "duration": 6.8
+    },
+    {
+      "text": "worked. AI really makes that more clear.",
+      "start": 354.88,
+      "duration": 6.96
+    },
+    {
+      "text": "But it it's always been the case. Uh and",
+      "start": 358.88,
+      "duration": 5.52
+    },
+    {
+      "text": "so uh I think the answer is let's go",
+      "start": 361.84,
+      "duration": 5.84
+    },
+    {
+      "text": "back and fix these laws uh and rework",
+      "start": 364.4,
+      "duration": 7.12
+    },
+    {
+      "text": "the laws so they actually work. Uh not",
+      "start": 367.68,
+      "duration": 8.32
+    },
+    {
+      "text": "to say oh wow AI is so different that we",
+      "start": 371.52,
+      "duration": 6.64
+    },
+    {
+      "text": "uh have to just do something entirely",
+      "start": 376.0,
+      "duration": 5.759
+    },
+    {
+      "text": "different uh which might omit and uh",
+      "start": 378.16,
+      "duration": 6.4
+    },
+    {
+      "text": "leave behind these ex this existing",
+      "start": 381.759,
+      "duration": 5.041
+    },
+    {
+      "text": "privacy law infrastructure which is",
+      "start": 384.56,
+      "duration": 5.6
+    },
+    {
+      "text": "outdated and and not working. So, it's",
+      "start": 386.8,
+      "duration": 5.76
+    },
+    {
+      "text": "it's uh it's taking the right lessons",
+      "start": 390.16,
+      "duration": 5.599
+    },
+    {
+      "text": "from AI uh and and how it's developed",
+      "start": 392.56,
+      "duration": 5.359
+    },
+    {
+      "text": "because there are a lot of things about",
+      "start": 395.759,
+      "duration": 5.521
+    },
+    {
+      "text": "the AI we're talking about today that I",
+      "start": 397.919,
+      "duration": 6.961
+    },
+    {
+      "text": "talked about 25 years ago. uh and",
+      "start": 401.28,
+      "duration": 5.759
+    },
+    {
+      "text": "there's still the same problem just that",
+      "start": 404.88,
+      "duration": 6.64
+    },
+    {
+      "text": "it's more uh more salient uh faster uh",
+      "start": 407.039,
+      "duration": 7.6
+    },
+    {
+      "text": "you know vaster uh but it's basically",
+      "start": 411.52,
+      "duration": 4.679
+    },
+    {
+      "text": "the same",
+      "start": 414.639,
+      "duration": 3.761
+    },
+    {
+      "text": "problem and and I'm also curious now",
+      "start": 416.199,
+      "duration": 5.321
+    },
+    {
+      "text": "that you're mentioning uh AI and and how",
+      "start": 418.4,
+      "duration": 4.919
+    },
+    {
+      "text": "do you see these issues as a",
+      "start": 421.52,
+      "duration": 4.0
+    },
+    {
+      "text": "continuation what was the motivations",
+      "start": 423.319,
+      "duration": 5.16
+    },
+    {
+      "text": "when I when I I read your book so I I I",
+      "start": 425.52,
+      "duration": 5.6
+    },
+    {
+      "text": "see it is such an interesting summary of",
+      "start": 428.479,
+      "duration": 4.481
+    },
+    {
+      "text": "things that we have been discussing for",
+      "start": 431.12,
+      "duration": 3.76
+    },
+    {
+      "text": "for for more than 20 years, right? When",
+      "start": 432.96,
+      "duration": 3.2
+    },
+    {
+      "text": "you have this the session, we're going",
+      "start": 434.88,
+      "duration": 3.439
+    },
+    {
+      "text": "to I'm going to bring some questions",
+      "start": 436.16,
+      "duration": 4.159
+    },
+    {
+      "text": "about that, you discuss the myth the",
+      "start": 438.319,
+      "duration": 4.0
+    },
+    {
+      "text": "myth, right? The myth which we've been",
+      "start": 440.319,
+      "duration": 3.6
+    },
+    {
+      "text": "discussing private, the myth of the",
+      "start": 442.319,
+      "duration": 4.16
+    },
+    {
+      "text": "privacy paradox, the myth of tech",
+      "start": 443.919,
+      "duration": 4.56
+    },
+    {
+      "text": "exceptionalism, the myth of regulation",
+      "start": 446.479,
+      "duration": 4.081
+    },
+    {
+      "text": "stifles innovation and so on. So this is",
+      "start": 448.479,
+      "duration": 4.401
+    },
+    {
+      "text": "has been going on for so long. And I'm",
+      "start": 450.56,
+      "duration": 4.72
+    },
+    {
+      "text": "also curious kind of a meta question as",
+      "start": 452.88,
+      "duration": 4.8
+    },
+    {
+      "text": "well. So why on privacy and technology",
+      "start": 455.28,
+      "duration": 5.44
+    },
+    {
+      "text": "now? Why why publishing it in 2025? What",
+      "start": 457.68,
+      "duration": 4.72
+    },
+    {
+      "text": "was the probably you've been writing",
+      "start": 460.72,
+      "duration": 4.96
+    },
+    {
+      "text": "since before but why do you think that",
+      "start": 462.4,
+      "duration": 5.76
+    },
+    {
+      "text": "this where the inspiration came from and",
+      "start": 465.68,
+      "duration": 4.56
+    },
+    {
+      "text": "why now if especially when when I'm",
+      "start": 468.16,
+      "duration": 4.319
+    },
+    {
+      "text": "reading it I see wow this is such a it",
+      "start": 470.24,
+      "duration": 4.48
+    },
+    {
+      "text": "it feels like a map a road map",
+      "start": 472.479,
+      "duration": 4.72
+    },
+    {
+      "text": "especially for if there there's someone",
+      "start": 474.72,
+      "duration": 5.36
+    },
+    {
+      "text": "deciding to or thinking about becoming a",
+      "start": 477.199,
+      "duration": 5.041
+    },
+    {
+      "text": "privacy professional I would say read on",
+      "start": 480.08,
+      "duration": 4.16
+    },
+    {
+      "text": "privacy and technology and if you ident",
+      "start": 482.24,
+      "duration": 3.6
+    },
+    {
+      "text": "if you if you see yourself there if you",
+      "start": 484.24,
+      "duration": 3.84
+    },
+    {
+      "text": "if you really if you get excited about",
+      "start": 485.84,
+      "duration": 3.68
+    },
+    {
+      "text": "those questions that that's probably",
+      "start": 488.08,
+      "duration": 4.0
+    },
+    {
+      "text": "your the place. So, so why on privacy",
+      "start": 489.52,
+      "duration": 5.359
+    },
+    {
+      "text": "technology being published in 2025?",
+      "start": 492.08,
+      "duration": 4.239
+    },
+    {
+      "text": "Well, thanks so much for the kind words",
+      "start": 494.879,
+      "duration": 3.361
+    },
+    {
+      "text": "about the book. I I truly appreciate",
+      "start": 496.319,
+      "duration": 5.041
+    },
+    {
+      "text": "that. And um the book uh there really",
+      "start": 498.24,
+      "duration": 5.12
+    },
+    {
+      "text": "two things that inspired the book. One",
+      "start": 501.36,
+      "duration": 5.76
+    },
+    {
+      "text": "was I read uh uh Timothy Snider's on",
+      "start": 503.36,
+      "duration": 5.839
+    },
+    {
+      "text": "tyranny. And what impressed me about it",
+      "start": 507.12,
+      "duration": 5.839
+    },
+    {
+      "text": "was how succinct he was uh and how he",
+      "start": 509.199,
+      "duration": 6.161
+    },
+    {
+      "text": "captured his thinking in a very",
+      "start": 512.959,
+      "duration": 4.64
+    },
+    {
+      "text": "accessible short book. And I thought",
+      "start": 515.36,
+      "duration": 5.44
+    },
+    {
+      "text": "that's a really neat idea. Uh maybe I",
+      "start": 517.599,
+      "duration": 5.12
+    },
+    {
+      "text": "should try something like that. I'm not",
+      "start": 520.8,
+      "duration": 5.24
+    },
+    {
+      "text": "ordinarily uh concise. Uh I I I can be",
+      "start": 522.719,
+      "duration": 5.521
+    },
+    {
+      "text": "long-winded. So I thought this would be",
+      "start": 526.04,
+      "duration": 3.799
+    },
+    {
+      "text": "an interesting thing to do. And then the",
+      "start": 528.24,
+      "duration": 4.159
+    },
+    {
+      "text": "other thing uh was that uh it was when I",
+      "start": 529.839,
+      "duration": 4.881
+    },
+    {
+      "text": "started writing it, it was approaching",
+      "start": 532.399,
+      "duration": 5.041
+    },
+    {
+      "text": "uh the 25 year mark for when I began",
+      "start": 534.72,
+      "duration": 5.6
+    },
+    {
+      "text": "teaching. And so I realized, wow, I I've",
+      "start": 537.44,
+      "duration": 5.519
+    },
+    {
+      "text": "I've been uh thinking about privacy for",
+      "start": 540.32,
+      "duration": 5.44
+    },
+    {
+      "text": "roughly a quarter century now. uh so",
+      "start": 542.959,
+      "duration": 8.081
+    },
+    {
+      "text": "it's a good time to reflect on uh this",
+      "start": 545.76,
+      "duration": 8.4
+    },
+    {
+      "text": "time and see what what how did the",
+      "start": 551.04,
+      "duration": 6.08
+    },
+    {
+      "text": "thinking evolve and and and what uh is",
+      "start": 554.16,
+      "duration": 6.32
+    },
+    {
+      "text": "the same from 25 years ago and what's",
+      "start": 557.12,
+      "duration": 6.48
+    },
+    {
+      "text": "new. Uh so that also inspired me and",
+      "start": 560.48,
+      "duration": 6.64
+    },
+    {
+      "text": "then uh that raised the the animating",
+      "start": 563.6,
+      "duration": 6.32
+    },
+    {
+      "text": "question of the book which is can",
+      "start": 567.12,
+      "duration": 5.12
+    },
+    {
+      "text": "privacy law keep up with rapidly",
+      "start": 569.92,
+      "duration": 5.599
+    },
+    {
+      "text": "changing digital technologies like AI uh",
+      "start": 572.24,
+      "duration": 5.039
+    },
+    {
+      "text": "because you know when I started this you",
+      "start": 575.519,
+      "duration": 5.601
+    },
+    {
+      "text": "know the AI craze uh was uh really in",
+      "start": 577.279,
+      "duration": 6.961
+    },
+    {
+      "text": "its uh you know it still is uh but you",
+      "start": 581.12,
+      "duration": 4.88
+    },
+    {
+      "text": "know it had started and everyone's",
+      "start": 584.24,
+      "duration": 4.4
+    },
+    {
+      "text": "talking about it and uh here we go again",
+      "start": 586.0,
+      "duration": 5.68
+    },
+    {
+      "text": "with a kind of bold new issue. And I",
+      "start": 588.64,
+      "duration": 4.96
+    },
+    {
+      "text": "realized, you know, well, you know, I've",
+      "start": 591.68,
+      "duration": 5.68
+    },
+    {
+      "text": "been through the days when uh, you know,",
+      "start": 593.6,
+      "duration": 6.48
+    },
+    {
+      "text": "before the term big data was used and I",
+      "start": 597.36,
+      "duration": 4.8
+    },
+    {
+      "text": "was struggling to find a term. I wrote a",
+      "start": 600.08,
+      "duration": 4.56
+    },
+    {
+      "text": "paper with the term computer databases",
+      "start": 602.16,
+      "duration": 4.48
+    },
+    {
+      "text": "in it uh because we didn't have other",
+      "start": 604.64,
+      "duration": 4.4
+    },
+    {
+      "text": "terms and then we had the term big data",
+      "start": 606.64,
+      "duration": 5.36
+    },
+    {
+      "text": "and I used the term aggregation of data.",
+      "start": 609.04,
+      "duration": 8.0
+    },
+    {
+      "text": "Uh, then uh along came uh data mining.",
+      "start": 612.0,
+      "duration": 10.0
+    },
+    {
+      "text": "Uh then there was um uh talk about um uh",
+      "start": 617.04,
+      "duration": 8.88
+    },
+    {
+      "text": "things like uh algorithms and inference",
+      "start": 622.0,
+      "duration": 6.48
+    },
+    {
+      "text": "and then uh we had the internet of",
+      "start": 625.92,
+      "duration": 4.56
+    },
+    {
+      "text": "things was very big and everyone was",
+      "start": 628.48,
+      "duration": 3.44
+    },
+    {
+      "text": "talking about the internet of things and",
+      "start": 630.48,
+      "duration": 4.24
+    },
+    {
+      "text": "all the connected devices",
+      "start": 631.92,
+      "duration": 6.96
+    },
+    {
+      "text": "uh and uh you know now it's AI uh so",
+      "start": 634.72,
+      "duration": 6.4
+    },
+    {
+      "text": "we've seen the kind of different terms",
+      "start": 638.88,
+      "duration": 4.48
+    },
+    {
+      "text": "cycle through different things that were",
+      "start": 641.12,
+      "duration": 4.64
+    },
+    {
+      "text": "really hot issues. I remember days when",
+      "start": 643.36,
+      "duration": 5.12
+    },
+    {
+      "text": "everyone's talking about the cloud as a",
+      "start": 645.76,
+      "duration": 5.759
+    },
+    {
+      "text": "big issue. Uh so it's it's interesting",
+      "start": 648.48,
+      "duration": 5.68
+    },
+    {
+      "text": "just watching the debate and the",
+      "start": 651.519,
+      "duration": 6.081
+    },
+    {
+      "text": "discussion and the issues move by. Uh",
+      "start": 654.16,
+      "duration": 5.2
+    },
+    {
+      "text": "and then I wanted to take a step back",
+      "start": 657.6,
+      "duration": 3.44
+    },
+    {
+      "text": "and think okay what can we learn from",
+      "start": 659.36,
+      "duration": 5.12
+    },
+    {
+      "text": "all this? uh what what can I uh it if I",
+      "start": 661.04,
+      "duration": 7.52
+    },
+    {
+      "text": "reflect back what what you know what's",
+      "start": 664.48,
+      "duration": 7.039
+    },
+    {
+      "text": "constant uh and what's really changing",
+      "start": 668.56,
+      "duration": 5.519
+    },
+    {
+      "text": "what's what's different",
+      "start": 671.519,
+      "duration": 5.201
+    },
+    {
+      "text": "and a warning to those so it is concise",
+      "start": 674.079,
+      "duration": 4.401
+    },
+    {
+      "text": "but it's very complex at the same time",
+      "start": 676.72,
+      "duration": 4.72
+    },
+    {
+      "text": "so you you I would say when I compare to",
+      "start": 678.48,
+      "duration": 4.72
+    },
+    {
+      "text": "for example understanding privacy this",
+      "start": 681.44,
+      "duration": 4.88
+    },
+    {
+      "text": "one use I would say slightly uh more",
+      "start": 683.2,
+      "duration": 5.12
+    },
+    {
+      "text": "more simple more more straightforward",
+      "start": 686.32,
+      "duration": 3.759
+    },
+    {
+      "text": "language but it's also very complex so",
+      "start": 688.32,
+      "duration": 3.36
+    },
+    {
+      "text": "it can be tricky especially for for for",
+      "start": 690.079,
+      "duration": 5.121
+    },
+    {
+      "text": "for for people who are not in privacy uh",
+      "start": 691.68,
+      "duration": 6.0
+    },
+    {
+      "text": "I would say it is concise but they have",
+      "start": 695.2,
+      "duration": 5.36
+    },
+    {
+      "text": "to to study more to to really understand",
+      "start": 697.68,
+      "duration": 4.48
+    },
+    {
+      "text": "what's written especially some of the",
+      "start": 700.56,
+      "duration": 3.76
+    },
+    {
+      "text": "sessions we we're going to discuss today",
+      "start": 702.16,
+      "duration": 4.6
+    },
+    {
+      "text": "so so professor",
+      "start": 704.32,
+      "duration": 5.6
+    },
+    {
+      "text": "solv parts so part one how to think",
+      "start": 706.76,
+      "duration": 5.639
+    },
+    {
+      "text": "about privacy and technology part two",
+      "start": 709.92,
+      "duration": 5.12
+    },
+    {
+      "text": "dimensions of technological change and",
+      "start": 712.399,
+      "duration": 5.281
+    },
+    {
+      "text": "part three power law and accountability",
+      "start": 715.04,
+      "duration": 5.76
+    },
+    {
+      "text": "so I brought some topics and questions",
+      "start": 717.68,
+      "duration": 5.2
+    },
+    {
+      "text": "so that we can navigate the book with",
+      "start": 720.8,
+      "duration": 4.24
+    },
+    {
+      "text": "but with also discussing things that are",
+      "start": 722.88,
+      "duration": 6.16
+    },
+    {
+      "text": "going on in AI uh open open AI meta",
+      "start": 725.04,
+      "duration": 5.919
+    },
+    {
+      "text": "gibli chup everything especially if",
+      "start": 729.04,
+      "duration": 3.2
+    },
+    {
+      "text": "you're reading the newsletter you know",
+      "start": 730.959,
+      "duration": 3.841
+    },
+    {
+      "text": "what I'm talking about so first on part",
+      "start": 732.24,
+      "duration": 5.12
+    },
+    {
+      "text": "one I want to highlight one of the",
+      "start": 734.8,
+      "duration": 4.4
+    },
+    {
+      "text": "chapters where you discuss where you",
+      "start": 737.36,
+      "duration": 4.0
+    },
+    {
+      "text": "discuss some of the myths that we we",
+      "start": 739.2,
+      "duration": 4.319
+    },
+    {
+      "text": "know in privacy so the first one first",
+      "start": 741.36,
+      "duration": 4.719
+    },
+    {
+      "text": "question is about the myth of the",
+      "start": 743.519,
+      "duration": 6.32
+    },
+    {
+      "text": "privacy paradox so privacy paradox for",
+      "start": 746.079,
+      "duration": 5.281
+    },
+    {
+      "text": "those in the audience who don't know",
+      "start": 749.839,
+      "duration": 2.8
+    },
+    {
+      "text": "maybe you're not from the privacy field.",
+      "start": 751.36,
+      "duration": 4.0
+    },
+    {
+      "text": "So is this this idea or this situation",
+      "start": 752.639,
+      "duration": 5.681
+    },
+    {
+      "text": "where people say they care about privacy",
+      "start": 755.36,
+      "duration": 4.96
+    },
+    {
+      "text": "maybe if you ask them but then they act",
+      "start": 758.32,
+      "duration": 4.639
+    },
+    {
+      "text": "in ways that are not privacy preserving",
+      "start": 760.32,
+      "duration": 4.72
+    },
+    {
+      "text": "or they they keep sharing online or they",
+      "start": 762.959,
+      "duration": 4.32
+    },
+    {
+      "text": "they they don't really protect their",
+      "start": 765.04,
+      "duration": 4.0
+    },
+    {
+      "text": "privacy. So do people really care about",
+      "start": 767.279,
+      "duration": 4.441
+    },
+    {
+      "text": "privacy? So we have this this big",
+      "start": 769.04,
+      "duration": 5.76
+    },
+    {
+      "text": "question mark and I want to bring and",
+      "start": 771.72,
+      "duration": 5.239
+    },
+    {
+      "text": "maybe you can expand on that in your",
+      "start": 774.8,
+      "duration": 4.159
+    },
+    {
+      "text": "answer then too but I want to bring to",
+      "start": 776.959,
+      "duration": 5.12
+    },
+    {
+      "text": "this uh topic the privacy paradox uh the",
+      "start": 778.959,
+      "duration": 4.801
+    },
+    {
+      "text": "Gibli effect. So you probably heard",
+      "start": 782.079,
+      "duration": 4.401
+    },
+    {
+      "text": "about right so Cha uh a few weeks ago",
+      "start": 783.76,
+      "duration": 6.48
+    },
+    {
+      "text": "two weeks ago uh OpenAI launched a new",
+      "start": 786.48,
+      "duration": 6.72
+    },
+    {
+      "text": "image so it upgraded its image generator",
+      "start": 790.24,
+      "duration": 5.279
+    },
+    {
+      "text": "and one of so it became I wrote about it",
+      "start": 793.2,
+      "duration": 3.92
+    },
+    {
+      "text": "in newsletter in the same day so it",
+      "start": 795.519,
+      "duration": 3.44
+    },
+    {
+      "text": "became much more accurate so you could",
+      "start": 797.12,
+      "duration": 4.159
+    },
+    {
+      "text": "have some continuity so you could be you",
+      "start": 798.959,
+      "duration": 3.841
+    },
+    {
+      "text": "could keep prompting and it would be",
+      "start": 801.279,
+      "duration": 4.081
+    },
+    {
+      "text": "basically editing your image and also",
+      "start": 802.8,
+      "duration": 4.88
+    },
+    {
+      "text": "it's one of the features and and Sam",
+      "start": 805.36,
+      "duration": 4.719
+    },
+    {
+      "text": "Alman himself launched this new trend",
+      "start": 807.68,
+      "duration": 5.04
+    },
+    {
+      "text": "during the during OpenAI's live He",
+      "start": 810.079,
+      "duration": 5.2
+    },
+    {
+      "text": "published an image of himself in this uh",
+      "start": 812.72,
+      "duration": 4.88
+    },
+    {
+      "text": "Japanese enemy style. So, Gibli Gibli",
+      "start": 815.279,
+      "duration": 4.961
+    },
+    {
+      "text": "Gibli studio. So, he he published he",
+      "start": 817.6,
+      "duration": 5.12
+    },
+    {
+      "text": "posted a picture of himself. So, here it",
+      "start": 820.24,
+      "duration": 4.399
+    },
+    {
+      "text": "goes. It started a major trend and",
+      "start": 822.72,
+      "duration": 3.84
+    },
+    {
+      "text": "OpenAI themselves. They were impressed",
+      "start": 824.639,
+      "duration": 4.561
+    },
+    {
+      "text": "by how many new uh images were being",
+      "start": 826.56,
+      "duration": 4.48
+    },
+    {
+      "text": "uploaded. So, people were uploading all",
+      "start": 829.2,
+      "duration": 3.759
+    },
+    {
+      "text": "sorts of personal images of themselves,",
+      "start": 831.04,
+      "duration": 3.76
+    },
+    {
+      "text": "of their families, of everything became",
+      "start": 832.959,
+      "duration": 4.401
+    },
+    {
+      "text": "Giblified. So, the Gibli effect and I",
+      "start": 834.8,
+      "duration": 4.96
+    },
+    {
+      "text": "wrote about it. Well, this is from a",
+      "start": 837.36,
+      "duration": 4.0
+    },
+    {
+      "text": "privacy perspective. This is so",
+      "start": 839.76,
+      "duration": 3.84
+    },
+    {
+      "text": "interesting. So they we have been all we",
+      "start": 841.36,
+      "duration": 5.039
+    },
+    {
+      "text": "have been having the discussion on on",
+      "start": 843.6,
+      "duration": 4.96
+    },
+    {
+      "text": "legitimate interest and lawfulness and",
+      "start": 846.399,
+      "duration": 5.041
+    },
+    {
+      "text": "how can companies AI companies lawfully",
+      "start": 848.56,
+      "duration": 4.639
+    },
+    {
+      "text": "train their models having in mind",
+      "start": 851.44,
+      "duration": 4.32
+    },
+    {
+      "text": "copyright or privacy laws and so on and",
+      "start": 853.199,
+      "duration": 5.281
+    },
+    {
+      "text": "openi had a great PR idea. So let's just",
+      "start": 855.76,
+      "duration": 4.72
+    },
+    {
+      "text": "start this trend and then people will",
+      "start": 858.48,
+      "duration": 3.84
+    },
+    {
+      "text": "voluntarily upload their images. So it's",
+      "start": 860.48,
+      "duration": 3.599
+    },
+    {
+      "text": "consent, right? They they're uploading",
+      "start": 862.32,
+      "duration": 3.84
+    },
+    {
+      "text": "the image. So it's they have read the",
+      "start": 864.079,
+      "duration": 3.841
+    },
+    {
+      "text": "privacy policy. They have they know",
+      "start": 866.16,
+      "duration": 4.96
+    },
+    {
+      "text": "what's what's this this this AI system",
+      "start": 867.92,
+      "duration": 5.359
+    },
+    {
+      "text": "is. So they're voluntarily uploading",
+      "start": 871.12,
+      "duration": 4.159
+    },
+    {
+      "text": "their image. We don't we're not we don't",
+      "start": 873.279,
+      "duration": 4.321
+    },
+    {
+      "text": "even we don't even need to scrape it",
+      "start": 875.279,
+      "duration": 4.481
+    },
+    {
+      "text": "from the internet. So how do we think",
+      "start": 877.6,
+      "duration": 4.4
+    },
+    {
+      "text": "about the privacy paradox in the context",
+      "start": 879.76,
+      "duration": 6.319
+    },
+    {
+      "text": "of AI? Especially if that's novelty and",
+      "start": 882.0,
+      "duration": 6.079
+    },
+    {
+      "text": "so this this thing that is novel",
+      "start": 886.079,
+      "duration": 3.681
+    },
+    {
+      "text": "everybody wants to be part of it and at",
+      "start": 888.079,
+      "duration": 4.0
+    },
+    {
+      "text": "the same time people want are are afraid",
+      "start": 889.76,
+      "duration": 4.079
+    },
+    {
+      "text": "of being replaced by it does it change",
+      "start": 892.079,
+      "duration": 3.601
+    },
+    {
+      "text": "in any way the privacy paradox so",
+      "start": 893.839,
+      "duration": 4.0
+    },
+    {
+      "text": "especially when we look at what gibli so",
+      "start": 895.68,
+      "duration": 3.839
+    },
+    {
+      "text": "people didn't care everybody is now",
+      "start": 897.839,
+      "duration": 4.24
+    },
+    {
+      "text": "giblifying themselves so how do we think",
+      "start": 899.519,
+      "duration": 5.521
+    },
+    {
+      "text": "about the myth of the privacy paradox in",
+      "start": 902.079,
+      "duration": 5.44
+    },
+    {
+      "text": "the context of AI and novelty and fear",
+      "start": 905.04,
+      "duration": 4.4
+    },
+    {
+      "text": "and I want to be part of it I I want to",
+      "start": 907.519,
+      "duration": 4.161
+    },
+    {
+      "text": "be I don't want want to be left out and",
+      "start": 909.44,
+      "duration": 4.8
+    },
+    {
+      "text": "and I'd love to hear your thoughts.",
+      "start": 911.68,
+      "duration": 4.88
+    },
+    {
+      "text": "Yeah. So, I I think that the privacy",
+      "start": 914.24,
+      "duration": 5.36
+    },
+    {
+      "text": "paradox is a myth uh that um it's",
+      "start": 916.56,
+      "duration": 4.88
+    },
+    {
+      "text": "definitely a phenomenon that happens.",
+      "start": 919.6,
+      "duration": 4.0
+    },
+    {
+      "text": "There seems to be this disjunction",
+      "start": 921.44,
+      "duration": 4.8
+    },
+    {
+      "text": "between people's stated attitudes where",
+      "start": 923.6,
+      "duration": 4.84
+    },
+    {
+      "text": "you give a poll and people will say",
+      "start": 926.24,
+      "duration": 4.56
+    },
+    {
+      "text": "overwhelmingly they value privacy and",
+      "start": 928.44,
+      "duration": 6.44
+    },
+    {
+      "text": "you have 80% 90% 95% saying privacy is",
+      "start": 930.8,
+      "duration": 5.68
+    },
+    {
+      "text": "very important. And then you look at",
+      "start": 934.88,
+      "duration": 2.959
+    },
+    {
+      "text": "their behavior and they'll do things",
+      "start": 936.48,
+      "duration": 6.08
+    },
+    {
+      "text": "like load up their photo uh to uh you",
+      "start": 937.839,
+      "duration": 7.761
+    },
+    {
+      "text": "know whatever site to do whatever use",
+      "start": 942.56,
+      "duration": 6.639
+    },
+    {
+      "text": "apps uh not uh you know look at their",
+      "start": 945.6,
+      "duration": 7.039
+    },
+    {
+      "text": "privacy settings uh not get you know get",
+      "start": 949.199,
+      "duration": 5.361
+    },
+    {
+      "text": "access to the data that companies have",
+      "start": 952.639,
+      "duration": 3.921
+    },
+    {
+      "text": "and exercise their privacy rights and",
+      "start": 954.56,
+      "duration": 3.92
+    },
+    {
+      "text": "ask them to correct it or delete it.",
+      "start": 956.56,
+      "duration": 4.8
+    },
+    {
+      "text": "They won't do any of this stuff. Um so",
+      "start": 958.48,
+      "duration": 5.039
+    },
+    {
+      "text": "uh there are a number of uh folks that",
+      "start": 961.36,
+      "duration": 3.839
+    },
+    {
+      "text": "would say look this shows that people",
+      "start": 963.519,
+      "duration": 3.601
+    },
+    {
+      "text": "really don't care about privacy and we",
+      "start": 965.199,
+      "duration": 3.361
+    },
+    {
+      "text": "shouldn't regulate that much about",
+      "start": 967.12,
+      "duration": 3.44
+    },
+    {
+      "text": "privacy because people just are giving",
+      "start": 968.56,
+      "duration": 4.56
+    },
+    {
+      "text": "away their data for free and and just",
+      "start": 970.56,
+      "duration": 5.44
+    },
+    {
+      "text": "gave it away uh to use some cool feature",
+      "start": 973.12,
+      "duration": 6.24
+    },
+    {
+      "text": "on uh chat GPT or use AI or whatever",
+      "start": 976.0,
+      "duration": 6.079
+    },
+    {
+      "text": "they're doing. Um the I I think that the",
+      "start": 979.36,
+      "duration": 4.64
+    },
+    {
+      "text": "the phenomenon is explained in a",
+      "start": 982.079,
+      "duration": 3.841
+    },
+    {
+      "text": "different way. It certainly occurs but",
+      "start": 984.0,
+      "duration": 6.0
+    },
+    {
+      "text": "the explanation for it is that um the",
+      "start": 985.92,
+      "duration": 6.56
+    },
+    {
+      "text": "poll tests attitudes you know how do",
+      "start": 990.0,
+      "duration": 5.12
+    },
+    {
+      "text": "people value privacy the behavior is",
+      "start": 992.48,
+      "duration": 4.96
+    },
+    {
+      "text": "actually not about the value of privacy",
+      "start": 995.12,
+      "duration": 5.279
+    },
+    {
+      "text": "the behavior is a risk calculation that",
+      "start": 997.44,
+      "duration": 4.88
+    },
+    {
+      "text": "people make when they're using",
+      "start": 1000.399,
+      "duration": 4.0
+    },
+    {
+      "text": "technology and this is the basic",
+      "start": 1002.32,
+      "duration": 3.92
+    },
+    {
+      "text": "calculation that people are making and",
+      "start": 1004.399,
+      "duration": 4.88
+    },
+    {
+      "text": "the calculation is skewed in ways that",
+      "start": 1006.24,
+      "duration": 8.159
+    },
+    {
+      "text": "really uh favor sharing the data Uh so",
+      "start": 1009.279,
+      "duration": 7.601
+    },
+    {
+      "text": "the calculation is you know what are the",
+      "start": 1014.399,
+      "duration": 5.041
+    },
+    {
+      "text": "benefits of using the technology and",
+      "start": 1016.88,
+      "duration": 4.48
+    },
+    {
+      "text": "what are the risks to me what what's",
+      "start": 1019.44,
+      "duration": 4.24
+    },
+    {
+      "text": "going to what bad could happen what what",
+      "start": 1021.36,
+      "duration": 4.479
+    },
+    {
+      "text": "good could happen and ultimately people",
+      "start": 1023.68,
+      "duration": 3.68
+    },
+    {
+      "text": "going to weigh that and say well I think",
+      "start": 1025.839,
+      "duration": 3.12
+    },
+    {
+      "text": "the benefits are better than the costs",
+      "start": 1027.36,
+      "duration": 4.4
+    },
+    {
+      "text": "I'll I'll do it uh the problem is that",
+      "start": 1028.959,
+      "duration": 5.12
+    },
+    {
+      "text": "it's impossible for the individual to",
+      "start": 1031.76,
+      "duration": 4.24
+    },
+    {
+      "text": "really make this calculation the",
+      "start": 1034.079,
+      "duration": 4.48
+    },
+    {
+      "text": "benefits are immediate wow cool look at",
+      "start": 1036.0,
+      "duration": 4.64
+    },
+    {
+      "text": "this cool thing the technology does or I",
+      "start": 1038.559,
+      "duration": 3.841
+    },
+    {
+      "text": "need to use a flashlight so I'll use a",
+      "start": 1040.64,
+      "duration": 4.399
+    },
+    {
+      "text": "flashlight app on my phone or I want I",
+      "start": 1042.4,
+      "duration": 5.6
+    },
+    {
+      "text": "want to use a a smart doorbell or some",
+      "start": 1045.039,
+      "duration": 5.201
+    },
+    {
+      "text": "cool thing in my house. Like you think",
+      "start": 1048.0,
+      "duration": 4.08
+    },
+    {
+      "text": "you realize the benefits. It's clear",
+      "start": 1050.24,
+      "duration": 3.36
+    },
+    {
+      "text": "what you're getting and you get it",
+      "start": 1052.08,
+      "duration": 5.12
+    },
+    {
+      "text": "right. Then uh the cost to privacy is",
+      "start": 1053.6,
+      "duration": 7.439
+    },
+    {
+      "text": "really hard to assess. Uh what is the",
+      "start": 1057.2,
+      "duration": 6.24
+    },
+    {
+      "text": "downstream harm? It's not immediate. So",
+      "start": 1061.039,
+      "duration": 4.241
+    },
+    {
+      "text": "we don't know exactly what's going to be",
+      "start": 1063.44,
+      "duration": 4.64
+    },
+    {
+      "text": "done with the photos that you load up.",
+      "start": 1065.28,
+      "duration": 6.48
+    },
+    {
+      "text": "Uh it's not totally clear. uh it might",
+      "start": 1068.08,
+      "duration": 6.479
+    },
+    {
+      "text": "be very much into the future and it's",
+      "start": 1071.76,
+      "duration": 5.84
+    },
+    {
+      "text": "something that people really can't",
+      "start": 1074.559,
+      "duration": 4.881
+    },
+    {
+      "text": "figure out or can't ever figure out",
+      "start": 1077.6,
+      "duration": 5.6
+    },
+    {
+      "text": "really because uh with AI it's",
+      "start": 1079.44,
+      "duration": 6.08
+    },
+    {
+      "text": "incredibly complicated that information",
+      "start": 1083.2,
+      "duration": 5.04
+    },
+    {
+      "text": "gets fed into an algorithm gets used in",
+      "start": 1085.52,
+      "duration": 4.48
+    },
+    {
+      "text": "certain things to develop certain types",
+      "start": 1088.24,
+      "duration": 4.48
+    },
+    {
+      "text": "of technology. So maybe in the future,",
+      "start": 1090.0,
+      "duration": 5.44
+    },
+    {
+      "text": "few years from now, a facial recognition",
+      "start": 1092.72,
+      "duration": 4.88
+    },
+    {
+      "text": "system gets rolled out and now that",
+      "start": 1095.44,
+      "duration": 4.96
+    },
+    {
+      "text": "facial recognition system is trained on",
+      "start": 1097.6,
+      "duration": 5.92
+    },
+    {
+      "text": "this data uh and then can be used to",
+      "start": 1100.4,
+      "duration": 5.12
+    },
+    {
+      "text": "round up people, arrest them, throw them",
+      "start": 1103.52,
+      "duration": 3.92
+    },
+    {
+      "text": "into camps, do whatever to them. And",
+      "start": 1105.52,
+      "duration": 3.36
+    },
+    {
+      "text": "then, you know, then we realize the",
+      "start": 1107.44,
+      "duration": 3.599
+    },
+    {
+      "text": "harm, but you it's way too late. It's",
+      "start": 1108.88,
+      "duration": 4.96
+    },
+    {
+      "text": "it's years after someone shared the the",
+      "start": 1111.039,
+      "duration": 5.76
+    },
+    {
+      "text": "information or you you share certain",
+      "start": 1113.84,
+      "duration": 5.199
+    },
+    {
+      "text": "information and you don't think much of",
+      "start": 1116.799,
+      "duration": 4.321
+    },
+    {
+      "text": "it, right? Okay. So, I'm going to share",
+      "start": 1119.039,
+      "duration": 5.681
+    },
+    {
+      "text": "like what uh things I buy on Amazon or",
+      "start": 1121.12,
+      "duration": 6.88
+    },
+    {
+      "text": "what things I get at the supermarket. Uh",
+      "start": 1124.72,
+      "duration": 5.44
+    },
+    {
+      "text": "big deal. I'm not sharing anything very",
+      "start": 1128.0,
+      "duration": 6.48
+    },
+    {
+      "text": "sensitive. But uh AI algorithms can take",
+      "start": 1130.16,
+      "duration": 8.2
+    },
+    {
+      "text": "uh a stream of uh data like one's",
+      "start": 1134.48,
+      "duration": 7.439
+    },
+    {
+      "text": "purchases and then figure out uh",
+      "start": 1138.36,
+      "duration": 5.559
+    },
+    {
+      "text": "inferences look for patterns in that",
+      "start": 1141.919,
+      "duration": 4.161
+    },
+    {
+      "text": "data and come up with inferences about",
+      "start": 1143.919,
+      "duration": 3.921
+    },
+    {
+      "text": "people's health or about people's",
+      "start": 1146.08,
+      "duration": 4.32
+    },
+    {
+      "text": "political beliefs or uh other things",
+      "start": 1147.84,
+      "duration": 4.8
+    },
+    {
+      "text": "about people that they never wanted to",
+      "start": 1150.4,
+      "duration": 4.48
+    },
+    {
+      "text": "disclose, never intended to disclose,",
+      "start": 1152.64,
+      "duration": 4.0
+    },
+    {
+      "text": "never thought that they were disclosing,",
+      "start": 1154.88,
+      "duration": 5.2
+    },
+    {
+      "text": "but now suddenly uh are known to the",
+      "start": 1156.64,
+      "duration": 5.039
+    },
+    {
+      "text": "companies And then they're shared with",
+      "start": 1160.08,
+      "duration": 4.64
+    },
+    {
+      "text": "others for uses that are not known and",
+      "start": 1161.679,
+      "duration": 6.481
+    },
+    {
+      "text": "not expected. And unless people are",
+      "start": 1164.72,
+      "duration": 7.04
+    },
+    {
+      "text": "expert computer scientists uh and follow",
+      "start": 1168.16,
+      "duration": 5.68
+    },
+    {
+      "text": "how the AI develops and even the",
+      "start": 1171.76,
+      "duration": 3.84
+    },
+    {
+      "text": "computer scientists don't fully know",
+      "start": 1173.84,
+      "duration": 6.0
+    },
+    {
+      "text": "what the AI is going to uh spit out uh",
+      "start": 1175.6,
+      "duration": 6.8
+    },
+    {
+      "text": "in terms of the inferences that it could",
+      "start": 1179.84,
+      "duration": 5.76
+    },
+    {
+      "text": "potentially make about people. So how",
+      "start": 1182.4,
+      "duration": 7.2
+    },
+    {
+      "text": "does the individual manage or control",
+      "start": 1185.6,
+      "duration": 8.16
+    },
+    {
+      "text": "uh these these uses and and how do they",
+      "start": 1189.6,
+      "duration": 7.199
+    },
+    {
+      "text": "possibly assess the risk uh without",
+      "start": 1193.76,
+      "duration": 4.96
+    },
+    {
+      "text": "being the expert on AI? If if I don't",
+      "start": 1196.799,
+      "duration": 5.041
+    },
+    {
+      "text": "know the inferences that may be made by",
+      "start": 1198.72,
+      "duration": 5.68
+    },
+    {
+      "text": "the way that the data could be combined",
+      "start": 1201.84,
+      "duration": 4.64
+    },
+    {
+      "text": "uh or the uses that the data is going to",
+      "start": 1204.4,
+      "duration": 4.32
+    },
+    {
+      "text": "be put, I don't know the the data I'm",
+      "start": 1206.48,
+      "duration": 3.6
+    },
+    {
+      "text": "giving off and I don't know what's going",
+      "start": 1208.72,
+      "duration": 3.36
+    },
+    {
+      "text": "to be done with it. So I know nothing.",
+      "start": 1210.08,
+      "duration": 5.04
+    },
+    {
+      "text": "Uh so that's the problem. Uh so I don't",
+      "start": 1212.08,
+      "duration": 5.04
+    },
+    {
+      "text": "think there's a privacy paradox. I just",
+      "start": 1215.12,
+      "duration": 4.88
+    },
+    {
+      "text": "think that uh the system is one where",
+      "start": 1217.12,
+      "duration": 5.2
+    },
+    {
+      "text": "people can't really have control of",
+      "start": 1220.0,
+      "duration": 5.039
+    },
+    {
+      "text": "their data and and uh the fact that they",
+      "start": 1222.32,
+      "duration": 6.479
+    },
+    {
+      "text": "don't exercise privacy rights is not a",
+      "start": 1225.039,
+      "duration": 6.321
+    },
+    {
+      "text": "reflection on they're not caring about",
+      "start": 1228.799,
+      "duration": 4.88
+    },
+    {
+      "text": "privacy. It's a reflection on that the",
+      "start": 1231.36,
+      "duration": 6.4
+    },
+    {
+      "text": "privacy rights they're given are bogus.",
+      "start": 1233.679,
+      "duration": 6.161
+    },
+    {
+      "text": "They're just busy work. They're chores",
+      "start": 1237.76,
+      "duration": 6.0
+    },
+    {
+      "text": "given to people to do things uh that",
+      "start": 1239.84,
+      "duration": 6.24
+    },
+    {
+      "text": "don't really often make much of a",
+      "start": 1243.76,
+      "duration": 3.919
+    },
+    {
+      "text": "difference and they're impossible to do.",
+      "start": 1246.08,
+      "duration": 3.12
+    },
+    {
+      "text": "You know, am I supposed there's",
+      "start": 1247.679,
+      "duration": 3.201
+    },
+    {
+      "text": "thousands of companies that have my",
+      "start": 1249.2,
+      "duration": 4.0
+    },
+    {
+      "text": "data. Am I supposed to get access to all",
+      "start": 1250.88,
+      "duration": 4.72
+    },
+    {
+      "text": "the data at all these companies, figure",
+      "start": 1253.2,
+      "duration": 4.64
+    },
+    {
+      "text": "out what their uses are from whatever",
+      "start": 1255.6,
+      "duration": 4.8
+    },
+    {
+      "text": "they give me, which I probably can't do.",
+      "start": 1257.84,
+      "duration": 4.319
+    },
+    {
+      "text": "Then I have to correct their records. So",
+      "start": 1260.4,
+      "duration": 3.84
+    },
+    {
+      "text": "I have to become a free proofreader for",
+      "start": 1262.159,
+      "duration": 3.841
+    },
+    {
+      "text": "a thousand companies. And then I have to",
+      "start": 1264.24,
+      "duration": 4.0
+    },
+    {
+      "text": "delete the data if if if I don't want",
+      "start": 1266.0,
+      "duration": 4.32
+    },
+    {
+      "text": "them to have it. Well, how do I know",
+      "start": 1268.24,
+      "duration": 3.679
+    },
+    {
+      "text": "when they're not they don't need it",
+      "start": 1270.32,
+      "duration": 4.8
+    },
+    {
+      "text": "anymore for the purpose of use? Well, so",
+      "start": 1271.919,
+      "duration": 4.961
+    },
+    {
+      "text": "I have to figure out from each company",
+      "start": 1275.12,
+      "duration": 4.32
+    },
+    {
+      "text": "what the purpose of use is and then when",
+      "start": 1276.88,
+      "duration": 4.64
+    },
+    {
+      "text": "they don't need it, I don't know. So I",
+      "start": 1279.44,
+      "duration": 3.68
+    },
+    {
+      "text": "have to ask them, hey, do you still need",
+      "start": 1281.52,
+      "duration": 4.8
+    },
+    {
+      "text": "my data? Um, and I have to do this",
+      "start": 1283.12,
+      "duration": 5.919
+    },
+    {
+      "text": "constantly. I don't have time to manage",
+      "start": 1286.32,
+      "duration": 5.12
+    },
+    {
+      "text": "my privacy at all these companies. I",
+      "start": 1289.039,
+      "duration": 4.76
+    },
+    {
+      "text": "really don't. And people don't. So they",
+      "start": 1291.44,
+      "duration": 4.8
+    },
+    {
+      "text": "they you know they they don't do it. But",
+      "start": 1293.799,
+      "duration": 3.721
+    },
+    {
+      "text": "that doesn't mean they don't care about",
+      "start": 1296.24,
+      "duration": 3.36
+    },
+    {
+      "text": "privacy. It just means they just don't",
+      "start": 1297.52,
+      "duration": 4.24
+    },
+    {
+      "text": "have time and or they don't want to do",
+      "start": 1299.6,
+      "duration": 3.76
+    },
+    {
+      "text": "it at the time they're being asked to do",
+      "start": 1301.76,
+      "duration": 3.52
+    },
+    {
+      "text": "it. So you you go to a website and they",
+      "start": 1303.36,
+      "duration": 4.48
+    },
+    {
+      "text": "throw up the cookie banner. Um oh do you",
+      "start": 1305.28,
+      "duration": 4.56
+    },
+    {
+      "text": "want our cookies? You can click accept",
+      "start": 1307.84,
+      "duration": 3.92
+    },
+    {
+      "text": "or you can click like more information",
+      "start": 1309.84,
+      "duration": 4.24
+    },
+    {
+      "text": "where then you get a screen that has",
+      "start": 1311.76,
+      "duration": 4.0
+    },
+    {
+      "text": "like here are a thousand different",
+      "start": 1314.08,
+      "duration": 3.36
+    },
+    {
+      "text": "flavors of cookies and we're going to",
+      "start": 1315.76,
+      "duration": 3.52
+    },
+    {
+      "text": "give you this this ridiculously long",
+      "start": 1317.44,
+      "duration": 4.96
+    },
+    {
+      "text": "lesson into cookies and you can toggle",
+      "start": 1319.28,
+      "duration": 4.96
+    },
+    {
+      "text": "and you can click and you can check",
+      "start": 1322.4,
+      "duration": 4.0
+    },
+    {
+      "text": "boxes and you can go through like I just",
+      "start": 1324.24,
+      "duration": 4.4
+    },
+    {
+      "text": "want to go to the site. I I I don't want",
+      "start": 1326.4,
+      "duration": 3.6
+    },
+    {
+      "text": "to learn about cookies. I don't want to",
+      "start": 1328.64,
+      "duration": 2.8
+    },
+    {
+      "text": "become an expert on cookies. I don't",
+      "start": 1330.0,
+      "duration": 3.52
+    },
+    {
+      "text": "want to for most consumers they don't",
+      "start": 1331.44,
+      "duration": 3.84
+    },
+    {
+      "text": "want to focus on it. They want to just",
+      "start": 1333.52,
+      "duration": 5.0
+    },
+    {
+      "text": "go and get the immediate benefit.",
+      "start": 1335.28,
+      "duration": 6.08
+    },
+    {
+      "text": "Um, so I think that that's what we're",
+      "start": 1338.52,
+      "duration": 5.639
+    },
+    {
+      "text": "seeing is uh the behavior that's very",
+      "start": 1341.36,
+      "duration": 5.12
+    },
+    {
+      "text": "rational for people uh including for",
+      "start": 1344.159,
+      "duration": 4.321
+    },
+    {
+      "text": "people who care about privacy. It's that",
+      "start": 1346.48,
+      "duration": 5.6
+    },
+    {
+      "text": "the things that the law g you know helps",
+      "start": 1348.48,
+      "duration": 6.24
+    },
+    {
+      "text": "people to do the things that people can",
+      "start": 1352.08,
+      "duration": 5.44
+    },
+    {
+      "text": "do that are kind of pro privacy behavior",
+      "start": 1354.72,
+      "duration": 4.959
+    },
+    {
+      "text": "are structured in a way that just really",
+      "start": 1357.52,
+      "duration": 5.36
+    },
+    {
+      "text": "don't make a difference. Uh so that you",
+      "start": 1359.679,
+      "duration": 6.48
+    },
+    {
+      "text": "know not doing them I think is a",
+      "start": 1362.88,
+      "duration": 5.84
+    },
+    {
+      "text": "perfectly rational thing to do that has",
+      "start": 1366.159,
+      "duration": 5.681
+    },
+    {
+      "text": "no indication of how people value",
+      "start": 1368.72,
+      "duration": 5.28
+    },
+    {
+      "text": "privacy",
+      "start": 1371.84,
+      "duration": 4.24
+    },
+    {
+      "text": "and I think part of the discussion this",
+      "start": 1374.0,
+      "duration": 3.919
+    },
+    {
+      "text": "discussion and some of the topics about",
+      "start": 1376.08,
+      "duration": 3.599
+    },
+    {
+      "text": "especially related to cookie banners and",
+      "start": 1377.919,
+      "duration": 3.601
+    },
+    {
+      "text": "dark patterns so has to do with design",
+      "start": 1379.679,
+      "duration": 4.161
+    },
+    {
+      "text": "or how the the design of technology we",
+      "start": 1381.52,
+      "duration": 4.24
+    },
+    {
+      "text": "we'll soon talk more about that and I",
+      "start": 1383.84,
+      "duration": 3.52
+    },
+    {
+      "text": "want to bring two more myths so that we",
+      "start": 1385.76,
+      "duration": 3.68
+    },
+    {
+      "text": "we we discuss uh recent topics. So the",
+      "start": 1387.36,
+      "duration": 3.439
+    },
+    {
+      "text": "the other myth I want to bring is the",
+      "start": 1389.44,
+      "duration": 4.56
+    },
+    {
+      "text": "myth of technology exceptionalism which",
+      "start": 1390.799,
+      "duration": 5.36
+    },
+    {
+      "text": "has been really interesting to observe",
+      "start": 1394.0,
+      "duration": 3.919
+    },
+    {
+      "text": "now and I would say especially in the",
+      "start": 1396.159,
+      "duration": 3.601
+    },
+    {
+      "text": "fields of copyright and privacy. So",
+      "start": 1397.919,
+      "duration": 3.76
+    },
+    {
+      "text": "copyright especially in the US there is",
+      "start": 1399.76,
+      "duration": 4.88
+    },
+    {
+      "text": "this pile of lawsuits. So is it fair",
+      "start": 1401.679,
+      "duration": 4.841
+    },
+    {
+      "text": "use? So it's the big question right the",
+      "start": 1404.64,
+      "duration": 4.48
+    },
+    {
+      "text": "golden question now let's see who will",
+      "start": 1406.52,
+      "duration": 4.84
+    },
+    {
+      "text": "be the first US judge who will really uh",
+      "start": 1409.12,
+      "duration": 4.64
+    },
+    {
+      "text": "decide to final decision covering the",
+      "start": 1411.36,
+      "duration": 5.439
+    },
+    {
+      "text": "the core of most lawsuits. So is it fair",
+      "start": 1413.76,
+      "duration": 6.0
+    },
+    {
+      "text": "use to train AI with copyrighted works?",
+      "start": 1416.799,
+      "duration": 5.081
+    },
+    {
+      "text": "So we have this whole debate in in",
+      "start": 1419.76,
+      "duration": 5.36
+    },
+    {
+      "text": "copyright and in privacy what I see I",
+      "start": 1421.88,
+      "duration": 4.84
+    },
+    {
+      "text": "would say especially in the EU. I don't",
+      "start": 1425.12,
+      "duration": 3.76
+    },
+    {
+      "text": "see that much in in the US but in the in",
+      "start": 1426.72,
+      "duration": 5.28
+    },
+    {
+      "text": "the EU I see very much this this big",
+      "start": 1428.88,
+      "duration": 5.679
+    },
+    {
+      "text": "debate on on privacy exceptionalism",
+      "start": 1432.0,
+      "duration": 5.52
+    },
+    {
+      "text": "here. So in the EU we have GDPR and then",
+      "start": 1434.559,
+      "duration": 5.201
+    },
+    {
+      "text": "we have article six. the lawfulness of",
+      "start": 1437.52,
+      "duration": 3.68
+    },
+    {
+      "text": "processing which means for those in the",
+      "start": 1439.76,
+      "duration": 4.08
+    },
+    {
+      "text": "audience or if you want to use personal",
+      "start": 1441.2,
+      "duration": 4.959
+    },
+    {
+      "text": "data to process personal data that you",
+      "start": 1443.84,
+      "duration": 4.56
+    },
+    {
+      "text": "must have a lawful ground and it's",
+      "start": 1446.159,
+      "duration": 4.241
+    },
+    {
+      "text": "probably in in commercial context",
+      "start": 1448.4,
+      "duration": 4.0
+    },
+    {
+      "text": "especially AI would be so the most",
+      "start": 1450.4,
+      "duration": 4.879
+    },
+    {
+      "text": "common ones would be contract consent or",
+      "start": 1452.4,
+      "duration": 4.56
+    },
+    {
+      "text": "legitimate interest. So we have this big",
+      "start": 1455.279,
+      "duration": 2.961
+    },
+    {
+      "text": "puzzle and then we have legitimate",
+      "start": 1456.96,
+      "duration": 2.88
+    },
+    {
+      "text": "interest but then legitimate interest",
+      "start": 1458.24,
+      "duration": 4.0
+    },
+    {
+      "text": "you have to pass this three-part test",
+      "start": 1459.84,
+      "duration": 4.88
+    },
+    {
+      "text": "and then that to pass this test",
+      "start": 1462.24,
+      "duration": 4.24
+    },
+    {
+      "text": "especially the balancing part of the",
+      "start": 1464.72,
+      "duration": 3.76
+    },
+    {
+      "text": "test you have to allow people to have",
+      "start": 1466.48,
+      "duration": 4.319
+    },
+    {
+      "text": "full transparency and to exercise",
+      "start": 1468.48,
+      "duration": 4.079
+    },
+    {
+      "text": "privacy rights and it's challenging in",
+      "start": 1470.799,
+      "duration": 3.841
+    },
+    {
+      "text": "AI especially because of the way AI is",
+      "start": 1472.559,
+      "duration": 4.641
+    },
+    {
+      "text": "trained and so on and so do you first my",
+      "start": 1474.64,
+      "duration": 4.159
+    },
+    {
+      "text": "first question is do you see privacy",
+      "start": 1477.2,
+      "duration": 3.92
+    },
+    {
+      "text": "exceptionalism happening in AI also from",
+      "start": 1478.799,
+      "duration": 5.601
+    },
+    {
+      "text": "a US perspective as well and and when",
+      "start": 1481.12,
+      "duration": 5.039
+    },
+    {
+      "text": "and",
+      "start": 1484.4,
+      "duration": 4.0
+    },
+    {
+      "text": "for in the EU I I I really feel that",
+      "start": 1486.159,
+      "duration": 4.561
+    },
+    {
+      "text": "they are in trouble in a sense that if",
+      "start": 1488.4,
+      "duration": 4.72
+    },
+    {
+      "text": "they really interpret the GDPR as they",
+      "start": 1490.72,
+      "duration": 5.28
+    },
+    {
+      "text": "have been interpreting existing models",
+      "start": 1493.12,
+      "duration": 5.12
+    },
+    {
+      "text": "they are not lawful. So there they're I",
+      "start": 1496.0,
+      "duration": 5.039
+    },
+    {
+      "text": "see I I feel that the EDPB and the most",
+      "start": 1498.24,
+      "duration": 4.96
+    },
+    {
+      "text": "EDPs also but the EP data protection",
+      "start": 1501.039,
+      "duration": 3.681
+    },
+    {
+      "text": "board they're trying to navigate this",
+      "start": 1503.2,
+      "duration": 5.2
+    },
+    {
+      "text": "puzzle like how do we still maintain the",
+      "start": 1504.72,
+      "duration": 6.8
+    },
+    {
+      "text": "GDPR and we show that it's important but",
+      "start": 1508.4,
+      "duration": 5.36
+    },
+    {
+      "text": "how do we still have AI in Europe",
+      "start": 1511.52,
+      "duration": 4.08
+    },
+    {
+      "text": "especially now with the AI race big",
+      "start": 1513.76,
+      "duration": 4.96
+    },
+    {
+      "text": "pressure let's simplify so first is it",
+      "start": 1515.6,
+      "duration": 5.679
+    },
+    {
+      "text": "do you see privacy ex exceptionalism",
+      "start": 1518.72,
+      "duration": 5.839
+    },
+    {
+      "text": "happening in AI and also when would",
+      "start": 1521.279,
+      "duration": 6.161
+    },
+    {
+      "text": "privacy exceptionalism be acceptable if",
+      "start": 1524.559,
+      "duration": 4.881
+    },
+    {
+      "text": "any. So that that's my my second",
+      "start": 1527.44,
+      "duration": 4.239
+    },
+    {
+      "text": "question. Yeah. Well, I see kind of AI",
+      "start": 1529.44,
+      "duration": 4.64
+    },
+    {
+      "text": "exceptionalism of that viewing AI as",
+      "start": 1531.679,
+      "duration": 4.801
+    },
+    {
+      "text": "something kind of separate and you know",
+      "start": 1534.08,
+      "duration": 4.8
+    },
+    {
+      "text": "totally distinct from the privacy issues",
+      "start": 1536.48,
+      "duration": 4.48
+    },
+    {
+      "text": "that currently exist. And I think that",
+      "start": 1538.88,
+      "duration": 5.44
+    },
+    {
+      "text": "AI is not a form of exceptionalism. It's",
+      "start": 1540.96,
+      "duration": 5.44
+    },
+    {
+      "text": "uh a lot of the same issues that we're",
+      "start": 1544.32,
+      "duration": 4.56
+    },
+    {
+      "text": "seeing put on steroids. And we saw this",
+      "start": 1546.4,
+      "duration": 4.56
+    },
+    {
+      "text": "happen with uh the early days of the",
+      "start": 1548.88,
+      "duration": 3.919
+    },
+    {
+      "text": "internet where uh we kind of have",
+      "start": 1550.96,
+      "duration": 3.839
+    },
+    {
+      "text": "internet exceptionalism. Oh well, the",
+      "start": 1552.799,
+      "duration": 3.921
+    },
+    {
+      "text": "internet's so different that you know",
+      "start": 1554.799,
+      "duration": 4.641
+    },
+    {
+      "text": "that we need like a special zone for it.",
+      "start": 1556.72,
+      "duration": 4.88
+    },
+    {
+      "text": "Well, you know, ultimately, you know, it",
+      "start": 1559.44,
+      "duration": 5.44
+    },
+    {
+      "text": "it touches every field and everything",
+      "start": 1561.6,
+      "duration": 6.48
+    },
+    {
+      "text": "and it affects the law all across the",
+      "start": 1564.88,
+      "duration": 6.399
+    },
+    {
+      "text": "the legal spectrum. Uh we don't just",
+      "start": 1568.08,
+      "duration": 5.52
+    },
+    {
+      "text": "kind of abandon the law in all these",
+      "start": 1571.279,
+      "duration": 5.681
+    },
+    {
+      "text": "areas. We have to uh address it for the",
+      "start": 1573.6,
+      "duration": 5.92
+    },
+    {
+      "text": "internet. And so uh you know just",
+      "start": 1576.96,
+      "duration": 4.079
+    },
+    {
+      "text": "thinking we can gather everything with",
+      "start": 1579.52,
+      "duration": 3.279
+    },
+    {
+      "text": "the internet and just dump it into like",
+      "start": 1581.039,
+      "duration": 5.281
+    },
+    {
+      "text": "one bucket uh is wrong. And I think the",
+      "start": 1582.799,
+      "duration": 5.281
+    },
+    {
+      "text": "same thing with AI. I think that you",
+      "start": 1586.32,
+      "duration": 3.839
+    },
+    {
+      "text": "know the privacy issues of AI need to be",
+      "start": 1588.08,
+      "duration": 5.199
+    },
+    {
+      "text": "dealt with with privacy law. The AI is",
+      "start": 1590.159,
+      "duration": 7.041
+    },
+    {
+      "text": "the um IP issues with AI IP law. Uh",
+      "start": 1593.279,
+      "duration": 6.0
+    },
+    {
+      "text": "certainly the law might need to adjust",
+      "start": 1597.2,
+      "duration": 4.64
+    },
+    {
+      "text": "or or address AI and change to address",
+      "start": 1599.279,
+      "duration": 4.721
+    },
+    {
+      "text": "AI. Uh but we still need to look at",
+      "start": 1601.84,
+      "duration": 4.959
+    },
+    {
+      "text": "those laws. And when it comes to the EU,",
+      "start": 1604.0,
+      "duration": 7.279
+    },
+    {
+      "text": "we have the GDPR to uh regulate privacy",
+      "start": 1606.799,
+      "duration": 7.841
+    },
+    {
+      "text": "uh data protection. Uh the term in in in",
+      "start": 1611.279,
+      "duration": 7.681
+    },
+    {
+      "text": "the EU is and uh I think you know AI",
+      "start": 1614.64,
+      "duration": 6.159
+    },
+    {
+      "text": "certainly presents some challenges for",
+      "start": 1618.96,
+      "duration": 4.959
+    },
+    {
+      "text": "the GDPR. It certainly pushes on some of",
+      "start": 1620.799,
+      "duration": 5.601
+    },
+    {
+      "text": "the weak spots of the GDPR. And so I",
+      "start": 1623.919,
+      "duration": 5.841
+    },
+    {
+      "text": "definitely think the GDPR needs to be um",
+      "start": 1626.4,
+      "duration": 5.84
+    },
+    {
+      "text": "you know thought uh more deeply about",
+      "start": 1629.76,
+      "duration": 5.12
+    },
+    {
+      "text": "how it's going to intersect with AI.",
+      "start": 1632.24,
+      "duration": 5.52
+    },
+    {
+      "text": "That said, I do hear noises coming out",
+      "start": 1634.88,
+      "duration": 6.159
+    },
+    {
+      "text": "of the EU. Actually more than noise, you",
+      "start": 1637.76,
+      "duration": 6.72
+    },
+    {
+      "text": "know, some some pretty uh loud uh uh uh",
+      "start": 1641.039,
+      "duration": 5.76
+    },
+    {
+      "text": "chatter about well, you know, we don't",
+      "start": 1644.48,
+      "duration": 5.36
+    },
+    {
+      "text": "want to be left behind. You know, we we",
+      "start": 1646.799,
+      "duration": 5.681
+    },
+    {
+      "text": "need to move in a more deregulatory",
+      "start": 1649.84,
+      "duration": 4.64
+    },
+    {
+      "text": "uh direction. Uh this has been the",
+      "start": 1652.48,
+      "duration": 3.679
+    },
+    {
+      "text": "subject of things you've been writing",
+      "start": 1654.48,
+      "duration": 3.92
+    },
+    {
+      "text": "about uh about what's going on in the",
+      "start": 1656.159,
+      "duration": 6.081
+    },
+    {
+      "text": "the EU kind of chronicling this uh this",
+      "start": 1658.4,
+      "duration": 7.6
+    },
+    {
+      "text": "uh almost like self-doubting now that uh",
+      "start": 1662.24,
+      "duration": 7.28
+    },
+    {
+      "text": "their regulatory approach uh of being",
+      "start": 1666.0,
+      "duration": 8.159
+    },
+    {
+      "text": "really strict on uh protecting data uh",
+      "start": 1669.52,
+      "duration": 7.2
+    },
+    {
+      "text": "might be might be you know they might be",
+      "start": 1674.159,
+      "duration": 4.64
+    },
+    {
+      "text": "pulling back from it in in light of the",
+      "start": 1676.72,
+      "duration": 5.12
+    },
+    {
+      "text": "climate that we're in now. Uh I I I",
+      "start": 1678.799,
+      "duration": 4.641
+    },
+    {
+      "text": "think that you know what what you've",
+      "start": 1681.84,
+      "duration": 3.52
+    },
+    {
+      "text": "chronicled is I think what's going on",
+      "start": 1683.44,
+      "duration": 4.64
+    },
+    {
+      "text": "there. But I I think that the other",
+      "start": 1685.36,
+      "duration": 4.48
+    },
+    {
+      "text": "direction I think it's the wrong",
+      "start": 1688.08,
+      "duration": 3.44
+    },
+    {
+      "text": "direction. I think we we want to go",
+      "start": 1689.84,
+      "duration": 3.839
+    },
+    {
+      "text": "toward more regulation not less but we",
+      "start": 1691.52,
+      "duration": 3.639
+    },
+    {
+      "text": "just need to do the right kind of",
+      "start": 1693.679,
+      "duration": 4.561
+    },
+    {
+      "text": "regulation. Uh I think that GDPR does",
+      "start": 1695.159,
+      "duration": 5.161
+    },
+    {
+      "text": "need some improvements but I wouldn't",
+      "start": 1698.24,
+      "duration": 5.12
+    },
+    {
+      "text": "weaken it. I think that the um the",
+      "start": 1700.32,
+      "duration": 5.44
+    },
+    {
+      "text": "deregulatory argument comes to another",
+      "start": 1703.36,
+      "duration": 6.08
+    },
+    {
+      "text": "myth of of privacy which is uh what I",
+      "start": 1705.76,
+      "duration": 6.08
+    },
+    {
+      "text": "call you know the myth that technology",
+      "start": 1709.44,
+      "duration": 4.56
+    },
+    {
+      "text": "stifle I mean sorry that regulation",
+      "start": 1711.84,
+      "duration": 5.12
+    },
+    {
+      "text": "stifles technological innovation uh that",
+      "start": 1714.0,
+      "duration": 7.279
+    },
+    {
+      "text": "if we regulate uh it it will kill AI and",
+      "start": 1716.96,
+      "duration": 6.64
+    },
+    {
+      "text": "there won't be any technology in in the",
+      "start": 1721.279,
+      "duration": 6.961
+    },
+    {
+      "text": "EU if the GDPR is not weakened. Um, and",
+      "start": 1723.6,
+      "duration": 6.72
+    },
+    {
+      "text": "we hear this a lot. Uh, and I think this",
+      "start": 1728.24,
+      "duration": 5.28
+    },
+    {
+      "text": "is a this is really just a a bogus",
+      "start": 1730.32,
+      "duration": 6.12
+    },
+    {
+      "text": "argument uh that we've heard throughout",
+      "start": 1733.52,
+      "duration": 5.6
+    },
+    {
+      "text": "history. Oh, well, we can't regulate",
+      "start": 1736.44,
+      "duration": 4.599
+    },
+    {
+      "text": "anything new or technology because it's",
+      "start": 1739.12,
+      "duration": 4.32
+    },
+    {
+      "text": "going to kill the industry. Oh, we can't",
+      "start": 1741.039,
+      "duration": 5.52
+    },
+    {
+      "text": "regulate uh car safety because if that's",
+      "start": 1743.44,
+      "duration": 5.04
+    },
+    {
+      "text": "the case, we won't have cars. We'll all",
+      "start": 1746.559,
+      "duration": 4.961
+    },
+    {
+      "text": "have to just ride bikes everywhere. Um,",
+      "start": 1748.48,
+      "duration": 5.52
+    },
+    {
+      "text": "uh, they won't be able to develop it. Oh",
+      "start": 1751.52,
+      "duration": 4.48
+    },
+    {
+      "text": "my gosh, it's so burdensome that they",
+      "start": 1754.0,
+      "duration": 4.399
+    },
+    {
+      "text": "actually have to do something to make",
+      "start": 1756.0,
+      "duration": 4.399
+    },
+    {
+      "text": "something safer or more privacy",
+      "start": 1758.399,
+      "duration": 4.081
+    },
+    {
+      "text": "protective. And guess what? After their",
+      "start": 1760.399,
+      "duration": 3.841
+    },
+    {
+      "text": "little temper tantrum where they say,",
+      "start": 1762.48,
+      "duration": 4.0
+    },
+    {
+      "text": "\"Oh no, we can't do seat belts. We can't",
+      "start": 1764.24,
+      "duration": 3.919
+    },
+    {
+      "text": "do airbags. We can't make safe",
+      "start": 1766.48,
+      "duration": 4.079
+    },
+    {
+      "text": "vehicles.\" Then they make it and it's",
+      "start": 1768.159,
+      "duration": 4.4
+    },
+    {
+      "text": "fine. And we're having the same temper",
+      "start": 1770.559,
+      "duration": 5.281
+    },
+    {
+      "text": "tantrum now. Oh my gosh, we can't do AI.",
+      "start": 1772.559,
+      "duration": 5.36
+    },
+    {
+      "text": "We'll be left behind, you know? Oh my",
+      "start": 1775.84,
+      "duration": 4.8
+    },
+    {
+      "text": "gosh, the whole AI will just disappear",
+      "start": 1777.919,
+      "duration": 5.12
+    },
+    {
+      "text": "and it it won't occur. we can't do",
+      "start": 1780.64,
+      "duration": 4.48
+    },
+    {
+      "text": "anything. No, that's not true at all.",
+      "start": 1783.039,
+      "duration": 5.76
+    },
+    {
+      "text": "You can do something. I think AI can uh",
+      "start": 1785.12,
+      "duration": 6.159
+    },
+    {
+      "text": "you know be done in a responsible",
+      "start": 1788.799,
+      "duration": 5.921
+    },
+    {
+      "text": "privacy protective manner. Uh just maybe",
+      "start": 1791.279,
+      "duration": 6.161
+    },
+    {
+      "text": "differently and uh I've written about",
+      "start": 1794.72,
+      "duration": 4.48
+    },
+    {
+      "text": "scraping. I think that the tech",
+      "start": 1797.44,
+      "duration": 3.839
+    },
+    {
+      "text": "companies typically have this ethos",
+      "start": 1799.2,
+      "duration": 4.4
+    },
+    {
+      "text": "where they think we can do whatever the",
+      "start": 1801.279,
+      "duration": 5.601
+    },
+    {
+      "text": "hell we want. Let's take it. Everything",
+      "start": 1803.6,
+      "duration": 5.12
+    },
+    {
+      "text": "is for the taking. Let's take everyone's",
+      "start": 1806.88,
+      "duration": 3.919
+    },
+    {
+      "text": "data. Scrape the whole internet. Grab it",
+      "start": 1808.72,
+      "duration": 4.48
+    },
+    {
+      "text": "all. copyright schmopyright, you know,",
+      "start": 1810.799,
+      "duration": 4.48
+    },
+    {
+      "text": "let's just get it all. You know, get all",
+      "start": 1813.2,
+      "duration": 4.88
+    },
+    {
+      "text": "the data, privacy be damned, get all the",
+      "start": 1815.279,
+      "duration": 4.961
+    },
+    {
+      "text": "whatever, whatever, and we're going to",
+      "start": 1818.08,
+      "duration": 4.079
+    },
+    {
+      "text": "do it and and just do it. And that's",
+      "start": 1820.24,
+      "duration": 4.08
+    },
+    {
+      "text": "what they do. And they they they kind of",
+      "start": 1822.159,
+      "duration": 4.24
+    },
+    {
+      "text": "ignore the law. They just do it. And",
+      "start": 1824.32,
+      "duration": 4.479
+    },
+    {
+      "text": "then better to ask for forgiveness than",
+      "start": 1826.399,
+      "duration": 4.64
+    },
+    {
+      "text": "for permission. Then they come along and",
+      "start": 1828.799,
+      "duration": 4.401
+    },
+    {
+      "text": "cry, \"Oh, you're going to kill us. Oh my",
+      "start": 1831.039,
+      "duration": 4.561
+    },
+    {
+      "text": "gosh, we built this thing.\" And and and",
+      "start": 1833.2,
+      "duration": 5.28
+    },
+    {
+      "text": "and look at that. And and that was the",
+      "start": 1835.6,
+      "duration": 4.16
+    },
+    {
+      "text": "case you talked about earlier. here. I",
+      "start": 1838.48,
+      "duration": 2.559
+    },
+    {
+      "text": "mean, they basically, you know, ripping",
+      "start": 1839.76,
+      "duration": 3.36
+    },
+    {
+      "text": "off this artist's work, uh, getting",
+      "start": 1841.039,
+      "duration": 4.081
+    },
+    {
+      "text": "everyone to use it and then, you know,",
+      "start": 1843.12,
+      "duration": 4.96
+    },
+    {
+      "text": "like, go ahead, make my day, make us get",
+      "start": 1845.12,
+      "duration": 4.64
+    },
+    {
+      "text": "rid of this tool that all these people",
+      "start": 1848.08,
+      "duration": 4.959
+    },
+    {
+      "text": "love. Um, that's what they do. But I",
+      "start": 1849.76,
+      "duration": 5.039
+    },
+    {
+      "text": "think the law can say, \"No, we want you",
+      "start": 1853.039,
+      "duration": 3.52
+    },
+    {
+      "text": "to do better. You can make safe,",
+      "start": 1854.799,
+      "duration": 3.081
+    },
+    {
+      "text": "responsible",
+      "start": 1856.559,
+      "duration": 4.961
+    },
+    {
+      "text": "technologies.\" The the reason why um,",
+      "start": 1857.88,
+      "duration": 7.08
+    },
+    {
+      "text": "the EU uh, does not have the biggest",
+      "start": 1861.52,
+      "duration": 5.68
+    },
+    {
+      "text": "tech companies really has nothing to do",
+      "start": 1864.96,
+      "duration": 4.64
+    },
+    {
+      "text": "with the GDPR. It has nothing to do with",
+      "start": 1867.2,
+      "duration": 4.56
+    },
+    {
+      "text": "regulation and I think that there's a",
+      "start": 1869.6,
+      "duration": 4.72
+    },
+    {
+      "text": "great work by professor Anu Bradford who",
+      "start": 1871.76,
+      "duration": 6.24
+    },
+    {
+      "text": "talks a lot about why it is that uh that",
+      "start": 1874.32,
+      "duration": 6.16
+    },
+    {
+      "text": "the tech companies are you know a lot of",
+      "start": 1878.0,
+      "duration": 4.399
+    },
+    {
+      "text": "the biggest ones are not in the EU and",
+      "start": 1880.48,
+      "duration": 3.679
+    },
+    {
+      "text": "it really is not about privacy it's",
+      "start": 1882.399,
+      "duration": 4.4
+    },
+    {
+      "text": "about investment it's about you know",
+      "start": 1884.159,
+      "duration": 6.481
+    },
+    {
+      "text": "laws about bankruptcy and risk uh it's",
+      "start": 1886.799,
+      "duration": 6.161
+    },
+    {
+      "text": "also about like where the tech community",
+      "start": 1890.64,
+      "duration": 4.08
+    },
+    {
+      "text": "exists you know in the United States",
+      "start": 1892.96,
+      "duration": 3.92
+    },
+    {
+      "text": "it's in California which is actually the",
+      "start": 1894.72,
+      "duration": 5.439
+    },
+    {
+      "text": "most regulated ated environment uh that",
+      "start": 1896.88,
+      "duration": 6.0
+    },
+    {
+      "text": "you could probably find for privacy. It",
+      "start": 1900.159,
+      "duration": 4.801
+    },
+    {
+      "text": "has the strictest privacy laws. So if",
+      "start": 1902.88,
+      "duration": 3.84
+    },
+    {
+      "text": "you're using cause and effect in the",
+      "start": 1904.96,
+      "duration": 3.04
+    },
+    {
+      "text": "wrong way, we say well actually",
+      "start": 1906.72,
+      "duration": 4.76
+    },
+    {
+      "text": "California has all these privacy",
+      "start": 1908.0,
+      "duration": 6.64
+    },
+    {
+      "text": "laws. You know it it's because that's",
+      "start": 1911.48,
+      "duration": 5.72
+    },
+    {
+      "text": "where the people are and the things that",
+      "start": 1914.64,
+      "duration": 5.68
+    },
+    {
+      "text": "have uh created the environment for you",
+      "start": 1917.2,
+      "duration": 5.599
+    },
+    {
+      "text": "know the the technology are you know the",
+      "start": 1920.32,
+      "duration": 4.719
+    },
+    {
+      "text": "fact that we have our university system",
+      "start": 1922.799,
+      "duration": 5.281
+    },
+    {
+      "text": "and uh all the research and development",
+      "start": 1925.039,
+      "duration": 5.36
+    },
+    {
+      "text": "that's going on there and we have we",
+      "start": 1928.08,
+      "duration": 4.4
+    },
+    {
+      "text": "attract people from around the world to",
+      "start": 1930.399,
+      "duration": 4.721
+    },
+    {
+      "text": "come here to join the tech industry.",
+      "start": 1932.48,
+      "duration": 4.64
+    },
+    {
+      "text": "That's why we have it. the very thing",
+      "start": 1935.12,
+      "duration": 4.799
+    },
+    {
+      "text": "sadly the United States is now wrecking",
+      "start": 1937.12,
+      "duration": 4.0
+    },
+    {
+      "text": "its current presidential",
+      "start": 1939.919,
+      "duration": 3.961
+    },
+    {
+      "text": "administration's destroying the very",
+      "start": 1941.12,
+      "duration": 7.2
+    },
+    {
+      "text": "reason for technology and and and how it",
+      "start": 1943.88,
+      "duration": 6.6
+    },
+    {
+      "text": "developed here. So, you know, it's",
+      "start": 1948.32,
+      "duration": 5.04
+    },
+    {
+      "text": "actually wrecking all that uh ironically",
+      "start": 1950.48,
+      "duration": 4.72
+    },
+    {
+      "text": "and then saying, \"Oh, deregulation.\" You",
+      "start": 1953.36,
+      "duration": 3.679
+    },
+    {
+      "text": "know, it's all because of bad",
+      "start": 1955.2,
+      "duration": 3.92
+    },
+    {
+      "text": "regulations that no, they're they're",
+      "start": 1957.039,
+      "duration": 4.561
+    },
+    {
+      "text": "actually wrecking the reason why the US",
+      "start": 1959.12,
+      "duration": 4.32
+    },
+    {
+      "text": "uh has all the tech companies or a lot",
+      "start": 1961.6,
+      "duration": 4.559
+    },
+    {
+      "text": "of the tech companies. Uh and you know,",
+      "start": 1963.44,
+      "duration": 7.359
+    },
+    {
+      "text": "regulation is is is just you know, the",
+      "start": 1966.159,
+      "duration": 9.441
+    },
+    {
+      "text": "wrong uh the wrong reason for uh",
+      "start": 1970.799,
+      "duration": 6.72
+    },
+    {
+      "text": "stifling innovation. It's not it does",
+      "start": 1975.6,
+      "duration": 4.079
+    },
+    {
+      "text": "not stifle innovation. It steers",
+      "start": 1977.519,
+      "duration": 5.841
+    },
+    {
+      "text": "innovation. It uh a a seat belt in a",
+      "start": 1979.679,
+      "duration": 6.201
+    },
+    {
+      "text": "car, an airbag in a car is also",
+      "start": 1983.36,
+      "duration": 4.559
+    },
+    {
+      "text": "innovation. Privacy protective",
+      "start": 1985.88,
+      "duration": 4.6
+    },
+    {
+      "text": "technology is also innovation. Tech",
+      "start": 1987.919,
+      "duration": 5.36
+    },
+    {
+      "text": "companies can innovate and come up with",
+      "start": 1990.48,
+      "duration": 4.799
+    },
+    {
+      "text": "different business models, different",
+      "start": 1993.279,
+      "duration": 4.481
+    },
+    {
+      "text": "approaches, different ways to monetize,",
+      "start": 1995.279,
+      "duration": 5.28
+    },
+    {
+      "text": "different uh ways to uh build privacy",
+      "start": 1997.76,
+      "duration": 4.96
+    },
+    {
+      "text": "protections into technology. All of",
+      "start": 2000.559,
+      "duration": 4.881
+    },
+    {
+      "text": "that's innovative. It's just innovative",
+      "start": 2002.72,
+      "duration": 4.959
+    },
+    {
+      "text": "for privacy and for protecting. maybe",
+      "start": 2005.44,
+      "duration": 6.16
+    },
+    {
+      "text": "not uh you know for profit uh as what",
+      "start": 2007.679,
+      "duration": 6.401
+    },
+    {
+      "text": "they're always focused on but they are",
+      "start": 2011.6,
+      "duration": 4.88
+    },
+    {
+      "text": "things that could be innovated into the",
+      "start": 2014.08,
+      "duration": 4.8
+    },
+    {
+      "text": "technology if the incentives were to do",
+      "start": 2016.48,
+      "duration": 3.84
+    },
+    {
+      "text": "that and right now they don't have any",
+      "start": 2018.88,
+      "duration": 3.919
+    },
+    {
+      "text": "incentive to do it because they can get",
+      "start": 2020.32,
+      "duration": 5.04
+    },
+    {
+      "text": "away with not doing it",
+      "start": 2022.799,
+      "duration": 5.12
+    },
+    {
+      "text": "and you're anticipating my next myth so",
+      "start": 2025.36,
+      "duration": 4.799
+    },
+    {
+      "text": "yes the next one was going to be the",
+      "start": 2027.919,
+      "duration": 4.48
+    },
+    {
+      "text": "regulation stifles innovation and yes I",
+      "start": 2030.159,
+      "duration": 4.481
+    },
+    {
+      "text": "had an Bradford so before was Philip",
+      "start": 2032.399,
+      "duration": 3.681
+    },
+    {
+      "text": "hacker so the previous one was an",
+      "start": 2034.64,
+      "duration": 4.72
+    },
+    {
+      "text": "Bradford and I asked this question but",
+      "start": 2036.08,
+      "duration": 4.88
+    },
+    {
+      "text": "my conversation with Anna Bradford was",
+      "start": 2039.36,
+      "duration": 3.84
+    },
+    {
+      "text": "before this those recent announcements",
+      "start": 2040.96,
+      "duration": 4.48
+    },
+    {
+      "text": "from the EU I I'm I will say I'm",
+      "start": 2043.2,
+      "duration": 4.84
+    },
+    {
+      "text": "sincerely shocked so the EU",
+      "start": 2045.44,
+      "duration": 5.679
+    },
+    {
+      "text": "is changing this their narrative",
+      "start": 2048.04,
+      "duration": 5.639
+    },
+    {
+      "text": "massively so if you read so they have",
+      "start": 2051.119,
+      "duration": 5.121
+    },
+    {
+      "text": "just announced their AI continent plan",
+      "start": 2053.679,
+      "duration": 5.68
+    },
+    {
+      "text": "action plan so their AI strategy there",
+      "start": 2056.24,
+      "duration": 5.52
+    },
+    {
+      "text": "is not only one mention to fundamental",
+      "start": 2059.359,
+      "duration": 4.921
+    },
+    {
+      "text": "rights or or it's all about",
+      "start": 2061.76,
+      "duration": 4.72
+    },
+    {
+      "text": "simplification and there is that I",
+      "start": 2064.28,
+      "duration": 3.799
+    },
+    {
+      "text": "forgot attorney I think it's Hannah",
+      "start": 2066.48,
+      "duration": 4.32
+    },
+    {
+      "text": "something the the digital boss she says",
+      "start": 2068.079,
+      "duration": 4.56
+    },
+    {
+      "text": "we're going to apply the law in a",
+      "start": 2070.8,
+      "duration": 3.839
+    },
+    {
+      "text": "businessfriendly way so this whole talk",
+      "start": 2072.639,
+      "duration": 4.0
+    },
+    {
+      "text": "started during the AI summit now it's",
+      "start": 2074.639,
+      "duration": 5.44
+    },
+    {
+      "text": "all about simplification take out the",
+      "start": 2076.639,
+      "duration": 6.161
+    },
+    {
+      "text": "red tape business friendly and as a",
+      "start": 2080.079,
+      "duration": 4.641
+    },
+    {
+      "text": "lawyer I think okay so how do you apply",
+      "start": 2082.8,
+      "duration": 4.319
+    },
+    {
+      "text": "a law in a business friendly is isn't it",
+      "start": 2084.72,
+      "duration": 4.8
+    },
+    {
+      "text": "is it",
+      "start": 2087.119,
+      "duration": 2.401
+    },
+    {
+      "text": "possly way so you you pretend that",
+      "start": 2090.2,
+      "duration": 5.159
+    },
+    {
+      "text": "you're enforcing I I am really curious",
+      "start": 2092.96,
+      "duration": 5.04
+    },
+    {
+      "text": "supposedly they're going to announce the",
+      "start": 2095.359,
+      "duration": 4.641
+    },
+    {
+      "text": "implementation of the simplification. So",
+      "start": 2098.0,
+      "duration": 3.76
+    },
+    {
+      "text": "they they're they said they're going to",
+      "start": 2100.0,
+      "duration": 4.88
+    },
+    {
+      "text": "simplify the GDPR. They also intend to",
+      "start": 2101.76,
+      "duration": 5.68
+    },
+    {
+      "text": "simplify or whatever awarding uh",
+      "start": 2104.88,
+      "duration": 5.04
+    },
+    {
+      "text": "businessfriendly AI the AI act make the",
+      "start": 2107.44,
+      "duration": 4.08
+    },
+    {
+      "text": "AI act more business friendly and now",
+      "start": 2109.92,
+      "duration": 3.12
+    },
+    {
+      "text": "they announced that the cyber security",
+      "start": 2111.52,
+      "duration": 3.599
+    },
+    {
+      "text": "act they're also going to make it",
+      "start": 2113.04,
+      "duration": 3.76
+    },
+    {
+      "text": "business friendly or simplific or",
+      "start": 2115.119,
+      "duration": 5.321
+    },
+    {
+      "text": "simplify it. For me it's a big big turn",
+      "start": 2116.8,
+      "duration": 6.96
+    },
+    {
+      "text": "whatever made they them do it. uh and",
+      "start": 2120.44,
+      "duration": 6.04
+    },
+    {
+      "text": "you mentioned uh and so in in the",
+      "start": 2123.76,
+      "duration": 4.319
+    },
+    {
+      "text": "context of this myth so regulation",
+      "start": 2126.48,
+      "duration": 3.76
+    },
+    {
+      "text": "stifles innovation",
+      "start": 2128.079,
+      "duration": 4.801
+    },
+    {
+      "text": "uh I see I I would say the myth is",
+      "start": 2130.24,
+      "duration": 4.72
+    },
+    {
+      "text": "winning with this we do not I I would",
+      "start": 2132.88,
+      "duration": 3.84
+    },
+    {
+      "text": "say the EU was the part of the world",
+      "start": 2134.96,
+      "duration": 4.8
+    },
+    {
+      "text": "where we could say okay we they are uh",
+      "start": 2136.72,
+      "duration": 5.119
+    },
+    {
+      "text": "really firm in their narrative of",
+      "start": 2139.76,
+      "duration": 3.839
+    },
+    {
+      "text": "protecting fundamental rights and",
+      "start": 2141.839,
+      "duration": 5.52
+    },
+    {
+      "text": "principles and and frameworks and but",
+      "start": 2143.599,
+      "duration": 5.841
+    },
+    {
+      "text": "but now it looks like it has a bit",
+      "start": 2147.359,
+      "duration": 4.641
+    },
+    {
+      "text": "fallen apart so in that that's what I'm",
+      "start": 2149.44,
+      "duration": 4.72
+    },
+    {
+      "text": "going to ask so you answered it. But",
+      "start": 2152.0,
+      "duration": 4.88
+    },
+    {
+      "text": "that myth specifically, I was going to",
+      "start": 2154.16,
+      "duration": 7.04
+    },
+    {
+      "text": "to ask you if you if you think uh if if",
+      "start": 2156.88,
+      "duration": 6.0
+    },
+    {
+      "text": "but you already so if it's still a myth",
+      "start": 2161.2,
+      "duration": 4.04
+    },
+    {
+      "text": "or not. So you you were very uh bold in",
+      "start": 2162.88,
+      "duration": 4.719
+    },
+    {
+      "text": "your couple final thoughts on what you",
+      "start": 2165.24,
+      "duration": 4.04
+    },
+    {
+      "text": "had suggested. I think it's unfortunate",
+      "start": 2167.599,
+      "duration": 5.52
+    },
+    {
+      "text": "the EU is kind of um uh blinked here",
+      "start": 2169.28,
+      "duration": 5.559
+    },
+    {
+      "text": "that you know there there's been",
+      "start": 2173.119,
+      "duration": 3.601
+    },
+    {
+      "text": "pressure for for this kind of",
+      "start": 2174.839,
+      "duration": 4.681
+    },
+    {
+      "text": "deregulatory uh move. I think it's",
+      "start": 2176.72,
+      "duration": 5.359
+    },
+    {
+      "text": "pressure based on, you know, the current",
+      "start": 2179.52,
+      "duration": 4.96
+    },
+    {
+      "text": "administration of the United States.",
+      "start": 2182.079,
+      "duration": 4.241
+    },
+    {
+      "text": "That's just one more way the EU is kind",
+      "start": 2184.48,
+      "duration": 4.359
+    },
+    {
+      "text": "of blinking, kind of doubting its",
+      "start": 2186.32,
+      "duration": 5.84
+    },
+    {
+      "text": "fundamental principles. Uh, you know,",
+      "start": 2188.839,
+      "duration": 4.921
+    },
+    {
+      "text": "and that can be tough. We're in a tough",
+      "start": 2192.16,
+      "duration": 4.08
+    },
+    {
+      "text": "time in the world. Uh, we're seeing a",
+      "start": 2193.76,
+      "duration": 5.28
+    },
+    {
+      "text": "lot of pressure put from the companies",
+      "start": 2196.24,
+      "duration": 7.44
+    },
+    {
+      "text": "kind of pushing this myth. Uh, and uh,",
+      "start": 2199.04,
+      "duration": 6.48
+    },
+    {
+      "text": "you know, yes, I think it's natural to",
+      "start": 2203.68,
+      "duration": 4.88
+    },
+    {
+      "text": "have some doubts. Uh but I just would",
+      "start": 2205.52,
+      "duration": 5.96
+    },
+    {
+      "text": "urge the EU like you know stick to your",
+      "start": 2208.56,
+      "duration": 6.24
+    },
+    {
+      "text": "principles. Uh stick to what you've been",
+      "start": 2211.48,
+      "duration": 7.48
+    },
+    {
+      "text": "doing. Uh it it is uh and really think",
+      "start": 2214.8,
+      "duration": 8.24
+    },
+    {
+      "text": "about you know don't get um swept up in",
+      "start": 2218.96,
+      "duration": 7.28
+    },
+    {
+      "text": "the myth because you're not going to get",
+      "start": 2223.04,
+      "duration": 4.799
+    },
+    {
+      "text": "what you think you're going to get. If",
+      "start": 2226.24,
+      "duration": 3.52
+    },
+    {
+      "text": "they think, oh wow, we'll just weaken",
+      "start": 2227.839,
+      "duration": 5.76
+    },
+    {
+      "text": "the GDPR. We'll weaken uh the AI laws.",
+      "start": 2229.76,
+      "duration": 5.68
+    },
+    {
+      "text": "We're going to weaken all this. and that",
+      "start": 2233.599,
+      "duration": 4.161
+    },
+    {
+      "text": "suddenly these tech companies are gonna",
+      "start": 2235.44,
+      "duration": 4.48
+    },
+    {
+      "text": "pop up all throughout Europe and and",
+      "start": 2237.76,
+      "duration": 4.16
+    },
+    {
+      "text": "we're gonna have like this business",
+      "start": 2239.92,
+      "duration": 5.6
+    },
+    {
+      "text": "mecca and everyone's gonna run in uh you",
+      "start": 2241.92,
+      "duration": 6.64
+    },
+    {
+      "text": "know and flood uh you know the EU with",
+      "start": 2245.52,
+      "duration": 6.48
+    },
+    {
+      "text": "with this glorious business. Um that's",
+      "start": 2248.56,
+      "duration": 5.68
+    },
+    {
+      "text": "not the case. Uh and I think that",
+      "start": 2252.0,
+      "duration": 4.48
+    },
+    {
+      "text": "they're uh there really are making a",
+      "start": 2254.24,
+      "duration": 4.879
+    },
+    {
+      "text": "very big mistake if if they do that. Uh",
+      "start": 2256.48,
+      "duration": 4.96
+    },
+    {
+      "text": "I think it would be a terrible mistake.",
+      "start": 2259.119,
+      "duration": 5.281
+    },
+    {
+      "text": "I I think that you know the I don't",
+      "start": 2261.44,
+      "duration": 5.44
+    },
+    {
+      "text": "think that the law is unbusiness",
+      "start": 2264.4,
+      "duration": 4.88
+    },
+    {
+      "text": "friendly. I actually think the the GDPR",
+      "start": 2266.88,
+      "duration": 5.52
+    },
+    {
+      "text": "is incredibly uh differential to",
+      "start": 2269.28,
+      "duration": 6.24
+    },
+    {
+      "text": "business uh is is not impossible to",
+      "start": 2272.4,
+      "duration": 5.199
+    },
+    {
+      "text": "comply with. It's it's you know there",
+      "start": 2275.52,
+      "duration": 4.4
+    },
+    {
+      "text": "are difficulties and costs but when you",
+      "start": 2277.599,
+      "duration": 6.041
+    },
+    {
+      "text": "look at compliance costs with the",
+      "start": 2279.92,
+      "duration": 6.32
+    },
+    {
+      "text": "GDPR they're not really that high. Look",
+      "start": 2283.64,
+      "duration": 4.28
+    },
+    {
+      "text": "at what companies are actually spending",
+      "start": 2286.24,
+      "duration": 4.16
+    },
+    {
+      "text": "on privacy compliance. It's a pittance",
+      "start": 2287.92,
+      "duration": 5.199
+    },
+    {
+      "text": "compared to their profits. This, oh my,",
+      "start": 2290.4,
+      "duration": 4.8
+    },
+    {
+      "text": "we spent like, you know, $10 million a",
+      "start": 2293.119,
+      "duration": 4.641
+    },
+    {
+      "text": "year on privacy or or or $50 million a",
+      "start": 2295.2,
+      "duration": 4.159
+    },
+    {
+      "text": "year on privacy. We look at what these",
+      "start": 2297.76,
+      "duration": 3.48
+    },
+    {
+      "text": "companies are actually making in the",
+      "start": 2299.359,
+      "duration": 4.72
+    },
+    {
+      "text": "revenue. It's crazy. So, look at the",
+      "start": 2301.24,
+      "duration": 5.4
+    },
+    {
+      "text": "percentage they're putting into privacy",
+      "start": 2304.079,
+      "duration": 5.28
+    },
+    {
+      "text": "uh versus uh you know, what they're",
+      "start": 2306.64,
+      "duration": 5.12
+    },
+    {
+      "text": "actually putting into uh what they're",
+      "start": 2309.359,
+      "duration": 4.161
+    },
+    {
+      "text": "getting in profit. And it's actually a a",
+      "start": 2311.76,
+      "duration": 3.68
+    },
+    {
+      "text": "pittance and they're not really doing",
+      "start": 2313.52,
+      "duration": 5.04
+    },
+    {
+      "text": "enough. uh so the law can make them I I",
+      "start": 2315.44,
+      "duration": 5.36
+    },
+    {
+      "text": "think even do more. The law doesn't ask",
+      "start": 2318.56,
+      "duration": 4.24
+    },
+    {
+      "text": "a lot of companies. Legitimate interest",
+      "start": 2320.8,
+      "duration": 5.2
+    },
+    {
+      "text": "is a ginormous uh exception that allows",
+      "start": 2322.8,
+      "duration": 6.4
+    },
+    {
+      "text": "businesses to do all sorts of things. Uh",
+      "start": 2326.0,
+      "duration": 6.4
+    },
+    {
+      "text": "so it it it just winds up being I think",
+      "start": 2329.2,
+      "duration": 5.6
+    },
+    {
+      "text": "a total companies when the GDPR comes",
+      "start": 2332.4,
+      "duration": 5.12
+    },
+    {
+      "text": "out companies were saying oh in the US",
+      "start": 2334.8,
+      "duration": 4.08
+    },
+    {
+      "text": "were saying oh my gosh we're going to",
+      "start": 2337.52,
+      "duration": 3.28
+    },
+    {
+      "text": "have to pull out of Europe. We can't do",
+      "start": 2338.88,
+      "duration": 4.719
+    },
+    {
+      "text": "business there anymore. The EU is off",
+      "start": 2340.8,
+      "duration": 6.4
+    },
+    {
+      "text": "limits. um after the temper tantrum,",
+      "start": 2343.599,
+      "duration": 5.441
+    },
+    {
+      "text": "they're fine. They built their programs.",
+      "start": 2347.2,
+      "duration": 3.68
+    },
+    {
+      "text": "They did what they need to do. Uh",
+      "start": 2349.04,
+      "duration": 4.16
+    },
+    {
+      "text": "they're generally okay. Uh I actually",
+      "start": 2350.88,
+      "duration": 4.88
+    },
+    {
+      "text": "think that the law regulates far too",
+      "start": 2353.2,
+      "duration": 4.399
+    },
+    {
+      "text": "little and asks far too little of",
+      "start": 2355.76,
+      "duration": 3.92
+    },
+    {
+      "text": "businesses. Look at the AI act. It",
+      "start": 2357.599,
+      "duration": 4.081
+    },
+    {
+      "text": "really doesn't it really doesn't ask",
+      "start": 2359.68,
+      "duration": 4.48
+    },
+    {
+      "text": "that much of businesses. Oh, just come",
+      "start": 2361.68,
+      "duration": 4.48
+    },
+    {
+      "text": "up with some instruction book and a few",
+      "start": 2364.16,
+      "duration": 4.32
+    },
+    {
+      "text": "other things and you know, you know, do",
+      "start": 2366.16,
+      "duration": 4.48
+    },
+    {
+      "text": "some you a risk assessment there. It's",
+      "start": 2368.48,
+      "duration": 5.04
+    },
+    {
+      "text": "so mild. It's so little being asked of",
+      "start": 2370.64,
+      "duration": 5.12
+    },
+    {
+      "text": "businesses, but it's like I think the",
+      "start": 2373.52,
+      "duration": 3.839
+    },
+    {
+      "text": "businesses are kind of like a child. You",
+      "start": 2375.76,
+      "duration": 2.96
+    },
+    {
+      "text": "know, you ask a child like, \"Will you",
+      "start": 2377.359,
+      "duration": 2.961
+    },
+    {
+      "text": "clean up your room? Just get a couple",
+      "start": 2378.72,
+      "duration": 3.52
+    },
+    {
+      "text": "things off the floor and they freak out",
+      "start": 2380.32,
+      "duration": 4.24
+    },
+    {
+      "text": "and have a a tamper tantrum that if they",
+      "start": 2382.24,
+      "duration": 4.0
+    },
+    {
+      "text": "actually just, you know, instead of the",
+      "start": 2384.56,
+      "duration": 3.12
+    },
+    {
+      "text": "tantrum, it would be quicker just for",
+      "start": 2386.24,
+      "duration": 3.44
+    },
+    {
+      "text": "them to clean up the room. And I think",
+      "start": 2387.68,
+      "duration": 3.439
+    },
+    {
+      "text": "the same thing with the companies if",
+      "start": 2389.68,
+      "duration": 3.6
+    },
+    {
+      "text": "they stopped there's probably they spend",
+      "start": 2391.119,
+      "duration": 4.281
+    },
+    {
+      "text": "more on lobbying and fighting the",
+      "start": 2393.28,
+      "duration": 4.64
+    },
+    {
+      "text": "regulation than actually if they just",
+      "start": 2395.4,
+      "duration": 4.439
+    },
+    {
+      "text": "put the money into actually making",
+      "start": 2397.92,
+      "duration": 4.24
+    },
+    {
+      "text": "products that were more privacy safe and",
+      "start": 2399.839,
+      "duration": 4.52
+    },
+    {
+      "text": "and",
+      "start": 2402.16,
+      "duration": 4.64
+    },
+    {
+      "text": "complying it be a fraction of what",
+      "start": 2404.359,
+      "duration": 4.281
+    },
+    {
+      "text": "they're spending, you know, trying to",
+      "start": 2406.8,
+      "duration": 5.36
+    },
+    {
+      "text": "fend off the the regulators. Uh so I",
+      "start": 2408.64,
+      "duration": 5.04
+    },
+    {
+      "text": "think that that's that's part of the",
+      "start": 2412.16,
+      "duration": 4.08
+    },
+    {
+      "text": "problem is is that we really have just a",
+      "start": 2413.68,
+      "duration": 4.72
+    },
+    {
+      "text": "rel companies just don't like being",
+      "start": 2416.24,
+      "duration": 4.4
+    },
+    {
+      "text": "regulated. Uh they they've never liked",
+      "start": 2418.4,
+      "duration": 3.76
+    },
+    {
+      "text": "being regulated. It's like trying to",
+      "start": 2420.64,
+      "duration": 5.04
+    },
+    {
+      "text": "give a cat a bath. Um but you know",
+      "start": 2422.16,
+      "duration": 6.16
+    },
+    {
+      "text": "ultimately I think we need regulation.",
+      "start": 2425.68,
+      "duration": 5.12
+    },
+    {
+      "text": "The incentives are all wrong if you",
+      "start": 2428.32,
+      "duration": 4.08
+    },
+    {
+      "text": "don't have regulation. The incentives",
+      "start": 2430.8,
+      "duration": 4.88
+    },
+    {
+      "text": "for companies are to make a lot of",
+      "start": 2432.4,
+      "duration": 5.439
+    },
+    {
+      "text": "money. That's what they're built to do.",
+      "start": 2435.68,
+      "duration": 4.08
+    },
+    {
+      "text": "That's what they're going to do. They're",
+      "start": 2437.839,
+      "duration": 4.161
+    },
+    {
+      "text": "going to do everything they can to make",
+      "start": 2439.76,
+      "duration": 5.92
+    },
+    {
+      "text": "a profit and grow fast. And I don't",
+      "start": 2442.0,
+      "duration": 4.96
+    },
+    {
+      "text": "think they're evil for doing that.",
+      "start": 2445.68,
+      "duration": 3.52
+    },
+    {
+      "text": "That's exactly what they're built to do.",
+      "start": 2446.96,
+      "duration": 3.92
+    },
+    {
+      "text": "That's what the law incentivizes them to",
+      "start": 2449.2,
+      "duration": 5.68
+    },
+    {
+      "text": "do. I think the the fool is uh the fools",
+      "start": 2450.88,
+      "duration": 6.959
+    },
+    {
+      "text": "are those who think, \"Oh, they're just",
+      "start": 2454.88,
+      "duration": 4.719
+    },
+    {
+      "text": "going to be ethical. They're just going",
+      "start": 2457.839,
+      "duration": 3.641
+    },
+    {
+      "text": "to do the right thing. They're going to",
+      "start": 2459.599,
+      "duration": 4.161
+    },
+    {
+      "text": "self-regulate because they're just",
+      "start": 2461.48,
+      "duration": 4.839
+    },
+    {
+      "text": "somehow inherent goodness in the",
+      "start": 2463.76,
+      "duration": 4.72
+    },
+    {
+      "text": "company.\" No, they're they're sharks.",
+      "start": 2466.319,
+      "duration": 4.561
+    },
+    {
+      "text": "Sharks eat and they're not going to",
+      "start": 2468.48,
+      "duration": 4.96
+    },
+    {
+      "text": "suddenly sit there and philosophize",
+      "start": 2470.88,
+      "duration": 4.64
+    },
+    {
+      "text": "maybe we should become vegetarians.",
+      "start": 2473.44,
+      "duration": 5.12
+    },
+    {
+      "text": "That's just not how the world works.",
+      "start": 2475.52,
+      "duration": 5.52
+    },
+    {
+      "text": "Incentives work, economics work. You",
+      "start": 2478.56,
+      "duration": 5.92
+    },
+    {
+      "text": "create the incentive to protect privacy",
+      "start": 2481.04,
+      "duration": 6.68
+    },
+    {
+      "text": "and to make safe products and be",
+      "start": 2484.48,
+      "duration": 5.28
+    },
+    {
+      "text": "responsible and they will do it.",
+      "start": 2487.72,
+      "duration": 3.96
+    },
+    {
+      "text": "Companies are very good at responding to",
+      "start": 2489.76,
+      "duration": 4.16
+    },
+    {
+      "text": "incentives. If the law does not create",
+      "start": 2491.68,
+      "duration": 4.8
+    },
+    {
+      "text": "those incentives, it's it's not going to",
+      "start": 2493.92,
+      "duration": 5.04
+    },
+    {
+      "text": "happen. It's that simple. And that's",
+      "start": 2496.48,
+      "duration": 4.24
+    },
+    {
+      "text": "something I emphasize again and again in",
+      "start": 2498.96,
+      "duration": 4.56
+    },
+    {
+      "text": "the book. We've learned from really more",
+      "start": 2500.72,
+      "duration": 6.0
+    },
+    {
+      "text": "than a century of regulation that this",
+      "start": 2503.52,
+      "duration": 5.16
+    },
+    {
+      "text": "is what works. You create the right",
+      "start": 2506.72,
+      "duration": 6.08
+    },
+    {
+      "text": "incentives, you get the right outcomes.",
+      "start": 2508.68,
+      "duration": 6.6
+    },
+    {
+      "text": "And if you don't do that, uh, and you",
+      "start": 2512.8,
+      "duration": 4.08
+    },
+    {
+      "text": "just do everything in a hope and a",
+      "start": 2515.28,
+      "duration": 3.76
+    },
+    {
+      "text": "prayer that somehow companies are just",
+      "start": 2516.88,
+      "duration": 5.36
+    },
+    {
+      "text": "going to be good, well, I think that's",
+      "start": 2519.04,
+      "duration": 4.799
+    },
+    {
+      "text": "just not going to work. And I think",
+      "start": 2522.24,
+      "duration": 3.839
+    },
+    {
+      "text": "unfortunately the kind of deregulatory",
+      "start": 2523.839,
+      "duration": 5.76
+    },
+    {
+      "text": "push is that that kind of mentality that",
+      "start": 2526.079,
+      "duration": 6.0
+    },
+    {
+      "text": "oh if we just deregulate that all these",
+      "start": 2529.599,
+      "duration": 4.121
+    },
+    {
+      "text": "great things are just going to suddenly",
+      "start": 2532.079,
+      "duration": 4.881
+    },
+    {
+      "text": "happen. Um no they're not. And so I",
+      "start": 2533.72,
+      "duration": 5.16
+    },
+    {
+      "text": "think that then you wind up with you",
+      "start": 2536.96,
+      "duration": 5.04
+    },
+    {
+      "text": "know the EU will have I think you know",
+      "start": 2538.88,
+      "duration": 6.4
+    },
+    {
+      "text": "perhaps even less business in fact uh",
+      "start": 2542.0,
+      "duration": 5.04
+    },
+    {
+      "text": "and and uh because there's a lot of",
+      "start": 2545.28,
+      "duration": 4.799
+    },
+    {
+      "text": "business that the GDPR brings uh to the",
+      "start": 2547.04,
+      "duration": 5.279
+    },
+    {
+      "text": "EU that to comply with the regulation a",
+      "start": 2550.079,
+      "duration": 4.641
+    },
+    {
+      "text": "lot of the companies are are are",
+      "start": 2552.319,
+      "duration": 6.321
+    },
+    {
+      "text": "incentivized to focus on how do we uh",
+      "start": 2554.72,
+      "duration": 6.56
+    },
+    {
+      "text": "how do we uh you know work to comply",
+      "start": 2558.64,
+      "duration": 5.92
+    },
+    {
+      "text": "with this uh and and and make better uh",
+      "start": 2561.28,
+      "duration": 5.24
+    },
+    {
+      "text": "more privacy protective",
+      "start": 2564.56,
+      "duration": 6.0
+    },
+    {
+      "text": "technologies that that'll go away. Um",
+      "start": 2566.52,
+      "duration": 6.68
+    },
+    {
+      "text": "and and then you'll have less",
+      "start": 2570.56,
+      "duration": 4.48
+    },
+    {
+      "text": "and continue on on the topic of",
+      "start": 2573.2,
+      "duration": 3.919
+    },
+    {
+      "text": "regulation and I'll kind of narrow it",
+      "start": 2575.04,
+      "duration": 4.4
+    },
+    {
+      "text": "down to regulating design. So the second",
+      "start": 2577.119,
+      "duration": 4.401
+    },
+    {
+      "text": "part of your book so that dimensions of",
+      "start": 2579.44,
+      "duration": 4.56
+    },
+    {
+      "text": "technological change. So one of the",
+      "start": 2581.52,
+      "duration": 4.4
+    },
+    {
+      "text": "chapters you discuss design which is one",
+      "start": 2584.0,
+      "duration": 3.28
+    },
+    {
+      "text": "of my favorite topics as well. So",
+      "start": 2585.92,
+      "duration": 3.439
+    },
+    {
+      "text": "privacy by design and and how to",
+      "start": 2587.28,
+      "duration": 5.2
+    },
+    {
+      "text": "regulate design and I think AI brings",
+      "start": 2589.359,
+      "duration": 5.361
+    },
+    {
+      "text": "extremely interesting challenges in that",
+      "start": 2592.48,
+      "duration": 4.32
+    },
+    {
+      "text": "area. So what I'll bring a concrete",
+      "start": 2594.72,
+      "duration": 4.92
+    },
+    {
+      "text": "example that I really I'm",
+      "start": 2596.8,
+      "duration": 6.319
+    },
+    {
+      "text": "I think it's it's the beginning of",
+      "start": 2599.64,
+      "duration": 5.24
+    },
+    {
+      "text": "something big that is starting to get",
+      "start": 2603.119,
+      "duration": 4.24
+    },
+    {
+      "text": "out of control especially as we have now",
+      "start": 2604.88,
+      "duration": 4.719
+    },
+    {
+      "text": "agents and other forms of so I'd say",
+      "start": 2607.359,
+      "duration": 4.881
+    },
+    {
+      "text": "more sophisticated AI system. So one",
+      "start": 2609.599,
+      "duration": 4.161
+    },
+    {
+      "text": "example that I like to bring is the",
+      "start": 2612.24,
+      "duration": 3.92
+    },
+    {
+      "text": "issue of AI companions. So we saw last",
+      "start": 2613.76,
+      "duration": 3.839
+    },
+    {
+      "text": "year there was the death of there was",
+      "start": 2616.16,
+      "duration": 2.959
+    },
+    {
+      "text": "already so two years ago there was a",
+      "start": 2617.599,
+      "duration": 3.281
+    },
+    {
+      "text": "death of the Belgian man after",
+      "start": 2619.119,
+      "duration": 3.921
+    },
+    {
+      "text": "interacting with the AI chatbot. So",
+      "start": 2620.88,
+      "duration": 4.88
+    },
+    {
+      "text": "there's those typical AI companions that",
+      "start": 2623.04,
+      "duration": 5.92
+    },
+    {
+      "text": "develop a relationship and and kind of",
+      "start": 2625.76,
+      "duration": 5.68
+    },
+    {
+      "text": "get dependent on it and becomes a friend",
+      "start": 2628.96,
+      "duration": 4.24
+    },
+    {
+      "text": "a partner that that's the marketing that",
+      "start": 2631.44,
+      "duration": 4.08
+    },
+    {
+      "text": "the company does. Last year we had the",
+      "start": 2633.2,
+      "duration": 4.24
+    },
+    {
+      "text": "for the teenager that committed suicide",
+      "start": 2635.52,
+      "duration": 5.599
+    },
+    {
+      "text": "after interacting with character AI and",
+      "start": 2637.44,
+      "duration": 5.679
+    },
+    {
+      "text": "how is it related to design. So we have",
+      "start": 2641.119,
+      "duration": 4.0
+    },
+    {
+      "text": "for example the AI act has article 50",
+      "start": 2643.119,
+      "duration": 3.681
+    },
+    {
+      "text": "which has obligations of transparency",
+      "start": 2645.119,
+      "duration": 4.48
+    },
+    {
+      "text": "obligations. So if you are building a a",
+      "start": 2646.8,
+      "duration": 4.16
+    },
+    {
+      "text": "chat bot, so if you're offering a",
+      "start": 2649.599,
+      "duration": 3.681
+    },
+    {
+      "text": "chatbot, it must be clear that the",
+      "start": 2650.96,
+      "duration": 4.399
+    },
+    {
+      "text": "person is interacting with the chatbot.",
+      "start": 2653.28,
+      "duration": 3.36
+    },
+    {
+      "text": "I have all my criticism to that",
+      "start": 2655.359,
+      "duration": 2.72
+    },
+    {
+      "text": "provision. So it says that the person",
+      "start": 2656.64,
+      "duration": 4.4
+    },
+    {
+      "text": "has to be uh aware and a high level of",
+      "start": 2658.079,
+      "duration": 5.04
+    },
+    {
+      "text": "so it's it's written in a way that puts",
+      "start": 2661.04,
+      "duration": 4.2
+    },
+    {
+      "text": "the burden on on the user. But that put",
+      "start": 2663.119,
+      "duration": 4.801
+    },
+    {
+      "text": "aside so when we look at what those",
+      "start": 2665.24,
+      "duration": 4.44
+    },
+    {
+      "text": "company if you open now if you in the",
+      "start": 2667.92,
+      "duration": 3.439
+    },
+    {
+      "text": "audience if you go to character you'll",
+      "start": 2669.68,
+      "duration": 3.52
+    },
+    {
+      "text": "see that they have a disclaimer. they",
+      "start": 2671.359,
+      "duration": 4.161
+    },
+    {
+      "text": "have something really uh at the top that",
+      "start": 2673.2,
+      "duration": 4.08
+    },
+    {
+      "text": "that while you're chatting it will",
+      "start": 2675.52,
+      "duration": 3.599
+    },
+    {
+      "text": "disappear. So it says you're chatting",
+      "start": 2677.28,
+      "duration": 4.559
+    },
+    {
+      "text": "with a this this is a bot in different",
+      "start": 2679.119,
+      "duration": 4.48
+    },
+    {
+      "text": "bots. I test a different bot. So",
+      "start": 2681.839,
+      "duration": 4.961
+    },
+    {
+      "text": "sometimes it it says the this convers",
+      "start": 2683.599,
+      "duration": 4.801
+    },
+    {
+      "text": "this conversation is fictional.",
+      "start": 2686.8,
+      "duration": 3.0
+    },
+    {
+      "text": "Sometimes there's another type of",
+      "start": 2688.4,
+      "duration": 3.679
+    },
+    {
+      "text": "language. But then this is they're",
+      "start": 2689.8,
+      "duration": 3.48
+    },
+    {
+      "text": "complying with the rules. So they're",
+      "start": 2692.079,
+      "duration": 2.881
+    },
+    {
+      "text": "going by the book. So there is a rule",
+      "start": 2693.28,
+      "duration": 3.76
+    },
+    {
+      "text": "there are different rules. So this this",
+      "start": 2694.96,
+      "duration": 4.48
+    },
+    {
+      "text": "would perhaps be compliant in the EU.",
+      "start": 2697.04,
+      "duration": 4.559
+    },
+    {
+      "text": "you're complying with. I don't know what",
+      "start": 2699.44,
+      "duration": 5.2
+    },
+    {
+      "text": "the state law that that uh that has this",
+      "start": 2701.599,
+      "duration": 4.961
+    },
+    {
+      "text": "this obligation of transparency or if",
+      "start": 2704.64,
+      "duration": 4.64
+    },
+    {
+      "text": "the US has any obligation. But what is",
+      "start": 2706.56,
+      "duration": 4.559
+    },
+    {
+      "text": "interesting is that design is is",
+      "start": 2709.28,
+      "duration": 3.52
+    },
+    {
+      "text": "extremely difficult challenge because",
+      "start": 2711.119,
+      "duration": 3.281
+    },
+    {
+      "text": "then we you have the problem of",
+      "start": 2712.8,
+      "duration": 3.519
+    },
+    {
+      "text": "dependency. You have that interface. You",
+      "start": 2714.4,
+      "duration": 4.4
+    },
+    {
+      "text": "have young people, vulnerable people in",
+      "start": 2716.319,
+      "duration": 4.8
+    },
+    {
+      "text": "that screen and the the company does",
+      "start": 2718.8,
+      "duration": 4.24
+    },
+    {
+      "text": "this all this marketing about",
+      "start": 2721.119,
+      "duration": 3.681
+    },
+    {
+      "text": "partnership, companionship and people",
+      "start": 2723.04,
+      "duration": 4.48
+    },
+    {
+      "text": "are obsessed. there are 247 chatting and",
+      "start": 2724.8,
+      "duration": 4.88
+    },
+    {
+      "text": "of course one single disclaimer in the",
+      "start": 2727.52,
+      "duration": 4.16
+    },
+    {
+      "text": "privacy policy or at the at the top of",
+      "start": 2729.68,
+      "duration": 4.399
+    },
+    {
+      "text": "the chat one time it is not enough",
+      "start": 2731.68,
+      "duration": 4.56
+    },
+    {
+      "text": "that's not how you tell people that it's",
+      "start": 2734.079,
+      "duration": 4.881
+    },
+    {
+      "text": "a chatbot and now we are we are seeing",
+      "start": 2736.24,
+      "duration": 4.96
+    },
+    {
+      "text": "AI agents and then agents will be more",
+      "start": 2738.96,
+      "duration": 4.72
+    },
+    {
+      "text": "and more replacing humans where I don't",
+      "start": 2741.2,
+      "duration": 5.28
+    },
+    {
+      "text": "know buying a plane ticket I don't know",
+      "start": 2743.68,
+      "duration": 4.8
+    },
+    {
+      "text": "buying groceries and so on so",
+      "start": 2746.48,
+      "duration": 3.599
+    },
+    {
+      "text": "transparency is very important and I",
+      "start": 2748.48,
+      "duration": 3.2
+    },
+    {
+      "text": "think this is interesting so how do we",
+      "start": 2750.079,
+      "duration": 4.0
+    },
+    {
+      "text": "think about privacy by design and",
+      "start": 2751.68,
+      "duration": 4.24
+    },
+    {
+      "text": "regulating design in the context of",
+      "start": 2754.079,
+      "duration": 3.681
+    },
+    {
+      "text": "these new challenges. So AI I think what",
+      "start": 2755.92,
+      "duration": 3.76
+    },
+    {
+      "text": "what it brings new to what it brings to",
+      "start": 2757.76,
+      "duration": 4.079
+    },
+    {
+      "text": "the table in this context is less",
+      "start": 2759.68,
+      "duration": 3.919
+    },
+    {
+      "text": "autonomous. So we we we need",
+      "start": 2761.839,
+      "duration": 4.48
+    },
+    {
+      "text": "transparency is even more important than",
+      "start": 2763.599,
+      "duration": 5.121
+    },
+    {
+      "text": "it was before AI because now we are so",
+      "start": 2766.319,
+      "duration": 3.841
+    },
+    {
+      "text": "we are in a world where there are there",
+      "start": 2768.72,
+      "duration": 5.119
+    },
+    {
+      "text": "will be agents people companions but pe",
+      "start": 2770.16,
+      "duration": 6.32
+    },
+    {
+      "text": "human companion or people our friends",
+      "start": 2773.839,
+      "duration": 5.201
+    },
+    {
+      "text": "and there will be AI. So how do we think",
+      "start": 2776.48,
+      "duration": 5.52
+    },
+    {
+      "text": "about regulating design and privacy and",
+      "start": 2779.04,
+      "duration": 4.72
+    },
+    {
+      "text": "helping people keep their autonomy and",
+      "start": 2782.0,
+      "duration": 5.76
+    },
+    {
+      "text": "their dignity in a world where AI is uh",
+      "start": 2783.76,
+      "duration": 6.559
+    },
+    {
+      "text": "ubiquitous and in and where is so",
+      "start": 2787.76,
+      "duration": 4.8
+    },
+    {
+      "text": "challenging to regulate AI. Sorry,",
+      "start": 2790.319,
+      "duration": 5.361
+    },
+    {
+      "text": "that's a great question. Um, and I I go",
+      "start": 2792.56,
+      "duration": 5.519
+    },
+    {
+      "text": "into in depth in the book about uh",
+      "start": 2795.68,
+      "duration": 5.12
+    },
+    {
+      "text": "privacy by design and how to regulate",
+      "start": 2798.079,
+      "duration": 5.121
+    },
+    {
+      "text": "design and and also I wrote a paper on",
+      "start": 2800.8,
+      "duration": 4.72
+    },
+    {
+      "text": "uh privacy and AI uh that I published",
+      "start": 2803.2,
+      "duration": 7.6
+    },
+    {
+      "text": "recently um tackling this question about",
+      "start": 2805.52,
+      "duration": 5.28
+    },
+    {
+      "text": "uh for uh when you're interacting with",
+      "start": 2811.72,
+      "duration": 6.68
+    },
+    {
+      "text": "AI that is humanlike. Uh and I think the",
+      "start": 2815.52,
+      "duration": 4.48
+    },
+    {
+      "text": "answer is no. And there's a great movie",
+      "start": 2818.4,
+      "duration": 3.76
+    },
+    {
+      "text": "that really illustrates this and that is",
+      "start": 2820.0,
+      "duration": 4.4
+    },
+    {
+      "text": "a movie called Her that was made I think",
+      "start": 2822.16,
+      "duration": 4.64
+    },
+    {
+      "text": "it was about 10 years ago a while ago.",
+      "start": 2824.4,
+      "duration": 4.64
+    },
+    {
+      "text": "Um, basically it's this person who falls",
+      "start": 2826.8,
+      "duration": 6.08
+    },
+    {
+      "text": "in love with the this uh AI uh in uh his",
+      "start": 2829.04,
+      "duration": 8.319
+    },
+    {
+      "text": "his phone um an AI persona. And what",
+      "start": 2832.88,
+      "duration": 7.12
+    },
+    {
+      "text": "what what this captures is that he he",
+      "start": 2837.359,
+      "duration": 5.601
+    },
+    {
+      "text": "knows that the person's AI like he knows",
+      "start": 2840.0,
+      "duration": 5.44
+    },
+    {
+      "text": "that that the what he's interacting with",
+      "start": 2842.96,
+      "duration": 5.04
+    },
+    {
+      "text": "is is AI. And so we might know in",
+      "start": 2845.44,
+      "duration": 4.399
+    },
+    {
+      "text": "disclosure like yes, we're interacting",
+      "start": 2848.0,
+      "duration": 4.96
+    },
+    {
+      "text": "with AI, but it's still beguiles us.",
+      "start": 2849.839,
+      "duration": 5.681
+    },
+    {
+      "text": "it's still the the humanlike qualities",
+      "start": 2852.96,
+      "duration": 6.0
+    },
+    {
+      "text": "still work their magic on us. Uh and",
+      "start": 2855.52,
+      "duration": 5.839
+    },
+    {
+      "text": "just knowing that it is does not",
+      "start": 2858.96,
+      "duration": 5.28
+    },
+    {
+      "text": "suddenly cure all the problems or make",
+      "start": 2861.359,
+      "duration": 6.321
+    },
+    {
+      "text": "it not have tremendous effects on",
+      "start": 2864.24,
+      "duration": 7.44
+    },
+    {
+      "text": "people. And when you uh simulate humans,",
+      "start": 2867.68,
+      "duration": 7.76
+    },
+    {
+      "text": "you have very powerful effects and and",
+      "start": 2871.68,
+      "duration": 6.399
+    },
+    {
+      "text": "very powerful manipulative effects on on",
+      "start": 2875.44,
+      "duration": 5.2
+    },
+    {
+      "text": "people that you don't have if you're not",
+      "start": 2878.079,
+      "duration": 5.601
+    },
+    {
+      "text": "simulating humans. So I think we need",
+      "start": 2880.64,
+      "duration": 5.199
+    },
+    {
+      "text": "more than just transparency as our",
+      "start": 2883.68,
+      "duration": 4.72
+    },
+    {
+      "text": "answer here and we need something that",
+      "start": 2885.839,
+      "duration": 5.041
+    },
+    {
+      "text": "really holds the companies accountable",
+      "start": 2888.4,
+      "duration": 6.24
+    },
+    {
+      "text": "for what they do. Uh in and this gets",
+      "start": 2890.88,
+      "duration": 7.12
+    },
+    {
+      "text": "back to the myth of the the technolog",
+      "start": 2894.64,
+      "duration": 6.24
+    },
+    {
+      "text": "tech technology exceptionalism that um",
+      "start": 2898.0,
+      "duration": 5.68
+    },
+    {
+      "text": "you know imagine if you made a car that",
+      "start": 2900.88,
+      "duration": 5.04
+    },
+    {
+      "text": "would just you know be totally unsafe",
+      "start": 2903.68,
+      "duration": 4.639
+    },
+    {
+      "text": "and the brakes would just go out or the",
+      "start": 2905.92,
+      "duration": 5.04
+    },
+    {
+      "text": "the the car would just blow up on you.",
+      "start": 2908.319,
+      "duration": 5.201
+    },
+    {
+      "text": "you know, with cars, right? We have",
+      "start": 2910.96,
+      "duration": 4.56
+    },
+    {
+      "text": "before the car comes out on the market,",
+      "start": 2913.52,
+      "duration": 4.079
+    },
+    {
+      "text": "we have testing and we have safety",
+      "start": 2915.52,
+      "duration": 4.0
+    },
+    {
+      "text": "standards and we know you don't you",
+      "start": 2917.599,
+      "duration": 3.76
+    },
+    {
+      "text": "can't buy a car that's, you know,",
+      "start": 2919.52,
+      "duration": 4.48
+    },
+    {
+      "text": "woefully unsafe. That someone who safety",
+      "start": 2921.359,
+      "duration": 5.281
+    },
+    {
+      "text": "experts are having our back and I don't",
+      "start": 2924.0,
+      "duration": 4.319
+    },
+    {
+      "text": "have to become an expert on car safety.",
+      "start": 2926.64,
+      "duration": 3.679
+    },
+    {
+      "text": "I can buy a car knowing it's going to be",
+      "start": 2928.319,
+      "duration": 6.24
+    },
+    {
+      "text": "okay. Um now they also have expost",
+      "start": 2930.319,
+      "duration": 6.8
+    },
+    {
+      "text": "protection that if the car you know is",
+      "start": 2934.559,
+      "duration": 5.04
+    },
+    {
+      "text": "defective, if the car turns out not to",
+      "start": 2937.119,
+      "duration": 4.081
+    },
+    {
+      "text": "be safe because you can't anticipate",
+      "start": 2939.599,
+      "duration": 5.361
+    },
+    {
+      "text": "everything um and something bad happens,",
+      "start": 2941.2,
+      "duration": 6.159
+    },
+    {
+      "text": "uh I can go to court and sue and get a",
+      "start": 2944.96,
+      "duration": 4.48
+    },
+    {
+      "text": "lot of money. And companies know that.",
+      "start": 2947.359,
+      "duration": 4.801
+    },
+    {
+      "text": "They know like if they screw up, there's",
+      "start": 2949.44,
+      "duration": 5.6
+    },
+    {
+      "text": "going to be big consequences, painful",
+      "start": 2952.16,
+      "duration": 4.48
+    },
+    {
+      "text": "consequences to the company. big",
+      "start": 2955.04,
+      "duration": 4.48
+    },
+    {
+      "text": "lawsuits, a lot of bad stuff going on.",
+      "start": 2956.64,
+      "duration": 4.64
+    },
+    {
+      "text": "With technology though, we kind of say",
+      "start": 2959.52,
+      "duration": 3.68
+    },
+    {
+      "text": "it's buyer beware. You know, we we do",
+      "start": 2961.28,
+      "duration": 5.039
+    },
+    {
+      "text": "very minimal protections uh up front and",
+      "start": 2963.2,
+      "duration": 5.2
+    },
+    {
+      "text": "then at the back end there's also, you",
+      "start": 2966.319,
+      "duration": 5.681
+    },
+    {
+      "text": "know, courts bend over backwards to uh",
+      "start": 2968.4,
+      "duration": 5.76
+    },
+    {
+      "text": "let the companies off the hook to not",
+      "start": 2972.0,
+      "duration": 4.079
+    },
+    {
+      "text": "hold them accountable. Oh, they're so",
+      "start": 2974.16,
+      "duration": 4.679
+    },
+    {
+      "text": "big. Oh, technology is just so",
+      "start": 2976.079,
+      "duration": 5.361
+    },
+    {
+      "text": "complicated. Uh just imagine for a car.",
+      "start": 2978.839,
+      "duration": 4.601
+    },
+    {
+      "text": "Oh, well, making a car is like really",
+      "start": 2981.44,
+      "duration": 4.48
+    },
+    {
+      "text": "complex. Who are we to second guessess",
+      "start": 2983.44,
+      "duration": 5.119
+    },
+    {
+      "text": "that the car when the car blows up? Oh,",
+      "start": 2985.92,
+      "duration": 4.399
+    },
+    {
+      "text": "the car blew up and killed everybody,",
+      "start": 2988.559,
+      "duration": 4.241
+    },
+    {
+      "text": "but it's not a harm. You know, it's not",
+      "start": 2990.319,
+      "duration": 4.561
+    },
+    {
+      "text": "a big deal. You know, on with",
+      "start": 2992.8,
+      "duration": 4.24
+    },
+    {
+      "text": "technology, oh my gosh, we don't want to",
+      "start": 2994.88,
+      "duration": 3.479
+    },
+    {
+      "text": "stifle",
+      "start": 2997.04,
+      "duration": 3.92
+    },
+    {
+      "text": "innovation. Um, that's what we get like",
+      "start": 2998.359,
+      "duration": 4.2
+    },
+    {
+      "text": "constantly. And I think that with",
+      "start": 3000.96,
+      "duration": 3.52
+    },
+    {
+      "text": "technology, I think we need to stop the",
+      "start": 3002.559,
+      "duration": 4.641
+    },
+    {
+      "text": "worship of it. Uh, we need to stop",
+      "start": 3004.48,
+      "duration": 6.56
+    },
+    {
+      "text": "treating it uh in a way that allows the",
+      "start": 3007.2,
+      "duration": 6.08
+    },
+    {
+      "text": "makers of it to be unaccountable. that",
+      "start": 3011.04,
+      "duration": 6.519
+    },
+    {
+      "text": "people who are making these uh AI um",
+      "start": 3013.28,
+      "duration": 7.6
+    },
+    {
+      "text": "uh you know personas should be",
+      "start": 3017.559,
+      "duration": 5.161
+    },
+    {
+      "text": "accountable for the harms that they",
+      "start": 3020.88,
+      "duration": 4.4
+    },
+    {
+      "text": "create and and and should you know and",
+      "start": 3022.72,
+      "duration": 4.96
+    },
+    {
+      "text": "the law should make sure that you know",
+      "start": 3025.28,
+      "duration": 5.12
+    },
+    {
+      "text": "there's adequate testing and vetting of",
+      "start": 3027.68,
+      "duration": 4.96
+    },
+    {
+      "text": "this before it's just unleashed into the",
+      "start": 3030.4,
+      "duration": 4.08
+    },
+    {
+      "text": "market because the incentive is we'll",
+      "start": 3032.64,
+      "duration": 3.919
+    },
+    {
+      "text": "just unleash it. Let's try it out. Let's",
+      "start": 3034.48,
+      "duration": 4.0
+    },
+    {
+      "text": "let's just do it because we want to get",
+      "start": 3036.559,
+      "duration": 5.28
+    },
+    {
+      "text": "there first. We want to it's a race. Um,",
+      "start": 3038.48,
+      "duration": 6.16
+    },
+    {
+      "text": "so there's not enough testing of it to",
+      "start": 3041.839,
+      "duration": 5.041
+    },
+    {
+      "text": "make sure what's being put out there is",
+      "start": 3044.64,
+      "duration": 4.08
+    },
+    {
+      "text": "going to be okay. It's going to be safe",
+      "start": 3046.88,
+      "duration": 4.439
+    },
+    {
+      "text": "and is not going to cause problems. And",
+      "start": 3048.72,
+      "duration": 5.2
+    },
+    {
+      "text": "then when it's out there, you know, I",
+      "start": 3051.319,
+      "duration": 4.841
+    },
+    {
+      "text": "think the companies need to know if if",
+      "start": 3053.92,
+      "duration": 3.679
+    },
+    {
+      "text": "there is a mess up there, there's",
+      "start": 3056.16,
+      "duration": 3.199
+    },
+    {
+      "text": "accountability. So the companies needed",
+      "start": 3057.599,
+      "duration": 3.76
+    },
+    {
+      "text": "the incentive to say we're going to",
+      "start": 3059.359,
+      "duration": 3.521
+    },
+    {
+      "text": "we're going to make it safer. We're",
+      "start": 3061.359,
+      "duration": 2.641
+    },
+    {
+      "text": "going to make it better. We're going to",
+      "start": 3062.88,
+      "duration": 2.4
+    },
+    {
+      "text": "try to prevent these problems,",
+      "start": 3064.0,
+      "duration": 2.8
+    },
+    {
+      "text": "anticipate these problems because we",
+      "start": 3065.28,
+      "duration": 4.88
+    },
+    {
+      "text": "don't want to have one of these",
+      "start": 3066.8,
+      "duration": 5.2
+    },
+    {
+      "text": "incidents happen because it's really",
+      "start": 3070.16,
+      "duration": 4.159
+    },
+    {
+      "text": "going to cost us if it does. And I think",
+      "start": 3072.0,
+      "duration": 3.92
+    },
+    {
+      "text": "a lot of times what we have now is",
+      "start": 3074.319,
+      "duration": 3.121
+    },
+    {
+      "text": "companies know like if something like",
+      "start": 3075.92,
+      "duration": 4.08
+    },
+    {
+      "text": "this happens, oh well, it's not our",
+      "start": 3077.44,
+      "duration": 5.679
+    },
+    {
+      "text": "fault, you know, oops. Uh but but the",
+      "start": 3080.0,
+      "duration": 4.88
+    },
+    {
+      "text": "incentives are all wrong. So I think",
+      "start": 3083.119,
+      "duration": 4.801
+    },
+    {
+      "text": "yes, we need design. Um I think that the",
+      "start": 3084.88,
+      "duration": 5.84
+    },
+    {
+      "text": "law is very weak on regulating design,",
+      "start": 3087.92,
+      "duration": 5.439
+    },
+    {
+      "text": "especially with privacy. uh there's way",
+      "start": 3090.72,
+      "duration": 4.72
+    },
+    {
+      "text": "too much difference. Oh well, you know,",
+      "start": 3093.359,
+      "duration": 3.841
+    },
+    {
+      "text": "who are we to tell the companies what to",
+      "start": 3095.44,
+      "duration": 4.639
+    },
+    {
+      "text": "do? Um I think that you know there's a",
+      "start": 3097.2,
+      "duration": 5.52
+    },
+    {
+      "text": "lot of um insight and information out",
+      "start": 3100.079,
+      "duration": 6.401
+    },
+    {
+      "text": "there about uh what privacy harms are uh",
+      "start": 3102.72,
+      "duration": 7.76
+    },
+    {
+      "text": "about um uh issues that can arise. I",
+      "start": 3106.48,
+      "duration": 5.52
+    },
+    {
+      "text": "think that just telling companies well",
+      "start": 3110.48,
+      "duration": 3.2
+    },
+    {
+      "text": "design for privacy and companies will",
+      "start": 3112.0,
+      "duration": 3.68
+    },
+    {
+      "text": "say yeah we design for privacy. See, you",
+      "start": 3113.68,
+      "duration": 4.399
+    },
+    {
+      "text": "know, we we we we put you we added",
+      "start": 3115.68,
+      "duration": 4.56
+    },
+    {
+      "text": "encryption or we have access controls",
+      "start": 3118.079,
+      "duration": 4.24
+    },
+    {
+      "text": "and you know, we have a toggle uh where",
+      "start": 3120.24,
+      "duration": 4.64
+    },
+    {
+      "text": "you can opt out. So, we designed well,",
+      "start": 3122.319,
+      "duration": 4.881
+    },
+    {
+      "text": "you need to tell them like what what you",
+      "start": 3124.88,
+      "duration": 4.56
+    },
+    {
+      "text": "need to focus on. These are the issues.",
+      "start": 3127.2,
+      "duration": 3.6
+    },
+    {
+      "text": "Doesn't mean you're telling them what to",
+      "start": 3129.44,
+      "duration": 2.879
+    },
+    {
+      "text": "do. It's just like, you know, at least",
+      "start": 3130.8,
+      "duration": 3.44
+    },
+    {
+      "text": "make sure you focus on these issues.",
+      "start": 3132.319,
+      "duration": 3.361
+    },
+    {
+      "text": "There needs to be accountability. If",
+      "start": 3134.24,
+      "duration": 3.44
+    },
+    {
+      "text": "you're designing for privacy, then you",
+      "start": 3135.68,
+      "duration": 4.72
+    },
+    {
+      "text": "need to have uh somebody, you know,",
+      "start": 3137.68,
+      "duration": 4.56
+    },
+    {
+      "text": "audited or checked just to make sure",
+      "start": 3140.4,
+      "duration": 3.6
+    },
+    {
+      "text": "that you in fact did a good job.",
+      "start": 3142.24,
+      "duration": 3.76
+    },
+    {
+      "text": "Otherwise, you just create a piece of",
+      "start": 3144.0,
+      "duration": 4.64
+    },
+    {
+      "text": "paper that says, \"Yeah, I did it.\" Okay.",
+      "start": 3146.0,
+      "duration": 5.44
+    },
+    {
+      "text": "Um, you need something to really make",
+      "start": 3148.64,
+      "duration": 4.6
+    },
+    {
+      "text": "sure they're doing it well and",
+      "start": 3151.44,
+      "duration": 3.84
+    },
+    {
+      "text": "thoughtfully. Uh, and the law can",
+      "start": 3153.24,
+      "duration": 4.599
+    },
+    {
+      "text": "incentivize that. Uh, and that's not",
+      "start": 3155.28,
+      "duration": 4.319
+    },
+    {
+      "text": "telling them what to do. That's not",
+      "start": 3157.839,
+      "duration": 3.841
+    },
+    {
+      "text": "backseat driving. That's just making",
+      "start": 3159.599,
+      "duration": 4.96
+    },
+    {
+      "text": "sure that they're, you know, adequately,",
+      "start": 3161.68,
+      "duration": 4.8
+    },
+    {
+      "text": "you know, looking into it and thinking",
+      "start": 3164.559,
+      "duration": 3.76
+    },
+    {
+      "text": "about it. And there are thoughtful,",
+      "start": 3166.48,
+      "duration": 4.96
+    },
+    {
+      "text": "smart privacy professionals who could do",
+      "start": 3168.319,
+      "duration": 5.601
+    },
+    {
+      "text": "that. But they need the incentives so",
+      "start": 3171.44,
+      "duration": 5.36
+    },
+    {
+      "text": "that when they can do that, they, you",
+      "start": 3173.92,
+      "duration": 4.56
+    },
+    {
+      "text": "know, are listened to at the company.",
+      "start": 3176.8,
+      "duration": 4.0
+    },
+    {
+      "text": "When they say there's a concern here,",
+      "start": 3178.48,
+      "duration": 3.44
+    },
+    {
+      "text": "they're listened to where there's",
+      "start": 3180.8,
+      "duration": 3.12
+    },
+    {
+      "text": "adequate resources so they can do this",
+      "start": 3181.92,
+      "duration": 3.96
+    },
+    {
+      "text": "kind of analysis and that they're",
+      "start": 3183.92,
+      "duration": 6.12
+    },
+    {
+      "text": "respected when they come back with a an",
+      "start": 3185.88,
+      "duration": 7.32
+    },
+    {
+      "text": "issue. Uh that the company will say,",
+      "start": 3190.04,
+      "duration": 5.64
+    },
+    {
+      "text": "\"Okay, wow, you know, we we better",
+      "start": 3193.2,
+      "duration": 5.28
+    },
+    {
+      "text": "address that versus now it's just like,",
+      "start": 3195.68,
+      "duration": 4.879
+    },
+    {
+      "text": "okay, why why should we waste our time?\"",
+      "start": 3198.48,
+      "duration": 4.0
+    },
+    {
+      "text": "because we know we'll just put it out",
+      "start": 3200.559,
+      "duration": 4.321
+    },
+    {
+      "text": "there and you know the law will look the",
+      "start": 3202.48,
+      "duration": 4.8
+    },
+    {
+      "text": "other way or won't really hold us",
+      "start": 3204.88,
+      "duration": 5.36
+    },
+    {
+      "text": "accountable. So why should we you know",
+      "start": 3207.28,
+      "duration": 5.36
+    },
+    {
+      "text": "slow down or spend any money to address",
+      "start": 3210.24,
+      "duration": 6.079
+    },
+    {
+      "text": "it when uh you know you we're not going",
+      "start": 3212.64,
+      "duration": 6.479
+    },
+    {
+      "text": "to face any consequences",
+      "start": 3216.319,
+      "duration": 5.04
+    },
+    {
+      "text": "specifically with AI to be optimistic",
+      "start": 3219.119,
+      "duration": 4.24
+    },
+    {
+      "text": "here. So what what I think will happen",
+      "start": 3221.359,
+      "duration": 4.561
+    },
+    {
+      "text": "so what we saw with dark patterns",
+      "start": 3223.359,
+      "duration": 5.881
+    },
+    {
+      "text": "remember when I wrote my my paper around",
+      "start": 3225.92,
+      "duration": 6.0
+    },
+    {
+      "text": "201920 there were there was only one",
+      "start": 3229.24,
+      "duration": 5.16
+    },
+    {
+      "text": "report the Norwegian consumer authority",
+      "start": 3231.92,
+      "duration": 5.439
+    },
+    {
+      "text": "where writing about dark patterns in UX",
+      "start": 3234.4,
+      "duration": 5.04
+    },
+    {
+      "text": "then after a few years it became such a",
+      "start": 3237.359,
+      "duration": 4.321
+    },
+    {
+      "text": "popular topic now is regulated in the EU",
+      "start": 3239.44,
+      "duration": 4.08
+    },
+    {
+      "text": "so there also California there is a",
+      "start": 3241.68,
+      "duration": 4.159
+    },
+    {
+      "text": "mention to dark patterns every EU data",
+      "start": 3243.52,
+      "duration": 4.88
+    },
+    {
+      "text": "protection authority has published",
+      "start": 3245.839,
+      "duration": 5.601
+    },
+    {
+      "text": "report on dark patterns in UX so we We",
+      "start": 3248.4,
+      "duration": 5.199
+    },
+    {
+      "text": "saw some evolution on that at least in",
+      "start": 3251.44,
+      "duration": 4.0
+    },
+    {
+      "text": "this that very niche perspect in the EU",
+      "start": 3253.599,
+      "duration": 3.76
+    },
+    {
+      "text": "we saw a lot of publications focusing",
+      "start": 3255.44,
+      "duration": 4.48
+    },
+    {
+      "text": "specifically on cookie banners there is",
+      "start": 3257.359,
+      "duration": 4.081
+    },
+    {
+      "text": "it's already something before it was",
+      "start": 3259.92,
+      "duration": 3.439
+    },
+    {
+      "text": "okay you have informed consent and then",
+      "start": 3261.44,
+      "duration": 3.84
+    },
+    {
+      "text": "we really got to the level of design now",
+      "start": 3263.359,
+      "duration": 4.0
+    },
+    {
+      "text": "we have reports okay how do you design a",
+      "start": 3265.28,
+      "duration": 5.039
+    },
+    {
+      "text": "cookie banner in a way that choice or",
+      "start": 3267.359,
+      "duration": 4.72
+    },
+    {
+      "text": "autonomy is respected as much as",
+      "start": 3270.319,
+      "duration": 3.921
+    },
+    {
+      "text": "possible what I think will happen in AI",
+      "start": 3272.079,
+      "duration": 4.48
+    },
+    {
+      "text": "and I I really I hope to I want to",
+      "start": 3274.24,
+      "duration": 4.4
+    },
+    {
+      "text": "believe that I think it's we are really",
+      "start": 3276.559,
+      "duration": 4.321
+    },
+    {
+      "text": "in the early beginnings of AI governance",
+      "start": 3278.64,
+      "duration": 3.76
+    },
+    {
+      "text": "AI governance especially from a more",
+      "start": 3280.88,
+      "duration": 4.08
+    },
+    {
+      "text": "legal perspective. I think in the next",
+      "start": 3282.4,
+      "duration": 4.64
+    },
+    {
+      "text": "five years maybe we'll see much more",
+      "start": 3284.96,
+      "duration": 4.879
+    },
+    {
+      "text": "nuanced approach to AI design. So how do",
+      "start": 3287.04,
+      "duration": 5.76
+    },
+    {
+      "text": "we design AI products, AI chat bots, all",
+      "start": 3289.839,
+      "duration": 5.28
+    },
+    {
+      "text": "sort of AI systems with privacy by",
+      "start": 3292.8,
+      "duration": 4.24
+    },
+    {
+      "text": "design and and not only as as an",
+      "start": 3295.119,
+      "duration": 4.161
+    },
+    {
+      "text": "abstract con concept but also",
+      "start": 3297.04,
+      "duration": 3.6
+    },
+    {
+      "text": "implemented the same way that we have",
+      "start": 3299.28,
+      "duration": 2.96
+    },
+    {
+      "text": "now the same level of detail that we",
+      "start": 3300.64,
+      "duration": 3.919
+    },
+    {
+      "text": "have about cookie banners in Europe. So",
+      "start": 3302.24,
+      "duration": 4.96
+    },
+    {
+      "text": "have to have symmetries have to have the",
+      "start": 3304.559,
+      "duration": 5.04
+    },
+    {
+      "text": "first layer of choice has to be yes or",
+      "start": 3307.2,
+      "duration": 4.879
+    },
+    {
+      "text": "no and so on. I think or I want to",
+      "start": 3309.599,
+      "duration": 4.0
+    },
+    {
+      "text": "believe that this this will also happen",
+      "start": 3312.079,
+      "duration": 3.121
+    },
+    {
+      "text": "in design. It's just a matter of time.",
+      "start": 3313.599,
+      "duration": 5.041
+    },
+    {
+      "text": "So we're still in the uh um I'll say uh",
+      "start": 3315.2,
+      "duration": 5.2
+    },
+    {
+      "text": "in the spectacle in the in the magic",
+      "start": 3318.64,
+      "duration": 4.4
+    },
+    {
+      "text": "side of of AI and what it can do but it",
+      "start": 3320.4,
+      "duration": 5.28
+    },
+    {
+      "text": "will get better and will mature and and",
+      "start": 3323.04,
+      "duration": 5.519
+    },
+    {
+      "text": "the the the excitement will go down and",
+      "start": 3325.68,
+      "duration": 5.12
+    },
+    {
+      "text": "we will focus okay how to implement",
+      "start": 3328.559,
+      "duration": 4.641
+    },
+    {
+      "text": "privacy by design. At least I want to",
+      "start": 3330.8,
+      "duration": 5.759
+    },
+    {
+      "text": "believe that uh on on part three of uh",
+      "start": 3333.2,
+      "duration": 5.84
+    },
+    {
+      "text": "professor sort of books so the title is",
+      "start": 3336.559,
+      "duration": 4.881
+    },
+    {
+      "text": "power law and accountability. So I want",
+      "start": 3339.04,
+      "duration": 5.2
+    },
+    {
+      "text": "to um while reading it I found an",
+      "start": 3341.44,
+      "duration": 5.52
+    },
+    {
+      "text": "interesting uh quote and I want to hear",
+      "start": 3344.24,
+      "duration": 4.879
+    },
+    {
+      "text": "from you. So how could we implement that",
+      "start": 3346.96,
+      "duration": 6.72
+    },
+    {
+      "text": "in practice? So you wrote that uh privac",
+      "start": 3349.119,
+      "duration": 6.401
+    },
+    {
+      "text": "about the danger of oification in",
+      "start": 3353.68,
+      "duration": 4.08
+    },
+    {
+      "text": "privacy loss. So privacy laws should be",
+      "start": 3355.52,
+      "duration": 4.24
+    },
+    {
+      "text": "messy and open-ended, dynamic and",
+      "start": 3357.76,
+      "duration": 4.72
+    },
+    {
+      "text": "evolving rather than being an ambiguous.",
+      "start": 3359.76,
+      "duration": 5.44
+    },
+    {
+      "text": "They should require challenging judgment",
+      "start": 3362.48,
+      "duration": 4.16
+    },
+    {
+      "text": "calls. I think it's extremely",
+      "start": 3365.2,
+      "duration": 5.119
+    },
+    {
+      "text": "interesting. It's it's the ideal uh uh",
+      "start": 3366.64,
+      "duration": 6.4
+    },
+    {
+      "text": "it's almost like a especially from an",
+      "start": 3370.319,
+      "duration": 5.04
+    },
+    {
+      "text": "European point of view, it's a it's",
+      "start": 3373.04,
+      "duration": 3.759
+    },
+    {
+      "text": "almost your topic. So I wanted to hear",
+      "start": 3375.359,
+      "duration": 4.561
+    },
+    {
+      "text": "from you maybe from comparing the US or",
+      "start": 3376.799,
+      "duration": 5.921
+    },
+    {
+      "text": "Europe. So when I I usually I I focus a",
+      "start": 3379.92,
+      "duration": 5.04
+    },
+    {
+      "text": "lot on the EU when I write. So how could",
+      "start": 3382.72,
+      "duration": 3.839
+    },
+    {
+      "text": "we think about what you wrote to the",
+      "start": 3384.96,
+      "duration": 3.599
+    },
+    {
+      "text": "danger of oification when we have for",
+      "start": 3386.559,
+      "duration": 4.881
+    },
+    {
+      "text": "example the AI act or GDPR which are so",
+      "start": 3388.559,
+      "duration": 4.481
+    },
+    {
+      "text": "it's different legal system right the US",
+      "start": 3391.44,
+      "duration": 4.08
+    },
+    {
+      "text": "is common laws the EU is a civil law so",
+      "start": 3393.04,
+      "duration": 3.519
+    },
+    {
+      "text": "especially when we think about",
+      "start": 3395.52,
+      "duration": 3.599
+    },
+    {
+      "text": "regulation so applying to all member",
+      "start": 3396.559,
+      "duration": 4.881
+    },
+    {
+      "text": "states so how do can we avoid oification",
+      "start": 3399.119,
+      "duration": 4.641
+    },
+    {
+      "text": "when we have laws such as the GDPR or",
+      "start": 3401.44,
+      "duration": 4.56
+    },
+    {
+      "text": "the EI act and how can we we really",
+      "start": 3403.76,
+      "duration": 5.599
+    },
+    {
+      "text": "implement what you wrote so uh enabling",
+      "start": 3406.0,
+      "duration": 6.319
+    },
+    {
+      "text": "or requiring challenging judgment calls",
+      "start": 3409.359,
+      "duration": 4.321
+    },
+    {
+      "text": "yeah I'm really glad you asked this",
+      "start": 3412.319,
+      "duration": 4.24
+    },
+    {
+      "text": "question um uh because it goes to sort",
+      "start": 3413.68,
+      "duration": 5.76
+    },
+    {
+      "text": "of against the the move that you said",
+      "start": 3416.559,
+      "duration": 5.04
+    },
+    {
+      "text": "the EU is doing which is like simplify",
+      "start": 3419.44,
+      "duration": 3.919
+    },
+    {
+      "text": "and which is what companies want right",
+      "start": 3421.599,
+      "duration": 4.48
+    },
+    {
+      "text": "they say make it really easy for us make",
+      "start": 3423.359,
+      "duration": 5.76
+    },
+    {
+      "text": "it easy because it's so hard to do it",
+      "start": 3426.079,
+      "duration": 4.801
+    },
+    {
+      "text": "what companies really are saying what",
+      "start": 3429.119,
+      "duration": 4.081
+    },
+    {
+      "text": "they really want is something mindless",
+      "start": 3430.88,
+      "duration": 3.919
+    },
+    {
+      "text": "they want something that's like a",
+      "start": 3433.2,
+      "duration": 4.32
+    },
+    {
+      "text": "checklist they can easily do and they",
+      "start": 3434.799,
+      "duration": 4.881
+    },
+    {
+      "text": "can do it in an automated way because",
+      "start": 3437.52,
+      "duration": 3.839
+    },
+    {
+      "text": "the companies are good at that they want",
+      "start": 3439.68,
+      "duration": 4.0
+    },
+    {
+      "text": "to do something very efficiently very",
+      "start": 3441.359,
+      "duration": 4.841
+    },
+    {
+      "text": "quickly, very easily, very",
+      "start": 3443.68,
+      "duration": 5.2
+    },
+    {
+      "text": "inexpensively, and uh you know, just",
+      "start": 3446.2,
+      "duration": 4.599
+    },
+    {
+      "text": "call it and and then feel totally snug",
+      "start": 3448.88,
+      "duration": 3.84
+    },
+    {
+      "text": "and safe and say, \"Okay, we've done",
+      "start": 3450.799,
+      "duration": 4.32
+    },
+    {
+      "text": "everything. We've checked all the boxes.",
+      "start": 3452.72,
+      "duration": 4.079
+    },
+    {
+      "text": "We're safe from any regulatory",
+      "start": 3455.119,
+      "duration": 4.081
+    },
+    {
+      "text": "penalties. We can have a good night's",
+      "start": 3456.799,
+      "duration": 3.76
+    },
+    {
+      "text": "sleep.\" That's what they like. They",
+      "start": 3459.2,
+      "duration": 3.04
+    },
+    {
+      "text": "don't They like to reduce their risk.",
+      "start": 3460.559,
+      "duration": 3.28
+    },
+    {
+      "text": "They like to do all these things. And I",
+      "start": 3462.24,
+      "duration": 3.119
+    },
+    {
+      "text": "get that. That's a natural tendency to",
+      "start": 3463.839,
+      "duration": 4.201
+    },
+    {
+      "text": "want to do it. The problem is privacy is",
+      "start": 3465.359,
+      "duration": 5.681
+    },
+    {
+      "text": "complicated. and the checklist type of",
+      "start": 3468.04,
+      "duration": 4.6
+    },
+    {
+      "text": "uh approach, you know, the the kind of",
+      "start": 3471.04,
+      "duration": 3.84
+    },
+    {
+      "text": "simple mindless automation doesn't work",
+      "start": 3472.64,
+      "duration": 4.88
+    },
+    {
+      "text": "well for privacy. Um I'm not saying",
+      "start": 3474.88,
+      "duration": 3.84
+    },
+    {
+      "text": "that, you know, some automation is",
+      "start": 3477.52,
+      "duration": 4.0
+    },
+    {
+      "text": "great, but you need a person who is",
+      "start": 3478.72,
+      "duration": 5.04
+    },
+    {
+      "text": "thoughtful thinking about the issues.",
+      "start": 3481.52,
+      "duration": 4.079
+    },
+    {
+      "text": "There are some really difficult ethical",
+      "start": 3483.76,
+      "duration": 4.319
+    },
+    {
+      "text": "issues that need to be thought about and",
+      "start": 3485.599,
+      "duration": 5.601
+    },
+    {
+      "text": "judgment uh needs to be used and that is",
+      "start": 3488.079,
+      "duration": 6.24
+    },
+    {
+      "text": "more expensive that is uh that does",
+      "start": 3491.2,
+      "duration": 5.52
+    },
+    {
+      "text": "involve some real thinking and it",
+      "start": 3494.319,
+      "duration": 4.321
+    },
+    {
+      "text": "involves messiness. It's not going to be",
+      "start": 3496.72,
+      "duration": 4.8
+    },
+    {
+      "text": "easy. Uh it's not going to be and I",
+      "start": 3498.64,
+      "duration": 5.12
+    },
+    {
+      "text": "don't think that's so bad. And you know,",
+      "start": 3501.52,
+      "duration": 4.96
+    },
+    {
+      "text": "if companies have to fret a little bit,",
+      "start": 3503.76,
+      "duration": 5.2
+    },
+    {
+      "text": "have to spend a little bit more to hire",
+      "start": 3506.48,
+      "duration": 5.119
+    },
+    {
+      "text": "a human to think it through rather than",
+      "start": 3508.96,
+      "duration": 5.839
+    },
+    {
+      "text": "to try to just automate it away. Uh if",
+      "start": 3511.599,
+      "duration": 5.921
+    },
+    {
+      "text": "if they if they don't sleep well at",
+      "start": 3514.799,
+      "duration": 4.8
+    },
+    {
+      "text": "night, if they're worried like, \"Oh my,",
+      "start": 3517.52,
+      "duration": 4.0
+    },
+    {
+      "text": "you know, I'm gonna use this data and",
+      "start": 3519.599,
+      "duration": 5.76
+    },
+    {
+      "text": "maybe I'm not totally sure uh that it's",
+      "start": 3521.52,
+      "duration": 6.079
+    },
+    {
+      "text": "okay. Maybe the regulators could",
+      "start": 3525.359,
+      "duration": 4.0
+    },
+    {
+      "text": "possibly come after me. I'm a little",
+      "start": 3527.599,
+      "duration": 5.2
+    },
+    {
+      "text": "nervous about this. I think that's good.",
+      "start": 3529.359,
+      "duration": 5.601
+    },
+    {
+      "text": "They should be a little bit worried",
+      "start": 3532.799,
+      "duration": 3.601
+    },
+    {
+      "text": "because you know what? That's what",
+      "start": 3534.96,
+      "duration": 2.96
+    },
+    {
+      "text": "they're doing to consumers. That's what",
+      "start": 3536.4,
+      "duration": 2.8
+    },
+    {
+      "text": "they're doing to people. They're putting",
+      "start": 3537.92,
+      "duration": 3.28
+    },
+    {
+      "text": "the technology out there and we're at",
+      "start": 3539.2,
+      "duration": 4.8
+    },
+    {
+      "text": "risk. We are at risk. We're not able to",
+      "start": 3541.2,
+      "duration": 4.639
+    },
+    {
+      "text": "sleep easy at night because of all the",
+      "start": 3544.0,
+      "duration": 4.079
+    },
+    {
+      "text": "things that could possibly happen to us.",
+      "start": 3545.839,
+      "duration": 3.921
+    },
+    {
+      "text": "So why should they why should we be so",
+      "start": 3548.079,
+      "duration": 4.641
+    },
+    {
+      "text": "worried about how how snuggly they sleep",
+      "start": 3549.76,
+      "duration": 5.28
+    },
+    {
+      "text": "at night? Why why why should they sleep",
+      "start": 3552.72,
+      "duration": 5.04
+    },
+    {
+      "text": "without a worry in the world when the",
+      "start": 3555.04,
+      "duration": 5.2
+    },
+    {
+      "text": "consumers are concerned too? Because",
+      "start": 3557.76,
+      "duration": 5.359
+    },
+    {
+      "text": "this is risky. There are some concerns.",
+      "start": 3560.24,
+      "duration": 5.2
+    },
+    {
+      "text": "A lot can happen. And so I think they",
+      "start": 3563.119,
+      "duration": 4.801
+    },
+    {
+      "text": "need to share in that risk. They need to",
+      "start": 3565.44,
+      "duration": 4.399
+    },
+    {
+      "text": "be worried. It's good for them to be",
+      "start": 3567.92,
+      "duration": 3.76
+    },
+    {
+      "text": "concerned. They should be thinking,",
+      "start": 3569.839,
+      "duration": 4.72
+    },
+    {
+      "text": "\"Huh, if I put out this technology, you",
+      "start": 3571.68,
+      "duration": 5.52
+    },
+    {
+      "text": "know, and this is a tricky question, uh,",
+      "start": 3574.559,
+      "duration": 4.401
+    },
+    {
+      "text": "and something goes wrong, this could",
+      "start": 3577.2,
+      "duration": 5.04
+    },
+    {
+      "text": "really hurt us. This could be risky.",
+      "start": 3578.96,
+      "duration": 5.68
+    },
+    {
+      "text": "Maybe we should be cautious here. Maybe",
+      "start": 3582.24,
+      "duration": 4.319
+    },
+    {
+      "text": "we should think about this a little bit",
+      "start": 3584.64,
+      "duration": 4.24
+    },
+    {
+      "text": "more. Maybe we should should put our",
+      "start": 3586.559,
+      "duration": 5.52
+    },
+    {
+      "text": "minds to this and actually think about",
+      "start": 3588.88,
+      "duration": 5.199
+    },
+    {
+      "text": "how to do it rather than easily check",
+      "start": 3592.079,
+      "duration": 3.921
+    },
+    {
+      "text": "off something mindlessly on a checklist",
+      "start": 3594.079,
+      "duration": 4.24
+    },
+    {
+      "text": "that often really doesn't provide much",
+      "start": 3596.0,
+      "duration": 4.319
+    },
+    {
+      "text": "protection. It just like makes them feel",
+      "start": 3598.319,
+      "duration": 4.961
+    },
+    {
+      "text": "safe. Um, I want that kind of thinking.",
+      "start": 3600.319,
+      "duration": 4.401
+    },
+    {
+      "text": "I think that's good kind of thinking. I",
+      "start": 3603.28,
+      "duration": 3.2
+    },
+    {
+      "text": "think it's productive kind of thinking.",
+      "start": 3604.72,
+      "duration": 3.599
+    },
+    {
+      "text": "It is messy. Companies are going to hate",
+      "start": 3606.48,
+      "duration": 4.879
+    },
+    {
+      "text": "it, but you know what? I think it's it's",
+      "start": 3608.319,
+      "duration": 6.0
+    },
+    {
+      "text": "good uh and it has to happen and the law",
+      "start": 3611.359,
+      "duration": 6.24
+    },
+    {
+      "text": "should drive that uh and you know kind",
+      "start": 3614.319,
+      "duration": 7.681
+    },
+    {
+      "text": "of don't give in to the tantrum uh which",
+      "start": 3617.599,
+      "duration": 6.401
+    },
+    {
+      "text": "is the advice you know you know the kind",
+      "start": 3622.0,
+      "duration": 4.079
+    },
+    {
+      "text": "of parental advice you don't give in to",
+      "start": 3624.0,
+      "duration": 5.68
+    },
+    {
+      "text": "the tantrum stick to your guns you know",
+      "start": 3626.079,
+      "duration": 7.361
+    },
+    {
+      "text": "uh yes you know life is hard um not",
+      "start": 3629.68,
+      "duration": 6.879
+    },
+    {
+      "text": "everything can be easy uh but that's",
+      "start": 3633.44,
+      "duration": 8.32
+    },
+    {
+      "text": "okay um and this isn't easy and uh but",
+      "start": 3636.559,
+      "duration": 7.04
+    },
+    {
+      "text": "there are thoughtful people out there",
+      "start": 3641.76,
+      "duration": 4.96
+    },
+    {
+      "text": "who can help think it through. Uh if",
+      "start": 3643.599,
+      "duration": 5.76
+    },
+    {
+      "text": "companies devote the resources and time",
+      "start": 3646.72,
+      "duration": 5.76
+    },
+    {
+      "text": "and get smart people to start really",
+      "start": 3649.359,
+      "duration": 4.76
+    },
+    {
+      "text": "working on",
+      "start": 3652.48,
+      "duration": 4.839
+    },
+    {
+      "text": "this, we can really make some good",
+      "start": 3654.119,
+      "duration": 6.521
+    },
+    {
+      "text": "progress. That that's a great way to end",
+      "start": 3657.319,
+      "duration": 4.921
+    },
+    {
+      "text": "our conversation. So I know you have to",
+      "start": 3660.64,
+      "duration": 3.36
+    },
+    {
+      "text": "go. You have commits. You want to share",
+      "start": 3662.24,
+      "duration": 4.0
+    },
+    {
+      "text": "a last message to the audience? Maybe",
+      "start": 3664.0,
+      "duration": 5.599
+    },
+    {
+      "text": "invite them to your event. Maybe I first",
+      "start": 3666.24,
+      "duration": 6.16
+    },
+    {
+      "text": "everybody if you haven't but yet so",
+      "start": 3669.599,
+      "duration": 4.561
+    },
+    {
+      "text": "please on privacy and technology",
+      "start": 3672.4,
+      "duration": 4.0
+    },
+    {
+      "text": "especially if you're trying to",
+      "start": 3674.16,
+      "duration": 5.36
+    },
+    {
+      "text": "understand I say it's a as professor",
+      "start": 3676.4,
+      "duration": 5.199
+    },
+    {
+      "text": "solo was saying so it's he has been in",
+      "start": 3679.52,
+      "duration": 4.559
+    },
+    {
+      "text": "the privacy field for over 25 years it's",
+      "start": 3681.599,
+      "duration": 5.681
+    },
+    {
+      "text": "a great it's a map it will help you",
+      "start": 3684.079,
+      "duration": 6.0
+    },
+    {
+      "text": "navigate so many of the issues so of",
+      "start": 3687.28,
+      "duration": 5.44
+    },
+    {
+      "text": "course AI but beyond that so really the",
+      "start": 3690.079,
+      "duration": 4.48
+    },
+    {
+      "text": "structure the pillars the the important",
+      "start": 3692.72,
+      "duration": 4.639
+    },
+    {
+      "text": "the myths and the important concepts so",
+      "start": 3694.559,
+      "duration": 4.721
+    },
+    {
+      "text": "if you haven't bought yet. So on privacy",
+      "start": 3697.359,
+      "duration": 3.921
+    },
+    {
+      "text": "technology will be your next bid. But",
+      "start": 3699.28,
+      "duration": 3.92
+    },
+    {
+      "text": "then you want want to have some share",
+      "start": 3701.28,
+      "duration": 4.4
+    },
+    {
+      "text": "invite them uh share a final message.",
+      "start": 3703.2,
+      "duration": 5.2
+    },
+    {
+      "text": "Anything you want. Well well thanks for",
+      "start": 3705.68,
+      "duration": 6.399
+    },
+    {
+      "text": "that. Yeah I I I hope that you uh have a",
+      "start": 3708.4,
+      "duration": 6.159
+    },
+    {
+      "text": "chance to take a look at the book and I",
+      "start": 3712.079,
+      "duration": 4.321
+    },
+    {
+      "text": "would love uh your thoughts and feedback",
+      "start": 3714.559,
+      "duration": 4.961
+    },
+    {
+      "text": "on it. Um uh I have a lot of papers",
+      "start": 3716.4,
+      "duration": 5.28
+    },
+    {
+      "text": "available online. Uh so you can get",
+      "start": 3719.52,
+      "duration": 5.12
+    },
+    {
+      "text": "these papers uh almost all the papers",
+      "start": 3721.68,
+      "duration": 5.6
+    },
+    {
+      "text": "are free. Uh so you can download them.",
+      "start": 3724.64,
+      "duration": 4.8
+    },
+    {
+      "text": "Um, I have events as well. I have a big",
+      "start": 3727.28,
+      "duration": 3.76
+    },
+    {
+      "text": "event called the privacy and security",
+      "start": 3729.44,
+      "duration": 4.8
+    },
+    {
+      "text": "forum. Uh, so if you want to uh uh go to",
+      "start": 3731.04,
+      "duration": 4.88
+    },
+    {
+      "text": "that, I think there's a lot of really",
+      "start": 3734.24,
+      "duration": 4.48
+    },
+    {
+      "text": "interesting people speaking about uh how",
+      "start": 3735.92,
+      "duration": 5.919
+    },
+    {
+      "text": "they uh protect privacy and and and uh",
+      "start": 3738.72,
+      "duration": 5.359
+    },
+    {
+      "text": "how they are dealing with the uh the law",
+      "start": 3741.839,
+      "duration": 4.0
+    },
+    {
+      "text": "and the regulations that that are out",
+      "start": 3744.079,
+      "duration": 4.641
+    },
+    {
+      "text": "there. Um, and I have a newsletter uh",
+      "start": 3745.839,
+      "duration": 6.48
+    },
+    {
+      "text": "that I uh have uh folks subscribe to",
+      "start": 3748.72,
+      "duration": 5.76
+    },
+    {
+      "text": "where I talk about what I'm writing and",
+      "start": 3752.319,
+      "duration": 6.24
+    },
+    {
+      "text": "what I'm doing and uh things I'm up to.",
+      "start": 3754.48,
+      "duration": 6.079
+    },
+    {
+      "text": "So, if you're interested, uh it's free.",
+      "start": 3758.559,
+      "duration": 5.681
+    },
+    {
+      "text": "Um I I hope you uh I hope you stay",
+      "start": 3760.559,
+      "duration": 7.681
+    },
+    {
+      "text": "tuned. Uh so, I appreciate your um uh",
+      "start": 3764.24,
+      "duration": 6.559
+    },
+    {
+      "text": "thanks Louisa for having me on. I I I",
+      "start": 3768.24,
+      "duration": 5.28
+    },
+    {
+      "text": "really have always uh enjoyed chatting",
+      "start": 3770.799,
+      "duration": 5.04
+    },
+    {
+      "text": "with you. And I also just want to plug",
+      "start": 3773.52,
+      "duration": 5.839
+    },
+    {
+      "text": "your work. I I I find your work to be uh",
+      "start": 3775.839,
+      "duration": 5.201
+    },
+    {
+      "text": "some of the most insightful stuff out",
+      "start": 3779.359,
+      "duration": 4.48
+    },
+    {
+      "text": "there on privacy and AI. Uh and I really",
+      "start": 3781.04,
+      "duration": 4.24
+    },
+    {
+      "text": "want to thank you for all you do because",
+      "start": 3783.839,
+      "duration": 4.161
+    },
+    {
+      "text": "you're you're",
+      "start": 3785.28,
+      "duration": 4.96
+    },
+    {
+      "text": "I'm so honored to be on this show. No,",
+      "start": 3788.0,
+      "duration": 4.24
+    },
+    {
+      "text": "it's it's my honor. And by the way,",
+      "start": 3790.24,
+      "duration": 4.48
+    },
+    {
+      "text": "about so then was if you want you can",
+      "start": 3792.24,
+      "duration": 4.799
+    },
+    {
+      "text": "spend your whole free time with Dan's",
+      "start": 3794.72,
+      "duration": 5.2
+    },
+    {
+      "text": "material. So he has books, articles,",
+      "start": 3797.039,
+      "duration": 5.361
+    },
+    {
+      "text": "courses, newsletters, events. So you can",
+      "start": 3799.92,
+      "duration": 5.28
+    },
+    {
+      "text": "you can just uh tune in to what Dan is",
+      "start": 3802.4,
+      "duration": 4.8
+    },
+    {
+      "text": "doing. You can fill up all your free",
+      "start": 3805.2,
+      "duration": 6.24
+    },
+    {
+      "text": "time. He has a lifetime of of amazing",
+      "start": 3807.2,
+      "duration": 7.52
+    },
+    {
+      "text": "intellectual work uh to to to help the",
+      "start": 3811.44,
+      "duration": 5.52
+    },
+    {
+      "text": "the community. So thank you then. No,",
+      "start": 3814.72,
+      "duration": 4.639
+    },
+    {
+      "text": "I'm honored. I'm I have to we are here",
+      "start": 3816.96,
+      "duration": 5.399
+    },
+    {
+      "text": "also celebrating your uh incredible uh",
+      "start": 3819.359,
+      "duration": 5.601
+    },
+    {
+      "text": "admirable impressive career and your",
+      "start": 3822.359,
+      "duration": 4.2
+    },
+    {
+      "text": "contributions and valuable",
+      "start": 3824.96,
+      "duration": 3.839
+    },
+    {
+      "text": "contributions. So I'm so happy to have",
+      "start": 3826.559,
+      "duration": 5.441
+    },
+    {
+      "text": "you here uh for the second time. Uh, and",
+      "start": 3828.799,
+      "duration": 5.201
+    },
+    {
+      "text": "thank you everyone and I see you in the",
+      "start": 3832.0,
+      "duration": 5.119
+    },
+    {
+      "text": "next live talk.",
+      "start": 3834.0,
+      "duration": 3.119
+    }
+  ]
+}

@@ -1,0 +1,5883 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "sC4_4twgWI4",
+  "video_title": "Trump's AI Chip Licensing Deal, AI Spending Bubble Concerns, & New Advances for Gov't AI Adoption",
+  "video_url": "https://www.youtube.com/watch?v=sC4_4twgWI4",
+  "fetched_at": "2025-12-29T20:14:07.700775+00:00",
+  "transcript": [
+    {
+      "text": "[Music]",
+      "start": 8.25,
+      "duration": 5.509
+    },
+    {
+      "text": "Welcome back to the AI policy podcast.",
+      "start": 11.28,
+      "duration": 4.479
+    },
+    {
+      "text": "Today we'll cover Trump's newly struck",
+      "start": 13.759,
+      "duration": 4.961
+    },
+    {
+      "text": "licensing deal with Nvidia and AMD,",
+      "start": 15.759,
+      "duration": 5.28
+    },
+    {
+      "text": "concerns about AIdriven economic",
+      "start": 18.72,
+      "duration": 4.88
+    },
+    {
+      "text": "bubbles, and AI adoption in the federal",
+      "start": 21.039,
+      "duration": 4.561
+    },
+    {
+      "text": "government. I'm Belle Hill, and with me",
+      "start": 23.6,
+      "duration": 4.56
+    },
+    {
+      "text": "as always is Greg Allen. Hey, Greg.",
+      "start": 25.6,
+      "duration": 3.759
+    },
+    {
+      "text": ">> Hello. Great to be talking with you",
+      "start": 28.16,
+      "duration": 2.64
+    },
+    {
+      "text": "again. And we're back pretty quick this",
+      "start": 29.359,
+      "duration": 1.92
+    },
+    {
+      "text": "time.",
+      "start": 30.8,
+      "duration": 2.0
+    },
+    {
+      "text": ">> Yeah, two weeks in a row. Let's keep it",
+      "start": 31.279,
+      "duration": 3.921
+    },
+    {
+      "text": "rolling. Well, speaking of, last week I",
+      "start": 32.8,
+      "duration": 4.4
+    },
+    {
+      "text": "promised that H20 export controls would",
+      "start": 35.2,
+      "duration": 3.679
+    },
+    {
+      "text": "continue to be a recurring topic on this",
+      "start": 37.2,
+      "duration": 3.6
+    },
+    {
+      "text": "podcast. I wasn't kidding, but I",
+      "start": 38.879,
+      "duration": 3.041
+    },
+    {
+      "text": "actually didn't think it would be",
+      "start": 40.8,
+      "duration": 2.96
+    },
+    {
+      "text": "literally the next week that we'd be",
+      "start": 41.92,
+      "duration": 4.24
+    },
+    {
+      "text": "talking about it. Um, but on August 10,",
+      "start": 43.76,
+      "duration": 3.84
+    },
+    {
+      "text": "several media outlets reported that",
+      "start": 46.16,
+      "duration": 3.6
+    },
+    {
+      "text": "Nvidia and AMD had struck deals with the",
+      "start": 47.6,
+      "duration": 4.16
+    },
+    {
+      "text": "Trump administration to gain access to",
+      "start": 49.76,
+      "duration": 4.799
+    },
+    {
+      "text": "semiconductor expert licenses. These",
+      "start": 51.76,
+      "duration": 5.68
+    },
+    {
+      "text": "deals include sharing 50% 15% of revenue",
+      "start": 54.559,
+      "duration": 4.561
+    },
+    {
+      "text": "from China sales with the government.",
+      "start": 57.44,
+      "duration": 3.599
+    },
+    {
+      "text": "And on August 11th, during a press",
+      "start": 59.12,
+      "duration": 4.16
+    },
+    {
+      "text": "conference, Trump also said that Nvidia",
+      "start": 61.039,
+      "duration": 5.12
+    },
+    {
+      "text": "CEO Jensen Wang was quote coming to see",
+      "start": 63.28,
+      "duration": 4.72
+    },
+    {
+      "text": "him about licenses for degraded",
+      "start": 66.159,
+      "duration": 3.601
+    },
+    {
+      "text": "Blackwell trips. Can you tell me about",
+      "start": 68.0,
+      "duration": 3.92
+    },
+    {
+      "text": "this press conference with uh with uh",
+      "start": 69.76,
+      "duration": 4.64
+    },
+    {
+      "text": "President Trump? Yeah, we learned a lot",
+      "start": 71.92,
+      "duration": 4.4
+    },
+    {
+      "text": "in this press conference uh that",
+      "start": 74.4,
+      "duration": 5.12
+    },
+    {
+      "text": "President Trump had on August 11th and",
+      "start": 76.32,
+      "duration": 6.159
+    },
+    {
+      "text": "the entire section where he's talking",
+      "start": 79.52,
+      "duration": 6.48
+    },
+    {
+      "text": "about the negotiations with Nvidia um",
+      "start": 82.479,
+      "duration": 6.161
+    },
+    {
+      "text": "how this deal came together actually I",
+      "start": 86.0,
+      "duration": 5.04
+    },
+    {
+      "text": "would say contradicts some earlier",
+      "start": 88.64,
+      "duration": 4.0
+    },
+    {
+      "text": "statements that we had gotten from the",
+      "start": 91.04,
+      "duration": 4.8
+    },
+    {
+      "text": "administration specifically um that",
+      "start": 92.64,
+      "duration": 5.28
+    },
+    {
+      "text": "Secretary of Commerce Howard Lutnik had",
+      "start": 95.84,
+      "duration": 5.84
+    },
+    {
+      "text": "stated in terms of the H20 deal being a",
+      "start": 97.92,
+      "duration": 7.12
+    },
+    {
+      "text": "deal with China, not a deal with Nvidia",
+      "start": 101.68,
+      "duration": 6.24
+    },
+    {
+      "text": "and being negotiated to remove export",
+      "start": 105.04,
+      "duration": 4.96
+    },
+    {
+      "text": "controls from China on rare earth",
+      "start": 107.92,
+      "duration": 6.4
+    },
+    {
+      "text": "magnets. So, um I know not everybody is",
+      "start": 110.0,
+      "duration": 7.52
+    },
+    {
+      "text": "going to be excited to hear some me read",
+      "start": 114.32,
+      "duration": 6.32
+    },
+    {
+      "text": "some long quotations from President",
+      "start": 117.52,
+      "duration": 5.36
+    },
+    {
+      "text": "Trump and Secretary Lutnik, but I think",
+      "start": 120.64,
+      "duration": 4.079
+    },
+    {
+      "text": "it's actually pretty important to get",
+      "start": 122.88,
+      "duration": 3.839
+    },
+    {
+      "text": "the full picture of the story. Um so",
+      "start": 124.719,
+      "duration": 4.4
+    },
+    {
+      "text": "bear with me, folks. Uh here we go. This",
+      "start": 126.719,
+      "duration": 4.641
+    },
+    {
+      "text": "is uh President Trump. And no, I'm not",
+      "start": 129.119,
+      "duration": 3.921
+    },
+    {
+      "text": "going to do a bad impersonation. I'm",
+      "start": 131.36,
+      "duration": 3.12
+    },
+    {
+      "text": "just going to read it in a regular",
+      "start": 133.04,
+      "duration": 3.919
+    },
+    {
+      "text": "voice. And I deal with Jensen, who is a",
+      "start": 134.48,
+      "duration": 4.64
+    },
+    {
+      "text": "great guy, and Nvidia. The chip that",
+      "start": 136.959,
+      "duration": 4.801
+    },
+    {
+      "text": "we're talking about, the H20, it's an",
+      "start": 139.12,
+      "duration": 4.88
+    },
+    {
+      "text": "old chip. China already has it in a",
+      "start": 141.76,
+      "duration": 4.24
+    },
+    {
+      "text": "different form, different name, but they",
+      "start": 144.0,
+      "duration": 4.08
+    },
+    {
+      "text": "have it or they have a combination of",
+      "start": 146.0,
+      "duration": 4.48
+    },
+    {
+      "text": "two will make up for it, and even then",
+      "start": 148.08,
+      "duration": 5.28
+    },
+    {
+      "text": "some. Now, Jensen also has Jensen's a",
+      "start": 150.48,
+      "duration": 5.039
+    },
+    {
+      "text": "very brilliant guy. And Jensen has a new",
+      "start": 153.36,
+      "duration": 4.0
+    },
+    {
+      "text": "chip, the Blackwell. Do you know what",
+      "start": 155.519,
+      "duration": 4.321
+    },
+    {
+      "text": "the Blackwell is? The Blackwell is super",
+      "start": 157.36,
+      "duration": 4.64
+    },
+    {
+      "text": "duper advanced. I wouldn't make a deal",
+      "start": 159.84,
+      "duration": 3.84
+    },
+    {
+      "text": "with that. Although it's possible I'd",
+      "start": 162.0,
+      "duration": 4.239
+    },
+    {
+      "text": "make a deal, a somewhat enhanced in a",
+      "start": 163.68,
+      "duration": 4.88
+    },
+    {
+      "text": "negative way Blackwell. In other words,",
+      "start": 166.239,
+      "duration": 5.761
+    },
+    {
+      "text": "take 30 to 50% off of it. But that's the",
+      "start": 168.56,
+      "duration": 5.36
+    },
+    {
+      "text": "latest and greatest in the world. Nobody",
+      "start": 172.0,
+      "duration": 4.239
+    },
+    {
+      "text": "has it. They won't have it for 5 years.",
+      "start": 173.92,
+      "duration": 4.959
+    },
+    {
+      "text": "But the H20 is obsolete. You know, it's",
+      "start": 176.239,
+      "duration": 4.481
+    },
+    {
+      "text": "one of those things, but it still has a",
+      "start": 178.879,
+      "duration": 5.041
+    },
+    {
+      "text": "market. So I said, \"Listen, I want 20%",
+      "start": 180.72,
+      "duration": 6.0
+    },
+    {
+      "text": "if I'm going to approve this for you,",
+      "start": 183.92,
+      "duration": 4.72
+    },
+    {
+      "text": "for the country, for our country, for",
+      "start": 186.72,
+      "duration": 4.32
+    },
+    {
+      "text": "the US. I don't want it for my I don't",
+      "start": 188.64,
+      "duration": 4.959
+    },
+    {
+      "text": "want it myself.\" You know, every time I",
+      "start": 191.04,
+      "duration": 7.04
+    },
+    {
+      "text": "say like like 747, I want I want Yeah.",
+      "start": 193.599,
+      "duration": 7.841
+    },
+    {
+      "text": "for the Air Force. So I just want it. So",
+      "start": 198.08,
+      "duration": 6.48
+    },
+    {
+      "text": "when I say I want 20, I want for the",
+      "start": 201.44,
+      "duration": 5.2
+    },
+    {
+      "text": "country. I only care about the country.",
+      "start": 204.56,
+      "duration": 4.72
+    },
+    {
+      "text": "I don't care about myself. and he said,",
+      "start": 206.64,
+      "duration": 5.519
+    },
+    {
+      "text": "\"Will you take will you make it 15?\" So,",
+      "start": 209.28,
+      "duration": 5.12
+    },
+    {
+      "text": "we negotiate a little deal. So, he's",
+      "start": 212.159,
+      "duration": 5.121
+    },
+    {
+      "text": "selling a essentially old chip that",
+      "start": 214.4,
+      "duration": 5.199
+    },
+    {
+      "text": "Huawei has a similar chip, a chip that",
+      "start": 217.28,
+      "duration": 5.2
+    },
+    {
+      "text": "does the same thing. And I said, \"Good.",
+      "start": 219.599,
+      "duration": 4.881
+    },
+    {
+      "text": "If I'm going to give it to you because",
+      "start": 222.48,
+      "duration": 4.0
+    },
+    {
+      "text": "they have a, you know, they have a",
+      "start": 224.48,
+      "duration": 4.64
+    },
+    {
+      "text": "stopper, what we call a stopper, not",
+      "start": 226.48,
+      "duration": 5.039
+    },
+    {
+      "text": "allowed to do it. They restrict it. It's",
+      "start": 229.12,
+      "duration": 4.64
+    },
+    {
+      "text": "really known as a restrictive covenant.\"",
+      "start": 231.519,
+      "duration": 4.64
+    },
+    {
+      "text": "And I said, \"If I'm going to do that, I",
+      "start": 233.76,
+      "duration": 4.08
+    },
+    {
+      "text": "want you to pay us as a country",
+      "start": 236.159,
+      "duration": 3.681
+    },
+    {
+      "text": "something because I'm giving you a",
+      "start": 237.84,
+      "duration": 4.72
+    },
+    {
+      "text": "release. I release them only from the",
+      "start": 239.84,
+      "duration": 6.959
+    },
+    {
+      "text": "the H20.\" Now, on the Blackwell, I think",
+      "start": 242.56,
+      "duration": 6.959
+    },
+    {
+      "text": "he's coming to see me again about that,",
+      "start": 246.799,
+      "duration": 4.64
+    },
+    {
+      "text": "but that will be an unenhanced version",
+      "start": 249.519,
+      "duration": 4.881
+    },
+    {
+      "text": "of the big one. Like, I don't know if",
+      "start": 251.439,
+      "duration": 4.881
+    },
+    {
+      "text": "you know it, we will sometimes sell",
+      "start": 254.4,
+      "duration": 4.239
+    },
+    {
+      "text": "fighter jets to a country and we'll give",
+      "start": 256.32,
+      "duration": 4.479
+    },
+    {
+      "text": "them 20% less than we have. You know",
+      "start": 258.639,
+      "duration": 5.201
+    },
+    {
+      "text": "what I mean, right? So, there's a lot in",
+      "start": 260.799,
+      "duration": 5.281
+    },
+    {
+      "text": "that quote. There's a lot in that quote,",
+      "start": 263.84,
+      "duration": 4.96
+    },
+    {
+      "text": "but I think the big thing here is uh",
+      "start": 266.08,
+      "duration": 4.48
+    },
+    {
+      "text": "first he's negotiating this deal",
+      "start": 268.8,
+      "duration": 4.64
+    },
+    {
+      "text": "directly with Nvidia CEO Jensen Hang.",
+      "start": 270.56,
+      "duration": 4.639
+    },
+    {
+      "text": "So, that that is President Trump",
+      "start": 273.44,
+      "duration": 3.6
+    },
+    {
+      "text": "confirming a lot of the speculation",
+      "start": 275.199,
+      "duration": 4.641
+    },
+    {
+      "text": "around this that it was Jensen's visit",
+      "start": 277.04,
+      "duration": 5.12
+    },
+    {
+      "text": "to the White House that did move the",
+      "start": 279.84,
+      "duration": 5.84
+    },
+    {
+      "text": "needle in the overall negotiations. Um",
+      "start": 282.16,
+      "duration": 5.759
+    },
+    {
+      "text": "the second thing is he's saying is he",
+      "start": 285.68,
+      "duration": 4.32
+    },
+    {
+      "text": "does want, you know, there to be this",
+      "start": 287.919,
+      "duration": 3.84
+    },
+    {
+      "text": "15%",
+      "start": 290.0,
+      "duration": 4.08
+    },
+    {
+      "text": "uh markup that the government is going",
+      "start": 291.759,
+      "duration": 5.681
+    },
+    {
+      "text": "to capture off the value of the H20s",
+      "start": 294.08,
+      "duration": 4.96
+    },
+    {
+      "text": "that are sold to China. Now, think about",
+      "start": 297.44,
+      "duration": 3.92
+    },
+    {
+      "text": "this for a second. He it's President",
+      "start": 299.04,
+      "duration": 5.92
+    },
+    {
+      "text": "Trump who is making the comparison uh to",
+      "start": 301.36,
+      "duration": 5.92
+    },
+    {
+      "text": "fighter jets in this story, right? So,",
+      "start": 304.96,
+      "duration": 5.12
+    },
+    {
+      "text": "he's talking about national security",
+      "start": 307.28,
+      "duration": 6.72
+    },
+    {
+      "text": "sensitive items, these H20 chips. and",
+      "start": 310.08,
+      "duration": 7.119
+    },
+    {
+      "text": "he's saying that because Nvidia is going",
+      "start": 314.0,
+      "duration": 6.479
+    },
+    {
+      "text": "to pay the government money, the United",
+      "start": 317.199,
+      "duration": 5.041
+    },
+    {
+      "text": "States is going to overlook those",
+      "start": 320.479,
+      "duration": 4.56
+    },
+    {
+      "text": "national security concerns. Notice that",
+      "start": 322.24,
+      "duration": 5.36
+    },
+    {
+      "text": "this is a very different narrative from",
+      "start": 325.039,
+      "duration": 4.641
+    },
+    {
+      "text": "what you heard from the Secretary of",
+      "start": 327.6,
+      "duration": 4.96
+    },
+    {
+      "text": "Commerce previously. He had said that",
+      "start": 329.68,
+      "duration": 4.959
+    },
+    {
+      "text": "actually selling the chips would be a",
+      "start": 332.56,
+      "duration": 4.639
+    },
+    {
+      "text": "national security benefit because it",
+      "start": 334.639,
+      "duration": 5.601
+    },
+    {
+      "text": "would enhance China's dependence on",
+      "start": 337.199,
+      "duration": 4.881
+    },
+    {
+      "text": "American technology. President Trump",
+      "start": 340.24,
+      "duration": 3.44
+    },
+    {
+      "text": "does not make that point. President",
+      "start": 342.08,
+      "duration": 4.24
+    },
+    {
+      "text": "Trump does not say that selling H20s to",
+      "start": 343.68,
+      "duration": 5.76
+    },
+    {
+      "text": "China is good for US national security.",
+      "start": 346.32,
+      "duration": 5.92
+    },
+    {
+      "text": "He says that we're going to get more",
+      "start": 349.44,
+      "duration": 5.199
+    },
+    {
+      "text": "money and that's the benefit that the",
+      "start": 352.24,
+      "duration": 4.16
+    },
+    {
+      "text": "United States is extracting from this",
+      "start": 354.639,
+      "duration": 4.4
+    },
+    {
+      "text": "story. And there I simply have to",
+      "start": 356.4,
+      "duration": 6.32
+    },
+    {
+      "text": "disagree. Um, I suppose one could make",
+      "start": 359.039,
+      "duration": 6.0
+    },
+    {
+      "text": "the argument that there is some dollar",
+      "start": 362.72,
+      "duration": 5.199
+    },
+    {
+      "text": "figure where it would be in America's",
+      "start": 365.039,
+      "duration": 5.841
+    },
+    {
+      "text": "national security interest to sell China",
+      "start": 367.919,
+      "duration": 6.641
+    },
+    {
+      "text": "advanced AI chips. Right? If China had",
+      "start": 370.88,
+      "duration": 6.319
+    },
+    {
+      "text": "had offered and was legitimately willing",
+      "start": 374.56,
+      "duration": 4.88
+    },
+    {
+      "text": "in this farcical scenario I'm about to",
+      "start": 377.199,
+      "duration": 6.0
+    },
+    {
+      "text": "offer, but if they were willing to pay",
+      "start": 379.44,
+      "duration": 7.759
+    },
+    {
+      "text": "$30 trillion for the chips, right? Well,",
+      "start": 383.199,
+      "duration": 6.881
+    },
+    {
+      "text": "that's more than all of US GDP for an",
+      "start": 387.199,
+      "duration": 4.641
+    },
+    {
+      "text": "entire year. We could fund the",
+      "start": 390.08,
+      "duration": 4.08
+    },
+    {
+      "text": "Department of Defense for 30 years off",
+      "start": 391.84,
+      "duration": 5.68
+    },
+    {
+      "text": "of that money. So, yes, you could have a",
+      "start": 394.16,
+      "duration": 6.0
+    },
+    {
+      "text": "national security return on investment",
+      "start": 397.52,
+      "duration": 5.6
+    },
+    {
+      "text": "positive approach to selling China the",
+      "start": 400.16,
+      "duration": 5.36
+    },
+    {
+      "text": "chips at that price. Nvidia has said",
+      "start": 403.12,
+      "duration": 5.28
+    },
+    {
+      "text": "that their write off for the H20s that",
+      "start": 405.52,
+      "duration": 5.44
+    },
+    {
+      "text": "they had previously negotiated deals to,",
+      "start": 408.4,
+      "duration": 4.88
+    },
+    {
+      "text": "but then they had to cancel those deals.",
+      "start": 410.96,
+      "duration": 3.6
+    },
+    {
+      "text": "when they were talking to their",
+      "start": 413.28,
+      "duration": 2.96
+    },
+    {
+      "text": "investors, they said the write off of",
+      "start": 414.56,
+      "duration": 3.12
+    },
+    {
+      "text": "the value of all those deals when the",
+      "start": 416.24,
+      "duration": 3.84
+    },
+    {
+      "text": "H20s were going to be banned was $5",
+      "start": 417.68,
+      "duration": 3.919
+    },
+    {
+      "text": "billion.",
+      "start": 420.08,
+      "duration": 5.519
+    },
+    {
+      "text": "So what is 15% of $5 billion? It's in",
+      "start": 421.599,
+      "duration": 7.6
+    },
+    {
+      "text": "the ballpark of like $600 million. Is",
+      "start": 425.599,
+      "duration": 8.16
+    },
+    {
+      "text": "$600 million going to undo the national",
+      "start": 429.199,
+      "duration": 8.0
+    },
+    {
+      "text": "security risk uh of this situation? Like",
+      "start": 433.759,
+      "duration": 5.361
+    },
+    {
+      "text": "who is going to extract more benefit",
+      "start": 437.199,
+      "duration": 4.241
+    },
+    {
+      "text": "from this situation in national security",
+      "start": 439.12,
+      "duration": 5.199
+    },
+    {
+      "text": "terms? Is it China or is it America? I",
+      "start": 441.44,
+      "duration": 5.199
+    },
+    {
+      "text": "would say it is China by a widewide",
+      "start": 444.319,
+      "duration": 5.6
+    },
+    {
+      "text": "margin and $600 million comes nowhere",
+      "start": 446.639,
+      "duration": 5.361
+    },
+    {
+      "text": "close to making that calculation",
+      "start": 449.919,
+      "duration": 4.641
+    },
+    {
+      "text": "different. And I think it's fair to say",
+      "start": 452.0,
+      "duration": 4.4
+    },
+    {
+      "text": "that the Secretary of Commerce, Howard",
+      "start": 454.56,
+      "duration": 4.4
+    },
+    {
+      "text": "Lutnik, agrees with me, or at least he",
+      "start": 456.4,
+      "duration": 6.72
+    },
+    {
+      "text": "did in his June 11th CNBC interview.",
+      "start": 458.96,
+      "duration": 5.6
+    },
+    {
+      "text": "This is where he was saying that he",
+      "start": 463.12,
+      "duration": 3.76
+    },
+    {
+      "text": "viewed na chip export controls as",
+      "start": 464.56,
+      "duration": 4.32
+    },
+    {
+      "text": "critical to national security and that",
+      "start": 466.88,
+      "duration": 4.719
+    },
+    {
+      "text": "the administration would not budge",
+      "start": 468.88,
+      "duration": 5.12
+    },
+    {
+      "text": "despite frequent requests from China",
+      "start": 471.599,
+      "duration": 4.641
+    },
+    {
+      "text": "during trade negotiations. So here's",
+      "start": 474.0,
+      "duration": 7.199
+    },
+    {
+      "text": "what um Secretary Lutnik told CNBC on",
+      "start": 476.24,
+      "duration": 8.399
+    },
+    {
+      "text": "June 11th. Quote the Chinese side always",
+      "start": 481.199,
+      "duration": 5.84
+    },
+    {
+      "text": "wants to remove our export controls. You",
+      "start": 484.639,
+      "duration": 3.921
+    },
+    {
+      "text": "know they always try to remove our",
+      "start": 487.039,
+      "duration": 3.6
+    },
+    {
+      "text": "export controls. And Scott Bessant,",
+      "start": 488.56,
+      "duration": 4.4
+    },
+    {
+      "text": "that's the secretary of treasury. Scott",
+      "start": 490.639,
+      "duration": 4.4
+    },
+    {
+      "text": "Bessant gave one of my favorite lines of",
+      "start": 492.96,
+      "duration": 5.28
+    },
+    {
+      "text": "the whole negotiation. He said, \"Really?",
+      "start": 495.039,
+      "duration": 6.321
+    },
+    {
+      "text": "No. So, you want no export controls?",
+      "start": 498.24,
+      "duration": 5.679
+    },
+    {
+      "text": "Fine. I'd like to take home a couple of",
+      "start": 501.36,
+      "duration": 5.04
+    },
+    {
+      "text": "your best hypersonic missiles, please.",
+      "start": 503.919,
+      "duration": 4.72
+    },
+    {
+      "text": "Can I have them?\" So, it was just",
+      "start": 506.4,
+      "duration": 4.72
+    },
+    {
+      "text": "disarming. So, what what Secretary",
+      "start": 508.639,
+      "duration": 5.2
+    },
+    {
+      "text": "Lutnik is saying in that is that number",
+      "start": 511.12,
+      "duration": 6.0
+    },
+    {
+      "text": "one, export controls are a part of US",
+      "start": 513.839,
+      "duration": 6.0
+    },
+    {
+      "text": "national security. China is asking for",
+      "start": 517.12,
+      "duration": 5.52
+    },
+    {
+      "text": "them constantly and America is saying no",
+      "start": 519.839,
+      "duration": 4.721
+    },
+    {
+      "text": "and they're explicitly saying, you know,",
+      "start": 522.64,
+      "duration": 4.08
+    },
+    {
+      "text": "hey, you China, you have export controls",
+      "start": 524.56,
+      "duration": 3.52
+    },
+    {
+      "text": "too on stuff like your advanced",
+      "start": 526.72,
+      "duration": 3.28
+    },
+    {
+      "text": "hypersonic missiles, some of which are",
+      "start": 528.08,
+      "duration": 3.68
+    },
+    {
+      "text": "arguably better than America's. Are you",
+      "start": 530.0,
+      "duration": 3.519
+    },
+    {
+      "text": "going to sell those to us? That kind of",
+      "start": 531.76,
+      "duration": 3.519
+    },
+    {
+      "text": "a thing. And apparently that went over",
+      "start": 533.519,
+      "duration": 3.601
+    },
+    {
+      "text": "well in the negotiation. So here here's",
+      "start": 535.279,
+      "duration": 4.881
+    },
+    {
+      "text": "what Letic then went on to say. Quote,",
+      "start": 537.12,
+      "duration": 5.52
+    },
+    {
+      "text": "\"We are competing with China on in the",
+      "start": 540.16,
+      "duration": 5.84
+    },
+    {
+      "text": "AI race, okay, for sure. So we are just",
+      "start": 542.64,
+      "duration": 5.68
+    },
+    {
+      "text": "not going to give them our best chips.",
+      "start": 546.0,
+      "duration": 4.399
+    },
+    {
+      "text": "And of course they want them. Americans",
+      "start": 548.32,
+      "duration": 3.76
+    },
+    {
+      "text": "are the greatest inventors in the world.",
+      "start": 550.399,
+      "duration": 3.12
+    },
+    {
+      "text": "We are the greatest thinkers in the",
+      "start": 552.08,
+      "duration": 3.199
+    },
+    {
+      "text": "world, the greatest entrepreneurs in the",
+      "start": 553.519,
+      "duration": 3.44
+    },
+    {
+      "text": "world. All the greatest chips in the",
+      "start": 555.279,
+      "duration": 4.321
+    },
+    {
+      "text": "world are American, right? So of course",
+      "start": 556.959,
+      "duration": 4.401
+    },
+    {
+      "text": "they want them and of course they want",
+      "start": 559.6,
+      "duration": 4.08
+    },
+    {
+      "text": "to use them. And of course we said",
+      "start": 561.36,
+      "duration": 5.44
+    },
+    {
+      "text": "absolutely not. Did they ask? Did they",
+      "start": 563.68,
+      "duration": 6.64
+    },
+    {
+      "text": "ask 20 times, 30 times? Of course they",
+      "start": 566.8,
+      "duration": 6.08
+    },
+    {
+      "text": "did. They do every time. And we always",
+      "start": 570.32,
+      "duration": 6.72
+    },
+    {
+      "text": "say no. So there is uh Secretary Lutnik",
+      "start": 572.88,
+      "duration": 7.6
+    },
+    {
+      "text": "saying China asked him 20 or 30 times to",
+      "start": 577.04,
+      "duration": 5.28
+    },
+    {
+      "text": "remove these advanced AI chip export",
+      "start": 580.48,
+      "duration": 4.32
+    },
+    {
+      "text": "controls and the administration did not",
+      "start": 582.32,
+      "duration": 4.24
+    },
+    {
+      "text": "budge. It did not budge on national",
+      "start": 584.8,
+      "duration": 4.159
+    },
+    {
+      "text": "security grounds. Now fast forward a",
+      "start": 586.56,
+      "duration": 5.279
+    },
+    {
+      "text": "bit. That was June 11th, July 15th.",
+      "start": 588.959,
+      "duration": 5.44
+    },
+    {
+      "text": "Secretary Lutnik told Reuters in an",
+      "start": 591.839,
+      "duration": 5.521
+    },
+    {
+      "text": "interview that resuming H20 sales was",
+      "start": 594.399,
+      "duration": 5.12
+    },
+    {
+      "text": "part of the trade deal with China to",
+      "start": 597.36,
+      "duration": 4.0
+    },
+    {
+      "text": "eliminate export controls on rare",
+      "start": 599.519,
+      "duration": 3.361
+    },
+    {
+      "text": "earths, magnets, and other critical",
+      "start": 601.36,
+      "duration": 3.84
+    },
+    {
+      "text": "minerals. He said, quote, \"We put that",
+      "start": 602.88,
+      "duration": 4.8
+    },
+    {
+      "text": "in the trade deal with the magnets.\"",
+      "start": 605.2,
+      "duration": 6.24
+    },
+    {
+      "text": "Here's the thing. President Trump just",
+      "start": 607.68,
+      "duration": 5.92
+    },
+    {
+      "text": "said the opposite. He said it was not",
+      "start": 611.44,
+      "duration": 4.32
+    },
+    {
+      "text": "part of the trade deal with the magnets.",
+      "start": 613.6,
+      "duration": 4.08
+    },
+    {
+      "text": "And if you listen to what Lutnik says",
+      "start": 615.76,
+      "duration": 3.84
+    },
+    {
+      "text": "elsewhere in terms of the punitive",
+      "start": 617.68,
+      "duration": 4.399
+    },
+    {
+      "text": "export controls that were express US",
+      "start": 619.6,
+      "duration": 4.96
+    },
+    {
+      "text": "retaliation for the Chinese export",
+      "start": 622.079,
+      "duration": 4.481
+    },
+    {
+      "text": "controls on rare earths, he's talking",
+      "start": 624.56,
+      "duration": 4.32
+    },
+    {
+      "text": "about things like ethane export",
+      "start": 626.56,
+      "duration": 4.32
+    },
+    {
+      "text": "controls. He's talking about jet engine",
+      "start": 628.88,
+      "duration": 5.36
+    },
+    {
+      "text": "part export controls. He was not saying",
+      "start": 630.88,
+      "duration": 5.76
+    },
+    {
+      "text": "that part of the coercive leverage that",
+      "start": 634.24,
+      "duration": 3.839
+    },
+    {
+      "text": "the United States was putting in",
+      "start": 636.64,
+      "duration": 3.36
+    },
+    {
+      "text": "retaliation for rare earth and critical",
+      "start": 638.079,
+      "duration": 4.241
+    },
+    {
+      "text": "mineral export controls was the H20s.",
+      "start": 640.0,
+      "duration": 5.279
+    },
+    {
+      "text": "The H20s was a separate decision made on",
+      "start": 642.32,
+      "duration": 5.84
+    },
+    {
+      "text": "national security grounds. And President",
+      "start": 645.279,
+      "duration": 5.281
+    },
+    {
+      "text": "Trump undid that decision. He undid that",
+      "start": 648.16,
+      "duration": 6.16
+    },
+    {
+      "text": "decision and he did it for 15% of",
+      "start": 650.56,
+      "duration": 6.56
+    },
+    {
+      "text": "Nvidia's revenue. And I think we have",
+      "start": 654.32,
+      "duration": 5.28
+    },
+    {
+      "text": "one final data point, right, that says",
+      "start": 657.12,
+      "duration": 5.6
+    },
+    {
+      "text": "that it was not part of the uh deal to",
+      "start": 659.6,
+      "duration": 4.96
+    },
+    {
+      "text": "eliminate the export controls on rare",
+      "start": 662.72,
+      "duration": 3.679
+    },
+    {
+      "text": "earths. And this is something that we",
+      "start": 664.56,
+      "duration": 3.279
+    },
+    {
+      "text": "talked about in the last podcast, but",
+      "start": 666.399,
+      "duration": 3.68
+    },
+    {
+      "text": "I'll just uh refresh it here. This is",
+      "start": 667.839,
+      "duration": 4.801
+    },
+    {
+      "text": "the July 18th press release from the",
+      "start": 670.079,
+      "duration": 4.801
+    },
+    {
+      "text": "Chinese Minister Ministry of Commerce",
+      "start": 672.64,
+      "duration": 4.56
+    },
+    {
+      "text": "where it said quote, \"We noticed that",
+      "start": 674.88,
+      "duration": 5.44
+    },
+    {
+      "text": "the US side recently again on its own",
+      "start": 677.2,
+      "duration": 5.84
+    },
+    {
+      "text": "initiative expressed that it will",
+      "start": 680.32,
+      "duration": 5.519
+    },
+    {
+      "text": "approve the sale to China of Nvidia H20",
+      "start": 683.04,
+      "duration": 5.52
+    },
+    {
+      "text": "chips.\" So, China says it wasn't part of",
+      "start": 685.839,
+      "duration": 4.721
+    },
+    {
+      "text": "the deal. President Trump says it wasn't",
+      "start": 688.56,
+      "duration": 4.48
+    },
+    {
+      "text": "part of the deal. Lutnik had said it was",
+      "start": 690.56,
+      "duration": 4.08
+    },
+    {
+      "text": "part of the deal. I just don't think",
+      "start": 693.04,
+      "duration": 3.359
+    },
+    {
+      "text": "that that's credible now that we have",
+      "start": 694.64,
+      "duration": 4.72
+    },
+    {
+      "text": "all of this information. And I think the",
+      "start": 696.399,
+      "duration": 4.721
+    },
+    {
+      "text": "national security implications of this",
+      "start": 699.36,
+      "duration": 5.919
+    },
+    {
+      "text": "deal don't come out to me in any kind of",
+      "start": 701.12,
+      "duration": 7.52
+    },
+    {
+      "text": "positive way. It would take way way way",
+      "start": 705.279,
+      "duration": 7.601
+    },
+    {
+      "text": "more than a few hundred million to",
+      "start": 708.64,
+      "duration": 6.639
+    },
+    {
+      "text": "change America's strategic national",
+      "start": 712.88,
+      "duration": 5.199
+    },
+    {
+      "text": "security calculus in the AI competition.",
+      "start": 715.279,
+      "duration": 5.441
+    },
+    {
+      "text": "But in the case of China,",
+      "start": 718.079,
+      "duration": 6.0
+    },
+    {
+      "text": "these AI chips can change the strategic",
+      "start": 720.72,
+      "duration": 5.679
+    },
+    {
+      "text": "calculation because as we said before,",
+      "start": 724.079,
+      "duration": 5.281
+    },
+    {
+      "text": "the CEO of DeepSeek, the executive vice",
+      "start": 726.399,
+      "duration": 5.12
+    },
+    {
+      "text": "president of cloud computing at Tencent,",
+      "start": 729.36,
+      "duration": 3.919
+    },
+    {
+      "text": "they are all saying that the number one",
+      "start": 731.519,
+      "duration": 4.401
+    },
+    {
+      "text": "bottleneck that their whole country is",
+      "start": 733.279,
+      "duration": 6.161
+    },
+    {
+      "text": "facing in the AI race is these AI chips.",
+      "start": 735.92,
+      "duration": 5.28
+    },
+    {
+      "text": "And that is a problem that we just",
+      "start": 739.44,
+      "duration": 4.48
+    },
+    {
+      "text": "willingly solved for them. And finally,",
+      "start": 741.2,
+      "duration": 4.16
+    },
+    {
+      "text": "just to connect it to something I again",
+      "start": 743.92,
+      "duration": 5.28
+    },
+    {
+      "text": "said last time, it's true that Huawei",
+      "start": 745.36,
+      "duration": 6.56
+    },
+    {
+      "text": "wants to produce all the AI chips for",
+      "start": 749.2,
+      "duration": 6.16
+    },
+    {
+      "text": "China. It is true that China would like",
+      "start": 751.92,
+      "duration": 6.88
+    },
+    {
+      "text": "to stop using Nvidia in the same way",
+      "start": 755.36,
+      "duration": 5.76
+    },
+    {
+      "text": "that I would like China to stop using",
+      "start": 758.8,
+      "duration": 5.92
+    },
+    {
+      "text": "Nvidia, but they need a bridge to that",
+      "start": 761.12,
+      "duration": 7.12
+    },
+    {
+      "text": "future. And the question is, is America",
+      "start": 764.72,
+      "duration": 6.72
+    },
+    {
+      "text": "going to build that bridge for them to",
+      "start": 768.24,
+      "duration": 6.8
+    },
+    {
+      "text": "help them have a calm, smooth transition",
+      "start": 771.44,
+      "duration": 6.24
+    },
+    {
+      "text": "to a Huawei dominated future? That's",
+      "start": 775.04,
+      "duration": 4.4
+    },
+    {
+      "text": "what we're doing with these H20 export",
+      "start": 777.68,
+      "duration": 6.24
+    },
+    {
+      "text": "controls. As I said in 2020,",
+      "start": 779.44,
+      "duration": 7.04
+    },
+    {
+      "text": "the Chinese government was already had",
+      "start": 783.92,
+      "duration": 5.52
+    },
+    {
+      "text": "already passed a government mandate to",
+      "start": 786.48,
+      "duration": 5.2
+    },
+    {
+      "text": "eliminate the use of Nvidia chips within",
+      "start": 789.44,
+      "duration": 5.36
+    },
+    {
+      "text": "3 years. It was export controls that",
+      "start": 791.68,
+      "duration": 4.64
+    },
+    {
+      "text": "blocked Huawei from being able to",
+      "start": 794.8,
+      "duration": 4.08
+    },
+    {
+      "text": "replace Nvidia. It was export controls",
+      "start": 796.32,
+      "duration": 6.24
+    },
+    {
+      "text": "that killed that Chinese mandate. And",
+      "start": 798.88,
+      "duration": 6.16
+    },
+    {
+      "text": "they still have the same leadership. In",
+      "start": 802.56,
+      "duration": 4.64
+    },
+    {
+      "text": "fact, they're more hawkish now than they",
+      "start": 805.04,
+      "duration": 4.32
+    },
+    {
+      "text": "were then. So, they are absolutely",
+      "start": 807.2,
+      "duration": 3.92
+    },
+    {
+      "text": "committed to getting rid of Nvidia. We",
+      "start": 809.36,
+      "duration": 3.599
+    },
+    {
+      "text": "can see that right now in the cyber",
+      "start": 811.12,
+      "duration": 3.36
+    },
+    {
+      "text": "security investigations that they have",
+      "start": 812.959,
+      "duration": 3.521
+    },
+    {
+      "text": "against Nvidia, in the antirust",
+      "start": 814.48,
+      "duration": 3.28
+    },
+    {
+      "text": "investigations that they have against",
+      "start": 816.48,
+      "duration": 5.2
+    },
+    {
+      "text": "Nvidia. And the obvious choice for China",
+      "start": 817.76,
+      "duration": 7.519
+    },
+    {
+      "text": "is Nvidia now, Huawei later, because",
+      "start": 821.68,
+      "duration": 6.159
+    },
+    {
+      "text": "Huawei is not ready now. The Huawei",
+      "start": 825.279,
+      "duration": 5.12
+    },
+    {
+      "text": "chips are bad and they can't make very",
+      "start": 827.839,
+      "duration": 5.921
+    },
+    {
+      "text": "many of them. But if we give them a",
+      "start": 830.399,
+      "duration": 6.8
+    },
+    {
+      "text": "multi-year supply of Nvidia chips, that",
+      "start": 833.76,
+      "duration": 6.319
+    },
+    {
+      "text": "is the bridge to their Huawei future. We",
+      "start": 837.199,
+      "duration": 4.64
+    },
+    {
+      "text": "should not be building them that bridge.",
+      "start": 840.079,
+      "duration": 4.961
+    },
+    {
+      "text": "That's my conclusion on this story.",
+      "start": 841.839,
+      "duration": 5.12
+    },
+    {
+      "text": "Well, I I highly encourage any of our",
+      "start": 845.04,
+      "duration": 3.599
+    },
+    {
+      "text": "listeners who didn't catch last week's",
+      "start": 846.959,
+      "duration": 3.361
+    },
+    {
+      "text": "episode to go back and listen to that",
+      "start": 848.639,
+      "duration": 3.281
+    },
+    {
+      "text": "one because we did talk through the",
+      "start": 850.32,
+      "duration": 3.68
+    },
+    {
+      "text": "entire timeline and the existing debate",
+      "start": 851.92,
+      "duration": 4.479
+    },
+    {
+      "text": "up to this point. Now, I want to ask",
+      "start": 854.0,
+      "duration": 4.959
+    },
+    {
+      "text": "about how the same groups that were",
+      "start": 856.399,
+      "duration": 6.0
+    },
+    {
+      "text": "criticizing the uh unbanning, how",
+      "start": 858.959,
+      "duration": 5.44
+    },
+    {
+      "text": "they're reacting to these deals, I'm",
+      "start": 862.399,
+      "duration": 4.161
+    },
+    {
+      "text": "talking about uh criticism from folks in",
+      "start": 864.399,
+      "duration": 4.0
+    },
+    {
+      "text": "Congress, previous Trump officials, a",
+      "start": 866.56,
+      "duration": 3.2
+    },
+    {
+      "text": "broad group of national security",
+      "start": 868.399,
+      "duration": 4.88
+    },
+    {
+      "text": "experts. Yeah, I I can't find anybody in",
+      "start": 869.76,
+      "duration": 5.28
+    },
+    {
+      "text": "the United States national security",
+      "start": 873.279,
+      "duration": 4.081
+    },
+    {
+      "text": "community who is in favor of this deal.",
+      "start": 875.04,
+      "duration": 5.2
+    },
+    {
+      "text": "And what I mean by that is even the",
+      "start": 877.36,
+      "duration": 6.24
+    },
+    {
+      "text": "people who were in favor of selling H20s",
+      "start": 880.24,
+      "duration": 5.2
+    },
+    {
+      "text": "through the logic of, you know, we're",
+      "start": 883.6,
+      "duration": 3.359
+    },
+    {
+      "text": "perpetuating Chinese dependence on",
+      "start": 885.44,
+      "duration": 2.959
+    },
+    {
+      "text": "Nvidia chips. That's a logic I don't",
+      "start": 886.959,
+      "duration": 2.961
+    },
+    {
+      "text": "subscribe to. But the point is there are",
+      "start": 888.399,
+      "duration": 3.601
+    },
+    {
+      "text": "people out there who subscribe to it. I",
+      "start": 889.92,
+      "duration": 4.0
+    },
+    {
+      "text": "can't find anybody in the national",
+      "start": 892.0,
+      "duration": 4.639
+    },
+    {
+      "text": "security community who is defending a",
+      "start": 893.92,
+      "duration": 6.64
+    },
+    {
+      "text": "deal that is a 15% export tax on Nvidia,",
+      "start": 896.639,
+      "duration": 5.921
+    },
+    {
+      "text": "saying that somehow this is good for US",
+      "start": 900.56,
+      "duration": 4.0
+    },
+    {
+      "text": "national security. So, let's hear from",
+      "start": 902.56,
+      "duration": 4.639
+    },
+    {
+      "text": "Republicans. Uh, Representative Molinar,",
+      "start": 904.56,
+      "duration": 4.399
+    },
+    {
+      "text": "the chair of the House Select Committee",
+      "start": 907.199,
+      "duration": 3.601
+    },
+    {
+      "text": "on the Chinese Communist Party, said,",
+      "start": 908.959,
+      "duration": 4.401
+    },
+    {
+      "text": "quote, \"Export controls are a frontline",
+      "start": 910.8,
+      "duration": 4.159
+    },
+    {
+      "text": "defense in protecting our national",
+      "start": 913.36,
+      "duration": 3.52
+    },
+    {
+      "text": "security, and we should not set a",
+      "start": 914.959,
+      "duration": 3.841
+    },
+    {
+      "text": "precedent that incentivizes the",
+      "start": 916.88,
+      "duration": 4.16
+    },
+    {
+      "text": "government to grant licenses to sell",
+      "start": 918.8,
+      "duration": 4.56
+    },
+    {
+      "text": "China technology that will enhance its",
+      "start": 921.04,
+      "duration": 4.239
+    },
+    {
+      "text": "AI capabilities.\"",
+      "start": 923.36,
+      "duration": 4.08
+    },
+    {
+      "text": "Uh, Representative Krishna Murphy, who's",
+      "start": 925.279,
+      "duration": 4.0
+    },
+    {
+      "text": "the Democrat Democratic ranking member",
+      "start": 927.44,
+      "duration": 3.759
+    },
+    {
+      "text": "on the same committee, he released a",
+      "start": 929.279,
+      "duration": 4.161
+    },
+    {
+      "text": "statement saying, quote, \"Most troubling",
+      "start": 931.199,
+      "duration": 4.401
+    },
+    {
+      "text": "is the contradiction at the heart of",
+      "start": 933.44,
+      "duration": 3.92
+    },
+    {
+      "text": "this potential policy. The",
+      "start": 935.6,
+      "duration": 3.76
+    },
+    {
+      "text": "administration cannot simultaneously",
+      "start": 937.36,
+      "duration": 4.32
+    },
+    {
+      "text": "treat semiconductor exports as both a",
+      "start": 939.36,
+      "duration": 4.719
+    },
+    {
+      "text": "national security threat and a revenue",
+      "start": 941.68,
+      "duration": 4.959
+    },
+    {
+      "text": "opportunity. By putting a price on our",
+      "start": 944.079,
+      "duration": 5.361
+    },
+    {
+      "text": "security concerns, we signal to China",
+      "start": 946.639,
+      "duration": 5.361
+    },
+    {
+      "text": "and our allies that American national",
+      "start": 949.44,
+      "duration": 4.56
+    },
+    {
+      "text": "security principles are negotiable for",
+      "start": 952.0,
+      "duration": 4.48
+    },
+    {
+      "text": "the right fee. There's a few other",
+      "start": 954.0,
+      "duration": 4.32
+    },
+    {
+      "text": "people whose statements out here I think",
+      "start": 956.48,
+      "duration": 3.919
+    },
+    {
+      "text": "are are insightful and I and I want to",
+      "start": 958.32,
+      "duration": 4.72
+    },
+    {
+      "text": "uh quote them as well. Um one is Liza",
+      "start": 960.399,
+      "duration": 5.12
+    },
+    {
+      "text": "Tobin who served in the first Trump",
+      "start": 963.04,
+      "duration": 4.56
+    },
+    {
+      "text": "administration on the National Security",
+      "start": 965.519,
+      "duration": 4.721
+    },
+    {
+      "text": "Council. She's a longtime China expert",
+      "start": 967.6,
+      "duration": 5.2
+    },
+    {
+      "text": "and she told the Financial Times, quote,",
+      "start": 970.24,
+      "duration": 5.279
+    },
+    {
+      "text": "\"Bijing must be gloating to see",
+      "start": 972.8,
+      "duration": 5.12
+    },
+    {
+      "text": "Washington turn export licenses into",
+      "start": 975.519,
+      "duration": 4.88
+    },
+    {
+      "text": "revenue streams. What's next? Letting",
+      "start": 977.92,
+      "duration": 5.279
+    },
+    {
+      "text": "Loheed Martin sell F-35s to China for a",
+      "start": 980.399,
+      "duration": 6.401
+    },
+    {
+      "text": "15% commission?\" Or Leonard Heim uh over",
+      "start": 983.199,
+      "duration": 7.121
+    },
+    {
+      "text": "at Rand, he said, quote, \"If the goal is",
+      "start": 986.8,
+      "duration": 5.839
+    },
+    {
+      "text": "dependency and revenue from China's AI",
+      "start": 990.32,
+      "duration": 4.56
+    },
+    {
+      "text": "market, why sell?\" And he means why sell",
+      "start": 992.639,
+      "duration": 5.281
+    },
+    {
+      "text": "the chips. He goes on, \"Cloud and remote",
+      "start": 994.88,
+      "duration": 5.84
+    },
+    {
+      "text": "access delivers both without giving away",
+      "start": 997.92,
+      "duration": 4.8
+    },
+    {
+      "text": "the hardware. Keep the revenue, keep",
+      "start": 1000.72,
+      "duration": 4.32
+    },
+    {
+      "text": "some control. Selling chips is just",
+      "start": 1002.72,
+      "duration": 5.679
+    },
+    {
+      "text": "giving away leverage for nothing.\" I'm",
+      "start": 1005.04,
+      "duration": 6.32
+    },
+    {
+      "text": "inclined to agree.",
+      "start": 1008.399,
+      "duration": 6.321
+    },
+    {
+      "text": ">> So, one of the concerning parts of this",
+      "start": 1011.36,
+      "duration": 6.32
+    },
+    {
+      "text": "um in addition to the national security",
+      "start": 1014.72,
+      "duration": 7.44
+    },
+    {
+      "text": "uh implications is the 15% deal um",
+      "start": 1017.68,
+      "duration": 7.68
+    },
+    {
+      "text": "getting 50 15% of the revenues. Some",
+      "start": 1022.16,
+      "duration": 4.879
+    },
+    {
+      "text": "policy an analysts have claimed that",
+      "start": 1025.36,
+      "duration": 3.599
+    },
+    {
+      "text": "this is unconstitutional.",
+      "start": 1027.039,
+      "duration": 5.28
+    },
+    {
+      "text": "Um do you expect this 15% deal to last",
+      "start": 1028.959,
+      "duration": 5.84
+    },
+    {
+      "text": "or how how is that shaping up?",
+      "start": 1032.319,
+      "duration": 5.12
+    },
+    {
+      "text": ">> Yeah. So if it is structured as an",
+      "start": 1034.799,
+      "duration": 5.76
+    },
+    {
+      "text": "export tax um that is unambiguously",
+      "start": 1037.439,
+      "duration": 5.921
+    },
+    {
+      "text": "unconstitutional. Um it goes back to the",
+      "start": 1040.559,
+      "duration": 4.801
+    },
+    {
+      "text": "history of the United States and the",
+      "start": 1043.36,
+      "duration": 5.04
+    },
+    {
+      "text": "formation of us uh from the Articles of",
+      "start": 1045.36,
+      "duration": 5.36
+    },
+    {
+      "text": "Confederation into the United States of",
+      "start": 1048.4,
+      "duration": 4.639
+    },
+    {
+      "text": "America under the Constitution. and",
+      "start": 1050.72,
+      "duration": 3.92
+    },
+    {
+      "text": "southern states were really worried",
+      "start": 1053.039,
+      "duration": 3.361
+    },
+    {
+      "text": "because they were large agricultural",
+      "start": 1054.64,
+      "duration": 3.44
+    },
+    {
+      "text": "exporters. They were worried that",
+      "start": 1056.4,
+      "duration": 3.92
+    },
+    {
+      "text": "northern states uh were going to tax",
+      "start": 1058.08,
+      "duration": 3.599
+    },
+    {
+      "text": "their exports, you know, and they were",
+      "start": 1060.32,
+      "duration": 3.359
+    },
+    {
+      "text": "going to asymmetrically benefit in sort",
+      "start": 1061.679,
+      "duration": 4.081
+    },
+    {
+      "text": "of a interstate competition kind of a",
+      "start": 1063.679,
+      "duration": 3.521
+    },
+    {
+      "text": "thing. So, one of the things they",
+      "start": 1065.76,
+      "duration": 3.44
+    },
+    {
+      "text": "negotiated in writing the constitution",
+      "start": 1067.2,
+      "duration": 5.359
+    },
+    {
+      "text": "was no taxes on exports. It's like",
+      "start": 1069.2,
+      "duration": 4.88
+    },
+    {
+      "text": "that's not the exact line in the",
+      "start": 1072.559,
+      "duration": 4.561
+    },
+    {
+      "text": "constitution, but it's very very close.",
+      "start": 1074.08,
+      "duration": 4.959
+    },
+    {
+      "text": "So, if it's structured as a tax on",
+      "start": 1077.12,
+      "duration": 3.919
+    },
+    {
+      "text": "exports, it's unambiguously",
+      "start": 1079.039,
+      "duration": 5.281
+    },
+    {
+      "text": "unconstitutional. Now the thing is any",
+      "start": 1081.039,
+      "duration": 7.121
+    },
+    {
+      "text": "company is free to reach the conclusion",
+      "start": 1084.32,
+      "duration": 7.2
+    },
+    {
+      "text": "that they are undertaxed and to offer up",
+      "start": 1088.16,
+      "duration": 5.28
+    },
+    {
+      "text": "more money to the American government's",
+      "start": 1091.52,
+      "duration": 4.399
+    },
+    {
+      "text": "treasury. So if Nvidia, you know, says,",
+      "start": 1093.44,
+      "duration": 4.88
+    },
+    {
+      "text": "\"Hey, this is a voluntary contribution,",
+      "start": 1095.919,
+      "duration": 5.12
+    },
+    {
+      "text": "etc., etc.\" Um, maybe they can do that.",
+      "start": 1098.32,
+      "duration": 4.479
+    },
+    {
+      "text": "And even if it's structured as an export",
+      "start": 1101.039,
+      "duration": 4.721
+    },
+    {
+      "text": "tax, courts are only going to overturn",
+      "start": 1102.799,
+      "duration": 6.0
+    },
+    {
+      "text": "it um if Nvidia sues. And Nvidia",
+      "start": 1105.76,
+      "duration": 4.64
+    },
+    {
+      "text": "obviously doesn't want to sue because",
+      "start": 1108.799,
+      "duration": 4.0
+    },
+    {
+      "text": "they want this deal to go forward. But",
+      "start": 1110.4,
+      "duration": 4.24
+    },
+    {
+      "text": "let me put it a different way. Nvidia",
+      "start": 1112.799,
+      "duration": 5.12
+    },
+    {
+      "text": "doesn't want to sue now, right? As long",
+      "start": 1114.64,
+      "duration": 5.6
+    },
+    {
+      "text": "as this is continuing. So you could",
+      "start": 1117.919,
+      "duration": 6.321
+    },
+    {
+      "text": "imagine a future in which for example uh",
+      "start": 1120.24,
+      "duration": 7.2
+    },
+    {
+      "text": "Nvidia is paying all of these fees as",
+      "start": 1124.24,
+      "duration": 6.4
+    },
+    {
+      "text": "export taxes. They're refusing to sue",
+      "start": 1127.44,
+      "duration": 5.76
+    },
+    {
+      "text": "and then uh President Trump is term",
+      "start": 1130.64,
+      "duration": 4.56
+    },
+    {
+      "text": "limited, right? He only gets two terms",
+      "start": 1133.2,
+      "duration": 4.0
+    },
+    {
+      "text": "as president under the Constitution just",
+      "start": 1135.2,
+      "duration": 3.52
+    },
+    {
+      "text": "like everyone else. So we're going to",
+      "start": 1137.2,
+      "duration": 5.44
+    },
+    {
+      "text": "have a new president in 2029.",
+      "start": 1138.72,
+      "duration": 6.88
+    },
+    {
+      "text": "Well, in 2029, Nvidia could come back",
+      "start": 1142.64,
+      "duration": 4.8
+    },
+    {
+      "text": "and say, \"Oh, you're changing the policy",
+      "start": 1145.6,
+      "duration": 3.84
+    },
+    {
+      "text": "to ban these exports. Well, we want to",
+      "start": 1147.44,
+      "duration": 3.68
+    },
+    {
+      "text": "sue you for those unconstitutional",
+      "start": 1149.44,
+      "duration": 4.32
+    },
+    {
+      "text": "export control taxes. So, I was just",
+      "start": 1151.12,
+      "duration": 5.28
+    },
+    {
+      "text": "waxing on for far too long about how",
+      "start": 1153.76,
+      "duration": 4.72
+    },
+    {
+      "text": "this money is nowhere near enough to",
+      "start": 1156.4,
+      "duration": 4.32
+    },
+    {
+      "text": "allay the national security concerns.",
+      "start": 1158.48,
+      "duration": 3.76
+    },
+    {
+      "text": "And I would just agree with those who",
+      "start": 1160.72,
+      "duration": 2.959
+    },
+    {
+      "text": "said we shouldn't be in the in the",
+      "start": 1162.24,
+      "duration": 2.88
+    },
+    {
+      "text": "calculus of thinking about, you know,",
+      "start": 1163.679,
+      "duration": 2.88
+    },
+    {
+      "text": "what the price is that would allay our",
+      "start": 1165.12,
+      "duration": 4.4
+    },
+    {
+      "text": "national security concerns. But here's",
+      "start": 1166.559,
+      "duration": 4.401
+    },
+    {
+      "text": "the thing, we might not even get to keep",
+      "start": 1169.52,
+      "duration": 3.76
+    },
+    {
+      "text": "the money. Like, Nvidia can just sue",
+      "start": 1170.96,
+      "duration": 4.719
+    },
+    {
+      "text": "later and get all of their money back.",
+      "start": 1173.28,
+      "duration": 3.759
+    },
+    {
+      "text": "And so we'll have all of the national",
+      "start": 1175.679,
+      "duration": 3.761
+    },
+    {
+      "text": "security uh consequences and none of the",
+      "start": 1177.039,
+      "duration": 6.0
+    },
+    {
+      "text": "money. Um I really hope that this does",
+      "start": 1179.44,
+      "duration": 5.76
+    },
+    {
+      "text": "not go forward.",
+      "start": 1183.039,
+      "duration": 4.801
+    },
+    {
+      "text": ">> So obviously again we always say this,",
+      "start": 1185.2,
+      "duration": 4.0
+    },
+    {
+      "text": "we'll continue to watch this on the",
+      "start": 1187.84,
+      "duration": 3.44
+    },
+    {
+      "text": "podcast, but what are you going to be",
+      "start": 1189.2,
+      "duration": 3.52
+    },
+    {
+      "text": "watching for specifically with these",
+      "start": 1191.28,
+      "duration": 2.399
+    },
+    {
+      "text": "deals?",
+      "start": 1192.72,
+      "duration": 2.8
+    },
+    {
+      "text": ">> Well, I think one of the things that was",
+      "start": 1193.679,
+      "duration": 4.161
+    },
+    {
+      "text": "in President Trump's press conference",
+      "start": 1195.52,
+      "duration": 4.159
+    },
+    {
+      "text": "was something about the Blackwell",
+      "start": 1197.84,
+      "duration": 4.56
+    },
+    {
+      "text": "generation. So, um, and he said, \"I",
+      "start": 1199.679,
+      "duration": 5.041
+    },
+    {
+      "text": "think Jensen is coming to see me soon",
+      "start": 1202.4,
+      "duration": 4.399
+    },
+    {
+      "text": "about that.\" So, what could he be mean?",
+      "start": 1204.72,
+      "duration": 3.76
+    },
+    {
+      "text": "What could he mean, um, in that",
+      "start": 1206.799,
+      "duration": 3.921
+    },
+    {
+      "text": "conversation? Well, number one, uh,",
+      "start": 1208.48,
+      "duration": 5.199
+    },
+    {
+      "text": "Jensen Hang, the CEO of Nvidia, has said",
+      "start": 1210.72,
+      "duration": 4.88
+    },
+    {
+      "text": "specifically that he wants to be able to",
+      "start": 1213.679,
+      "duration": 4.721
+    },
+    {
+      "text": "sell more advanced chips to China than",
+      "start": 1215.6,
+      "duration": 5.36
+    },
+    {
+      "text": "the H20. He does want to sell the",
+      "start": 1218.4,
+      "duration": 4.24
+    },
+    {
+      "text": "Blackwells. And I mean, that's",
+      "start": 1220.96,
+      "duration": 3.2
+    },
+    {
+      "text": "consistently",
+      "start": 1222.64,
+      "duration": 3.6
+    },
+    {
+      "text": "been his preference. If you go back 10",
+      "start": 1224.16,
+      "duration": 3.28
+    },
+    {
+      "text": "years when there were no export",
+      "start": 1226.24,
+      "duration": 3.2
+    },
+    {
+      "text": "controls, there was no difference. or",
+      "start": 1227.44,
+      "duration": 4.08
+    },
+    {
+      "text": "actually even just five years um there",
+      "start": 1229.44,
+      "duration": 3.44
+    },
+    {
+      "text": "was no difference in the products that",
+      "start": 1231.52,
+      "duration": 4.159
+    },
+    {
+      "text": "Nvidia sold China versus the rest of the",
+      "start": 1232.88,
+      "duration": 4.4
+    },
+    {
+      "text": "world. So he has a demonstrated",
+      "start": 1235.679,
+      "duration": 3.441
+    },
+    {
+      "text": "preference right to sell his latest and",
+      "start": 1237.28,
+      "duration": 5.279
+    },
+    {
+      "text": "greatest stuff uh to China.",
+      "start": 1239.12,
+      "duration": 6.08
+    },
+    {
+      "text": "The Blackwell chips uh Nvidia is",
+      "start": 1242.559,
+      "duration": 4.321
+    },
+    {
+      "text": "currently working on a product that",
+      "start": 1245.2,
+      "duration": 4.08
+    },
+    {
+      "text": "would be a degraded version of the",
+      "start": 1246.88,
+      "duration": 4.48
+    },
+    {
+      "text": "Blackwell chip. So President Trump",
+      "start": 1249.28,
+      "duration": 4.56
+    },
+    {
+      "text": "called it enhanced in a negative way",
+      "start": 1251.36,
+      "duration": 4.319
+    },
+    {
+      "text": "which is an interesting use of the word",
+      "start": 1253.84,
+      "duration": 5.28
+    },
+    {
+      "text": "enhanced. Um, but that that idea that",
+      "start": 1255.679,
+      "duration": 4.801
+    },
+    {
+      "text": "we're going to degrade the black wells,",
+      "start": 1259.12,
+      "duration": 2.48
+    },
+    {
+      "text": "the point is they're still going to be",
+      "start": 1260.48,
+      "duration": 2.559
+    },
+    {
+      "text": "making progress. I mean, they're not",
+      "start": 1261.6,
+      "duration": 3.199
+    },
+    {
+      "text": "going to degrade it so much that it's",
+      "start": 1263.039,
+      "duration": 5.441
+    },
+    {
+      "text": "worse than the H20, obviously. Um, and",
+      "start": 1264.799,
+      "duration": 5.601
+    },
+    {
+      "text": "the H20, you know, you call it an",
+      "start": 1268.48,
+      "duration": 4.559
+    },
+    {
+      "text": "obsolete chip, but the strategic",
+      "start": 1270.4,
+      "duration": 5.6
+    },
+    {
+      "text": "calculus is that it's far far better",
+      "start": 1273.039,
+      "duration": 5.76
+    },
+    {
+      "text": "than anything China can make and it",
+      "start": 1276.0,
+      "duration": 5.36
+    },
+    {
+      "text": "addresses a massive pain point in the",
+      "start": 1278.799,
+      "duration": 5.12
+    },
+    {
+      "text": "Chinese AI ecosystem at this exact",
+      "start": 1281.36,
+      "duration": 5.28
+    },
+    {
+      "text": "present moment. And keep in mind, you",
+      "start": 1283.919,
+      "duration": 5.281
+    },
+    {
+      "text": "know, the when when we say, you know,",
+      "start": 1286.64,
+      "duration": 4.24
+    },
+    {
+      "text": "that the Blackwell is the latest and",
+      "start": 1289.2,
+      "duration": 3.44
+    },
+    {
+      "text": "greatest generation, the Hopper",
+      "start": 1290.88,
+      "duration": 4.24
+    },
+    {
+      "text": "generation of GPUs was the",
+      "start": 1292.64,
+      "duration": 4.48
+    },
+    {
+      "text": "state-of-the-art less than a year ago. I",
+      "start": 1295.12,
+      "duration": 3.84
+    },
+    {
+      "text": "mean, the Blackwells are quite quite",
+      "start": 1297.12,
+      "duration": 5.28
+    },
+    {
+      "text": "new. So, um, if we start selling",
+      "start": 1298.96,
+      "duration": 5.599
+    },
+    {
+      "text": "degraded black wells, I mean, China is",
+      "start": 1302.4,
+      "duration": 3.84
+    },
+    {
+      "text": "going to get a lot of strategic benefit",
+      "start": 1304.559,
+      "duration": 4.801
+    },
+    {
+      "text": "from that. That I sincerely hope that",
+      "start": 1306.24,
+      "duration": 4.88
+    },
+    {
+      "text": "the administration goes back to the",
+      "start": 1309.36,
+      "duration": 3.52
+    },
+    {
+      "text": "position that it had that I thought",
+      "start": 1311.12,
+      "duration": 3.84
+    },
+    {
+      "text": "Secretary Lutnik expressed extremely",
+      "start": 1312.88,
+      "duration": 4.24
+    },
+    {
+      "text": "well, right, that um, okay, if you want",
+      "start": 1314.96,
+      "duration": 3.68
+    },
+    {
+      "text": "us to sell your AI chips, can we buy",
+      "start": 1317.12,
+      "duration": 3.12
+    },
+    {
+      "text": "your hypersonic missiles? Are you trying",
+      "start": 1318.64,
+      "duration": 2.88
+    },
+    {
+      "text": "to say that export controls are",
+      "start": 1320.24,
+      "duration": 5.2
+    },
+    {
+      "text": "illegitimate? Um, this is, uh, where I",
+      "start": 1321.52,
+      "duration": 5.2
+    },
+    {
+      "text": "hope we end up.",
+      "start": 1325.44,
+      "duration": 4.479
+    },
+    {
+      "text": ">> Yeah. Well, uh, to our listeners, we",
+      "start": 1326.72,
+      "duration": 5.52
+    },
+    {
+      "text": "will continue to revisit and follow",
+      "start": 1329.919,
+      "duration": 5.201
+    },
+    {
+      "text": "these deals as they move forward. Um, I",
+      "start": 1332.24,
+      "duration": 4.72
+    },
+    {
+      "text": "do want to stick on sort of the",
+      "start": 1335.12,
+      "duration": 4.72
+    },
+    {
+      "text": "economic, uh, part of AI and move over",
+      "start": 1336.96,
+      "duration": 6.16
+    },
+    {
+      "text": "to, um, talking about AI as a potential",
+      "start": 1339.84,
+      "duration": 6.16
+    },
+    {
+      "text": "spending bubble. Um, so over the past",
+      "start": 1343.12,
+      "duration": 4.4
+    },
+    {
+      "text": "few weeks, a wave of stories have",
+      "start": 1346.0,
+      "duration": 3.36
+    },
+    {
+      "text": "spotlighted the unprecedented surge in",
+      "start": 1347.52,
+      "duration": 4.159
+    },
+    {
+      "text": "AI investment. From big tech's massive",
+      "start": 1349.36,
+      "duration": 3.92
+    },
+    {
+      "text": "infrastructure buildouts to Wall",
+      "start": 1351.679,
+      "duration": 4.161
+    },
+    {
+      "text": "Street's growing enthusiasm, the rapid",
+      "start": 1353.28,
+      "duration": 4.16
+    },
+    {
+      "text": "acceleration has raised concern about",
+      "start": 1355.84,
+      "duration": 3.28
+    },
+    {
+      "text": "whether that the boom could turn into a",
+      "start": 1357.44,
+      "duration": 4.16
+    },
+    {
+      "text": "bubble. Could you start us off with a",
+      "start": 1359.12,
+      "duration": 4.96
+    },
+    {
+      "text": "little bit of econ 101 for those of you",
+      "start": 1361.6,
+      "duration": 4.559
+    },
+    {
+      "text": "like myself who has not thought about",
+      "start": 1364.08,
+      "duration": 4.719
+    },
+    {
+      "text": "econ 101 in quite a while? How do e",
+      "start": 1366.159,
+      "duration": 4.481
+    },
+    {
+      "text": "economic bubbles form and what happens",
+      "start": 1368.799,
+      "duration": 4.561
+    },
+    {
+      "text": "when they pop? Certainly and I think",
+      "start": 1370.64,
+      "duration": 5.039
+    },
+    {
+      "text": "it's actually helpful that you know this",
+      "start": 1373.36,
+      "duration": 5.12
+    },
+    {
+      "text": "wave of stories has sort of uh come",
+      "start": 1375.679,
+      "duration": 5.441
+    },
+    {
+      "text": "across the media ecosystem. It's worth",
+      "start": 1378.48,
+      "duration": 4.4
+    },
+    {
+      "text": "pointing out that this happens from time",
+      "start": 1381.12,
+      "duration": 3.6
+    },
+    {
+      "text": "to time. I mean I remember when there",
+      "start": 1382.88,
+      "duration": 3.679
+    },
+    {
+      "text": "was a lot of stories about is the tech",
+      "start": 1384.72,
+      "duration": 4.959
+    },
+    {
+      "text": "market a bubble in 2014. I remember it",
+      "start": 1386.559,
+      "duration": 7.041
+    },
+    {
+      "text": "again in 2018 2019. So you could say hey",
+      "start": 1389.679,
+      "duration": 5.841
+    },
+    {
+      "text": "this just comes and it's actually not",
+      "start": 1393.6,
+      "duration": 4.4
+    },
+    {
+      "text": "that big of a deal. Could this time be",
+      "start": 1395.52,
+      "duration": 4.88
+    },
+    {
+      "text": "different? I think absolutely. So let's",
+      "start": 1398.0,
+      "duration": 4.159
+    },
+    {
+      "text": "revisit you know what is a bubble here.",
+      "start": 1400.4,
+      "duration": 3.519
+    },
+    {
+      "text": "I'm just reading the definition from",
+      "start": 1402.159,
+      "duration": 5.441
+    },
+    {
+      "text": "investopedia. Quote an economic cycle",
+      "start": 1403.919,
+      "duration": 5.521
+    },
+    {
+      "text": "that is characterized by the rapid",
+      "start": 1407.6,
+      "duration": 4.48
+    },
+    {
+      "text": "escalation of market value particularly",
+      "start": 1409.44,
+      "duration": 4.88
+    },
+    {
+      "text": "in the price of assets. This fast",
+      "start": 1412.08,
+      "duration": 4.0
+    },
+    {
+      "text": "inflation is followed by a quick",
+      "start": 1414.32,
+      "duration": 4.479
+    },
+    {
+      "text": "decrease in value or a contraction that",
+      "start": 1416.08,
+      "duration": 4.959
+    },
+    {
+      "text": "is sometimes referred to as a crash or a",
+      "start": 1418.799,
+      "duration": 5.12
+    },
+    {
+      "text": "bubble burst. So the key here is that",
+      "start": 1421.039,
+      "duration": 6.081
+    },
+    {
+      "text": "like the valuations of all the big tech",
+      "start": 1423.919,
+      "duration": 5.521
+    },
+    {
+      "text": "companies have been going through the",
+      "start": 1427.12,
+      "duration": 5.84
+    },
+    {
+      "text": "roof and it's being driven by AI mania.",
+      "start": 1429.44,
+      "duration": 7.28
+    },
+    {
+      "text": "Um you can see that in a lot of the",
+      "start": 1432.96,
+      "duration": 5.52
+    },
+    {
+      "text": "valuations of these companies. You have",
+      "start": 1436.72,
+      "duration": 4.079
+    },
+    {
+      "text": "companies like Nvidia which is",
+      "start": 1438.48,
+      "duration": 5.439
+    },
+    {
+      "text": "monstrously profitable growing at an",
+      "start": 1440.799,
+      "duration": 6.24
+    },
+    {
+      "text": "extraordinary rate. Um but you know are",
+      "start": 1443.919,
+      "duration": 6.64
+    },
+    {
+      "text": "they generating $4 trillion worth of",
+      "start": 1447.039,
+      "duration": 6.481
+    },
+    {
+      "text": "revenue? like not even close. So when",
+      "start": 1450.559,
+      "duration": 4.961
+    },
+    {
+      "text": "you think about the price of a stock and",
+      "start": 1453.52,
+      "duration": 5.2
+    },
+    {
+      "text": "I I went to business school, so uh bear",
+      "start": 1455.52,
+      "duration": 5.44
+    },
+    {
+      "text": "with me while as I nerd out here, but",
+      "start": 1458.72,
+      "duration": 4.48
+    },
+    {
+      "text": "you know, you can think about the uh the",
+      "start": 1460.96,
+      "duration": 4.64
+    },
+    {
+      "text": "fundamental value of a stock, which is",
+      "start": 1463.2,
+      "duration": 4.8
+    },
+    {
+      "text": "if you just think about it as okay,",
+      "start": 1465.6,
+      "duration": 5.28
+    },
+    {
+      "text": "companies are machines that generate",
+      "start": 1468.0,
+      "duration": 5.2
+    },
+    {
+      "text": "money. That money can be given back to",
+      "start": 1470.88,
+      "duration": 4.32
+    },
+    {
+      "text": "investors in the form of dividends. So",
+      "start": 1473.2,
+      "duration": 3.44
+    },
+    {
+      "text": "when you think about what is the stock",
+      "start": 1475.2,
+      "duration": 3.04
+    },
+    {
+      "text": "worth, you should think about how much",
+      "start": 1476.64,
+      "duration": 3.6
+    },
+    {
+      "text": "profit it's going to make in the future.",
+      "start": 1478.24,
+      "duration": 3.28
+    },
+    {
+      "text": "that's going to result in how many",
+      "start": 1480.24,
+      "duration": 4.24
+    },
+    {
+      "text": "dividends and what is the sort of profit",
+      "start": 1481.52,
+      "duration": 5.6
+    },
+    {
+      "text": "sharing on a per share basis and then",
+      "start": 1484.48,
+      "duration": 4.799
+    },
+    {
+      "text": "you discount the value back to what it's",
+      "start": 1487.12,
+      "duration": 3.919
+    },
+    {
+      "text": "worth now because money in the future is",
+      "start": 1489.279,
+      "duration": 3.681
+    },
+    {
+      "text": "worth less than money right now and",
+      "start": 1491.039,
+      "duration": 3.12
+    },
+    {
+      "text": "that's that's how you think about the",
+      "start": 1492.96,
+      "duration": 3.44
+    },
+    {
+      "text": "fundamental value of a stock. Anything",
+      "start": 1494.159,
+      "duration": 5.52
+    },
+    {
+      "text": "above that, you know, really deals with",
+      "start": 1496.4,
+      "duration": 5.84
+    },
+    {
+      "text": "uh the multiple, which is just sort of",
+      "start": 1499.679,
+      "duration": 4.88
+    },
+    {
+      "text": "how the market is perceiving different",
+      "start": 1502.24,
+      "duration": 5.28
+    },
+    {
+      "text": "types of assets beyond what you might",
+      "start": 1504.559,
+      "duration": 5.521
+    },
+    {
+      "text": "call the quote unquote core value. So",
+      "start": 1507.52,
+      "duration": 6.08
+    },
+    {
+      "text": "like the core value of Pokemon cards is",
+      "start": 1510.08,
+      "duration": 5.52
+    },
+    {
+      "text": "like really really low, but there's a",
+      "start": 1513.6,
+      "duration": 3.679
+    },
+    {
+      "text": "lot of people who will buy them. And so",
+      "start": 1515.6,
+      "duration": 3.439
+    },
+    {
+      "text": "they have this value that is, you know,",
+      "start": 1517.279,
+      "duration": 3.681
+    },
+    {
+      "text": "beyond uh their quote unquote",
+      "start": 1519.039,
+      "duration": 4.081
+    },
+    {
+      "text": "fundamental ability to generate money um",
+      "start": 1520.96,
+      "duration": 4.4
+    },
+    {
+      "text": "that is tied to market reality. And if",
+      "start": 1523.12,
+      "duration": 4.24
+    },
+    {
+      "text": "you look where we are today with some of",
+      "start": 1525.36,
+      "duration": 3.36
+    },
+    {
+      "text": "these companies valuations, I thought",
+      "start": 1527.36,
+      "duration": 4.88
+    },
+    {
+      "text": "The Economist uh today August 12th had a",
+      "start": 1528.72,
+      "duration": 6.559
+    },
+    {
+      "text": "great story called Palunteer might be",
+      "start": 1532.24,
+      "duration": 6.48
+    },
+    {
+      "text": "the most overvalued firm of all time.",
+      "start": 1535.279,
+      "duration": 4.88
+    },
+    {
+      "text": "And they're making the explicit",
+      "start": 1538.72,
+      "duration": 3.92
+    },
+    {
+      "text": "connection to Cisco. Cisco, which makes",
+      "start": 1540.159,
+      "duration": 3.601
+    },
+    {
+      "text": "a lot of networking and",
+      "start": 1542.64,
+      "duration": 3.12
+    },
+    {
+      "text": "telecommunications equipment. Well, back",
+      "start": 1543.76,
+      "duration": 5.68
+    },
+    {
+      "text": "in the in the.com bubble, um, which was",
+      "start": 1545.76,
+      "duration": 6.88
+    },
+    {
+      "text": "in the year 2000, Cisco was the world's",
+      "start": 1549.44,
+      "duration": 6.0
+    },
+    {
+      "text": "most valuable company, and they were",
+      "start": 1552.64,
+      "duration": 5.36
+    },
+    {
+      "text": "trading at, uh, the the market",
+      "start": 1555.44,
+      "duration": 4.239
+    },
+    {
+      "text": "valuation. So, the value if you take the",
+      "start": 1558.0,
+      "duration": 3.84
+    },
+    {
+      "text": "value of each share of stock and you",
+      "start": 1559.679,
+      "duration": 4.0
+    },
+    {
+      "text": "multiply it by the number of shares that",
+      "start": 1561.84,
+      "duration": 3.36
+    },
+    {
+      "text": "exist,",
+      "start": 1563.679,
+      "duration": 5.761
+    },
+    {
+      "text": "their valuation was 200 times Cisco's",
+      "start": 1565.2,
+      "duration": 6.16
+    },
+    {
+      "text": "annual profit. They were worth a",
+      "start": 1569.44,
+      "duration": 5.52
+    },
+    {
+      "text": "trillion dollars 25 years ago. And that",
+      "start": 1571.36,
+      "duration": 5.84
+    },
+    {
+      "text": "was like the peak of the dot bubble",
+      "start": 1574.96,
+      "duration": 4.64
+    },
+    {
+      "text": "which was a very painful bubble for the",
+      "start": 1577.2,
+      "duration": 5.52
+    },
+    {
+      "text": "US economy to go through. Palunteer",
+      "start": 1579.6,
+      "duration": 4.959
+    },
+    {
+      "text": "which has had a great year in terms of",
+      "start": 1582.72,
+      "duration": 3.36
+    },
+    {
+      "text": "revenue growth in terms of profit",
+      "start": 1584.559,
+      "duration": 4.0
+    },
+    {
+      "text": "growth. Uh they're selling like crazy.",
+      "start": 1586.08,
+      "duration": 3.839
+    },
+    {
+      "text": "Customers love their stuff",
+      "start": 1588.559,
+      "duration": 3.041
+    },
+    {
+      "text": ">> and getting a lot of contracts right",
+      "start": 1589.919,
+      "duration": 3.041
+    },
+    {
+      "text": ">> and getting a lot of contracts with the",
+      "start": 1591.6,
+      "duration": 3.28
+    },
+    {
+      "text": "US government among other things. But",
+      "start": 1592.96,
+      "duration": 5.599
+    },
+    {
+      "text": "their their valuation is currently $430",
+      "start": 1594.88,
+      "duration": 8.32
+    },
+    {
+      "text": "billion which is 600 times this past",
+      "start": 1598.559,
+      "duration": 8.401
+    },
+    {
+      "text": "year's profit. And I think um I think uh",
+      "start": 1603.2,
+      "duration": 5.12
+    },
+    {
+      "text": "the economist puts in a helpful",
+      "start": 1606.96,
+      "duration": 3.199
+    },
+    {
+      "text": "comparison here which is if you go back",
+      "start": 1608.32,
+      "duration": 4.8
+    },
+    {
+      "text": "to 2005 that's the year that the Oxford",
+      "start": 1610.159,
+      "duration": 4.721
+    },
+    {
+      "text": "English dictionary declared Google to be",
+      "start": 1613.12,
+      "duration": 3.919
+    },
+    {
+      "text": "a verb. Well Google's price to sales",
+      "start": 1614.88,
+      "duration": 4.56
+    },
+    {
+      "text": "ratio was 22.",
+      "start": 1617.039,
+      "duration": 5.281
+    },
+    {
+      "text": "22 was the value of all their stock",
+      "start": 1619.44,
+      "duration": 4.4
+    },
+    {
+      "text": "shares combined compared to how much",
+      "start": 1622.32,
+      "duration": 3.599
+    },
+    {
+      "text": "profit they made this year. Palunteer is",
+      "start": 1623.84,
+      "duration": 4.959
+    },
+    {
+      "text": "at more than 600. So these valuations",
+      "start": 1625.919,
+      "duration": 5.601
+    },
+    {
+      "text": "are skyhigh. They're far beyond the",
+      "start": 1628.799,
+      "duration": 5.12
+    },
+    {
+      "text": "intrinsic value of of the stock. Now",
+      "start": 1631.52,
+      "duration": 4.639
+    },
+    {
+      "text": "that doesn't necessarily mean the value",
+      "start": 1633.919,
+      "duration": 4.64
+    },
+    {
+      "text": "is quote unquote wrong, just like the",
+      "start": 1636.159,
+      "duration": 4.481
+    },
+    {
+      "text": "value of Pokemon cards is just like what",
+      "start": 1638.559,
+      "duration": 3.841
+    },
+    {
+      "text": "people are willing to pay for it for",
+      "start": 1640.64,
+      "duration": 5.76
+    },
+    {
+      "text": "example. But if this is a bubble, if",
+      "start": 1642.4,
+      "duration": 6.879
+    },
+    {
+      "text": "this is like the dot crisis where it's",
+      "start": 1646.4,
+      "duration": 4.879
+    },
+    {
+      "text": "really just mania, where stock",
+      "start": 1649.279,
+      "duration": 5.201
+    },
+    {
+      "text": "valuations become unreasonably divorced",
+      "start": 1651.279,
+      "duration": 5.52
+    },
+    {
+      "text": "from the intrinsic value of the stocks?",
+      "start": 1654.48,
+      "duration": 4.559
+    },
+    {
+      "text": "Well, the reason why you care is that",
+      "start": 1656.799,
+      "duration": 4.961
+    },
+    {
+      "text": "those things often tend to end badly and",
+      "start": 1659.039,
+      "duration": 5.921
+    },
+    {
+      "text": "they often tend to end suddenly. So,",
+      "start": 1661.76,
+      "duration": 6.32
+    },
+    {
+      "text": "what's driving, you know, all of this uh",
+      "start": 1664.96,
+      "duration": 5.68
+    },
+    {
+      "text": "mania? Well, number one, it's it's AI",
+      "start": 1668.08,
+      "duration": 5.28
+    },
+    {
+      "text": "and the excitement around AI as a",
+      "start": 1670.64,
+      "duration": 5.12
+    },
+    {
+      "text": "revolutionary technology on a par with",
+      "start": 1673.36,
+      "duration": 4.319
+    },
+    {
+      "text": "electricity, on a par with the steam",
+      "start": 1675.76,
+      "duration": 4.24
+    },
+    {
+      "text": "engine, uh on a par with the internet.",
+      "start": 1677.679,
+      "duration": 4.72
+    },
+    {
+      "text": "It is a really legitimately",
+      "start": 1680.0,
+      "duration": 4.799
+    },
+    {
+      "text": "transformative technology experiencing",
+      "start": 1682.399,
+      "duration": 4.081
+    },
+    {
+      "text": "an incredible moment. Here's the thing,",
+      "start": 1684.799,
+      "duration": 4.561
+    },
+    {
+      "text": "though. The internet was also a",
+      "start": 1686.48,
+      "duration": 5.28
+    },
+    {
+      "text": "legitimately transformative technology.",
+      "start": 1689.36,
+      "duration": 4.4
+    },
+    {
+      "text": "And that doesn't mean that the",
+      "start": 1691.76,
+      "duration": 5.68
+    },
+    {
+      "text": "valuations of 1999 or 2000 were true.",
+      "start": 1693.76,
+      "duration": 5.44
+    },
+    {
+      "text": "Um, and especially doesn't mean they're",
+      "start": 1697.44,
+      "duration": 4.719
+    },
+    {
+      "text": "true for every company. I mean, Amazon,",
+      "start": 1699.2,
+      "duration": 5.52
+    },
+    {
+      "text": "uh, Amazon was around back then and they",
+      "start": 1702.159,
+      "duration": 4.161
+    },
+    {
+      "text": "were astonishingly valuable and after",
+      "start": 1704.72,
+      "duration": 3.839
+    },
+    {
+      "text": "the bubble crashed, their stock fell by",
+      "start": 1706.32,
+      "duration": 4.239
+    },
+    {
+      "text": "more than 90%.",
+      "start": 1708.559,
+      "duration": 4.081
+    },
+    {
+      "text": "I mean, it ultimately recovered, but",
+      "start": 1710.559,
+      "duration": 4.641
+    },
+    {
+      "text": "there was a period of time where uh,",
+      "start": 1712.64,
+      "duration": 4.399
+    },
+    {
+      "text": "their valuation was so divorced from the",
+      "start": 1715.2,
+      "duration": 3.68
+    },
+    {
+      "text": "amount of money they were making. Um,",
+      "start": 1717.039,
+      "duration": 4.161
+    },
+    {
+      "text": "and and that was Amazon, which was a",
+      "start": 1718.88,
+      "duration": 4.88
+    },
+    {
+      "text": "good business even then. It was a good",
+      "start": 1721.2,
+      "duration": 4.64
+    },
+    {
+      "text": "bet. Even then there was other companies",
+      "start": 1723.76,
+      "duration": 4.32
+    },
+    {
+      "text": "that were completely vaporware. This is",
+      "start": 1725.84,
+      "duration": 4.24
+    },
+    {
+      "text": "what I mean like Palanteer is a good",
+      "start": 1728.08,
+      "duration": 4.079
+    },
+    {
+      "text": "business. They make a lot of profits.",
+      "start": 1730.08,
+      "duration": 4.4
+    },
+    {
+      "text": "The question is just like and based on",
+      "start": 1732.159,
+      "duration": 4.4
+    },
+    {
+      "text": "that how much should their stock price",
+      "start": 1734.48,
+      "duration": 4.88
+    },
+    {
+      "text": "be? Um well right now you know all the",
+      "start": 1736.559,
+      "duration": 4.881
+    },
+    {
+      "text": "companies uh in this sector are",
+      "start": 1739.36,
+      "duration": 5.12
+    },
+    {
+      "text": "investing jawdropping amounts of money.",
+      "start": 1741.44,
+      "duration": 6.64
+    },
+    {
+      "text": "I mean we're looking at um Google,",
+      "start": 1744.48,
+      "duration": 6.64
+    },
+    {
+      "text": "Microsoft, Amazon, Meta, some others",
+      "start": 1748.08,
+      "duration": 5.599
+    },
+    {
+      "text": "like OpenAI like Enthropic. They're",
+      "start": 1751.12,
+      "duration": 5.439
+    },
+    {
+      "text": "looking at like nearly $400 billion",
+      "start": 1753.679,
+      "duration": 4.88
+    },
+    {
+      "text": "dollars in capital expenditures. That's",
+      "start": 1756.559,
+      "duration": 4.401
+    },
+    {
+      "text": "like half of what the United States",
+      "start": 1758.559,
+      "duration": 5.441
+    },
+    {
+      "text": "government spends on the DoD, like the",
+      "start": 1760.96,
+      "duration": 5.04
+    },
+    {
+      "text": "Department of Defense. So, we're talking",
+      "start": 1764.0,
+      "duration": 4.64
+    },
+    {
+      "text": "percentage points of GDP",
+      "start": 1766.0,
+      "duration": 5.279
+    },
+    {
+      "text": "are going to be a part of AI capital",
+      "start": 1768.64,
+      "duration": 5.919
+    },
+    {
+      "text": "expenditure this year. And",
+      "start": 1771.279,
+      "duration": 5.361
+    },
+    {
+      "text": ">> that's awesome. Like, I'm so excited",
+      "start": 1774.559,
+      "duration": 3.761
+    },
+    {
+      "text": "about that buildout. I'm so excited",
+      "start": 1776.64,
+      "duration": 2.96
+    },
+    {
+      "text": "about what it's going to do for the",
+      "start": 1778.32,
+      "duration": 3.76
+    },
+    {
+      "text": "economy. But the question is like if",
+      "start": 1779.6,
+      "duration": 4.72
+    },
+    {
+      "text": "that does not translate into a rapid",
+      "start": 1782.08,
+      "duration": 5.12
+    },
+    {
+      "text": "acceleration in profits right away,",
+      "start": 1784.32,
+      "duration": 5.52
+    },
+    {
+      "text": "could investors get spooked? Could there",
+      "start": 1787.2,
+      "duration": 5.199
+    },
+    {
+      "text": "be a massive selloff? Could that cause a",
+      "start": 1789.84,
+      "duration": 5.199
+    },
+    {
+      "text": "lot of problems economically? Well, I",
+      "start": 1792.399,
+      "duration": 4.88
+    },
+    {
+      "text": "think that's a plausible scenario and",
+      "start": 1795.039,
+      "duration": 3.681
+    },
+    {
+      "text": "one that policy makers should keep in",
+      "start": 1797.279,
+      "duration": 3.361
+    },
+    {
+      "text": "the back of their minds even as we are",
+      "start": 1798.72,
+      "duration": 3.679
+    },
+    {
+      "text": "excited about the potential of AI, even",
+      "start": 1800.64,
+      "duration": 3.519
+    },
+    {
+      "text": "as we are excited about the economic",
+      "start": 1802.399,
+      "duration": 3.361
+    },
+    {
+      "text": "opportunities of this massive wave of",
+      "start": 1804.159,
+      "duration": 3.76
+    },
+    {
+      "text": "investment. Well, that's sort of what I",
+      "start": 1805.76,
+      "duration": 3.44
+    },
+    {
+      "text": "want to go into is a little bit about",
+      "start": 1807.919,
+      "duration": 3.281
+    },
+    {
+      "text": "the scenarios here. So, you mentioned",
+      "start": 1809.2,
+      "duration": 4.24
+    },
+    {
+      "text": "that this one might be uh a different",
+      "start": 1811.2,
+      "duration": 4.4
+    },
+    {
+      "text": "than some of the other tech bubbles of",
+      "start": 1813.44,
+      "duration": 4.64
+    },
+    {
+      "text": "the past. Um, it sounds like AI could be",
+      "start": 1815.6,
+      "duration": 4.16
+    },
+    {
+      "text": "the best thing since sliced bread when",
+      "start": 1818.08,
+      "duration": 3.199
+    },
+    {
+      "text": "you compared it to some of these other",
+      "start": 1819.76,
+      "duration": 4.159
+    },
+    {
+      "text": "major technologies. Um, but what is the",
+      "start": 1821.279,
+      "duration": 4.88
+    },
+    {
+      "text": "best case scenario here? And then on the",
+      "start": 1823.919,
+      "duration": 4.161
+    },
+    {
+      "text": "flip side, um, you sort of hinted at",
+      "start": 1826.159,
+      "duration": 3.921
+    },
+    {
+      "text": "what the worst case scenario might be,",
+      "start": 1828.08,
+      "duration": 3.76
+    },
+    {
+      "text": "but play that out a little bit for me.",
+      "start": 1830.08,
+      "duration": 5.199
+    },
+    {
+      "text": ">> Yeah. Um, so I think uh the best case",
+      "start": 1831.84,
+      "duration": 6.24
+    },
+    {
+      "text": "scenario comes from a quote that uh the",
+      "start": 1835.279,
+      "duration": 5.28
+    },
+    {
+      "text": "CEO of Google DeepMind said, Demis",
+      "start": 1838.08,
+      "duration": 5.36
+    },
+    {
+      "text": "Hosabibus. He said, quote, \"It'll be 10",
+      "start": 1840.559,
+      "duration": 5.84
+    },
+    {
+      "text": "times bigger and maybe 10 times faster",
+      "start": 1843.44,
+      "duration": 5.52
+    },
+    {
+      "text": "than the industrial revolution.\"",
+      "start": 1846.399,
+      "duration": 4.16
+    },
+    {
+      "text": "That would be awesome. Um, I mean the",
+      "start": 1848.96,
+      "duration": 3.52
+    },
+    {
+      "text": "industrial revolution really is this",
+      "start": 1850.559,
+      "duration": 4.801
+    },
+    {
+      "text": "turning point in human history where the",
+      "start": 1852.48,
+      "duration": 5.6
+    },
+    {
+      "text": "pace of economic growth of planet earth",
+      "start": 1855.36,
+      "duration": 5.439
+    },
+    {
+      "text": "changes like over what it had been for",
+      "start": 1858.08,
+      "duration": 5.839
+    },
+    {
+      "text": "the preceding 10,000 years. And there's",
+      "start": 1860.799,
+      "duration": 4.801
+    },
+    {
+      "text": "this turning point in human history",
+      "start": 1863.919,
+      "duration": 3.841
+    },
+    {
+      "text": "after the industrial revolution when",
+      "start": 1865.6,
+      "duration": 4.4
+    },
+    {
+      "text": "productivity starts going up much",
+      "start": 1867.76,
+      "duration": 5.039
+    },
+    {
+      "text": "faster, growth starts going much faster,",
+      "start": 1870.0,
+      "duration": 4.88
+    },
+    {
+      "text": "the quality of life starts getting much",
+      "start": 1872.799,
+      "duration": 5.041
+    },
+    {
+      "text": "better. Demis is saying maybe it'll be",
+      "start": 1874.88,
+      "duration": 4.48
+    },
+    {
+      "text": "10 times faster than the industrial",
+      "start": 1877.84,
+      "duration": 3.52
+    },
+    {
+      "text": "revolution which really took like 50 to",
+      "start": 1879.36,
+      "duration": 4.64
+    },
+    {
+      "text": "100 years to diffuse across um the",
+      "start": 1881.36,
+      "duration": 4.72
+    },
+    {
+      "text": "British economy not to mention right the",
+      "start": 1884.0,
+      "duration": 5.039
+    },
+    {
+      "text": "world economy where it took even longer.",
+      "start": 1886.08,
+      "duration": 4.719
+    },
+    {
+      "text": "So if this is 10 times bigger and moves",
+      "start": 1889.039,
+      "duration": 3.921
+    },
+    {
+      "text": "10 times faster, that's the biggest",
+      "start": 1890.799,
+      "duration": 4.721
+    },
+    {
+      "text": "economic boom of all time. That's like,",
+      "start": 1892.96,
+      "duration": 3.439
+    },
+    {
+      "text": "you know, one of the biggest",
+      "start": 1895.52,
+      "duration": 3.68
+    },
+    {
+      "text": "productivity enhancers of all time. And",
+      "start": 1896.399,
+      "duration": 4.88
+    },
+    {
+      "text": "that should lead to companies reaping",
+      "start": 1899.2,
+      "duration": 4.16
+    },
+    {
+      "text": "massive savings on their investments of",
+      "start": 1901.279,
+      "duration": 5.921
+    },
+    {
+      "text": "AI, rapid GDP growth, rapid productivity",
+      "start": 1903.36,
+      "duration": 6.159
+    },
+    {
+      "text": "growth. And you know we address whatever",
+      "start": 1907.2,
+      "duration": 5.04
+    },
+    {
+      "text": "the bottlenecks are in AI adoption",
+      "start": 1909.519,
+      "duration": 4.4
+    },
+    {
+      "text": "whether that's permitting for data",
+      "start": 1912.24,
+      "duration": 4.24
+    },
+    {
+      "text": "centers or challenges that companies",
+      "start": 1913.919,
+      "duration": 4.48
+    },
+    {
+      "text": "face in integrating AI with their",
+      "start": 1916.48,
+      "duration": 4.24
+    },
+    {
+      "text": "existing business models and processes.",
+      "start": 1918.399,
+      "duration": 4.481
+    },
+    {
+      "text": "You know for the best case scenario all",
+      "start": 1920.72,
+      "duration": 3.839
+    },
+    {
+      "text": "of those bottlenecks get addressed in a",
+      "start": 1922.88,
+      "duration": 3.76
+    },
+    {
+      "text": "time relevant fashion and we're able to",
+      "start": 1924.559,
+      "duration": 4.0
+    },
+    {
+      "text": "reap the potential of AI. I mean if you",
+      "start": 1926.64,
+      "duration": 6.159
+    },
+    {
+      "text": "think about the internet um the the the",
+      "start": 1928.559,
+      "duration": 7.201
+    },
+    {
+      "text": "impact of the internet happened after",
+      "start": 1932.799,
+      "duration": 5.921
+    },
+    {
+      "text": "the technology was ready right um and",
+      "start": 1935.76,
+      "duration": 4.799
+    },
+    {
+      "text": "that's because we didn't have broadband",
+      "start": 1938.72,
+      "duration": 3.6
+    },
+    {
+      "text": "you know to every household we didn't",
+      "start": 1940.559,
+      "duration": 4.641
+    },
+    {
+      "text": "have consumers comfortable with the idea",
+      "start": 1942.32,
+      "duration": 5.44
+    },
+    {
+      "text": "of spending money online I mean I'm not",
+      "start": 1945.2,
+      "duration": 4.719
+    },
+    {
+      "text": "that old and even I remember when people",
+      "start": 1947.76,
+      "duration": 4.0
+    },
+    {
+      "text": "were like what give my credit card out",
+      "start": 1949.919,
+      "duration": 4.64
+    },
+    {
+      "text": "to a random website online no way right",
+      "start": 1951.76,
+      "duration": 4.48
+    },
+    {
+      "text": "so there's a lot of things that will",
+      "start": 1954.559,
+      "duration": 3.761
+    },
+    {
+      "text": "have to change as we get ready for this",
+      "start": 1956.24,
+      "duration": 5.6
+    },
+    {
+      "text": "AIdriven economy in the same way uh that",
+      "start": 1958.32,
+      "duration": 4.959
+    },
+    {
+      "text": "things had to change for us to get ready",
+      "start": 1961.84,
+      "duration": 3.6
+    },
+    {
+      "text": "to live through the internet economy.",
+      "start": 1963.279,
+      "duration": 3.681
+    },
+    {
+      "text": "And so what I'm what I'm trying to",
+      "start": 1965.44,
+      "duration": 3.04
+    },
+    {
+      "text": "express here and I'm I'm being",
+      "start": 1966.96,
+      "duration": 4.4
+    },
+    {
+      "text": "repetitive intentionally is there are",
+      "start": 1968.48,
+      "duration": 6.24
+    },
+    {
+      "text": "bubbles that are a nonsensical hoax,",
+      "start": 1971.36,
+      "duration": 5.919
+    },
+    {
+      "text": "right? very famously um hundreds of",
+      "start": 1974.72,
+      "duration": 5.36
+    },
+    {
+      "text": "years ago in the Netherlands there was a",
+      "start": 1977.279,
+      "duration": 5.601
+    },
+    {
+      "text": "bubble around tulip prices where people",
+      "start": 1980.08,
+      "duration": 5.92
+    },
+    {
+      "text": "just kept buying tulips because they",
+      "start": 1982.88,
+      "duration": 4.48
+    },
+    {
+      "text": "could sell them for more than they",
+      "start": 1986.0,
+      "duration": 2.96
+    },
+    {
+      "text": "bought them for. And that just seemed",
+      "start": 1987.36,
+      "duration": 3.919
+    },
+    {
+      "text": "like that would go on forever. So keep",
+      "start": 1988.96,
+      "duration": 4.0
+    },
+    {
+      "text": "buying and keep selling and keep making",
+      "start": 1991.279,
+      "duration": 4.24
+    },
+    {
+      "text": "a profit. But obviously tulips like",
+      "start": 1992.96,
+      "duration": 4.48
+    },
+    {
+      "text": "you're not going to base the economy on",
+      "start": 1995.519,
+      "duration": 3.841
+    },
+    {
+      "text": "tulips. You can't build anything with",
+      "start": 1997.44,
+      "duration": 4.0
+    },
+    {
+      "text": "them. This was all just like the Pokemon",
+      "start": 1999.36,
+      "duration": 4.72
+    },
+    {
+      "text": "card, you know, not intrinsic value kind",
+      "start": 2001.44,
+      "duration": 4.8
+    },
+    {
+      "text": "of thing. So my point is some bubbles",
+      "start": 2004.08,
+      "duration": 4.88
+    },
+    {
+      "text": "can be because of like nonsensical hoax",
+      "start": 2006.24,
+      "duration": 4.799
+    },
+    {
+      "text": "situation. Some bubbles can be like the",
+      "start": 2008.96,
+      "duration": 5.439
+    },
+    {
+      "text": "internet absolutely legitimate massive",
+      "start": 2011.039,
+      "duration": 5.36
+    },
+    {
+      "text": "economic opportunity and transformative",
+      "start": 2014.399,
+      "duration": 4.16
+    },
+    {
+      "text": "technology. I would say that AI is",
+      "start": 2016.399,
+      "duration": 5.201
+    },
+    {
+      "text": "definitely in the worst case in that",
+      "start": 2018.559,
+      "duration": 4.641
+    },
+    {
+      "text": "second category where it's still a",
+      "start": 2021.6,
+      "duration": 3.28
+    },
+    {
+      "text": "transformative technology but the",
+      "start": 2023.2,
+      "duration": 4.0
+    },
+    {
+      "text": "valuations are crazy and we still have",
+      "start": 2024.88,
+      "duration": 5.12
+    },
+    {
+      "text": "some financial disruption uh based on",
+      "start": 2027.2,
+      "duration": 6.64
+    },
+    {
+      "text": "that. Okay. So um we talked about the",
+      "start": 2030.0,
+      "duration": 5.6
+    },
+    {
+      "text": "the best case. I just talked a little",
+      "start": 2033.84,
+      "duration": 3.28
+    },
+    {
+      "text": "bit about the the worst case, but let me",
+      "start": 2035.6,
+      "duration": 3.52
+    },
+    {
+      "text": "elaborate for a moment on the worst",
+      "start": 2037.12,
+      "duration": 4.96
+    },
+    {
+      "text": "case. I think one question is like how",
+      "start": 2039.12,
+      "duration": 6.0
+    },
+    {
+      "text": "long do these AI breakthroughs take to",
+      "start": 2042.08,
+      "duration": 4.719
+    },
+    {
+      "text": "mature to the economy in a way",
+      "start": 2045.12,
+      "duration": 3.759
+    },
+    {
+      "text": "disruptive? I mean like we know that",
+      "start": 2046.799,
+      "duration": 5.36
+    },
+    {
+      "text": "people are using AI to an astonishing",
+      "start": 2048.879,
+      "duration": 6.48
+    },
+    {
+      "text": "amount. Um OpenAI disclosed recently",
+      "start": 2052.159,
+      "duration": 6.801
+    },
+    {
+      "text": "that they're up to 700 million weekly",
+      "start": 2055.359,
+      "duration": 6.72
+    },
+    {
+      "text": "average users. So that's like most",
+      "start": 2058.96,
+      "duration": 6.32
+    },
+    {
+      "text": "people in America who have a job",
+      "start": 2062.079,
+      "duration": 6.0
+    },
+    {
+      "text": "presumably are interacting with uh AI",
+      "start": 2065.28,
+      "duration": 5.28
+    },
+    {
+      "text": "platforms and chat GPT specifically um",
+      "start": 2068.079,
+      "duration": 5.921
+    },
+    {
+      "text": "at this stage. The question is like how",
+      "start": 2070.56,
+      "duration": 6.48
+    },
+    {
+      "text": "far are they from their current use case",
+      "start": 2074.0,
+      "duration": 5.839
+    },
+    {
+      "text": "um to generating meaningful increases in",
+      "start": 2077.04,
+      "duration": 4.639
+    },
+    {
+      "text": "their economic productivity? like if",
+      "start": 2079.839,
+      "duration": 4.24
+    },
+    {
+      "text": "they're using chat GBT for",
+      "start": 2081.679,
+      "duration": 3.92
+    },
+    {
+      "text": "entertainment,",
+      "start": 2084.079,
+      "duration": 3.441
+    },
+    {
+      "text": "um that's not necessarily bad for the",
+      "start": 2085.599,
+      "duration": 3.76
+    },
+    {
+      "text": "economy, but it's not the same kind of,",
+      "start": 2087.52,
+      "duration": 4.559
+    },
+    {
+      "text": "you know, massive uh opportunity if",
+      "start": 2089.359,
+      "duration": 5.04
+    },
+    {
+      "text": "they're using it to enhance like their",
+      "start": 2092.079,
+      "duration": 4.721
+    },
+    {
+      "text": "overall economic productivity. Um, which",
+      "start": 2094.399,
+      "duration": 4.161
+    },
+    {
+      "text": "is what we need for this to go through.",
+      "start": 2096.8,
+      "duration": 5.12
+    },
+    {
+      "text": "So, one is like the the productivity",
+      "start": 2098.56,
+      "duration": 5.84
+    },
+    {
+      "text": "benefits are farther away than we think.",
+      "start": 2101.92,
+      "duration": 4.48
+    },
+    {
+      "text": "I mean we already know about some fields",
+      "start": 2104.4,
+      "duration": 4.0
+    },
+    {
+      "text": "where productivity get growth is really",
+      "start": 2106.4,
+      "duration": 4.24
+    },
+    {
+      "text": "significant like coding is the obvious",
+      "start": 2108.4,
+      "duration": 4.08
+    },
+    {
+      "text": "one where coders say you know their",
+      "start": 2110.64,
+      "duration": 3.76
+    },
+    {
+      "text": "productivity is amazing big tech",
+      "start": 2112.48,
+      "duration": 3.599
+    },
+    {
+      "text": "companies say they're slowering they're",
+      "start": 2114.4,
+      "duration": 3.92
+    },
+    {
+      "text": "slowing the hiring of engineers because",
+      "start": 2116.079,
+      "duration": 4.161
+    },
+    {
+      "text": "the productivity growth is so good that",
+      "start": 2118.32,
+      "duration": 3.2
+    },
+    {
+      "text": "they can reduce their hiring",
+      "start": 2120.24,
+      "duration": 3.839
+    },
+    {
+      "text": "requirements. Um the other thing is that",
+      "start": 2121.52,
+      "duration": 5.2
+    },
+    {
+      "text": "like some of these projects companies",
+      "start": 2124.079,
+      "duration": 5.52
+    },
+    {
+      "text": "are you know raising enormous amounts of",
+      "start": 2126.72,
+      "duration": 4.56
+    },
+    {
+      "text": "money and if they're not able to pay",
+      "start": 2129.599,
+      "duration": 5.201
+    },
+    {
+      "text": "their investors back uh pretty quickly",
+      "start": 2131.28,
+      "duration": 5.52
+    },
+    {
+      "text": "that's going to raise questions about",
+      "start": 2134.8,
+      "duration": 4.799
+    },
+    {
+      "text": "the next trunch of money that they need.",
+      "start": 2136.8,
+      "duration": 6.319
+    },
+    {
+      "text": "Um nobody has told me about firms like",
+      "start": 2139.599,
+      "duration": 6.48
+    },
+    {
+      "text": "OpenAI and ChatgBT sorry OpenAI and",
+      "start": 2143.119,
+      "duration": 5.441
+    },
+    {
+      "text": "Anthropic and others. Um",
+      "start": 2146.079,
+      "duration": 5.28
+    },
+    {
+      "text": ">> they're definitely seeing rapid revenue",
+      "start": 2148.56,
+      "duration": 5.519
+    },
+    {
+      "text": "growth. But that's not the same as being",
+      "start": 2151.359,
+      "duration": 5.441
+    },
+    {
+      "text": "cash flow positive from operations.",
+      "start": 2154.079,
+      "duration": 4.721
+    },
+    {
+      "text": "They're still having to bring on more",
+      "start": 2156.8,
+      "duration": 5.44
+    },
+    {
+      "text": "and more investment to fuel that growth.",
+      "start": 2158.8,
+      "duration": 5.76
+    },
+    {
+      "text": "And you know the sort of question is",
+      "start": 2162.24,
+      "duration": 5.599
+    },
+    {
+      "text": "Chat GPT gives away GPT5 access for",
+      "start": 2164.56,
+      "duration": 6.64
+    },
+    {
+      "text": "free. So like what percentage of their",
+      "start": 2167.839,
+      "duration": 5.28
+    },
+    {
+      "text": "operational costs and here I'm not even",
+      "start": 2171.2,
+      "duration": 3.2
+    },
+    {
+      "text": "talking about you know the building out",
+      "start": 2173.119,
+      "duration": 3.201
+    },
+    {
+      "text": "of massive infrastructure that is",
+      "start": 2174.4,
+      "duration": 3.439
+    },
+    {
+      "text": "underway but just operating the",
+      "start": 2176.32,
+      "duration": 4.08
+    },
+    {
+      "text": "infrastructure they have. you know, how",
+      "start": 2177.839,
+      "duration": 4.961
+    },
+    {
+      "text": "far away are they from uh cash flow",
+      "start": 2180.4,
+      "duration": 4.8
+    },
+    {
+      "text": "positive from operations? Those are the",
+      "start": 2182.8,
+      "duration": 4.319
+    },
+    {
+      "text": "kinds of questions that investors kind",
+      "start": 2185.2,
+      "duration": 3.84
+    },
+    {
+      "text": "of are not asking today because they're",
+      "start": 2187.119,
+      "duration": 4.161
+    },
+    {
+      "text": "just so excited about the AI boom that",
+      "start": 2189.04,
+      "duration": 4.64
+    },
+    {
+      "text": "they're willing to pay any price. Um,",
+      "start": 2191.28,
+      "duration": 3.839
+    },
+    {
+      "text": "but in the future, you could certainly",
+      "start": 2193.68,
+      "duration": 3.76
+    },
+    {
+      "text": "imagine they are. And I think if you",
+      "start": 2195.119,
+      "duration": 5.121
+    },
+    {
+      "text": "look at some of the companies which have",
+      "start": 2197.44,
+      "duration": 5.2
+    },
+    {
+      "text": "zero revenue, right, Chad GBT has a lot",
+      "start": 2200.24,
+      "duration": 4.24
+    },
+    {
+      "text": "of revenue, Anthropic has a lot of",
+      "start": 2202.64,
+      "duration": 3.52
+    },
+    {
+      "text": "revenue, Google has a lot of revenue.",
+      "start": 2204.48,
+      "duration": 3.76
+    },
+    {
+      "text": "There are other companies um some of",
+      "start": 2206.16,
+      "duration": 5.28
+    },
+    {
+      "text": "them founded by alumni from OpenAI and",
+      "start": 2208.24,
+      "duration": 5.119
+    },
+    {
+      "text": "others that are attracting sky-high",
+      "start": 2211.44,
+      "duration": 4.0
+    },
+    {
+      "text": "valuations in the tens of billions of",
+      "start": 2213.359,
+      "duration": 5.121
+    },
+    {
+      "text": "dollars and doing that with no revenue.",
+      "start": 2215.44,
+      "duration": 6.0
+    },
+    {
+      "text": "Um and that doesn't mean inherently",
+      "start": 2218.48,
+      "duration": 5.84
+    },
+    {
+      "text": "automatically uh that we're in a bubble,",
+      "start": 2221.44,
+      "duration": 4.32
+    },
+    {
+      "text": "but it definitely is one of the things",
+      "start": 2224.32,
+      "duration": 2.96
+    },
+    {
+      "text": "that would happen if we were in a",
+      "start": 2225.76,
+      "duration": 2.96
+    },
+    {
+      "text": "bubble. And so it's something to pay",
+      "start": 2227.28,
+      "duration": 2.72
+    },
+    {
+      "text": "attention to.",
+      "start": 2228.72,
+      "duration": 3.2
+    },
+    {
+      "text": ">> So obviously underlying all of this is",
+      "start": 2230.0,
+      "duration": 3.599
+    },
+    {
+      "text": "an assumption that adoption needs to",
+      "start": 2231.92,
+      "duration": 3.6
+    },
+    {
+      "text": "take place. Let's go back to the",
+      "start": 2233.599,
+      "duration": 3.201
+    },
+    {
+      "text": "government and talk about government",
+      "start": 2235.52,
+      "duration": 4.4
+    },
+    {
+      "text": "adoption of AI. So on August 5th, the US",
+      "start": 2236.8,
+      "duration": 6.559
+    },
+    {
+      "text": "General Services Administration GSA",
+      "start": 2239.92,
+      "duration": 6.56
+    },
+    {
+      "text": "added Open AI, Anthropic and Google as",
+      "start": 2243.359,
+      "duration": 5.601
+    },
+    {
+      "text": "approved AI vendors. This news is the",
+      "start": 2246.48,
+      "duration": 3.92
+    },
+    {
+      "text": "latest development in a string of",
+      "start": 2248.96,
+      "duration": 3.44
+    },
+    {
+      "text": "government efforts to encourage",
+      "start": 2250.4,
+      "duration": 4.32
+    },
+    {
+      "text": "government adoption of AI. I want to",
+      "start": 2252.4,
+      "duration": 4.64
+    },
+    {
+      "text": "know what this GSA appro approval means",
+      "start": 2254.72,
+      "duration": 4.8
+    },
+    {
+      "text": "for agency's access to AI.",
+      "start": 2257.04,
+      "duration": 4.559
+    },
+    {
+      "text": ">> Yeah. So, folks out there who are not",
+      "start": 2259.52,
+      "duration": 3.68
+    },
+    {
+      "text": "familiar with the General Services",
+      "start": 2261.599,
+      "duration": 4.24
+    },
+    {
+      "text": "Administration, um I forgive you. It's",
+      "start": 2263.2,
+      "duration": 5.12
+    },
+    {
+      "text": "not exactly a household name, but it's",
+      "start": 2265.839,
+      "duration": 4.721
+    },
+    {
+      "text": "actually a pretty um important",
+      "start": 2268.32,
+      "duration": 4.64
+    },
+    {
+      "text": "organization. And the reason here is",
+      "start": 2270.56,
+      "duration": 4.24
+    },
+    {
+      "text": "like there's a million billion",
+      "start": 2272.96,
+      "duration": 5.119
+    },
+    {
+      "text": "regulations on what it means to sign a",
+      "start": 2274.8,
+      "duration": 5.12
+    },
+    {
+      "text": "contract with the United States",
+      "start": 2278.079,
+      "duration": 4.401
+    },
+    {
+      "text": "government. And that is a lot of",
+      "start": 2279.92,
+      "duration": 4.56
+    },
+    {
+      "text": "complexity, not just for companies to",
+      "start": 2282.48,
+      "duration": 4.48
+    },
+    {
+      "text": "navigate, but for the government to",
+      "start": 2284.48,
+      "duration": 5.28
+    },
+    {
+      "text": "navigate. And so, you know, just",
+      "start": 2286.96,
+      "duration": 4.72
+    },
+    {
+      "text": "negotiating contracts on behalf of the",
+      "start": 2289.76,
+      "duration": 2.96
+    },
+    {
+      "text": "government can take months and months",
+      "start": 2291.68,
+      "duration": 2.72
+    },
+    {
+      "text": "and months. The General Services",
+      "start": 2292.72,
+      "duration": 3.359
+    },
+    {
+      "text": "Administration, I mean, they have a lot",
+      "start": 2294.4,
+      "duration": 3.36
+    },
+    {
+      "text": "of jobs. They have a they have a big",
+      "start": 2296.079,
+      "duration": 3.361
+    },
+    {
+      "text": "real estate portfolio that they manage",
+      "start": 2297.76,
+      "duration": 3.12
+    },
+    {
+      "text": "on behalf of the government. They have a",
+      "start": 2299.44,
+      "duration": 2.72
+    },
+    {
+      "text": "lot of other important jobs to do, but",
+      "start": 2300.88,
+      "duration": 4.0
+    },
+    {
+      "text": "one of the things that they do is manage",
+      "start": 2302.16,
+      "duration": 5.679
+    },
+    {
+      "text": "big contracts that the entire government",
+      "start": 2304.88,
+      "duration": 5.28
+    },
+    {
+      "text": "has access to. So, it's not like a DoD",
+      "start": 2307.839,
+      "duration": 4.321
+    },
+    {
+      "text": "contract where the DoD can use it or a",
+      "start": 2310.16,
+      "duration": 3.439
+    },
+    {
+      "text": "Department of Energy contract where the",
+      "start": 2312.16,
+      "duration": 2.72
+    },
+    {
+      "text": "Department of Energy can use it. when",
+      "start": 2313.599,
+      "duration": 3.441
+    },
+    {
+      "text": "the GSA signs a contract, it's open and",
+      "start": 2314.88,
+      "duration": 5.52
+    },
+    {
+      "text": "available to most or all of the federal",
+      "start": 2317.04,
+      "duration": 5.68
+    },
+    {
+      "text": "government. And so if you're thinking",
+      "start": 2320.4,
+      "duration": 4.24
+    },
+    {
+      "text": "about like how do we accelerate AI",
+      "start": 2322.72,
+      "duration": 3.84
+    },
+    {
+      "text": "adoption, the fact that there are now",
+      "start": 2324.64,
+      "duration": 3.6
+    },
+    {
+      "text": "what we would call in in government",
+      "start": 2326.56,
+      "duration": 5.039
+    },
+    {
+      "text": "speak contract vehicles for purchasing",
+      "start": 2328.24,
+      "duration": 6.72
+    },
+    {
+      "text": "AI services through the GSA, that means",
+      "start": 2331.599,
+      "duration": 6.321
+    },
+    {
+      "text": "that the complexity to navigate for any",
+      "start": 2334.96,
+      "duration": 4.639
+    },
+    {
+      "text": "government agency, for any government",
+      "start": 2337.92,
+      "duration": 4.08
+    },
+    {
+      "text": "office, for any government individual to",
+      "start": 2339.599,
+      "duration": 4.721
+    },
+    {
+      "text": "get access to AI capabilities um just",
+      "start": 2342.0,
+      "duration": 4.32
+    },
+    {
+      "text": "went way way down. And when you think",
+      "start": 2344.32,
+      "duration": 3.44
+    },
+    {
+      "text": "about like some of the hurdles that make",
+      "start": 2346.32,
+      "duration": 3.84
+    },
+    {
+      "text": "all of this more complex like security",
+      "start": 2347.76,
+      "duration": 4.0
+    },
+    {
+      "text": "concerns",
+      "start": 2350.16,
+      "duration": 3.919
+    },
+    {
+      "text": "uh like cyber security concerns like",
+      "start": 2351.76,
+      "duration": 4.56
+    },
+    {
+      "text": "access to cloud services and the",
+      "start": 2354.079,
+      "duration": 3.921
+    },
+    {
+      "text": "conditions under which that is or is not",
+      "start": 2356.32,
+      "duration": 4.72
+    },
+    {
+      "text": "allowed. Again the GSA has sort of",
+      "start": 2358.0,
+      "duration": 4.96
+    },
+    {
+      "text": "navigated a lot of that complexity on",
+      "start": 2361.04,
+      "duration": 4.0
+    },
+    {
+      "text": "behalf of the entire federal government.",
+      "start": 2362.96,
+      "duration": 4.32
+    },
+    {
+      "text": "And so this is this is not a guarantee",
+      "start": 2365.04,
+      "duration": 4.96
+    },
+    {
+      "text": "but this is certainly a big window for",
+      "start": 2367.28,
+      "duration": 5.28
+    },
+    {
+      "text": "accelerating AI adoption um across the",
+      "start": 2370.0,
+      "duration": 4.16
+    },
+    {
+      "text": "entire federal government. And you're",
+      "start": 2372.56,
+      "duration": 3.279
+    },
+    {
+      "text": "seeing, you know, interesting uh",
+      "start": 2374.16,
+      "duration": 6.0
+    },
+    {
+      "text": "maneuvers by companies in this regard.",
+      "start": 2375.839,
+      "duration": 7.28
+    },
+    {
+      "text": "CEO Sam Alman, for example, said that he",
+      "start": 2380.16,
+      "duration": 5.84
+    },
+    {
+      "text": "was going to offer chat GBT services to",
+      "start": 2383.119,
+      "duration": 4.401
+    },
+    {
+      "text": "the entire federal government at a price",
+      "start": 2386.0,
+      "duration": 4.24
+    },
+    {
+      "text": "of $1 per employee. Now, like what their",
+      "start": 2387.52,
+      "duration": 4.16
+    },
+    {
+      "text": "usage thresholds look like, I don't",
+      "start": 2390.24,
+      "duration": 2.64
+    },
+    {
+      "text": "know. There's some unanswered questions",
+      "start": 2391.68,
+      "duration": 3.36
+    },
+    {
+      "text": "at this stage. Um but that's really",
+      "start": 2392.88,
+      "duration": 5.12
+    },
+    {
+      "text": "interesting. Um and it it means that for",
+      "start": 2395.04,
+      "duration": 4.4
+    },
+    {
+      "text": "every government agency, you know, the",
+      "start": 2398.0,
+      "duration": 4.24
+    },
+    {
+      "text": "the cost of trying it out um is pretty",
+      "start": 2399.44,
+      "duration": 4.08
+    },
+    {
+      "text": "low, right? to just like interacting",
+      "start": 2402.24,
+      "duration": 2.72
+    },
+    {
+      "text": "with the chatbot, playing around with",
+      "start": 2403.52,
+      "duration": 2.96
+    },
+    {
+      "text": "it. Now, there's so many things that",
+      "start": 2404.96,
+      "duration": 3.2
+    },
+    {
+      "text": "they have to think about like number",
+      "start": 2406.48,
+      "duration": 4.4
+    },
+    {
+      "text": "one, how do you make sure that data",
+      "start": 2408.16,
+      "duration": 4.4
+    },
+    {
+      "text": "that's supposed to be kept secure is",
+      "start": 2410.88,
+      "duration": 4.239
+    },
+    {
+      "text": "kept secure, right? Like for example, um",
+      "start": 2412.56,
+      "duration": 4.0
+    },
+    {
+      "text": "when you're in the government and you're",
+      "start": 2415.119,
+      "duration": 3.761
+    },
+    {
+      "text": "doing anything with personnel and human",
+      "start": 2416.56,
+      "duration": 4.559
+    },
+    {
+      "text": "resources, uh you're interacting with a",
+      "start": 2418.88,
+      "duration": 4.32
+    },
+    {
+      "text": "lot of social security numbers. In the",
+      "start": 2421.119,
+      "duration": 4.24
+    },
+    {
+      "text": "government, you're not allowed to email",
+      "start": 2423.2,
+      "duration": 4.72
+    },
+    {
+      "text": "social security numbers around unless",
+      "start": 2425.359,
+      "duration": 5.201
+    },
+    {
+      "text": "those emails are encrypted, for example.",
+      "start": 2427.92,
+      "duration": 4.4
+    },
+    {
+      "text": "So you don't necess and and there's a",
+      "start": 2430.56,
+      "duration": 2.88
+    },
+    {
+      "text": "lot of like sensitive personal",
+      "start": 2432.32,
+      "duration": 3.039
+    },
+    {
+      "text": "information, medical information, etc.",
+      "start": 2433.44,
+      "duration": 3.84
+    },
+    {
+      "text": "You don't want to just casually upload",
+      "start": 2435.359,
+      "duration": 6.0
+    },
+    {
+      "text": "those up to um AI chat bots or you know",
+      "start": 2437.28,
+      "duration": 5.52
+    },
+    {
+      "text": "sensitive uh information about",
+      "start": 2441.359,
+      "duration": 2.48
+    },
+    {
+      "text": "government operations, whether or not",
+      "start": 2442.8,
+      "duration": 3.36
+    },
+    {
+      "text": "it's like an individual privacy concern.",
+      "start": 2443.839,
+      "duration": 3.681
+    },
+    {
+      "text": "Um you want to make sure that when",
+      "start": 2446.16,
+      "duration": 3.199
+    },
+    {
+      "text": "you're using these platforms, the data",
+      "start": 2447.52,
+      "duration": 4.559
+    },
+    {
+      "text": "is going to remain protected in the way",
+      "start": 2449.359,
+      "duration": 4.881
+    },
+    {
+      "text": "that the law demands it be protect",
+      "start": 2452.079,
+      "duration": 4.24
+    },
+    {
+      "text": "protected and also in the way that",
+      "start": 2454.24,
+      "duration": 3.68
+    },
+    {
+      "text": "common sense, you know, demands that it",
+      "start": 2456.319,
+      "duration": 3.361
+    },
+    {
+      "text": "needs to be protected. So those are the",
+      "start": 2457.92,
+      "duration": 2.8
+    },
+    {
+      "text": "kinds of questions that you know",
+      "start": 2459.68,
+      "duration": 3.439
+    },
+    {
+      "text": "operational adoption uh is going to have",
+      "start": 2460.72,
+      "duration": 4.56
+    },
+    {
+      "text": "to wrestle with. But it does seem to me",
+      "start": 2463.119,
+      "duration": 3.921
+    },
+    {
+      "text": "that you know the foot is being put on",
+      "start": 2465.28,
+      "duration": 5.2
+    },
+    {
+      "text": "the accelerator and I think um that's",
+      "start": 2467.04,
+      "duration": 5.12
+    },
+    {
+      "text": "just an exciting opportunity for for the",
+      "start": 2470.48,
+      "duration": 3.119
+    },
+    {
+      "text": "United States. I'm excited to see how it",
+      "start": 2472.16,
+      "duration": 2.159
+    },
+    {
+      "text": "goes.",
+      "start": 2473.599,
+      "duration": 2.641
+    },
+    {
+      "text": ">> Yeah. Connecting it back to the the last",
+      "start": 2474.319,
+      "duration": 3.441
+    },
+    {
+      "text": "segment. I mean it'll be just",
+      "start": 2476.24,
+      "duration": 3.599
+    },
+    {
+      "text": "interesting to see if that also drives",
+      "start": 2477.76,
+      "duration": 4.48
+    },
+    {
+      "text": "higher numbers of productivity. Um you",
+      "start": 2479.839,
+      "duration": 4.321
+    },
+    {
+      "text": "know even just having access in an",
+      "start": 2482.24,
+      "duration": 3.599
+    },
+    {
+      "text": "integrated way. I assume there's a lot",
+      "start": 2484.16,
+      "duration": 3.6
+    },
+    {
+      "text": "that they have to do to prepare for this",
+      "start": 2485.839,
+      "duration": 4.0
+    },
+    {
+      "text": "beyond just the security concerns",
+      "start": 2487.76,
+      "duration": 4.24
+    },
+    {
+      "text": "actually being mindful about you know",
+      "start": 2489.839,
+      "duration": 5.041
+    },
+    {
+      "text": "what does it mean to use AI in in the",
+      "start": 2492.0,
+      "duration": 5.359
+    },
+    {
+      "text": "government. Have you heard of any uh",
+      "start": 2494.88,
+      "duration": 4.08
+    },
+    {
+      "text": "steps that they're taking to approach",
+      "start": 2497.359,
+      "duration": 3.921
+    },
+    {
+      "text": "this sort of largecale adoption?",
+      "start": 2498.96,
+      "duration": 4.24
+    },
+    {
+      "text": ">> Yeah and I think here there's there's a",
+      "start": 2501.28,
+      "duration": 4.559
+    },
+    {
+      "text": "good analogy um to be made with the",
+      "start": 2503.2,
+      "duration": 6.72
+    },
+    {
+      "text": "digitalization of government affairs. Um",
+      "start": 2505.839,
+      "duration": 5.921
+    },
+    {
+      "text": "you know when I was in the government we",
+      "start": 2509.92,
+      "duration": 4.399
+    },
+    {
+      "text": "had this thing called uh the defense",
+      "start": 2511.76,
+      "duration": 4.72
+    },
+    {
+      "text": "travel service which was basically just",
+      "start": 2514.319,
+      "duration": 5.361
+    },
+    {
+      "text": "like um Expedia or Kayak or Google",
+      "start": 2516.48,
+      "duration": 5.599
+    },
+    {
+      "text": "flights you know for b purchasing",
+      "start": 2519.68,
+      "duration": 5.6
+    },
+    {
+      "text": "flights um when you are a government",
+      "start": 2522.079,
+      "duration": 4.721
+    },
+    {
+      "text": "employee and purchasing it with a",
+      "start": 2525.28,
+      "duration": 4.16
+    },
+    {
+      "text": "government you know uh payment account.",
+      "start": 2526.8,
+      "duration": 5.279
+    },
+    {
+      "text": "Well, the Defense Travel Service was",
+      "start": 2529.44,
+      "duration": 4.96
+    },
+    {
+      "text": "based on old regulations that had been",
+      "start": 2532.079,
+      "duration": 4.321
+    },
+    {
+      "text": "written, you know, for what it meant to",
+      "start": 2534.4,
+      "duration": 4.719
+    },
+    {
+      "text": "uh buy air travel. And one of the things",
+      "start": 2536.4,
+      "duration": 4.16
+    },
+    {
+      "text": "in the government is because they don't",
+      "start": 2539.119,
+      "duration": 2.881
+    },
+    {
+      "text": "want, you know, wasteful spending of",
+      "start": 2540.56,
+      "duration": 4.799
+    },
+    {
+      "text": "taxpayer money is that your supervisor",
+      "start": 2542.0,
+      "duration": 6.88
+    },
+    {
+      "text": "has to approve the uh purchase of the",
+      "start": 2545.359,
+      "duration": 4.801
+    },
+    {
+      "text": "flight. So, there needs to be some kind",
+      "start": 2548.88,
+      "duration": 3.92
+    },
+    {
+      "text": "of mechanism to route the flight uh",
+      "start": 2550.16,
+      "duration": 4.959
+    },
+    {
+      "text": "ticket uh attempt to purchase to your",
+      "start": 2552.8,
+      "duration": 4.16
+    },
+    {
+      "text": "supervisor for approval. And I guess",
+      "start": 2555.119,
+      "duration": 4.48
+    },
+    {
+      "text": "like when the regulations were written,",
+      "start": 2556.96,
+      "duration": 4.72
+    },
+    {
+      "text": "it said like your supervisor has to",
+      "start": 2559.599,
+      "duration": 4.881
+    },
+    {
+      "text": "stamp it approved. And so when you go to",
+      "start": 2561.68,
+      "duration": 4.32
+    },
+    {
+      "text": "the Defense Travel Service as a",
+      "start": 2564.48,
+      "duration": 3.2
+    },
+    {
+      "text": "supervisor, as I was, there's a button",
+      "start": 2566.0,
+      "duration": 3.76
+    },
+    {
+      "text": "that says stamp approved.",
+      "start": 2567.68,
+      "duration": 2.96
+    },
+    {
+      "text": ">> So literally stamp it.",
+      "start": 2569.76,
+      "duration": 2.8
+    },
+    {
+      "text": ">> Yes. You have to click stamp because",
+      "start": 2570.64,
+      "duration": 4.16
+    },
+    {
+      "text": "they wanted to abide by that old timey",
+      "start": 2572.56,
+      "duration": 4.4
+    },
+    {
+      "text": "regulation. And so my point here is that",
+      "start": 2574.8,
+      "duration": 4.24
+    },
+    {
+      "text": "like just because you're moving from",
+      "start": 2576.96,
+      "duration": 4.399
+    },
+    {
+      "text": "paper and ink and stamps to",
+      "start": 2579.04,
+      "duration": 4.079
+    },
+    {
+      "text": "digitalization",
+      "start": 2581.359,
+      "duration": 4.401
+    },
+    {
+      "text": "did not inherently mean you got this big",
+      "start": 2583.119,
+      "duration": 4.321
+    },
+    {
+      "text": "productivity boost. If you just took the",
+      "start": 2585.76,
+      "duration": 3.28
+    },
+    {
+      "text": "same process that you used when it was",
+      "start": 2587.44,
+      "duration": 3.76
+    },
+    {
+      "text": "paper and ink and you use that same",
+      "start": 2589.04,
+      "duration": 4.88
+    },
+    {
+      "text": "process but in a digital format, you",
+      "start": 2591.2,
+      "duration": 4.56
+    },
+    {
+      "text": "might get no productivity improvement.",
+      "start": 2593.92,
+      "duration": 3.36
+    },
+    {
+      "text": "You might get a tiny fraction of the",
+      "start": 2595.76,
+      "duration": 3.68
+    },
+    {
+      "text": "potential productivity improvement. The",
+      "start": 2597.28,
+      "duration": 3.839
+    },
+    {
+      "text": "big productivity improvements from",
+      "start": 2599.44,
+      "duration": 4.48
+    },
+    {
+      "text": "digitalization came from process",
+      "start": 2601.119,
+      "duration": 5.441
+    },
+    {
+      "text": "re-engineering where you're like, \"Okay,",
+      "start": 2603.92,
+      "duration": 5.439
+    },
+    {
+      "text": "because this exists, we can do this an",
+      "start": 2606.56,
+      "duration": 4.88
+    },
+    {
+      "text": "entirely different way. We don't need a",
+      "start": 2609.359,
+      "duration": 4.801
+    },
+    {
+      "text": "massive mail room in the basement with a",
+      "start": 2611.44,
+      "duration": 4.159
+    },
+    {
+      "text": "bunch of people who walk around with",
+      "start": 2614.16,
+      "duration": 3.84
+    },
+    {
+      "text": "shopping carts delivering mail. We don't",
+      "start": 2615.599,
+      "duration": 4.0
+    },
+    {
+      "text": "need, you know, all of these approaches",
+      "start": 2618.0,
+      "duration": 3.52
+    },
+    {
+      "text": "that we take because we're running the",
+      "start": 2619.599,
+      "duration": 4.72
+    },
+    {
+      "text": "world on p paper and ink. We can",
+      "start": 2621.52,
+      "duration": 4.64
+    },
+    {
+      "text": "re-engineer our processes to take",
+      "start": 2624.319,
+      "duration": 3.841
+    },
+    {
+      "text": "advantage of digital reality. And the",
+      "start": 2626.16,
+      "duration": 4.56
+    },
+    {
+      "text": "same is going to be true for AI. I think",
+      "start": 2628.16,
+      "duration": 6.4
+    },
+    {
+      "text": "that while I'm excited to give a lot of",
+      "start": 2630.72,
+      "duration": 5.28
+    },
+    {
+      "text": "people in government, you know, access",
+      "start": 2634.56,
+      "duration": 3.68
+    },
+    {
+      "text": "to chatbot capabilities and and use that",
+      "start": 2636.0,
+      "duration": 4.319
+    },
+    {
+      "text": "to enhance their work, I think the",
+      "start": 2638.24,
+      "duration": 3.839
+    },
+    {
+      "text": "obvious truth is that the vast majority",
+      "start": 2640.319,
+      "duration": 3.52
+    },
+    {
+      "text": "of the productivity improvements are",
+      "start": 2642.079,
+      "duration": 3.841
+    },
+    {
+      "text": "really only going to kick in when you",
+      "start": 2643.839,
+      "duration": 4.321
+    },
+    {
+      "text": "think about the process re-engineering",
+      "start": 2645.92,
+      "duration": 5.04
+    },
+    {
+      "text": "part of the story. um like what are we",
+      "start": 2648.16,
+      "duration": 5.28
+    },
+    {
+      "text": "going to do differently than we would",
+      "start": 2650.96,
+      "duration": 5.04
+    },
+    {
+      "text": "did in the pre-AI era and how are we",
+      "start": 2653.44,
+      "duration": 4.48
+    },
+    {
+      "text": "going to make sure that we actually",
+      "start": 2656.0,
+      "duration": 3.52
+    },
+    {
+      "text": "generate the productivity improvements,",
+      "start": 2657.92,
+      "duration": 4.64
+    },
+    {
+      "text": "generate the cost savings, etc. Um",
+      "start": 2659.52,
+      "duration": 5.28
+    },
+    {
+      "text": "that's not just a take your old process",
+      "start": 2662.56,
+      "duration": 4.32
+    },
+    {
+      "text": "and throw AI on top of it. You really",
+      "start": 2664.8,
+      "duration": 3.519
+    },
+    {
+      "text": "have to re-engineer the process and",
+      "start": 2666.88,
+      "duration": 2.56
+    },
+    {
+      "text": "that's a complicated thing to",
+      "start": 2668.319,
+      "duration": 2.721
+    },
+    {
+      "text": "accomplish. A lot of organizations",
+      "start": 2669.44,
+      "duration": 3.28
+    },
+    {
+      "text": "struggle with that and the government",
+      "start": 2671.04,
+      "duration": 4.16
+    },
+    {
+      "text": "historically has struggled with that",
+      "start": 2672.72,
+      "duration": 5.599
+    },
+    {
+      "text": "massively because government employees",
+      "start": 2675.2,
+      "duration": 5.52
+    },
+    {
+      "text": "often love to brag. Like if you go look",
+      "start": 2678.319,
+      "duration": 5.76
+    },
+    {
+      "text": "at the um online biography of just about",
+      "start": 2680.72,
+      "duration": 5.119
+    },
+    {
+      "text": "any general in the United States",
+      "start": 2684.079,
+      "duration": 4.961
+    },
+    {
+      "text": "military, it will say they are in charge",
+      "start": 2685.839,
+      "duration": 5.681
+    },
+    {
+      "text": "of you know so many tens of thousands of",
+      "start": 2689.04,
+      "duration": 4.799
+    },
+    {
+      "text": "people and budget of X. Right? They brag",
+      "start": 2691.52,
+      "duration": 4.24
+    },
+    {
+      "text": "about how much they're responsible for.",
+      "start": 2693.839,
+      "duration": 4.24
+    },
+    {
+      "text": "They don't brag about how much cost they",
+      "start": 2695.76,
+      "duration": 4.0
+    },
+    {
+      "text": "cut. They don't brag about how",
+      "start": 2698.079,
+      "duration": 3.52
+    },
+    {
+      "text": "efficient, you know, operations became",
+      "start": 2699.76,
+      "duration": 3.839
+    },
+    {
+      "text": "under them. And that's just because",
+      "start": 2701.599,
+      "duration": 5.041
+    },
+    {
+      "text": "bureaucracies often incentivize little",
+      "start": 2703.599,
+      "duration": 4.801
+    },
+    {
+      "text": "empire building. They don't incentiv",
+      "start": 2706.64,
+      "duration": 4.0
+    },
+    {
+      "text": "incentive always inherently um",
+      "start": 2708.4,
+      "duration": 4.56
+    },
+    {
+      "text": "incentivize efficiency. And so that can",
+      "start": 2710.64,
+      "duration": 3.6
+    },
+    {
+      "text": "be a challenge when you're trying to",
+      "start": 2712.96,
+      "duration": 3.04
+    },
+    {
+      "text": "seize the opportunities of",
+      "start": 2714.24,
+      "duration": 3.599
+    },
+    {
+      "text": "transformative technologies, which I do",
+      "start": 2716.0,
+      "duration": 3.2
+    },
+    {
+      "text": "think AI is.",
+      "start": 2717.839,
+      "duration": 3.601
+    },
+    {
+      "text": ">> Well, I'm really excited to to see what",
+      "start": 2719.2,
+      "duration": 4.72
+    },
+    {
+      "text": "numbers come out um after all this is",
+      "start": 2721.44,
+      "duration": 4.08
+    },
+    {
+      "text": "sort of up and running. I'm sure we will",
+      "start": 2723.92,
+      "duration": 4.399
+    },
+    {
+      "text": "analyze it here when it does. Um, I",
+      "start": 2725.52,
+      "duration": 4.079
+    },
+    {
+      "text": "think that does it for this week's",
+      "start": 2728.319,
+      "duration": 3.52
+    },
+    {
+      "text": "episode of the AI Policy Podcast. Greg,",
+      "start": 2729.599,
+      "duration": 4.161
+    },
+    {
+      "text": "thank you so much for joining me. To our",
+      "start": 2731.839,
+      "duration": 3.28
+    },
+    {
+      "text": "listeners, thank you so much for tuning",
+      "start": 2733.76,
+      "duration": 3.28
+    },
+    {
+      "text": "back in. Great conversation as always",
+      "start": 2735.119,
+      "duration": 3.281
+    },
+    {
+      "text": "and we'll see you next time.",
+      "start": 2737.04,
+      "duration": 4.6
+    },
+    {
+      "text": ">> Thanks, Belle.",
+      "start": 2738.4,
+      "duration": 3.24
+    },
+    {
+      "text": ">> Thanks for listening to this episode of",
+      "start": 2742.64,
+      "duration": 3.76
+    },
+    {
+      "text": "the AI Policy Podcast. If you like what",
+      "start": 2744.16,
+      "duration": 3.84
+    },
+    {
+      "text": "you heard, there's an easy way for you",
+      "start": 2746.4,
+      "duration": 3.679
+    },
+    {
+      "text": "to help us. Please give us a five-star",
+      "start": 2748.0,
+      "duration": 4.48
+    },
+    {
+      "text": "review on your favorite podcast platform",
+      "start": 2750.079,
+      "duration": 4.881
+    },
+    {
+      "text": "and subscribe and tell your friends. It",
+      "start": 2752.48,
+      "duration": 4.56
+    },
+    {
+      "text": "really helps when you spread the word.",
+      "start": 2754.96,
+      "duration": 3.84
+    },
+    {
+      "text": "This podcast was produced by Sarah",
+      "start": 2757.04,
+      "duration": 4.319
+    },
+    {
+      "text": "Baker, Satie McCulla, and Matt Mand. See",
+      "start": 2758.8,
+      "duration": 4.21
+    },
+    {
+      "text": "you next time.",
+      "start": 2761.359,
+      "duration": 4.7
+    },
+    {
+      "text": "[Music]",
+      "start": 2763.01,
+      "duration": 3.049
+    }
+  ]
+}

@@ -1,0 +1,1397 @@
+Welcome back to the AI policy podcast.
+I'm Matt Mann and today I'll be speaking
+with Greg Allen about three pretty big
+stories in what's been a busy week for
+the AI policy space, including a
+potential new executive order targeting
+state AI laws, proposed changes to the
+EU AI act, and a Chinese cyber attack
+using anthropics model Claude. But Greg,
+before we dive into these topics, you
+just got back from a weekl long trip to
+India in preparation for the India AI
+impact summit. So why don't we start
+there. Who are you speaking with and
+what were some of your biggest takeaways
+from the trip?
+>> Thanks Matt. Good to be speaking with
+you again. And yes, I am back from India
+and uh you know just as a little
+personal aside uh I'm a weak person when
+it comes to adjusting from jet lag. So
+if I sound uh dumber on this podcast
+than usual, that's that's why. Um but it
+was a fabulous trip to India. I was
+going with my colleague Rick Roso who is
+the India chair here at CSIS. Uh and we
+were meeting with a bunch of different
+institutions in the Indian government in
+the Indian private sector. Um we also
+co-hosted uh two roundts uh with local
+organizations about you know the US
+India relationship in the context of AI
+and also AI for development and what can
+be done in those things. Um and of
+course all of this is headed towards the
+India AI impact summit which is going to
+be taking place in February of 2026
+and I think this summit there's actually
+pretty high expectations associated with
+this summit which uh might come as a
+surprise to some but I mean if you think
+about the extent to which the UK AI
+safety summit which was the first in the
+series totally reshaped the global
+conversation on AI and then again the
+French AI action summit uh earlier in
+2025 again reshaped the global
+conversation on AI. Um I think a lot of
+folks are are taking it seriously that
+India is going to be a big deal and
+India you know as an economy is in a
+pretty interesting moment and it plays a
+pretty interesting role in the AI
+ecosystem. So for example, you know,
+when chat uh when OpenAI says that chat
+GPT has 800 million weekly average
+users, well, the number one uh user base
+is Americans, but the number two user
+base is in India and that is really
+interesting because it it hearkens to
+you know what might be the potential for
+chat GBT um in the global south at large
+and some of the experiences that they're
+having in India, you know, suggest what
+the product might need to evolve toward.
+boards uh to be relevant and and you
+know for in India which is basically
+abandoned email as a work practice um
+everything takes place on WhatsApp
+government services are sometimes
+delivered via WhatsApp
+>> interesting
+>> and so you know that relationship the
+technology has with consumers is pretty
+interesting in the case of AI for
+example there's a huge share of diverse
+language requirements in India but also
+there apparently they're much more heavy
+the users of spoken as opposed to typed
+chat interactions, which is pretty
+interesting uh just in and of itself. It
+might be related to populations with
+relatively low literacy rates. It might
+just be preference. Who knows? But
+there's all kinds of interesting things
+going on. Uh a couple other interesting
+things that are going on is a bunch of
+companies are opening offices in India.
+Uh Chachi open already had one. Google
+already had one. Microsoft already had
+one. Um but Anthropic just opened their
+India office and I don't think they've
+been public yet about like what that
+office is going to be up to but um it's
+interesting I I assume they're doing it
+for more than just to position
+themselves for the uh AI impact summit
+but does speak to the to the relevance
+of India. So I talked about it as a
+consumer of AI services.
+>> Um it's also an important producer of AI
+services. Um there are big American
+technology companies where the number
+two country in the world for them in
+terms of employment is India. Uh because
+India in contrast to China which you
+know its development model is much more
+focused on manufacturing. Um India has
+embraced technology services and
+especially IT as a growth engine for the
+overall economy and software development
+is a big there outsourced IT is big
+there and they're all wondering sort of
+what is the future of AI mean for India
+and these are companies that you know
+have heard the predictions about how AI
+is going to be devastating to knowledge
+workers how it's going to be devastating
+to software as a service business models
+and they are fighting to show that
+actually they're going to be ahead of
+the AI I future not disrupted or
+destroyed by the AI future. That's all
+pretty interesting stuff.
+>> In terms of what India's, you know,
+looking to accomplish at this summit,
+they described a list of priorities they
+have. Among them, I think are expanding
+the inclusiveness of AI. There is a
+sense that AI is a rich country's kind
+of industry and India wants to say
+whatever this economic revolution is it
+needs to be inclusive of the global
+south and India is explicitly
+positioning itself as a leader of the
+global south
+>> this is the first uh global AI summit in
+the global south
+>> that's right hosted by a global uh south
+country now the term global south is
+kind of funny because um the equator
+goes through Indonesia it doesn't go
+through India. So India is not really in
+the global south. Okay. Um in terms of
+like below the equator global south uh
+but it's a term that the Indian
+government itself uses freely and
+routinely. So I'll continue using it uh
+for for the same reason. Um so then
+there's also the aspect of like AI and
+development and here I think there's
+just tons of really interesting use
+cases going on. Um some of them being
+put into practice by our partner
+organizations. So we are the Wadwani AI
+center at CSIS uh funded in large part
+by the Wadwani Foundation. Um the
+Wadwani Institute for AI in India is
+actually developing software AI tools on
+like a philanthropic basis and that's to
+improve healthcare delivery outcomes to
+improve uh agricultural outcomes. I mean
+they have something for the detection
+and treatment of tuberculosis that is
+now you know reaching tens of millions
+of people in India. So pretty exciting
+to see sort of like what the rest of the
+the Wani Foundation is up to. um and
+they're obviously especially strong in
+India and I think the government is
+really excited about sort of sharing the
+success stories that they've had in
+terms of using AI to support economic
+development and uh public health, public
+education, those kinds of use cases and
+then to to do what they can to
+evangelize amongst the rest of the
+global south and say hey these are tools
+that we've tried out that we found
+useful and we think would be useful to
+you as well. Um, [clears throat]
+>> it's still going to be the case that big
+global conversations on AI such as
+USChina geostrategic competition are
+going to either feature loudly in the
+foreground or loudly in the background
+uh of this kind of conversation as is
+the global debate on AI governance and
+regulation. Um, so this is sort of
+what's going on. The Wadwani AI center
+and me in particular, I'll be going back
+to India. We're going to be publishing a
+series of articles and papers on this
+topic and convening events um in the
+United States and in India. So stay
+tuned. Uh we we have a lot more coming
+on this topic.
+>> That's right. That's right. Um well, in
+the meantime, let's dive into the three
+big stories this week. This has been, as
+I said, a busy week for AI policy. Uh on
+November 19th, several news outlets
+reported that the administration is
+considering an executive order to
+preempt state laws. Uh, and this
+executive order was actually published
+in full text. Could you tell us more
+about what the administration is trying
+to achieve through this EO? And to be
+clear, this EO is still a draft. It has
+not been passed.
+>> Yeah. So, I I have a a copy of the
+leaked draft here. Uh, I should note at
+the very top it says deliberative
+pre-decisional draft and uh, The Verge
+was the first outlet to leak a full copy
+of the draft. I actually have no idea
+the mechanism by which this was leaked.
+My guess is that it was shared with
+Congress in order to solicit feedback on
+the executive order from the legislative
+branch and then somebody in the
+legislative branch decided that they
+didn't like it and wanted to to share it
+with the media uh to to try and generate
+some momentum against it. Um, but I do
+think assuming this document is
+authentic, which I have no reason to
+assume it's anything other than
+authentic, it does kind of reveal an
+interesting
+uh state of preferences and beliefs of
+at least some leaders in the
+administration [clears throat] um at
+this moment in time. So I think the
+first thing that really jumped out to me
+was uh section two policy quote it is
+the policy of the United States to
+sustain and enhance America's global AI
+dominance through a minimally burdensome
+uniform national policy framework for
+AI. So the reason why I think that's
+interesting is uh the administration is
+saying here that they are not explicitly
+always and forever against regulation.
+they are against this patchwork of state
+regulation. And that is a phrase that
+we've heard um coming out of many
+Republican legislators on the Hill. For
+example, Congressman Jay Obernolulti uh
+when he was on our podcast, he said
+pretty much the exact same thing. Um
+it's not that they're anti-regulation,
+but they're especially allergic to state
+level regulation um just because they
+don't want this sort of differing
+patchwork that they think is going to
+introduce additional complexity for
+businesses. But Matt, you noticed
+something very interesting in this draft
+executive order which I I had missed,
+but I thought it was really clever. So,
+do you want to uh tell everybody what
+you saw about the the deadlines and
+various aspects of the policy compared
+with the deadline for coming up with a
+federal policy framework for AI?
+>> Yeah, so almost every section of this
+executive order includes some sort of
+deadline for taking action. Uh for
+example, many of the deadlines say
+within 90 days of the executive order
+taking effect, uh whoever that the
+action is, task to has to complete the
+action, whether that's uh the FCC, the
+FTC, uh or one of Trump's adviserss.
+Interestingly, uh there is a section
+called legislation. Uh and that section
+asks that uh David Saxs and uh who who's
+the AI and cryptosar for Trump and the
+director of the office of legislative
+affairs uh quote prepare for my review a
+legislative recommendation establishing
+a uniform federal regulatory framework
+for AI that preempts state AI laws that
+conflict with the policy set forth in
+this order. Now, I'm guessing the reason
+they put this in there uh is to quell
+fears that uh this is just another
+version of the moratorum where you're
+banning state AI laws without putting
+forward any sort of federal standard to
+replace them. Uh the interesting part
+which you mentioned earlier is that this
+is the only section in there that
+doesn't have a deadline. Uh and I think
+that is probably not a mistake. Uh maybe
+it is, probably not. Um, and that
+probably has something to say about what
+the priorities in this executive order
+are. Perhaps there isn't as much of a
+rush within the administration to
+provide that federal standard or create
+federal legislation to preempt the state
+laws. I think to go even further, right,
+a cynic might say that your official
+policy is to have a minimally burdensome
+federal framework for AI regulation.
+That's your stated policy. But your real
+policy is to block state regulation and
+to block federal regulation and the lack
+of a deadline on
+>> uh that sort of communicates the
+seriousness uh with which you do treat
+other parts of this and with which you
+do not treat coming up with a federal
+framework. Now, you know, that's the
+cynical view. We're reading a lot in
+there. We we'll see what actually
+happens when this executive order comes
+out and and what the administration
+tries to do. But I thought that was a
+super interesting catch, Matt. So,
+thanks for sharing it with the audience.
+>> Yeah. Um, okay. So, the meat of this
+executive order is creating an AI
+litigation task force. And basically
+what they're saying is they want the
+Department of Justice to sue state
+governments who try and who do pass AI
+laws, AI regulatory laws, and they want
+to go after them on multiple potential
+grounds. one is uh unconstitutionally
+regulating interstate commerce or are
+otherwise unlawful. And I think the
+unconstitutionally regulating interstate
+commerce one to me stands out because
+this is an argument that the venture
+capital firm A16Z
+very prominently uh wrote about just a
+few weeks ago. basically saying that,
+you know, the there are aspects of AI
+regulation in the laws that, for
+example, Colorado, which has probably
+one of the beefier laws out there, um
+that unduly influence interstate
+commerce. And I've heard the same
+[clears throat] thing out of the mouths
+of American legislators. So, it appears
+that the executive branch uh and the
+White House finds that to be a
+persuasive argument and persuasive
+enough that they want to start putting
+court cases against it. And what's
+interesting is that, you know, there is
+an impact of having these lawsuits and
+threatening these lawsuits even if the
+Trump administration expects to lose,
+right? I I think that just just by
+having this executive order, every
+single state government that's drafting
+an AI regulation right now is going to
+do a review again and basically say,
+"Okay,
+if we were challenged in court on the
+grounds of violating interstate
+commerce, what would we say? Do we think
+we would win? Why do we think we would
+win? And is there anything that we could
+change in this law to increase the
+chances uh that we might win?" Right?
+And you know, interstate commerce uh
+regulation, you know, derives directly
+from the constitution. Um but the court
+cases here uh have not been especially
+bold, at least in the past few decades.
+So what it would actually happen if
+these things went to trial is unclear,
+but I think it's a very interesting move
+uh by the administration regardless.
+>> Absolutely. A a second thing that
+they're doing is evaluating the state
+laws and basically saying you know which
+of these laws do we find to be sort of
+unduly burdensome and can we tie that to
+new restrictions on the allocation of
+federal funding for AI research or other
+things. So um hypothetically you know in
+the extreme you could imagine that the
+federal government for example the n
+national institutes of health the
+national institutes of science and
+technology DARPA sort of big funders of
+AI research could look at California and
+say oh you passed the following
+regulations related to AI these are
+unduly burdensome for the following
+reasons that will hamper our ability to
+efficiently allocate research resources
+therefor you're going to get less money
+because we don't like your state level
+AI regulatory law. So, this is the Trump
+administration um I think looking for
+opportunities for leverage and uh making
+some pretty big threats to the states
+about uh AI regulation and what they're
+going to do. And it's unclear, you know,
+the reaction that we're going to see
+from the various states. We've already
+seen some uh quotes come out from uh
+noteworthy legislatures
+uh and actors on this. So, for example,
+Scott Weiner, who was uh one of the
+principal forces in the California state
+legislature uh behind SB53, which was
+the the big AI safety and transparency
+law. Um he that he told Politico, quote,
+uh Trump has no power to issue a royal
+edict cancelling state laws. Um, so I
+think that's pretty interesting and and
+sort of suggests that this is going to
+be some kind of a a fight that we can
+expect to see in the not too distant
+future if if executive order does in
+fact uh take place.
+>> And I think uh Scott Weiner's bill that
+that just went through SB53 was
+explicitly called out uh within this
+executive order as an example of
+burdensome AI regulation uh that this
+order is meant to preempt. Uh I think
+there's another piece to this that is
+worth mentioning which is that uh there
+are also have been some recent
+discussions of slipping back in a
+preeemption clause to uh a legislative
+package. This time not the one big
+beautiful bill which is what it was last
+time but the NDAA. Um, and there was one
+quote out there from the semmit for
+congressional bureau chief who wrote an
+ex that the white house is considering
+an executive order preempting state
+legislation on AI if the moratorium does
+not pass in the NDAA. So, I'm not sure
+that's true, but if the reporting is
+accurate, uh, this could be something
+that we see depending on the outcome of
+the NDAA proposal.
+>> Yeah. And and now I'm getting into wild
+speculation here, but that would sort of
+uh concur with my earlier assessment
+that the Hill leaked this. So it could
+be the case that the Trump
+administration sent this to the Hill and
+said, "Hey, you would better include a
+moratorium in the NDAA, otherwise we're
+going to do this." And the people who
+are opposed to this tried to get the
+media involved uh in order to jin up
+some momentum against it. Um anyway,
+we're we're getting too much into the
+sort of legislative food fighting uh
+part of this story, but nevertheless,
+it's been a big week for uh AI
+regulation.
+>> Yeah, absolutely. Well, we can move on
+to our next topic then, which is also
+related to AI regulation. Uh also on
+November 19th, the same day that this EO
+came out, uh the European Commission
+proposed a two-part digital omnibus that
+has several major implications for EU's
+regulation of AI. Could you tell us more
+about what these proposals are and the
+political context that they're coming
+from?
+>> So, there's so much going on in the
+European Union uh related to the EU AI
+act. And I want to emphasize that just
+as with the executive order we were just
+talking about, most of what we're going
+to talk about is at this stage a
+proposal. And it's a proposal coming
+from the European Commission, uh which
+is sort of like the executive branch of
+the European Union. Um, most of this
+stuff in order for it to take effect
+would also have to be approved by the
+European Parliament. So, most of what
+we're talking about is is proposed, but
+it I think it's interesting in and of
+itself that the European Commission,
+which uh has the enforcement obligations
+associated with the EUAI Act, is
+basically coming out and saying, "We
+regret a lot of what's in the EU AI
+act." And we've got some of the folks
+who were even involved in drafting the
+EU AI act who say that they they regret
+uh where this legislation has gone right
+now. So we'll get into that. Let's um
+start with like how this is going to
+take place.
+>> So the European Commission has proposed
+uh a twopart digital omnibus. So you
+have to start by asking like what is an
+omnibus uh type of regulation. So this
+is one legislative measure that's going
+to amend a bunch of different uh
+legislative fields. Uh so not quite the
+same meaning as omnibus in the United
+States legislative uh sense but still
+pretty similar.
+>> And the two proposals are the digital
+omnibus on AI regulation and this is
+really talking about mostly delaying
+implementation of some key features of
+the EU AI act. And then the second one
+is the digital omnibus regulation
+proposal and this is really about uh
+GDPR
+and it actually is I think taking a
+trying to take a whack at uh GDPR
+especially trying to take a whack at the
+fact that member states can impose
+additional requirements on top of GDPR
+uh which in sort of EU jargon is
+referred to gold plating. So recall that
+you know one of the primary inspirations
+for the European Union uh in the
+beginning was to create the so-called
+common market right where uh the economy
+is unified even if the militaries aren't
+unified even if you know the foreign
+policy is not unified and really in GDPR
+there's not so much of a common market
+um because different states can add on
+additional requirements to be even more
+burdensome and also because uh the
+regulatory enforcement is at the state
+level for GDPR. That was actually one of
+the criticisms of GDPR by the authors of
+the AI act which is why their
+enforcement takes place at the European
+Commission level at the equivalent of
+the federal level. But here's the thing,
+GDPR because it's targeting data has a
+lot of implications for AI. So this sort
+of spaghetti landscape of the different
+regulatory requirements um can be quite
+burdensome, can be quite confusing to
+navigate. And what I think is so
+interesting about this current moment is
+that it is the European Union
+criticizing itself that I would say is
+the loudest voice in this conversation.
+You've [clears throat] got the European
+uh the former Italian prime minister
+Mario Draghi who came out with the
+Draggy report last year. He is clearly
+still a very influential adviser to the
+current president of the European
+Commission, Ursula Vanderline.
+And both of them have been talking
+specifically about issues with Europe's
+competitiveness in AI and what needs to
+be done about that. And so these kinds
+of regulatory delays, these kinds of
+regulatory simplifications, these kinds
+of regulatory reductions, all part of
+Europe trying to
+uh how how should I say it?
+buyer remorse. It's Europe trying to
+deal with the buyer's remorse of passing
+the EU AI act, which is just
+fascinating. Now, of course, there's
+other voices inside of Europe,
+especially inside the European
+Parliament, who disagree that that's uh
+the current state of affairs and that
+that's the the right prescription for
+where they are. But it's a really
+interesting moment in European politics.
+>> Yeah. Well, let's talk about uh some of
+the actual policy in in these proposals.
+Um, you mentioned the the delay in the
+AI proposal. Uh, I think there's several
+other parts of that that are worth
+mentioning, but uh, what do you see as
+the most important AI related amendments
+and and what do they actually do?
+>> Sure. So, I think at at a high level,
+it's worth just recapulating um,
+recapitulating how the AI act works and
+there's sort of two big chunks of
+regulation. The first is a risk based
+classification which is unacceptable
+risk, high risk or low to no risk. And
+it's really targeted at use cases.
+>> So an unacceptable risk, you know, might
+be something like biometric surveillance
+by state police authorities, you know,
+to prevent people from exercising their
+rights or something like that. So the
+government just makes it illegal to to
+make AI systems that go towards that use
+case. Then there's the high-risk stuff
+which is like using AI in medicine or
+using AI in safety critical uh loss of
+life risk kind of scenarios.
+>> Sure.
+>> And then the rest is like uh low risk,
+you know, which would be something like
+AI for entertainment.
+>> Yeah. In a video game or something.
+>> Yeah. Exactly. And that one they're
+basically just saying like no, there's
+no additional regulation uh for these
+fields. So that's one big bucket of how
+AI is regulated in the European Union
+which is on a use case basis. The second
+big bucket is around these general
+purpose AI systems which is what was
+added uh to the EU AI act in the wake of
+chat GBT. They were trying to think
+about how do we get our arms around um
+these things that do many many use cases
+because Chad GBT wants to be your
+lawyer, wants to be your therapist,
+wants to be your doctor, wants to be
+your entertainer. And so the sort of use
+case specific restrictions struggle
+>> to address these large language models
+that can do so many different things and
+are therefore called in the regulations
+GPAI, general purpose AI systems. And
+there the the riskbased classification
+is targeted at the capabilities of the
+system itself which is to say is this
+system capable enough to per to present
+potential systemic risk to the overall
+thing and there it's it's less about you
+know you can't do AI that does X and
+it's more like you must take on these uh
+burdens which is to say safety
+evaluation measures transparency
+measures that sort applied just in the
+creation of these systems which you can
+uh analogize it to the types of
+regulations that apply to airlines or
+nuclear reactors. Right?
+>> Before you even begin the story, you
+have to show that you have some kind of
+safety procedures in place and are
+willing to take all these steps to to
+reduce the risk. So again, those are the
+sort of two highlevel uh breakdowns of
+how the EU AI act works. And I think
+what's interesting is that if you look
+at some of the quotes from Draghi, for
+example, he gave a a really interesting
+um he he published a really interesting
+article. I think it's a transcript of a
+speech, not entirely clear to me, but in
+September of this year, in which he said
+uh that he thinks the code of practice
+for general purpose AI systems is mostly
+okay and that the unacceptable risks for
+the use case framework is mostly okay.
+And he thinks the biggest problem is
+with the high risk part of the AI ad
+>> which is separate from like the general
+purpose AI.
+>> Exactly. Yes. So it's not the systemic
+risk uh which applies to general purpose
+AI models. So I think the biggest thing
+is around delays and also flexibility of
+delays. So as folks who listen to this
+podcast have heard many many times. Um a
+lot of the EU AI act was originally
+written as thou shalt follow the
+standard standards coming soon. And here
+they're relying on that as a reason to
+delay stuff. So the European Commission
+can declare that the available standards
+do or do not exist at a current moment
+in time and then delay the
+implementation of the act until those
+standards are finalized. And overall
+what this should be expected is just a
+delay. And I think a lot of the
+estimates are saying something like a
+year of delay should be expected. uh but
+conceivably you know it could go even uh
+further or shorter than that depending
+on the the evolution of the politics
+again this is the proposal from the
+European Commission what actually
+happens European parliament's going to
+>> right there's a lot there's a lot of
+negotiation to follow this in which
+there could be many amendments I think a
+good comparison here is the EU AI act
+which uh looked a lot different when it
+finally passed and when it was proposed
+uh and I'm sure a lot of the deadlines
+change throughout that process um
+>> right so we have these potential delays
+is um depending on the outcome of this
+process. What is the political context
+of all this? Why is this document coming
+at this time?
+>> Yeah. So I think you know Europe has a
+lot of anxiety about its current state
+in world affairs just in general. It's
+glo growing slower than the United
+States. It is now smaller uh economy
+wise as a share of global GDP than it
+was. I mean in India one statistic that
+I heard again and again and again in
+every meeting is that by 2027 India will
+be the third largest economy in the
+world. And what's so interesting is
+nobody counts Europe when they do that
+story because they think Europe, you
+know, pretends to be one common market,
+one common economy, but actually it's a
+bunch of uh different economies and
+India, which definitely is uh one common
+market um is is growing faster uh much
+faster than than Europe. And so Europe
+is is trying to figure out what they can
+do to revitalize growth, but they're
+struggling because and and says this
+explicitly, they are so dependent upon
+the United States for their defense
+policy that they kind of had no choice
+but to accept a lot of US demands on
+trade, on tech regulation, and other
+stuff. And that's pretty interesting
+because Europe is trying to say that,
+hey, we're not walking back the AI act
+in response to US pressure. We're doing
+it because we're trying to bolster AI
+investment, trying to bolster overall
+global competitiveness. And the reality
+is that European firms attract a
+fraction of what US firms do when it
+comes to venture capital investment. Um
+they are even smaller than you know what
+China attracts in terms of venture
+capital investment and that is something
+that they are uh really concerned about.
+Draghi in his uh September speech said
+quote GDPR has raised the cost of data
+by about 20% for EU firms compared with
+US peers. Yet the only change on the
+table so far is an easing of
+recordkeeping and extending theme
+deraggations to midcaps. Broader reform
+towards simpler harmonized rules is
+still vague. Well, I think that's what
+the data omnibus is aiming at is sort of
+broader reform of GDPR. But the
+political context of this that I think
+is also interesting is it's not just US
+technology companies who are calling for
+this. um a group that included Phillips,
+Seammens, big diversified industrial
+technology conglomerates, as well as
+ASML and Mistral. So the the biggest
+chip equipment company and the the
+biggest sort of local AI model developer
+all said, you know, please delay the EU
+AI act. This is not good for us. I mean
+Seammens [clears throat] for example has
+a big medical equipment business and so
+you can imagine why they would be
+especially uh agrieved about the
+imposition of AI requirements targeting
+you know medical use cases specifically
+like if my MRI machine is using machine
+learning to do something funny in the
+imaging uh is it really the case that
+the sort of existing MRI machine safety
+regulations are insufficient and we need
+this whole other body of stuff and the
+GDPR connection
+to
+AI in particular, I think is interesting
+because this this proposal includes
+stuff such as saying, "Hey, as long as
+the company has made an honest effort to
+eliminate the personal data in the
+training data set, we're not going to
+like throw the book at them for every
+single piece of personal data that finds
+its way into the training data set."
+That's pretty interesting, right? that
+they're they're specifically asking
+themselves what parts of GDPR might make
+it hard uh to be doing AI in on the
+continent the way that we want to.
+>> So that's I think um one big part of the
+political context. I think the other
+part is um the European Parliamentary
+Research Service which is sort of
+analogous to the Congressional Research
+Service that we have here in the United
+States. um they published a report that
+was pretty mean about the AI act uh writ
+large and I think there's um one thing
+here that's probably worth uh just
+quoting at length.
+The administrative tasks companies must
+undertake to comply with EU laws depend
+on their activities. Companies handling
+personal data must comply with GDPR
+rules. Once enforced, companies
+distributing and manufacturing devices
+might need to comply with the Cyber
+Resilience Act, CRA, and those providing
+general purpose AI, GPAI, might need to
+comply with the AI act. A company could
+need to comply with all three. However,
+each law has different deadlines,
+reporting procedures, and authorities.
+The GDPR and the CRA are enforced at the
+member state level, while the exclusive
+power to enforce GPAI rules rest with
+the commission. If a company provided
+high-risisk AI systems instead of GPAI,
+enforcement would be at the national
+level. The GDPR, CRA, and the health,
+safety, or fundamental rights of
+persons, imposing registration
+requirements would constitute a
+disproportionate compliance burden. Now,
+I realize that's a lot of like
+bureaucratic regulatory jargon,
+>> but that's pretty harsh self-criticism
+coming from a government research
+outlet, uh, saying that, you know, this
+patchwork of regulations that we have,
+all targeting AI, all targeted in a
+bunch of different ways is not helping
+and it is an undue compliance burden.
+And what's interesting is it really
+hearkens back to some of the original
+debate about AI regulation when the AI
+act was underwritten, which was,
+you know, the United States often
+positions itself as anti-regulation,
+but that's not really true. Uh the the
+AI approach in the United States is much
+more sectoral regulation. you know, the
+the Food and Drug Administration,
+the Treasury Department, like they're
+regulating the use of AI in medical
+devices. They're regulating the use of
+AI in financial instruments and
+companies. So, it's not that the US is
+anti-regulatory. It's just a question of
+should regulation in AI be vertical
+which is to say sector specific or
+should it be horizontal which is to say
+one law that sort of broadly covers uh a
+bunch of different sectors and the EU AI
+act went horizontal and here you have as
+I said before some real buyer's remorse
+uh being evinced at least by the
+European Commission in the parliament
+you have folks like uh Brando Bene who's
+part of the socialists and Democrats and
+was a key author of the original AI act.
+He said that quote he is deeply
+skeptical of reopening the AI act before
+it's fully enforced and without impact
+assessment. And the Green Party uh
+Alexander Geese who's a prominent German
+member of the Greens group said that the
+changes would quote dismantle the
+protection of European citizens for the
+benefit of US tech giants. Then she goes
+on to say
+>> the commission should focus on real
+simplification and streamlining of
+definitions rather than bending their
+knee to the US administration. So you're
+seeing there's like political debate
+about both what is being accomplished
+and what are the reasons behind doing
+it. You have folks who are saying no
+we're doing this to increase
+competitiveness. You have folks who are
+criticizing them saying no you're just
+bending over to to give in to the US
+technology lobbying group.
+>> Yeah. Uh well, I want to talk uh about
+one more thing, which is if you're a
+company that has to comply with these
+rules, uh you're probably happy about a
+lot of what's in these two proposals, um
+particularly with data streamlining the
+uh streamlining the data rules and also
+with some of the uh reduced obligations
+in the AI act. But there's actually, I
+think, one sort of counterintuitive
+aspect to this which uh a AI
+correspondent uh at the regulatory risk
+firm Emlex Luca Bertusi commented on. Um
+I was wondering if you could sort of
+dive a little bit into that and talk
+about why you might not be actually so
+happy with the delays part of this uh
+particularly the uncertainty that it
+comes with.
+>> Well I think you know Berusi he is
+talking about the delays and the
+implementation dates of August 2026. So
+he had a post on LinkedIn uh that I
+thought was interesting
+>> which here we go. Quote, "The commission
+chose not to introduce a separate stop
+the clock mechanism to avoid signaling
+that the entire AI act is on hold.
+Instead, the pause will be embedded in
+the broader AI omnibus package. That
+means the whole omnibus must be approved
+before the high-risisk regime takes
+effect in August, putting intense
+political pressure on EU countries and
+lawmakers to conclude negotiations
+within roughly 6 months. And so this
+this creates some challenges for
+companies because as uh he he wrote in a
+different LinkedIn post, quote,
+"Business won't know when the core of
+the AI act will truly bite until the EU
+co-legislators strike a deal on the
+entire AI omnibus. And even then, the
+commission could decide that the clock
+starts ticking sooner than expected. So
+on the one hand, companies are probably
+excited because there's a chance they're
+going to get a lot of what they want. On
+the other hand, you know, the way that
+this debate has unfolded has added a lot
+of additional uncertainty into the
+situation, not certainty.
+>> Yeah. And I think to make this like
+slightly more clear, like there is there
+is a real plausible scenario where it
+takes long enough to get this proposal
+through the European legislative process
+that the demands of the AI act take
+force uh in August 2026 before this
+proposal passes. In which case, if
+you're a company, you're left in a
+really odd position where you now have
+to comply with these rules, but this
+proposal that's supposed to delay the
+rules is still in the works. Um, you
+know, it's not necessarily likely comes
+after after
+>> Exactly. So, it's not necessarily likely
+that that happens. Uh, and I think, uh,
+Luca Bertusi himself said that he thinks
+it'll probably get through in time. Uh,
+but it is this like weird uncertainty to
+have specifically for a proposal that's
+meant to reduce the uncertainty of
+implementation. Definitely.
+>> Yeah. Well, let's move on to our last
+topic here. Uh, and on November 13th, we
+saw a post from Enthropic claiming that
+they had disrupted a quote highly
+sophisticated AI espionage campaign. The
+company said Chinese state sponsored
+hackers had used Quad to assist in a
+major cyber attack targeting large
+companies and government agencies. Can
+you tell us more about this incident? I
+mean, what what details did Anthropic
+provide? uh and why does it stand out
+compared to past cyber attacks using AI?
+>> So I think this incident stands out both
+in terms of a new moment in what AI is
+actually on planet earth doing in the
+cyber security domain versus what you
+know previously had been described as
+potential outcomes of of AI's growth.
+And then the second thing is surprise
+this is getting politicized too and is
+factoring into the regulatory debate in
+the United States which we we'll get to
+but let's start with you know just what
+actually anthropic is claiming they
+observed on their network. So they had a
+a blog post where they described this.
+They also had a paper and they're
+saying, quote, "In midepptember 2025, we
+detected suspicious activity that later
+investigation determined to be a highly
+sophisticated espionage campaign. The
+attackers used AI's agentic capabilities
+to an unprecedented degree, using AI not
+just as an adviser, but to execute the
+cyber attacks themselves." And they go
+on to say that they're very confident it
+was a Chinese state sponsored group who
+had manipulated their claw tool into
+quote attempting infiltration into
+roughly 30 global targets and succeeded
+succeeded in a small number of cases.
+The operation targeted large tech
+companies, financial institutions,
+chemical manufacturing companies and
+government agencies. So this is pretty
+interesting, right? and and Enthropic is
+saying that these attacks were 80 to 90%
+automated by AI. So the AI is executing
+the attack on a stepbystep basis which
+requires some sort of flexibility and
+adaptation and the AI is now capable of
+performing that flexibility and
+adaptation. And what's so interesting is
+that Claude has safeguards that are
+designed to detect and prevent this and
+they did not detect it until it had
+already taken place and there were
+already victims of the cyber crime. I
+think one other big part of this is that
+this is exactly one of the risk factors
+um that was the direct inspiration for
+the creation of the UK AI safety
+institute now the AI security institute
+and uh the United States AI safety
+institute which is now the center for AI
+>> innovation standards and innovation
+thank you um Casey
+>> and Casey has sort of explicitly said
+that the three risks that they're most
+interested in are uh weapons of mass
+destruction, making it more uh
+accessible or easy to acquire or use
+weapons of mass destruction and then
+also automation of cyber attack. So this
+is literally one of the risk factors
+that was the the justification for the
+creation of this organization and now
+we're seeing that phenomenon observed in
+the wild. And what's so interesting
+[clears throat] is it's Chinese state
+espionage organizations using American
+tools to do it. So I do think that this
+is bad day for DeepSeek, uh the Chinese
+AI model developer, which has been
+trying mightily to claim that they're
+just as good as the Western stuff. Uh
+but at least you've got this sort of
+bizarre endorsement by Chinese
+intelligence agencies that American
+models are still ahead when it comes to
+automating this stuff. Yeah, the problem
+is my gosh, you know, if you're if
+you're anthropic, if you're open AI, um
+this is not what you want to be enabling
+uh with your capabilities. And it's not
+like it's not like Chinese intelligence
+services are doing Google searches to
+find out, you know, learn how to be
+better hackers. I mean, this is Claude
+actually engaged in executing the
+attacks in an agentic way. Um it's a
+it's a pretty remarkable discovery. Um,
+something that I remember talking about,
+gosh, back in like
+2016, uh, when we were first writing on
+these issues, uh, in in a report I was
+doing on the on behalf of the
+intelligence community at the time. And
+it's wild to see this stuff that we were
+talking about as a big hypothetical now
+existing in the wild.
+>> Yeah. Well, for all the reasons to be
+concerned about this incident, there was
+actually quite a bit of push back from
+the cyber security community. Could you
+take us through some of their concerns
+with Anthropics report and why they're a
+little bit skeptical?
+>> Yeah, I mean I think there's there's a
+few criticisms and common themes of the
+criticism. The first is a criticism of
+anthropic and the extent to which these
+disclosures meet the norms of cyber
+incident uh disclosures that you know
+the field is sort of saying when you
+want to talk about an attack here's all
+the things that we would expect you to
+share. and Enthropic did not, at least
+as of yet, share all of those things.
+Um, okay. Uh, fine. Maybe Anthropic
+should actually release all that
+additional information. I'm not really
+in a position to sort of say, uh, it's
+not really my area of expertise whether
+or not this is adequate, but what
+they've given you is already interesting
+enough. Okay. Then the second thing uh
+that I think is a criticism is that
+you know does this constitute sort of a
+meaningful increase in capability
+because if you're China where the cost
+of a software engineer is quite low um
+is it that big a deal to go from humans
+doing this part of the attack cheaply to
+AI doing this part of the attack cheaply
+and I will say
+>> I don't find this criticism to be
+especially credible even if it is the
+case that at this current moment in
+time, November 2025, it is not a
+significant increase in capability. I
+think the runway is pretty obvious,
+right, for where we might get um in a
+year, two years.
+>> This could be a warning shot for that.
+>> Exactly. Like like like AI right now is
+the dumbest AI is ever going to be on
+planet Earth, right? It's not going to
+go backwards in terms of capabilities.
+And I think the the AI tech companies,
+they've been emphasizing that look, AI
+is a general purpose technology. Just as
+your laptop can be used for cyber
+defense or cyber offense, AI can be used
+for cyber defense or cyber offense. And
+I think what's interesting is we have
+seen real evidence of AI being used to
+to meaningfully move the needle in cyber
+defense. Right? It is the case that, you
+know, hiring a red team company to come
+in and audit your software and look for
+the 10 trillion ways that you might have
+introduced vulnerabilities to your user
+base by failing to uh
+>> dot every eye and cross every tea in
+cyber security. That's labor intensive.
+It's expensive and it's it's beyond the
+capabilities of companies that don't
+have a a huge pool of resources in some
+cases. So AI can automate a lot of that
+work. Um do it in a way that scales
+pretty nicely. So you can you can see
+how AI strengthens cyber defense and and
+has strengthened cyber defense. I think
+this this incident report is a really
+interesting data point in where AI is
+going in terms of strengthening the
+offense side of the equation. And I'm
+sure the US government, the US
+intelligence agencies are very
+interested in this report and asking
+themselves,
+>> how do we fight these these
+capabilities? How do we acquire these
+types of capabilities and give China,
+[clears throat] you know, a taste of its
+own medicine in this sense?
+>> Um, and I think I think just one little
+irony in the story is, you know, how did
+China fool Claude? How did they get
+around the anthropic safeguards? Well,
+at least according to the anthropic
+report, they were pretending to be cyber
+defenders. They were pretending to be
+the actual use cases of like, hey, we're
+doing some uh ethical hacking,
+penetration testing of various systems.
+Can you help us uh you know, do this
+legitimate testing of the things? But
+that's all just a lie to trick the LLM.
+The actual thing that's taking place is
+real penetration, real stealing of data
+um and and that sort of thing. And the
+fact that there are real world victims
+of this crime that are big tech
+companies that are government agencies
+[clears throat]
+that I think is just a remarkable moment
+uh for where we are. So as you can
+imagine
+>> uh this is uh now you know introducing
+into the political debate because
+>> cyber risk associated with AI is one of
+the justifications that is used for
+safety standards in some cases is also
+used as a justification for additional
+regulation.
+>> Yeah. And so talk more about uh what
+exactly those criticisms are in the AI
+policy space. I mean some people in the
+policy space are like extremely
+concerned it seems others are like uh
+poking at anthropics saying that this is
+not a legitimate report.
+Well so let's let's talk about the sort
+of very various opinions on this topic.
+One and here's a colorful quote um from
+Senator Chris Murphy who's the a
+Democrat from Connecticut. He wrote on
+X, quote, "Guys, wake the f up. This is
+going to destroy us sooner than we think
+if we don't make AI regulation a
+national priority tomorrow." Right? So,
+he's explicitly linking this disclosure
+[clears throat] to the need for explicit
+AI regulation. Scott Weiner, who we
+talked about earlier on this podcast, an
+influential state uh legislator in
+California, he wrote, quote, "For two
+years, we advanced legislation to
+require large AI labs to evaluate their
+models for catastrophic risk or at least
+disclose their safety practices. We got
+it done, but industry, not anthropic,
+continues to push for a federal ban on
+state AI rules with no federal
+substitute." So that's the the argument
+sort of saying that this moment is
+evidence that we need additional AI
+regulation. Um what's the other side of
+the equation looks like? Well, first you
+have the uh former chief scientist of
+Meta, Yan. He just resigned and I think
+is starting his own startup. Um he
+responded to Senator Murphy on X and
+said, quote, "You're being played by
+people who want regulatory capture. They
+are scaring everyone with dubious
+studies so that open- source models are
+regulated out of existence. Now, maybe
+that in and of itself wouldn't be
+justification for including on this
+podcast, but guess who retweeted uh that
+post? David Saxs, the AIAR in the Trump
+administration. And what's so
+interesting is that uh David Saxs, he
+posted on X, quote, "Enthropic is
+running a sophisticated regulatory
+capture strategy based on
+fear-mongering. It is principally
+responsible for the state regulatory
+frenzy that is damaging the startup
+ecosystem." And what's so interesting is
+that that language in that expost
+>> is echoed in this draft executive order
+that
+>> is really a full circle moment for this
+episode right now.
+>> Yeah. So the the the executive order
+said, quote, "Moreover, sophisticated
+proponents of a fear-based regulatory
+capture strategy are responsible for
+inciting these laws where subjective
+safety standards hinder necessary AI
+development." So that's like
+>> in the in the executive order it's not
+explicitly saying anthropic but in the
+expost it's explicitly saying anthropic
+and so the the anti-regulatory momentum
+is kind of becoming uh politically
+targeted at anthropic in a big way and
+this fight and how it's going to end up
+unclear uh as of this stage but let me
+just say you know I
+>> remember in 2015
+reading Dario Amodai's paper concrete
+problems in AI safety uh which I think
+came out in 2014 or 2015. Um at the time
+Dario Amodai was not the CEO of
+Anthropic. He was not the head of
+research at OpenAI jobs that he later
+going to have.
+>> He was just kind of a middle researcher
+at Google Brain which didn't even make
+commercial products uh for AI at the
+time. So,
+I just know I just know that Daario is
+sincere in his concerns about AI safety.
+Um, it is not a strategy for regulatory
+capture. Um, it is something that he
+believed and argued for long before he
+was in a position to benefit from
+anything remotely approaching uh
+regulatory capture. And I think there's
+like a question of well wait a second,
+you know, big American tech companies
+hate the EU AI act, right? But you're
+saying that actually like excessive
+regulation benefits big tech companies.
+So why are they so opposed to it? I
+think is an obvious question. And
+they've fought against it pretty
+mightily. Um it's not obvious that
+Anthropic would be uniquely benefited
+over other companies in a situation in
+which
+uh there would be regulation. And I
+think I've seen something else.
+[clears throat] Um this is something
+that that Daario has said publicly.
+He said that um you know there's a
+competition for talent in the AI sector
+and some people who could go work at
+OpenAI could go work at Anthropic could
+go work at Google sometimes they choose
+uh to work at Anthropic uh because they
+like that anthropic has these sort of
+voluntary efforts related to AI
+[clears throat] safety and other things
+>> and what's interesting is that Daario
+has encouraged the people who picked
+anthropic
+over alternative jobs
+>> to call the recruiters of OpenAI and
+Google and elsewhere and say, "I'm
+picking anthropic and I want you to know
+specifically the reason why I'm picking
+anthropic is I think that they're more
+committed to AI safety." Um,
+>> that is not the kind of behavior that
+you would expect to see uh from a
+company that was pursuing a regulatory
+capture type uh strategy. Yeah. So um
+while while I think there is a
+legitimate argument to be made about
+what is the right balance of promoting
+regulation for safety reasons for human
+rights reasons for whatever and
+promoting innovation and a light touch.
+Um I just [clears throat] don't find
+these specific attacks on anthropic to
+be especially persuasive when talking
+about their motivations. And other folks
+uh including on the right um are making
+uh similar points. So, I think Sam
+Hammond, who is the chief economist for
+the Centerright Think Tank, the
+Foundation for American Innovation,
+wrote on X, quote, "You're simply not
+going to convince me that anthropic
+providing technical analysis on SB53 is
+a greater form of regulatory capture
+than Jensen Hang buying off the White
+House or Andreasen's armlength
+relationship with the White House
+leadership." And recall, right, that uh
+the type of thing that I assume Sam
+Hammond is talking about when he's
+making these claims about Andreas and
+Horowitz is the fact that Andreas and
+Horowitz had written this piece about um
+the interstate commerce clause and its
+relationship to state level AI
+regulation. And now we're seeing similar
+arguments being advanced in a White
+House executive order. So here's Sam
+Hammond, who's on the right, is aligned
+with the Trump administration as an
+anti-state level regulation guy. um he's
+he's anti-state level AI regulation in
+in most cases, but he also doesn't find
+the specific targeting of entropic to be
+especially persuasive and and neither do
+I.
+>> Yeah, that's very interesting. Well,
+that's going to conclude today's
+episode. Thanks to those in our audience
+for listening and uh Greg, thank you for
+walking us through quite a busy week in
+AI policy space.
+>> Thank you, Matt. It was a great
+conversation.
+>> Thanks for listening to this episode of
+the AI policy podcast. If you like what
+you heard, there's an easy way for you
+to help us. Please give us a five-star
+review on your favorite podcast platform
+and subscribe and tell your friends. It
+really helps when you spread the word.
+This podcast was produced by Sarah
+Baker, Satie McCulla, and Matt Mand. See
+you next time.

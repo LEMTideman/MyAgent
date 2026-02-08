@@ -1,0 +1,715 @@
+Welcome to another episode of Legal For
+the podcast. So guys, you do recognize
+my voice at this point. This is always
+Rosie. It's always me here. And as I've
+said many, many times, we are just a
+group of students and young
+professionals who are very interested in
+technology and yes, its regulation. So
+today I am joined by another Jako,
+incredibly so. Hi Jakamo, how are you?
+you recognize my voice. Hello, Rosie.
+Nice to join you. For their joy, they do
+recognize your voice. Um, that said, we
+actually have a very special guest
+today. Someone that we've actually met
+at the privacy symposium in Venice to
+which we've been invited and we really
+loved going to. Hello, Alexandra.
+Hello. It's a pleasure to be here. Thank
+you for the invitation. It's a great
+pleasure to see you um in person, not in
+person again, but anyways, you know, we
+lose track of time here. Um that said, I
+really need you to tell all of our
+listeners what you were doing at the
+privacy symposium in Venice, why you're
+here today, and um I mean, where did
+your career bring you, why you why
+you're in this path?
+Sure. Um, so my name is Alexandro and
+I'm a lawyer uh specializing in
+technology and innovation. I'm based in
+Switzerland which means that uh well I
+either advise Swiss companies or
+European companies or companies that are
+active in in in Europe and u my field of
+expertise include um everything that's
+technology related and of course since
+uh now a lot of years um privacy has
+been kind of the center of the regular
+or I would say until 2023
+uh privacy was really at the center of
+of the regulation of technology. Maybe
+we will have time to discuss of other
+topics and that's basically what brought
+me uh a few weeks ago to the privacy
+symposium where I was invited to speak
+uh on a panel regarding anonymization
+senimization and synthetic data. Um I
+was invited to that specific panel
+because uh in Switzerland I've been
+quite active and I've been very lucky of
+that um in the research industry uh
+specifically for public um the public
+sector where I helped um
+uh universities, research centers and
+public and private organizations
+organized and data schemes in order to
+facilitate the the research and In this
+con in the in this context uh it's
+really important to understand what data
+you are using how do they qualify under
+the law what are the obligations that
+are related to that and that brought me
+into specializing in this very specific
+uh I would say niche topic of privacy
+before we start and we get straight to
+the point of what is integ data let's
+talk about ID east your moto is turning
+legal complexity into actionable
+decision. What do you mean by that? Why
+isn't ID an ordinary law firm? Yeah, I
+don't that's a good question. So, first
+of all, I think that the moto is as much
+for the clients than for me. It's
+something that I like you know
+remembering because it's it's important
+to u make sure that whatever we do we
+are here to simplify clarify and and
+enable other people generally inventing
+inventive people in doing what they do
+best. And so in fields where the
+regulation can be really really you know
+complex there is a lot it overlaps that
+it has not been well thought uh I think
+that the job of a lawyer is really to
+make sure that uh you can start from the
+regulation understand the problem and
+together find a pathway probably not the
+solution but just a pathway so we know
+where we going and we have understand uh
+understood that and that's actually
+really at the core and the center of
+edestavoc. So edest is a is a Latin word
+we use it a lot in in in contracts in
+English contracts i.e. and it's used to
+um explain that we will we will clarify
+the concept of what we were just saying
+and that's actually what we try um to do
+all the time. So we are not here only to
+uh bring you the the legal answer but to
+explain really what does it mean for you
+in your industry and what you can do
+with that information.
+So let's try to make easy a concept that
+apparently is hard to understand for us.
+What is synthetic data in which context
+is relevant and how it's created?
+Yeah. So synthetic data in itself it's
+very easy. It's a it's um data that has
+been uh uh created artificially.
+So uh anything that's not that does not
+come from the real world that's not an
+observation of the real world it is
+synthetic data. Um it's different than
+digital data because digital data is any
+information represented a fact that's uh
+register in a digital in a digital
+manner but it's something that's
+artificially created. Now you you you
+spoke about the the context because here
+also it's it's important to just
+remember and specifically if your
+audience is more um privacy centric that
+actually there there are different
+meanings on understanding of the of the
+concept. So when we are talking between
+privacy experts on synthetic data, we
+see that just as privacy pre preserving
+techniques. So it's a it's a way to uh
+ensure that uh we we basically we have
+less problem regarding um personal data
+um regulations because we will hope that
+the data is not personal data. I think
+we're going come back to that. But it
+also has different meanings. In fact um
+um in data forensics it's a very
+specific thing and it sometimes very
+useful to just artificially created data
+to test uh hypothesises
+and now that we are talking a lot about
+um genai. So genai is basically creating
+synthetic data all the time and uh we
+use a lot of synthetic data in the
+context of creating the models. We maybe
+also be able to come back to that. But
+everything that is generated by AI is
+synthetic data and that also raises
+questions because we end up in a world
+on the internet where most of the data
+that we can find is actually
+artificially created. So um always good
+to keep in mind when we are talking
+about uh synthetic data. I think we're
+going to delve uh a little bit more into
+the privacy aspect. So really what we
+want to do with that the area where um
+it's on purpose that we are creating
+synthetic data to solve uh very
+important privacy issues in order for
+instance to uh facilitate research but
+just keep in mind that we have different
+aspect of synthetic data and that it can
+be used in in different situations. um
+if you allow me one example. So if we
+are going back to AI and I guess we're
+gonna speak a lot about uh AI but um
+actually so the the way the new AI
+models the giants that we are using they
+not only rely on synthetic data but
+actually how they they perform. So you
+have two computing models, one that
+creates synthetic data and the other one
+which is responsible for telling whether
+or not it can recognize that it's
+synthetic data and that's the way it got
+so uh so so good. So we are not talking
+about the need to preserve privacy
+rights or anything. We are using
+synthetic data for a very different um
+purpose.
+And if we are talking now about privacy
+preserving methods. So here it's really
+the idea and that's as I mentioned the
+thing that we most people will think
+about when we are talking about
+synthetic data but it's the idea that we
+can have data sets that contains
+personal data and uh it will have um u
+there is information that you can
+extract from these data sets without
+needing any personal data. So you will
+only take the uh the the stat
+statistical value of the data and you
+will reproduce that in a new data set
+artificially created that will not be
+about a bub analysis but that will
+contain the same information uh in
+relation to each of them and that will
+be um the way we create synthetic data
+for the purpose of um of uh solving
+privacy issues.
+Um however we know that there are a lots
+of shades between personal data and
+synthetic data. So we know that Cintelli
+data as you've said are basically
+generated they're not u made by human
+and not related to the human but I mean
+everywhere we read now anonymized
+pseudonymized then there's synthetic
+data then there's personal data then
+there's relatable data how how would you
+put these definitions in a framework so
+that our listeners and ourselves because
+we need help. Um can understand which
+one as a solution is better to be used
+in specific models for example like
+what's the difference and why do we have
+all of these shades and not just one
+type of data.
+Yeah. Um so maybe to answer your
+questions the the first
+part of the reflection is to come back
+to the definition of personal data. So
+if we are in the discussions regarding I
+want to create synthetic data in order
+to solve privacy issues then um we need
+to come back to what is personal data.
+So there is a very clear definition in
+the law. It's similar at least in in
+Europe uh and um personal data is data
+that uh um that is related to an
+individual that is uh identified or
+identifiable. And therefore there are
+four components of uh a thing being
+called person data. You need a piece of
+information. You need a natural person.
+you need a link between both. So the
+information needs to relate to and um
+the
+uh the person need to be at least
+identifiable.
+If you remove the last part the
+identification part then you have
+anonymized data obser data. So you have
+data but it's not possible it's to make
+the link with the with the person
+because the person is notident
+identifiable. If you remove the third
+part which is the related to then you
+get synthetic data because you have data
+which actually looks like personal data
+but it does not relate to actually any
+existing individual.
+So that's the theory in reality there
+it's a bit more complex because your
+synthetic data can be personal data can
+be uh pony anonymized data or can be
+anonymized or anonymous data. So um
+anonymized data is personal data that
+you have made anonymous and anonymous
+data could be actually you know
+methological data uh any information
+about buildings anything that does not
+relate to any individual then it's just
+anonymous data. Um
+and yeah the question that will be very
+complex to answer to answer and that is
+all uh always very complex is to
+understand well but what are the the
+threshold that we need to um to apply in
+order to understand whether you are in
+one special category or the other
+and um I can give you that because
+I'm sure it's going to be interesting
+said to everyone. So first of all, we we
+don't really have definitions in the law
+about what is sodomized or anonymized
+data. There is one recital in the GDPR
+that gives us a little bit of idea about
+that, but we don't have any concrete um
+information. The the what we know is the
+concept of suddenization. So it's the
+act of removing uh identifiers. So
+things that for instance my name or my
+date of birth and and uh in order to
+have at the end uh senimized data
+um
+the the the big question and the
+definition well let's start by the the
+the difference between anonymized and
+senimized and then we'll get back to the
+real question. So um if I just remove
+the identifiers but I keep the code
+that's required to identify the data or
+the individuals then I have senimized
+data and if I completely destroy the
+link between the uh the data and the
+individuals I have anonymized data. So
+that seems easy in theory. In practic
+the big question that we have is the
+sharing of data between different
+persons or where the information that is
+the additional information that is
+required to uh reidentify individuals in
+a data set that has been deidentified.
+That can be any process and that
+includes sodomizationization
+or or the creation of synthetic data.
+you they identify
+and at the end the question is well can
+I still link this information to a
+person and the real complex question
+especially when you are talking with
+different actors collaborating is and
+but whose point of view should we take
+take into account whose information
+should we take into account is it
+sufficient if anybody anywhere in the
+world is able to identify the the
+individuals or do we have to take a
+smaller group and that's the really
+complex question on this topic.
+Wow. It sounds super difficult to
+understand and
+I think like as you said like these
+questions are asked at for example
+company level at law level but then you
+also have the judgments of the courts
+which you cannot kind of foresee before
+they happen. So I can imagine the uh
+uncertainty in implementing and giving
+specific advice when you don't know when
+then like which side the court is going
+to go through like if if they're going
+to say like a bigger group of people or
+a smaller group of people. So like my
+question then links to um our kind of
+like train of thoughts and is like if
+there is so much uncertainty on
+definition as you said there is no
+stable definition there are hints here
+and there in the GDPR but it doesn't
+look like a specific you know dictate um
+then there's the legal practice there's
+the interest of a company of course
+because data is valuable and then
+there's the possibility that all of this
+kind of framework is completely shaken
+by a court decision. Do you see the GDPR
+framework as being helpful in protecting
+privacy and the literally the data the
+personal data of people or is it more a
+um you know
+just something where compliance is
+difficult? is just an earth shaker to a
+situation that would probably be okay.
+Like who cares if they've got my data
+anyways? No. Yeah, that's a that's a
+very almost phil philosophical question
+I guess
+for the list. It's very political. So
+you're well aware that we have different
+uh regulation in the world and that the
+European Union is re regulating a bit
+more than other countries.
+Some people consider that absolutely
+required in order to protect privacy
+rights, individuals rights etc. and
+other things that is detrimental to both
+economic growth uh but also things like
+uh advancing science and I was reading a
+a paper just a few weeks ago I think
+last week and it was really revealing.
+So they uh they assessed the use of
+anonymized data for the purpose of uh
+scientific research and then they
+assessed exactly which teams from which
+country declared that they were using
+anonymized data sets and from where
+these anonymized data sets were coming
+and the um the overall results were very
+clear. So in Europe
+researchers were really reluctant on
+using anonymized data sets for uh what
+we can assume is privacy risk questions
+as you clearly mentioned and that's very
+accurate Rosalia. Uh it's it's never
+clear whether or not what you are using
+fall into one category or the other. So
+um there is thought, there is risks and
+if you want to do the things correctly
+then you will probably end up not using
+the anonymize data sets because you're
+not sure you can use it in conformance
+with the law applicable to you and as a
+result there is a lot of information and
+data sets that eur European researchers
+are not using because
+uh they consider apparently the I can
+only assume that they consider it's
+either not valid or it's a risk where in
+the US they have when we are talking
+about medical data and research they
+have a very specific test they can apply
+actually two tests and based on that
+they can have certainty that well they
+can consider the data as anonymized and
+or they identified as the term and they
+can use it so I I will I will agree with
+you that in some cases um
+it's it's very so I'm not I wouldn't be
+very careful what I'm going to say
+because I'm not saying that we don't
+need privacy rules. I think they are
+very important but there are clearly
+some situations where um uh the the the
+balance of interest would go into
+further facilitating the secondary use
+of data specifically for research
+purposes and even if there are
+possibilities available in Europe it is
+made so complicated that uh most of the
+time we end up only using uh data for
+which we've collected clear consent and
+uh very often with different consent
+form for different countries. So it's
+it's detrimental to research and and and
+and yeah scientific results in in in
+general.
+I think the big question around AI is
+which data is used? What means what do
+you deploy to make sure that data is
+used kept in compliance with privacy and
+data protection law?
+Yeah. Um so AI poses a lot of questions
+regarding
+um personal data that is for sure and
+they are not yet answered. So we know
+that the models that we are using every
+day and that we all think are very
+useful have been trained on possibly
+every data available online and they
+really did not care that much whether or
+not it was personal data or it was
+copyright protected data.
+Once all the models were trained, the
+EDPB issued uh uh guidelines on what you
+can do or not with that. And
+it's a very interesting read but at the
+end of the day what I can read is that
+well there is no clear answer. We don't
+know for sure. It all depends on the
+situation and uh it probably won't
+change much for the time being. So the
+we we have this enormous uh discussion
+um about the training parts for personal
+data and um
+I don't think we're very close to have
+an answer and we're in situation where
+companies outside of Europe they don't
+really care and they're using it and
+inside of Europe they'll be very more
+cautious and will probably not use it.
+And if I may have one other topics that
+I think is worth mentioning about the
+concept of synthetic data and AI. So
+synthetic data as I mentioned is any
+data that is um basically AI generated.
+And I also mentioned that anything
+that's come out of u the AI models is
+also uh synthetic data and what we can
+have from these models is information
+that is just false. So you can generate
+information that could be about me or
+even refers to me very specifically and
+and the question is whether or not this
+should be considered personal data or
+not. Um because it can it's synthetic
+data. It's not data relating to me but
+there is a link between me and this
+data. If I take an exam, maybe an AI
+model would would say that Alexandro is
+a Harvard law professor, which I wish,
+but I'm not yet. Uh, and is this
+information personal data? Another
+example is deep fakes. So, basically AI
+models are used to create deep fakes or
+can be used. That's very detrimental.
+That's an issue. It's also a question of
+synthetic data actually. and and there
+has been person stating that um this
+should not be considered personal data
+because it's not really about it's not a
+real information it's made up
+information for me it is clear that as
+as long as it can have an effect on me
+should be considered personal data but
+it's also a controversial aspect that we
+have around AI so we have in the
+training phase uh in the input phase and
+also in the uh output phase questions
+regarding personal data and including
+synthetic data because if I'm not wrong,
+the outcome that the AI will give to us
+is the one that statistically could be
+closer to what we are trying to have. So
+at that point not be personal data. I
+get the point. Okay. Yeah, we have the
+same with copyright actually. So the AI
+provider they say well but we don't uh
+actually have a copy of your artwork. we
+have uh neural networks and links with
+weights and only if it ask in a certain
+ways can we actually generate the output
+that will be sold but at the end of the
+day sometimes it's possible to recreate
+verbatim copies of the original data and
+sometimes it's actually not a verbatim
+copy maybe it's entirely made up but it
+can also have impact on me and I think
+it should be taken into account
+I mean that's super interesting because
+there's a case being litigated I think
+in Norway right now about um a person
+who found out that Chachi thought that
+he had killed two of his sons and was
+going to kill the third one and I mean
+anyone of his neighbors could have
+looked for that information and found
+out that this guy who's apparently a
+very nice person as well um was
+potentially a three times murderer and
+um I mean that That's um not not none of
+your business is um litigating the the
+the case. And I mean that's the point
+like to what extent can the generative
+AI company be liable for something
+that's they say it's synthetic like it's
+something not related to personal data
+something they found by scraping on the
+internet and it's something that was
+created by the the kind of generative AI
+model but at the same level I mean I
+don't know if I don't know blue bed can
+say like I'm going to sue per because um
+they they depicted me awfully but that's
+just a fable but when it's a human being
+when it's a person like to what extent
+can a defamation case hold no so
+I I fully agree and I think this is very
+interesting to look at this aspect of
+synthetic data so synthetic data as the
+output of geni models and reconsider all
+the questions that we had in the past
+regard adding the syn the creation of
+synthetic data for um privacy preserving
+uh ends. So if I'm creating a synthetic
+data set,
+I will also have the same thing. So
+basically the data will not be exactly
+the same, but maybe there is still links
+that can be made about me. They're ently
+fake, but is it relevant or not for
+personal data? And I think it's exactly
+the same question just on on two
+different uh aspects or consideration of
+the same um uh case.
+Just one last question I promise. Um
+it's about what you said about the EDPB
+kind of like letting the training happen
+and then waking up with a very very
+interesting opinion that is just
+unfortunately an opinion because if
+something has already happened you can
+just have an opinion on it. you can't
+have a real action about it. Um,
+it seemed to hint that perhaps there was
+some careful waiting in the kind of
+meantime area so to allow some kind of
+progress to happen even through and with
+and thanks to Europe I would say. Um,
+you reside in Switzerland and
+Switzerland is quite famous, at least
+from from our European perspective, for
+being a very very interesting and super
+cool hub of technology despite the fact
+that you do abide to some of the
+European laws. I mean, the GDPR is
+applicable in Switzerland as well. So,
+how did Switzerland make this magic? Why
+isn't it enough that the EDPB waits a
+second and lets technology take its time
+to evolve? But Switzerland,
+which kind of does the same, still feels
+like it's um it's a thousand years ahead
+of Europe.
+Yeah. Well, it's probably a comp a
+question too complex for me to answer.
+Um so the the the reasons why indeed
+Switzerland is a very innovative
+country. Um I think every year we praise
+oursel from being you know at the top of
+the this innovation ranking for
+countries although we are very small um
+I don't really have the answer whether
+you know it's it's entirely um about
+culture regulation economics it's a mix
+of that um I wouldever just correct you
+a little bit on the fact that we have
+the same regulations because we we don't
+actually so we do apply
+GDPR GDPR is not directly applicable in
+Switzerland because we're not in the EU
+in itself. Uh we can only be subject to
+the GDPR because of its extr territorial
+reach which is very often the case. So a
+lot of European companies need to abide
+by it. But I would say they're not as
+much as afraid as would a
+European company be because there has
+never been so far a fine that has been
+issued and levy they can on basis of the
+GDPR against the Swiss company. So uh
+international enforcements can be can be
+an issue and then on the new regulations
+of of the digital sector in Europe um
+the the Switzerland has not followed yet
+and uh I do think there's really some
+aspects where they should have uh I
+think on platform regulation we are
+really lacking behind and I do think
+that on non-personal data sharing which
+is another uh big uh interest of me uh
+they they would als also be aspect where
+uh we should do more but uh there is
+clearly also aspect where I believe the
+European Union has been just too far too
+sp too fast uh and that uh that's
+probably not a very good thing for for
+innovation
+and I see it so um I advise a lot of
+Swiss clients that want to uh sell their
+products or services in Europe and just
+understanding which laws apply apply to
+them what they need to take what they
+need to include in their uh general
+terms and conditions. Um whether or not
+they need a local representative under
+the GDPR, under the digital services
+act, the data the the digital services
+act etc etc. It's just so complex. I
+mean it's just a very high burden for
+companies.
+This is this is a very terrible question
+I'm going to ask. So I'm I'm aware of
+it. Just bear with me. If you could
+scrap one single law in the European
+Union, which one do you think would be
+like this one?
+H
+I don't think I would strip just only
+one or one in entirely. So um well I I
+do think there is a lot of bad things
+with the with the EUI act and except for
+article 50 I don't really see the value
+in much of of the 200 pages of the
+regulation.
+So that would be my go-to. My first
+go-to.
+All right. The Holy Act, you went very
+light, I would say, in terms of I I kept
+one one one provision. Okay. Fair
+enough. Okay. The the balance is
+restored then. Yes. Well,
+then um I shall ask the very last
+question which is what we ask everyone.
+Do you have any suggestions of books,
+podcasts, um, TV series, anything that
+would help our listeners understand a
+bit better about this topic or something
+that you really think they should come
+across? I mean, at least in their
+lifetime. Um,
+yeah. So, in terms of podcast, uh, there
+is your podcast that's really great. So,
+I would advise everyone to really look
+at that. Um um there is also Heart Fork
+which is a US uh podcast by uh the the
+New York Times if I'm not mistaken.
+That's really good to um um yeah be
+informed of what's going on in the tech
+sector. um in um in the in the US mainly
+and uh uh the book I'm reading right now
+is Nexus
+which is really interesting. Yeah,
+exactly. Which is really revealing on
+very a lot of things that happening
+currently in terms of the poorer of
+information.
+Oh, I mean I'm glad that we are on the
+same level as the New York Times. This
+is like you're you're way above. Thank
+you. Thank you. I mean um this is very
+flattering. So, thank you so much. And
+with all of that flatter, I will let
+Alexandra go and thank you so so much
+for joining us today because this was
+absolutely incredible and we absolutely
+enjoyed meeting you once again after the
+privacy symposium in Dis. It was very
+fun. Thank you very much. Thank you so
+much. And thank you, Jacob, as well for
+joining me. Rosie. Thank you, Alexander.
+Bye. Bye. Bye.

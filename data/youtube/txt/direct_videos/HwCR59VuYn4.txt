@@ -1,0 +1,739 @@
+Hi everyone, welcome to our event. This
+event is brought to you by data talks
+club which is a community of people who
+love data. We have weekly events and
+today is one of such events. If you want
+to find out more about the events we
+have, there is a link in the
+description. Click on that link and
+check all the events we have in our
+pipeline which is quite a few. So for
+example, even today in the evening we're
+going to have a workshop where I'll show
+how to create a deep research agent. So
+check it out. then um you should
+subscribe to our YouTube channel. This
+way you'll get notified to all our
+future streams like the one we have
+today. Don't forget to like this video.
+It will help to uh it will help
+YouTube's algorithm to recognize that
+this is a cool video. And last but not
+least, we have a Slack community where
+you can hang out with other data
+enthusiasts. So check the link in the
+description. Join our community and yeah
+um be a part of it. So during uh today
+um today's webinar you can ask any
+question you want and then we will be
+covering these questions at the end uh
+of the webinar. So that's all I have and
+Mutlu now the floor is yours. Uh please
+um tell us a few words words about
+yourself and um yeah go ahead and share
+your screen. I am going to share my
+screen first.
+I think everybody can see my screen
+right now.
+>> Yeah. And your picture.
+>> Yeah. Yeah. Um Hello guys. My name is
+Art. I'm 21 years old living in Gal and
+studying computer engineering in Aras
+University. Uh right now I'm working
+with the panop institute. It's a
+research institute. I'm working as a
+artificial intelligent intelligent
+researcher. uh studying workers so I'm
+not fully time or something like that
+and also I should say like
+uh today we are going to talk about the
+some transition about from human
+interloop to agent in the loop. So I
+will give a elderly guides the basic
+term I will explain and also I will uh
+give some tips and advice about how you
+can build that or how the people doing
+that. So can I start directly?
+>> Yeah.
+>> Yes please.
+>> So the first thing you need the first
+thing we are trying to talk about is the
+motivation. What is the uh what is the
+motivation under this uh transformation
+actually? Uh and then we are going to
+talk about the basic term. What is the
+movement in the loop is this? What is
+the strange about it? What's the
+limitation about it? And then we are
+going to talk about the agent in the
+loop. the main topic of our meeting
+actually
+and after that we are going to make some
+compression which one is strange
+strength which one is like the most
+useful or something like that so which
+one is or will be or future or something
+like that and we are going to look at
+the real example of the agent in the
+loop systems actually
+and after that I'm going to say uh I'm
+going to explain some of frameworks not
+so detailed. I'm not I'm not going to
+show any cause or something like that
+because I want to make this webinar is
+fully theoretical and also
+understandable
+and at the end we are going to make a
+summary and future outlook actually some
+guesses about the future what's going to
+be in the future what could be what
+maybe
+would be happen in the future and
+something like that. So let's start with
+the motivation. The motivation be behind
+this the motivation behind this
+transformation is an actually uh ML
+systems are scaling faster than
+supervision. So that means we are using
+we are developing systems so efficient
+and so faster than developing us and
+also it means human workflow are too
+slow. So we like we still slower than
+the you know the agents and the other ML
+systems
+and also in last five year you see the
+news and the other technology news and
+the other things the agents are really
+really exponential growing up and that's
+the third motivation about it
+that's not the motivation that's could
+be sad or happier for some people but
+the motivation will
+that this transformation will be
+happening anyways if we are prepared or
+not. So every developer, every worker or
+every engineer should we know this basic
+term to keep up with the new trends or
+the new transformation. So what is
+actually in the loop? What is this basic
+term actually meaning? So basically the
+every workflow has a like this typical
+map like in every workflow that start
+with the new information or new idea or
+task. So in human in the loop this
+information interpreting by the one of
+the human let's say it is a developer
+and the idea is a app idea one of the
+developer interpreting this idea and
+then transform transformate this IT into
+the output. So this output in our
+example is like the application and this
+application published by by the stores
+publish over the stores and another
+thing and the user I mean in another
+human is actually feedbacking about this
+product and
+you know give a feedback for the you
+know negative feedback or positive
+feedback and then the another human. So
+I mean in this example this is developer
+taking this feedback and transforming
+into the new idea and that's complete
+our flow actually our circle. So that's
+a loop we need to understand basically
+we were working like a 100 years a
+thousand years like a managers team
+leaders give it the feedback or the user
+give the feedback and we are
+transforming the ideas to new ideas and
+the outcomes.
+Okay that's all right. So what the wrong
+wrong is uh with that system it's
+actually working like a 100 years right
+the basically after uh before 20 years
+or something like that when the agents
+become in our life [snorts] the problems
+coming out surface the
+first problem is like the context
+sensitivity
+so humans are trained by the scenarios
+so basically if you're a
+if you're Uh sorry about that.
+[laughter]
+If you're an back end developer, you are
+trained by for the back end development
+but not for the front end. If somebody
+wants to you to do a front end, you
+can't develop a front end because you
+don't own frameworks or you don't
+framework work or something like that.
+So basically humans are like context
+sensitive.
+The second is the evolution of the
+humans is so difficult. uh some of the
+way responsibility is unclear in a
+hybrid systems like the humans can't
+give a a good report in text in audio in
+video or understand let's say for more
+solid for example you have an idea for
+the project and you want to say
+something about the project to the user
+or another investor and you want to get
+a feedback you can't tell the truly and
+directed to about the project because
+you have a fear of steel. So that means
+you can't evalate your project and you
+can't evalate yourself too because you
+can't get a feedback.
+The last one is most likely the scaling
+issue.
+I would say the corporates uh while
+they're right creating their their name
+team or the another teams like uh the
+while developing a a programs and when
+you want to add the new things set to
+the programs for example
+zoom let's say there is a uh meeting
+program and they want to add a new AI
+specification the program they can't
+because the normally the back end or
+front end developers don't know how to
+use ML frameworks and the other thing
+and they need to get a new ML specialist
+specialization
+special or the guy use ML and how to
+code ML how to optimize ML or something
+like that
+they need to buy it that means it cost a
+lot because you know it's a work power
+it cost you know payment and other thing
+and the and other ends we need to know
+that the feedback back becomes human
+feedback becomes is always a bottleneck
+because not the everybody knows what
+they are doing or the another in the
+another side but uh the not the
+everybody knows what they are doing and
+uh if the report is false or the another
+thing is false going to be the feedback
+is false so it's going to be create the
+bottleneck so we create we talk about so
+much negativity in this page I know but
+at the another hands at the Another side
+of the metal there is a positive side of
+the women in the loop.
+So humans are safety critical. They can
+find the critical [snorts] critical type
+of the of the project or the critical
+type. It's critical phase of the project
+or the page and they can correct them
+fastly. So there is a higher accuracy in
+human correction to than the agents and
+also we are fast improve like we have a
+rapid refinement so we are improve
+faster faster and we are making a better
+decision than the agents actually. So we
+are finding a edge cases and making a
+faster and better decision than the
+agents.
+But in our world in our time zone
+actually there is an like
+uh there is an another type of the human
+agents artificial intelligence agents
+after the uh LLM. So growing up the
+agents come out our life and start doing
+the job like [snorts] and uh get out get
+out of us to the circle outside. So what
+the agent in the loop is what the
+actually agent is what the core idea is
+the basically the agent makes make
+itself the planning reasoning tool using
+monitoring and self evolation that's
+means the everything we are doing it
+right now in while we are working on the
+task the agent make itself they get the
+idea they create a plan and make a
+reasoning at the same time they're using
+the tools while they're uh they're using
+the tools where they are uh explo
+explore
+they answer the idea or answer the
+problem and they are getting feedback
+from the human or from the another agent
+and they are self evolated
+so that's a loop diagram I explained
+before the page actually there is an
+goal let's say the goal is developing a
+program basically
+they are interpreting idea themselves
+And they are making a plan and the
+reasoning on the background themselves
+and they are give us out with the tool
+usage actually. Then the another agent
+for example this agent is a bus and the
+first agent was a like the developer.
+The bus agent execute this program and
+observing the program output and give a
+feedback to the developer agent and the
+developer agent evate itself and create
+a new task or create a new version of
+the program and the loop is closed like
+that. So that's so close to our uh human
+loop I know because it should be like
+that. the on the other hand uh it is the
+feature we need to understand basically
+so uh what are the differences which one
+is best actually let's make some
+compression about it the of course we
+need to sell it uh I'm not going to say
+the every side about the topic because
+there is so much side about it social
+side and the other sides uh we are just
+human they are just robot they can work
+724 or something like that no we are
+directly objective talking about it. Uh
+they are more faster than us basically
+because they can focus only one job one
+time but the human mentality is actually
+focusing a multi-
+task in one time. They are most scalable
+because uh when you change the prompt
+they are directly adapt to the new task
+or something like that. But we need to
+train train about the task and another
+thing
+at another time they are more uh we are
+more expensive than that because uh
+about the scalable thing like uh if we
+need a new train we need to get from
+school or get from the tourist centers
+and that cost for the you know bus or
+company or another thing
+but in the reliability
+like monitoring and observing they are
+even we are even actually uh that is the
+most important point for me to uh
+everybody needs to understand why the
+agents can't replace us because the both
+of sides need a feedback and monitor the
+output monitor and observe the output to
+to get a feedback and self evolate
+that's the most important thing for me
+to uh everybody needs to understand that
+to understand why I'm seeing saying the
+wall things
+that is the wall table when you want to
+see the you know the what's really
+changed what's really not uh so change
+so basically I don't explain the
+portings or uh something that table the
+accuracy the agents is more accurate
+when they're optimized the transparency
+we are more transparent than the agents
+because the LLM actually blackbox in the
+another time. uh they are more adaptive
+as I said and we are not and the
+trustful trustful like we are more
+trustful because we have a transparency
+because like the LLM is still a black
+box for us the and the agents are still
+we don't the things we don't know how to
+work so basically we are trying every
+time to optimize it but we don't know
+how so it's like a experiment for us so
+we are more trust
+We talk about so much thing about so
+faster I know but uh let's look at the
+real world examples and uh let's look at
+the real world example and see how the
+site is working in the real world. So we
+have a medical diagnosis ensuring
+patient safety. That means like we have
+a doctors they can
+regulate us to to get out of the
+sickness or something like that and they
+can ensure our safety
+and uh the another example is like
+autonomous vehicles
+like that's the example for the RA rare
+age cases because the most of the
+important thing in our life we are using
+cars so much and after the Teslas come
+out in the industry in the American or
+something like that we can say the
+autonomous cycle term is coming in up
+coming in up in our life and uh we are
+talking so much about it but the still
+after five or 10 years I don't know how
+much year is that but still the
+autonomous cycles can't understand the
+rare age cases when should they stop or
+the can't answer the ethical questions
+or something like That and the third one
+is the manufacturing. Actually
+we need to understand that uh if the a
+if we are not saying the exception to
+the agent uh agent can't handle the
+exceptions. So every time in a
+manufacturer industry needs an
+supervisor like a industry engineer
+engineers or the bosses or another
+another person who is responsible for
+the handling the exceptions
+but the agent in the loop has also real
+world examples we are using that. So the
+first one the banks use agents the LLMs
+and the ML ML uh systems for a fraud
+deduction that's very easy to understand
+because they are selfate so when they
+are getting uh when they are see the one
+Freud attack or one Freud try they
+understand this
+they understand this while when they're
+analyzing that attack or when they see
+it they understand this there's a Freud
+like I need to save it when I see that
+you know I need to alert the people or
+something like that. The recommener
+systems they're using MS system and the
+agent system for the recommendation
+system too. The Netflix, Spotify or the
+another application you know they're
+using that the main thing is
+they are creating model about you to
+make a recommendation. They know you in
+some way or in in the meantime they know
+you and they understand what your
+preferences is in the application and
+they they give they give an examples or
+they give an recommendation
+and the smart logic and IoT we cannot uh
+you know we cannot just border this
+example smart logic and IoT uh I can say
+they can make a realtime coordination
+with the tracks and the other things and
+they can create a mapping or the optim
+optimized mapping for the logic logistic
+but on the other hand we need to look
+like that the agents can create a real
+time coordination right so the basically
+CEO or the seale uh seale buses or sea
+level managers can create real-time
+coordination too the main thing is like
+in the what I'm see what I'm saying is
+what I'm saying is like they create a
+real-time coordination at the C sele
+create a real-time coordination too.
+There is of course the another task they
+do that but but the basically over the
+surface we need to understand the agents
+can replace the CEO and they can uh
+manage a companies like maybe the little
+one big little big one like they can
+manage it but right now they are they
+are managing the like cargo systems and
+the another system or the IoT systems
+right now.
+So
+how that transition is going right now
+before the LM's coming coming out we
+were in the human in the loop. So we are
+everywhere. We were everywhere you know
+but right now we are doing doing a human
+on the loop.
+We are trying to uh stay on the loop but
+we don't know where we are
+in the in the near future. We are going
+to be in the over the loop like we are
+going to make a supervisor thing fully
+not developing not as a worker work or
+something like that.
+What does that mean is more like
+uh we are we are the one who is give a
+feedback to the you know agents like
+when the agent make a posting we are
+going to say that's false you need to
+selfate yourself don't do don't do like
+that anytime in the future also we would
+say the rare age cases to the agent and
+h the agents work like that too like
+exception handling handling we can say
+the exception to the agents over the
+loop and the agent correct himself for
+that exception.
+Let's look at the example of the agent
+in book also they are the same topic as
+as they are this under the same topic of
+the human over the loop. So GitHub
+copilot is a good example of two human
+over the loop at the same time agents in
+the loop because agents in the loop but
+humans over the loop like in GitHub
+copilot the basically is working like do
+you say the agent what you want and the
+agents creates a codes or explanation
+about the code and you accept the code
+edit the code or reject the code. So
+what is uh what is going on in the loop
+is the agent planning reasoning tool
+using and the evolating or feedback
+itself and selfate itself but in the
+another time the agent use alone for us
+to create a code or applicate the code
+on the E day so that means we are giving
+the we are the decision center not the
+agent is a decision center actually so
+the agent is on the worker right so that
+means is it's human over loop.
+Another example is like the model. The
+model is a open-source label system
+labeling programs. The role of the agent
+is like identify the key samples and
+then labeling labeling the I don't know
+image text and then another thing. But
+in the other hand in the meantime we are
+cor we are cor we are making a
+correction about the labels and we say
+you need to label this truly you need to
+label this like that and something like
+that and the agents in the program in
+the model the model agent actually evate
+itself and make a correct labeling. So
+that's another example for the human
+overs. We are the decisions that not the
+uh not the workers or something like
+that. We are not doing actually
+anything. We are just doing it's false,
+it's true. Make a decision and go on.
+So uh we were talk about so much about
+the things I want to give a a little
+break about the theory or something like
+that. So we can talk about the
+frameworks and another thing who can
+enter to a cases for the agents or who
+want to start the developing the agents
+in the loop systems.
+Uh so basically that's a that's this
+five framework is very popular at this
+in in this time. So they can use it they
+can create project with them or
+something like that and they are beside
+of the open AI they are fully open
+source. I think I am going to start with
+the lang chain and langraph they that's
+a good soft that's a good they they are
+a good framework to start the agent
+system at the other hand they can they
+are so basic you can use in python and
+create a stateful reasoning models or
+just the agent models at the other hand
+if you want to create a multi- aent
+orchestration
+the what I mean is the a lot of agents
+talking coordinating each each other and
+doing a one task or one big project. You
+can use a auto gun again or basically
+you can use a crew AI for a role based
+agents. For example, I'm right now
+developing um Bob I didn't make it today
+but it's going to be used crew AI
+because it's actually the co-host role.
+it's take a co-host role in my uh talk
+shows or in my standups or in my podcast
+and also uh that means I need to use a
+crew AI.
+So the what's we are learning today in
+this short webinary
+we learned actually human in the loop is
+a strong that's so much uh good things
+in the human in the loop but at the same
+time we are not cale
+so that means we are slow and um without
+a good feedback or something like that
+we can't evolate itself we can't evolate
+ourselves
+but it Other hand agent in the loop put
+the agent at the center. So the agents
+can evalate itself very well. They are
+not so slow. If we optimize it well they
+are working well than us [snorts]
+actually. That means agent drive loops
+is coming in the way and that's working
+in the real world too. Right now there
+is a agent loop system and we are using
+it at the same time. uh you need to make
+a decision like when you need to make a
+decision about should I get my project
+woman in the loop to do agent in the
+loop you need to look at the four
+critical keys or critical shift if you
+need a speed scalability cost and
+transparency or reliability
+like just look at these four keys and
+decision and make here make a decision
+about that. Yeah, I can change these
+four things and I can change my so I can
+change my application women into loop to
+agent in the loop.
+So the basically is a feature for me is
+agent plus human supervisor that means
+human woman human over the loop not
+fully autonomy but safe human guided
+models going to be appear in the near
+future and we are going to see it we are
+seeing right now too
+as I said in the future we are going to
+see the like the woman over the loop
+system multi- aent system Maybe upgraded
+system like the not one agents going to
+be work in one task the agent team going
+to be work under one task but we are
+going to still supervisor this
+supervising this agents at the same time
+that's a safe and that is the safest
+option I think we have as my based on my
+research right now so that's all
+that's all from me thank you for
+listening me I think I create a good
+base for that the agent in the loop
+agent the woman in the loop and the
+catastrophe in the news what you're
+saying or what you're seeing in that so
+stay curious and build responsibly
+and that's the link for the source my
+accounts and other things
+I'm going to check what you have on this
+QR code uh but you have um you showed us
+a table um Yeah,
+>> with somebody. Can you go back to this
+table
+>> please?
+>> Um, so here Yeah, I had some questions
+like so you said uh
+um like when I looked at this I I
+thought like wait a minute like why
+accuracy medium for humans and high for
+agents and you said like you add added
+like kind of disclaimer that it's
+optimized agent right?
+>> Yeah. So how do we optimate optimize
+agent in this case? Like how do we make
+sure accuracy is actually high? Cuz from
+what I see typically
+humans
+um cuz for them sometimes like accuracy
+is better. Um so how do we
+>> optimize agent and maybe how do we use
+humans to optimize agents?
+>> That's actually actually based on the
+task, right? uh
+let's say there's a test the agents can
+do like repeatedly like I don't know
+there there's a task about the writing
+an excel writing a data index right and
+the the task is about create a data from
+the zero and you need to write exel this
+data to train a MS
+when the human needs to create a data He
+needs the idea first what what data can
+be like that or something like that and
+the supervisor of this woman
+let's say the supervisor of this woman
+so bad to explain something or something
+like that or there is not enough
+information about that about the data or
+something like that the accuracy will be
+not enough for the project or something
+like that but at the other hand
+the agents are [snorts] high Because if
+you give a proper uh prompt and also if
+you op uh if you set the settings of the
+agent properly like temperature like if
+you want to create a create a creativity
+tax you need to make higher the
+temperature basically and if you don't
+want it you want to strict the rules you
+need to set the temperature low so
+they can create meth this repetitive
+test task normally good and they are
+making that uh accurate
+so that's basically based on the test
+okay
+>> yeah
+um so I just have a story from my
+previous experience um so what we we
+used crowd sourcing
+>> for evaluating search results so imagine
+there there's some sort of search system
+in e-commerce and you can use a crowd
+sourcing provider um you give a task
+okay here are the some here are some
+search results and please tell if this
+result is relevant to this query if
+somebody's looking for iPhone and then
+we show um I don't know Samsung like is
+it relevant or not like and then they
+say oh it's not relevant
+>> and then uh we replaced it with LLMs and
+it worked much better uh because it's
+faster, it's easier to iterate.
+>> Uh but I still think sometimes we need
+humans, right? So it's not possible to
+completely remove humans from um I was
+trying to say the loop but like from the
+interaction with agent right
+>> the best thing is that we are seeing so
+much news about the the agents going to
+replace us agents going to replace
+developer or something like that. No,
+it's it's can't it's it's not possible
+actually for this time because they
+can't do some of the works they can't do
+we are not give allow us to do works
+like by themsel actually they always
+need a supervisor things they always
+need a feedback human feedback because
+they don't understand the things they
+don't understand what they are doing
+actually they just understand they they
+don't understand the thing but they know
+how to give a ordinary output structured
+output they know how to give a output
+like JSON text or paragraph. So they
+always need a human supervisory human
+feedback
+but at the other hand they are good at
+like the repetitive task right now and
+they're good at the team of agent is
+good at like the at the other task we
+are doing right right now.
+>> Mhm. Okay. Well, I don't see any
+questions um on Slido.
+Um so at the end we have your QR code.
+This is how you can find you, right? Um
+is this a part of your um research that
+you do? Is is are you doing masters
+right now?
+>> No, I'm doing it bachelor, right?
+>> Bachelor. Okay. So is it part of your
+research that you do at the at the
+>> uh actually it is it is my interest
+right now. I'm working on the agents too
+in my work and uh beside of the work I'm
+developing agents the ML systems and
+tiny ML projects.
+>> That's cool. [laughter]
+>> Okay, I guess then that's it. I don't
+see any more questions. So, thanks a
+lot.
+>> Yeah. Um if somebody has questions, so
+here's the QR code. I checked there is a
+link to LinkedIn and that probably would
+be a good place to ask you questions,
+right? Yeah, there's a source for the
+presentations that will also upload the
+presentation too. So,
+>> yeah, I can see it there.
+>> Yeah. Okay. Well, thanks a lot and uh
+thanks everyone for joining us today.
+>> So, yeah. See you around. Bye. Bye. Bye.

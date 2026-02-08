@@ -1,0 +1,929 @@
+Welcome back to the AI policy podcast.
+Today we're doing a deep dive into SB53
+that enacts California's Transparency
+and Frontier AI act. So I'm Satie
+McCulla and I'm joined as always by Greg
+Allen. So welcome back Greg. I'm really
+excited for today's conversation.
+>> Me too. All right, Greg, let's jump
+right in. So, on September 29th,
+California Governor Gavin Nuome signed
+into law SB53, which enacts California's
+Transparency and Frontier AI Act.
+Exactly one year earlier, Newsome vetoed
+SB 1047, the predecessor of SB53. So,
+before we get into the details of the
+text, could you walk us through this
+brief history?
+Yeah. So, I think it's worth taking us
+back to the spring of 2023
+and that is when a group of very
+prominent AI researchers and leaders of
+AI companies signed an open letter
+saying that the risks of the existential
+risks of AI should be a national
+priority on a par with the things that
+we do to prevent risks of nuclear
+weapons. So or pandemics. So that was
+signed by Sam Alman, that was signed by
+Dennis Hassabus, the CEO of Google
+DeepMind. Um, a huge share of the
+leading lights of the AI industry were
+seriously talking about existential risk
+of AI, meaning the risk of human
+extinction. Um, so from that letter,
+which I think I I said at the time and I
+still believe had a transformative
+impact on Washington DC and the
+conversation of AI. I mean, basically
+the the conclusion of that letter was
+that serious people take existential
+risk of AI seriously and so how can the
+government not take it seriously as
+well? These are a lot of things that
+people have been saying inside these
+companies. uh now they were saying them
+publicly in the in the in the open and
+in a way that was kind of impossible for
+the government to uh ignore. So out of
+that came the Biden administration's
+executive order. Out of that came uh
+Chuck Schumer's AI insight forums when
+he was the Senate majority leader trying
+to come up with comprehensive AI
+legislation to address among other
+things catastrophic risks. And one of
+the other things that came out after a
+lot of folks were disappointed that
+there was no movement in the US Congress
+was SB 1047 which was a landmark AI
+safety bill. And there's a bunch of
+reasons why this has the potential to be
+very important. You know number one is
+according to Governor Nuome you know of
+the top 50 AI companies in the world 32
+of them are headquartered in California.
+So California if it regulates even just
+the companies that you know develop
+stuff in California that can have big
+implications for what's going on in the
+entire AI industry as a whole. And the
+second thing is that California is a big
+market in the same way that Europe is a
+big market. So when Europe exercises its
+regulatory muscle, it's regulating, you
+know, what gets to be deployed to the
+European market and sometimes that can
+have major implications that go far
+beyond just the European market itself
+as people take those European standards
+and apply them globally, such as the
+case in California, most notably with
+fuel efficiency standards. Um, a lot of
+car manufacturers do not want to make
+one version of their car for the
+California market and another version of
+their car for the rest of America. And
+so California fuel efficiency standards
+have had an outsized impact impact in
+terms of driving US automakers uh and
+companies that want to sell to the
+United States in increasing their fuel
+efficiency. SP 1047 was looking to
+extend that and do so in the name of AI
+safety going after these potential
+catastrophic risks. And it had a bunch
+of pretty extensive provisions that at
+the time, I think to its proponents and
+to many others, seemed appropriate given
+the way those risks looked. If we're
+dealing with human extinction, then
+mandatory third-p partyy audits don't
+seem that absurd. Right? We have
+mandatory third party op uh audits for
+the people who run nuclear power plants.
+Uh and they could only kill tens of
+millions of people, right? and you're
+saying that AI could kill literally
+every human alive. Well, it seems like
+maybe you should have, you know,
+stricter regulatory standards. Well, uh,
+that ultimately passed in California's
+legislature, but was vetoed, as you
+mentioned, Sadi, by California's
+governor, Gavin Nuome. He basically said
+that this bill was too ownorous given
+where we are in the technologies
+evolution. It wasn't clear that the
+things that they were trying to do would
+actually solve the problems they were
+trying to solve. And so, he vetoed it.
+But he also set up a commission to write
+a report to make recommendations to sort
+of address this balance. And that
+included some of the the leaders of AI
+thinking from multiple different
+segments with a heavy heavy emphasis on
+voices from California. They came out
+with the report and they basically says
+it basically said yes something needs to
+be done. Here are principles for what uh
+reasonable legislation might look like
+sort of given the state of the
+technology and the risks that it poses
+today and the risks that it could
+conceivably pose in the future combined
+with the opportunities that it poses
+today and in the future. So basically
+the the group the expert group that
+Newsome set up came back and said yes
+you do need to do something. California
+should do something or or the federal
+government should do something and if
+the federal government fails to do
+something California should do
+something. So the author of SB 1047, the
+lead author I should say, Senator Scott
+Weiner, basically came back after that
+report was published and said, "Okay,
+now here is SB 1053, a slimmed down
+version with less ownorous requirements
+um that adheres to the principles that
+came out of that expert committee report
+and is now what uh California should
+pass." And remember, the legislature had
+already passed SB1047. So they were
+ready to sign up for the very ownorous
+requirements. It was only Newsome's veto
+that prevented that. So this again
+passed the legislature, this more modest
+set of requirements. And then Governor
+Nuome did indeed sign it. So now we are
+facing this as the new law with most of
+its provisions set to take effect on
+January 1st, 2026.
+>> Sure. So I was just going to follow up
+and ask, you gave a brief overview of SB
+1047. what are these key differences
+between that bill and SB53 that we're
+looking at now?
+>> So, at the highest level, I think we're
+dealing with the difference between uh
+an AI safety law and an AI safety
+transparency law. That's how Senator
+Weiner describes the differences and I
+do think that's a fair reflection of
+what is going on here. So whereas
+previously
+um the companies you know were forced to
+submit to external audits they faced
+penalties you know if they didn't do
+specific things in preventing the safety
+of it. This version SB53
+it says that you have to have your own
+internal safety framework and you have
+to publish that conspicuously on your
+website as the legislation describes it.
+Um so like what is your safety
+framework? Are you adhering to national
+standards? Are you adhering to
+international standards? You know what
+are you doing internally to ensure the
+safety of your models and preventing
+that from uh poisoning you know
+presenting catastrophic risks to
+Californians and therefore of course the
+wider world. So the point here is it's
+like it's not saying you shall use this
+safety framework. It's just saying you
+have to have a safety framework and you
+have to tell the world what your safety
+framework is and you have to tell the
+Californian government whether or not
+you follow your safety framework. And
+the penalties here are quite modest. Um
+they are civil penalties, not criminal
+penalties. Uh so nobody's going to do
+jail time for this. and they also um max
+out at $1 million fines per violation.
+So, let's let's just like walk through
+an extreme example here. I I often think
+in extremes because it sort of
+highlights uh the boundary conditions of
+the situation. Let's imagine a
+hypothetical AI company called Evil AI.
+You know, not open AI. This is evil AI.
+Uh you know, they're they're not about
+openness, they're about evil. and they
+publish publish a safety framework and
+it says uh we're not going to do
+anything serious other than like have a
+staff meeting where we say safety is
+great and we should do it and they
+publish that as like their safety
+framework.
+Not necessarily anything bad um happens
+to them, right? like they could have a
+terrible plan for ensuring safety, but
+the thing is now it's going to go out on
+the internet and so the internet is
+going to see, okay, their safety plan is
+obviously a joke. And so a lot of the
+sanction is reputational or putting
+themselves at risk of additional
+legislation. You know, if basically the
+the California legislature sees that
+evil AIS, this hypothetical company's
+safety framework is we talk about it at
+one meeting per year and do literally
+nothing else. Well, then the California
+legislature can say to itself, okay, we
+tried to be nice to you guys, but
+clearly you have to be forced uh to take
+safety seriously. So, that's like one
+version of the sanction. The second
+version is imagine that evil AI um has a
+very robust safety plan, right? It's
+like, we're going to, you know, check
+everything a million times and at the
+slightest whiff of risk, we're going to
+shut everything down. Then they publish
+that online. If they don't abide by
+that, well, then the California State
+Attorney General can bring suits against
+them and find them up to a million
+dollar per violation. So, every time
+they're violating their internal safety
+protocols, um, they can be fined a
+million dollar. So if they're violating
+their own CP protocols that they wrote.
+>> Yes. Which is kind of interesting,
+right? So So it's trying to give
+self-regulation a little bit of teeth in
+this regard. Now, the teeth aren't that
+sharp, though, you could argue, because
+we're talking about a million dollar
+fine and Open AI and Anthropic and XAI
+are all, you know, they're all signing
+deals for data center construction in
+the tens or hundreds of billions of
+dollars. So, like $1 million fines, um,
+that is budget dust to them. So the
+monetary consequences of the fine are
+maybe not that big. But then again, it
+comes back to those reputational
+downsides, right? No company wants to
+see headlines called, you know, company
+X repeatedly, extensively violates its
+own internal safety protocols, you know,
+when it comes to catastrophic AI risk,
+etc., etc. And again you know those
+violations they have to be disclosed in
+an anonymized form where you try and not
+say you know which company experienced
+which safety incidents etc etc. um in an
+anonymous form is going to be published
+in an annual report. But you know the
+specific details of any incident can be
+referred by the office of emergency
+services which is sort of vaguely
+analogous to the California state
+equivalent of the department of homeland
+security. Um it has other functions as
+well but that that's a a a useful
+analogy. Um, so the Office of Emergency
+Services, which has some of the
+enforcement uh role in this legislation,
+and the California Attorney General,
+which has a big enforcement role in this
+legislation, they can now refer details
+of specific incidents to the California
+State Legislature. Right? So the public
+is going to get this anonymized report,
+but the California legislature might be
+getting the nitty-gritty details of
+every single violation, and that means
+they can use that to inform their
+decisions about future legislation.
+Also, you know, as anybody in Washington
+DC knows, once Congress knows about it,
+the odds that it's going to link leak to
+the media go way, way up. Um and so the
+same of course could be true at the
+California state level, right? Where
+where violations are disclosed to uh the
+the various California regulators, then
+to the the legislators and then the
+legislators make it out to the media. So
+that then comes back to the reputational
+sanction and the risk of additional uh
+legislative action. So on the one hand,
+you could argue, you know, these teeth
+aren't very sharp. $1 million fines
+aren't the end of the world for most of
+these companies. On the other hand, you
+could sort of say, well, we're starting
+from a much lower baseline, right? We're
+starting from not quite nothing. Uh, so
+this is something um and it's something
+that you could imagine that the
+companies involved would care about.
+>> So, we've talked a lot about like the
+penalties for not complying and who's
+enforcing this bill, but who does this
+actually apply to and under what
+conditions does it apply to them?
+>> Yeah, this is a really important
+question. So there are carveouts that
+are designed to make this legislation
+apply to number one the types of
+organizations that can afford to comply
+with it and then also
+uh to people who are actually in a
+position to cause great harm. So the
+first thing is it only applies to uh the
+word in the California law is persons.
+Uh but persons under California law
+means much more than just people. A
+company can be a person, a nonprofit can
+be a person, etc. But it's persons who
+had more than $500 million in annual
+gross revenues the previous year. And
+it's focusing on frontier developers. So
+if you think about, by contrast, the EU
+AI act, the EU AI act has regulatory
+hooks that apply to the people who
+create models. It also has regulatory
+hooks that apply to the people who use
+models. This legislation is
+overwhelmingly focused on the developers
+of the models, so-called frontier model
+developers. And because of this $500
+million revenue position, um it's not
+applying to small startups. It's only
+applying to those who are doing
+something at a relevant scale.
+>> So, does this include AI labs as well?
+>> Yes, definitely. I mean, OpenAI is going
+to be hit, Anthropic's going to be hit,
+Google's going to be hit. Um,
+interestingly,
+uh, there are, you know, provisions in
+this dealing with open- source and open
+weight, uh, models, but none of them
+limit the applicability of this, uh,
+regulation. So, Meta will also be
+affected whether or not they are trying
+to sell their model. Even DeepSeek,
+Deepseek, the Chinese AI model
+developer, um because they're making it
+available to Californians, because
+they're deploying it in California, uh
+this would apply to them. And what's
+interesting is that $500 million revenue
+hook, it applies to the person or its
+affiliates. And so that means your
+corporate owners or your corporate
+subsidiaries. So, in Deepseek's case, I
+think Deepseek has very little revenue.
+Um, and certainly had very little
+revenue last year. Um, but Deepseek is a
+subsidiary of Highflyer Capital
+Management, a quantitative hedge fund in
+China that definitely makes a boatload
+of money. Um, and probably $500 million.
+That's why they could afford to start
+something like DeepSeek and not really
+need to go attract external financing in
+a significant degree. So that to me
+says, you know, theoretically Deepseek
+is going to have to publish, assuming
+they want to continue making their
+models available in California. Uh
+they're going to be legally required to
+disclose, you know, what is their safety
+plan. How are they, you know, going
+about it? And and they're going to have
+to have the same publish that openly on
+the web in a conspicuous manner, um
+etc., etc. So that is some really
+interesting implications for who this
+applies to.
+>> Okay, Greg. So you've already talked
+about um Frontier model developers who
+meet the financial threshold. Can you
+talk about other Frontier developers um
+that maybe don't meet this threshold and
+how it applies to them?
+>> Yeah, so technically all Frontier
+developers again, you know, making their
+products available in California,
+deploying in California, um do have some
+obligations. I mean maybe maybe not a
+Frontier model developer that's only
+doing it for internal use. It's not
+clear to me that that would be covered.
+But if they're uh making it available
+for public use, they do have some
+requirements and those are transparency
+requirements, but they don't go to the
+same level of you have to publish a
+safety framework, you have to tell us of
+instances in which you violated your
+safety framework, etc., etc. So that is
+more about
+inventorying
+everybody in California who's doing this
+stuff. like you have to tell us if you
+are indeed a frontier model developer
+versus telling us all the myriad ways in
+which you're working to ensure that you
+are safe that sort of those safety
+transparency uh provisions I think are
+more targeted at the large frontier
+developers
+>> all right um okay so what exactly is a
+frontier model
+>> yeah so like the regulation applies to
+frontier developers aka developers of
+frontier models logically implies like
+what is a frontier model. And what's so
+interesting here is that they have
+defined it using a familiar definition.
+Quote, a foundation model that was
+trained using a quantity of computing
+power greater than 10 the 26th integer
+or floatingoint operations. Now that 10
+to the 26th number, I think will be
+familiar to many listeners of this
+podcast because that is the same number
+that was used in the Biden
+administration's executive order. So
+what they're basically saying is we we
+think that safety risk is correlated
+with intelligence, right? The smarter
+something is, the theoretical, you know,
+greater degree that something bad could
+happen if that intelligence was put to
+bad use. So they don't really have a a
+perfect way of measuring the smartness
+of a model. And so they're using this
+imperfect proxy, which is how much
+computing power was used during the
+training phase. And just to be clear,
+that really corresponds not to the
+amount of computing power that was used
+to train the original chat GPT. It's
+really like one level beyond what was
+available at the time of the Biden
+administration executive order. So, what
+they're sort of saying in the executive
+order, they were saying, "We don't want
+these stipulations to apply to the
+state-of-the-art now, but whatever the
+state-of-the-art is going to be a year
+from now, it's going to apply to you."
+Well, now we're past that year, right?
+So, this this applies to everything um
+that is the state-of-the-art right now
+is is using more than 10 to the 26th.
+And it's it's interesting because it
+contrasts with the EU AI act which had a
+lot of their hooks applying at the 10 to
+the 25th threshold because they did
+explicitly want to say, "Hey, this
+applies to the stuff that's out uh right
+now." So, I think it's also worth noting
+that when we hosted Michael Katzios, the
+director of the White House Office of
+Science Technology Policy, one of his
+criticisms of the Biden administration's
+executive order was that use of the 10
+to the 26th computing uh flops
+threshold. He basically said, "Look,
+this is a obviously arbitrary number.
+Like, how does that help us decide, you
+know, who poses a safety risk and who
+doesn't?" And I heard from Biden
+administration officials at the time and
+they're like, "We absolutely concede
+that this is a highly imperfect number.
+Um, if anybody has anything better,
+you're welcome to tell us what it is. We
+think this is good enough for right now
+for what we're trying to cover." And
+I've heard similar things from some of
+the companies involved uh in in creating
+these things that 10 the 26th is a
+highly imperfect threshold uh but a
+threshold that they understood and could
+live with. So um here we are now that 10
+to the 26th is being incorporated into
+you know one of the most important
+pieces of state AI regulatory
+legislation that we've seen.
+>> So why are people like Michael Katzios
+and the Trump administration having such
+problems with 10 to the 26 flops um
+being the benchmark especially if uh the
+EU AI act is using 10 to the 25th.
+So I think you know Katzios uh I I have
+the transcript of the conversation here
+in front of me and his line he has he
+has a few things. Number one is quote it
+set very weird arbitrary limits around
+pre-eployment testing of AI models and
+it created this sort of fear in the AI
+community that the government was going
+to come down and overly regulate this
+technology. So I think there is he has
+two big criticisms. Number one is that
+the B administration was overly focused
+on fear. In fact, he said, quote, "Fear
+was what led almost all of their policy
+decisions." End quote. And then the
+second thing is that the rules and the
+limits uh around which they dealt with
+that were like arbitrary, which is to
+say, you know, you you could draw the
+line at 10 to the 26th flops. Why don't
+you draw it at 10 to the 27th flops? Why
+don't you draw it at 10 to the 25th
+flops?
+>> Um and so his point was like, look,
+that's just an arbitrary threshold. And
+I think the Biden administration would
+concede, yes, it's an arbitrary
+threshold. All we're really sort of
+saying is we're trying to capture that
+we're interested in stateofthe-art
+models. And 10 to the 26th at the time
+the Biden administration was drafting
+that EO represented what was expected to
+be the next generation state-of-the-art.
+So not the current generation
+state-of-the-art. And I think it's also
+worth noting that in this California
+legislation, they specifically say, you
+know, that this threshold should be
+evaluated again and potentially updated
+on an annual basis. So, it's the job of
+the California government's executive
+branch to sort of say, hey, like even my
+children's calculator now was trained on
+10 26 flops. Are we really sure this,
+you know, merits these kind of uh fancy
+evaluations? maybe we should raise the
+threshold to something more significant.
+Um, they can do that, but it does
+require the legislation being updated.
+So, the the executive branch can't do it
+by themselves. The legislature will have
+to update the threshold, but the
+executive branch is instructed to make
+recommendations on that on an annual
+basis.
+>> Okay. Thanks for explaining that. It's
+really helpful to understand. Um, I kind
+of want to shift gears a little bit. um
+and ask you about what other interesting
+policies SB53 introduces and what else
+you found interesting about these
+transparency acts um that you want to
+highlight.
+>> Yeah, so I think there's a there's like
+so many things that it's just sort of
+occurring to me that we're going to know
+uh in not too long. Um you know one
+thing is that it instructs everybody to
+make clear in their published safety
+frameworks whether and how they are
+drawing upon uh national standards and
+international standards. So there are
+some really big um standards that loom
+large in industry and that industry has
+been a part of creating and that to me
+you know one that stands out of course
+is the NIST AI risk management framework
+um that NIST you know used an industry
+consortium and an academic consortium
+took a long time with a big working
+group trying to come up with that. It
+was roundly praised by many many
+companies and now these transparency
+requirements should give us you know a
+novel degree of insight into what
+actually implementing that looks like in
+practice. Um the other thing is it's
+trying to guide standardization of this
+transparency reporting. So, you know,
+again, you could have a company like
+Evil AI Co. which says like here's our
+published safety framework and all it
+says is we are really safe, you know,
+like you know, it's basically a
+marketing document as opposed to a
+substantive process um implementation
+document. And I think the the hope here
+is that there's going to be sort of a a
+growth in industry consensus either
+around these kinds of standards or
+industry best practices uh for that. So
+we can sort of say this is what good
+looks like, this is, you know, not what
+looks like. We're also going to learn
+about implementation of things that are
+international. So a lot of companies
+have signed up to various parts of the
+EU AI act code of practice. What's
+interesting is, you know, even though
+this is a California piece of
+legislation, the companies are required
+to disclose how they're going about
+implementing that. So, we're going to
+learn what it looks like, uh, to a
+greater degree than I think we probably
+would have otherwise, what it looks like
+to implement the EUAI Act code of
+practice, um, which is a big, you know,
+important regulatory piece. I I I talked
+about how the teeth of this law are
+comparatively dull because it only has
+$1 million fines. Well, the EU AI act,
+you know, some provisions of it can find
+you up to 7% of annual turnover, which
+is like vaguely analogous to revenue.
+Um, so that is big, very, very, very
+sharp teeth. And, uh, what this means is
+that California government officials are
+going to have a remarkable amount of
+information about what's going on inside
+of these companies. um in a way that
+like Europe's government is going to get
+a lot of information around what's going
+on inside these companies, but the US
+federal government is not. And so I
+think that's one of the interesting
+outcomes of transparency uh provisions
+like this is I think we're just in a
+position to see under the hood in a way
+that we couldn't. Um we we'll talk about
+this more I'm sure but I I also think
+it's worth noting that like anthropic
+uh which is a very prominent uh frontier
+AI model developer very publicly and
+loudly supported this legislation. They
+almost supported SB 1047 although they
+said you know it needed amendments. Um,
+but this is a company that was founded
+in part by a group of people who quit
+OpenAI over debates about issues of AI
+safety and whether or not OpenAI was
+going far enough uh to be safe.
+Anthropic CEO Dario Amodai has sort of
+said that he wanted to create a race to
+the top in AI safety. And it's
+interesting you can you can sort of see
+um their fingerprints on this
+legislation because in one mind an
+analogy that comes to mind for me is
+Amazon. Um Amazon uh for a long time was
+not supportive of increasing the federal
+minimum wage. And then Amazon was having
+a lot a big problem recruiting enough
+people to staff its fulfillment centers
+to handle, you know, like the Christmas
+holiday uh rush. And so one day Amazon
+increased their corporate minimum wage
+to $15 an hour, which at the time was
+more than twice the federal minimum
+wage. And what's so interesting is that
+as soon as they did that, they said,
+"And also we support increasing the
+federal minimum wage to $15 an hour."
+Right? So they're like, "Once we're
+incurring the costs already, we want all
+of our competitors to also be incurring
+the cost." And I think one way of
+thinking about this piece of legislation
+is at least from from the perspective of
+a company like Anthropic is we are
+bearing a lot of costs trying to be
+safer. Um, and there are reasons why we
+do that that are aligned with our
+corporate best interests, right? Which
+is basically reliability and safety have
+very similar technical requirements and
+customers who want reliability are going
+to probably like a lot of the features
+that Anthropic has deployed, I think,
+would be their sort of self-interested
+argument for why they care a lot about
+safety. Um, but there's also the
+societal part of AI safety, like the
+risk of, you know, accidentally helping
+bad people create boweapons or really
+powerful cyber weapons, etc., etc. And
+their anthropic doesn't want to be alone
+in incurring those costs of safety. They
+want their competitors to also be
+incurring those costs and taking safety
+seriously. And so that's how
+legislation, you know, such as this
+doesn't force every company to be way
+way safer, but it does help force, I
+think it's fair to say, companies be
+honest about the extent to which their
+safety practices are less robust than uh
+hypothetically somebody like Anthropic.
+So, I'm seeing a lot of comparisons and
+similarities between this policy and the
+EU AI act, which is obviously um highly
+debated uh in the US right now. So, how
+have AI companies and other stakeholders
+reacted to SB53 so far?
+>> Well, I think there's been a diversity
+of opinions. um but all of them are best
+understood in comparison with SB 1047.
+So there are people who opposed SB uh
+1053, people in organizations who
+opposed it. So for example, the venture
+capital firm A16Z
+uh which is headed by Mark Andreasen.
+um they've had people come out opposing
+SB uh SB53 saying it's still too
+ownorous, it's still too early to have
+this kind of regulation um and outright
+opposing it. But what's interesting is
+that there was a lot of people who
+opposed SB1047
+who were silent on the SB53 debate. So,
+I think you saw companies like Google
+which explicitly opposed um SB1047
+uh saying it, you know, goes too far,
+it's it's too much. Um and then we're
+silent in the SB53 debate, which I think
+is noteworthy. Um and then you also uh
+have folks like Anthropic who are loudly
+endorsing it and they were close to
+supporting SB1047
+um but did not and they have this time.
+And I think perhaps one of the most
+interesting endorsements uh in the
+entire conversation comes from Dean Ball
+who was previously a senior adviser in
+the Trump White House and he had opposed
+SB 1047. Um he had been a part of
+debates in the US government and
+especially the Congress about state
+preeemption of AI or sorry uh federal
+preeemption of state level AI
+regulation. and he had some pretty kind
+things uh to say about SB53. So, here's
+here's one quote that he posted on X.
+Quote, "It is rare that a state law
+introduces a genuinely novel legal
+mechanism, but the latest version of
+California's Frontier AI safety bill,
+SB53, does just that. SB53 outlines a
+mechanism whereby the state government
+can designate a federal law, regulation,
+or guidance, even if the federal thing
+doesn't preempt as meeting the standards
+set forth by state law and thus allow
+companies to opt into complying with
+state law via a federal alternative.
+Really interesting. Almost as though
+even California is saying, "Please,
+federal government, make some federal
+standards for AI." And I think that line
+is so interesting because some of the
+criticism of SB53 is that like hey AI is
+best regulated on a federal level. And
+what's so interesting is like the
+companies who are saying AI is best
+regulated on a federal level. California
+which through this legislation has some
+of the most important state legislation
+is saying we also agree it would be best
+if this was regulated on a federal level
+and we are creating hooks in our
+mechanism uh that can allow uh federal
+regulation to supersede us. and they
+almost encourage uh that from being the
+case. Now, one final thing I I I think
+is worth saying uh from Dean Ball. It it
+comes from a Substack post where he
+basically said um I found myself opposed
+to California's frontier AI safety bill
+SB1047.
+Uh, and then he goes on to say, "My
+confidence in the catastrophic risk
+threat model improved and a year later I
+find myself supportive of California's
+SB 1047 SQL SB53." So, he's straight up
+endorsing it, which I think sort of says
+like this is a pretty modest set of
+requirements uh going on companies. Um,
+one other voice that I think is
+important in this conver uh sation is
+Senator Ted Cruz who had previously
+said, quote, "Do you really want Gavin
+Newsome and Karen Bass and Comrade
+Mandani in New York City setting the
+rules for AI and governing AI across
+this country? I think that would be
+catac cataclysmic." And so he's talking
+about how, you know, we should not be
+rising to the most severe regulation
+that is coming out of states. we should
+have a federal standard which I think
+most people in this story agree with. Um
+so that's all uh very interesting. Uh
+one thing that we haven't talked about
+in terms of this legislation that I
+think is really important is the
+whistleblower provisions. Um so the idea
+here is that if there are catastrophic
+risks presented by an AI system uh you
+want not just to say hey companies you
+have to tell us when you have these
+incidents you also want a mechanism that
+can deal with evil AI co right the the
+kind of company who's not going to tell
+you about those incidents and so it
+creates a framework whereby uh
+individuals in those companies uh who
+have privileged knowledge of safety
+incidents can uh violate their
+non-disclosure agreements which almost
+all of their company all these companies
+make their employees sign and uh tell
+the world hey uh my company is doing
+something that is very very unsafe and
+they can do that in a way that that
+information gets sent to the California
+state government that their identity is
+protected and that their legal
+obligations are covered and that is
+something that I think a lot of people
+had supported in SB B 1047 and so I was
+not surprised that it made it through to
+the SB53 as well.
+>> Okay. So, we've heard a lot of great a
+lot of great information about this
+bill. Um so, what should we keep an eye
+out for as California moves to implement
+this policy?
+>> Well, I think there's uh this bill um
+which is going to go into effect quite
+soon uh January 1st, 2026. There's also
+two other related bills that have come
+out of California. One is around
+transparency related to training data
+which I think will be a big part of the
+debate on copyright type issues and
+intellectual property protections. Uh it
+has relevance to the safety debate of
+course as well but that could mean you
+know we'll get an unprecedented degree
+of information uh around the training
+data going to these models. And then
+there's an additional California law
+that's dealing with deep fakes and the
+risk of AI generated misinformation. And
+so that is requiring model developers to
+have capabilities to sort of disclose to
+the user when they are interacting with
+AI generated content. Um we're already
+dealing with a flood of new AI generated
+content not least of which with the
+announcement from OpenAI of its latest
+version of Sora which has really
+impressive capabilities um especially
+around preserving an individual's face
+across a really diverse range of
+potential situations. And so having the
+models sort of embed like this is AI,
+this is AI into that um I think is going
+to be really interesting and California
+is one of those states that has been
+putting regula regulatory muscle behind
+that.
+>> Well, thank you Greg for breaking down
+this new policy. Um I appreciate you
+answering all my questions. I'm looking
+forward to talking more about this uh in
+the coming months. But thank you so much
+and thanks everyone for listening.
+>> Great. Thanks Eddie.
+Thanks for listening to this episode of
+the AI Policy Podcast. If you like what
+you heard, there's an easy way for you
+to help us. Please give us a five-star
+review on your favorite podcast platform
+and subscribe and tell your friends. It
+really helps when you spread the word.
+This podcast was produced by Sarah
+Baker, Satie McCulla, and Matt Mand. See
+you next time.

@@ -1,0 +1,63 @@
+```markdown
+# Article 9: Risk management system
+
+## Summary
+
+The AI Act requires a risk management system for high-risk AI systems. This system should be a continuous process throughout the high-risk AI system's lifecycle, regularly reviewed and updated. Risk management measures aim to eliminate or reduce risks through design, mitigation, and user information. Testing is required to ensure compliance and performance, with consideration for persons under the age of 18 and vulnerable groups. Providers can integrate these requirements with existing risk management processes under other EU laws.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+## Article 9: Risk management system
+
+### Step 1: Identify and analyze risks
+
+A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems. The risk management system shall be understood as a continuous iterative process planned and run throughout the entire lifecycle of a high-risk AI system, requiring regular systematic review and updating. It shall comprise the following steps:
+
+- **(a)** The identification and analysis of the known and the reasonably foreseeable risks that the high-risk AI system can pose to health, safety or fundamental rights when the high-risk AI system is used in accordance with its intended purpose;
+- **(b)** The estimation and evaluation of the risks that may emerge when the high-risk AI system is used in accordance with its intended purpose, and under conditions of reasonably foreseeable misuse;
+- **(c)** The evaluation of other risks possibly arising, based on the analysis of data gathered from the post-market monitoring system referred to in [Article 72](/en/ai-act/article-72);
+- **(d)** The adoption of appropriate and targeted risk management measures designed to address the risks identified pursuant to point (a).
+
+### Step 2: Estimate and evaluate risks
+
+The risks referred to in this Article shall concern only those which may be reasonably mitigated or eliminated through the development or design of the high-risk AI system, or the provision of adequate technical information.
+
+### Step 3: Evaluate other risks
+
+The risk management measures referred to in paragraph 2, point (d), shall give due consideration to the effects and possible interaction resulting from the combined application of the requirements set out in this Section, with a view to minimizing risks more effectively while achieving an appropriate balance in implementing the measures to fulfill those requirements.
+
+### Step 4: Adopt targeted measures
+
+The risk management measures referred to in paragraph 2, point (d), shall be such that the relevant residual risk associated with each hazard, as well as the overall residual risk of the high-risk AI systems is judged to be acceptable.
+
+In identifying the most appropriate risk management measures, the following shall be ensured:
+- Elimination or reduction of risks identified and evaluated pursuant to paragraph 2 in as far as technically feasible through adequate design and development of the high-risk AI system;
+- Where appropriate, implementation of adequate mitigation and control measures addressing risks that cannot be eliminated;
+- Provision of information required pursuant to [Article 13](/en/ai-act/article-13) and, where appropriate, training to deployers.
+
+With a view to eliminating or reducing risks related to the use of the high-risk AI system, due consideration shall be given to technical knowledge, experience, education, the training to be expected by the deployer, and the presumable context in which the system is intended to be used.
+
+### Step 5: Test for compliance
+
+High-risk AI systems shall be tested for purposes of identifying appropriate and targeted risk management measures. Testing shall ensure that high-risk AI systems perform consistently for their intended purpose and that they are compliant with requirements set out in this Section.
+
+Testing procedures may include testing in real-world conditions in accordance with [Article 60](/en/ai-act/article-60).
+
+### Step 6: Perform testing throughout lifecycle
+
+The testing of high-risk AI systems shall be performed at any time during development process up until placement on market or put into service. Testing shall be carried out against prior defined metrics and probabilistic thresholds appropriate to intended purpose of high-risk AI systems.
+
+When implementing risk management system as provided for in paragraphs 1 - 7, providers shall consider whether intended purpose justifies additional testing beyond what is necessary for compliance assurance.
+
+### Step 7: Consider vulnerabilities
+
+For providers of high-risk AI systems that are subject to requirements regarding internal risk management processes under other relevant provisions under Union law, aspects provided in paragraphs 1 - 9 may form part of or combine with risk management procedures established pursuant thereto.
+
+## Relevant Recitals
+
+*   [Recital 64](/en/ai-act/recital-64)
+*   [Recital 65](/en/ai-act/recital-65)
+*   [Recital 71](/en/ai-act/recital-71)
+
+View official text: [Artificial Intelligence Act (Regulation (EU) 2024/1689)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689).
+```

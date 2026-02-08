@@ -1,0 +1,63 @@
+```markdown
+# Article 10: Data and data governance
+
+## Chapter III: High-Risk AI Systems
+### Section 2: Requirements for High-Risk AI Systems
+
+#### Summary
+High-risk AI systems must use high-quality training, validation, and testing datasets that are relevant, representative, and free of errors. Data governance and management practices should address, inter alia, design choices, data collection, preparation, bias detection, and mitigation. Datasets must consider the specific context of use, and reflect the specific geographical, contextual, behavioural, or functional characteristics of the environment in which the system will operate. These requirements apply to all datasets used in high-risk AI systems, even those not involving model training.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+1. High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.
+
+2. Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. Those practices shall concern in particular:
+   - (a) the relevant design choices;
+   - (b) data collection processes and the origin of data, and in the case of personal data, the original purpose of the data collection;
+   - (c) relevant data-preparation processing operations, such as annotation, labelling, cleaning, updating, enrichment and aggregation;
+   - (d) the formulation of assumptions, in particular with respect to the information that the data are supposed to measure and represent;
+   - (e) an assessment of the availability, quantity and suitability of the data sets that are needed;
+   - (f) examination in view of possible biases that are likely to affect the health and safety of persons, have a negative impact on fundamental rights or lead to discrimination prohibited under Union law, especially where data outputs influence inputs for future operations;
+   - (g) appropriate measures to detect, prevent and mitigate possible biases identified according to point (f);
+   - (h) the identification of relevant data gaps or shortcomings that prevent compliance with this Regulation, and how those gaps and shortcomings can be addressed.
+
+3. Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible,
+   - (a) free of errors,
+   - (b) complete in view of
+     - (i)
+       * The intended purpose.
+     - (ii)
+       * Characteristics or elements that are particular to
+         * **Specific geographical**
+         * **Contextual**
+         * **Behavioural** or **Functional settings** within which
+           * **The high-risk AI system is intended to be used**.
+     - (iii)
+       * That personal data is collected from individuals who have provided their consent.
+4. To comply with paragraph 2(e),
+   - (a) Bias detection cannot be effectively fulfilled by processing other data,
+   - (b) Special categories of personal data are subject to technical limitations on re-use,
+   - (c) Special categories of personal data are subject to measures to ensure they remain secure,
+   - (d) Special categories of personal data are not transmitted or otherwise accessed by other parties,
+5. For purposes related to bias detection and correction in accordance with paragraph 2(f), points( f )and(g )of this Article,
+   - (a) Processing special categories requires exceptional processing based on appropriate safeguards for natural person's rights.
+6. This exceptional processing may occur if:
+   - (a) It cannot be effectively performed through other means due to technical limitations,
+   - (b) The special categories' re-use is restricted due to state-of-the art security limitations,
+   - (c) Measures exist for ensuring personal information remains secure,
+   - (d) Personal information is deleted after correcting or ending its retention period whichever occurs first,
+
+7. For purposes related to bias detection and correction in accordance with paragraph 2(f), points( f )and(g )of this Article,
+8. Records documenting processing activities pursuant to Regulations( EU ) 2016/679 , GDPR( EU ) 2018/1725 , Directive( EU ) 2016/680 , including reasons why special categories were considered necessary for detecting & correcting biases & objectives unachieved by other types of information & need for these measures can be recorded.
+
+#### Relevant Recitals
+- [Recital 66](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-66)
+- [Recital 67](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-67)
+- [Recital 68](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-68)
+- [Recital 69](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-69)
+- [Recital 70](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-70)
+- [Recital 76](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-76)
+- [Recital 115](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-115)
+
+View the [official text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689). The text used in this tool is "Artificial Intelligence Act (Regulation (EU) 2024/1689)" published on June 13th 2024.
+```

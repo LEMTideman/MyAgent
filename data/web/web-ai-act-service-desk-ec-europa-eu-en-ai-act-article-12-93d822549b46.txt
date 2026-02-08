@@ -1,0 +1,57 @@
+```markdown
+# Article 12: Record-keeping
+
+## Chapter III: High-Risk AI Systems
+### Section 2: Requirements for High-Risk AI Systems
+
+### Summary
+For high-risk AI systems record-keeping obligation applies. High-risk AI systems must have automatic logging capabilities to record events throughout their lifecycle. These logs should help identify risks, support post-market monitoring, and track system operation. For remote biometric identification systems, logs must include usage periods, reference databases, input data, and the identities of individuals verifying results. This ensures traceability and facilitates ongoing oversight and risk management.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+### Recitals
+* [Recital 66](/en/ai-act/recital-66)
+* [Recital 71](/en/ai-act/recital-71)
+* [Recital 131](/en/ai-act/recital-131)
+
+View the [official text](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689). The text used in this tool is the ‘[Artificial Intelligence Act (Regulation (EU) 2024/1689), Official version of 13 June 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689)’.
+
+---
+
+## Related Links
+* [Chapter I: General Provisions](#chapter-i-general-provisions)
+* [Chapter II: Prohibited AI Practices](#chapter-ii-prohibited-ai-practices)
+* [Chapter III: High-Risk AI Systems](#chapter-iii-high-risk-ai-systems)
+* [Chapter IV: Transparency Obligations for Providers and Deployers of Certain AI Systems](#chapter-iv-transparency-obligations-for-providers-and-deployers-of-certain-ai-systems)
+* [Chapter V: General-Purpose AI Models](#chapter-v-general-purpose-ai-models)
+* [Chapter VI: Measures in Support of Innovation](#chapter-vi-measures-in-support-of-innovation)
+* [Chapter VII: Governance](#chapter-vii-governance)
+* [Chapter VIII: EU Database for High-Risk AI Systems](#chapter-viii-eu-database-for-high-risk-ai-systems)
+* [Chapter IX: Post-Market Monitoring, Information Sharing and Market Surveillance](#chapter-ix-post-market-monitoring-information-sharing-and-market-surveillance)
+* [Chapter X: Codes of Conduct and Guidelines](#chapter-x-codes-of-conduct-and-guidelines)
+* [Chapter XI: Delegation of Power and Committee Procedure](#chapter-xi-delegation-of-power-and-committee-procedure)
+* [Chapter XII: Penalties](#chapter-xii-penalties)
+
+## Chapter I: General Provisions
+### Article 12.001
+High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.
+
+### Article 12.002
+In order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for:
+   - identifying situations that may result in the high-risk AI system presenting a risk within the meaning of **Article 79(1)** or in a substantial modification;
+   - facilitating the post-market monitoring referred to in **Article 72**; 
+   - monitoring the operation of high-risk AI systems referred to in **Article 26(5)**.
+
+### Article 12.003
+For high-risk AI systems referred to in point 1(a), of **Annex III**, the logging capabilities shall provide, at a minimum:
+   - recording of the period of each use of the system (start date and time and end date and time);
+   - the reference database against which input data has been checked by the system;
+   - the input data for which the search has led to a match;
+   - the identification of the natural persons involved in the verification of the results, as referred to in **Article 14(5)**.
+
+## Relevant Recitals
+* [Recital 66](/en/ai-act/recital-66)
+* [Recital 71](/en/ai-act/recital-71)
+* [Recital 131](/en/ai-act/recital-131)
+
+```

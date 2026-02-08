@@ -1,0 +1,5278 @@
+{
+  "source": "youtube",
+  "channel": "TWIML_AI_Sam_Charrington",
+  "playlist_title": "The TWIML AI Podcast (formerly This Week in Machine Learning & Artificial Intelligence)",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLILZm3MRkvH83C46bZ4rPmB-jKWBltWkP",
+  "playlist_id": "PLILZm3MRkvH83C46bZ4rPmB-jKWBltWkP",
+  "video_id": "3Zu8Zsqw26s",
+  "video_title": "Building and Deploying Real-World RAG Applications with Ram Sriharsha - 669",
+  "video_url": "https://www.youtube.com/watch?v=3Zu8Zsqw26s",
+  "fetched_at": "2025-12-29T08:44:18.682270+00:00",
+  "transcript": [
+    {
+      "text": "all right everyone welcome to another",
+      "start": 0.16,
+      "duration": 4.639
+    },
+    {
+      "text": "episode of the twiml AI podcast I am",
+      "start": 2.159,
+      "duration": 5.24
+    },
+    {
+      "text": "your host Sam sharington today I'm",
+      "start": 4.799,
+      "duration": 5.201
+    },
+    {
+      "text": "joined by Ram Shara ROM is VP of",
+      "start": 7.399,
+      "duration": 5.28
+    },
+    {
+      "text": "engineering At pinec Con before we get",
+      "start": 10.0,
+      "duration": 4.24
+    },
+    {
+      "text": "going be sure to take a moment to hit",
+      "start": 12.679,
+      "duration": 3.04
+    },
+    {
+      "text": "that subscribe button wherever you're",
+      "start": 14.24,
+      "duration": 4.24
+    },
+    {
+      "text": "listening to Today's Show Rah welcome to",
+      "start": 15.719,
+      "duration": 3.72
+    },
+    {
+      "text": "the",
+      "start": 18.48,
+      "duration": 3.16
+    },
+    {
+      "text": "podcast thanks for having me Sam it's",
+      "start": 19.439,
+      "duration": 4.801
+    },
+    {
+      "text": "great to be here uh thanks for coming on",
+      "start": 21.64,
+      "duration": 4.559
+    },
+    {
+      "text": "the show I'm looking forward to chatting",
+      "start": 24.24,
+      "duration": 4.32
+    },
+    {
+      "text": "with you we'll be talking about all",
+      "start": 26.199,
+      "duration": 5.041
+    },
+    {
+      "text": "things Vector databases and retrieval",
+      "start": 28.56,
+      "duration": 3.92
+    },
+    {
+      "text": "augmented",
+      "start": 31.24,
+      "duration": 3.76
+    },
+    {
+      "text": "generation uh before we jump into that",
+      "start": 32.48,
+      "duration": 3.56
+    },
+    {
+      "text": "though I'd love to have you share a",
+      "start": 35.0,
+      "duration": 3.0
+    },
+    {
+      "text": "little bit about your background and how",
+      "start": 36.04,
+      "duration": 4.92
+    },
+    {
+      "text": "you came to work in AI uh great question",
+      "start": 38.0,
+      "duration": 6.12
+    },
+    {
+      "text": "so uh in another life I did a PhD in uh",
+      "start": 40.96,
+      "duration": 5.68
+    },
+    {
+      "text": "theoretical physics uh from there I",
+      "start": 44.12,
+      "duration": 4.759
+    },
+    {
+      "text": "moved uh to different fields so I kind",
+      "start": 46.64,
+      "duration": 4.32
+    },
+    {
+      "text": "of spent some time in Goldman uh working",
+      "start": 48.879,
+      "duration": 5.081
+    },
+    {
+      "text": "in finance uh from there I moved to uh",
+      "start": 50.96,
+      "duration": 5.2
+    },
+    {
+      "text": "the west coast to John Yahoo this was",
+      "start": 53.96,
+      "duration": 4.8
+    },
+    {
+      "text": "around 2010 and I stayed there until",
+      "start": 56.16,
+      "duration": 4.28
+    },
+    {
+      "text": "about 2014",
+      "start": 58.76,
+      "duration": 3.88
+    },
+    {
+      "text": "uh that was my first exposure really to",
+      "start": 60.44,
+      "duration": 5.28
+    },
+    {
+      "text": "Big Data Systems uh large scale data",
+      "start": 62.64,
+      "duration": 6.24
+    },
+    {
+      "text": "processing and uh machine learning at",
+      "start": 65.72,
+      "duration": 4.84
+    },
+    {
+      "text": "Yahoo I worked in different areas around",
+      "start": 68.88,
+      "duration": 3.12
+    },
+    {
+      "text": "machine learning eventually ended up in",
+      "start": 70.56,
+      "duration": 3.559
+    },
+    {
+      "text": "yahoo research where I was focusing on",
+      "start": 72.0,
+      "duration": 4.2
+    },
+    {
+      "text": "scalable machine learning from there I",
+      "start": 74.119,
+      "duration": 4.881
+    },
+    {
+      "text": "left to uh you know over time join datab",
+      "start": 76.2,
+      "duration": 4.8
+    },
+    {
+      "text": "Brooks where I spent some time working",
+      "start": 79.0,
+      "duration": 3.56
+    },
+    {
+      "text": "on spark but also starting new",
+      "start": 81.0,
+      "duration": 4.64
+    },
+    {
+      "text": "initiatives like gmic and so on uh from",
+      "start": 82.56,
+      "duration": 5.199
+    },
+    {
+      "text": "there I went to uh Splunk to head the",
+      "start": 85.64,
+      "duration": 4.0
+    },
+    {
+      "text": "machine learning research group there",
+      "start": 87.759,
+      "duration": 3.801
+    },
+    {
+      "text": "that's some point of time in this in the",
+      "start": 89.64,
+      "duration": 3.839
+    },
+    {
+      "text": "course of doing all these things I",
+      "start": 91.56,
+      "duration": 4.199
+    },
+    {
+      "text": "wanted to start my own uh company and I",
+      "start": 93.479,
+      "duration": 4.761
+    },
+    {
+      "text": "was thinking about doing that when I uh",
+      "start": 95.759,
+      "duration": 5.121
+    },
+    {
+      "text": "reached out to Ido uh who's the CEO of",
+      "start": 98.24,
+      "duration": 4.8
+    },
+    {
+      "text": "pineco and we started talking and we",
+      "start": 100.88,
+      "duration": 3.8
+    },
+    {
+      "text": "realized that we kind of trying to solve",
+      "start": 103.04,
+      "duration": 5.039
+    },
+    {
+      "text": "very similar uh overlapping problems and",
+      "start": 104.68,
+      "duration": 5.6
+    },
+    {
+      "text": "uh that's kind of how I ended up teaming",
+      "start": 108.079,
+      "duration": 5.64
+    },
+    {
+      "text": "forces with EO again and joining Bank it",
+      "start": 110.28,
+      "duration": 6.96
+    },
+    {
+      "text": "it strikes me that a lot of our audience",
+      "start": 113.719,
+      "duration": 7.32
+    },
+    {
+      "text": "probably has no idea how huge Yahoo was",
+      "start": 117.24,
+      "duration": 7.28
+    },
+    {
+      "text": "in terms of developing Big Data",
+      "start": 121.039,
+      "duration": 7.321
+    },
+    {
+      "text": "infrastructure and some of the early uh",
+      "start": 124.52,
+      "duration": 5.519
+    },
+    {
+      "text": "kind of commercial uses of machine",
+      "start": 128.36,
+      "duration": 3.8
+    },
+    {
+      "text": "learning in support of search and ads",
+      "start": 130.039,
+      "duration": 5.84
+    },
+    {
+      "text": "and so many things absolutely I think uh",
+      "start": 132.16,
+      "duration": 6.2
+    },
+    {
+      "text": "you know some of the best uh work in uh",
+      "start": 135.879,
+      "duration": 5.521
+    },
+    {
+      "text": "Cloud systems um machine learning online",
+      "start": 138.36,
+      "duration": 4.68
+    },
+    {
+      "text": "machine learning and so on had kind of",
+      "start": 141.4,
+      "duration": 3.64
+    },
+    {
+      "text": "come out of Yahoo people who worked at",
+      "start": 143.04,
+      "duration": 4.64
+    },
+    {
+      "text": "Yahoo who eventually went to uh places",
+      "start": 145.04,
+      "duration": 5.36
+    },
+    {
+      "text": "like Google and so on MH so yes it's",
+      "start": 147.68,
+      "duration": 4.559
+    },
+    {
+      "text": "been certainly formative for the whole",
+      "start": 150.4,
+      "duration": 4.0
+    },
+    {
+      "text": "industry but for me personally as well",
+      "start": 152.239,
+      "duration": 4.36
+    },
+    {
+      "text": "it's one of the it's it's it's really",
+      "start": 154.4,
+      "duration": 3.64
+    },
+    {
+      "text": "the place where I learned a lot of lot",
+      "start": 156.599,
+      "duration": 4.201
+    },
+    {
+      "text": "about the basics that was needed to kind",
+      "start": 158.04,
+      "duration": 4.559
+    },
+    {
+      "text": "of work on Big Data Systems machine",
+      "start": 160.8,
+      "duration": 3.48
+    },
+    {
+      "text": "learning and so",
+      "start": 162.599,
+      "duration": 4.64
+    },
+    {
+      "text": "on and you know we'll be talking of",
+      "start": 164.28,
+      "duration": 5.64
+    },
+    {
+      "text": "course about Vector databases and and",
+      "start": 167.239,
+      "duration": 5.36
+    },
+    {
+      "text": "why they have suddenly become so",
+      "start": 169.92,
+      "duration": 5.039
+    },
+    {
+      "text": "interesting but you mentioned um",
+      "start": 172.599,
+      "duration": 4.801
+    },
+    {
+      "text": "connecting with the the founder of the",
+      "start": 174.959,
+      "duration": 6.241
+    },
+    {
+      "text": "CEO of pine cone um does this predate",
+      "start": 177.4,
+      "duration": 7.04
+    },
+    {
+      "text": "Rag and llms and and all of that has",
+      "start": 181.2,
+      "duration": 4.8
+    },
+    {
+      "text": "pinec con been working on Vector",
+      "start": 184.44,
+      "duration": 4.879
+    },
+    {
+      "text": "databases uh for a while now yes so Pine",
+      "start": 186.0,
+      "duration": 4.959
+    },
+    {
+      "text": "con has been working on Vector databases",
+      "start": 189.319,
+      "duration": 4.84
+    },
+    {
+      "text": "for several years now uh I myself joined",
+      "start": 190.959,
+      "duration": 5.56
+    },
+    {
+      "text": "Pine con about uh two years and six",
+      "start": 194.159,
+      "duration": 6.681
+    },
+    {
+      "text": "months or so back okay now uh while Rag",
+      "start": 196.519,
+      "duration": 7.601
+    },
+    {
+      "text": "and llms are kind of uh becoming very",
+      "start": 200.84,
+      "duration": 7.2
+    },
+    {
+      "text": "popular now the the research and uh",
+      "start": 204.12,
+      "duration": 6.839
+    },
+    {
+      "text": "development on Rag and uh llms have been",
+      "start": 208.04,
+      "duration": 4.96
+    },
+    {
+      "text": "happening for a while language models",
+      "start": 210.959,
+      "duration": 3.28
+    },
+    {
+      "text": "have been getting bigger and bigger for",
+      "start": 213.0,
+      "duration": 4.4
+    },
+    {
+      "text": "a while so uh it's it was only a matter",
+      "start": 214.239,
+      "duration": 5.801
+    },
+    {
+      "text": "of course that they would end up here uh",
+      "start": 217.4,
+      "duration": 4.36
+    },
+    {
+      "text": "so we were aware of the llms we were",
+      "start": 220.04,
+      "duration": 3.759
+    },
+    {
+      "text": "aware of the trends in language models",
+      "start": 221.76,
+      "duration": 6.119
+    },
+    {
+      "text": "we were thinking already about how uh",
+      "start": 223.799,
+      "duration": 5.72
+    },
+    {
+      "text": "Vector databases could be used in these",
+      "start": 227.879,
+      "duration": 3.92
+    },
+    {
+      "text": "sort of flows and so on but uh the",
+      "start": 229.519,
+      "duration": 3.681
+    },
+    {
+      "text": "industry as a whole has started taking",
+      "start": 231.799,
+      "duration": 3.881
+    },
+    {
+      "text": "off really only in the last year around",
+      "start": 233.2,
+      "duration": 5.84
+    },
+    {
+      "text": "these topics yeah yeah yeah so elaborate",
+      "start": 235.68,
+      "duration": 4.6
+    },
+    {
+      "text": "on",
+      "start": 239.04,
+      "duration": 3.44
+    },
+    {
+      "text": "uh on that from from your perspective",
+      "start": 240.28,
+      "duration": 5.12
+    },
+    {
+      "text": "you know when you think about how Vector",
+      "start": 242.48,
+      "duration": 5.2
+    },
+    {
+      "text": "databases have you know suddenly come",
+      "start": 245.4,
+      "duration": 5.399
+    },
+    {
+      "text": "into the Limelight and uh you know",
+      "start": 247.68,
+      "duration": 4.759
+    },
+    {
+      "text": "people who wouldn't have thought about",
+      "start": 250.799,
+      "duration": 3.481
+    },
+    {
+      "text": "deploying a vector database previously",
+      "start": 252.439,
+      "duration": 3.401
+    },
+    {
+      "text": "are now trying to figure out what this",
+      "start": 254.28,
+      "duration": 3.84
+    },
+    {
+      "text": "thing is and how do I use it like tell",
+      "start": 255.84,
+      "duration": 3.959
+    },
+    {
+      "text": "us about the evolution of that from from",
+      "start": 258.12,
+      "duration": 3.92
+    },
+    {
+      "text": "your perspective and and you know is the",
+      "start": 259.799,
+      "duration": 4.201
+    },
+    {
+      "text": "attention being placed on Vector",
+      "start": 262.04,
+      "duration": 4.36
+    },
+    {
+      "text": "databases uh you know is it appropriate",
+      "start": 264.0,
+      "duration": 5.36
+    },
+    {
+      "text": "is it uh what's the role of the the",
+      "start": 266.4,
+      "duration": 4.92
+    },
+    {
+      "text": "vector databases and what folks are",
+      "start": 269.36,
+      "duration": 5.04
+    },
+    {
+      "text": "trying to do now that's a great question",
+      "start": 271.32,
+      "duration": 5.24
+    },
+    {
+      "text": "uh I think before uh talking about",
+      "start": 274.4,
+      "duration": 3.92
+    },
+    {
+      "text": "Vector databases it might help to set",
+      "start": 276.56,
+      "duration": 5.04
+    },
+    {
+      "text": "the context a little bit Yeah so uh you",
+      "start": 278.32,
+      "duration": 6.439
+    },
+    {
+      "text": "know chat GPT and uh models like that",
+      "start": 281.6,
+      "duration": 5.52
+    },
+    {
+      "text": "are what we call large language models",
+      "start": 284.759,
+      "duration": 4.241
+    },
+    {
+      "text": "these large language models are really",
+      "start": 287.12,
+      "duration": 3.68
+    },
+    {
+      "text": "just sequence to sequence models so they",
+      "start": 289.0,
+      "duration": 3.479
+    },
+    {
+      "text": "take a sequence of text and produce a",
+      "start": 290.8,
+      "duration": 4.119
+    },
+    {
+      "text": "sequence of text right now you can use",
+      "start": 292.479,
+      "duration": 4.0
+    },
+    {
+      "text": "this for a variety of tasks you can use",
+      "start": 294.919,
+      "duration": 3.201
+    },
+    {
+      "text": "this for summarization you can use this",
+      "start": 296.479,
+      "duration": 3.881
+    },
+    {
+      "text": "for search you can use this for",
+      "start": 298.12,
+      "duration": 4.68
+    },
+    {
+      "text": "literally you know new new use cases are",
+      "start": 300.36,
+      "duration": 4.96
+    },
+    {
+      "text": "coming up on a daily basis uh what has",
+      "start": 302.8,
+      "duration": 3.959
+    },
+    {
+      "text": "made them very powerful is that these",
+      "start": 305.32,
+      "duration": 3.719
+    },
+    {
+      "text": "models are really large they in some",
+      "start": 306.759,
+      "duration": 4.321
+    },
+    {
+      "text": "sense embed the world's knowledge in",
+      "start": 309.039,
+      "duration": 3.921
+    },
+    {
+      "text": "their parameters so they are trained on",
+      "start": 311.08,
+      "duration": 5.44
+    },
+    {
+      "text": "a lot of data they embed uh both the",
+      "start": 312.96,
+      "duration": 6.04
+    },
+    {
+      "text": "structure of language itself as well as",
+      "start": 316.52,
+      "duration": 5.239
+    },
+    {
+      "text": "the ability to reason in their",
+      "start": 319.0,
+      "duration": 5.479
+    },
+    {
+      "text": "parameters uh and then they can be used",
+      "start": 321.759,
+      "duration": 4.681
+    },
+    {
+      "text": "what makes them really powerful is that",
+      "start": 324.479,
+      "duration": 3.881
+    },
+    {
+      "text": "now they can be used across tasks that",
+      "start": 326.44,
+      "duration": 3.759
+    },
+    {
+      "text": "they weren't specifically trained for",
+      "start": 328.36,
+      "duration": 3.88
+    },
+    {
+      "text": "okay and this is what really made them",
+      "start": 330.199,
+      "duration": 4.801
+    },
+    {
+      "text": "very powerful now the best way to think",
+      "start": 332.24,
+      "duration": 5.519
+    },
+    {
+      "text": "about large language models these days",
+      "start": 335.0,
+      "duration": 5.0
+    },
+    {
+      "text": "is that they are uh the intelligence",
+      "start": 337.759,
+      "duration": 5.841
+    },
+    {
+      "text": "layer or the orchestration layer uh for",
+      "start": 340.0,
+      "duration": 6.28
+    },
+    {
+      "text": "emerging generative AI applications okay",
+      "start": 343.6,
+      "duration": 4.8
+    },
+    {
+      "text": "what I mean by that is you can use them",
+      "start": 346.28,
+      "duration": 4.68
+    },
+    {
+      "text": "to actually orchestrate uh intelligent",
+      "start": 348.4,
+      "duration": 5.96
+    },
+    {
+      "text": "AI uh flows uh you can also use them to",
+      "start": 350.96,
+      "duration": 6.88
+    },
+    {
+      "text": "reason about things okay MH um so they",
+      "start": 354.36,
+      "duration": 4.64
+    },
+    {
+      "text": "act as the intelligence and the",
+      "start": 357.84,
+      "duration": 3.28
+    },
+    {
+      "text": "orchestration layer but something is",
+      "start": 359.0,
+      "duration": 4.479
+    },
+    {
+      "text": "missing if you just have an llm if you",
+      "start": 361.12,
+      "duration": 4.079
+    },
+    {
+      "text": "just have a large language model you're",
+      "start": 363.479,
+      "duration": 3.681
+    },
+    {
+      "text": "missing what we call the knowledge layer",
+      "start": 365.199,
+      "duration": 4.12
+    },
+    {
+      "text": "okay so uh what you're missing is the",
+      "start": 367.16,
+      "duration": 4.28
+    },
+    {
+      "text": "actual knowledge required to perform a",
+      "start": 369.319,
+      "duration": 4.28
+    },
+    {
+      "text": "lot of knowledge intensive tasks right",
+      "start": 371.44,
+      "duration": 3.759
+    },
+    {
+      "text": "that's really where Vector databas is",
+      "start": 373.599,
+      "duration": 4.401
+    },
+    {
+      "text": "com in now large language models to some",
+      "start": 375.199,
+      "duration": 5.361
+    },
+    {
+      "text": "extent embed their embed the World",
+      "start": 378.0,
+      "duration": 4.72
+    },
+    {
+      "text": "Knowledge to some extent in their",
+      "start": 380.56,
+      "duration": 4.24
+    },
+    {
+      "text": "parameters right so it's not like they",
+      "start": 382.72,
+      "duration": 3.84
+    },
+    {
+      "text": "don't have any knowledge they do have",
+      "start": 384.8,
+      "duration": 3.32
+    },
+    {
+      "text": "World Knowledge they do have the ability",
+      "start": 386.56,
+      "duration": 3.16
+    },
+    {
+      "text": "to reason based on that knowledge and so",
+      "start": 388.12,
+      "duration": 4.6
+    },
+    {
+      "text": "on but uh they what they lack is the",
+      "start": 389.72,
+      "duration": 6.72
+    },
+    {
+      "text": "ability to access accurate uh you know",
+      "start": 392.72,
+      "duration": 6.24
+    },
+    {
+      "text": "relevant knowledge and that's what",
+      "start": 396.44,
+      "duration": 5.52
+    },
+    {
+      "text": "Vector databases provide now to to",
+      "start": 398.96,
+      "duration": 4.72
+    },
+    {
+      "text": "discuss how Vector databases provide",
+      "start": 401.96,
+      "duration": 3.16
+    },
+    {
+      "text": "this you kind of need to take a little",
+      "start": 403.68,
+      "duration": 3.4
+    },
+    {
+      "text": "bit of a step back and talk about the",
+      "start": 405.12,
+      "duration": 4.199
+    },
+    {
+      "text": "other piece of this this uh entire",
+      "start": 407.08,
+      "duration": 5.04
+    },
+    {
+      "text": "workflow which is retrieval okay so if",
+      "start": 409.319,
+      "duration": 6.041
+    },
+    {
+      "text": "you talk about uh retrieving relevant",
+      "start": 412.12,
+      "duration": 5.16
+    },
+    {
+      "text": "accurate knowledge now this is something",
+      "start": 415.36,
+      "duration": 3.44
+    },
+    {
+      "text": "that people have been doing before this",
+      "start": 417.28,
+      "duration": 4.319
+    },
+    {
+      "text": "this used to be something we used to do",
+      "start": 418.8,
+      "duration": 4.04
+    },
+    {
+      "text": "even before there were large language",
+      "start": 421.599,
+      "duration": 2.841
+    },
+    {
+      "text": "models right if you think about search",
+      "start": 422.84,
+      "duration": 3.96
+    },
+    {
+      "text": "engines like Google if you think about",
+      "start": 424.44,
+      "duration": 5.24
+    },
+    {
+      "text": "uh uh any sort of a search engine uh",
+      "start": 426.8,
+      "duration": 5.239
+    },
+    {
+      "text": "over text documents for example that's",
+      "start": 429.68,
+      "duration": 5.12
+    },
+    {
+      "text": "what it does what it does is you take",
+      "start": 432.039,
+      "duration": 5.241
+    },
+    {
+      "text": "those documents you put them in this",
+      "start": 434.8,
+      "duration": 4.28
+    },
+    {
+      "text": "sort of a search engine then you can ask",
+      "start": 437.28,
+      "duration": 3.4
+    },
+    {
+      "text": "questions about it you can you can",
+      "start": 439.08,
+      "duration": 3.6
+    },
+    {
+      "text": "search over it what it does what's",
+      "start": 440.68,
+      "duration": 3.76
+    },
+    {
+      "text": "called retrieval and the field of",
+      "start": 442.68,
+      "duration": 3.56
+    },
+    {
+      "text": "information retrieval is very rich very",
+      "start": 444.44,
+      "duration": 5.52
+    },
+    {
+      "text": "well understood in the classic sense of",
+      "start": 446.24,
+      "duration": 6.76
+    },
+    {
+      "text": "retrieving text documents based on",
+      "start": 449.96,
+      "duration": 4.76
+    },
+    {
+      "text": "keyword matches this is something that's",
+      "start": 453.0,
+      "duration": 4.0
+    },
+    {
+      "text": "uh very very well understood but over",
+      "start": 454.72,
+      "duration": 6.52
+    },
+    {
+      "text": "the last maybe half a de decade or so",
+      "start": 457.0,
+      "duration": 5.639
+    },
+    {
+      "text": "there's been a new type of retrieval",
+      "start": 461.24,
+      "duration": 3.2
+    },
+    {
+      "text": "that's already been happening and Vector",
+      "start": 462.639,
+      "duration": 3.321
+    },
+    {
+      "text": "databases have already been used for",
+      "start": 464.44,
+      "duration": 3.599
+    },
+    {
+      "text": "that which is what's called dense",
+      "start": 465.96,
+      "duration": 5.519
+    },
+    {
+      "text": "retrieval or retrieval using vectors so",
+      "start": 468.039,
+      "duration": 5.16
+    },
+    {
+      "text": "instead of doing just keyword matches",
+      "start": 471.479,
+      "duration": 4.361
+    },
+    {
+      "text": "over whether your Corpus contains",
+      "start": 473.199,
+      "duration": 4.56
+    },
+    {
+      "text": "keywords that match your query and how",
+      "start": 475.84,
+      "duration": 4.4
+    },
+    {
+      "text": "relevant are those keywords to",
+      "start": 477.759,
+      "duration": 5.44
+    },
+    {
+      "text": "the the query itself this used to be the",
+      "start": 480.24,
+      "duration": 4.799
+    },
+    {
+      "text": "traditional focus of information",
+      "start": 483.199,
+      "duration": 4.44
+    },
+    {
+      "text": "retrieval what's happened recently over",
+      "start": 485.039,
+      "duration": 5.28
+    },
+    {
+      "text": "the last five seven years is that people",
+      "start": 487.639,
+      "duration": 3.921
+    },
+    {
+      "text": "have realized that if you take those",
+      "start": 490.319,
+      "duration": 3.481
+    },
+    {
+      "text": "documents if you embed them using these",
+      "start": 491.56,
+      "duration": 4.44
+    },
+    {
+      "text": "uh neural networks what we call",
+      "start": 493.8,
+      "duration": 4.72
+    },
+    {
+      "text": "embedding models and you put them into",
+      "start": 496.0,
+      "duration": 4.68
+    },
+    {
+      "text": "something like a vector database now you",
+      "start": 498.52,
+      "duration": 4.84
+    },
+    {
+      "text": "can search over them much more uh much",
+      "start": 500.68,
+      "duration": 4.32
+    },
+    {
+      "text": "better meaning your searches give you",
+      "start": 503.36,
+      "duration": 3.88
+    },
+    {
+      "text": "much more relevant context uh much",
+      "start": 505.0,
+      "duration": 4.84
+    },
+    {
+      "text": "better retrieval can be achieved uh",
+      "start": 507.24,
+      "duration": 4.919
+    },
+    {
+      "text": "doing this and what do Vector databases",
+      "start": 509.84,
+      "duration": 4.72
+    },
+    {
+      "text": "really do here they act as the evolution",
+      "start": 512.159,
+      "duration": 4.68
+    },
+    {
+      "text": "of search engines right so what they do",
+      "start": 514.56,
+      "duration": 6.12
+    },
+    {
+      "text": "is instead of searching over uh text uh",
+      "start": 516.839,
+      "duration": 6.0
+    },
+    {
+      "text": "by breaking up text into chunks of",
+      "start": 520.68,
+      "duration": 4.04
+    },
+    {
+      "text": "keywords and then creating posting lists",
+      "start": 522.839,
+      "duration": 4.281
+    },
+    {
+      "text": "and then somehow searching over them",
+      "start": 524.72,
+      "duration": 4.4
+    },
+    {
+      "text": "this is what search engines used to do",
+      "start": 527.12,
+      "duration": 4.52
+    },
+    {
+      "text": "in Vector databases retrieval Works",
+      "start": 529.12,
+      "duration": 4.6
+    },
+    {
+      "text": "differently what what happens is that",
+      "start": 531.64,
+      "duration": 4.52
+    },
+    {
+      "text": "you take this same text you chunk it up",
+      "start": 533.72,
+      "duration": 4.44
+    },
+    {
+      "text": "somehow each chunk is embedded with a",
+      "start": 536.16,
+      "duration": 4.6
+    },
+    {
+      "text": "neural network to produce an embedding",
+      "start": 538.16,
+      "duration": 4.04
+    },
+    {
+      "text": "an embedding can be just thought of as",
+      "start": 540.76,
+      "duration": 3.72
+    },
+    {
+      "text": "an array of floats an array of uh",
+      "start": 542.2,
+      "duration": 4.44
+    },
+    {
+      "text": "floating Point numbers right and you",
+      "start": 544.48,
+      "duration": 3.919
+    },
+    {
+      "text": "take these embeddings and put them in a",
+      "start": 546.64,
+      "duration": 4.04
+    },
+    {
+      "text": "database like a put them in a vector",
+      "start": 548.399,
+      "duration": 4.841
+    },
+    {
+      "text": "database and Vector databases are",
+      "start": 550.68,
+      "duration": 4.68
+    },
+    {
+      "text": "uniquely positioned to answer the",
+      "start": 553.24,
+      "duration": 3.88
+    },
+    {
+      "text": "following question which is given a",
+      "start": 555.36,
+      "duration": 4.68
+    },
+    {
+      "text": "query you encode the query as well and",
+      "start": 557.12,
+      "duration": 4.92
+    },
+    {
+      "text": "now you have a query vector and you can",
+      "start": 560.04,
+      "duration": 4.479
+    },
+    {
+      "text": "ask a vector database give me the most",
+      "start": 562.04,
+      "duration": 5.239
+    },
+    {
+      "text": "relevant candidate document vectors",
+      "start": 564.519,
+      "duration": 5.121
+    },
+    {
+      "text": "corresponding to this quy vector",
+      "start": 567.279,
+      "duration": 5.481
+    },
+    {
+      "text": "and this this particular interaction",
+      "start": 569.64,
+      "duration": 4.879
+    },
+    {
+      "text": "retrieves documents for you that are",
+      "start": 572.76,
+      "duration": 3.72
+    },
+    {
+      "text": "most relevant to the query and does",
+      "start": 574.519,
+      "duration": 4.201
+    },
+    {
+      "text": "what's called semantic search semantic",
+      "start": 576.48,
+      "duration": 3.28
+    },
+    {
+      "text": "semantic",
+      "start": 578.72,
+      "duration": 4.52
+    },
+    {
+      "text": "retrieval uh so modern information",
+      "start": 579.76,
+      "duration": 5.16
+    },
+    {
+      "text": "retrieval already does this which is",
+      "start": 583.24,
+      "duration": 3.52
+    },
+    {
+      "text": "modern information retrieval uses Vector",
+      "start": 584.92,
+      "duration": 4.68
+    },
+    {
+      "text": "databases as the core of retrieving",
+      "start": 586.76,
+      "duration": 5.6
+    },
+    {
+      "text": "accurate relevant knowledge it's been my",
+      "start": 589.6,
+      "duration": 6.76
+    },
+    {
+      "text": "observation that you know as llms and",
+      "start": 592.36,
+      "duration": 6.44
+    },
+    {
+      "text": "interest in chat GPT and the like have",
+      "start": 596.36,
+      "duration": 4.719
+    },
+    {
+      "text": "wrapped rapidly expanded the the field",
+      "start": 598.8,
+      "duration": 7.64
+    },
+    {
+      "text": "of AI that the connection between rag as",
+      "start": 601.079,
+      "duration": 8.0
+    },
+    {
+      "text": "an approach to getting a chatbot to work",
+      "start": 606.44,
+      "duration": 6.44
+    },
+    {
+      "text": "and search and information retrieval is",
+      "start": 609.079,
+      "duration": 7.641
+    },
+    {
+      "text": "not really fully appreciated by folks um",
+      "start": 612.88,
+      "duration": 6.84
+    },
+    {
+      "text": "yes and the folks that I've seen have",
+      "start": 616.72,
+      "duration": 5.92
+    },
+    {
+      "text": "the most success in getting you know",
+      "start": 619.72,
+      "duration": 5.359
+    },
+    {
+      "text": "beyond a rag demo to something that's",
+      "start": 622.64,
+      "duration": 5.8
+    },
+    {
+      "text": "actually useful have a lot of experience",
+      "start": 625.079,
+      "duration": 5.841
+    },
+    {
+      "text": "previous experience working on search",
+      "start": 628.44,
+      "duration": 5.28
+    },
+    {
+      "text": "and relevance types of problems and all",
+      "start": 630.92,
+      "duration": 5.76
+    },
+    {
+      "text": "that knowledge comes into play in making",
+      "start": 633.72,
+      "duration": 5.119
+    },
+    {
+      "text": "a chatbot that a user is actually going",
+      "start": 636.68,
+      "duration": 5.24
+    },
+    {
+      "text": "to want to you to use because it's it is",
+      "start": 638.839,
+      "duration": 5.201
+    },
+    {
+      "text": "you know relevant and timely and and",
+      "start": 641.92,
+      "duration": 3.96
+    },
+    {
+      "text": "provides the right information do you",
+      "start": 644.04,
+      "duration": 4.239
+    },
+    {
+      "text": "see some of the same things absolutely",
+      "start": 645.88,
+      "duration": 4.6
+    },
+    {
+      "text": "so in fact in fact all of the all of",
+      "start": 648.279,
+      "duration": 4.641
+    },
+    {
+      "text": "this work that has gone into retrieval",
+      "start": 650.48,
+      "duration": 5.28
+    },
+    {
+      "text": "uh relevance ranking and so on is what",
+      "start": 652.92,
+      "duration": 4.56
+    },
+    {
+      "text": "is being used along with large language",
+      "start": 655.76,
+      "duration": 5.079
+    },
+    {
+      "text": "models to connect to give them knowledge",
+      "start": 657.48,
+      "duration": 5.2
+    },
+    {
+      "text": "right so when we talked about it we said",
+      "start": 660.839,
+      "duration": 3.761
+    },
+    {
+      "text": "large language models really don't have",
+      "start": 662.68,
+      "duration": 3.76
+    },
+    {
+      "text": "knowledge the knowledge comes from",
+      "start": 664.6,
+      "duration": 4.2
+    },
+    {
+      "text": "retrieval MH and all that's why you're",
+      "start": 666.44,
+      "duration": 4.839
+    },
+    {
+      "text": "finding that the people who are able to",
+      "start": 668.8,
+      "duration": 4.76
+    },
+    {
+      "text": "uh use retrial argumented generation rag",
+      "start": 671.279,
+      "duration": 4.36
+    },
+    {
+      "text": "workflows the best are people who are",
+      "start": 673.56,
+      "duration": 5.519
+    },
+    {
+      "text": "really uh invested in doing the best",
+      "start": 675.639,
+      "duration": 6.081
+    },
+    {
+      "text": "retrieval so put that in another way you",
+      "start": 679.079,
+      "duration": 5.44
+    },
+    {
+      "text": "can think of you can think of a a chat",
+      "start": 681.72,
+      "duration": 6.44
+    },
+    {
+      "text": "bot that's based on rag as doing you",
+      "start": 684.519,
+      "duration": 5.481
+    },
+    {
+      "text": "know executing a search on your",
+      "start": 688.16,
+      "duration": 5.08
+    },
+    {
+      "text": "documents based on a query retrieving or",
+      "start": 690.0,
+      "duration": 6.079
+    },
+    {
+      "text": "pulling out the results that are most",
+      "start": 693.24,
+      "duration": 4.719
+    },
+    {
+      "text": "relevant to that query and then the role",
+      "start": 696.079,
+      "duration": 4.2
+    },
+    {
+      "text": "of the llm is just to summarize that and",
+      "start": 697.959,
+      "duration": 5.481
+    },
+    {
+      "text": "make it you know present it to the user",
+      "start": 700.279,
+      "duration": 5.36
+    },
+    {
+      "text": "and so if you don't do a good job on",
+      "start": 703.44,
+      "duration": 4.28
+    },
+    {
+      "text": "that retrieval you've got like a garbage",
+      "start": 705.639,
+      "duration": 3.921
+    },
+    {
+      "text": "in garbage out type of problem and the",
+      "start": 707.72,
+      "duration": 4.359
+    },
+    {
+      "text": "chat bot's not going to be able to",
+      "start": 709.56,
+      "duration": 5.64
+    },
+    {
+      "text": "produce useful results absolutely uh",
+      "start": 712.079,
+      "duration": 4.56
+    },
+    {
+      "text": "it's even more interesting than that",
+      "start": 715.2,
+      "duration": 4.68
+    },
+    {
+      "text": "which is remember I told you that uh",
+      "start": 716.639,
+      "duration": 4.841
+    },
+    {
+      "text": "llms have been trained on large amounts",
+      "start": 719.88,
+      "duration": 3.6
+    },
+    {
+      "text": "of World Knowledge MH you could take the",
+      "start": 721.48,
+      "duration": 3.96
+    },
+    {
+      "text": "same World Knowledge put it into such a",
+      "start": 723.48,
+      "duration": 4.08
+    },
+    {
+      "text": "vector database and if you do retrieval",
+      "start": 725.44,
+      "duration": 4.36
+    },
+    {
+      "text": "really well you're making the llms",
+      "start": 727.56,
+      "duration": 4.0
+    },
+    {
+      "text": "better even on the knowledge that they",
+      "start": 729.8,
+      "duration": 3.719
+    },
+    {
+      "text": "were already trained on forget about the",
+      "start": 731.56,
+      "duration": 3.2
+    },
+    {
+      "text": "knowledge they had no access to like",
+      "start": 733.519,
+      "duration": 2.921
+    },
+    {
+      "text": "your your own documents or some",
+      "start": 734.76,
+      "duration": 4.84
+    },
+    {
+      "text": "corporate uh uh legal documentation",
+      "start": 736.44,
+      "duration": 4.6
+    },
+    {
+      "text": "things that they would never have access",
+      "start": 739.6,
+      "duration": 3.479
+    },
+    {
+      "text": "to right so even on knowledge that they",
+      "start": 741.04,
+      "duration": 3.919
+    },
+    {
+      "text": "already have access to retrieval",
+      "start": 743.079,
+      "duration": 5.281
+    },
+    {
+      "text": "actually provides better results and so",
+      "start": 744.959,
+      "duration": 6.24
+    },
+    {
+      "text": "to maybe put that into to context what",
+      "start": 748.36,
+      "duration": 4.839
+    },
+    {
+      "text": "I'm hearing you say there is when you're",
+      "start": 751.199,
+      "duration": 5.64
+    },
+    {
+      "text": "using an llm and",
+      "start": 753.199,
+      "duration": 5.64
+    },
+    {
+      "text": "retrieval you've got you know you're",
+      "start": 756.839,
+      "duration": 3.721
+    },
+    {
+      "text": "you're talking about two algorithms one",
+      "start": 758.839,
+      "duration": 4.401
+    },
+    {
+      "text": "algorithm is a kind of sequence to",
+      "start": 760.56,
+      "duration": 5.079
+    },
+    {
+      "text": "sequence next token prediction algorithm",
+      "start": 763.24,
+      "duration": 6.279
+    },
+    {
+      "text": "and the other is an embedding based",
+      "start": 765.639,
+      "duration": 6.481
+    },
+    {
+      "text": "information retrieval algorithm and",
+      "start": 769.519,
+      "duration": 4.921
+    },
+    {
+      "text": "you're essentially saying that embedding",
+      "start": 772.12,
+      "duration": 4.2
+    },
+    {
+      "text": "based information retrieval is better",
+      "start": 774.44,
+      "duration": 3.839
+    },
+    {
+      "text": "than sequence to sequence at knowledge",
+      "start": 776.32,
+      "duration": 3.72
+    },
+    {
+      "text": "production is that too strong a",
+      "start": 778.279,
+      "duration": 4.041
+    },
+    {
+      "text": "statement or is that yeah I think the",
+      "start": 780.04,
+      "duration": 4.239
+    },
+    {
+      "text": "best way to say it is that the two used",
+      "start": 782.32,
+      "duration": 4.319
+    },
+    {
+      "text": "together the sequence to sequence models",
+      "start": 784.279,
+      "duration": 4.281
+    },
+    {
+      "text": "like llms used together with information",
+      "start": 786.639,
+      "duration": 4.481
+    },
+    {
+      "text": "retrieval through a vector database is",
+      "start": 788.56,
+      "duration": 4.719
+    },
+    {
+      "text": "strictly better than using llms by",
+      "start": 791.12,
+      "duration": 4.079
+    },
+    {
+      "text": "themselves or or even fine-tuning llms",
+      "start": 793.279,
+      "duration": 4.68
+    },
+    {
+      "text": "to do something right so purely just",
+      "start": 795.199,
+      "duration": 5.241
+    },
+    {
+      "text": "retraining llms on your data doesn't",
+      "start": 797.959,
+      "duration": 4.921
+    },
+    {
+      "text": "provide you as much of value as using an",
+      "start": 800.44,
+      "duration": 4.44
+    },
+    {
+      "text": "llm under context with a retrieval",
+      "start": 802.88,
+      "duration": 4.8
+    },
+    {
+      "text": "engine like vectory dat bases so this is",
+      "start": 804.88,
+      "duration": 5.16
+    },
+    {
+      "text": "what's called rag rag is the combination",
+      "start": 807.68,
+      "duration": 5.519
+    },
+    {
+      "text": "of the and ands out to the best way to",
+      "start": 810.04,
+      "duration": 5.68
+    },
+    {
+      "text": "provide knowledge to these sort of",
+      "start": 813.199,
+      "duration": 5.241
+    },
+    {
+      "text": "knowledge intensive",
+      "start": 815.72,
+      "duration": 6.679
+    },
+    {
+      "text": "tasks and so I alluded to this earlier",
+      "start": 818.44,
+      "duration": 6.0
+    },
+    {
+      "text": "you know you can go online and search",
+      "start": 822.399,
+      "duration": 4.521
+    },
+    {
+      "text": "out you know rag demo and you know",
+      "start": 824.44,
+      "duration": 4.44
+    },
+    {
+      "text": "independent of your language or",
+      "start": 826.92,
+      "duration": 4.76
+    },
+    {
+      "text": "framework or database of choice like",
+      "start": 828.88,
+      "duration": 6.44
+    },
+    {
+      "text": "there are tons of um you know code",
+      "start": 831.68,
+      "duration": 5.599
+    },
+    {
+      "text": "walkthroughs and blog posts and things",
+      "start": 835.32,
+      "duration": 5.519
+    },
+    {
+      "text": "like that that can uh help you you know",
+      "start": 837.279,
+      "duration": 5.24
+    },
+    {
+      "text": "create a demo of this like it's very",
+      "start": 840.839,
+      "duration": 4.841
+    },
+    {
+      "text": "easy to to demonstrate but that's just",
+      "start": 842.519,
+      "duration": 6.601
+    },
+    {
+      "text": "the kind of the beginning and delivering",
+      "start": 845.68,
+      "duration": 6.279
+    },
+    {
+      "text": "something that you would want to put in",
+      "start": 849.12,
+      "duration": 4.88
+    },
+    {
+      "text": "front of your users is a lot more",
+      "start": 851.959,
+      "duration": 4.0
+    },
+    {
+      "text": "complex can you talk about some of those",
+      "start": 854.0,
+      "duration": 3.639
+    },
+    {
+      "text": "complexities and some of the challenges",
+      "start": 855.959,
+      "duration": 4.081
+    },
+    {
+      "text": "that you see folks running into yeah I",
+      "start": 857.639,
+      "duration": 3.801
+    },
+    {
+      "text": "think there's a multitude of",
+      "start": 860.04,
+      "duration": 3.039
+    },
+    {
+      "text": "complexities some of them are just on",
+      "start": 861.44,
+      "duration": 3.04
+    },
+    {
+      "text": "the infrastructure and kind of the",
+      "start": 863.079,
+      "duration": 3.921
+    },
+    {
+      "text": "scalability side which is it's it's one",
+      "start": 864.48,
+      "duration": 4.799
+    },
+    {
+      "text": "thing to create a demo with a few 100",
+      "start": 867.0,
+      "duration": 4.079
+    },
+    {
+      "text": "documents or a small number of documents",
+      "start": 869.279,
+      "duration": 4.36
+    },
+    {
+      "text": "and kind of do retrieval over that doing",
+      "start": 871.079,
+      "duration": 4.481
+    },
+    {
+      "text": "retrieval over billions of vectors is an",
+      "start": 873.639,
+      "duration": 3.681
+    },
+    {
+      "text": "entirely different problem right that's",
+      "start": 875.56,
+      "duration": 5.24
+    },
+    {
+      "text": "kind of why uh some people at you know",
+      "start": 877.32,
+      "duration": 5.759
+    },
+    {
+      "text": "uh people like Pine con spend uh most of",
+      "start": 880.8,
+      "duration": 4.839
+    },
+    {
+      "text": "their time uh building and perfecting",
+      "start": 883.079,
+      "duration": 3.961
+    },
+    {
+      "text": "Vector databases because doing this at",
+      "start": 885.639,
+      "duration": 3.921
+    },
+    {
+      "text": "scale is very very hardh the other thing",
+      "start": 887.04,
+      "duration": 5.719
+    },
+    {
+      "text": "is that uh outside of uh outside of",
+      "start": 889.56,
+      "duration": 5.719
+    },
+    {
+      "text": "simple demos your Corpus evolves so",
+      "start": 892.759,
+      "duration": 4.08
+    },
+    {
+      "text": "people are adding documents deleting",
+      "start": 895.279,
+      "duration": 4.281
+    },
+    {
+      "text": "documents uh editing them redacting them",
+      "start": 896.839,
+      "duration": 5.201
+    },
+    {
+      "text": "and so on and being able to take the",
+      "start": 899.56,
+      "duration": 4.76
+    },
+    {
+      "text": "latest information and make it a a",
+      "start": 902.04,
+      "duration": 3.64
+    },
+    {
+      "text": "available for this sort of a rag",
+      "start": 904.32,
+      "duration": 3.879
+    },
+    {
+      "text": "workflow is again a very hard problem",
+      "start": 905.68,
+      "duration": 4.88
+    },
+    {
+      "text": "right uh this is again where this is",
+      "start": 908.199,
+      "duration": 4.121
+    },
+    {
+      "text": "also where the database part of vector",
+      "start": 910.56,
+      "duration": 4.12
+    },
+    {
+      "text": "databases comes in because in in in this",
+      "start": 912.32,
+      "duration": 3.68
+    },
+    {
+      "text": "sort of flow it's acting really like a",
+      "start": 914.68,
+      "duration": 5.2
+    },
+    {
+      "text": "database okay and in essence you're",
+      "start": 916.0,
+      "duration": 6.88
+    },
+    {
+      "text": "synchronizing your Enterprise data",
+      "start": 919.88,
+      "duration": 5.84
+    },
+    {
+      "text": "stores with this embedding store exactly",
+      "start": 922.88,
+      "duration": 5.12
+    },
+    {
+      "text": "exactly and sync is historically really",
+      "start": 925.72,
+      "duration": 3.559
+    },
+    {
+      "text": "challenging",
+      "start": 928.0,
+      "duration": 2.68
+    },
+    {
+      "text": "very challenging but particularly",
+      "start": 929.279,
+      "duration": 3.48
+    },
+    {
+      "text": "challenging for Vector databases I think",
+      "start": 930.68,
+      "duration": 3.719
+    },
+    {
+      "text": "traditional databases have gotten really",
+      "start": 932.759,
+      "duration": 3.0
+    },
+    {
+      "text": "really good at doing this and kind of",
+      "start": 934.399,
+      "duration": 3.44
+    },
+    {
+      "text": "keeping their indexes fresh and so on",
+      "start": 935.759,
+      "duration": 3.721
+    },
+    {
+      "text": "Vector database indexes are very very",
+      "start": 937.839,
+      "duration": 4.12
+    },
+    {
+      "text": "challenging to keep fresh in fact very",
+      "start": 939.48,
+      "duration": 4.24
+    },
+    {
+      "text": "few people have cracked that problem why",
+      "start": 941.959,
+      "duration": 3.56
+    },
+    {
+      "text": "is that how do you keep these uh I think",
+      "start": 943.72,
+      "duration": 3.799
+    },
+    {
+      "text": "the the biggest problem is that it's",
+      "start": 945.519,
+      "duration": 4.401
+    },
+    {
+      "text": "easy to keep an index fresh if your",
+      "start": 947.519,
+      "duration": 4.721
+    },
+    {
+      "text": "index can be built incrementally right",
+      "start": 949.92,
+      "duration": 5.12
+    },
+    {
+      "text": "okay for Vector databases your uh very",
+      "start": 952.24,
+      "duration": 5.2
+    },
+    {
+      "text": "few algorithms exist that actually build",
+      "start": 955.04,
+      "duration": 4.96
+    },
+    {
+      "text": "indexes incrementally right because in",
+      "start": 957.44,
+      "duration": 4.6
+    },
+    {
+      "text": "some sense uh when you put a document",
+      "start": 960.0,
+      "duration": 3.639
+    },
+    {
+      "text": "and encode it and put it into this sort",
+      "start": 962.04,
+      "duration": 3.799
+    },
+    {
+      "text": "of a database you can't just",
+      "start": 963.639,
+      "duration": 4.12
+    },
+    {
+      "text": "incrementally uh you know add",
+      "start": 965.839,
+      "duration": 3.48
+    },
+    {
+      "text": "connections to the rest of the documents",
+      "start": 967.759,
+      "duration": 4.121
+    },
+    {
+      "text": "in some small region of space because if",
+      "start": 969.319,
+      "duration": 5.121
+    },
+    {
+      "text": "you do that uh when a query comes the",
+      "start": 971.88,
+      "duration": 4.439
+    },
+    {
+      "text": "query doesn't has no idea that there is",
+      "start": 974.44,
+      "duration": 3.48
+    },
+    {
+      "text": "a new document in this region of space",
+      "start": 976.319,
+      "duration": 3.96
+    },
+    {
+      "text": "it has to prove right so either the",
+      "start": 977.92,
+      "duration": 4.64
+    },
+    {
+      "text": "query has to scan everything for it to",
+      "start": 980.279,
+      "duration": 4.0
+    },
+    {
+      "text": "know that or the query is going to miss",
+      "start": 982.56,
+      "duration": 4.079
+    },
+    {
+      "text": "the document out and neither of those",
+      "start": 984.279,
+      "duration": 3.961
+    },
+    {
+      "text": "are good right if the query has a scan",
+      "start": 986.639,
+      "duration": 2.401
+    },
+    {
+      "text": "the Entre",
+      "start": 988.24,
+      "duration": 2.56
+    },
+    {
+      "text": "Corpus that's actually computationally",
+      "start": 989.04,
+      "duration": 4.84
+    },
+    {
+      "text": "intractable right whereas if a query you",
+      "start": 990.8,
+      "duration": 4.839
+    },
+    {
+      "text": "know is only looking at the places that",
+      "start": 993.88,
+      "duration": 3.639
+    },
+    {
+      "text": "it already has somehow indexed or",
+      "start": 995.639,
+      "duration": 3.721
+    },
+    {
+      "text": "pre-computed it's not going to know that",
+      "start": 997.519,
+      "duration": 4.161
+    },
+    {
+      "text": "a new document was added here so that",
+      "start": 999.36,
+      "duration": 4.919
+    },
+    {
+      "text": "process of keeping the sort of uh Vector",
+      "start": 1001.68,
+      "duration": 4.959
+    },
+    {
+      "text": "indexes fresh is fundamentally a hard",
+      "start": 1004.279,
+      "duration": 4.161
+    },
+    {
+      "text": "problem okay and this happens to be a",
+      "start": 1006.639,
+      "duration": 3.521
+    },
+    {
+      "text": "hard problem for every known vector",
+      "start": 1008.44,
+      "duration": 3.959
+    },
+    {
+      "text": "vector search algorithm out there so",
+      "start": 1010.16,
+      "duration": 4.08
+    },
+    {
+      "text": "also where we spent the last good half",
+      "start": 1012.399,
+      "duration": 4.761
+    },
+    {
+      "text": "of a year actually close to a year",
+      "start": 1014.24,
+      "duration": 5.32
+    },
+    {
+      "text": "thinking about and solving and figureing",
+      "start": 1017.16,
+      "duration": 7.32
+    },
+    {
+      "text": "out okay and are these problems like is",
+      "start": 1019.56,
+      "duration": 6.6
+    },
+    {
+      "text": "this research Frontier problems like",
+      "start": 1024.48,
+      "duration": 3.76
+    },
+    {
+      "text": "you're implementing you know Cutting",
+      "start": 1026.16,
+      "duration": 5.879
+    },
+    {
+      "text": "Edge algorithms search algorithms or um",
+      "start": 1028.24,
+      "duration": 6.959
+    },
+    {
+      "text": "are they engineering problems this is uh",
+      "start": 1032.039,
+      "duration": 4.601
+    },
+    {
+      "text": "equal parts both research and",
+      "start": 1035.199,
+      "duration": 5.681
+    },
+    {
+      "text": "Engineering so uh you know we uh the way",
+      "start": 1036.64,
+      "duration": 5.559
+    },
+    {
+      "text": "kind of typically it works at least in",
+      "start": 1040.88,
+      "duration": 3.88
+    },
+    {
+      "text": "Pine but in general I think also is that",
+      "start": 1042.199,
+      "duration": 4.24
+    },
+    {
+      "text": "we uh we are pretty pretty much at The",
+      "start": 1044.76,
+      "duration": 4.84
+    },
+    {
+      "text": "Cutting Edge uh researching things and",
+      "start": 1046.439,
+      "duration": 5.281
+    },
+    {
+      "text": "testing it out on lots of data sets uh",
+      "start": 1049.6,
+      "duration": 3.56
+    },
+    {
+      "text": "figuring out what works what doesn't",
+      "start": 1051.72,
+      "duration": 3.88
+    },
+    {
+      "text": "work uh and then when we feel confident",
+      "start": 1053.16,
+      "duration": 4.0
+    },
+    {
+      "text": "enough that we have something that works",
+      "start": 1055.6,
+      "duration": 3.8
+    },
+    {
+      "text": "for the majority of the use cases and",
+      "start": 1057.16,
+      "duration": 4.2
+    },
+    {
+      "text": "provides a lot of value we start",
+      "start": 1059.4,
+      "duration": 3.76
+    },
+    {
+      "text": "engineering and we start building but at",
+      "start": 1061.36,
+      "duration": 2.88
+    },
+    {
+      "text": "the same time we are continuing to",
+      "start": 1063.16,
+      "duration": 3.2
+    },
+    {
+      "text": "research like something like keeping",
+      "start": 1064.24,
+      "duration": 6.04
+    },
+    {
+      "text": "indexes fresh and so on is a is will",
+      "start": 1066.36,
+      "duration": 5.28
+    },
+    {
+      "text": "continue to be a research problem there",
+      "start": 1070.28,
+      "duration": 3.04
+    },
+    {
+      "text": "is a lot to do over the next few years",
+      "start": 1071.64,
+      "duration": 3.48
+    },
+    {
+      "text": "to build world-class Vector databases",
+      "start": 1073.32,
+      "duration": 3.719
+    },
+    {
+      "text": "this way but we know enough to be able",
+      "start": 1075.12,
+      "duration": 3.84
+    },
+    {
+      "text": "to provide a lot of value to today so",
+      "start": 1077.039,
+      "duration": 3.681
+    },
+    {
+      "text": "it's it's really striking that balance",
+      "start": 1078.96,
+      "duration": 5.0
+    },
+    {
+      "text": "between research and Engineering mhm",
+      "start": 1080.72,
+      "duration": 6.0
+    },
+    {
+      "text": "so recapping kind of where we are with",
+      "start": 1083.96,
+      "duration": 4.599
+    },
+    {
+      "text": "regards to challenges there's these",
+      "start": 1086.72,
+      "duration": 3.64
+    },
+    {
+      "text": "fundamental infrastructure challenges",
+      "start": 1088.559,
+      "duration": 4.281
+    },
+    {
+      "text": "associated with scale there are",
+      "start": 1090.36,
+      "duration": 5.72
+    },
+    {
+      "text": "challenges associated with keeping your",
+      "start": 1092.84,
+      "duration": 4.8
+    },
+    {
+      "text": "indexes",
+      "start": 1096.08,
+      "duration": 4.88
+    },
+    {
+      "text": "fresh at scale at scale yeah there's a",
+      "start": 1097.64,
+      "duration": 4.72
+    },
+    {
+      "text": "couple of other challenges by the way",
+      "start": 1100.96,
+      "duration": 3.199
+    },
+    {
+      "text": "yeah there is challenges around just",
+      "start": 1102.36,
+      "duration": 3.84
+    },
+    {
+      "text": "cost right a lot of generative AI",
+      "start": 1104.159,
+      "duration": 3.76
+    },
+    {
+      "text": "workflows today or if somebody's",
+      "start": 1106.2,
+      "duration": 3.12
+    },
+    {
+      "text": "thinking about building a Genera a",
+      "start": 1107.919,
+      "duration": 3.601
+    },
+    {
+      "text": "application MH uh they they have to",
+      "start": 1109.32,
+      "duration": 3.719
+    },
+    {
+      "text": "worry about cost because a lot of these",
+      "start": 1111.52,
+      "duration": 2.84
+    },
+    {
+      "text": "applications today are actually very",
+      "start": 1113.039,
+      "duration": 4.801
+    },
+    {
+      "text": "expensive mhm solely because of there",
+      "start": 1114.36,
+      "duration": 5.48
+    },
+    {
+      "text": "because of hitting uh an expensive",
+      "start": 1117.84,
+      "duration": 3.64
+    },
+    {
+      "text": "inference end point or are there other",
+      "start": 1119.84,
+      "duration": 3.719
+    },
+    {
+      "text": "reasons exactly it's it's part part of",
+      "start": 1121.48,
+      "duration": 3.92
+    },
+    {
+      "text": "it right for example open a end points",
+      "start": 1123.559,
+      "duration": 3.281
+    },
+    {
+      "text": "actually open AI has done a lot to",
+      "start": 1125.4,
+      "duration": 3.92
+    },
+    {
+      "text": "reduce the cost per token but even then",
+      "start": 1126.84,
+      "duration": 4.88
+    },
+    {
+      "text": "it's still very expensive and then you",
+      "start": 1129.32,
+      "duration": 5.16
+    },
+    {
+      "text": "have these uh open source models and uh",
+      "start": 1131.72,
+      "duration": 5.0
+    },
+    {
+      "text": "you know I would call them today at",
+      "start": 1134.48,
+      "duration": 5.559
+    },
+    {
+      "text": "least weaker models uh which are cheaper",
+      "start": 1136.72,
+      "duration": 5.24
+    },
+    {
+      "text": "but they're weaker right so for",
+      "start": 1140.039,
+      "duration": 4.601
+    },
+    {
+      "text": "knowledge intensive tasks people",
+      "start": 1141.96,
+      "duration": 4.44
+    },
+    {
+      "text": "obviously want to use the best models",
+      "start": 1144.64,
+      "duration": 4.64
+    },
+    {
+      "text": "out there MH uh here again you can make",
+      "start": 1146.4,
+      "duration": 4.84
+    },
+    {
+      "text": "weaker models more powerful by adding",
+      "start": 1149.28,
+      "duration": 3.72
+    },
+    {
+      "text": "more context to them and by actually",
+      "start": 1151.24,
+      "duration": 4.28
+    },
+    {
+      "text": "leveraging Vector databases so on so we",
+      "start": 1153.0,
+      "duration": 4.039
+    },
+    {
+      "text": "spent a lot of time trying to figure out",
+      "start": 1155.52,
+      "duration": 4.399
+    },
+    {
+      "text": "how do we make these uh cost prohibitive",
+      "start": 1157.039,
+      "duration": 5.76
+    },
+    {
+      "text": "applications today 10 times cheaper so",
+      "start": 1159.919,
+      "duration": 4.681
+    },
+    {
+      "text": "that you can unlock new use cases in the",
+      "start": 1162.799,
+      "duration": 3.961
+    },
+    {
+      "text": "way that you couldn't before and the",
+      "start": 1164.6,
+      "duration": 4.04
+    },
+    {
+      "text": "last part I missed out in terms of the",
+      "start": 1166.76,
+      "duration": 4.08
+    },
+    {
+      "text": "question you asked was this is",
+      "start": 1168.64,
+      "duration": 3.919
+    },
+    {
+      "text": "infrastructure and cost but there is an",
+      "start": 1170.84,
+      "duration": 5.12
+    },
+    {
+      "text": "even bigger question which is quality MH",
+      "start": 1172.559,
+      "duration": 5.561
+    },
+    {
+      "text": "now historically llms have struggled",
+      "start": 1175.96,
+      "duration": 3.48
+    },
+    {
+      "text": "with hallucination they've also",
+      "start": 1178.12,
+      "duration": 2.96
+    },
+    {
+      "text": "struggled with things like attribution",
+      "start": 1179.44,
+      "duration": 3.56
+    },
+    {
+      "text": "right so faithfulness are they actually",
+      "start": 1181.08,
+      "duration": 4.24
+    },
+    {
+      "text": "faithful to the documents that they have",
+      "start": 1183.0,
+      "duration": 4.559
+    },
+    {
+      "text": "knowledge of or are they faithful to the",
+      "start": 1185.32,
+      "duration": 3.8
+    },
+    {
+      "text": "context that you provided to them and so",
+      "start": 1187.559,
+      "duration": 4.401
+    },
+    {
+      "text": "on measuring this and making sure that",
+      "start": 1189.12,
+      "duration": 4.559
+    },
+    {
+      "text": "uh you are building rag applications",
+      "start": 1191.96,
+      "duration": 3.92
+    },
+    {
+      "text": "that are actually correct and and giving",
+      "start": 1193.679,
+      "duration": 4.721
+    },
+    {
+      "text": "you uh answers that you can be confident",
+      "start": 1195.88,
+      "duration": 4.32
+    },
+    {
+      "text": "about I think that's one of the big",
+      "start": 1198.4,
+      "duration": 4.159
+    },
+    {
+      "text": "challenges as well and even here Vector",
+      "start": 1200.2,
+      "duration": 5.24
+    },
+    {
+      "text": "databases and Rag and so on can help",
+      "start": 1202.559,
+      "duration": 5.041
+    },
+    {
+      "text": "significantly so these are all I would",
+      "start": 1205.44,
+      "duration": 4.56
+    },
+    {
+      "text": "consider equally important challenges so",
+      "start": 1207.6,
+      "duration": 5.079
+    },
+    {
+      "text": "Ron those are the highlevel challenges",
+      "start": 1210.0,
+      "duration": 5.52
+    },
+    {
+      "text": "that folks are running into a couple of",
+      "start": 1212.679,
+      "duration": 4.601
+    },
+    {
+      "text": "uh more in the weeds things that I hear",
+      "start": 1215.52,
+      "duration": 6.48
+    },
+    {
+      "text": "about a lot are the choice of embedding",
+      "start": 1217.28,
+      "duration": 7.36
+    },
+    {
+      "text": "model and the chunking strategy and I",
+      "start": 1222.0,
+      "duration": 4.559
+    },
+    {
+      "text": "guess there are a lot of these little",
+      "start": 1224.64,
+      "duration": 4.039
+    },
+    {
+      "text": "things that someone has to",
+      "start": 1226.559,
+      "duration": 3.681
+    },
+    {
+      "text": "these decisions that people have to make",
+      "start": 1228.679,
+      "duration": 4.841
+    },
+    {
+      "text": "as they uh build and deploy rag",
+      "start": 1230.24,
+      "duration": 8.319
+    },
+    {
+      "text": "applications but what is your sense of",
+      "start": 1233.52,
+      "duration": 6.44
+    },
+    {
+      "text": "how important these are there seems to",
+      "start": 1238.559,
+      "duration": 3.521
+    },
+    {
+      "text": "be some controversy out there as to",
+      "start": 1239.96,
+      "duration": 4.199
+    },
+    {
+      "text": "whether these are key considerations or",
+      "start": 1242.08,
+      "duration": 4.599
+    },
+    {
+      "text": "secondary considerations that's a great",
+      "start": 1244.159,
+      "duration": 5.201
+    },
+    {
+      "text": "question uh so uh first of all there are",
+      "start": 1246.679,
+      "duration": 4.681
+    },
+    {
+      "text": "key considerations I think what's",
+      "start": 1249.36,
+      "duration": 3.4
+    },
+    {
+      "text": "happening right now is that people are",
+      "start": 1251.36,
+      "duration": 3.36
+    },
+    {
+      "text": "kind of reaching out for things that are",
+      "start": 1252.76,
+      "duration": 3.68
+    },
+    {
+      "text": "easy at hand right which is always the",
+      "start": 1254.72,
+      "duration": 3.199
+    },
+    {
+      "text": "case when initially you're trying to",
+      "start": 1256.44,
+      "duration": 2.28
+    },
+    {
+      "text": "build",
+      "start": 1257.919,
+      "duration": 2.88
+    },
+    {
+      "text": "applications that you're trying to get",
+      "start": 1258.72,
+      "duration": 5.199
+    },
+    {
+      "text": "off the ground uh for example embedding",
+      "start": 1260.799,
+      "duration": 5.921
+    },
+    {
+      "text": "models that uh if you're using open AI",
+      "start": 1263.919,
+      "duration": 5.041
+    },
+    {
+      "text": "for uh for your llm kind of makes sense",
+      "start": 1266.72,
+      "duration": 4.12
+    },
+    {
+      "text": "to use their embedding models and maybe",
+      "start": 1268.96,
+      "duration": 4.959
+    },
+    {
+      "text": "the latest embedding models uh that's",
+      "start": 1270.84,
+      "duration": 5.16
+    },
+    {
+      "text": "that's what we see often which is people",
+      "start": 1273.919,
+      "duration": 4.201
+    },
+    {
+      "text": "are just using the things that are easy",
+      "start": 1276.0,
+      "duration": 5.08
+    },
+    {
+      "text": "at hand which makes absolute sense uh",
+      "start": 1278.12,
+      "duration": 4.679
+    },
+    {
+      "text": "however the choice of the embeding model",
+      "start": 1281.08,
+      "duration": 3.12
+    },
+    {
+      "text": "is very important uh it's actually",
+      "start": 1282.799,
+      "duration": 4.48
+    },
+    {
+      "text": "important in multiple ways one uh",
+      "start": 1284.2,
+      "duration": 5.2
+    },
+    {
+      "text": "smaller cheap per embedding models could",
+      "start": 1287.279,
+      "duration": 3.681
+    },
+    {
+      "text": "actually do the same job in which case",
+      "start": 1289.4,
+      "duration": 3.759
+    },
+    {
+      "text": "you're kind of overpaying a lot uh so",
+      "start": 1290.96,
+      "duration": 4.76
+    },
+    {
+      "text": "it's important in that sense in another",
+      "start": 1293.159,
+      "duration": 3.801
+    },
+    {
+      "text": "sense embeding models that are",
+      "start": 1295.72,
+      "duration": 4.0
+    },
+    {
+      "text": "fine-tuned for specific things that you",
+      "start": 1296.96,
+      "duration": 4.64
+    },
+    {
+      "text": "uh you're trying to do can actually help",
+      "start": 1299.72,
+      "duration": 3.76
+    },
+    {
+      "text": "a lot so again uh the choice of the",
+      "start": 1301.6,
+      "duration": 4.319
+    },
+    {
+      "text": "embedding model is pretty important okay",
+      "start": 1303.48,
+      "duration": 3.76
+    },
+    {
+      "text": "I would say more important than that is",
+      "start": 1305.919,
+      "duration": 4.081
+    },
+    {
+      "text": "actually chunking strategies so uh how",
+      "start": 1307.24,
+      "duration": 6.679
+    },
+    {
+      "text": "you how you go from text to vectors is",
+      "start": 1310.0,
+      "duration": 6.88
+    },
+    {
+      "text": "probably one of the biggest parts of uh",
+      "start": 1313.919,
+      "duration": 5.281
+    },
+    {
+      "text": "making the rag workflow",
+      "start": 1316.88,
+      "duration": 4.64
+    },
+    {
+      "text": "uh or improving the quality of the rag",
+      "start": 1319.2,
+      "duration": 4.44
+    },
+    {
+      "text": "workflow okay uh so I would say there",
+      "start": 1321.52,
+      "duration": 4.24
+    },
+    {
+      "text": "are two big parts to improving the",
+      "start": 1323.64,
+      "duration": 4.48
+    },
+    {
+      "text": "quality of rag workflow which is how do",
+      "start": 1325.76,
+      "duration": 5.24
+    },
+    {
+      "text": "you go from documents to vectors which",
+      "start": 1328.12,
+      "duration": 4.439
+    },
+    {
+      "text": "is where chunking strategies come in and",
+      "start": 1331.0,
+      "duration": 3.159
+    },
+    {
+      "text": "there's a many ways to think about it",
+      "start": 1332.559,
+      "duration": 3.401
+    },
+    {
+      "text": "but fundamentally yes CH checking",
+      "start": 1334.159,
+      "duration": 3.601
+    },
+    {
+      "text": "strategy is one of the most important",
+      "start": 1335.96,
+      "duration": 3.12
+    },
+    {
+      "text": "things you could get right in this",
+      "start": 1337.76,
+      "duration": 3.399
+    },
+    {
+      "text": "workflow the other one is how do you",
+      "start": 1339.08,
+      "duration": 5.079
+    },
+    {
+      "text": "once you get uh you know relevant",
+      "start": 1341.159,
+      "duration": 5.441
+    },
+    {
+      "text": "passages or relevant pieces of documents",
+      "start": 1344.159,
+      "duration": 4.721
+    },
+    {
+      "text": "and so on what do you feed to the",
+      "start": 1346.6,
+      "duration": 4.24
+    },
+    {
+      "text": "language model itself do you just put it",
+      "start": 1348.88,
+      "duration": 3.76
+    },
+    {
+      "text": "all together and feed it do you do",
+      "start": 1350.84,
+      "duration": 3.52
+    },
+    {
+      "text": "something more on top of it do you",
+      "start": 1352.64,
+      "duration": 4.88
+    },
+    {
+      "text": "rerank how do you rerank uh basically",
+      "start": 1354.36,
+      "duration": 5.16
+    },
+    {
+      "text": "the second stage after retrieval is",
+      "start": 1357.52,
+      "duration": 3.48
+    },
+    {
+      "text": "becomes very important as well in this",
+      "start": 1359.52,
+      "duration": 5.92
+    },
+    {
+      "text": "workflow yeah yeah okay um so with all",
+      "start": 1361.0,
+      "duration": 8.08
+    },
+    {
+      "text": "that in mind from a challenges",
+      "start": 1365.44,
+      "duration": 7.359
+    },
+    {
+      "text": "perspective talk to us about what's",
+      "start": 1369.08,
+      "duration": 6.56
+    },
+    {
+      "text": "happening in the in the vector database",
+      "start": 1372.799,
+      "duration": 5.76
+    },
+    {
+      "text": "to accommodate you know",
+      "start": 1375.64,
+      "duration": 4.84
+    },
+    {
+      "text": "these new styles of applications and the",
+      "start": 1378.559,
+      "duration": 4.48
+    },
+    {
+      "text": "accordant challenges that have emerged",
+      "start": 1380.48,
+      "duration": 5.52
+    },
+    {
+      "text": "that folks are trying to to overcome",
+      "start": 1383.039,
+      "duration": 4.721
+    },
+    {
+      "text": "absolutely so first of all we just",
+      "start": 1386.0,
+      "duration": 4.84
+    },
+    {
+      "text": "released uh what we call Pine con seress",
+      "start": 1387.76,
+      "duration": 5.84
+    },
+    {
+      "text": "which is uh which basically unlocks an",
+      "start": 1390.84,
+      "duration": 5.36
+    },
+    {
+      "text": "entire new set of use cases so up until",
+      "start": 1393.6,
+      "duration": 5.52
+    },
+    {
+      "text": "now Vector databases unlike traditional",
+      "start": 1396.2,
+      "duration": 6.839
+    },
+    {
+      "text": "databases were very rigid so uh you know",
+      "start": 1399.12,
+      "duration": 5.36
+    },
+    {
+      "text": "if you go to the Pod based architecture",
+      "start": 1403.039,
+      "duration": 3.481
+    },
+    {
+      "text": "in pineco today you have to pre-specify",
+      "start": 1404.48,
+      "duration": 4.079
+    },
+    {
+      "text": "the number of PODS that you use",
+      "start": 1406.52,
+      "duration": 3.639
+    },
+    {
+      "text": "and you have to pre- understand how much",
+      "start": 1408.559,
+      "duration": 3.401
+    },
+    {
+      "text": "data you want to put in there every time",
+      "start": 1410.159,
+      "duration": 3.201
+    },
+    {
+      "text": "you go beyond that you have to kind of",
+      "start": 1411.96,
+      "duration": 4.64
+    },
+    {
+      "text": "rehard and re in some sense uh reshuffle",
+      "start": 1413.36,
+      "duration": 5.72
+    },
+    {
+      "text": "the data around all of this is very",
+      "start": 1416.6,
+      "duration": 4.8
+    },
+    {
+      "text": "expensive so you've got to make these",
+      "start": 1419.08,
+      "duration": 4.16
+    },
+    {
+      "text": "kind of fundamental",
+      "start": 1421.4,
+      "duration": 4.759
+    },
+    {
+      "text": "infrastructure clustering type decisions",
+      "start": 1423.24,
+      "duration": 4.919
+    },
+    {
+      "text": "before you even know like how far you're",
+      "start": 1426.159,
+      "duration": 4.281
+    },
+    {
+      "text": "going with this app and what you need to",
+      "start": 1428.159,
+      "duration": 3.601
+    },
+    {
+      "text": "you know what you're going to run into",
+      "start": 1430.44,
+      "duration": 3.44
+    },
+    {
+      "text": "exactly exactly and if your use case",
+      "start": 1431.76,
+      "duration": 4.24
+    },
+    {
+      "text": "changes you have a serious problem right",
+      "start": 1433.88,
+      "duration": 4.2
+    },
+    {
+      "text": "for example if you want to take the same",
+      "start": 1436.0,
+      "duration": 3.96
+    },
+    {
+      "text": "data and try to use it for an on demand",
+      "start": 1438.08,
+      "duration": 5.44
+    },
+    {
+      "text": "use case now you're paying 1000x more",
+      "start": 1439.96,
+      "duration": 5.64
+    },
+    {
+      "text": "because you're only querying on demand",
+      "start": 1443.52,
+      "duration": 3.639
+    },
+    {
+      "text": "you're not querying all the time so",
+      "start": 1445.6,
+      "duration": 3.76
+    },
+    {
+      "text": "you're having these things sitting there",
+      "start": 1447.159,
+      "duration": 5.841
+    },
+    {
+      "text": "and taking up memory and space and cost",
+      "start": 1449.36,
+      "duration": 5.919
+    },
+    {
+      "text": "that you don't you don't need so",
+      "start": 1453.0,
+      "duration": 3.559
+    },
+    {
+      "text": "depending on your use cases you would",
+      "start": 1455.279,
+      "duration": 3.76
+    },
+    {
+      "text": "have a lot of inflexibility in the past",
+      "start": 1456.559,
+      "duration": 3.24
+    },
+    {
+      "text": "you would have had a lot of",
+      "start": 1459.039,
+      "duration": 3.0
+    },
+    {
+      "text": "inflexibility in the past in how do you",
+      "start": 1459.799,
+      "duration": 4.921
+    },
+    {
+      "text": "best leverage Vector databases uh now",
+      "start": 1462.039,
+      "duration": 4.12
+    },
+    {
+      "text": "traditional databases have solved this",
+      "start": 1464.72,
+      "duration": 3.679
+    },
+    {
+      "text": "problem over the course of the last 30",
+      "start": 1466.159,
+      "duration": 4.281
+    },
+    {
+      "text": "years Vector database is just catching",
+      "start": 1468.399,
+      "duration": 4.361
+    },
+    {
+      "text": "up and pine con took a very big step in",
+      "start": 1470.44,
+      "duration": 4.839
+    },
+    {
+      "text": "this Direction with pine con servus the",
+      "start": 1472.76,
+      "duration": 4.88
+    },
+    {
+      "text": "other thing that uh we we are doing here",
+      "start": 1475.279,
+      "duration": 5.4
+    },
+    {
+      "text": "is remember I told you that uh you can",
+      "start": 1477.64,
+      "duration": 4.68
+    },
+    {
+      "text": "actually improve llms on their own",
+      "start": 1480.679,
+      "duration": 3.48
+    },
+    {
+      "text": "knowledge by putting that knowledge into",
+      "start": 1482.32,
+      "duration": 5.04
+    },
+    {
+      "text": "a base this again unlocks uh 10x cost",
+      "start": 1484.159,
+      "duration": 4.721
+    },
+    {
+      "text": "reductions for generative AI",
+      "start": 1487.36,
+      "duration": 3.48
+    },
+    {
+      "text": "applications and so on but this again",
+      "start": 1488.88,
+      "duration": 4.039
+    },
+    {
+      "text": "only becomes possible if the cost per",
+      "start": 1490.84,
+      "duration": 4.559
+    },
+    {
+      "text": "query is very cheap so if you have if",
+      "start": 1492.919,
+      "duration": 4.401
+    },
+    {
+      "text": "you have to pay a lot to run a single",
+      "start": 1495.399,
+      "duration": 4.041
+    },
+    {
+      "text": "query that uses I'm only putting my most",
+      "start": 1497.32,
+      "duration": 3.32
+    },
+    {
+      "text": "important data you're no longer going to",
+      "start": 1499.44,
+      "duration": 2.92
+    },
+    {
+      "text": "think about exactly you're not going to",
+      "start": 1500.64,
+      "duration": 4.36
+    },
+    {
+      "text": "put a billion vectors in there right so",
+      "start": 1502.36,
+      "duration": 4.199
+    },
+    {
+      "text": "uh what we have done over the over the",
+      "start": 1505.0,
+      "duration": 3.919
+    },
+    {
+      "text": "past year is worked on how do we rethink",
+      "start": 1506.559,
+      "duration": 4.6
+    },
+    {
+      "text": "Vector databases so that you can achieve",
+      "start": 1508.919,
+      "duration": 4.201
+    },
+    {
+      "text": "10 to 100x cost reductions across a",
+      "start": 1511.159,
+      "duration": 4.281
+    },
+    {
+      "text": "variety of use cases secondly you can",
+      "start": 1513.12,
+      "duration": 4.52
+    },
+    {
+      "text": "you can make it very flexible people can",
+      "start": 1515.44,
+      "duration": 4.28
+    },
+    {
+      "text": "throw in their data and think about use",
+      "start": 1517.64,
+      "duration": 4.36
+    },
+    {
+      "text": "cases later because we know that use",
+      "start": 1519.72,
+      "duration": 3.439
+    },
+    {
+      "text": "cases are going to evolve we know that",
+      "start": 1522.0,
+      "duration": 2.36
+    },
+    {
+      "text": "people are going to find new use cases",
+      "start": 1523.159,
+      "duration": 3.041
+    },
+    {
+      "text": "for this data and so on you don't want",
+      "start": 1524.36,
+      "duration": 3.64
+    },
+    {
+      "text": "them to think about all of that up front",
+      "start": 1526.2,
+      "duration": 5.52
+    },
+    {
+      "text": "right it's it's very inhibiting for uh J",
+      "start": 1528.0,
+      "duration": 5.6
+    },
+    {
+      "text": "workflows so that's what that's what",
+      "start": 1531.72,
+      "duration": 3.88
+    },
+    {
+      "text": "we've done and to do this we kind of had",
+      "start": 1533.6,
+      "duration": 4.24
+    },
+    {
+      "text": "to reimagine the database itself you",
+      "start": 1535.6,
+      "duration": 4.92
+    },
+    {
+      "text": "know traditional approaches don't work",
+      "start": 1537.84,
+      "duration": 5.04
+    },
+    {
+      "text": "and so what does what does that",
+      "start": 1540.52,
+      "duration": 5.6
+    },
+    {
+      "text": "reimagining entail like what how did I'm",
+      "start": 1542.88,
+      "duration": 4.56
+    },
+    {
+      "text": "making some assumptions about the",
+      "start": 1546.12,
+      "duration": 2.799
+    },
+    {
+      "text": "architecture but assuming it was a",
+      "start": 1547.44,
+      "duration": 3.16
+    },
+    {
+      "text": "traditional monolithic architecture like",
+      "start": 1548.919,
+      "duration": 3.401
+    },
+    {
+      "text": "how does that need to shift to become",
+      "start": 1550.6,
+      "duration": 4.959
+    },
+    {
+      "text": "now serverless that's a great question",
+      "start": 1552.32,
+      "duration": 4.359
+    },
+    {
+      "text": "so",
+      "start": 1555.559,
+      "duration": 4.24
+    },
+    {
+      "text": "uh all Vector databases prior to us",
+      "start": 1556.679,
+      "duration": 5.48
+    },
+    {
+      "text": "releasing Pine code servus they operate",
+      "start": 1559.799,
+      "duration": 3.721
+    },
+    {
+      "text": "on this What's called the search engine",
+      "start": 1562.159,
+      "duration": 3.841
+    },
+    {
+      "text": "architecture right so which is your data",
+      "start": 1563.52,
+      "duration": 4.32
+    },
+    {
+      "text": "is split up into a bunch of shards these",
+      "start": 1566.0,
+      "duration": 3.96
+    },
+    {
+      "text": "shards contain a subset of your data",
+      "start": 1567.84,
+      "duration": 4.839
+    },
+    {
+      "text": "indexed always available which means",
+      "start": 1569.96,
+      "duration": 4.76
+    },
+    {
+      "text": "it's on these machines that between a",
+      "start": 1572.679,
+      "duration": 4.561
+    },
+    {
+      "text": "combination of RAM and SSD they're kind",
+      "start": 1574.72,
+      "duration": 4.64
+    },
+    {
+      "text": "of always up and running this makes",
+      "start": 1577.24,
+      "duration": 3.439
+    },
+    {
+      "text": "sense when you're running like tens of",
+      "start": 1579.36,
+      "duration": 3.36
+    },
+    {
+      "text": "thousands of queries per second which",
+      "start": 1580.679,
+      "duration": 3.801
+    },
+    {
+      "text": "need to touch your entire Corpus right",
+      "start": 1582.72,
+      "duration": 3.28
+    },
+    {
+      "text": "if you if you're doing that then yes",
+      "start": 1584.48,
+      "duration": 3.52
+    },
+    {
+      "text": "that architecture kind of makes sense MH",
+      "start": 1586.0,
+      "duration": 3.919
+    },
+    {
+      "text": "but if you're running queries on demand",
+      "start": 1588.0,
+      "duration": 3.279
+    },
+    {
+      "text": "or if your queries are not touching the",
+      "start": 1589.919,
+      "duration": 3.12
+    },
+    {
+      "text": "entire Corpus which for a web scale",
+      "start": 1591.279,
+      "duration": 3.201
+    },
+    {
+      "text": "Corpus a single query is not going to",
+      "start": 1593.039,
+      "duration": 2.88
+    },
+    {
+      "text": "touch your entire Corpus right and you",
+      "start": 1594.48,
+      "duration": 3.84
+    },
+    {
+      "text": "don't want it touching your whole carpus",
+      "start": 1595.919,
+      "duration": 4.801
+    },
+    {
+      "text": "for scenarios like that now this becomes",
+      "start": 1598.32,
+      "duration": 4.28
+    },
+    {
+      "text": "an extremely expensive workflow right",
+      "start": 1600.72,
+      "duration": 3.6
+    },
+    {
+      "text": "and this is what customers of pine con",
+      "start": 1602.6,
+      "duration": 3.16
+    },
+    {
+      "text": "were also finding because Pine con was",
+      "start": 1604.32,
+      "duration": 3.92
+    },
+    {
+      "text": "also using the same architecture uh in",
+      "start": 1605.76,
+      "duration": 4.799
+    },
+    {
+      "text": "in our pod based architecture so the",
+      "start": 1608.24,
+      "duration": 4.439
+    },
+    {
+      "text": "first thing you have to do to make these",
+      "start": 1610.559,
+      "duration": 4.401
+    },
+    {
+      "text": "sort of uh workflows the emerging",
+      "start": 1612.679,
+      "duration": 4.761
+    },
+    {
+      "text": "generative AI workflows as well as many",
+      "start": 1614.96,
+      "duration": 3.76
+    },
+    {
+      "text": "other other workflows that customers at",
+      "start": 1617.44,
+      "duration": 3.959
+    },
+    {
+      "text": "Pine con do if you want to make them 10x",
+      "start": 1618.72,
+      "duration": 4.559
+    },
+    {
+      "text": "cost effective you kind of have to",
+      "start": 1621.399,
+      "duration": 3.801
+    },
+    {
+      "text": "decouple storage in compute okay you",
+      "start": 1623.279,
+      "duration": 3.64
+    },
+    {
+      "text": "cannot have all of the storage for the",
+      "start": 1625.2,
+      "duration": 4.12
+    },
+    {
+      "text": "index sitting close to compute all the",
+      "start": 1626.919,
+      "duration": 4.841
+    },
+    {
+      "text": "time right now this is something that uh",
+      "start": 1629.32,
+      "duration": 4.12
+    },
+    {
+      "text": "traditional databases have started doing",
+      "start": 1631.76,
+      "duration": 3.6
+    },
+    {
+      "text": "really well over the last several years",
+      "start": 1633.44,
+      "duration": 3.479
+    },
+    {
+      "text": "so if you're familiar with snowflake if",
+      "start": 1635.36,
+      "duration": 3.799
+    },
+    {
+      "text": "you're familiar with uh you know uh",
+      "start": 1636.919,
+      "duration": 4.88
+    },
+    {
+      "text": "spanner and systems like this they are",
+      "start": 1639.159,
+      "duration": 4.281
+    },
+    {
+      "text": "they're great and they've taken Decades",
+      "start": 1641.799,
+      "duration": 5.0
+    },
+    {
+      "text": "of uh database uh learnings and figured",
+      "start": 1643.44,
+      "duration": 5.0
+    },
+    {
+      "text": "out how to make to separate storage and",
+      "start": 1646.799,
+      "duration": 3.561
+    },
+    {
+      "text": "computer so you can drive down costs for",
+      "start": 1648.44,
+      "duration": 4.4
+    },
+    {
+      "text": "using those databases right what we",
+      "start": 1650.36,
+      "duration": 4.4
+    },
+    {
+      "text": "needed to do was to rethink how to do",
+      "start": 1652.84,
+      "duration": 3.8
+    },
+    {
+      "text": "that for Vector search because remember",
+      "start": 1654.76,
+      "duration": 3.08
+    },
+    {
+      "text": "I told you that Vector search has this",
+      "start": 1656.64,
+      "duration": 3.6
+    },
+    {
+      "text": "fundamental problem that every time",
+      "start": 1657.84,
+      "duration": 4.12
+    },
+    {
+      "text": "you're trying to update an index you",
+      "start": 1660.24,
+      "duration": 3.12
+    },
+    {
+      "text": "kind of have to have in some sense a",
+      "start": 1661.96,
+      "duration": 3.559
+    },
+    {
+      "text": "global view of the index yeah okay at",
+      "start": 1663.36,
+      "duration": 3.96
+    },
+    {
+      "text": "least in existing algorithms you have",
+      "start": 1665.519,
+      "duration": 4.52
+    },
+    {
+      "text": "similarly all existing algorithms that",
+      "start": 1667.32,
+      "duration": 4.479
+    },
+    {
+      "text": "you're familiar with whether it's hnsw",
+      "start": 1670.039,
+      "duration": 3.76
+    },
+    {
+      "text": "whether it's F whether it's practically",
+      "start": 1671.799,
+      "duration": 3.921
+    },
+    {
+      "text": "anything that anyone does today they",
+      "start": 1673.799,
+      "duration": 4.0
+    },
+    {
+      "text": "hold the entire index between memory and",
+      "start": 1675.72,
+      "duration": 4.24
+    },
+    {
+      "text": "local SSD okay okay in fact most",
+      "start": 1677.799,
+      "duration": 3.88
+    },
+    {
+      "text": "algorithms up until two years back",
+      "start": 1679.96,
+      "duration": 3.24
+    },
+    {
+      "text": "weren't even using dis they were all",
+      "start": 1681.679,
+      "duration": 2.921
+    },
+    {
+      "text": "memory based and memory is very",
+      "start": 1683.2,
+      "duration": 4.12
+    },
+    {
+      "text": "expensive on the cloud even now right uh",
+      "start": 1684.6,
+      "duration": 4.4
+    },
+    {
+      "text": "but even disk based systems are actually",
+      "start": 1687.32,
+      "duration": 3.52
+    },
+    {
+      "text": "very expensive because there is no way",
+      "start": 1689.0,
+      "duration": 4.519
+    },
+    {
+      "text": "to page anything from a cheaper storage",
+      "start": 1690.84,
+      "duration": 3.559
+    },
+    {
+      "text": "they have to you have to maintain",
+      "start": 1693.519,
+      "duration": 3.0
+    },
+    {
+      "text": "everything on local ssds and on the",
+      "start": 1694.399,
+      "duration": 4.0
+    },
+    {
+      "text": "cloud you don't have the fungibility of",
+      "start": 1696.519,
+      "duration": 4.561
+    },
+    {
+      "text": "ssds you know being decoupled from",
+      "start": 1698.399,
+      "duration": 4.52
+    },
+    {
+      "text": "compute or something when you get a",
+      "start": 1701.08,
+      "duration": 5.959
+    },
+    {
+      "text": "machine on Amazon or gcp you're getting",
+      "start": 1702.919,
+      "duration": 7.721
+    },
+    {
+      "text": "uh you know lot of SSD lot of CES lots",
+      "start": 1707.039,
+      "duration": 5.721
+    },
+    {
+      "text": "of ram that's the whole box that you get",
+      "start": 1710.64,
+      "duration": 4.12
+    },
+    {
+      "text": "right there is no fungibility even with",
+      "start": 1712.76,
+      "duration": 4.799
+    },
+    {
+      "text": "the ssds so the best way to drive cost",
+      "start": 1714.76,
+      "duration": 5.039
+    },
+    {
+      "text": "savings is to not to really decouple",
+      "start": 1717.559,
+      "duration": 3.48
+    },
+    {
+      "text": "storage and have it in some cheap",
+      "start": 1719.799,
+      "duration": 3.561
+    },
+    {
+      "text": "storage like blob storage but the moment",
+      "start": 1721.039,
+      "duration": 4.401
+    },
+    {
+      "text": "you put things in Blob storage you have",
+      "start": 1723.36,
+      "duration": 3.84
+    },
+    {
+      "text": "to get very efficient at incrementally",
+      "start": 1725.44,
+      "duration": 3.839
+    },
+    {
+      "text": "indexing that thing incrementally",
+      "start": 1727.2,
+      "duration": 3.64
+    },
+    {
+      "text": "pulling out only the parts of the index",
+      "start": 1729.279,
+      "duration": 3.52
+    },
+    {
+      "text": "that queries care about and this",
+      "start": 1730.84,
+      "duration": 4.16
+    },
+    {
+      "text": "requires fundamental re innovation in in",
+      "start": 1732.799,
+      "duration": 4.841
+    },
+    {
+      "text": "how Vector search even works that that's",
+      "start": 1735.0,
+      "duration": 5.36
+    },
+    {
+      "text": "kind of what we did MH so I would say",
+      "start": 1737.64,
+      "duration": 4.96
+    },
+    {
+      "text": "that the core of the Innovation is",
+      "start": 1740.36,
+      "duration": 4.679
+    },
+    {
+      "text": "around reimagining Vector search in such",
+      "start": 1742.6,
+      "duration": 4.52
+    },
+    {
+      "text": "a way that you can actually decouple",
+      "start": 1745.039,
+      "duration": 4.321
+    },
+    {
+      "text": "storage and compute and Page parts of",
+      "start": 1747.12,
+      "duration": 4.24
+    },
+    {
+      "text": "the index on demand so that queries",
+      "start": 1749.36,
+      "duration": 4.28
+    },
+    {
+      "text": "don't have to look at basically the cost",
+      "start": 1751.36,
+      "duration": 4.36
+    },
+    {
+      "text": "of the query is no longer the cost of",
+      "start": 1753.64,
+      "duration": 4.039
+    },
+    {
+      "text": "the whole data under management it's",
+      "start": 1755.72,
+      "duration": 3.92
+    },
+    {
+      "text": "only proportional to the cost of the",
+      "start": 1757.679,
+      "duration": 3.24
+    },
+    {
+      "text": "parts of the data that the query even",
+      "start": 1759.64,
+      "duration": 3.879
+    },
+    {
+      "text": "needs to look at presumably you're still",
+      "start": 1760.919,
+      "duration": 5.201
+    },
+    {
+      "text": "doing this on the cloud and you're but",
+      "start": 1763.519,
+      "duration": 4.841
+    },
+    {
+      "text": "you're just using different Primitives",
+      "start": 1766.12,
+      "duration": 4.96
+    },
+    {
+      "text": "than you were before maybe before you",
+      "start": 1768.36,
+      "duration": 5.12
+    },
+    {
+      "text": "you were using large machines with lots",
+      "start": 1771.08,
+      "duration": 7.88
+    },
+    {
+      "text": "of SSD now you're using what uh no so",
+      "start": 1773.48,
+      "duration": 6.88
+    },
+    {
+      "text": "it's not just the machines that are",
+      "start": 1778.96,
+      "duration": 2.76
+    },
+    {
+      "text": "different it's the algorithms themselves",
+      "start": 1780.36,
+      "duration": 2.6
+    },
+    {
+      "text": "that are different I get that before",
+      "start": 1781.72,
+      "duration": 2.88
+    },
+    {
+      "text": "what we used to do was we would take all",
+      "start": 1782.96,
+      "duration": 4.16
+    },
+    {
+      "text": "of those the entire index preload them",
+      "start": 1784.6,
+      "duration": 4.76
+    },
+    {
+      "text": "or even keep them fresh and keep them",
+      "start": 1787.12,
+      "duration": 5.279
+    },
+    {
+      "text": "loaded uh onto these big machines right",
+      "start": 1789.36,
+      "duration": 4.319
+    },
+    {
+      "text": "today what we can do is we can still",
+      "start": 1792.399,
+      "duration": 3.28
+    },
+    {
+      "text": "have these big machines okay but now",
+      "start": 1793.679,
+      "duration": 3.6
+    },
+    {
+      "text": "they are only loading the parts of the",
+      "start": 1795.679,
+      "duration": 3.641
+    },
+    {
+      "text": "index on demand they're caching the",
+      "start": 1797.279,
+      "duration": 4.081
+    },
+    {
+      "text": "parts that uh have been retrieved and",
+      "start": 1799.32,
+      "duration": 4.359
+    },
+    {
+      "text": "found frequently used so that the",
+      "start": 1801.36,
+      "duration": 3.799
+    },
+    {
+      "text": "frequently used parts of your data are",
+      "start": 1803.679,
+      "duration": 3.321
+    },
+    {
+      "text": "actually cached and are and so you can",
+      "start": 1805.159,
+      "duration": 3.88
+    },
+    {
+      "text": "have very low latencies and so on okay",
+      "start": 1807.0,
+      "duration": 3.2
+    },
+    {
+      "text": "but then you're not paying the cost for",
+      "start": 1809.039,
+      "duration": 3.64
+    },
+    {
+      "text": "all the data that is not being touched",
+      "start": 1810.2,
+      "duration": 4.12
+    },
+    {
+      "text": "that's the core Innovation got it got it",
+      "start": 1812.679,
+      "duration": 2.921
+    },
+    {
+      "text": "yeah when you mentioned you mentioned",
+      "start": 1814.32,
+      "duration": 3.88
+    },
+    {
+      "text": "blob storage and that made me think that",
+      "start": 1815.6,
+      "duration": 4.559
+    },
+    {
+      "text": "data was being pushed to S3 now as",
+      "start": 1818.2,
+      "duration": 6.56
+    },
+    {
+      "text": "opposed to online uh storage okay yes",
+      "start": 1820.159,
+      "duration": 6.481
+    },
+    {
+      "text": "exactly it is and but the trick is in",
+      "start": 1824.76,
+      "duration": 3.519
+    },
+    {
+      "text": "figuring out what parts of the data do I",
+      "start": 1826.64,
+      "duration": 3.96
+    },
+    {
+      "text": "need to keep close to my compute right",
+      "start": 1828.279,
+      "duration": 5.561
+    },
+    {
+      "text": "when the queries need to be answered and",
+      "start": 1830.6,
+      "duration": 5.84
+    },
+    {
+      "text": "so is this things like um you know",
+      "start": 1833.84,
+      "duration": 5.24
+    },
+    {
+      "text": "predictive query optimization and that",
+      "start": 1836.44,
+      "duration": 5.32
+    },
+    {
+      "text": "kind of thing so I think that what we do",
+      "start": 1839.08,
+      "duration": 5.079
+    },
+    {
+      "text": "is basically when you create this when",
+      "start": 1841.76,
+      "duration": 4.6
+    },
+    {
+      "text": "you index or reindex or when you keep",
+      "start": 1844.159,
+      "duration": 4.481
+    },
+    {
+      "text": "your indexes fresh and so on you want a",
+      "start": 1846.36,
+      "duration": 3.96
+    },
+    {
+      "text": "way of partitioning them right in",
+      "start": 1848.64,
+      "duration": 3.879
+    },
+    {
+      "text": "traditional databases you're familiar",
+      "start": 1850.32,
+      "duration": 3.56
+    },
+    {
+      "text": "with range partitioning you're familiar",
+      "start": 1852.519,
+      "duration": 2.681
+    },
+    {
+      "text": "with different ways in which they can",
+      "start": 1853.88,
+      "duration": 4.759
+    },
+    {
+      "text": "slice up uh ranges of of columns so that",
+      "start": 1855.2,
+      "duration": 5.24
+    },
+    {
+      "text": "you can say that if I'm getting a query",
+      "start": 1858.639,
+      "duration": 4.76
+    },
+    {
+      "text": "for let's say time stamp greater than",
+      "start": 1860.44,
+      "duration": 5.44
+    },
+    {
+      "text": "100 I know that the range I need to look",
+      "start": 1863.399,
+      "duration": 4.0
+    },
+    {
+      "text": "at is everything greater than 100 I",
+      "start": 1865.88,
+      "duration": 3.039
+    },
+    {
+      "text": "don't have to even look at data that has",
+      "start": 1867.399,
+      "duration": 3.321
+    },
+    {
+      "text": "time stamp less than 100 right and you",
+      "start": 1868.919,
+      "duration": 4.161
+    },
+    {
+      "text": "do this by creating these uh breaking up",
+      "start": 1870.72,
+      "duration": 4.319
+    },
+    {
+      "text": "data into chunks each chunk has some",
+      "start": 1873.08,
+      "duration": 4.04
+    },
+    {
+      "text": "statistics around it you then use that",
+      "start": 1875.039,
+      "duration": 3.6
+    },
+    {
+      "text": "to figure out what do what do I even",
+      "start": 1877.12,
+      "duration": 3.72
+    },
+    {
+      "text": "need to look at and that General",
+      "start": 1878.639,
+      "duration": 4.121
+    },
+    {
+      "text": "philosophy is called partitioning right",
+      "start": 1880.84,
+      "duration": 4.12
+    },
+    {
+      "text": "see you're partitioning data MH you want",
+      "start": 1882.76,
+      "duration": 5.2
+    },
+    {
+      "text": "to have the same idea except now you're",
+      "start": 1884.96,
+      "duration": 5.079
+    },
+    {
+      "text": "partitioning these vectors so this these",
+      "start": 1887.96,
+      "duration": 4.24
+    },
+    {
+      "text": "vectors are now in some space and you",
+      "start": 1890.039,
+      "duration": 3.64
+    },
+    {
+      "text": "want to kind of geometrically break down",
+      "start": 1892.2,
+      "duration": 3.8
+    },
+    {
+      "text": "that space so that once you have broken",
+      "start": 1893.679,
+      "duration": 5.24
+    },
+    {
+      "text": "down the space into GE chunks of regions",
+      "start": 1896.0,
+      "duration": 5.32
+    },
+    {
+      "text": "of space when a query comes you can say",
+      "start": 1898.919,
+      "duration": 3.521
+    },
+    {
+      "text": "that actually you know what I'm only",
+      "start": 1901.32,
+      "duration": 3.16
+    },
+    {
+      "text": "interested in these regions I don't care",
+      "start": 1902.44,
+      "duration": 3.599
+    },
+    {
+      "text": "about data that's in all the other",
+      "start": 1904.48,
+      "duration": 4.679
+    },
+    {
+      "text": "regions go to go fetch me only the parts",
+      "start": 1906.039,
+      "duration": 4.801
+    },
+    {
+      "text": "of the index that belong in those",
+      "start": 1909.159,
+      "duration": 3.52
+    },
+    {
+      "text": "regions and then I'm going to see what",
+      "start": 1910.84,
+      "duration": 4.64
+    },
+    {
+      "text": "are the closest candidates that uh the",
+      "start": 1912.679,
+      "duration": 6.24
+    },
+    {
+      "text": "query needs so it is basically applying",
+      "start": 1915.48,
+      "duration": 5.36
+    },
+    {
+      "text": "the same traditional",
+      "start": 1918.919,
+      "duration": 4.161
+    },
+    {
+      "text": "partitioning ideas from",
+      "start": 1920.84,
+      "duration": 4.92
+    },
+    {
+      "text": "databases except for this new way of",
+      "start": 1923.08,
+      "duration": 4.599
+    },
+    {
+      "text": "partitioning which is geometry based",
+      "start": 1925.76,
+      "duration": 3.24
+    },
+    {
+      "text": "right interesting so traditional",
+      "start": 1927.679,
+      "duration": 3.12
+    },
+    {
+      "text": "databases don't understand geometry",
+      "start": 1929.0,
+      "duration": 3.36
+    },
+    {
+      "text": "right but Vector databases need to",
+      "start": 1930.799,
+      "duration": 4.521
+    },
+    {
+      "text": "understand geometry right interesting",
+      "start": 1932.36,
+      "duration": 6.72
+    },
+    {
+      "text": "and so from the user perspective I've",
+      "start": 1935.32,
+      "duration": 7.319
+    },
+    {
+      "text": "got an existing pine cone database I've",
+      "start": 1939.08,
+      "duration": 6.719
+    },
+    {
+      "text": "got documents in it um you know I've",
+      "start": 1942.639,
+      "duration": 5.76
+    },
+    {
+      "text": "gone through the partition",
+      "start": 1945.799,
+      "duration": 4.321
+    },
+    {
+      "text": "uh you know strategy that you talked",
+      "start": 1948.399,
+      "duration": 4.12
+    },
+    {
+      "text": "about earlier and I hear about this",
+      "start": 1950.12,
+      "duration": 4.519
+    },
+    {
+      "text": "announcement I get excited and I want to",
+      "start": 1952.519,
+      "duration": 4.601
+    },
+    {
+      "text": "take advantage of you know lower cost",
+      "start": 1954.639,
+      "duration": 4.52
+    },
+    {
+      "text": "all the the things that you mentioned",
+      "start": 1957.12,
+      "duration": 4.039
+    },
+    {
+      "text": "yeah does anything change for me do I",
+      "start": 1959.159,
+      "duration": 3.76
+    },
+    {
+      "text": "flip a switch and all of a sudden I'm on",
+      "start": 1961.159,
+      "duration": 4.801
+    },
+    {
+      "text": "the the new uh the serverless or do I",
+      "start": 1962.919,
+      "duration": 7.321
+    },
+    {
+      "text": "have to reload my data and even that you",
+      "start": 1965.96,
+      "duration": 6.959
+    },
+    {
+      "text": "know it's challenging at scale yeah but",
+      "start": 1970.24,
+      "duration": 4.48
+    },
+    {
+      "text": "maybe worse is do I have to touch my",
+      "start": 1972.919,
+      "duration": 4.841
+    },
+    {
+      "text": "code do I have to you know re rewrite my",
+      "start": 1974.72,
+      "duration": 4.52
+    },
+    {
+      "text": "application like what are the things",
+      "start": 1977.76,
+      "duration": 3.44
+    },
+    {
+      "text": "that have to change from my perspective",
+      "start": 1979.24,
+      "duration": 3.96
+    },
+    {
+      "text": "that's a great question so first of all",
+      "start": 1981.2,
+      "duration": 5.16
+    },
+    {
+      "text": "uh so so today we are in what's called",
+      "start": 1983.2,
+      "duration": 5.76
+    },
+    {
+      "text": "public preview okay so during the public",
+      "start": 1986.36,
+      "duration": 5.24
+    },
+    {
+      "text": "preview phase you do have to reinvest",
+      "start": 1988.96,
+      "duration": 6.319
+    },
+    {
+      "text": "your data if you want to use uh SS okay",
+      "start": 1991.6,
+      "duration": 5.12
+    },
+    {
+      "text": "uh between public preview and general",
+      "start": 1995.279,
+      "duration": 3.441
+    },
+    {
+      "text": "availability we're going to make it make",
+      "start": 1996.72,
+      "duration": 3.679
+    },
+    {
+      "text": "it so that it's a flip a bit so",
+      "start": 1998.72,
+      "duration": 3.559
+    },
+    {
+      "text": "basically sometime between now and when",
+      "start": 2000.399,
+      "duration": 3.28
+    },
+    {
+      "text": "when we go when we are generally",
+      "start": 2002.279,
+      "duration": 3.12
+    },
+    {
+      "text": "available you shouldn't have to do",
+      "start": 2003.679,
+      "duration": 3.041
+    },
+    {
+      "text": "anything to start taking advantage of",
+      "start": 2005.399,
+      "duration": 4.24
+    },
+    {
+      "text": "ser L but in this initial phase you will",
+      "start": 2006.72,
+      "duration": 4.36
+    },
+    {
+      "text": "have to reinvest your data there are no",
+      "start": 2009.639,
+      "duration": 3.561
+    },
+    {
+      "text": "code changes involved for you so uh it",
+      "start": 2011.08,
+      "duration": 4.04
+    },
+    {
+      "text": "should be seamless okay from a code",
+      "start": 2013.2,
+      "duration": 5.24
+    },
+    {
+      "text": "perspective to start using CS okay now",
+      "start": 2015.12,
+      "duration": 5.64
+    },
+    {
+      "text": "uh we also work very closely with some",
+      "start": 2018.44,
+      "duration": 4.079
+    },
+    {
+      "text": "of our biggest customers who have",
+      "start": 2020.76,
+      "duration": 3.519
+    },
+    {
+      "text": "billions of vectors and for them",
+      "start": 2022.519,
+      "duration": 4.0
+    },
+    {
+      "text": "reinvesting is not even an option right",
+      "start": 2024.279,
+      "duration": 3.841
+    },
+    {
+      "text": "so for some of these customers who are",
+      "start": 2026.519,
+      "duration": 3.961
+    },
+    {
+      "text": "trying out seress uh our field",
+      "start": 2028.12,
+      "duration": 4.279
+    },
+    {
+      "text": "engineering team and Engineers work",
+      "start": 2030.48,
+      "duration": 3.679
+    },
+    {
+      "text": "together to figure out an option for",
+      "start": 2032.399,
+      "duration": 4.4
+    },
+    {
+      "text": "them to do a seamless migration okay so",
+      "start": 2034.159,
+      "duration": 3.721
+    },
+    {
+      "text": "there there are things that we are doing",
+      "start": 2036.799,
+      "duration": 3.441
+    },
+    {
+      "text": "to help some of the biggest use cases",
+      "start": 2037.88,
+      "duration": 7.6
+    },
+    {
+      "text": "but for uh in in public preview we we uh",
+      "start": 2040.24,
+      "duration": 7.2
+    },
+    {
+      "text": "expect people to reines their data today",
+      "start": 2045.48,
+      "duration": 3.76
+    },
+    {
+      "text": "if they want to use cus from the",
+      "start": 2047.44,
+      "duration": 6.8
+    },
+    {
+      "text": "perspective of a a developer um or uh",
+      "start": 2049.24,
+      "duration": 6.399
+    },
+    {
+      "text": "you know someone who's architecting one",
+      "start": 2054.24,
+      "duration": 2.439
+    },
+    {
+      "text": "of these",
+      "start": 2055.639,
+      "duration": 3.361
+    },
+    {
+      "text": "systems it sounds like",
+      "start": 2056.679,
+      "duration": 4.96
+    },
+    {
+      "text": "this changes a lot of the fundamental",
+      "start": 2059.0,
+      "duration": 5.24
+    },
+    {
+      "text": "economics and maybe I'm considering",
+      "start": 2061.639,
+      "duration": 4.04
+    },
+    {
+      "text": "different use cases than I was",
+      "start": 2064.24,
+      "duration": 3.639
+    },
+    {
+      "text": "previously or I have you know fewer",
+      "start": 2065.679,
+      "duration": 5.321
+    },
+    {
+      "text": "decisions that I have to make upfront um",
+      "start": 2067.879,
+      "duration": 5.601
+    },
+    {
+      "text": "does API changes that go along with this",
+      "start": 2071.0,
+      "duration": 3.679
+    },
+    {
+      "text": "is there I guess I'm might trying to get",
+      "start": 2073.48,
+      "duration": 3.96
+    },
+    {
+      "text": "at are there new capabilities",
+      "start": 2074.679,
+      "duration": 6.121
+    },
+    {
+      "text": "Beyond uh you know the the things that",
+      "start": 2077.44,
+      "duration": 5.6
+    },
+    {
+      "text": "are transparent to me that uh as a",
+      "start": 2080.8,
+      "duration": 4.64
+    },
+    {
+      "text": "developer I might get excited about",
+      "start": 2083.04,
+      "duration": 5.039
+    },
+    {
+      "text": "absolutely I think uh so first of all uh",
+      "start": 2085.44,
+      "duration": 4.8
+    },
+    {
+      "text": "you're 100% right this this unlocks some",
+      "start": 2088.079,
+      "duration": 3.641
+    },
+    {
+      "text": "new use cases that people wouldn't be",
+      "start": 2090.24,
+      "duration": 3.48
+    },
+    {
+      "text": "thinking about before which is if you",
+      "start": 2091.72,
+      "duration": 4.0
+    },
+    {
+      "text": "have data and you want to run on demand",
+      "start": 2093.72,
+      "duration": 3.96
+    },
+    {
+      "text": "queries and so on you can now just start",
+      "start": 2095.72,
+      "duration": 3.92
+    },
+    {
+      "text": "ingesting it because uh ingestion is",
+      "start": 2097.68,
+      "duration": 4.6
+    },
+    {
+      "text": "cheap storage is cheap and you're only",
+      "start": 2099.64,
+      "duration": 4.64
+    },
+    {
+      "text": "paying for what you query so this this",
+      "start": 2102.28,
+      "duration": 3.72
+    },
+    {
+      "text": "really unlocks an entirely new set of",
+      "start": 2104.28,
+      "duration": 5.2
+    },
+    {
+      "text": "use cases uh alongside we try not to",
+      "start": 2106.0,
+      "duration": 5.52
+    },
+    {
+      "text": "break any apis right the whole uh we",
+      "start": 2109.48,
+      "duration": 3.72
+    },
+    {
+      "text": "we're trying to keep apis as compatible",
+      "start": 2111.52,
+      "duration": 4.319
+    },
+    {
+      "text": "as possible but in seress you do get",
+      "start": 2113.2,
+      "duration": 5.2
+    },
+    {
+      "text": "some extra information for example when",
+      "start": 2115.839,
+      "duration": 4.52
+    },
+    {
+      "text": "you're using a seress index you're going",
+      "start": 2118.4,
+      "duration": 4.52
+    },
+    {
+      "text": "to get information about uh in some",
+      "start": 2120.359,
+      "duration": 4.561
+    },
+    {
+      "text": "sense how much did this query cost so we",
+      "start": 2122.92,
+      "duration": 3.56
+    },
+    {
+      "text": "have a proxy for this cost that we call",
+      "start": 2124.92,
+      "duration": 3.84
+    },
+    {
+      "text": "radio units so every query returns to",
+      "start": 2126.48,
+      "duration": 4.4
+    },
+    {
+      "text": "you what the cost of that query was and",
+      "start": 2128.76,
+      "duration": 3.72
+    },
+    {
+      "text": "now that's very useful for you to figure",
+      "start": 2130.88,
+      "duration": 4.44
+    },
+    {
+      "text": "out you know in some sense to budget and",
+      "start": 2132.48,
+      "duration": 5.639
+    },
+    {
+      "text": "to understand how much is a use case",
+      "start": 2135.32,
+      "duration": 4.56
+    },
+    {
+      "text": "pattern going to cost you right and that",
+      "start": 2138.119,
+      "duration": 3.24
+    },
+    {
+      "text": "that's very important to know the same",
+      "start": 2139.88,
+      "duration": 4.68
+    },
+    {
+      "text": "surus architecture allows us to uh in",
+      "start": 2141.359,
+      "duration": 7.401
+    },
+    {
+      "text": "some sense put control over the amount",
+      "start": 2144.56,
+      "duration": 5.92
+    },
+    {
+      "text": "of your data that you need to actually",
+      "start": 2148.76,
+      "duration": 4.12
+    },
+    {
+      "text": "look at for the quality of search that",
+      "start": 2150.48,
+      "duration": 4.52
+    },
+    {
+      "text": "you need uh what I'm trying to say is",
+      "start": 2152.88,
+      "duration": 5.16
+    },
+    {
+      "text": "that uh it turns out most query sets and",
+      "start": 2155.0,
+      "duration": 4.4
+    },
+    {
+      "text": "most experiments we've run and most",
+      "start": 2158.04,
+      "duration": 4.559
+    },
+    {
+      "text": "benchmarks we've we've done tell us that",
+      "start": 2159.4,
+      "duration": 5.76
+    },
+    {
+      "text": "about 90 95% of your queries can be",
+      "start": 2162.599,
+      "duration": 3.921
+    },
+    {
+      "text": "answered by looking at a small amount of",
+      "start": 2165.16,
+      "duration": 4.6
+    },
+    {
+      "text": "data okay okay uh the trick is of of",
+      "start": 2166.52,
+      "duration": 4.92
+    },
+    {
+      "text": "course figuring out what what is that",
+      "start": 2169.76,
+      "duration": 3.599
+    },
+    {
+      "text": "small amount of data to look at right",
+      "start": 2171.44,
+      "duration": 3.96
+    },
+    {
+      "text": "which is also a traditional you know",
+      "start": 2173.359,
+      "duration": 3.921
+    },
+    {
+      "text": "database optimization type of a",
+      "start": 2175.4,
+      "duration": 4.199
+    },
+    {
+      "text": "challenge right exactly exactly except",
+      "start": 2177.28,
+      "duration": 4.039
+    },
+    {
+      "text": "it's it's a harder challenge for Vector",
+      "start": 2179.599,
+      "duration": 3.321
+    },
+    {
+      "text": "databases because you have to understand",
+      "start": 2181.319,
+      "duration": 4.361
+    },
+    {
+      "text": "geometry really geometry and it's Global",
+      "start": 2182.92,
+      "duration": 7.04
+    },
+    {
+      "text": "as opposed to more local exactly uh but",
+      "start": 2185.68,
+      "duration": 6.04
+    },
+    {
+      "text": "there are always these 5% of the queries",
+      "start": 2189.96,
+      "duration": 3.56
+    },
+    {
+      "text": "that need to scan more in our old pod",
+      "start": 2191.72,
+      "duration": 4.76
+    },
+    {
+      "text": "based architecture or in the in in any",
+      "start": 2193.52,
+      "duration": 5.839
+    },
+    {
+      "text": "other Vector database today every single",
+      "start": 2196.48,
+      "duration": 4.96
+    },
+    {
+      "text": "query would be paying for the least",
+      "start": 2199.359,
+      "duration": 4.24
+    },
+    {
+      "text": "common denominator meaning it would be",
+      "start": 2201.44,
+      "duration": 5.159
+    },
+    {
+      "text": "as expensive for you to run a query that",
+      "start": 2203.599,
+      "duration": 4.441
+    },
+    {
+      "text": "should have looked at a small amount of",
+      "start": 2206.599,
+      "duration": 4.201
+    },
+    {
+      "text": "data as it is to run a query that should",
+      "start": 2208.04,
+      "duration": 5.36
+    },
+    {
+      "text": "be looking at enough data to be able to",
+      "start": 2210.8,
+      "duration": 5.68
+    },
+    {
+      "text": "answer your question right with seress",
+      "start": 2213.4,
+      "duration": 4.52
+    },
+    {
+      "text": "you don't you don't have to do that so",
+      "start": 2216.48,
+      "duration": 2.92
+    },
+    {
+      "text": "one of the things we are we are trying",
+      "start": 2217.92,
+      "duration": 3.56
+    },
+    {
+      "text": "to do over the next uh you know between",
+      "start": 2219.4,
+      "duration": 4.52
+    },
+    {
+      "text": "now and general availability is figuring",
+      "start": 2221.48,
+      "duration": 4.52
+    },
+    {
+      "text": "out how do what is the best API that we",
+      "start": 2223.92,
+      "duration": 4.48
+    },
+    {
+      "text": "can give that puts this control in the",
+      "start": 2226.0,
+      "duration": 4.079
+    },
+    {
+      "text": "hands of users",
+      "start": 2228.4,
+      "duration": 3.919
+    },
+    {
+      "text": "okay uh I think this is going to be very",
+      "start": 2230.079,
+      "duration": 3.881
+    },
+    {
+      "text": "powerful because now it allows you to be",
+      "start": 2232.319,
+      "duration": 3.0
+    },
+    {
+      "text": "in control of just how much are you",
+      "start": 2233.96,
+      "duration": 3.8
+    },
+    {
+      "text": "paying for a certain uh what you",
+      "start": 2235.319,
+      "duration": 6.681
+    },
+    {
+      "text": "consider good quality MH MH maybe taking",
+      "start": 2237.76,
+      "duration": 7.52
+    },
+    {
+      "text": "a step back to to where we started and",
+      "start": 2242.0,
+      "duration": 5.72
+    },
+    {
+      "text": "and kind of returning to to Rag and the",
+      "start": 2245.28,
+      "duration": 5.039
+    },
+    {
+      "text": "challenges that that folks experience",
+      "start": 2247.72,
+      "duration": 4.52
+    },
+    {
+      "text": "trying to get to you know a really",
+      "start": 2250.319,
+      "duration": 5.201
+    },
+    {
+      "text": "quality production uh production quality",
+      "start": 2252.24,
+      "duration": 6.76
+    },
+    {
+      "text": "experience for you know a user facing",
+      "start": 2255.52,
+      "duration": 6.12
+    },
+    {
+      "text": "applications you know tie what you've",
+      "start": 2259.0,
+      "duration": 6.92
+    },
+    {
+      "text": "done with serverless to to that core",
+      "start": 2261.64,
+      "duration": 7.0
+    },
+    {
+      "text": "challenge and yeah talk a little bit",
+      "start": 2265.92,
+      "duration": 5.32
+    },
+    {
+      "text": "about what you see coming down the pike",
+      "start": 2268.64,
+      "duration": 5.0
+    },
+    {
+      "text": "uh that will make it easy because I you",
+      "start": 2271.24,
+      "duration": 3.879
+    },
+    {
+      "text": "know it's got to get easier it's it's",
+      "start": 2273.64,
+      "duration": 3.28
+    },
+    {
+      "text": "still very difficult a little there's so",
+      "start": 2275.119,
+      "duration": 4.2
+    },
+    {
+      "text": "much attention being paid to it it will",
+      "start": 2276.92,
+      "duration": 4.88
+    },
+    {
+      "text": "get easier you know how do you see it",
+      "start": 2279.319,
+      "duration": 5.04
+    },
+    {
+      "text": "getting getting easier and uh you know",
+      "start": 2281.8,
+      "duration": 4.6
+    },
+    {
+      "text": "how will the vector database contribute",
+      "start": 2284.359,
+      "duration": 5.0
+    },
+    {
+      "text": "to that yeah I think uh you",
+      "start": 2286.4,
+      "duration": 5.199
+    },
+    {
+      "text": "know a lot of work that we've done over",
+      "start": 2289.359,
+      "duration": 3.96
+    },
+    {
+      "text": "the last year has been to make the",
+      "start": 2291.599,
+      "duration": 4.601
+    },
+    {
+      "text": "vector database really simple to use",
+      "start": 2293.319,
+      "duration": 5.201
+    },
+    {
+      "text": "really economical at scale and something",
+      "start": 2296.2,
+      "duration": 4.08
+    },
+    {
+      "text": "that you can just throw your embeddings",
+      "start": 2298.52,
+      "duration": 5.559
+    },
+    {
+      "text": "in and search over and and we we are put",
+      "start": 2300.28,
+      "duration": 6.16
+    },
+    {
+      "text": "a lot of effort into that Pon serverless",
+      "start": 2304.079,
+      "duration": 4.361
+    },
+    {
+      "text": "is like a huge step in that direction",
+      "start": 2306.44,
+      "duration": 3.679
+    },
+    {
+      "text": "and I expect that we continue to double",
+      "start": 2308.44,
+      "duration": 3.96
+    },
+    {
+      "text": "down on that and spend a lot of time",
+      "start": 2310.119,
+      "duration": 5.601
+    },
+    {
+      "text": "refining that workflow now that said so",
+      "start": 2312.4,
+      "duration": 4.959
+    },
+    {
+      "text": "so I'm very confident that we do we'll",
+      "start": 2315.72,
+      "duration": 2.879
+    },
+    {
+      "text": "do that really well and we do that",
+      "start": 2317.359,
+      "duration": 2.881
+    },
+    {
+      "text": "really well but there is the other part",
+      "start": 2318.599,
+      "duration": 4.561
+    },
+    {
+      "text": "of it which is you know we talked about",
+      "start": 2320.24,
+      "duration": 4.64
+    },
+    {
+      "text": "creating embeddings themselves as being",
+      "start": 2323.16,
+      "duration": 3.84
+    },
+    {
+      "text": "complicated we talked about chunking",
+      "start": 2324.88,
+      "duration": 4.12
+    },
+    {
+      "text": "strategies themselves as being very much",
+      "start": 2327.0,
+      "duration": 4.72
+    },
+    {
+      "text": "of art than a science right now we",
+      "start": 2329.0,
+      "duration": 4.839
+    },
+    {
+      "text": "talked about very very little being done",
+      "start": 2331.72,
+      "duration": 4.08
+    },
+    {
+      "text": "in the area of reranking and information",
+      "start": 2333.839,
+      "duration": 3.801
+    },
+    {
+      "text": "retrieval itself to connect all of these",
+      "start": 2335.8,
+      "duration": 4.08
+    },
+    {
+      "text": "together really well right I expect that",
+      "start": 2337.64,
+      "duration": 4.479
+    },
+    {
+      "text": "we'll find ourselves spending a lot of",
+      "start": 2339.88,
+      "duration": 4.6
+    },
+    {
+      "text": "time making that workflow seamless and",
+      "start": 2342.119,
+      "duration": 5.441
+    },
+    {
+      "text": "easy for people so in some sense I",
+      "start": 2344.48,
+      "duration": 6.2
+    },
+    {
+      "text": "expect Vector databases to really get to",
+      "start": 2347.56,
+      "duration": 6.12
+    },
+    {
+      "text": "start kind of gluing together the areas",
+      "start": 2350.68,
+      "duration": 6.72
+    },
+    {
+      "text": "around Vector da bases that uh today are",
+      "start": 2353.68,
+      "duration": 5.88
+    },
+    {
+      "text": "very disparate and bespoke yeah whether",
+      "start": 2357.4,
+      "duration": 4.32
+    },
+    {
+      "text": "it is what embedding models you're using",
+      "start": 2359.56,
+      "duration": 4.799
+    },
+    {
+      "text": "what you know what how how you're really",
+      "start": 2361.72,
+      "duration": 5.28
+    },
+    {
+      "text": "chunking versus what your r breing how",
+      "start": 2364.359,
+      "duration": 5.161
+    },
+    {
+      "text": "does that can of get into the context of",
+      "start": 2367.0,
+      "duration": 4.68
+    },
+    {
+      "text": "an llm and so on I think this is where a",
+      "start": 2369.52,
+      "duration": 4.28
+    },
+    {
+      "text": "lot of engineering and research is going",
+      "start": 2371.68,
+      "duration": 3.36
+    },
+    {
+      "text": "to happen over the next year whether",
+      "start": 2373.8,
+      "duration": 3.84
+    },
+    {
+      "text": "it's spine con or anywh else awesome",
+      "start": 2375.04,
+      "duration": 6.16
+    },
+    {
+      "text": "awesome oron thanks so much for taking",
+      "start": 2377.64,
+      "duration": 5.12
+    },
+    {
+      "text": "some time out of your busy day to share",
+      "start": 2381.2,
+      "duration": 4.159
+    },
+    {
+      "text": "with us kind of the latest and greatest",
+      "start": 2382.76,
+      "duration": 5.68
+    },
+    {
+      "text": "with uh regards to Vector databases and",
+      "start": 2385.359,
+      "duration": 6.681
+    },
+    {
+      "text": "and rag topics that uh as I mentioned",
+      "start": 2388.44,
+      "duration": 4.8
+    },
+    {
+      "text": "earlier are getting a lot of",
+      "start": 2392.04,
+      "duration": 2.76
+    },
+    {
+      "text": "conversation a lot of AirPlay here and",
+      "start": 2393.24,
+      "duration": 4.56
+    },
+    {
+      "text": "elsewhere um it's a great conversation",
+      "start": 2394.8,
+      "duration": 6.24
+    },
+    {
+      "text": "thank you so much and thanks for having",
+      "start": 2397.8,
+      "duration": 3.24
+    },
+    {
+      "text": "me",
+      "start": 2405.319,
+      "duration": 3.0
+    }
+  ]
+}

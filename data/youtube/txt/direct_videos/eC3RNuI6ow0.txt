@@ -1,0 +1,1630 @@
+This week we'll talk about um LLMs and
+AI like everyone else I guess.
+>> Uh but the difference between everyone
+else and us is that we have amazing Hugo
+joining us. Uh Hugo as you can uh you
+might have figured it out from our
+discussion is um returning guest uh also
+a teacher and um I have a video that
+I'll just read I guess. So, Hugo is an
+independent data and AI consultant with
+extensive expertise in the tech
+industry. He has advised and taught
+teams building AI powered systems
+including engineers from Netflix, Meta,
+US Air Force. That's quite far from
+Australia, right? You still
+can teach online these days, thank
+goodness, as well. So,
+>> yeah. So, you don't need to go to US to
+teach them. That's good. And he is the
+host of Vanishing Radiance. And I think
+your background um
+a hint about that
+>> uh and high signal I have no idea what
+high high signal is. That's probably
+>> you'll tell us. Uh podcast exploring
+developments and in data science and why
+do you need two podcasts by the way like
+how different?
+>> So one yeah so one vanishing gradients
+is really for like on the ground
+builders who want to know what they can
+learn today to ship product and maintain
+product. Um, and High Signal is a lot of
+conversations with people in leadership,
+um, and that type of stuff. So, we've
+had Michael Jordan on on High Signal and
+Fay Lee, Chris Wiggins, who runs uh,
+data scientists, data science at the New
+York Times. So, it's really intended for
+for for leaders um, who are also
+practitioners, but really thinking at a
+higher level.
+>> Which Michael Jordan are you talking
+about?
+>> The Michael Jordan of machine learning.
+So, from Berkeley originally, but lives
+in in Italy now. So, He has a book about
+machine learning, right?
+>> Yeah, exactly. He's done a lot of stuff.
+>> Is it called machine learning or
+>> Oh, I'd need I'd need to fact check
+myself.
+>> I I remember when I was uh studying
+machine learning was 2012 13. I was
+like, "Oh, Michael Jordan interesting."
+>> So that's how I But at the beginning
+like now um since um some time has
+passed since then I was like Michael
+Jordan what? And then I realized which
+one you meant.
+>> Yeah.
+>> Okay. So tell us about your career
+journey so far. So we remember um those
+who watched that you were doing deval.
+We also talked about um your teaching
+experience but um can you give give us a
+full picture?
+>> Yeah. Yeah. So my background is in uh
+basic research in biology, mathematics,
+physics and I was actually I lived in
+Dresden close to you for for a couple of
+years. There was a there's a Maxplank
+Institute for Cell Biology and Genetics
+there where I did part of my postto um
+over a decade ago.
+>> Decade ago. Okay.
+>> Yeah.
+>> Over a decade ago. So that's how you
+>> know a bit of German, right? So when I
+was eating, you said good and a bit.
+>> Exactly. Yeah. Um and I was I I I
+realized I needed to, you know, analyze
+large scale data that my colleagues were
+generating. So taught myself some
+Python. Jumped into what then were
+called IPython notebooks, not Jupyter
+notebooks um and the burgeoning PI data
+stack. So you know your pandas and
+mapplot lib and um at that point I don't
+even think pandas had a read CSV when I
+when I first first used it. It was the
+read CSV which really like started to
+superpower us. Um then I moved to the US
+was living in New York working at Yao
+University in New Haven. There were so
+many data science and machine learning
+meetups 2014 2015 in New York and
+hackathons. It was so so exciting um
+that I decided to to join industry and
+started interviewing and met these data
+camp guys. Joined as the fifth employee
+to build out the Python curriculum as an
+early employee wore many hats. So
+product data science curriculum
+marketing started a podcast there the
+the dataf frame podcast um which was
+super fun. And then during the pandemic
+I then worked at several companies PI
+data adjacent open source tooling turn
+vendor companies leading developer
+relations and that type of stuff. Then
+last year the space became too exciting
+for me to feel like working on one
+project was was was enough for me. So I
+went freelance. I'm doing consulting,
+advising, teaching, deveil um all across
+the board. So it's really an exciting
+time and I get to collaborate and work
+with so many wonderful people s such as
+yourself now.
+>> Yeah, that's really cool. Um so your
+journey and I think this is something I
+was asking you about previously from um
+you know your um experience in academia
+to doing de is pretty exciting cuz like
+for me doing deell sounds cool cuz you
+get to teach people and um receive good
+money for this cuz I'm originally from
+Russia and being a teacher there is not
+always um the most the best paid um
+profession. So for me uh like it's uh
+kind of cool that there is this uh
+opportunity for people to educate and
+also receive good uh uh money from it
+right from IC it sector so this is
+really cool but then since then uh you
+switched focus to consulting how did it
+happen so it's been a few years I guess
+so
+>> a year and a half no just less than a
+year and a half yeah
+>> so you were at de at outer bounds this
+is the
+Yeah,
+>> they are doing um how is it called like
+this orchestrator platform? Um
+>> metaflow.
+>> Flow. Yeah, I I remember it was flow but
+like with flow
+>> there are too many flows.
+>> Yeah, exactly. I was thinking which one
+of the flows it is. So it was metal
+flow.
+>> Metaflow. Exactly.
+>> Sever deell stuff there. And then what
+happened after that? Like you just
+decide okay I want to consult or
+>> Exactly. Yeah. Um I want to consult. I
+want to do a lot a lot of podcasting. I
+want to do education. I want to help
+people ship and build product in a
+variety of ways. Um in my consulting as
+well, I end up doing a lot of internal
+training. Um both on a technical side um
+in terms of teaching people how to
+leverage AI to to build software, but
+also being bubbled up to the executive,
+so doing executive advising and that
+type of stuff as well. So it is I mean
+it's a it's a really wild time and
+there's there's more work than you know
+I I can do myself. So it's it's
+definitely exciting.
+>> What kind of work do you do?
+>> Um so I mean it everything from you know
+all the consulting stuff to the advising
+and and the teaching as as well as as
+well as Devril. So
+>> consulting teaching I'm just taking
+notes for you for me to ask you later.
+consulting teaching uh deval what was um
+the last thing
+>> advisory stuff as well
+>> advisory what's the difference between
+advisory and consulting
+>> so in my consulting work I I really help
+people ship ship product and and build
+>> right
+>> yeah um
+>> so you basically like open your VS code
+do open AI stuff right so you actually
+code and consulting is and advisory is
+more like okay this is how you do this
+and now you go do it right
+>> yeah exactly and even advising stuff to
+nontechnical people about how to
+restructure your organizations around um
+AI tools and this type of stuff. Can you
+give an example like um why would they
+need to to restructure like to have data
+engineerings data engineers helping uh
+ML people or so actually for example
+let's say
+think a nontechnical team a marketing
+team where an individual's using you've
+got three individuals using chat GBT and
+they're each writing their own prompts
+and there are no uh synergistic effects
+um even something very basic like having
+a slack channel to begin with where they
+can share pro prompts or a version
+controlled system where people on a
+marketing team can share the prompts
+that work work the best for them. So
+even thinking about small technological
+tools that um allow people to do this
+stuff and how a team can work together
+with with AI systems as well. There's
+actually a lot of interesting research
+now on
+>> for example loss aversion. If you frame
+using um not using AI um as opposed to
+using AI will give you a win. If you
+frame it that um you know not using it
+can result in in in losses. This is
+something which can incentivize people
+uh more. One other thing um that is
+really tough at the moment is
+the most successful organizations in
+adopting uh new tooling like AI is when
+they carve out time and space for people
+to use it. Right? as opposed to you need
+to use AI for efficiency gains in
+addition to your full-time job. Um, so
+short-term loss in terms of carving out
+half a day a week uh for an
+organization's employees to experiment
+with AI individually and together, but
+medium to long-term gains. So, so these
+types of things.
+>> Are there people who still haven't
+tried?
+>> Um, a handful, not many, but okay. Yeah,
+but most people
+>> everyone is talking about this like it's
+amazing in two years two years ago I
+first was it two years ago around that
+somebody on our slack channel um shared
+a screenshot of CH GPT uh writing a poem
+about our machine learning machine
+learning engineering course and it was
+like wow really a poem about the course
+how cool is that and now everyone is uh
+using it right I think it was 3 years
+ago Oh, but like what whenever chat GPT
+became a thing like I saw this
+screenshot but now everyone my mom uses
+it but yeah my mom is pretty advanced uh
+but everyone
+>> so my mom uses it my dad hasn't though
+for example right
+>> so he he knows about it he's seen the
+screenshots the other thing is a lot of
+people who use it think it's just for
+conversations and I don't think your
+your audience is is like this of course
+but um a lot of people don't even
+realize you can use it for transcript
+summarization that you can use it for
+translation that you can use it for
+content generation that you can use it
+as a thought partner when generating
+ideas that you can use it to filter down
+ideas as as well. Um people don't
+realize that you can upload a document
+to it and get it to summarize that
+although you need to be careful cuz a
+lot of the time it will pretend to
+summarize it and not actually do it.
+>> Yeah, that's how I use it now. not
+necessarily for consumerization but
+sometimes let's say I need to do some
+basic data processing with Excel or for
+Excel files uh or with CSC files I would
+just upload and ask JGB hey hey can you
+do this and that for me and can you plot
+this graph
+>> now like I can do this myself but it
+saves so much time like I don't even
+need to um write code anymore like for
+these simple things that's cool
+>> exactly and getting out different
+formats I mean a lot of people don't
+realize you can generate CSV files with
+it or generate PDFs or whatever it may
+be. Um, helping people understand um,
+how to prompt as well. And I know this
+may seem basic, but a lot of people
+don't understand that if you give it a
+role and an objective, say you're a
+chief marketing officer and we're
+writing this campaign, which should be
+X, Y, and Zed, some something like that.
+Give it few shot examples, give it
+heruristics, right? All all of these
+types of things. Incredibly useful.
+>> Mhm. So let's say I want to create uh
+time timestamps for YouTube. I guess you
+also do this. What's the most effective
+prompt for doing that? So I have a
+transcript. So today we talk, right? So
+right now it's uh been seen to YouTube.
+After that we'll edit it slightly a
+little bit and then YouTube will
+generate um subtitles. So what I
+typically do with these subtitles is I
+copy them to um CHP and say, "Hey Chity,
+give me uh YouTube time codes." That's
+pretty much it. Like I just give it a
+format. So this should be time code,
+should be chapter name and that's pretty
+much it. Like how can I improve this
+process?
+>> Yeah, I'd say like specific things. So
+I'm going to tell you firstly I use
+Gemini um because Gem and I do it
+programmatically as well. I mean Gemini
+can get direct from YouTube and chat GBT
+cannot Google has blocked chat GPT from
+being able to uh transcribe
+>> that's why copy paste uh things
+>> so Gemini will take it straight in um
+heruristics like tell it do not
+hallucinate timestamps double check your
+work if it's long enough ask it to chunk
+it the these types of things but with
+videos I avoid all of that I actually
+use Descript. I don't know if you know
+that you of course you know this know
+this product, right? But it it generates
+incredible timestamps for me. Um and if
+it ain't broken, don't don't fix it. So
+whatever prompt they're using in there
+is it is so good.
+>> Mhm. Okay. So I use Loom for recording
+videos and the prompt they have for
+timestamps needs improvement. So
+>> yeah,
+>> how would you let's say if you're
+consulting a company like Loom uh where
+they would need to create time stamps
+like how would you would suggest them to
+approach this problem?
+>> I mean we'd look at the prompt and
+iterate on it several times and I think
+with this this type of type of prompting
+you'd say like have an eye for detail,
+right? You'd also want it to have
+timestamps that are relevant to your
+audience. Uh so for example for this
+podcast maybe it's data science folk,
+machine learning engineers, AI engineers
+and say the timestamps need to be
+relevant for these people, stuff that
+will get them interested um and that
+type of stuff. Then we'd want to make
+sure we have
+a subject matter expert in the loop to
+do some form of evaluation as well. And
+that's one of the most important things.
+So whoever used to actually write these
+timestamps or whatever, you know, get
+them involved or someone who knows about
+the content as as well and bootstrap it
+that way. The other way that we're
+seeing more and more success, and this
+will be in our conversation perhaps
+around agents and workflows is there's
+an um evaluator optimizer pattern where
+you can get an LLM to generate
+timestamps for example um and then you
+get then you give another one the
+timestamps and the script and give it a
+role um and uh tell it to evaluate it
+and give it a score and if it's less
+than a certain score uh pass it back.
+>> Okay. How does it work? Um so we have
+two um LLMs or two I don't know agents
+whatever one is you set evaluator the
+other one is optimizer right so the role
+of the evaluator is to look at the
+output and give it a score from I don't
+know 0 to 10 how good is this uh time
+stamps are and then we give
+>> yeah you can actually give it zero or
+one I I think is probably even better in
+this example pass or fail and give it
+feedback
+>> okay so then evalator should have
+multiple criteria Right. So let's say 10
+criteria. Each of them is uh pass or
+fail, right?
+>> Yep. Well, no, in the end you want to
+pass or fail cuz either you'll pass it
+and it goes to production or fails. Y
+>> I see. Yeah. So I I was just thinking
+how to best um do this cuz with time
+scripts uh timestamps, sorry, with these
+chapters, it's a little tricky because
+there are thousand
+correct answers and like even more.
+There are so many correct answers. There
+are so many ways to split um videos into
+chapters,
+>> right? And then um like how do you know
+that this one is better than the other
+one,
+>> right?
+>> Well, but that's the thing. What you
+want is for it to be aligned with your
+judg
+when Alexi sees, he goes, I like that.
+Right.
+>> Yeah. So, you can give it few shot
+examples and huristics around that as
+well. So Alexi may like Alexi may
+dislike it when the time stamps are like
+10 seconds apart.
+>> Alexi may dislike that. Hugo would hate
+that, right? So So then you'd give it a
+huristic make sure the time make sure if
+it's an hour long there are only 10 to
+15 time stamps or something like that.
+Yeah.
+>> And the thing is that's why you that's
+why prompt iteration is and prompt in
+quote unquote engineering is so
+important because it does something and
+you see it and you're like oh I don't
+and and then okay what if it starts
+using emojis which it probably will at
+some point then you have another thing
+you say do not use emojis and so on
+right
+>> and then after 15 20 prompts you
+probably get on something that looks
+pretty good for a lot of videos.
+>> But that's how I do this. That's I open
+uh my charg. I copy the transcript there
+and I play with the prompt until I see
+something that I like and then uh
+hopefully I save the prompt but usually
+what happens is I forget it and then
+next time I start the process again,
+right? Uh and then it's more like wipe
+check. So I look at the output of this
+specific time time like uh of this
+specific transcript. I like the
+chapters. I copy paste them to YouTube.
+Okay, my job is done. But um here the
+problem is if we have I don't know
+hundred of such transcripts then
+tweaking the prompt that results in
+optimizing for this particular
+transcript may lead to worse results for
+other transcripts and I alone cannot
+look at all 100 right that's that's why
+we need the evalator
+um as you said I guess everything that
+comes into prompt I put there too so I
+don't want I want correct transcripts I
+want um I don't know day to be at least
+um five minutes apart. Things like that,
+right?
+>> This is amazing, man, because we're
+actually hitting upon so many things in
+what it's like to build and iterate on
+IO powered software. So, the first thing
+we're talking about is just looking at
+your data, right? You look at the output
+and you're like, "Ooh, that doesn't
+quite work." And you iterate on it.
+We're talking about iterating on a
+prompt. That's a great t-shirt, by the
+way. Um
+>> Oh, yeah. Thank you. You talk about
+iterate and we need UV at the start now
+though I I think um
+>> UV
+um but so you iterate on the prompt now
+if you're building rag maybe you're
+iterate you see it isn't quite working
+you're looking you're looking at results
+so you iterate on chunking or embeddings
+or retrieval precision recall the these
+types of things if you're building
+agentic stuff maybe you're iterating on
+your tool call description and all of
+these but you're looking at the data
+right in order to see see what happens
+Next. Now, the way you're describing is
+you iterate, iterate, iterate, and then
+you kind of throw the prompt away and
+start again next time. One of the course
+and then you mentioned you want it to
+work over a hundred different things,
+but
+>> cuz if I build a product like one thing
+is I do one um of thing and then I throw
+it away, right? And then another one if
+I want to keep this prompt and then use
+it every time and then give it to my
+assistant so she uses it. And then if we
+do this then there is some quality um I
+would say like I can be sure that the
+quality of the transcript when I hand it
+uh off is actually good right cuz we
+have tested it. Well, I I agree you what
+we're saying is you don't want to
+overfit to the points that you've
+actually transcripts you've looked at,
+right? So, what you want to do then if
+you think your new transcript will be
+>> out of sample. So, we do podcasts on
+machine learning. If you do another one
+on machine learning, it's probably going
+to be pretty good if you've iterated
+several times and tested on 10. If you
+then do one on carpentry, maybe then you
+want to because maybe the prompt is
+actually says make the time stamps
+interesting for data scientists, ML
+engineers, and AI engineers. So then if
+it's out of sample, you want to do
+something different. But when you
+iterate on a prompt however many times,
+actually in the course I teach and
+through some some clients I work with,
+I've seen people iterate on a prompt 10
+times. I've seen people iterate on a
+prompt 500 times. Seen people iterate on
+a prompt 2,000 times. Right? But if you
+iterate on a prompt enough and it
+performs well over a diverse set of
+samples, it's likely to perform well on
+something else if that's not too out of
+out of distribution and you and it'll be
+far more efficient for you. particular
+if you set up you know actually we're
+building um a pipeline at the moment
+which takes in transcripts um and
+uh uses GitHub actions to then generate
+time stamps and a variety of other
+different things in order to automate
+all of this stuff that I do a lot of too
+much by hand.
+>> Yeah, that's what I we do too. But like
+the this GitHub actions is only for
+processing transcripts. But it's cool
+cuz it's free, right?
+>> Yeah.
+Exactly.
+>> How do you iterate 500 times on a
+prompt? You said like some people
+iterate a few times, some people iterate
+a few hundred times, some iterate a few
+thousand times. And for me, so what I
+do, so the way I come with prompts is
+first I type myself, then I type I give
+more and more details and then at some
+point uh I just ask Chptd, hey, this is
+the prompt I have. it cannot do this and
+this and I describe cases that this
+prompt cannot handle and then CH GPT I
+like the the GPT5 uh version of the
+model it's pretty good at creating very
+specific prompts
+>> that usually solve my problems so then I
+have this prompt and then usually I'm
+okay it kind of works so how do okay
+maybe it's like 10 15 iterations at top
+but like how do I go from that to 500
+like is it humanly possible.
+>> Yeah, it just can take weeks.
+>> Okay. Okay.
+>> But this is I mean this is iterating on
+prompts that ship SAS software to tens
+or hundreds of thousands of people as
+well, right?
+>> Um
+>> I also would en encourage that there is
+a I use LLM to write prompts as well. Um
+having said that prompts usually perform
+better when written by humans
+>> um
+>> or at least read and edited by humans.
+Yeah, as I said, LLM will insert emojis
+into prompts all the time. Um, there is
+no reason.
+>> I hate formatting when it searches for
+like why? It just increases the cost of
+my prompts.
+>> Exactly. Maybe that's why they're doing
+it. Who knows?
+>> Yeah. Right.
+>> Demand generation.
+>> Yeah.
+>> American man.
+>> Mhm. Yeah. Uh
+and if you want to iterate um 500 times
+on a prompt, you need to have a proper
+evaluation set, right?
+H it's actually a good question. Um not
+necessarily
+an initially you in the end you you will
+particularly when shipping what you want
+to be like reliable consistent uh
+software. Um but a lot of the time you
+can kind of vibe check it. They call it
+vibe checking, right? Where you like
+look at the result and you're like, "Oh,
+the the date format's not correct. So
+I'm going to tell the prompt or use
+structured outputs or whatever it is to
+to fix that." A lot of the things you
+can eyeball in the end though you
+definitely will um want some sort of
+gold test set just as in machine
+learning we have a hold out set right
+and a test set. So it's the premise the
+principle isn't different how it plays
+out because there's lots of rich natural
+language and tool calls and that type of
+stuff. It can play out differently in
+practice but but the premise is the
+same.
+>> How large should be this evalation data
+set goal test set? Because the problem
+is unlike traditional machine learning
+where um it might be like a few seconds
+to evaluate even with deep learning
+maybe it's like I don't know half a
+minute but now with prompt evaluation
+it takes a lot of time like how large
+should be the data set cuz of course we
+want to be large this data set to be
+large but then if it's large it's it
+costs money and then it takes time so we
+want to be it to be as small as possible
+But not too small, right? So we don't
+overfeit to these five examples.
+>> Yeah. I mean it it really depends on on
+what you're working on, but you you want
+it to be representative of what user
+interactions will be like, right? Um to
+your point about the cost, totally
+agree, but you don't necessarily want to
+use an LLM judge for everything. And of
+course, that's where you use an LLM that
+you prompt. So an LM judge is really
+just a prompt that you use to judge
+another one. Um you don't necessarily
+need to use that for everything. You can
+test is it structured output? You can
+use regular expressions, uh string
+matching, all of these types of things
+depending on um your particular
+particular use case. Uh so you can
+definitely lower and you can use really
+cheap models um to to I mean far cheaper
+like flash models and that type of stuff
+as opposed to you know um the the most
+most performant ones. But you do want it
+to be representative. Um the other thing
+and once again you know when you start
+looking you know and I've I can share
+some podcasts I've done with Haml
+Hussein and Shre Shanker on this and
+they have the eval course right
+something they preach is
+>> look at your data in spreadsheets for
+example at the start and when you when
+you do that you start to see um patterns
+emerge you start to see failure modes
+emerge and that will give you a sense of
+how much you really need to um collect
+and how big your your test set needs to
+be as well. Yeah. Well, the reason I'm
+trying to pull as much information from
+you as possible about this topic is
+because uh for my course that I'm doing
+right now, it's the evaluations week.
+So, I'm thinking what what should I what
+else should I include there? Cuz what I
+did is I already included the usual um
+the usual testing that you were talking
+about like um does it adhere to a
+certain format? um like does it include
+references like this kind of more like
+unit tests and then there is also more
+like integration test let's run it for
+uh this set of uh data and then we see
+the output right and then there is also
+this a
+>> um okay this is how our model performs
+like out of 100 questions 90% uh got
+relevant responses right so things like
+that
+>> um
+>> but you use this process to guide your
+development as well I And once again,
+this is something I I teach a lot in in
+my work and in my course to, you know,
+do failure analysis. And this is
+something Andrew Wing just wrote about
+the other day actually to rank order
+your failures. I mean, um, like
+formatting issues can be more salient
+and that means more visible to us,
+right? Or more obvious to us, right? But
+if they're only 10% of the issues and
+the rest has to do with retrieval, like
+focus on the retrieval. So doing some
+failure analysis, categorizing your
+errors in a spreadsheet, then doing a
+pivot table to rank order, like
+literally a spreadsheet will be one of
+your best tools for AI software
+development. Um, and then you'll see,
+oh, most of my errors are retrieval
+errors. And then I need to work on the
+retrieval part, not even the generative
+part. Right.
+>> Yeah. Makes sense. Makes sense. Um, do
+you what do you think about uh software
+for evaluation? because we have like so
+many monitoring uh/ovlating tools that
+help you with this process. So you set
+spreadsheet and this is what I use. Uh
+like I output things to pandas then I
+would copy them to Google spreadsheet
+and I would look at this. Uh but there
+are special tools. All right. Um have
+you tried any of them? Do you like any
+of them?
+>> I like nearly all of them but let me
+tell you my favorite tool besides
+spreadsheets is vibe coding man. So
+let's let's say
+Let's say
+>> steal it up, right? Or what?
+>> Yeah. Or or whatever like some front
+end, whatever. Whatever it may be.
+Whatever's the best way to to look at my
+data. And that won't be a spreadsheet
+most of the time. So, let's say I've got
+like an email assistant that I'm
+building, an agentic email assistant,
+something like that. Then I can vibe
+code like what it looks like to interact
+with this email assistant and look at
+all the traces and function calls in in
+there. And that can be incredibly
+useful. Now, of course, do that
+alongside tools that make your job
+easier, whether it be pedantic and
+logfire or brain trust, right? Or
+Phoenix Arise. These are all wonderful
+tools. But because So, stepping back a
+bit, generative AI, I know I'm biased,
+but I I think is one of the most
+civilization changing technologies, way
+bigger than the internet in in a lot of
+ways. And it'll take years for us to see
+this, by the way. We're not going to see
+this in the next 18 months, right? But
+it's huge. horizontal technology, loads
+of people building the application layer
+on top of it in healthcare, in finance,
+in edtech, right? People alongside
+trying to build tools that help people
+do this, but they can't satisfy
+everyone. Think about it. Like React
+came out, the front end React came out
+like 1015 years after the internet,
+right? So the tools that will really
+really help builders in the future may
+not even be around yet. And the reason I
+I want to make that clear is these tools
+are fantastic, but for the entire
+application layer, finance, as I said,
+health, edtech, government, we still
+need other things on top of them. So
+definitely use these tools. Just know
+that you'll be superpowered by being
+able to vibe code stuff alongside and on
+top of it as well.
+>> And when you v code these things and you
+said you include traces and function
+calls. So basically you ask to create a
+react app or streamlit app that looks
+like the end product might look like but
+you add all these debugging debugging
+things
+>> on top like what are the tool calls my
+thing is doing right uh and
+>> that's exactly it.
+>> Okay y
+>> and something we're speaking to here of
+course is whenever you build an MVP
+build logging into it immediate just log
+everything and then you can vibe code.
+Um, and once again when vibe coding like
+chat with it first. Don't build
+immediately. Give it your database
+schema. All of these things. Give it as
+much information as possible. Um, I I
+really think like AI assistants and
+other people have said this are very
+bright like deep like in in incredible
+amounts of memory. um kind of ADHDesque
+interns who will go and do all these
+things immediately and forget things
+that that you want it to do. So my
+friend um John Barryman who he he worked
+on co-pilot back in the day at GitHub he
+always talks about having empathy for
+your assistants your AI assistant. So if
+you understand what it's superpowers are
+um and what it's not great at that can
+really help. So having a conversation
+with it beforehand, developing a product
+requirement doc just one pager,
+reminding it what the schema of the
+database is, all all of these things can
+be incredibly useful.
+>> Mhm. Yeah. Sometimes it's stubbornly
+resistant at doing things or not doing
+like I ask it, hey, can you edit this
+file? And it would not edit it like I
+don't know. So I have to edit it myself
+and then hey, can you now edit it? And
+then it edits like Yeah. But sometimes
+like it's just amazing like uh I just
+edit this file and then it turns a
+Jupyter notebook into an awesome
+markdown file. But sometimes it just
+doesn't do anything and then Yeah,
+>> totally. And we talk about um we talk
+about hallucinations a lot. We don't
+talk enough about forgetting, right? And
+state-of-the-art tool calling like an
+LLM doing something as an agent is like
+90% accurate. That's state-of-the-art.
+So if you have six or seven tool calls
+in a row, it's going to be it's going to
+happen 50% of the time, man. Um
+>> Yeah. Yeah.
+>> Yeah. Just understand what what you're
+working with.
+>> What kind of what kind of assistance do
+you use? So for me, my current favorite
+is uh Copilot, GitHub Copilot.
+>> I've tried many tools. So far, I use it.
+Uh and also because I have an open
+source license. For me, it's free. So I
+don't need to pay 20 bucks to Corser.
+Um, but u I'm curious to know like
+what's your favorite one right now?
+>> Yeah,
+>> it might change in a week, right? I know
+that.
+>> Well, kind of I I think it might I I use
+cursor and I have for for some time.
+Previously I've used um claude code. I
+have used copilot. I use wind surf. Um
+I've played around with amp but cursor
+the thing with cursor for me it does
+everything I need need to. Um, it does
+it well and it's mostly out of inertia
+that I haven't changed yet. I'm I'm just
+doing so many things at the there's no
+strong reason for me to change at the
+moment, but I should take my own advice
+and make more time to experiment with
+with a lot of these different tools. Um,
+the other thing I'm really excited
+about, man, is
+having these tools in normal interfaces.
+So I mean I know people who like use
+cursor and devon and these types of
+things in slack right so you can be in
+slack with it and say hey this
+documentation's wrong update it here. So
+bringing um Agentic Systems into our
+normal uh environments. Uh Manis,
+everyone should check out Manis. Um it
+has an email assistant now where you can
+tag it in an email to either update
+documentation or do a variety of other
+things and it's yeah so having these
+things which are kind of around more I I
+think uh is going to become more common
+place.
+>> Slack.
+>> What's that? How can you use cursor from
+Slack?
+>> I think there's a Slack integration.
+Yeah, I'd need to I'd need to look into
+it, but I'm pretty sure like a Visual
+Studio clone, right? Uh they have a CLI,
+right? They have a CLI application.
+>> So then you can run it somewhere.
+>> So that's the thing I like about GitHub
+copilot and that's why I am recently I
+recently switched to it cuz they have so
+good GitHub integration. So I can just
+create an issue, assign this issue to
+GitHub copilot and then in half an hour
+have a working thing
+>> right with Corser I cannot do this or I
+am not aware of a way of doing this. But
+now you say there the slack integration
+which I guess means that I can just
+write hey Corser can you um fix this bug
+or fix issue number 124
+and then it will go pull the issue and
+solve it. Right. Exactly.
+>> That's cool. They have I think
+>> Yeah. Yeah, they do. I haven't I haven't
+used it a lot and I I think it probably
+isn't as advanced as you know Claude
+code or something like that, right?
+>> Um but I do like if we think about the
+evolution I I mean like a year or two
+ago we were like copy and pasting
+between chat GBT and our IDE, right?
+>> That's what I was doing
+>> two years ago. Then we have like code
+completion. Before that we were coding
+>> was also crap, right? I mean GPT 3.5
+wasn't really good at coding.
+>> Yeah. And also the worst thing was it
+didn't know its own API. It was GBT had
+a different um and so then we had code
+completion. Then we have now have agents
+in IDEs and terminals. Um then we're
+just talking about having AI embedded in
+other tools. Um we're starting to see AI
+being more proactive. So doing code
+reviews um in continuous integration and
+GitHub actions. um seeing more
+background ages like stuff just
+operating in the background and I'm
+actually really excited about proactive
+AI and I think that's going to be
+something you know it it seems
+futuristic but I I I don't think it's
+too far where AI comes to you and says
+hey this is happening in production or
+comes to you on a Monday morning and
+says you know even coding aside and says
+hey you've got all these emails why
+don't I um these are the most important
+ones you need to respond to And why
+don't I carve out time on your calendar
+for you to deep do deep work move these
+things around on Tuesday afternoon these
+>> to have this kind of so we are at
+background agents level right now right
+so the agents we have like we can ask it
+to work on the thing uh on something in
+slack or in my case as anam the example
+I gave I can create an issue in GitHub I
+can assign it to copilot and then half a
+year half a year yeah half an hour later
+I check the pull request um In the
+meantime, maybe I drink some tea, then I
+check the pull request and it's ready.
+Right? But what if this copilot
+>> would just send me an an email saying,
+"Hey, like looks like you can add this
+feature to your website. Do you want me
+to work on that?" And I'm like drinking
+tea and say, "Yeah, yeah, you can work
+on this." And then it works. And then
+>> that would be amazing. Okay.
+>> The the other thing so I think proactive
+agents and I think multiplayer agents I
+mentioned um AI in in Slack and Discord
+wherever. Um but they don't play nicely
+a lot with lots of people pinging the
+same one. And so I think agents which we
+might need to I don't think we need to
+retrain them from scratch but maybe in
+like fine-tuning stage postraining you
+know fine-tune them on multiplayer
+conversations or something like that.
+But you could imagine Alexi and and Hugo
+and a few other people having a
+conversation with an agent in in Slack.
+Um, and it's actually a team member. So,
+at the moment, if you have three or four
+people, they'll they'll get confused
+with who's who and memory issues and and
+that type of stuff. Um, but I think once
+once we solve that, having them as
+embedded team members as well. So,
+proactive agents and multiplayer agents
+I think are going to be a huge part of
+the future.
+I mean if this change that much in three
+years um yeah I would be really curious
+to see what will happen in the next
+three years
+>> without a doubt.
+>> Yeah but probably it's like logarithmic
+right so then we saw the exponential
+part probably it will slow down with
+time but still think we will see pretty
+exciting things.
+Yeah. And then the application layer. I
+I mean, look at the '9s, right? And the
+evolution of the internet and how huge
+that that was. Then there was the com
+bust. Not saying that's going to happen.
+Maybe smaller, maybe bigger. Who knows?
+But then like you got Google and YouTube
+and
+social media for for good and for bad,
+right? But like we figured out how to
+how to connect people around the
+internet, how to index the internet,
+right? So these types of companies and
+products will will emerge. Currently we
+only really have a browser in in a lot
+of ways, right? How do we connect these
+things?
+>> Mhm. Yeah. There's this uh browser from
+Perplexity. You've heard of it, right?
+>> Yeah. Comet.
+>> Comet. Yeah.
+>> Yeah.
+>> So for me um like sometimes for example
+I get an email from my tax um advisor
+saying hey like you need to prepare
+these documents. And uh when it comes to
+taxes, I'm such a procrastinator.
+Probably you can relate. I don't know
+like how taxes are in Australia.
+>> I can't even talk about it right now.
+Yeah, exactly.
+>> And I have to do this. And uh she sent
+this email one month ago and I know like
+I have to do this. I just have to find
+like at least half an hour or 1 hour to
+do that. But this is such a manual work
+that um like you need to go there, you
+need to save this document, you need to
+go there like through this bank, through
+that bank, save all this in a folder in
+a zip archive and then send it
+then I'd like to see to wake up one day
+to have an agent do that for me.
+>> Absolutely. That would be amazing cuz I
+think this uh comment is one step uh
+towards um this
+>> definitely and provocative statement but
+I don't think the future of AI happens
+in chat to be honest I think we'll be
+doing a lot of chat and that type of
+stuff as we do but if you think about
+the amount of value a conversation can
+generate is upper bounded by human time
+and human time is a pretty scarce
+resource these days. the ability to
+generate documents or take actions or
+send emails or whatever it may be. Um
+and and I think the the agentic stuff is
+is where the like 99 plus% of the
+economic value will be delivered.
+>> Yeah. Let's see. Um
+so what else do you consult about like
+what kind of applications do you build?
+What kind of applications you help uh to
+build your customers?
+>> Yeah. So I mean the the main let me tell
+you a story actually the the lion share
+is in retrieval to be honest and some
+aentic stuff now
+>> but it really comes down to um level
+setting expectations. So, let me this is
+kind of an amalgam of of several
+customers. Um, and it and it's something
+that we wanted to talk about which is
+about proof of con what I call proof of
+concept purgatory. Um, which is where a
+lot of people get stuck, right? Um, and
+one thing that keeps you there is just
+great ideas that don't solve problems.
+So, um, for example, an edtech company I
+spoke with that they wanted to create
+like an all-purpose AI tutor, right?
+and something which could just teach
+everyone everything and that that was a
+moonshot in a lot of ways. Um then we
+dove into
+>> but tragically can do this can't it?
+>> Well I mean it definitely can appear to
+right but whether it all the time
+>> um
+>> yeah but
+I have used it to learn so many things.
+Oh yeah. Look, I I think you're right
+for stuff that it's trained on for the
+most part.
+>> Right. Right. But of course, if I go
+outside of human knowledge, then of
+course or I mean
+>> No, but
+>> yeah, there there is some broad
+knowledge. Um I don't know basics of
+chemistry, basics of electronics, basics
+of uh I don't know German. I was uh
+learning German with JGBT. Um
+but uh when it comes to like advanced
+level PhD stuff then probably it's
+lacking right it cannot do research on
+its own or can it but I mean
+>> well they can they can search search the
+internet they have they have search
+tools but a not insignificant proportion
+of the time they'll say they searched
+the internet and they actually didn't
+and they'll hallucinate something um and
+even on like not basic knowledge but
+like college third
+you know, um
+let's say
+algebraic representation theory in math
+or something like that, right? Like it
+will make things up.
+>> It will also make things up when you ask
+it about like Uklid's elements, right?
+Or platonic solids. It will just you'll
+say what are the platonic solids? Um
+>> I have no idea what is it.
+>> So it's when Plato was like there's a
+pris there's like a a rectangle
+triangular pyramid these types of
+things. So it's like geometric shapes.
+>> Okay? you know, a not insignificant
+proportion of the time it will just make
+one up and say this is another shape,
+right? So I I don't think chat GBT is at
+at that level yet.
+>> Okay. So what you're talking about is
+visual stuff, right? So it's not there
+yet when it comes to visual things.
+>> Oh no. I it can't do arithmetic as well
+like you know.
+>> Yeah. Right.
+>> So I mean you know there are so many
+things that there are so many failure
+modes at chat GBT. I wouldn't trust it
+as an allpurpose tutor.
+>> Yeah. Okay.
+>> Yeah.
+And so anyway, this edtech company
+creating an allp purpose AI tutor and
+like total moonshot. Um we jumped into
+their support tickets and noticed
+20% of customer tickets were in which
+class um is this particular lesson or
+can I learn about this? Right? So, as it
+turns out, instead of building something
+super flashy,
+>> yeah, if if you if you build a simple
+rag bot, iterated on it on on it several
+times, have some good chunking
+embeddings, nice interface, you solve
+one in five of your customer tickets,
+right? So, a lot of the things are
+relatively unshiny and unsexy, but it it
+delivers business value immediately as
+opposed to some new generative AI
+strategy. So helping people understand
+that they have business problems um that
+they can solve in the coming weeks and
+months uh using the these technologies
+instead of creating s something super
+flashy.
+>> Is chunking solved problem or we still
+have no idea how to chunk documents
+properly.
+Um
+I mean generally you can do it
+relatively relatively well like there
+are a lot of problems which you you can
+but like for a general answer not
+necessarily think about once again a
+transcript right um
+so we're chunking this conversation or
+or a longer if we were speaking each of
+us were speaking for somewhat longer
+maybe we want to chunk it into question
+and answer pairs right
+>> um or maybe we want chunk it into
+question, Alexia's question and Hugo's
+answer, right? Um, as opposed to if it
+was a fivep person conversation, um,
+maybe we want to chunk it into
+particular topics first or something
+like that. Um, so I think once again
+looking just looking at what your um,
+>> so there's no one size fits all. It's
+more like okay, what this data is about.
+Okay, it's a podcast conversation.
+There's a host, there's a guest. So, how
+about we chunk it into a Q&A data set as
+opposed to uh I don't know there is a
+book Game of Thrones then there you
+probably want to have a different
+junking approach.
+>> Exactly. And and also look at your data
+as well. So Zoom for example creates
+gives you two transcripts. One is the
+closed captions which doesn't have any
+names. The other is the transcript which
+will say Alexi
+D Hugo colon. Right? And if you have the
+one which has names, suddenly you have a
+far richer data set and get a lot more
+information about who said what.
+>> Oh, funny enough, uh, CHPd can quite
+often figure this out without this.
+>> The other thing that we're kind of
+hinting at like a lot of the time
+depending how how long it is like maybe
+you don't even need to chunk. Context
+windows are getting really large. Of
+course, there's an issue of context rot.
+I'd encourage everyone to check out
+Chroma. Um Jeff Huber and his team at
+Chroma had a great essay on context rot
+um and how if like a lot of different
+things, but the more you give um the
+less it it it's really able to to get
+out relevant and precise information all
+the time. So
+>> yeah, like I notice it with rather long
+transcripts that uh at the beginning the
+chapters are good or like when I ask it
+to um make it neater to make it
+readable. So at the beginning it's doing
+its best but then at the end it's just
+very sloppy.
+>> Hey, you want to hear something totally
+wild? I've definitely in prompt
+engineering as we were disc that we were
+talking about before if something's
+really important use it say it at the
+start of your prompt and repeat it at
+the end and you you often get better
+performance that way.
+>> Yeah, it's funny when I ask it to
+improve my prompt and I say hey like
+even though I asked it to do this
+certain thing it doesn't. So what chipd
+is doing is just reinserts this attent.
+So it's like uh so these are your tasks
+and you describe the requirements and
+then the important to remember and then
+some things are repeated and then it
+works like
+>> totally.
+>> Yeah that's funny. Um so when it comes
+to chunking uh so which approach did you
+use for this uh tutor? Like I don't know
+if you can talk about this. Uh, no. So,
+that was kind of a amalgam of of
+different things I've I've worked on.
+Um, but it I I think you want to use
+like really look at your data and what
+makes sense. In the case of um let's say
+you had,
+you know, instruction videos that were
+30 minutes long, you'd want to know what
+your like how long each subless is in in
+that sense, right? So if each 5 minutes
+something changes um you know you want
+to at least chunk it at that
+granularity.
+>> Would you still go with like usual
+character based chunking or you need
+section splits and stuff?
+>> Yeah, I'd start with with fixed
+character based character lengths and
+then then move from there.
+>> To me it seems like it's doing a pretty
+good job if you just do this character
+based sliding window. uh because other
+approaches they're more complicated. Uh
+but yeah, I was wondering what's the
+consensus right now in the industry
+about that.
+>> Yeah. And also what you want to do is
+you know there are a bunch of questions
+that rag is is horrible at, right? Like
+if you ask a rag system
+like what's this video about? This whole
+video about it's and and it's chunked,
+right? Like it's not going to tell you
+that it's looking for a particular
+chunk. or if if you asked rag what are
+the top three things what are the top
+three techniques used in this video and
+how can I learn more about the third one
+right um so this is one time where I
+tell people to start you know using
+agents and I am skeptical of the use of
+agents when trying to build reliable
+userfacing software but even if you like
+have a tool called that's a
+summarization tool or something like
+that it can immediately answer the first
+question what is this whole thing about
+it can have a summary Um, and if you
+have, you know, a few other tools, um,
+and maybe, you know, a couple of sub
+agents or or something like that, it can
+it can get very powerful at the types of
+>> questions humans naturally ask.
+>> Yeah. But the moment we go from usual
+rack to agents, our system complexity
+increases dramatically, right? Uh cuz
+now we need to make sure that tools are
+called. The prompts we give they um make
+agents do what we wanted to do like okay
+for this task you use this call for this
+task you use this call and then you
+repeat it in caps to make sure that it
+actually uses this tool right or
+whatever while in rack it always follows
+the fixed path and it always works right
+I mean for this part particular purpose.
+So how would you um suggest like um for
+me let's say I have a okay B system but
+I heard that agents are cool and I want
+to try them like at what point I should
+actually consider doing this. So I
+firstly if it's working
+>> no need to no need to do anything. That
+isn't to say you it wouldn't be fun to
+to explore the these things, but I think
+one forcing function is if if users are
+asking questions like tell me about this
+entire corpus or something like that,
+which it which a lot of people do when
+they first encounter like what's this
+all about, right? And then maybe you
+want to introduce a summarization tool
+for for example and then
+>> the way I think about it is you're right
+introducing tool calls um increases
+complexity. It also increases power,
+right? um and and uh scope. So, it is
+incredibly powerful, but introduce
+things mindfully and then figure out how
+you're going to evaluate whether these
+tool calls are actually working as as
+you'd expect. Once again, you know,
+using tools, evaluation tools like Brain
+Trust, Arise, Logfire, all of these
+things are great. maybe vibe code some
+things on on the side as well, but
+really um get a sense how everything I
+is is working working there before
+increasing the complexity too much.
+>> Brain trust. I have not heard about that
+one. It's brain trust.deaf. I'm looking
+it up in Google
+>> probably. Yeah, if you if you there
+there are actually two brain trusts, but
+if you look up brain trust LLM, it'll
+come up.
+>> So, it's brain trust.deaf.
+Um yeah, interesting. And I have not
+heard about this one. But it's not open
+source, right? It's uh I don't see any
+GitHub.
+>> Um I think they do. Let me just confirm.
+Yeah, they have a GitHub.
+>> Okay.
+Okay, I'll check it out. Thanks. But
+like these things grow like mushrooms
+now in Germany in October.
+So it's it's very hard track of u these
+things.
+So
+>> and all of these tools have like open
+source and non-open source components
+for for most
+>> like uh arise right they have phoenix
+and they have like the usual
+>> y
+>> okay well we should be wrapping up um
+maybe any advice uh for people who are
+starting with agents uh what's what
+would be the like what you would
+recommend them to do what is the top
+number one thing that they should think
+about when building agents.
+>> Um I think there are a few things. The
+the first is
+build something try building something
+that's important to you, right? Um so
+for example, if you're overwhelmed by
+emails, right? Um plug in to your Gmail
+API and start clustering and classifying
+your emails and in terms of priority,
+that type of stuff. Use some basic
+machine learning to do that. and then
+perhaps build something that
+>> is easy to connect to Gmail through API.
+>> Yeah, absolutely.
+>> That's cool.
+>> I have not thought about that.
+>> Yeah, cluster and classify your emails
+and then maybe you can even do some fun
+machine learning stuff where you try to
+prioritize them and then iterate on
+that, build up a gold data set of that.
+then perhaps uh connect it to another
+LLM which will generate a response that
+it sends to you to look at to then email
+email on for example. Um
+>> so what I would like to have right now
+as you speak is a system that looks at
+my unread emails and suggest an answer
+>> or two three answers to that emails.
+>> Fantastic. I'd very much encourage you
+to do that. So, but that's personal.
+>> Like there are so many emails that I
+just procrastinate
+on.
+>> Uh cuz maybe I saw this email when I was
+on a bus and I'm from my phone and it's
+hard to type for me, right? And then if
+the system knowing me, knowing what I
+would reply to this would just generate
+me three options,
+>> then probably 50% of the time I would
+already just send these options.
+>> Yeah, exactly. Um
+>> yeah, if anyone is building this, please
+reach out to me. Totally. Um and to to
+your point as as well uh if you want to
+generate transcripts or um you know
+generate creative uh copy all all of
+these types of things start building
+things that you want to build and that
+are important to you and solve problems
+for you or your your business in terms
+of building a so that's where to find a
+problem. There are lots of problems you
+can try to solve everywhere. Uh then how
+to do it start small. Start very gently
+scoped. Use an LLM perhaps. Then
+introduce some memory if you need it,
+some tool calls, some retrieval if these
+things are important. Um, add a few tool
+calls and then start looking at the
+results you get and start to get a sense
+of what's working uh and what isn't and
+start to build out some sort of
+evaluation uh data set. Of course, go
+and play with all the fun frameworks
+like Crew AI and whatever else it may
+be. small agents at hugging faces is
+great, but I think the challenge there
+is that you don't you can't necessarily
+introspect into your system and
+everything that's happening um
+internally. So the three things I think
+well let's say four things um find a
+problem that's meaningful to you. So
+that could be the email one, right? Um
+then start small, get an LLM, add some
+tool calls, maybe add some memory,
+whatever it may be. Uh three, look at
+your data. Four, start to build out some
+sort of basic evaluation set. And the
+looking at your data and building out
+the evaluation set. The only intention
+behind those are to guide how you how
+you uh iterate on your product. You
+might be like, "Oh, I should change the
+description of this tool call. Oh, I
+should change um how this embedding is
+working." But by the way, a lot of the
+time your embeddings and chunking won't
+be the problem. It'll be like your OCR
+or how you're like getting the PDF into
+the system. Um I' I'd be remiss if I
+didn't also say if you if you want to
+learn a lot more about these things, I I
+also teach a course um building AI
+applications for data scientists and
+software engineers and I'd love to offer
+your community 20% off. So I can share
+the link for that as as well.
+>> Yeah, please do.
+>> Yeah, maybe last thing cuz you mentioned
+something that I want to get a quick
+reply from you. I don't know if you
+covered this in your course. You said
+think of introducing memory and this is
+something I haven't personally
+experimented with. So the way I included
+memory so far was through some sort of
+rug. Is this how people do this? And
+what's where can I read more about
+adding agents?
+>> It's a great question. Um
+I I'm sorry. I just I shared the link in
+YouTube but I shared the wrong link
+without the discount and I want everyone
+to
+>> like the thing is there's this auto
+moderation so if somebody who's not me
+shares a link then it's not displayed
+and this is something I cannot turn off
+>> yeah fair enough
+>> YouTube so please send to me in chat
+>> I can share it with you in in um Zoom
+>> yeah I'll
+>> this is actually such such a great
+question and I think it's un So many
+people do it horribly and you may notice
+chat GBT doesn't GBT5 you can't have as
+long conversations and it preserves the
+memory in a way that you used to as as
+well right um so the way I think about
+it think if you need memory to start
+okay and one of the first SAS products
+incorporating LLM which was um
+uh English to honeycomb query language
+right so kind of SQL type type stuff.
+All it was was you say what you want to
+do um and then um it will give you the
+query and then you can can execute it.
+So it was one turn. You don't need
+memory on that at all. Right.
+>> Um so memory essentially is when you
+start wanting to have a conversation
+with something.
+>> So for me uh the reason I thought about
+this memory is I was thinking about this
+uh email assistant. It would need to
+know what I replied in certain cases and
+then probably it's solved by indexing
+entire all the replies and then look
+something similar right would it be
+memory I guess it would be but there are
+other ways
+>> yeah funnily not in this specific it is
+memory but to your point you do that via
+retrieval okay so that's something
+already stored when I talk about memory
+I talk about in a in a specific
+conversation right
+>> okay okay
+>> so remembering when you chat with um
+let's say a travel assistant You're
+like, "Hey, I want to book a hotel." And
+it says, "Here are the options for the
+hotel." And you say, "Which is the
+cheapest?"
+>> It should remember that you're talking
+about a hotel.
+>> Right. Right. So, this is uh Okay. I
+thought memory across conversations.
+>> No. No. So, there's that. That's that's
+another challenge as well. But even
+memory within conversations. And one way
+to do that is just to give it the entire
+conversation so far. For short
+conversations,
+>> that's fine. Um but for longer
+conversations then you can start using
+sliding windows for example right um but
+then it doesn't remember you know what
+happened whatever's past the sliding
+window um another way to do it is a
+short sliding window and then have an
+agent actually that controls the memory
+and its job is to make sure um you you
+retain um all the all the relevant
+information for some definition of
+relevance. So there are lots of
+different ways to to work on and think
+about memory in multi-turn conversations
+but it's challenging and on top of that
+evaluating multi-turn conversations is
+gets pretty tough. So the question then
+becomes do you like how long do you want
+these conversations to be in a product?
+>> Yeah. Okay. I think we should be
+wrapping up. Um like I have so many
+questions to ask you but uh
+>> we should chat again soon man. And yeah,
+I'd love to chat about like even doing
+some teaching or running a workshop
+together or something sometime. I think
+that could be super fun.
+>> That could be. My son wants attention
+like he's making sounds. So,
+>> well, you should you should definitely
+definitely go.
+>> Thanks a lot. You go. I like the idea.
+So, let's catch up maybe in year so we
+don't need to wait for three years or
+whatever.
+>> Exactly.
+>> Thanks everyone for watching and
+listening and thanks Alexi and everyone
+at Data Talks as well.
+>> All right. Shaman.
