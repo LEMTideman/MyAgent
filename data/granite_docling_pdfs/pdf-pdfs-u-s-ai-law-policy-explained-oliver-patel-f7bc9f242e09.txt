@@ -1,0 +1,150 @@
+<!-- image -->
+
+<!-- image -->
+
+I'm Oliver Patel, author and creator of Enterprise AI Governance .
+
+This free newsletter delivers practical, actionable, and timely insights for AI governance professionals.
+
+My goal is simple: to empower you to understand, implement, and master AI governance.
+
+If you haven't already, sign up below and share it with your colleagues. Thank you!
+
+A lot has changed with respect to U.S. AI policy in recent months; and it can be hard for AI governance professionals to keep up.
+
+To help navigate these recent shifts, this article provides a comprehensive, up-to-date, and accessible overview of U.S. federal AI law and policy.
+
+It does not cover U.S. state AI laws and initiatives, which will be the focus of next week's edition of Enterprise AI Governance.
+
+Despite lacking comprehensive EU-style regulation, the U.S. does have several important AI laws. In fact, there have been dozens of federal laws, regulations, and initiatives on AI, many of which will be discussed below.
+
+Aside from President Biden's (ultimately unsuccessful) attempts to initiate private sector AI regulation, the U.S. government's core focus in recent years has been on maintaining and promoting U.S. AI leadership, restricting the export of AI-related technologies, and encouraging responsible and innovative federal government use of AI.
+
+The Trump administration, which is primarily concerned with strengthening 'U.S. global AI dominance', is pivoting away from the Biden administration's AI governance and safety agenda. However, this does not mean that AI governance is completely off the menu. Its importance was stressed in a recent memorandum published by the White House's Office of Management and Budget, which described effective AI governance as 'key to accelerated innovation'.
+
+## This overview covers:
+
+- ✅ U.S. global AI leadership and the race with China
+- ✅ Biden's AI governance agenda
+- ✅ Trump's agenda: what 'America First' means for AI
+- ✅ AI export controls and investment restrictions
+- ✅ Federal government use and acquisition of AI
+- ✅ NIST and the U.S. AI Safety Institute
+- ✅ What's coming next?
+
+Thanks for reading Enterprise AI Governance! Subscribe for free to receive new posts each week.
+
+## U.S. global AI leadership and the race with China
+
+The U.S. is the undisputed global AI leader, by nearly every metric. The global AI industry is dominated by U.S. companies, AI models, and hardware. Here are some stats from Stanford's 2025 AI Index Report, to illustrate the point:
+
+- In 2024, U.S. private investment in AI was $109 billion. In contrast, it was $9.3 billion in China and $4.5 billion in the UK.
+- U.S. organisations produced 40 'notable' AI models in 2024, significantly more than China's 15 and Europe's 3.
+
+However, in some areas, China is quickly catching up and the U.S. is taking nothing for granted. For example, although U.S. AI model production output is higher, China's advanced AI models are getting closer to U.S. models in terms of quality ( see chart below ).
+
+<!-- image -->
+
+Source: Stanford AI Index Report 2025 [original]
+
+DeepSeek recently demonstrated that it can develop AI models, which have similar performance capabilities to leading U.S. models, at a fraction of the cost. This prompted a sell-off in U.S. tech stocks, with the S&amp;P 500 falling 1.5% on the day DeepSeek released its open-source R1 model.
+
+Furthermore, China is charging ahead in AI talent, research, and patent filing. Increasing numbers of 'top-tier' AI researchers originate from China ( see chart below ), with the share originating from the U.S. declining in recent years. Also, 300,510 AIrelated patents were filed in China in 2024, compared with 67,773 in the U.S.
+
+<!-- image -->
+
+Image source: Information Technology &amp; Innovation Foundation, 2025 [original]
+
+These trends explain one of the core drivers behind much of the U.S. AI policy agenda in recent years, from AI export controls and investment restrictions, to substantial support for AI infrastructure funding.
+
+Although there is no comprehensive federal AI law, like the EU AI Act, there have been a number of federal laws and initiatives, across the past few administrations, which seek to maintain and strengthen the U.S. position of global leadership.
+
+Some of the most relevant laws include:
+
+## Executive Order 14141: Advancing United States Leadership in AI Infrastructure
+
+- This Executive Order was signed by President Biden in January 2025. At the time of writing, it has not been revoked by President Trump.
+- The purpose of this Executive Order is to promote and encourage domestic AI infrastructure development, to 'protect U.S. national security' and 'advance U.S. economic competitiveness'. This includes using federal sites to build data centres for AI and prioritising clean energy techniques.
+
+CHIPS and Science Act of 2022
+
+- Enacted in August 2022, the CHIPS Act ('Creating Helpful Incentives to Produce Semiconductors') was a key pillar of Biden's AI policy.
+- The headline impact of this Act was to authorise and release approximately $280 billion in spending on the hardware components and infrastructure most critical for AI development.
+
+## National AI Initiative Act of 2020
+
+- This law was enacted in January 2021 as part of the National Defense Authorization Act (NDAA) for Fiscal Year 2021.
+- It provided over $6 billion in funding for AI R&amp;D, education, and standards development, with the ultimate goal of strengthening U.S. AI leadership. This included a mandate which led to NIST developing the NIST AI Risk Management Framework ( discussed below ).
+- The Act also established the National AI Advisory Committee, a high-level group of experts which advise the President on AI policy matters.
+
+## Executive Order 13859: Maintaining American Leadership in AI
+
+- This Executive Order was signed by President Trump in February 2019. It remains in force today.
+
+- The purpose of this Executive Order is to promote investment and use of AI across the federal government, as well as to 'facilitate AI R&amp;D' and the development of 'breakthrough technology'.
+
+## Biden's AI governance agenda
+
+During the Biden administration, AI governance and safety was a top policy priority. Although this appeared to signal the beginning of a shift away from the historically free market approach to technology regulation adopted by previous U.S. administrations, it did not last for too long.
+
+President Biden attempted to balance promoting U.S. global AI leadership with upholding civil liberties and protecting citizens from unfair and harmful practices. As described throughout this article, various federal initiatives designed to strengthen the U.S.' global position-such as on AI export controls, investment restrictions, and AI infrastructure and manufacturing spending-were complemented with initial efforts to regulate private sector AI activities and promote responsible AI.
+
+The Blueprint for an AI Bill of Rights, for example, was developed by the White House Office of Science and Technology Policy. It outlined Biden's AI policy vision. The
+
+Blueprint was defined by five core principles for AI development and use: i) Safe &amp; Effective Systems, ii) Algorithmic Discrimination Protections, iii) Data Privacy, iv) Notice &amp; Explanation and v) Human alternatives &amp; Fallback.
+
+The Blueprint argued that AI systems used in healthcare have 'proven unsafe, ineffective, or biased' and algorithms used in recruitment and credit scoring 'reflect and reproduce existing unwanted inequities or embed new harmful bias and discrimination'.
+
+President Biden also secured 'Voluntary Commitments' from 15 leading AI companies. These included conducting AI model security testing and sharing and publishing information on AI safety. The core purpose of these commitments was to ensure that advanced AI models were safe before being released.
+
+Building on these initiatives, Executive Order 14110: Safe, Secure, and Trustworthy Development and Use of AI was signed by President Biden in October 2023. This represented the most comprehensive U.S. federal AI governance initiative to date. It mandated a major programme of work, entailing over 100 specific actions across over 50 federal entities.
+
+Tangible resulting actions included the establishment of the U.S. AI Safety Institute and the publication of various NIST AI safety standards, guidelines, and toolkits ( discussed below ). Also, developers of the most powerful AI models were obliged to perform
+
+safety and security testing, and report results back to the U.S. government. However, this AI model evaluation regime was never fully operationalised.
+
+## Trump's agenda: what 'America First' means for AI
+
+President Trump's 'America First' mantra is not just about tariffs, defence spending, and immigration; it is also relevant for AI.
+
+The AI policy ambition of Trump's second term is to strengthen U.S. global AI leadership and dominance, promote AI innovation, and advance deregulation.
+
+Two decisive actions were taken by President Trump within days of his second term commencing.
+
+On his first day in office, 20 January 2025, President Trump signed Executive Order 14148: Initial Rescissions of Harmful Executive Orders and Actions .
+
+The purpose of this was simple: to revoke dozens of Executive Orders and Presidential Memorandums issued by President Biden. This included revocation of Executive Order 14110: Safe, Secure, and Trustworthy Development and Use of AI , which was the cornerstone of Biden's AI governance agenda.
+
+The second decisive move came 3 days later, when President Trump signed Executive Order 14179: Removing Barriers to American Leadership in AI. Doubling down on the revocation of Biden's AI Executive Order, this announcement deemed the previous administration's wider AI policy agenda as a 'barrier to American AI innovation'.
+
+The stated policy of the new administration is to 'sustain and enhance America's global AI dominance in order to promote human flourishing, economic competitiveness, and national security'.
+
+Trump's Executive Order mandates formulation of an 'AI Action Plan', by July 2025, which can achieve this policy objective. Top U.S. officials are now working on this.
+
+As part of this, the federal government will run an exercise to identify, halt, and shut down any AI-related government activities or initiatives which are deemed as contrary to achieving the policy objective stated above. This may include AI governance and safety related initiatives which were pursued following the mandate from Biden's AI Executive Order.
+
+The development of the AI Action Plan has received significant interest, with the public consultation (which has now closed) receiving 8,755 comments in under 2 months.
+
+Despite the policy shift, it is important to note that the Trump administration has not dismantled Biden's entire AI policy agenda, nor has it abandoned the concept of AI governance and risk management.
+
+For example, much of what was previously implemented on AI-related export controls and investment restrictions, as well as Biden's Executive Order on AI Infrastructure, remains in force. Furthermore, both of the recent memoranda on federal agency use and acquisition of AI, published by the Office of Management and Budget (OMB), emphasise the importance of responsible AI adoption and sound AI governance and risk management practices.
+
+What is clear, however, is that the Trump administration has no intention to impose any major AI governance related regulations or restrictions on private sector AI development and deployment.
+
+## AI export controls and investment restrictions
+
+One potential point of relative harmony between the Biden and Trump administrations is the stance on AI-related export controls and investment restrictions.
+
+The U.S. deems the development of AI in 'countries of concern' as a 'national security threat'.
+
+Concerted attempts to control how, where, and at what pace AI capabilities are developed has become a fundamental element of U.S. federal AI policy and the broader mission to sustain U.S. leadership in this foundational technology.
+
+Various laws and regulations were passed during Biden's presidency which significantly restrict which countries U.S. advanced AI computing chips and AI model weights can be exported to, as well as which countries' AI industries U.S. persons can invest in.
+
+The key laws are summarised below:
+
+## Framework for AI Diffusion
+
+- An interim final rule issued by the U.S. Department of Commerce's Bureau of Industry and Security (BIS). This is the most comprehensive U.S. regulation restricting the export of AI-related technologies.
+- It became effective on 13 January 2025, but most requirements are not applicable until 15 May 2025, when the consultation period closes.
+- The purpose of this rule is twofold: to ensure that a) model weights of the most advanced 'closed' (i.e., not open-source) U.S. AI models are only stored outside of

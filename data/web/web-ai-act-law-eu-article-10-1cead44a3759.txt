@@ -1,0 +1,26 @@
+```markdown
+# Art. 10 AI Act - Data and data governance
+
+## Main Content
+
+1. High-risk AI systems which make use of techniques involving the training of AI models with data shall be developed on the basis of training, validation and testing data sets that meet the quality criteria referred to in paragraphs 2 to 5 whenever such data sets are used.
+2. Training, validation and testing data sets shall be subject to data governance and management practices appropriate for the intended purpose of the high-risk AI system. 1Training, validation and testing data sets shall be relevant, sufficiently representative, and to the best extent possible, free of errors and complete in view of the intended purpose. 2They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used. 3Those characteristics of the data sets may be met at the level of individual data sets or at the level of a combination thereof.
+3. Data sets shall take into account, to the extent required by the intended purpose, the characteristics or elements that are particular to the specific geographical, contextual, behavioural or functional setting within which the high-risk AI system is intended to be used.
+4. To the extent that it is strictly necessary for the purpose of ensuring bias detection and correction in relation to the high-risk AI systems in accordance with paragraph (2), points (f) and (g) of this Article, the providers of such systems may exceptionally process special categories of personal data, subject to appropriate safeguards for the fundamental rights and freedoms of natural persons. 2In addition to the provisions set out in [Regulations (EU) No 2016/679](https://gdpr-info.eu/) and [(EU) 2018/1725](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1725) and [Directive (EU) 2016/680](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016L0680), all the following conditions must be met in order for such processing to occur:
+    1. The bias detection and correction cannot be effectively fulfilled by processing other data, including synthetic or anonymised data;
+    2. The special categories of personal data are subject to technical limitations on their re-use, and state-of-the-art security and privacy-preserving measures, including pseudonymisation;
+    3. The special categories of personal data are subject to measures to ensure that personal data processed are secured, protected, subject to suitable safeguards, including strict controls and documentation of access to avoid misuse and ensure that only authorised persons have access with appropriate confidentiality obligations;
+    4. The special categories of personal data are not to be transmitted, transferred or otherwise accessed by other parties;
+    5. The special categories of personal data are deleted once they have been assessed as being able to contribute towards correcting any detected biases or when they reach their retention period at most;
+    6. Records regarding processing activities pursuant to Regulations (EU) No 2016/679 and [(EU) 2018/1725](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1725) include reasons why processing was deemed necessary for detecting and correcting biases as well as why this objective could not be achieved through processing other data.
+5. For the development of high-risk AI systems not using techniques involving the training of AI models, paragraphs 2 to 5 apply only to testing data sets.
+
+## Suitable Recitals
+
+* [67] Data governance and management practices
+* [68] Access to high-quality data
+* [70] Processing of special categories of personal data
+
+[←Art. 9 AI Act](https://ai-act-law.eu/article/9/)  
+[Art. 11 AI Act→](https://ai-act-law.eu/article/11/)
+```

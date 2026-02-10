@@ -15,6 +15,8 @@ __pycache__/
 # Local data folders (keep locally, not in GitHub)
 pdfs/
 urls/
+# redundant with granite-docling pdfs
+data/jina_pdfs 
 
 # ---- uv ----
 .uv/
@@ -24,7 +26,8 @@ urls/
 *.ipynb
 !Jina_web_AI_Act.ipynb
 !Process_YouTube_Transcripts.ipynb
-!Jina_local_pdfs.ipynb
+!Granite_Docling_pdfs.ipynb
+#!Jina_local_pdfs.ipynb
 
 # If those notebooks live in subfolders, use this instead:
 # !**/Jina_web_AI_Act.ipynb

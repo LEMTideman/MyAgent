@@ -1,0 +1,19 @@
+{
+  "doc_id": "web-ai-act-service-desk-ec-europa-eu-en-ai-act-article-13-3431d925edbe",
+  "source_type": "web",
+  "source": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-13",
+  "title": "Article 13: Transparency and provision of information to deployers | AI Act Service Desk",
+  "text": "```markdown\n# Article 13: Transparency and provision of information to deployers\n\n## Chapter III: High-Risk AI Systems\n\n### Section 2: Requirements for High-Risk AI Systems\n\n#### Summary\n\nHigh-risk AI systems must be designed to ensure their operation is sufficiently transparent, allowing deployers to understand and appropriately use their outputs. They must come with clear, comprehensive instructions that include provider contact details, system characteristics, capabilities and limitations of performance. The information provided should include, inter alia, intended purpose, the level of accuracy, robustness, cybersecurity, and potential risks. Instructions should also detail human oversight measures, computational and hardware requirements, maintenance needs, and logging mechanisms to ensure proper functioning and compliance.\n\nThe summaries are meant to provide helpful explanation but are not legal binding.\n\n1. High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system’s output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.\n\n2. High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.\n\n3. The instructions for use shall contain at least the following information:\n\n   - **Identity and contact details of the provider**: Identity and contact details of the provider and, where applicable, of its authorised representative.\n   \n   - **Characteristics, capabilities and limitations of performance**:\n     - Intended purpose\n     - Level of accuracy (including metrics)\n     - Robustness\n     - Cybersecurity\n     - Potential risks\n    \n   - **Human oversight measures**:\n     - Technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers\n   \n   - **Computational and hardware resources**:\n     - Expected lifetime\n     - Maintenance needs\n     - Logging mechanisms\n   \n   - **Logging mechanism description**:\n     - Where relevant: Mechanisms included within the high-risk AI system that allow deployers to properly collect, store and interpret the logs in accordance with Article 12.\n\n#### Relevant Recitals\n\n- [Recital 27](/en/ai-act/recital-27)\n- [Recital 59](/en/ai-act/recital-59)\n- [Recital 60](/en/ai-act/recital-60)\n- [Recital 66](/en/ai-act/recital-66)\n- [Recital 67](/en/ai-act/recital-67)\n- [Recital 71](/en/ai-act/recital-71)\n- [Recital 72](/en/ai-act/recital-72)\n- [Recital 74](/en/ai-act/recital-74)\n- [Recital 104](/en/ai-act/recital-104)\n-\n```",
+  "fetched_at_utc": "2026-02-09T20:26:54Z",
+  "sha256": "3431d925edbe47941a39d2f97aa6eb327aa9b391ca94c098cbc801486689d14f",
+  "meta": {
+    "jina_status": 20000,
+    "jina_code": 200,
+    "description": null,
+    "links": null,
+    "images": null,
+    "usage": {
+      "tokens": 12000
+    }
+  }
+}

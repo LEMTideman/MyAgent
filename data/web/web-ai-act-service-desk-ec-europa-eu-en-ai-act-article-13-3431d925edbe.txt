@@ -1,0 +1,52 @@
+```markdown
+# Article 13: Transparency and provision of information to deployers
+
+## Chapter III: High-Risk AI Systems
+
+### Section 2: Requirements for High-Risk AI Systems
+
+#### Summary
+
+High-risk AI systems must be designed to ensure their operation is sufficiently transparent, allowing deployers to understand and appropriately use their outputs. They must come with clear, comprehensive instructions that include provider contact details, system characteristics, capabilities and limitations of performance. The information provided should include, inter alia, intended purpose, the level of accuracy, robustness, cybersecurity, and potential risks. Instructions should also detail human oversight measures, computational and hardware requirements, maintenance needs, and logging mechanisms to ensure proper functioning and compliance.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+1. High-risk AI systems shall be designed and developed in such a way as to ensure that their operation is sufficiently transparent to enable deployers to interpret a system’s output and use it appropriately. An appropriate type and degree of transparency shall be ensured with a view to achieving compliance with the relevant obligations of the provider and deployer set out in Section 3.
+
+2. High-risk AI systems shall be accompanied by instructions for use in an appropriate digital format or otherwise that include concise, complete, correct and clear information that is relevant, accessible and comprehensible to deployers.
+
+3. The instructions for use shall contain at least the following information:
+
+   - **Identity and contact details of the provider**: Identity and contact details of the provider and, where applicable, of its authorised representative.
+   
+   - **Characteristics, capabilities and limitations of performance**:
+     - Intended purpose
+     - Level of accuracy (including metrics)
+     - Robustness
+     - Cybersecurity
+     - Potential risks
+    
+   - **Human oversight measures**:
+     - Technical measures put in place to facilitate the interpretation of the outputs of the high-risk AI systems by the deployers
+   
+   - **Computational and hardware resources**:
+     - Expected lifetime
+     - Maintenance needs
+     - Logging mechanisms
+   
+   - **Logging mechanism description**:
+     - Where relevant: Mechanisms included within the high-risk AI system that allow deployers to properly collect, store and interpret the logs in accordance with Article 12.
+
+#### Relevant Recitals
+
+- [Recital 27](/en/ai-act/recital-27)
+- [Recital 59](/en/ai-act/recital-59)
+- [Recital 60](/en/ai-act/recital-60)
+- [Recital 66](/en/ai-act/recital-66)
+- [Recital 67](/en/ai-act/recital-67)
+- [Recital 71](/en/ai-act/recital-71)
+- [Recital 72](/en/ai-act/recital-72)
+- [Recital 74](/en/ai-act/recital-74)
+- [Recital 104](/en/ai-act/recital-104)
+-
+```

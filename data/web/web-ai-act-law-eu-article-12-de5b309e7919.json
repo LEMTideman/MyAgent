@@ -1,0 +1,19 @@
+{
+  "doc_id": "web-ai-act-law-eu-article-12-de5b309e7919",
+  "source_type": "web",
+  "source": "https://ai-act-law.eu/article/12/",
+  "title": "Art. 12 AI Act - Record-keeping - AI Act",
+  "text": "```markdown\n# Art. 12 AI Act - Record-keeping\n\n## Main Content\n\nHigh-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system.\n\nIn order to ensure a level of traceability of the functioning of a high-risk AI system that is appropriate to the intended purpose of the system, logging capabilities shall enable the recording of events relevant for:\n\n1. Identifying situations that may result in the high-risk AI system presenting a risk within the meaning of [Article 79(1)](https://ai-act-law.eu/article/79/) or in a substantial modification;\n2. Facilitating the post-market monitoring referred to in [Article 72](https://ai-act-law.eu/article/72/); and\n3. Monitoring the operation of high-risk AI systems referred to in [Article 26(5)](https://ai-act-law.eu/article/26/).\n\nFor high-risk AI systems referred to in point 1(a), of [Annex III](https://ai-act-law.eu/annex/3/), the logging capabilities shall provide, at a minimum:\n\n1. Recording of the period of each use of the system (start date and time and end date and time);\n2. The reference database against which input data has been checked by the system;\n3. The input data for which the search has led to a match;\n4. The identification of the natural persons involved in the verification of the results, as referred to in [Article 14(5)](https://ai-act-law.eu/article/14/).\n```\n\nThis refined markdown strictly adheres to your instructions while maintaining all essential elements such as headings, paragraphs, links, and references.\n```",
+  "fetched_at_utc": "2026-02-09T21:27:37Z",
+  "sha256": "de5b309e7919d8e8942cddcd0366b72d78249e7e673c16aa4dcc15db31e8d0d9",
+  "meta": {
+    "jina_status": 20000,
+    "jina_code": 200,
+    "description": null,
+    "links": null,
+    "images": null,
+    "usage": {
+      "tokens": 12000
+    }
+  }
+}

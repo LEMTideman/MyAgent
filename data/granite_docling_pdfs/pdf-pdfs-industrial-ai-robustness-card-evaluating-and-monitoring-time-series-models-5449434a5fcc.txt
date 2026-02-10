@@ -1,0 +1,262 @@
+## INDUSTRIAL AI ROBUSTNESS CARD: EVALUATING AND MONITORING TIME SERIES MODELS
+
+## Alexander Windmann
+
+Institute of Artificial Intelligence Helmut Schmidt University Hamburg, Germany alexander.windmann@hsu-hh.de
+
+## Mariya Lyashenko
+
+## Benedikt Stratmann
+
+Fraunhofer Institute of Optronics System Technologies and Image Exploitation (IOSB) Karlsruhe, Germany benedikt.stratmann@iosb.fraunhofer.de
+
+## Oliver Niggemann
+
+Digital Industries, Process Automation Siemens AG Karlsruhe, Germany mariya.lyashenko@siemens.com
+
+## ABSTRACT
+
+Industrial AI practitioners face vague robustness requirements in emerging regulations and standards but lack concrete, implementation ready protocols. This paper introduces the Industrial AI Robustness Card (IARC), a lightweight, task agnostic protocol for documenting and evaluating the robustness of AI models on industrial time series. The IARC specifies required fields and an empirical measurement and reporting protocol that combines drift monitoring, uncertainty quantification, and stress tests, and it maps these to relevant EU AI Act obligations. A soft sensor case study on a biopharmaceutical fermentation process illustrates how the IARC supports reproducible robustness evidence and continuous monitoring.
+
+K eywords Industrial artificial intelligence · Reliability and safety in processes · Cyber-physical production systems · Manufacturing prognostics and health management · Machine learning and artificial intelligence in chemical process control
+
+## 1 Introduction
+
+Despite the intention to increase Artificial Intelligence (AI) adoption, most AI projects of manufacturers fail to meet expectations, see BCG (2023). Empirical studies such as Windmann et al. (2024) identify a lack of trustworthiness as a central barrier: AI models are often not robust, while assurance and explainability techniques remain difficult to apply to complex neural networks. Furthermore, regulators and standardization bodies demand stronger requirements for monitoring and documenting AI systems. For example, the EU AI Act requires risk management, technical documentation, and post-market monitoring for high-risk systems. Standards like the NIST AI Risk Management Framework by Tabassi (2023) or ISO/IEC 23894 require systematic evaluation and documentation of trustworthiness properties such as robustness, but they remain high-level and do not prescribe concrete robustness metrics or test scenarios to be used. More technical standards for robustness assessment, such as ISO/IEC 24029-2 often emphasize formal verification and worst-case guarantees that are not broadly applicable to typical Industrial AI use cases, see PerezCerrolaza et al. (2024). Guidelines like EASA (2024) provide more detailed evaluation recommendations but focus on domains such as aviation and are thus only partially relevant for industrial time series. In parallel, documentation practices of the industry such as Model Cards introduced by Mitchell et al. (2019) or the IBM FactSheet by Arnold et al. (2019) offer compact templates to describe model scope, intended use, and limitations, but generally tend to focus
+
+Institute of Artificial Intelligence Helmut Schmidt University Hamburg, Germany oliver.niggemann@hsu-hh.de
+
+on what to document rather than describing how to measure and report trustworthiness properties like robustness or uncertainty of an AI model.
+
+To summarize, Industrial AI practitioners currently face a mismatch. Emerging regulations and standards describe high-level robustness and monitoring obligations, but current projects lack a concrete, lightweight protocol that turns these obligations into empirical tests, metrics, and documentation for typical time series applications, see also DíazRodríguez et al. (2023). To address this gap, we propose the Industrial AI Robustness Card (IARC), a lightweight protocol for empirical robustness evaluation and monitoring of AI models for industrial time series data. An example of a filled Industrial AI Robustness Card is provided in Figure 1. Our main contributions are:
+
+- A minimal, task-agnostic schema for documenting and evaluating AI models for industrial time series.
+- A measurement and reporting protocol that operationalizes the IARC using best practices from uncertainty quantification and robustness evaluation.
+- A compact mapping from IARC fields to relevant obligations of the EU AI Act.
+- A case study on an industrial soft sensor, including released code and a human- and machine-readable filled IARC template. 1
+
+## 2 Background and Related Work
+
+Industrial AI focuses on the application of AI in cyber-physical systems, with typical applications spanning condition monitoring, predictive maintenance, resource optimization, quality assurance, and diagnosis, see Niggemann et al. (2023). For chemical engineering, Dobbelaere et al. (2021) shows that AI holds many opportunities, but that a lack of interpretability and a tendency to overfit mean practitioners have to be vigilant when using data-driven models. This conclusion is in line with broader analyses such as Windmann et al. (2024), where the lack of robustness and interpretability rank among the most cited challenges when applying AI in industrial settings.
+
+Various frameworks and processes have been proposed to assure trustworthy AI. Ashmore et al. (2021) discuss how traditional safety engineering models struggle with data-centric AI systems and advocate dynamic assurance processes. Perez-Cerrolaza et al. (2024) analyze the integration of AI into safety-critical systems and emphasize that explainability and robustness are crucial while validation remains an open challenges. Lavin et al. (2022) further stress that AI has to be monitored and tested throughout its entire lifecycle. A second integral pillar of trustworthy AI is structured documentation. Both the Model Card proposed by Mitchell et al. (2019) and the IBM FactSheet proposed by Arnold et al. (2019) describe standardized fields like model details and intended use. Hutchinson et al. (2021) propose an extensive dataset specification. Brajovic et al. (2023) explicitly link model cards to the requirements of the EU AI Act draft and describe which fields would need to be documented for compliance. Across these works, most templates focus on what to document, but give little concrete guidance on how to design robustness tests, calibration checks, and monitoring procedures.
+
+Regulations and standards that explain how to monitor and test AI are currently being developed. The EU has one of the most advanced regulatory frameworks with the EU AI Act, which requires extensive audits and documentation for high-risk AI systems and encourages the use of common codes of practice for other systems. Notable international standards include the NIST AI Risk Management Framework 1.0 by Tabassi (2023), which structures AI governance into govern, map, measure, and manage functions, as well as ISO/IEC 42001 and ISO/IEC 23894, which outline requirements for AI risk management. Technical reports and standards for robustness assessment, such as ISO/IEC TR 24029-1 and DIN SPEC 92001-2, provide an overview of robustness methods and describe processes for robustness evaluation, but they are domain-agnostic and do not specify a concrete, card-style empirical robustness and monitoring protocol for typical Industrial AI models. Other robustness evaluation guidance such as IEEE 3129-2023 is focused on image recognition and therefore only partially addresses Industrial AI scenarios. A comprehensive guideline on AI assurance in aviation is given by EASA (2024), but the guideline is likely too comprehensive to follow for non-high-risk Industrial AI systems.
+
+Measuring the trustworthiness of an AI system is difficult, as many traditional software safety methodologies and formal verification methods cannot be applied to complex, data-driven models, see Perez-Cerrolaza et al. (2024). For robustness evaluation, a large body of work focuses on adversarial attacks, which are tiny perturbations that can fool AI models, see Sinha et al. (2018). Since such perturbations rarely occur in practice, more recent robustness evaluation methods have focused on realistic stress tests and natural perturbations. For example, Hendrycks et al. (2021) propose structured corruptions such as blur and noise for image data, and Windmann et al. (2025) apply severity-controlled sensor faults to industrial time series. Another important aspect of trustworthiness is the ability of a system to quantify
+
+1 https://github.com/awindmann/Industrial-AI-Robustness-Card
+
+its uncertainty and thereby support early fault detection and risk-aware operation. Gawlikowski et al. (2023) and Fakour et al. (2024) give an overview of sources of uncertainty and methods for uncertainty estimation.
+
+Overall, implementation-ready protocols that translate trustworthy AI frameworks into concrete robustness, calibration, and monitoring procedures for Industrial AI models are still missing, consistent with the observation by Díaz-Rodríguez et al. (2023) that operative, auditable protocols often do not exist.
+
+## 3 Industrial AI Robustness Card
+
+This section describes the IARC, the information it records, and the rationale for each field. Each subsection specifies what information the card should contain and how it supports assurance and regulatory alignment, in particular with the requirements of the EU AI Act. The IARC documents the AI model rather than the complete, integrated AI system. This focus allows us to cover most of the information referenced in EU AI Act, Art.9-15 and Annex IV, thereby providing a usable building block for AI Act-compliant documentation. A concise, model-agnostic measurement protocol that explains how to generate the evidence for these fields is provided in Section 4.
+
+## 3.1 General Information (EU AI Act Art. 11, 13 (3), Annex IV)
+
+The General Information section of the IARC provides a summary of the AI model and the associated dataset. It records fields such as model and dataset name, version, date, provider, and deployment context. Tracking the model version is important for monitoring the AI model throughout its lifecycle, see Tabassi (2023).
+
+## 3.2 Intended Use (EU AI Act Art. 13)
+
+The intended use of the model should be explained, as explained by Mitchell et al. (2019) and Arnold et al. (2019). This clarification also makes clear what the model is not to be used for, which prohibits misuse.
+
+## 3.3 Data (EU AI Act Art. 10 (2/3/4), 11, Annex IV (2.a))
+
+For any AI system, monitoring data quality and data drift is crucial for reliable deployment, see Lavin et al. (2022). For better transparency, a dataset overview, data provenance, preprocessing steps, and data quality should be documented. Furthermore, additional care should be given in describing the distribution of the data expected during operation and in stress test scenarios that probe edge cases. To this end, there should be a description of the Operational Design Domain (ODD), in which the AI model is expected to perform well. On the one hand, this allows for better monitoring, since data drift out of the ODD can be detected early. On the other hand, finding gaps in the ODD not covered by the train data can help in designing relevant stress test scenarios to test the robustness of the AI model.
+
+## 3.4 Evaluation (EU AI Act Art. 9 (6-8), 13 (3.b), 15 (1-4))
+
+AI models pose unique risks compared with traditional software, because data drift can affect functionality and trustworthiness in ways that are hard to understand, see Tabassi (2023). The IARC addresses this limitation by emphasizing multiple task-appropriate key performance indicators (KPIs), explicit uncertainty quantification, and realistic robustness evaluation. By evaluating performance on multiple KPIs at the same time, ideally with predefined acceptance thresholds, a more comprehensive analysis of the AI model's capabilities is possible. Using uncertainty quantification methods helps to identify overconfident or unreliable predictions early. Finally, the robustness evaluation in the IARC focuses on realistic stress test scenarios instead of artificial adversarial attacks or purely formal stability guarantees, which often do not indicate which types of real-world perturbations can be tolerated Ashmore et al. (2021).
+
+## 3.5 Limitations (EU AI Act Art. 13 (b), Annex IX)
+
+A limitations section can be used to highlight known limitations of both the AI model and the data, see Brajovic et al. (2023). Examples include regimes where the model is not expected to perform well, reliance on simulated edge cases that have not yet occurred in practice, or restricted ODD coverage. By explicitly recording such limitations, the IARC supports realistic expectations and more transparent risk assessments.
+
+## 4 Measurement and Reporting Protocol
+
+This section provides a task-agnostic protocol for generating the evidence that populates the IARC fields. Best practice from research, for example outlined by Vranješ et al. (2024), informs the IARC on how to generate reliable and reproducible results.
+
+## 4.1 Data
+
+As mentioned in Section 3, describe the dataset and how it has been obtained. In the following, we will cover aspects that are relevant for a reliable and reproducible evaluation in more detail. For a more comprehensive overview about dataset specifications, see Hutchinson et al. (2021).
+
+## 4.1.1 Quality characterization
+
+Before modeling, compute diagnostics that characterize data quality. For each feature, calculate missingness rates and basic summary statistics before and after preprocessing. Assess drift by comparing distributions across time windows or via simple trend estimates on key features, see Webb et al. (2016).
+
+## 4.1.2 Reproducibility controls
+
+Fix random seeds for splitting, initialization, and training procedures. Record code and environment identifiers such as repository commits and library versions. Assign dataset version identifiers that link raw data to preprocessing configurations and splits. Store these identifiers alongside reported metrics and plots so evaluations can be reproduced.
+
+## 4.1.3 Data splits
+
+Construct training, validation, and test sets with temporal or group-aware separation. For sequential time series, use chronological splits instead of random cross-validation to avoid look-ahead leakage. Alternatively, when dependencies across batches matter, split by these groups and avoid overlaps across splits. Apply purge windows between adjacent splits to reduce contamination from temporal autocorrelation.
+
+## 4.1.4 ODD definition
+
+Define an ODD that captures asset and site characteristics, operating modes, and relevant environmental ranges, see EASA (2024). For example, manually set acceptable ranges for each sensor or use a Kernel Density Estimate (KDE) to describe the outer edges of the training data distribution.
+
+## 4.1.5 Scenario catalog
+
+Define relevant stress test scenarios aligned with the ODD. Prefer scenarios based on real slices such as specific batches, machines, or operating regimes. When near-fail data are scarce, construct plausible simulated scenarios, for example by injecting sensor faults or noise patterns, see Windmann et al. (2025).
+
+## 4.1.6 Distributional diagnostics
+
+Quantitatively show how well the data represent the ODD and where test scenarios deviate. Produce KDE plots for key features and compute distance measures between training data and each test scenario, for example using Kolmogorov-Smirnov tests or using the Wasserstein distance. Rank features or scenarios by deviation from the baseline.
+
+## 4.2 Uncertainty quantification
+
+Select an uncertainty quantification mechanism appropriate for the model class and deployment constraints, see Fakour et al. (2024). If post-hoc calibration is used, apply methods such as temperature scaling, isotonic regression, or quantile recalibration on a separate calibration set. For classification, compute proper scoring rules such as negative log-loss or Brier score and assess calibration with expected calibration error and reliability diagrams. For regression and forecasting, compute empirical coverage at target levels and mean prediction interval width and score with the weighted interval score or similar. Report these metrics on the regular test data all test scenarios.
+
+## 4.3 Robustness
+
+Use the scenarios from the scenario catalog to test the AI model under realistic edge conditions. For each scenario, compute all KPIs and uncertainty quantification metrics and compare them to the values on the test baseline. When simulated perturbations are used, vary severity and generate severity-performance curves that show how metrics degrade with perturbation strength or use an aggregated robustness score, see Windmann et al. (2025). Ideally, provide visualizations like a radar plot alongside a table summary and compare to different model versions. Identify weakest scenarios and relate them to ODD factors to inform mitigation, monitoring, or risk acceptance.
+
+## 5 Case Study
+
+## 5.1 System and Task
+
+The use of validated soft sensors in the biopharmaceutical industry can provide significant savings in cost and time by reducing the reliance on frequent laboratory probe tests, which are often time-intensive, expensive, cause delivery delays and can be subject to variability. In our example, we use an AI-based soft-sensor to forecast the penicillin concentration in an industrial-scale fed-batch fermentation simulation, see Goldrick et al. (2019).
+
+The pharmaceutical industry is bound by multiple compliance guidelines that govern any tools that affect product quality or patient safety. Under the EU AI Act Art. 6 Annex III, AI-based soft sensors that inform manufacturing decisions, batch release or dosing will very likely be classified as high-risk AI systems. Furthermore, the usage of AI-based systems in the pharmaceutical industry in the EU must also comply with the Good Manufacturing Practice (GMP) Guidelines as stated in the EudraLex GMP Annex 22 consultation. For our use case, this means that proper AI documentation and testing is necessary. The proposed IARC on its own is not sufficient for regulation purposes, but can be embedded in a broader framework.
+
+## 5.2 Results
+
+A filled example IARC for the penicillin soft sensor can be seen in Figure 1. The interface of the IARC instance, including the plots, are interactive, which allows a more efficient use of space. The idea is that the practitioner can click through data diagnostics and robustness evaluation plots to identify potential weaknesses of the model. The feature KDE plot allows to check the coverage of the ODD and how specific test scenarios diverge from the training data. The radar plot allows to monitor the robustness of the AI model and its past versions against the realistic stress test scenarios at a glance. Additionally, by generating the content of the card automatically it can be easily exported via a machine readable format like JSON .
+
+Our experience from the case study suggests that most of the effort lies in the up-front structuring of data and scenarios. Once these elements are in place, automated generation of the card, including the metrics and plots, becomes relatively straightforward and can be integrated into existing MLOps pipelines. Thus, the IARC can simplify AI quality assurance and reporting obligations.
+
+## 6 Discussion and Limitations
+
+The IARC aims to bridge the gap between high-level governance and standardization documents on the one hand and concrete measurement and reporting protocols from the research community on the other. Compared to general-purpose model cards, the IARC provides a more concrete, task-agnostic protocol for AI models working on time series data. At the same time, it remains deliberately lightweight so that it can be instantiated in typical industrial projects without prohibitive overhead.
+
+However, the IARC has several limitations. First, the current template focuses on empirical robustness and uncertainty quantification. Important dimensions of trustworthiness such as explainability, human-machine interaction, and security are only touched on indirectly or omitted due to space constraints. Secondly, the card is not sufficient on its own for high-risk AI systems as defined in the EU AI Act EU AI Act, for which the IARC would have to be embedded into a broader quality and risk management framework. In that context, the IARC should be understood as a building block that provides structured robustness and monitoring evidence. In particular, the IARC does not include information regarding the integrated system, such as hardware and user documentation (Annex IV 1 (d-h)), risk management aligned with norms/regulations (Annex IV 5-8), or data governance for personal data (Art. 10 (5-6)). Future work will extend the IARC to other use cases and add guidance on explainability reporting.
+
+## DECLARATION OF GENERATIVE AI AND AI-ASSISTED TECHNOLOGIES IN THE WRITING PROCESS
+
+During the preparation of this work, the author(s) used GPT-5 by OpenAI for editorial feedback. After using this tool/service, the author(s) reviewed and edited the content as needed and take(s) full responsibility for the content of the publication.
+
+## References
+
+- M. Arnold, R. K. E. Bellamy, M. Hind, S. Houde, S. Mehta, A. Mojsilovi´ c, R. Nair, K. Natesan Ramamurthy, A. Olteanu, D. Piorkowski, D. Reimer, J. Richards, J. Tsay, and K. R. Varshney. FactSheets: Increasing trust in AI services through supplier's declarations of conformity. IBM Journal of Research and Development , 63(4/5):6:1-6:13, July 2019. ISSN 0018-8646. doi: 10.1147/JRD.2019.2942288.
+2. Rob Ashmore, Radu Calinescu, and Colin Paterson. Assuring the Machine Learning Lifecycle: Desiderata, Methods, and Challenges. ACM Computing Surveys , 54(5):1-39, May 2021. ISSN 0360-0300, 1557-7341. doi: 10.1145/3453444.
+3. BCG. Using AI in Industrial Operations Guidebook. Technical report, 2023.
+4. Danilo Brajovic, Vincent Philipp Göbels, Janika Kutz, and Marco Huber. Merging (EU)-Regulation and Model Reporting. In NeurIPS 2023 Workshop on Regulatable ML , December 2023.
+5. Natalia Díaz-Rodríguez, Javier Del Ser, Mark Coeckelbergh, Marcos López de Prado, Enrique Herrera-Viedma, and Francisco Herrera. Connecting the dots in trustworthy Artificial Intelligence: From AI principles, ethics, and key requirements to responsible AI systems and regulation. Information Fusion , 99:101896, November 2023. ISSN 1566-2535. doi: 10.1016/j.inffus.2023.101896.
+6. DIN SPEC 92001-2. DIN SPEC 92001-2 - Artificial Intelligence - Life Cycle Processes and Quality Requirements Part 2: Robustness, December 2020.
+7. Maarten R. Dobbelaere, Pieter P. Plehiers, Ruben Van De Vijver, Christian V. Stevens, and Kevin M. Van Geem. Machine Learning in Chemical Engineering: Strengths, Weaknesses, Opportunities, and Threats. Engineering , 7(9): 1201-1211, September 2021. ISSN 20958099. doi: 10.1016/j.eng.2021.03.019.
+8. EASA. EASA Artificial Intelligence (AI) Concept Paper Issue 2: Guidance for Level 1&amp;2 machine learning applications. Technical report, April 2024.
+9. EU AI Act. Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance), June 2024.
+10. EudraLex GMP Annex 22 consultation. Stakeholders' consultation on eudralex volume 4 - good manufacturing practice guidelines: Chapter 4, annex 11 and new annex 22, July 2025.
+11. Fahimeh Fakour, Ali Mosleh, and Ramin Ramezani. A Structured Review of Literature on Uncertainty in Machine Learning &amp; Deep Learning, June 2024.
+12. Jakob Gawlikowski, Cedrique Rovile Njieutcheu Tassi, Mohsin Ali, Jongseok Lee, Matthias Humt, Jianxiang Feng, Anna Kruspe, Rudolph Triebel, Peter Jung, Ribana Roscher, Muhammad Shahzad, Wen Yang, Richard Bamler, and Xiao Xiang Zhu. A survey of uncertainty in deep neural networks. Artificial Intelligence Review , 56(1):1513-1589, October 2023. ISSN 1573-7462. doi: 10.1007/s10462-023-10562-9.
+13. Stephen Goldrick, Carlos A. Duran-Villalobos, Karolis Jankauskas, David Lovett, Suzanne S. Farid, and Barry Lennox. Modern day monitoring and control challenges outlined on an industrial-scale benchmark fermentation process. Computers &amp; Chemical Engineering , 130:106471, 2019. ISSN 0098-1354. doi: https://doi.org/10.1016/j. compchemeng.2019.05.037.
+14. Dan Hendrycks, Steven Basart, Norman Mu, Saurav Kadavath, Frank Wang, Evan Dorundo, Rahul Desai, Tyler Zhu, Samyak Parajuli, Mike Guo, Dawn Song, Jacob Steinhardt, and Justin Gilmer. The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization. In 2021 IEEE/CVF International Conference on Computer Vision (ICCV) , pages 8320-8329, Montreal, QC, Canada, October 2021. IEEE. ISBN 978-1-6654-2812-5. doi: 10.1109/ICCV48922.2021.00823.
+15. Ben Hutchinson, Andrew Smart, Alex Hanna, Remi Denton, Christina Greer, Oddur Kjartansson, Parker Barnes, and Margaret Mitchell. Towards Accountability for Machine Learning Datasets: Practices from Software Engineering and Infrastructure. In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency , pages 560-575, Virtual Event Canada, March 2021. ACM. ISBN 978-1-4503-8309-7. doi: 10.1145/3442188.3445918.
+
+IEEE 3129-2023. IEEE 3129-2023, June 2023.
+
+- ISO/IEC 23894. ISO/IEC 23894:2023 - Information technology - Artificial intelligence - Guidance on risk management, 2023.
+- ISO/IEC 24029-2. ISO/IEC 24029-2:2023 - Artificial intelligence (AI) - Assessment of the robustness of neural networks - Part 2: Methodology for the use of formal methods, 2023.
+- ISO/IEC 42001. ISO/IEC 42001:2023 - Information technology - Artificial intelligence - Management system, 2023.
+- ISO/IEC TR 24029-1. ISO/IEC TR 24029-1:2021 - Artificial Intelligence (AI) - Assessment of the robustness of neural networks - Part 1: Overview, 2021.
+- Alexander Lavin, Ciarán M. Gilligan-Lee, Alessya Visnjic, Siddha Ganju, Dava Newman, Sujoy Ganguly, Danny Lange, Atílím Güne¸ s Baydin, Amit Sharma, Adam Gibson, Stephan Zheng, Eric P. Xing, Chris Mattmann, James Parr, and Yarin Gal. Technology readiness levels for machine learning systems. Nature Communications , 13(1):6039, October 2022. ISSN 2041-1723. doi: 10.1038/s41467-022-33128-9.
+- Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. Model Cards for Model Reporting. In Proceedings of the Conference on Fairness, Accountability, and Transparency , FAT* '19, pages 220-229, New York, NY, USA, January 2019. Association for Computing Machinery. ISBN 978-1-4503-6125-5. doi: 10.1145/3287560.3287596.
+- Oliver Niggemann, Bernd Zimmering, Henrik Steude, Jan Lukas Augustin, Alexander Windmann, and Samim Multaheb. Machine Learning for Cyber-Physical Systems. In Birgit Vogel-Heuser and Manuel Wimmer, editors, Digital Transformation: Core Technologies and Emerging Topics from a Computer Science Perspective , pages 415-446. Springer, Berlin, Heidelberg, 2023. ISBN 978-3-662-65004-2. doi: 10.1007/978-3-662-65004-2\_17.
+- Jon Perez-Cerrolaza, Jaume Abella, Markus Borg, Carlo Donzella, Jesús Cerquides, Francisco J. Cazorla, Cristofer Englund, Markus Tauber, George Nikolakopoulos, and Jose Luis Flores. Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey. ACM Comput. Surv. , 56(7):176:1-176:40, April 2024. ISSN 0360-0300. doi: 10.1145/3626314.
+- Aman Sinha, Hongseok Namkoong, and John Duchi. Certifying Some Distributional Robustness with Principled Adversarial Training. In International Conference on Learning Representations , February 2018.
+- Elham Tabassi. Artificial Intelligence Risk Management Framework (AI RMF 1.0). Technical Report NIST AI 100-1, National Institute of Standards and Technology (U.S.), Gaithersburg, MD, January 2023.
+- Daniel Vranješ, Jonas Ehrhardt, René Heesch, Lukas Moddemann, Henrik Sebastian Steude, and Oliver Niggemann. Design Principles for Falsifiable, Replicable and Reproducible Empirical Machine Learning Research. In 35th International Conference on Principles of Diagnosis and Resilient Systems (DX 2024) , 2024. doi: 10.4230/OASIcs. DX.2024.7.
+- Geoffrey I. Webb, Roy Hyde, Hong Cao, Hai Long Nguyen, and Francois Petitjean. Characterizing concept drift. Data Mining and Knowledge Discovery , 30(4):964-994, April 2016. ISSN 1573-756X. doi: 10.1007/s10618-015-0448-4.
+- Alexander Windmann, Philipp Wittenberg, Marvin Schieseck, and Oliver Niggemann. Artificial Intelligence in Industry 4.0: A Review of Integration Challenges for Industrial Systems. In 2024 IEEE 22nd International Conference on Industrial Informatics (INDIN) , pages 1-8, August 2024. doi: 10.1109/INDIN58382.2024.10774364. ISSN: 2378-363X.
+- Alexander Windmann, Henrik Steude, Daniel Boschmann, and Oliver Niggemann. Quantifying Robustness: A Benchmarking Framework for Deep Learning Forecasting in Cyber-Physical Systems. In 2025 IEEE 30th International Conference on Emerging Technologies and Factory Automation (ETFA) , pages 1-8, September 2025. doi: 10.1109/ETFA65518.2025.11205527.
+
+## General Information
+
+Data-driven soft sensor estimating penicillin concentration on the IndPenSim benchmark.
+
+MODEL
+
+LSTM
+
+DATASET
+
+IndPenSim
+
+TARGET
+
+Penicillin concentration (g/L)
+
+LOSS FUNCTION
+
+MSE
+
+WINDOW
+
+90 → 30
+
+DATE
+
+2025-12-04 17:12 UTC
+
+MODEL ID
+
+08432de6d0cf4eeeb0dbb0a3a1efdf3e
+
+PROVIDER
+
+Bio Data Science
+
+CONTACT
+
+penicillin-softsensor@example.com
+
+## Data
+
+## Distribution diagnostics
+
+- The ODD region is defined as the 98%-mass KDE of the train data.
+- The highest train-to-test drift appears for the feature ' dissolved\_oxygen' in the drift bar plot.
+- The KDE overlays for ' dissolved\_oxygen' show that the drift remains within the ODD region, even in the 'Drift' test scenario.
+- The 'dissolved\_oxygen' feature should be monitored in live deployments to detect potential drift beyond the ODD.
+
+## Intended Use
+
+This model is intended for research and benchmarking on simulated penicillin fermentations.
+
+- Estimates penicillin concentration within a simulated industrial bioreactor.
+- Supports development and comparison of biopharmaceutical soft-sensor methods.
+- Stress-test scenarios evaluate robustness to sensor noise, missing channels, and injected faults.
+- Not approved for production deployments or closed-loop actuator control.
+
+<!-- image -->
+
+## Evaluation
+
+<!-- image -->
+
+| Robustness evidence     | Robustness evidence   | Robustness evidence   | Robustness evidence   |
+|-------------------------|-----------------------|-----------------------|-----------------------|
+| METRIC                  | VALIDATION            | TEST                  | SCENARIOS             |
+| MSE                     | 0.0290                | 0.0245                | 0.0265                |
+| MAPE                    | 3.6347                | 0.8373                | 0.8597                |
+| WIS 0.1-0.9             | -                     | 0.6717                | 0.7001                |
+| ROBUSTNESS SCORE (MEAN) |                       |                       | 0.8884                |
+
+- Latest model version improves MSE on the clean validation and test sets.
+- However, MAPE and the robustness score in the ' Noise' scenario have decreased. Overfitting?
+
+## Limitations
+
+The dataset is synthetic and the stress scenarios are finite, so results may miss real fermentation variability and plant-specific instrumentation quirks.
+
+- Penicillin targets are validated offline only; no closed-loop deployment has been attempted.
+- Scenario catalog omits extended fouling periods, rare mechanical faults, and upstream feed excursions.
+- This report alone does not satisfy EU AI Act, FDA, or internal governance requirements.
+
+Figure 1: Example IARC for the IndPenSim dataset. Note that some fields and plots are hidden due to space constraints.
+
+<!-- image -->

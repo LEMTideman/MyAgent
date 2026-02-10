@@ -1,0 +1,67 @@
+```markdown
+# Recital 67
+
+## Overview
+
+High-quality data and access to high-quality data plays a vital role in providing structure and in ensuring the performance of many AI systems, especially when techniques involving the training of models are used, with a view to ensure that the high-risk AI system performs as intended and safely. It is important to provide sufficient quality data sets for training, validation, and testing to prevent potential biases that could negatively impact individuals' health and safety, as well as fundamental rights.
+
+### This Recital relates to:
+
+*   [Article 10: Data and data governance](/en/ai-act/article-10)
+*   [Article 13: Transparency and provision of information to deployers](/en/ai-act/article-13)
+
+---
+
+## Recital Text
+
+High-quality data and access to high-quality data plays a vital role in providing structure and in ensuring the performance of many AI systems, especially when techniques involving the training of models are used, with a view to ensure that the high-risk AI system performs as intended and safely. High-quality data sets for training, validation, and testing require the implementation of appropriate data governance and management practices. Data sets for training, validation, and testing, including the labels, should be relevant, sufficiently representative, and to the best extent possible free of errors and complete in view of the intended purpose of the system. In order to facilitate compliance with Union data protection law, such as Regulation (EU) 2016/679, data governance and management practices should include, in the case of personal data, transparency about the original purpose of the data collection. The data sets should also have the appropriate statistical properties, including as regards the persons or groups of persons in relation to whom the high-risk AI system is intended to be used, with specific attention to the mitigation of possible biases in the data sets that are likely to affect health or safety or lead to discrimination prohibited under Union law.
+
+Biases can arise from both inherent biases within underlying datasets (such as those stemming from historical patterns) and generated through processes like model training. These biases can gradually increase over time due to feedback loops between input/output systems. Therefore, it is crucial that these biases are identified early on during development so corrective measures can be taken before they become significant issues.
+
+Data governance practices may involve using certified compliance services for verification purposes regarding:
+*   Data integrity
+*   Completeness
+*   Statistical properties
+
+These practices aim at mitigating bias while maintaining privacy protections.
+
+---
+
+## Related Articles
+
+*   [Article 10: Data and data governance](/en/ai-act/article-10)
+*   [Article 13: Transparency and provision of information to deployers](/en/ai-act/article-13)
+
+---
+
+## Contact Us
+
+[Contact us](mailto:CNECT-AIOFFICE@ec.europa.eu)
+
+---
+
+## About Us
+
+*   [Copyright notice](/en/copyright-notice)
+*   [Legal notice](/en/legal-notice)
+*   [Privacy statement](/en/privacy-statement-ai-act-service-desk-website)
+*   [About Directorate-General CONNECT](https://commission.europa.eu/about-departments-and-executive-agencies/communications-networks-content-and-technology_en)
+
+---
+
+## Additional Links
+
+*   [Contact Directorate-General CONNECT](https://commission.europa.eu/about-european-commission/contact_en)
+*   [Follow European Commission on social media](https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission)
+*   [Resources for partners](https://commission.europa.eu/resources-partners_en)
+*   [Report an IT vulnerability](https://commission.europa.eu/legal-notice/vulnerability-disclosure-policy_en)
+
+---
+
+## Legal Notices
+
+*   [Languages on our websites](https://commission.europa.eu/languages-our-websites_en)
+*   [Cookies](https://commission.europa.eu/cookies_en)
+*   [Privacy policy](https://commission.europa.eu/privacy-policy_en)
+*   [Legal notice](https://commission.europa.eu/legal-notice_en)
+```

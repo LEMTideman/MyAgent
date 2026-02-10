@@ -3,9 +3,10 @@ name = "myagent"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
-    "atomic-agents>=1.1.11",
+    "docling>=2.72.0",
     "jupyterlab>=4.5.1",
     "openai>=2.14.0",
+    "pydantic-ai>=1.56.0",
     "python-dotenv>=1.2.1",
     "python-frontmatter>=1.1.0",
     "requests>=2.32.5",

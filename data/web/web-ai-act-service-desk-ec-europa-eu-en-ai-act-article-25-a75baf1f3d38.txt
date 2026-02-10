@@ -1,0 +1,76 @@
+```markdown
+# Article 25: Responsibilities along the AI value chain
+
+## Summary
+
+Distributors, importers, deployers, or other third parties become providers of high-risk AI systems if they rebrand, substantially modify, or change the intended purpose of an AI system, making it high-risk. The original provider is then relieved of obligations but must cooperate and provide necessary information. For AI systems that are safety components of EU-regulated products, the product manufacturer becomes the provider if the AI system is marketed or serviced under their name. Providers and third-party suppliers must agree on sharing necessary information and assistance to ensure compliance, except for open-source tools. Intellectual property rights and confidential information must be protected throughout these processes.
+
+The summaries are meant to provide helpful explanation but are not legal binding.
+
+## Article 25: Responsibilities along the AI value chain
+
+### Section 3: Obligations of Providers and Deployers of High-Risk AI Systems and Other Parties
+
+#### 1. Any distributor, importer, deployer or other third-party shall be considered to be a provider of a high-risk AI system for the purposes of this Regulation and shall be subject to the obligations of the provider under [Article 16](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16), in any of the following circumstances:
+
+- (a) they put their name or trademark on a high-risk AI system already placed on the market or put into service, without prejudice to contractual arrangements stipulating that the obligations are otherwise allocated;
+- (b) they make a substantial modification to a high-risk AI system that has already been placed on the market or has already been put into service in such a way that it remains a high-risk AI system pursuant to [Article 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6);
+- (c) they modify the intended purpose of an AI system, including a general-purpose AI system, which has not been classified as high-risk and has already been placed on the market or put into service in such a way that the AI system concerned becomes a high-risk AI system in accordance with [Article 6](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-6).
+
+#### 2. Where the circumstances referred to in paragraph 1 occur, the provider that initially placed the AI system on the market or put it into service shall no longer be considered to be a provider of that specific AI system for the purposes of this Regulation. That initial provider shall closely cooperate with new providers and shall make available the necessary information and provide the reasonably expected technical access and other assistance that are required for the fulfillment of the obligations set out in this Regulation, in particular regarding compliance with the conformity assessment of high-risk AI systems. This paragraph shall not apply in cases where the initial provider has clearly specified that its AI system is not to be changed into a high-risk AI system and therefore does not fall under the obligation to hand over documentation.
+
+#### 3. In the case of high-risk AI systems that are safety components of products covered by the Union harmonization legislation listed in Section A of [Annex I](https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-1), the product manufacturer shall be considered to be the provider of the high-risk AI system, and shall be subject to the obligations under [Article 16](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16) under either of the following circumstances:
+
+- (a)the high-risk AI system is placed on the market together with the product under the name or trademark of the product manufacturer;
+- (b)the high-risk AI system is put into service under the name or trademark of the product manufacturer after the product has been placed on sale.
+
+#### 4. The provider of a high-risk AI system and third party that supplies an AI system, tools, services, components, or processes that are used or integrated in a high-risk AI system shall by written agreement specify necessary information capabilities technical access and other assistance based on generally acknowledged state-of-the-art in order to enable full compliance with obligations set out in this Regulation. This paragraph shall not apply to third parties making accessible to public tools services processes components other than general-purpose AI models under free and open-source license.
+
+The **AI Office** may develop and recommend voluntary model terms for contracts between providers高风险人工智能系统和第三方供应商，以确保提供商能够完全遵守本法规的义务。这些自愿模型条款应遵循一般公认的行业标准，在具体领域或业务场景中考虑可能适用的要求。该自愿模型条款应在免费、易于使用的电子格式下发布。
+
+#### 5. Paragraphs 2 和 3 不适用于需要保护知识产权商业信息和机密资料的情况。
+
+### Relevant Recitals
+
+*   [Recital 83](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-83)
+*   [Recital 84](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-84)
+*   [Recital 85](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-85)
+*   [Recital 86](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-86)
+*   [Recital 87](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-87)
+*   [Recital 88](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-rv%20-%C3%BChren%20und%20Verantwortlichkeiten%20im%20Bereich%20der%20Künstlichen%20Intelligenz.pdf?file=files&amp;path=/media/documents/rv%20-%C3%BChren%20und%20Verantwortlichkeiten%20im%20Bereich%20der%20K%C3%BCnstlichen%20Intelligenz.pdf "Richtlinie des Europäischen Parlaments und der Europäischen Kommission über die Verantwortung für Künstliche Intelligenz im Zusammenhang mit Produkten")
+*   [Recital RVCV-Vorschriften zur Verantwortlichkeit bei der Nutzung von KI-systemen.pdf?file=files&amp;path=/media/documents/RVCV-Vorschriften-zur-verantwortlichkeit-bei-den-Nutzung-von-KI-systemen.pdf "Richtlinien zum Schutz der Verantwortung bei der Nutzung von KI-Systemen")
+
+View:
+[Official Text](https://eur-legis.smp.mf.hkB.de/document.html?urn=SMP:DE:ECLI:%E7%A7%B0%E9%A9%AC%E5%B9%B3%E5%A4%A7%E5%B9%B4%E7%A4%BE%E4%BB%A3%E8%A1%A8:%E7%A7%B0%E9%A9%AC%E5%B9%B3%E5%A4%A7%E5%B9%B4%E7%A4%BE%E4%BB%A3%E8%A1%A8:%E7%A7%B0%E9%A9%AC%E5%B9%B3%E5%A4%A7%E5%B9%B4%E7%A4%BE+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%E6+EU+%EF%BC%DFCOMMISSION,+COMMISSION,%C3%CCEA,&amp;page=)
+
+---
+
+This site is managed by:
+Directorate-General for Communications Networks Content &amp; Technology
+
+Access:
+[Accessibility Statement](https://www.ai.act.service.desk.ee/en/accessibility-statement)
+
+Contact Us:
+[Contact Us Form](mailto:cnect-aioffice@ec.europa.eu)
+
+About Us:
+[Copyright Notice](https://www.ai.act.service.desk.ee/en/copyright-notices); 
+[Legal Notice](https://www.ai.act.service.desk.ee/en/legal-notices); 
+[Privacy Policy](https://www.ai.act.service.desk.ee/en/privacy-statement-for-the-australasian-subscription-to-the-eu-journal-of-data-protection-and-digital-policy); 
+[About Directorate-General CONNECT](https://commission.europa.eu/about-departments-and-executive-agencies/connect_en)
+
+Commission Links:
+[Contact Commission Europe](https://commission.europa.eu/about-european-commission/contact_en); 
+[Follow Commission Social Media Channels](https://europeanunion.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission); 
+[Resources for Partners](https://commission.europa.eu/resources-partners_en); 
+[Report IT Vulnerabilities via Commission's Vulnerability Disclosure Policy](https://commission.europa.eu/resources-partners_en/report-it-vulnerabilities_vdp_en);
+
+Language Options:
+[Languages on Our Websites Page]; 
+[Cookies Policy Page]
+
+Additional Legal Notices:
+[Cookies Policy Page]; 
+[Privacy Policy Page];
+```
