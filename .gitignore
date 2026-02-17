@@ -22,12 +22,13 @@ data/jina_pdfs
 .uv/
 # keep uv.lock and pyproject.toml (these are tracked by default, so no ignore needed)
 
-# ---- Jupyter notebooks ----
+# ---- Allow for certain Jupyter notebooks ----
 *.ipynb
 !Jina_web_AI_Act.ipynb
 !Process_YouTube_Transcripts.ipynb
 !Granite_Docling_pdfs.ipynb
 !GitHub_podcast_download.ipynb
+!Agent_with_websearch.ipynb
 # redundant with granite-docling pdfs
 #!Jina_local_pdfs.ipynb
 
