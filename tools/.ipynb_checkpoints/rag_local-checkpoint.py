@@ -192,7 +192,7 @@ class JinaEmbedder:
     def __init__(
         self,
         api_key: str,
-        model: str = "jina-embeddings-v5-text",
+        model: str = "jina-embeddings-v5-text-small",
         base_url: str = "https://api.jina.ai/v1/embeddings",
         timeout: float = 120.0,
     ) -> None:

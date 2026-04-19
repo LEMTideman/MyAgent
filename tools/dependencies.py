@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 import os
+from pathlib import Path
 from dataclasses import dataclass
 from typing import Optional, List, Dict
 from .rag_local import JinaEmbedder, LocalRAG
-
 import requests
 
 # -----------------------------
@@ -96,6 +96,10 @@ class JinaReaderClient:
 # Dependencies
 # -----------------------------
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+QDRANT_PATH = BASE_DIR / ".qdrant_rag"
+DATA_ROOT = BASE_DIR / "data"
+
 @dataclass
 class Deps:
     """Container for shared external clients and runtime settings used by tools."""
@@ -110,13 +114,14 @@ def build_deps() -> Deps:
     brave_key = os.environ["BRAVE_SEARCH_API_KEY"]
     jina_key = os.environ["JINA_API_KEY"]
 
+    brave = BraveSearchClient(api_key=brave_key, session=session, timeout_s=30)
+    jina = JinaReaderClient(api_key=jina_key, timeout_s=90)
+
     embedder = JinaEmbedder(api_key=os.environ["JINA_API_KEY"],
                             model=os.getenv("JINA_EMBED_MODEL", "jina-embeddings-v5-text-small"))
     session = requests.Session()
 
-    return Deps(
-        brave=BraveSearchClient(api_key=brave_key, session=session, timeout_s=30),
-        jina=JinaReaderClient(api_key=jina_key, timeout_s=90),
-        rag=LocalRAG(qdrant_path=".qdrant_rag", collection_name="local_dataset", embedder=embedder),
-        per_request_sleep_s=0.25,
-    )
+    rag = LocalRAG(qdrant_path=QDRANT_PATH, collection_name="local_dataset", embedder=embedder)
+    rag.ensure_index(data_root=DATA_ROOT, chunk_size=2400, overlap=200, batch_size=64)
+
+    return Deps(brave=brave, jina=jina, rag=rag, per_request_sleep_s=0.25)
