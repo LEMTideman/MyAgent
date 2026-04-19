@@ -14,6 +14,9 @@ __pycache__/
 .ipynb_checkpoints/
 .hf_cache/
 .qdrant_rag/
+.cognee_data/
+.cognee_logs/
+.cognee_system/
 
 # Local data folders (keep locally, not in GitHub)
 pdfs/
@@ -43,7 +46,7 @@ ai_risk_ontology/
 # --- Avoid backup of draft python files ---
 main_backup.py
 main_cognee.py
-./tools/cognee_memory.py
+cognee_memory.py
 
 # ---- Common local stuff ----
 .DS_Store
