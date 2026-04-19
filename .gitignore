@@ -15,8 +15,6 @@ __pycache__/
 # Local data folders (keep locally, not in GitHub)
 pdfs/
 urls/
-# redundant with granite-docling pdfs
-data/jina_pdfs 
 
 # ---- uv ----
 .uv/
@@ -24,11 +22,12 @@ data/jina_pdfs
 
 # ---- Allow for certain Jupyter notebooks ----
 *.ipynb
-!Jina_web_AI_Act.ipynb
-!Process_YouTube_Transcripts.ipynb
-!Granite_Docling_pdfs.ipynb
-!GitHub_podcast_download.ipynb
-!Multi_tool_agent.ipynb
+!Data_processing_granite_docling_pdfs.ipynb
+!Data_processing_youtube_transcripts.ipynb
+!Demo_notebook.ipynb
+#!Granite_Docling_pdfs.ipynb
+#!GitHub_podcast_download.ipynb
+#!Multi_tool_agent.ipynb
 #!Agent_with_websearch.ipynb
 # redundant with granite-docling pdfs
 #!Jina_local_pdfs.ipynb
