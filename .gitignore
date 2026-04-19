@@ -11,6 +11,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.ipynb_checkpoints/
+.hf_cache/
+.qdrant_rag/
 
 # Local data folders (keep locally, not in GitHub)
 pdfs/
@@ -35,6 +38,9 @@ urls/
 # If those notebooks live in subfolders, use this instead:
 # !**/Jina_web_AI_Act.ipynb
 # !**/Process_YouTube_Transcripts.ipynb
+
+# --- Avoid backup of draft python files ---
+main_backup.py
 
 # ---- Common local stuff ----
 .DS_Store
