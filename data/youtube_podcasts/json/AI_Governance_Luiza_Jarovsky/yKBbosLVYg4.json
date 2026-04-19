@@ -1,0 +1,3698 @@
+{
+  "source": "youtube",
+  "channel": "direct_videos",
+  "playlist_title": "direct_videos",
+  "playlist_url": null,
+  "playlist_id": null,
+  "video_id": "yKBbosLVYg4",
+  "video_title": "Definitional Boundaries behind the fundamentals of the GDPR with Jorge Garcia Herrero",
+  "video_url": "https://www.youtube.com/watch?v=yKBbosLVYg4",
+  "fetched_at": "2026-04-19T13:34:34.632632+00:00",
+  "transcript": [
+    {
+      "text": "Welcome to another episode of Legal for",
+      "start": 17.279,
+      "duration": 4.08
+    },
+    {
+      "text": "Tech, the podcast. So guys, you do",
+      "start": 19.359,
+      "duration": 3.84
+    },
+    {
+      "text": "recognize my voice. It's always Rosie",
+      "start": 21.359,
+      "duration": 3.441
+    },
+    {
+      "text": "here. And as I've said many many many",
+      "start": 23.199,
+      "duration": 3.84
+    },
+    {
+      "text": "many times, this is just a group of",
+      "start": 24.8,
+      "duration": 3.92
+    },
+    {
+      "text": "students and young professionals who are",
+      "start": 27.039,
+      "duration": 3.201
+    },
+    {
+      "text": "very interested in anything that has to",
+      "start": 28.72,
+      "duration": 4.24
+    },
+    {
+      "text": "do with technology and yes it's",
+      "start": 30.24,
+      "duration": 5.28
+    },
+    {
+      "text": "regulation. So today I'm joined by my",
+      "start": 32.96,
+      "duration": 3.92
+    },
+    {
+      "text": "friend and colleague and producer of",
+      "start": 35.52,
+      "duration": 3.84
+    },
+    {
+      "text": "this podcast Jako Gregorio. Hi Jako,",
+      "start": 36.88,
+      "duration": 3.519
+    },
+    {
+      "text": "great to see you.",
+      "start": 39.36,
+      "duration": 3.68
+    },
+    {
+      "text": ">> Hi Rosie, great to see you as well.",
+      "start": 40.399,
+      "duration": 4.641
+    },
+    {
+      "text": "Lovely to see you because today actually",
+      "start": 43.04,
+      "duration": 3.44
+    },
+    {
+      "text": "we are talking much more about",
+      "start": 45.04,
+      "duration": 3.519
+    },
+    {
+      "text": "regulation I would say than I mean of",
+      "start": 46.48,
+      "duration": 3.44
+    },
+    {
+      "text": "course we're talking about technology",
+      "start": 48.559,
+      "duration": 4.401
+    },
+    {
+      "text": "but we are at the core of regulation and",
+      "start": 49.92,
+      "duration": 4.88
+    },
+    {
+      "text": "especially at the core of the greatest",
+      "start": 52.96,
+      "duration": 4.8
+    },
+    {
+      "text": "regulation which is the GDPR in a way",
+      "start": 54.8,
+      "duration": 4.72
+    },
+    {
+      "text": "it's the general data protection",
+      "start": 57.76,
+      "duration": 3.68
+    },
+    {
+      "text": "regulation of the European Union and we",
+      "start": 59.52,
+      "duration": 4.4
+    },
+    {
+      "text": "are here to talk about it with um",
+      "start": 61.44,
+      "duration": 5.359
+    },
+    {
+      "text": "someone that is very famous on LinkedIn",
+      "start": 63.92,
+      "duration": 5.199
+    },
+    {
+      "text": "but also very famous in our hearts. Um,",
+      "start": 66.799,
+      "duration": 5.521
+    },
+    {
+      "text": "welcome to this podcast, Horge Garcia",
+      "start": 69.119,
+      "duration": 5.601
+    },
+    {
+      "text": "Herrerero. Great to see you.",
+      "start": 72.32,
+      "duration": 5.4
+    },
+    {
+      "text": ">> Hello.",
+      "start": 74.72,
+      "duration": 3.0
+    },
+    {
+      "text": ">> Well, I am Garcia. You can call me Horge",
+      "start": 77.759,
+      "duration": 7.521
+    },
+    {
+      "text": "Garcia or Giio or George or Jorgen or",
+      "start": 82.0,
+      "duration": 6.799
+    },
+    {
+      "text": "Gay or whatever.",
+      "start": 85.28,
+      "duration": 5.44
+    },
+    {
+      "text": ">> J",
+      "start": 88.799,
+      "duration": 4.241
+    },
+    {
+      "text": "is also quite nice.",
+      "start": 90.72,
+      "duration": 3.759
+    },
+    {
+      "text": ">> Okay, you can you can call me.",
+      "start": 93.04,
+      "duration": 3.2
+    },
+    {
+      "text": ">> No, I'm joking. I will call you Horge. I",
+      "start": 94.479,
+      "duration": 3.521
+    },
+    {
+      "text": "have been I have been called I have been",
+      "start": 96.24,
+      "duration": 5.199
+    },
+    {
+      "text": "called many things in my life and I was",
+      "start": 98.0,
+      "duration": 5.439
+    },
+    {
+      "text": "not very happy with it",
+      "start": 101.439,
+      "duration": 3.36
+    },
+    {
+      "text": ">> whether some of them must be disclosed",
+      "start": 103.439,
+      "duration": 4.801
+    },
+    {
+      "text": "in this podcast. Um so um let me ask you",
+      "start": 104.799,
+      "duration": 4.881
+    },
+    {
+      "text": "so yes I said you're very famous on",
+      "start": 108.24,
+      "duration": 3.28
+    },
+    {
+      "text": "LinkedIn because you have a great u",
+      "start": 109.68,
+      "duration": 4.56
+    },
+    {
+      "text": "substack and newsletter which I um love",
+      "start": 111.52,
+      "duration": 4.959
+    },
+    {
+      "text": "and follow but maybe some of our",
+      "start": 114.24,
+      "duration": 4.0
+    },
+    {
+      "text": "listeners haven't come across your",
+      "start": 116.479,
+      "duration": 3.92
+    },
+    {
+      "text": "content yet. So maybe if you could give",
+      "start": 118.24,
+      "duration": 5.04
+    },
+    {
+      "text": "them a bit of a overview of your live",
+      "start": 120.399,
+      "duration": 6.08
+    },
+    {
+      "text": "career mostly and also what you've been",
+      "start": 123.28,
+      "duration": 5.92
+    },
+    {
+      "text": "doing these days um that would be great.",
+      "start": 126.479,
+      "duration": 5.681
+    },
+    {
+      "text": "Okay, I will I will spare from from",
+      "start": 129.2,
+      "duration": 6.56
+    },
+    {
+      "text": "hearing about my my life. But okay, I'm",
+      "start": 132.16,
+      "duration": 6.799
+    },
+    {
+      "text": "a lawyer. I'm a DPO. I live in Spain.",
+      "start": 135.76,
+      "duration": 5.04
+    },
+    {
+      "text": "Not in Madrid, not in Barcelona, but in",
+      "start": 138.959,
+      "duration": 5.521
+    },
+    {
+      "text": "a little town much quiet and happy and",
+      "start": 140.8,
+      "duration": 5.2
+    },
+    {
+      "text": "easy.",
+      "start": 144.48,
+      "duration": 5.759
+    },
+    {
+      "text": "And well, my life is writing the",
+      "start": 146.0,
+      "duration": 6.56
+    },
+    {
+      "text": "Substack and all my stupid and funny",
+      "start": 150.239,
+      "duration": 5.681
+    },
+    {
+      "text": "things. I used to write in LinkedIn and",
+      "start": 152.56,
+      "duration": 5.44
+    },
+    {
+      "text": "in, you know, not not so much in",
+      "start": 155.92,
+      "duration": 4.16
+    },
+    {
+      "text": "Twitter. these last years, but also in",
+      "start": 158.0,
+      "duration": 5.12
+    },
+    {
+      "text": "blue sky or most of all in Substack and",
+      "start": 160.08,
+      "duration": 8.0
+    },
+    {
+      "text": "LinkedIn and in the very limited time",
+      "start": 163.12,
+      "duration": 9.119
+    },
+    {
+      "text": "that my substack leaves me. Erh, I also",
+      "start": 168.08,
+      "duration": 7.68
+    },
+    {
+      "text": "work for different companies and",
+      "start": 172.239,
+      "duration": 6.561
+    },
+    {
+      "text": "generative AI and you know pharmacies",
+      "start": 175.76,
+      "duration": 6.08
+    },
+    {
+      "text": "and well quite quite a good mix of",
+      "start": 178.8,
+      "duration": 6.159
+    },
+    {
+      "text": "companies and well I like to read other",
+      "start": 181.84,
+      "duration": 6.96
+    },
+    {
+      "text": "stuff and I like to read Roselia also",
+      "start": 184.959,
+      "duration": 6.241
+    },
+    {
+      "text": "posts in linking and the comments on the",
+      "start": 188.8,
+      "duration": 5.28
+    },
+    {
+      "text": "very very interesting papers and well",
+      "start": 191.2,
+      "duration": 5.84
+    },
+    {
+      "text": "here I here I am to to speak with you",
+      "start": 194.08,
+      "duration": 6.159
+    },
+    {
+      "text": "and Yako",
+      "start": 197.04,
+      "duration": 5.6
+    },
+    {
+      "text": "And we we will go then for with the",
+      "start": 200.239,
+      "duration": 4.08
+    },
+    {
+      "text": "first question for sure that is pretty",
+      "start": 202.64,
+      "duration": 4.4
+    },
+    {
+      "text": "general from from me because I'm not a",
+      "start": 204.319,
+      "duration": 5.361
+    },
+    {
+      "text": "lawyer and didn't study legal stuff. So",
+      "start": 207.04,
+      "duration": 4.96
+    },
+    {
+      "text": "that's why I'm asking this like could",
+      "start": 209.68,
+      "duration": 4.88
+    },
+    {
+      "text": "you talk us a little bit about uh",
+      "start": 212.0,
+      "duration": 4.879
+    },
+    {
+      "text": "personal data? What are personal data",
+      "start": 214.56,
+      "duration": 6.239
+    },
+    {
+      "text": "and why are important for us?",
+      "start": 216.879,
+      "duration": 6.64
+    },
+    {
+      "text": ">> Oh my god that's a that's a very very",
+      "start": 220.799,
+      "duration": 6.561
+    },
+    {
+      "text": "general question. Okay. I I will do like",
+      "start": 223.519,
+      "duration": 7.28
+    },
+    {
+      "text": "the people I admire doing that is no",
+      "start": 227.36,
+      "duration": 5.04
+    },
+    {
+      "text": "matter the question I will give the",
+      "start": 230.799,
+      "duration": 4.641
+    },
+    {
+      "text": "answer I want and okay why is it",
+      "start": 232.4,
+      "duration": 4.96
+    },
+    {
+      "text": "personal that important because it is",
+      "start": 235.44,
+      "duration": 4.56
+    },
+    {
+      "text": "because data protection is one of the",
+      "start": 237.36,
+      "duration": 6.159
+    },
+    {
+      "text": "most transversal disciplines and so that",
+      "start": 240.0,
+      "duration": 5.68
+    },
+    {
+      "text": "and it's the base for the exercise of a",
+      "start": 243.519,
+      "duration": 4.08
+    },
+    {
+      "text": "lot of rights and that's why it is",
+      "start": 245.68,
+      "duration": 5.759
+    },
+    {
+      "text": "important and what is personal data that",
+      "start": 247.599,
+      "duration": 7.121
+    },
+    {
+      "text": "thing is changing almost every day and",
+      "start": 251.439,
+      "duration": 5.52
+    },
+    {
+      "text": "in the last few years it has changed",
+      "start": 254.72,
+      "duration": 5.28
+    },
+    {
+      "text": "completely because we thought we knew",
+      "start": 256.959,
+      "duration": 6.001
+    },
+    {
+      "text": "what personal data was. It was like a",
+      "start": 260.0,
+      "duration": 5.6
+    },
+    {
+      "text": "binary thing. Something was personal",
+      "start": 262.96,
+      "duration": 5.6
+    },
+    {
+      "text": "data or it wasn't personal data. But",
+      "start": 265.6,
+      "duration": 6.56
+    },
+    {
+      "text": "since the last judgments of the European",
+      "start": 268.56,
+      "duration": 6.0
+    },
+    {
+      "text": "card, we get that we have something",
+      "start": 272.16,
+      "duration": 5.44
+    },
+    {
+      "text": "which is data that can be personal data",
+      "start": 274.56,
+      "duration": 7.52
+    },
+    {
+      "text": "for me but not for Jako and could be no",
+      "start": 277.6,
+      "duration": 7.2
+    },
+    {
+      "text": "could be nonpersonal data on Thursday on",
+      "start": 282.08,
+      "duration": 5.839
+    },
+    {
+      "text": "Monday and could become personal data on",
+      "start": 284.8,
+      "duration": 5.92
+    },
+    {
+      "text": "Thursday and that's what we got here and",
+      "start": 287.919,
+      "duration": 6.361
+    },
+    {
+      "text": "we have to handle",
+      "start": 290.72,
+      "duration": 3.56
+    },
+    {
+      "text": ">> that's that's absolutely brilliant how I",
+      "start": 294.56,
+      "duration": 6.32
+    },
+    {
+      "text": "love the framing because um I feel like",
+      "start": 297.12,
+      "duration": 6.48
+    },
+    {
+      "text": "um with technology it's difficult to put",
+      "start": 300.88,
+      "duration": 5.12
+    },
+    {
+      "text": "things in a box um although technology",
+      "start": 303.6,
+      "duration": 4.48
+    },
+    {
+      "text": "is supposedly something very boxable",
+      "start": 306.0,
+      "duration": 5.039
+    },
+    {
+      "text": "because it's very technical. So if this",
+      "start": 308.08,
+      "duration": 6.24
+    },
+    {
+      "text": "view that interpretation kind of um",
+      "start": 311.039,
+      "duration": 6.481
+    },
+    {
+      "text": "evolves and shifts from one side to the",
+      "start": 314.32,
+      "duration": 6.08
+    },
+    {
+      "text": "other whilst the technology behind it",
+      "start": 317.52,
+      "duration": 6.88
+    },
+    {
+      "text": "technically is I mean it's rather um",
+      "start": 320.4,
+      "duration": 6.48
+    },
+    {
+      "text": "descriptive rather than interpretive in",
+      "start": 324.4,
+      "duration": 5.28
+    },
+    {
+      "text": "terms of value and and what um motivates",
+      "start": 326.88,
+      "duration": 5.12
+    },
+    {
+      "text": "it motivates it's kind of like tell us",
+      "start": 329.68,
+      "duration": 6.0
+    },
+    {
+      "text": "if we're talking about arisatilian um um",
+      "start": 332.0,
+      "duration": 7.44
+    },
+    {
+      "text": "epistemology anyways um but the the",
+      "start": 335.68,
+      "duration": 6.88
+    },
+    {
+      "text": "thing you said about the latest",
+      "start": 339.44,
+      "duration": 4.64
+    },
+    {
+      "text": "decision. I think it was the 4th of",
+      "start": 342.56,
+      "duration": 3.199
+    },
+    {
+      "text": "September that we received a very",
+      "start": 344.08,
+      "duration": 6.08
+    },
+    {
+      "text": "important decision from uh CJU. Um that",
+      "start": 345.759,
+      "duration": 6.801
+    },
+    {
+      "text": "really made some people very angry and",
+      "start": 350.16,
+      "duration": 4.24
+    },
+    {
+      "text": "some people very happy and some people",
+      "start": 352.56,
+      "duration": 4.24
+    },
+    {
+      "text": "very confused. Where do you stand on",
+      "start": 354.4,
+      "duration": 5.76
+    },
+    {
+      "text": "this spectrum and why is that so?",
+      "start": 356.8,
+      "duration": 8.08
+    },
+    {
+      "text": ">> No, that's a good question. Uh well, not",
+      "start": 360.16,
+      "duration": 7.68
+    },
+    {
+      "text": "happy or not unhappy.",
+      "start": 364.88,
+      "duration": 5.52
+    },
+    {
+      "text": "One thing I don't quite understand about",
+      "start": 367.84,
+      "duration": 5.28
+    },
+    {
+      "text": "the September timing is that the",
+      "start": 370.4,
+      "duration": 5.76
+    },
+    {
+      "text": "European card had said that exact same",
+      "start": 373.12,
+      "duration": 6.88
+    },
+    {
+      "text": "thing for four times in a row before SRB",
+      "start": 376.16,
+      "duration": 7.84
+    },
+    {
+      "text": "is scanning in September 25. So I didn't",
+      "start": 380.0,
+      "duration": 7.6
+    },
+    {
+      "text": "understand the surprise at all. That's",
+      "start": 384.0,
+      "duration": 6.16
+    },
+    {
+      "text": "that's the the the first thing. Uh",
+      "start": 387.6,
+      "duration": 6.0
+    },
+    {
+      "text": "second um confused of course of course",
+      "start": 390.16,
+      "duration": 5.44
+    },
+    {
+      "text": "because there were quite a few points",
+      "start": 393.6,
+      "duration": 4.719
+    },
+    {
+      "text": "very confusing in that in that judgment",
+      "start": 395.6,
+      "duration": 5.76
+    },
+    {
+      "text": "because they talked about consent in a",
+      "start": 398.319,
+      "duration": 5.361
+    },
+    {
+      "text": "situation where nobody was talking about",
+      "start": 401.36,
+      "duration": 4.8
+    },
+    {
+      "text": "consent not in the first sentence but in",
+      "start": 403.68,
+      "duration": 8.88
+    },
+    {
+      "text": "the a in the general advocate in the ag",
+      "start": 406.16,
+      "duration": 12.8
+    },
+    {
+      "text": "but uh about the scenia mainstream",
+      "start": 412.56,
+      "duration": 7.359
+    },
+    {
+      "text": "doctrine",
+      "start": 418.96,
+      "duration": 3.519
+    },
+    {
+      "text": "Uh it was said as I said four times",
+      "start": 419.919,
+      "duration": 5.761
+    },
+    {
+      "text": "before and well",
+      "start": 422.479,
+      "duration": 5.681
+    },
+    {
+      "text": "you can get confused you can get happy",
+      "start": 425.68,
+      "duration": 6.239
+    },
+    {
+      "text": "or unhappy you have to handle it and for",
+      "start": 428.16,
+      "duration": 7.599
+    },
+    {
+      "text": "for and and linking this discussion with",
+      "start": 431.919,
+      "duration": 7.84
+    },
+    {
+      "text": "the one before no matter uh what the",
+      "start": 435.759,
+      "duration": 6.72
+    },
+    {
+      "text": "digital omnibus is going to result about",
+      "start": 439.759,
+      "duration": 5.44
+    },
+    {
+      "text": "the personal data definition we already",
+      "start": 442.479,
+      "duration": 4.961
+    },
+    {
+      "text": "have these judgments of the European",
+      "start": 445.199,
+      "duration": 3.921
+    },
+    {
+      "text": "card and we have to live with them. So",
+      "start": 447.44,
+      "duration": 8.159
+    },
+    {
+      "text": "we have to get to uh put it to work.",
+      "start": 449.12,
+      "duration": 8.72
+    },
+    {
+      "text": ">> Um talking about digital omnibus, a lot",
+      "start": 455.599,
+      "duration": 6.88
+    },
+    {
+      "text": "of um kind of critiques where um let's",
+      "start": 457.84,
+      "duration": 6.24
+    },
+    {
+      "text": "say advocating for the fact that the",
+      "start": 462.479,
+      "duration": 3.521
+    },
+    {
+      "text": "digital omnibus",
+      "start": 464.08,
+      "duration": 5.36
+    },
+    {
+      "text": "obviously implements decision but like",
+      "start": 466.0,
+      "duration": 5.919
+    },
+    {
+      "text": "takes it out of context.",
+      "start": 469.44,
+      "duration": 5.68
+    },
+    {
+      "text": "um is context that vital to the",
+      "start": 471.919,
+      "duration": 6.72
+    },
+    {
+      "text": "understanding of SRB or would you say",
+      "start": 475.12,
+      "duration": 5.359
+    },
+    {
+      "text": "actually it was the fourth or fifth",
+      "start": 478.639,
+      "duration": 5.361
+    },
+    {
+      "text": "decision in in a role and context",
+      "start": 480.479,
+      "duration": 5.521
+    },
+    {
+      "text": "doesn't matter that much because it's",
+      "start": 484.0,
+      "duration": 4.24
+    },
+    {
+      "text": "it's the Jewish prudence that counts not",
+      "start": 486.0,
+      "duration": 5.12
+    },
+    {
+      "text": "the context of of SRP",
+      "start": 488.24,
+      "duration": 6.0
+    },
+    {
+      "text": ">> but I think both things are interwined I",
+      "start": 491.12,
+      "duration": 7.04
+    },
+    {
+      "text": "I think context is king uh in data",
+      "start": 494.24,
+      "duration": 5.679
+    },
+    {
+      "text": "protection I don't think there's",
+      "start": 498.16,
+      "duration": 4.8
+    },
+    {
+      "text": "anything more important context. No",
+      "start": 499.919,
+      "duration": 5.601
+    },
+    {
+      "text": "matter what concept you are discussing,",
+      "start": 502.96,
+      "duration": 6.16
+    },
+    {
+      "text": "it changes in different situations. And",
+      "start": 505.52,
+      "duration": 6.48
+    },
+    {
+      "text": "I am very",
+      "start": 509.12,
+      "duration": 6.24
+    },
+    {
+      "text": "I I have a lot of fear to make big",
+      "start": 512.0,
+      "duration": 5.76
+    },
+    {
+      "text": "affirmations or negations in data",
+      "start": 515.36,
+      "duration": 4.479
+    },
+    {
+      "text": "protection because no matter what you",
+      "start": 517.76,
+      "duration": 4.32
+    },
+    {
+      "text": "say in a few months or in a few years,",
+      "start": 519.839,
+      "duration": 5.361
+    },
+    {
+      "text": "you are going to face some example that",
+      "start": 522.08,
+      "duration": 6.08
+    },
+    {
+      "text": "is going to make you ask yourself if you",
+      "start": 525.2,
+      "duration": 4.72
+    },
+    {
+      "text": "know anything about data protection at",
+      "start": 528.16,
+      "duration": 4.0
+    },
+    {
+      "text": "all. because when you try to apply the",
+      "start": 529.92,
+      "duration": 5.359
+    },
+    {
+      "text": "general principles again, you uh you",
+      "start": 532.16,
+      "duration": 5.44
+    },
+    {
+      "text": "discover that you were wrong partially",
+      "start": 535.279,
+      "duration": 4.481
+    },
+    {
+      "text": "or totally about what you thought and",
+      "start": 537.6,
+      "duration": 4.96
+    },
+    {
+      "text": "that's the the thing that I like the",
+      "start": 539.76,
+      "duration": 6.16
+    },
+    {
+      "text": "most of of data protection. Then about",
+      "start": 542.56,
+      "duration": 6.48
+    },
+    {
+      "text": "the scania, scenia is based on context",
+      "start": 545.92,
+      "duration": 7.12
+    },
+    {
+      "text": "and you have to assess if if the same",
+      "start": 549.04,
+      "duration": 6.72
+    },
+    {
+      "text": "piece of information is personal for you",
+      "start": 553.04,
+      "duration": 5.76
+    },
+    {
+      "text": "and not for me depending on your",
+      "start": 555.76,
+      "duration": 6.0
+    },
+    {
+      "text": "availability to access different",
+      "start": 558.8,
+      "duration": 6.32
+    },
+    {
+      "text": "databases uh in your organization in",
+      "start": 561.76,
+      "duration": 7.28
+    },
+    {
+      "text": "thirds organization uh access possible",
+      "start": 565.12,
+      "duration": 6.96
+    },
+    {
+      "text": "attacks from third parties you know so",
+      "start": 569.04,
+      "duration": 5.6
+    },
+    {
+      "text": "it's everything about context but If you",
+      "start": 572.08,
+      "duration": 4.48
+    },
+    {
+      "text": "ask a client, a client is going to say",
+      "start": 574.64,
+      "duration": 5.12
+    },
+    {
+      "text": "you to say that you say context is king",
+      "start": 576.56,
+      "duration": 6.32
+    },
+    {
+      "text": "h instead of saying it depends which is",
+      "start": 579.76,
+      "duration": 6.96
+    },
+    {
+      "text": "the favorite sentence of of lawyers. But",
+      "start": 582.88,
+      "duration": 6.48
+    },
+    {
+      "text": "this yes is the essence of data",
+      "start": 586.72,
+      "duration": 5.2
+    },
+    {
+      "text": "protection.",
+      "start": 589.36,
+      "duration": 6.96
+    },
+    {
+      "text": ">> Um so you you you hinted to the point in",
+      "start": 591.92,
+      "duration": 6.88
+    },
+    {
+      "text": "scania and um of course um we talked",
+      "start": 596.32,
+      "duration": 5.199
+    },
+    {
+      "text": "about srb a tiny bit. I'm just going to",
+      "start": 598.8,
+      "duration": 4.96
+    },
+    {
+      "text": "ask you in terms of um clarity to",
+      "start": 601.519,
+      "duration": 5.121
+    },
+    {
+      "text": "towards our listeners if you could just",
+      "start": 603.76,
+      "duration": 6.96
+    },
+    {
+      "text": "um quite um quickly kind of summarize um",
+      "start": 606.64,
+      "duration": 6.72
+    },
+    {
+      "text": "what the conclusion was between the two",
+      "start": 610.72,
+      "duration": 5.92
+    },
+    {
+      "text": "cases and why one is a bit different",
+      "start": 613.36,
+      "duration": 6.56
+    },
+    {
+      "text": "from the other if that's possible",
+      "start": 616.64,
+      "duration": 5.84
+    },
+    {
+      "text": ">> between the the two cases between Scania",
+      "start": 619.92,
+      "duration": 4.72
+    },
+    {
+      "text": "and SRV.",
+      "start": 622.48,
+      "duration": 9.12
+    },
+    {
+      "text": "Oh my god. Well uh uh very shortly uh",
+      "start": 624.64,
+      "duration": 11.12
+    },
+    {
+      "text": "Scania uh was talking about the VIN the",
+      "start": 631.6,
+      "duration": 7.2
+    },
+    {
+      "text": "vehicle identification number which is",
+      "start": 635.76,
+      "duration": 6.639
+    },
+    {
+      "text": "written in every truck.",
+      "start": 638.8,
+      "duration": 6.719
+    },
+    {
+      "text": "Apart from the origin case, the cart",
+      "start": 642.399,
+      "duration": 6.481
+    },
+    {
+      "text": "said that that bin that identification",
+      "start": 645.519,
+      "duration": 6.961
+    },
+    {
+      "text": "number is going to be personal data. If",
+      "start": 648.88,
+      "duration": 7.44
+    },
+    {
+      "text": "the holder of the data is able to link",
+      "start": 652.48,
+      "duration": 7.919
+    },
+    {
+      "text": "that bin with the owner or the p of the",
+      "start": 656.32,
+      "duration": 7.519
+    },
+    {
+      "text": "individual who drives the vehicle, it",
+      "start": 660.399,
+      "duration": 5.521
+    },
+    {
+      "text": "will be personal data for for that",
+      "start": 663.839,
+      "duration": 5.201
+    },
+    {
+      "text": "organization and if not not. That was",
+      "start": 665.92,
+      "duration": 6.96
+    },
+    {
+      "text": "the main the main uh declaration. And to",
+      "start": 669.04,
+      "duration": 7.359
+    },
+    {
+      "text": "assess that you have to study",
+      "start": 672.88,
+      "duration": 7.68
+    },
+    {
+      "text": "uh the content, purpose and effects of",
+      "start": 676.399,
+      "duration": 6.801
+    },
+    {
+      "text": "the data processing. And in light of",
+      "start": 680.56,
+      "duration": 6.16
+    },
+    {
+      "text": "that you have to assess the means which",
+      "start": 683.2,
+      "duration": 7.12
+    },
+    {
+      "text": "are at disposition of the data holder in",
+      "start": 686.72,
+      "duration": 7.76
+    },
+    {
+      "text": "terms of money, uh people and time. the",
+      "start": 690.32,
+      "duration": 6.48
+    },
+    {
+      "text": "effort you have to make to try to",
+      "start": 694.48,
+      "duration": 5.28
+    },
+    {
+      "text": "identify that the data subject and it is",
+      "start": 696.8,
+      "duration": 5.36
+    },
+    {
+      "text": "disproportionate",
+      "start": 699.76,
+      "duration": 4.88
+    },
+    {
+      "text": "it will be not that personal data for",
+      "start": 702.16,
+      "duration": 6.56
+    },
+    {
+      "text": "you. Uh that is Scania and and in the",
+      "start": 704.64,
+      "duration": 11.12
+    },
+    {
+      "text": "SRV EDPS case or can I make this short?",
+      "start": 708.72,
+      "duration": 9.92
+    },
+    {
+      "text": "Same thing. The same thing because it",
+      "start": 715.76,
+      "duration": 6.0
+    },
+    {
+      "text": "was SRV and Deoid and the card said that",
+      "start": 718.64,
+      "duration": 7.04
+    },
+    {
+      "text": "Deoid was not able to to know who the",
+      "start": 721.76,
+      "duration": 6.079
+    },
+    {
+      "text": "data subjects were because they didn't",
+      "start": 725.68,
+      "duration": 5.279
+    },
+    {
+      "text": "have access to the correlation table in",
+      "start": 727.839,
+      "duration": 5.601
+    },
+    {
+      "text": "the in one sentence. I guess that's what",
+      "start": 730.959,
+      "duration": 4.961
+    },
+    {
+      "text": "they said and they said some more things",
+      "start": 733.44,
+      "duration": 5.519
+    },
+    {
+      "text": "about transparency but in the in the the",
+      "start": 735.92,
+      "duration": 4.8
+    },
+    {
+      "text": "thing of the personal data concept",
+      "start": 738.959,
+      "duration": 4.961
+    },
+    {
+      "text": "that's the the headline I guess",
+      "start": 740.72,
+      "duration": 6.32
+    },
+    {
+      "text": ">> I have a right like maybe a slightly",
+      "start": 743.92,
+      "duration": 5.039
+    },
+    {
+      "text": "more kind of I wouldn't say technical",
+      "start": 747.04,
+      "duration": 4.08
+    },
+    {
+      "text": "question but like maybe looking at like",
+      "start": 748.959,
+      "duration": 3.761
+    },
+    {
+      "text": "emerging technologies and what's",
+      "start": 751.12,
+      "duration": 3.44
+    },
+    {
+      "text": "happening in the market right now of",
+      "start": 752.72,
+      "duration": 4.48
+    },
+    {
+      "text": "course we know that you know Scania and",
+      "start": 754.56,
+      "duration": 7.839
+    },
+    {
+      "text": "um SRB are kind of I would say narrow in",
+      "start": 757.2,
+      "duration": 8.079
+    },
+    {
+      "text": "terms of the possibilities and the",
+      "start": 762.399,
+      "duration": 4.88
+    },
+    {
+      "text": "disproportionate effort of looking for",
+      "start": 765.279,
+      "duration": 3.521
+    },
+    {
+      "text": "that specific information that that",
+      "start": 767.279,
+      "duration": 3.36
+    },
+    {
+      "text": "matching information that that you were",
+      "start": 768.8,
+      "duration": 4.08
+    },
+    {
+      "text": "talking about. On the other hand, we",
+      "start": 770.639,
+      "duration": 3.76
+    },
+    {
+      "text": "know that on the other hand of the",
+      "start": 772.88,
+      "duration": 5.12
+    },
+    {
+      "text": "spectrum in a way there's AI technology",
+      "start": 774.399,
+      "duration": 5.921
+    },
+    {
+      "text": "and the massive ability of making",
+      "start": 778.0,
+      "duration": 5.76
+    },
+    {
+      "text": "incredible numbers of inferences, some",
+      "start": 780.32,
+      "duration": 5.68
+    },
+    {
+      "text": "of them also wrong. Like it's not a",
+      "start": 783.76,
+      "duration": 4.24
+    },
+    {
+      "text": "given thing that the AI knows that",
+      "start": 786.0,
+      "duration": 5.36
+    },
+    {
+      "text": "Rosalia um does a podcast that's called",
+      "start": 788.0,
+      "duration": 5.839
+    },
+    {
+      "text": "legal for tech potentially. It's it's a",
+      "start": 791.36,
+      "duration": 3.919
+    },
+    {
+      "text": "probability that it's going to get the",
+      "start": 793.839,
+      "duration": 2.961
+    },
+    {
+      "text": "right thing and also probability that",
+      "start": 795.279,
+      "duration": 2.961
+    },
+    {
+      "text": "it's going to get the wrong thing.",
+      "start": 796.8,
+      "duration": 4.479
+    },
+    {
+      "text": "Apparently I am an artist who died in",
+      "start": 798.24,
+      "duration": 6.56
+    },
+    {
+      "text": "like 1952 or something. I I searched on",
+      "start": 801.279,
+      "duration": 7.441
+    },
+    {
+      "text": "PT and I was like you got that wrong. Um",
+      "start": 804.8,
+      "duration": 6.32
+    },
+    {
+      "text": "um",
+      "start": 808.72,
+      "duration": 6.559
+    },
+    {
+      "text": "would you say that this probability idea",
+      "start": 811.12,
+      "duration": 6.719
+    },
+    {
+      "text": "um makes it much more likely that some",
+      "start": 815.279,
+      "duration": 8.321
+    },
+    {
+      "text": "data um that is um inserted input within",
+      "start": 817.839,
+      "duration": 8.401
+    },
+    {
+      "text": "an AI is to be considered personal or",
+      "start": 823.6,
+      "duration": 5.2
+    },
+    {
+      "text": "would you say like given that it is very",
+      "start": 826.24,
+      "duration": 4.48
+    },
+    {
+      "text": "very little there is very very little",
+      "start": 828.8,
+      "duration": 3.44
+    },
+    {
+      "text": "probability that the is going to match",
+      "start": 830.72,
+      "duration": 3.76
+    },
+    {
+      "text": "you with the right type of information",
+      "start": 832.24,
+      "duration": 5.279
+    },
+    {
+      "text": "that makes it unlikely therefore or not",
+      "start": 834.48,
+      "duration": 5.039
+    },
+    {
+      "text": "personal data.",
+      "start": 837.519,
+      "duration": 4.241
+    },
+    {
+      "text": "It depends",
+      "start": 839.519,
+      "duration": 4.88
+    },
+    {
+      "text": "and it's it's again it's contextual",
+      "start": 841.76,
+      "duration": 6.0
+    },
+    {
+      "text": "because if you get one of the big and",
+      "start": 844.399,
+      "duration": 6.56
+    },
+    {
+      "text": "modern and powerful models and you put",
+      "start": 847.76,
+      "duration": 7.199
+    },
+    {
+      "text": "it to work and I guess everyone has read",
+      "start": 850.959,
+      "duration": 6.32
+    },
+    {
+      "text": "this paper and I guess I read it in one",
+      "start": 854.959,
+      "duration": 4.88
+    },
+    {
+      "text": "of your post about these guys who put",
+      "start": 857.279,
+      "duration": 4.321
+    },
+    {
+      "text": "the",
+      "start": 859.839,
+      "duration": 5.201
+    },
+    {
+      "text": "the AI to work to try and reidentify the",
+      "start": 861.6,
+      "duration": 7.28
+    },
+    {
+      "text": "people by seal you don't even uh",
+      "start": 865.04,
+      "duration": 7.52
+    },
+    {
+      "text": "bundles in social networks and I guess",
+      "start": 868.88,
+      "duration": 6.16
+    },
+    {
+      "text": "if I remember well they achieved to",
+      "start": 872.56,
+      "duration": 7.68
+    },
+    {
+      "text": "identify 90% of the of the guys there",
+      "start": 875.04,
+      "duration": 7.919
+    },
+    {
+      "text": "for one that's not a surprise because it",
+      "start": 880.24,
+      "duration": 6.32
+    },
+    {
+      "text": "was able without AI. So with AI maybe",
+      "start": 882.959,
+      "duration": 5.281
+    },
+    {
+      "text": "you say it's proalistic not",
+      "start": 886.56,
+      "duration": 4.56
+    },
+    {
+      "text": "deterministic. So they are going to have",
+      "start": 888.24,
+      "duration": 5.92
+    },
+    {
+      "text": "a lot of wrong positives or wrong",
+      "start": 891.12,
+      "duration": 6.079
+    },
+    {
+      "text": "negatives. Okay. But uh most of the time",
+      "start": 894.16,
+      "duration": 5.6
+    },
+    {
+      "text": "they're going to to success as it at it",
+      "start": 897.199,
+      "duration": 6.561
+    },
+    {
+      "text": "and imagine this same question when we",
+      "start": 899.76,
+      "duration": 6.48
+    },
+    {
+      "text": "reach the quantum computers it's going",
+      "start": 903.76,
+      "duration": 6.879
+    },
+    {
+      "text": "to be wilder. So, so yes, the assessment",
+      "start": 906.24,
+      "duration": 7.76
+    },
+    {
+      "text": "of the pro the probability of a",
+      "start": 910.639,
+      "duration": 5.921
+    },
+    {
+      "text": "suitability for one organization to try",
+      "start": 914.0,
+      "duration": 5.36
+    },
+    {
+      "text": "and identify people into one or",
+      "start": 916.56,
+      "duration": 5.44
+    },
+    {
+      "text": "different data sets is going to be",
+      "start": 919.36,
+      "duration": 6.0
+    },
+    {
+      "text": "something dynamic, ever changing and",
+      "start": 922.0,
+      "duration": 6.959
+    },
+    {
+      "text": "each time easier and easier. I guess",
+      "start": 925.36,
+      "duration": 5.44
+    },
+    {
+      "text": ">> I I guess that yeah there's also a",
+      "start": 928.959,
+      "duration": 5.201
+    },
+    {
+      "text": "question about controllership because if",
+      "start": 930.8,
+      "duration": 5.92
+    },
+    {
+      "text": "for example you are a deployer of an AI",
+      "start": 934.16,
+      "duration": 4.96
+    },
+    {
+      "text": "system say an LM even um your",
+      "start": 936.72,
+      "duration": 5.119
+    },
+    {
+      "text": "organization has an LM a chatbot that it",
+      "start": 939.12,
+      "duration": 6.8
+    },
+    {
+      "text": "uses that is like my personal data",
+      "start": 941.839,
+      "duration": 7.521
+    },
+    {
+      "text": "potentially asking the chatbot can I buy",
+      "start": 945.92,
+      "duration": 6.64
+    },
+    {
+      "text": "a meds so say that is it's also",
+      "start": 949.36,
+      "duration": 5.36
+    },
+    {
+      "text": "sensitive data because I I want to make",
+      "start": 952.56,
+      "duration": 5.6
+    },
+    {
+      "text": "it difficult Um, let's say that that",
+      "start": 954.72,
+      "duration": 5.039
+    },
+    {
+      "text": "data is going to be personal to your",
+      "start": 958.16,
+      "duration": 3.76
+    },
+    {
+      "text": "organization, but it's potentially not",
+      "start": 959.759,
+      "duration": 5.681
+    },
+    {
+      "text": "going to be personal to the AI provider",
+      "start": 961.92,
+      "duration": 6.08
+    },
+    {
+      "text": "because maybe to the AI that information",
+      "start": 965.44,
+      "duration": 4.72
+    },
+    {
+      "text": "is not personal. It's not identifiable",
+      "start": 968.0,
+      "duration": 4.56
+    },
+    {
+      "text": "or is it? Are they joint controllers?",
+      "start": 970.16,
+      "duration": 5.88
+    },
+    {
+      "text": "What would you say?",
+      "start": 972.56,
+      "duration": 3.48
+    },
+    {
+      "text": ">> Why do you say it's not personal data",
+      "start": 977.519,
+      "duration": 5.521
+    },
+    {
+      "text": "for the provider?",
+      "start": 980.56,
+      "duration": 6.0
+    },
+    {
+      "text": "Um I know that there's like a um kind of",
+      "start": 983.04,
+      "duration": 6.88
+    },
+    {
+      "text": "theory of data protection that says to",
+      "start": 986.56,
+      "duration": 6.24
+    },
+    {
+      "text": "the AI that's not personal data because",
+      "start": 989.92,
+      "duration": 6.96
+    },
+    {
+      "text": "the AI cannot really um match the two",
+      "start": 992.8,
+      "duration": 7.36
+    },
+    {
+      "text": "parts. So the data with the person to",
+      "start": 996.88,
+      "duration": 5.519
+    },
+    {
+      "text": "whom they belong with the data subject",
+      "start": 1000.16,
+      "duration": 4.0
+    },
+    {
+      "text": "because for the AI it's just an",
+      "start": 1002.399,
+      "duration": 5.041
+    },
+    {
+      "text": "inference. So it's it falls into a",
+      "start": 1004.16,
+      "duration": 7.44
+    },
+    {
+      "text": "bundle and a bunch of um let's say um",
+      "start": 1007.44,
+      "duration": 6.8
+    },
+    {
+      "text": "weights that do not have a bearing to",
+      "start": 1011.6,
+      "duration": 4.72
+    },
+    {
+      "text": "the actual information. So it's not",
+      "start": 1014.24,
+      "duration": 4.8
+    },
+    {
+      "text": "memorized. It's just inferred.",
+      "start": 1016.32,
+      "duration": 5.12
+    },
+    {
+      "text": "Um well there's of course another theory",
+      "start": 1019.04,
+      "duration": 4.08
+    },
+    {
+      "text": "in data protection that is like no the",
+      "start": 1021.44,
+      "duration": 4.16
+    },
+    {
+      "text": "AI memorizes your data. It knows exactly",
+      "start": 1023.12,
+      "duration": 4.88
+    },
+    {
+      "text": "who you are in in its own way but",
+      "start": 1025.6,
+      "duration": 4.319
+    },
+    {
+      "text": "technically it comes up with with",
+      "start": 1028.0,
+      "duration": 4.88
+    },
+    {
+      "text": "solutions that lead back to you. So I",
+      "start": 1029.919,
+      "duration": 6.88
+    },
+    {
+      "text": "would like to um kind of link this view",
+      "start": 1032.88,
+      "duration": 7.84
+    },
+    {
+      "text": "back to SRB and say is there really",
+      "start": 1036.799,
+      "duration": 6.0
+    },
+    {
+      "text": "personal data when we just look at the",
+      "start": 1040.72,
+      "duration": 5.119
+    },
+    {
+      "text": "AI model for example or are we talking",
+      "start": 1042.799,
+      "duration": 6.641
+    },
+    {
+      "text": "about a um kind of connection a matching",
+      "start": 1045.839,
+      "duration": 5.2
+    },
+    {
+      "text": "that can only happen at the",
+      "start": 1049.44,
+      "duration": 3.68
+    },
+    {
+      "text": "organizational level so at the deployers",
+      "start": 1051.039,
+      "duration": 3.361
+    },
+    {
+      "text": "level.",
+      "start": 1053.12,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Okay. Okay. No, I get you. But again,",
+      "start": 1054.4,
+      "duration": 7.519
+    },
+    {
+      "text": "again, it depends because uh you get an",
+      "start": 1057.44,
+      "duration": 7.68
+    },
+    {
+      "text": "AI model and when you when you dig into",
+      "start": 1061.919,
+      "duration": 5.12
+    },
+    {
+      "text": "AI models and you compare different ones",
+      "start": 1065.12,
+      "duration": 5.04
+    },
+    {
+      "text": "and you try and understand how they are",
+      "start": 1067.039,
+      "duration": 7.281
+    },
+    {
+      "text": "trained and and everything, you realize",
+      "start": 1070.16,
+      "duration": 9.36
+    },
+    {
+      "text": "that uh it depends 100% on what is the",
+      "start": 1074.32,
+      "duration": 9.359
+    },
+    {
+      "text": "purpose or why",
+      "start": 1079.52,
+      "duration": 8.08
+    },
+    {
+      "text": "do you train that model for. You can put",
+      "start": 1083.679,
+      "duration": 8.24
+    },
+    {
+      "text": "the exact same training data set uh to",
+      "start": 1087.6,
+      "duration": 6.079
+    },
+    {
+      "text": "train different models with different",
+      "start": 1091.919,
+      "duration": 6.64
+    },
+    {
+      "text": "purposes. And in the training phase um",
+      "start": 1093.679,
+      "duration": 8.801
+    },
+    {
+      "text": "you can uh avoid certain risks or you",
+      "start": 1098.559,
+      "duration": 7.841
+    },
+    {
+      "text": "can uh make certain risks bigger. But",
+      "start": 1102.48,
+      "duration": 6.0
+    },
+    {
+      "text": "it's all it's not only in the training",
+      "start": 1106.4,
+      "duration": 4.48
+    },
+    {
+      "text": "in the training phase, but you can get",
+      "start": 1108.48,
+      "duration": 5.28
+    },
+    {
+      "text": "two very different animals working",
+      "start": 1110.88,
+      "duration": 7.52
+    },
+    {
+      "text": "later. And I don't like",
+      "start": 1113.76,
+      "duration": 6.799
+    },
+    {
+      "text": "again it's it's the same thing I I said",
+      "start": 1118.4,
+      "duration": 4.8
+    },
+    {
+      "text": "earlier. I don't like this general",
+      "start": 1120.559,
+      "duration": 6.48
+    },
+    {
+      "text": "affirmations that AI models don't have",
+      "start": 1123.2,
+      "duration": 5.68
+    },
+    {
+      "text": "the personal data. They don't know. they",
+      "start": 1127.039,
+      "duration": 5.52
+    },
+    {
+      "text": "they can't link people with information",
+      "start": 1128.88,
+      "duration": 7.28
+    },
+    {
+      "text": "because some can or some can't depending",
+      "start": 1132.559,
+      "duration": 6.881
+    },
+    {
+      "text": "on how you are trained or or what you",
+      "start": 1136.16,
+      "duration": 6.639
+    },
+    {
+      "text": "have trained them. Okay. And after that",
+      "start": 1139.44,
+      "duration": 5.28
+    },
+    {
+      "text": "you can have very different different",
+      "start": 1142.799,
+      "duration": 5.281
+    },
+    {
+      "text": "animals and what I guess they are making",
+      "start": 1144.72,
+      "duration": 6.0
+    },
+    {
+      "text": "this the big tech is making is working",
+      "start": 1148.08,
+      "duration": 6.16
+    },
+    {
+      "text": "very hard very hard on filters filters",
+      "start": 1150.72,
+      "duration": 6.079
+    },
+    {
+      "text": "on your questions or your prompts so",
+      "start": 1154.24,
+      "duration": 6.0
+    },
+    {
+      "text": "that any certain prompts don't reach the",
+      "start": 1156.799,
+      "duration": 8.961
+    },
+    {
+      "text": "model or certain outputs don't reach you",
+      "start": 1160.24,
+      "duration": 9.04
+    },
+    {
+      "text": "after they are uh they I mean you you",
+      "start": 1165.76,
+      "duration": 6.56
+    },
+    {
+      "text": "make the wrong prompt or the prompt they",
+      "start": 1169.28,
+      "duration": 6.08
+    },
+    {
+      "text": "know your their model don't have to",
+      "start": 1172.32,
+      "duration": 6.32
+    },
+    {
+      "text": "listen to to answer so they filter in",
+      "start": 1175.36,
+      "duration": 5.36
+    },
+    {
+      "text": "the in the connection between you and",
+      "start": 1178.64,
+      "duration": 5.36
+    },
+    {
+      "text": "the model or in in the output level",
+      "start": 1180.72,
+      "duration": 5.839
+    },
+    {
+      "text": "whenever the the answer comes from the",
+      "start": 1184.0,
+      "duration": 5.84
+    },
+    {
+      "text": "model before reaches you that's what uh",
+      "start": 1186.559,
+      "duration": 5.921
+    },
+    {
+      "text": "the the big uh model providers of",
+      "start": 1189.84,
+      "duration": 7.76
+    },
+    {
+      "text": "generative AI in images do with uh with",
+      "start": 1192.48,
+      "duration": 7.439
+    },
+    {
+      "text": "you know with porno images and things",
+      "start": 1197.6,
+      "duration": 5.28
+    },
+    {
+      "text": "like that sometimes the model is",
+      "start": 1199.919,
+      "duration": 6.161
+    },
+    {
+      "text": "perfectly capable of generating almost",
+      "start": 1202.88,
+      "duration": 5.679
+    },
+    {
+      "text": "everything but they work at the level of",
+      "start": 1206.08,
+      "duration": 8.24
+    },
+    {
+      "text": "filters. So uh I guess I I guess that",
+      "start": 1208.559,
+      "duration": 8.0
+    },
+    {
+      "text": "this is uh this is completely relative.",
+      "start": 1214.32,
+      "duration": 4.64
+    },
+    {
+      "text": "I mean there are models who can",
+      "start": 1216.559,
+      "duration": 4.881
+    },
+    {
+      "text": "perfectly pair you with your information",
+      "start": 1218.96,
+      "duration": 5.92
+    },
+    {
+      "text": "or not. But I don't like the idea to to",
+      "start": 1221.44,
+      "duration": 6.16
+    },
+    {
+      "text": "reach a general affirmation which is",
+      "start": 1224.88,
+      "duration": 5.2
+    },
+    {
+      "text": "applyable to every AI model. I I I don't",
+      "start": 1227.6,
+      "duration": 6.079
+    },
+    {
+      "text": "think that things work yet.",
+      "start": 1230.08,
+      "duration": 5.76
+    },
+    {
+      "text": ">> I mean, I I guess that's the issue with",
+      "start": 1233.679,
+      "duration": 4.961
+    },
+    {
+      "text": "legislation in a way because legislation",
+      "start": 1235.84,
+      "duration": 5.44
+    },
+    {
+      "text": "needs to be general enough to apply to",
+      "start": 1238.64,
+      "duration": 4.8
+    },
+    {
+      "text": "different cases and at least to a",
+      "start": 1241.28,
+      "duration": 4.879
+    },
+    {
+      "text": "category of technology. And then we have",
+      "start": 1243.44,
+      "duration": 4.719
+    },
+    {
+      "text": "the issue that every technology can be",
+      "start": 1246.159,
+      "duration": 4.481
+    },
+    {
+      "text": "made and can be easily actually suited",
+      "start": 1248.159,
+      "duration": 4.801
+    },
+    {
+      "text": "to different situations because we're",
+      "start": 1250.64,
+      "duration": 4.24
+    },
+    {
+      "text": "not talking about making a different car",
+      "start": 1252.96,
+      "duration": 4.079
+    },
+    {
+      "text": "because in in a car you have to work",
+      "start": 1254.88,
+      "duration": 4.32
+    },
+    {
+      "text": "with physics basically. you have to make",
+      "start": 1257.039,
+      "duration": 4.561
+    },
+    {
+      "text": "sure that the pieces kind of um hang in",
+      "start": 1259.2,
+      "duration": 4.32
+    },
+    {
+      "text": "there together. But when we talk about",
+      "start": 1261.6,
+      "duration": 4.079
+    },
+    {
+      "text": "technology, I mean this is mathematical",
+      "start": 1263.52,
+      "duration": 4.72
+    },
+    {
+      "text": "functions and this is like filters that",
+      "start": 1265.679,
+      "duration": 4.88
+    },
+    {
+      "text": "can I'm not saying cheaply but",
+      "start": 1268.24,
+      "duration": 4.799
+    },
+    {
+      "text": "definitely in a cheaper way than in cars",
+      "start": 1270.559,
+      "duration": 5.441
+    },
+    {
+      "text": "be installed upon technology and upon",
+      "start": 1273.039,
+      "duration": 7.041
+    },
+    {
+      "text": "specific models and can be uh made into",
+      "start": 1276.0,
+      "duration": 6.32
+    },
+    {
+      "text": "a system that takes into account",
+      "start": 1280.08,
+      "duration": 5.839
+    },
+    {
+      "text": "different things. So um my my question I",
+      "start": 1282.32,
+      "duration": 7.04
+    },
+    {
+      "text": "guess will be leading into into asking",
+      "start": 1285.919,
+      "duration": 6.081
+    },
+    {
+      "text": "does it make sense um considering the",
+      "start": 1289.36,
+      "duration": 5.36
+    },
+    {
+      "text": "kind of flexible nature of data",
+      "start": 1292.0,
+      "duration": 5.44
+    },
+    {
+      "text": "protection does it make sense to even",
+      "start": 1294.72,
+      "duration": 4.8
+    },
+    {
+      "text": "have a data protection regulation that's",
+      "start": 1297.44,
+      "duration": 4.4
+    },
+    {
+      "text": "so general and so broad or should we",
+      "start": 1299.52,
+      "duration": 6.159
+    },
+    {
+      "text": "have like little kind of principles and",
+      "start": 1301.84,
+      "duration": 8.28
+    },
+    {
+      "text": "then let the court apply them?",
+      "start": 1305.679,
+      "duration": 4.441
+    },
+    {
+      "text": "I think that's a question too big for",
+      "start": 1311.2,
+      "duration": 6.56
+    },
+    {
+      "text": "me, too big for my bolder head.",
+      "start": 1313.6,
+      "duration": 7.28
+    },
+    {
+      "text": "Some people I respect for their opinions",
+      "start": 1317.76,
+      "duration": 6.72
+    },
+    {
+      "text": "say that in this in this general terms",
+      "start": 1320.88,
+      "duration": 6.4
+    },
+    {
+      "text": "and also in the individual terms of",
+      "start": 1324.48,
+      "duration": 6.8
+    },
+    {
+      "text": "Scania, we need different solutions for",
+      "start": 1327.28,
+      "duration": 6.879
+    },
+    {
+      "text": "different contexts. again context is",
+      "start": 1331.28,
+      "duration": 6.32
+    },
+    {
+      "text": "king and and I don't know I don't know",
+      "start": 1334.159,
+      "duration": 5.681
+    },
+    {
+      "text": "about that because you know if you you",
+      "start": 1337.6,
+      "duration": 5.04
+    },
+    {
+      "text": "wait for the third resolutions to come",
+      "start": 1339.84,
+      "duration": 5.12
+    },
+    {
+      "text": "it takes five six years at least in the",
+      "start": 1342.64,
+      "duration": 5.76
+    },
+    {
+      "text": "GDPR context which is I guess very very",
+      "start": 1344.96,
+      "duration": 11.16
+    },
+    {
+      "text": "long time and we need uh well we need",
+      "start": 1348.4,
+      "duration": 7.72
+    },
+    {
+      "text": "I guess that what we think what what we",
+      "start": 1356.159,
+      "duration": 6.0
+    },
+    {
+      "text": "need is to be fair applying the general",
+      "start": 1358.559,
+      "duration": 4.48
+    },
+    {
+      "text": "principle",
+      "start": 1362.159,
+      "duration": 2.801
+    },
+    {
+      "text": "that that we need. And that's a",
+      "start": 1363.039,
+      "duration": 4.321
+    },
+    {
+      "text": "responsibility for for everybody, not",
+      "start": 1364.96,
+      "duration": 5.12
+    },
+    {
+      "text": "only for the judges, not only for not",
+      "start": 1367.36,
+      "duration": 4.96
+    },
+    {
+      "text": "not only for the lawyers, but also for",
+      "start": 1370.08,
+      "duration": 6.0
+    },
+    {
+      "text": "the engineers and the in the companies",
+      "start": 1372.32,
+      "duration": 6.96
+    },
+    {
+      "text": "that uh that are",
+      "start": 1376.08,
+      "duration": 7.12
+    },
+    {
+      "text": "making things every day. And",
+      "start": 1379.28,
+      "duration": 6.639
+    },
+    {
+      "text": "normally the this this terms about uh",
+      "start": 1383.2,
+      "duration": 4.719
+    },
+    {
+      "text": "what is good or what is bad for business",
+      "start": 1385.919,
+      "duration": 4.961
+    },
+    {
+      "text": "and for the European companies to",
+      "start": 1387.919,
+      "duration": 7.921
+    },
+    {
+      "text": "compete is I guess very very biased and",
+      "start": 1390.88,
+      "duration": 8.96
+    },
+    {
+      "text": "to to get to get to the digital omnibus.",
+      "start": 1395.84,
+      "duration": 6.079
+    },
+    {
+      "text": "I guess that the solution they have",
+      "start": 1399.84,
+      "duration": 5.76
+    },
+    {
+      "text": "proposed is very very sneaky because I",
+      "start": 1401.919,
+      "duration": 8.401
+    },
+    {
+      "text": "guess they have used the anchor bias. I",
+      "start": 1405.6,
+      "duration": 7.439
+    },
+    {
+      "text": "know you say Anchor Ano anor virus",
+      "start": 1410.32,
+      "duration": 5.68
+    },
+    {
+      "text": "because they proposed",
+      "start": 1413.039,
+      "duration": 6.0
+    },
+    {
+      "text": "a really nasty proposal",
+      "start": 1416.0,
+      "duration": 5.76
+    },
+    {
+      "text": "a lot of months ago and now they are",
+      "start": 1419.039,
+      "duration": 5.601
+    },
+    {
+      "text": "okay putting things",
+      "start": 1421.76,
+      "duration": 5.6
+    },
+    {
+      "text": "okay I guess we need some changes in the",
+      "start": 1424.64,
+      "duration": 6.24
+    },
+    {
+      "text": "the GDPR and and some could be useful",
+      "start": 1427.36,
+      "duration": 6.88
+    },
+    {
+      "text": "but the the point from it from where all",
+      "start": 1430.88,
+      "duration": 8.0
+    },
+    {
+      "text": "it started was so bad that uh that u I",
+      "start": 1434.24,
+      "duration": 8.72
+    },
+    {
+      "text": "am against the the whole the whole thing",
+      "start": 1438.88,
+      "duration": 6.96
+    },
+    {
+      "text": "and step by step we are reaching some",
+      "start": 1442.96,
+      "duration": 6.719
+    },
+    {
+      "text": "reasonable reasonable terms but my",
+      "start": 1445.84,
+      "duration": 6.8
+    },
+    {
+      "text": "biggest fear is that in the name of the",
+      "start": 1449.679,
+      "duration": 5.041
+    },
+    {
+      "text": "competitiveness in the European",
+      "start": 1452.64,
+      "duration": 4.48
+    },
+    {
+      "text": "sovereign entity and these big words we",
+      "start": 1454.72,
+      "duration": 6.16
+    },
+    {
+      "text": "are going to reach a very lesser",
+      "start": 1457.12,
+      "duration": 6.0
+    },
+    {
+      "text": "protective uh principles in the in the",
+      "start": 1460.88,
+      "duration": 5.279
+    },
+    {
+      "text": "GDPR I guess not I expect not but I",
+      "start": 1463.12,
+      "duration": 5.84
+    },
+    {
+      "text": "think that's that's the the the way we",
+      "start": 1466.159,
+      "duration": 5.201
+    },
+    {
+      "text": "are going",
+      "start": 1468.96,
+      "duration": 2.4
+    },
+    {
+      "text": "Um yeah, like I agree with you like on",
+      "start": 1471.44,
+      "duration": 5.68
+    },
+    {
+      "text": "on on the I guess not because I mean",
+      "start": 1474.72,
+      "duration": 4.64
+    },
+    {
+      "text": "we're still seeing the the CJU making",
+      "start": 1477.12,
+      "duration": 4.96
+    },
+    {
+      "text": "very very important decisions and kind",
+      "start": 1479.36,
+      "duration": 6.319
+    },
+    {
+      "text": "of reinstating the importance of the",
+      "start": 1482.08,
+      "duration": 5.28
+    },
+    {
+      "text": "fundamental right to privacy, the",
+      "start": 1485.679,
+      "duration": 3.6
+    },
+    {
+      "text": "fundamental right to data protection and",
+      "start": 1487.36,
+      "duration": 3.919
+    },
+    {
+      "text": "all the the fundamental rights linked to",
+      "start": 1489.279,
+      "duration": 4.081
+    },
+    {
+      "text": "it. And I'm just thinking of the Russ",
+      "start": 1491.279,
+      "duration": 4.801
+    },
+    {
+      "text": "media case in in general. It's it's that",
+      "start": 1493.36,
+      "duration": 6.559
+    },
+    {
+      "text": "kind of assertion that if your data, if",
+      "start": 1496.08,
+      "duration": 6.479
+    },
+    {
+      "text": "your privacy, if your if your data, if",
+      "start": 1499.919,
+      "duration": 5.841
+    },
+    {
+      "text": "your right to life really because I mean",
+      "start": 1502.559,
+      "duration": 6.321
+    },
+    {
+      "text": "sexual informations, I mean it's um it's",
+      "start": 1505.76,
+      "duration": 6.88
+    },
+    {
+      "text": "quite delicate as a topic um is being in",
+      "start": 1508.88,
+      "duration": 6.08
+    },
+    {
+      "text": "danger. It doesn't matter where the",
+      "start": 1512.64,
+      "duration": 4.8
+    },
+    {
+      "text": "commission is",
+      "start": 1514.96,
+      "duration": 6.24
+    },
+    {
+      "text": "um drifting towards let's say so it ma",
+      "start": 1517.44,
+      "duration": 5.359
+    },
+    {
+      "text": "what matters is your rights as a",
+      "start": 1521.2,
+      "duration": 4.479
+    },
+    {
+      "text": "European citizen. So I think you you",
+      "start": 1522.799,
+      "duration": 4.641
+    },
+    {
+      "text": "have a point there in saying like I hope",
+      "start": 1525.679,
+      "duration": 4.161
+    },
+    {
+      "text": "not and I think not because there's",
+      "start": 1527.44,
+      "duration": 4.479
+    },
+    {
+      "text": "still there's still a system in place.",
+      "start": 1529.84,
+      "duration": 3.36
+    },
+    {
+      "text": "There's still a balance. There's still",
+      "start": 1531.919,
+      "duration": 3.601
+    },
+    {
+      "text": "national courts. There's still national",
+      "start": 1533.2,
+      "duration": 5.28
+    },
+    {
+      "text": "legislations. There are still a a whole",
+      "start": 1535.52,
+      "duration": 7.519
+    },
+    {
+      "text": "um ecosystem of rights that um will not",
+      "start": 1538.48,
+      "duration": 8.319
+    },
+    {
+      "text": "fall before potentially a different kind",
+      "start": 1543.039,
+      "duration": 6.64
+    },
+    {
+      "text": "of wording in a in a legislation. But",
+      "start": 1546.799,
+      "duration": 4.801
+    },
+    {
+      "text": "still it's something that one needs to",
+      "start": 1549.679,
+      "duration": 5.36
+    },
+    {
+      "text": "be considerate about. Um would you say",
+      "start": 1551.6,
+      "duration": 6.16
+    },
+    {
+      "text": "that digital omnibus however definitely",
+      "start": 1555.039,
+      "duration": 4.801
+    },
+    {
+      "text": "helpsmemes",
+      "start": 1557.76,
+      "duration": 4.399
+    },
+    {
+      "text": "or would you say that in that case yeah",
+      "start": 1559.84,
+      "duration": 5.12
+    },
+    {
+      "text": "we're risking the rights to be kind of",
+      "start": 1562.159,
+      "duration": 5.441
+    },
+    {
+      "text": "undermined plusmemes are not that well",
+      "start": 1564.96,
+      "duration": 4.719
+    },
+    {
+      "text": "helped",
+      "start": 1567.6,
+      "duration": 3.92
+    },
+    {
+      "text": ">> I guess that the problem with the",
+      "start": 1569.679,
+      "duration": 4.801
+    },
+    {
+      "text": "digital omnibus and applying applying",
+      "start": 1571.52,
+      "duration": 6.24
+    },
+    {
+      "text": "the scan doctrine on digital omnibus if",
+      "start": 1574.48,
+      "duration": 7.52
+    },
+    {
+      "text": "we see the project from the content",
+      "start": 1577.76,
+      "duration": 8.799
+    },
+    {
+      "text": "purpose an effect mainly the purpose the",
+      "start": 1582.0,
+      "duration": 7.6
+    },
+    {
+      "text": "main thing is that it's very yield",
+      "start": 1586.559,
+      "duration": 6.081
+    },
+    {
+      "text": "projected because they have said a lot",
+      "start": 1589.6,
+      "duration": 6.16
+    },
+    {
+      "text": "of times that it's to help the small",
+      "start": 1592.64,
+      "duration": 6.32
+    },
+    {
+      "text": "companies to help the European companies",
+      "start": 1595.76,
+      "duration": 5.919
+    },
+    {
+      "text": "uh to well that that kind of things and",
+      "start": 1598.96,
+      "duration": 6.56
+    },
+    {
+      "text": "when you know uh the laws the the the",
+      "start": 1601.679,
+      "duration": 7.521
+    },
+    {
+      "text": "articles that are being uh touched and",
+      "start": 1605.52,
+      "duration": 7.759
+    },
+    {
+      "text": "reformed and you see the the the project",
+      "start": 1609.2,
+      "duration": 7.76
+    },
+    {
+      "text": "the the the wording they are presenting",
+      "start": 1613.279,
+      "duration": 7.921
+    },
+    {
+      "text": "that purpose is not fulfilled at all uh",
+      "start": 1616.96,
+      "duration": 6.8
+    },
+    {
+      "text": "with that project and that's I mean",
+      "start": 1621.2,
+      "duration": 5.359
+    },
+    {
+      "text": "that's in your face for anybody who",
+      "start": 1623.76,
+      "duration": 6.56
+    },
+    {
+      "text": "knows anything about about the the GDPR",
+      "start": 1626.559,
+      "duration": 6.161
+    },
+    {
+      "text": "and a lot of people can be happy and and",
+      "start": 1630.32,
+      "duration": 6.479
+    },
+    {
+      "text": "that's okay but the question is when you",
+      "start": 1632.72,
+      "duration": 6.72
+    },
+    {
+      "text": "are making a new law and there's a lot",
+      "start": 1636.799,
+      "duration": 6.24
+    },
+    {
+      "text": "of guidelines with your partner or your",
+      "start": 1639.44,
+      "duration": 6.8
+    },
+    {
+      "text": "I mean your not your partner but uh",
+      "start": 1643.039,
+      "duration": 7.441
+    },
+    {
+      "text": "Joanni Bhutarelli the the father morph",
+      "start": 1646.24,
+      "duration": 8.64
+    },
+    {
+      "text": "of data protection in in in Europe when",
+      "start": 1650.48,
+      "duration": 8.96
+    },
+    {
+      "text": "this necessity toolkit to assess the new",
+      "start": 1654.88,
+      "duration": 7.12
+    },
+    {
+      "text": "laws and the new normative in in in",
+      "start": 1659.44,
+      "duration": 5.76
+    },
+    {
+      "text": "Europe that's not the way this this must",
+      "start": 1662.0,
+      "duration": 6.72
+    },
+    {
+      "text": "work this this is uh broken from the",
+      "start": 1665.2,
+      "duration": 5.44
+    },
+    {
+      "text": "beginning and that's what I think about",
+      "start": 1668.72,
+      "duration": 4.319
+    },
+    {
+      "text": "the digital. So yeah, and it's a bit",
+      "start": 1670.64,
+      "duration": 5.36
+    },
+    {
+      "text": "tiring to to follow all the amendments",
+      "start": 1673.039,
+      "duration": 4.961
+    },
+    {
+      "text": "and the tree logs and and and",
+      "start": 1676.0,
+      "duration": 3.84
+    },
+    {
+      "text": "everything. I'm just waiting for the end",
+      "start": 1678.0,
+      "duration": 4.32
+    },
+    {
+      "text": "to come and to see what the new rules",
+      "start": 1679.84,
+      "duration": 4.88
+    },
+    {
+      "text": "are. And okay, but please don't don't",
+      "start": 1682.32,
+      "duration": 4.959
+    },
+    {
+      "text": "come to me saying that this for the",
+      "start": 1684.72,
+      "duration": 4.4
+    },
+    {
+      "text": "small startups and and everything",
+      "start": 1687.279,
+      "duration": 5.441
+    },
+    {
+      "text": "because I I cannot buy that. It's it's",
+      "start": 1689.12,
+      "duration": 5.84
+    },
+    {
+      "text": "terrible.",
+      "start": 1692.72,
+      "duration": 4.48
+    },
+    {
+      "text": "and then coming back with um after",
+      "start": 1694.96,
+      "duration": 2.8
+    },
+    {
+      "text": "listening",
+      "start": 1697.2,
+      "duration": 1.68
+    },
+    {
+      "text": ">> Jako Jako",
+      "start": 1697.76,
+      "duration": 4.24
+    },
+    {
+      "text": ">> yeah they're still me I was listening to",
+      "start": 1698.88,
+      "duration": 6.08
+    },
+    {
+      "text": "this this beautiful discussions that you",
+      "start": 1702.0,
+      "duration": 6.64
+    },
+    {
+      "text": "had and I and I'm back with one general",
+      "start": 1704.96,
+      "duration": 5.599
+    },
+    {
+      "text": "question because I'm the man of the",
+      "start": 1708.64,
+      "duration": 4.96
+    },
+    {
+      "text": "general questions before ending the this",
+      "start": 1710.559,
+      "duration": 6.0
+    },
+    {
+      "text": "episode uh I wanted to know from your",
+      "start": 1713.6,
+      "duration": 5.439
+    },
+    {
+      "text": "point of view what are you most looking",
+      "start": 1716.559,
+      "duration": 4.561
+    },
+    {
+      "text": "forward when it comes to the future of",
+      "start": 1719.039,
+      "duration": 5.601
+    },
+    {
+      "text": "data production in the next",
+      "start": 1721.12,
+      "duration": 3.52
+    },
+    {
+      "text": "I don't know. I I really don't have the",
+      "start": 1725.76,
+      "duration": 6.08
+    },
+    {
+      "text": "secret of happiness is in low expect",
+      "start": 1729.36,
+      "duration": 5.84
+    },
+    {
+      "text": "expectations and I have all the lowest",
+      "start": 1731.84,
+      "duration": 6.719
+    },
+    {
+      "text": "expectations as all the things are the",
+      "start": 1735.2,
+      "duration": 6.56
+    },
+    {
+      "text": "changes are very disrupted and very",
+      "start": 1738.559,
+      "duration": 6.801
+    },
+    {
+      "text": "quickly very quick and I really don't",
+      "start": 1741.76,
+      "duration": 5.919
+    },
+    {
+      "text": "know what is going to happen with us",
+      "start": 1745.36,
+      "duration": 6.24
+    },
+    {
+      "text": "lawyers or with you expert in politics.",
+      "start": 1747.679,
+      "duration": 6.48
+    },
+    {
+      "text": "I I guess you you are very better better",
+      "start": 1751.6,
+      "duration": 5.92
+    },
+    {
+      "text": "positioned that Rosalia and me as",
+      "start": 1754.159,
+      "duration": 5.921
+    },
+    {
+      "text": "lawyers. Yes.",
+      "start": 1757.52,
+      "duration": 6.72
+    },
+    {
+      "text": "Because when you see what Claude is",
+      "start": 1760.08,
+      "duration": 7.599
+    },
+    {
+      "text": "capable of, you ask yourself, I don't",
+      "start": 1764.24,
+      "duration": 6.4
+    },
+    {
+      "text": "know how long I'm going to be able to",
+      "start": 1767.679,
+      "duration": 7.201
+    },
+    {
+      "text": "feed my kids. But but but yes, I I have",
+      "start": 1770.64,
+      "duration": 6.399
+    },
+    {
+      "text": "very very low expectation. I am in a",
+      "start": 1774.88,
+      "duration": 5.039
+    },
+    {
+      "text": "very pessimist person with this. But",
+      "start": 1777.039,
+      "duration": 5.12
+    },
+    {
+      "text": "that's a reason to to fight and to do",
+      "start": 1779.919,
+      "duration": 5.921
+    },
+    {
+      "text": "things as as uh the better the better we",
+      "start": 1782.159,
+      "duration": 6.481
+    },
+    {
+      "text": "can reach them.",
+      "start": 1785.84,
+      "duration": 5.36
+    },
+    {
+      "text": ">> I think that's a very lawyer answer. I'm",
+      "start": 1788.64,
+      "duration": 5.12
+    },
+    {
+      "text": "very pessimistic about this. Not",
+      "start": 1791.2,
+      "duration": 3.28
+    },
+    {
+      "text": "perfect.",
+      "start": 1793.76,
+      "duration": 3.039
+    },
+    {
+      "text": ">> Are you are you optimist? I am not. I am",
+      "start": 1794.48,
+      "duration": 5.52
+    },
+    {
+      "text": "not. All the all the changes uh point at",
+      "start": 1796.799,
+      "duration": 5.441
+    },
+    {
+      "text": "the same direction which I don't like.",
+      "start": 1800.0,
+      "duration": 4.64
+    },
+    {
+      "text": "But but well we we will live with that",
+      "start": 1802.24,
+      "duration": 5.439
+    },
+    {
+      "text": "because there will be a lot of uh gray",
+      "start": 1804.64,
+      "duration": 5.759
+    },
+    {
+      "text": "areas to say it depends or context is",
+      "start": 1807.679,
+      "duration": 6.24
+    },
+    {
+      "text": "king and to have peace for it.",
+      "start": 1810.399,
+      "duration": 7.28
+    },
+    {
+      "text": "That's um amazing and that should be a",
+      "start": 1813.919,
+      "duration": 6.0
+    },
+    {
+      "text": "greater incentive for our listeners in",
+      "start": 1817.679,
+      "duration": 4.561
+    },
+    {
+      "text": "case you don't already to absolutely",
+      "start": 1819.919,
+      "duration": 5.12
+    },
+    {
+      "text": "follow and subscribe and read the zero",
+      "start": 1822.24,
+      "duration": 6.08
+    },
+    {
+      "text": "party data which is the great substack",
+      "start": 1825.039,
+      "duration": 7.12
+    },
+    {
+      "text": "newsletter that Horge writes and that I",
+      "start": 1828.32,
+      "duration": 5.92
+    },
+    {
+      "text": "um take a lot of information from uh",
+      "start": 1832.159,
+      "duration": 4.161
+    },
+    {
+      "text": "especially great memes. I have to say I",
+      "start": 1834.24,
+      "duration": 3.84
+    },
+    {
+      "text": "don't know how you do them but like",
+      "start": 1836.32,
+      "duration": 3.839
+    },
+    {
+      "text": "honestly I still have some of them in my",
+      "start": 1838.08,
+      "duration": 4.079
+    },
+    {
+      "text": "mind like forever literally like stuck",
+      "start": 1840.159,
+      "duration": 6.24
+    },
+    {
+      "text": "there. Um but um I also want to say that",
+      "start": 1842.159,
+      "duration": 7.201
+    },
+    {
+      "text": "the substack is is available if I'm not",
+      "start": 1846.399,
+      "duration": 5.041
+    },
+    {
+      "text": "mistaken both in Spanish and in English.",
+      "start": 1849.36,
+      "duration": 4.559
+    },
+    {
+      "text": "So that's also very helpful um for for",
+      "start": 1851.44,
+      "duration": 4.88
+    },
+    {
+      "text": "anyone who knows both languages. You can",
+      "start": 1853.919,
+      "duration": 4.0
+    },
+    {
+      "text": "also make comparisons.",
+      "start": 1856.32,
+      "duration": 3.2
+    },
+    {
+      "text": ">> Um",
+      "start": 1857.919,
+      "duration": 3.281
+    },
+    {
+      "text": "I'm joking. I'm joking. I'm joking. I'm",
+      "start": 1859.52,
+      "duration": 4.08
+    },
+    {
+      "text": "joking. Um, and also, um, before we let",
+      "start": 1861.2,
+      "duration": 4.8
+    },
+    {
+      "text": "you go, Horge, aside from the great",
+      "start": 1863.6,
+      "duration": 4.48
+    },
+    {
+      "text": "substack that I'm talking about, um, is",
+      "start": 1866.0,
+      "duration": 4.159
+    },
+    {
+      "text": "there anything else you would like to",
+      "start": 1868.08,
+      "duration": 5.44
+    },
+    {
+      "text": "suggest our listeners to maybe read, do,",
+      "start": 1870.159,
+      "duration": 7.76
+    },
+    {
+      "text": "uh, listen, watch, who knows?",
+      "start": 1873.52,
+      "duration": 5.759
+    },
+    {
+      "text": ">> Wow.",
+      "start": 1877.919,
+      "duration": 4.721
+    },
+    {
+      "text": "Well, I can recommend the the the two",
+      "start": 1879.279,
+      "duration": 6.961
+    },
+    {
+      "text": "books I have enjoyed better in the last",
+      "start": 1882.64,
+      "duration": 6.159
+    },
+    {
+      "text": "months was the empire of AI, which I",
+      "start": 1886.24,
+      "duration": 5.919
+    },
+    {
+      "text": "guess everybody has already read or",
+      "start": 1888.799,
+      "duration": 5.681
+    },
+    {
+      "text": "reshuffle. Rehuffle. I can't tell you",
+      "start": 1892.159,
+      "duration": 5.041
+    },
+    {
+      "text": "the the author is about the changes of",
+      "start": 1894.48,
+      "duration": 5.52
+    },
+    {
+      "text": "AI, not about the words of particular",
+      "start": 1897.2,
+      "duration": 5.599
+    },
+    {
+      "text": "people, but in terms of systems. It's",
+      "start": 1900.0,
+      "duration": 5.039
+    },
+    {
+      "text": "really really really great and really",
+      "start": 1902.799,
+      "duration": 4.961
+    },
+    {
+      "text": "enlightening. If you want, I can I can",
+      "start": 1905.039,
+      "duration": 4.401
+    },
+    {
+      "text": "send you an email with the with the",
+      "start": 1907.76,
+      "duration": 3.84
+    },
+    {
+      "text": "complete details if you want to to post",
+      "start": 1909.44,
+      "duration": 5.04
+    },
+    {
+      "text": "it. And I really like that uh I said",
+      "start": 1911.6,
+      "duration": 5.52
+    },
+    {
+      "text": "that I am very pessimistic and everybody",
+      "start": 1914.48,
+      "duration": 4.559
+    },
+    {
+      "text": "everything is going to be down and you",
+      "start": 1917.12,
+      "duration": 6.039
+    },
+    {
+      "text": "said that is the substitistic",
+      "start": 1919.039,
+      "duration": 4.12
+    },
+    {
+      "text": "trying to suicide and writing things for",
+      "start": 1924.0,
+      "duration": 4.0
+    },
+    {
+      "text": "everybody.",
+      "start": 1926.88,
+      "duration": 3.44
+    },
+    {
+      "text": ">> No, absolutely not. Actually the the",
+      "start": 1928.0,
+      "duration": 4.799
+    },
+    {
+      "text": "reason why I linked back to the substack",
+      "start": 1930.32,
+      "duration": 4.4
+    },
+    {
+      "text": "is because you said something important",
+      "start": 1932.799,
+      "duration": 4.72
+    },
+    {
+      "text": "which is understanding why we can say it",
+      "start": 1934.72,
+      "duration": 6.0
+    },
+    {
+      "text": "depends and context is king because I",
+      "start": 1937.519,
+      "duration": 6.0
+    },
+    {
+      "text": "feel like um lawyers get a lot of hatred",
+      "start": 1940.72,
+      "duration": 5.04
+    },
+    {
+      "text": "when the answer is well it depends and",
+      "start": 1943.519,
+      "duration": 4.0
+    },
+    {
+      "text": "you already see the clients there",
+      "start": 1945.76,
+      "duration": 3.279
+    },
+    {
+      "text": "thinking",
+      "start": 1947.519,
+      "duration": 4.721
+    },
+    {
+      "text": "don't please do not give me one yes and",
+      "start": 1949.039,
+      "duration": 6.24
+    },
+    {
+      "text": "one no. Um but I think that your",
+      "start": 1952.24,
+      "duration": 5.919
+    },
+    {
+      "text": "substack really helps understanding why",
+      "start": 1955.279,
+      "duration": 5.201
+    },
+    {
+      "text": "um lawyers tend to reply it depends and",
+      "start": 1958.159,
+      "duration": 5.76
+    },
+    {
+      "text": "why that depending is important. Um",
+      "start": 1960.48,
+      "duration": 5.199
+    },
+    {
+      "text": "because I I feel like if you come from",
+      "start": 1963.919,
+      "duration": 4.24
+    },
+    {
+      "text": "another industry and me too like I'm",
+      "start": 1965.679,
+      "duration": 4.88
+    },
+    {
+      "text": "still into the business of understanding",
+      "start": 1968.159,
+      "duration": 5.841
+    },
+    {
+      "text": "how law is made and how law is um agreed",
+      "start": 1970.559,
+      "duration": 7.201
+    },
+    {
+      "text": "and and defended. Um I would say it's",
+      "start": 1974.0,
+      "duration": 5.519
+    },
+    {
+      "text": "important to see the experience of",
+      "start": 1977.76,
+      "duration": 4.399
+    },
+    {
+      "text": "someone like you to understand like",
+      "start": 1979.519,
+      "duration": 5.28
+    },
+    {
+      "text": "really why we say it depends like the",
+      "start": 1982.159,
+      "duration": 4.561
+    },
+    {
+      "text": "the back thought and the back process",
+      "start": 1984.799,
+      "duration": 3.521
+    },
+    {
+      "text": "and and the substack is very good for",
+      "start": 1986.72,
+      "duration": 3.439
+    },
+    {
+      "text": "understanding the process of thoughts",
+      "start": 1988.32,
+      "duration": 4.4
+    },
+    {
+      "text": "that that lead you to it depends. One",
+      "start": 1990.159,
+      "duration": 4.561
+    },
+    {
+      "text": "little one little advice for the lawyers",
+      "start": 1992.72,
+      "duration": 4.559
+    },
+    {
+      "text": "who who hear that in case they don't",
+      "start": 1994.72,
+      "duration": 6.4
+    },
+    {
+      "text": "already know is that the you you should",
+      "start": 1997.279,
+      "duration": 6.721
+    },
+    {
+      "text": "say as as few times as possible. It",
+      "start": 2001.12,
+      "duration": 6.159
+    },
+    {
+      "text": "depends because those who say at at few",
+      "start": 2004.0,
+      "duration": 7.88
+    },
+    {
+      "text": "at few I mean",
+      "start": 2007.279,
+      "duration": 4.601
+    },
+    {
+      "text": "oh I I cannot I cannot say that if you",
+      "start": 2012.159,
+      "duration": 3.921
+    },
+    {
+      "text": "say it depends a lot you are not going",
+      "start": 2014.399,
+      "duration": 4.561
+    },
+    {
+      "text": "to be partner and if you say it depends",
+      "start": 2016.08,
+      "duration": 5.12
+    },
+    {
+      "text": "a lot you're going to be playing lawyer",
+      "start": 2018.96,
+      "duration": 4.959
+    },
+    {
+      "text": "all the time. I don't know what Peta",
+      "start": 2021.2,
+      "duration": 5.599
+    },
+    {
+      "text": "will think about this, but but it's",
+      "start": 2023.919,
+      "duration": 5.521
+    },
+    {
+      "text": "really difficult sometimes and the more",
+      "start": 2026.799,
+      "duration": 5.201
+    },
+    {
+      "text": "you know, the more difficult you you you",
+      "start": 2029.44,
+      "duration": 5.04
+    },
+    {
+      "text": "see everything. So, it's like",
+      "start": 2032.0,
+      "duration": 4.32
+    },
+    {
+      "text": ">> Peter is a very opinionated lawyer and",
+      "start": 2034.48,
+      "duration": 4.0
+    },
+    {
+      "text": "that I think he will agree when he will",
+      "start": 2036.32,
+      "duration": 4.0
+    },
+    {
+      "text": "listen to this podcast and then tell me",
+      "start": 2038.48,
+      "duration": 4.0
+    },
+    {
+      "text": "off for saying that. U",
+      "start": 2040.32,
+      "duration": 3.92
+    },
+    {
+      "text": ">> don't say that. Don't say that, Rosalia.",
+      "start": 2042.48,
+      "duration": 3.919
+    },
+    {
+      "text": "Don't say that. You have clear ideas.",
+      "start": 2044.24,
+      "duration": 3.679
+    },
+    {
+      "text": "You have solutions for everything. Don't",
+      "start": 2046.399,
+      "duration": 3.76
+    },
+    {
+      "text": "say it depends. I don't know. I have to",
+      "start": 2047.919,
+      "duration": 3.361
+    },
+    {
+      "text": "check it out. No,",
+      "start": 2050.159,
+      "duration": 4.24
+    },
+    {
+      "text": ">> the the the fact that I basically go",
+      "start": 2051.28,
+      "duration": 5.359
+    },
+    {
+      "text": "along my life asking questions will tell",
+      "start": 2054.399,
+      "duration": 4.321
+    },
+    {
+      "text": "you that I do not have clear ideas by",
+      "start": 2056.639,
+      "duration": 4.081
+    },
+    {
+      "text": "definition.",
+      "start": 2058.72,
+      "duration": 4.959
+    },
+    {
+      "text": ">> Well, thank you so much for joining us",
+      "start": 2060.72,
+      "duration": 5.359
+    },
+    {
+      "text": "on this podcast today.",
+      "start": 2063.679,
+      "duration": 4.24
+    },
+    {
+      "text": "It was a great great pleasure to meet",
+      "start": 2066.079,
+      "duration": 5.04
+    },
+    {
+      "text": "you in person uh well at distance. Um",
+      "start": 2067.919,
+      "duration": 5.361
+    },
+    {
+      "text": "and we really hope that you will keep on",
+      "start": 2071.119,
+      "duration": 4.48
+    },
+    {
+      "text": "listening to to legal tech as we will",
+      "start": 2073.28,
+      "duration": 4.48
+    },
+    {
+      "text": "keep on reading zero party data.",
+      "start": 2075.599,
+      "duration": 4.8
+    },
+    {
+      "text": ">> Of course. Of course. Thank you so much",
+      "start": 2077.76,
+      "duration": 4.8
+    },
+    {
+      "text": "also Jako who joined me and helped me",
+      "start": 2080.399,
+      "duration": 5.2
+    },
+    {
+      "text": "and will be uh finding a solution for",
+      "start": 2082.56,
+      "duration": 5.279
+    },
+    {
+      "text": "for getting this podcast together. Thank",
+      "start": 2085.599,
+      "duration": 4.401
+    },
+    {
+      "text": "you for producing this.",
+      "start": 2087.839,
+      "duration": 5.201
+    },
+    {
+      "text": ">> Thank you Rosalia for leading this.",
+      "start": 2090.0,
+      "duration": 4.48
+    },
+    {
+      "text": ">> Thank you. And this was all from the",
+      "start": 2093.04,
+      "duration": 5.319
+    },
+    {
+      "text": "legal for tech the podcast.",
+      "start": 2094.48,
+      "duration": 3.879
+    },
+    {
+      "text": "This episode was brought to you in",
+      "start": 2124.0,
+      "duration": 4.8
+    },
+    {
+      "text": "partnership with DG Beetle.",
+      "start": 2125.92,
+      "duration": 4.96
+    },
+    {
+      "text": "Digi Beetle tool helps privacy",
+      "start": 2128.8,
+      "duration": 4.88
+    },
+    {
+      "text": "professionals to stay upto-date with the",
+      "start": 2130.88,
+      "duration": 5.12
+    },
+    {
+      "text": "most important European documents in the",
+      "start": 2133.68,
+      "duration": 6.8
+    },
+    {
+      "text": "AI, data, and digital space every day.",
+      "start": 2136.0,
+      "duration": 7.28
+    },
+    {
+      "text": "Curious to know more? Check out the link",
+      "start": 2140.48,
+      "duration": 6.44
+    },
+    {
+      "text": "in our show notes.",
+      "start": 2143.28,
+      "duration": 3.64
+    }
+  ]
+}

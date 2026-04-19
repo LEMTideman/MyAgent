@@ -4,12 +4,16 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "docling>=2.72.0",
+    "hf-xet>=1.2.0",
+    "httpx>=0.28.1",
     "jupyterlab>=4.5.1",
     "openai>=2.14.0",
+    "orjson>=3.11.8",
     "pydantic-ai-slim[mcp]>=1.56.0",
     "pydantic-ai[mcp]>=1.56.0",
     "python-dotenv>=1.2.1",
     "python-frontmatter>=1.1.0",
+    "qdrant-client>=1.17.1",
     "requests>=2.32.5",
     "toyaikit>=0.0.8",
     "youtube-transcript-api>=1.2.3",

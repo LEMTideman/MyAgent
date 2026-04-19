@@ -1,0 +1,1573 @@
+Hello everyone. Welcome to our AI
+governance live talk. So today I'm here
+with Professor Daniel Solof. Welcome
+Dan. Thanks so much for having me. It's
+a pleasure. It's the second time. So
+many of you maybe some of you in the
+audience you have been to the first one
+in 2023. So almost uh two years ago. So
+I'm so happy to have Dan again. So let
+me introduce Professor Dan Solo. If you
+are in the privacy field, I'm 100% sure
+you know who professor Solovv is, but I
+will introduce him. Uh, so by the way,
+today we are also celebrating 25 years
+of his his is longer than that. We were
+chatting about that, but he has been in
+the privacy field for longer than 25
+years. So we are also celebrating
+professor Solov's uh incredible
+contribution to the privacy field. So
+Daniel Salv is the Bernard professor of
+intellectual property and technology law
+at the George Washington University Law
+School. He's the co-director of the
+center of for law and technology and is
+the director of the privacy and
+technology law program. Solov is also
+the founder of teach privacy a company
+that provides privacy and data security
+training programs to businesses,
+schools, healthcare institutions and
+other organizations. He is an
+internationally known expert in privacy
+law and he has been interviewed and
+quoted by the media in several hundred
+articles and broadcasts including New
+York Times, Washington Post, Wall Street
+Journal, USA Today, Chicago Tribute and
+others. He has written numerous books
+including on privacy and technology
+which we'll be discussing today but also
+nothing to hide the false trade-off
+between privacy and security
+understanding privacy. Some people
+commented uh when I asked on LinkedIn
+that what was the your your book that
+they most enjoy and and some people
+commented uh understanding privacy uh
+the future of reputation gossip rumor
+and privacy on the internet and other
+books. He has also written a ch
+children's fiction book about privacy
+called the eye monger. So if if you
+didn't know that so you if you have kids
+you should check it out. Uh professor
+solv has written more than a 100 law
+review articles in the Harvard Law
+Review, Yale Law Journal, Stanford Law
+Review and others. Um he is the founder
+and co-organizer of several annual
+conferences including the privacy and
+security forum which is happening uh
+very soon I think next week right then
+it's next week or two weeks a few weeks
+early May early May and also the privacy
+law scholars conference and he's one of
+the most cited law scholars of all time
+and we are here today to discuss of
+course AI the intersection of privacy
+and AI and his new book on privacy and
+technology so welcome Welcome Dan. I'm
+so happy to have you again. Um let's
+start. So we are talking we are
+celebrating your uh outstanding career
+in privacy. Before we talk about your
+book, do you want to share a bit of
+really uh whatever you want to share
+about why you decided to focus on
+privacy? Why did you decide to build
+this uh long career in the field of
+privacy? What's interesting? What's
+nice? Especially maybe there are some
+people in the audience that maybe they
+are still in law school. maybe they're
+trying to decide where if they want to
+be privacy professional. So what's about
+privacy that is so interesting?
+Well, I started actually in law school
+in the mid 90s. I took a course on cyber
+law. Uh one of the very first that was
+taught and uh I really found the issues
+fascinating. I thought that the internet
+was here to stay. At the time it wasn't
+clear that the internet uh was here to
+stay. Uh people thought it was just a
+passing fad. uh but I really thought
+they it was here and there were very
+fascinating issues with it and one was
+privacy. So I started writing about
+privacy thinking it would just be
+something I would write a paper or two
+on and that's it. Uh but it turned out
+that privacy uh is really big. It it's a
+you know it's a rabbit hole into a a
+gigantic wonderland of issues that I
+found fascinating. And so I stuck with
+it and have been just writing about it
+privacy ever since. And do you mentioned
+the beginning of the internet, you
+thought it was just maybe a trend. Do
+you see similarities with the beginning
+of the internet and what we see now with
+AI? Do there are there similarities
+especially uh from a maybe tech
+perspective are those major issues that
+are only going to become bigger? Maybe
+it was the same what we saw with
+privacy. We've seen new issues with the
+do you see similarities? I think there
+are some similarities definitely um you
+know I think one is that you know AI is
+not anything really that that new I mean
+that what's new is that it's more
+powerful that the technologies have
+really been fueled by the uh the vast
+amount of data out there now and the uh
+increased computing power but a lot of
+the technologies are ones that have been
+developed for a long time um and they've
+been evolving uh and uh there's been
+talk of AI for you know 50 70 years. Uh
+and and and also I think that there are
+also some lessons to be learned here too
+in that um there you know a AI is a
+continuation of issues that have been
+arising already. Uh and so there's
+something new there but there's also
+something old. And I think that there's
+uh a tendency to think, oh, well, it's
+AI, so we're going to treat it radically
+differently than everything else, and we
+need uh all these new special laws. Uh
+and one thing I think is uh that we we
+shouldn't forget the existing privacy
+laws that we have. Uh the existing
+privacy laws deal with privacy issues
+that are not dealt with by a new AI law.
+Uh I do think AI creates the need for us
+to rethink privacy laws. Uh but this is
+something that privacy scholars have
+been arguing for decades now that the
+privacy laws and the approaches they
+take now don't work. Uh have never
+worked. AI really makes that more clear.
+But it it's always been the case. Uh and
+so uh I think the answer is let's go
+back and fix these laws uh and rework
+the laws so they actually work. Uh not
+to say oh wow AI is so different that we
+uh have to just do something entirely
+different uh which might omit and uh
+leave behind these ex this existing
+privacy law infrastructure which is
+outdated and and not working. So, it's
+it's uh it's taking the right lessons
+from AI uh and and how it's developed
+because there are a lot of things about
+the AI we're talking about today that I
+talked about 25 years ago. uh and
+there's still the same problem just that
+it's more uh more salient uh faster uh
+you know vaster uh but it's basically
+the same
+problem and and I'm also curious now
+that you're mentioning uh AI and and how
+do you see these issues as a
+continuation what was the motivations
+when I when I I read your book so I I I
+see it is such an interesting summary of
+things that we have been discussing for
+for for more than 20 years, right? When
+you have this the session, we're going
+to I'm going to bring some questions
+about that, you discuss the myth the
+myth, right? The myth which we've been
+discussing private, the myth of the
+privacy paradox, the myth of tech
+exceptionalism, the myth of regulation
+stifles innovation and so on. So this is
+has been going on for so long. And I'm
+also curious kind of a meta question as
+well. So why on privacy and technology
+now? Why why publishing it in 2025? What
+was the probably you've been writing
+since before but why do you think that
+this where the inspiration came from and
+why now if especially when when I'm
+reading it I see wow this is such a it
+it feels like a map a road map
+especially for if there there's someone
+deciding to or thinking about becoming a
+privacy professional I would say read on
+privacy and technology and if you ident
+if you if you see yourself there if you
+if you really if you get excited about
+those questions that that's probably
+your the place. So, so why on privacy
+technology being published in 2025?
+Well, thanks so much for the kind words
+about the book. I I truly appreciate
+that. And um the book uh there really
+two things that inspired the book. One
+was I read uh uh Timothy Snider's on
+tyranny. And what impressed me about it
+was how succinct he was uh and how he
+captured his thinking in a very
+accessible short book. And I thought
+that's a really neat idea. Uh maybe I
+should try something like that. I'm not
+ordinarily uh concise. Uh I I I can be
+long-winded. So I thought this would be
+an interesting thing to do. And then the
+other thing uh was that uh it was when I
+started writing it, it was approaching
+uh the 25 year mark for when I began
+teaching. And so I realized, wow, I I've
+I've been uh thinking about privacy for
+roughly a quarter century now. uh so
+it's a good time to reflect on uh this
+time and see what what how did the
+thinking evolve and and and what uh is
+the same from 25 years ago and what's
+new. Uh so that also inspired me and
+then uh that raised the the animating
+question of the book which is can
+privacy law keep up with rapidly
+changing digital technologies like AI uh
+because you know when I started this you
+know the AI craze uh was uh really in
+its uh you know it still is uh but you
+know it had started and everyone's
+talking about it and uh here we go again
+with a kind of bold new issue. And I
+realized, you know, well, you know, I've
+been through the days when uh, you know,
+before the term big data was used and I
+was struggling to find a term. I wrote a
+paper with the term computer databases
+in it uh because we didn't have other
+terms and then we had the term big data
+and I used the term aggregation of data.
+Uh, then uh along came uh data mining.
+Uh then there was um uh talk about um uh
+things like uh algorithms and inference
+and then uh we had the internet of
+things was very big and everyone was
+talking about the internet of things and
+all the connected devices
+uh and uh you know now it's AI uh so
+we've seen the kind of different terms
+cycle through different things that were
+really hot issues. I remember days when
+everyone's talking about the cloud as a
+big issue. Uh so it's it's interesting
+just watching the debate and the
+discussion and the issues move by. Uh
+and then I wanted to take a step back
+and think okay what can we learn from
+all this? uh what what can I uh it if I
+reflect back what what you know what's
+constant uh and what's really changing
+what's what's different
+and a warning to those so it is concise
+but it's very complex at the same time
+so you you I would say when I compare to
+for example understanding privacy this
+one use I would say slightly uh more
+more simple more more straightforward
+language but it's also very complex so
+it can be tricky especially for for for
+for for people who are not in privacy uh
+I would say it is concise but they have
+to to study more to to really understand
+what's written especially some of the
+sessions we we're going to discuss today
+so so professor
+solv parts so part one how to think
+about privacy and technology part two
+dimensions of technological change and
+part three power law and accountability
+so I brought some topics and questions
+so that we can navigate the book with
+but with also discussing things that are
+going on in AI uh open open AI meta
+gibli chup everything especially if
+you're reading the newsletter you know
+what I'm talking about so first on part
+one I want to highlight one of the
+chapters where you discuss where you
+discuss some of the myths that we we
+know in privacy so the first one first
+question is about the myth of the
+privacy paradox so privacy paradox for
+those in the audience who don't know
+maybe you're not from the privacy field.
+So is this this idea or this situation
+where people say they care about privacy
+maybe if you ask them but then they act
+in ways that are not privacy preserving
+or they they keep sharing online or they
+they they don't really protect their
+privacy. So do people really care about
+privacy? So we have this this big
+question mark and I want to bring and
+maybe you can expand on that in your
+answer then too but I want to bring to
+this uh topic the privacy paradox uh the
+Gibli effect. So you probably heard
+about right so Cha uh a few weeks ago
+two weeks ago uh OpenAI launched a new
+image so it upgraded its image generator
+and one of so it became I wrote about it
+in newsletter in the same day so it
+became much more accurate so you could
+have some continuity so you could be you
+could keep prompting and it would be
+basically editing your image and also
+it's one of the features and and Sam
+Alman himself launched this new trend
+during the during OpenAI's live He
+published an image of himself in this uh
+Japanese enemy style. So, Gibli Gibli
+Gibli studio. So, he he published he
+posted a picture of himself. So, here it
+goes. It started a major trend and
+OpenAI themselves. They were impressed
+by how many new uh images were being
+uploaded. So, people were uploading all
+sorts of personal images of themselves,
+of their families, of everything became
+Giblified. So, the Gibli effect and I
+wrote about it. Well, this is from a
+privacy perspective. This is so
+interesting. So they we have been all we
+have been having the discussion on on
+legitimate interest and lawfulness and
+how can companies AI companies lawfully
+train their models having in mind
+copyright or privacy laws and so on and
+openi had a great PR idea. So let's just
+start this trend and then people will
+voluntarily upload their images. So it's
+consent, right? They they're uploading
+the image. So it's they have read the
+privacy policy. They have they know
+what's what's this this this AI system
+is. So they're voluntarily uploading
+their image. We don't we're not we don't
+even we don't even need to scrape it
+from the internet. So how do we think
+about the privacy paradox in the context
+of AI? Especially if that's novelty and
+so this this thing that is novel
+everybody wants to be part of it and at
+the same time people want are are afraid
+of being replaced by it does it change
+in any way the privacy paradox so
+especially when we look at what gibli so
+people didn't care everybody is now
+giblifying themselves so how do we think
+about the myth of the privacy paradox in
+the context of AI and novelty and fear
+and I want to be part of it I I want to
+be I don't want want to be left out and
+and I'd love to hear your thoughts.
+Yeah. So, I I think that the privacy
+paradox is a myth uh that um it's
+definitely a phenomenon that happens.
+There seems to be this disjunction
+between people's stated attitudes where
+you give a poll and people will say
+overwhelmingly they value privacy and
+you have 80% 90% 95% saying privacy is
+very important. And then you look at
+their behavior and they'll do things
+like load up their photo uh to uh you
+know whatever site to do whatever use
+apps uh not uh you know look at their
+privacy settings uh not get you know get
+access to the data that companies have
+and exercise their privacy rights and
+ask them to correct it or delete it.
+They won't do any of this stuff. Um so
+uh there are a number of uh folks that
+would say look this shows that people
+really don't care about privacy and we
+shouldn't regulate that much about
+privacy because people just are giving
+away their data for free and and just
+gave it away uh to use some cool feature
+on uh chat GPT or use AI or whatever
+they're doing. Um the I I think that the
+the phenomenon is explained in a
+different way. It certainly occurs but
+the explanation for it is that um the
+poll tests attitudes you know how do
+people value privacy the behavior is
+actually not about the value of privacy
+the behavior is a risk calculation that
+people make when they're using
+technology and this is the basic
+calculation that people are making and
+the calculation is skewed in ways that
+really uh favor sharing the data Uh so
+the calculation is you know what are the
+benefits of using the technology and
+what are the risks to me what what's
+going to what bad could happen what what
+good could happen and ultimately people
+going to weigh that and say well I think
+the benefits are better than the costs
+I'll I'll do it uh the problem is that
+it's impossible for the individual to
+really make this calculation the
+benefits are immediate wow cool look at
+this cool thing the technology does or I
+need to use a flashlight so I'll use a
+flashlight app on my phone or I want I
+want to use a a smart doorbell or some
+cool thing in my house. Like you think
+you realize the benefits. It's clear
+what you're getting and you get it
+right. Then uh the cost to privacy is
+really hard to assess. Uh what is the
+downstream harm? It's not immediate. So
+we don't know exactly what's going to be
+done with the photos that you load up.
+Uh it's not totally clear. uh it might
+be very much into the future and it's
+something that people really can't
+figure out or can't ever figure out
+really because uh with AI it's
+incredibly complicated that information
+gets fed into an algorithm gets used in
+certain things to develop certain types
+of technology. So maybe in the future,
+few years from now, a facial recognition
+system gets rolled out and now that
+facial recognition system is trained on
+this data uh and then can be used to
+round up people, arrest them, throw them
+into camps, do whatever to them. And
+then, you know, then we realize the
+harm, but you it's way too late. It's
+it's years after someone shared the the
+information or you you share certain
+information and you don't think much of
+it, right? Okay. So, I'm going to share
+like what uh things I buy on Amazon or
+what things I get at the supermarket. Uh
+big deal. I'm not sharing anything very
+sensitive. But uh AI algorithms can take
+uh a stream of uh data like one's
+purchases and then figure out uh
+inferences look for patterns in that
+data and come up with inferences about
+people's health or about people's
+political beliefs or uh other things
+about people that they never wanted to
+disclose, never intended to disclose,
+never thought that they were disclosing,
+but now suddenly uh are known to the
+companies And then they're shared with
+others for uses that are not known and
+not expected. And unless people are
+expert computer scientists uh and follow
+how the AI develops and even the
+computer scientists don't fully know
+what the AI is going to uh spit out uh
+in terms of the inferences that it could
+potentially make about people. So how
+does the individual manage or control
+uh these these uses and and how do they
+possibly assess the risk uh without
+being the expert on AI? If if I don't
+know the inferences that may be made by
+the way that the data could be combined
+uh or the uses that the data is going to
+be put, I don't know the the data I'm
+giving off and I don't know what's going
+to be done with it. So I know nothing.
+Uh so that's the problem. Uh so I don't
+think there's a privacy paradox. I just
+think that uh the system is one where
+people can't really have control of
+their data and and uh the fact that they
+don't exercise privacy rights is not a
+reflection on they're not caring about
+privacy. It's a reflection on that the
+privacy rights they're given are bogus.
+They're just busy work. They're chores
+given to people to do things uh that
+don't really often make much of a
+difference and they're impossible to do.
+You know, am I supposed there's
+thousands of companies that have my
+data. Am I supposed to get access to all
+the data at all these companies, figure
+out what their uses are from whatever
+they give me, which I probably can't do.
+Then I have to correct their records. So
+I have to become a free proofreader for
+a thousand companies. And then I have to
+delete the data if if if I don't want
+them to have it. Well, how do I know
+when they're not they don't need it
+anymore for the purpose of use? Well, so
+I have to figure out from each company
+what the purpose of use is and then when
+they don't need it, I don't know. So I
+have to ask them, hey, do you still need
+my data? Um, and I have to do this
+constantly. I don't have time to manage
+my privacy at all these companies. I
+really don't. And people don't. So they
+they you know they they don't do it. But
+that doesn't mean they don't care about
+privacy. It just means they just don't
+have time and or they don't want to do
+it at the time they're being asked to do
+it. So you you go to a website and they
+throw up the cookie banner. Um oh do you
+want our cookies? You can click accept
+or you can click like more information
+where then you get a screen that has
+like here are a thousand different
+flavors of cookies and we're going to
+give you this this ridiculously long
+lesson into cookies and you can toggle
+and you can click and you can check
+boxes and you can go through like I just
+want to go to the site. I I I don't want
+to learn about cookies. I don't want to
+become an expert on cookies. I don't
+want to for most consumers they don't
+want to focus on it. They want to just
+go and get the immediate benefit.
+Um, so I think that that's what we're
+seeing is uh the behavior that's very
+rational for people uh including for
+people who care about privacy. It's that
+the things that the law g you know helps
+people to do the things that people can
+do that are kind of pro privacy behavior
+are structured in a way that just really
+don't make a difference. Uh so that you
+know not doing them I think is a
+perfectly rational thing to do that has
+no indication of how people value
+privacy
+and I think part of the discussion this
+discussion and some of the topics about
+especially related to cookie banners and
+dark patterns so has to do with design
+or how the the design of technology we
+we'll soon talk more about that and I
+want to bring two more myths so that we
+we we discuss uh recent topics. So the
+the other myth I want to bring is the
+myth of technology exceptionalism which
+has been really interesting to observe
+now and I would say especially in the
+fields of copyright and privacy. So
+copyright especially in the US there is
+this pile of lawsuits. So is it fair
+use? So it's the big question right the
+golden question now let's see who will
+be the first US judge who will really uh
+decide to final decision covering the
+the core of most lawsuits. So is it fair
+use to train AI with copyrighted works?
+So we have this whole debate in in
+copyright and in privacy what I see I
+would say especially in the EU. I don't
+see that much in in the US but in the in
+the EU I see very much this this big
+debate on on privacy exceptionalism
+here. So in the EU we have GDPR and then
+we have article six. the lawfulness of
+processing which means for those in the
+audience or if you want to use personal
+data to process personal data that you
+must have a lawful ground and it's
+probably in in commercial context
+especially AI would be so the most
+common ones would be contract consent or
+legitimate interest. So we have this big
+puzzle and then we have legitimate
+interest but then legitimate interest
+you have to pass this three-part test
+and then that to pass this test
+especially the balancing part of the
+test you have to allow people to have
+full transparency and to exercise
+privacy rights and it's challenging in
+AI especially because of the way AI is
+trained and so on and so do you first my
+first question is do you see privacy
+exceptionalism happening in AI also from
+a US perspective as well and and when
+and
+for in the EU I I I really feel that
+they are in trouble in a sense that if
+they really interpret the GDPR as they
+have been interpreting existing models
+they are not lawful. So there they're I
+see I I feel that the EDPB and the most
+EDPs also but the EP data protection
+board they're trying to navigate this
+puzzle like how do we still maintain the
+GDPR and we show that it's important but
+how do we still have AI in Europe
+especially now with the AI race big
+pressure let's simplify so first is it
+do you see privacy ex exceptionalism
+happening in AI and also when would
+privacy exceptionalism be acceptable if
+any. So that that's my my second
+question. Yeah. Well, I see kind of AI
+exceptionalism of that viewing AI as
+something kind of separate and you know
+totally distinct from the privacy issues
+that currently exist. And I think that
+AI is not a form of exceptionalism. It's
+uh a lot of the same issues that we're
+seeing put on steroids. And we saw this
+happen with uh the early days of the
+internet where uh we kind of have
+internet exceptionalism. Oh well, the
+internet's so different that you know
+that we need like a special zone for it.
+Well, you know, ultimately, you know, it
+it touches every field and everything
+and it affects the law all across the
+the legal spectrum. Uh we don't just
+kind of abandon the law in all these
+areas. We have to uh address it for the
+internet. And so uh you know just
+thinking we can gather everything with
+the internet and just dump it into like
+one bucket uh is wrong. And I think the
+same thing with AI. I think that you
+know the privacy issues of AI need to be
+dealt with with privacy law. The AI is
+the um IP issues with AI IP law. Uh
+certainly the law might need to adjust
+or or address AI and change to address
+AI. Uh but we still need to look at
+those laws. And when it comes to the EU,
+we have the GDPR to uh regulate privacy
+uh data protection. Uh the term in in in
+the EU is and uh I think you know AI
+certainly presents some challenges for
+the GDPR. It certainly pushes on some of
+the weak spots of the GDPR. And so I
+definitely think the GDPR needs to be um
+you know thought uh more deeply about
+how it's going to intersect with AI.
+That said, I do hear noises coming out
+of the EU. Actually more than noise, you
+know, some some pretty uh loud uh uh uh
+chatter about well, you know, we don't
+want to be left behind. You know, we we
+need to move in a more deregulatory
+uh direction. Uh this has been the
+subject of things you've been writing
+about uh about what's going on in the
+the EU kind of chronicling this uh this
+uh almost like self-doubting now that uh
+their regulatory approach uh of being
+really strict on uh protecting data uh
+might be might be you know they might be
+pulling back from it in in light of the
+climate that we're in now. Uh I I I
+think that you know what what you've
+chronicled is I think what's going on
+there. But I I think that the other
+direction I think it's the wrong
+direction. I think we we want to go
+toward more regulation not less but we
+just need to do the right kind of
+regulation. Uh I think that GDPR does
+need some improvements but I wouldn't
+weaken it. I think that the um the
+deregulatory argument comes to another
+myth of of privacy which is uh what I
+call you know the myth that technology
+stifle I mean sorry that regulation
+stifles technological innovation uh that
+if we regulate uh it it will kill AI and
+there won't be any technology in in the
+EU if the GDPR is not weakened. Um, and
+we hear this a lot. Uh, and I think this
+is a this is really just a a bogus
+argument uh that we've heard throughout
+history. Oh, well, we can't regulate
+anything new or technology because it's
+going to kill the industry. Oh, we can't
+regulate uh car safety because if that's
+the case, we won't have cars. We'll all
+have to just ride bikes everywhere. Um,
+uh, they won't be able to develop it. Oh
+my gosh, it's so burdensome that they
+actually have to do something to make
+something safer or more privacy
+protective. And guess what? After their
+little temper tantrum where they say,
+"Oh no, we can't do seat belts. We can't
+do airbags. We can't make safe
+vehicles." Then they make it and it's
+fine. And we're having the same temper
+tantrum now. Oh my gosh, we can't do AI.
+We'll be left behind, you know? Oh my
+gosh, the whole AI will just disappear
+and it it won't occur. we can't do
+anything. No, that's not true at all.
+You can do something. I think AI can uh
+you know be done in a responsible
+privacy protective manner. Uh just maybe
+differently and uh I've written about
+scraping. I think that the tech
+companies typically have this ethos
+where they think we can do whatever the
+hell we want. Let's take it. Everything
+is for the taking. Let's take everyone's
+data. Scrape the whole internet. Grab it
+all. copyright schmopyright, you know,
+let's just get it all. You know, get all
+the data, privacy be damned, get all the
+whatever, whatever, and we're going to
+do it and and just do it. And that's
+what they do. And they they they kind of
+ignore the law. They just do it. And
+then better to ask for forgiveness than
+for permission. Then they come along and
+cry, "Oh, you're going to kill us. Oh my
+gosh, we built this thing." And and and
+and look at that. And and that was the
+case you talked about earlier. here. I
+mean, they basically, you know, ripping
+off this artist's work, uh, getting
+everyone to use it and then, you know,
+like, go ahead, make my day, make us get
+rid of this tool that all these people
+love. Um, that's what they do. But I
+think the law can say, "No, we want you
+to do better. You can make safe,
+responsible
+technologies." The the reason why um,
+the EU uh, does not have the biggest
+tech companies really has nothing to do
+with the GDPR. It has nothing to do with
+regulation and I think that there's a
+great work by professor Anu Bradford who
+talks a lot about why it is that uh that
+the tech companies are you know a lot of
+the biggest ones are not in the EU and
+it really is not about privacy it's
+about investment it's about you know
+laws about bankruptcy and risk uh it's
+also about like where the tech community
+exists you know in the United States
+it's in California which is actually the
+most regulated ated environment uh that
+you could probably find for privacy. It
+has the strictest privacy laws. So if
+you're using cause and effect in the
+wrong way, we say well actually
+California has all these privacy
+laws. You know it it's because that's
+where the people are and the things that
+have uh created the environment for you
+know the the technology are you know the
+fact that we have our university system
+and uh all the research and development
+that's going on there and we have we
+attract people from around the world to
+come here to join the tech industry.
+That's why we have it. the very thing
+sadly the United States is now wrecking
+its current presidential
+administration's destroying the very
+reason for technology and and and how it
+developed here. So, you know, it's
+actually wrecking all that uh ironically
+and then saying, "Oh, deregulation." You
+know, it's all because of bad
+regulations that no, they're they're
+actually wrecking the reason why the US
+uh has all the tech companies or a lot
+of the tech companies. Uh and you know,
+regulation is is is just you know, the
+wrong uh the wrong reason for uh
+stifling innovation. It's not it does
+not stifle innovation. It steers
+innovation. It uh a a seat belt in a
+car, an airbag in a car is also
+innovation. Privacy protective
+technology is also innovation. Tech
+companies can innovate and come up with
+different business models, different
+approaches, different ways to monetize,
+different uh ways to uh build privacy
+protections into technology. All of
+that's innovative. It's just innovative
+for privacy and for protecting. maybe
+not uh you know for profit uh as what
+they're always focused on but they are
+things that could be innovated into the
+technology if the incentives were to do
+that and right now they don't have any
+incentive to do it because they can get
+away with not doing it
+and you're anticipating my next myth so
+yes the next one was going to be the
+regulation stifles innovation and yes I
+had an Bradford so before was Philip
+hacker so the previous one was an
+Bradford and I asked this question but
+my conversation with Anna Bradford was
+before this those recent announcements
+from the EU I I'm I will say I'm
+sincerely shocked so the EU
+is changing this their narrative
+massively so if you read so they have
+just announced their AI continent plan
+action plan so their AI strategy there
+is not only one mention to fundamental
+rights or or it's all about
+simplification and there is that I
+forgot attorney I think it's Hannah
+something the the digital boss she says
+we're going to apply the law in a
+businessfriendly way so this whole talk
+started during the AI summit now it's
+all about simplification take out the
+red tape business friendly and as a
+lawyer I think okay so how do you apply
+a law in a business friendly is isn't it
+is it
+possly way so you you pretend that
+you're enforcing I I am really curious
+supposedly they're going to announce the
+implementation of the simplification. So
+they they're they said they're going to
+simplify the GDPR. They also intend to
+simplify or whatever awarding uh
+businessfriendly AI the AI act make the
+AI act more business friendly and now
+they announced that the cyber security
+act they're also going to make it
+business friendly or simplific or
+simplify it. For me it's a big big turn
+whatever made they them do it. uh and
+you mentioned uh and so in in the
+context of this myth so regulation
+stifles innovation
+uh I see I I would say the myth is
+winning with this we do not I I would
+say the EU was the part of the world
+where we could say okay we they are uh
+really firm in their narrative of
+protecting fundamental rights and
+principles and and frameworks and but
+but now it looks like it has a bit
+fallen apart so in that that's what I'm
+going to ask so you answered it. But
+that myth specifically, I was going to
+to ask you if you if you think uh if if
+but you already so if it's still a myth
+or not. So you you were very uh bold in
+your couple final thoughts on what you
+had suggested. I think it's unfortunate
+the EU is kind of um uh blinked here
+that you know there there's been
+pressure for for this kind of
+deregulatory uh move. I think it's
+pressure based on, you know, the current
+administration of the United States.
+That's just one more way the EU is kind
+of blinking, kind of doubting its
+fundamental principles. Uh, you know,
+and that can be tough. We're in a tough
+time in the world. Uh, we're seeing a
+lot of pressure put from the companies
+kind of pushing this myth. Uh, and uh,
+you know, yes, I think it's natural to
+have some doubts. Uh but I just would
+urge the EU like you know stick to your
+principles. Uh stick to what you've been
+doing. Uh it it is uh and really think
+about you know don't get um swept up in
+the myth because you're not going to get
+what you think you're going to get. If
+they think, oh wow, we'll just weaken
+the GDPR. We'll weaken uh the AI laws.
+We're going to weaken all this. and that
+suddenly these tech companies are gonna
+pop up all throughout Europe and and
+we're gonna have like this business
+mecca and everyone's gonna run in uh you
+know and flood uh you know the EU with
+with this glorious business. Um that's
+not the case. Uh and I think that
+they're uh there really are making a
+very big mistake if if they do that. Uh
+I think it would be a terrible mistake.
+I I think that you know the I don't
+think that the law is unbusiness
+friendly. I actually think the the GDPR
+is incredibly uh differential to
+business uh is is not impossible to
+comply with. It's it's you know there
+are difficulties and costs but when you
+look at compliance costs with the
+GDPR they're not really that high. Look
+at what companies are actually spending
+on privacy compliance. It's a pittance
+compared to their profits. This, oh my,
+we spent like, you know, $10 million a
+year on privacy or or or $50 million a
+year on privacy. We look at what these
+companies are actually making in the
+revenue. It's crazy. So, look at the
+percentage they're putting into privacy
+uh versus uh you know, what they're
+actually putting into uh what they're
+getting in profit. And it's actually a a
+pittance and they're not really doing
+enough. uh so the law can make them I I
+think even do more. The law doesn't ask
+a lot of companies. Legitimate interest
+is a ginormous uh exception that allows
+businesses to do all sorts of things. Uh
+so it it it just winds up being I think
+a total companies when the GDPR comes
+out companies were saying oh in the US
+were saying oh my gosh we're going to
+have to pull out of Europe. We can't do
+business there anymore. The EU is off
+limits. um after the temper tantrum,
+they're fine. They built their programs.
+They did what they need to do. Uh
+they're generally okay. Uh I actually
+think that the law regulates far too
+little and asks far too little of
+businesses. Look at the AI act. It
+really doesn't it really doesn't ask
+that much of businesses. Oh, just come
+up with some instruction book and a few
+other things and you know, you know, do
+some you a risk assessment there. It's
+so mild. It's so little being asked of
+businesses, but it's like I think the
+businesses are kind of like a child. You
+know, you ask a child like, "Will you
+clean up your room? Just get a couple
+things off the floor and they freak out
+and have a a tamper tantrum that if they
+actually just, you know, instead of the
+tantrum, it would be quicker just for
+them to clean up the room. And I think
+the same thing with the companies if
+they stopped there's probably they spend
+more on lobbying and fighting the
+regulation than actually if they just
+put the money into actually making
+products that were more privacy safe and
+and
+complying it be a fraction of what
+they're spending, you know, trying to
+fend off the the regulators. Uh so I
+think that that's that's part of the
+problem is is that we really have just a
+rel companies just don't like being
+regulated. Uh they they've never liked
+being regulated. It's like trying to
+give a cat a bath. Um but you know
+ultimately I think we need regulation.
+The incentives are all wrong if you
+don't have regulation. The incentives
+for companies are to make a lot of
+money. That's what they're built to do.
+That's what they're going to do. They're
+going to do everything they can to make
+a profit and grow fast. And I don't
+think they're evil for doing that.
+That's exactly what they're built to do.
+That's what the law incentivizes them to
+do. I think the the fool is uh the fools
+are those who think, "Oh, they're just
+going to be ethical. They're just going
+to do the right thing. They're going to
+self-regulate because they're just
+somehow inherent goodness in the
+company." No, they're they're sharks.
+Sharks eat and they're not going to
+suddenly sit there and philosophize
+maybe we should become vegetarians.
+That's just not how the world works.
+Incentives work, economics work. You
+create the incentive to protect privacy
+and to make safe products and be
+responsible and they will do it.
+Companies are very good at responding to
+incentives. If the law does not create
+those incentives, it's it's not going to
+happen. It's that simple. And that's
+something I emphasize again and again in
+the book. We've learned from really more
+than a century of regulation that this
+is what works. You create the right
+incentives, you get the right outcomes.
+And if you don't do that, uh, and you
+just do everything in a hope and a
+prayer that somehow companies are just
+going to be good, well, I think that's
+just not going to work. And I think
+unfortunately the kind of deregulatory
+push is that that kind of mentality that
+oh if we just deregulate that all these
+great things are just going to suddenly
+happen. Um no they're not. And so I
+think that then you wind up with you
+know the EU will have I think you know
+perhaps even less business in fact uh
+and and uh because there's a lot of
+business that the GDPR brings uh to the
+EU that to comply with the regulation a
+lot of the companies are are are
+incentivized to focus on how do we uh
+how do we uh you know work to comply
+with this uh and and and make better uh
+more privacy protective
+technologies that that'll go away. Um
+and and then you'll have less
+and continue on on the topic of
+regulation and I'll kind of narrow it
+down to regulating design. So the second
+part of your book so that dimensions of
+technological change. So one of the
+chapters you discuss design which is one
+of my favorite topics as well. So
+privacy by design and and how to
+regulate design and I think AI brings
+extremely interesting challenges in that
+area. So what I'll bring a concrete
+example that I really I'm
+I think it's it's the beginning of
+something big that is starting to get
+out of control especially as we have now
+agents and other forms of so I'd say
+more sophisticated AI system. So one
+example that I like to bring is the
+issue of AI companions. So we saw last
+year there was the death of there was
+already so two years ago there was a
+death of the Belgian man after
+interacting with the AI chatbot. So
+there's those typical AI companions that
+develop a relationship and and kind of
+get dependent on it and becomes a friend
+a partner that that's the marketing that
+the company does. Last year we had the
+for the teenager that committed suicide
+after interacting with character AI and
+how is it related to design. So we have
+for example the AI act has article 50
+which has obligations of transparency
+obligations. So if you are building a a
+chat bot, so if you're offering a
+chatbot, it must be clear that the
+person is interacting with the chatbot.
+I have all my criticism to that
+provision. So it says that the person
+has to be uh aware and a high level of
+so it's it's written in a way that puts
+the burden on on the user. But that put
+aside so when we look at what those
+company if you open now if you in the
+audience if you go to character you'll
+see that they have a disclaimer. they
+have something really uh at the top that
+that while you're chatting it will
+disappear. So it says you're chatting
+with a this this is a bot in different
+bots. I test a different bot. So
+sometimes it it says the this convers
+this conversation is fictional.
+Sometimes there's another type of
+language. But then this is they're
+complying with the rules. So they're
+going by the book. So there is a rule
+there are different rules. So this this
+would perhaps be compliant in the EU.
+you're complying with. I don't know what
+the state law that that uh that has this
+this obligation of transparency or if
+the US has any obligation. But what is
+interesting is that design is is
+extremely difficult challenge because
+then we you have the problem of
+dependency. You have that interface. You
+have young people, vulnerable people in
+that screen and the the company does
+this all this marketing about
+partnership, companionship and people
+are obsessed. there are 247 chatting and
+of course one single disclaimer in the
+privacy policy or at the at the top of
+the chat one time it is not enough
+that's not how you tell people that it's
+a chatbot and now we are we are seeing
+AI agents and then agents will be more
+and more replacing humans where I don't
+know buying a plane ticket I don't know
+buying groceries and so on so
+transparency is very important and I
+think this is interesting so how do we
+think about privacy by design and
+regulating design in the context of
+these new challenges. So AI I think what
+what it brings new to what it brings to
+the table in this context is less
+autonomous. So we we we need
+transparency is even more important than
+it was before AI because now we are so
+we are in a world where there are there
+will be agents people companions but pe
+human companion or people our friends
+and there will be AI. So how do we think
+about regulating design and privacy and
+helping people keep their autonomy and
+their dignity in a world where AI is uh
+ubiquitous and in and where is so
+challenging to regulate AI. Sorry,
+that's a great question. Um, and I I go
+into in depth in the book about uh
+privacy by design and how to regulate
+design and and also I wrote a paper on
+uh privacy and AI uh that I published
+recently um tackling this question about
+uh for uh when you're interacting with
+AI that is humanlike. Uh and I think the
+answer is no. And there's a great movie
+that really illustrates this and that is
+a movie called Her that was made I think
+it was about 10 years ago a while ago.
+Um, basically it's this person who falls
+in love with the this uh AI uh in uh his
+his phone um an AI persona. And what
+what what this captures is that he he
+knows that the person's AI like he knows
+that that the what he's interacting with
+is is AI. And so we might know in
+disclosure like yes, we're interacting
+with AI, but it's still beguiles us.
+it's still the the humanlike qualities
+still work their magic on us. Uh and
+just knowing that it is does not
+suddenly cure all the problems or make
+it not have tremendous effects on
+people. And when you uh simulate humans,
+you have very powerful effects and and
+very powerful manipulative effects on on
+people that you don't have if you're not
+simulating humans. So I think we need
+more than just transparency as our
+answer here and we need something that
+really holds the companies accountable
+for what they do. Uh in and this gets
+back to the myth of the the technolog
+tech technology exceptionalism that um
+you know imagine if you made a car that
+would just you know be totally unsafe
+and the brakes would just go out or the
+the the car would just blow up on you.
+you know, with cars, right? We have
+before the car comes out on the market,
+we have testing and we have safety
+standards and we know you don't you
+can't buy a car that's, you know,
+woefully unsafe. That someone who safety
+experts are having our back and I don't
+have to become an expert on car safety.
+I can buy a car knowing it's going to be
+okay. Um now they also have expost
+protection that if the car you know is
+defective, if the car turns out not to
+be safe because you can't anticipate
+everything um and something bad happens,
+uh I can go to court and sue and get a
+lot of money. And companies know that.
+They know like if they screw up, there's
+going to be big consequences, painful
+consequences to the company. big
+lawsuits, a lot of bad stuff going on.
+With technology though, we kind of say
+it's buyer beware. You know, we we do
+very minimal protections uh up front and
+then at the back end there's also, you
+know, courts bend over backwards to uh
+let the companies off the hook to not
+hold them accountable. Oh, they're so
+big. Oh, technology is just so
+complicated. Uh just imagine for a car.
+Oh, well, making a car is like really
+complex. Who are we to second guessess
+that the car when the car blows up? Oh,
+the car blew up and killed everybody,
+but it's not a harm. You know, it's not
+a big deal. You know, on with
+technology, oh my gosh, we don't want to
+stifle
+innovation. Um, that's what we get like
+constantly. And I think that with
+technology, I think we need to stop the
+worship of it. Uh, we need to stop
+treating it uh in a way that allows the
+makers of it to be unaccountable. that
+people who are making these uh AI um
+uh you know personas should be
+accountable for the harms that they
+create and and and should you know and
+the law should make sure that you know
+there's adequate testing and vetting of
+this before it's just unleashed into the
+market because the incentive is we'll
+just unleash it. Let's try it out. Let's
+let's just do it because we want to get
+there first. We want to it's a race. Um,
+so there's not enough testing of it to
+make sure what's being put out there is
+going to be okay. It's going to be safe
+and is not going to cause problems. And
+then when it's out there, you know, I
+think the companies need to know if if
+there is a mess up there, there's
+accountability. So the companies needed
+the incentive to say we're going to
+we're going to make it safer. We're
+going to make it better. We're going to
+try to prevent these problems,
+anticipate these problems because we
+don't want to have one of these
+incidents happen because it's really
+going to cost us if it does. And I think
+a lot of times what we have now is
+companies know like if something like
+this happens, oh well, it's not our
+fault, you know, oops. Uh but but the
+incentives are all wrong. So I think
+yes, we need design. Um I think that the
+law is very weak on regulating design,
+especially with privacy. uh there's way
+too much difference. Oh well, you know,
+who are we to tell the companies what to
+do? Um I think that you know there's a
+lot of um insight and information out
+there about uh what privacy harms are uh
+about um uh issues that can arise. I
+think that just telling companies well
+design for privacy and companies will
+say yeah we design for privacy. See, you
+know, we we we we put you we added
+encryption or we have access controls
+and you know, we have a toggle uh where
+you can opt out. So, we designed well,
+you need to tell them like what what you
+need to focus on. These are the issues.
+Doesn't mean you're telling them what to
+do. It's just like, you know, at least
+make sure you focus on these issues.
+There needs to be accountability. If
+you're designing for privacy, then you
+need to have uh somebody, you know,
+audited or checked just to make sure
+that you in fact did a good job.
+Otherwise, you just create a piece of
+paper that says, "Yeah, I did it." Okay.
+Um, you need something to really make
+sure they're doing it well and
+thoughtfully. Uh, and the law can
+incentivize that. Uh, and that's not
+telling them what to do. That's not
+backseat driving. That's just making
+sure that they're, you know, adequately,
+you know, looking into it and thinking
+about it. And there are thoughtful,
+smart privacy professionals who could do
+that. But they need the incentives so
+that when they can do that, they, you
+know, are listened to at the company.
+When they say there's a concern here,
+they're listened to where there's
+adequate resources so they can do this
+kind of analysis and that they're
+respected when they come back with a an
+issue. Uh that the company will say,
+"Okay, wow, you know, we we better
+address that versus now it's just like,
+okay, why why should we waste our time?"
+because we know we'll just put it out
+there and you know the law will look the
+other way or won't really hold us
+accountable. So why should we you know
+slow down or spend any money to address
+it when uh you know you we're not going
+to face any consequences
+specifically with AI to be optimistic
+here. So what what I think will happen
+so what we saw with dark patterns
+remember when I wrote my my paper around
+201920 there were there was only one
+report the Norwegian consumer authority
+where writing about dark patterns in UX
+then after a few years it became such a
+popular topic now is regulated in the EU
+so there also California there is a
+mention to dark patterns every EU data
+protection authority has published
+report on dark patterns in UX so we We
+saw some evolution on that at least in
+this that very niche perspect in the EU
+we saw a lot of publications focusing
+specifically on cookie banners there is
+it's already something before it was
+okay you have informed consent and then
+we really got to the level of design now
+we have reports okay how do you design a
+cookie banner in a way that choice or
+autonomy is respected as much as
+possible what I think will happen in AI
+and I I really I hope to I want to
+believe that I think it's we are really
+in the early beginnings of AI governance
+AI governance especially from a more
+legal perspective. I think in the next
+five years maybe we'll see much more
+nuanced approach to AI design. So how do
+we design AI products, AI chat bots, all
+sort of AI systems with privacy by
+design and and not only as as an
+abstract con concept but also
+implemented the same way that we have
+now the same level of detail that we
+have about cookie banners in Europe. So
+have to have symmetries have to have the
+first layer of choice has to be yes or
+no and so on. I think or I want to
+believe that this this will also happen
+in design. It's just a matter of time.
+So we're still in the uh um I'll say uh
+in the spectacle in the in the magic
+side of of AI and what it can do but it
+will get better and will mature and and
+the the the excitement will go down and
+we will focus okay how to implement
+privacy by design. At least I want to
+believe that uh on on part three of uh
+professor sort of books so the title is
+power law and accountability. So I want
+to um while reading it I found an
+interesting uh quote and I want to hear
+from you. So how could we implement that
+in practice? So you wrote that uh privac
+about the danger of oification in
+privacy loss. So privacy laws should be
+messy and open-ended, dynamic and
+evolving rather than being an ambiguous.
+They should require challenging judgment
+calls. I think it's extremely
+interesting. It's it's the ideal uh uh
+it's almost like a especially from an
+European point of view, it's a it's
+almost your topic. So I wanted to hear
+from you maybe from comparing the US or
+Europe. So when I I usually I I focus a
+lot on the EU when I write. So how could
+we think about what you wrote to the
+danger of oification when we have for
+example the AI act or GDPR which are so
+it's different legal system right the US
+is common laws the EU is a civil law so
+especially when we think about
+regulation so applying to all member
+states so how do can we avoid oification
+when we have laws such as the GDPR or
+the EI act and how can we we really
+implement what you wrote so uh enabling
+or requiring challenging judgment calls
+yeah I'm really glad you asked this
+question um uh because it goes to sort
+of against the the move that you said
+the EU is doing which is like simplify
+and which is what companies want right
+they say make it really easy for us make
+it easy because it's so hard to do it
+what companies really are saying what
+they really want is something mindless
+they want something that's like a
+checklist they can easily do and they
+can do it in an automated way because
+the companies are good at that they want
+to do something very efficiently very
+quickly, very easily, very
+inexpensively, and uh you know, just
+call it and and then feel totally snug
+and safe and say, "Okay, we've done
+everything. We've checked all the boxes.
+We're safe from any regulatory
+penalties. We can have a good night's
+sleep." That's what they like. They
+don't They like to reduce their risk.
+They like to do all these things. And I
+get that. That's a natural tendency to
+want to do it. The problem is privacy is
+complicated. and the checklist type of
+uh approach, you know, the the kind of
+simple mindless automation doesn't work
+well for privacy. Um I'm not saying
+that, you know, some automation is
+great, but you need a person who is
+thoughtful thinking about the issues.
+There are some really difficult ethical
+issues that need to be thought about and
+judgment uh needs to be used and that is
+more expensive that is uh that does
+involve some real thinking and it
+involves messiness. It's not going to be
+easy. Uh it's not going to be and I
+don't think that's so bad. And you know,
+if companies have to fret a little bit,
+have to spend a little bit more to hire
+a human to think it through rather than
+to try to just automate it away. Uh if
+if they if they don't sleep well at
+night, if they're worried like, "Oh my,
+you know, I'm gonna use this data and
+maybe I'm not totally sure uh that it's
+okay. Maybe the regulators could
+possibly come after me. I'm a little
+nervous about this. I think that's good.
+They should be a little bit worried
+because you know what? That's what
+they're doing to consumers. That's what
+they're doing to people. They're putting
+the technology out there and we're at
+risk. We are at risk. We're not able to
+sleep easy at night because of all the
+things that could possibly happen to us.
+So why should they why should we be so
+worried about how how snuggly they sleep
+at night? Why why why should they sleep
+without a worry in the world when the
+consumers are concerned too? Because
+this is risky. There are some concerns.
+A lot can happen. And so I think they
+need to share in that risk. They need to
+be worried. It's good for them to be
+concerned. They should be thinking,
+"Huh, if I put out this technology, you
+know, and this is a tricky question, uh,
+and something goes wrong, this could
+really hurt us. This could be risky.
+Maybe we should be cautious here. Maybe
+we should think about this a little bit
+more. Maybe we should should put our
+minds to this and actually think about
+how to do it rather than easily check
+off something mindlessly on a checklist
+that often really doesn't provide much
+protection. It just like makes them feel
+safe. Um, I want that kind of thinking.
+I think that's good kind of thinking. I
+think it's productive kind of thinking.
+It is messy. Companies are going to hate
+it, but you know what? I think it's it's
+good uh and it has to happen and the law
+should drive that uh and you know kind
+of don't give in to the tantrum uh which
+is the advice you know you know the kind
+of parental advice you don't give in to
+the tantrum stick to your guns you know
+uh yes you know life is hard um not
+everything can be easy uh but that's
+okay um and this isn't easy and uh but
+there are thoughtful people out there
+who can help think it through. Uh if
+companies devote the resources and time
+and get smart people to start really
+working on
+this, we can really make some good
+progress. That that's a great way to end
+our conversation. So I know you have to
+go. You have commits. You want to share
+a last message to the audience? Maybe
+invite them to your event. Maybe I first
+everybody if you haven't but yet so
+please on privacy and technology
+especially if you're trying to
+understand I say it's a as professor
+solo was saying so it's he has been in
+the privacy field for over 25 years it's
+a great it's a map it will help you
+navigate so many of the issues so of
+course AI but beyond that so really the
+structure the pillars the the important
+the myths and the important concepts so
+if you haven't bought yet. So on privacy
+technology will be your next bid. But
+then you want want to have some share
+invite them uh share a final message.
+Anything you want. Well well thanks for
+that. Yeah I I I hope that you uh have a
+chance to take a look at the book and I
+would love uh your thoughts and feedback
+on it. Um uh I have a lot of papers
+available online. Uh so you can get
+these papers uh almost all the papers
+are free. Uh so you can download them.
+Um, I have events as well. I have a big
+event called the privacy and security
+forum. Uh, so if you want to uh uh go to
+that, I think there's a lot of really
+interesting people speaking about uh how
+they uh protect privacy and and and uh
+how they are dealing with the uh the law
+and the regulations that that are out
+there. Um, and I have a newsletter uh
+that I uh have uh folks subscribe to
+where I talk about what I'm writing and
+what I'm doing and uh things I'm up to.
+So, if you're interested, uh it's free.
+Um I I hope you uh I hope you stay
+tuned. Uh so, I appreciate your um uh
+thanks Louisa for having me on. I I I
+really have always uh enjoyed chatting
+with you. And I also just want to plug
+your work. I I I find your work to be uh
+some of the most insightful stuff out
+there on privacy and AI. Uh and I really
+want to thank you for all you do because
+you're you're
+I'm so honored to be on this show. No,
+it's it's my honor. And by the way,
+about so then was if you want you can
+spend your whole free time with Dan's
+material. So he has books, articles,
+courses, newsletters, events. So you can
+you can just uh tune in to what Dan is
+doing. You can fill up all your free
+time. He has a lifetime of of amazing
+intellectual work uh to to to help the
+the community. So thank you then. No,
+I'm honored. I'm I have to we are here
+also celebrating your uh incredible uh
+admirable impressive career and your
+contributions and valuable
+contributions. So I'm so happy to have
+you here uh for the second time. Uh, and
+thank you everyone and I see you in the
+next live talk.
