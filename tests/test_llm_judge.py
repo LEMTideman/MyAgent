@@ -1,6 +1,8 @@
 # LLM-as-a-judge evaluation approach
 # We run the agent on test prompts and ask another LLM to assess the quality of the agent's answer against criteria 
-# such as correctness and relevance. It is an LLM-based assessment of the agent. 
+# such as correctness, groundedness, and relevance. It is an LLM-based assessment of the agent's output quality, 
+# including its communication style. 
+# Use < uv run pytest -s -v tests/test_llm_judge.py > in Powershell to run evaluation. 
 
 import pytest
 
@@ -9,7 +11,7 @@ from tests.judge import create_judge
 
 @pytest.mark.asyncio
 async def test_agent_with_llm_judge():
-    question = "How is AI regulated in Singapore? What are the pros and cons of the Singaporean approach versus the European and Chineses approaches?"
+    question = "How is generative AI regulated in Singapore? What are the pros and cons of the Singaporean approach versus the European and Chineses approaches?"
     result = await run_agent(question)
 
     judge = create_judge()

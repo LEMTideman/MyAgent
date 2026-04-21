@@ -10,50 +10,33 @@ CriterionStatus = Literal["pass", "partial", "fail"]
 
 
 class JudgeCriterion(BaseModel):
+    """
+    Evaluation result for a single judging criterion.
+    Each instance represents how the judge assessed one specific aspect of the agent's answer, such as correctness or groundedness. 
+    It includes both a categorical result and a numeric score, along with a short explanation, supporting evidence, and a suggested improvement.
+    """
     model_config = ConfigDict(extra="forbid")
 
-    name: str = Field(
-        description="Stable machine-readable name of the criterion."
-    )
-    status: CriterionStatus = Field(
-        description="Overall result for this criterion: pass, partial, or fail."
-    )
-    score: int = Field(
-        ge=0,
-        le=2,
-        description="Numeric score for the criterion: 0=fail, 1=partial, 2=pass."
-    )
-    explanation: str = Field(
-        description="Short explanation of why this score was assigned."
-    )
-    evidence: list[str] = Field(
-        default_factory=list,
-        description="Short snippets or observations from the agent answer supporting the evaluation."
-    )
-    fix: str = Field(
-        description="One concrete improvement that would make the answer better on this criterion."
-    )
+    name: str = Field(description="Stable machine-readable name of the criterion.")
+    status: CriterionStatus = Field(description="Overall result for this criterion: pass, partial, or fail.")
+    score: int = Field(ge=0, le=2, description="Numeric score for the criterion: 0=fail, 1=partial, 2=pass.")
+    explanation: str = Field(description="Short explanation of why this score was assigned.")
+    evidence: list[str] = Field(default_factory=list, description="Short snippets or observations from the agent answer supporting the evaluation.")
+    fix: str = Field(description="One concrete improvement that would make the answer better on this criterion.")
 
 
 class JudgeFeedback(BaseModel):
     """
-    Complete evaluation report from the judge agent.
+    Complete structured evaluation returned by the judge agent.
+    This model aggregates the results for all judging criteria and provides an overall summary of the agent's performance. It contains
+    the per-criterion assessments, the total score, the overall verdict, and a short summary of the main strengths and weaknesses of the answer.
     """
-    model_config = ConfigDict(extra="forbid")
+    model_config = ConfigDict(extra="ignore")
 
-    criteria: list[JudgeCriterion] = Field(
-        description="Evaluation results for each criterion."
-    )
-    overall_score: int = Field(
-        ge=0,
-        description="Sum of all criterion scores."
-    )
-    verdict: Literal["pass", "partial", "fail"] = Field(
-        description="Overall verdict for the answer."
-    )
-    feedback: str = Field(
-        description="Overall summary of the agent's performance."
-    )
+    criteria: list[JudgeCriterion] = Field(description="Evaluation results for each criterion.")
+    overall_score: int = Field(default=0, ge=0, description="Sum of all criterion scores.")
+    verdict: Literal["pass", "partial", "fail"] = Field(default="partial", description="Overall verdict for the answer.")
+    feedback: str = Field(default="", description="Overall summary of the agent's performance.")
 
 
 judge_instructions = """
@@ -157,6 +140,7 @@ def create_judge() -> Agent:
     return Agent(
         "openai:gpt-4o-mini",
         name="judge",
+        output_retries=2, 
         instructions=judge_instructions,
         output_type=JudgeFeedback,
     )
