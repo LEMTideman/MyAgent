@@ -1,6 +1,6 @@
 # AI Regulation Research Assistant
 
-A domain-specific research assistant for questions about **AI regulation, AI governance, AI compliance** developed in the context of the [AI engineering course by Alexey Grigorev](https://maven.com/alexey-grigorev/from-rag-to-agents). 
+A domain-specific research assistant for questions about AI regulation, AI governance, AI compliance developed in the context of the [AI engineering course by Alexey Grigorev](https://maven.com/alexey-grigorev/from-rag-to-agents). 
 
 This agent is designed to help with practical research questions such as:
 - which legal obligations apply to a given AI system,
@@ -8,19 +8,19 @@ This agent is designed to help with practical research questions such as:
 - how different jurisdictions approach AI regulation,
 - and how sector-specific requirements interact with AI governance.
 
-It is especially useful for questions about **EU** and **US** AI regulation, while also supporting related Dutch legal research and automotive compliance use cases.
+It is especially useful for questions about EU and US AI regulation, while also supporting related Dutch legal research and automotive compliance use cases.
 
 ---
 
 ## What this agent does
 
 The agent combines:
-- a **strict scope guard** that blocks irrelevant prompts,
-- a **local RAG system** for grounded retrieval from a curated local dataset,
-- a **web search + webpage reading pipeline** for current or external material,
-- and **MCP-based specialist toolsets** for selected legal and compliance domains.
+- a strict scope guard that blocks irrelevant prompts,
+- a local RAG system for grounded retrieval from a curated local dataset,
+- a web search + webpage reading pipeline for current or external material,
+- and MCP-based specialist toolsets for selected legal and compliance domains.
 
-The goal is not to give black-box answers, but to produce answers that are **grounded, source-aware, and practically useful** for compliance-oriented research.
+The goal is not to give black-box answers, but to produce answers that are grounded, source-aware, and practically useful for compliance-oriented research.
 
 ---
 
@@ -45,8 +45,8 @@ The local RAG system is initialized automatically when dependencies are built. T
 
 ### 2. Web search + webpage reading tool
 The web tool combines:
-- **Brave Search** for finding relevant pages,
-- and **Jina Reader** for extracting clean, readable page content from URLs.
+- Brave Search for finding relevant pages,
+- Jina Reader for extracting clean, readable page content from URLs.
 
 What it does:
 - runs a web search,
@@ -129,7 +129,7 @@ The guard allows prompts primarily about:
 - AI governance, compliance, or assurance,
 - standards used in AI compliance,
 - conformity assessment, audits, evidence artifacts, enforcement, and obligations,
-- and sector-specific safety or cybersecurity requirements **when asked in relation to an AI system**.
+- and sector-specific safety or cybersecurity requirements when asked in relation to an AI system.
 
 It rejects prompts such as:
 - general programming help,
