@@ -79,8 +79,8 @@ This is especially useful for:
 
 ---
 
-### 4. US regulation MCP tools
-The agent also connects to a US regulations MCP server and exposes tools for:
+### 4. USA regulation MCP tools
+The agent also connects to a USA regulations MCP server and exposes tools for:
 - searching regulations,
 - checking applicability,
 - comparing requirements,
@@ -89,7 +89,7 @@ The agent also connects to a US regulations MCP server and exposes tools for:
 - generating compliance action items,
 - and retrieving sections.
 
-This makes the agent useful for structured research on US AI governance and compliance materials.
+This makes the agent useful for structured research on USA AI governance and compliance materials.
 
 ---
 
