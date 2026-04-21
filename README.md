@@ -12,7 +12,7 @@ It is especially useful for questions about EU and US AI regulation, while also 
 
 ---
 
-## Repo Overview
+## Repo overview
 
 Our agent combines:
 - a strict scope guard that blocks irrelevant prompts,
