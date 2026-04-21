@@ -8,6 +8,7 @@ from pydantic_ai import Agent
 from pydantic_ai.mcp import MCPServerStreamableHTTP
 from pydantic_ai.models.openai import OpenAIChatModel
 
+from guards.scope_guard import block_if_out_of_scope
 from tools.dependencies import Deps, build_deps
 from tools.web_search_tool import web_search_and_read
 from tools.rag_tool import search_local_dataset
@@ -25,6 +26,7 @@ US_law_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/us-regulations/mcp
 NL_law_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/law-nl/mcp")
 Automotive_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/automotive/mcp")
 
+# Choose MCP-based tools from Ansvar-Systems
 # Avoid importing very computationally expensive tools
 EU_ALLOWED = {
     "search_regulations",
@@ -63,7 +65,7 @@ US_regulation_tools = US_law_total.filtered(lambda ctx, tool_def: tool_def.name 
 NL_regulation_tools = NL_law_total.filtered(lambda ctx, tool_def: tool_def.name in NL_ALLOWED).prefixed("nl")
 automotive_regulation_tools = Automotive_total.filtered(lambda ctx, tool_def: tool_def.name in CAR_ALLOWED).prefixed("automotive")
 
-# Define EU AI Act compliance agent
+# Define AI regulation compliance agent
 model = OpenAIChatModel("gpt-4o-mini")
 agent = Agent(
     model,
@@ -73,9 +75,19 @@ agent = Agent(
     instructions=INSTRUCTIONS, 
 )
 
-# Asynchronous implementation for notebook environments
 async def run_agent(user_prompt: str):
+    # Check whether the user prompt is within the allowed scope, and return a refusal message if it is not
+    # You want to block out-of-scope prompts before incurring costs
+    blocked_message = await block_if_out_of_scope(user_prompt)
+    if blocked_message is not None:
+        return blocked_message
+
+    # Create the shared runtime dependencies the agent needs, 
+    # such as the web-search clients and the local RAG system.
     deps = build_deps()
+
+    # Run the agent with those dependencies and then closes the RAG and web-search connections
+    # Asynchronous implementation for notebook environments
     try:
         async with agent:
             return await agent.run(user_prompt, deps=deps)
