@@ -2,7 +2,7 @@
 
 A domain-specific research assistant for questions about AI regulation, AI governance, AI compliance developed in the context of the [AI engineering course by Alexey Grigorev](https://maven.com/alexey-grigorev/from-rag-to-agents). 
 
-This agent is designed to help with practical research questions such as:
+Our agent is designed to help with practical research questions such as:
 - which legal obligations apply to a given AI system,
 - how regulatory requirements map to compliance controls or evidence artifacts,
 - how different jurisdictions approach AI regulation,
@@ -12,15 +12,16 @@ It is especially useful for questions about EU and US AI regulation, while also 
 
 ---
 
-## What this agent does
+## Repo Overview
 
-The agent combines:
+Our agent combines:
 - a strict scope guard that blocks irrelevant prompts,
 - a local RAG system for grounded retrieval from a curated local dataset,
 - a web search + webpage reading pipeline for current or external material,
-- and MCP-based specialist toolsets for selected legal and compliance domains.
+- multiple MCP-based specialist toolsets for selected legal and compliance domains,
+- integration tests that verify whether the agent routes questions to the correct tools,
+- LLM-as-a-judge evaluation that scores answer quality against structured legal/compliance criteria.
 
-The goal is not to give black-box answers, but to produce answers that are grounded, source-aware, and practically useful for compliance-oriented research.
 
 ---
 
@@ -117,28 +118,6 @@ This is useful for questions that sit at the intersection of:
 - cybersecurity requirements,
 - software updates,
 - and evidence artifacts in automotive workflows.
-
----
-
-## Scope guard
-
-Before the main agent runs, a separate lightweight guard checks whether the prompt is actually in scope.
-
-The guard allows prompts primarily about:
-- AI regulation or AI law,
-- AI governance, compliance, or assurance,
-- standards used in AI compliance,
-- conformity assessment, audits, evidence artifacts, enforcement, and obligations,
-- and sector-specific safety or cybersecurity requirements when asked in relation to an AI system.
-
-It rejects prompts such as:
-- general programming help,
-- general machine learning engineering,
-- general legal research unrelated to AI,
-- general cybersecurity unrelated to AI systems,
-- and unrelated everyday questions.
-
-This helps keep the assistant focused and avoids spending resources on out-of-scope requests.
 
 
 
