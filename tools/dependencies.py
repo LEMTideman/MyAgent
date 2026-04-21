@@ -114,12 +114,13 @@ def build_deps() -> Deps:
     brave_key = os.environ["BRAVE_SEARCH_API_KEY"]
     jina_key = os.environ["JINA_API_KEY"]
 
+    session = requests.Session()
+
     brave = BraveSearchClient(api_key=brave_key, session=session, timeout_s=30)
     jina = JinaReaderClient(api_key=jina_key, timeout_s=90)
 
     embedder = JinaEmbedder(api_key=os.environ["JINA_API_KEY"],
                             model=os.getenv("JINA_EMBED_MODEL", "jina-embeddings-v5-text-small"))
-    session = requests.Session()
 
     rag = LocalRAG(qdrant_path=QDRANT_PATH, collection_name="local_dataset", embedder=embedder)
     rag.ensure_index(data_root=DATA_ROOT, chunk_size=2400, overlap=200, batch_size=64)

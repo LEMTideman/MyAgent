@@ -114,11 +114,7 @@ def web_search_and_read(
         time.sleep(deps.per_request_sleep_s)
 
         try:
-            resp = deps.jina.read_url(
-                url,
-                use_readerlm_v2=use_readerlm_v2,
-                bypass_cache=True,
-            )
+            resp = deps.jina.read_url(url, use_readerlm_v2=use_readerlm_v2)
 
             if not isinstance(resp, dict):
                 raise ValueError("Unexpected Jina response type")
@@ -137,31 +133,13 @@ def web_search_and_read(
             content_hash = sha256_text(content)
 
             documents.append(
-                WebDocument(
-                    url=result.url,
-                    title=title,
-                    description=result.description,
-                    text=content,
-                    fetched_at_utc=utc_now_iso(),
-                    sha256=content_hash,
-                    meta={
-                        "jina_status": resp.get("status"),
-                        "jina_code": resp.get("code"),
-                    },
-                )
+                WebDocument(url=result.url, title=title, description=result.description, 
+                            text=content, fetched_at_utc=utc_now_iso(), sha256=content_hash,
+                            meta={"jina_status": resp.get("status"), "jina_code": resp.get("code")})
             )
 
         except Exception as e:
-            errors.append(
-                {
-                    "url": url,
-                    "error": str(e),
-                }
-            )
+            errors.append({"url": url,"error": str(e)})
 
-    return WebSearchAndReadOutput(
-        query=query,
-        search_results=search_results,
-        documents=documents,
-        errors=errors,
-    )
+    return WebSearchAndReadOutput(query=query, search_results=search_results,
+                                  documents=documents, errors=errors)

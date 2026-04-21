@@ -21,7 +21,7 @@ INSTRUCTIONS = (BASE_DIR / "prompts" / "agent_instructions.md").read_text(encodi
 
 # Connection to MCP servers of Ansvar AI compliance tools
 EU_law_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/eu-regulations/mcp")
-#US_law_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/us-regulations/mcp")
+US_law_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/us-regulations/mcp")
 NL_law_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/law-nl/mcp")
 Automotive_total = MCPServerStreamableHTTP("https://mcp.ansvar.eu/automotive/mcp")
 
@@ -33,15 +33,15 @@ EU_ALLOWED = {
     "compare_requirements",
     "get_article",
 }
-#US_ALLOWED = {
-#    "search_regulations", 
-#    "check_applicability", 
-#    "compare_requirements",
-#    "map_controls", 
-#    "get_evidence_requirements", 
-#    "get_compliance_action_items", 
-#    'get_section', 
-#}
+US_ALLOWED = {
+    "search_regulations", 
+    "check_applicability", 
+    "compare_requirements",
+    "map_controls", 
+    "get_evidence_requirements", 
+    "get_compliance_action_items", 
+    "get_section", 
+}
 NL_ALLOWED = {
     "search_legislation",
     "get_provision",
@@ -59,7 +59,7 @@ CAR_ALLOWED = {
 
 # Selection of tools
 EU_regulation_tools = EU_law_total.filtered(lambda ctx, tool_def: tool_def.name in EU_ALLOWED).prefixed("eu")
-#US_regulation_tools = US_law_total.filtered(lambda ctx, tool_def: tool_def.name in US_ALLOWED).prefixed("us")
+US_regulation_tools = US_law_total.filtered(lambda ctx, tool_def: tool_def.name in US_ALLOWED).prefixed("us")
 NL_regulation_tools = NL_law_total.filtered(lambda ctx, tool_def: tool_def.name in NL_ALLOWED).prefixed("nl")
 automotive_regulation_tools = Automotive_total.filtered(lambda ctx, tool_def: tool_def.name in CAR_ALLOWED).prefixed("automotive")
 
@@ -69,7 +69,7 @@ agent = Agent(
     model,
     deps_type=Deps,
     tools=[web_search_and_read, search_local_dataset],  # local Python tools for web-search and retrieval-augmented generation
-    toolsets=[EU_regulation_tools, NL_regulation_tools, automotive_regulation_tools],  # MCP-based toolsets
+    toolsets=[EU_regulation_tools, NL_regulation_tools, US_regulation_tools, automotive_regulation_tools],  # MCP-based toolsets
     instructions=INSTRUCTIONS, 
 )
 
@@ -81,3 +81,4 @@ async def run_agent(user_prompt: str):
             return await agent.run(user_prompt, deps=deps)
     finally:
         deps.rag.client.close()
+        deps.brave.session.close()
