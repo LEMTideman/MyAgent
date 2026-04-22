@@ -1,6 +1,6 @@
 # AI Regulation Research Assistant
 
-A domain-specific research assistant for questions about AI regulation, AI governance, AI compliance developed in the context of the [AI engineering course by Alexey Grigorev](https://maven.com/alexey-grigorev/from-rag-to-agents). 
+A research assistant for questions about AI regulation, AI governance, and AI compliance developed in the context of the [AI engineering course by Alexey Grigorev](https://maven.com/alexey-grigorev/from-rag-to-agents). 
 
 Our agent is designed to help with practical research questions such as:
 - which legal obligations apply to a given AI system,
